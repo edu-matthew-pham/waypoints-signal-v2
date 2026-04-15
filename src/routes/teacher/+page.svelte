@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte'
   import { db } from '$lib/supabase'
+  import GenerateTab from '$lib/components/GenerateTab.svelte'
 
   let authState: 'loading' | 'gate' | 'sent' | 'app' = $state('loading')
   let email = $state('')
@@ -8,11 +9,14 @@
   let authError = $state('')
   let sending = $state(false)
   let userEmail = $state('')
+  let userId = $state('')
+  let activeTab: 'generate' | 'results' = $state('generate')
 
   onMount(async () => {
     const { data: { session } } = await db.auth.getSession()
     if (session) {
       userEmail = session.user.email ?? ''
+      userId = session.user.id
       authState = 'app'
     } else {
       authState = 'gate'
@@ -21,6 +25,7 @@
     db.auth.onAuthStateChange((_event, session) => {
       if (session) {
         userEmail = session.user.email ?? ''
+        userId = session.user.id
         authState = 'app'
       }
     })
@@ -48,6 +53,7 @@
   async function signOut() {
     await db.auth.signOut()
     userEmail = ''
+    userId = ''
     email = ''
     authState = 'gate'
   }
@@ -117,18 +123,47 @@
 <!-- App -->
 {:else if authState === 'app'}
   <div class="max-w-[600px] mx-auto px-4 py-6">
-    <div class="mb-7">
+
+    <!-- Header -->
+    <div class="mb-6">
       <div class="font-mono text-[11px] font-medium tracking-[0.1em] uppercase text-muted mb-1.5">
         Waypoints Signal
       </div>
       <h1 class="text-[22px] font-semibold">Teacher Dashboard</h1>
     </div>
 
-    <!-- Placeholder — tabs go here next -->
-    <div class="bg-surface border border-border rounded-xl p-6 text-center text-[14px] text-muted">
-      Auth working ✓ — generate + results tabs coming next
+    <!-- Tabs -->
+    <div class="flex gap-1 border-b border-border mb-6">
+      <button
+        onclick={() => activeTab = 'generate'}
+        class="px-4 py-2 text-[13px] rounded-t-lg border border-transparent border-b-0 transition-all cursor-pointer
+          {activeTab === 'generate'
+            ? 'bg-bg border-border text-[#1a1917] font-semibold -mb-px'
+            : 'text-muted hover:text-[#1a1917] bg-transparent'}"
+      >
+        Generate session
+      </button>
+      <button
+        onclick={() => activeTab = 'results'}
+        class="px-4 py-2 text-[13px] rounded-t-lg border border-transparent border-b-0 transition-all cursor-pointer
+          {activeTab === 'results'
+            ? 'bg-bg border-border text-[#1a1917] font-semibold -mb-px'
+            : 'text-muted hover:text-[#1a1917] bg-transparent'}"
+      >
+        View results
+      </button>
     </div>
 
+    <!-- Tab content -->
+    {#if activeTab === 'generate'}
+      <GenerateTab {userId} />
+    {:else}
+      <div class="text-center text-[14px] text-muted py-8">
+        Results tab coming next
+      </div>
+    {/if}
+
+    <!-- Footer -->
     <div class="mt-8 pt-5 border-t border-border flex items-center justify-between">
       <span class="text-[12px] text-muted">{userEmail}</span>
       <button
@@ -138,5 +173,6 @@
         Sign out
       </button>
     </div>
+
   </div>
 {/if}

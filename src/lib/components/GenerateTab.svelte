@@ -133,7 +133,7 @@
 
   <!-- Standard select -->
   <div>
-    <label class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
+    <label for="sel-standard" class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
       Standard
     </label>
     <select
@@ -158,7 +158,7 @@
 
   <!-- Node select -->
   <div>
-    <label class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
+    <label for="sel-standard" class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
       Waypoint
     </label>
     <select

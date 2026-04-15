@@ -2,6 +2,7 @@
   import { onMount } from 'svelte'
   import { db } from '$lib/supabase'
   import GenerateTab from '$lib/components/GenerateTab.svelte'
+  import ResultsTab from '$lib/components/ResultsTab.svelte'
 
   let authState: 'loading' | 'gate' | 'sent' | 'app' = $state('loading')
   let email = $state('')
@@ -72,13 +73,11 @@
   <a href="/" class="text-[12px] text-muted no-underline hover:text-[#1a1917]">← Back</a>
 </nav>
 
-<!-- Loading -->
 {#if authState === 'loading'}
   <div class="max-w-[600px] mx-auto px-4 pt-16 text-center text-[14px] text-muted">
     Loading…
   </div>
 
-<!-- Auth gate -->
 {:else if authState === 'gate'}
   <div class="max-w-[400px] mx-auto mt-20 px-6 text-center">
     <h2 class="text-[20px] font-semibold mb-2">Teacher sign in</h2>
@@ -109,7 +108,6 @@
     </p>
   </div>
 
-<!-- Sent -->
 {:else if authState === 'sent'}
   <div class="max-w-[400px] mx-auto mt-20 px-6 text-center">
     <div class="text-[40px] mb-4">✉️</div>
@@ -120,11 +118,9 @@
     </p>
   </div>
 
-<!-- App -->
 {:else if authState === 'app'}
   <div class="max-w-[600px] mx-auto px-4 py-6">
 
-    <!-- Header -->
     <div class="mb-6">
       <div class="font-mono text-[11px] font-medium tracking-[0.1em] uppercase text-muted mb-1.5">
         Waypoints Signal
@@ -154,16 +150,12 @@
       </button>
     </div>
 
-    <!-- Tab content -->
     {#if activeTab === 'generate'}
       <GenerateTab {userId} />
     {:else}
-      <div class="text-center text-[14px] text-muted py-8">
-        Results tab coming next
-      </div>
+      <ResultsTab {userId} />
     {/if}
 
-    <!-- Footer -->
     <div class="mt-8 pt-5 border-t border-border flex items-center justify-between">
       <span class="text-[12px] text-muted">{userEmail}</span>
       <button

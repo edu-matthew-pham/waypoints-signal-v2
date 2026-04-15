@@ -31,6 +31,7 @@
   let results: ResultsData | null = $state(null)
   let resultsError = $state('')
   let showDetail = $state(false)
+  let copiedCode = $state<string | null>(null)
 
   onMount(loadRecentSessions)
 
@@ -55,6 +56,14 @@
   function selectSession(code: string) {
     resCode = code
     fetchResults()
+  }
+
+  async function copyStudentLink(e: MouseEvent, code: string) {
+    e.stopPropagation()
+    e.preventDefault()
+    await navigator.clipboard.writeText(`${window.location.origin}/student/${code}`)
+    copiedCode = code
+    setTimeout(() => { copiedCode = null }, 2000)
   }
 
   async function fetchResults() {
@@ -174,18 +183,31 @@
     {:else}
       <div class="space-y-1.5">
         {#each sessions as s}
-          <button
-            onclick={() => selectSession(s.session_code)}
-            class="w-full flex items-center justify-between bg-surface border border-border rounded-lg px-3.5 py-2.5 cursor-pointer hover:border-interactive transition-colors text-left"
-          >
-            <div>
-              <div class="text-[13px] font-medium text-[#1a1917]">{s.label ?? s.session_code}</div>
-              <div class="font-mono text-[11px] text-muted mt-0.5">
-                {s.created_at ? new Date(s.created_at).toLocaleDateString('en-AU', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : ''}
+          <div class="flex items-center gap-2">
+            <!-- Session row — click to load results -->
+            <div
+              onclick={() => selectSession(s.session_code)}
+              role="button"
+              tabindex="0"
+              onkeydown={(e) => e.key === 'Enter' && selectSession(s.session_code)}
+              class="flex-1 flex items-center justify-between bg-surface border border-border rounded-lg px-3.5 py-2.5 cursor-pointer hover:border-interactive transition-colors"
+            >
+              <div>
+                <div class="text-[13px] font-medium text-[#1a1917]">{s.label ?? s.session_code}</div>
+                <div class="font-mono text-[11px] text-muted mt-0.5">
+                  {s.created_at ? new Date(s.created_at).toLocaleDateString('en-AU', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : ''}
+                </div>
               </div>
+              <div class="font-mono text-[13px] font-semibold text-interactive ml-3 shrink-0">{s.session_code}</div>
             </div>
-            <div class="font-mono text-[13px] font-semibold text-interactive ml-3 shrink-0">{s.session_code}</div>
-          </button>
+            <!-- Copy student link -->
+            <button
+              onclick={(e) => copyStudentLink(e, s.session_code)}
+              class="px-3 py-2 text-[11px] font-medium border border-border rounded-lg bg-surface hover:border-interactive hover:text-interactive text-muted transition-colors shrink-0 cursor-pointer"
+            >
+              {copiedCode === s.session_code ? 'Copied!' : 'Copy link'}
+            </button>
+          </div>
         {/each}
       </div>
     {/if}
@@ -220,7 +242,6 @@
 
   {:else if results}
     <div>
-      <!-- Header -->
       <div class="flex items-center justify-between mb-3">
         <div class="font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted">
           Results — {results.studentCount} student{results.studentCount !== 1 ? 's' : ''}

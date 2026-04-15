@@ -14,7 +14,10 @@
 		"format": "prettier --write .",
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run && npm run test:e2e",
-		"test:e2e": "playwright test"
+		"test:e2e": "playwright test",
+		"gen:db-types": "supabase gen types typescript --project-id asasgfnqvoylkqurknhe > src/lib/types/database.types.ts",
+		"gen:schema-types": "npx json-schema-to-typescript schemas/node_schema_v2.json -o src/lib/types/NodeFile.ts && npx json-schema-to-typescript schemas/width_tiers_schema_v2.json -o src/lib/types/WidthTiers.ts",
+		"gen:types": "npx gen:db-types && npm run gen:schema-types"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^2.0.4",

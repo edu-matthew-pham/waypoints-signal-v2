@@ -8,6 +8,6 @@
   <meta name="theme-color" content="#f5f4f0" />
 </svelte:head>
 
-<div class="min-h-screen bg-[var(--color-bg)] text-[#1a1917] font-sans">
+<div class="min-h-screen bg-bg text-[#1a1917] font-sans">
   {@render children()}
 </div>

@@ -8,7 +8,7 @@
 /**
  * Schema for subject/band width tiers lookup files. Flat by descriptor code. Renderer merges with node map files at runtime via code key. One file per subject/band. Consistent naming with node_schema_v2.json.
  */
-export interface LearningWaypointsWidthTiersFileSchema {
+export interface WidthTiers {
   description: string;
   /**
    * e.g. 'Science', 'Digital Technologies', 'Mathematics'

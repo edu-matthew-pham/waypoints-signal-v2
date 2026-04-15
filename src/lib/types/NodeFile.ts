@@ -8,7 +8,7 @@
 /**
  * Subject-agnostic schema for all standard node map files across Science, Maths, DT, English and future subjects. One file per ACARA/IB/curriculum standard. Replaces earlier subject-specific schemas.
  */
-export interface LearningWaypointsUnifiedNodeFileSchema {
+export interface NodeFile {
   /**
    * Year level string. e.g. '7', '7-8' for banded curricula.
    */

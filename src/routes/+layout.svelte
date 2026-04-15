@@ -1,9 +1,13 @@
 <script lang="ts">
-	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+  import './layout.css'
 
-	let { children } = $props();
+  let { children } = $props()
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
-{@render children()}
+<svelte:head>
+  <meta name="theme-color" content="#f5f4f0" />
+</svelte:head>
+
+<div class="min-h-screen bg-[var(--color-bg)] text-[#1a1917] font-sans">
+  {@render children()}
+</div>

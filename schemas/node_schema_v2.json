@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Learning Waypoints — Unified Node File Schema",
+  "description": "Subject-agnostic schema for all standard node map files across Science, Maths, DT, English and future subjects. One file per ACARA/IB/curriculum standard. Replaces earlier subject-specific schemas.",
+  "version": "2.0",
+  "type": "object",
+  "required": ["year_level", "subject", "curriculum", "standard"],
+  "properties": {
+    "year_level": {
+      "type": "string",
+      "description": "Year level string. e.g. '7', '7-8' for banded curricula."
+    },
+    "subject": {
+      "type": "string",
+      "description": "Subject area. e.g. 'Science', 'Mathematics', 'Digital Technologies', 'English'"
+    },
+    "curriculum": {
+      "type": "string",
+      "description": "Curriculum version. e.g. 'ACARA v9', 'MYP'"
+    },
+    "standard": {
+      "type": "object",
+      "required": ["code", "title", "description", "prior_knowledge", "progression_endpoint", "nodes"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Curriculum descriptor code. e.g. 'AC9S7U01', 'AC9TDI8P05'"
+        },
+        "title": {
+          "type": "string",
+          "description": "Short human-readable title. e.g. 'Classification and Biodiversity'"
+        },
+        "description": {
+          "type": "string",
+          "description": "Verbatim curriculum descriptor text."
+        },
+        "strand": {
+          "type": "string",
+          "description": "Optional. Curriculum strand label. e.g. 'Understanding', 'Processes and Production', 'Human Endeavour', 'Inquiry Skills', 'Number and Algebra'. Free text — not constrained to a fixed enum to allow cross-subject use.",
+          "examples": ["Understanding", "Processes and Production", "Human Endeavour", "Inquiry Skills", "Number and Algebra", "Statistics and Probability"]
+        },
+        "mode": {
+          "type": "string",
+          "enum": ["A", "B"],
+          "description": "Optional. Planning mode. A = concept-certifying (shared conceptual sequence, assessment independent of task). B = capability-certifying (process/inquiry sequence, thinking only legible through the work). Defaults to A for U-strand standards."
+        },
+        "prior_knowledge": {
+          "type": "string",
+          "description": "What students are assumed to know before this unit. Derived from curriculum progression chain."
+        },
+        "progression_endpoint": {
+          "type": "string",
+          "description": "Fixed conceptual endpoint for all students — the shared assessment target. Framed as 'Students...'. Replaces y_goal. Must not be exceeded by any node or width tier."
+        },
+        "nodes": {
+          "type": "array",
+          "description": "Ordered sequence of conceptual waypoints from assumed prior to progression_endpoint. All nodes are mandatory for all students.",
+          "minItems": 3,
+          "items": {
+            "$ref": "#/$defs/node"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "progression_checkpoint",
+        "minimum_width",
+        "typical_width",
+        "wider",
+        "hinge",
+        "hinge_reason",
+        "success_criteria"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "description": "Sequential node number within this standard. Starts at 1."
+        },
+        "label": {
+          "type": "string",
+          "description": "Short display name for the node. e.g. 'Purpose of classification'"
+        },
+        "progression_checkpoint": {
+          "type": "string",
+          "description": "Conceptual position reached at this node — framed as 'Students can...'. This is where students are at this waypoint on the progression toward the endpoint. Replaces y_description."
+        },
+        "minimum_width": {
+          "type": "string",
+          "description": "Minimum construction required before advancing to the next node. Non-negotiable floor — certifies readiness. Set by the command term of the descriptor. Replaces xmin."
+        },
+        "typical_width": {
+          "type": "string",
+          "description": "Full descriptor scope. Standard construction for a typical class at this node. Broader integration than minimum_width but same concept. Replaces width_core."
+        },
+        "wider": {
+          "type": "array",
+          "description": "Enrichment directions — extended phenomena, contexts or transfer tasks. Each item is a discrete enrichment direction. Must add phenomena or context — not depth-on-fewer-phenomena. Example directions only, not exhaustive. Replaces width_enrich_options.",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "hinge": {
+          "type": "boolean",
+          "description": "True if this is a hinge concept — a node where misconceptions cluster, downstream nodes depend on it, and width investment pays off disproportionately."
+        },
+        "hinge_reason": {
+          "type": ["string", "null"],
+          "description": "Required if hinge is true. Explains why this is a hinge — dependency chain, misconception gateway, assessment sensitivity. Null if hinge is false."
+        },
+        "success_criteria": {
+          "type": "array",
+          "description": "2-3 assessable evidence statements anchored to minimum_width threshold. Observable, measurable indicators of what a teacher looks for to confirm the waypoint is met. Width-agnostic — same criteria for all students regardless of width level.",
+          "minItems": 2,
+          "maxItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "related_standards": {
+          "type": "array",
+          "description": "Optional. Related curriculum codes — inquiry skills, human endeavour, cross-strand links. Used for future lesson prompt enrichment and sharing ecosystem filtering. Replaces inquiry_links and endeavour_links.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional. Free-text notes for curriculum designers — flags non-standard decisions, known misconceptions, pedagogical caveats."
+        }
+      }
+    }
+  },
+  "_naming": {
+    "progression_endpoint": "Replaces y_goal — the fixed ACARA/curriculum endpoint for the unit",
+    "progression_checkpoint": "Replaces y_description — the node-level conceptual position",
+    "minimum_width": "Replaces xmin — the non-negotiable floor before advancing",
+    "typical_width": "Replaces width_core — standard construction for typical class",
+    "wider": "Replaces width_enrich_options — enrichment directions, not harder versions of typical",
+    "related_standards": "Replaces inquiry_links + endeavour_links — generalised cross-strand references"
+  },
+  "_migration": {
+    "from_v1": "Existing Science Y7 node files (y7_science_AC9S7U01.json etc.) use v1 field names. Migrate by renaming: y_goal → progression_endpoint, y_description → progression_checkpoint, xmin → minimum_width, width_core → typical_width, width_enrich_options → wider, inquiry_links + endeavour_links → related_standards.",
+    "dt_nodes": "dt_nodes.json uses SOLO taxonomy language (unistructural, multistructural_xmin, relational, extended_abstract). Migrate width fields to minimum_width/typical_width/wider. SOLO labels can be retained as notes if desired but are not required by this schema.",
+    "width_tiers_files": "science_y7_width_tiers.json and dt_width_7_8.json already use minimum_width/typical_width/wider. Add strand field when convenient. These files remain separate from node files — standard-level vs node-level width."
+  },
+  "_notes": {
+    "subject_agnostic": "This schema is designed to work across Science, Maths, DT, English and future subjects. Subject-specific curriculum codes (ACARA, MYP etc.) are stored as free text strings — no enum constraints.",
+    "mode_A_B": "Mode A (concept-certifying) is the default for Understanding strand standards. Mode B (capability-certifying) applies to process/design standards where thinking is only legible through the artefact. Mode selection follows unit intent, not subject label.",
+    "width_principle": "Width is the sole differentiation variable. Friction governs width strategy — not the conceptual destination. All students move through the same nodes toward the same progression_endpoint.",
+    "success_criteria_principle": "Success criteria are Y-axis certifiers — they are width-agnostic. A student at minimum_width and a student at wider both need to satisfy the same criteria to have reached the node. What differs is the richness and range of contexts in which they demonstrate it.",
+    "file_naming": "Follow pattern: {year_level}_{subject}_{code}.json e.g. y7_science_AC9S7U01.json, y7_maths_AC9M7N01.json"
+  }
+}

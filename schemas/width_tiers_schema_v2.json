@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Learning Waypoints — Width Tiers File Schema",
+  "description": "Schema for subject/band width tiers lookup files. Flat by descriptor code. Renderer merges with node map files at runtime via code key. One file per subject/band. Consistent naming with node_schema_v2.json.",
+  "version": "2.0",
+  "type": "object",
+  "required": ["description", "subject", "curriculum", "band", "width_notes", "standards"],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string",
+      "description": "e.g. 'Science', 'Digital Technologies', 'Mathematics'"
+    },
+    "curriculum": {
+      "type": "string",
+      "description": "e.g. 'ACARA v9'"
+    },
+    "band": {
+      "type": "string",
+      "description": "Year band. e.g. '7', '7-8', '9-10'"
+    },
+    "generation_rules": {
+      "type": "object",
+      "description": "Traceability — records which rules were used to generate this file.",
+      "properties": {
+        "prompt_version": {
+          "type": "string",
+          "description": "Version of width_generation_prompt.md used. e.g. 'v1.0'"
+        },
+        "primary_width_axis": {
+          "type": "string",
+          "enum": ["phenomena_contexts", "task_contexts", "depth_fallback", "mixed"],
+          "description": "Primary axis used for width variation in this file."
+        }
+      }
+    },
+    "width_notes": {
+      "type": "object",
+      "required": ["minimum_width", "typical_width", "wider", "elaborations"],
+      "properties": {
+        "minimum_width": {
+          "type": "string",
+          "description": "Definition of the minimum width tier for this file."
+        },
+        "typical_width": {
+          "type": "string",
+          "description": "Definition of the typical width tier for this file."
+        },
+        "wider": {
+          "type": "string",
+          "description": "Definition of the enrichment width tier for this file."
+        },
+        "elaborations": {
+          "type": "string",
+          "description": "Note on how elaborations were used as source data."
+        }
+      }
+    },
+    "standards": {
+      "type": "object",
+      "description": "Flat lookup keyed by curriculum descriptor code.",
+      "additionalProperties": {
+        "$ref": "#/$defs/width_entry"
+      }
+    }
+  },
+  "$defs": {
+    "width_entry": {
+      "type": "object",
+      "required": ["width_axis", "minimum_width", "typical_width", "wider", "elaborations"],
+      "properties": {
+        "strand": {
+          "type": "string",
+          "description": "Optional. Curriculum strand label. e.g. 'Understanding', 'Processes and Production'. Free text — matches node_schema_v2 strand field."
+        },
+        "width_axis": {
+          "type": "string",
+          "enum": ["phenomena_contexts", "task_contexts", "depth_fallback"],
+          "description": "Primary axis driving width variation. phenomena_contexts = number of phenomena or real-world contexts (primary for Understanding strand). task_contexts = range of tasks or application contexts (primary for Processes strand). depth_fallback = used only when breadth is not meaningfully variable."
+        },
+        "minimum_width": {
+          "type": "string",
+          "description": "Minimum construction required to certify this standard. Set by the command term in the descriptor — the non-negotiable floor. For Understanding: minimum phenomena/contexts. For Processes: encounter/recognise level in narrowest context."
+        },
+        "typical_width": {
+          "type": "string",
+          "description": "Full descriptor scope grounded in most common elaboration cases. What a well-taught student in a standard class would reach."
+        },
+        "wider": {
+          "type": "array",
+          "description": "Enrichment directions — extended phenomena, contexts or cases. Must add phenomena or context — not depth-on-fewer-phenomena. Example directions only, not exhaustive or prescriptive.",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        },
+        "elaborations": {
+          "type": "array",
+          "description": "Curriculum elaborations verbatim. Source data for the width tiers.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "width_notes": {
+          "type": "string",
+          "description": "Optional. Flags non-standard decisions — e.g. depth_fallback used because breadth is not variable, or enrichment inferred beyond elaborations."
+        }
+      }
+    }
+  },
+  "_naming": {
+    "minimum_width": "Floor — set by descriptor command term. Consistent with node_schema_v2 minimum_width.",
+    "typical_width": "Standard scope — typical elaboration range. Consistent with node_schema_v2 typical_width.",
+    "wider": "Enrichment directions array. Consistent with node_schema_v2 wider.",
+    "strand": "Replaces standard_type (U/P/H/I) — free text, subject-agnostic. Optional for traceability."
+  },
+  "_migration": {
+    "from_v1": "science_y7_width_tiers.json uses standard_type (U/P/H/I) — replace with strand free text when convenient. dt_width_7_8.json missing strand and width_axis fields — backfill when convenient. Field names minimum_width/typical_width/wider already correct in both files."
+  },
+  "_notes": {
+    "relationship_to_node_files": "Width tiers files operate at standard level. Node files operate at node level. Both use minimum_width/typical_width/wider but at different granularity. Node-level width is the operative planning data. Standard-level width tiers provide teacher-facing context and govern the rules used to generate node-level width.",
+    "width_principle": "Width creates the conditions for depth — it is not depth itself. Enrichment must add phenomena or context, never just harder questions about the same case.",
+    "file_naming": "Follow pattern: {subject}_{band}_width_tiers.json e.g. science_y7_width_tiers.json, dt_y7_8_width_tiers.json, maths_y7_width_tiers.json"
+  }
+}

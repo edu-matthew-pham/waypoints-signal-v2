@@ -1,0 +1,116 @@
+{
+  "year_level": "7",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S7U04",
+    "title": "Forces and Motion",
+    "description": "Investigate and represent balanced and unbalanced forces, including gravitational force, acting on objects, and relate changes in an object's motion to its mass and the magnitude and direction of forces acting on it",
+    "strand": "Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can identify pushes and pulls as forces and know that gravity pulls objects toward Earth. They have not represented forces as vectors, analysed balanced/unbalanced states, or applied F=ma reasoning.",
+    "progression_endpoint": "Students represent and explain how balanced and unbalanced forces, including gravity, relate to changes in an object's motion in terms of mass, magnitude and direction.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Forces as vectors: magnitude and direction",
+        "progression_checkpoint": "Students can represent forces on an object as vectors showing correct magnitude and direction and name the forces",
+        "minimum_width": "Represent at least two forces on an object using arrows with correct relative size and direction; name the forces",
+        "typical_width": "Draw force diagrams for 4 different scenarios (stationary, accelerating, decelerating, falling); justify arrow choices",
+        "wider": [
+          "Measure the magnitude of forces using a force meter; represent magnitude and direction using force arrow diagrams",
+          "Analyse a real photograph of an object in motion — identify all forces acting and represent them in a diagram",
+          "Investigate forces acting on boomerangs and how First Peoples of Australia designed an aerofoil profile — represent forces involved"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "related_standards": ["AC9S7I03", "AC9S7I04", "AC9S7H02"],
+        "success_criteria": [
+          "Represents at least 2 forces on an object with correct arrow direction and relative size",
+          "Names each force represented",
+          "Diagram is consistent with the described scenario"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Balanced forces and equilibrium",
+        "progression_checkpoint": "Students can identify whether forces on an object are balanced or unbalanced and predict the resulting motion state",
+        "minimum_width": "Define balanced forces; correctly identify whether forces are balanced in a given diagram; state that balanced forces mean no change in motion",
+        "typical_width": "Analyse 6 scenarios — classify each as balanced or unbalanced; predict the motion state for each with reasoning",
+        "wider": [
+          "Analyse the effect of balanced and unbalanced forces on an object's motion including starting, stopping and changing direction",
+          "Investigate a real engineering structure (e.g. bridge, building) — identify how balanced forces are maintained",
+          "Investigate how simple machines such as levers and pulleys change the magnitude of force needed — represent forces involved"
+        ],
+        "hinge": true,
+        "hinge_reason": "The misconception that balanced forces mean no forces (rather than equal and opposite) is extremely common and directly undermines Newton's First Law. This error propagates into every subsequent node.",
+        "related_standards": ["AC9S7I01", "AC9S7I05", "AC9S7I06", "AC9S7H03"],
+        "success_criteria": [
+          "Correctly identifies balanced vs unbalanced forces in a given diagram",
+          "States that balanced forces mean no change in motion",
+          "Predicts the motion state from a force diagram"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Unbalanced forces and changes in motion",
+        "progression_checkpoint": "Students can explain that unbalanced forces cause a change in motion and represent this with force diagrams",
+        "minimum_width": "Explain that unbalanced forces cause a change in motion (speed or direction); give two examples with force diagrams",
+        "typical_width": "Analyse motion scenarios — identify the unbalanced force, predict the change in motion, draw the force diagram",
+        "wider": [
+          "Investigate the effects of applying different forces to familiar objects of the same and different mass",
+          "Design a fair test to investigate how the magnitude of an unbalanced force affects the rate of motion change",
+          "Investigate forces through application of traditional tools such as spearthrowers used by First Peoples of Australia — analyse the forces involved"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "related_standards": ["AC9S7I01", "AC9S7I02", "AC9S7I03", "AC9S7H02"],
+        "success_criteria": [
+          "States that unbalanced forces cause a change in motion",
+          "Gives 2 examples with correct force diagrams",
+          "Identifies both speed and direction as possible changes"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Gravitational force and mass",
+        "progression_checkpoint": "Students can distinguish mass from weight, explain gravitational force as dependent on mass, and calculate weight from mass",
+        "minimum_width": "Distinguish mass from weight; explain gravitational force as dependent on mass; calculate weight given mass and gravitational field strength",
+        "typical_width": "Compare gravitational force on the same object on Earth, the Moon, and Mars — explain differences using gravitational field strength",
+        "wider": [
+          "Investigate how Earth's gravitational force pulls objects to the centre of Earth and how its magnitude relates to mass",
+          "Examine how gravity affects objects in space including moons, planets, stars and galaxies",
+          "Evaluate a common misconception (e.g. 'objects fall at different rates based on mass') using experimental evidence; construct a refutation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Mass/weight confusion is the most persistent misconception in this standard and is directly assessed. Students who conflate the two make systematic errors in force calculations and cannot correctly explain gravitational scenarios.",
+        "related_standards": ["AC9S7I03", "AC9S7I06", "AC9S7I07", "AC9S7H01"],
+        "success_criteria": [
+          "Correctly distinguishes mass from weight with definitions",
+          "Calculates weight correctly given mass and g",
+          "Explains gravitational force as dependent on mass"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Relating force, mass and motion change",
+        "progression_checkpoint": "Students can describe the qualitative relationship between force, mass and acceleration and interpret data from force investigations",
+        "minimum_width": "State the relationship between force, mass and acceleration qualitatively; predict whether a heavier or lighter object will accelerate more under the same force",
+        "typical_width": "Analyse data from a force investigation — identify the pattern between force, mass and acceleration; represent graphically",
+        "wider": [
+          "Evaluate a real-world application (e.g. vehicle safety, rocket launch) — explain how engineers manipulate force and mass",
+          "Investigate how simple machines change force magnitude for a task; analyse the trade-offs involved",
+          "Analyse the forces acting on a boomerang in flight — explain how design variables affect the motion outcome"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "related_standards": ["AC9S7I04", "AC9S7I05", "AC9S7I07", "AC9S7H03"],
+        "success_criteria": [
+          "States the qualitative relationship between force, mass and acceleration",
+          "Correctly predicts which object accelerates more under the same force",
+          "Identifies the pattern in data from a force investigation"
+        ]
+      }
+    ]
+  }
+}

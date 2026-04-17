@@ -12,7 +12,6 @@
   <a href="https://learningwaypoints.com" class="underline decoration-border underline-offset-[3px] transition-colors hover:text-[#1a1917] hover:decoration-muted">
     Learning Waypoints
   </a>
-  <span class="opacity-50">/</span>
   <a href="/" class="font-mono text-[13px] font-medium tracking-[0.04em] text-[#1a1917] no-underline">
     Waypoints Signal
   </a>

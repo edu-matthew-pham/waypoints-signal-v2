@@ -8,12 +8,13 @@
 </svelte:head>
 
 <!-- Nav -->
-<nav class="px-8 py-5 flex items-center justify-between border-b border-border">
+<nav class="px-8 py-5 flex items-center gap-2 border-b border-border text-[12px] text-muted">
+  <a href="https://learningwaypoints.com" class="underline decoration-border underline-offset-[3px] transition-colors hover:text-[#1a1917] hover:decoration-muted">
+    Learning Waypoints
+  </a>
+  <span class="opacity-50">/</span>
   <a href="/" class="font-mono text-[13px] font-medium tracking-[0.04em] text-[#1a1917] no-underline">
     Waypoints Signal
-  </a>
-  <a href="https://learningwaypoints.com" class="text-[12px] text-muted no-underline hover:text-[#1a1917]">
-    ← Learning Waypoints
   </a>
 </nav>
 

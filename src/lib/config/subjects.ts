@@ -2,6 +2,7 @@ export interface SubjectConfig {
   id: string;
   label: string;
   nodeFiles: string[];
+  authoredYears: string[];
 }
 
 export const SUBJECTS: SubjectConfig[] = [
@@ -65,6 +66,7 @@ export const SUBJECTS: SubjectConfig[] = [
       'science/y10_science_AC9S10U04.json', 'science/y10_science_AC9S10U05.json',
       'science/y10_science_AC9S10U06.json', 'science/y10_science_AC9S10U07.json',
     ],
+    authoredYears: ['F', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
   },
   {
     id: 'maths',
@@ -177,6 +179,7 @@ export const SUBJECTS: SubjectConfig[] = [
       'maths/y10_maths_AC9M10ST01.json', 'maths/y10_maths_AC9M10ST02.json', 'maths/y10_maths_AC9M10ST03.json',
       'maths/y10_maths_AC9M10ST04.json', 'maths/y10_maths_AC9M10ST05.json',
     ],
+    authoredYears: ['F', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
   },
   {
     id: 'english',
@@ -250,10 +253,11 @@ export const SUBJECTS: SubjectConfig[] = [
       'english/y10_english_AC9E10LA07.json', 'english/y10_english_AC9E10LA08.json', 'english/y10_english_AC9E10LA09.json',
       'english/y10_english_AC9E10LY01.json', 'english/y10_english_AC9E10LY08.json',
     ],
+    authoredYears: ['F', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
   },
   {
     id: 'hass',
-    label: 'HASS',
+    label: 'HASS (F–6)',
     nodeFiles: [
       // YF
       'hass/yf_hass_AC9HSFK01.json', 'hass/yf_hass_AC9HSFK02.json',
@@ -280,40 +284,42 @@ export const SUBJECTS: SubjectConfig[] = [
       'hass/y6_hass_AC9HS6K01.json', 'hass/y6_hass_AC9HS6K02.json', 'hass/y6_hass_AC9HS6K03.json',
       'hass/y6_hass_AC9HS6K04.json', 'hass/y6_hass_AC9HS6K05.json', 'hass/y6_hass_AC9HS6K06.json',
       'hass/y6_hass_AC9HS6K07.json', 'hass/y6_hass_AC9HS6K08.json',
-      // Y7 History
+    ],
+    authoredYears: ['F', '1', '2', '3', '4', '5', '6'],
+  },
+  {
+    id: 'history',
+    label: 'History',
+    nodeFiles: [
+      // YF
+      'hass/yf_hass_AC9HSFK01.json', 'hass/yf_hass_AC9HSFK02.json',
+      // Y1
+      'hass/y1_hass_AC9HS1K01.json', 'hass/y1_hass_AC9HS1K02.json',
+      // Y2
+      'hass/y2_hass_AC9HS2K01.json', 'hass/y2_hass_AC9HS2K02.json',
+      // Y3
+      'hass/y3_hass_AC9HS3K01.json', 'hass/y3_hass_AC9HS3K02.json',
+      // Y4
+      'hass/y4_hass_AC9HS4K01.json', 'hass/y4_hass_AC9HS4K02.json',
+      'hass/y4_hass_AC9HS4K03.json', 'hass/y4_hass_AC9HS4K04.json',
+      // Y5
+      'hass/y5_hass_AC9HS5K01.json', 'hass/y5_hass_AC9HS5K02.json', 'hass/y5_hass_AC9HS5K03.json',
+      // Y6
+      'hass/y6_hass_AC9HS6K01.json', 'hass/y6_hass_AC9HS6K02.json', 'hass/y6_hass_AC9HS6K03.json',
+      // Y7
       'history/y7_history_AC9HH7K01.json', 'history/y7_history_AC9HH7K02.json', 'history/y7_history_AC9HH7K03.json',
       'history/y7_history_AC9HH7K04.json', 'history/y7_history_AC9HH7K05.json', 'history/y7_history_AC9HH7K06.json',
       'history/y7_history_AC9HH7K07.json', 'history/y7_history_AC9HH7K08.json', 'history/y7_history_AC9HH7K09.json',
       'history/y7_history_AC9HH7K10.json', 'history/y7_history_AC9HH7K11.json', 'history/y7_history_AC9HH7K12.json',
       'history/y7_history_AC9HH7K13.json',
-      // Y7 Geography
-      'geography/y7_geography_AC9HG7K01.json', 'geography/y7_geography_AC9HG7K02.json', 'geography/y7_geography_AC9HG7K03.json',
-      'geography/y7_geography_AC9HG7K04.json', 'geography/y7_geography_AC9HG7K05.json', 'geography/y7_geography_AC9HG7K06.json',
-      'geography/y7_geography_AC9HG7K07.json', 'geography/y7_geography_AC9HG7K08.json',
-      // Y7 Civics
-      'civics/y7_civics_AC9HC7K01.json', 'civics/y7_civics_AC9HC7K02.json', 'civics/y7_civics_AC9HC7K03.json',
-      'civics/y7_civics_AC9HC7K04.json', 'civics/y7_civics_AC9HC7K05.json',
-      // Y7 Economics
-      'economics/y7_economics_AC9HE7K01.json', 'economics/y7_economics_AC9HE7K02.json', 'economics/y7_economics_AC9HE7K03.json',
-      'economics/y7_economics_AC9HE7K04.json', 'economics/y7_economics_AC9HE7K05.json',
-      // Y8 History
+      // Y8
       'history/y8_history_AC9HH8K01.json', 'history/y8_history_AC9HH8K02.json', 'history/y8_history_AC9HH8K03.json',
       'history/y8_history_AC9HH8K04.json', 'history/y8_history_AC9HH8K05.json', 'history/y8_history_AC9HH8K06.json',
       'history/y8_history_AC9HH8K07.json', 'history/y8_history_AC9HH8K08.json', 'history/y8_history_AC9HH8K09.json',
       'history/y8_history_AC9HH8K10.json', 'history/y8_history_AC9HH8K11.json', 'history/y8_history_AC9HH8K12.json',
       'history/y8_history_AC9HH8K13.json', 'history/y8_history_AC9HH8K14.json', 'history/y8_history_AC9HH8K15.json',
       'history/y8_history_AC9HH8K16.json',
-      // Y8 Geography
-      'geography/y8_geography_AC9HG8K01.json', 'geography/y8_geography_AC9HG8K02.json', 'geography/y8_geography_AC9HG8K03.json',
-      'geography/y8_geography_AC9HG8K04.json', 'geography/y8_geography_AC9HG8K05.json', 'geography/y8_geography_AC9HG8K06.json',
-      'geography/y8_geography_AC9HG8K07.json', 'geography/y8_geography_AC9HG8K08.json', 'geography/y8_geography_AC9HG8K09.json',
-      // Y8 Civics
-      'civics/y8_civics_AC9HC8K01.json', 'civics/y8_civics_AC9HC8K02.json', 'civics/y8_civics_AC9HC8K03.json',
-      'civics/y8_civics_AC9HC8K04.json', 'civics/y8_civics_AC9HC8K05.json', 'civics/y8_civics_AC9HC8K06.json',
-      // Y8 Economics
-      'economics/y8_economics_AC9HE8K01.json', 'economics/y8_economics_AC9HE8K02.json', 'economics/y8_economics_AC9HE8K03.json',
-      'economics/y8_economics_AC9HE8K04.json', 'economics/y8_economics_AC9HE8K05.json',
-      // Y9 History
+      // Y9
       'history/y9_history_AC9HH9K01.json', 'history/y9_history_AC9HH9K02.json', 'history/y9_history_AC9HH9K03.json',
       'history/y9_history_AC9HH9K04.json', 'history/y9_history_AC9HH9K05.json', 'history/y9_history_AC9HH9K06.json',
       'history/y9_history_AC9HH9K07.json', 'history/y9_history_AC9HH9K08.json', 'history/y9_history_AC9HH9K09.json',
@@ -322,17 +328,7 @@ export const SUBJECTS: SubjectConfig[] = [
       'history/y9_history_AC9HH9K16.json', 'history/y9_history_AC9HH9K17.json', 'history/y9_history_AC9HH9K18.json',
       'history/y9_history_AC9HH9K19.json', 'history/y9_history_AC9HH9K20.json', 'history/y9_history_AC9HH9K21.json',
       'history/y9_history_AC9HH9K22.json', 'history/y9_history_AC9HH9K23.json', 'history/y9_history_AC9HH9K24.json',
-      // Y9 Geography
-      'geography/y9_geography_AC9HG9K01.json', 'geography/y9_geography_AC9HG9K02.json', 'geography/y9_geography_AC9HG9K03.json',
-      'geography/y9_geography_AC9HG9K04.json', 'geography/y9_geography_AC9HG9K05.json', 'geography/y9_geography_AC9HG9K06.json',
-      'geography/y9_geography_AC9HG9K07.json', 'geography/y9_geography_AC9HG9K08.json',
-      // Y9 Civics
-      'civics/y9_civics_AC9HC9K01.json', 'civics/y9_civics_AC9HC9K02.json', 'civics/y9_civics_AC9HC9K03.json',
-      'civics/y9_civics_AC9HC9K04.json', 'civics/y9_civics_AC9HC9K05.json', 'civics/y9_civics_AC9HC9K06.json',
-      // Y9 Economics
-      'economics/y9_economics_AC9HE9K01.json', 'economics/y9_economics_AC9HE9K02.json', 'economics/y9_economics_AC9HE9K03.json',
-      'economics/y9_economics_AC9HE9K04.json', 'economics/y9_economics_AC9HE9K05.json',
-      // Y10 History
+      // Y10
       'history/y10_history_AC9HH10K01.json', 'history/y10_history_AC9HH10K02.json', 'history/y10_history_AC9HH10K03.json',
       'history/y10_history_AC9HH10K04.json', 'history/y10_history_AC9HH10K05.json', 'history/y10_history_AC9HH10K06.json',
       'history/y10_history_AC9HH10K07.json', 'history/y10_history_AC9HH10K08.json', 'history/y10_history_AC9HH10K09.json',
@@ -340,23 +336,100 @@ export const SUBJECTS: SubjectConfig[] = [
       'history/y10_history_AC9HH10K13.json', 'history/y10_history_AC9HH10K14.json', 'history/y10_history_AC9HH10K15.json',
       'history/y10_history_AC9HH10K16.json', 'history/y10_history_AC9HH10K17.json', 'history/y10_history_AC9HH10K18.json',
       'history/y10_history_AC9HH10K19.json', 'history/y10_history_AC9HH10K20.json',
-      // Y10 Geography
+    ],
+    authoredYears: ['F', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+  },
+  {
+    id: 'geography',
+    label: 'Geography',
+    nodeFiles: [
+      // YF
+      'hass/yf_hass_AC9HSFK03.json', 'hass/yf_hass_AC9HSFK04.json',
+      // Y1
+      'hass/y1_hass_AC9HS1K03.json', 'hass/y1_hass_AC9HS1K04.json',
+      // Y2
+      'hass/y2_hass_AC9HS2K03.json', 'hass/y2_hass_AC9HS2K04.json',
+      // Y3
+      'hass/y3_hass_AC9HS3K03.json', 'hass/y3_hass_AC9HS3K04.json', 'hass/y3_hass_AC9HS3K05.json',
+      // Y4
+      'hass/y4_hass_AC9HS4K05.json', 'hass/y4_hass_AC9HS4K06.json',
+      // Y5
+      'hass/y5_hass_AC9HS5K04.json', 'hass/y5_hass_AC9HS5K05.json',
+      // Y6
+      'hass/y6_hass_AC9HS6K04.json', 'hass/y6_hass_AC9HS6K05.json',
+      // Y7
+      'geography/y7_geography_AC9HG7K01.json', 'geography/y7_geography_AC9HG7K02.json', 'geography/y7_geography_AC9HG7K03.json',
+      'geography/y7_geography_AC9HG7K04.json', 'geography/y7_geography_AC9HG7K05.json', 'geography/y7_geography_AC9HG7K06.json',
+      'geography/y7_geography_AC9HG7K07.json', 'geography/y7_geography_AC9HG7K08.json',
+      // Y8
+      'geography/y8_geography_AC9HG8K01.json', 'geography/y8_geography_AC9HG8K02.json', 'geography/y8_geography_AC9HG8K03.json',
+      'geography/y8_geography_AC9HG8K04.json', 'geography/y8_geography_AC9HG8K05.json', 'geography/y8_geography_AC9HG8K06.json',
+      'geography/y8_geography_AC9HG8K07.json', 'geography/y8_geography_AC9HG8K08.json', 'geography/y8_geography_AC9HG8K09.json',
+      // Y9
+      'geography/y9_geography_AC9HG9K01.json', 'geography/y9_geography_AC9HG9K02.json', 'geography/y9_geography_AC9HG9K03.json',
+      'geography/y9_geography_AC9HG9K04.json', 'geography/y9_geography_AC9HG9K05.json', 'geography/y9_geography_AC9HG9K06.json',
+      'geography/y9_geography_AC9HG9K07.json', 'geography/y9_geography_AC9HG9K08.json',
+      // Y10
       'geography/y10_geography_AC9HG10K01.json', 'geography/y10_geography_AC9HG10K02.json', 'geography/y10_geography_AC9HG10K03.json',
       'geography/y10_geography_AC9HG10K04.json', 'geography/y10_geography_AC9HG10K05.json', 'geography/y10_geography_AC9HG10K06.json',
       'geography/y10_geography_AC9HG10K07.json', 'geography/y10_geography_AC9HG10K08.json',
-      // Y10 Civics
+    ],
+    authoredYears: ['F', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+  },
+  {
+    id: 'civics',
+    label: 'Civics',
+    nodeFiles: [
+      // Y3
+      'hass/y3_hass_AC9HS3K06.json', 'hass/y3_hass_AC9HS3K07.json',
+      // Y4
+      'hass/y4_hass_AC9HS4K07.json', 'hass/y4_hass_AC9HS4K08.json', 'hass/y4_hass_AC9HS4K09.json',
+      // Y5
+      'hass/y5_hass_AC9HS5K06.json', 'hass/y5_hass_AC9HS5K07.json',
+      // Y6
+      'hass/y6_hass_AC9HS6K06.json', 'hass/y6_hass_AC9HS6K07.json',
+      // Y7
+      'civics/y7_civics_AC9HC7K01.json', 'civics/y7_civics_AC9HC7K02.json', 'civics/y7_civics_AC9HC7K03.json',
+      'civics/y7_civics_AC9HC7K04.json', 'civics/y7_civics_AC9HC7K05.json',
+      // Y8
+      'civics/y8_civics_AC9HC8K01.json', 'civics/y8_civics_AC9HC8K02.json', 'civics/y8_civics_AC9HC8K03.json',
+      'civics/y8_civics_AC9HC8K04.json', 'civics/y8_civics_AC9HC8K05.json', 'civics/y8_civics_AC9HC8K06.json',
+      // Y9
+      'civics/y9_civics_AC9HC9K01.json', 'civics/y9_civics_AC9HC9K02.json', 'civics/y9_civics_AC9HC9K03.json',
+      'civics/y9_civics_AC9HC9K04.json', 'civics/y9_civics_AC9HC9K05.json', 'civics/y9_civics_AC9HC9K06.json',
+      // Y10
       'civics/y10_civics_AC9HC10K01.json', 'civics/y10_civics_AC9HC10K02.json', 'civics/y10_civics_AC9HC10K03.json',
       'civics/y10_civics_AC9HC10K04.json', 'civics/y10_civics_AC9HC10K05.json',
-      // Y10 Economics
+    ],
+    authoredYears: ['3', '4', '5', '6', '7', '8', '9', '10'],
+  },
+  {
+    id: 'economics',
+    label: 'Economics',
+    nodeFiles: [
+      // Y5
+      'hass/y5_hass_AC9HS5K08.json',
+      // Y6
+      'hass/y6_hass_AC9HS6K08.json',
+      // Y7
+      'economics/y7_economics_AC9HE7K01.json', 'economics/y7_economics_AC9HE7K02.json', 'economics/y7_economics_AC9HE7K03.json',
+      'economics/y7_economics_AC9HE7K04.json', 'economics/y7_economics_AC9HE7K05.json',
+      // Y8
+      'economics/y8_economics_AC9HE8K01.json', 'economics/y8_economics_AC9HE8K02.json', 'economics/y8_economics_AC9HE8K03.json',
+      'economics/y8_economics_AC9HE8K04.json', 'economics/y8_economics_AC9HE8K05.json',
+      // Y9
+      'economics/y9_economics_AC9HE9K01.json', 'economics/y9_economics_AC9HE9K02.json', 'economics/y9_economics_AC9HE9K03.json',
+      'economics/y9_economics_AC9HE9K04.json', 'economics/y9_economics_AC9HE9K05.json',
+      // Y10
       'economics/y10_economics_AC9HE10K01.json', 'economics/y10_economics_AC9HE10K02.json', 'economics/y10_economics_AC9HE10K03.json',
       'economics/y10_economics_AC9HE10K04.json', 'economics/y10_economics_AC9HE10K05.json',
     ],
+    authoredYears: ['5', '6', '7', '8', '9', '10'],
   },
   {
-    id: 'technologies',
-    label: 'Technologies',
+    id: 'design_technologies',
+    label: 'Design Technologies',
     nodeFiles: [
-      // Design Technologies
       'technologies/yf_design_AC9TDEFK01.json',
       'technologies/y12_design_AC9TDE2K01.json', 'technologies/y12_design_AC9TDE2K02.json',
       'technologies/y12_design_AC9TDE2K03.json', 'technologies/y12_design_AC9TDE2K04.json',
@@ -371,7 +444,13 @@ export const SUBJECTS: SubjectConfig[] = [
       'technologies/y910_design_AC9TDE10K01.json', 'technologies/y910_design_AC9TDE10K02.json',
       'technologies/y910_design_AC9TDE10K03.json', 'technologies/y910_design_AC9TDE10K04.json',
       'technologies/y910_design_AC9TDE10K05.json', 'technologies/y910_design_AC9TDE10K06.json',
-      // Digital Technologies
+    ],
+    authoredYears: ['F', '1-2', '3-4', '5-6', '7-8', '9-10'],
+  },
+  {
+    id: 'digital_technologies',
+    label: 'Digital Technologies',
+    nodeFiles: [
       'technologies/yf_dt_AC9TDIFK01.json', 'technologies/yf_dt_AC9TDIFK02.json',
       'technologies/y12_dt_AC9TDI2K01.json', 'technologies/y12_dt_AC9TDI2K02.json',
       'technologies/y34_dt_AC9TDI4K01.json', 'technologies/y34_dt_AC9TDI4K02.json', 'technologies/y34_dt_AC9TDI4K03.json',
@@ -382,6 +461,7 @@ export const SUBJECTS: SubjectConfig[] = [
       'technologies/y910_dt_AC9TDI10K01.json', 'technologies/y910_dt_AC9TDI10K02.json',
       'technologies/y910_dt_AC9TDI10K03.json',
     ],
+    authoredYears: ['F', '1-2', '3-4', '5-6', '7-8', '9-10'],
   },
 ];
 
@@ -399,6 +479,17 @@ export function codeFromNodeFile(path: string): string {
 /** Find the node file path for a given curriculum code within a subject config */
 export function nodeFileForCode(subject: SubjectConfig, code: string): string | undefined {
   return subject.nodeFiles.find((f) => codeFromNodeFile(f) === code.toUpperCase());
+}
+
+/** Return node files for a given year string (e.g. '7', 'F', '7-8') */
+export function nodeFilesForYear(subject: SubjectConfig, year: string): string[] {
+  const prefix = year === 'F' ? 'yf_' : year.includes('-')
+    ? `y${year.replace('-', '')}_`
+    : `y${year}_`
+  return subject.nodeFiles.filter((f) => {
+    const filename = f.split('/').pop() ?? ''
+    return filename.startsWith(prefix)
+  })
 }
 
 /** Derive a { code, title } list from node files — title fetched lazily at runtime */

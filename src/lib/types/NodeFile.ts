@@ -110,5 +110,21 @@ export interface Node {
    * Optional. Free-text notes for curriculum designers — flags non-standard decisions, known misconceptions, pedagogical caveats.
    */
   notes?: string;
+  /**
+   * True if this node presents a meaningful width opportunity — enrichment directions that add genuine breadth.
+   */
+  width_opportunity?: boolean;
+  /**
+   * Optional. Explanation of why this node is a width opportunity.
+   */
+  width_opportunity_reason?: string | null;
+  /**
+   * Optional. Ordered response modes for this node — pedagogical remedies for hinge or width signals.
+   */
+  response_modes?: {
+    mode: 'context_breadth' | 'consolidation' | 'repertoire_building' | 'structured_reasoning' | 'integration';
+    reason: string;
+    flags?: string[];
+  }[];
   [k: string]: unknown;
 }

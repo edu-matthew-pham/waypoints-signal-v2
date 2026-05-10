@@ -1,10 +1,9 @@
 <script lang="ts">
   import { db } from '$lib/supabase'
-  import { loadNodeFile, groupCriteria } from '$lib/data'
+  import { loadNodeFile, loadProgressionMap, getStandardsForYear, groupCriteria, type AvailableStandard } from '$lib/data'
   import { generateSessionCode } from '$lib/session'
-  import { SUBJECTS, codeFromNodeFile, nodeFilesForYear } from '$lib/config/subjects'
+  import { SUBJECTS, type SubjectConfig } from '$lib/config/subjects'
 
-  // Props
   let { userId }: { userId: string } = $props()
 
   // Step 1 — Subject
@@ -13,14 +12,17 @@
 
   // Step 2 — Year
   let selectedYear = $state('')
-  const yearNodeFiles = $derived(
-    selectedSubject && selectedYear
-      ? nodeFilesForYear(selectedSubject, selectedYear)
-      : []
-  )
 
-  // Step 3 — Standard (titles loaded when year selected)
-  let standards: { code: string; title: string }[] = $state([])
+  // Step 3 — Topic (History/Geography Y7-10 only)
+  let selectedTopicKey = $state('')
+  const availableTopics = $derived.by(() => {
+    if (!selectedSubject?.topics || !selectedYear) return []
+    return selectedSubject.topics[selectedYear] ?? []
+  })
+  const needsTopic = $derived(availableTopics.length > 0)
+
+  // Step 3 — Standard (from progression map)
+  let standards: AvailableStandard[] = $state([])
   let loadingStandards = $state(false)
   let standardsError = $state('')
   let selectedCode = $state('')
@@ -40,15 +42,14 @@
   let copiedCode = $state(false)
 
   const studentBaseUrl = $derived(
-    typeof window !== 'undefined'
-      ? `${window.location.origin}/student/`
-      : '/student/'
+    typeof window !== 'undefined' ? `${window.location.origin}/student/` : '/student/'
   )
 
   // Reset year + downstream when subject changes
   $effect(() => {
-    selectedSubject // track
+    selectedSubject
     selectedYear = ''
+    selectedTopicKey = ''
     selectedCode = ''
     selectedNodeId = ''
     standards = []
@@ -60,9 +61,10 @@
     standardsError = ''
   })
 
-  // Load titles when year changes
   $effect(() => {
-    const files = yearNodeFiles
+    const s = selectedSubject
+    const y = selectedYear
+    selectedTopicKey = ''
     selectedCode = ''
     selectedNodeId = ''
     standards = []
@@ -73,24 +75,77 @@
     genError = ''
     standardsError = ''
 
-    if (!files.length) return
+    if (!s || !y) return
+    // If this subject/year needs a topic, wait for topic selection
+    if (s.topics?.[y]?.length) return
 
     loadingStandards = true
-    Promise.all(
-      files.map(async (path) => {
-        const code = codeFromNodeFile(path)
-        const res = await fetch(`/data/${path}`)
-        if (!res.ok) return { code, title: code }
-        const nf = await res.json()
-        return { code, title: nf.standard?.title ?? code }
-      })
-    )
-      .then((results) => { standards = results })
+    loadProgressionMap(s)
+      .then((map) => { standards = getStandardsForYear(map, s, y) })
       .catch(() => { standardsError = 'Could not load standards.' })
       .finally(() => { loadingStandards = false })
   })
 
-  // Load waypoints when standard selected
+  // Load standards when topic selected
+  $effect(() => {
+    const s = selectedSubject
+    const y = selectedYear
+    const t = selectedTopicKey
+    selectedCode = ''
+    selectedNodeId = ''
+    standards = []
+    progressionEndpoint = ''
+    nodes = []
+    criteriaPreview = []
+    generatedCode = ''
+    genError = ''
+    standardsError = ''
+
+    if (!s || !y || !t) return
+
+    loadingStandards = true
+    loadProgressionMap(s)
+      .then((map) => { standards = getStandardsForYear(map, s, y, t) })
+      .catch(() => { standardsError = 'Could not load standards.' })
+      .finally(() => { loadingStandards = false })
+  })
+
+  // Group standards by strand
+  const standardsByStrand = $derived.by(() => {
+    const groups = new Map<string, AvailableStandard[]>()
+    for (const std of standards) {
+      const key = std.strand ?? 'other'
+      if (!groups.has(key)) groups.set(key, [])
+      groups.get(key)!.push(std)
+    }
+    return groups
+  })
+
+  const strandLabel = (key: string) => ({
+    biological: 'Biological Sciences',
+    earth_space: 'Earth and Space Sciences',
+    chemical: 'Chemical Sciences',
+    physical: 'Physical Sciences',
+    number: 'Number',
+    algebra: 'Algebra',
+    measurement: 'Measurement',
+    space: 'Space',
+    statistics: 'Statistics',
+    probability: 'Probability',
+    language: 'Language',
+    literature: 'Literature',
+    literacy: 'Literacy',
+    history: 'History',
+    geography: 'Geography',
+    civics: 'Civics & Citizenship',
+    economics: 'Economics & Business',
+    design: 'Design Technologies',
+    digital: 'Digital Technologies',
+    understanding: 'Understanding',
+    inquiry: 'Science Inquiry Skills',
+    other: 'Other',
+  }[key] ?? key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()))
+
   async function selectStandard(code: string) {
     selectedCode = code
     selectedNodeId = ''
@@ -106,11 +161,7 @@
     try {
       const nodeFile = await loadNodeFile(selectedSubject, code)
       progressionEndpoint = nodeFile.standard.progression_endpoint
-      nodes = nodeFile.standard.nodes.map(n => ({
-        id: n.id,
-        label: n.label,
-        hinge: n.hinge,
-      }))
+      nodes = nodeFile.standard.nodes.map(n => ({ id: n.id, label: n.label, hinge: n.hinge }))
     } catch (e) {
       genError = 'Could not load standard data.'
       console.error(e)
@@ -119,7 +170,6 @@
     }
   }
 
-  // Load criteria preview when waypoint selected
   async function selectNode(nodeId: string) {
     selectedNodeId = nodeId
     criteriaPreview = []
@@ -164,7 +214,6 @@
 
       if (error) throw error
       generatedCode = code
-
     } catch (e) {
       genError = 'Could not generate session — try again.'
       console.error(e)
@@ -230,36 +279,67 @@
     </div>
   {/if}
 
-  <!-- Step 3 — Standard -->
-  {#if selectedYear}
+  <!-- Step 3 — Topic (History/Geography Y7-10 only) -->
+  {#if selectedYear && needsTopic}
+    <div>
+      <span class="block text-sm font-medium mb-2">Topic</span>
+      <div class="flex flex-wrap gap-2">
+        {#each availableTopics as topic}
+          {@const selected = selectedTopicKey === topic.key}
+          <button
+            onclick={() => { selectedTopicKey = topic.key }}
+            class="rounded-lg border px-3 py-1.5 text-sm transition-colors {selected
+              ? 'border-interactive bg-interactive/5 font-medium text-interactive'
+              : 'border-border bg-surface text-muted hover:border-muted'}"
+          >
+            {topic.label}
+          </button>
+        {/each}
+      </div>
+    </div>
+  {/if}
+
+  <!-- Step 4 — Standard -->
+  {#if selectedYear && (!needsTopic || selectedTopicKey)}
     <div>
       <span class="block text-sm font-medium mb-2">Standard</span>
       {#if loadingStandards}
         <p class="text-sm text-muted">Loading standards…</p>
       {:else if standardsError}
         <p class="text-sm text-red">{standardsError}</p>
+      {:else if standards.length === 0}
+        <p class="text-sm text-muted">No authored standards for this year.</p>
       {:else}
-        <div class="space-y-1.5">
-          {#each standards as s}
-            {@const selected = selectedCode === s.code}
-            <button
-              onclick={() => selectStandard(s.code)}
-              class="flex w-full items-center gap-3 rounded-lg border px-4 py-3 text-left text-sm transition-colors {selected
-                ? 'border-interactive bg-interactive/5'
-                : 'border-border bg-surface hover:border-muted'}"
-            >
-              <span
-                class="flex h-5 w-5 shrink-0 items-center justify-center rounded border text-xs {selected
-                  ? 'border-interactive bg-interactive text-white'
-                  : 'border-border'}"
-              >
-                {#if selected}✓{/if}
-              </span>
-              <span>
-                <span class="font-mono text-xs text-muted">{s.code}</span>
-                <span class="ml-2">{s.title}</span>
-              </span>
-            </button>
+        <div class="space-y-4">
+          {#each [...standardsByStrand.entries()] as [strand, strandStandards]}
+            <div>
+              {#if standardsByStrand.size > 1}
+                <p class="text-xs font-medium text-muted uppercase tracking-wide mb-1.5">{strandLabel(strand)}</p>
+              {/if}
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1.5">
+                {#each strandStandards as s}
+                  {@const selected = selectedCode === s.code}
+                  <button
+                    onclick={() => selectStandard(s.code)}
+                    class="flex items-start gap-2.5 rounded-lg border px-3 py-2.5 text-left text-sm transition-colors {selected
+                      ? 'border-interactive bg-interactive/5'
+                      : 'border-border bg-surface hover:border-muted'}"
+                  >
+                    <span
+                      class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded border text-xs {selected
+                        ? 'border-interactive bg-interactive text-white'
+                        : 'border-border'}"
+                    >
+                      {#if selected}✓{/if}
+                    </span>
+                    <span>
+                      <span class="font-mono text-xs text-muted block">{s.code}</span>
+                      <span class="text-sm leading-snug">{s.title}</span>
+                    </span>
+                  </button>
+                {/each}
+              </div>
+            </div>
           {/each}
         </div>
       {/if}
@@ -380,13 +460,13 @@
       <div class="flex gap-2">
         <button
           onclick={copyUrl}
-          class="flex-1 py-2.5 bg-bg-dark text-white text-[13px] font-semibold rounded-lg cursor-pointer hover:opacity-85 transition-opacity"
+          class="flex-1 py-2.5 bg-bg-dark text-white text-sm font-semibold rounded-lg cursor-pointer hover:opacity-85 transition-opacity"
         >
           {copiedUrl ? 'Copied!' : 'Copy link'}
         </button>
         <button
           onclick={copyCode}
-          class="flex-1 py-2.5 bg-border text-bg-dark text-[13px] font-semibold rounded-lg cursor-pointer hover:opacity-85 transition-opacity"
+          class="flex-1 py-2.5 bg-border text-bg-dark text-sm font-semibold rounded-lg cursor-pointer hover:opacity-85 transition-opacity"
         >
           {copiedCode ? 'Copied!' : 'Copy code only'}
         </button>

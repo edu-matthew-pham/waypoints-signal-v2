@@ -1,14 +1,22 @@
+export interface TopicConfig {
+  key: string;
+  label: string;
+}
+
 export interface SubjectConfig {
   id: string;
   label: string;
+  dataFile: string;
   nodeFiles: string[];
   authoredYears: string[];
+  topics?: Record<string, TopicConfig[]>;
 }
 
 export const SUBJECTS: SubjectConfig[] = [
   {
     id: 'science',
     label: 'Science',
+    dataFile: 'science/science_progression_map.json',
     nodeFiles: [
       // Foundation
       'science/yf_science_AC9SFU01.json', 'science/yf_science_AC9SFU02.json', 'science/yf_science_AC9SFU03.json',
@@ -71,6 +79,7 @@ export const SUBJECTS: SubjectConfig[] = [
   {
     id: 'maths',
     label: 'Mathematics',
+    dataFile: 'maths/maths_progression_map.json',
     nodeFiles: [
       // Foundation
       'maths/yf_maths_AC9MFA01.json', 'maths/yf_maths_AC9MFM01.json', 'maths/yf_maths_AC9MFM02.json',
@@ -184,6 +193,7 @@ export const SUBJECTS: SubjectConfig[] = [
   {
     id: 'english',
     label: 'English',
+    dataFile: 'english/english_progression_map.json',
     nodeFiles: [
       // Foundation
       'english/yf_english_AC9EFLA01.json', 'english/yf_english_AC9EFLA02.json', 'english/yf_english_AC9EFLA03.json',
@@ -258,6 +268,7 @@ export const SUBJECTS: SubjectConfig[] = [
   {
     id: 'hass',
     label: 'HASS (F–6)',
+    dataFile: 'hass/hass_progression_map.json',
     nodeFiles: [
       // YF
       'hass/yf_hass_AC9HSFK01.json', 'hass/yf_hass_AC9HSFK02.json',
@@ -290,6 +301,7 @@ export const SUBJECTS: SubjectConfig[] = [
   {
     id: 'history',
     label: 'History',
+    dataFile: 'hass/hass_progression_map.json',
     nodeFiles: [
       // YF
       'hass/yf_hass_AC9HSFK01.json', 'hass/yf_hass_AC9HSFK02.json',
@@ -338,10 +350,33 @@ export const SUBJECTS: SubjectConfig[] = [
       'history/y10_history_AC9HH10K19.json', 'history/y10_history_AC9HH10K20.json',
     ],
     authoredYears: ['F', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+    topics: {
+      '7': [
+        { key: 'Y7_deep_time', label: 'Landscapes and Landforms (Deep Time)' },
+        { key: 'Y7_ancient', label: 'The Ancient World' },
+      ],
+      '8': [
+        { key: 'Y8_medieval', label: 'The Medieval World' },
+        { key: 'Y8_empires', label: 'Expanding Contacts (Empires)' },
+        { key: 'Y8_asia_pacific', label: 'Asia and the Pacific' },
+      ],
+      '9': [
+        { key: 'Y9_australian_nation', label: 'Making the Australian Nation' },
+        { key: 'Y9_ww1', label: 'World War I' },
+        { key: 'Y9_industrial', label: 'The Industrial Revolution' },
+        { key: 'Y9_asia_world', label: 'Australia and Asia' },
+      ],
+      '10': [
+        { key: 'Y10_ww2', label: 'World War II' },
+        { key: 'Y10_modern_australia', label: 'Rights and Freedoms' },
+        { key: 'Y10_globalising', label: 'The Globalising World' },
+      ],
+    },
   },
   {
     id: 'geography',
     label: 'Geography',
+    dataFile: 'hass/hass_progression_map.json',
     nodeFiles: [
       // YF
       'hass/yf_hass_AC9HSFK03.json', 'hass/yf_hass_AC9HSFK04.json',
@@ -375,10 +410,29 @@ export const SUBJECTS: SubjectConfig[] = [
       'geography/y10_geography_AC9HG10K07.json', 'geography/y10_geography_AC9HG10K08.json',
     ],
     authoredYears: ['F', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+    topics: {
+      '7': [
+        { key: 'Y7_water', label: 'Water in the World' },
+        { key: 'Y7_liveability', label: 'Place and Liveability' },
+      ],
+      '8': [
+        { key: 'Y8_landforms', label: 'Landforms and Landscapes' },
+        { key: 'Y8_nations', label: 'Changing Nations' },
+      ],
+      '9': [
+        { key: 'Y9_biomes', label: 'Biomes and Food Security' },
+        { key: 'Y9_interconnections', label: 'Geographies of Interconnections' },
+      ],
+      '10': [
+        { key: 'Y10_environment', label: 'Environmental Change and Management' },
+        { key: 'Y10_wellbeing', label: 'Geographies of Human Wellbeing' },
+      ],
+    },
   },
   {
     id: 'civics',
     label: 'Civics',
+    dataFile: 'hass/hass_progression_map.json',
     nodeFiles: [
       // Y3
       'hass/y3_hass_AC9HS3K06.json', 'hass/y3_hass_AC9HS3K07.json',
@@ -406,6 +460,7 @@ export const SUBJECTS: SubjectConfig[] = [
   {
     id: 'economics',
     label: 'Economics',
+    dataFile: 'hass/hass_progression_map.json',
     nodeFiles: [
       // Y5
       'hass/y5_hass_AC9HS5K08.json',
@@ -429,6 +484,7 @@ export const SUBJECTS: SubjectConfig[] = [
   {
     id: 'design_technologies',
     label: 'Design Technologies',
+    dataFile: 'technologies/technologies_progression_map.json',
     nodeFiles: [
       'technologies/yf_design_AC9TDEFK01.json',
       'technologies/y12_design_AC9TDE2K01.json', 'technologies/y12_design_AC9TDE2K02.json',
@@ -450,6 +506,7 @@ export const SUBJECTS: SubjectConfig[] = [
   {
     id: 'digital_technologies',
     label: 'Digital Technologies',
+    dataFile: 'technologies/technologies_progression_map.json',
     nodeFiles: [
       'technologies/yf_dt_AC9TDIFK01.json', 'technologies/yf_dt_AC9TDIFK02.json',
       'technologies/y12_dt_AC9TDI2K01.json', 'technologies/y12_dt_AC9TDI2K02.json',

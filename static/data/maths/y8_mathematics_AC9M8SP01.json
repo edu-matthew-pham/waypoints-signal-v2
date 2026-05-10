@@ -1,0 +1,99 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8SP01",
+    "title": "Congruence and Similarity",
+    "strand": "Space",
+    "description": "identify the conditions for congruence and similarity of triangles and explain the conditions for other sets of common shapes to be congruent or similar, including those formed by transformations",
+    "mode": "A",
+    "prior_knowledge": "Students can classify triangles, perform transformations, and understand that transformations preserve congruence (from AC9M7SP02, AC9M7SP03). Students can identify equal angles and sides.",
+    "progression_endpoint": "Students identify and apply the conditions for triangle congruence (SSS, SAS, AAS, RHS) and similarity (AA, SAS, SSS), and explain these conditions for other shapes including those formed by transformations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Congruence conditions for triangles",
+        "progression_checkpoint": "Students identify and apply the four conditions for triangle congruence (SSS, SAS, AAS, RHS) and explain why each is sufficient.",
+        "minimum_width": "State the four congruence conditions and identify which applies to a given pair of triangles.",
+        "typical_width": "Apply congruence conditions to prove triangles congruent; explain why each condition is sufficient; investigate whether SSA is a valid condition.",
+        "wider": [
+          "Investigate why SSA is not a sufficient congruence condition — construct two non-congruent triangles with the same SSA combination.",
+          "Apply congruence proofs to geometric contexts: show two triangles formed by diagonals of a rectangle are congruent."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Congruence proofs require an explicit three-step scaffold: identify the condition, state the matching pairs, conclude congruence. Students who proceed informally miss required elements and cannot generalise.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Congruence conditions are the prerequisite for Node 2 (similarity conditions) and directly feed AC9M8SP02 — students who cannot identify and apply congruence conditions cannot access similarity reasoning or establish quadrilateral properties via congruent triangles.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States all four congruence conditions correctly.",
+          "Identifies which condition applies to a given pair of triangles.",
+          "Explains why SSA is not a valid congruence condition."
+        ],
+        "related_standards": ["AC9M7SP02", "AC9M8SP02"]
+      },
+      {
+        "id": 2,
+        "label": "Similarity conditions for triangles",
+        "progression_checkpoint": "Students identify and apply the conditions for triangle similarity (AA, SAS, SSS) and understand similarity as a scaled version of congruence.",
+        "minimum_width": "State the AA condition and use it to identify similar triangles; calculate a missing side using the scale factor.",
+        "typical_width": "Apply all three similarity conditions; calculate scale factors; use similarity to find unknown side lengths in practical contexts.",
+        "wider": [
+          "Investigate indirect measurement using similarity: measure the height of a building or tree using shadow lengths and similar triangles.",
+          "Apply similarity to map scale problems — connect the mathematical similarity to AC9M8M07 ratio modelling."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Similarity in practical contexts (maps, shadows, enlargements) requires recognising the similar triangle structure in non-obvious configurations. Multiple contexts build this recognition.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Similarity conditions feed directly into AC9M8SP04 where students design algorithms to classify shapes as congruent, similar, or neither — thin treatment of similarity conditions means the algorithm design task in SP04 cannot be completed.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Indirect measurement using similar triangles (shadow lengths, mirror reflections) offers advancing students a genuinely elegant applied application of similarity — measuring inaccessible heights using accessible ratios is a classic and satisfying mathematical technique.",
+        "success_criteria": [
+          "Identifies similar triangles and states the condition used.",
+          "Correctly calculates a missing side using the scale factor.",
+          "Maintains consistent matching of corresponding sides."
+        ],
+        "related_standards": ["AC9M7SP03", "AC9M8SP04"]
+      },
+      {
+        "id": 3,
+        "label": "Congruence and similarity in other shapes and transformations",
+        "progression_checkpoint": "Students explain the conditions for congruence and similarity in other common shapes and connect congruence to transformations.",
+        "minimum_width": "Explain what must be equal for two rectangles to be congruent; explain what makes two rectangles similar but not congruent.",
+        "typical_width": "Apply congruence and similarity reasoning to quadrilaterals and other polygons; connect congruence to translations, reflections and rotations; connect similarity to enlargement.",
+        "wider": [
+          "Compare angle and side measurements of shapes under each transformation type — systematically determine what changes and what stays the same.",
+          "Investigate: is every square similar to every other square? Is every rectangle? Justify using the conditions."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Connecting congruence/similarity to transformations integrates the spatial reasoning from Y7 transformations with the new congruence/similarity concepts — a genuine cross-topic integration."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States conditions for congruence and similarity for a given shape type.",
+          "Connects congruence to rigid transformations and similarity to enlargement.",
+          "Correctly identifies whether two given shapes are congruent, similar, or neither."
+        ],
+        "related_standards": ["AC9M7SP03"]
+      }
+    ]
+  }
+}

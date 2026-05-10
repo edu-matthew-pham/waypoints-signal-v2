@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS1S03",
+    "title": "Interpret observations and comparisons",
+    "description": "interpret information and data from observations and provided sources, including the comparison of objects from the past and present",
+    "strand": "Inquiry Skills — Analysing",
+    "mode": "B",
+    "prior_knowledge": "From Foundation (AC9HSFS02, AC9HSFS03): Students sorted information from sources and shared perspectives. From AC9HS1S02: Students collected and recorded information from observations and sources.",
+    "progression_endpoint": "Students interpret information from observations and provided sources, including comparing objects from the past and present.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Using sources to answer questions",
+        "progression_checkpoint": "Students can use information from sources (stories, photographs, satellite images, rock art, fieldwork observations) to answer 'when', 'where', 'what', 'how' and 'why' questions.",
+        "minimum_width": "Use at least one source to answer at least two different types of questions (e.g. a 'what' and a 'where' question).",
+        "typical_width": "Use a range of sources to answer When, Where, What, How and Why questions; identify what each source tells them and what it does not tell them; explore First Nations Australian stories about places and the past.",
+        "wider": [
+          "Compare what traditional and contemporary First Nations Australian stories reveal about how places have changed",
+          "Use multiple sources on the same topic and identify where they agree and where they provide different information"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot extract targeted answers from sources, they cannot compare past and present objects — the comparison in Node 2 requires first being able to read what sources actually say.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Model source-reading explicitly: 'What does this photograph tell me? What question does it answer?' Use think-alouds before expecting students to do this independently.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least one source to answer at least two types of questions",
+          "Explains what the source tells them rather than inferring unsupported information"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Comparing past and present objects",
+        "progression_checkpoint": "Students can compare objects or artefacts from the past with those used today, identifying similarities and differences using comparative language.",
+        "minimum_width": "Compare at least two objects from the past and present (e.g. old and new toys, phones, cooking tools) identifying one similarity and one difference.",
+        "typical_width": "Compare a range of objects from the past with current equivalents (toys, games, clothes, phones, cooking utensils, tools, homework books); categorise similarities and differences; use comparative language accurately.",
+        "wider": [
+          "Arrange a sequence of three or more versions of the same object over time and describe the trajectory of change",
+          "Categorise observed changes by type (material, purpose, size, technology) and discuss which types of change are most common"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "More objects compared means more robust understanding of change patterns — build range of comparison objects across multiple categories.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing across multiple categories of objects (technology, clothing, food, play) reveals different rates and patterns of change — this creates genuinely richer historical thinking than comparing within one category only.",
+        "success_criteria": [
+          "Compares at least two objects from different time periods",
+          "Identifies at least one similarity and one difference using comparative language"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Categorising features of places",
+        "progression_checkpoint": "Students can categorise objects, drawings or images by their features and explain the reason for their categorisation, applying this to place features (natural, constructed, managed).",
+        "minimum_width": "Categorise at least six items into natural, constructed and managed categories and explain one reason for each category assignment.",
+        "typical_width": "Categorise features of local places into natural, constructed and managed types; explain reasons for categorisation; compare categorisations with peers and resolve disagreements.",
+        "wider": [
+          "Categorise the same feature differently from multiple perspectives and discuss how viewpoint affects categorisation",
+          "Apply the three categories to a place that has changed over time and identify whether the change shifted its category"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Categorisation with reasoning integrates source interpretation and place classification — the explanatory demand ('explain the reason') is the integration test."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Categorises features of a local place into natural, constructed and managed types",
+          "Explains the reason for at least one categorisation decision"
+        ]
+      }
+    ]
+  }
+}

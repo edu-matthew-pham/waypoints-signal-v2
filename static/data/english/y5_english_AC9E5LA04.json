@@ -1,0 +1,92 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LA04",
+    "title": "Starting point and prominence",
+    "description": "Understand how texts can be made cohesive by using the starting point of a sentence or paragraph to give prominence to the message and to guide the reader through the text",
+    "strand": "Language",
+    "mode": "A",
+    "prior_knowledge": "Students can identify how text connectives including temporal and conditional words, and topic sentences, add cohesion to texts (AC9E4LA04). They have not yet examined how the starting position of a sentence signals what the sentence is about, or how writers manipulate theme position to guide readers.",
+    "progression_endpoint": "Students explain how sentence and paragraph starting points signal to readers what the text is about and how it is developing, identifying how writers use theme position to create cohesion and give prominence to the message.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sentence openers signal topic",
+        "progression_checkpoint": "Students can identify the sentence opener as signalling what the sentence is about, and explain that the rest of the sentence typically provides new information about that starting point.",
+        "minimum_width": "In a sample text, identify the starting element of several sentences and explain what topic or frame each one signals to the reader.",
+        "typical_width": "Analyse a text to map how sentence openers establish what each sentence is about, and explain how the sequence of openers tracks the development of the text's topic for the reader.",
+        "wider": [
+          "Compare how sentence opener choices differ between narrative, information report and argument texts — explaining why different genres favour different types of starting elements",
+          "Experiment with rewriting sentence openers in a sample text and discuss how those changes shift the reader's path through the text"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2's cohesion analysis and Node 3's prominence explanation both depend on students recognising the sentence opener as a deliberate positional choice with a signalling function. Students who do not see the opener as a topic-signal cannot trace how opener sequences create cohesion or reason about why a writer has positioned a specific element first.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often focus on the content of sentences rather than their structural organisation. Encountering sentence openers across different genres — narrative (time or character), report (topic noun), argument (stance or connector) — helps students see that the opener is a deliberate positional choice, not just where a sentence happens to start.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the sentence opener in at least three consecutive sentences and explains what topic or frame each one sets up.",
+          "Explains the relationship between the sentence opener and the new information that follows it."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Theme position creates cohesion",
+        "progression_checkpoint": "Students can explain how consistent or shifting sentence opener choices create cohesion and guide the reader through the development of a text.",
+        "minimum_width": "Identify in a sample text how the sequence of sentence openers creates a consistent thread or marks a shift in the text's focus, and explain the cohesive effect.",
+        "typical_width": "Analyse how a writer uses sentence opener choices across a paragraph or passage to build cohesion — tracking how the starting points connect sentences into a coherent flow. Identify where opener choices create or break cohesion and explain the effect.",
+        "wider": [
+          "Analyse how paragraphs use their opening sentence to signal to the reader what the paragraph is about, and how this creates cohesion at the paragraph level as well as the sentence level",
+          "Compare a cohesive text with a rewritten version where sentence openers have been randomised — discussing what is lost and why opener sequencing matters"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Traces the sentence opener choices through a passage and explains how they contribute to cohesion.",
+          "Identifies at least one place where an opener choice creates a shift or break in topic continuity and explains the effect."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Giving prominence through starting position",
+        "progression_checkpoint": "Students can explain how placing particular information at the start of a sentence or paragraph gives that information prominence, and identify why a writer has made that choice.",
+        "minimum_width": "Identify in at least two examples how moving an element to the starting position of a sentence changes what receives emphasis, and explain what the writer achieves by that positioning.",
+        "typical_width": "Analyse and explain how writers use starting position to give prominence to time, concession, reason, contrast or topic across a range of text types. Apply this understanding to explain specific writer choices in a text, connecting the positioning decision to the text's communicative purpose.",
+        "wider": [
+          "Experiment with repositioning elements in sentences from a given text and discuss how each repositioning changes the emphasis and the reader's experience of the text",
+          "Examine how different text types use different types of elements in the prominent starting position (e.g. time in recount, concession in argument, topic in report) and explain what this reflects about each text type's purpose"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often understand that the start of a sentence is 'what it's about' but do not see prominence as an active writer choice. Encountering multiple examples where writers have moved different elements — concession, reason, time, contrast — to starting position helps students recognise prominence as deliberate and purposeful, not accidental.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Explaining why a writer chose to give prominence to a particular element requires reasoning from writer intent through structural choice to reader effect. This chain — 'the writer moved X to the front because... and the reader experiences...' — needs to be made explicit."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Writer choice in prominence — why concession-first vs. topic-first vs. time-first serves different communicative purposes — is genuinely rich across text types. Advancing students can systematically map how different genres privilege different types of starting elements, developing a useful analytical framework.",
+        "success_criteria": [
+          "Identifies an element in starting position in a text and explains what prominence it receives as a result.",
+          "Explains why the writer chose to position that element first, connecting the choice to the text's purpose or the reader's expected path through the text."
+        ]
+      }
+    ]
+  }
+}

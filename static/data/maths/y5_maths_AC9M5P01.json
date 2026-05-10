@@ -1,0 +1,88 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5P01",
+    "title": "Equally and unequally likely outcomes",
+    "strand": "Probability",
+    "description": "List the possible outcomes of chance experiments involving equally likely outcomes and compare to those which are not equally likely",
+    "prior_knowledge": "Students can conduct repeated chance experiments and record results (AC9M4P02). They have not yet systematically listed all possible outcomes or compared equally and unequally likely situations.",
+    "progression_endpoint": "Students list the possible outcomes of chance experiments and compare equally likely with unequally likely outcomes.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sample space",
+        "progression_checkpoint": "Students can systematically list all possible outcomes of a chance experiment.",
+        "minimum_width": "List all possible outcomes of a simple chance experiment (e.g. coin toss, single die roll); confirm the list is complete.",
+        "typical_width": "List sample spaces for a variety of experiments including those with more outcomes (coloured spinners, card draws); use systematic listing strategies.",
+        "wider": [
+          "List outcomes for two-stage experiments (coin + die)",
+          "Use a table or tree diagram to organise outcomes"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Systematic listing requires a deliberate strategy (alphabetical, left-to-right, tree structure) to avoid omissions. Students who list unsystematically miss outcomes and subsequently misassign probabilities.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Complete sample space enumeration is the prerequisite for Node 2 — students who miss outcomes assign probabilities that don't sum to 1 and cannot correctly identify equally likely conditions.",
+        "success_criteria": [
+          "Student lists all outcomes of a given experiment without omissions",
+          "Student confirms the list is complete using a systematic approach"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Equally likely outcomes",
+        "progression_checkpoint": "Students can identify when outcomes are equally likely and use this to describe the probability of each.",
+        "minimum_width": "Identify that outcomes are equally likely for a fair experiment; describe the probability of each outcome as a fraction.",
+        "typical_width": "Apply equally likely reasoning to fair coins, dice and spinners; express probabilities as fractions; explain why the fractions must sum to 1.",
+        "wider": [
+          "Use equally likely outcomes to make predictions about repeated experiments",
+          "Investigate the Law of Large Numbers informally: why don't short runs match predictions?"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly assigns equal probabilities to equally likely outcomes",
+          "Student expresses probability as a fraction and checks that all fractions sum to 1"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing equally and unequally likely outcomes",
+        "progression_checkpoint": "Students can compare experiments with equally likely outcomes to those with unequally likely outcomes and explain the difference.",
+        "minimum_width": "Identify whether a given experiment has equally likely or unequally likely outcomes; explain the reason.",
+        "typical_width": "Compare fair and biased spinners, weighted dice, and unequal colour bags; explain how unequal physical proportions produce unequal probabilities.",
+        "wider": [
+          "Design an unequally likely spinner for a given purpose (e.g. a game that favours the player)",
+          "Investigate how First Nations probability games use unequal likelihood"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to assume fairness by default. Varied physical contexts — spinners with unequal sectors, bags with unequal colour counts — challenge this assumption from multiple angles and build the discrimination.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Game design with unequal probabilities and cultural game contexts give advancing students rich, purposeful investigation material.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly classifies an experiment as equally or unequally likely",
+          "Student explains the physical source of the inequality in probabilities"
+        ]
+      }
+    ]
+  }
+}

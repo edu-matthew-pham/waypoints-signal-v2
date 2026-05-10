@@ -1,0 +1,102 @@
+{
+  "year_level": "7",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG7S01",
+    "title": "Develop geographical inquiry questions",
+    "description": "develop questions for a geographical inquiry related to a phenomenon or challenge",
+    "strand": "Geographical Inquiry and Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have developed general inquiry questions in F–6 HASS (AC9HS6S01: develop questions to investigate people, events, developments, places and systems). This standard requires them to apply question development specifically within a geographical inquiry framework — questions must be oriented to geographical phenomena, use geographical concepts as organisers, and be plannable as a geographical investigation.",
+    "progression_endpoint": "Students develop questions to guide a geographical inquiry into a phenomenon or challenge.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Geographical questions vs general questions",
+        "progression_checkpoint": "Students can distinguish a geographical inquiry question from a general question, identifying the geographical phenomenon, concept or challenge it targets.",
+        "minimum_width": "Students identify what makes a question geographical (targets a spatial phenomenon, process, distribution or place relationship) and classify examples as geographical or non-geographical.",
+        "typical_width": "Students explain the features that make a question geographical — it investigates a spatial phenomenon, process, place relationship, environmental challenge or human-environment interaction — and practise transforming general questions into geographical questions by grounding them in place, distribution or environmental process.",
+        "wider": [
+          "Examine a set of real geographical inquiry questions from ACARA exemplars or published geographical research and identify what makes each question productive as a geographical inquiry starter",
+          "Compare geographical questions at different scales (local, national, global) and explain how scale shapes what evidence is needed to answer the question",
+          "Develop a question that uses one of the ACARA geographical concepts (place, space, environment, interconnections, sustainability, scale, change) as an explicit organiser and explain how the concept shapes the question"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish geographical from general questions will develop inquiry questions that do not orient the investigation geographically. The resulting investigation plan (node 2) will lack geographical focus, making all subsequent skills application disconnected from geographical inquiry.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The distinction requires explicit attention to what kind of answer a question invites. Geographical questions invite spatial, environmental or place-based analysis — not just any investigation. Scaffolding: what place/process/distribution does this question target? What evidence would answer it?",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two features that make a question geographical and applies these to classify example questions.",
+          "Transforms at least one general question into a geographical inquiry question, explaining what geographical dimension has been added."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Developing questions for a specific phenomenon or challenge",
+        "progression_checkpoint": "Students can develop questions to investigate why a geographical phenomenon has changed or a challenge may arise, producing questions that are specific, investigable and geographically grounded.",
+        "minimum_width": "Students develop at least two investigable geographical questions about a specific phenomenon or challenge, each of which could be pursued with real evidence.",
+        "typical_width": "Students develop questions to investigate a geographical phenomenon or challenge — e.g. the causes of water scarcity in different places, or the factors affecting liveability — producing questions that are specific, investigable with available evidence, and oriented to geographical concepts (cause, distribution, change, interconnection, sustainability).",
+        "wider": [
+          "Develop a question sequence — an initial question and follow-up questions that deepen or extend the inquiry based on what answers to the initial question might reveal",
+          "Develop questions at different scales for the same phenomenon (e.g. water scarcity questions at local, national and global scale) and explain how different questions require different evidence",
+          "Compare questions that investigate causes vs questions that investigate impacts vs questions that investigate responses — examine how question type shapes what an investigation can reveal"
+        ],
+        "hinge": true,
+        "hinge_reason": "The quality of inquiry questions determines the quality of the investigation. Vague or non-investigable questions produce investigations that cannot generate meaningful evidence or conclusions. All subsequent skills (S02–S06) depend on having a sharp inquiry question to work from.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Developing investigable questions requires iterative refinement — students produce a draft question, test it for specificity and investigability, refine it, and test again. Consolidation through peer critique and teacher feedback cycles builds the precision needed.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Practising question development across both water and liveability contexts — the two major content units — prevents question development being tied to a single topic.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Question development is the most generative skill in geographical inquiry — it shapes everything that follows. Students who develop facility with question refinement across multiple phenomena and scales have a transferable inquiry toolkit applicable throughout the curriculum.",
+        "success_criteria": [
+          "Develops at least two geographical inquiry questions about a specific phenomenon or challenge that are specific and investigable with real evidence.",
+          "Explains what geographical phenomenon, process or concept each question targets."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Planning a geographical investigation",
+        "progression_checkpoint": "Students can plan a geographical investigation, identifying the evidence needed, how it will be collected, and appropriate digital planning tools.",
+        "minimum_width": "Students produce a basic investigation plan that identifies the inquiry question, the evidence needed to answer it, and at least one collection method.",
+        "typical_width": "Students plan an investigation of a geographical phenomenon or challenge, using digital planning tools — identifying inquiry questions, evidence needed (statistics, fieldwork data, maps, satellite imagery), collection methods, and analysis approach.",
+        "wider": [
+          "Develop a full investigation plan with timelines, data sources, fieldwork logistics, and analysis methods — evaluate whether the plan is feasible within available time and resources",
+          "Compare two possible investigation plans for the same question — evaluate which would produce more reliable or comprehensive evidence",
+          "Plan an investigation that triangulates evidence from multiple sources (primary fieldwork + secondary statistics + spatial data) and explain why triangulation strengthens findings"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Planning integrates the inquiry question (node 2) with evidence types and collection methods (anticipating S02). The integration move is: question → evidence needed → collection method → analysis approach, as a connected sequence rather than four separate decisions."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces an investigation plan that specifies the inquiry question, at least two types of evidence needed, and a collection method for each.",
+          "Explains how the planned evidence would allow the inquiry question to be answered."
+        ],
+        "related_standards": ["AC9HG7S02", "AC9HG7S03"]
+      }
+    ]
+  }
+}

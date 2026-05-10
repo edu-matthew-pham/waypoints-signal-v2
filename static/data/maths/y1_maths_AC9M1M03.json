@@ -1,0 +1,94 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1M03",
+    "title": "Duration and sequence of events",
+    "description": "Describe the duration and sequence of events using years, months, weeks, days and hours",
+    "strand": "Measurement and Space",
+    "mode": "A",
+    "prior_knowledge": "Students can sequence days of the week and times of day, connecting them to familiar events (AC9MFM02). They have not yet used the full hierarchy of time units (years, months, weeks, days, hours), compared the number of days across months, or represented event sequences using pictorial timelines.",
+    "progression_endpoint": "Students describe the duration and sequence of events using years, months, weeks, days and hours.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Name and relate time units",
+        "progression_checkpoint": "Students can name years, months, weeks, days and hours as units of time and describe the relationship between them (e.g. a week is 7 days).",
+        "minimum_width": "Name at least four of the five time units; state the relationship between at least two adjacent units (e.g. 7 days in a week, 24 hours in a day).",
+        "typical_width": "Name all five time units; describe the relationship between each pair of adjacent units; compare the number of days in different months; explain how months cycle from one year to the next; connect units to familiar experiences.",
+        "wider": [
+          "Investigate how time units are named and structured across different cultures and languages, comparing unit names and observing that the structural relationships (7-day week, 24-hour day) are widely shared.",
+          "Explore First Nations Australians' seasonal calendars as alternative frameworks for dividing the year, comparing the number and duration of seasonal periods with the 12-month calendar."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "The names and relationships between time units require rehearsal and connection to personal experience. The month/day count variation (28–31 days) is a specific factual knowledge point that needs practice.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Knowing the names and relationships between time units is required for Node 2 (duration estimation) and Node 3 (labelling timelines) — students who do not know the unit hierarchy cannot assign activities to appropriate units or label timeline events correctly.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names years, months, weeks, days and hours correctly.",
+          "States the number of days in a week and hours in a day; identifies which months have 30 and 31 days."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Estimate duration using time units",
+        "progression_checkpoint": "Students can estimate whether a familiar activity takes closer to an hour, a day, a week, a month or a year, and explain their reasoning.",
+        "minimum_width": "Assign at least three familiar activities to appropriate time units (e.g. sleeping — about 8 hours; a school term — about 10 weeks).",
+        "typical_width": "Estimate and assign a range of familiar activities and events to appropriate time units; explain the reasoning (e.g. 'it takes less than an hour to walk to school because…'); discuss why some events are hard to assign (e.g. growing taller — weeks/months/years?).",
+        "wider": [
+          "Investigate durations of natural phenomena — plant growth, animal gestation, migration cycles — assigning each to appropriate time units and explaining the estimates.",
+          "Explore and discuss time durations described in First Nations seasonal calendars — assigning each season's events to approximate time units and comparing with the calendar system."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students develop robust time sense by encountering a wide range of durations — not just school-day events. Natural phenomena, seasonal events, and cultural calendars give varied contexts that help students develop calibrated intuitions for each unit.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Duration estimation is a rich area connecting mathematical time to lived experience. Students who discuss a wide range of durations — including culturally varied time frameworks — build flexible number sense about quantity in the time domain.",
+        "success_criteria": [
+          "Correctly assigns at least three familiar activities to appropriate time units.",
+          "Gives a reason for the assignment that refers to the scale of the unit."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Sequence events on a timeline",
+        "progression_checkpoint": "Students can sequence a set of familiar events in order and represent the sequence using a pictorial timeline, labelling each event with an appropriate time unit.",
+        "minimum_width": "Place at least four events in correct chronological order; represent the sequence as a pictorial timeline.",
+        "typical_width": "Create pictorial timelines for familiar event sequences (school day, week, year); label events with appropriate time units; describe the sequence using time unit language; distinguish events by whether they occur within days, weeks or months.",
+        "wider": [
+          "Create a personal timeline spanning a year or longer, annotating key events with time units and discussing the relative spacing between events.",
+          "Compare a class-created timeline with a First Nations seasonal calendar representation, discussing similarities and differences in how time passage and event sequences are communicated."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating a timeline requires students to apply knowledge of time units, duration estimation, and sequential ordering simultaneously — integrating all three nodes of this standard into a coherent representation."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Places a set of events in correct chronological order on a timeline.",
+          "Labels each event with an appropriate time unit."
+        ],
+        "related_standards": ["AC9M1M01"]
+      }
+    ]
+  }
+}

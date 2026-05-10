@@ -1,0 +1,94 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9K02",
+    "title": "Development of Australian Colonial Society",
+    "description": "the key social, cultural, economic and political changes and their significance in the development of Australian society during the period",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students have studied pre-modern societies in Year 8, including examining the features, turning points, and power structures of Medieval European, ancient empire, and Asia-Pacific societies. They understand concepts of continuity and change, power and authority, and how significant individuals and groups shape historical development. They have not yet studied Australian colonial history or the specific conditions of 18th–19th century colonisation.",
+    "progression_endpoint": "Students examine the key social, cultural, economic and political changes in the development of Australian society during the colonial period and explain their significance.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Founding contexts of Australian colonies",
+        "progression_checkpoint": "Students can describe the different founding contexts of at least two Australian colonies and explain how these contexts influenced their development.",
+        "minimum_width": "Describe the founding context of one Australian colony (e.g. convict settlement, free settlement, gold rush) and explain one way this influenced its development.",
+        "typical_width": "Examine the different contexts of Australian colonies — convict origins of New South Wales and Van Diemen's Land, deliberate exclusion of convicts in South Australia, gold rush transformation of Victoria, physical isolation of Western Australia — and explain how founding conditions shaped different developmental trajectories.",
+        "wider": [
+          "Compare two colonies with contrasting founding conditions (e.g. New South Wales as convict colony vs South Australia as planned free-settlement colony) to analyse how founding ideology shaped long-term social values and class structures",
+          "Investigate the impact of the Blue Mountains crossing (1813) on New South Wales expansion — examining how geographical barriers shaped the pace and direction of colonial development",
+          "Examine the Swan River Colony's early difficulties to assess how physical isolation and underfunding affected settlement, and compare its development with the more resource-rich eastern colonies"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding that different colonies had different founding conditions is structurally important for this descriptor. Without this, students cannot explain why 'Australian colonial society' was not uniform — they will flatten a diverse history into a single narrative and be unable to account for regional variation in Nodes 2 and 3.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using at least two colonies with contrasting founding conditions from the start establishes that 'Australian colonial history' is plural, preventing students from treating New South Wales as the default for all colonial experience.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Describes the founding context of at least two Australian colonies with specific reference to the conditions of settlement",
+          "Explains how at least one founding context influenced the colony's social or economic development"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Economic development — pastoral, agricultural, and mining industries",
+        "progression_checkpoint": "Students can describe the development of Australia's economy during the colonial period, including the key role of pastoral, agricultural, and mining industries, and can explain the significance of key economic developments.",
+        "minimum_width": "Describe one key industry in colonial Australia's economic development and explain its significance.",
+        "typical_width": "Examine the development of Australia's economy including the pastoral industry (wool, cattle), agricultural industries, and the gold rush; explain the role of the 'squattocracy' and significant figures such as Elizabeth Macarthur in shaping pastoral development; explain the significance of gold in transforming the demographic and economic profile of Victoria.",
+        "wider": [
+          "Investigate Elizabeth Macarthur's role in the development of the Merino wool industry — examining both her contribution and how historical accounts have recognised or overlooked women in colonial economic history",
+          "Examine the impact of the gold rush on Victorian demographics, infrastructure, and social composition — including the experiences of Chinese miners — and assess how it transformed both colony and nation",
+          "Analyse the environmental cost of colonial pastoral and agricultural expansion — overgrazing, soil degradation, clearance of native vegetation — and assess how economic development was intertwined with environmental transformation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The descriptor spans multiple industries — pastoral, agricultural, and mining. Widening across at least two gives students a more complete picture of colonial economic development than a single industry focus.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The colonial economy is the foundation for understanding later political and social development (Federation, labour movements). The gold rush in particular offers rich pedagogical material — demographic transformation, racial conflict, democratisation — that extends well beyond its economic dimension.",
+        "success_criteria": [
+          "Describes at least two industries in colonial Australian economic development with specific examples",
+          "Explains the significance of at least one economic development for the broader development of Australian society"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Social and political changes and their significance",
+        "progression_checkpoint": "Students can examine key social, cultural, and political changes in Australian colonial society and explain their significance for the development of Australia as a society.",
+        "minimum_width": "Identify one key social, cultural or political change in colonial Australian society and explain its significance.",
+        "typical_width": "Examine social and political changes including the development of democratic institutions, the emergence of a distinct colonial identity (distinct from British), changes in class structure enabled by colonial conditions, and the significance of specific turning points (e.g. Eureka Stockade, development of colonial parliaments); explain the significance of these changes for Australia's development as a society up to Federation.",
+        "wider": [
+          "Investigate the Eureka Stockade as a turning point in colonial political development — examining how a mining protest became a symbol of democratic values in the Australian colonial story",
+          "Examine the development of a distinct Australian cultural identity through literature, art, and bush mythology in the late 19th century, and assess how this identity was constructed by certain groups and excluded others (particularly First Nations Australians and non-European migrants)",
+          "Investigate how colonial conditions — distance from rigid British class structures, land availability, labour scarcity — enabled upward social mobility for some, while constraining it for others (First Nations Australians, women, non-Europeans)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the economic and demographic foundation (Nodes 1–2) with political and cultural development. Students should connect economic conditions to social and political change — not treat them as separate strands."
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Identifies and examines at least two key social, cultural or political changes in colonial Australian society",
+          "Explains the significance of at least one change for Australia's development as a society"
+        ]
+      }
+    ]
+  }
+}

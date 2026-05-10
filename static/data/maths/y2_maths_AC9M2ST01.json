@@ -1,0 +1,84 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2ST01",
+    "title": "Acquire and sort categorical data",
+    "strand": "Statistics",
+    "mode": "B",
+    "description": "acquire data for categorical variables through surveys, observation, experiment and using digital tools; sort data into relevant categories and display data using lists and tables",
+    "prior_knowledge": "Students acquire and record categorical data using lists, drawings and symbols (AC9M1ST01). They have not yet used surveys, observation experiments, or digital tools as acquisition methods, or sorted data into explicitly defined categories before recording.",
+    "progression_endpoint": "Students acquire categorical data through surveys, observation, experiment and digital tools; sort data into relevant categories; and display data using lists and tables.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Posing a question and choosing a method",
+        "progression_checkpoint": "Students can pose a question about a categorical variable and choose an appropriate method to collect data (survey, observation or experiment).",
+        "minimum_width": "Pose one question about a categorical variable; choose whether to use a survey, observation or experiment to collect data; justify the choice.",
+        "typical_width": "Pose questions about categorical variables (favourite things, transport to school, rubbish categories); select the most appropriate data collection method for each; discuss how the question shapes the method needed.",
+        "wider": [
+          "Observe events before deciding on data categories: e.g. watch students arriving before deciding on transport categories; discuss how observation helps design better categories",
+          "Explore ways First Nations Australians observe, collect, sort and record data; discuss how the purpose of data collection shapes the method used"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 collection requires pre-defined categories — students who have not posed a question and selected a method arrive without a category structure or data collection plan, making sorting in Node 2 arbitrary and display in Node 3 meaningless.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Matching question type to collection method is not obvious to Year 2 students. The reasoning scaffold — 'Can I ask people directly? Do I need to watch? Do I need to do a test?' — needs to be made explicit and practised across multiple question types.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Poses a question about a categorical variable",
+          "Chooses an appropriate collection method and gives a reason for the choice"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Collecting and sorting into categories",
+        "progression_checkpoint": "Students can collect data and sort it into relevant, mutually exclusive categories.",
+        "minimum_width": "Collect data using one method; sort responses into at least three categories; confirm that each response belongs to exactly one category.",
+        "typical_width": "Collect data through surveys, observation or digital tools; define categories before collecting; sort responses; use counting strategies to determine totals per category.",
+        "wider": [
+          "Use familiar software or AI tools to construct a survey; collect class data; sort and interpret responses; consider whether questions need modifying for reuse",
+          "Investigate 'How much rubbish is really rubbish?' by gathering and categorising objects: throw away, recycle, reuse; decide whether the data answers the question"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Collects data using a survey, observation or digital tool",
+          "Sorts all collected data into defined categories with no item left unsorted"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Displaying in lists and tables",
+        "progression_checkpoint": "Students can display sorted categorical data in a list or table and use it to answer questions about most/least popular categories.",
+        "minimum_width": "Transfer sorted data into a list or table; identify the most common and least common category.",
+        "typical_width": "Record data in well-organised lists and tables; use counting strategies to find totals per category; answer questions from the table (most popular, least popular, how many in a category, total respondents).",
+        "wider": [
+          "Compare different ways of recording the same data (list vs table vs tally); discuss which is easier to read and why",
+          "Investigate whether the question asked was clear enough; modify a survey question and discuss how the data collected might change"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Displays sorted data in a list or table",
+          "Correctly identifies the most and least common category from the table",
+          "States the total count for at least one category"
+        ],
+        "related_standards": ["AC9M2ST02"]
+      }
+    ]
+  }
+}

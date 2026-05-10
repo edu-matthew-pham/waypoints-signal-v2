@@ -1,0 +1,69 @@
+{
+  "year_level": "3",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E3LA04",
+    "title": "Paragraphs group information",
+    "description": "understand that paragraphs are a key organisational feature of the stages of written texts",
+    "strand": "Language — Text Structure",
+    "mode": "A",
+    "prior_knowledge": "Students understand how cohesion devices including overviews and paragraph structure guide readers (AC9E2LA04 — implicitly). They have not yet examined how paragraphs function as the primary organisational unit that groups information into the stages of a text.",
+    "progression_endpoint": "Students understand that paragraphs are a key organisational feature — grouping related information and marking the stages of written texts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Paragraphs in informative texts",
+        "progression_checkpoint": "Students can identify that paragraphs in informative texts group related information together, often beginning with a topic sentence.",
+        "minimum_width": "Identify at least two paragraphs in an informative text and explain what related information each groups together.",
+        "typical_width": "Recognise that informative texts are organised into paragraphs beginning with a topic sentence, grouping related ideas; examine models of well-constructed paragraphs and identify their features.",
+        "wider": [
+          "Examine how the topic sentences of successive paragraphs map the overall structure of an informative text — reading just the first sentences to get the main ideas",
+          "Compare two versions of the same information — one organised into paragraphs, one without — and discuss the effect on the reader"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who haven't established the informative paragraph model at N1 have no baseline rule to contrast with at N2 — the narrative paragraphing lesson depends on students first understanding (and potentially over-applying) the topic-sentence convention.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often see paragraph breaks as arbitrary or stylistic. Examining models across different informative text types — reports, explanations, recounts — helps students see that paragraph breaks always signal a shift in focus, regardless of text type.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies what information a paragraph groups together",
+          "Student explains why those pieces of information belong in the same paragraph (what makes them related)"
+        ],
+        "related_standards": ["AC9E3LA03", "AC9E3LY06"]
+      },
+      {
+        "id": 2,
+        "label": "Paragraphs in narrative texts",
+        "progression_checkpoint": "Students can recognise that paragraphs in narrative texts vary in length and serve different purposes — they do not always follow a predictable pattern formula.",
+        "minimum_width": "Identify paragraphs in a narrative text and notice that they vary in length, explaining one example of why a short or long paragraph is used at a particular point.",
+        "typical_width": "Recognise that narrative paragraphs vary in length and purpose — some build tension, some shift scene, some develop character — and do not always follow a topic-sentence pattern. Examine models of effective narrative paragraphing.",
+        "wider": [
+          "Compare how a very short paragraph (even one sentence) is used for effect in a narrative versus a long descriptive paragraph — discuss what each achieves",
+          "Experiment with changing the paragraph breaks in a narrative extract and evaluate how it changes the reading experience"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students taught the topic-sentence rule may misapply it to narrative. Seeing that narrative paragraphing follows different logic — and that variation itself is a tool — prevents the misconception that all paragraphs work the same way."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies that narrative paragraphs vary in length",
+          "Student explains one example of why a paragraph starts or ends at a particular point in a narrative"
+        ],
+        "related_standards": ["AC9E3LE03", "AC9E3LY06"]
+      }
+    ]
+  }
+}

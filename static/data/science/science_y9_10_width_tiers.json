@@ -1,0 +1,455 @@
+{
+  "description": "Width tiers for Science Year 9–10 band — ACARA v9. Covers H-strand (Science as a Human Endeavour) and I-strand (Science Inquiry) for the 9–10 band. U-strand descriptors are in science_y9_width_tiers.json and science_y10_width_tiers.json.",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "9-10",
+  "generation_rules": { "prompt_version": "v1.0", "primary_width_axis": "mixed" },
+  "width_notes": {
+    "minimum_width": "For H-strand: the knowledge-to-society pathway met in one case. For I-strand: the skill applied in one investigation context at the required level of independence and rigour.",
+    "typical_width": "Full scope across the range of contexts, investigation types, and analytical demands typical for the 9–10 band.",
+    "wider": "Enrichment adding phenomena, cultural contexts or task types. First Nations directions included where elaborations indicate them.",
+    "elaborations": "ACARA elaborations treated as source data. Typical grounded in common cases; wider may infer within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S9H01": {
+      "strand": "Science as a Human Endeavour", "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe the peer review process and explain two ways it improves reliability; explain how consistent evidence from multiple studies builds scientific consensus.",
+      "typical_width": "Explain the peer review process from submission to publication; examine how journals evaluate submissions; examine real cases of initial rejection then later validation (Marshall and Warren); explain scientific consensus on global warming as built from multiple evidence types; distinguish scientific consensus from public debate.",
+      "wider": [
+        "Investigate the publication process for a high-volume journal like Science — examining editor evaluation criteria and rejection rates",
+        "Explore why Marshall and Warren's peptic ulcer work was first rejected then validated — examining how peer review can resist paradigm-challenging findings",
+        "Examine how Thomson, Millikan and Rutherford experiments provide consistent independent evidence for the nuclear model",
+        "Examine how First Nations fire regime data publication has informed more effective fire management policies"
+      ],
+      "elaborations": [
+        "investigating the process of publishing a paper in Science which receives about 12,000 submissions per year",
+        "investigating how publication of data related to First Nations fire regimes has informed fire-reduction policies",
+        "exploring why Marshall and Warren's work was first rejected then validated",
+        "examining the scientific consensus supporting global warming",
+        "researching how Thomson, Millikan and Rutherford experiments provide consistency of evidence",
+        "examining how Marie and Pierre Curie's discovery of new elements was validated"
+      ]
+    },
+    "AC9S9H02": {
+      "strand": "Science as a Human Endeavour", "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe at least two cases where technology enabled science advance; describe at least two technologies enabled by scientific knowledge.",
+      "typical_width": "Examine bidirectional science-technology relationship across multiple examples; trace technology-to-knowledge and knowledge-to-technology pathways; examine Australian technology contributions; connect EM radiation properties to specific technology uses.",
+      "wider": [
+        "Examine Australian technological contributions — cochlear implant, bionic eye, spray-on skin, wi-fi — tracing the scientific knowledge that enabled each",
+        "Research how monitoring technology advances contributed to the reinstatement of traditional fire management as an emissions strategy",
+        "Examine how EM radiation properties relate to uses: radar, medicine, mobile communications, remote sensing, microwave cooking",
+        "Explore how understanding of the nature of matter and energy enabled exploration from black holes to sub-atomic particles"
+      ],
+      "elaborations": [
+        "analysing how imaging technologies improved understanding of body system functions",
+        "considering the impact of Australian technological advances including cochlear implant, bionic eye, spray-on skin and wi-fi",
+        "researching how monitoring technologies contributed to reinstatement of traditional fire management",
+        "examining how EM radiation properties relate to its uses",
+        "exploring how scientists and engineers make machines more energy efficient",
+        "examining how advances in understanding radioactivity led to new applications"
+      ]
+    },
+    "AC9S9H03": {
+      "strand": "Science as a Human Endeavour", "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least three factors that affect adoption of science knowledge; apply these factors to analyse at least two adoption cases.",
+      "typical_width": "Analyse adoption across multiple cases (solar panels, recycling, traditional fire management, assisted reproductive technologies); identify the mix of factors (evidence, economic, policy, cultural, individual benefit) driving each adoption; explain why the same scientific knowledge can be adopted in one context and not another.",
+      "wider": [
+        "Investigate how First Nations fire management practices are informing and being adopted in contemporary fire management — examining adoption factors",
+        "Analyse factors driving adoption of solar panels and battery storage — examining economic, environmental, policy and social interactions",
+        "Examine how government initiatives like Landcare support adoption of land restoration practices",
+        "Research how recycling practices became widespread — examining the factors that drove transition from disposal to recycling"
+      ],
+      "elaborations": [
+        "researching citizen science projects related to public health",
+        "investigating how Dr Helen Mayo's research led to reduction in infant mortality",
+        "examining how assisted reproductive technologies became widely used",
+        "examining how Landcare supports adoption of land restoration practices",
+        "investigating how First Nations fire management practices are informing contemporary fire management",
+        "analysing factors leading to adoption of solar panels and battery storage",
+        "investigating how concern for environment led to widespread recycling"
+      ]
+    },
+    "AC9S9H04": {
+      "strand": "Science as a Human Endeavour", "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe at least two cases where social values or needs influenced research direction; explain the mechanism in each case.",
+      "typical_width": "Examine how funding priorities, ethical constraints, public health needs and commercial interests shape research; explain how greenhouse gas minimisation need directed science and technology; examine diverse cases including AI for IVF, green chemistry, and community-directed research.",
+      "wider": [
+        "Research how First Nations Peoples of the Torres Strait directed research on preventing disease transfer to Australia",
+        "Explore how Australia developed AI to predict IVF embryo viability — examining how medical need, technology and values aligned",
+        "Examine why manufacturers are adopting green chemistry — connecting commercial, regulatory and environmental values to research priorities",
+        "Examine how innovative energy transfer devices reflect societal needs around transport and communication"
+      ],
+      "elaborations": [
+        "exploring how governments determine which research projects should be funded",
+        "exploring how Australia developed an AI system for IVF prediction",
+        "researching how First Nations Peoples of the Torres Strait are at the forefront of preventing disease transfer",
+        "investigating how need to minimise greenhouse gas production led to scientific and technological advances",
+        "considering innovative energy transfer devices",
+        "considering how development of new materials contributed to safe sound levels",
+        "examining why manufacturers are adopting green chemistry processes"
+      ]
+    },
+    "AC9S10H01": {
+      "strand": "Science as a Human Endeavour", "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe the peer review process and explain two ways it improves reliability; describe one case where scientific findings were validated or refined through accumulated evidence.",
+      "typical_width": "Explain peer review; examine how large data sets and statistical analysis validate findings (Mendel's pea plants); examine climate model diversity despite consensus; examine Vera Rubin's dark matter validation; explain why gravitational wave detection waited 100 years after Einstein's prediction.",
+      "wider": [
+        "Examine how Rosalind Franklin's work was critical to the DNA double helix discovery — examining how contributions are acknowledged and validated",
+        "Explore how Vera Rubin's discovery of dark matter was validated — examining the gender and institutional barriers she faced",
+        "Investigate how the development of the periodic table has been disputed and refined as science progressed",
+        "Examine why there are different climate change models despite scientific consensus — exploring model diversity within consensus"
+      ],
+      "elaborations": [
+        "examining how Rosalind Franklin's work was critical to the DNA double helix discovery",
+        "exploring the role of large data sets in validating Mendel's experiments",
+        "examining why there are different climate models when there is climate consensus",
+        "exploring how Vera Rubin's discovery of dark matter was validated",
+        "examining how gravitational wave discovery validated Einstein's theory 100 years later",
+        "investigating how the periodic table has been disputed and refined"
+      ]
+    },
+    "AC9S10H02": {
+      "strand": "Science as a Human Endeavour", "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe at least two cases where technology enabled science advance; describe at least two technologies enabled by scientific knowledge.",
+      "typical_width": "Examine karyotypes and gene technologies; explain how fast computers enabled DNA sequencing and major international science projects; describe how computer modelling improved climate prediction; examine how satellites generate global climate data; trace science-to-technology pathways across multiple Y10 contexts.",
+      "wider": [
+        "Examine how fast computers made possible analysis of DNA sequencing, radio astronomy signals and data from the Large Hadron Collider, LIGO and SKA",
+        "Research how DNA data storage understanding has been applied to DNA bar coding in chemical engineering and materials science",
+        "Examine how new materials and thin films led to better computer chips and solar cells",
+        "Investigate how superstrong lighter alloys enabled engineers to design improved protective armour and structural components"
+      ],
+      "elaborations": [
+        "examining karyotypes and gene technology applications",
+        "recognising that fast computers made possible DNA sequencing analysis and major science projects",
+        "considering how computer modelling improved knowledge of climate change",
+        "investigating how satellites generate global data on ocean temperatures, sea levels and ice cover",
+        "researching how DNA data storage understanding was applied to DNA bar coding",
+        "examining how female crash test dummy use revealed women's greater injury risk",
+        "exploring how new materials led to better computer chips and solar cells",
+        "investigating how superstrong alloys improved structural components and protective armour"
+      ]
+    },
+    "AC9S10H03": {
+      "strand": "Science as a Human Endeavour", "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least three factors affecting adoption of science knowledge; apply these to analyse at least two adoption cases at Y10 band.",
+      "typical_width": "Analyse adoption of genetically engineered crops, helmet wearing requirements, genetic screening, and climate model acceptance; examine why some scientifically supported practices face adoption resistance; explain the role of citizen science in knowledge adoption.",
+      "wider": [
+        "Investigate why agricultural practices changed to include genetically engineered crops — examining evidence, economic, regulatory and cultural adoption factors",
+        "Examine how traditional ecological knowledges of First Nations Australians are being reaffirmed by modern science and adopted in carbon farming initiatives",
+        "Discuss citizen science projects (GLOBE Project) and examine why people choose to participate — connecting participation motivation to adoption of scientific practice",
+        "Examine why climate change models are accepted by scientists but contested by some in society — analysing the gap between scientific and public adoption"
+      ],
+      "elaborations": [
+        "investigating why agricultural practices changed to include genetically engineered crops",
+        "examining statistics on bicycle injuries with and without helmets and relating to helmet requirements",
+        "discussing examples of genetic screening adoption",
+        "examining why climate change models are contested by some",
+        "discussing citizen science projects like the GLOBE Project",
+        "considering how First Nations traditional ecological knowledges are being reaffirmed and used in carbon farming"
+      ]
+    },
+    "AC9S10H04": {
+      "strand": "Science as a Human Endeavour", "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe at least two cases where social values or needs influenced research direction at the Y10 band level.",
+      "typical_width": "Examine how genetic testing, space research and climate urgency shape research priorities; explain how financial backing from governments and commercial organisations determines research direction; examine the link between research and real-world applications; explore how values influence both the direction and limitations of research.",
+      "wider": [
+        "Consider genetic testing for counselling, embryo selection and mutation carrier identification — examining how social values and ethical constraints shape this research area",
+        "Research how 19th-early 20th century Australian society values and scientific misconceptions about heredity influenced policies toward First Nations Australians — examining how values shape science for harm",
+        "Examine how financial backing from governments and commercial organisations determines research priorities and creates knowledge gaps",
+        "Examine the link between space research and new material development as an example of research-to-application pipelines"
+      ],
+      "elaborations": [
+        "considering genetic testing for counselling, embryo selection, carrier identification and insurance/medical uses",
+        "researching how 19th and early 20th century Australian values influenced policies toward First Nations Australians",
+        "recognising that financial backing determines what research is carried out",
+        "examining the link between space research and new material development"
+      ]
+    },
+    "AC9S9I01": {
+      "strand": "Science Inquiry — Questioning and Hypothesising", "width_axis": "task_contexts",
+      "minimum_width": "Write one testable hypothesis in if-then format specifying a causal relationship; identify evidence that would support and evidence that would refute it.",
+      "typical_width": "Formulate testable hypotheses for Y9 science contexts; distinguish hypothesis from prediction by causal mechanism specified; explain why hypotheses must be testable; develop questions that explore explanatory models rather than describe phenomena.",
+      "wider": [
+        "Examine historical cases of untestable hypotheses — discussing what made them unscientific and what evidence could make them testable",
+        "Develop investigable questions to explore explanatory models: sound transfer through density, body temperature rise during illness",
+        "Connect hypothesis formulation to the negative feedback model — mapping a hypothesis about homeostasis to the model being tested"
+      ],
+      "elaborations": [
+        "discussing what is needed for a question to be investigable or a prediction to be reasoned",
+        "generating investigable questions about body system relationships",
+        "developing investigable questions to explore explanatory models",
+        "discussing why a scientific hypothesis must be able to be supported or refuted",
+        "proposing a hypothesis to test an identified relationship"
+      ]
+    },
+    "AC9S9I02": {
+      "strand": "Science Inquiry — Planning Valid Investigations", "width_axis": "task_contexts",
+      "minimum_width": "Explain validity and reproducibility and identify one design choice affecting each; identify at least two hazards and risk management strategies; identify at least one ethical consideration for the investigation.",
+      "typical_width": "Plan investigations meeting validity and reproducibility criteria; identify and control error sources; develop formal risk assessments for chemical and biological investigations; address animal use ethics; follow First Nations Australians' heritage site protocols.",
+      "wider": [
+        "Determine reproducibility of a field investigation using survey techniques — examining how field conditions affect reproducibility vs controlled labs",
+        "Examine First Nations Australians' heritage laws and public responsibilities to report new sites — examining legal and cultural dimensions of field investigation on Country",
+        "Discuss ethical and social issues of using animals for scientific purposes and examine the Australian regulatory framework"
+      ],
+      "elaborations": [
+        "discussing what is meant by validity and reproducibility and how they relate to method",
+        "determining reproducibility of a field investigation using survey techniques",
+        "identifying possible sources of error and examining if further testing is needed",
+        "identifying potential hazards of chemicals or biological materials",
+        "discussing ethical issues in care and use of animals",
+        "recognising First Nations Australians' heritage laws and responsibilities"
+      ]
+    },
+    "AC9S9I03": {
+      "strand": "Science Inquiry — Precision and Sample Size", "width_axis": "task_contexts",
+      "minimum_width": "Select appropriate equipment for a measurement; record data to the correct significant figures using scientific notation; explain why sample size matters for conclusions.",
+      "typical_width": "Compare instrument precision across contexts; record data to correct significant figures; use scientific notation appropriately; explain how sample size affects validity of generalisations; use data loggers; discuss inaccuracies from reading between scale markings.",
+      "wider": [
+        "Compare measuring cylinder vs pipette precision and explain when higher precision is required",
+        "Discuss how digital tools enable more efficient collection for larger sample sizes",
+        "Consider how inaccuracies from reading between scale markings affect replicability — examining systematic vs random error"
+      ],
+      "elaborations": [
+        "using an electronic balance measuring within required parameters and recording to correct significant figures",
+        "using data loggers and choosing correct scale",
+        "examining accuracy of different instruments including measuring cylinder vs pipette",
+        "considering replicability of data from different instruments",
+        "discussing amount of data needed for useful sample size",
+        "considering how digital tools enable efficient collection for larger samples"
+      ]
+    },
+    "AC9S9I04": {
+      "strand": "Science Inquiry — Representations and Statistics", "width_axis": "task_contexts",
+      "minimum_width": "Calculate mean, median and range and explain what each reveals; select an appropriate representation for a given data type and explain why it suits the purpose.",
+      "typical_width": "Use spreadsheet software for tabular and graphical representation; identify most appropriate sample statistics for generalisation; apply mathematical relationships (Sankey ratios, carbon storage formulas); compare information conveyed by different representation types.",
+      "wider": [
+        "Apply algorithms to calculate carbon storage across vegetation types using field data",
+        "Compare information conveyed by molecular models vs balanced equations for conservation of mass",
+        "Use spreadsheets to present data in tabular and graphical forms and examine how choice affects pattern visibility"
+      ],
+      "elaborations": [
+        "using spreadsheet software to present data in tabular and graphical forms",
+        "identifying which sample properties (mean, median, range) are most appropriate for generalisations",
+        "applying algorithms to measure carbon storage",
+        "applying ratios to represent energy in Sankey diagrams",
+        "comparing information from molecular models and balanced equations"
+      ]
+    },
+    "AC9S9I05": {
+      "strand": "Science Inquiry — Analysing Data", "width_axis": "task_contexts",
+      "minimum_width": "Identify a pattern or trend in a data set and explain what it means; identify at least one anomaly and suggest a possible explanation; evaluate whether extrapolating from a graph is valid.",
+      "typical_width": "Analyse data from multiple sources; connect patterns across datasets; identify proportional relationships; evaluate extrapolation validity; compare published with experimental data and identify systematic trends in differences; analyse radioactive decay data to predict half-life behaviour.",
+      "wider": [
+        "Analyse atmospheric CO₂ data from ice cores and monitoring stations — identifying patterns, trends and inconsistencies",
+        "Compare published sound insulation data with experimentally determined values and identify systematic differences",
+        "Examine radioactive decay tables, graphs and simulations to predict mass changes over time"
+      ],
+      "elaborations": [
+        "discussing validity of extrapolation from a graph",
+        "analysing atmospheric CO₂ representations from monitoring and ice cores",
+        "comparing published data with experimental data on sound insulation levels",
+        "analysing heat transfer data to identify proportional relationships",
+        "examining radioactive decay half-life data to predict mass changes"
+      ]
+    },
+    "AC9S9I06": {
+      "strand": "Science Inquiry — Evaluating Validity", "width_axis": "task_contexts",
+      "minimum_width": "Identify at least two assumptions in a method and evaluate their reasonableness; explain whether an area of uncertainty could support an alternative conclusion.",
+      "typical_width": "Assess validity and reproducibility of methods; identify assumptions and evaluate their impact on conclusions; identify areas of uncertainty; recognise conflicting evidence; evaluate secondary source validity; examine how GPs manage conflicting evidence in diagnosis.",
+      "wider": [
+        "Consider how areas of uncertainty could lead to viable alternative conclusions in real scientific debates",
+        "Evaluate validity of secondary source information — assessing what makes a source valid and how to assess data reproducibility",
+        "Consider how GPs manage conflicting evidence to diagnose illness — applying uncertainty analysis to medical decision-making"
+      ],
+      "elaborations": [
+        "discussing what is meant by 'validity' and how to evaluate secondary sources",
+        "identifying gaps or weaknesses in conclusions related to validity and reproducibility",
+        "identifying assumptions in methods and determining impact on conclusion validity",
+        "analysing methods and conclusions for hidden assumptions",
+        "considering if uncertainty could lead to a viable alternative conclusion",
+        "considering how GPs manage conflicting evidence"
+      ]
+    },
+    "AC9S9I07": {
+      "strand": "Science Inquiry — Evidence-Based Arguments", "width_axis": "task_contexts",
+      "minimum_width": "Construct one argument from at least two consistent evidence sources; evaluate the credibility of one secondary source; acknowledge cultural protocols relevant to the sources used.",
+      "typical_width": "Examine secondary data for credibility, validity and reproducibility; construct arguments from multiple consistent sources; interrogate media science claims against their methods; acknowledge First Peoples' knowledge contributions; construct arguments recognising both knowledge systems.",
+      "wider": [
+        "Identify multiple consistent sources for a claim such as vaccine effectiveness — examining how convergent evidence strengthens an argument",
+        "Acknowledge and construct an argument for First Nations Australians' contributions to medicine through knowledge of physiological pathways and medicinal delivery systems",
+        "Research methods in media-reported studies and evaluate validity of headlines against those methods"
+      ],
+      "elaborations": [
+        "examining secondary data for source credibility and data validity",
+        "identifying multiple consistent evidence sources for a claim",
+        "interrogating evidence and reasoning for claims about ancient artefact age",
+        "researching methods used in media-reported studies to evaluate headline validity",
+        "examining secondary data for personal information and appropriate citation",
+        "acknowledging relationship between First Peoples' knowledges and contemporary science",
+        "constructing an argument for First Nations contributions to medicine"
+      ]
+    },
+    "AC9S9I08": {
+      "strand": "Science Inquiry — Communicating", "width_axis": "task_contexts",
+      "minimum_width": "Produce a science text in a given form with appropriate content, language features and structure for the specified purpose and audience.",
+      "typical_width": "Produce investigation reports with validity discussion; create interactive digital presentations; plan public communication campaigns; select culturally responsive language and content; compare texts for different purposes and audiences.",
+      "wider": [
+        "Plan a social media campaign to encourage young people to reduce their carbon footprint — applying science to genuine public communication",
+        "Write an investigation report including introductory theory, results with representations, and discussion addressing validity, reproducibility and outliers",
+        "Collaborate to write a local government report on carbon storage across local ecosystems with proposals to increase storage"
+      ],
+      "elaborations": [
+        "comparing and contrasting scientific texts for different purposes and audiences",
+        "selecting culturally responsive content maintaining cultural protocols",
+        "writing investigation reports including theory, results and validity discussion",
+        "developing interactive presentations showing body system feedback loops",
+        "planning a social media campaign to reduce carbon footprint",
+        "collaborating to prepare a local government report on carbon storage"
+      ]
+    },
+    "AC9S10I01": {
+      "strand": "Science Inquiry — Questioning and Hypothesising", "width_axis": "task_contexts",
+      "minimum_width": "Write one testable hypothesis for a Y10 context; identify evidence that would support and evidence that would refute it; explain how a tested hypothesis may lead to further predictions.",
+      "typical_width": "Formulate hypotheses for Y10 contexts (heredity, evolution, climate, Newton's laws, reaction rates); explain how a tested hypothesis leads to further predictions and testing; develop hypotheses about human activity and climate using secondary data.",
+      "wider": [
+        "Observe increased extreme weather frequency and hypothesise causes from climate models — examining how observation drives hypothesis",
+        "Ask questions about crash impact force and speed — developing a testable hypothesis about the force-speed relationship",
+        "Examine how changing surface area, concentration and temperature affects reaction rate and develop reasoned predictions"
+      ],
+      "elaborations": [
+        "discussing how a tested hypothesis may lead to further predictions",
+        "developing hypotheses about human activity in climate change using secondary data",
+        "observing extreme weather events and hypothesising causes from scientific models",
+        "asking questions about crash impact force and speed and developing a hypothesis",
+        "observing how changing factors affects reaction rate and developing predictions"
+      ]
+    },
+    "AC9S10I02": {
+      "strand": "Science Inquiry — Planning Valid Investigations", "width_axis": "task_contexts",
+      "minimum_width": "Address possible error sources through equipment choice, variable control or further testing; identify safety risks and animal welfare considerations; identify cultural protocols for First Nations investigations.",
+      "typical_width": "Plan investigations addressing validity and reproducibility at Y10 level; consider confounding variables; manage chemical and biological hazards; address ethical issues with animal use; follow protocols for First Nations artefacts and heritage sites; address ethical issues in First Nations knowledge collaboration.",
+      "wider": [
+        "Address ethical issues when collaborating with First Nations Australians to develop a commercial product based on traditional ecological knowledges",
+        "Model how to report the discovery of unregistered First Nations Australians artefacts and heritage",
+        "Consider confounding variables and effects — ensuring these are controlled or accounted for in data collection and analysis planning"
+      ],
+      "elaborations": [
+        "addressing possible error sources through equipment choice, variable control or further testing",
+        "considering confounding variables and ensuring these are controlled",
+        "identifying safety risks and animal welfare impacts",
+        "identifying hazards of chemicals or biological materials",
+        "addressing ethical issues when collaborating with First Nations Australians",
+        "modelling how to report discovery of unregistered First Nations artefacts",
+        "considering ethical and social issues of animal use before starting"
+      ]
+    },
+    "AC9S10I03": {
+      "strand": "Science Inquiry — Precision and Calibration", "width_axis": "task_contexts",
+      "minimum_width": "Explain how estimation affects precision; identify at least two ways human error can affect replicability; decide how much data is needed for valid conclusions in a given context.",
+      "typical_width": "Ensure instruments are correctly calibrated; plan for recalibration between uses; explain how reading between scale markings introduces inaccuracy; identify systematic and random error sources; decide on appropriate data volume for valid conclusions.",
+      "wider": [
+        "Ensure correct calibration before use and plan for recalibration as necessary between uses",
+        "Explain how estimation affects precision and examine inaccuracy introduced when reading between markings",
+        "Identify how human error affects replicability and evaluate strategies to minimise it"
+      ],
+      "elaborations": [
+        "ensuring instruments are correctly calibrated before use and planning for recalibration",
+        "explaining how estimation affects precision and the inaccuracy from reading between scale markings",
+        "identifying how human error affects replicability",
+        "deciding how much data is needed for valid conclusions"
+      ]
+    },
+    "AC9S10I04": {
+      "strand": "Science Inquiry — Representations and Statistics", "width_axis": "task_contexts",
+      "minimum_width": "Use spreadsheet software to carry out mathematical analysis; describe sample properties (mean, median, range) and explain the effect of outliers; explain how scale choices for representing data affect interpretation.",
+      "typical_width": "Use spreadsheets for mathematical analysis; describe sample statistics acknowledging uncertainties and outlier effects; consider how data can be organised to communicate support for conclusions; evaluate merits and limitations of different representations for the same data.",
+      "wider": [
+        "Evaluate merits and limitations of time-lapse visual representations vs mathematical representation for polar ice coverage change",
+        "Compare merits and limitations of periodic table representation vs graphical representations of patterns such as melting point",
+        "Consider how data organisation and representation choices affect interpretation — examining how different representations support different conclusions"
+      ],
+      "elaborations": [
+        "using spreadsheet software for mathematical data analysis",
+        "describing sample properties including mean, median, range and outlier effects",
+        "considering how data can be organised to effectively communicate conclusions",
+        "considering how scales used affect data interpretation",
+        "evaluating merits of time-lapse vs mathematical representation of polar ice",
+        "comparing merits of periodic table vs graphical pattern representations"
+      ]
+    },
+    "AC9S10I05": {
+      "strand": "Science Inquiry — Analysing Data", "width_axis": "task_contexts",
+      "minimum_width": "Identify similar trends and patterns in data from at least two different sources; analyse species distribution data to identify patterns; evaluate how different data processing choices affect interpretation.",
+      "typical_width": "Identify similar trends across different data sources (homologous structures + fossil evidence); analyse species distribution patterns; explore climate relationships using spreadsheets and databases; represent speed and acceleration data in graphs; examine how different interpretations arise from the same data organised differently.",
+      "wider": [
+        "Identify similar trends in data from different sources such as homologous structures and fossil evidence",
+        "Analyse species distribution data in time and space to identify patterns between organisms",
+        "Explore how different interpretations can be made from data organised in different ways — examining implications for climate data analysis"
+      ],
+      "elaborations": [
+        "identifying similar trends from different sources such as homologous structures and fossil evidence",
+        "analysing species distribution data to identify patterns between organisms",
+        "exploring climate relationships using spreadsheets, databases and statistics",
+        "representing speed and acceleration data in tables and graphs",
+        "exploring how different interpretations arise from different data organisation"
+      ]
+    },
+    "AC9S10I06": {
+      "strand": "Science Inquiry — Evaluating Validity", "width_axis": "task_contexts",
+      "minimum_width": "Evaluate the strength of a conclusion inferred from a data set; distinguish random from systematic errors; identify assumptions in methods and examine if further testing is needed.",
+      "typical_width": "Evaluate conclusion strength; distinguish random and systematic errors; judge validity of media science reports; identify assumptions and evaluate their reasonableness; consider how data variation indicates uncertainty and affects confidence in conclusions.",
+      "wider": [
+        "Judge the validity of science-related media reports and how these might be interpreted by the public",
+        "Distinguish between random and systematic errors and explain how each affects investigation results differently",
+        "Consider how data variation can indicate uncertainty and might affect confidence in conclusions and claims made"
+      ],
+      "elaborations": [
+        "evaluating the strength of a conclusion from a particular data set",
+        "distinguishing between random and systematic errors",
+        "judging validity of science-related media reports",
+        "identifying assumptions in methods and examining if further testing is needed",
+        "considering how data variation indicates uncertainty",
+        "analysing conclusions to identify hidden assumptions and evaluating their reasonableness"
+      ]
+    },
+    "AC9S10I07": {
+      "strand": "Science Inquiry — Evidence-Based Arguments", "width_axis": "task_contexts",
+      "minimum_width": "Construct one argument from a range of evidence; examine secondary data for source credibility and data consistency; acknowledge cultural bias potential in scientific literature.",
+      "typical_width": "Construct arguments showing how evidence supports claims about the age of the universe; engage in evidence-based debates about human activity and climate change; reason from evidence to support or rebut media science claims; acknowledge need to critically analyse for cultural bias regarding First Nations Australians.",
+      "wider": [
+        "Construct a scientific argument showing how a range of evidence supports a claim about the age of the universe",
+        "Engage in evidence-based debates about the role of human activity in global climate change",
+        "Critically analyse scientific literature for potential cultural bias in relation to First Nations Australians",
+        "Prepare an argument for increased funding for a specific scientific research focus"
+      ],
+      "elaborations": [
+        "constructing a scientific argument showing how evidence supports a claim about the age of the universe",
+        "engaging in evidence-based debates about human activity in climate change",
+        "reasoning from evidence to support or rebut media claims",
+        "examining secondary data for source credibility and consistency",
+        "acknowledging need to critically analyse for cultural bias related to First Nations Australians",
+        "considering ethical issues of non-therapeutic genetic testing",
+        "preparing an argument for increased research funding"
+      ]
+    },
+    "AC9S10I08": {
+      "strand": "Science Inquiry — Communicating", "width_axis": "task_contexts",
+      "minimum_width": "Produce a science text with appropriate structure, content and language for a specified purpose and audience.",
+      "typical_width": "Examine how scientific texts develop arguments; write investigation reports with relevant results, argument from results, outlier explanation and error analysis; produce public communication texts about climate change; create digital infographics or animations.",
+      "wider": [
+        "Collaboratively design a public performance about climate change to encourage specific action",
+        "Create a digital infographic highlighting multiple lines of evidence from polar ice caps, ocean temperatures and extreme weather for climate change",
+        "Create an animation or comic strip explaining the Big Bang for peer audience",
+        "Create a campaign to lower speed limits in specific local community areas"
+      ],
+      "elaborations": [
+        "examining how scientific texts develop arguments and considering modification for different audiences",
+        "writing investigation reports with relevant results, discussion presenting an argument based on results with outlier explanation and error analysis",
+        "collaboratively designing a public performance about climate change",
+        "creating a digital infographic on climate change evidence from multiple sources",
+        "using animation or comic strip to explain the Big Bang for peers",
+        "creating a campaign to lower speed limits in specific areas"
+      ]
+    }
+  }
+}

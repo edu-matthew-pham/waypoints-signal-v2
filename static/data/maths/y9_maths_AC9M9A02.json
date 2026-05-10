@@ -1,0 +1,146 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9A02",
+    "title": "Binomial Products and Factorisation",
+    "description": "simplify algebraic expressions, expand binomial products and factorise monic quadratic expressions",
+    "strand": "Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can apply exponent laws to numerical and algebraic expressions (AC9M9A01) and manipulate linear expressions using algebraic properties (AC9M8A01). They have not yet expanded products of two binomials or factorised monic quadratic expressions.",
+    "progression_endpoint": "Students expand binomial products and factorise monic quadratic expressions with integer coefficients, recognising expansion and factorisation as inverse operations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Expanding binomial products",
+        "progression_checkpoint": "Students can expand a product of two linear binomials using the distributive property and simplify the result.",
+        "minimum_width": "Expand one binomial product of the form (x+a)(x+b) where a and b are positive integers; show each multiplication step; simplify by collecting like terms.",
+        "typical_width": "Expand all four sign combinations \u2014 (x+a)(x+b), (x+a)(x\u2212b), (x\u2212a)(x+b), (x\u2212a)(x\u2212b) \u2014 where a and b are positive integers; use an area model or algebra tiles to visualise the four partial products; simplify each result.",
+        "wider": [
+          "Expand products where a and b are negative integers or fractions and verify results using numerical substitution",
+          "Use algebra tiles or area models to visualise expansion and record the four partial products systematically",
+          "Expand products of the form (ax+b)(cx+d) as an extension \u2014 introduce the generalisation and identify which cases are monic"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Correctly distributing across both terms of the second binomial (the 'FOIL' pattern) is error-prone, especially with mixed signs. Students need practice with all sign combinations to build reliable mechanical fluency before moving to pattern recognition.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly expands (x+a)(x+b) for integer a and b, including when one or both are negative",
+          "Shows all four partial products before collecting like terms",
+          "Correctly simplifies the middle term (a+b)x by combining the two linear partial products"
+        ],
+        "related_standards": [
+          "AC9M8A01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Four-partial-product distribution across all sign combinations is mechanically prerequisite for N2 pattern recognition. Students who miss the inner/outer products generate wrong expansions and cannot identify the (a+b)/ab pattern."
+      },
+      {
+        "id": 2,
+        "label": "Generalising the expansion pattern",
+        "progression_checkpoint": "Students can identify the pattern (x+a)(x+b) = x\u00b2+(a+b)x+ab and use it to expand binomial products and predict features of the result.",
+        "minimum_width": "Expand three different binomial products; identify that the constant term equals a\u00d7b and the coefficient of x equals a+b; state the general pattern.",
+        "typical_width": "Use the general pattern (x+a)(x+b) = x\u00b2+(a+b)x+ab to expand binomial products and check results; predict the constant term and middle coefficient before expanding; connect the pattern to the area model (four regions).",
+        "wider": [
+          "Investigate special cases: difference of squares (x+a)(x\u2212a) = x\u00b2\u2212a\u00b2, and perfect square trinomials (x+a)\u00b2 = x\u00b2+2ax+a\u00b2 \u2014 identify these as efficient shortcuts",
+          "Explore how the general pattern extends when a or b is itself an algebraic term",
+          "Connect the expansion pattern to Pascal's triangle for powers of binomials (conceptual preview)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who have only expanded same-sign cases often fail to generalise to mixed-sign cases \u2014 they misapply the pattern when a or b is negative. Working across all four sign combinations and then naming the pattern ensures the generalisation is sign-agnostic.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The special products \u2014 difference of squares and perfect square trinomials \u2014 are both pedagogically rich and practically important. Students who recognise these patterns develop algebraic fluency that accelerates factorisation and connects to geometric identities. The difference of squares pattern in particular underpins techniques used throughout senior mathematics.",
+        "success_criteria": [
+          "States the general pattern (x+a)(x+b) = x\u00b2+(a+b)x+ab correctly",
+          "Correctly predicts the constant term and the coefficient of x for a new binomial product before expanding",
+          "Identifies at least one expansion where the middle term cancels (difference of squares)"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Factorising monic quadratics",
+        "progression_checkpoint": "Students can factorise monic quadratic expressions x\u00b2+bx+c with integer roots by finding two integers whose product is c and sum is b.",
+        "minimum_width": "Factorise one monic quadratic x\u00b2+bx+c with integer roots; show the factor pair search (find integers with product c and sum b); verify by expanding.",
+        "typical_width": "Factorise a range of monic quadratics with integer roots including positive, negative and zero constant terms; use systematic factor pair testing; verify each factorisation by expanding back; recognise when a quadratic does not factorise over integers.",
+        "wider": [
+          "Use digital tools to explore the factorisation of x\u00b2+mx+n across a systematic range of integer values of m and n \u2014 identify which combinations produce integer factor pairs and which do not",
+          "Connect factorisation to the null factor law and solving quadratic equations \u2014 show how the factorised form locates the x-intercepts",
+          "Investigate perfect square trinomials and difference of squares as special cases of factorisation"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The factor-pair search is the central hinge: students often test only positive factor pairs even when c is positive (missing negative-negative pairs that sum to a negative b). Working across all sign combinations of b and c systematically \u2014 positive b/positive c, negative b/positive c, positive b/negative c, negative b/negative c \u2014 resolves this.",
+            "flags": [
+              "hinge"
+            ]
+          },
+          {
+            "mode": "consolidation",
+            "reason": "Factor pair search becomes fluent only through practice. Students need enough repetitions with varied b and c values to automatise the search process before the cognitive load of connecting to equation solving is added.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the factor pair (two integers with the correct product and sum) for a monic quadratic",
+          "Writes the factorised form correctly as (x+p)(x+q)",
+          "Verifies the factorisation by expanding and recovering the original expression"
+        ],
+        "related_standards": [
+          "AC9M9A04"
+        ],
+        "hinge": true,
+        "hinge_reason": "Sign-restricted factor-pair search (testing only positive pairs) causes the majority of factorisation failures in AC9M9A04 equation solving. Students cannot solve quadratics algebraically without reliable factorisation."
+      },
+      {
+        "id": 4,
+        "label": "Expansion and factorisation as inverse operations",
+        "progression_checkpoint": "Students can move fluently between expanded and factorised forms of monic quadratics and explain the relationship between the two operations.",
+        "minimum_width": "Given a monic quadratic, factorise it; given the factorised form, expand it back; explain in words why expansion and factorisation are inverse operations.",
+        "typical_width": "Simplify algebraic expressions requiring both expansion and factorisation in the same problem; apply factorisation to simplify algebraic fractions (e.g. (x\u00b2+5x+6)/(x+2)); explain the inverse relationship between the two operations.",
+        "wider": [
+          "Apply factorisation to simplify algebraic fractions with monic quadratic numerators \u2014 connect to rational expression simplification",
+          "Investigate how the relationship between factorised and expanded forms maps to the relationship between multiplied and factored integers (e.g. 12 = 3\u00d74 \u2194 x\u00b2+7x+12 = (x+3)(x+4))",
+          "Explore cases where simplification requires both expansion and factorisation in sequence \u2014 e.g. simplifying expressions involving sums of products"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates expansion mechanics and factorisation strategy into a unified view of algebraic form. The key understanding \u2014 that the same quadratic expression can be written in multiple equivalent forms and that moving between them is purposeful \u2014 is the conceptual payoff of the descriptor."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly factorises a monic quadratic and verifies by expansion",
+          "Explains the inverse relationship between expanding and factorising in their own words",
+          "Identifies the correct form (expanded or factorised) to use for a given purpose (e.g. factorised to find roots, expanded to add expressions)"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

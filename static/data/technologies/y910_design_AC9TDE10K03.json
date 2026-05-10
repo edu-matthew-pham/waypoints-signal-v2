@@ -1,0 +1,130 @@
+{
+  "year_level": "9-10",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE10K03",
+    "title": "Materials, force, motion and energy in engineered systems",
+    "description": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can analyse how force, motion and energy are used to manipulate and control engineered systems (AC9TDE8K03). They can identify material properties in functional contexts. They have not yet made judgements on combinations of material properties with force, motion and energy, nor calculated structural loads or critiqued system effectiveness.",
+    "progression_endpoint": "Students analyse and make judgements on how material characteristics and properties combine with force, motion and energy to control engineered systems \u2014 including calculating forces and loads, and critiquing system effectiveness.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Material properties in engineered system design",
+        "progression_checkpoint": "Students can explain how specific material characteristics and properties are selected to perform roles in engineered systems.",
+        "minimum_width": "Identify at least two material properties (e.g. rigidity, flexibility, hardness, tensile strength) and explain why each is needed for a specific function in an engineered system.",
+        "typical_width": "Analyse how a range of material properties \u2014 rigidity, flexibility, hardness, tensile/compressive strength, weight \u2014 are combined in a specific engineered system to meet functional requirements; explain why no single material property is sufficient and how combinations address competing demands.",
+        "wider": [
+          "Investigate the engineering of First Nations Australian tools such as spearthrowers \u2014 analyse how material properties (rigidity, flexibility, hardness) are exploited in their design and explain the biomechanical advantage achieved",
+          "Compare how the same functional requirement (e.g. lightweight strength) is met differently in aerospace, civil engineering and sports equipment \u2014 explain what different constraints drive different material selections"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Material property recognition needs to be built across multiple material-system pairs before students can reliably select relevant properties for a novel engineered system. Accumulation across contexts (structural, mechanical, thermal) builds the property recognition schema.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly names at least two material properties and connects each to a specific functional role",
+          "Explains why the combination of properties is needed \u2014 not just listing each separately"
+        ],
+        "hinge": true,
+        "hinge_reason": "Material property identification at N1 is prerequisite for N2 \u2014 analysing how force, motion and energy interact with materials requires correctly knowing which properties are relevant. Misidentified properties produce incorrect system analysis."
+      },
+      {
+        "id": 2,
+        "label": "Force, motion and energy interactions in systems",
+        "progression_checkpoint": "Students can explain how force, motion and energy interact in a specific engineered system, identifying how each component contributes to system control.",
+        "minimum_width": "Describe how force, motion and energy interact in one engineered system (e.g. a crane, a car safety system, a 3D printer); explain the function of at least two components.",
+        "typical_width": "Analyse how a complex engineered system combines force, motion and energy \u2014 explaining the function of multiple components, how they interact, and how the system achieves its purpose efficiently; examine at least one system with safety-critical requirements (e.g. vehicle safety features).",
+        "wider": [
+          "Analyse the force, motion and energy interactions in vehicle safety features (seatbelts, airbags, crumple zones) \u2014 explain how each feature controls force transfer to the occupant and why the combination is more effective than any single feature",
+          "Investigate how wind turbine placement in a wind farm affects performance \u2014 explain the force and energy relationships that determine optimal layout within a given space"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Force, motion and energy interactions are best understood through contrasting system types. Safety-critical systems (crumple zones), energy harvesting (wind turbines) and mechanical production (3D printers) each foreground different aspects of the interaction and together build a more complete analytical framework.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two components in a system and explains how each contributes to system function",
+          "Explains how force, motion and energy interact \u2014 not just lists components"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot explain how force, motion and energy interact in a system cannot calculate forces correctly at N3 (they don't know what they're calculating) or critique system effectiveness at N4 (they cannot reason about what makes the combination efficient or not)."
+      },
+      {
+        "id": 3,
+        "label": "Calculating forces and making structural judgements",
+        "progression_checkpoint": "Students can calculate forces, reactions and loads in structures and make judgements about the relationship between material properties, forces and safety.",
+        "minimum_width": "Calculate at least one force, reaction or load in a simple structure; explain what the calculation tells you about safety or material requirements.",
+        "typical_width": "Calculate forces, reactions and loads in a structure (e.g. a simple bridge or truss); analyse the relationship between material properties, applied forces and safety margins; make judgements about whether a design is fit for purpose given the calculated loads.",
+        "wider": [
+          "Calculate forces in a bridge structure under load and make a judgement about whether a proposed material meets the safety requirements \u2014 explain what would happen if the material were substituted",
+          "Investigate how the placement and sizing of structural elements is optimised in a real engineered structure \u2014 explain how engineers balance material cost, safety factor and structural performance",
+          "Investigate how EV charger selection involves calculating electrical load requirements against vehicle specifications \u2014 apply quantitative reasoning to make a recommendation"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Force calculation requires procedural accuracy \u2014 sign conventions, free body diagrams, reaction forces. Students need sufficient practice with calculation procedures before they can apply them to make analytical judgements. Errors in calculation cascade into incorrect safety conclusions.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly calculates at least one force, reaction or load with appropriate units",
+          "Uses the calculation to make a judgement about material requirements or structural safety"
+        ],
+        "hinge": true,
+        "hinge_reason": "Force calculation errors at N3 directly produce incorrect structural judgements at N4 \u2014 a student who calculates a load incorrectly will judge an adequate structure as inadequate or vice versa."
+      },
+      {
+        "id": 4,
+        "label": "Critiquing system effectiveness",
+        "progression_checkpoint": "Students can critique the effectiveness of how materials, forces, energy and motion are combined in an engineered system.",
+        "minimum_width": "Identify at least one strength and one limitation in how an engineered system combines materials, forces and energy; explain what each reveals about the design.",
+        "typical_width": "Critique an engineered system's effectiveness \u2014 analyse how well the combination of materials, force, motion and energy achieves the system's purpose; identify design trade-offs, inefficiencies or safety considerations; make a judgement about whether the system is well-optimised for its purpose.",
+        "wider": [
+          "Critique the effectiveness of a 3D printer as an engineered system \u2014 analyse the relationships between its material handling, motion control and energy use and identify where design trade-offs have been made",
+          "Evaluate a wind farm layout for efficiency \u2014 analyse how turbine placement, force interactions and energy capture are optimised and where further improvement would be possible",
+          "Compare two engineered solutions to the same problem (e.g. two bridge designs) and judge which more effectively combines material properties, force management and energy efficiency"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Critique requires a judgment framework \u2014 students who are asked to evaluate without structure produce descriptive summaries. The reasoning scaffold (what is the system trying to achieve? \u2192 how well does each component contribute? \u2192 what are the trade-offs? \u2192 overall judgement) produces analytical critique.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparative system critique (two bridge designs, two energy systems) is rich \u2014 it requires students to apply the same analytical framework to contrasting cases and make a justified comparative judgement, which is the full demand of the descriptor's command term.",
+        "success_criteria": [
+          "Makes a specific critique \u2014 not just description \u2014 of how materials, force, motion or energy are combined",
+          "Supports the critique with reasoning connected to the system's purpose or safety requirements"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

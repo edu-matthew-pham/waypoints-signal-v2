@@ -1,0 +1,92 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLE05",
+    "title": "Retell and adapt familiar texts",
+    "description": "retell and adapt familiar literary texts through play, performance, images or writing",
+    "strand": "Literature",
+    "mode": "B",
+    "prior_knowledge": "Students have encountered and enjoyed literary texts. They have not yet been explicitly asked to retell a story in sequence or to adapt one — changing elements while maintaining its recognisable structure.",
+    "progression_endpoint": "Students can retell a familiar literary text in sequence through play, performance, images or beginning writing, and can adapt elements of it — changing characters, settings or events — while maintaining story structure.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Retelling maintains sequence",
+        "progression_checkpoint": "Students can retell key events from a familiar story in the correct sequence.",
+        "minimum_width": "Retell at least three events from a familiar story in order — orally, through drawing, or through sequenced pictures.",
+        "typical_width": "Retell familiar literary texts in sequence using oral retelling, drawings or sequenced pictures; include key characters and events; maintain the story's beginning, middle and end.",
+        "wider": [
+          "Retell the same story through two different modes — oral and sequenced pictures — and compare what each mode captures",
+          "Use digital tools to sequence images for a retelling and share with the class",
+          "Retell a First Nations Australian story with attention to its cultural sequence of events"
+        ],
+        "hinge": true,
+        "hinge_reason": "Sequential retelling establishes the structural knowledge of the story that adaptation in Node 3 depends on — students cannot adapt a story while maintaining its recognisable structure if they have not yet internalised that structure through accurate retelling.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Sequencing events correctly is a foundational narrative literacy skill — precision matters, and errors (missing events, wrong sequence) propagate into later story writing. Practice across multiple stories builds the habit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can retell at least three events from a familiar story in the correct order.",
+          "Student's retelling includes the beginning and ending of the story."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Role-play brings characters to life",
+        "progression_checkpoint": "Students can take on a character role from a familiar text through play or performance, enacting key events.",
+        "minimum_width": "Role-play or act out at least one scene from a familiar story, taking on a character role.",
+        "typical_width": "Retell familiar literary texts through play and performance; draw and role-play characters or events; maintain character identity and event logic during dramatic play.",
+        "wider": [
+          "Perform a familiar story as a class drama, allocating roles and rehearsing key events",
+          "Role-play the same story with different students in each role across multiple performances — discussing how different portrayals affect the story",
+          "Dramatise scenes from First Nations Australian literary texts, attending to cultural context and meaning"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can enact at least one scene from a story in role.",
+          "Student maintains the character's identity and the event's logic during play or performance."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Adaptation changes elements while keeping structure",
+        "progression_checkpoint": "Students can adapt a familiar story — changing a character, setting or event — while maintaining its recognisable structure.",
+        "minimum_width": "Change one element of a familiar story (e.g. 'What if the bear was a dog instead?') and explain what would be different.",
+        "typical_width": "Adapt familiar literary texts by changing characters, settings or events; use play, performance, drawing or digital tools to represent the adaptation; maintain story structure during adaptation.",
+        "wider": [
+          "Adapt the same story into a different setting or cultural context — discussing what changes and what must stay the same for the story to still work",
+          "Retell a story from a different character's perspective, adapting events as needed",
+          "Adapt a familiar text into a different mode — for example, turning a poem into a picture story or a story into a chant"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Adaptation requires students to hold the original structure in mind while simultaneously generating changes — coordinating prior knowledge of the text with creative generation. This integration of memory and creativity is the endpoint of this descriptor.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Adapting familiar texts — especially into different cultural contexts or across modes — is a rich creative and analytical activity with genuine opportunities for deeper engagement for advancing students.",
+        "success_criteria": [
+          "Student can retell an adapted version of a familiar story where at least one element has been changed.",
+          "Student's adaptation maintains a recognisable story structure — beginning, key events, ending.",
+          "Student can explain what they changed and why."
+        ]
+      }
+    ]
+  }
+}

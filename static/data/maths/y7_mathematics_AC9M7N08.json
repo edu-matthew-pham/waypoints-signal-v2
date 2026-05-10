@@ -1,0 +1,108 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7N08",
+    "title": "Ratios",
+    "strand": "Number",
+    "description": "recognise, represent and solve problems involving ratios",
+    "mode": "A",
+    "prior_knowledge": "Students can find fractions and percentages of quantities (from AC9M6N07). Students have experience with part-whole relationships and multiplicative thinking (from AC9M6N08, AC9M6N09).",
+    "progression_endpoint": "Students recognise and represent ratios, distinguish part-part from part-whole relationships, share quantities in given ratios, and apply ratios to practical problems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Ratio as a relationship between quantities",
+        "progression_checkpoint": "Students recognise that a ratio expresses a multiplicative relationship between two quantities and can represent ratios using diagrams and notation.",
+        "minimum_width": "Represent a given ratio using diagrams (e.g. bar model) and write it in ratio notation a:b.",
+        "typical_width": "Distinguish part-part and part-whole interpretations of the same situation; represent both and explain the difference.",
+        "wider": [
+          "Investigate equivalent ratios (simplifying and scaling) and connect to equivalent fractions.",
+          "Explore ratios in design contexts: aspect ratios of screens, mixing colours, recipe scaling."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently confuse part-part and part-whole ratio interpretations. Multiple contexts where both interpretations are valid (e.g. 2 red, 3 blue beads: 2:3 part-part; 2:5 red-to-total) are needed to resolve this.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Writes a given ratio correctly in a:b notation.",
+          "Distinguishes between part-part and part-whole interpretations of a ratio.",
+          "Represents a ratio accurately using a diagram."
+        ],
+        "related_standards": [
+          "AC9M7N04",
+          "AC9M7M06"
+        ],
+        "width_opportunity_reason": "Part-part vs part-whole ratio interpretation across design and real-world contexts is rich for advancing students — the same situation admitting both interpretations and yielding different ratios is a genuinely illuminating structural insight."
+      },
+      {
+        "id": 2,
+        "label": "Equivalent ratios and simplification",
+        "progression_checkpoint": "Students find equivalent ratios by scaling up and down, and express a ratio in simplest form.",
+        "minimum_width": "Generate two equivalent ratios for a given ratio; simplify a ratio to its simplest form.",
+        "typical_width": "Use equivalent ratios to solve scaling problems (e.g. scale up a recipe); verify equivalence using unit rates.",
+        "wider": [
+          "Connect equivalent ratios to the concept of a unit rate (1:n form) and use unit rates for comparison.",
+          "Investigate how ratios are used in maps and scale drawings."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Equivalent ratios underpin sharing and all ratio problem types. Students need fluency before applying ratios in multi-step problems.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot generate equivalent ratios and simplify cannot execute the sharing algorithm in Node 3 — finding the value of one part requires the ratio to be in a form they can work with.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly simplifies a ratio to lowest terms.",
+          "Generates equivalent ratios by multiplying or dividing both parts by the same value.",
+          "Does not confuse simplifying a ratio with subtracting the same value from both parts."
+        ],
+        "related_standards": [
+          "AC9M7N02"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Sharing in a given ratio",
+        "progression_checkpoint": "Students share a quantity in a given ratio and solve related problems.",
+        "minimum_width": "Divide a given quantity in a given two-part ratio (e.g. share $60 in ratio 2:3).",
+        "typical_width": "Solve sharing problems in two- and three-part ratios; work backwards from a share to find the total.",
+        "wider": [
+          "Investigate profit-sharing problems involving three or more partners in different ratios.",
+          "Apply sharing in ratio to real proportional contexts: mixing paint, sharing resources on Country."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Sharing in ratio requires a systematic approach (find total parts, find value of one part, multiply). Students who try to proceed intuitively make errors with non-obvious ratios. An explicit scaffold is necessary.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly shares a quantity in a two-part ratio.",
+          "Identifies the total number of parts in the ratio.",
+          "Can work backwards from a share to find the total quantity."
+        ],
+        "related_standards": [
+          "AC9M7N06",
+          "AC9M7M06",
+          "AC9M7N09"
+        ],
+        "width_opportunity_reason": "Three-part ratio sharing and working backwards from a share are rich extensions — advancing students can apply these in financial and resource allocation contexts that require multi-step proportional reasoning."
+      }
+    ]
+  }
+}

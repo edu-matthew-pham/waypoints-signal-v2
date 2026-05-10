@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LA04",
+    "title": "Cohesion devices guide readers",
+    "description": "Understand that the cohesion of texts relies on devices that signal structure and guide readers, such as overviews and initial and concluding paragraphs",
+    "strand": "Language — Text structure and organisation",
+    "mode": "A",
+    "prior_knowledge": "Students understand how cohesion can be created through intentional repetition and word associations (AC9E6LA04). They have not yet worked at the level of structural cohesion devices — how overviews, topic sentences, and concluding paragraphs function to guide readers through a text's logic.",
+    "progression_endpoint": "Students understand how cohesion devices including overviews and paragraph structure guide readers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Cohesion at the paragraph level",
+        "progression_checkpoint": "Students can identify how topic sentences and paragraph structure guide readers through a text",
+        "minimum_width": "In a given text, identify the topic sentence of at least two paragraphs; explain how each signals what the paragraph is about and connects to the text's overall direction",
+        "typical_width": "Examine how topic sentences, sentence openers and text connectives work together to create cohesion across paragraphs — how a reader can follow the text's logic by reading the opening of each paragraph",
+        "wider": [
+          "Identify how authors foreshadow how a text will unfold through sentence openers and text connectives — trace the signposting across a whole text",
+          "Compare two versions of the same text — one with strong topic sentences, one without — and discuss the difference in readability"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot reliably identify topic sentences at the paragraph level, Node 2's whole-text structural logic is inaccessible — recognising how overviews and conclusions function requires first being able to track cohesion at the paragraph level.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Topic sentence identification is a precision skill students use repeatedly across their schooling. Students commonly identify any first sentence as a topic sentence, or miss topic sentences that don't appear first. Practice with varied paragraph structures builds reliable recognition.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the topic sentence in a given paragraph",
+          "Explains how the topic sentence signals the paragraph's direction and connects to the text"
+        ],
+        "related_standards": ["AC9E7LY05", "AC9E7LY06"]
+      },
+      {
+        "id": 2,
+        "label": "Structural cohesion devices",
+        "progression_checkpoint": "Students can understand how overviews, initial paragraphs and concluding paragraphs function as cohesion devices that guide readers through the whole text",
+        "minimum_width": "Identify the overview or introductory paragraph and the concluding paragraph in a given text; explain what job each does in guiding the reader",
+        "typical_width": "Examine how the introduction (overview of what's coming), body paragraphs (developed with topic sentences), and conclusion (synthesis or restatement) work as a cohesive system — and how each part signals its function to the reader",
+        "wider": [
+          "Compare and analyse the structure of media texts such as digital news sites or print media — how do structural devices create cohesion in texts that may not have traditional paragraph structure?",
+          "Examine how the absence or disruption of cohesion devices affects readability — what happens when a text omits an overview or has no concluding paragraph?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly understand paragraph-level cohesion but don't extend it to whole-text structural logic. Seeing how overviews and conclusions function across different text types — including non-traditional structures like digital news — helps students understand cohesion as a principle rather than a formula.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digital news sites and print media offer a rich context for examining non-traditional cohesion structures — advancing students can investigate how structural devices adapt when texts are navigated non-linearly or in fragments.",
+        "success_criteria": [
+          "Identifies the overview/introduction and conclusion in a given text",
+          "Explains how each structural device guides the reader"
+        ],
+        "related_standards": ["AC9E7LA03", "AC9E7LY04"]
+      }
+    ]
+  }
+}

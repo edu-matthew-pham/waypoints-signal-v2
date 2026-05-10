@@ -1,0 +1,80 @@
+{
+  "year_level": "6",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS6S06",
+    "title": "Assess possible effects",
+    "description": "propose actions or responses to issues or challenges and use criteria to assess the possible effects",
+    "strand": "HASS Skills",
+    "mode": "B",
+    "prior_knowledge": "Students propose actions or responses to issues or challenges and use criteria to assess the possible effects (AC9HS5S06). At Y5, they forecast probable futures, undertake response projects, participate in democratic processes, and make judgements about how effectively challenges have been addressed. They can apply basic criteria to evaluate response options.",
+    "progression_endpoint": "Students propose actions or responses to issues or challenges and use criteria to assess the possible effects.",
+    "nodes": [
+      {
+        "id": "AC9HS6S06-N1",
+        "label": "Identifying and applying criteria to evaluate options",
+        "progression_checkpoint": "Students identify relevant criteria for evaluating response options to a HASS issue or challenge, and apply those criteria to assess at least two possible actions.",
+        "minimum_width": "Given an issue and two proposed responses, identify at least two criteria relevant to the issue and use those criteria to compare the options.",
+        "typical_width": "Identify and justify a set of criteria appropriate to a specific issue (economic, environmental, social, cultural factors), then apply those criteria systematically to compare multiple proposed responses, explaining how each response performs against each criterion.",
+        "wider": [
+          "Investigate how formal evaluation criteria are used in real-world decision-making (e.g. criteria for Australian of the Year, Order of Australia, school captain selection) and compare these with the criteria the class develops for their own issue.",
+          "Compare the criteria used by different stakeholders for the same issue and explain why different parties prioritise different criteria."
+        ],
+        "hinge": true,
+        "hinge_reason": "Without criteria selection and application skills, students cannot meaningfully assess possible effects in N2 — they will offer unreasoned preference for one option without systematic comparative analysis.",
+        "success_criteria": [
+          "Names at least two criteria relevant to the specific issue being investigated.",
+          "Applies criteria to at least two distinct response options.",
+          "Does not conflate personal preference with criteria-based assessment."
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Elaborations reference a rich range of issue contexts (environmental, civic, consumer) and real-world criteria examples. Students can apply the criteria-selection and application skill across multiple issue types.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "A decision matrix or structured comparison tool is the appropriate scaffold — students need the criteria visible and consistently applied before synthesis is attempted.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Wider: criteria application can extend to additional issue contexts (environmental, civic, economic) where different criteria sets are appropriate. Each new context requires the same skill in a new domain.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "AC9HS6S06-N2",
+        "label": "Proposing and planning responses with assessed effects",
+        "progression_checkpoint": "Students propose or plan a response to an identified issue or challenge and assess the possible effects of that response using criteria, including consideration of risks and alternative views.",
+        "minimum_width": "Propose one response to a real HASS issue and assess its possible effects using at least two criteria, identifying one risk or limitation of the response.",
+        "typical_width": "Plan a response to a HASS challenge (civic, environmental, economic) with a specification of actions and rationale; assess possible social, cultural, economic and environmental effects using identified criteria; acknowledge alternative views and identify strategies to minimise negative effects.",
+        "wider": [
+          "Plan, execute and evaluate a school-based or community response project (e.g. environmental action, school council proposal, fundraising campaign), assessing its effects against predetermined criteria throughout.",
+          "Use the elaboration's negotiation and consensus-building approach: present a proposed response, incorporate critique from peers representing alternative stakeholder views, and revise the proposal accordingly."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Proposal is clearly linked to an identified issue or challenge.",
+          "At least two criteria are used to assess possible effects.",
+          "At least one possible negative effect or risk is identified alongside strategies to address it.",
+          "Demonstrates that criteria (not personal preference alone) shaped the assessment."
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Elaborations span a wide range of issue contexts — environmental challenges, consumer decisions, civic projects — each of which requires the same proposing-and-assessing process. Genuine context breadth is available.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Wider students can apply the propose-assess-effects process across multiple issue domains (civic, environmental, economic), with each domain bringing different criteria and effects into focus.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "repertoire_building",
+            "reason": "Students who engage with the full project cycle (plan, execute, evaluate against criteria) are building a practitioner repertoire for civic and environmental response — the thinking is only fully legible through enacted work."
+          }
+        ]
+      }
+    ]
+  }
+}

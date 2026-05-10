@@ -1,0 +1,117 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLY10",
+    "title": "Segment and blend phonemes",
+    "description": "segment sentences into individual words; orally blend and segment single-syllable spoken words; isolate, blend and manipulate phonemes in single-syllable words (phonological awareness)",
+    "strand": "Literacy — Phonic/Word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise phonemes (AC9EFLY09). They have not yet been explicitly taught to blend phonemes into words, segment words into phonemes, or manipulate individual phonemes by substitution, addition or deletion.",
+    "progression_endpoint": "Students can blend phonemes into words, segment single-syllable words into phonemes, and manipulate phonemes by addition, deletion and substitution — demonstrating secure phoneme-level awareness across a range of single-syllable word types.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sentences are strings of words",
+        "progression_checkpoint": "Students can segment a spoken sentence into its individual words — identifying where word boundaries fall.",
+        "minimum_width": "Segment a spoken sentence of three to four words into individual words by clapping or tapping.",
+        "typical_width": "Segment sentences into individual words; understand that words are the units within sentences; count words in short spoken sentences.",
+        "wider": [
+          "Apply word segmentation to sentences of varying length — including sentences with contractions and function words",
+          "Connect spoken word segmentation to written word spaces — matching oral and print word boundaries"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly segments a spoken sentence into its individual words.",
+          "Student can count the number of words in a spoken sentence."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Blending: sounds into words",
+        "progression_checkpoint": "Students can blend a sequence of separately spoken phonemes into a recognisable word.",
+        "minimum_width": "Blend three phonemes into a CVC word when given the sounds separately (e.g. /l/-/i/-/p/ → 'lip').",
+        "typical_width": "Blend phonemes of single-syllable spoken words — including CVC, CVCC and CCVC patterns; produce the target word correctly from the phoneme sequence.",
+        "wider": [
+          "Blend phoneme sequences across a wide range of single-syllable word types — varying vowels, clusters and codas",
+          "Apply blending to words containing digraphs once grapheme knowledge is established",
+          "Practise blending through word games, oral riddles and chants — building fluent blending as a reading tool"
+        ],
+        "hinge": true,
+        "hinge_reason": "Blending fluency is the core decoding mechanism in LY04 and LY12 — students who cannot reliably blend phonemes into words cannot read connected text using phonics, and their decoding will remain halting and inaccurate.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Blending fluency is the core decoding mechanism — it must become fast and accurate. Slow or inaccurate blending limits reading. Practice to fluency across word types is required before width adds value.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student blends three separately spoken phonemes into a recognisable word.",
+          "Student can blend words of varying CVC, CVCC and CCVC patterns."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Segmenting: words into sounds",
+        "progression_checkpoint": "Students can segment a single-syllable spoken word into its constituent phonemes — saying each sound separately.",
+        "minimum_width": "Segment a CVC word into three phonemes (e.g. 'can' → /c/-/a/-/n/).",
+        "typical_width": "Segment single-syllable spoken words into phonemes — including CVC, CVCC and CCVC patterns; say each phoneme distinctly; understand this as the inverse of blending.",
+        "wider": [
+          "Segment words across a wide range of single-syllable types — varying onset, vowel and coda",
+          "Apply segmenting to words with digraphs (once grapheme knowledge supports this) — recognising that 'sh' is one phoneme",
+          "Connect segmenting to spelling — use segmentation to support encoding in writing tasks"
+        ],
+        "hinge": true,
+        "hinge_reason": "Segmenting is the prerequisite for spelling — students who cannot segment a spoken word into phonemes cannot apply letter-sound knowledge to encode it in writing (LY12, LY13). Segmenting errors propagate directly into misspelling.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Segmenting is the inverse of blending and equally foundational for spelling. Consistent accuracy across word types is required — errors propagate directly into misspelling.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student segments a CVC word into three separate phonemes.",
+          "Student can segment both onset and rime of a word."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Phoneme manipulation: add, delete, substitute",
+        "progression_checkpoint": "Students can manipulate phonemes in single-syllable words by addition, deletion and substitution — generating new words.",
+        "minimum_width": "Substitute the initial phoneme in a given word to make a new word (e.g. 'run' → 'fun').",
+        "typical_width": "Manipulate phonemes by addition, deletion and substitution at initial, medial and final positions; generate new words through each manipulation type; understand that changing one phoneme changes the word.",
+        "wider": [
+          "Practise phoneme manipulation across all positions — initial, medial, final — systematically exploring minimal pairs",
+          "Apply phoneme manipulation to generate a range of words for a rime family — building awareness of word families as phonemic units",
+          "Explore phoneme manipulation through word games, chants and minimal pair comparisons"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Phoneme substitution and deletion can feel arbitrary without multiple examples — students need to work across initial, medial and final positions, and across addition/deletion/substitution, before the principle that phonemes are independently manipulable is secure."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can substitute the initial phoneme to make a new word.",
+          "Student can delete the initial phoneme and say what remains.",
+          "Student can add a phoneme to generate a new word."
+        ]
+      }
+    ]
+  }
+}

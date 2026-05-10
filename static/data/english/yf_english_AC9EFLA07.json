@@ -1,0 +1,70 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLA07",
+    "title": "Images and words make meaning",
+    "description": "explore the contribution of images and words to meaning in stories and informative texts",
+    "strand": "Language — Expressing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students have been read picture books and interacted with illustrated texts. They have not yet been explicitly asked to separate and compare what words contribute versus what images contribute to meaning.",
+    "progression_endpoint": "Students can describe what images add to a text beyond the words, and what words add beyond the images — recognising that words and images work together in different ways across different texts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Images carry meaning",
+        "progression_checkpoint": "Students can identify that images in a text communicate meaning — that looking at images alone tells us something.",
+        "minimum_width": "Identify at least one thing a picture tells us in a familiar text that is not said in words.",
+        "typical_width": "Explore what images communicate in stories and informative texts; identify information that comes from images alone; recognise that images extend meaning beyond the words.",
+        "wider": [
+          "Cover the words in a picture book and try to tell the story from images only — then uncover words and compare",
+          "Compare illustrations in a picture book by a First Nations Australian illustrator with illustrations in another picture book — what different types of meaning do images carry?"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students treat images as decoration rather than meaning-carriers, they cannot compare what images and words contribute differently in Node 2 — the comparative analysis depends on images already being understood as independent sources of meaning.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "The understanding that images carry meaning independently of words needs to be established reliably before students can compare the distinctive contributions of each mode. Practice across multiple texts — including with words covered — builds this understanding.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can name something an image communicates that is not stated in the written text.",
+          "Student can explain that images are a source of meaning, not just decoration."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Words and images work differently",
+        "progression_checkpoint": "Students can identify that words and images each contribute different things to a text's meaning — what each mode does distinctively.",
+        "minimum_width": "Identify one thing the words tell us and one thing the images tell us in the same text.",
+        "typical_width": "Identify where written text is reflected in images and where it is not; recognise that texts can be understood differently when only words or only images are attended to; explore this across stories and informative texts.",
+        "wider": [
+          "Compare two texts on the same topic — one image-heavy, one mostly words — and discuss how the balance of modes affects meaning",
+          "Create a brief multimodal text (drawing + labels) where each mode contributes something different, then explain what each contributes",
+          "Explore texts by First Nations Australian authors/illustrators where visual elements carry cultural meaning — identifying what images communicate that words alone would not"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The risk is that students see words and images as simply 'the same information twice'. Multiple text types — where images sometimes extend, contradict or add cultural meaning not in words — are needed to break this exemplar.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The multimodal literacy dimension here is genuinely rich — especially through First Nations Australian illustrators whose visual choices carry distinct cultural meanings. Advancing students can investigate how visual grammar (colour, perspective, framing) creates meaning beyond the literal content of images.",
+        "success_criteria": [
+          "Student can describe what the images contribute to a text beyond what the words say.",
+          "Student can describe what the words contribute beyond what the images show.",
+          "Student can explain why both modes are needed to understand the text fully."
+        ]
+      }
+    ]
+  }
+}

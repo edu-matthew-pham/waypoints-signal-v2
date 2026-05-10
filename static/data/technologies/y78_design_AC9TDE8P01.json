@@ -1,0 +1,141 @@
+{
+  "year_level": "7-8",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE8P01",
+    "title": "Analyse opportunities and select resources",
+    "description": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can investigate needs or opportunities for designing and identify materials, components, tools, equipment and processes needed to create designed solutions (AC9TDE6P01). They have not yet analysed needs to justify design opportunities, nor selected and justified specific resources based on evidence such as testing, sustainability or fitness for purpose.",
+    "progression_endpoint": "Students analyse a need or opportunity by examining the context, constraints and stakeholders involved, then investigate and select materials, components, tools, equipment and processes with justification, demonstrating that their selections are fit for purpose in creating designed solutions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Analysing needs and opportunities",
+        "progression_checkpoint": "Students can analyse a need or opportunity for designing by identifying who it is for, what the constraints are, and why the opportunity exists.",
+        "minimum_width": "Given a design brief, identify the need or opportunity, name the intended user(s), and state at least two constraints (e.g. cost, available materials, context of use).",
+        "typical_width": "Analyse a need or opportunity by considering community context, examining who benefits and who is affected, and identifying constraints including sustainability considerations.",
+        "wider": [
+          "Analyse design opportunities for First Nations Australian communities in specific contexts such as remote energy supply or community housing, identifying how place and culture shape the design need.",
+          "Compare two design opportunities from different community contexts (e.g. urban school canteen vs. rural sports club) and analyse how context changes the constraints and priorities."
+        ],
+        "hinge": true,
+        "hinge_reason": "The quality of the analysis at this node determines every downstream decision — material selection at Node 2, justified selections at Node 3, and the coherent design direction at Node 4 all depend on a well-understood need. Students who list a surface-level want rather than analysing context and constraints cannot make justified selections or demonstrate a traceable design direction.",
+        "success_criteria": [
+          "Names the intended user(s) and explains what makes the need or opportunity specific to them",
+          "Identifies at least two constraints and explains how each shapes what the designed solution must do",
+          "Distinguishes between a surface-level want and an analysed need grounded in context"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The quality of the analysis at this node determines every downstream decision — material selection, process choice and evaluation criteria all flow from how well the need is understood. Students who treat the need superficially (listing a want rather than analysing context and constraints) will make unjustified selections at Nodes 3 and 4.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8K01",
+          "AC9TDE8P04"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Investigating materials and processes",
+        "progression_checkpoint": "Students can investigate a range of materials, components, tools, equipment and processes by examining and testing their properties and characteristics.",
+        "minimum_width": "Examine and test at least two materials or components relevant to a design task; describe the properties that make each suitable or unsuitable.",
+        "typical_width": "Examine and test a variety of materials, components, tools and equipment; compare traditional and contemporary technologies, discovering advantages and disadvantages of each approach (e.g. hand-sewn vs. machine-sewn product).",
+        "wider": [
+          "Investigate emerging technologies such as self-healing materials, flame-retardant fabrics, virtual reality or aquaponics and evaluate how they expand the range of available design options.",
+          "Research how material properties differ across contexts — for example, how the durability differences between natural hardwood and plantation softwood determine suitability for interior vs. exterior use."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who have investigated only two materials or processes cannot make justified selections at Node 3 — justification requires having compared enough options to explain why the chosen option is the most appropriate, not just that it works.",
+        "success_criteria": [
+          "Names specific properties of at least two materials or processes and connects each property to the design task",
+          "Describes an advantage and a disadvantage of at least one material, component or process investigated"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Material investigation is inherently accumulative — students need to examine and test a range of materials, components and processes before they can make justified selections at Node 3. More materials tested = richer repertoire to draw from. The breadth here is the investigation range, not the testing process.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The emerging technologies direction (self-healing materials, aquaponics, VR) offers genuinely rich investigation for advancing students, expanding their sense of what's available for design solutions beyond conventional materials.",
+        "related_standards": [
+          "AC9TDE8K06",
+          "AC9TDE8K03",
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Selecting and justifying resources",
+        "progression_checkpoint": "Students can select materials, components, tools, equipment and processes for a design task and justify their selections based on evidence from investigation.",
+        "minimum_width": "Select materials and processes for a design task; provide a reason for each selection that references a property or test result from Node 2.",
+        "typical_width": "Select and justify resources by weighing multiple factors — properties, availability, cost, sustainability (using life cycle thinking) — and explain trade-offs between alternatives.",
+        "wider": [
+          "Analyse the viability of selected materials and techniques for use in remote, isolated or less developed contexts, using life cycle assessment to justify sustainability claims.",
+          "Evaluate a peer's resource selections against the analysed need from Node 1 — do the selections address the identified constraints?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 4 requires demonstrating a traceable link from the analysed need through investigation to resource selection — if selections at Node 3 are not linked to evidence from Node 2 and the constraints from Node 1, the integration task collapses into a list of choices without justification.",
+        "success_criteria": [
+          "Each selected resource is linked to a specific property or characteristic established during investigation",
+          "Justification references the analysed need or constraints from Node 1, not just personal preference",
+          "Identifies at least one trade-off considered during selection (e.g. cost vs. durability, sustainability vs. availability)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Selection with justification is the core demand of the descriptor — the point where 'analyse' and 'select' integrate. Students who select without linking back to the analysed need or without referencing evidence from investigation are not meeting the standard. This is where the command term shift from Year 5-6 ('investigate') to Year 7-8 ('analyse... and select') is assessed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8K06",
+          "AC9TDE8P03",
+          "AC9TDE8P04"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Integrating analysis into design decisions",
+        "progression_checkpoint": "Students can demonstrate how their analysis of needs, investigation of resources, and justified selections come together to inform a coherent design direction.",
+        "minimum_width": "Present a design direction that traces the path from analysed need through investigated options to selected resources, showing how each decision connects to the one before it.",
+        "typical_width": "Document the full analysis-to-selection process for a design task, including how sustainability considerations and community needs shaped resource decisions; identify one decision that changed after investigation and explain why.",
+        "wider": [
+          "Create a survey or consultation process to determine user needs (e.g. students' food choices for a school canteen) and use the findings to drive material and process selection for a designed solution.",
+          "Compare two viable design directions for the same need, each using different resource selections, and analyse the trade-offs between them."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "The design direction shows a traceable link from the analysed need through investigation to resource selection",
+          "Can explain at least one decision that was shaped or changed by evidence gathered during investigation"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to assemble the full analysis-to-selection chain from Nodes 1–3 into a coherent design direction. Students who have understood each component separately often struggle to show how each decision flows from the previous one. The integration task surfaces whether analysis and selection are genuinely connected or held as separate activities.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The survey/consultation direction offers advancing students a genuine inquiry cycle — going out to stakeholders, gathering data, and letting findings drive design decisions — which is richer than working from a given brief.",
+        "related_standards": [
+          "AC9TDE8P02",
+          "AC9TDE8P04",
+          "AC9TDE8K01"
+        ]
+      }
+    ]
+  }
+}

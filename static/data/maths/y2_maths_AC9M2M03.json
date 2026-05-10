@@ -1,0 +1,61 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2M03",
+    "title": "Use calendars",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "identify the date and determine the number of days between events using calendars",
+    "prior_knowledge": "Students sequence and describe duration of events and order them using time language (AC9M1M03). They have not yet used a calendar to identify specific dates or calculate the number of days between events.",
+    "progression_endpoint": "Students identify specific dates on a calendar and determine the number of days between events by reading and using calendar structure.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reading a calendar",
+        "progression_checkpoint": "Students can locate a specific date on a calendar and identify what day of the week it falls on.",
+        "minimum_width": "Locate a given date on a monthly calendar; state the day of the week it falls on.",
+        "typical_width": "Locate specific dates on a calendar including school events, birthdays, public holidays; identify the day of the week for each; create a class calendar with significant dates entered.",
+        "wider": [
+          "Locate and identify culturally significant dates: ANZAC Day, Easter, Diwali, Ramadan, school holidays; discuss why dates for some events change each year",
+          "Create a class calendar; enter student birthdays and upcoming school events; use it to answer questions about upcoming dates"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locates a named date on a monthly calendar",
+          "Identifies the day of the week for a given date"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Days between events",
+        "progression_checkpoint": "Students can determine the number of days between two events using a calendar, including events in the same month and across months.",
+        "minimum_width": "Count the days between two events in the same month using a calendar.",
+        "typical_width": "Determine the number of days between events within and across months; use addition to total days across months; locate a date 2 weeks prior to or after a given date.",
+        "wider": [
+          "Model 'How many days are left in this year?' by identifying days remaining in the current month and adding remaining full months; use addition to solve",
+          "Investigate how many days are in each month; discuss why some months have different numbers of days"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Counting days across a month boundary requires a multi-step reasoning process (days remaining in first month + days in intervening months + days in final month). The reasoning scaffold needs to be made visible and practised before students can apply it independently."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Counts the number of days between two events in the same month",
+          "Determines the date 2 weeks after a given date using a calendar"
+        ]
+      }
+    ]
+  }
+}

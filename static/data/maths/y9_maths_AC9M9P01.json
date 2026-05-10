@@ -1,0 +1,109 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9P01",
+    "title": "Compound Events",
+    "description": "list all outcomes for compound events both with and without replacement, using lists, tree diagrams, tables or arrays; assign probabilities to outcomes",
+    "strand": "Probability",
+    "mode": "A",
+    "prior_knowledge": "Students can conduct repeated chance experiments and simulations using digital tools to determine probabilities for compound events (AC9M8P03). They have not yet systematically listed all outcomes for compound events using structured methods, or formally distinguished with-replacement from without-replacement sampling.",
+    "progression_endpoint": "Students list all outcomes for compound events with and without replacement using systematic methods and assign probabilities to all outcomes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Systematic listing of compound event outcomes",
+        "progression_checkpoint": "Students can list all outcomes for a two-step compound event using a systematic method (list, tree diagram, table or array).",
+        "minimum_width": "List all outcomes for one two-step compound event using a tree diagram or table; confirm that all outcomes have been found by checking the total count matches the product of possibilities at each stage.",
+        "typical_width": "List all outcomes for a range of two-step and three-step compound events using appropriate methods (lists, tree diagrams, tables/arrays); choose the method suited to the structure of the experiment; verify completeness by counting.",
+        "wider": [
+          "Investigate systematic listing for events with equal-probability outcomes (fair coins, dice) and compare to events with unequal probabilities (biased spinner)",
+          "Investigate the connection between the total number of outcomes and multiplication \u2014 explain why a two-step experiment with m and n outcomes at each stage has m\u00d7n total outcomes",
+          "Explore how systematic listing underpins combinatorial counting and preview the concept of factorial notation"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Systematic and complete listing \u2014 without missing or duplicating outcomes \u2014 requires careful procedural practice. Students commonly miss outcomes when listing without a structured method. Building the habit of using tree diagrams or arrays, and checking totals, is the key mechanical fluency for this node.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Lists all outcomes using a systematic method (tree diagram, table or array)",
+          "Verifies completeness by confirming the count matches the expected number of outcomes",
+          "Represents the outcome space clearly with no duplicates or omissions"
+        ],
+        "related_standards": [
+          "AC9M8P03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Systematic and complete listing (no missing or duplicate outcomes) is prerequisite for correct probability assignment in N3. Students who miss outcomes assign probabilities that do not sum to 1 and cannot detect the error."
+      },
+      {
+        "id": 2,
+        "label": "With and without replacement",
+        "progression_checkpoint": "Students can explain how replacing or not replacing changes the sample space and the probabilities assigned to outcomes.",
+        "minimum_width": "List outcomes for one compound event first with replacement, then without; compare the two sample spaces and explain how one outcome's probability changes.",
+        "typical_width": "Compare the sample space and probabilities for compound events with and without replacement across a range of contexts; explain the structural reason for the difference (without replacement: each draw reduces the available outcomes); assign correct probabilities to branches of tree diagrams in both cases.",
+        "wider": [
+          "Investigate how card drawing problems (with and without replacement) change probabilities and relate this to real card games",
+          "Explore how with/without replacement affects the fairness of random selection processes (e.g. selecting team leaders, committee members)",
+          "Connect the without-replacement structure to combinations \u2014 discuss informally how the probability of specific ordered sequences compares to unordered selections"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly apply with-replacement probabilities even in without-replacement contexts, or vice versa, because they focus on the type of event rather than the sampling structure. Explicitly contrasting identical scenarios under both conditions \u2014 same container, same items, only the replacement rule changes \u2014 makes the structural difference salient.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly adjusts the sample space and branch probabilities when replacement is removed",
+          "Explains why without-replacement probabilities change at each stage",
+          "Correctly assigns probabilities to at least three outcomes in a without-replacement tree diagram"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who apply with-replacement probabilities in without-replacement contexts (or vice versa) assign wrong branch probabilities in N3 tree diagrams. The structural distinction must be secure before probability assignment."
+      },
+      {
+        "id": 3,
+        "label": "Assigning probabilities to compound event outcomes",
+        "progression_checkpoint": "Students can assign probabilities to all outcomes of a compound event and verify that probabilities sum to 1.",
+        "minimum_width": "Assign probabilities to all outcomes of one compound event (with or without replacement); verify the probabilities sum to 1.",
+        "typical_width": "Assign probabilities to all outcomes of compound events with and without replacement; calculate the probability of a specific compound outcome by multiplying along branches; verify total probability sums to 1; apply to solve probability problems.",
+        "wider": [
+          "Use repeated trials of First Nations Australian children's instructive games (e.g. Gorri) to calculate probabilities of winning and not winning compound events \u2014 compare assigned theoretical probabilities to experimental results",
+          "Assign probabilities to multi-stage compound events (three draws, selecting 3 cards) and calculate the probability of a specific sequence",
+          "Investigate symmetry in compound event probability \u2014 show that different orderings of the same outcome types (e.g. HT vs TH) have equal probability"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Assigning correct probabilities integrates the systematic listing of outcomes with the with/without replacement distinction and the multiplication of probabilities along branches. Students who have done each step separately often make errors at the integration point \u2014 particularly forgetting to adjust denominator values in without-replacement scenarios.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations Australian instructive games as a context for compound event probability offers genuinely rich cultural and mathematical engagement. Students who calculate theoretical probabilities and compare to experimental results from actual play develop both probabilistic reasoning and cultural appreciation.",
+        "success_criteria": [
+          "Assigns correct probabilities to all outcomes of a compound event",
+          "Multiplies probabilities along branches correctly to find the probability of a specific compound outcome",
+          "Verifies that all outcome probabilities sum to 1"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3SP02",
+    "title": "Mapping and location",
+    "strand": "Space",
+    "mode": "A",
+    "description": "interpret and create two-dimensional representations of familiar environments, locating key landmarks and objects relative to each other",
+    "prior_knowledge": "Students can locate positions in two-dimensional representations of a familiar space and move positions by following directions and pathways (AC9M2SP02). They have not yet created their own two-dimensional maps or described the relative positions of multiple landmarks simultaneously.",
+    "progression_endpoint": "Students interpret and create two-dimensional maps of familiar environments, locating landmarks and objects relative to each other.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Interpreting 2D maps",
+        "progression_checkpoint": "Students can use a 2D map to locate key landmarks and describe their positions relative to each other using directional and spatial language.",
+        "minimum_width": "Use a given 2D map to locate three landmarks and describe the position of two relative to a third using spatial language.",
+        "typical_width": "Interpret a range of 2D maps (classroom, school grounds, local area); locate landmarks and describe relative positions using compass directions, grid references and spatial language.",
+        "wider": [
+          "Interpret aerial photographs and compare them with drawn maps — exploring what information each representation emphasises",
+          "Explore how First Nations Australians represent country in maps, artworks and stories, comparing with Western mapping conventions"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often interpret maps of only one type (school grounds) and cannot transfer spatial reasoning to other contexts. Encountering varied representations — including aerial photos and First Nations maps — broadens the concept of what a map is.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations mapping traditions and the comparison with aerial photography provide genuine conceptual richness about representation, perspective and the social purposes of mapping.",
+        "success_criteria": [
+          "Students can locate a specified landmark on a 2D map.",
+          "Students can describe the position of one landmark relative to another using spatial language."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Creating 2D maps",
+        "progression_checkpoint": "Students can create a 2D representation of a familiar environment that shows the key landmarks and their relative positions.",
+        "minimum_width": "Create a simple map of a familiar space (e.g. classroom or bedroom) showing at least four landmarks in approximately correct relative positions.",
+        "typical_width": "Create 2D maps of familiar environments with an appropriate key, scale indication and correct relative positions of landmarks; evaluate maps against the actual environment.",
+        "wider": [
+          "Create maps of the school grounds or local area using grid references, comparing the map with a digital satellite view",
+          "Use digital mapping tools to create and annotate maps, discussing the conventions used by digital platforms"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can create a 2D map of a familiar space with landmarks placed in approximately correct relative positions.",
+          "Students can explain why they placed a landmark where they did in relation to another landmark."
+        ]
+      }
+    ]
+  }
+}

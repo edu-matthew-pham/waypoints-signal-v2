@@ -1,0 +1,97 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7SP01",
+    "title": "2D Representations of 3D Objects",
+    "strand": "Space",
+    "description": "represent objects in 2 dimensions; discuss and reason about the advantages and disadvantages of different representations",
+    "mode": "A",
+    "prior_knowledge": "Students can compare parallel cross-sections and recognise their relationship to right prisms (from AC9M6SP01). Students have informal experience with drawings of 3D objects.",
+    "progression_endpoint": "Students represent 3D objects using nets, isometric drawings, and plan/elevation views, and reason about the advantages and disadvantages of each representation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Nets of prisms and other 3D objects",
+        "progression_checkpoint": "Students identify, draw and construct nets of prisms and other common 3D objects.",
+        "minimum_width": "Identify which nets will fold to make a cube or rectangular prism; draw a net for a triangular prism.",
+        "typical_width": "Test multiple possible nets for the same object; identify which are valid; construct 3D objects from nets.",
+        "wider": [
+          "Investigate how many valid nets a cube has (11) — systematically find them all.",
+          "Design and construct nets for less familiar solids (square pyramid, cylinder)."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students develop spatial reasoning for nets by working with multiple 3D objects. Restricting practice to cubes gives a false sense of mastery that fails with other prisms."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly identifies valid nets for a cube and rectangular prism.",
+          "Draws a net that folds correctly to produce a given 3D object.",
+          "Does not include overlapping faces in a net."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 2,
+        "label": "Isometric and plan/elevation drawings",
+        "progression_checkpoint": "Students draw and interpret isometric drawings and plan/elevation views (front, back, side, top) of 3D objects.",
+        "minimum_width": "Construct at least two views (e.g. top and front) of a given 3D object; interpret an isometric drawing.",
+        "typical_width": "Draw all standard views of a given object; build an object from its views; use isometric paper to draw 3D objects.",
+        "wider": [
+          "Interpret aerial/isometric views of real buildings or structures and identify the 3D object they represent.",
+          "Investigate 2D representations in First Nations Australian art — discuss what spatial information is conveyed."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Interpreting and drawing 2D representations of 3D objects requires systematic reasoning: which face is visible from each view? Students who proceed intuitively produce inconsistent views.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who produce inconsistent views cannot reason about representation trade-offs in Node 3 — they cannot evaluate whether a net or isometric view is more useful without being able to correctly produce and read both.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly draws at least two views of a 3D object.",
+          "Reconstructs a 3D object from its views.",
+          "Does not confuse view orientation (e.g. top vs front)."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 3,
+        "label": "Advantages and disadvantages of different representations",
+        "progression_checkpoint": "Students reason about when each type of 2D representation is most useful and what information each preserves or loses.",
+        "minimum_width": "Identify one advantage and one disadvantage of using a net vs an isometric drawing for the same object.",
+        "typical_width": "Compare representations for a range of objects and purposes; match the representation to the task (e.g. net for construction, isometric for communication).",
+        "wider": [
+          "Investigate professional contexts: architects use plans, packaging designers use nets, engineers use orthographic views — discuss why.",
+          "Evaluate: which representation best communicates a given 3D design decision?"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Reasoning about representation trade-offs requires familiarity with all representation types simultaneously — this node integrates the prior two nodes.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "States at least one advantage and one disadvantage for two different representations.",
+          "Selects an appropriate representation for a given purpose and justifies the choice.",
+          "Recognises that no single representation shows all information about a 3D object."
+        ],
+        "related_standards": [],
+        "width_opportunity_reason": "Reasoning about representation trade-offs in professional contexts (architecture, packaging, engineering) offers advancing students genuine applied spatial thinking — selecting and justifying the best representation for a purpose is a rich design task."
+      }
+    ]
+  }
+}

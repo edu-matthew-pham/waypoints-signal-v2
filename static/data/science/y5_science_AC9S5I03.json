@@ -1,0 +1,44 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5I03",
+    "title": "Observing and Measuring",
+    "description": "use equipment to observe, measure and record data with reasonable precision, using digital tools as appropriate",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can read familiar scaled instruments and record observations systematically (AC9S3I03, 3-4 band). They now extend to selecting equipment for precision, using standard units with prefixes, and recording data electronically.",
+    "progression_endpoint": "Students select equipment appropriate to the precision required, measure and record data using standard units and prefixes, discuss why precision matters for investigation findings, and use digital tools where appropriate.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Equipment is selected for the precision the investigation requires",
+        "progression_checkpoint": "Students can explain why different equipment gives different levels of precision, select appropriate equipment for a given measurement task, and describe the effect of low precision on investigation findings.",
+        "minimum_width": "Students compare the precision of two instruments for the same measurement and select the more appropriate one, explaining their reasoning.",
+        "typical_width": "Students select appropriate equipment across investigation types, explain why precision matters for investigation conclusions, use standard units with metric prefixes (kilo-, milli-) consistently, and record data in tables, diagrams or digital formats.",
+        "wider": [
+          "Explore which equipment gives the most appropriate precision for different investigation contexts — comparing cup vs measuring jug vs digital scale for mass measurement",
+          "Use digital tools (digital photography, spreadsheets) to record and organise observation data — examining what digital recording adds in accuracy and reproducibility",
+          "Investigate how the precision of measurement equipment affects whether a difference between two conditions can be detected"
+        ],
+        "hinge": true,
+        "hinge_reason": "Precision measurement with appropriate equipment is a prerequisite for I04 data representation and I05 error analysis — students who do not measure with adequate precision cannot construct meaningful representations or identify measurement error as a specific error source. Imprecision at I03 propagates as systematically poor data through all downstream inquiry nodes.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Precise measurement with standard units requires consistent accurate practice across investigation types. Students at this band must apply precision reasoning independently — not just follow instructions — which requires encountering precision decisions across varied measurement contexts.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Selects appropriate equipment for a given measurement task and explains the reasoning",
+          "Records data using standard units with appropriate metric prefixes",
+          "Explains how low precision could affect the conclusions of an investigation"
+        ]
+      }
+    ]
+  }
+}

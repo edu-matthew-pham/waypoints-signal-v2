@@ -1,0 +1,90 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLA04",
+    "title": "Conventions of print and screen",
+    "description": "understand conventions of print and screen, including how books and simple digital texts are usually organised",
+    "strand": "Language — Text structure",
+    "mode": "A",
+    "prior_knowledge": "Students have been handled books and interacted with digital devices at home and in early childhood settings. They have not yet been explicitly taught or asked to name the conventions that organise print and screen texts.",
+    "progression_endpoint": "Students can demonstrate and explain the key conventions of print and screen texts — directionality, title identification, image/word placement, and basic digital navigation — and understand that these are conventions rather than arbitrary arrangements.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Print is directional",
+        "progression_checkpoint": "Students can demonstrate that written English is read left to right and top to bottom, and can apply this when approaching a new text.",
+        "minimum_width": "Demonstrate left-to-right, top-to-bottom reading direction when approaching a familiar book or text.",
+        "typical_width": "Understand and apply print conventions for directionality; indicate where to start reading on a page; return correctly to the next line when reading.",
+        "wider": [
+          "Compare English print direction with texts written in other directions — right-to-left or vertical scripts — and discuss why conventions differ",
+          "Explore how directionality affects the layout of a page — where images appear, how text is positioned"
+        ],
+        "hinge": true,
+        "hinge_reason": "Print directionality is a prerequisite for both Node 2 (identifying title and starting point requires knowing where reading begins) and LY04 (reading connected text requires correct directional tracking) — without it, all print-based literacy tasks collapse.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Directionality is a mechanical habit — it must become automatic. Students need to practise the correct left-to-right, return sweep movement until it is habituated. Width is thin here; accuracy and fluency are what matter.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student tracks print from left to right without prompting.",
+          "Student correctly returns to the start of the next line when text wraps."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Books have structure — title and starting point",
+        "progression_checkpoint": "Students can identify the title of a book and show where to start reading.",
+        "minimum_width": "Indicate the title of a book and point to where reading begins.",
+        "typical_width": "Identify the title and starting point of a book; discuss the placement of images and words on the page; begin to understand that these placements are intentional choices.",
+        "wider": [
+          "Compare title placement and starting points across different book formats — picture books, simple chapter books, big books",
+          "Explore how image and word placement varies across a range of text types and discuss why designers make those choices"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can point to the title of a book when asked.",
+          "Student can indicate the correct starting point for reading."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Digital texts have their own conventions",
+        "progression_checkpoint": "Students can identify that digital texts are organised differently from print texts and can use at least one navigation feature (e.g. a tab or scroll).",
+        "minimum_width": "Identify one digital navigation feature (e.g. a tab, a button) and explain what it is for.",
+        "typical_width": "Identify tabs and other navigation features in simple digital texts; recognise that screen texts are organised using different conventions from print books; discuss image and word placement in digital contexts.",
+        "wider": [
+          "Compare navigation across multiple digital text forms — a website, an e-book, a simple app — identifying similarities and differences",
+          "Explore how touch-based navigation (swiping, tapping) differs from button-based navigation and what this means for how a reader moves through a text",
+          "Compare a print book and its digital equivalent — what conventions stay the same and what changes?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may over-generalise from print conventions — assuming digital texts work the same way. Multiple digital contexts (app, website, e-book) help build a distinct digital text schema.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digital text conventions offer genuine richness: navigation, multimodality, interactive features, and comparison with print. Advancing students can explore the design reasoning behind conventions rather than just naming them.",
+        "success_criteria": [
+          "Student can identify at least one feature of a digital text that is not found in print books.",
+          "Student can use a basic digital navigation feature independently.",
+          "Student can explain that print and digital texts have different but consistent conventions."
+        ]
+      }
+    ]
+  }
+}

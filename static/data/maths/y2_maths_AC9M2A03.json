@@ -1,0 +1,88 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2A03",
+    "title": "Multiplication facts for twos",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "recall and demonstrate proficiency with multiplication facts for twos; extend and apply facts to develop the related division facts using doubling and halving",
+    "prior_knowledge": "Students quantify sets by skip counting (AC9M1N03) and solve sharing/grouping problems (AC9M1N06). They have not yet connected skip counting in twos to multiplication facts or established doubling and halving as inverse operations.",
+    "progression_endpoint": "Students recall multiplication facts for twos with proficiency and extend and apply those facts to derive related division facts using doubling and halving.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Doubling as multiplication by 2",
+        "progression_checkpoint": "Students can double numbers within 20 using materials or mental strategies and connect doubling to multiplying by 2.",
+        "minimum_width": "Double at least five numbers within 20 using materials; connect to 'multiply by 2' language.",
+        "typical_width": "Double numbers within 20 using physical and virtual materials; recognise the relationship between double, twice and multiply by 2; use a hundreds chart to colour doubles and identify the pattern.",
+        "wider": [
+          "Use doubling to establish near doubles: if double 5 is 10, then double 6 is 10+2=12; extend to double 4 is 10-2=8",
+          "Investigate doubling patterns on a hundreds chart; describe the pattern of even numbers produced"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Doubles numbers within 20 correctly using materials or mental strategy",
+          "Explains that 'double 6', 'twice 6' and '6 multiplied by 2' mean the same thing"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Recall of twos multiplication facts",
+        "progression_checkpoint": "Students can recall multiplication facts for twos (2×1 through 2×10) with fluency.",
+        "minimum_width": "Recall twos multiplication facts within 2×10 without reconstructing by counting; respond promptly when presented with random facts.",
+        "typical_width": "Recall all twos multiplication facts fluently; recognise that 2×8 = 8×2 (commutativity); apply to find related facts (e.g. 8 twos uses the same fact as 2 eights).",
+        "wider": [
+          "Limited width — multiplication fact recall for twos is a fluency skill that does not vary meaningfully across contexts. Extension involves applying known twos facts to derive other facts (e.g. 4×3 = double 2×3) or connecting to related division facts, addressed in node 3."
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to derive division facts from known multiplication facts under the inverse relationship. Students still reconstructing twos facts by counting cannot hold the part-whole structure in working memory simultaneously — fluency at Node 2 is the prerequisite.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fluency with twos facts requires practise volume. Games and repeated oral/written practice across different formats build automaticity that supports later work on other multiplication tables.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Recalls twos multiplication facts within 2×10 correctly",
+          "Responds to randomly ordered twos facts without counting"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Halving as division by 2",
+        "progression_checkpoint": "Students can halve numbers within 20 and connect halving to dividing by 2, deriving related division facts from known multiplication facts.",
+        "minimum_width": "Halve at least four even numbers within 20 using materials; state the related division fact.",
+        "typical_width": "Halve numbers within 20; connect to 'divide by 2' language; derive related division facts from multiplication facts (e.g. 2×7=14, so 14÷2=7); practise doubling and halving games.",
+        "wider": [
+          "Use a doubling and halving game (e.g. virtual dice: choose to double or halve to reach a target number); apply known facts strategically",
+          "Investigate: 'If I know 2×9=18, what else do I know?' — list all related facts including division"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The inverse relationship between multiplication and division — like that between addition and subtraction — requires explicit reasoning scaffold. Students need to see that 'if 2 groups of 7 make 14, then 14 shared into groups of 2 gives 7' before they can derive division facts independently."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Halves even numbers within 20 correctly",
+          "States the related division fact for a given twos multiplication fact",
+          "Explains why doubling and halving are inverse operations"
+        ],
+        "related_standards": ["AC9M2N05"]
+      }
+    ]
+  }
+}

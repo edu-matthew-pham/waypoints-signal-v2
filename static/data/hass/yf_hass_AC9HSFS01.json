@@ -1,0 +1,67 @@
+{
+  "year_level": "F",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HSFS01",
+    "title": "Pose questions",
+    "description": "pose questions about familiar objects, people, places and events",
+    "strand": "Inquiry Skills — Questioning",
+    "mode": "B",
+    "prior_knowledge": "Students have natural question-asking capacity from lived experience. No formal prior HASS inquiry skills curriculum.",
+    "progression_endpoint": "Students pose questions about familiar objects, people, places and events to guide their own inquiry.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Noticing and wondering",
+        "progression_checkpoint": "Students can identify something they notice or are curious about when exploring a source (object, photograph, place, story) and express it as a question.",
+        "minimum_width": "Generate at least one question about a provided source using a prompted stem (What is...? Where is...? Why does...?).",
+        "typical_width": "Generate multiple questions about familiar objects, people, places and events after being prompted to observe carefully; use a range of question stems (What, Where, Who, Why, How).",
+        "wider": [
+          "Generate questions before and after an excursion or visiting community member, comparing what they wanted to know with what they found out",
+          "Sort questions by type (What/Where/Who questions vs Why/How questions) and discuss which are easier to answer and why"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot generate their own questions from observation, all subsequent inquiry work is teacher-driven rather than student-initiated — the questioning habit is the foundation of the entire inquiry skills strand.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "At Foundation, question generation is a new habit. Build a class repertoire of question stems displayed visually, and practise generating questions from multiple different sources before expecting independence.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Generates at least one question about a provided source using a question stem",
+          "Question relates to something observable or inferable from the source"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Posing inquiry questions",
+        "progression_checkpoint": "Students can pose questions that would guide an investigation about a familiar object, person, place or event, distinguishing between questions they can answer from memory and those that need investigation.",
+        "minimum_width": "Pose at least one question about a familiar topic that requires seeking information beyond personal memory.",
+        "typical_width": "Pose questions about family and places that would guide an inquiry; identify which questions can be answered from personal experience and which require investigation from sources.",
+        "wider": [
+          "Develop questions about what makes events and places special, generating both factual and personal-response questions",
+          "Pose questions for a family member or familiar adult and explain why that person would be a good source"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates noticing from Node 1 with directing inquiry — questions now have an investigative purpose, not just curiosity expression."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Poses at least one question that would require finding information from a source",
+          "Can identify whether a question can be answered from memory or needs investigation"
+        ]
+      }
+    ]
+  }
+}

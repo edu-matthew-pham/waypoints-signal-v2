@@ -1,0 +1,123 @@
+{
+  "year_level": "8",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE8K04",
+    "title": "Taxation and decision-making",
+    "description": "the importance of Australia's system of taxation and how this system affects decision-making by individuals and businesses",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students understand why individuals work and how income is derived (AC9HE7K04). They understand consumer rights and financial responsibilities (AC9HE7K05). They have foundational knowledge of how market prices affect decision-making (AC9HE8K01).",
+    "progression_endpoint": "Students explain the importance of Australia's system of taxation and how this system affects decision-making by individuals and businesses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Why taxation exists",
+        "progression_checkpoint": "Students can explain why the Australian government collects taxation revenue and the types of services this revenue funds for individuals and communities.",
+        "minimum_width": "Explain why the government collects taxation revenue and name at least three types of government services funded by taxation (e.g. health, education, infrastructure).",
+        "typical_width": "Discuss why the government collects taxation revenue and explain how it funds services for individuals and communities including health, education, paid parental leave, childcare, aged care and infrastructure. Explain how taxation redistributes resources across the population.",
+        "wider": [
+          "Investigate the relative size of different categories of Australian government spending (health, education, social security, defence) and compare the proportion funded by taxation versus other government revenue",
+          "Examine the concept of progressive taxation and why Australia uses it — the argument that those with higher capacity to pay should contribute proportionally more to public services",
+          "Research how public goods and services that are non-excludable and non-rival (e.g. national defence, public parks) cannot be efficiently provided by markets alone, making taxation-funded provision necessary"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students do not understand the purpose and scope of taxation revenue, they cannot meaningfully reason about how the taxation system affects decision-making — subsequent nodes on rights/obligations and tax's effect on prices rest on this foundation.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often arrive with normative views on taxation (it's unfair, it's necessary) without understanding the structural reasoning. Establishing the public goods and redistribution rationale before examining mechanics prevents the later nodes being reduced to opinion.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least one reason why the Australian government collects taxation revenue",
+          "Names at least three government services funded by taxation and identifies who benefits from each"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "How and when individuals pay tax",
+        "progression_checkpoint": "Students can explain when and how young Australians pay tax, including income tax calculation, tax file numbers, employer deductions and lodging a tax return.",
+        "minimum_width": "Explain what a tax file number is, when a young Australian needs to apply for one, and how income tax is deducted from wages by an employer.",
+        "typical_width": "Explain when and why young Australians pay tax: applying for a tax file number, how income tax is calculated from income brackets, how employers deduct and remit tax, and how to lodge a tax return including what happens when too much or too little tax has been deducted.",
+        "wider": [
+          "Investigate the Australian income tax bracket system and calculate income tax for different income levels, exploring why the effective tax rate (total tax as a percentage of income) increases with income",
+          "Examine the role of the Australian Taxation Office (ATO) and myGov in administering income tax — including what data the ATO automatically receives and the process for pre-filling tax returns",
+          "Research the rights and obligations in the tax system: what taxpayers are entitled to (e.g. deductions for work-related expenses) and what they are obligated to do (accurate reporting, timely lodgement)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "This node has procedural elements (TFN application, PAYG deductions, tax return lodgement) where students benefit from practising the steps and the vocabulary accurately. Errors here (e.g. confusing gross income, taxable income and net income) propagate into the decision-making analysis nodes."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains what a tax file number is and identifies when a young Australian should apply for one",
+          "Describes the process by which income tax is deducted from wages, including the employer's role"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Types of tax and their effect on prices",
+        "progression_checkpoint": "Students can identify examples of taxes paid by individuals and businesses and explain how they may influence spending and pricing decisions.",
+        "minimum_width": "Identify two different types of taxes (e.g. income tax, GST, excise duty) and explain how one of them influences a spending or pricing decision.",
+        "typical_width": "Identify examples of taxes paid by individuals and businesses — including income tax, GST, import duties and excise duties — and explain how each may influence decision-making about spending and pricing. Use specific product examples (e.g. how excise on alcohol or petrol affects consumer purchasing).",
+        "wider": [
+          "Investigate how the GST (Goods and Services Tax) operates as a value-added consumption tax, including which goods and services are exempt and why (fresh food, health, education) and the distributional consequences of a flat consumption tax",
+          "Research how tariffs and import duties are used as both revenue-raising measures and policy instruments to protect domestic industries, and how these affect consumer prices and business sourcing decisions",
+          "Examine how businesses factor taxation (company tax, payroll tax, GST obligations) into pricing decisions, and why the incidence of a tax (who ultimately bears the cost) may differ from who formally pays it"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Different tax types have qualitatively different effects on decisions — income tax affects labour supply decisions, excise affects consumption of specific goods, import duties affect sourcing decisions. Each context type needs representation to reach the descriptor's full scope.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of tax types and their decision-making effects is pedagogically rich: income tax (labour decisions), consumption taxes (spending allocation), excise (behaviour modification), business taxes (pricing, investment). Wider contexts — including tax incidence and who ultimately bears the cost — connect to deeper economic reasoning about market behaviour.",
+        "success_criteria": [
+          "Identifies at least two distinct types of taxes and who pays each",
+          "Explains, with a specific example, how one tax type influences a decision made by an individual or business"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Taxation, wellbeing and decision-making — integrated",
+        "progression_checkpoint": "Students can explain the importance of Australia's taxation system — connecting revenue purpose, individual obligations, tax types and their effects on decisions — and explain how the system supports individual and community wellbeing.",
+        "minimum_width": "Explain how Australia's taxation system affects a decision made by a young person (e.g. whether and how much to work, what to spend money on) and connect this to how the system funds services that support wellbeing.",
+        "typical_width": "Explain the importance of the Australian taxation system by connecting: why taxation exists and what it funds; how individuals meet their tax obligations; how different types of taxes affect spending and pricing decisions; and how the system collectively supports individual human and financial wellbeing, communities and Australian society.",
+        "wider": [
+          "Evaluate whether the current Australian tax mix is well-designed to achieve its goals — examining arguments for and against changes (e.g. raising or lowering income tax, extending or narrowing the GST base, introducing new taxes on wealth or carbon)",
+          "Research how Australia's taxation revenue as a proportion of GDP compares with comparable countries (OECD nations) and what this implies about the scope of government services each provides",
+          "Investigate a case where a tax has been deliberately used to change behaviour (e.g. carbon pricing, tobacco excise, sugar tax proposals) and evaluate evidence on whether it achieved its intended effect"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The integration task should require students to connect taxation's purpose (funding services) with its mechanics (how it is collected) and its effects (how it shapes decisions) — not treat these as separate items. A real scenario (a young person starting work, a business setting a price) is a useful integration frame."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains why Australia's taxation system is important, referencing both revenue purposes and the services it funds",
+          "Explains how at least one feature of the taxation system affects decision-making by an individual or a business"
+        ],
+        "related_standards": ["AC9HE8K05", "AC9HE8S04"]
+      }
+    ]
+  }
+}

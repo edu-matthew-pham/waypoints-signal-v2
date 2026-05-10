@@ -1,0 +1,105 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7A02",
+    "title": "Formulating Algebraic Expressions",
+    "strand": "Algebra",
+    "description": "formulate algebraic expressions using constants, variables, operations and brackets",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise variables in formulas and understand that letters represent quantities (from AC9M7A01). Students can write rules for patterns using words (from AC9M6A01).",
+    "progression_endpoint": "Students formulate algebraic expressions using constants, variables, operations and brackets to represent mathematical relationships.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Translating words to algebraic expressions",
+        "progression_checkpoint": "Students translate verbal descriptions of mathematical relationships into algebraic expressions using constants, variables and operations.",
+        "minimum_width": "Write an algebraic expression for a simple verbal description (e.g. 'three more than x', 'twice n').",
+        "typical_width": "Translate multi-step verbal descriptions; identify the correct order of operations; translate in both directions (words → algebra, algebra → words).",
+        "wider": [
+          "Investigate common translation errors: 'five less than x' vs 'x less five' — use substitution to check which is correct.",
+          "Create word problems that match given algebraic expressions, building translation fluency in both directions."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Translation between verbal and algebraic forms is error-prone and context-sensitive. Students who only translate simple phrases fail with relational descriptions ('five less than x'). Multiple verbal structures across varied contexts are required.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Translation errors (especially 'five less than x' vs 'x minus five') propagate directly into Node 2 bracket formulation and AC9M7A03 equation solving — students who mis-translate a verbal problem cannot set up correct equations.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly translates a verbal description into an algebraic expression.",
+          "Correctly translates an algebraic expression into a verbal description.",
+          "Does not confuse 'n less than 5' (5 − n) with 'n minus 5' (n − 5)."
+        ],
+        "related_standards": [
+          "AC9M7A01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Expressions with brackets and multiple operations",
+        "progression_checkpoint": "Students formulate algebraic expressions involving brackets, including those where brackets are required to preserve intended meaning.",
+        "minimum_width": "Write an algebraic expression that requires brackets (e.g. 'the sum of x and 3, multiplied by 4').",
+        "typical_width": "Formulate expressions from multi-step descriptions; explain when brackets are necessary; evaluate expressions for given values.",
+        "wider": [
+          "Compare equivalent expressions with and without brackets: 2(x + 3) vs 2x + 6. Verify equivalence by substitution.",
+          "Apply distributive property to expand and factorise simple expressions — preview of Y8 algebra."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Deciding when brackets are required demands explicit reasoning about order of operations and meaning. Students routinely omit necessary brackets or add unnecessary ones without a clear reasoning process.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who omit necessary brackets formulate expressions with different meanings than intended — this error cascades into AC9M7A03 equation solving where setting up the equation incorrectly means the solution is always wrong regardless of solving skill.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly writes expressions requiring brackets to preserve intended meaning.",
+          "Can explain why brackets are necessary in a given expression.",
+          "Evaluates expressions with brackets correctly applying order of operations."
+        ],
+        "related_standards": [
+          "AC9M7A03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Generalising arithmetic to algebraic expressions",
+        "progression_checkpoint": "Students recognise that algebraic expressions generalise arithmetic relationships, and can identify what an expression represents across multiple cases.",
+        "minimum_width": "Given an arithmetic pattern (e.g. 7+7+7 = 3×7), write the algebraic generalisation (x+x+x = 3x).",
+        "typical_width": "Formulate algebraic expressions that represent general mathematical relationships; test with multiple values to verify the generalisation.",
+        "wider": [
+          "Investigate how the same relationship can be expressed in multiple equivalent algebraic forms — which is simplest? Which shows structure best?",
+          "Apply to pattern generalisation: write an expression for the nth term of a visual growing pattern."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The shift from arithmetic to algebraic generalisation is a conceptual threshold. Students need multiple examples where the same arithmetic pattern is generalised before the generalising move feels natural.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Writes an algebraic expression that correctly generalises a given arithmetic pattern.",
+          "Verifies the expression by substituting specific values.",
+          "Does not confuse the generalised expression with a specific equation to solve."
+        ],
+        "related_standards": [
+          "AC9M7A05",
+          "AC9M7A01"
+        ],
+        "width_opportunity_reason": "Algebraic generalisation is a threshold concept — advancing students who can express the same relationship multiple ways and evaluate which form is most transparent are building genuine algebraic fluency."
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10M04",
+    "title": "Impact of measurement errors",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "identify the impact of measurement errors on the accuracy of results in practical contexts",
+    "prior_knowledge": "Students can interpret and use logarithmic scales in applied contexts (AC9M10M02). They have not yet systematically identified sources of measurement error or analysed how errors compound and propagate through calculations to affect accuracy.",
+    "progression_endpoint": "Students identify sources of measurement error and describe their impact on the accuracy of results across practical contexts, including how compounding errors affect repeated or multi-step calculations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sources and types of measurement error",
+        "progression_checkpoint": "Students can identify sources of measurement error in a practical context and distinguish between errors arising from the instrument, the method, and the measurer.",
+        "minimum_width": "Identify at least two distinct sources of measurement error in a described context; categorise each as instrument-related, method-related, or human error.",
+        "typical_width": "Identify and categorise sources of measurement error across multiple practical contexts; distinguish systematic errors (consistent bias) from random errors (variable); explain how each type of error affects measured values differently.",
+        "wider": [
+          "Investigate scientific measuring techniques applied to First Peoples of Australia \u2014 including radiometric dating and genetic sequencing \u2014 and identify the sources of measurement error specific to each technique",
+          "Explore how measurement errors in autonomous vehicle sensors (e.g. LIDAR, GPS) arise from the physics of measurement and discuss their safety implications"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only identify errors in familiar classroom measurement contexts (ruler parallax, balance inaccuracy) may not recognise the same analytical framework applies to sophisticated scientific or technological measurement. Multiple context types build transferable error analysis."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies at least two sources of measurement error in a described context",
+          "Student distinguishes between instrument error, method error, and human error in a given example"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Impact of individual measurement errors",
+        "progression_checkpoint": "Students can describe how a measurement error propagates into a calculated result and estimate the size of the impact.",
+        "minimum_width": "Given a measurement with a stated error margin, calculate how that error affects a derived result (e.g. if length is off by 1 cm, how does area change).",
+        "typical_width": "Calculate the effect of measurement error on derived quantities (area, volume, interest, rate); describe how the impact grows as the formula becomes more complex; use bounds (max/min values from error margins) to state ranges for calculated results.",
+        "wider": [
+          "Investigate how truncation versus rounding errors affect the accuracy of financial calculations at scale \u2014 e.g. the impact of truncating cent values across millions of customer records",
+          "Explore how measurement accuracy in dating methods (e.g. radiocarbon dating) determines the precision of age estimates for historical artefacts and discuss what this means for archaeological claims"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The propagation of error through a formula requires systematic reasoning \u2014 students need a process (calculate with maximum, minimum, and best-estimate values; compare results) rather than intuitive guessing. Explicit scaffolding prevents underestimation of impact.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly calculates the range of values for a derived quantity given a measurement error margin",
+          "Student explains why the impact of a measurement error is larger for some calculations than others"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding how individual errors propagate into calculated results is the prerequisite for N3 \u2014 students who cannot trace a single error's effect cannot reason about how errors accumulate across iterations."
+      },
+      {
+        "id": 3,
+        "label": "Compounding errors in repeated calculations",
+        "progression_checkpoint": "Students can identify how measurement errors compound across repeated or multi-step calculations and describe the effect on accuracy.",
+        "minimum_width": "Given a calculation repeated multiple times (or a multi-step formula), describe how errors accumulate \u2014 that repeated rounding or truncation can produce a substantially different final result.",
+        "typical_width": "Analyse how compounding errors affect accuracy in at least two contexts (repeated interest calculations, multi-step geometric calculations, sequential measurements); estimate the accumulated error after n repetitions; discuss when accumulated error becomes practically significant.",
+        "wider": [
+          "Investigate the social impact of measurement errors in First Peoples of Australia contexts \u2014 including how errors in population counts or dating results have influenced policy or historical narratives",
+          "Explore how measurement errors in perception and control systems of autonomous vehicles compound across multiple sensor readings and what safeguards are built in to manage accumulated error"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Compounding errors appear very differently across contexts \u2014 financial truncation produces systematic underpayment, geometric errors grow multiplicatively, sequential sensor errors accumulate directionally. Multiple contexts are needed to generalise the concept.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Understanding compounding errors requires integrating knowledge of individual error impact (node 2) with iterative reasoning about how small errors grow across repetitions. This is the node where error analysis becomes applicable to real multi-step situations."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The social impact dimension \u2014 particularly measurement errors affecting First Peoples of Australia in dating and population contexts \u2014 offers advancing students genuinely purposeful engagement that connects mathematical analysis to real-world consequence.",
+        "success_criteria": [
+          "Student explains, with a worked example, how a small error in a single measurement produces a larger error after repeated calculations",
+          "Student identifies at least one practical context where accumulated measurement error has meaningful consequences"
+        ],
+        "related_standards": [
+          "AC9M10N01",
+          "AC9M10M02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

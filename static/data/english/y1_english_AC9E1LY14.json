@@ -1,0 +1,68 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY14",
+    "title": "Read and write high-frequency words",
+    "description": "read and write an increasing number of high-frequency words",
+    "strand": "phonic_word_knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can spell one- and two-syllable words with common letter patterns (AC9E1LY13). They have also been building a high-frequency word bank at Foundation level. They have not yet expanded this bank to the growing range expected at Year 1, including irregular high-frequency words.",
+    "progression_endpoint": "Students read and write an increasing number of high-frequency words, including irregular forms.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reading high-frequency words automatically",
+        "progression_checkpoint": "Students can read an increasing number of high-frequency words automatically, without sounding out.",
+        "minimum_width": "Read at least 20 Year 1-level high-frequency words automatically (at a glance, without decoding).",
+        "typical_width": "Read an increasing bank of high-frequency words automatically when encountered in continuous text, including words with irregular phoneme-grapheme relationships (e.g. 'one', 'have', 'pretty').",
+        "wider": [
+          "Read high-frequency words in varied sentence contexts — confirming they are recognised regardless of surrounding text",
+          "Identify high-frequency words in shared reading texts and discuss which are decodable and which need to be memorised"
+        ],
+        "hinge": true,
+        "hinge_reason": "Automatic high-frequency word recognition is a direct prerequisite for reading fluency — students who must decode common words cannot achieve the phrasing and pace needed for comprehension; their decoding load remains cognitively full on low-information words.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "High-frequency word recognition is built through repeated exposure — seeing and reading words frequently until they are stored as sight words. Consolidation through wide reading and word-level practice is the primary lever.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads target high-frequency words automatically (without phoneme-by-phoneme decoding)",
+          "Student recognises high-frequency words in continuous text as well as in isolation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Writing high-frequency words correctly",
+        "progression_checkpoint": "Students can write high-frequency words correctly, including irregular forms, in their own writing.",
+        "minimum_width": "Correctly spell at least 15 Year 1-level high-frequency words from memory in a writing context.",
+        "typical_width": "Write an increasing bank of high-frequency words correctly in continuous writing, applying memory for irregular forms rather than phonetic attempts.",
+        "wider": [
+          "Identify and self-correct misspelled high-frequency words in draft writing",
+          "Discuss why some high-frequency words cannot be spelled from phonics alone — building awareness of the need to memorise irregular forms"
+        ],
+        "hinge": true,
+        "hinge_reason": "Incorrect spelling of high-frequency words in independent writing signals that phonics-only strategies are being applied to irregular forms — this produces persistent misspellings that, once habituated, become difficult to correct.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Writing high-frequency words correctly requires memory, not just recognition. Students who can read a word may not yet reproduce it correctly from memory — repeated writing practice builds accurate production.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly spells at least 15 target high-frequency words in writing",
+          "Student's high-frequency word spelling is correct in independent writing contexts"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1N01",
+    "title": "Numbers to 120",
+    "description": "Recognise, represent and order numbers to at least 120 using physical and virtual materials, numerals, number lines and charts",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can name, represent and order numbers to at least 20 (AC9MFN01). They can quantify and compare collections to at least 20 using counting (AC9MFN03). They have not yet read, written or ordered numbers in the two-digit range up to 120, or used patterns in the number system (tens/ones) to navigate across decades.",
+    "progression_endpoint": "Students recognise, represent and order numbers to at least 120 using physical and virtual materials, numerals, number lines and charts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Two-digit numeral recognition",
+        "progression_checkpoint": "Students can read and write two-digit numerals to at least 99, including numerals that look or sound similar (e.g. 16 and 61).",
+        "minimum_width": "Read and write numerals for numbers 10–99; identify easily confused pairs (e.g. 16/61, 60/16) from a set.",
+        "typical_width": "Read, write and name two-digit numerals to 99 across a range of representations; practise with commonly confused pairs; use number charts to locate and name numerals.",
+        "wider": [
+          "Explore how two-digit numbers are represented in other numeral systems (Japanese kanji, Chinese characters), comparing the role of position versus special characters for tens.",
+          "Investigate how numbers are named and written in different languages — identifying where the spoken form makes the tens-ones structure explicit and where it is less obvious."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Confusion between teen numbers (13–19) and decade multiples (30–90) is common and persistent. Fluency with numeral reading requires deliberate practice with the commonly confused pairs before students can reliably navigate the number line.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Reliable numeral reading is required for Node 2 (hundreds chart navigation) and Node 3 (ordering on a number line) — students who confuse teen and decade numerals produce systematic ordering errors and cannot correctly locate numbers on the chart.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Reads two-digit numerals to 99 correctly, including commonly confused pairs such as 16 and 61.",
+          "Writes the numeral when a two-digit number is stated aloud."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Tens and ones structure",
+        "progression_checkpoint": "Students can identify the tens and ones in a two-digit number and use the hundreds chart to navigate the number system.",
+        "minimum_width": "Identify the number of tens and ones in a two-digit number using a hundreds chart or physical materials; explain the pattern of tens in a hundreds chart.",
+        "typical_width": "Use a hundreds chart to identify how numbers are structured as tens and ones; colour-code the tens column; use physical materials (MAB blocks, bundled sticks) to build two-digit numbers; explain the pattern of decade numbers.",
+        "wider": [
+          "Collaboratively build a hundreds chart from scrambled numeral cards, discussing how the tens-ones structure organises the grid.",
+          "Compare the hundreds chart structure with the counting boards used in other cultural traditions, identifying what structural features are shared."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only encounter the hundreds chart as a static resource often miss the structural logic — that each row is a new ten. Working with multiple representations (chart, physical materials, number line) helps students see the tens-ones pattern as a system property, not a chart property.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The hundreds chart is a rich structural tool. Students who understand the tens-ones grid can use it to identify patterns (odd/even columns, multiples of 5/10), building number sense well beyond what's required for the descriptor.",
+        "success_criteria": [
+          "States the number of tens and ones in a given two-digit number.",
+          "Locates a two-digit number on the hundreds chart and explains its position in terms of the row (tens) and column (ones)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Ordering to 120 on a number line",
+        "progression_checkpoint": "Students can order a set of numbers to at least 120 and position them on a number line, using patterns in the number system.",
+        "minimum_width": "Order a set of five or more two-digit numbers; place numbered cards in correct order on an empty number line.",
+        "typical_width": "Order numbers to at least 120 using number lines, number tracks and charts; peg numbered cards at relative positions on an empty number line; extend ordering into the range 100–120 using patterns established to 99.",
+        "wider": [
+          "Order numbers written in multiple formats — numerals, words, tally marks — placing them on the same number line and discussing equivalence.",
+          "Investigate how numbers beyond 100 are named across different languages and cultures, connecting naming patterns to the ordering structure."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Placing numbers on an empty (unlabelled) number line requires students to reason about relative magnitude — not just sequence. Scaffolding with benchmark numbers (0, 50, 100, 120) before removing them supports the transition from sequential to proportional placement."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Orders a mixed set of numbers to at least 120 from smallest to largest.",
+          "Positions numbers on an empty number line at approximately correct relative locations, using benchmark numbers to reason about placement."
+        ]
+      }
+    ]
+  }
+}

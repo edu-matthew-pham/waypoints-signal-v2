@@ -1,0 +1,109 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6P04",
+    "title": "Generate, modify and evaluate designs",
+    "description": "Generate, modify, communicate and evaluate designs",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can generate, communicate and compare designs (AC9TDI4P03). They have produced and communicated design ideas and made comparisons. They have not yet formally evaluated designs against criteria or made and documented modifications to a preferred design based on evaluation.",
+    "progression_endpoint": "Students generate a range of design ideas, evaluate them against design criteria and user stories, select a preferred design, and modify it where it does not satisfy all criteria.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Generating a range of design ideas",
+        "progression_checkpoint": "Students can generate multiple distinct design ideas for a given problem rather than pursuing the first idea",
+        "minimum_width": "Generate at least two design ideas for the same problem that are genuinely different (not minor variations)",
+        "typical_width": "Ideate a range of possible design solutions; represent each idea clearly enough that it can be compared to others; produce sketches, diagrams or descriptions for each",
+        "wider": [
+          "Use a structured ideation method (e.g. sketching six thumbnails, mind-mapping from the user story) to generate ideas beyond the first obvious solution",
+          "Generate design ideas that each prioritise a different design criterion \u2014 e.g. one idea optimises for cost, another for accessibility, another for ease of use \u2014 making trade-offs explicit from the start"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students who default to their first idea lack ideation repertoire \u2014 they do not know how to generate alternatives. Accumulated experience with ideation methods (thumbnail sketches, constraint-flipping, stakeholder-first framing) builds the repertoire needed for genuine comparison.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces at least two design ideas that are meaningfully different",
+          "Each idea is represented clearly enough to be compared"
+        ],
+        "related_standards": [
+          "AC9TDI6P01",
+          "AC9TDI6P03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Genuine ideation in N1 is a prerequisite for evaluation in N2 \u2014 if students produce only one idea or near-identical variations, N2's comparative evaluation against criteria collapses into description. The evaluate step requires at least two meaningfully different options."
+      },
+      {
+        "id": 2,
+        "label": "Evaluating designs against criteria and user stories",
+        "progression_checkpoint": "Students can evaluate design ideas against design criteria and user stories and identify which idea best meets them",
+        "minimum_width": "Compare at least two design ideas against the design criteria and user stories; state which idea better satisfies them and give at least one reason",
+        "typical_width": "Use the design criteria to systematically evaluate each idea (e.g. rate each against each criterion); identify a preferred design and explain which criteria it best satisfies and where it falls short",
+        "wider": [
+          "Use a weighted decision matrix to evaluate designs where some criteria matter more than others \u2014 e.g. safety-critical criteria are non-negotiable, others are preferences",
+          "Include a user in the evaluation \u2014 explain each design to a peer acting as the user and record their responses as part of the evaluation"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly select a preferred design based on personal preference and then justify it post-hoc rather than genuinely evaluating against criteria. The reasoning scaffold \u2014 apply criterion 1 to idea A and idea B, apply criterion 2, then decide \u2014 prevents preference-then-justify errors.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "References the design criteria and user stories when selecting a preferred design",
+          "Gives at least one criterion-based reason for the preference"
+        ],
+        "related_standards": [
+          "AC9TDI6P01",
+          "AC9TDI6P06"
+        ],
+        "hinge": true,
+        "hinge_reason": "Criterion-based evaluation in N2 is prerequisite for N3's modification task \u2014 students who evaluate by preference rather than criteria cannot identify which criterion is unmet, so N3's 'modify to address the gap' has no gap to address."
+      },
+      {
+        "id": 3,
+        "label": "Modifying a design to meet unmet criteria",
+        "progression_checkpoint": "Students can identify where a preferred design does not satisfy a criterion or user story and propose a modification to address it",
+        "minimum_width": "Identify at least one gap between the preferred design and the design criteria; describe a modification that would address the gap",
+        "typical_width": "Review the preferred design against all criteria and user stories; document which criteria are met and which are not; propose modifications for unmet criteria and explain how each modification addresses the gap",
+        "wider": [
+          "Modify a game or game controller design so it can be used by a wider range of players \u2014 documenting what the original design assumed about the user and how the modification removes that assumption",
+          "Prototype a modification and evaluate whether it resolves the gap \u2014 going through one iteration of the design-modify-evaluate cycle"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to treat modification as correcting errors rather than genuinely extending the design to meet unmet criteria. Contexts where the unmet criterion is clear and consequential \u2014 a game that only some students can play, an interface that only English readers can navigate \u2014 make the modification purpose concrete."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one gap between the preferred design and the criteria",
+          "Describes a modification that would address the identified gap"
+        ],
+        "related_standards": [
+          "AC9TDI6P01",
+          "AC9TDI6P06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

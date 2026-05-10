@@ -1,0 +1,67 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LY08",
+    "title": "Shared patterns, different sounds",
+    "description": "Use phonic, morphemic and vocabulary knowledge to read and spell words that share common letter patterns but have different pronunciations",
+    "strand": "Literacy",
+    "mode": "A",
+    "prior_knowledge": "Students can use and apply phonological and morphological knowledge to read and spell complex letter combinations (AC9E4LY09). They have not yet focused on the specific challenge of words that share written patterns but diverge in pronunciation — cross-pattern reading requiring multiple knowledge sources.",
+    "progression_endpoint": "Students use phonic, morphemic and vocabulary knowledge together to read and spell words that share common letter patterns with different pronunciations, recognising that spelling context and word meaning are resources for pronunciation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising pattern–pronunciation divergence",
+        "progression_checkpoint": "Students can identify words that share a common letter pattern but have different pronunciations, and explain that multiple pronunciation options are possible for the same pattern.",
+        "minimum_width": "Identify at least one letter pattern that can be pronounced in more than one way and provide word examples of each pronunciation.",
+        "typical_width": "Identify and group words with common letter patterns that have different pronunciations (e.g. 'journey', 'your', 'tour', 'sour'). Explain that the same written pattern can map to different spoken sounds, and that phonic knowledge alone is insufficient for accurate reading of these words.",
+        "wider": [
+          "Investigate other letter patterns with multiple pronunciations across English — examining how the range of pattern–sound mappings reflects the diverse origins of English vocabulary",
+          "Compare how pattern–pronunciation relationships differ between words derived from different language origins (e.g. French-derived vs Anglo-Saxon-derived words) and discuss what this reveals about English spelling history"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to apply phonic, morphemic and vocabulary knowledge together specifically because phonic knowledge alone is insufficient for pattern-divergent words. Students who have not grasped that the same pattern can map to multiple pronunciations will default to a single-source phonic strategy in Node 2 rather than engaging the multi-source reasoning the node demands.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may apply a single pronunciation rule to a pattern and not monitor when the result does not match a known word. Encountering diverse examples of pattern–pronunciation divergence helps students develop monitoring awareness and builds their lexical bank of known exceptions.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a letter pattern that can be pronounced in at least two ways and provides correct examples of each pronunciation.",
+          "Explains that phonic knowledge alone is not sufficient for these words — vocabulary or morphemic knowledge is also needed."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using multiple knowledge sources",
+        "progression_checkpoint": "Students can draw on phonic, morphemic and vocabulary knowledge together to determine the correct pronunciation or spelling of words with ambiguous letter patterns.",
+        "minimum_width": "For at least two examples of words with ambiguous letter patterns, explain which knowledge source (phonic, morphemic, vocabulary) provides the key information for determining correct pronunciation or spelling.",
+        "typical_width": "Apply phonic, morphemic and vocabulary knowledge in combination when reading or spelling words with ambiguous patterns. Explain the decision-making process: what the phonic pattern suggests, what morphemic knowledge adds, and how vocabulary knowledge (knowing the word) confirms or overrides.",
+        "wider": [
+          "Develop a personal 'tricky pattern' vocabulary — collecting words that required multiple knowledge sources and annotating what each knowledge source contributed to reading and spelling them accurately",
+          "Examine how encountering a new word with an ambiguous pattern in a reading context provides enough vocabulary knowledge to add the word to the known-word base"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The three-knowledge-source reasoning process — phonic, morphemic, vocabulary — needs to be made explicit. Students who rely on one source in isolation will fail at pattern-divergent words. A structured reasoning scaffold ('what does the pattern suggest? what does the word part/meaning suggest? what does knowing this word suggest?') builds reliable multi-source decoding."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can explain which knowledge source was decisive in determining the pronunciation or spelling of a specific word with an ambiguous pattern.",
+          "Demonstrates monitoring — recognises when a phonically-derived pronunciation does not match a known word and applies an alternative strategy."
+        ]
+      }
+    ]
+  }
+}

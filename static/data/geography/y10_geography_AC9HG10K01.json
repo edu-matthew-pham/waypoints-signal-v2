@@ -1,0 +1,107 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10K01",
+    "title": "Human-induced changes and sustainability",
+    "description": "the human-induced changes that challenge the sustainability of places and environments",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students understand the effects on environments of human alteration of biomes (AC9HG9K02), challenges to sustainable food production and management strategies (AC9HG9K04), and the impacts of production and consumption on places with sustainability strategies (AC9HG9K08). They can describe human-environment interconnections and identify sustainability challenges at a general level.",
+    "progression_endpoint": "Students explain the nature of human-induced environmental changes that challenge the sustainability of places and environments, and identify tensions between conflicting perspectives of individuals, communities and governments on sustainable practices.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Nature and types of human-induced environmental change",
+        "progression_checkpoint": "Students can explain what human-induced environmental change is and describe the major types — including water and atmospheric pollution, loss of biodiversity, and degradation of land and aquatic environments.",
+        "minimum_width": "Identify and describe at least two types of human-induced environmental change using one studied context.",
+        "typical_width": "Explain the nature of multiple types of human-induced environmental change (pollution, biodiversity loss, land/aquatic degradation) using a range of local, national and global examples.",
+        "wider": [
+          "Investigate a specific large-scale environmental degradation case (e.g. Great Barrier Reef bleaching, Amazon deforestation) to trace the interactions between multiple change types",
+          "Research historical human-induced changes and compare rates and types of change over time to identify acceleration trends",
+          "Examine the ecological concept of tipping points and what it means for the reversibility of human-induced change"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot distinguish between types of human-induced change and their mechanisms, they cannot accurately explain which environmental functions (resource, service, spiritual) are threatened in AC9HG10K04, and their sustainability discussions (K01, K02) will conflate causes with effects.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students frequently conflate human-induced change with natural variability. Invest in an explicit framework distinguishing change types by mechanism (extraction, pollution, alteration) and affected system before moving to sustainability implications.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Exposure to varied change types across aquatic, atmospheric and terrestrial systems prevents students from treating one type (e.g. pollution) as representative of all human-induced change.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of change types is genuinely wide — aquatic, atmospheric, terrestrial systems each offer distinct case study contexts at local, national and global scales. Students who explore multiple contexts develop a more robust model of how different human activities produce different kinds of environmental stress.",
+        "success_criteria": [
+          "Students identify at least two distinct types of human-induced environmental change and describe what makes each type a challenge to sustainability",
+          "Students explain the difference between a human-induced change and a natural environmental variation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sustainability as a concept — environmental functions",
+        "progression_checkpoint": "Students can explain the concept of sustainability in relation to environmental functions (resource, service, spiritual) and articulate why human-induced changes threaten those functions.",
+        "minimum_width": "Define sustainability in the context of at least one environmental function and explain how a studied human-induced change threatens it.",
+        "typical_width": "Explain sustainability across resource, service and spiritual environmental functions; connect specific types of human-induced change to threats to each function category.",
+        "wider": [
+          "Compare contested definitions of sustainability (weak vs strong sustainability, anthropocentric vs ecocentric) and evaluate their implications for management decisions",
+          "Investigate how First Nations Australians' concepts of Country/Place embed a notion of sustainability that integrates resource, service and spiritual functions",
+          "Examine international frameworks (e.g. UN Sustainable Development Goals, planetary boundaries) as formal attempts to operationalise sustainability"
+        ],
+        "hinge": true,
+        "hinge_reason": "The concept of sustainability as applied to environmental functions is foundational for K02 (world views) and K04 (management strategies). Students without a working definition of sustainability cannot evaluate whether management strategies are adequate or assess trade-offs between world views.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Sustainability is used loosely in everyday contexts. Students need explicit scaffolding that ties the concept to environmental function categories — resource provision, ecological services, cultural/spiritual value — before applying it critically.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Exposing students to sustainability across different function types (not just resource) broadens their capacity to apply the concept in K02 world views discussions and K04 case studies.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The three environmental function categories each connect to distinct value frameworks — economic, ecological, cultural — and each is enriched by different contexts. Students who engage with all three are better positioned to critically evaluate world views in K02.",
+        "success_criteria": [
+          "Students explain what sustainability means in relation to at least one environmental function, using correct terminology",
+          "Students connect a specific human-induced change to a threat to a named environmental function"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Conflicting perspectives on sustainable practices",
+        "progression_checkpoint": "Students can identify and explain the tensions between conflicting perspectives of individuals, communities, governments and businesses regarding the use of sustainable practices.",
+        "minimum_width": "Describe at least two different stakeholder perspectives on one sustainability issue, identifying the source of tension between them.",
+        "typical_width": "Identify and explain tensions between the perspectives of individuals, communities, businesses and governments on sustainable practices across at least two contexts; explain why perspectives differ (values, priorities, economic interests, legal frameworks).",
+        "wider": [
+          "Analyse a real governance dispute (e.g. state vs federal conflict over water allocation, community vs developer conflict over land use) to trace how institutional power shapes which perspectives prevail",
+          "Compare how different legal systems resolve sustainability conflicts — for example, rights-based approaches vs market-based mechanisms vs regulatory approaches",
+          "Investigate cases where community-led sustainability initiatives succeeded or failed in shifting government policy, identifying leverage points"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Exposure to multiple sustainability conflicts across different stakeholder configurations (individual/community, community/government, government/business) prevents students from assuming one conflict type is representative of all.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Stakeholder tension analysis is the core geographical skill underlying K02 and K04. Students who have practised identifying and explaining tensions across multiple real conflict cases are better equipped to critically evaluate world views and management strategies.",
+        "success_criteria": [
+          "Students identify at least two stakeholder groups with differing perspectives on a sustainability practice and explain the basis of the disagreement",
+          "Students explain why resolving sustainability tensions is complex, with reference to at least one specific conflict example"
+        ]
+      }
+    ]
+  }
+}

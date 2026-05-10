@@ -1,0 +1,88 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4N01",
+    "title": "Decimals — tenths and hundredths",
+    "description": "Recognise and extend the application of place value to tenths and hundredths and use the conventions of decimal notation to name and represent decimals",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise, represent and order natural numbers and understand place value for hundreds, tens and ones (AC9M3N01, AC9M3N02). They have not yet extended place value beyond the ones place to fractional parts of a whole.",
+    "progression_endpoint": "Students recognise tenths and hundredths as extensions of the place value system, name and represent decimals in multiple ways, and connect decimal notation to money and measurement.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Tenths as place value",
+        "progression_checkpoint": "Students can partition a whole into ten equal parts and represent one or more tenths using decimal notation.",
+        "minimum_width": "Divide a bar model into 10 equal parts; name and write the decimal for 2 or more of those parts (e.g. 0.3); explain what the digit after the decimal point represents.",
+        "typical_width": "Use bar models, number lines and materials to represent tenths; name and write decimals to tenths; explain the value of each digit; connect to the counting sequence (0.1, 0.2, … 0.9, 1.0).",
+        "wider": [
+          "Connect tenths to measurement: represent 1.5 metres on a ruler and explain what the 5 tenths means in centimetres",
+          "Use base-ten materials (one flat = whole, one long = tenth, one unit = hundredth) to build tenths and make explicit the multiplicative relationship"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Common misconception: students treat 0.3 as 'three' rather than 'three-tenths', particularly when comparing (thinking 0.8 > 0.15 is uncertain because '15 is bigger than 8'). Exposure to tenths in multiple representations — bar, number line, measurement — addresses this by anchoring the place value meaning.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not anchor the place value meaning of tenths enter Node 2 treating decimal digits as whole numbers, making the multiplicative structure of hundredths (tenth of a tenth) inaccessible. The misconception propagates through all decimal comparison and notation work in this standard.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can represent a given number of tenths using a bar model or number line and write the decimal notation",
+          "Students can explain what the digit after the decimal point represents (tenths)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Hundredths and multiplicative structure",
+        "progression_checkpoint": "Students can represent hundredths and explain the multiplicative relationship between ones, tenths and hundredths.",
+        "minimum_width": "Use materials to show that one tenth divided into 10 equal parts gives hundredths; write one decimal to hundredths (e.g. 0.25) and explain the value of each digit.",
+        "typical_width": "Use materials (bundles, decipipes, grid squares) to show the multiplicative chain: 1 whole = 10 tenths = 100 hundredths; rename decimals (e.g. 0.25 as two-tenths and five-hundredths or twenty-five hundredths); connect to measurement (e.g. 1.75 units = 1 unit and 75 hundredths).",
+        "wider": [
+          "Explore the multiplicative chain using base-ten materials where the flat = 1, long = 0.1, unit = 0.01 — physically building the relationship and testing equivalences",
+          "Investigate how hundredths appear in money: why does $2.75 have 75 hundredths and what is the hundredths place in 'seventy-five cents'?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The multiplicative structure (tenth of a tenth is a hundredth) is the conceptual hinge — students who miss this treat decimals as two separate whole numbers either side of a dot. Varied representations (materials, measurement, money) that all show the same 1:10:100 chain are the resolution.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not grasp the 1:10:100 multiplicative chain treat decimals as paired whole numbers, producing systematic errors in decimal comparison, ordering, and all subsequent decimal operations. This misconception is the most consequential in the decimal number system.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The place value structure of decimals connects to every future decimal topic (operations, comparison, rounding) and to all measurement. Students who engage richly with the multiplicative structure here build a durable conceptual foundation.",
+        "success_criteria": [
+          "Students can represent a decimal to hundredths using materials and identify the value of each digit",
+          "Students can rename a decimal in multiple ways (e.g. 0.25 as twenty-five hundredths or two-tenths and five-hundredths)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Decimal notation conventions and contexts",
+        "progression_checkpoint": "Students can name, write and read decimals to hundredths in money and measurement contexts, explaining how notation conventions differ.",
+        "minimum_width": "Write at least one decimal value in both money notation and measurement notation; read each aloud correctly (e.g. $2.75 as 'two dollars seventy-five', 2.75 m as 'two point seven five metres').",
+        "typical_width": "Connect decimal notation to both money and metric measurement contexts; explain the similarities and differences in how each is read (money vs measurement conventions); recognise that in both, the digits after the decimal point represent tenths and hundredths of the unit.",
+        "wider": [
+          "Compare how decimals are read across different real-world contexts (sporting scores, scientific measures, GPS coordinates) and discuss why different conventions exist",
+          "Investigate how currency decimals connect to hundredths: 75 cents is 75 hundredths of a dollar — verify this by counting coins and connecting to decimal notation"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can correctly read a decimal in money notation and in measurement notation, noting the different conventions",
+          "Students can explain that the digits after the decimal point represent tenths and hundredths in both money and measurement"
+        ]
+      }
+    ]
+  }
+}

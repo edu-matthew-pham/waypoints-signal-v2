@@ -1,0 +1,93 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2A02",
+    "title": "Addition facts to 20",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "recall and demonstrate proficiency with addition facts to 20; extend and apply facts to develop related subtraction facts",
+    "prior_knowledge": "Students add and subtract numbers within 20 using part-part-whole knowledge to 10 and a variety of calculation strategies (AC9M1N04). They have not yet established recall-level fluency with all addition facts to 20 or systematically derived the related subtraction facts.",
+    "progression_endpoint": "Students recall addition facts to 20 with proficiency and extend and apply those facts to derive related subtraction facts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Strategies for facts to 20",
+        "progression_checkpoint": "Students can calculate any addition fact to 20 using at least two strategies (doubles, near doubles, counting on, combinations to 10, bridging to 10) and explain their choice.",
+        "minimum_width": "Apply two different strategies to addition facts within 20; explain the steps of each strategy.",
+        "typical_width": "Apply all five strategy types (doubles, near doubles, counting on, combinations to 10, bridging to 10) across the range of addition facts to 20; choose the most efficient strategy for a given fact; use ten-frames or materials to support reasoning.",
+        "wider": [
+          "Systematically record all partitions of 10 (e.g. 10=10+0, 10=9+1...); explain patterns noticed and how they connect to addition facts",
+          "Use a hundreds chart or ten-frame patterns to visualise combinations to 10 and 20; discuss what patterns emerge"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students with only one strategy (typically counting on) cannot achieve the automaticity required at Node 2 — single-strategy learners plateau at slow reconstruction rather than reaching recall. Node 2 fluency depends on having multiple routes to each fact.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to build a range of strategies before moving to recall. A student who knows only one strategy (counting on) is slower and more error-prone at recall than a student with multiple routes to the same fact. Each strategy type needs explicit development.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies at least two different strategies to addition facts within 20",
+          "Names the strategy and explains the steps"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Recall of addition facts to 20",
+        "progression_checkpoint": "Students can recall addition facts to 20 with fluency, without needing to reconstruct each answer from a strategy.",
+        "minimum_width": "Recall a set of addition facts to 20 without reconstructing from counting; respond promptly when presented with random facts within range.",
+        "typical_width": "Recall all addition facts to 20 fluently; demonstrate proficiency across the full range including facts that students commonly miscalculate (e.g. 7+8, 6+7, 8+9).",
+        "wider": [
+          "Limited width — addition fact recall is a fluency skill that does not vary meaningfully across contexts. Extension involves applying recalled facts to multi-digit addition (e.g. 56+37 using 6+7 knowledge) or deriving related subtraction facts, which are addressed in node 3."
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 (deriving subtraction facts) and two-digit addition (AC9M2N04) both require fluent recall under cognitive load. Students still reconstructing addition facts from strategies cannot hold the part-part-whole relationship in working memory while also deriving the inverse.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Recall requires practise volume, not broader contexts. Students who know strategies but haven't practised to the point of recall are slower and more prone to error under cognitive load. This is a practise node — repeated exposure across varied formats (oral, written, games) builds automaticity.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Recalls a range of addition facts to 20 correctly without counting-on",
+          "Demonstrates fluency (prompt response) across a random selection of facts within 20"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Related subtraction facts",
+        "progression_checkpoint": "Students can derive related subtraction facts from known addition facts (e.g. 8+7=15, so 15-7=8 and 15-8=7) and explain the connection.",
+        "minimum_width": "Given an addition fact, state the two related subtraction facts and explain why they are related.",
+        "typical_width": "Derive related subtraction facts systematically from addition facts to 20; use part-part-whole diagrams to show the relationship; apply to solve subtraction problems by recalling the related addition fact.",
+        "wider": [
+          "Partition collections of up to 20 in all possible ways; record all related addition and subtraction facts; explain patterns noticed",
+          "Apply related facts to check subtraction answers: 'I can check 15-7=8 by adding 7+8'"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The inverse relationship between addition and subtraction is not intuitively obvious to Year 2 students. The reasoning scaffold — 'if the whole is 15 and one part is 7, the other part must be 8' — needs to be made explicit and connected to the part-part-whole model before students can apply it independently."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States both related subtraction facts given an addition fact (e.g. from 8+7=15, gives 15-7=8 and 15-8=7)",
+          "Explains why the addition and subtraction facts are related using part-part-whole language"
+        ],
+        "related_standards": ["AC9M2N04"]
+      }
+    ]
+  }
+}

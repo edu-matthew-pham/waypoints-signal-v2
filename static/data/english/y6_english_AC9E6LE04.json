@@ -1,0 +1,115 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LE04",
+    "title": "Sound and imagery in poetry",
+    "description": "explain the way authors use sound and imagery to create meaning and effect in poetry",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students can examine the effects of imagery including simile, metaphor and personification, and sound devices such as alliteration and onomatopoeia in literary texts (AC9E5LE04). They have not yet examined assonance, the combined effect of multiple sound devices, rhythm in ballads, or how imagery builds emotional connection and engagement in poetry.",
+    "progression_endpoint": "Students can explain how authors use sound devices (alliteration, assonance, onomatopoeia) and imagery to create meaning, emotional effect and engagement in poetry.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sound devices in poetry",
+        "progression_checkpoint": "Students can identify and explain the effects of alliteration, assonance and onomatopoeia in poetry.",
+        "minimum_width": "Identify and name alliteration, onomatopoeia and assonance in provided poems; explain the effect of one example of each.",
+        "typical_width": "Describe the effects of alliteration, assonance and onomatopoeia in a range of poems; explain how each sound device contributes to the mood, pace or meaning of the poem.",
+        "wider": [
+          "Analyse how multiple sound devices work together in the same poem to create a cumulative effect",
+          "Compare two poems on the same theme where one uses extensive sound devices and one does not, and evaluate the difference in effect"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify and name all three sound devices — particularly assonance — cannot perform the integration analysis required in Node 4, which depends on naming devices to explain how they work together.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students who have encountered only alliteration need to build familiarity with assonance (internal vowel rhyme) through a range of examples before the concept solidifies. Assonance is less perceptually obvious than alliteration and benefits from multiple exposures.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies and names alliteration, assonance and onomatopoeia in provided examples",
+          "Explains the effect of at least one sound device example on mood, pace or meaning"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Imagery for emotional engagement",
+        "progression_checkpoint": "Students can explain how imagery builds emotional connections and engagement with the story or theme in poetry.",
+        "minimum_width": "Identify one image in a poem and explain how it builds emotional connection or engagement for the reader.",
+        "typical_width": "Explain how imagery in poems builds emotional connections and engagement; analyse examples where imagery evokes a specific emotional response; identify imagery in narratives or poetry about First Nations Australians' Country/Place.",
+        "wider": [
+          "Identify the imagery used in poetry about First Nations Australians' Country/Place and discuss how it reflects relationships between people, land and story",
+          "Compare how imagery functions in a poem vs. an information text on the same subject and explain what poetry makes possible that prose does not"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Explaining how imagery creates an emotional response (rather than simply naming the image) requires students to reason from image content → association → emotional effect. This chain is not obvious and benefits from explicit modelling.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Engaging with imagery in First Nations Australian poetry about Country/Place is genuinely rich — it builds cultural understanding, develops empathy, and opens conversations about different relationships with land and place.",
+        "success_criteria": [
+          "Identifies a specific image in a poem and describes the emotional response it evokes",
+          "Explains how the image creates that response (what associations or sensory details produce the effect)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Rhythm and effect in ballads",
+        "progression_checkpoint": "Students can explain the effect of rhythm in ballads and how regular rhythm contributes to meaning and oral tradition.",
+        "minimum_width": "Identify regular rhythmic patterns in a provided ballad; explain at least one effect of the rhythm (e.g. it creates a sense of pace, makes the poem memorable, suits oral performance).",
+        "typical_width": "Explain the effect of rhythm in ballads — including how regular rhythm contributes to the oral and performative tradition of the ballad form, suits storytelling, and creates predictability that reinforces theme or mood.",
+        "wider": [
+          "Compare the rhythmic effect in two ballads with different tempos and explain how rhythm choice suits each poem's content",
+          "Perform a ballad aloud and evaluate how performing the rhythm affects the poem's meaning and emotional impact"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a regular rhythmic pattern in a ballad",
+          "Explains at least one effect the rhythm creates for the reader or listener"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "How sound and imagery work together",
+        "progression_checkpoint": "Students can explain how sound devices and imagery work together in a poem to create its overall meaning and effect.",
+        "minimum_width": "Identify at least one sound device and one image in a poem and explain how they work together to create meaning or effect.",
+        "typical_width": "Analyse a poem identifying how the combination of sound devices and imagery constructs the poem's meaning, mood and emotional engagement; explain why the author has made specific sound and imagery choices.",
+        "wider": [
+          "Compare how an Australian poem and a poem from another cultural context use sound and imagery to convey a theme, identifying cross-cultural similarities and differences",
+          "Write a short poem that deliberately employs at least two sound devices and one sustained image, then annotate the choices"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Explaining how sound and imagery work together requires integrating Nodes 1–3 into a coherent reading of a whole poem — the components only show their full meaning in coordination.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Creating and annotating a poem using sound and imagery is rich integrative work — requiring genuine understanding of how the devices function in order to deploy them deliberately.",
+        "success_criteria": [
+          "Identifies at least one sound device and one image in a poem and names each correctly",
+          "Explains how they work together to create a specific meaning or emotional effect in the poem"
+        ],
+        "related_standards": ["AC9E6LA08", "AC9E6LE05"]
+      }
+    ]
+  }
+}

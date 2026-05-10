@@ -1,0 +1,71 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8N01",
+    "title": "Irrational Numbers",
+    "strand": "Number",
+    "description": "recognise irrational numbers in applied contexts, including square roots and π",
+    "mode": "A",
+    "prior_knowledge": "Students can locate non-perfect square roots between consecutive integers and understand π as the constant ratio C/d (from AC9M7N01, AC9M7M03). Students understand the real number line and rational number representation.",
+    "progression_endpoint": "Students recognise irrational numbers in applied contexts, understand that they cannot be expressed as exact fractions, and approximately locate them on the real number line.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Irrational numbers as non-terminating, non-recurring decimals",
+        "progression_checkpoint": "Students understand that irrational numbers cannot be expressed as fractions and have decimal expansions that neither terminate nor recur.",
+        "minimum_width": "State that √2 and π are irrational; explain what makes a number irrational.",
+        "typical_width": "Distinguish rational from irrational numbers across a range of examples; use digital tools to explore the decimal expansion of irrational numbers; explain why they cannot be written as exact fractions.",
+        "wider": [
+          "Investigate historical approximations to π in different societies (Egyptian, Chinese, Indian, Greek) and evaluate the accuracy achieved.",
+          "Explore the golden ratio φ = (1 + √5)/2 in art and design — verify it is irrational and locate it approximately on the real number line."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The concept of irrationality is abstract — students need multiple concrete examples (√2, √3, π, φ) and contexts to build a stable understanding that goes beyond memorising which numbers are irrational.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate 'irrational' with 'very large' or 'impossible to use' cannot reason correctly in Node 2 about locating irrationals on the number line — they treat approximations as exact values and cannot describe the real number system accurately.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The history of π and the golden ratio offer rich cultural and mathematical contexts — advancing students can investigate how different civilisations approximated irrational numbers and why exact representation was unachievable.",
+        "success_criteria": [
+          "States that irrational numbers cannot be expressed as fractions and have non-terminating non-recurring decimal expansions.",
+          "Correctly classifies given numbers as rational or irrational.",
+          "Does not confuse 'irrational' with 'very large' or 'impossible to use in calculation'."
+        ],
+        "related_standards": ["AC9M8N02", "AC9M8M06"]
+      },
+      {
+        "id": 2,
+        "label": "Locating irrational numbers on the real number line",
+        "progression_checkpoint": "Students approximately locate irrational numbers on the real number line and understand the real number system as including both rational and irrational numbers.",
+        "minimum_width": "Locate √2 and √3 approximately on the real number line by identifying the integers they fall between.",
+        "typical_width": "Locate a range of irrational numbers (square roots, π) on the number line using digital tools; describe the real number system as the union of rationals and irrationals.",
+        "wider": [
+          "Use digital tools to zoom into the real number line and observe the density of both rational and irrational numbers in any interval.",
+          "Investigate applied contexts where irrational numbers arise: hypotenuse lengths from Pythagoras, circumference calculations — connect to where exact values are needed vs approximations."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Locating irrational numbers requires explicit reasoning: identify bounding perfect squares, take their roots, narrow the interval. Without the scaffold students place irrationals arbitrarily."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly locates an irrational number between two consecutive integers on the number line.",
+          "Describes the real number system as including both rationals and irrationals.",
+          "Does not treat the decimal approximation as the exact value."
+        ],
+        "related_standards": ["AC9M7N01", "AC9M8M06"]
+      }
+    ]
+  }
+}

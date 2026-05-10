@@ -1,0 +1,87 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4ST03",
+    "title": "Statistical investigations",
+    "description": "Conduct statistical investigations, collecting data through survey responses and other methods; record and display data using digital tools; interpret the data and communicate the results",
+    "strand": "Statistics",
+    "mode": "B",
+    "prior_knowledge": "Students can conduct guided statistical investigations involving collection, representation and interpretation of data (AC9M3ST03). They have not yet independently designed survey instruments or accessed data from online sources.",
+    "progression_endpoint": "Students plan and conduct statistical investigations, using surveys and other data sources, displaying and interpreting results using digital tools.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Pose and plan",
+        "progression_checkpoint": "Students can pose a statistical question and plan how to collect relevant data.",
+        "minimum_width": "Pose one statistical question and identify what data needs to be collected to answer it; describe how the data will be collected.",
+        "typical_width": "Pose and refine statistical questions for different contexts; identify the most appropriate data collection method (survey, observation, secondary data); create survey questions that will produce useful data; plan the investigation before collecting.",
+        "wider": [
+          "Investigate a consumer context (e.g. product placement in supermarkets) by identifying exactly what questions need to be answered and what data is needed — distinguishing relevant from irrelevant information",
+          "Compare what different types of data sources (own survey vs secondary data) can and cannot tell you about the same question"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often jump to data collection without asking whether the planned data can actually answer their question. The planning scaffold — 'what question am I asking? what data answers it? how will I collect that data?' — is the key reasoning move that separates purposeful investigation from accidental data gathering.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who collect data without verifying it can answer their question arrive at Node 3 with data that cannot support a meaningful interpretation. The investigation cycle breaks at the communication phase when the collected data and the original question are misaligned.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can pose a clear statistical question and identify what data is needed to answer it",
+          "Students can create a survey question that will produce data relevant to their question"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Collect and record",
+        "progression_checkpoint": "Students can collect data using surveys or digital sources and record it systematically using digital tools.",
+        "minimum_width": "Collect data using one method (survey or online source); record the data in a digital table or spreadsheet.",
+        "typical_width": "Collect data through surveys, observation and digital sources; record using digital tables, tally sheets or spreadsheets; access online databases or query interfaces where appropriate; organise data for analysis.",
+        "wider": [
+          "Access and retrieve data from an online query interface (weather records, Google Trends) to investigate a question that cannot be answered by a class survey",
+          "Compare data from a class survey with secondary data from an online source about the same question, noting similarities and differences"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can collect and record data systematically using a digital tool",
+          "Students can identify whether their data is fit-for-purpose for answering the original question"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Interpret and communicate",
+        "progression_checkpoint": "Students can interpret data from their investigation and communicate findings in terms of the original question.",
+        "minimum_width": "Identify one finding from a data display and communicate it in a sentence that references the original question.",
+        "typical_width": "Interpret data displays and describe the main findings; communicate results in terms of the original question to a relevant audience; discuss whether the data supports or challenges initial predictions; identify at least one limitation of the investigation.",
+        "wider": [
+          "Compare investigation findings with predictions made before data collection, discussing what was surprising and how the evidence relates to initial assumptions",
+          "Present statistical findings to a real audience (class, another grade, principal) using appropriate language and visual displays, adapting communication to the audience's background"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "A statistical investigation is an integrated cycle — posing, collecting, displaying, and interpreting must all align for the communication to be coherent. The integration failure mode is a report that describes the display without connecting back to the original question. Communicating results demands students coordinate all phases."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Statistical investigations with real audiences and genuine questions are authentically engaging and develop transferable inquiry skills. The iterative comparison with prior predictions builds scientific thinking habits.",
+        "success_criteria": [
+          "Students can state at least one finding from their investigation in terms of the original question",
+          "Students can communicate results to an audience using appropriate language and a clear data display"
+        ]
+      }
+    ]
+  }
+}

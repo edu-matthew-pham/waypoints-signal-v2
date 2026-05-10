@@ -1,0 +1,79 @@
+{
+  "year_level": "10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S10U04",
+    "title": "Global Climate Change",
+    "description": "use models of energy flow between the geosphere, biosphere, hydrosphere and atmosphere to explain patterns of global climate change",
+    "strand": "Earth and Space Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the carbon cycle and Earth's sphere interactions (AC9S9U03). They have not yet examined global energy balance, the full range of climate change indicators, or the feedback mechanisms that amplify climate change.",
+    "progression_endpoint": "Students explain global climate as a function of energy flow between Earth's spheres, examine multiple indicators of climate change, use models to explain observed patterns, and evaluate strategies to reduce or mitigate climate change effects.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Solar radiation and Earth's energy balance drive global climate",
+        "progression_checkpoint": "Students can explain how solar radiation interacts with the atmosphere, ocean and land surface to establish the global climate system, and describe how the energy balance has changed.",
+        "minimum_width": "Students explain the role of solar radiation in driving global climate and describe how the greenhouse effect regulates surface temperature.",
+        "typical_width": "Students explain how solar radiation drives atmospheric and oceanic circulation; describe the greenhouse effect as the trapping of outgoing radiation; examine how deep ocean currents regulate global climate; and explain how human-caused changes to greenhouse gas concentrations alter the energy balance.",
+        "wider": [
+          "Examine the role of radiation from the sun and how its interactions with atmosphere, ocean and land are the foundation of the global climate system",
+          "Investigate how deep ocean currents driven by temperature and salinity differences regulate global climate and affect marine life",
+          "Explore how quantum computers enhance modelling of complex weather and climate systems — connecting computing technology to climate science (AC9S10H02)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to connect specific climate change indicators to energy balance changes. Students who lack a working model of the global energy balance cannot explain why temperature rise, sea level rise, or ice loss are symptoms of the same underlying cause — their indicator analysis will be a list rather than a causal account.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The global energy balance — solar radiation in, outgoing radiation trapped by greenhouse gases, altered by human emissions — is the causal scaffold for all climate change indicators. Without an explicit model of energy flow, students cannot connect diverse indicators to a common cause.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains the role of solar radiation in driving global climate",
+          "Describes how changes to greenhouse gas concentrations alter Earth's energy balance"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Multiple indicators show patterns of global climate change",
+        "progression_checkpoint": "Students can identify and describe multiple indicators of climate change, explain what each indicates about energy balance changes, and connect indicators to climate models.",
+        "minimum_width": "Students describe at least four climate change indicators and explain what each indicates about the direction of climate change.",
+        "typical_width": "Students examine ocean and atmospheric temperature change, sea level rise, biodiversity changes, species distribution shifts, permafrost thaw and sea ice loss as converging indicators; use visualisations and simulations to explore energy balance changes; and connect each indicator to changes in the Earth system.",
+        "wider": [
+          "Investigate how satellite data generates global measurements of ocean temperatures, sea levels and ice cover — examining how technology enables global-scale evidence collection (AC9S10H02)",
+          "How traditional ecological knowledges of First Nations Australians are being reaffirmed by climate science and applied in carbon farming initiatives (AC9S10H03)",
+          "Analyse data from multiple indicators to construct an argument about the direction and pace of climate change (AC9S10I07)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Multiple indicators examined across the Earth's spheres — temperature, sea level, ice cover, species distribution, permafrost — build a converging picture that is richer than any single indicator. First Nations ecological knowledge reaffirmed by climate science and the satellite data direction provide culturally and technologically significant wider contexts.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations ecological knowledge reaffirmed by climate science (AC9S10H03) provides a rich cross-strand direction. The satellite data direction (AC9S10H02) connects global monitoring technology to evidence quality.",
+        "success_criteria": [
+          "Describes at least four climate change indicators and explains what each shows",
+          "Connects each indicator to changes in Earth's energy balance"
+        ],
+        "related_standards": [
+          "AC9S9U03",
+          "AC9S10H02",
+          "AC9S10H03"
+        ]
+      }
+    ]
+  }
+}

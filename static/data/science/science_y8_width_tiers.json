@@ -1,0 +1,162 @@
+{
+  "description": "Width tiers for Year 8 Science — ACARA v9. Covers the seven U-strand descriptors only. H-strand (AC9S7H01–H04) and I-strand (AC9S7I01–I08) are banded with Year 7 and are covered in science_y7_width_tiers.json.",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "8",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "phenomena_contexts"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term — the fewest phenomena or contexts that still genuinely satisfy what the descriptor requires. For all Y8 U-strand descriptors, minimum is the command term met in one named context or with one named system, not a survey of all elaboration examples.",
+    "typical_width": "The full scope of the descriptor as ACARA intended it, grounded in the most common elaboration cases. Covers the range of content the descriptor addresses — biological, geological, physical or chemical — without requiring every elaboration to be used.",
+    "wider": "Enrichment directions that add phenomena, cultural contexts, historical cases or real-world applications — not harder versions of the same context. First Nations directions are included as default wider directions where elaborations indicate them. Cross-strand connections to H-strand descriptors are flagged where they provide substantive enrichment.",
+    "elaborations": "ACARA elaborations are treated as source data for the intended range of contexts and phenomena. Typical width is grounded in the most common elaboration cases; wider may infer beyond elaborations where clearly within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S8U01": {
+      "strand": "Biological Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify and state the function of at least five organelles in plant and/or animal cells, correctly distinguishing which are present in each cell type; describe how the microscope enabled discovery of cell structures not visible to the naked eye.",
+      "typical_width": "Describe the structure and function of all major organelles across plant and animal cells; explain how the function of each organelle contributes to what the cell can do; trace how successive improvements in microscopy revealed finer cell structures and contributed to cell theory; design or evaluate a physical or digital model of a cell.",
+      "wider": [
+        "Investigate specialist cell types (red blood cells, nerve cells, guard cells, root hair cells) and explain how each cell's organelle complement reflects its specific function",
+        "Examine prokaryotic cells and compare their structure with eukaryotic cells — exploring what the absence of membrane-bound organelles means for cell function",
+        "Construct a timeline of microscopy developments and the cell discoveries each enabled — connecting technology development to knowledge change (AC9S8H01)",
+        "Explore how digital microscopes and contemporary imaging tools are used in current cell biology research"
+      ],
+      "elaborations": [
+        "exploring an augmented or virtual reality tour of a plant or animal to 'zoom in' and understand the scale of cells",
+        "identifying the structure and function of organelles in cells including the nucleus, cell membrane, cell wall, cytoplasm, chloroplasts and vacuoles",
+        "examining a variety of cells, including single-celled organisms, using a light microscope, a digital microscope, simulations and photomicrographs",
+        "comparing the similarities and differences of plant cells and animal cells visible with a light microscope and represented in a digital or physical model",
+        "designing a physical or digital model of a cell and explaining how the representation models the cell",
+        "considering how the invention of the microscope has contributed to understanding of cell structure"
+      ]
+    },
+    "AC9S8U02": {
+      "strand": "Biological Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe the organisational hierarchy from cell to tissue to organ to organ system with examples from one named system; explain at least two structure-function relationships within that system.",
+      "typical_width": "Analyse structure-function relationships across cell, tissue and organ levels in both a plant and an animal organ system; explain how each level of organisation contributes to the system's overall function; describe how the system enables survival of the organism; examine how a disorder at cell or tissue level affects organ function.",
+      "wider": [
+        "Compare analogous plant and animal systems that achieve the same functional goal through different structural solutions (e.g. vascular transport in plants vs circulatory system in animals)",
+        "Investigate how an artificial organ mimics or augments the function of a real organ — identifying which structural features must be replicated and which limitations remain (AC9S8H01, H03)",
+        "Use 2D and 3D representations of organ systems to understand how organ position within the body affects function",
+        "Research how a disorder at the cellular or tissue level cascades to threaten individual survival through a specific case study"
+      ],
+      "elaborations": [
+        "comparing 2-dimensional and 3-dimensional representations of organ systems to understand how organs are positioned within the body",
+        "comparing the structure and function of analogous systems in a plant and an animal",
+        "examining the specialised cells and tissues involved in structure and function of particular organs in an organ system",
+        "describing the structure of each organ in a system and relating its function to the overall function of the system",
+        "researching how a disorder in cells or tissues can affect how an organ functions, such as how hardening of the arteries can lead to poor circulation or heart disease",
+        "investigating how an artificial organ mimics or augments the function or functions of a real organ"
+      ]
+    },
+    "AC9S8U03": {
+      "strand": "Earth and Space Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe the geological features produced at each of the three plate boundary types (divergent, convergent, transform); identify at least two lines of evidence supporting the theory of plate tectonics.",
+      "typical_width": "Explain the geological features and plate movements at each boundary type, including sub-types of convergent boundaries; trace the development of evidence from continental drift to plate tectonics including Marie Tharp's contribution; describe how tectonic activity distributes earthquake and volcanic hazards; examine engineering and scientific responses that support communities near active boundaries.",
+      "wider": [
+        "Construct a timeline of evidence for plate tectonics — examining why Wegener's continental drift hypothesis was initially rejected and what additional evidence was required for acceptance (AC9S8H01)",
+        "Research First Nations Australians' cultural accounts of earthquakes and volcanic events and explore how long-term observational records contribute to understanding of tectonic history",
+        "Investigate how the extreme age and stability of the Australian craton relates to its plate tectonic history — contrasting with active margins in the Asia-Pacific region",
+        "Explore how seismic data is shared between Asia-Pacific governments and used for tsunami early warning systems (AC9S8H04)"
+      ],
+      "elaborations": [
+        "examining patterns of earthquake and volcanic activity over time and proposing explanations",
+        "evaluating the impact of tectonic events on human populations and examining engineering solutions designed to reduce the impact",
+        "modelling interactions at plate boundaries",
+        "investigating the relative significance of different forces involved in tectonic plate movement including slab pull, ridge push and convection",
+        "relating the extreme age and stability of a large part of the Australian continent to its plate tectonic history",
+        "constructing a timeline of evidence to show the development of the theory of plate tectonics",
+        "exploring how geologist and oceanographic cartographer Marie Tharp's topographic maps of the Atlantic Ocean floor provided support for the acceptance of the theory of plate tectonics",
+        "researching First Nations Australians' cultural accounts that provide evidence of earthquakes and volcanoes"
+      ]
+    },
+    "AC9S8U04": {
+      "strand": "Earth and Space Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Name and describe at least four rock cycle processes; classify rock samples as sedimentary, igneous or metamorphic from observable properties; explain how the formation process of one rock type determines at least one of its properties.",
+      "typical_width": "Describe the complete rock cycle including all major processes and the timescales involved; explain how formation conditions (temperature, pressure, cooling rate, sediment type) determine the observable properties of each rock type; explain how properties derived from formation determine the uses of specific rocks; use a dichotomous key to classify rock samples.",
+      "wider": [
+        "Investigate the traditional geological knowledge of First Nations Australians used in selecting rock types for tools (grindstones, hammerstones, cutting tools) — examining deep empirical knowledge of rock properties",
+        "Examine fossil evidence (body, trace, opalised) to reconstruct the formation conditions of the sedimentary rock containing them",
+        "Research how mining of ores and minerals impacts local environments and examine environmental rehabilitation initiatives",
+        "Connect the rock cycle to plate tectonics — examining how tectonic forces drive rock cycle processes including uplift, subduction and volcanic activity (AC9S8U03)"
+      ],
+      "elaborations": [
+        "comparing the observable properties of different types of rocks and identifying them using a provided dichotomous key",
+        "exploring the major processes of the rock cycle including weathering, erosion, deposition, melting, crystallisation, uplift, heat and pressure in the formation of different types of rocks",
+        "analysing the role of forces and heat energy in the formation of different types of rocks and comparing how quickly or slowly different processes can occur",
+        "examining fossil evidence, such as body, trace or opalised fossils, to predict how and when a rock was formed",
+        "explaining the uses of different types of rocks with reference to their properties and formation",
+        "exploring the traditional geological knowledges of First Nations Australians that are used in the selection of different rock types for different purposes",
+        "investigating how First Nations Australians have used quarrying to access rocks for use as or production of everyday objects such as grindstones, hammerstones, anvils and cutting tools",
+        "exploring how the mining of ores and minerals impacts on local environments and examining environmental rehabilitation initiatives"
+      ]
+    },
+    "AC9S8U05": {
+      "strand": "Physical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Classify at least four energy types as kinetic or potential with examples; trace at least two energy transfers or transformations through a named simple system; identify heat as a by-product in at least one energy transfer.",
+      "typical_width": "Classify the full range of energy types across both kinetic and potential categories; trace complete energy transfer and transformation sequences through simple systems (roller-coaster, Newton's cradle, electrical circuit) using labelled flow diagrams; distinguish transfers from transformations; explain why heat production as a by-product reduces the useful energy available from a transfer.",
+      "wider": [
+        "Investigate traditional fire-starting methods used by First Nations Australians and identify all energy transformations involved — from mechanical kinetic energy through friction heat to combustion",
+        "Analyse a Rube Goldberg machine and identify all energy transfers and transformations in sequence — applying the framework to a complex multi-step system",
+        "Examine the development of hybrid, electric and hydrogen vehicles as engineering responses to energy dissipation and fossil fuel depletion (AC9S8H03)",
+        "Investigate how electrical circuit resistance affects heat production as a by-product — connecting energy dissipation to circuit design principles"
+      ],
+      "elaborations": [
+        "investigating relationships between kinetic and potential energy in a simple system such as a roller-coaster or Newton's cradle",
+        "classifying types of energy as either kinetic energy such as movement, heat and electricity or potential energy such as chemical, elastic and gravitational",
+        "critiquing and using representations such as flow diagrams to illustrate changes between different forms of energy in a system",
+        "identifying where heat energy is produced as a by-product of energy transfer, such as filament light globes, exercise, and battery charging and use",
+        "using electrical circuits and components to demonstrate electrical energy transfer and its transformation into heat, light and sound",
+        "observing a Rube Goldberg machine and identifying the energy transfers and transformations involved",
+        "investigating traditional fire-starting methods used by First Nations Australians and their understandings of the transformation of energy"
+      ]
+    },
+    "AC9S8U06": {
+      "strand": "Chemical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Classify at least five substances as elements, compounds or mixtures with atomic/molecular reasoning; identify at least eight elements by chemical symbol; write or interpret formulas for at least three simple compounds.",
+      "typical_width": "Explain the element/compound/mixture classification hierarchy using particle-level reasoning; distinguish mixture sub-types (solutions, suspensions, colloids); use element symbols and molecular formulas to represent and interpret substances; compare 2D and 3D representations of matter and identify the strengths and limitations of each.",
+      "wider": [
+        "Examine how Mendeleev arranged elements in the first periodic table and compare with the current version — tracing how knowledge of atomic structure refined the classification system (AC9S8H01)",
+        "Create a timeline showing how the concept of an element has changed from Democritus through Dalton to the modern atomic model",
+        "Compare different representation types for the same substance — symbol, formula, 2D diagram, 3D ball-and-stick model — and explain what each adds and what each omits",
+        "Investigate how mixture composition is represented and managed in industrial contexts — alloy specifications, solution concentrations, ore grades in mining"
+      ],
+      "elaborations": [
+        "using virtual and physical models to distinguish between elements and compounds in terms of types of atoms",
+        "examining how Dmitri Mendeleev arranged the elements in the first version of the periodic table and comparing his arrangement with the current version",
+        "explaining why elements are represented by symbols, compounds and molecules by formulas and mixtures by percentages",
+        "using representations to show the classification of matter as elements, compounds and different types of mixtures such as solutions, suspensions and colloids",
+        "examining the information conveyed by different types of representations of elements and compounds and identifying where and why these different representations are used",
+        "creating a timeline or models to show how the concept of an element has changed over time from Democritus to John Dalton"
+      ]
+    },
+    "AC9S8U07": {
+      "strand": "Chemical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Classify at least three changes as physical or chemical with justification; identify at least three observable indicators of chemical change; classify a named reaction as exothermic or endothermic based on temperature change evidence.",
+      "typical_width": "Explain the fundamental physical/chemical change distinction using particle-level reasoning; identify and use observable indicators (gas production, precipitate, colour change, temperature change) as evidence for chemical reactions; perform or analyse simple reactions to identify indicators; distinguish exothermic from endothermic reactions using temperature data; interpret data on substance properties before and after interaction to determine change type.",
+      "wider": [
+        "Investigate how chemical change indicators are used in diagnostic testing contexts — soil kits, water quality tests, medical testing — examining how the same observable indicators are applied purposefully",
+        "Examine everyday processes that challenge student intuitions about the physical/chemical distinction — dissolving, cooking, rusting, digestion — and use particle-level reasoning to classify each",
+        "Investigate traditional fire-starting methods used by First Nations Australians — examining the chemical reactions and energy transformations involved (AC9S8U05)",
+        "Research how the physical and chemical properties of a substance affect its production or use — connecting the change distinction to materials selection in engineering"
+      ],
+      "elaborations": [
+        "performing simple chemical reactions to identify the indicators of chemical change such as gas production, solid production, colour change and temperature change",
+        "analysing and interpreting data on the properties of substances before and after the substances interact to determine if a chemical or physical change has occurred",
+        "investigating and identifying energy changes in different chemical reactions such as differences in temperature",
+        "examining how the physical and chemical properties of a substance will affect its production or use",
+        "discussing where indicators of chemical change are used for identifying the presence of particular substances, such as in soil, water and medical testing kits"
+      ]
+    }
+  }
+}

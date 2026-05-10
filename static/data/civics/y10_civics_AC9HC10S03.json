@@ -1,0 +1,105 @@
+{
+  "year_level": "10",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC10S03",
+    "title": "Analyse civic perspectives and interpretations",
+    "description": "analyse information, data and ideas about political, legal or civic issues to identify and evaluate differences in perspectives and interpretations",
+    "strand": "Civics Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have analysed information to identify and evaluate differences in perspectives and interpretations at Year 9 (AC9HC9S03). They can examine media and information sources for varying views on contemporary issues.",
+    "progression_endpoint": "Students analyse information, data and ideas about political, legal or civic issues to identify and evaluate differences in perspectives and interpretations, including assessing the effectiveness of global governance institutions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying differences in perspectives",
+        "progression_checkpoint": "Students can identify different perspectives and interpretations in information about a political, legal or civic issue, explaining what positions different actors hold and why.",
+        "minimum_width": "Identify at least two different perspectives on a political, legal or civic issue and explain why each actor holds their position.",
+        "typical_width": "Examine information from traditional and social media sources to identify different views on and responses to a contemporary Australian political, legal or civic issue — including perspectives from government, advocacy groups, affected communities, and independent commentators.",
+        "wider": [
+          "Examine how the same civic issue is framed differently across media platforms and analyse what the differences reveal about underlying values or interests",
+          "Identify perspectives from groups directly affected by a policy (e.g. communities subject to detention policies, First Nations Australians affected by land rights legislation) and compare with official government framing",
+          "Investigate how an international body (e.g. UN, ICC) interprets a situation differently from the Australian Government and evaluate what explains the difference"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who can identify positions but cannot explain why different actors hold them are stuck at description — they cannot evaluate the quality or legitimacy of perspectives in the next node without understanding the interests, values and evidence behind each view.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Teach perspective analysis as requiring explanation of motive and interest, not just labelling (e.g. 'Group A supports X because...' not 'Group A supports X'). Model the move from identification to explanation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two different perspectives on the issue",
+          "Explains why each actor holds their position (not just what it is)",
+          "Distinguishes between factual disagreements and value-based disagreements"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating perspectives and interpretations",
+        "progression_checkpoint": "Students can evaluate differences in perspectives and interpretations, assessing the quality of evidence and reasoning behind each, including identifying value positions.",
+        "minimum_width": "Evaluate at least two perspectives on an issue, identifying the values positions behind each and offering a supported judgement about which is better supported by evidence.",
+        "typical_width": "Evaluate differences in perspectives and interpretations across sources — assessing the quality of evidence, internal consistency, and the values positions of different actors — and explain what the differences reveal about the civic issue.",
+        "wider": [
+          "Examine the role of global governance institutions (e.g. UN, ICC) and evaluate their effectiveness in upholding democratic norms and human rights, comparing their interpretation with that of the Australian Government",
+          "Investigate a contemporary international event — armed conflict, international agreement, humanitarian disaster — and assess the values positions of different global actors (NGOs, governments, the Australian Government)",
+          "Evaluate how restrictions on freedoms (movement, trade, association) are justified differently by different actors and assess which justifications best align with democratic values"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluation requires students to distinguish between their own values and the standards of evidence they are applying. Scaffold this with explicit criteria: What makes an interpretation well-supported? What makes a values position coherent with democratic principles?"
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The global governance institution direction is a qualitatively different context — evaluating the UN or ICC involves multi-actor international settings where perspectives are structured differently than in domestic civic debate.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating global governance institutions is substantively richer than evaluating domestic perspectives — it requires students to apply democratic norms to institutions operating in a context without the same enforcement mechanisms, raising deeper questions about legitimacy and effectiveness.",
+        "success_criteria": [
+          "Evaluates at least two perspectives, identifying the values positions behind each",
+          "Assesses which perspective is better supported by evidence, with reasons",
+          "Explains what the differences in interpretation reveal about the underlying civic issue"
+        ],
+        "related_standards": ["AC9HC10S02", "AC9HC10S04"]
+      },
+      {
+        "id": 3,
+        "label": "Assessing effectiveness of global governance actors",
+        "progression_checkpoint": "Students can investigate a contemporary international event or situation and assess the effectiveness and values positions of global actors, including the Australian Government's response.",
+        "minimum_width": "Investigate a contemporary international event or situation and identify the values positions of at least two global actors, including the Australian Government.",
+        "typical_width": "Investigate a contemporary international event or situation — armed conflict, development of an international agreement, or natural or humanitarian disaster — to assess the effectiveness and values positions of global actors such as NGOs, and evaluate the Australian Government's response.",
+        "wider": [
+          "Compare the responses of at least two different global actors (e.g. an NGO, a government, a multilateral body) to the same event and evaluate which response was most effective and why",
+          "Trace how the Australian Government's response to a specific international event has evolved over time and evaluate what drove the changes",
+          "Investigate a case where NGO action achieved outcomes that government actors could not and analyse what this reveals about the civic landscape of global governance"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integration node — analysis of global actors, evaluation of perspectives, and assessment of the Australian Government's role are brought together in a specific case study. Teaching investment is in supporting synthesis across the multiple actors and evidence sources."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two global actors and their values positions in relation to a specific international event",
+          "Assesses the effectiveness of at least one actor's response with evidence",
+          "Evaluates the Australian Government's response to the event"
+        ],
+        "related_standards": ["AC9HC10K02", "AC9HC10K04"]
+      }
+    ]
+  }
+}

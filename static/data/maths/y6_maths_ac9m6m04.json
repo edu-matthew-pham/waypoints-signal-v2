@@ -1,0 +1,120 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6M04",
+    "title": "Angle relationships",
+    "description": "Identify the relationships between angles on a straight line, angles at a point and vertically opposite angles; use these to determine unknown angles, communicating reasoning",
+    "strand": "measurement",
+    "mode": "A",
+    "prior_knowledge": "Students can estimate, construct and measure angles in degrees using a protractor (AC9M5M04). They understand acute, obtuse, straight, and reflex angles and can measure them. They have not yet identified geometric relationships between angles at a point or on a line, or used these to determine unknown angles.",
+    "progression_endpoint": "Students can identify the relationships between angles on a straight line, at a point, and vertically opposite; use these to determine unknown angles; communicate their reasoning.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Angles on a straight line",
+        "progression_checkpoint": "Students can identify that angles on a straight line sum to 180\u00b0 and use this to find an unknown angle.",
+        "minimum_width": "Identify angles on a straight line; state that they sum to 180\u00b0; calculate at least four unknown angles using the straight-line relationship; verify using measurement.",
+        "typical_width": "Apply the straight-line relationship to diagrams with two or three angles on a line; explain why the angles sum to 180\u00b0 (a straight line is a half-rotation); apply to problem contexts involving straight line segments in diagrams.",
+        "wider": [
+          "Investigate supplementary angles in different geometric figures \u2014 in a triangle, in a parallelogram \u2014 and identify where the straight-line relationship appears",
+          "Explore why the straight-line angle sum is 180\u00b0 using rotation reasoning: a full rotation is 360\u00b0, a straight line is half"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often apply the 180\u00b0 rule without understanding why it holds. The rotation-based justification (straight angle = half turn = 180\u00b0) needs explicit scaffolding before students can communicate reasoning rather than just state the rule.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "The straight-line relationship is used as a step within the vertically-opposite proof (Node 3) and within all Node 4 multi-step problems. Students who apply 180\u00b0 as a rote rule without understanding the rotation basis will be unable to identify when and why to apply it in complex diagrams.",
+        "success_criteria": [
+          "Student states the angle relationship for angles on a straight line.",
+          "Student correctly finds an unknown angle on a straight line and explains the reasoning."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Angles at a point",
+        "progression_checkpoint": "Students can identify that angles at a point sum to 360\u00b0 and use this to find unknown angles.",
+        "minimum_width": "Identify angles at a point in a diagram; state that they sum to 360\u00b0; calculate at least three unknown angles using the relationship.",
+        "typical_width": "Apply the angles-at-a-point relationship to diagrams with two, three, and four angles at a point; connect to the full-rotation concept; apply to context problems involving directions, clock faces, and geometric diagrams.",
+        "wider": [
+          "Investigate why clock angles at 3-hour intervals are all 90\u00b0 using angles-at-a-point reasoning",
+          "Explore compass bearing contexts: if you turn 135\u00b0 clockwise from North, what direction are you facing? Use angles-at-a-point reasoning."
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student states the angle relationship for angles at a point.",
+          "Student correctly finds an unknown angle at a point and shows the calculation."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Vertically opposite angles",
+        "progression_checkpoint": "Students can identify vertically opposite angles in a diagram and use the property that they are equal to find unknown angles.",
+        "minimum_width": "Identify the two pairs of vertically opposite angles when two lines intersect; state that vertically opposite angles are equal; find unknown vertically opposite angles in at least three diagrams.",
+        "typical_width": "Apply the vertically opposite angle property in combination with straight-line and at-a-point relationships; explain why vertically opposite angles are equal using straight-line reasoning; apply to multi-angle diagrams.",
+        "wider": [
+          "Investigate whether vertically opposite angles remain equal when lines are not straight \u2014 explore with curved intersecting lines and discuss",
+          "Explore where vertically opposite angles appear in design, architecture, and tiling \u2014 identify at least two real-world examples"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often accept that vertically opposite angles are equal as a stated fact without understanding the proof. Developing the reasoning (both angles are supplementary to the same angle, so they must be equal) establishes a proof habit that is foundational for secondary geometry.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Understanding the proof that vertically opposite angles are equal (via straight-line relationships) is required for Node 4, where students must identify and apply all three relationships in combination. Students who know the rule without the reasoning cannot construct the multi-step justification required at Node 4.",
+        "success_criteria": [
+          "Student identifies vertically opposite angle pairs in a diagram.",
+          "Student uses the property to find unknown angles and explains why the angles are equal."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Combining angle relationships to solve problems",
+        "progression_checkpoint": "Students can identify which angle relationships apply in a multi-step diagram and use a combination of relationships to find multiple unknown angles, communicating their reasoning.",
+        "minimum_width": "Find all unknown angles in a diagram requiring at least two different angle relationships; state which relationship is used at each step.",
+        "typical_width": "Solve multi-step angle problems systematically, recording the relationship used at each stage; communicate reasoning clearly including which relationship justifies each step; verify by checking that all angles in the diagram are consistent.",
+        "wider": [
+          "Design a complex angle diagram with several unknowns and write step-by-step solutions for a partner to verify",
+          "Investigate angles in First Nations Australian art and design \u2014 identify angle relationships appearing in traditional patterns and describe them using geometric vocabulary"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Multi-step angle problems require students to coordinate all three relationships, identify which applies at each step, and communicate the reasoning chain. The integration of reasoning across steps \u2014 not just applying individual rules \u2014 is the endpoint skill.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Angle reasoning in complex diagrams is foundational for secondary geometry. The skill of identifying which relationship applies and constructing a reasoning chain rewards deliberate practice and transfers broadly.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly finds all unknown angles in a diagram using at least two different angle relationships.",
+          "Student communicates the reasoning, naming the relationship used at each step."
+        ]
+      }
+    ]
+  }
+}

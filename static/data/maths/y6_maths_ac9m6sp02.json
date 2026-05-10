@@ -1,0 +1,73 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6SP02",
+    "title": "Cartesian plane \u2014 4 quadrants",
+    "description": "Locate points in the 4 quadrants of a Cartesian plane; describe changes to the coordinates when a point is moved to a different position in the plane",
+    "strand": "space",
+    "mode": "A",
+    "prior_knowledge": "Students can construct and use grid coordinate systems to describe position and movement in the first quadrant (AC9M5SP02). Students can locate integers on a number line (AC9M6N01). They have not yet extended the coordinate system to all four quadrants using negative integers.",
+    "progression_endpoint": "Students can locate points in all 4 quadrants of a Cartesian plane and describe how coordinates change when a point is moved.",
+    "notes": "This standard closely parallels AC9M6N01 node 3 (integer coordinates). The two standards work together \u2014 N01 establishes the concept in a number strand context while SP02 develops it spatially. Avoid duplication of content; SP02 emphasises movement, transformation, and spatial description rather than integer meaning.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Extending coordinates to all four quadrants",
+        "progression_checkpoint": "Students can identify and name the four quadrants of the Cartesian plane and locate points with integer coordinates in all four quadrants.",
+        "minimum_width": "Label the four quadrants of a Cartesian plane; plot at least eight points, two per quadrant; read the coordinates of plotted points in all quadrants.",
+        "typical_width": "Plot and read coordinates in all four quadrants including on the axes; identify the quadrant from the signs of the coordinates (++, \u2212+, \u2212\u2212, +\u2212); describe the position of a point relative to the origin and the axes.",
+        "wider": [
+          "Use the four-quadrant plane to map a local area, game board, or treasure hunt with reference point at origin",
+          "Connect four-quadrant coordinates to integer number lines: each axis is a number line \u2014 why does this mean four quadrants?"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students must learn to identify quadrants from coordinate sign patterns (++, \u2212+, \u2212\u2212, +\u2212) rather than re-counting from the origin each time. This sign-convention reasoning needs explicit scaffolding before students can describe coordinate changes that cross axes in Node 2.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Reliable four-quadrant plotting and coordinate reading is the prerequisite for Node 2. Students who confuse coordinate signs or quadrant membership cannot describe coordinate changes for movements that cross axes.",
+        "success_criteria": [
+          "Student correctly plots points in all four quadrants.",
+          "Student reads coordinates of points in all quadrants and correctly identifies the quadrant from coordinate signs."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Describing coordinate changes when moving a point",
+        "progression_checkpoint": "Students can describe how the coordinates of a point change when it is translated horizontally, vertically, or diagonally in the Cartesian plane.",
+        "minimum_width": "Move a point horizontally and describe the change to x-coordinate; move a point vertically and describe the change to y-coordinate; state which coordinate changes and by how much for each movement.",
+        "typical_width": "Describe coordinate changes for horizontal, vertical, and diagonal movements including movements that cross axes (changing sign); predict the new coordinates of a point after a described movement; connect movements to positive/negative integer addition.",
+        "wider": [
+          "Investigate systematic translations of shapes on the Cartesian plane \u2014 if every vertex moves +3 horizontally and \u22122 vertically, how do coordinates change?",
+          "Explore reflections across axes: if a point at (3, \u22124) is reflected across the x-axis, what are the new coordinates? Identify the sign pattern."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often confuse horizontal and vertical movements with x- and y-coordinate changes. The explicit reasoning chain \u2014 horizontal movement changes only x, vertical movement changes only y \u2014 prevents persistent confusion and provides a tool for checking transformations.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Coordinate movement connects to transformation geometry (translations and reflections), integer addition, and spatial reasoning. The reflection sign-pattern investigation is particularly accessible and revealing for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly identifies which coordinate changes when a point is moved horizontally or vertically.",
+          "Student predicts the new coordinates of a point after a described movement."
+        ]
+      }
+    ]
+  }
+}

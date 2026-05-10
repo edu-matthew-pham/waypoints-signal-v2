@@ -1,0 +1,108 @@
+{
+  "year_level": "7-8",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE8K01",
+    "title": "Ethics and sustainability in design",
+    "description": "analyse how people in design and technologies occupations consider ethical and sustainability factors to design and produce products, services and environments",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how people in design and technologies occupations consider competing factors, including sustainability, in the design of products, services and environments (AC9TDE6K01). They have identified competing factors but have not yet analysed how ethical considerations (intellectual property, cultural protocols, cross-cultural requirements) shape design decisions alongside sustainability.",
+    "progression_endpoint": "Students analyse how people in design and technologies occupations consider ethical and sustainability factors — including intellectual property rights, First Nations Australian protocols, and cross-cultural requirements — to design and produce products, services and environments.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What ethical factors mean in design",
+        "progression_checkpoint": "Students can identify ethical factors that designers must consider, including intellectual property, cultural protocols and the rights of communities being designed for",
+        "minimum_width": "Name at least two ethical factors that a designer should consider; explain why each matters using an example",
+        "typical_width": "Identify ethical factors across different design contexts — intellectual property in product design, First Nations Australian protocols in community projects, cultural consultation requirements when designing for diverse groups",
+        "wider": [
+          "Research the rights and responsibilities of those working in design occupations, including First Nations Australian intellectual property rights and how these shape what a designer can and cannot do",
+          "Investigate ethical requirements when designing solutions for cultural groups — what does meaningful consultation look like?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat ethical factors as optional additions rather than design constraints will arrive at Node 3 unable to analyse how ethics and sustainability interact — the integration task requires ethical factors to be understood as shaping design decisions from the outset, not as a checklist appended afterward.",
+        "success_criteria": [
+          "Names at least two ethical factors relevant to design",
+          "Explains why each factor matters for the people affected by the design"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who treat ethics as an afterthought ('add a sustainability statement at the end') rather than a design constraint ('this shapes what we can make') will produce analyses at later nodes that separate ethics from the design process. Seeing ethics across multiple design contexts helps students understand that ethical factors are integral, not optional.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8K02",
+          "AC9TDE8P04"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sustainability as a design constraint",
+        "progression_checkpoint": "Students can analyse how sustainability considerations constrain and shape design decisions about materials, processes and outcomes",
+        "minimum_width": "Identify at least one sustainability consideration in a given design scenario; explain how it affects what the designer can choose",
+        "typical_width": "Analyse sustainability across the design lifecycle — material sourcing, production processes, product lifespan, end-of-life disposal; explain trade-offs between sustainability and other factors like cost or performance",
+        "wider": [
+          "Investigate how traditional technologies from Asian countries are sustained or transformed in response to environmental or economic change",
+          "Research offshore manufacturing implications — how does moving production to another country affect sustainability and ethical considerations?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who understand sustainability only in one dimension (e.g. recycling) will produce partial analyses at Node 3 — the integration task requires sustainability to be understood as operating across lifecycle stages and across cultural and economic contexts simultaneously.",
+        "success_criteria": [
+          "Identifies at least one sustainability consideration in a design scenario",
+          "Explains how the sustainability factor affects design choices"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Sustainability as a design constraint operates differently across product lifecycle stages (material sourcing, production, disposal) and across cultural and economic contexts (e.g. offshore manufacturing). Students who see sustainability only in one dimension (e.g. recycling) will produce partial analyses. Breadth across lifecycle stages and contexts builds the multi-dimensional understanding needed for Node 3.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The offshore manufacturing and traditional Asian technologies directions offer advancing students genuinely complex trade-off analysis — sustainability decisions that involve cross-cultural, economic and ethical dimensions simultaneously.",
+        "related_standards": [
+          "AC9TDE8K02",
+          "AC9TDE8K04",
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Analysing ethics and sustainability together in design occupations",
+        "progression_checkpoint": "Students can analyse how people in design occupations weigh ethical and sustainability factors together when designing and producing products, services or environments",
+        "minimum_width": "Given a design scenario, analyse how at least one ethical and one sustainability factor together influence the design decisions made",
+        "typical_width": "Compare how ethical and sustainability factors are balanced in design across Australia and a country in Asia; identify where factors compete and how designers navigate the tension",
+        "wider": [
+          "Compare design and production across additional industries or country pairs beyond the core Australia-Asia examples",
+          "Investigate enterprise opportunities that arise when ethical and sustainable design creates a competitive advantage"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Analyses how at least one ethical and one sustainability factor together shape a design decision",
+          "Does not treat ethics and sustainability as separate checklists — explains how they interact"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to bring ethical factors (Node 1) and sustainability constraints (Node 2) together into a single analysis. Students who have treated them as separate checklists produce analyses where the two factors coexist but don't interact. The integration task reveals whether students understand that ethical and sustainability considerations can reinforce, trade off against, or constrain each other.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The enterprise opportunity direction (ethical/sustainable design as competitive advantage) and the cross-country comparison direction both require students to apply the integrated analysis in rich, real-world contexts that go meaningfully beyond a single scenario.",
+        "related_standards": [
+          "AC9TDE8K02",
+          "AC9TDE8P04",
+          "AC9TDE8P05"
+        ]
+      }
+    ]
+  }
+}

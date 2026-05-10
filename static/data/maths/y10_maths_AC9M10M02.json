@@ -1,0 +1,100 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10M02",
+    "title": "Logarithmic scales",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "interpret and use logarithmic scales in applied contexts involving small and large quantities and change",
+    "prior_knowledge": "Students can use mathematical modelling to solve proportion, rate, ratio and scale problems (AC9M9M05). They have not yet encountered logarithmic scales or the concept of order-of-magnitude calibration.",
+    "progression_endpoint": "Students interpret and use logarithmic scales across applied contexts, explaining why a logarithmic scale is appropriate for certain data and reading values correctly from logarithmic representations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Order of magnitude and the logarithmic idea",
+        "progression_checkpoint": "Students can explain that a logarithmic scale is calibrated in orders of magnitude and describe how equal intervals on a log scale represent multiplicative (not additive) steps.",
+        "minimum_width": "Explain that each step on a logarithmic scale represents a \u00d710 (or \u00d72, depending on base) change rather than a fixed additive amount; contrast this with a linear scale.",
+        "typical_width": "Explain the order-of-magnitude calibration of logarithmic scales; read values from a base-10 log scale; convert between linear and log representations of the same value; explain why 10\u00b2 and 10\u00b3 are one 'step' apart on a log scale despite being 900 apart on a linear scale.",
+        "wider": [
+          "Investigate how the choice of base (base 2, base 10, natural log) changes the scale and appears in different scientific contexts",
+          "Explore how scientific notation and logarithmic scales express the same underlying idea \u2014 that very large or very small numbers are more usefully described by their order of magnitude"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The multiplicative nature of log scales is conceptually unfamiliar \u2014 students arrive expecting all scales to be linear. The reasoning chain (each step multiplies rather than adds; equal visual distance = equal ratio) needs explicit scaffolding.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly explains what equal intervals represent on a logarithmic scale (multiplicative, not additive steps)",
+          "Student reads a value from a base-10 log scale and expresses it as a power of 10"
+        ],
+        "hinge": true,
+        "hinge_reason": "The multiplicative (not additive) calibration of log scales is the foundational concept for all subsequent interpretation work \u2014 students who do not grasp this cannot meaningfully read log scale values (N2) or compare quantities across orders of magnitude (N3)."
+      },
+      {
+        "id": 2,
+        "label": "Interpreting logarithmic scales in context",
+        "progression_checkpoint": "Students can read and interpret data presented on a logarithmic scale in at least two real-world contexts, explaining what the scale reveals about the data.",
+        "minimum_width": "Read and interpret a graph using a logarithmic scale (e.g. Richter scale, decibel scale); explain what a one-unit increase on the scale means in terms of the quantity measured.",
+        "typical_width": "Interpret logarithmic scales across multiple contexts (Richter, decibel, pH, exponential growth graphs); explain when a log scale is more appropriate than a linear scale (wide range of values, exponential growth, percentage change); compare the same data displayed on linear and log axes.",
+        "wider": [
+          "Investigate dating methods at geological sites significant to First Peoples of Australia, including the Madjedbebe dig \u2014 examining how logarithmic scales and scientific notation are used in radiometric dating and discussing the measurement accuracy and social significance of the findings",
+          "Investigate how logarithmic scaling is used in machine learning algorithms to compress large value ranges \u2014 connecting the mathematical concept to a contemporary data science application"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Log scale interpretation is a genuine hinge \u2014 students who can read a Richter scale often cannot interpret a pH scale or a log-transformed growth graph because they treat each as a separate skill rather than the same mathematical structure. Multiple contexts stabilise the underlying concept.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations dating context (Madjedbebe) connects logarithmic scale interpretation to a significant scientific and cultural investigation \u2014 measuring Australia's deep human history \u2014 providing rich, purposeful engagement beyond technical skill.",
+        "success_criteria": [
+          "Student correctly reads a value from a logarithmic scale graph and expresses it in appropriate units",
+          "Student explains why a logarithmic scale is more appropriate than a linear scale for a given data set"
+        ],
+        "related_standards": [
+          "AC9M10M04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Using logarithmic scales for change and comparison",
+        "progression_checkpoint": "Students can use logarithmic scales to compare quantities that span multiple orders of magnitude and interpret what differences between scale values mean.",
+        "minimum_width": "Use a logarithmic scale to compare two quantities that differ by at least two orders of magnitude; interpret the comparison in context.",
+        "typical_width": "Use logarithmic scales to compare quantities across multiple orders of magnitude; interpret differences between scale values in terms of multiplicative ratios; discuss why a 1-unit difference on a Richter or decibel scale represents a \u00d710 (or \u00d710 in energy) difference in the quantity; make and interpret predictions using log scale data.",
+        "wider": [
+          "Investigate and compare the logarithmic representation of the same quantity (e.g. sound intensity) on different scale types, explaining how the choice of display affects perception of differences",
+          "Explore how logarithmic comparison is used in finance (comparing investment growth over time) and biology (comparing population sizes across species) \u2014 applying the same mathematical tool in different domains"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Using log scales for comparison integrates reading (node 2) with the order-of-magnitude concept (node 1) into the practical skill of making meaningful comparisons. It is where students move from interpreting individual values to reasoning about differences between them."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly interprets the multiplicative meaning of a difference between two values on a logarithmic scale",
+          "Student compares two quantities on a log scale and expresses the comparison as a ratio"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

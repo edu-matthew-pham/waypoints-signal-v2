@@ -1,0 +1,87 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4P01",
+    "title": "Likelihood and chance events",
+    "description": "Describe possible everyday events and the possible outcomes of chance experiments and order outcomes or events based on their likelihood of occurring; identify independent or dependent events",
+    "strand": "Probability",
+    "mode": "A",
+    "prior_knowledge": "Students can describe outcomes as likely, unlikely, certain or impossible with reasoning (AC9M3P01). They have not yet ordered events by likelihood on a scale, or identified independent and dependent events.",
+    "progression_endpoint": "Students order events by likelihood, use relative composition to reason about probability, and identify independent and dependent events.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Ordering events by likelihood",
+        "progression_checkpoint": "Students can order a set of events from least likely to most likely and justify their reasoning.",
+        "minimum_width": "Order at least three familiar events from least likely to most likely; explain the reasoning for the order.",
+        "typical_width": "Order events by likelihood using a continuum from impossible to certain; explain reasoning; recognise that likelihood judgements may differ between people depending on their context and experience; use likelihood language consistently.",
+        "wider": [
+          "Investigate how early warning systems use likelihood ordering as a fundamental component of AI decision-making — connecting mathematical probability reasoning to real-world alert systems",
+          "Discuss how predictive text uses likelihood to suggest words, and how the suggestion changes as more letters are revealed — making the probabilistic reasoning visible"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can order a set of events from least likely to most likely",
+          "Students can justify their likelihood ordering using reasoning about the situation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Reasoning from composition",
+        "progression_checkpoint": "Students can use the composition of a set (e.g. contents of a bag) to compare the likelihood of different outcomes.",
+        "minimum_width": "Predict which outcome is more likely from two scenarios with different set compositions (e.g. two bags with different numbers of red and white balls); explain the reasoning.",
+        "typical_width": "Compare likelihood of selecting different outcomes based on the relative frequencies in a set; explain that more of a certain item means greater likelihood of selecting it; apply to multiple scenarios; connect to the idea that certain outcomes (both at once) are impossible.",
+        "wider": [
+          "Investigate dependent event chains in school contexts: given a high chance of a storm on Friday, what happens to the chance of the outdoor activity? Building multi-step conditional reasoning",
+          "Explore impossible event pairs (mutually exclusive outcomes — it cannot be hot and cold at the same time; a card cannot be both red and a spade) and connect to logical reasoning"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Common misconception: the gambler's fallacy — believing that after a long run of heads, a tail is now 'due.' Students who encounter multiple independent event contexts (each coin toss is fresh) rather than only dependent contexts are less likely to develop this misconception."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can correctly predict which outcome is more likely given the composition of a set, with reasoning",
+          "Students can explain why the composition affects likelihood"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Independent and dependent events",
+        "progression_checkpoint": "Students can identify independent events (where one outcome does not affect another) and dependent events (where it does).",
+        "minimum_width": "Identify one pair of events as independent (e.g. two separate coin tosses) and one pair as dependent (e.g. chance of outdoor activity depending on weather); explain the difference.",
+        "typical_width": "Identify and explain independent and dependent events from everyday and school contexts; explain that for independent events, a previous outcome does not change the probability of the next; provide examples of each type.",
+        "wider": [
+          "Design and investigate a set of dependent events from a school context — mapping how one event's probability depends on a prior outcome, building a causal chain",
+          "Investigate the gambler's fallacy: given 5 heads in a row, is a tail more likely next? Examining why the answer is 'no' for independent events and connecting to the independent event definition"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Independent vs dependent is a conceptual hinge: students who treat all chance events as independent will make errors in contexts where events genuinely are linked (weather affecting outdoor plans, selecting from a set without replacement). Exposure to clearly dependent contexts alongside clearly independent ones is the resolution.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Independent and dependent events connect to real-world reasoning about risk, planning and prediction. Students who engage richly here develop the habit of asking 'does the first event change anything?' — a thinking move that generalises beyond probability.",
+        "success_criteria": [
+          "Students can identify whether a given pair of events is independent or dependent and explain the reasoning",
+          "Students can explain why the outcome of one independent event does not change the probability of the next"
+        ]
+      }
+    ]
+  }
+}

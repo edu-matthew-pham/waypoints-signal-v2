@@ -1,0 +1,69 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9S04",
+    "title": "Explain Usefulness and Reliability of Sources as Evidence",
+    "description": "explain the usefulness and reliability of primary and secondary sources as evidence",
+    "strand": "Historical Skills",
+    "mode": "B",
+    "prior_knowledge": "In Year 7 students identified and described accuracy and usefulness of sources (AC9HH7S04). In Year 8 they continued this (AC9HH8S04). Y9 introduces the key principle that usefulness and reliability depend on the questions being asked — the same source may be useful for one inquiry and unreliable for another. This represents a shift from applying fixed criteria to question-relative judgement.",
+    "progression_endpoint": "Students explain the usefulness and reliability of primary and secondary sources as evidence, recognising that these qualities depend on the questions asked of the source.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Usefulness and reliability are question-relative",
+        "progression_checkpoint": "Students can explain that the reliability and usefulness of a source depends on the questions asked of it — a source that is unreliable for one question may be highly useful for another.",
+        "minimum_width": "Explain how the usefulness of one source depends on the inquiry question being asked, giving an example of what the source is useful for and what it is not.",
+        "typical_width": "Identify that the reliability and usefulness of a source depends on the questions asked of it; apply this principle to both primary and secondary sources — explaining what each source is evidence of, not just whether it is 'biased'; explain how a propaganda poster that is an unreliable account of events is a highly useful source for understanding what the government wanted citizens to believe.",
+        "wider": [
+          "Apply question-relative usefulness judgements to contrasting source types (e.g. an official government report and a private diary about the same event) — practising the shift from 'is this source useful?' to 'useful for what, and for whom?'",
+          "Investigate how historians themselves have debated the usefulness of specific contested sources (e.g. colonial accounts, propaganda) — examining how professional historians apply question-relative judgements to the same sources",
+          "Apply usefulness and reliability analysis to a digital source and assess how the medium of delivery (digitised image vs original document) affects source use"
+        ],
+        "hinge": true,
+        "hinge_reason": "The conceptual shift from 'this source is biased/not biased' to 'this source is useful for X but not for Y' is the defining intellectual move of this standard. Students who remain in the binary (biased/reliable) framing cannot perform the more sophisticated analysis the descriptor requires.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The question-relative usefulness principle is counter-intuitive for many students — they expect biased sources to be dismissed, not to be useful for different questions. Explicit modelling with a propaganda example (unreliable as history, highly useful as evidence of government intent) is the most effective way to establish this distinction.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Explains that a source's usefulness and reliability depend on the inquiry question, not on fixed criteria",
+          "Identifies what at least one source is useful for and what it is not useful for, with reference to specific inquiry questions"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Accuracy, purpose and their effect on usefulness",
+        "progression_checkpoint": "Students can determine the extent to which the accuracy or purpose of a source affects its usefulness as evidence for a particular inquiry.",
+        "minimum_width": "For one source, explain how its purpose or accuracy affects its usefulness for a specific inquiry question.",
+        "typical_width": "Determine the extent to which accuracy or purpose affects usefulness; apply these judgements to both primary and secondary sources in the context of a sustained inquiry; explain why a source produced for persuasive purposes (propaganda, advocacy, polemic) has different limitations and uses than one produced for informational purposes; assess how accuracy can be verified by comparing multiple sources.",
+        "wider": [
+          "Evaluate the usefulness of sources from two competing perspectives on the same event — assessing how a source that is highly useful for one inquiry question may be misleading or insufficient for another",
+          "Apply accuracy and purpose judgements to a secondary source (a historian's account) as well as a primary source — examining how the time of writing, the historian's own context, and the sources available to them affect the usefulness of their account",
+          "Construct a source evaluation matrix for an inquiry — applying usefulness and reliability criteria systematically across multiple sources and assessing what the combined source base allows and what it leaves unresolved"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Applying accuracy/purpose judgements to both primary and secondary sources — and across multiple source types — builds the skill as a general analytical tool rather than a formula applied to one source at a time.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Source evaluation applied across different task contexts (primary vs secondary, contemporaneous vs retrospective, official vs personal) develops genuine historical thinking — the student who can evaluate many different source types is more capable than one who can apply a checklist to one type.",
+        "success_criteria": [
+          "Explains how the purpose or accuracy of one source affects its usefulness for a specific inquiry question",
+          "Applies accuracy and purpose judgements to at least two different types of source (e.g. primary and secondary, or official and personal)"
+        ]
+      }
+    ]
+  }
+}

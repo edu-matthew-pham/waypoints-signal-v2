@@ -1,0 +1,69 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LY08",
+    "title": "Spelling rules and word origins",
+    "description": "Understand how to use spelling rules and word origins; for example, Greek and Latin roots, base words, suffixes, prefixes and spelling patterns to learn new words and how to spell them",
+    "strand": "Literacy — Word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students use knowledge of word origins including some Latin and Greek roots, base words, prefixes, suffixes, letter patterns and spelling generalisations to spell new words including technical words (AC9E6LY09). They have not yet focused on using this morphological knowledge strategically — as a generalised tool for encountering and learning unfamiliar words.",
+    "progression_endpoint": "Students use spelling rules and word origins including Greek and Latin roots to learn and spell new words.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Morphological knowledge as a spelling tool",
+        "progression_checkpoint": "Students can use knowledge of base words, prefixes and suffixes to work out the spelling of unfamiliar words",
+        "minimum_width": "Given an unfamiliar word, identify the base word, prefix or suffix; use that knowledge to spell the word correctly and explain the strategy used",
+        "typical_width": "Apply morphological knowledge to a range of unfamiliar words across different word families; explain how recognising a known base word or affix helps with both spelling and meaning",
+        "wider": [
+          "Investigate word families built from a common base — e.g. 'graph' (photograph, biography, grapheme) — and explore how the base contributes to meaning across all derived words",
+          "Examine spelling rules that govern how base words change when suffixes are added (doubling, dropping e, y to i) and explain why knowing the rule is more efficient than memorising each word"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Morphological spelling is a skill that requires regular application to become automatic. Students understand the concept of base words and affixes but do not apply the strategy consistently when encountering new words. Practice across varied word families builds the habit of morphological reasoning as a first response to an unfamiliar word."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the base word or affix in an unfamiliar word",
+          "Uses morphological knowledge to spell the word correctly"
+        ],
+        "related_standards": ["AC9E7LA08"]
+      },
+      {
+        "id": 2,
+        "label": "Greek and Latin roots",
+        "progression_checkpoint": "Students can use knowledge of Greek and Latin roots to work out the meaning and spelling of technical and academic vocabulary",
+        "minimum_width": "Identify a Greek or Latin root in a given technical word and explain how knowledge of the root helps with both spelling and meaning",
+        "typical_width": "Investigate a set of Greek and Latin roots (e.g. bio, graph, tele, port, scrib) and generate or identify words built from each; explain how the root contributes to meaning across the word family",
+        "wider": [
+          "Investigate how Greek roots dominate scientific and technical vocabulary while Latin roots dominate legal and academic vocabulary — explore examples from multiple subject areas",
+          "Build a personal glossary of Greek and Latin roots encountered across subjects and use it to decode unfamiliar technical terms"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Greek and Latin root knowledge is a vocabulary-building resource — the more roots students know, the more unfamiliar words they can decode. Building a working repertoire of high-yield roots across subjects is more valuable than deep knowledge of a small set.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The cross-curricular richness here is genuine — Greek and Latin roots appear across Science, Maths, History and English. Advancing students who build their root knowledge across subjects develop a powerful independent word-learning tool.",
+        "success_criteria": [
+          "Identifies a Greek or Latin root in a given word",
+          "Explains how the root contributes to the word's meaning"
+        ],
+        "related_standards": ["AC9E7LA08"]
+      }
+    ]
+  }
+}

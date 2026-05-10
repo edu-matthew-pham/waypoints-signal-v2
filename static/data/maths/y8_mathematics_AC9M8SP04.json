@@ -1,0 +1,72 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8SP04",
+    "title": "Algorithms for Congruence and Similarity",
+    "strand": "Space",
+    "description": "design, create and test algorithms involving a sequence of steps and decisions that identify congruency or similarity of shapes, and describe how the algorithm works",
+    "mode": "A",
+    "prior_knowledge": "Students have designed classification algorithms for shapes (from AC9M7SP04). Students know the conditions for congruence and similarity (from AC9M8SP01).",
+    "progression_endpoint": "Students design, test and describe algorithms (flowcharts or pseudocode) that classify triangles as congruent, similar, or neither, based on given measurements.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Designing a congruence/similarity classification algorithm",
+        "progression_checkpoint": "Students design a step-by-step algorithm that correctly classifies two triangles as congruent, similar, or neither, using the appropriate conditions.",
+        "minimum_width": "Design a flowchart that correctly classifies two triangles as congruent or not using at least two conditions (SSS and SAS).",
+        "typical_width": "Design and test an algorithm covering all congruence and similarity conditions; handle edge cases (e.g. insufficient information); describe how the algorithm works.",
+        "wider": [
+          "Evaluate two different algorithms for the same classification task — compare their efficiency and edge case handling.",
+          "Extend the algorithm to classify quadrilaterals as congruent or similar — identify what additional conditions are needed."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Algorithm design requires systematic reasoning about decision order — which condition to test first, what information is needed, and how to handle each branch. Without explicit structure students produce incomplete or ambiguous algorithms.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires tracing and evaluating an algorithm — students who have not designed one themselves lack the understanding of decision branching and condition ordering needed to identify errors or describe logic in Node 2.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Designs an algorithm that correctly classifies triangles using at least two conditions.",
+          "Includes clear decision points with yes/no branches.",
+          "Tests the algorithm with at least two examples and corrects any errors."
+        ],
+        "related_standards": ["AC9M8SP01", "AC9M7SP04"]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating and describing algorithms",
+        "progression_checkpoint": "Students trace through a given algorithm with test cases, identify errors or limitations, and describe in plain language how it works.",
+        "minimum_width": "Trace a given congruence/similarity algorithm with two test inputs; identify whether the algorithm is correct.",
+        "typical_width": "Evaluate a given algorithm for completeness and accuracy; fix identified errors; describe the algorithm's decision logic in plain language.",
+        "wider": [
+          "Implement a classification algorithm in a simple programming language — test it with generated sets of triangle measurements.",
+          "Investigate: what is the minimum number of decision steps needed to distinguish all five outcomes (SSS congruent, SAS congruent, AAS congruent, RHS congruent, similar, neither)?"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluating an algorithm requires simultaneously applying geometric knowledge, logical reasoning, and computational thinking — an integration of the space and digital strands.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Minimising decision steps and implementing the algorithm in code are rich computational thinking extensions — advancing students who investigate algorithmic efficiency are engaging with genuine computer science concepts within the Year 8 band.",
+        "success_criteria": [
+          "Correctly traces an algorithm with given inputs.",
+          "Identifies at least one error or limitation in a given algorithm.",
+          "Describes the algorithm's logic in plain language."
+        ],
+        "related_standards": []
+      }
+    ]
+  }
+}

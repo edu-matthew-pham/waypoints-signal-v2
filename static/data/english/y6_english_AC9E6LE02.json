@@ -1,0 +1,96 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LE02",
+    "title": "Comparing literary texts on similar topics",
+    "description": "identify similarities and differences in literary texts on similar topics, themes or plots",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students can present an opinion on a literary text using specific terms about literary devices, text structure and language features (AC9E5LE02). They have not yet systematically compared texts on similar topics or themes, examining how narrator, narrative structure, voice, and language choices differ and influence readers.",
+    "progression_endpoint": "Students can identify similarities and differences in literary texts on similar topics, themes or plots, and explain how differences in narrator, narrative structure, voice, and language and visual features influence readers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying shared and different features",
+        "progression_checkpoint": "Students can identify similarities and differences in the use of structural and language features between two texts on a similar topic, theme or plot.",
+        "minimum_width": "Identify at least two similarities and two differences between two provided texts on a similar topic or theme, using at least one structural feature and one language feature.",
+        "typical_width": "Compare at least two texts on a similar topic or theme across a range of features — topic, theme, narrative structure, characterisation, language choices, visual features — and organise comparisons systematically.",
+        "wider": [
+          "Compare two fantasy quest novels or two realistic novels on a specific theme from different authors or cultural contexts",
+          "Compare texts on the same theme with very different styles — for example, a picture book and a chapter book on the same theme — to identify what stylistic differences do to the reader experience"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one similarity and one difference in the structural features of two compared texts",
+          "Identifies at least one similarity and one difference in the language or visual features of two compared texts"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "How differences influence readers",
+        "progression_checkpoint": "Students can explain how differences in narrator, narrative structure, voice, and language and visual features between texts influence readers or viewers.",
+        "minimum_width": "Identify one difference in narrator or voice between two texts on a similar topic and explain how that difference changes the reader's experience.",
+        "typical_width": "Analyse how differences in the use of narrator, narrative structure, voice, and language and visual features between two texts influence how readers interpret the topic or theme; explain which features best serve the texts' respective purposes.",
+        "wider": [
+          "Analyse how the choice of first-person vs. third-person narrator shapes reader identification with characters across two texts on the same theme",
+          "Compare how visual features in picture books vs. chapter books on the same topic influence younger vs. older reader experiences"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who can only identify differences without connecting them to reader effect cannot form an evaluative preference in Node 3 — the evaluation requires the difference→effect reasoning chain established here.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Moving from 'these texts are different' to 'this difference produces this reader effect' requires a reasoning scaffold. Students often identify differences without connecting them to audience experience — the reasoning chain needs to be made explicit.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Explaining how narrator and voice choices influence reader interpretation is rich critical literacy work — it builds the interpretive frameworks students need for increasingly sophisticated literary analysis.",
+        "success_criteria": [
+          "Names at least one difference in narrator, voice or narrative structure between two compared texts",
+          "Explains how that difference influences the reader's interpretation or experience"
+        ],
+        "related_standards": [
+          "AC9E6LE03",
+          "AC9E6LA03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating texts and forming preferences",
+        "progression_checkpoint": "Students can evaluate texts on similar topics and form and explain a preference based on how effectively structural and language features serve the text's purpose.",
+        "minimum_width": "State a preference for one of two compared texts and give at least one reason that refers to a structural or language feature.",
+        "typical_width": "Form and explain a preference between two compared texts based on an analysis of how effectively narrator, structure, voice and language features serve the texts' respective purposes; use literary metalanguage in the explanation.",
+        "wider": [
+          "Write a comparative review of two texts on the same theme, evaluating which is more effective for the purpose and audience and why",
+          "Evaluate which text from two compared would be more appropriate for a specific reader or purpose, and justify the recommendation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Forming an evaluative preference requires integrating feature identification (Node 1) with understanding of how differences influence readers (Node 2) into a reasoned aesthetic judgement — the integration is the literary thinking act.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Writing comparative reviews or making reasoned recommendations is rich literary reasoning work that prepares students for secondary literary analysis.",
+        "success_criteria": [
+          "States a preference between two compared texts with at least one reason grounded in textual evidence",
+          "Uses at least one literary metalanguage term accurately in the explanation"
+        ],
+        "related_standards": [
+          "AC9E6LE03",
+          "AC9E6LY03"
+        ]
+      }
+    ]
+  }
+}

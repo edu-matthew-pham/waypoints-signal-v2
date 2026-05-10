@@ -1,0 +1,97 @@
+{
+  "year_level": "8",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE8S03",
+    "title": "Interpret economic data",
+    "description": "interpret information and data to identify economic and business issues, trends and economic cause-and-effect relationships",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can interpret information and data to identify economic and business issues, trends and cause-and-effect relationships (AC9HE7S03). At Year 8, the expectation develops toward interpreting multi-variable data and identifying cause-and-effect relationships within economic and business issues.",
+    "progression_endpoint": "Students interpret information and data — including tables, graphs and multi-variable data — to identify economic and business issues, trends and cause-and-effect relationships.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Interpreting to identify issues and signals",
+        "progression_checkpoint": "Students can interpret information to identify economic and business issues, including inferring what a change in price or expenditure signals about an underlying economic condition.",
+        "minimum_width": "Interpret one piece of economic or business information (e.g. a news report, a data excerpt) and identify the economic or business issue it signals, using inference rather than just restating the surface content.",
+        "typical_width": "Interpret information to identify economic and business issues, including inferring from indirect signals — e.g. a change in the price of a key commodity as a signal about resource scarcity, or increasing consumer expenditure as a signal about economic conditions. Distinguish between what the data shows directly and what it implies about underlying conditions.",
+        "wider": [
+          "Practise interpreting economic signals that are counterintuitive — e.g. why rising unemployment sometimes follows interest rate cuts, or why a falling exchange rate can simultaneously help exporters and hurt importers",
+          "Investigate how economic indicators (e.g. CPI, unemployment rate, GDP growth) are used as signals about the state of the economy and what policy responses they typically trigger",
+          "Compare how two different sources interpret the same economic data differently, and analyse what assumptions or perspectives drive the different interpretations"
+        ],
+        "hinge": true,
+        "hinge_reason": "The move from 'what does this show?' to 'what does this signal about an underlying condition?' is the interpretive step that distinguishes economic analysis from description. Students who cannot make this move will not be able to identify cause-and-effect relationships in the subsequent node.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Signal-reading requires a two-step habit: (1) state what the data shows, then (2) ask 'what economic condition would produce this pattern?' Scaffolding this explicitly — with structured prompts rather than open-ended questions — builds the inference habit needed for multi-variable interpretation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies an economic or business issue from a data source, going beyond surface-level description",
+          "Infers what an observed change (in price, expenditure or other indicator) signals about an underlying economic condition"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Reading trends from data",
+        "progression_checkpoint": "Students can interpret data displayed in tables and graphs to identify trends over time and use those trends to answer a specific inquiry question.",
+        "minimum_width": "Read a graph or table showing economic data over time, identify the trend, and use that trend to answer one specific inquiry question.",
+        "typical_width": "Interpret data displayed in tables and graphs to identify trends and answer targeted questions (e.g. 'For a 10-year period, what is the trend in the percentage of people over 60 paying income tax?'). Distinguish between short-term fluctuations and long-term trends, and explain what the trend suggests about the underlying economic or business condition.",
+        "wider": [
+          "Practise reading trend data that reverses or contains anomalies (e.g. a trend that is interrupted by a recession or pandemic) and analyse what caused the deviation from trend",
+          "Investigate how to calculate percentage change and compound growth rate from trend data, and apply these to compare the rate of change across two different economic variables",
+          "Research how trend data from different sources (ABS, RBA, OECD) can give different pictures of the same phenomenon depending on the time period, unit of measurement or sample selected"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Graph and table reading is procedural and error-prone (misreading axes, confusing levels with rates of change, ignoring units). Repeated practice with different data formats and explicit error-correction builds the precision needed before multi-variable interpretation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the trend in a provided data set and states the direction and approximate magnitude of change",
+          "Uses the trend to answer a specific inquiry question accurately"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Interpreting multi-variable cause-and-effect",
+        "progression_checkpoint": "Students can interpret multi-variable data to identify a cause-and-effect relationship within an economic or business issue.",
+        "minimum_width": "Interpret two related variables in a data set (e.g. income earned and taxation paid, supply increase and price adjustment) and identify the cause-and-effect relationship between them.",
+        "typical_width": "Interpret multi-variable data to identify cause-and-effect relationships within an economic or business issue — including examples such as: the relationship between income and taxation paid, and how supply increase causes price adjustment. Explain the mechanism connecting the cause to the effect, not just noting the correlation.",
+        "wider": [
+          "Distinguish between correlation and causation in economic data, examining cases where two variables move together but the causal link is indirect, delayed, or mediated by a third variable",
+          "Analyse a multi-variable economic data set (e.g. unemployment, inflation and interest rates together) and trace how changes in one variable create effects in others through economic mechanisms",
+          "Evaluate the limits of cause-and-effect interpretation in economics — examining why economic relationships are context-dependent and why the same cause can produce different effects in different conditions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Cause-and-effect identification in multi-variable data requires students to explain the mechanism, not just identify the pattern. Structured reasoning prompts — 'What is causing what? Through what process? Under what conditions?' — prevent students from asserting causation without mechanistic explanation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-variable cause-and-effect reasoning is the highest-demand interpretive skill in this strand. Wider contexts — correlation vs causation, delayed effects, conditionality — prepare students for sophisticated economic reasoning that directly underpins AC9HE8S04 (response development) and AC9HE9S03 at Year 9.",
+        "success_criteria": [
+          "Identifies a cause-and-effect relationship in a multi-variable data set",
+          "Explains the economic mechanism that connects the cause to the effect, not just noting that the variables move together"
+        ],
+        "related_standards": ["AC9HE8S01", "AC9HE8S02", "AC9HE8S04"]
+      }
+    ]
+  }
+}

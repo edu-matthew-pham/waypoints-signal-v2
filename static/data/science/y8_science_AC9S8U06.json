@@ -1,0 +1,99 @@
+{
+  "year_level": "8",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S8U06",
+    "title": "Classification of Matter",
+    "description": "classify matter as elements, compounds or mixtures and compare different representations of these, including 2-dimensional and 3-dimensional models, symbols for elements and formulas for molecules and compounds",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can examine properties of natural and made materials and describe how these properties influence their use (AC9S4U04). They can describe physical changes and some chemical change indicators (AC9S8U07 — same band). They have not yet classified matter at the atomic/molecular level or used symbolic representations (symbols, formulas) to represent matter.",
+    "progression_endpoint": "Students classify matter as elements, compounds or mixtures — including sub-types of mixtures (solutions, suspensions, colloids) — use element symbols and molecular formulas to represent substances, and evaluate the strengths and limitations of different representations of matter.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Matter is classified as elements, compounds or mixtures",
+        "progression_checkpoint": "Students can classify a given substance as an element, compound or mixture, explain the basis for the classification at the atomic/molecular level, and distinguish between sub-types of mixtures.",
+        "minimum_width": "Students classify at least five substances correctly as elements, compounds or mixtures and explain the basis for each classification in terms of the types of atoms or molecules present.",
+        "typical_width": "Students explain the classification hierarchy — elements (one type of atom), compounds (two or more elements chemically bonded), mixtures (two or more substances not chemically bonded) — and distinguish between mixture types (solutions, suspensions, colloids) using particle-level reasoning.",
+        "wider": [
+          "Examine how Mendeleev arranged elements in the first periodic table and compare his arrangement with the current version — exploring what criteria changed as knowledge of atomic structure developed (AC9S8H01)",
+          "Create a timeline showing how the concept of an element has changed from ancient philosophy (Democritus) through Dalton's atomic theory to the modern model — tracing how the definition was refined by new evidence",
+          "Investigate how the classification of matter as elements, compounds and mixtures is used in industrial contexts — e.g. how mining separates mixed ores to extract pure elements or compounds"
+        ],
+        "hinge": true,
+        "hinge_reason": "Compound/mixture conflation is definitional — it directly produces errors in Node 2 formula work (writing formulas for mixtures, misattributing bonding) and Node 3 representation comparison (choosing the wrong representation type for a given substance). Students who have not resolved this at the atomic level cannot correctly interpret what a formula communicates.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly conflate compounds and mixtures — both contain more than one substance — without understanding that the distinction is whether the components are chemically bonded. Making the atomic-level logic explicit (same type of atom = element; different atoms chemically bonded = compound; substances physically mixed = mixture) provides the reasoning foundation for all subsequent classification work.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies at least five substances as elements, compounds or mixtures with atomic/molecular reasoning",
+          "Distinguishes between a compound and a mixture using particle-level explanation"
+        ],
+        "related_standards": ["AC9S8U07", "AC9S8H01"]
+      },
+      {
+        "id": 2,
+        "label": "Symbols and formulas represent elements and compounds",
+        "progression_checkpoint": "Students can use element symbols to identify elements from the periodic table, write and interpret molecular formulas for simple compounds, and explain what information a formula conveys about a compound's composition.",
+        "minimum_width": "Students identify at least eight elements by symbol from the periodic table and write or interpret formulas for at least three simple compounds, explaining what each formula conveys.",
+        "typical_width": "Students use element symbols and molecular formulas to represent and interpret substances, explain why standardised symbols are used (universal communication), and identify the information conveyed by a formula (which elements, how many atoms of each) — distinguishing this from what a formula does not show (structure, arrangement).",
+        "wider": [
+          "Examine how different representations convey different information — atomic symbol (element identity), molecular formula (composition), structural formula (bonding arrangement), 3D model (shape) — and identify which representation is most useful for different purposes",
+          "Research why some element symbols derive from Latin names (Fe, Au, Na, Pb) — connecting chemical convention history to the development of the periodic table",
+          "Explore how mixture percentages are used to represent composition in everyday contexts (alloy compositions, solution concentrations) and compare with formula representation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Formula reading precision is a direct prerequisite for Node 3 representation comparison. Students who misread formulas — confusing atom counts with element counts, conflating H₂O₂ with H₂O — cannot meaningfully evaluate what different representations show or omit, because they cannot accurately read the most basic representation type.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Symbol and formula reading requires precision — misreading H₂O₂ as H₂O, or confusing atom counts with element counts, produces systematic errors that affect all subsequent chemistry work. Deliberate accurate practice with a range of formulas, combined with explanation of what each formula means, is more productive than breadth of chemical contexts at this stage.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least eight elements by their chemical symbol",
+          "Writes or interprets formulas for at least three simple compounds, correctly identifying the elements present and the number of atoms of each"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Representations model matter at different scales",
+        "progression_checkpoint": "Students can compare 2D and 3D representations of elements and compounds — identifying what each representation shows and what it simplifies — and select the most appropriate representation for a given purpose.",
+        "minimum_width": "Students compare at least two representations of the same substance (e.g. symbol, formula, 2D diagram, 3D model) and explain what each one shows about the substance's composition.",
+        "typical_width": "Students explain the information conveyed by different representation types — chemical symbols, formulas, 2D dot diagrams, 3D ball-and-stick models, space-filling models — identify the strengths and limitations of each, and select the most appropriate representation for a given purpose.",
+        "wider": [
+          "Use virtual and physical models to distinguish between elements and compounds in terms of types and arrangements of atoms — examining how the model makes the abstract atomic level visible",
+          "Construct representations of both physical and chemical changes and explain how the representation shows what has or hasn't changed at the particle level (connects to AC9S8U07)",
+          "Examine how computational molecular modelling is used in drug design and materials science — connecting representation of matter to real-world chemical research applications"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to treat models as pictures of molecules rather than as representations that encode specific information about composition, bonding and structure. Comparing representations that convey different information — and explaining what each adds and what it omits — develops a more general understanding of representation as a tool in chemistry.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The representation-comparison direction develops genuine analytical thinking about models and their limitations — a transferable capability across all of science, not just chemistry. The computational modelling direction provides a contemporary research context that connects classroom models to real scientific practice.",
+        "success_criteria": [
+          "Compares at least two representations of the same substance and explains what each shows about composition",
+          "Identifies at least one strength and one limitation of a named representation type"
+        ],
+        "related_standards": ["AC9S8U07", "AC9S8I04"]
+      }
+    ]
+  }
+}

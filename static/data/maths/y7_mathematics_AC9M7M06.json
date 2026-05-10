@@ -1,0 +1,75 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7M06",
+    "title": "Mathematical Modelling with Ratios",
+    "strand": "Measurement",
+    "description": "use mathematical modelling to solve practical problems involving ratios; formulate problems, interpret and communicate solutions in terms of the situation, justifying choices made about the representation",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise, represent and solve ratio problems (from AC9M7N08). Students have used mathematical modelling in numerical contexts (from AC9M7N09).",
+    "progression_endpoint": "Students use mathematical modelling to formulate and solve practical problems involving ratios of measurement quantities, communicating and justifying solutions in context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising ratio structure in measurement problems",
+        "progression_checkpoint": "Students identify when a practical measurement problem involves a ratio relationship and represent it using ratio notation.",
+        "minimum_width": "Identify the ratio relationship in a given practical measurement problem (e.g. mixing paint, scaling a recipe) and write it in a:b form.",
+        "typical_width": "Distinguish part-part and part-whole ratio structures in measurement problems; represent both using diagrams and notation.",
+        "wider": [
+          "Investigate ratio applications in scale drawings and maps — connect scale ratios to measurement.",
+          "Explore ratio in construction and design contexts: concrete mix ratios, fertiliser dilution rates."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Ratio problems in measurement span a wider variety of contexts than number strand ratio problems — scale, mix, division of space — and students need exposure to multiple contexts to recognise the common structure."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly identifies the ratio structure in a practical measurement problem.",
+          "Represents the ratio using appropriate notation.",
+          "Distinguishes part-part from part-whole ratio in context."
+        ],
+        "related_standards": [
+          "AC9M7N08"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Formulating, solving and interpreting ratio models",
+        "progression_checkpoint": "Students formulate a ratio model for a practical measurement problem, solve it, and interpret and communicate the solution in terms of the original situation.",
+        "minimum_width": "Formulate and solve a practical ratio problem (e.g. mixing liquids, dividing a length) and express the answer with appropriate units.",
+        "typical_width": "Solve multi-step ratio problems in measurement contexts; justify representation choices; check reasonableness.",
+        "wider": [
+          "Investigate First Nations Australians' applications of ratio in substances and land use — formulate and solve a contextualised ratio problem.",
+          "Model a design problem where a ratio constraint must be satisfied (e.g. designing a scale model at 1:50 ratio)."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Formulating, solving and communicating a ratio model requires simultaneous application of ratio understanding, measurement, unit reasoning, and modelling conventions. This integration is the core learning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Formulates the ratio model correctly from the problem description.",
+          "Solves the problem and expresses the answer with appropriate measurement units.",
+          "Justifies the representation choice and checks the solution for reasonableness."
+        ],
+        "related_standards": [
+          "AC9M7N09",
+          "AC9M7N08"
+        ],
+        "width_opportunity_reason": "First Nations contexts and scale model design offer advancing students genuine modelling richness — the ratio constraint in a design problem requires coordinating measurement, ratio, and communication simultaneously."
+      }
+    ]
+  }
+}

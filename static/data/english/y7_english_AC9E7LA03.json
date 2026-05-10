@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LA03",
+    "title": "Text structure varies by purpose",
+    "description": "Identify and describe how texts are structured differently depending on their purpose and how language features vary in texts",
+    "strand": "Language — Text structure and organisation",
+    "mode": "A",
+    "prior_knowledge": "Students understand how texts are organised into characteristic stages and phases depending on purpose, and how authors adapt text structures and language features (AC9E6LA03). They have not yet worked at the level of identifying and describing structural variation across a wider range of text types including reviews, persuasive texts, and analytical responses.",
+    "progression_endpoint": "Students identify and describe how text structure and language features vary by purpose.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Purpose drives structure",
+        "progression_checkpoint": "Students can explain how a text's purpose determines the structural choices a writer makes",
+        "minimum_width": "Given two texts with different purposes (e.g. a recount and a persuasive text), identify at least one structural difference and explain how each structure serves its purpose",
+        "typical_width": "Compare the structural logic of three or more text types — how the stages of a review (context → summary → judgement) differ from those of a persuasive text, and why each structure serves its purpose",
+        "wider": [
+          "Examine how the structure of a book or film review moves from description of context to summary to judgement — and why reversing that order would undermine the purpose",
+          "Identify the social purpose of a text type and trace how that purpose is embedded in its structural stages"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot connect purpose to structure, Node 2's work on language feature variation loses its anchoring principle — explaining why language features differ requires first understanding that purpose drives all textual choices.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly describe structural features without connecting them to purpose — they can list 'introduction, body, conclusion' without explaining why that sequence serves the text's goal. Seeing the purpose-structure connection across several distinct text types helps students internalise the principle rather than memorising formats.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one structural difference between two texts with different purposes",
+          "Explains how the structure serves the purpose of each text"
+        ],
+        "related_standards": ["AC9E7LA04", "AC9E7LY06"]
+      },
+      {
+        "id": 2,
+        "label": "Language features vary with purpose",
+        "progression_checkpoint": "Students can identify and describe how language features vary across texts with different purposes",
+        "minimum_width": "Given two texts with different purposes, identify at least one language feature difference (e.g. use of first vs third person, evaluative vs factual vocabulary, modality) and describe how it serves the purpose",
+        "typical_width": "Examine language features across a range of text types — how persuasive texts use high modality and evaluative language; how recounts use past tense and first person; how explanations use present tense, technical vocabulary and logical connectives — and explain the relationship between language choices and purpose",
+        "wider": [
+          "Analyse the structure and language features of advertising posters as persuasive texts — how do visual and verbal language work together to serve the purpose?",
+          "Describe how literary texts, arguments, and analytical responses each use language features differently, and discuss why each set of choices suits its purpose"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a working repertoire of language feature–purpose pairings to draw on when analysing and creating texts. Building this repertoire across multiple text types — not just one — gives students the comparative knowledge that makes the variation visible and meaningful.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Advertising posters are a rich context because the verbal and visual language work together to achieve purpose — advancing students can examine how multimodal texts use language features in coordination, which connects to AC9E7LA07.",
+        "success_criteria": [
+          "Identifies at least one language feature that varies between two texts with different purposes",
+          "Describes how the language feature serves the purpose of the text"
+        ],
+        "related_standards": ["AC9E7LA07", "AC9E7LY03", "AC9E7LY06"]
+      }
+    ]
+  }
+}

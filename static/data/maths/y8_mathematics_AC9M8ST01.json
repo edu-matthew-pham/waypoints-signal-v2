@@ -1,0 +1,72 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8ST01",
+    "title": "Data Collection Techniques",
+    "strand": "Statistics",
+    "description": "investigate techniques for data collection including census, sampling, experiment and observation, and explain the practicalities and implications of obtaining data through these techniques",
+    "mode": "A",
+    "prior_knowledge": "Students can plan and conduct statistical investigations and identify variable types (from AC9M7ST03, AC9M7ST01). Students understand sampling informally.",
+    "progression_endpoint": "Students distinguish census from sampling, identify appropriate collection techniques for different situations, and explain the practicalities, limitations and bias implications of each.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Census vs sampling and collection technique selection",
+        "progression_checkpoint": "Students distinguish census from sampling and identify when each is appropriate; describe the main data collection techniques.",
+        "minimum_width": "State the difference between census and sampling; identify which is appropriate for a given situation and explain why.",
+        "typical_width": "Compare census, sampling, experiment and observation as data collection techniques; evaluate each for practicality, cost, and appropriateness in varied contexts.",
+        "wider": [
+          "Investigate how decisions concerning sampling relate to training AI systems — explain why biased sampling in training data leads to biased AI outputs.",
+          "Explore how digital measuring devices and simulations change the practicalities of data collection compared to manual methods."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Judgment about appropriate data collection technique requires encountering a wide range of contexts — scientific experiments, surveys, social studies, AI training. Students who only consider surveys miss the full range.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot evaluate collection techniques for appropriateness cannot identify sources of bias in Node 2 — the bias evaluation depends on first understanding what the technique does and who it includes or excludes.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "AI training data bias is a rich and contemporary extension — the connection between sampling decisions in statistics and the fairness of AI systems is genuinely significant and within Year 8 reach.",
+        "success_criteria": [
+          "Correctly distinguishes census from sampling.",
+          "Identifies an appropriate collection technique for a given context and justifies the choice.",
+          "Explains at least one practical limitation of sampling."
+        ],
+        "related_standards": ["AC9M8ST02", "AC9M7ST03"]
+      },
+      {
+        "id": 2,
+        "label": "Bias in data collection",
+        "progression_checkpoint": "Students recognise and explain sources of bias in data collection and describe how bias affects conclusions.",
+        "minimum_width": "Identify a source of bias in a described data collection process and explain its likely effect.",
+        "typical_width": "Evaluate data collection designs for potential bias; distinguish sampling bias, response bias, and measurement bias; suggest how to reduce bias.",
+        "wider": [
+          "Investigate a real case of biased data collection and its consequences — connect to ethical implications of data misuse.",
+          "Explore how voluntary response bias occurs in online surveys and polls — investigate with a class experiment."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Identifying bias requires a systematic approach: who is included, who is excluded, how is the data collected, what might influence responses? Students who proceed intuitively miss systematic biases.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Bias identification and evaluation is prerequisite for the entire AC9M8ST02–ST04 investigation chain — students who cannot recognise sources of bias produce unreliable sampling designs, analyses, and inferences in all subsequent statistics standards.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a source of bias in a data collection scenario.",
+          "Explains the likely direction and effect of the bias.",
+          "Suggests a concrete method to reduce the identified bias."
+        ],
+        "related_standards": ["AC9M8ST02", "AC9M8ST04"]
+      }
+    ]
+  }
+}

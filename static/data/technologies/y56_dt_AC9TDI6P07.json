@@ -1,0 +1,104 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6P07",
+    "title": "Select tools for content creation",
+    "description": "Select and use appropriate digital tools effectively to create, locate and communicate content, applying common conventions",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can use the core features of common digital tools to create, locate and communicate content, following agreed conventions (AC9TDI4P06). They have used digital tools with provided guidance. They have not yet selected tools themselves \u2014 the shift is from using a nominated tool to choosing the appropriate one for a task.",
+    "progression_endpoint": "Students select appropriate digital tools for creating, locating and communicating content, plan achievable steps and timeframes, apply common conventions, and judge the appropriateness of content for the audience.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning and selecting tools for a task",
+        "progression_checkpoint": "Students can plan achievable steps and timeframes for a task and identify which digital tools are needed at each step",
+        "minimum_width": "For a given task, list the steps needed and identify at least one digital tool for each step",
+        "typical_width": "Create a plan with achievable steps and realistic timeframes for producing a digital solution; identify the specific tools needed for each stage (e.g. word processor for report, spreadsheet for data, presentation tool for communication); explain why each tool suits its step",
+        "wider": [
+          "Plan a school recycling report that requires multiple tools at different stages \u2014 search tools for data, a spreadsheet for analysis, a word processor for writing, and a presentation tool for sharing \u2014 identifying where the output of one tool becomes the input of the next",
+          "Develop a plan for a collaborative spreadsheet to cost a school celebration \u2014 identifying which features (shared editing, formulas, tagging) make it the appropriate tool for this task"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Tool selection is a reasoning task \u2014 students must work backwards from what the task requires to which tool's features match those requirements. Scaffolding the selection reasoning (what does this step produce? \u2192 what tool produces that format?) prevents students defaulting to the one tool they know."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Lists steps for the task with realistic timeframes",
+          "Identifies at least one appropriate digital tool for each step with a reason"
+        ],
+        "related_standards": [
+          "AC9TDI4P06",
+          "AC9TDI6P08"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Locating content effectively",
+        "progression_checkpoint": "Students can locate relevant content using search engines and within documents by refining queries",
+        "minimum_width": "Perform a search, evaluate the results, and refine the query at least once to improve accuracy",
+        "typical_width": "Locate content through search engines using effective query strategies \u2014 reviewing results, refining terms, using required search syntax; locate content within documents using find/search features; distinguish between more and less reliable sources",
+        "wider": [
+          "Compare search results from two different queries on the same topic and explain why the refinement improved accuracy \u2014 identifying what the changed terms added or removed from the results",
+          "Verify AI-generated content about a local topic against an authoritative source \u2014 demonstrating the difference between locating information and accepting generated text as factually accurate"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students typically use the first search results they find and do not evaluate or refine. Seeing how the same question yields different quality results with different query strategies \u2014 and how AI-generated content can appear authoritative while being incorrect \u2014 builds the habit of verification rather than acceptance.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The AI-generated content verification direction (from the elaboration) is rich \u2014 it directly addresses a contemporary and age-appropriate challenge: students are encountering AI-generated text in search results and need to evaluate it critically.",
+        "success_criteria": [
+          "Refines a search query at least once and explains what the refinement improved",
+          "Identifies at least one reason why a source may or may not be reliable"
+        ],
+        "related_standards": [
+          "AC9TDI6P06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Judging appropriateness for audience and context",
+        "progression_checkpoint": "Students can judge whether content they have created or located is appropriate for the intended audience and purpose",
+        "minimum_width": "Review a piece of content (created or located) and explain whether it is appropriate for the intended audience \u2014 identifying at least one reason it is or is not suitable",
+        "typical_width": "Apply multiple appropriateness criteria to content \u2014 is the tone right for the audience? Is the content accurate? Is the format suitable? Revise content where it does not meet these criteria",
+        "wider": [
+          "Judge the tone of AI-generated text against the intended audience \u2014 deciding whether autocomplete or generative text is too formal, too informal, or inaccurate for the specific context and rewriting accordingly",
+          "Compare the same content created at different stages of an iterative process \u2014 explaining how teacher or peer feedback changed what was appropriate in subsequent versions"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students treat content as finished once produced. The judgement reasoning scaffold \u2014 audience / tone / accuracy / format / verdict \u2014 makes appropriateness a multi-dimensional check rather than a gut feel, and teaches revision as a response to evidence rather than preference."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the intended audience for the content",
+          "Gives at least one criterion-based reason for whether the content is appropriate for that audience"
+        ],
+        "related_standards": [
+          "AC9TDI6P06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

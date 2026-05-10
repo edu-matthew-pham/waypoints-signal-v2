@@ -1,0 +1,83 @@
+{
+  "year_level": "8",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E8LE02",
+    "title": "Opinions about literary style",
+    "description": "share opinions about the language features, literary devices and text structures that contribute to the styles of literary texts",
+    "strand": "Literature \u2014 Examining literature",
+    "mode": "B",
+    "prior_knowledge": "Students can form and express opinions about literary texts with reasoning, and evaluate the opinions of others (AC9E7LE02). They have not yet focused specifically on how language features, literary devices and text structures collectively constitute a text's style \u2014 or on evaluating and comparing opinions about stylistic choices.",
+    "progression_endpoint": "Students share and evaluate opinions about how language features, literary devices and text structures contribute to the styles of literary texts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Style as the sum of language choices",
+        "progression_checkpoint": "Students can identify language features, literary devices and text structures that contribute to a literary text's style and form an opinion about their effectiveness.",
+        "minimum_width": "Identify at least two elements (language features, literary devices or text structures) in a literary text and form an opinion about how they contribute to the text's style.",
+        "typical_width": "Identify and explain how a combination of language features, literary devices and text structures creates the distinctive style of a literary text; form an opinion about the effectiveness of those stylistic choices.",
+        "wider": [
+          "Compare the styles of two literary texts from different periods or genres and explain which stylistic choices are most effective and why",
+          "Examine how First Nations Australian authors use distinct language features and structures to create styles that draw on cultural traditions not typically represented in mainstream literary criticism",
+          "Investigate how a specific author's style is consistent across multiple works and what signature features constitute that style"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students typically comment on single features in isolation. The concept of 'style' as the cumulative effect of many language choices requires explicit instruction in how to build a holistic stylistic reading from individual observations.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies specific language features, literary devices or text structures in a literary text.",
+          "Forms a clear opinion about how at least one of these contributes to the text's overall style."
+        ],
+        "related_standards": [
+          "AC9E8LE05",
+          "AC9E8LY03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to evaluate and compare different opinions about literary style. Without the holistic concept of style as the cumulative effect of multiple language choices built at Node 1, students cannot evaluate competing stylistic interpretations \u2014 they can only agree or disagree with individual feature observations."
+      },
+      {
+        "id": 2,
+        "label": "Evaluating opinions about style",
+        "progression_checkpoint": "Students can compare and evaluate different opinions about the stylistic features of literary texts, including opinions that challenge or support their own view.",
+        "minimum_width": "Compare two opinions about the style of a literary text (e.g. from two reviews or class discussion) and evaluate which is better supported with reference to language features, devices or structure.",
+        "typical_width": "Compare and evaluate a range of opinions about the stylistic features of literary texts, including opinions about characterisation, setting and plot; share and refine own opinions in response to opinions that challenge them.",
+        "wider": [
+          "Research critical responses to a literary text and evaluate how different critics have interpreted the same stylistic features differently, examining what assumptions underlie each reading",
+          "Engage in structured academic discussion or debate where opinions about literary style are challenged and defended with reference to textual evidence",
+          "Reflect on how one's own cultural background or experience shapes the stylistic features one notices or values in a text"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Evaluating opinions about literary style requires a repertoire of critical perspectives and metalanguage. Encountering multiple critical viewpoints \u2014 including ones that prioritise different stylistic features \u2014 builds the evaluative range needed to hold and defend a position.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Engaging with published literary criticism and structured debate about style builds genuine critical thinking fluency. For advancing students, working with real critical discourse \u2014 comparing reviewers, reading literary criticism \u2014 is rich and motivating territory.",
+        "success_criteria": [
+          "Compares at least two different opinions about a text's style, identifying the evidence each opinion relies on.",
+          "Evaluates which opinion is better supported, with reasoning connected to specific language features, devices or structures."
+        ],
+        "related_standards": [
+          "AC9E8LE01",
+          "AC9E8LY03",
+          "AC9E8LY02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

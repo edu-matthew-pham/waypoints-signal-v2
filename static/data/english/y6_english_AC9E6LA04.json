@@ -1,0 +1,94 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LA04",
+    "title": "Cohesion: repetition and word associations",
+    "description": "understand that cohesion can be created by the intentional use of repetition, and the use of word associations",
+    "strand": "Language — Text structure and organisation",
+    "mode": "A",
+    "prior_knowledge": "Students understand how texts can be made cohesive by using the starting point of a sentence or paragraph as a signal of its theme (AC9E5LA04). They have not yet examined how repetition of key words and word associations (general/specific substitution, synonyms, antonyms) build cohesion across a text.",
+    "progression_endpoint": "Students understand how cohesion is built through intentional repetition and word associations, and can identify these devices and explain their effect in texts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Repetition as a cohesion device",
+        "progression_checkpoint": "Students can identify repetition of key words and synonyms in a text and explain how this repetition creates cohesive links across sentences.",
+        "minimum_width": "Identify at least two examples of key word repetition or synonym use in a provided text and explain how each creates a connection between sentences or paragraphs.",
+        "typical_width": "Recognise how cohesion is developed through repeating key words, synonyms and antonyms across a text; explain how this threading of language choices holds a text together thematically.",
+        "wider": [
+          "Analyse how repetition functions differently in literary texts (for effect) vs. informational texts (for clarity)",
+          "Examine a speech or persuasive text where repetition is used structurally (e.g. anaphora) and explain its rhetorical effect beyond cohesion"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two cohesive links created by repetition or synonym use in a provided text",
+          "Explains how one example of repetition connects ideas across sentences or paragraphs"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Word associations and lexical cohesion",
+        "progression_checkpoint": "Students can identify word associations — where a general word stands in for a more specific word previously mentioned — and explain how this creates cohesion.",
+        "minimum_width": "Identify one example of lexical cohesion via word association in a provided text (e.g. 'Look at those apples. Granny Smiths are my favourite.') and explain the cohesive link.",
+        "typical_width": "Identify and explain multiple examples of word associations (general-for-specific substitution) in a range of text types; explain how word associations work alongside repetition and synonyms to build cohesion.",
+        "wider": [
+          "Write a short informative paragraph that deliberately uses word associations alongside synonyms, then annotate the cohesive devices used",
+          "Compare how word associations function in a formal information report vs. an informal narrative — identifying where each is more or less appropriate"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify the general-for-specific substitution move cannot deploy word associations in Node 3 production — the integration task requires this concept to be operational, not just named.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The general-for-specific substitution move is conceptually subtle — students often read past it. Making the reasoning explicit ('What does the general word refer back to? How do we know?') prevents the misconception that word choice is arbitrary.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies an example of general-for-specific word association in a text and names both the general term and the specific word it refers to",
+          "Explains how the association creates cohesion between two sentences"
+        ],
+        "related_standards": [
+          "AC9E6LA06",
+          "AC9E6LY06"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Using cohesive devices in own writing",
+        "progression_checkpoint": "Students can use repetition, synonyms and word associations intentionally to build cohesion in their own writing.",
+        "minimum_width": "Write a short paragraph that deliberately uses at least one cohesion device (key word repetition, synonym, or word association); identify the device used and explain how it connects ideas.",
+        "typical_width": "Compose extended writing in which cohesion is built through a combination of key word repetition, synonyms and word associations; review and edit own writing to identify and improve cohesive links.",
+        "wider": [
+          "Edit a provided text with weak cohesion and rewrite it using repetition, synonyms and word associations to improve coherence",
+          "Compare the cohesion strategies used in a literary text and an information report on the same topic, explaining how the purpose shapes the choice of cohesive device"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Using repetition, synonyms and word associations in combination requires integrating knowledge of all three devices (Nodes 1 and 2) into a purposeful production and editing act."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a paragraph that uses at least one cohesive device intentionally",
+          "Names the device and explains how it connects ideas across sentences"
+        ],
+        "related_standards": [
+          "AC9E6LY06"
+        ]
+      }
+    ]
+  }
+}

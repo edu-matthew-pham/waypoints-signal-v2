@@ -1,0 +1,106 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4K03",
+    "title": "Data types and representations",
+    "description": "recognise different types of data and explore how the same data can be represented differently depending on the purpose",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can represent data using pictures, symbols, numbers and words (AC9TDI2K02). They have explored data as objects and symbols at Foundation level. They have not yet explored how the same data can be represented in multiple ways or why one representation might suit a purpose better than another.",
+    "progression_endpoint": "Students recognise different types of data (numbers, text, symbols, images) and explain how the same data can be represented in different ways, giving reasons why particular representations suit particular purposes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Types of data",
+        "progression_checkpoint": "Students can recognise and name different types of data \u2014 numbers, text, symbols and images \u2014 and give examples of each",
+        "minimum_width": "Name and give one example each of at least three types of data (e.g. numbers, letters, symbols, pictures)",
+        "typical_width": "Identify numbers, text, symbols and images as distinct data types; describe how each is used in familiar digital and non-digital contexts (e.g. numerals in a calculator, letters in a message, icons on a phone)",
+        "wider": [
+          "Investigate how First Nations Australian rock paintings use images to encode knowledge about plants and animals \u2014 discuss how images are a data type that carries structured information",
+          "Explore emoji as a data type \u2014 discuss whether they are symbols, images or a distinct category, and what kinds of meaning they can and cannot convey"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least three distinct types of data correctly",
+          "Matches each type to at least one concrete example"
+        ],
+        "related_standards": [
+          "AC9TDI4K02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Multiple representations of the same data",
+        "progression_checkpoint": "Students can give examples of the same data shown in different ways and explain that different representations exist for the same underlying information",
+        "minimum_width": "Give one example of the same data represented in two different ways (e.g. the number 4 as '4', 'four', and 'IV') and state that both represent the same value",
+        "typical_width": "Explain several examples of the same data in different representations (numerals vs words vs tally vs Roman numerals; 'stop' vs stop sign vs hand icon); recognise that representations can use different formats to convey the same information",
+        "wider": [
+          "Compare how the same geographic location data can be represented as coordinates, a street address, a place name and a map pin \u2014 investigate which representation suits which purpose",
+          "Explore how the Kimberley cave paintings encode ethnobotanical knowledge \u2014 compare how the same information about plant use might be represented in a modern classification system vs an image-based system"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students easily understand one representation pair but often think the difference is about correctness rather than purpose-fitness. Multiple examples across different data types (numeric, symbolic, iconic) help students see that representation is a design choice, not a matter of right and wrong.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies two different representations of the same data",
+          "States that both representations carry the same underlying information"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "Students who only know that representations exist but treat them as equivalent (no better/worse) cannot engage with N3's purpose-fitness reasoning \u2014 the N3 question ('why this representation?') is meaningless if students think all representations are interchangeable."
+      },
+      {
+        "id": 3,
+        "label": "Why representation depends on purpose",
+        "progression_checkpoint": "Students can explain why some representations suit a purpose better than others, with reference to a specific example",
+        "minimum_width": "Given two representations of the same data, state which is better suited to a given purpose and give one reason",
+        "typical_width": "Explain why different representations suit different purposes across multiple examples (e.g. numerals better for calculation than words; an icon better for a multilingual audience than a text label); apply this reasoning to a new example",
+        "wider": [
+          "Investigate how data about a person's health or location might be represented differently for a doctor, a researcher and the person themselves \u2014 discuss how purpose shapes the representation chosen",
+          "Explore how First Nations Australian knowledge systems use image-based representations of plant and animal data \u2014 discuss what kinds of knowledge are well-suited to image representation versus text or number"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The jump from 'there are different representations' to 'this representation suits this purpose' requires explicit reasoning about the relationship between format and use. Students need a scaffold for reasoning about purpose-fitness, not just example recall.",
+            "flags": [
+              "hinge"
+            ]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The 'better for purpose' concept only becomes generalisable when students encounter it across varied data types and audiences. Single-example exposure risks students treating one pair as the rule.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The wider tier at this node connects to genuinely interesting questions about knowledge systems, audience design and cultural representation. The First Nations elaboration (rock paintings encoding ethnobotanical knowledge) is particularly rich \u2014 it extends the purpose-representation link into historically and culturally significant contexts within the year band.",
+        "success_criteria": [
+          "States a reason why a particular representation suits a given purpose",
+          "Does not simply state that one representation is 'better' without reference to the context or audience"
+        ],
+        "related_standards": [
+          "AC9TDI4P06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

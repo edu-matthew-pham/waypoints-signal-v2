@@ -1,0 +1,107 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5M04",
+    "title": "Measure angles with protractor",
+    "strand": "Measurement",
+    "description": "Estimate, construct and measure angles in degrees, using appropriate tools including a protractor, and relate these measures to angle names",
+    "prior_knowledge": "Students can identify and name angle types (acute, right, obtuse, straight, reflex) (AC9M4M04). They have not yet measured angles in degrees or used a protractor to construct angles.",
+    "progression_endpoint": "Students estimate, construct and measure angles in degrees using a protractor, and relate measures to angle names.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Degrees as a unit",
+        "progression_checkpoint": "Students can explain that angles are measured in degrees and relate benchmark angles (90°, 180°, 360°) to angle names.",
+        "minimum_width": "State that a full turn = 360°, half turn = 180°, quarter turn = 90°; match these to right, straight and full angle names.",
+        "typical_width": "Relate all named angle types to degree ranges; use benchmark angles to estimate whether an angle is acute, obtuse or reflex before measuring.",
+        "wider": [
+          "Investigate why 360° was chosen as the unit for a full turn — historical and astronomical context",
+          "Connect to clock face: how many degrees does the minute hand turn in one hour?"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student states benchmark angle measures in degrees",
+          "Student matches a degree range to an angle name"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Estimating angles",
+        "progression_checkpoint": "Students can estimate angles in degrees using benchmark angles as reference points.",
+        "minimum_width": "Estimate an angle to the nearest 10° using benchmark angle knowledge; compare estimate to a measured value.",
+        "typical_width": "Estimate a range of acute, obtuse and reflex angles; develop estimation strategies based on benchmark subdivision.",
+        "wider": [
+          "Use estimation in practical design tasks: estimating roof pitch, ramp angle",
+          "Investigate how First Nations architecture and design involves angular reasoning"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student estimates an angle within ±15° of actual value",
+          "Student uses a named benchmark angle to justify their estimate"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Measuring with a protractor",
+        "progression_checkpoint": "Students can correctly position and read a protractor to measure angles, including obtuse angles.",
+        "minimum_width": "Measure an acute angle using a protractor, selecting the correct scale; record the measurement in degrees.",
+        "typical_width": "Measure acute and obtuse angles using a protractor; identify and use the correct inner/outer scale; verify measurements against estimate.",
+        "wider": [
+          "Measure angles in polygons and verify angle sum properties",
+          "Investigate digital tools (dynamic geometry software) as alternatives to physical protractors"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Protractor use has specific procedural requirements (correct scale, vertex alignment, zero-line placement) where errors cluster. Targeted practice with deliberate attention to each step reduces systematic error.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly use the wrong scale (read 60° as 120°). Angles in varied orientations and obtuse angles require actively choosing the correct scale — multiple examples with differing angle sizes resolve this.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Correct protractor technique — specifically scale selection — is the prerequisite for Node 4 (construction). Students who read the wrong scale construct angles that are consistently wrong by the supplement amount.",
+        "success_criteria": [
+          "Student positions the protractor correctly on an angle",
+          "Student reads the correct scale and records the angle in degrees"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Constructing angles",
+        "progression_checkpoint": "Students can construct a given angle in degrees using a protractor.",
+        "minimum_width": "Construct a given acute angle using a protractor; verify by measuring the constructed angle.",
+        "typical_width": "Construct acute and obtuse angles; apply to shape construction tasks; check construction accuracy using measurement.",
+        "wider": [
+          "Construct specific angles in geometric patterns or designs",
+          "Use dynamic geometry software to construct and verify angles"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student constructs a specified angle within ±2° accuracy",
+          "Student verifies the constructed angle by measuring"
+        ]
+      }
+    ]
+  }
+}

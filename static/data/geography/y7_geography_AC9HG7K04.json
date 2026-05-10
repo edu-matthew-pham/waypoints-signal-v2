@@ -1,0 +1,148 @@
+{
+  "year_level": "7",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG7K04",
+    "title": "Hydrological and atmospheric hazards",
+    "description": "the causes and impacts of an atmospheric or hydrological hazard, and responses from communities and governments",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students have completed K01–K03 — they understand water as an environmental resource, can explain water distribution and sustainability, and know that water movement causes environmental change. They have basic knowledge of climate and weather from primary school but have not previously studied hazard processes in depth or examined governmental and community response frameworks.",
+    "progression_endpoint": "Students explain the causes and impacts of an atmospheric or hydrological hazard and responses from communities and governments.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Hazard environmental processes and causes",
+        "progression_checkpoint": "Students can explain the environmental processes that cause an atmospheric or hydrological hazard, using accurate geographical terminology.",
+        "minimum_width": "Students explain the key environmental process causing one selected hazard (e.g. drought, flood, tropical cyclone, storm).",
+        "typical_width": "Students explain the environmental processes that cause at least one atmospheric hazard (e.g. tropical cyclone) and one hydrological hazard (e.g. flood or drought), distinguishing the different process chains involved.",
+        "wider": [
+          "Examine how multiple atmospheric and hydrological processes interact — e.g. how drought (soil moisture deficit, reduced vegetation) intensifies flooding when rain finally arrives",
+          "Investigate the role of climate variability (ENSO, Indian Ocean Dipole) as a driver of both drought and flood risk in Australia, tracing the oceanic-atmospheric process chain",
+          "Compare the atmospheric processes causing tropical cyclones versus east coast lows, identifying what makes each distinctive in process terms"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot explain the causal process will conflate hazard with outcome (treat flooding as the cause rather than the consequence of specific hydrometeorological conditions). This undermines impact analysis — if the cause is unclear, the link between process and impact cannot be made.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Explicitly scaffolding the process chain — atmospheric/hydrological conditions → triggering event → hazard manifestation — prevents students from describing weather events without explaining their geographical causes.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains the environmental process causing the selected hazard, identifying at least two conditions required for the hazard to occur.",
+          "Uses accurate geographical terminology (e.g. low pressure system, storm surge, soil saturation, drought threshold) to describe the process."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Factors influencing hazard impacts",
+        "progression_checkpoint": "Students can explain how the impacts of a hazard on people and the environment are influenced by environmental, social or economic factors.",
+        "minimum_width": "Students identify at least two factors that influence the impact of their selected hazard and explain how each affects the severity of impact.",
+        "typical_width": "Students explain how environmental factors (landform, vegetation, climate), social factors (population density, community preparedness, marginalised groups) and economic factors (infrastructure quality, insurance coverage, economic base) influence hazard impacts, applying these to a specific case study.",
+        "wider": [
+          "Compare the same type of hazard (e.g. flood) in two very different contexts — e.g. a developed country city vs a rural developing country region — to isolate how social and economic factors drive differential impact",
+          "Examine how exposure and vulnerability differ for different population groups within the same hazard event — who is most affected and why",
+          "Analyse a historical Australian hazard event (e.g. 2011 Queensland floods, 2019–20 Black Summer) to map environmental, social and economic factors onto actual impact patterns"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand that impact is influenced by context factors will default to 'bigger hazard = bigger impact' reasoning. This blocks sophisticated analysis of community and government responses — if impact were purely a function of hazard magnitude, differentiated responses would make no sense.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing the same hazard type across different social/economic contexts is the most direct way to demonstrate that factors beyond the hazard process determine impact. Without this comparison, students struggle to see social and economic factors as causal.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparative analysis of differential impact across populations and contexts is one of geography's key analytical contributions. Students who develop fluency with this analysis across hazard contexts can transfer it to liveability analysis and other units.",
+        "success_criteria": [
+          "Identifies at least two different types of factor (environmental, social, economic) that influence the impact of the selected hazard.",
+          "Explains, using a specific example, how one social or economic factor increases or decreases hazard impact."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Community and government responses",
+        "progression_checkpoint": "Students can identify and describe examples of community and government responses to a hazard at the local scale, explaining what made some responses effective.",
+        "minimum_width": "Students identify at least one community response and one government response to a hazard, and identify a factor that contributed to one being effective.",
+        "typical_width": "Students identify examples of responses to a hazard from the community and government at the local scale, and identify practices that increased response effectiveness — drawing on a specific Australian hazard case.",
+        "wider": [
+          "Compare local community responses with state and federal government responses to the same event — examine how coordination (or its absence) affected outcomes",
+          "Examine formal and informal community responses — official emergency services vs community networks, social media coordination, volunteer organisations — and evaluate relative effectiveness",
+          "Investigate how First Nations knowledge contributes to community hazard responses (e.g. fire management as drought/flood risk reduction) and why such knowledge is sometimes overlooked in official response frameworks"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Widening beyond a single response example to include community and government responses at different scales, and formal and informal responses, builds a richer understanding of the response landscape."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one community and one government response to the selected hazard, using a specific Australian example.",
+          "Explains at least one factor that contributed to a response being effective or ineffective."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Prevention, mitigation and preparedness framework",
+        "progression_checkpoint": "Students can apply the prevention, mitigation and preparedness framework to explain how community and government responses can reduce hazard impact.",
+        "minimum_width": "Students distinguish prevention, mitigation and preparedness and apply each to one response example.",
+        "typical_width": "Students reflect on the principles of prevention, mitigation and preparedness in responses from community and government to explain how impact can be reduced — applying all three principles to responses in their selected hazard case study.",
+        "wider": [
+          "Evaluate the relative effectiveness of prevention vs mitigation vs preparedness in the context of a hazard that cannot be prevented (e.g. tropical cyclone) vs one where prevention is possible (e.g. some types of flood management through land use planning)",
+          "Examine the trade-offs between investing in prevention/mitigation infrastructure and funding post-disaster response — what factors influence this decision?",
+          "Compare the prevention-mitigation-preparedness framework applied to the same hazard type in two countries with different governance systems"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The three-principle framework is a conceptual tool for organising responses — students need practice applying it analytically, not just defining each term. Scaffolding that requires students to classify a range of responses into the framework builds this analytical use."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Distinguishes prevention, mitigation and preparedness as three distinct principles, providing an example of each from the selected hazard case.",
+          "Explains how at least one response reduces hazard impact by reference to one of the three principles."
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Integration: causes, impacts and responses",
+        "progression_checkpoint": "Students explain the causes and impacts of an atmospheric or hydrological hazard and responses from communities and governments — integrating process analysis, impact factors and response framework.",
+        "minimum_width": "Students produce an explanation of a selected hazard that addresses causes, at least two impact factors, and at least one community or government response.",
+        "typical_width": "Students produce an integrated explanation of a hazard case that traces: the environmental process causing the hazard, how environmental/social/economic factors shaped its impact, specific community and government responses, and how prevention, mitigation or preparedness principles inform those responses.",
+        "wider": [
+          "Develop a hazard management recommendation for a specific Australian place, applying all four elements of the integrated framework and drawing on evidence from the case study",
+          "Compare two hazard cases (one atmospheric, one hydrological) to examine whether the causes, impact factors and response types share common patterns or differ fundamentally"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The four nodes in this standard cover distinct analytical components (process, impact factors, response examples, response framework). The integration node practises synthesising these into a coherent geographic explanation rather than four separate answers."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces an integrated explanation of a hazard event that addresses causes, impact factors and at least one response, using accurate geographical terminology throughout.",
+          "Explicitly connects at least one response to a prevention, mitigation or preparedness principle."
+        ],
+        "related_standards": ["AC9HG7S03", "AC9HG7S04", "AC9HG7S05"]
+      }
+    ]
+  }
+}

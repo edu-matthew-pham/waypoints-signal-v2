@@ -1,0 +1,104 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LY03",
+    "title": "Text structures and language features serving purpose",
+    "description": "analyse how text structures and language features work together to meet the purpose of a text, and engage and influence audiences",
+    "strand": "Literacy — Texts in context",
+    "mode": "A",
+    "prior_knowledge": "Students can explain characteristic features used in imaginative, informative and persuasive texts to meet the purpose of the text (AC9E5LY03). They have not yet analysed how structures and language features work together as a system to meet purpose, nor explicitly considered how this system engages and influences audiences.",
+    "progression_endpoint": "Students can analyse how text structures and language features work together to meet the purpose of a text and engage and influence audiences.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Structures and language features as a system",
+        "progression_checkpoint": "Students can explain how text structures and language features work together (not in isolation) to serve a text's purpose.",
+        "minimum_width": "Identify one structural feature and one language feature in a provided text and explain how both contribute to the same purpose.",
+        "typical_width": "Analyse how text structures and language features work together across a range of text types — noting that structures organise content and language features realise meaning within those structures — to produce a coherent text that meets its purpose.",
+        "wider": [
+          "Compare the structural and language feature choices in two texts with the same purpose (e.g. two information reports on the same topic) and evaluate which combination is more effective",
+          "Analyse a multimodal text and explain how layout, image and language features work together to meet purpose"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who can only identify features in isolation cannot perform the audience-engagement analysis in Node 2 or the effectiveness evaluation in Node 3 — both require the systems-level reasoning established here.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students who can identify features in isolation often struggle to explain how they interact. The reasoning move from 'this text has X structure and Y language feature' to 'X and Y work together because...' requires explicit scaffolding.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one structural feature and one language feature in a text",
+          "Explains how both contribute to the same purpose — not just lists them independently"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Engaging and influencing audiences",
+        "progression_checkpoint": "Students can explain how text structures and language features are chosen to engage a specific audience and influence how they respond.",
+        "minimum_width": "Identify at least one structural or language feature choice in a text that is designed to engage or influence the audience, and explain the effect on the reader.",
+        "typical_width": "Compare print and digital sources on similar topics and evaluate which structural and language features best aid navigation and clear communication; analyse how texts use structure and language choices to engage specific audiences and influence response.",
+        "wider": [
+          "Compare two texts on the same topic aimed at different audiences and analyse how structural and language feature choices differ to suit each audience",
+          "Evaluate a digital text's use of navigation features (headings, links, images) and explain how these choices serve the audience's reading purpose"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The concept of texts 'designed for audiences' is most visible in comparison — when students see that the same content is structured differently for different audiences, the intentionality of the choices becomes clear.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating which text features best serve navigation and comprehension for specific audiences is rich practical literacy work that transfers to research reading, digital literacy, and writing for diverse audiences.",
+        "success_criteria": [
+          "Identifies a specific structural or language feature choice that engages or influences the audience",
+          "Explains how that choice affects the reader's engagement or response"
+        ],
+        "related_standards": [
+          "AC9E6LA03",
+          "AC9E6LY04",
+          "AC9E6LA02"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating text effectiveness",
+        "progression_checkpoint": "Students can evaluate the effectiveness of a text's structural and language feature choices for its purpose and audience, and explain what improvements could be made.",
+        "minimum_width": "Evaluate whether the structural and language feature choices in a provided text effectively serve its purpose; identify at least one improvement and explain why it would help.",
+        "typical_width": "Evaluate texts across a range of purposes and audiences for how effectively their structural and language feature combinations serve purpose and engage audience; suggest specific improvements where features are ineffective or missing.",
+        "wider": [
+          "Design an improved version of a poorly structured text, identifying which features to add, remove or change and explaining each decision",
+          "Compare a student-written text with a professional example on the same topic and evaluate which combination of structural and language features is more effective and why"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluating effectiveness integrates systems-thinking about how features interact (Node 1) and audience awareness (Node 2) into a critical judgement — the evaluative act requires both components working together.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating and redesigning texts is rich metalinguistic work — it develops authorial thinking and critical reading skills that transfer directly to both reading and writing tasks across the curriculum.",
+        "success_criteria": [
+          "Evaluates the effectiveness of at least one structural or language feature choice in a text for its purpose",
+          "Suggests a specific improvement and explains how it would better serve the purpose or audience"
+        ],
+        "related_standards": [
+          "AC9E6LA03",
+          "AC9E6LY04",
+          "AC9E6LY06"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N03",
+    "title": "Compare and order fractions",
+    "description": "Apply knowledge of equivalence to compare, order and represent common fractions including halves, thirds and quarters on the same number line and justify their order",
+    "strand": "number_concepts",
+    "mode": "A",
+    "prior_knowledge": "Students can compare and order fractions with the same and related denominators including mixed numerals using knowledge of factors and multiples, and represent these on a number line (AC9M5N03). They have not yet compared fractions with unrelated denominators or systematically justified ordering using equivalence across a range of common fractions on the same number line.",
+    "progression_endpoint": "Students can apply equivalence to compare, order and represent common fractions including halves, thirds and quarters on the same number line, and justify their order.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Equivalence as the comparison tool",
+        "progression_checkpoint": "Students can explain why equivalent fractions are needed to compare fractions with different denominators, and generate equivalent fractions for common fractions by multiplying or dividing numerator and denominator by the same factor.",
+        "minimum_width": "Generate at least three equivalent fractions for each of: one-half, one-third, one-quarter; explain why multiplying numerator and denominator by the same number preserves value.",
+        "typical_width": "Generate equivalent fractions for a range of common fractions; use diagrams and number lines to verify equivalence; explain the equivalence principle (multiplying by 1 in fraction form); identify when two fractions are equivalent by comparing their simplest forms.",
+        "wider": [
+          "Investigate why different fraction names can describe the same quantity using area models, set models, and number lines simultaneously",
+          "Explore which fractions are equivalent to familiar decimals (0.5, 0.25, 0.75) and connect the decimal and fraction representations"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often generate equivalent fractions procedurally without understanding why the value is preserved. Multiple representations \u2014 diagrams, number lines, area models \u2014 help resolve the conceptual gap between the procedure and its meaning.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Understanding equivalence as a value-preserving operation is the conceptual prerequisite for Node 2 and Node 3. Students who apply equivalence only procedurally (without understanding why) produce incorrect numerator conversions when finding common denominators, breaking all subsequent comparison and ordering work.",
+        "success_criteria": [
+          "Student generates three equivalent fractions for a given common fraction and explains why they are equal.",
+          "Student verifies equivalence using a diagram or number line representation."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Common denominator for comparison",
+        "progression_checkpoint": "Students can find a common denominator for two or more fractions with different denominators and use it to determine which is greater.",
+        "minimum_width": "Find a common denominator for two given fractions with unrelated denominators; convert both fractions to equivalent fractions with the common denominator; state which is larger and why.",
+        "typical_width": "Find the lowest common denominator for pairs and sets of fractions with unrelated denominators; convert and compare; explain why the fraction with the larger numerator is greater when denominators are equal.",
+        "wider": [
+          "Compare fractions where the lowest common denominator is not obvious \u2014 e.g. fifths and sixths \u2014 and explore efficient methods for finding it",
+          "Investigate when benchmark fractions (one-half) can be used to compare without finding a common denominator, and describe when this shortcut works and when it fails"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Finding common denominators accurately is a prerequisite skill for fraction addition and subtraction. Errors here (using a common multiple that is not the lowest, incorrect conversion of numerators) propagate into AC9M6N05. Procedural fluency needs to be established before moving to combined operations.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Accurate common denominator finding and numerator conversion is the procedural prerequisite for AC9M6N05 (fraction addition and subtraction). Errors in conversion here cascade directly into all subsequent fraction calculation work.",
+        "success_criteria": [
+          "Student correctly finds a common denominator for two fractions with different denominators.",
+          "Student converts both fractions correctly and identifies which is greater."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Order fractions on a number line",
+        "progression_checkpoint": "Students can order three or more common fractions including halves, thirds and quarters on the same number line and justify the ordering using equivalence.",
+        "minimum_width": "Place at least five common fractions (including halves, thirds and quarters) in correct order on a number line; justify the position of at least one fraction using equivalent fraction reasoning.",
+        "typical_width": "Order a set of common fractions including halves, thirds, quarters, fifths and sixths on the same number line; justify all placements using equivalent fraction reasoning; explain any cases where fractions with different denominators occupy the same position (equivalent fractions).",
+        "wider": [
+          "Extend the number line to include fractions greater than one (mixed numerals) and order a combined set of proper fractions and mixed numerals",
+          "Investigate density of fractions: between any two fractions on the number line, can you always find another? Demonstrate with examples."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only compare pairs of fractions often cannot order three or more, or cannot justify position beyond 'I found a common denominator.' The number line as a representation across multiple fractions simultaneously consolidates the ordering concept and exposes gaps in equivalence reasoning."
+          },
+          {
+            "mode": "integration",
+            "reason": "Ordering on a number line integrates equivalence generation (Node 1) and common denominator comparison (Node 2) into a single spatial representation. Students must apply both skills simultaneously to justify positions.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The number line with fractions is genuinely rich \u2014 density of fractions, extension to mixed numerals, connection to decimals and percentages all offer meaningful depth for advancing students without leaving Year 6 scope.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly orders at least five common fractions on a number line.",
+          "Student justifies the ordering of at least two fractions using equivalence reasoning (not just 'the number is bigger')."
+        ]
+      }
+    ]
+  }
+}

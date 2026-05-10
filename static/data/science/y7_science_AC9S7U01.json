@@ -1,0 +1,187 @@
+{
+  "year_level": "7",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S7U01",
+    "title": "Classification and Biodiversity",
+    "description": "investigate the role of classification in ordering and organising the diversity of life on Earth and use and develop classification tools including dichotomous keys",
+    "strand": "Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can name and describe familiar living things and sort them into broad groups (animals, plants). They have not studied formal taxonomy or constructed classification tools.",
+    "progression_endpoint": "Students investigate why classification systems are used, apply and construct dichotomous keys, and evaluate how classification tools order and organise biodiversity.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Purpose of classification",
+        "progression_checkpoint": "Students can explain why classification is useful for organising and communicating about living things",
+        "minimum_width": "State at least two reasons why scientists classify living things (e.g. identification, communication); give one example of classification in everyday life",
+        "typical_width": "Compare two different classification systems; explain which is more useful for a given purpose and why",
+        "wider": [
+          "Investigate how Aboriginal and Torres Strait Islander peoples classify living things on Country and compare with Linnaean taxonomy — what does each system prioritise?",
+          "Research how classification systems have changed over time through improvements in microscopy; explain what this reveals about scientific knowledge",
+          "Consider how classification supports identification and communication in a real scientific or practical context (e.g. biosecurity, medicine)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The wider tier offers genuine breadth through multiple distinct lenses — cultural classification systems (First Nations vs Linnaean), historical change through microscopy, and practical contexts (biosecurity, medicine). Each adds a different dimension to why classification exists and what any system reveals about the priorities of those who made it. More contexts here help students see classification as purposeful and constructed rather than natural and fixed.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multiple legitimate widening directions exist — cultural classification systems, historical changes, practical contexts — and each adds a genuinely different dimension. Advancing students who engage the wider tier gain a richer understanding of why classification exists and what any system reveals about the priorities of those who made it.",
+        "related_standards": [
+          "AC9S7I07",
+          "AC9S7H02"
+        ],
+        "success_criteria": [
+          "Names at least two reasons why classification is useful (e.g. identification, communication)",
+          "Gives a correct everyday example of classification",
+          "Does not confuse classification with simple sorting or listing"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Taxonomy: major groups and kingdoms",
+        "progression_checkpoint": "Students can place organisms into major taxonomic groups using observable features and justify their classification",
+        "minimum_width": "Name the major kingdoms; correctly place 5 familiar organisms into their kingdom with justification using observable features",
+        "typical_width": "Sort a set of 12 organisms into kingdoms; identify one organism that is difficult to classify and explain why",
+        "wider": [
+          "Name and classify species using Linnaean hierarchy (kingdom → species); explain what each level represents",
+          "Research a boundary case (e.g. Euglena, virus) — does it fit the kingdom model? What does this reveal about classification systems?",
+          "Observe and identify similarities and differences of particular features within and between groups of organisms using provided specimens or images"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reliably assign organisms to kingdoms using observable features cannot select discriminating features when constructing keys in Node 4 — the feature-selection skill that underpins both using and constructing keys depends on having a working taxonomy foundation.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Correctly placing organisms into kingdoms is a classification skill that improves through accumulated examples. Students need to build a repertoire of familiar organisms across kingdoms so the feature-based judgement becomes reliable — a single set of 5 organisms is not enough to generalise the skill. More varied organism sets, including boundary cases, build the pattern recognition needed for confident classification.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9S7I04",
+          "AC9S7I05",
+          "AC9S7H01"
+        ],
+        "success_criteria": [
+          "Correctly places 5 familiar organisms into kingdoms with observable feature justification",
+          "Identifies at least one organism that is difficult to classify and explains why"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Using dichotomous keys",
+        "progression_checkpoint": "Students can use a dichotomous key to identify organisms by applying binary decisions based on observable features",
+        "minimum_width": "Use a provided dichotomous key to correctly identify at least 5 organisms; explain how each decision point works",
+        "typical_width": "Use two different keys for the same organism set; identify where they agree and disagree and explain why",
+        "wider": [
+          "Use a provided dichotomous key to identify organisms surveyed on a field trip or from local environment",
+          "Evaluate a flawed dichotomous key — identify the error, explain its consequence, and propose a correction",
+          "Compare a scientific dichotomous key with a First Nations classification system for the same organisms — what features does each prioritise?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not internalise the binary decision logic of using a key cannot construct one in Node 4 — key construction requires students to reverse the process, selecting features that produce clean binary splits. Procedural key-following without conceptual understanding of why each decision point works produces key constructions that are structurally broken.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using a key requires students to apply binary logic to observable features — a prerequisite for constructing keys. Misconceptions about feature selection cluster here and propagate directly into Node 4. More varied organism sets and key types (field trip keys, flawed keys, comparative keys) force students to apply binary decision logic across contexts rather than pattern-matching a single worked example.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly follow key steps procedurally without understanding the binary decision logic underlying each step. Explicit scaffolding of the reasoning — 'at this decision point, what observable feature am I checking, and what are the two possible outcomes?' — helps students internalise the logic rather than just follow arrows. This is prerequisite for constructing their own keys in Node 4.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9S7I01",
+          "AC9S7I04"
+        ],
+        "success_criteria": [
+          "Follows all decision points in a provided key to reach correct identifications",
+          "Names the observable feature used at each decision point",
+          "Explains why an incorrect path leads to a wrong outcome"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Constructing dichotomous keys",
+        "progression_checkpoint": "Students can construct a dichotomous key that correctly classifies a set of organisms using observable features",
+        "minimum_width": "Construct a simple dichotomous key for a set of 6 organisms using observable features; test it with a peer",
+        "typical_width": "Construct and refine a key for 10 organisms; document one revision made after peer testing and explain the improvement",
+        "wider": [
+          "Create and modify a dichotomous key to classify organisms into groups and subgroups; evaluate its effectiveness",
+          "Design a key for a novel organism set (e.g. everyday objects or invented creatures); reflect on what makes a feature scientifically useful",
+          "Construct a key based on First Nations classification criteria for local organisms and compare its structure with a Linnaean key"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly select non-discriminating features or features that work for one organism set but fail for another. Constructing keys across more varied organism sets forces students to confront what makes a feature genuinely discriminating — resolving the misconception through breadth rather than repetition on a single set.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "Constructing a key integrates binary decision logic (Node 3), feature selection from taxonomy (Node 2), and understanding of classification purpose (Node 1). The construction task is where these components come together — students who can use a key but cannot construct one are missing the integrated understanding. Peer testing is a key part of this integration: it surfaces whether the key works across the full organism set, not just for the constructor."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Constructing keys across varied organism sets — including novel sets like everyday objects or First Nations classification criteria — gives advancing students genuine insight into what makes a feature discriminating and what classification systems reveal about the classifier's priorities. The wider tier here is genuinely rich and produces meaningful depth beyond the minimum construction task.",
+        "related_standards": [
+          "AC9S7I01",
+          "AC9S7I02",
+          "AC9S7I06",
+          "AC9S7H01"
+        ],
+        "success_criteria": [
+          "Constructs a key that correctly classifies all organisms in a given set",
+          "Key uses binary observable features at each decision point",
+          "Peer testing confirms key produces correct identifications"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Classification systems change over time",
+        "progression_checkpoint": "Students can explain how classification systems change in response to new evidence and evaluate what this reveals about scientific knowledge",
+        "minimum_width": "Give one example of a reclassification event; explain what new evidence caused the change",
+        "typical_width": "Trace the reclassification of one organism — what evidence existed before, what changed, and how did the scientific community respond?",
+        "wider": [
+          "Examine how biological classification has changed through improvements in microscopy and DNA analysis",
+          "Evaluate: is reclassification a sign that science is unreliable, or a sign that it works? Construct an evidence-based argument",
+          "Investigate how First Nations classification knowledge has contributed to or challenged scientific classification in specific cases"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe reclassification events without connecting them to the nature of scientific knowledge — they report what changed without explaining what it means that science changes. Scaffolding the reasoning explicitly (what was the old classification, what new evidence emerged, what changed, and what does this reveal about how science works) helps students reach the evaluative claim rather than stopping at description.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The evaluative question — is reclassification a sign of unreliability or a sign that science works? — is genuinely rich for advancing students. It connects to AC9S7H01 and opens substantive argument-construction work. The First Nations classification direction adds another layer: how non-Western knowledge systems interact with and contribute to scientific classification is a meaningful extension beyond the minimum.",
+        "related_standards": [
+          "AC9S7I07",
+          "AC9S7H01",
+          "AC9S7H03"
+        ],
+        "success_criteria": [
+          "Names a real reclassification event and the evidence that caused it",
+          "Explains whether reclassification weakens or strengthens confidence in science"
+        ]
+      }
+    ]
+  }
+}

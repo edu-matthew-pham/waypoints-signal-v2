@@ -1,0 +1,97 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N06",
+    "title": "Multiply and divide decimals",
+    "description": "Multiply and divide decimals by multiples of powers of 10 without a calculator, applying knowledge of place value and proficiency with multiplication facts; using estimation and rounding to check the reasonableness of answers",
+    "strand": "number_concepts",
+    "mode": "A",
+    "prior_knowledge": "Students can solve multiplication of larger numbers by one- or two-digit numbers (AC9M5N06) and division with remainders (AC9M5N07). They can interpret and compare numbers with more than 2 decimal places (AC9M5N01). They have not yet systematically multiplied or divided decimals by powers of 10 or used these as place value operations.",
+    "progression_endpoint": "Students can multiply and divide decimals by multiples of powers of 10 without a calculator using place value knowledge, and use estimation and rounding to check reasonableness.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Multiplying decimals by powers of 10",
+        "progression_checkpoint": "Students can multiply decimal numbers by 10, 100 and 1000 by shifting digits to the left, and explain the effect in terms of place value.",
+        "minimum_width": "Multiply at least five decimal numbers by 10, 100 and 1000; explain what happens to each digit's place value; recognise that multiplying by 10 shifts digits one place to the left.",
+        "typical_width": "Multiply decimals by 10, 100, 1000 and multiples thereof (20, 300, 5000 etc.); connect the operation to place value charts; explain why the decimal point appears to move even though it is the digits that shift; apply to measurement conversions (e.g. metres to centimetres).",
+        "wider": [
+          "Apply decimal \u00d7 powers-of-10 reasoning to metric unit conversion chains (mm \u2192 cm \u2192 m \u2192 km) and explain the conversion factor at each step",
+          "Investigate what happens when you multiply a decimal by 0.1 or 0.01 \u2014 connect to dividing by powers of 10"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly hold the misconception that 'multiplying makes bigger always' \u2014 leading to errors when multiplying by numbers less than 1. Varied contexts including metric conversions help establish the place value shift as the mechanism, correcting this misconception.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "The place-value-shift model is the conceptual foundation for both Node 2 (division) and Node 3 (multiples). Students who carry the 'multiplying always makes bigger' misconception into division will produce direction errors (shifting left instead of right) and cannot correct them without first resolving the underlying model.",
+        "success_criteria": [
+          "Student correctly multiplies a decimal number by 10, 100 and 1000 and states the resulting number.",
+          "Student explains the place value change that occurs when multiplying by a power of 10."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Dividing decimals by powers of 10",
+        "progression_checkpoint": "Students can divide decimal numbers by 10, 100 and 1000 by shifting digits to the right, and explain the effect in terms of place value.",
+        "minimum_width": "Divide at least five decimal numbers by 10, 100 and 1000; explain what happens to each digit's place value; recognise that dividing by 10 shifts digits one place to the right.",
+        "typical_width": "Divide decimals by 10, 100, 1000 and multiples; apply to unit conversion in context (centimetres to metres, grams to kilograms); connect division by powers of 10 to the inverse of multiplication; apply to price-per-unit calculations.",
+        "wider": [
+          "Investigate patterns: what is the result of 5.2 \u00d7 10 \u00f7 10? What about 5.2 \u00d7 100 \u00f7 1000? Generalise the pattern.",
+          "Apply powers-of-10 division to interpret decimal results from division of whole numbers (e.g. 750 \u00f7 1000 = 0.75 kg)"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The inverse relationship between multiplying and dividing by powers of 10 requires explicit reasoning \u2014 students need to see why 'shifting right' is the inverse of 'shifting left' and how this produces decimals from whole numbers. Without this scaffold, division errors are difficult to self-correct.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Understanding division as the inverse place-value shift is required for Node 3 (multiples of powers of 10), where students must decompose multipliers and apply both operations. Students who cannot reliably shift right for division will produce errors in all subsequent metric conversion and ratio problems.",
+        "success_criteria": [
+          "Student correctly divides a decimal number by 10, 100 and 1000.",
+          "Student explains the relationship between multiplying and dividing by the same power of 10 as inverse operations."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Multiplying by multiples of powers of 10",
+        "progression_checkpoint": "Students can multiply and divide decimals by multiples of powers of 10 (e.g. 200, 0.5, 3000) by decomposing the multiplier and applying place value knowledge.",
+        "minimum_width": "Multiply a decimal by a multiple of a power of 10 (e.g. 3.6 \u00d7 200) by breaking it into a multiplication fact and a power-of-10 shift; show the two-step process.",
+        "typical_width": "Apply the decomposition strategy to both multiplication and division by multiples of powers of 10; select efficient strategies for given calculations; connect to mental multiplication strategies for whole numbers.",
+        "wider": [
+          "Estimate results before calculating to establish magnitude, then compare estimate to exact answer \u2014 develop a habit of pre-calculation estimation",
+          "Apply multiples-of-powers-of-10 calculations to real contexts such as currency conversion at round rates, bulk pricing, or unit conversion"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Decomposing multipliers into a multiplication fact \u00d7 power of 10 requires reliable multiplication facts and accurate power-of-10 shifts working together. Errors in either component compound. Fluency with the combined operation needs deliberate practice."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student multiplies a decimal by a multiple of a power of 10 showing the two-step decomposition.",
+          "Student uses estimation to verify the reasonableness of a multiplication or division result."
+        ]
+      }
+    ]
+  }
+}

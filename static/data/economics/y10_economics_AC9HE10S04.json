@@ -1,0 +1,151 @@
+{
+  "year_level": "10",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE10S04",
+    "title": "Evaluate and decide using cost-benefit",
+    "description": "develop and evaluate a response to an economic and business issue, using cost-benefit analysis or criteria to decide on a course of action",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can develop and evaluate responses to economic and business issues using cost-benefit analysis or criteria at Year 9 level (AC9HE9S04). They have practised identifying and weighing costs and benefits to justify a decision, and have used criteria-based evaluation in business contexts. Y10 builds on this with more complex financial calculations, multi-variable cost-benefit analysis, and the explicit use of opportunity cost reasoning.",
+    "progression_endpoint": "Students develop and evaluate a response to an economic and business issue using cost-benefit analysis or criteria-based evaluation to justify a recommended course of action.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What cost-benefit analysis involves",
+        "progression_checkpoint": "Students can explain what cost-benefit analysis involves and identify the types of costs and benefits relevant to economic and business decisions.",
+        "minimum_width": "Explain what cost-benefit analysis is and identify at least two types of costs and two types of benefits that might be considered in a financial decision.",
+        "typical_width": "Explain cost-benefit analysis as a structured approach to comparing the financial and non-financial costs and benefits of a course of action; identify types of costs (financial, opportunity, social, environmental) and benefits (financial returns, non-financial gains, social value) relevant to economic and business decisions.",
+        "wider": [
+          "Investigate how governments use formal cost-benefit analysis in infrastructure or policy decisions and evaluate the challenges of assigning monetary values to non-financial costs and benefits",
+          "Compare cost-benefit analysis with criteria-based evaluation (e.g. using efficiency, profitability or equity as criteria) and explain when each approach is more appropriate",
+          "Examine how the same decision can produce very different cost-benefit outcomes depending on who bears the costs and who receives the benefits"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat cost-benefit analysis as a simple list of pros and cons — without understanding that costs and benefits must be identified systematically, valued and compared — cannot produce the structured evaluation the descriptor requires.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Make the structure of CBA explicit: identify all relevant costs and benefits → assign relative weight or value → compare → conclude. The systematic nature of the method is what distinguishes it from informal pros-and-cons thinking.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains what cost-benefit analysis is and how it differs from a simple list of pros and cons",
+          "Identifies at least two types of costs and two types of benefits relevant to a named decision"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Opportunity cost",
+        "progression_checkpoint": "Students can identify the opportunity cost in a decision and explain how it affects the evaluation of a course of action.",
+        "minimum_width": "Define opportunity cost and give one example of an opportunity cost in a consumer or business decision.",
+        "typical_width": "Explain opportunity cost as the value of the next-best alternative foregone; apply opportunity cost reasoning to consumer and business decisions — for example, employing more staff instead of upskilling existing staff to improve productivity — and explain how opportunity cost affects the evaluation of a choice.",
+        "wider": [
+          "Apply opportunity cost reasoning to a government policy decision (e.g. investing in public transport vs road infrastructure) and evaluate whether the opportunity cost is acknowledged in public debate",
+          "Investigate how sunk cost fallacy can distort decision-making by causing people to ignore opportunity costs in favour of costs already committed",
+          "Compare how a business and an individual household would calculate the opportunity cost of the same decision differently, and explain why"
+        ],
+        "hinge": true,
+        "hinge_reason": "Opportunity cost is the distinct economic reasoning tool in this descriptor. Without it, student evaluation reduces to identifying immediate financial costs and misses the comparative logic that defines economic decision analysis.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Opportunity cost reasoning needs to become automatic — practise applying it to multiple contexts (consumer, business, government) until students routinely ask 'what is being given up?' rather than only 'what does this cost?'.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly defines opportunity cost in own words",
+          "Identifies the opportunity cost in a named decision and explains how it should factor into the evaluation"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating short- and long-term financial implications",
+        "progression_checkpoint": "Students can evaluate the short- and long-term financial implications of a decision, including calculating costs across time and considering flexibility to exit.",
+        "minimum_width": "For one financial decision, identify at least one short-term and one long-term financial implication and explain how the time horizon affects the evaluation.",
+        "typical_width": "Evaluate the short- and long-term financial implications of a decision — including calculating the costs of different purchasing methods, considering ability to opt out if circumstances change, and comparing loans or financing options to estimate total cost over time.",
+        "wider": [
+          "Compare two financing pathways for a major consumer purchase (e.g. personal loan vs buy-now-pay-later vs savings) calculating total cost including interest, fees and opportunity cost for each",
+          "Evaluate how the ability to exit or reverse a decision (e.g. lease vs buy, variable vs fixed rate loan) should factor into a cost-benefit analysis",
+          "Investigate how businesses evaluate capital investment decisions over multi-year time horizons, including concepts of payback period and return on investment"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Apply short/long-term financial analysis to varied decision contexts — consumer purchases, business investment, government spending — so students can apply time-horizon reasoning flexibly.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Loan comparison, exit flexibility analysis and business investment evaluation are practical, calculable and directly relevant. Students who can model financial implications across time horizons develop genuinely useful financial literacy.",
+        "success_criteria": [
+          "Identifies at least one short-term and one long-term financial implication for a named decision",
+          "Explains how the time horizon changes the relative weight given to costs or benefits"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Evaluating using criteria",
+        "progression_checkpoint": "Students can evaluate a response to an economic issue using explicit criteria (e.g. efficiency, profitability, equity) and explain the reasoning behind a recommended course of action.",
+        "minimum_width": "Apply at least one named criterion (e.g. efficiency, equity) to evaluate a response to an economic issue and explain what the criterion reveals about the response.",
+        "typical_width": "Evaluate a response using criteria such as efficiency, profitability or equity to explain reasons for a course of action — for example, using economic performance indicators to identify variations within the Australian economy and evaluate government intervention responses.",
+        "wider": [
+          "Apply multiple criteria to the same response and evaluate whether the criteria point to the same recommendation or require a trade-off decision",
+          "Investigate how equity and efficiency criteria can conflict in economic policy (e.g. progressive taxation) and evaluate how governments typically navigate the trade-off",
+          "Compare how different stakeholders (business, government, community) would weight the same set of evaluation criteria differently for the same decision"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Apply criteria-based evaluation to different economic contexts — policy evaluation, business decision, consumer choice — so students can use criteria flexibly and not just in one context type.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-criteria evaluation and criteria conflict (efficiency vs equity) are rich intellectual territory. Students who work through real cases where criteria point in different directions develop genuine evaluative sophistication.",
+        "success_criteria": [
+          "Applies at least one named evaluation criterion and explains what it reveals about the response being evaluated",
+          "Uses the criterion to justify a recommended course of action, not just to describe the options"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Developing and justifying a response",
+        "progression_checkpoint": "Students can develop a response to an economic or business issue and justify it using cost-benefit analysis and/or criteria-based evaluation, incorporating opportunity cost reasoning.",
+        "minimum_width": "Develop a recommended course of action for one economic issue and provide at least two pieces of cost-benefit or criteria-based reasoning to justify it.",
+        "typical_width": "Develop and evaluate a response to an economic and business issue, using cost-benefit analysis or criteria to justify a recommended course of action; incorporate opportunity cost reasoning and address both short- and long-term implications.",
+        "wider": [
+          "Develop a response to a real current economic policy issue (e.g. housing affordability, energy costs) and evaluate it against multiple criteria, acknowledging trade-offs",
+          "Present a justified response to a business decision scenario and explain how the recommendation would change under different economic conditions",
+          "Critically evaluate a published response to an economic issue (e.g. a policy proposal, a business strategy) using cost-benefit analysis and identify what the original evaluation missed or overstated"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates CBA, opportunity cost, time-horizon analysis and criteria-based evaluation into a single justified recommendation. It is the descriptor's full demand — not just evaluating, but developing and justifying a response."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a specific recommended course of action, not just a description of options",
+          "Provides at least two pieces of cost-benefit or criteria-based reasoning that justify the recommendation"
+        ],
+        "related_standards": ["AC9HE10S03"]
+      }
+    ]
+  }
+}

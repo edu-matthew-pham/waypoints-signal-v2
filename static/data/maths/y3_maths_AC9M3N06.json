@@ -1,0 +1,94 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3N06",
+    "title": "Mathematical modelling",
+    "strand": "Number",
+    "mode": "B",
+    "description": "use mathematical modelling to solve practical problems involving additive and multiplicative situations including financial contexts; formulate problems using number sentences and choose calculation strategies, using digital tools where appropriate; interpret and communicate solutions in terms of the situation",
+    "prior_knowledge": "Students can use mathematical modelling to solve practical additive and multiplicative problems, including money (AC9M2N06). They have not yet systematically formulated problems as number sentences for three-digit calculations, or applied modelling across both additive and multiplicative situations with explicit interpretation.",
+    "progression_endpoint": "Students use mathematical modelling to solve practical problems involving addition, subtraction, multiplication and division in real-world and financial contexts, formulating, calculating and interpreting results.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Formulating problems as number sentences",
+        "progression_checkpoint": "Students can translate a practical additive or multiplicative situation into a number sentence, identifying the operation needed.",
+        "minimum_width": "Translate one word problem (additive) and one word problem (multiplicative) into number sentences, identifying the operation and unknown.",
+        "typical_width": "Formulate a range of practical problems as number sentences, selecting the appropriate operation; include problems with an unknown in different positions.",
+        "wider": [
+          "Formulate problems involving two-step operations (e.g. buy three items, pay with $20, how much change) — bridging to multi-step modelling",
+          "Explore how the same real-world situation can be formulated differently depending on what question is asked"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often confuse problem type when surface features change (e.g. money vs distance vs quantities). Encountering formulation across varied contexts builds the generalised skill of identifying the underlying operation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Correct problem formulation is the entry gate to the modelling cycle — students who cannot identify the operation from a practical situation cannot progress to Node 2 (strategy selection) or Node 3 (interpretation). An incorrectly formulated number sentence invalidates the entire calculation and interpretation that follows.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can write a number sentence that correctly represents a practical problem.",
+          "Students can identify which operation the problem requires and justify the choice."
+        ],
+        "related_standards": ["AC9M3A01", "AC9M3N03", "AC9M3N04"]
+      },
+      {
+        "id": 2,
+        "label": "Choosing and applying calculation strategies",
+        "progression_checkpoint": "Students can select an appropriate calculation strategy for a given problem and apply it, including using digital tools where appropriate.",
+        "minimum_width": "Solve two practical problems using different calculation strategies; for one, justify why the chosen strategy was appropriate.",
+        "typical_width": "Apply a range of strategies (mental, written, digital) to practical problems; choose based on number size and context; explain strategy choice.",
+        "wider": [
+          "Compare the efficiency of mental, written and digital strategies across a range of problem types, developing judgment about when each is appropriate",
+          "Investigate financial decision-making contexts where different strategies have real implications (e.g. comparison shopping)"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Strategy choice requires a repertoire — students need exposure to multiple strategies across enough problem types to develop genuine selection judgment."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can select and apply a calculation strategy appropriate to the problem.",
+          "Students can identify when a digital tool is appropriate and use it to check or calculate."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Interpreting and communicating solutions",
+        "progression_checkpoint": "Students can interpret a calculated answer in terms of the original situation and communicate the solution with appropriate units and context.",
+        "minimum_width": "Solve one practical problem and write a sentence that interprets the answer in terms of the situation (e.g. 'The total cost is $48, which means...').",
+        "typical_width": "Solve and interpret a range of practical problems; communicate solutions referencing original context, including appropriate units (e.g. dollars, metres, items).",
+        "wider": [
+          "Present solutions to multi-step problems with complete reasoning, including estimation check, calculation and interpretation",
+          "Explore how the same numerical answer can mean different things in different contexts (e.g. 24 apples vs $24 vs 24 minutes)"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Interpretation integrates formulation, strategy and calculation into a complete modelling cycle. Students who struggle with interpretation often have a weak connection between the number sentence and the real-world situation it represents."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-step problem presentation and the insight that numbers always carry contextual meaning are genuinely enriching ideas that prepare students for more complex modelling at upper primary.",
+        "success_criteria": [
+          "Students can explain what their calculated answer means in terms of the original situation.",
+          "Students communicate solutions with appropriate labels and in sentences connected to the problem context."
+        ],
+        "related_standards": ["AC9M3N05", "AC9M3ST01", "AC9M3ST02"]
+      }
+    ]
+  }
+}

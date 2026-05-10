@@ -1,0 +1,70 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLY15",
+    "title": "Words as units of meaning",
+    "description": "understand that words are units of meaning and can be made of more than one meaningful part",
+    "strand": "Literacy — Phonic/Word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students understand that words exist as units within sentences. They have not yet been introduced to the idea that words themselves can be decomposed into meaningful parts — morphemes — that each carry meaning.",
+    "progression_endpoint": "Students can explain that words are units of meaning and that some words contain more than one meaningful part — demonstrating beginning morphemic awareness.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Words carry meaning",
+        "progression_checkpoint": "Students can explain that each word in a sentence carries meaning — removing a word changes what the sentence communicates.",
+        "minimum_width": "Identify that removing one word from a familiar sentence changes its meaning.",
+        "typical_width": "Understand that words are units of meaning; identify what specific words contribute to a sentence's meaning; recognise that different words carry different types of meaning.",
+        "wider": [
+          "Explore how swapping one word in a sentence for another word changes meaning — including substituting synonyms and antonyms",
+          "Investigate words from different topic areas and discuss what meaning each contributes to understanding the topic"
+        ],
+        "hinge": true,
+        "hinge_reason": "Unless students understand that words are independently meaningful units, the concept of a word having multiple meaningful parts in Node 2 has no foundation — morphemic awareness builds on the prior understanding that words carry separable meaning.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need a visible reasoning scaffold — removing a word, then observing what changes — to grasp that individual words carry independent meaning. Worked examples make the word-meaning relationship explicit before students can apply it.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can explain that a word contributes meaning to a sentence.",
+          "Student can identify that removing a word changes what a sentence says."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Some words have more than one meaningful part",
+        "progression_checkpoint": "Students can identify that some words are made of more than one meaningful part (e.g. 'dogs' = 'dog' + 's' meaning more than one).",
+        "minimum_width": "Identify one word made of two meaningful parts and explain what each part means (e.g. 'dogs' — the dog part means the animal, the 's' means more than one).",
+        "typical_width": "Understand that words can be made of more than one meaningful part; identify simple examples of plurals ('s'), past tense markers and familiar compounds; explain what each part contributes.",
+        "wider": [
+          "Sort words into 'one meaning part' and 'more than one meaning part' categories across a range of familiar words",
+          "Explore compound words (e.g. 'sunflower', 'raincoat') as another form of words with multiple meaningful parts",
+          "Investigate words with meaningful parts from other languages familiar to students — discussing how different languages build meaning through word parts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The morpheme concept requires a visible reasoning scaffold — students need to be shown the analysis (here is the word, here is where it breaks, here is what each part means) before they can apply it independently. This is the first introduction to morphemic thinking.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Beginning morphemic awareness — recognising meaningful word parts — is a foundational literacy insight that supports vocabulary growth and spelling development. Advancing students can explore compound words, common suffixes and prefixes, offering genuine conceptual richness.",
+        "success_criteria": [
+          "Student can identify a word that has more than one meaningful part.",
+          "Student can explain what each part of the word means.",
+          "Student can give at least one more example of a word with multiple meaningful parts."
+        ]
+      }
+    ]
+  }
+}

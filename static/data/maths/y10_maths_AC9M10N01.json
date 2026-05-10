@@ -1,0 +1,98 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10N01",
+    "title": "Approximations of real numbers",
+    "strand": "Number",
+    "mode": "A",
+    "description": "recognise the effect of using approximations of real numbers in repeated calculations and compare the results when using exact representations",
+    "prior_knowledge": "Students can recognise the real number system including rational and irrational numbers and solve problems (AC9M9N01). They have not yet investigated how approximation errors accumulate and compound across repeated calculations, or compared results from exact versus approximate representations.",
+    "progression_endpoint": "Students recognise the effect of using approximations of real numbers in repeated calculations and compare results with those obtained using exact representations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Exact vs approximate representations",
+        "progression_checkpoint": "Students can distinguish between an exact representation of a real number and an approximation, and identify when approximation introduces error.",
+        "minimum_width": "Give an example of an irrational number that has an exact form (e.g. \u221a2, \u03c0) and an approximate decimal form; explain what is lost in the approximation.",
+        "typical_width": "Distinguish exact from approximate representations for irrational numbers, repeating decimals and fractions; identify where approximation is unavoidable (e.g. decimal display) and where exact form is available; calculate with both forms for a simple expression and compare results.",
+        "wider": [
+          "Investigate how computer systems store real numbers as floating-point approximations and what the consequences are for repeated arithmetic operations",
+          "Explore historical examples where exact representation mattered (e.g. Archimedes' bounds on \u03c0) and discuss how mathematical culture has handled the tension between exactness and practicality"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students need to encounter exact vs approximate representations across number types (surds, \u03c0, repeating decimals) to generalise the concept beyond any single example. One example risks exemplar convergence \u2014 students may believe the issue is specific to \u03c0 rather than a general property of approximation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies which representation of a real number is exact and which is approximate",
+          "Student explains what information is lost or changed when an exact irrational number is replaced by a decimal approximation"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Truncation vs rounding",
+        "progression_checkpoint": "Students can describe the difference between truncation and rounding and identify which produces a systematic bias.",
+        "minimum_width": "Distinguish truncation from rounding for a given decimal value; state that truncation always rounds toward zero and identify this as a systematic bias.",
+        "typical_width": "Apply truncation and rounding to various decimal values; explain why truncation produces a systematic underestimate (for positive values) while rounding is approximately unbiased; identify contexts where each method is conventionally used.",
+        "wider": [
+          "Investigate the financial impact of systematic truncation: if every transaction is truncated to the nearest cent, what is the accumulated effect across millions of transactions?",
+          "Compare how different programming languages and financial systems implement rounding and truncation, and discuss the real-world consequences of different conventions"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often treat truncation and rounding as equivalent. The distinction \u2014 and particularly why truncation introduces bias \u2014 requires explicit reasoning about the direction and magnitude of the difference.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly applies both truncation and rounding to the same decimal value and obtains different results",
+          "Student explains that truncation introduces a systematic bias while rounding does not"
+        ],
+        "hinge": true,
+        "hinge_reason": "The truncation/rounding distinction is the prerequisite for N3 \u2014 students who do not distinguish between them cannot describe how accumulated error differs between truncation (systematic bias) and rounding (approximate unbiasedness)."
+      },
+      {
+        "id": 3,
+        "label": "Effect of approximation in repeated calculations",
+        "progression_checkpoint": "Students can demonstrate, using a worked example, that repeated use of an approximate value produces a different final result than using the exact representation, and describe the nature of the accumulation.",
+        "minimum_width": "Calculate a result using an approximate value repeated across at least two steps and compare it to the result using the exact value; describe the difference.",
+        "typical_width": "Investigate the effect of approximation in at least two repeated-calculation contexts (e.g. repeated simple interest steps, perimeter of a compound shape involving \u03c0, volume of a sphere used in a multi-step problem); quantify the accumulated error; discuss whether the accumulated error matters for the application.",
+        "wider": [
+          "Investigate approximation error accumulation in contexts involving compound shapes with circles \u2014 e.g. using \u03c0 \u2248 3.14 vs exact \u03c0 across multiple component areas and comparing the cumulative difference",
+          "Limited width note: this descriptor has genuinely thin context breadth at Y10 \u2014 the core concept (approximation error accumulates in repeated calculation) does not vary dramatically across phenomena. Width directions above extend the contexts modestly; depth of reasoning about when error matters is where the real enrichment lies."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only see approximation error in one context (e.g. rounding \u03c0) may not recognise the same accumulation pattern in financial or measurement contexts. Two or three context types stabilise the general principle."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student produces a worked example showing the numerical difference between approximate and exact calculations across repeated steps",
+          "Student explains why the difference grows with repetition rather than staying constant"
+        ],
+        "notes": "Thin width descriptor \u2014 see width_notes in maths_y10_width_tiers.json. The concept does not vary substantially across phenomena at this year band. Focus teaching investment on the reasoning about when accumulated error matters practically.",
+        "related_standards": [
+          "AC9M10M04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

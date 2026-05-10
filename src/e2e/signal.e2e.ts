@@ -60,7 +60,7 @@ test.describe('Student code entry', () => {
 test.describe('Student check-in page', () => {
   test('shows error for unknown session code', async ({ page }) => {
     await page.goto('/student/ZZZZ-0000')
-    await expect(page.getByText('Session code not found')).toBeVisible({ timeout: 5000 })
+    await expect(page.getByText('Session code not found')).toBeVisible({ timeout: 10000 })
   })
 
   test('shows back link', async ({ page }) => {

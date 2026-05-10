@@ -1,0 +1,106 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P06",
+    "title": "Trace algorithms for errors",
+    "description": "Trace algorithms to predict output for a given input and to identify errors",
+    "strand": "Processes and Production Skills",
+    "mode": "A",
+    "prior_knowledge": "Students can design algorithms with nested control structures and represent them in flowcharts and pseudocode (AC9TDI8P05). They can follow simple algorithms but have not yet systematically traced algorithms using desk checks, specified test cases with expected outputs, or identified errors through tracing.",
+    "progression_endpoint": "Students trace algorithms step by step to predict output for given inputs, specify test cases with expected and actual outputs, and identify and explain errors found through systematic tracing.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Tracing step by step",
+        "progression_checkpoint": "Students can trace an algorithm precisely, step by step, tracking variable values to predict the output for a given input",
+        "minimum_width": "Given an algorithm and an input, trace through each step and predict the output",
+        "typical_width": "Use a desk check table (input, variables, output) to trace an algorithm systematically; track how variable values change at each step",
+        "wider": [
+          "Follow instructions for making woven baskets or nets by hand, as done by First Nations Australians, and trace the steps to predict how modifications to the instructions would change the output",
+          "Limited width — tracing is a mechanical process applied the same way regardless of algorithm. More algorithms to trace is practice, not broader application."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Systematic tracing is the prerequisite for specifying test cases and identifying errors. Width is thin — tracing works the same way regardless of algorithm. What helps is more practice: more algorithms traced precisely, building the discipline of step-by-step tracking until it becomes habitual.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who skip steps or track variable values loosely cannot identify errors at Node 3 — they will trace incorrectly and miss the divergence between expected and actual output. Imprecise tracing makes test case specification at Node 2 meaningless.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Traces each step in order without skipping",
+          "Correctly tracks variable values through the algorithm",
+          "Predicts the final output accurately for the given input"
+        ],
+        "related_standards": [
+          "AC9TDI8P05",
+          "AC9TDI8P09"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Specifying test cases",
+        "progression_checkpoint": "Students can specify test cases by choosing inputs and stating expected outputs before tracing",
+        "minimum_width": "Given an algorithm, specify at least one test case with a chosen input and the expected output; trace to check whether actual output matches",
+        "typical_width": "Specify multiple test cases including edge cases (boundary values, zero, negative); explain why each test case was chosen and what it tests",
+        "wider": [
+          "Evaluate how test case selection affects confidence in algorithm correctness — can three test cases be enough, or does the algorithm's structure determine how many are needed?",
+          "Limited width — test case specification is a systematic skill. The variety comes from the algorithms being tested, not from the testing process itself."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Specifying test cases requires students to reason about what the algorithm should do before they trace it — stating expected outputs requires understanding the algorithm's intent. Scaffolding the reasoning (what should happen at this input? why? what would an edge case expose?) prevents students from specifying tests that only confirm correct behaviour."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Specifies at least one test case with input and expected output before tracing",
+          "Compares expected output against actual output after tracing"
+        ],
+        "related_standards": [
+          "AC9TDI8P05",
+          "AC9TDI8P09"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Identifying and explaining errors",
+        "progression_checkpoint": "Students can identify errors in an algorithm by comparing expected and actual outputs, and explain what caused the error",
+        "minimum_width": "Given an algorithm that contains an error, trace it to find where the output diverges from the expected result; state what the error is",
+        "typical_width": "Identify errors through tracing; explain the cause of each error (e.g. wrong comparison operator, loop termination off by one); suggest a correction",
+        "wider": [
+          "Investigate how automated testing tools extend manual tracing — what do they catch that manual tracing might miss?",
+          "Debug an algorithm with multiple interacting errors — trace to isolate each error independently"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Identifying errors across algorithms with different error types (wrong comparison, off-by-one, misplaced logic) builds the pattern-recognition needed for systematic debugging. Each error type is a distinct diagnostic context — breadth here is breadth of error patterns encountered.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The multiple interacting errors direction is genuinely challenging — isolating individual errors in an algorithm where they interact requires systematic tracing discipline beyond what single-error debugging demands.",
+        "success_criteria": [
+          "Identifies the location of an error through systematic tracing",
+          "Explains what the error is (not just that the output is wrong)"
+        ],
+        "related_standards": [
+          "AC9TDI8P05",
+          "AC9TDI8P09"
+        ]
+      }
+    ]
+  }
+}

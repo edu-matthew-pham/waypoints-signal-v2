@@ -1,0 +1,226 @@
+{
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "year_level": "7",
+  "title": "Y7 Science \u2014 Unit Sequence",
+  "tool_context": null,
+  "progression_endpoint": "Students build an integrated understanding of foundational science models across biology, chemistry, physics and earth/space science, sequenced so that conceptual foundations precede dependent applications.",
+  "descriptors": [
+    "AC9S7U05",
+    "AC9S7U06",
+    "AC9S7U01",
+    "AC9S7U02",
+    "AC9S7U04",
+    "AC9S7U03"
+  ],
+  "descriptor_colors": {
+    "AC9S7U01": "#1D9E75",
+    "AC9S7U02": "#1D9E75",
+    "AC9S7U03": "#378ADD",
+    "AC9S7U04": "#BA7517",
+    "AC9S7U05": "#D85A30",
+    "AC9S7U06": "#E07848"
+  },
+  "_parallel_strands": "I strand (Science Inquiry) and H strand (Human Endeavour) run throughout all units as parallel capability strands \u2014 not included in this sequential map. Same deferral as Arts D strand and DT algorithm/tracing strands.",
+  "_sequence_rationale": "Sequence: chemistry \u2192 physics \u2192 biology. Particle theory (U05) is foundational \u2014 matter and its properties underpin all subsequent topics. Mixtures (U06) depends explicitly on U05. Forces (U04) builds on matter having mass and properties; gravitational force feeds directly into the tidal explanation in U03. Earth-Sun-Moon (U03) last of the physics pair because tides integrate gravitational force from U04. Biology last \u2014 organisms are made of matter, subject to forces, living in physical environments. Classification (U01) precedes food webs (U02) as a soft dependency for organism naming. Hard constraint: U06 must follow U05. All other ordering is a pedagogical recommendation, not a curriculum mandate \u2014 science teachers should adapt based on scheduling and student context.",
+  "phases": [
+    {
+      "id": "chemical_foundations",
+      "sequence": 1,
+      "label": "Chemical foundations",
+      "checkpoint": "Students can use particle theory to describe arrangement, motion and attraction of particles, explain physical properties, and account for changes of state.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9S7U05",
+          "node_id": 1,
+          "note": "Introducing the particle model \u2014 foundational for all subsequent chemistry and for property explanations in other topics."
+        },
+        {
+          "descriptor_code": "AC9S7U05",
+          "node_id": 2,
+          "note": "Particle arrangement, motion and attraction in each state."
+        },
+        {
+          "descriptor_code": "AC9S7U05",
+          "node_id": 3,
+          "note": "Explaining physical properties using particle theory."
+        },
+        {
+          "descriptor_code": "AC9S7U05",
+          "node_id": 4,
+          "note": "Changes of state and energy \u2014 integrates the particle model."
+        },
+        {
+          "descriptor_code": "AC9S7U05",
+          "node_id": 5,
+          "note": "Particle theory as a model: scope and limits."
+        }
+      ]
+    },
+    {
+      "id": "mixtures",
+      "sequence": 2,
+      "label": "Mixtures and separation",
+      "checkpoint": "Students can use the particle model to distinguish pure substances from mixtures and select appropriate separation techniques based on property differences.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9S7U06",
+          "node_id": 1,
+          "note": "Pure substances vs mixtures at the particle level \u2014 directly depends on U05 particle model."
+        },
+        {
+          "descriptor_code": "AC9S7U06",
+          "node_id": 2,
+          "note": "Properties as the basis for separation."
+        },
+        {
+          "descriptor_code": "AC9S7U06",
+          "node_id": 3,
+          "note": "Filtration and evaporation."
+        },
+        {
+          "descriptor_code": "AC9S7U06",
+          "node_id": 4,
+          "note": "Distillation and chromatography."
+        },
+        {
+          "descriptor_code": "AC9S7U06",
+          "node_id": 5,
+          "note": "Selecting and justifying separation techniques \u2014 integration node."
+        }
+      ]
+    },
+    {
+      "id": "forces",
+      "sequence": 3,
+      "label": "Forces and motion",
+      "checkpoint": "Students can represent balanced and unbalanced forces including gravitational force, and relate changes in motion to mass and force magnitude.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9S7U04",
+          "node_id": 1,
+          "note": "Forces as vectors \u2014 foundational representation skill."
+        },
+        {
+          "descriptor_code": "AC9S7U04",
+          "node_id": 2,
+          "note": "Balanced forces and equilibrium."
+        },
+        {
+          "descriptor_code": "AC9S7U04",
+          "node_id": 3,
+          "note": "Unbalanced forces and changes in motion."
+        },
+        {
+          "descriptor_code": "AC9S7U04",
+          "node_id": 4,
+          "note": "Gravitational force and mass \u2014 directly feeds into tidal explanation in U03."
+        },
+        {
+          "descriptor_code": "AC9S7U04",
+          "node_id": 5,
+          "note": "Relating force, mass and motion change \u2014 integration node."
+        }
+      ]
+    },
+    {
+      "id": "earth_sun_moon",
+      "sequence": 4,
+      "label": "Earth-Sun-Moon system",
+      "checkpoint": "Students can model and explain how cyclic changes in Earth-sun-moon positions cause eclipses, seasons and tides, integrating gravitational force from forces unit.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9S7U03",
+          "node_id": 1,
+          "note": "Earth's rotation, revolution and axial tilt."
+        },
+        {
+          "descriptor_code": "AC9S7U03",
+          "node_id": 2,
+          "note": "Moon phases and the lunar cycle."
+        },
+        {
+          "descriptor_code": "AC9S7U03",
+          "node_id": 3,
+          "note": "Eclipses: solar and lunar."
+        },
+        {
+          "descriptor_code": "AC9S7U03",
+          "node_id": 4,
+          "note": "Seasons."
+        },
+        {
+          "descriptor_code": "AC9S7U03",
+          "node_id": 5,
+          "note": "Tides \u2014 integrates gravitational force from U04 with lunar cycle."
+        }
+      ]
+    },
+    {
+      "id": "biodiversity",
+      "sequence": 5,
+      "label": "Classification and biodiversity",
+      "checkpoint": "Students can explain the purpose of classification, apply and construct dichotomous keys, and evaluate how classification systems change in response to new evidence.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9S7U01",
+          "node_id": 1,
+          "note": "Purpose of classification \u2014 provides organism naming and grouping vocabulary for food webs."
+        },
+        {
+          "descriptor_code": "AC9S7U01",
+          "node_id": 2,
+          "note": "Taxonomy: major groups and kingdoms."
+        },
+        {
+          "descriptor_code": "AC9S7U01",
+          "node_id": 3,
+          "note": "Using dichotomous keys."
+        },
+        {
+          "descriptor_code": "AC9S7U01",
+          "node_id": 4,
+          "note": "Constructing dichotomous keys."
+        },
+        {
+          "descriptor_code": "AC9S7U01",
+          "node_id": 5,
+          "note": "Classification systems change over time."
+        }
+      ]
+    },
+    {
+      "id": "ecosystems",
+      "sequence": 6,
+      "label": "Food webs and ecosystems",
+      "checkpoint": "Students can use food web models to represent matter and energy flow and predict impacts of changes to abiotic and biotic factors on populations.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9S7U02",
+          "node_id": 1,
+          "note": "From food chains to food webs \u2014 draws on organism classification from U01."
+        },
+        {
+          "descriptor_code": "AC9S7U02",
+          "node_id": 2,
+          "note": "Matter and energy flow through trophic levels."
+        },
+        {
+          "descriptor_code": "AC9S7U02",
+          "node_id": 3,
+          "note": "Abiotic factors and population effects."
+        },
+        {
+          "descriptor_code": "AC9S7U02",
+          "node_id": 4,
+          "note": "Biotic factors and population effects."
+        },
+        {
+          "descriptor_code": "AC9S7U02",
+          "node_id": 5,
+          "note": "Models, limitations and predictions \u2014 integration node."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "year_level": "F",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HSFK01",
+    "title": "People in my family",
+    "description": "the people in their family, where they were born and raised, and how they are related to each other",
+    "strand": "Knowledge and Understanding — History/Geography",
+    "mode": "A",
+    "prior_knowledge": "Students have informal experience of their family through lived experience. No formal prior HASS curriculum.",
+    "progression_endpoint": "Students identify the people in their family, where they were born and raised, and explain how family members are related to each other.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Who is in my family",
+        "progression_checkpoint": "Students can name the members of their family and use family relationship terms (mother, father, grandparent, sibling, auntie, uncle, cousin) to describe who they are.",
+        "minimum_width": "Name at least three family members and use at least two relationship terms correctly.",
+        "typical_width": "Identify a range of family members across two generations (self, parents/caregivers, grandparents/extended family) and use a variety of relationship terms; acknowledge that families have different structures.",
+        "wider": [
+          "Explore kinship terms used in First Nations Australian families, such as cousin-brother and mother-auntie, and discuss how family structure and naming differs across cultures",
+          "Compare family structures across the class, noting similarities and differences (nuclear, single-parent, extended, blended, grandparent-led)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot name and relate family members cannot build the concept map or personal narrative required in subsequent nodes — the social organisational vocabulary is the foundation.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to build a working vocabulary of relationship terms before they can use them to describe connections. Use photos, drawings and family member visits to build range.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least three people in their family using correct relationship terms",
+          "Distinguishes between immediate and extended family members"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Where family members were born and raised",
+        "progression_checkpoint": "Students can identify where key family members were born and raised, and locate these places on a simple map or describe them in relative terms.",
+        "minimum_width": "Identify the birthplace or hometown of at least one parent or grandparent and describe it using basic location language (near/far, same place/different place).",
+        "typical_width": "Identify and describe where two or more family members were born and raised; represent these places on a pictorial map or drawing; use terms like near, far, same city, different country.",
+        "wider": [
+          "Investigate families with connections to countries outside Australia and locate those countries on a globe or world map",
+          "Compare family origin stories and discuss why people move to different places"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Birthplace and origin vary enormously across a class — use this diversity to broaden understanding of where families come from and what 'place' means.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The diversity of birthplaces across a Foundation class offers rich opportunity to explore place and movement; this connects geography to personal identity in a concrete, emotionally significant way.",
+        "success_criteria": [
+          "Identifies where at least one family member was born or raised",
+          "Uses at least one location term to describe that place relative to where they live now"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "How family members are related",
+        "progression_checkpoint": "Students can explain how two or more family members are connected to each other, using relationship terms and a visual representation such as a concept map or family drawing.",
+        "minimum_width": "Explain how at least two family members are related to them and to each other (e.g. 'My grandma is my mum's mum').",
+        "typical_width": "Construct a concept map or drawing showing connections between self and multiple family members across two generations; label relationships using appropriate terms.",
+        "wider": [
+          "Explore how First Nations Australian kinship systems describe relationships that extend beyond nuclear family structures",
+          "Compare how family relationship terms differ across languages spoken in the class community"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node brings together vocabulary from Node 1 and place knowledge from Node 2 into a coherent personal narrative — the concept map is the integration task."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains how at least two family members are related to themselves",
+          "Produces a visual representation (drawing, concept map, photograph arrangement) showing family connections"
+        ]
+      }
+    ]
+  }
+}

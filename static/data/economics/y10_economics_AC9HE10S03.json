@@ -1,0 +1,129 @@
+{
+  "year_level": "10",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE10S03",
+    "title": "Interpret and predict economic impacts",
+    "description": "interpret information and data, explaining economic and business issues, trends and economic cause-and-effect relationships, and make predictions about consumer and financial impacts",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can interpret information and data, explain economic and business issues, trends and cause-and-effect relationships, and make predictions at Year 9 level (AC9HE9S03). They have practised interpreting single-variable economic data, identifying trends and articulating cause-and-effect logic. Y10 builds on this with multi-variable data, more complex trend interpretation and more explicit prediction reasoning.",
+    "progression_endpoint": "Students interpret information and data to explain economic and business issues, trends and cause-and-effect relationships, and make reasoned predictions about consumer and financial impacts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Explaining economic issues from data",
+        "progression_checkpoint": "Students can interpret information to explain the nature, extent and importance of an economic or business issue.",
+        "minimum_width": "Interpret a provided data source about an economic issue and explain in at least two sentences what the data shows about the nature or extent of the issue.",
+        "typical_width": "Interpret information to explain the nature, extent and importance of an economic or business issue — for example, the relationship between standards of living, infant mortality and access to health services; explain what the data reveals and why the issue matters.",
+        "wider": [
+          "Interpret data about a complex multi-dimensional issue (e.g. housing affordability involving income, interest rates, housing supply and geographic distribution) and explain the interaction between factors",
+          "Evaluate how different data sources on the same issue can support different interpretations, and explain what this means for evidence-based decision-making",
+          "Investigate a global economic issue (e.g. supply chain disruption, climate-related economic risk) using international data and explain its implications for Australia"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot move from data to explanation — from 'this is what the data shows' to 'this is what it means about the issue' — they cannot produce the analytical outputs the descriptor requires. Trend identification without interpretation is a persistent failure mode.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Make the explanation move explicit: what does this data show → what does this mean about the issue → why does this matter? Students who stay at description need scaffolding to take the interpretive step.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States what a piece of data shows about an economic issue (description)",
+          "Explains what this means about the nature or extent of the issue (interpretation beyond description)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Interpreting multi-variable trends",
+        "progression_checkpoint": "Students can interpret multi-variable data to analyse trends over time, explaining reasons for changes and what the trend reveals about economic conditions.",
+        "minimum_width": "Interpret a provided multi-variable dataset (e.g. two indicators over time) and identify the trend and at least one reason for a change in direction.",
+        "typical_width": "Interpret multi-variable data to analyse trends in economic activity over time — for example, trends in government health and education expenditure; explain reasons for changes in the trend and what the pattern reveals about priorities or conditions.",
+        "wider": [
+          "Analyse an economic trend using three or more variables to identify leading and lagging relationships (e.g. how business investment precedes employment growth by 6–12 months)",
+          "Compare trends across two countries for the same economic variable and explain divergence or convergence over a significant period",
+          "Evaluate how a trend visualisation (e.g. a time series chart) can be presented to emphasise different interpretations, and what this means for data literacy"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Practise multi-variable trend interpretation across different economic domains — government spending, employment, trade, household income. Fluency requires repeated application.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-variable trend analysis across different economic domains (fiscal, labour, trade, social) provides rich transferable practice. Students who become fluent with varied datasets develop genuine economic data literacy.",
+        "success_criteria": [
+          "Correctly identifies the trend shown in a multi-variable dataset",
+          "Provides at least one plausible reason for a change in direction in the trend, supported by the data"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Cause-and-effect analysis",
+        "progression_checkpoint": "Students can analyse causes and effects of an economic issue — explaining why the issue arises and what its consequences are for individuals, businesses or the broader economy.",
+        "minimum_width": "For one economic issue, state at least one cause and one effect, explaining the connection between them.",
+        "typical_width": "Analyse the causes and effects of an economic issue on individuals or businesses — for example, the reasons for and implications of government intervention in the economy to improve living standards; explain the chain of causation and identify who is affected and how.",
+        "wider": [
+          "Map a multi-step causal chain (e.g. rising inflation → RBA cash rate increase → higher mortgage repayments → reduced consumer spending → slower growth) and evaluate where the chain might break",
+          "Analyse how the same economic cause produces different effects on different groups (e.g. rising interest rates affect renters, mortgage-holders and savers differently)",
+          "Investigate an economic issue where the cause-and-effect relationship is contested and evaluate competing explanations using evidence"
+        ],
+        "hinge": true,
+        "hinge_reason": "Cause-and-effect reasoning is the core analytical demand of this descriptor. Students who can describe trends but cannot explain why they happen — or what happens as a result — cannot produce the causal analysis the descriptor requires.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Build causal chains explicitly: cause → mechanism → effect. The mechanism step is where students most often default to assertion. Modelling multi-step chains with identifiable mechanisms is the key scaffold.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Apply causal analysis to varied economic issues — government intervention, consumer decisions, trade — so students generalise the analytical move rather than memorising one causal chain.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Causal analysis applied to diverse economic issues (fiscal policy, labour market, trade, household finance) develops deep analytical transferability. Multi-group effect analysis and contested causation add genuine intellectual richness.",
+        "success_criteria": [
+          "States a cause-and-effect relationship for an economic issue with at least one intermediate mechanism explained",
+          "Identifies at least one group affected by the effect and explains why they are affected"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Making predictions about consumer and financial impacts",
+        "progression_checkpoint": "Students can analyse trends and cause-and-effect relationships to make reasoned predictions about who will be affected and how, with reference to economic evidence.",
+        "minimum_width": "Based on a provided trend or causal analysis, make one prediction about consumer or financial impacts and explain the reasoning behind it.",
+        "typical_width": "Analyse trends to make predictions about who will be affected and how — for example, trends in productivity and implications for businesses; explain the reasoning underpinning the prediction and acknowledge conditions under which it might not hold.",
+        "wider": [
+          "Make a conditional prediction — 'if [economic condition], then [consumer/financial impact], because [mechanism]' — and evaluate the quality of the prediction against evidence of what actually happened",
+          "Compare predictions made by different economic commentators about the same trend and evaluate whose reasoning was most sound in retrospect",
+          "Investigate how businesses use economic trend data to make investment and staffing predictions and evaluate how prediction quality affects business outcomes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Prediction integrates interpretation, trend analysis and causal reasoning into a single forward-looking claim. This is the descriptor's full demand — the ability to use economic evidence to reason about likely future impacts."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Makes a specific prediction about consumer or financial impacts connected to a named trend or causal relationship",
+          "Provides explicit reasoning for the prediction — the mechanism that links the trend to the predicted outcome"
+        ],
+        "related_standards": ["AC9HE10S04"]
+      }
+    ]
+  }
+}

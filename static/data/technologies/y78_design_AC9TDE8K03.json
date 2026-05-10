@@ -1,0 +1,109 @@
+{
+  "year_level": "7-8",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE8K03",
+    "title": "Force, motion and energy control",
+    "description": "analyse how force, motion and energy are used to manipulate and control engineered systems",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how electrical energy can be transformed into movement, sound or light in a product or system (AC9TDE6K02). They understand energy transformation in simple systems but have not yet analysed how force, motion and energy are applied together to manipulate and control more complex engineered systems.",
+    "progression_endpoint": "Students analyse how force, motion and energy are used to manipulate and control engineered systems, including testing components for structural or functional performance and calculating system outputs.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Force, motion and energy in systems",
+        "progression_checkpoint": "Students can identify how force, motion and energy each contribute to the function of an engineered system",
+        "minimum_width": "Given an engineered system, identify which components involve force, motion or energy; explain what each contributes to the system's function",
+        "typical_width": "Analyse how force, motion and energy work together in multiple systems — for example, how wind turbines transform wind energy to electricity, how control systems use energy to produce motion",
+        "wider": [
+          "Investigate renewable energy systems in remote communities such as wind turbines on Torres Strait Islands — how force, motion and energy are harnessed for sustainable power",
+          "Investigate a control system for a real need, such as the Phillip Island penguin weighbridge — how energy, sensors and motion work together"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate force, motion and energy will produce system analyses at Node 3 that describe components without accurately tracing the input-process-output chain — the control analysis depends on treating the three concepts as distinct contributions.",
+        "success_criteria": [
+          "Identifies force, motion and energy as distinct contributions in a system",
+          "Does not conflate force with energy or motion with force"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who cannot distinguish between force, motion and energy as separate concepts in a system will conflate them when analysing more complex systems. Seeing the three concepts operating distinctly across different engineered systems builds the discrimination needed for analysis at later nodes.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8K06",
+          "AC9TDE8P01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Testing and prototyping",
+        "progression_checkpoint": "Students can experiment with components to test structural or functional performance and use prototyping to test ideas",
+        "minimum_width": "Test at least one component for a specific property (e.g. structural strength, battery durability); record the result and explain what it means for the design",
+        "typical_width": "Test multiple components to select the most appropriate for a design; use prototyping (including rapid prototyping tools like 3D printers) to test functionality before committing to production",
+        "wider": [
+          "Limited width — testing and prototyping are processes applied the same way regardless of system. The breadth comes from the variety of systems being tested, which is captured at Nodes 1 and 3."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Tests at least one component for a specific property",
+          "Records the result and explains what it means for the design"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Testing and prototyping require methodical practice — setting up fair tests, recording results accurately, drawing valid conclusions from test data. The skill doesn't vary across contexts but students need repeated practice to develop the discipline of systematic testing."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8P03",
+          "AC9TDE8P05"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Controlling engineered systems",
+        "progression_checkpoint": "Students can analyse how force, motion and energy are controlled in engineered systems, including calculating outputs and identifying failure points",
+        "minimum_width": "Given an engineered system, explain how it is controlled — what inputs produce what outputs; identify at least one point where the system could fail",
+        "typical_width": "Analyse control in multiple systems; calculate system outputs (e.g. speed, brightness, volume); determine when the system might fail based on component limits",
+        "wider": [
+          "Explore control systems using microcontrollers or object-based programming to control motion — how does software control physical systems?",
+          "Investigate how batteries, motors or other components determine system limits and failure points across different applications"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Explains how a system is controlled — what inputs produce what outputs",
+          "Identifies at least one point where the system could fail"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Analysing control in engineered systems requires students to trace the input-process-output chain and identify failure points at each stage. Scaffolding the reasoning structure (what is the input? → what process transforms it? → what is the output? → where could this break?) prevents students from describing system function without identifying control points or failure modes."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates force, motion and energy concepts from Node 1 with testing/prototyping methods from Node 2 into a complete system analysis. Students who have not connected the three concepts and their measurement will produce system analyses that describe components without explaining how they interact to achieve control.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The microcontroller/object-based programming direction offers advancing students a genuinely rich extension — software control of physical systems connects the physical and digital domains in ways that are analytically and practically demanding.",
+        "related_standards": [
+          "AC9TDE8K06",
+          "AC9TDE8P03",
+          "AC9TDE8P05"
+        ]
+      }
+    ]
+  }
+}

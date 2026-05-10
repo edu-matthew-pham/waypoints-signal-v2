@@ -1,0 +1,113 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N06",
+    "title": "Multiply larger numbers",
+    "strand": "Number",
+    "description": "Solve problems involving multiplication of larger numbers by one- or two-digit numbers, choosing efficient calculation strategies and using digital tools where appropriate; check the reasonableness of answers",
+    "prior_knowledge": "Students can multiply and divide by powers of 10 and apply multiplication to practical problems (AC9M4N05). They have not yet used efficient written strategies for multiplying larger numbers by two-digit numbers.",
+    "progression_endpoint": "Students solve problems involving multiplication of larger numbers by one- or two-digit numbers, choosing efficient strategies and checking reasonableness.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Mental and informal multiplication strategies",
+        "progression_checkpoint": "Students can apply and explain mental strategies for multiplication including doubling, halving and place value partitioning.",
+        "minimum_width": "Apply at least two mental strategies to multiply a two- or three-digit number by a single digit; explain the strategy used.",
+        "typical_width": "Select and justify mental strategies (doubling/halving, near doubles, place value partitioning); apply to a range of two-digit by one-digit calculations.",
+        "wider": [
+          "Compare strategy efficiency across different number types",
+          "Use mental strategies to estimate before calculating"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students who have only one multiplication strategy cannot adapt to different number types. Building a repertoire of mental strategies gives flexibility and supports estimation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student applies at least two distinct mental strategies correctly",
+          "Student can explain why a chosen strategy is efficient for a given calculation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Standard written algorithm for larger numbers",
+        "progression_checkpoint": "Students can apply a written algorithm to multiply a multi-digit number by a one-digit number, showing working.",
+        "minimum_width": "Correctly apply a written multiplication algorithm (e.g. long multiplication) to a 3-digit × 1-digit problem.",
+        "typical_width": "Apply the standard algorithm to 3- and 4-digit numbers by 1-digit; connect algorithm steps to place value; identify where trades occur.",
+        "wider": [
+          "Compare multiple written algorithm forms (area model, lattice method, standard algorithm)",
+          "Investigate how the algorithm works for numbers with zeros in the middle"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Procedural accuracy with the standard algorithm requires practice; errors in carrying/trading cluster here and propagate to two-digit multiplications if not addressed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Trading/carrying errors in 1-digit multiplication propagate directly into Node 3 — students who cannot reliably carry in 3-digit × 1-digit problems produce systematic errors in two-digit multiplication.",
+        "success_criteria": [
+          "Student completes a 3-digit × 1-digit multiplication using a written algorithm correctly",
+          "Student identifies and explains where any trading steps occur"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Two-digit multiplication",
+        "progression_checkpoint": "Students can multiply a larger number by a two-digit number using a chosen strategy, explaining the process.",
+        "minimum_width": "Multiply a 2- or 3-digit number by a two-digit number using at least one written or mental strategy; show the calculation steps.",
+        "typical_width": "Apply the area model and/or standard algorithm to 3-digit × 2-digit; compare methods; use digital tools to check.",
+        "wider": [
+          "Investigate real-world scaling contexts (e.g. catering, construction estimates)",
+          "Explore multiplication of numbers just below a round number using compensation strategies"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Two-digit multiplication has diverse efficient strategies. Students who only know one approach are at risk when it's inefficient. Real contexts motivate method choice.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Area model, algorithm, mental compensation — genuine method comparison is rich for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student multiplies a larger number by a two-digit number and obtains the correct answer",
+          "Student shows the full calculation process"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Checking reasonableness",
+        "progression_checkpoint": "Students can estimate the result of a multiplication and use estimation to check the reasonableness of a calculated answer.",
+        "minimum_width": "Estimate a multiplication result by rounding to a convenient number and compare to the calculated answer; judge whether the answer is reasonable.",
+        "typical_width": "Apply estimation before and after calculation; identify unreasonable results; explain what estimation strategy was used.",
+        "wider": [
+          "Apply in financial contexts: checking estimated costs against calculated totals",
+          "Investigate how the choice of rounding affects estimate accuracy"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student produces a reasonable estimate before or after calculating",
+          "Student correctly judges whether a given answer is reasonable using estimation"
+        ]
+      }
+    ]
+  }
+}

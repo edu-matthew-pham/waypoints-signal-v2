@@ -1,0 +1,105 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9SP01",
+    "title": "Trigonometric Ratios",
+    "description": "recognise the constancy of the sine, cosine and tangent ratios for a given angle in right-angled triangles using properties of similarity",
+    "strand": "Space",
+    "mode": "A",
+    "prior_knowledge": "Students can identify conditions for congruence and similarity of triangles (AC9M8SP01). They have not yet used similarity to establish that side-length ratios in right-angled triangles are constant for a given angle, or named and used sine, cosine and tangent.",
+    "progression_endpoint": "Students recognise that sine, cosine and tangent ratios are constant for a given angle in right-angled triangles and explain this using properties of similarity.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sides of a right-angled triangle relative to an angle",
+        "progression_checkpoint": "Students can correctly identify the hypotenuse, opposite and adjacent sides for a specified angle in a right-angled triangle.",
+        "minimum_width": "Label the hypotenuse, opposite and adjacent sides relative to a specified angle in two different right-angled triangles (different orientations).",
+        "typical_width": "Identify opposite, adjacent and hypotenuse correctly across a range of right-angled triangle orientations and for different specified angles; explain that 'opposite' and 'adjacent' are relative to the angle, not fixed sides of the triangle.",
+        "wider": [
+          "Investigate what happens to the labels when the specified angle changes \u2014 show that opposite and adjacent swap when the complementary angle is used",
+          "Connect the labelling convention to the definitions of sin, cos and tan before formal calculation",
+          "Draw right-angled triangles in multiple orientations (not just with the right angle at bottom-right) and practise labelling for different angles"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Correct labelling of sides relative to the angle \u2014 particularly in non-standard orientations \u2014 is a prerequisite for correct ratio application. This is a precision-required identification skill; errors here propagate to every trig calculation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly labels hypotenuse, opposite and adjacent for a specified angle in at least three different triangle orientations",
+          "Explains that opposite and adjacent are defined relative to the angle, not absolute positions",
+          "Correctly re-labels when the specified angle changes within the same triangle"
+        ],
+        "hinge": true,
+        "hinge_reason": "Correct side labelling relative to the specified angle (not absolute position) is prerequisite for every trig ratio calculation in N2 and N3 and all applied work in AC9M9M03. Every wrong label produces a wrong ratio and a wrong answer."
+      },
+      {
+        "id": 2,
+        "label": "Constancy of ratios \u2014 similarity argument",
+        "progression_checkpoint": "Students can explain using properties of similarity why the ratio of two specified sides is constant for a given angle, regardless of triangle size.",
+        "minimum_width": "Draw two similar right-angled triangles with the same acute angle; measure corresponding sides; calculate the ratio opposite/hypotenuse for both triangles and show it is the same.",
+        "typical_width": "Investigate nested similar triangles (or multiple similar triangles) to verify that the ratio of corresponding sides is constant for a given angle; explain this using the definition of similar triangles (corresponding sides in proportion); do this for at least two different ratios (e.g. opp/hyp and adj/hyp).",
+        "wider": [
+          "Connect the constancy argument to the formal definition of similarity \u2014 corresponding sides in similar triangles are proportional by the scale factor",
+          "Investigate how the constancy property breaks down for non-similar triangles (i.e. different angles) \u2014 confirm that the ratio changes when the angle changes",
+          "Connect the sine ratio to the altitude of a unit-hypotenuse triangle and the cosine to the base, developing geometric intuition for the ratios"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The similarity argument is the conceptual core of this descriptor and the most common point where understanding breaks down \u2014 students accept the constancy empirically without understanding why. Scaffolding the argument (similar triangles \u2192 corresponding sides proportional \u2192 ratio is constant) builds the 'why' alongside the 'what'.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The similarity-to-trig-ratio argument is a genuinely beautiful piece of mathematical reasoning \u2014 it grounds what could be a purely procedural topic in a structural insight. Students who construct this argument themselves gain understanding that is far more durable than memorising three formulas.",
+        "success_criteria": [
+          "Calculates the same ratio (e.g. opposite/hypotenuse) for at least two similar triangles with the same angle and shows the values are equal",
+          "Explains why the ratio is constant using the property of similar triangles",
+          "Confirms that the ratio changes when a different angle is used"
+        ],
+        "related_standards": [
+          "AC9M8SP01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Naming the ratios: sine, cosine, tangent",
+        "progression_checkpoint": "Students can name the sine, cosine and tangent ratios and connect each to the appropriate pair of sides in a right-angled triangle.",
+        "minimum_width": "State the definitions of sin \u03b8 = opp/hyp, cos \u03b8 = adj/hyp, tan \u03b8 = opp/adj; evaluate each ratio for a given triangle using measured or given side lengths.",
+        "typical_width": "Define and apply all three trigonometric ratios; connect tangent to the ratio of opposite to adjacent; relate the tangent of the angle a line makes with the x-axis to the gradient of the line; evaluate ratios for several angles using calculators and tables.",
+        "wider": [
+          "Connect the tangent ratio to gradient \u2014 investigate that the angle a line makes with the positive x-axis has tan \u03b8 = gradient of the line",
+          "Investigate how the values of sine, cosine and tangent change as the angle increases from 0\u00b0 to 90\u00b0, identifying boundary cases (sin 0\u00b0=0, cos 0\u00b0=1, tan 90\u00b0 undefined)",
+          "Explore historical and cultural contexts for trigonometry \u2014 how did ancient astronomers and surveyors use these relationships before the formal ratio notation existed?"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States the correct ratio definition for each of sin, cos and tan",
+          "Correctly evaluates each ratio for a right-angled triangle with given side lengths",
+          "Correctly connects the tangent ratio to the gradient of a line"
+        ],
+        "related_standards": [
+          "AC9M9A03",
+          "AC9M9M03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

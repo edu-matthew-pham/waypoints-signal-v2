@@ -1,0 +1,90 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLE01",
+    "title": "Share ideas about literature",
+    "description": "share ideas about stories, poems and images in literature, reflecting on experiences that are similar or different to their own by engaging with texts by First Nations Australian, and wide-ranging Australian and world authors and illustrators",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students have heard and interacted with stories at home and in early childhood settings. They have not yet been explicitly asked to reflect on how literary experiences connect to or differ from their own lives, or to engage with literature from a culturally diverse range of authors.",
+    "progression_endpoint": "Students can share ideas about stories, poems and images from a diverse range of authors — connecting literary experiences to their own lives and identifying cultural features that reveal characters' worlds.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Literature reflects experiences",
+        "progression_checkpoint": "Students can connect events or characters in a story to their own experiences, identifying at least one similarity or difference.",
+        "minimum_width": "Share one connection between a story event or character and their own life.",
+        "typical_width": "Engage with stories and identify experiences that are similar or different to their own; reflect on how characters' lives might feel familiar or unfamiliar; share ideas with the class.",
+        "wider": [
+          "Compare personal responses to two different stories — one with familiar experiences and one with unfamiliar experiences — discussing what each evokes",
+          "Engage with stories that portray Australian family life in different settings (suburban, remote, regional) and connect each to own experiences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify at least one similarity or difference between their own experience and a character or event in a text.",
+          "Student can share this observation verbally or through drawing."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Cultural details reveal characters' worlds",
+        "progression_checkpoint": "Students can identify cultural features in stories — dress, food, daily routines — and explain what these reveal about characters' lives.",
+        "minimum_width": "Identify one cultural detail (e.g. what a character eats, wears or does daily) and say something about what it shows.",
+        "typical_width": "Identify features of culture revealed by characters and events in stories — dress, food, daily routines; discuss how these differ from or connect to students' own cultural contexts.",
+        "wider": [
+          "Compare cultural details across stories from two different cultural contexts — identifying specific similarities and differences",
+          "Explore stories that portray First Nations Australian cultural life — identifying cultural features and discussing their significance with reference to the text",
+          "Discuss how cultural features in stories from other countries or time periods reveal differences in daily life"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students interpret unfamiliar cultural details as errors or oddities rather than as culturally meaningful, they cannot engage substantively with the diversity of authoring voices in Node 3 — the understanding that cultural difference is meaningful is a prerequisite for appreciating diverse author perspectives.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may interpret unfamiliar cultural details as errors or oddities rather than as culturally meaningful. Multiple cultural contexts — particularly First Nations Australian texts — help build the understanding that cultural difference is meaningful, not random.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Engaging with First Nations Australian storytelling from diverse sources — print, visual, digital, multimodal — offers genuine cultural richness that advances students' understanding of how literature embodies and transmits cultural knowledge.",
+        "success_criteria": [
+          "Student can name a cultural detail from a story and explain what it shows about the character's life.",
+          "Student can identify at least one way a character's life in a story is different from their own, with reference to a specific cultural detail."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Literature from diverse authors and illustrators",
+        "progression_checkpoint": "Students can engage with texts from First Nations Australian, Australian and world authors and illustrators — sharing ideas that reflect awareness of diverse authoring voices.",
+        "minimum_width": "Engage with at least one text by a First Nations Australian author or illustrator and share one idea about it.",
+        "typical_width": "Engage with stories, poems and images from First Nations Australian, Australian and world authors; share ideas that reflect on how different authors and illustrators bring different cultural perspectives; compare texts from diverse sources.",
+        "wider": [
+          "Engage with First Nations Australian storytelling from multiple forms — print, visual, digital, multimodal — and compare how the story is presented across forms",
+          "Compare perspectives: read two versions of a similar story from different cultural contexts and discuss how the authoring context shapes what the story values",
+          "Investigate how the cultural background of an illustrator is visible in their artistic choices"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Engagement with diverse authoring voices requires accumulating exposure — a single First Nations text or a single world literature text is insufficient to build genuine awareness of diverse authoring. Range is what matters here."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can share an idea about a text by a First Nations Australian author or illustrator.",
+          "Student can identify that different authors bring different experiences and cultural knowledge to their stories.",
+          "Student can give an example of how a story from another country or culture reflects a different world."
+        ]
+      }
+    ]
+  }
+}

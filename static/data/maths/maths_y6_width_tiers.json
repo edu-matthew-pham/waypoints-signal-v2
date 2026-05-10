@@ -1,0 +1,435 @@
+{
+  "description": "Mathematics Year 6 width tiers lookup — ACARA v9. One entry per descriptor. Generated from ACARA elaborations and width_generation_prompt v1.0.",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "band": "6",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term. For concept/understanding standards: the minimum number of phenomena or contexts that satisfies the command term. For modelling/capability standards: the narrowest task context that genuinely meets the descriptor. Must certify the descriptor is 'met' — not merely familiar territory.",
+    "typical_width": "Full descriptor scope as ACARA intended. Grounded in the main elaboration cases. Reflects what a well-taught Year 6 class that has engaged seriously with the descriptor would have done. Does not require every elaboration to be covered.",
+    "wider": "Enrichment directions that add phenomena, cultural contexts, or application domains — not harder versions of the same context. Each item is a discrete enrichment direction. First Nations directions included where elaborations indicate them.",
+    "elaborations": "Verbatim ACARA elaborations reproduced as source data for traceability. Elaborations are examples of how the descriptor might be addressed — they are source data, not a checklist."
+  },
+  "standards": {
+    "AC9M6N01": {
+      "strand": "Number — modelling",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Recognise integers in at least two real-world contexts (e.g. temperature, finance); locate positive and negative integers on a number line; identify coordinate positions in two quadrants of the Cartesian plane.",
+      "typical_width": "Recognise integers across a range of everyday contexts including temperature, altitude, profit/loss, and timeline positions; locate and order integers on a number line; represent integer coordinates in all four quadrants of the Cartesian plane; connect positive/negative direction to coordinate sign.",
+      "wider": [
+        "Investigate integers in scientific contexts including planetary temperatures, sea-level measurements, and electrical charge",
+        "Apply integer coordinate reasoning to map-reading, orienteering, or game-board contexts using all four quadrants",
+        "Explore historical development of negative numbers — when were they formally accepted and why were they controversial?"
+      ],
+      "elaborations": [
+        "extending the number line in the negative direction to locate and represent integers, recognising the difference in location between negative and positive integers",
+        "using integers to represent quantities in financial contexts, including the concept of profit and loss for a planned event",
+        "using horizontal and vertical number lines to represent and find solutions to everyday problems involving locating and ordering integers around zero",
+        "recognising that the sign (positive or negative) indicates a direction in relation to zero",
+        "representing the temperatures of the different planets in the solar system, using a diagram of a thermometer that models a vertical number line"
+      ]
+    },
+    "AC9M6N02": {
+      "strand": "Number — modelling",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify whether a number is prime or composite using factor analysis; express a composite number as a product of prime factors using a factor tree; identify the first 12 square numbers.",
+      "typical_width": "Identify prime and composite numbers to 100 including using the Sieve of Eratosthenes; express composite numbers as products of prime factors; identify square numbers and their square roots to 144; use prime factorisation to simplify calculations such as finding common factors.",
+      "wider": [
+        "Investigate patterns in the distribution of primes using the Sieve of Eratosthenes — twin primes, gaps between primes, the thinning of prime density",
+        "Explore the connection between prime factorisation and simplifying fractions, finding HCF and LCM",
+        "Investigate square number patterns including the consecutive odd number sum pattern (1=1², 1+3=2², 1+3+5=3²...) and triangular numbers as a comparison"
+      ],
+      "elaborations": [
+        "using the definition of a prime number to explain why one is not a prime number",
+        "testing numbers by using division to distinguish between prime and composite numbers, recording the results on a number chart to identify any patterns",
+        "representing composite numbers as a product of their factors, including prime factors when necessary and using this form to simplify calculations",
+        "identifying and describing the product of a number with itself as square",
+        "using spreadsheets to list all the numbers that have up to 3 factors, recognise any emerging patterns"
+      ]
+    },
+    "AC9M6N03": {
+      "strand": "Number — concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Find equivalent fractions for halves, thirds and quarters; find a common denominator for two fractions with different denominators; order at least five common fractions on a number line with justification.",
+      "typical_width": "Generate equivalent fractions; find lowest common denominators for pairs of common fractions; order a set of fractions including halves, thirds, quarters, fifths and sixths on the same number line; justify ordering using equivalence reasoning; apply benchmark fractions for estimation.",
+      "wider": [
+        "Extend ordering to include mixed numerals and improper fractions on the same number line",
+        "Investigate the density property of fractions — between any two fractions, can you always find another? Demonstrate and explain.",
+        "Connect fraction ordering to decimal equivalents — plot fractions and their decimal forms on the same number line and discuss the relationship"
+      ],
+      "elaborations": [
+        "applying factors and multiples to fraction denominators, such as halves with quarters, eighths and twelfths, and thirds with sixths, ninths and twelfths",
+        "representing fractions on the same number line, paying attention to relative position, and using this to explain relationships between denominators",
+        "explaining equivalence and order between fractions using number lines, drawings and models",
+        "comparing and ordering fractions by placing cards on a string line across the room and referring to benchmark fractions to justify their position"
+      ]
+    },
+    "AC9M6N04": {
+      "strand": "Number — concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Add and subtract pairs of decimal numbers with up to two decimal places using written algorithm with correct alignment; use rounding to check reasonableness.",
+      "typical_width": "Add and subtract decimals with up to three decimal places using written algorithms, mental strategies (partitioning, compensation), and digital tools; select strategies based on calculation complexity; apply estimation and rounding to check reasonableness; work with measurement and financial contexts.",
+      "wider": [
+        "Apply decimal addition and subtraction to linear measurement contexts including comparing records and targets expressed as decimals",
+        "Investigate multi-step decimal problems in financial or data contexts where totals must be calculated and checked",
+        "Explore when mental strategies are more efficient than written algorithms for decimal calculations and articulate the conditions"
+      ],
+      "elaborations": [
+        "applying estimation strategies to addition and subtraction of decimals to at least thousandths before calculating",
+        "applying whole-number strategies including basic facts, place value, partitioning and inverse relationships",
+        "working additively with linear measurements expressed as decimals up to 2 and 3 decimal places",
+        "deciding to use a calculator as a calculation strategy for solving additive problems involving decimals that vary in their number of decimal places"
+      ]
+    },
+    "AC9M6N05": {
+      "strand": "Number — concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Add and subtract fractions with different denominators by finding a common denominator; handle mixed numeral addition and subtraction including cases requiring regrouping.",
+      "typical_width": "Add and subtract fractions with unrelated denominators using lowest common denominators; add and subtract mixed numerals including cases requiring regrouping; apply to realistic problem contexts including measurement, cooking, and sharing; represent using number line or diagram.",
+      "wider": [
+        "Solve multi-step problems requiring both addition and subtraction of fractions in a single problem chain",
+        "Investigate and compare strategies for adding mixed numerals (add parts separately vs convert to improper fractions first) and identify when each is more efficient",
+        "Apply fraction addition and subtraction to data and statistics contexts — e.g. combining fractional parts of a whole from a survey"
+      ],
+      "elaborations": [
+        "representing addition and subtraction of fractions using number lines and diagrams with understanding of equivalent fractions",
+        "determining the lowest common denominator using understanding of prime and composite numbers",
+        "calculating the addition or subtraction of fractions in realistic problem contexts",
+        "understanding the processes for adding and subtracting fractions with related denominators in preparation for calculating with unrelated denominators"
+      ]
+    },
+    "AC9M6N06": {
+      "strand": "Number — concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Multiply and divide decimal numbers by 10, 100 and 1000 using place value reasoning; explain the effect in terms of digit place value shifts.",
+      "typical_width": "Multiply and divide decimals by multiples of powers of 10 (e.g. 20, 300, 5000) using a two-step decomposition; apply to metric unit conversion; use estimation to check reasonableness; connect to multiplication facts combined with place value.",
+      "wider": [
+        "Apply multiplying and dividing by powers of 10 to metric conversion chains (mm → cm → m → km) and explain the conversion factor at each step",
+        "Investigate the effect of multiplying a decimal by 0.1, 0.01 — connect to division by powers of 10",
+        "Apply powers-of-10 decimal operations to scientific notation and measurement contexts at an introductory level"
+      ],
+      "elaborations": [
+        "applying place value knowledge including that the value of the digit is 10 times smaller each time a place is moved to the right",
+        "applying and explaining estimation strategies in multiplicative situations involving a decimal multiplied by a two- or three-digit number",
+        "explaining the effect of multiplying or dividing a decimal by 10, 100, 1000 in terms of place value — not the decimal point shifting"
+      ]
+    },
+    "AC9M6N07": {
+      "strand": "Number — modelling",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Find a unit fraction of a whole number quantity; find a common percentage (10%, 25%, 50%) of a quantity; calculate a simple percentage discount and find the discounted price.",
+      "typical_width": "Find any familiar fraction of a quantity; find common percentages (5%, 10%, 15%, 20%, 25%, 33⅓%, 50%, 75%) of quantities using efficient mental strategies; calculate percentage discounts including composite discounts; apply to financial contexts including GST and sales prices.",
+      "wider": [
+        "Investigate building any percentage from 10% and 1% components — develop a mental strategy that generalises to any percentage",
+        "Explore percentage calculations in financial contexts including GST, layby, savings, and comparing sale prices across different discount structures",
+        "Investigate reverse percentage problems — if 75% of a quantity is 60, what is the whole? — and develop reasoning strategies"
+      ],
+      "elaborations": [
+        "explaining how 1/3 of a quantity can be achieved by dividing by 3, and how 1/3 can be used to find other fractions of the same quantity",
+        "investigating percentage discounts of 15%, 30% and 45% using their decimal representations",
+        "linking percentages to their decimal equivalent of tenths and hundredths and using these to determine percentage discounts",
+        "explaining the equivalence between percentages and fractions including 33⅓% and 1/3",
+        "representing a situation with a mathematical expression involving finding a familiar fraction, decimal or percentage of a quantity"
+      ]
+    },
+    "AC9M6N08": {
+      "strand": "Number — modelling",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Round fractions and decimals to convenient values to estimate sums, differences, or percentages; use estimation to check whether a calculated answer is plausible.",
+      "typical_width": "Apply multiple estimation strategies to problems involving rational numbers and percentages: rounding, benchmark fractions, 10%-building for percentages, front-end estimation; select the strategy best suited to the context; apply to financial contexts including budget estimates and price comparisons.",
+      "wider": [
+        "Compare front-end, rounding, and benchmark strategies on the same set of problems — evaluate which produces closer estimates for different problem types",
+        "Investigate real financial contexts where estimation is the primary decision tool (shopping budgets, event planning) and discuss required precision",
+        "Explore how professionals use approximation — journalist rounding, builder quoting, scientist reporting — and discuss appropriate precision in each"
+      ],
+      "elaborations": [
+        "using familiar fractions, decimals and percentages to approximate calculations",
+        "recognising and using the most efficient strategies for solving problems, such as recognising that 48% is approximately 50% to make an estimate",
+        "using benchmark percentages to estimate the percentage of a quantity",
+        "using estimates of percentages to check the reasonableness of solutions",
+        "estimating the percentage of a shape that has been shaded",
+        "using estimation to check the reasonableness of calculations involving rational numbers and percentages in financial contexts"
+      ]
+    },
+    "AC9M6N09": {
+      "strand": "Number — modelling",
+      "width_axis": "task_contexts",
+      "minimum_width": "Formulate and solve a practical problem involving rational numbers or percentages; identify the operation(s) needed; interpret the result in context.",
+      "typical_width": "Use the full modelling cycle (formulate → calculate → interpret → communicate → justify) for problems involving rational numbers and percentages; choose between mental, written, and digital strategies; interpret results with appropriate precision; communicate solutions as complete contextual responses.",
+      "wider": [
+        "Apply mathematical modelling to multi-step financial planning tasks — budgeting, comparing options, calculating value for money",
+        "Investigate and communicate modelling solutions to an audience (partner, class) and respond to questions about strategy choices",
+        "Explore problems where the mathematical answer needs contextual interpretation — e.g. rounding up for packaging, rounding down for remaining budget"
+      ],
+      "elaborations": [
+        "modelling situations that represent mathematical problems involving natural numbers, integers, fractions, decimals and percentages",
+        "using mathematical modelling to solve practical problems including problems involving money and percentage discounts",
+        "interpreting and communicating solutions in terms of the situation, including justifying the reasonableness of conclusions"
+      ]
+    },
+    "AC9M6A01": {
+      "strand": "Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the rule for a number pattern involving rational numbers and extend it; connect a visually growing pattern to a number sequence and predict future terms.",
+      "typical_width": "Identify and describe rules for additive and multiplicative patterns involving decimals and fractions; connect visual growing patterns to the number rules generating them; represent patterns in tables of values and number sequences; use rules to predict non-adjacent terms.",
+      "wider": [
+        "Use spreadsheets to generate and investigate long sequences and identify emerging patterns not visible in the first few terms",
+        "Investigate patterns from calculator experiments — division sequences (1÷9, 2÷9...), multiplication patterns — and describe the mathematical structure",
+        "Explore patterns from real-world contexts (compound growth, tiling, paper folding) and describe the rules generating them"
+      ],
+      "elaborations": [
+        "investigating patterns such as the number of tiles in a geometric pattern, or the number of dots or other shapes in successive repeats of a strip or border pattern",
+        "using a calculator or spreadsheet to experiment with number patterns from multiplying or dividing",
+        "creating extended number sequences representing additive patterns using decimals",
+        "investigating the number of regions created by successive folds of a sheet of paper",
+        "creating a pattern sequence with materials, writing the associated number sequence and describing the rule"
+      ]
+    },
+    "AC9M6A02": {
+      "strand": "Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Evaluate numerical expressions involving brackets and mixed operations; find unknown values in equations with brackets using inverse operations.",
+      "typical_width": "Apply order-of-operations conventions including brackets to evaluate complex expressions; find unknowns in numerical equations with brackets using inverse operations and number properties (distributive, associative, commutative); verify solutions by substitution.",
+      "wider": [
+        "Apply the distributive property as a mental calculation strategy — e.g. 6 × 99 = 6 × (100 − 1) — and investigate other applications",
+        "Investigate equations where the unknown appears in different structural positions and develop strategies for each",
+        "Explore how order-of-operations conventions function in calculator and spreadsheet contexts — when do they produce unexpected results?"
+      ],
+      "elaborations": [
+        "using brackets and order of operations to write number sentences and appreciating the need for agreed rules",
+        "constructing equivalent number sentences involving brackets and combinations of the 4 operations",
+        "finding pairs of unknown values in numerical equations that make the equation hold true",
+        "applying knowledge of inverse operations and number properties to create equivalent number sentences"
+      ]
+    },
+    "AC9M6A03": {
+      "strand": "Algebra",
+      "width_axis": "task_contexts",
+      "minimum_width": "Write an algorithm (as steps or flowchart) that uses a rule to generate a number sequence; trace through the algorithm to verify it produces the correct output; identify a pattern in the generated set.",
+      "typical_width": "Create algorithms with decision branches to generate number sets using arithmetic rules, divisibility conditions, or combined criteria; test algorithms using digital tools; identify and explain patterns that emerge from the algorithm's rules; represent algorithms in written and flowchart form.",
+      "wider": [
+        "Design algorithms to generate sequences with interesting mathematical properties (Fibonacci-like, prime-filter) and investigate the patterns",
+        "Investigate the Collatz conjecture algorithmically — test many starting values using a spreadsheet and describe observed patterns",
+        "Explore how algorithms with the same output can be structured differently — compare alternative algorithms for the same sequence"
+      ],
+      "elaborations": [
+        "using an algorithm to create extended number sequences involving rational numbers, using a rule and digital tools, explaining emerging patterns",
+        "designing an algorithm to model operations, using input and output concepts, describing and explaining relationships and patterns",
+        "designing an algorithm or simple program to generate a sequence based on user input and a chosen operation, discussing patterns"
+      ]
+    },
+    "AC9M6M01": {
+      "strand": "Measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Convert between adjacent metric units for length (km/m/cm/mm), mass (kg/g), and capacity (L/mL) by multiplying or dividing by the appropriate power of 10; express two-unit measurements as decimals in the larger unit.",
+      "typical_width": "Convert between adjacent and non-adjacent metric units across length, mass and capacity; select between decimal and two-unit representations based on context; connect metric conversion to place value and the prefix system; apply to measurement problem solving.",
+      "wider": [
+        "Investigate the SI metric prefix system beyond kilo and milli — mega, giga, micro, nano — and connect to digital technology and scientific contexts",
+        "Apply metric conversion chains to unit analysis problems: how many millilitres in a kilolitre? Connect to powers-of-10 reasoning",
+        "Investigate historical contexts where unit system inconsistency caused errors — NASA Mars Climate Orbiter — and discuss the importance of unit consistency"
+      ],
+      "elaborations": [
+        "recognising the significance of the prefixes in units of measurement",
+        "identifying and using correct operations when converting between units",
+        "recognising the equivalence of measurements, such as 1.25 metres is the same as 125 centimetres"
+      ]
+    },
+    "AC9M6M02": {
+      "strand": "Measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Establish the area formula for a rectangle using array reasoning; apply the formula to find the area of rectangles with whole number dimensions; state the result in square units.",
+      "typical_width": "Establish and apply the area formula to rectangles with decimal dimensions; solve practical problems including finding area, finding a missing dimension given area, and decomposing compound shapes into rectangles; connect area to perimeter distinctions.",
+      "wider": [
+        "Investigate the relationship between area and perimeter — rectangles with the same area can have different perimeters, and vice versa; explore systematically",
+        "Apply area reasoning to tiling and flooring problems with unit conversion (cm to m²)",
+        "Investigate First Nations Australian use of spatial reasoning and area in design, weaving, and land management — connect geometric principles to these contexts"
+      ],
+      "elaborations": [
+        "using one centimetre grid paper to construct rectangles, recording dimensions and areas in a table",
+        "using the relationship between square units and the array structure to derive a formula for area of a rectangle",
+        "solving problems involving comparison of lengths and areas using appropriate units",
+        "investigating the connection between perimeters of different rectangles with the same area"
+      ]
+    },
+    "AC9M6M03": {
+      "strand": "Measurement",
+      "width_axis": "task_contexts",
+      "minimum_width": "Read departure and arrival times from a timetable; calculate journey duration including cases crossing a time boundary; plan a simple two-leg itinerary.",
+      "typical_width": "Extract information from timetables in 12- and 24-hour format; calculate durations using multiple strategies; plan multi-leg itineraries accounting for connection times and constraints; identify feasibility of planned schedules.",
+      "wider": [
+        "Plan a real or simulated excursion itinerary with multiple activities, constraints, and buffer times — present as a formatted schedule",
+        "Investigate time zone calculations — connecting international travel times to time zone differences",
+        "Explore how timetable design choices affect usability and what conventions make public transport timetables readable"
+      ],
+      "elaborations": [
+        "planning a trip involving one or more modes of public transport",
+        "developing a timetable of daily activities for a planned event such as a sports carnival",
+        "investigating different ways duration is represented in timetables"
+      ]
+    },
+    "AC9M6M04": {
+      "strand": "Measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify angles on a straight line (sum 180°), angles at a point (sum 360°), and vertically opposite angles (equal); find unknown angles using each relationship individually.",
+      "typical_width": "Apply all three angle relationships to find unknown angles in diagrams; combine relationships for multi-step problems; communicate reasoning naming the property used at each step; verify by checking consistency of all angles in the diagram.",
+      "wider": [
+        "Investigate where angle relationships appear in geometric figures — parallel lines, triangles, quadrilaterals — and explain the connections",
+        "Identify angle relationships in First Nations Australian art, Islamic geometric patterns, or architectural designs and describe them using geometric vocabulary",
+        "Explore how angle relationships are used in navigation — compass bearings, directional instructions"
+      ],
+      "elaborations": [
+        "using protractors or dynamic geometry software to measure and generalise about angles formed when lines are crossed",
+        "demonstrating the meaning of language associated with angle properties including complementary, supplementary, vertically opposite",
+        "using the properties of supplementary and complementary angles to represent spatial situations with number sentences and solving for unknown angles"
+      ]
+    },
+    "AC9M6SP01": {
+      "strand": "Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the cross-sectional shape of common 3D objects; identify objects with constant parallel cross-sections (prisms) and explain what makes them prisms; classify a set of objects as prisms or non-prisms.",
+      "typical_width": "Identify and compare parallel cross-sections of a range of 3D objects; define and apply the constant cross-section criterion for right prisms; classify objects including cylinders and non-standard prisms; connect cross-section understanding to everyday structural and manufactured objects.",
+      "wider": [
+        "Investigate the connection between constant cross-sections and volume — why does area × length work for prisms?",
+        "Explore cross-sections in real-world contexts: architecture, medical imaging (CT/MRI), engineering design",
+        "Investigate oblique prisms and whether they qualify under the constant cross-section definition"
+      ],
+      "elaborations": [
+        "using cross-sections of 3D objects to identify prisms and distinguish them from other objects",
+        "comparing parallel cross-sections of objects including rectangular prisms, triangular prisms, and cylinders",
+        "recognising that right prisms have the same cross-section along their length",
+        "identifying prism structures in everyday objects and architecture",
+        "connecting cross-sections to the faces and nets of prisms",
+        "investigating how changing the cross-section shape produces a different prism"
+      ]
+    },
+    "AC9M6SP02": {
+      "strand": "Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Plot points with integer coordinates in all four quadrants; read coordinates in all four quadrants; describe which coordinate changes when a point moves horizontally or vertically.",
+      "typical_width": "Plot and read coordinates in all four quadrants including on axes; predict new coordinates after described movements; describe coordinate changes for movements that cross axes; connect coordinate change to integer addition.",
+      "wider": [
+        "Investigate reflections across the axes — identify the sign pattern for coordinate changes and generalise",
+        "Apply four-quadrant coordinates to map or game-board contexts with a real reference point",
+        "Explore systematic translations of shapes — if all vertices move by the same amount, describe the resulting coordinate changes"
+      ],
+      "elaborations": [
+        "locating and plotting points with integer coordinates in all four quadrants",
+        "describing the movement required to move from one point to another in the Cartesian plane",
+        "identifying how the coordinates change when a point is moved to a new location",
+        "recognising that coordinates can be negative when a point is located to the left of or below the origin",
+        "connecting coordinate movement to integer addition and subtraction",
+        "using the Cartesian plane to represent and solve problems involving movement and position"
+      ]
+    },
+    "AC9M6SP03": {
+      "strand": "Space",
+      "width_axis": "task_contexts",
+      "minimum_width": "Apply two transformations in sequence to a shape and describe the combined effect; identify whether a regular polygon tessellates using the interior angle criterion; create a simple tessellation using one shape and one transformation.",
+      "typical_width": "Apply and describe combinations of translations, reflections, and rotations; identify the transformation rules generating given tessellations; create tessellations with combinations of transformations; use dynamic software to create and modify geometric patterns.",
+      "wider": [
+        "Investigate and create patterns from First Nations Australian art or Islamic geometric traditions, identifying the transformation rules and explaining their mathematical structure",
+        "Create modified tessellations in the style of Escher by distorting a tessellating shape while preserving transformation properties",
+        "Investigate semi-regular tessellations combining two or more regular polygons and describe the transformation rules"
+      ],
+      "elaborations": [
+        "using combinations of transformations to create tessellations using digital tools",
+        "identifying which combinations of regular polygons can be used to tile a plane",
+        "describing and identifying the transformations used to create a tessellation",
+        "creating geometric patterns using combinations of transformations",
+        "connecting tessellations to cultural patterns and designs including First Nations Australian art"
+      ]
+    },
+    "AC9M6ST01": {
+      "strand": "Statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Classify a variable by type (ordinal, nominal, discrete, continuous); select an appropriate display; calculate mode and range for a dataset; make two comparative statements between two datasets.",
+      "typical_width": "Classify variables across all four types; select and justify display types; calculate and interpret mode, range, and shape for multiple datasets; construct comparative displays; make specific comparative statements relating statistical features to context.",
+      "wider": [
+        "Investigate comparative data from media sources (sports, health, surveys) and evaluate the claims made from distributions",
+        "Explore what median and mean could add to comparisons that mode and range miss — introduce informally through investigation",
+        "Compare distributions from First Nations Australian community data contexts, discussing what fair and respectful statistical comparison looks like"
+      ],
+      "elaborations": [
+        "using comparative displays such as side-by-side column graphs, dot plots and two-way tables to compare distributions",
+        "comparing distributions for the same variable across different groups",
+        "describing distributions in terms of mode, range and shape and using these to make comparisons",
+        "using digital tools to create comparative displays for ordinal, nominal, discrete and continuous data"
+      ]
+    },
+    "AC9M6ST02": {
+      "strand": "Statistics",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify a statistical claim in a media example; locate the data, representation, and conclusion; identify at least one potential problem with the method or representation.",
+      "typical_width": "Evaluate statistical arguments in traditional and digital media; identify issues with data collection (sample size, bias, question design) and representation (truncated axes, misleading scales, inappropriate display types); assess whether conclusions are supported by the evidence.",
+      "wider": [
+        "Investigate published examples of misleading graphs and explain each technique's effect on how the data is perceived",
+        "Evaluate statistical arguments from public health, environmental, or social contexts — discuss what makes a statistical argument credible",
+        "Design both a misleading and a fair representation of the same dataset — compare and explain the choices made in each"
+      ],
+      "elaborations": [
+        "identifying statistical arguments presented in media including newspapers, magazines and digital sources",
+        "discussing and critiquing the methods used to collect and represent data in media",
+        "evaluating whether conclusions drawn from data are justified by the evidence",
+        "identifying potential sources of bias in data collection and representation"
+      ]
+    },
+    "AC9M6ST03": {
+      "strand": "Statistics",
+      "width_axis": "task_contexts",
+      "minimum_width": "Pose a statistical question; collect relevant data using a simple method; produce an appropriate display; state two findings that address the investigation question in context.",
+      "typical_width": "Use the full statistical investigation cycle: pose and refine question, design data collection, collect data systematically, analyse using mode/range/shape, interpret in context, communicate findings; acknowledge investigation limitations.",
+      "wider": [
+        "Conduct investigations using secondary data sources including government or community datasets; compare primary and secondary data collection",
+        "Refine the investigation based on initial findings — pose and pursue a follow-up question",
+        "Communicate findings to a real or simulated audience and respond to questions about methods, limitations, and conclusions"
+      ],
+      "elaborations": [
+        "posing questions of interest about the class and wider community",
+        "deciding what data to collect and how to record it",
+        "representing data in a variety of ways and using digital tools to display, analyse and interpret data",
+        "refining the investigation question based on what the data reveals",
+        "communicating findings in a variety of ways including oral, written and digital reports",
+        "comparing results with initial expectations and considering what further investigation is needed"
+      ]
+    },
+    "AC9M6P01": {
+      "strand": "Probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Place events on a 0–1 probability scale; express probability values as fractions, decimals and percentages; assign estimated probabilities to events in a given context with justification.",
+      "typical_width": "Use the 0–1 (or 0–100%) scale to represent and compare probabilities; convert between fraction, decimal and percentage probability representations; assign estimated probabilities to events across a range of contexts; verify that complementary probabilities sum to 1.",
+      "wider": [
+        "Investigate sports and weather forecasting contexts that use probability — what does '70% chance of rain' mean on the 0–1 scale?",
+        "Explore First Nations Australian games of chance and investigate the probability structures within them",
+        "Compare probability estimation in contexts where theoretical probability is known (dice, cards) vs unknown (weather, sport) and discuss what each requires"
+      ],
+      "elaborations": [
+        "identifying the chance of events occurring in familiar contexts and representing these chances on a scale from 0 to 1",
+        "discussing the relationship between the probability scale from 0 to 1 and percentages",
+        "assigning probabilities to events using fractions, decimals and percentages",
+        "using estimation to assign probabilities to events in everyday contexts",
+        "recognising that the probability of an event and its complement sum to 1",
+        "connecting probability language (impossible, unlikely, even chance, likely, certain) to numerical values on the scale"
+      ]
+    },
+    "AC9M6P02": {
+      "strand": "Probability",
+      "width_axis": "task_contexts",
+      "minimum_width": "Conduct a chance experiment and calculate experimental probability; compare to theoretical probability; describe how results change with more trials.",
+      "typical_width": "Conduct repeated experiments; compare experimental probabilities at different trial counts (10, 50, 100+); identify the convergence trend; use digital simulation tools to run large numbers of trials; compare experimental frequency to expected frequency and discuss variation.",
+      "wider": [
+        "Graph cumulative experimental probability against number of trials and describe the convergence pattern",
+        "Investigate the Gambler's Fallacy — explain why past results do not affect independent future events",
+        "Explore Monte Carlo simulation at an accessible level — using random trials to estimate a mathematical quantity (e.g. approximating π)"
+      ],
+      "elaborations": [
+        "conducting repeated chance experiments and recording results",
+        "using digital tools to simulate chance experiments with increasing numbers of trials",
+        "comparing the results of simulations with expected results",
+        "discussing the effect on variation of increasing the number of trials"
+      ]
+    }
+  }
+}

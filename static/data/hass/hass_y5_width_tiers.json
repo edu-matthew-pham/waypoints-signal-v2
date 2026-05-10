@@ -1,0 +1,198 @@
+{
+  "description": "Width tiers for HASS Year 5 — all 15 standards (K01–K08, S01–S07). Generated from ACARA elaborations using width_generation_prompt v1.0.",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "band": "5",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest context or phenomenon that honestly meets the descriptor's command term. For knowledge standards, this is a single focused case or example that satisfies 'explain'. For skills standards, this is a single application of the skill in one task context.",
+    "typical_width": "The full scope of the descriptor as ACARA intended it — grounded in the most common elaboration cases across the range of examples provided. Reflects sound standard practice without requiring every elaboration to be covered.",
+    "wider": "Enrichment that adds new contexts, phenomena, or application domains — not harder versions of the same context. For knowledge standards, wider means additional historical, geographical, civic or economic case studies. For skills standards, wider means applying the same skill across additional task or topic contexts.",
+    "elaborations": "Elaborations were used as the primary source for typical_width and wider content. Minimum_width was anchored to the descriptor's command term, not to elaboration scope."
+  },
+  "standards": {
+    "AC9HS5K01": {
+      "strand": "History",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain the causes of the establishment of one type of British colony (e.g. penal colony) in Australia after 1800, identifying at least one economic, one political and one social cause.",
+      "typical_width": "Explain the economic, political and social causes of the establishment of multiple colony types in Australia after 1800, using specific colony examples (Van Diemen's Land, South Australia, Victoria). Connect causes to the conditions in Britain at the time (poverty, overcrowding, imperial ambition, competition with other European powers).",
+      "wider": [
+        "Compare causes across two distinct colony types (penal vs free settler) to argue which cause category was most significant in each case.",
+        "Investigate the role of a specific political event (e.g. post-Napoleonic competition for territory in the Pacific) as a driver of a particular colony's establishment.",
+        "Examine how social reformers in Britain debated transportation as a solution to crime — tracing how the debate shaped colonial policy."
+      ],
+      "elaborations": "Elaborations E1–E4 provided the basis for typical_width (colony types, economic conditions in Britain, political imperial motives, social causes). Wider extends to cause comparison and specific political/social contexts beyond the elaboration examples."
+    },
+    "AC9HS5K02": {
+      "strand": "History",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain the impact of colonial development on at least two groups (e.g. First Nations Australians and convicts), describing how colonial life differed for each group.",
+      "typical_width": "Explain the impact of colonial development on First Nations Australians, colonists, convicts and the natural environment. Compare living conditions across groups in terms of access to food, shelter, work and freedom. Explain how settlement patterns shaped environmental change through vegetation clearance, farming, and introduced species.",
+      "wider": [
+        "Map settlement patterns in the 1800s and analyse how geographic factors (water access, port proximity, gold discovery) shaped both where colonies grew and their environmental impact.",
+        "Compare the experiences of two specific groups — e.g. a Chinese goldfield worker and a free settler — using primary sources to trace similarities and differences.",
+        "Examine a local environment and compare its past and present landscape to trace colonial-era environmental change."
+      ],
+      "elaborations": "E1 grounded typical_width in cross-group comparison; E2 grounded the environmental dimension. Wider extends to geographic analysis and primary source comparison."
+    },
+    "AC9HS5K03": {
+      "strand": "History",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain the role of one significant individual or group in the development of events in an Australian colony, identifying the economic, social or political impact of their actions.",
+      "typical_width": "Explain the role of multiple significant individuals and groups — including First Nations Australians, migrants and colonial figures — in shaping events in Australian colonies. Use specific examples from the elaborations (e.g. Eureka Stockade, exploration, Bennelong) to trace economic, social or political impact. Examine the roles of women in colonial society.",
+      "wider": [
+        "Construct 'what if' counterfactuals for key colonial events to deepen causal reasoning about the significance of specific individuals.",
+        "Investigate the contributions of a specific migrant community (e.g. Afghan cameleers, Chinese at Palmer River, Pacific Islanders in the Torres Strait) to colonial development.",
+        "Examine the development of a primary industry sector (wool, mining, sugar cane) and trace the involvement of First Nations Australians and migrant groups within it."
+      ],
+      "elaborations": "E1–E6 provided a rich range of individuals, groups and industry contexts for typical_width. Wider uses the counterfactual approach from E2 and the specific migrant group and industry investigation contexts from E4 and E6."
+    },
+    "AC9HS5K04": {
+      "strand": "Geography",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain how one group of people (e.g. First Nations Australians, or European settlers) influenced the characteristics of a specific place, identifying whether the influence was positive or negative.",
+      "typical_width": "Explain how First Nations Australians shaped places through land and resource management (e.g. firestick farming) and how European settlement changed the same landscapes through clearance, fencing, irrigation and introduced species. Compare positive and negative influences on Australian places and include at least one example of people's influence in another country.",
+      "wider": [
+        "Map the extent of environmental change in the local area over time, using before-and-after sources to evaluate effects on economic development and environmental sustainability.",
+        "Investigate positive examples of people reshaping damaged environments (e.g. reforestation, land care, mine rehabilitation) and explain what conditions made restoration possible.",
+        "Compare the influences of people on places in two countries (Australia and one Asian country) to identify similarities and differences in how people shape places."
+      ],
+      "elaborations": "E1–E4 grounded typical_width across First Nations, European and cross-cultural influences. Wider extends through local environmental change investigation (E2), positive restoration cases (E3) and international comparison (E4)."
+    },
+    "AC9HS5K05": {
+      "strand": "Geography",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain how one Australian environment is managed, including how people respond to one type of severe weather event (bushfire, flood, drought or cyclone) and its consequences.",
+      "typical_width": "Explain how Australian environments are managed through practices, laws and zoning, and how communities manage the consequences of severe weather events such as bushfires, floods, droughts and cyclones. Explain how environmental management decisions create trade-offs (e.g. water shortages from irrigation, increased fire risk from land clearing) and how mitigation strategies (building codes, firebreaks, controlled burns) address these.",
+      "wider": [
+        "Compare management strategies for two different types of severe weather events (e.g. flood vs bushfire) and evaluate the effectiveness of each.",
+        "Investigate how a specific environmental management decision (e.g. construction of a dam, introduction of a national park) created both intended benefits and unintended consequences.",
+        "Examine how First Nations land management practices (e.g. controlled burning) are increasingly incorporated into contemporary environmental management frameworks."
+      ],
+      "elaborations": "E1–E2 grounded typical_width in management practices, consequences and mitigation. Wider extends through event-type comparison, specific case studies and First Nations management integration — not explicitly in elaborations but implied by the subject's cross-cultural thread."
+    },
+    "AC9HS5K06": {
+      "strand": "Civics and Citizenship",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain the meaning of democracy and at least two key features of Australia's democratic system (e.g. secret ballot, compulsory voting, preferential voting) and the role of elected representatives.",
+      "typical_width": "Explain the key values of Australian democracy (freedom of election, assembly, speech, rule of law), the features of the electoral system (secret ballot, compulsory and preferential voting, role of the Australian Electoral Commission), who has the right to vote (including when women and First Nations Australians gained voting rights), and the responsibilities of elected representatives at local, state and national levels.",
+      "wider": [
+        "Compare Australia's electoral system features with those of another democracy to identify what is distinctive about Australian democracy.",
+        "Investigate a historical moment when democratic rights were extended or contested (e.g. women's suffrage, the 1962 right for First Nations Australians to vote federally) and explain its significance.",
+        "Examine the role of the Australian Electoral Commission in an election and evaluate how its processes maintain the principles of a free and fair election."
+      ],
+      "elaborations": "E1–E7 provided a rich basis for typical_width covering values, features, AEC, voting rights and representative responsibilities. Wider uses comparison and historical rights extension contexts."
+    },
+    "AC9HS5K07": {
+      "strand": "Civics and Citizenship",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain how one type of community organisation (e.g. a charity, volunteer emergency service) brings citizens together around shared beliefs and values to achieve a civic goal.",
+      "typical_width": "Explain how different types of community organisations — including charities, rural fire services, surf life-saving clubs, emergency services, First Nations community groups and youth groups — demonstrate how citizens with shared values work together. Explain what civic goals each type of organisation works toward and how shared values motivate participation.",
+      "wider": [
+        "Examine how First Nations Australian organisations provide services to their communities and compare the civic goals and values that drive them with those of mainstream community organisations.",
+        "Explore how digital platforms and social media enable citizens to work together as local, regional and global citizens on shared civic goals (e.g. access to education for women and girls in developing countries).",
+        "Investigate a specific community organisation in the local area and evaluate how effectively it has achieved its civic goal."
+      ],
+      "elaborations": "E1–E3 grounded typical_width and wider content directly. Wider extends through comparative analysis, digital citizenship and local investigation."
+    },
+    "AC9HS5K08": {
+      "strand": "Economics and Business",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify and explain the three types of resources (natural, human, capital) with at least one example of each, and explain how resources are used to satisfy needs and wants.",
+      "typical_width": "Categorise resources as natural, human and capital across a range of goods and services. Distinguish between needs and wants. Explain how resources satisfy both needs and wants, and discuss how resources might be used more sustainably to meet future needs and wants. Include examples drawn from the local community's production of goods and services.",
+      "wider": [
+        "Investigate a specific local industry or community service and identify all three resource types used within it, explaining how each contributes to satisfying community needs and wants.",
+        "Explore the concept of resource scarcity: when demand for a resource exceeds supply, how do communities and governments make decisions about allocation?",
+        "Compare how resource use differs between a resource-rich and a resource-limited community, and evaluate what this means for satisfying needs and wants."
+      ],
+      "elaborations": "E1–E3 grounded typical_width in resource categorisation, needs/wants distinction and local community application. Wider extends through local industry investigation and resource scarcity reasoning."
+    },
+    "AC9HS5S01": {
+      "strand": "HASS Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Develop at least two questions for a HASS inquiry that address a relevant disciplinary concept and that would guide different stages of the investigation.",
+      "typical_width": "Develop a set of questions for a HASS inquiry that includes different question types (probing, open-ended, practical) for different purposes at multiple stages of the inquiry. Questions should address relevant disciplinary concepts and guide source identification and location as well as investigation framing.",
+      "wider": [
+        "Apply question development across two different HASS inquiry topics (e.g. one historical and one geographical) to show that questioning strategies transfer across disciplines.",
+        "Develop a question framework for a practical civic or entrepreneurial project, including questions about resources, protocols, and evaluation criteria — not just disciplinary concepts.",
+        "Evaluate a set of provided inquiry questions against criteria (relevance, scope, purpose) and revise weaker questions with justification."
+      ],
+      "elaborations": "E1–E3 grounded typical_width in question types, stages and source-identification purposes. Wider extends to cross-discipline application and project questioning."
+    },
+    "AC9HS5S02": {
+      "strand": "HASS Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Locate and collect information from at least one primary and one secondary source on a HASS topic, and organise the information using an appropriate format (e.g. timeline, table, annotated map).",
+      "typical_width": "Locate, collect and organise information and data from primary sources (maps, diaries, photographs, fieldwork) and secondary sources (books, internet articles, reports) across multiple HASS topic contexts. Use geospatial tools to collect geographic information. Conduct surveys or interviews to gather primary data. Construct timelines, maps, tables and graphs using appropriate cartographic and data conventions.",
+      "wider": [
+        "Design and conduct a survey or interview for a real community inquiry and organise the results using an appropriate data display tool.",
+        "Use geospatial tools (digital mapping applications) to organise and display geographic information collected through fieldwork or observation.",
+        "Construct a multi-format organiser (e.g. combining a timeline with a consequence wheel) that displays the same information in complementary ways and explains why each format was chosen."
+      ],
+      "elaborations": "E1–E5 provided a wide range of source types and organisational formats for typical_width. Wider extends through survey design, geospatial application and multi-format comparison."
+    },
+    "AC9HS5S03": {
+      "strand": "HASS Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Evaluate information or data in at least one format (e.g. a graph or a set of sources) to identify a pattern, trend or relationship and describe what it shows.",
+      "typical_width": "Evaluate information and data across multiple formats (graphs, maps, written sources) to identify patterns, trends and relationships in HASS topics. Interpret statistical data (line, bar, column, pie graphs) about electoral results, population changes or resource use. Examine visual and written sources to infer relationships in colonial, geographic or civic contexts. Use First Nations Australian sources to explain diverse connections to Country/Place.",
+      "wider": [
+        "Compare patterns identified across two different source types (e.g. a statistical graph and a map) for the same phenomenon, explaining what each source type reveals and what it conceals.",
+        "Explore maps and sources showing First Nations Australians' language groups and Countries to explain the diversity of connections to Country/Place — and evaluate what this reveals about relationships between people and place.",
+        "Investigate a current HASS issue using multiple data formats and construct a summary that synthesises the patterns identified from each."
+      ],
+      "elaborations": "E1–E3 grounded typical_width in data types and source contexts. Wider extends through cross-format comparison and First Nations source engagement."
+    },
+    "AC9HS5S04": {
+      "strand": "HASS Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Evaluate one primary or secondary source to determine its origin, purpose and at least one perspective it represents.",
+      "typical_width": "Evaluate primary and secondary sources to determine origin, purpose and perspectives across a range of HASS topic contexts. Identify inferred messages, stereotypes and over-generalisations in historical and contemporary media. Compare sources to identify similarities and differences in accounts that reflect different perspectives. Evaluate accuracy by checking publication details and comparing sources.",
+      "wider": [
+        "Compare two sources offering conflicting accounts of the same historical event (e.g. colonial descriptions of Burke and Wills vs First Nations Australian perspectives) and evaluate the origin and purpose of each to explain why they differ.",
+        "Analyse a contemporary media source (e.g. social media opinions about an industry or environmental issue) using the same origin-purpose-perspective framework applied to historical sources — identifying similarities and differences in how bias operates.",
+        "Evaluate a set of how-to-vote cards or campaign materials by checking their origin and purpose, identifying persuasive techniques, and comparing perspectives represented."
+      ],
+      "elaborations": "E1–E3 grounded typical_width in source evaluation, stereotype identification and comparative analysis. Wider extends to cross-era comparison and contemporary source analysis."
+    },
+    "AC9HS5S05": {
+      "strand": "HASS Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Draw a conclusion based on identified evidence from at least two sources, stating which evidence supports the conclusion and distinguishing it from a conclusion based on personal preference.",
+      "typical_width": "Develop evidence-based conclusions from primary and secondary sources that consider differing information, demonstrate understanding of disciplinary concepts, and address the inquiry question. Explain how the sources used may have influenced the validity of conclusions (reliability, date, provenance). Acknowledge where different sources point in different directions.",
+      "wider": [
+        "Draw conclusions across two different inquiry topics (e.g. one historical and one geographical) using different source types for each — demonstrating that the evidence-based conclusion skill transfers across HASS disciplines.",
+        "Evaluate the conclusions of a published historical account against the evidence it uses, identifying where the author's source selection strengthens or limits their conclusion.",
+        "Construct an argument for the most valid interpretation of a contested historical event, explicitly addressing the strongest competing conclusion with counter-evidence."
+      ],
+      "elaborations": "E1–E5 grounded typical_width in validity, source consideration and concept integration. Wider extends through cross-discipline application and evaluating published conclusions."
+    },
+    "AC9HS5S06": {
+      "strand": "HASS Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Propose one action or response to a HASS issue or challenge and use at least two criteria to assess its possible effects, identifying at least one potential positive and one potential negative outcome.",
+      "typical_width": "Propose and assess multiple actions or responses to HASS issues across environmental, civic and economic contexts. Apply criteria to evaluate options (economic, environmental, health, social factors). Participate in democratic decision-making processes. Make judgements about how effectively challenges have been addressed in historical and contemporary contexts.",
+      "wider": [
+        "Undertake a complete project cycle: identify a challenge, propose a response, specify strategies and timeline, execute the project, and evaluate its effects against predetermined criteria.",
+        "Forecast probable futures for a specific environmental issue (e.g. introduced species population growth) using evidence, and propose preferred futures with rationale.",
+        "Compare how effectively two different historical or contemporary responses to the same type of challenge achieved their goals — using consistent criteria across both cases."
+      ],
+      "elaborations": "E1–E6 provided a rich range of response contexts and criteria types for typical_width. Wider uses the project-cycle approach from E2 and the forecasting approach from E1."
+    },
+    "AC9HS5S07": {
+      "strand": "HASS Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Present a description or explanation of a HASS inquiry finding, referencing at least two sources and using at least three subject-appropriate terms correctly.",
+      "typical_width": "Present descriptions and explanations of HASS inquiry findings that draw on ideas, findings and viewpoints from a range of source types (letters, graphs, tables, timelines, photographs). Use accurate and subject-appropriate terminology across HASS disciplines (historical, geographic, civics and economics terms). Reference sources appropriately within the presentation.",
+      "wider": [
+        "Produce a multimodal presentation combining written explanation with visual evidence (maps, graphs, photographs) and explain how each source type contributes to the account.",
+        "Present findings on the same inquiry topic in two different text formats (e.g. an informative report and a persuasive argument) and reflect on how the format shapes what can be communicated.",
+        "Compose a presentation that integrates perspectives from sources representing different viewpoints and shows how conflicting perspectives were handled."
+      ],
+      "elaborations": "E1–E2 grounded typical_width in source types and disciplinary terminology. Wider extends through multimodal production, format comparison and perspective integration."
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10A03",
+    "title": "Exponential functions",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "recognise the connection between algebraic and graphical representations of exponential relations and solve related exponential equations, using digital tools where appropriate",
+    "prior_knowledge": "Students can experiment with parameter variation on graphs and generalise emerging patterns using digital tools (AC9M9A06). They have not yet worked specifically with exponential relations \u2014 identifying them from tables, connecting their algebraic and graphical representations, or solving exponential equations.",
+    "progression_endpoint": "Students recognise exponential relations from tables, equations and graphs; connect algebraic and graphical representations of exponential functions; and solve related exponential equations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising exponential relations",
+        "progression_checkpoint": "Students can identify an exponential relation from a table of values by recognising a constant multiplicative ratio between consecutive dependent variable values.",
+        "minimum_width": "Given a table of values, determine whether the relationship is exponential by checking whether consecutive dependent variable values have a constant ratio; contrast with linear (constant difference) and quadratic (constant second difference).",
+        "typical_width": "Identify exponential, linear and quadratic relations from tables of values; articulate the distinguishing feature of each (constant ratio, constant first difference, constant second difference); generate tables for given exponential rules and verify the constant ratio property.",
+        "wider": [
+          "Investigate real data sets (e.g. population counts, compound interest balances, radioactive decay measurements) and classify the underlying relationship from table features",
+          "Explore what happens to the constant ratio when the base is between 0 and 1 (decay) vs greater than 1 (growth) and predict graph shape from the ratio"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often confuse exponential with linear or quadratic growth, especially when the exponential starts slowly. Multiple table types (growth, decay, different bases) build the pattern recognition needed to distinguish reliably.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies an exponential relation from a table by calculating and confirming the constant multiplicative ratio",
+          "Student distinguishes an exponential table from a linear table by identifying the structural difference (ratio vs difference)"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify exponential relations from tables, they cannot ground the graphical features (N2) or representations work (N3) in pattern recognition \u2014 both subsequent nodes require students to have the ratio-as-indicator firmly established."
+      },
+      {
+        "id": 2,
+        "label": "Graphical features of exponential functions",
+        "progression_checkpoint": "Students can sketch or interpret the graph of an exponential function, identifying key features including the y-intercept, asymptote, and whether it represents growth or decay.",
+        "minimum_width": "Identify the y-intercept and horizontal asymptote of an exponential graph; state whether the function shows growth or decay; connect the base value to the graph's behaviour.",
+        "typical_width": "Describe and sketch the graphs of exponential functions y = a\u02e3 for a > 1 (growth) and 0 < a < 1 (decay); identify y-intercept, asymptote, domain and range; use digital graphing tools to investigate the effect of varying the base and coefficient.",
+        "wider": [
+          "Investigate the effect of transformations (vertical stretch, vertical translation) on exponential graphs using digital tools; conjecture and test rules for how parameters affect the graph",
+          "Compare exponential growth curves for different bases (e.g. 2\u02e3 vs 3\u02e3 vs 10\u02e3) and relate the visual rate of increase to the constant ratio in the corresponding tables"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The horizontal asymptote concept is frequently misunderstood \u2014 students need explicit reasoning about why y \u2192 0 but never reaches 0, and how this connects to the algebraic form. Scaffolding this reasoning prevents persistent errors in interpretation.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Exploring how base and coefficient parameters affect graph shape \u2014 using digital tools to vary and conjecture \u2014 is genuinely rich investigation territory. Advancing students can develop a general understanding of exponential function transformations that connects to the modelling work in AC9M10A04.",
+        "success_criteria": [
+          "Student correctly identifies the y-intercept and horizontal asymptote from an exponential graph or equation",
+          "Student states whether an exponential function represents growth or decay and connects this to the base value"
+        ],
+        "related_standards": [
+          "AC9M10A04",
+          "AC9M10A05"
+        ],
+        "hinge": true,
+        "hinge_reason": "Asymptote misconceptions block N3 \u2014 students who cannot correctly interpret the horizontal asymptote cannot move fluently between algebraic and graphical representations, because the asymptote is the key feature distinguishing the graphical form."
+      },
+      {
+        "id": 3,
+        "label": "Connecting algebraic and graphical representations",
+        "progression_checkpoint": "Students can move fluently between the algebraic equation and graphical representation of an exponential relation, reading key information from each form.",
+        "minimum_width": "Given an exponential equation, identify the key graphical features; given an exponential graph, write or identify the corresponding equation.",
+        "typical_width": "Translate between algebraic and graphical representations of exponential functions in multiple directions; use digital tools to verify connections; extract information from graphs to form equations; use equations to predict graphical features before plotting.",
+        "wider": [
+          "Investigate how digital tools with symbolic manipulation reveal that the same exponential relationship can be expressed in multiple equivalent algebraic forms",
+          "Explore the connection between the constant ratio in a table, the base in the equation, and the steepness of the graph \u2014 building a unified understanding across all three representations"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Moving fluently between table, equation and graph is the integration goal \u2014 students who can work with each representation individually but cannot translate between them have compartmentalised rather than connected knowledge. This node is where the three representations become one coherent object."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies key graphical features (y-intercept, asymptote, growth/decay) from a given exponential equation",
+          "Student writes or identifies the exponential equation corresponding to a given graph"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Solving exponential equations",
+        "progression_checkpoint": "Students can solve simple exponential equations by writing both sides in terms of a common base and equating exponents.",
+        "minimum_width": "Solve a simple exponential equation where both sides can be expressed as powers of the same base (e.g. 2\u02e3 = 8).",
+        "typical_width": "Solve exponential equations by expressing both sides with a common base; apply exponent laws where necessary before equating; use graphical methods (intersection) as a check; investigate equations requiring digital tools where exact algebraic solution is not accessible.",
+        "wider": [
+          "Investigate how First Nations Australian Ranger programs' population modelling using exponential equations requires solving for time \u2014 connecting equation-solving to meaningful applied problems on Country/Place",
+          "Explore how digital tools can solve exponential equations graphically (intersection method) and discuss the relationship between the graphical and algebraic approaches"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only see equations with obvious common bases (powers of 2) struggle when different bases appear. Varied base combinations build the flexible base-matching thinking needed."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly rewrites both sides of an exponential equation using a common base",
+          "Student solves for the exponent and verifies the solution by substitution"
+        ],
+        "related_standards": [
+          "AC9M10A04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

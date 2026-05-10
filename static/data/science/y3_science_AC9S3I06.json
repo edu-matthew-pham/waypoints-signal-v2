@@ -1,0 +1,98 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3I06",
+    "title": "Communicating",
+    "description": "write and create texts to communicate findings and ideas for identified purposes and audiences, using scientific vocabulary and digital tools as appropriate",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can share questions, predictions, observations and ideas with others in simple forms (AC9S1I06, 1-2 band). They have not yet written or created texts that are explicitly structured for a purpose and audience, or used scientific vocabulary deliberately for communicative effect.",
+    "progression_endpoint": "Students write and create texts to communicate science findings and ideas for identified purposes and audiences, selecting appropriate text forms and scientific vocabulary, and using digital tools where appropriate.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Texts have purpose, audience and appropriate vocabulary",
+        "progression_checkpoint": "Students can identify the purpose of a science text, its intended audience, and how purpose and audience influence the vocabulary and structure of the text.",
+        "minimum_width": "Students identify the purpose and audience of a given science text and explain at least one way the text is shaped by those factors.",
+        "typical_width": "Students compare two texts communicating similar science content for different purposes or audiences (e.g. an informative report vs a persuasive poster) and identify structural and vocabulary differences.",
+        "wider": [
+          "Examine how First Nations Australians share information about water sources or ecological knowledge using different forms — oral, visual, spatial — and discuss what each form communicates that others don't",
+          "Explore a range of text forms used in science communication (journal abstract, news article, infographic, documentary) and identify what purpose and audience each serves",
+          "Discuss how digital tools change what is possible in science communication — interactivity, multimedia, global reach"
+        ],
+        "hinge": true,
+        "hinge_reason": "Purpose-audience awareness is the prerequisite for deliberate text construction in Node 3. Students who have not internalised how purpose and audience shape vocabulary and structure default to a single writing style regardless of the task, making Node 3's selection-and-creation demand impossible to meet.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The purpose-audience-vocabulary relationship is non-obvious. Students default to a single writing style regardless of purpose or audience without scaffolding. Making the relationship explicit (who will read this → what do they need to understand → what vocabulary suits them → what structure helps them?) supports more deliberate text construction.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the purpose and audience of a given science text",
+          "Explains at least one way the text's vocabulary or structure is shaped by its purpose or audience"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using scientific vocabulary in writing",
+        "progression_checkpoint": "Students can use appropriate scientific vocabulary in their writing to communicate about science findings, selecting terms that are precise and appropriate for the purpose and audience.",
+        "minimum_width": "Students use at least four science vocabulary terms accurately in a piece of written science communication.",
+        "typical_width": "Students use scientific vocabulary purposefully — not just inserted, but used to communicate precise meaning that everyday words would not achieve — and explain the choice of at least one term.",
+        "wider": [
+          "Produce an informative text using scientific vocabulary to explain the impact of introduced predators on food chains — applying U-strand vocabulary in an HE context",
+          "Construct a report using scientific vocabulary to explain which materials are best suited for particular products — connecting vocabulary from U04 to a written analytical task",
+          "Investigate how vocabulary use differs between a formal science report and a community-facing poster about the same topic — which terms stay, which are replaced, and why"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to use scientific vocabulary as decoration rather than for precision — inserting terms without using them to carry meaning. Writing across multiple science contexts (food chains, water cycle, forces, materials) in different text forms helps students build a working sense of when scientific vocabulary adds precision and when simpler language suffices."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least four science vocabulary terms accurately and in context (not just listed)",
+          "At least one use of scientific vocabulary achieves precision that an everyday word could not"
+        ],
+        "related_standards": ["AC9S4U01", "AC9S4U02", "AC9S4U03", "AC9S4U04"]
+      },
+      {
+        "id": 3,
+        "label": "Selecting form and creating a text for purpose and audience",
+        "progression_checkpoint": "Students can select an appropriate text form for a given science communication purpose and audience, and create a text in that form that communicates findings or ideas clearly.",
+        "minimum_width": "Students create a text in a given form (informative text, poster, report, model) that communicates science findings for a specified purpose and audience.",
+        "typical_width": "Students select and justify a text form for a given science communication purpose, create the text using appropriate vocabulary and structure, and evaluate whether the text achieves its purpose.",
+        "wider": [
+          "Create a poster, song, slideshow or performance to encourage the school community to save water — choosing and justifying the form for the purpose and audience",
+          "Represent feeding relationships in multiple forms (written explanation, labelled diagram, physical model, oral presentation) and compare what each communicates most effectively",
+          "Use digital tools to create a multi-modal science text and discuss what the digital form allows that a written or drawn form cannot"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating a science text for purpose and audience requires students to simultaneously apply vocabulary knowledge, form knowledge, purpose-audience reasoning, and their science content knowledge. All four dimensions must be coordinated in a single product. Students who have each element separately must now deploy them together — this is the integration challenge of the node.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The multi-form communication direction — representing the same findings in written, visual, and performance formats — offers genuine richness and connects to creative communication. The water conservation community text creates a genuine communicative purpose that gives students a real reason to think carefully about audience and form.",
+        "success_criteria": [
+          "Creates a text in the specified or selected form that communicates the required science findings or ideas",
+          "Uses at least two science vocabulary terms accurately in the text",
+          "Text is structured appropriately for the identified purpose and audience"
+        ]
+      }
+    ]
+  }
+}

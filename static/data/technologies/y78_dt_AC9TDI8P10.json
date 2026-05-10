@@ -1,0 +1,167 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P10",
+    "title": "Evaluate against future impact",
+    "description": "Evaluate existing and student solutions against the design criteria, user stories and possible future impact",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can evaluate solutions against design criteria, user stories and broader community impact (AC9TDI6P06). They have evaluated whether solutions meet criteria, but have not yet considered possible future impact across economic, environmental, or social dimensions, or evaluated for safety and misinformation risks.",
+    "progression_endpoint": "Students evaluate existing and student solutions against design criteria and user stories, and analyse the possible future impact of solutions across economic, environmental and social dimensions, including safety, misinformation and sustainability considerations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Evaluating existing solutions against criteria",
+        "progression_checkpoint": "Students can evaluate existing digital solutions against design criteria and user stories to inform their own design decisions.",
+        "minimum_width": "Evaluate a given existing solution against at least two design criteria and one user story; state whether each is met and explain why.",
+        "typical_width": "Evaluate a solution against multiple criteria and user stories; distinguish between fully met, partially met and unmet requirements; suggest specific improvements for unmet requirements",
+        "wider": [
+          "Evaluate a real commercial platform against Safety by Design principles for young people — are privacy settings comprehensive, easy to use, and set to maximum protection by default?",
+          "Limited width — evaluation against criteria is a consistent analytical process. More criteria or more solutions is practice, not broader application. The genuine breadth comes from the variety of impact dimensions at Nodes 2 and 3."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluating against criteria requires students to make a judgement and back it with evidence — met/partially met/unmet is a three-way assessment that demands more than 'yes' or 'no'. Scaffolding the evaluation structure (criterion → evidence from solution → judgement → implication) prevents students from producing opinion-based assessments dressed as criteria evaluation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot evaluate evidence against criteria in a structured way cannot perform impact analysis at Nodes 2–3 — both require the same judgement pattern (evidence → assessment → implication). Evaluation of their own solution at Node 4 also directly depends on this skill.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Evaluates an existing solution against specific criteria rather than personal preference",
+          "Identifies whether each criterion is met, partially met or unmet with evidence"
+        ],
+        "related_standards": [
+          "AC9TDI8P08",
+          "AC9TDI8P04"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Analysing impact of existing solutions",
+        "progression_checkpoint": "Students can analyse the possible future impact of existing digital solutions across economic, environmental and social dimensions to inform their own design.",
+        "minimum_width": "Identify at least one possible future impact of an existing solution across one dimension; explain whether the impact is positive, negative or mixed.",
+        "typical_width": "Analyse a solution across at least two dimensions; identify both positive and negative impacts; explain trade-offs where a solution benefits one dimension but costs another",
+        "wider": [
+          "Research how cloud computing services create sustainability trade-offs — decreased data loss but vast electricity consumption for servers",
+          "Investigate how a specific technology (e.g. recommendation algorithms, ride-sharing platforms) has produced unintended social or economic consequences"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Analysing impact across different technology types (cloud services, recommendation algorithms, ride-sharing) helps students see that positive and negative impacts co-occur across contexts and dimensions. Single-technology impact analysis risks treating the technology as uniquely harmful or beneficial.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The cloud sustainability trade-off and unintended social consequences directions are genuinely rich — they require students to analyse real cases where positive and negative impacts co-exist, rather than assigning simple positive/negative labels.",
+        "success_criteria": [
+          "Identifies at least one impact across at least one dimension",
+          "Explains whether the impact is positive, negative or mixed with reasoning",
+          "Identifies a trade-off between dimensions where relevant"
+        ],
+        "related_standards": [
+          "AC9TDI8K02"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Safety, misinformation and ethical risks",
+        "progression_checkpoint": "Students can evaluate digital solutions for safety risks, misinformation potential and ethical concerns, and assess whether solutions protect users appropriately",
+        "minimum_width": "Identify at least one safety or ethical risk in a given digital solution; explain who is affected and how",
+        "typical_width": "Evaluate a solution for safety risks (user control, privacy defaults), misinformation potential (AI-generated content, recommendation amplification), and ethical concerns; suggest design changes that would reduce identified risks",
+        "wider": [
+          "Evaluate how AI-generated content on social media platforms creates misinformation risks — the potential for high volumes of automatically generated misleading content",
+          "Assess a real platform used by students against Safety by Design principles — does it enable users to control their safety and experience?"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Safety, misinformation and ethical risks integrate the criteria evaluation (Node 1) and impact analysis (Node 2) into a more demanding evaluative task — students must identify a risk, explain who is affected, and suggest a design change, which requires drawing on both prior nodes simultaneously.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Safety by Design and AI-generated misinformation directions provide a rich contemporary context — evaluating real platforms that students actually use makes the ethical stakes concrete and the analysis substantive.",
+        "success_criteria": [
+          "Identifies at least one safety, misinformation or ethical risk in a solution",
+          "Explains who is affected by the risk and how",
+          "Suggests at least one design change that would reduce an identified risk"
+        ],
+        "related_standards": [
+          "AC9TDI8K02",
+          "AC9TDI8P14"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Evaluating your solution against criteria",
+        "progression_checkpoint": "Students can systematically evaluate their own digital solution against design criteria and user stories, identifying where it meets, partially meets or fails to meet requirements.",
+        "minimum_width": "Evaluate your own solution against at least two design criteria and one user story; state whether each is met and explain why.",
+        "typical_width": "Evaluate a solution against multiple criteria and user stories; distinguish between fully met, partially met and unmet requirements; suggest specific improvements for unmet requirements",
+        "wider": [
+          "Evaluate a real commercial platform against Safety by Design principles for young people — are privacy settings comprehensive, easy to use, and set to maximum protection by default?",
+          "Limited width — evaluation against criteria is a consistent analytical process. More criteria or more solutions is practice, not broader application. The genuine breadth comes from the variety of impact dimensions at Nodes 2 and 3."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluating against criteria requires students to make a judgement and back it with evidence — met/partially met/unmet is a three-way assessment that demands more than 'yes' or 'no'. Scaffolding the evaluation structure (criterion → evidence from solution → judgement → implication) prevents students from producing opinion-based assessments dressed as criteria evaluation."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Evaluates own solution against specific criteria rather than personal preference",
+          "Identifies whether each criterion is met, partially met or unmet",
+          "Provides evidence from the solution to support each judgement"
+        ],
+        "related_standards": [
+          "AC9TDI8P08",
+          "AC9TDI8P04"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Analysing impact of your solution",
+        "progression_checkpoint": "Students can analyse the possible future impact of their own digital solution across economic, environmental and social dimensions.",
+        "minimum_width": "Identify at least one possible future impact of your own solution across one dimension; explain whether the impact is positive, negative or mixed.",
+        "typical_width": "Analyse a solution across at least two dimensions; identify both positive and negative impacts; explain trade-offs where a solution benefits one dimension but costs another",
+        "wider": [
+          "Research how cloud computing services create sustainability trade-offs — decreased data loss but vast electricity consumption for servers",
+          "Investigate how a specific technology (e.g. recommendation algorithms, ride-sharing platforms) has produced unintended social or economic consequences"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Analysing impact across different technology types (cloud services, recommendation algorithms, ride-sharing) helps students see that positive and negative impacts co-occur across contexts and dimensions. Single-technology impact analysis risks treating the technology as uniquely harmful or beneficial.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The cloud sustainability trade-off and unintended social consequences directions are genuinely rich — they require students to analyse real cases where positive and negative impacts co-exist, rather than assigning simple positive/negative labels.",
+        "success_criteria": [
+          "Identifies at least one impact across at least one dimension",
+          "Explains whether the impact is positive, negative or mixed with reasoning",
+          "Identifies a trade-off between dimensions where relevant"
+        ],
+        "related_standards": [
+          "AC9TDI8K02"
+        ]
+      }
+    ]
+  }
+}

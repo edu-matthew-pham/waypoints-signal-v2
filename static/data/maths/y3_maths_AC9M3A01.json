@@ -1,0 +1,99 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3A01",
+    "title": "Addition and subtraction as inverse operations",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "recognise and explain the connection between addition and subtraction as inverse operations, apply to partition numbers and find unknown values in number sentences",
+    "prior_knowledge": "Students can recognise, describe and create additive patterns using numbers, shapes and objects; identify missing elements in sequences (AC9M2A01). They have not yet formally articulated the inverse relationship between addition and subtraction or applied it to find unknowns in number sentences.",
+    "progression_endpoint": "Students recognise and explain that addition and subtraction are inverse operations, and apply this to partition numbers and find unknown values in number sentences.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Inverse relationship",
+        "progression_checkpoint": "Students can explain, using a part-part-whole model or bar model, why addition and subtraction are inverse operations.",
+        "minimum_width": "Use a part-part-whole diagram for one set of related addition and subtraction facts (e.g. 16+8=24, 24-8=16, 24-16=8), explaining the connection.",
+        "typical_width": "Represent multiple sets of related addition and subtraction facts using part-part-whole diagrams, bar models and number lines; explain the inverse relationship for each.",
+        "wider": [
+          "Explore First Nations Australian stories and dances that represent balance and transformation, connecting to the concept of inverse operations",
+          "Investigate how the inverse relationship extends to multiplication and division — introducing the structural pattern across operation families"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often accept the fact families mechanically without understanding why they work. Multiple representations (part-part-whole, bar model, number line, story context) help students see the structural reason rather than memorise pairs.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Conceptual understanding of the inverse relationship is the foundation for Nodes 2 and 3 — systematic partitioning and finding unknowns both require students to understand why an inverse operation works, not merely remember which operation to apply. Students who only have mechanical fact-family recall cannot flexibly solve unknowns in varied positions.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Connecting addition/subtraction inverse to multiplication/division as a structural pattern is genuinely enriching — students encounter a big idea in mathematics (operation families) that recurs at every year level.",
+        "success_criteria": [
+          "Students can write all four related facts in an addition/subtraction fact family for a given set of three numbers.",
+          "Students can explain why addition and subtraction are inverse operations using a diagram or model."
+        ],
+        "related_standards": ["AC9M3N03", "AC9M3A02"]
+      },
+      {
+        "id": 2,
+        "label": "Partitioning using inverse operations",
+        "progression_checkpoint": "Students can use the inverse relationship to partition numbers in multiple ways and record all related facts.",
+        "minimum_width": "Given a total of 24, find at least three different part-part-whole partitions and write all related addition and subtraction facts for each.",
+        "typical_width": "Systematically partition numbers using part-part-whole models; record complete fact families; explain how partitioning relates to the inverse operation.",
+        "wider": [
+          "Explore how many ways a given number can be partitioned, connecting to combinatorics thinking (e.g. 'How many ways can 12 be split?')",
+          "Apply systematic partitioning to problem-solving: 'The answer is 30 — what could the question be?' using both addition and subtraction"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Systematic exploration of all partitions for a number builds fluency with fact families and prepares students for algebraic thinking by demonstrating that a number has multiple equivalent decompositions."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can generate multiple partitions of a given number and write the related addition and subtraction facts.",
+          "Students can explain the relationship between the partitions and the fact family."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Finding unknowns in number sentences",
+        "progression_checkpoint": "Students can find the unknown value in addition and subtraction number sentences using the inverse operation.",
+        "minimum_width": "Solve three number sentences with unknowns in different positions (e.g. □+8=24, 24-□=8, □-8=16) using the inverse operation, showing reasoning.",
+        "typical_width": "Solve a range of number sentences with unknowns in any position, using inverse operations; represent the strategy clearly including with a calculator check.",
+        "wider": [
+          "Explore unknowns in word problems where the unknown position varies — 'Peter had some money, spent $375, now has $158; how much did he start with?'",
+          "Connect number sentences with unknowns to algebraic equations — introducing box/variable notation as a preview of formal algebra"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Unknown-in-different-positions problems require students to reason about the structure of the equation, not just apply a procedure. Explicit scaffolding of 'which operation undoes the given one?' prevents random guessing.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "integration",
+            "reason": "Finding unknowns integrates the inverse relationship and partitioning ideas — students who have understood nodes 1 and 2 can approach unknowns flexibly; those who haven't will guess."
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Finding unknowns in number sentences is directly applied in AC9M3N06 mathematical modelling — practical problems frequently require students to find a missing value from a number sentence. Students who cannot apply the inverse operation to unknowns in varied positions will be unable to solve formulated problems where the unknown is not in the most familiar position.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Connecting to algebraic equations and variable notation provides significant richness — students see that the unknown-in-a-sentence is a preview of the formal algebra they will encounter at Y7.",
+        "success_criteria": [
+          "Students can find the unknown in a number sentence where the unknown is in any position.",
+          "Students can explain which inverse operation they used and why."
+        ],
+        "related_standards": ["AC9M3N03", "AC9M3N06"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9K06",
+    "title": "Tourism, Leisure and Place Impacts",
+    "description": "the effects on places of people's travel, recreational, cultural or leisure choices, and the strategies for managing the impacts on these places",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how people's activities affect the characteristics of places (Y7-8). They have not examined tourism and leisure as a structured driver of environmental, economic and social change, nor examined management plans that integrate cultural and scientific knowledge to address these impacts.",
+    "progression_endpoint": "Students explain the causes of global tourism growth and its environmental, economic and social impacts on places, predict how future trends may affect places, and examine management strategies that integrate cultural and scientific knowledge to manage these impacts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Causes and growth of global tourism",
+        "progression_checkpoint": "Students can discuss the causes of global tourism growth",
+        "minimum_width": "Identify at least three causes of global tourism growth (e.g. increased disposable income, cheaper air travel, improved communications, globalisation)",
+        "typical_width": "Explain how economic, technological and social factors have combined to drive global tourism growth; connect causes to the scale of international tourist movement",
+        "wider": [
+          "Analyse how social media and travel platforms have changed the distribution of tourist demand — which places attract more tourists as a result, and why?",
+          "Compare the causes of mass tourism growth with the rise of niche tourism (e.g. ecotourism, pilgrimage tourism) — explain what different demand drivers operate",
+          "Examine how COVID-19 disrupted global tourism and what this revealed about the economic dependencies tourism creates"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Causes of tourism growth are multi-factor. Students who identify only one or two causes (usually 'more money and cheaper flights') miss the social and technological dimensions. Multiple contexts surface the full range."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least three distinct causes of global tourism growth",
+          "Explains how at least two causes are interconnected",
+          "Connects causes to the volume and global reach of tourist movement"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Environmental, economic and social impacts of tourism",
+        "progression_checkpoint": "Students can explain the environmental, economic and social impacts of tourism on places and predict how future trends may affect these impacts",
+        "minimum_width": "Identify at least one environmental, one economic and one social impact of tourism on a named place; explain the mechanism of each impact",
+        "typical_width": "Explain the environmental (habitat degradation, pollution, carbon footprint), economic (income, employment, dependency) and social (cultural change, displacement, commodification) impacts of tourism on places popular with tourists; predict how space tourism or post-COVID recovery may affect places",
+        "wider": [
+          "Examine pilgrimage tourism (e.g. Mecca, Vatican City, Varanasi) as a distinct case — explain how religious tourism produces different impact profiles compared with mass leisure tourism",
+          "Analyse how overtourism affects a specific place — identify which impacts are reversible and which are not",
+          "Predict how space tourism could affect near-Earth orbital environments — extend the impact framework to a new frontier"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish environmental, economic and social impacts — and explain their mechanisms — cannot evaluate whether management strategies address the right impact type in Node 3. Conflating all impacts as generically 'bad for the environment' prevents strategy evaluation.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Impact categorisation (environmental/economic/social) is the organising framework for this descriptor and for S05 strategy evaluation. Students who cannot distinguish impact types with mechanism explanations produce undifferentiated impact lists. Scaffolding the three-category structure with mechanism for each ensures students have the analytical framework Node 3 requires.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Pilgrimage and space tourism are both named in the elaborations as prediction contexts. These extend the impact framework beyond the familiar leisure tourism case and give advancing students genuinely different impact profiles to analyse.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Pilgrimage tourism and space tourism are productively different cases — pilgrimage tourism operates at extraordinary scale with deep cultural significance for visitors, producing different economic and social dynamics than leisure tourism; space tourism raises questions about impact in environments that have no existing management framework. Both directions require students to extend and stress-test the impact framework rather than just apply it.",
+        "success_criteria": [
+          "Identifies at least one environmental, one economic and one social impact of tourism",
+          "Explains the mechanism of each impact rather than just naming it",
+          "Makes a prediction about how a future tourism trend will affect a place"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Management strategies integrating cultural and scientific knowledge",
+        "progression_checkpoint": "Students can examine how management plans integrate cultural and scientific knowledge and experience to manage the effects of people's travel and leisure choices",
+        "minimum_width": "Identify at least one management strategy for a tourist place; explain how it addresses a specific impact from Node 2; identify whether it uses cultural, scientific or both types of knowledge",
+        "typical_width": "Examine how management plans such as that for Uluru-Kata Tjuta National Park integrate cultural knowledge and experience, scientific knowledge and past governance experience to manage the effects of tourism; explain how this integration produces better management outcomes than either alone",
+        "wider": [
+          "Compare the management approaches of two tourist places with different cultural and environmental contexts — explain why their management strategies differ",
+          "Examine how past governance failures at a tourist site (e.g. Uluru climbing ban history) shaped the current management approach — what was learned?",
+          "Evaluate whether a specific management strategy (e.g. visitor quotas, cultural protocols, zoning) addresses the root cause of an impact or its symptoms"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates tourism causes (Node 1) and impact types (Node 2) with management logic — strategies must address specific impacts using appropriate knowledge types. Uluru-Kata Tjuta is the elaboration's named case and is ideal for demonstrating cultural-scientific knowledge integration. Teaching investment should ensure students connect the strategy back to the impact it addresses.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Uluru-Kata Tjuta management case is rich precisely because it demonstrates that effective environmental management requires integrating First Nations cultural authority with scientific land management — neither is sufficient alone. Advancing students who examine the history of the climbing ban gain a nuanced case study of governance, cultural knowledge and scientific evidence working together (eventually) effectively.",
+        "success_criteria": [
+          "Identifies at least one management strategy for a tourist place",
+          "Explains how the strategy addresses a specific impact identified in Node 2",
+          "Identifies how the strategy integrates cultural and/or scientific knowledge"
+        ]
+      }
+    ]
+  }
+}

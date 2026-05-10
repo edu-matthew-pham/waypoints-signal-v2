@@ -1,0 +1,92 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5M03",
+    "title": "12- and 24-hour time",
+    "strand": "Measurement",
+    "description": "Compare 12- and 24-hour time systems and solve practical problems involving the conversion between them",
+    "prior_knowledge": "Students can calculate durations and work with am/pm time (AC9M4M03). They have not yet compared the two systems structurally or converted systematically.",
+    "progression_endpoint": "Students compare 12- and 24-hour time systems and solve practical problems involving conversion between them.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Comparing the two systems",
+        "progression_checkpoint": "Students can describe the structural difference between 12- and 24-hour time and explain why 24-hour time is used in some contexts.",
+        "minimum_width": "Describe the key difference between the systems; read a given time in both formats.",
+        "typical_width": "Compare the two systems across a full 24-hour cycle; identify where confusion arises (12:00 noon/midnight, 13:00 onwards); explain why 24-hour time is unambiguous.",
+        "wider": [
+          "Investigate professions that use 24-hour time (transport, military, medicine) and why",
+          "Explore time zones and how 24-hour notation avoids am/pm ambiguity across zones"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student reads a given time correctly in both 12- and 24-hour format",
+          "Student explains the structural advantage of 24-hour notation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Converting between systems",
+        "progression_checkpoint": "Students can convert times between 12- and 24-hour systems, including times after noon and around midnight.",
+        "minimum_width": "Convert a given am or pm time to 24-hour notation and vice versa; demonstrate correct handling of noon and midnight.",
+        "typical_width": "Solve conversion problems across a full cycle including edge cases (12:00am, 12:00pm, 00:00); apply in practical contexts (timetables, schedules).",
+        "wider": [
+          "Read and interpret real transport timetables in 24-hour time",
+          "Calculate journey durations from 24-hour timetables"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Conversion accuracy requires internalising the +12/-12 rule for pm times with the noon/midnight exception. This is a precision skill where targeted practice reduces systematic errors.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The noon/midnight edge cases (12:00am = 00:00, 12:00pm = 12:00) are persistent misconceptions. Multiple contexts exposing these cases help students build correct mental models.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Conversion accuracy is the prerequisite for Node 3 — students with noon/midnight errors produce systematically wrong duration calculations when times span these boundaries.",
+        "success_criteria": [
+          "Student converts between systems correctly including noon and midnight",
+          "Student applies conversions to read a practical timetable"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Solving duration problems with 24-hour time",
+        "progression_checkpoint": "Students can calculate durations using 24-hour time and solve practical scheduling problems.",
+        "minimum_width": "Calculate the duration between two times given in 24-hour format; solve a simple scheduling problem.",
+        "typical_width": "Solve multi-step duration problems using 24-hour times; calculate arrival times, departure times and durations from timetables; handle problems that cross midnight.",
+        "wider": [
+          "Interpret real transport timetables and plan multi-leg journeys",
+          "Calculate time differences across time zones using 24-hour notation"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Duration calculation with 24-hour times requires consistent application of the subtraction process; errors at midnight-crossing cluster here and need targeted practice."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student calculates a duration between two 24-hour times correctly",
+          "Student solves a practical scheduling problem using 24-hour time"
+        ]
+      }
+    ]
+  }
+}

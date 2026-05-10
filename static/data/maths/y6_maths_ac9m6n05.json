@@ -1,0 +1,100 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N05",
+    "title": "Add and subtract fractions",
+    "description": "Solve problems involving addition and subtraction of fractions using knowledge of equivalent fractions",
+    "strand": "number_concepts",
+    "mode": "A",
+    "prior_knowledge": "Students can solve problems involving addition and subtraction of fractions with the same or related denominators using different strategies (AC9M5N05). They can compare and order fractions using equivalence (AC9M6N03). They have not yet added or subtracted fractions with unrelated denominators requiring a common denominator to be found.",
+    "progression_endpoint": "Students can solve problems involving addition and subtraction of fractions with different denominators using knowledge of equivalent fractions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Finding a common denominator for calculation",
+        "progression_checkpoint": "Students can find a common denominator for fractions with unrelated denominators and convert both fractions before adding or subtracting.",
+        "minimum_width": "Find a common denominator for two fractions with different denominators; convert both to equivalent fractions with the common denominator; perform the addition or subtraction and simplify the result.",
+        "typical_width": "Find common denominators for pairs of fractions across a range of denominator combinations; convert, calculate, and simplify results; select the lowest common denominator where possible for simpler calculations.",
+        "wider": [
+          "Explore why using the lowest common denominator reduces simplification effort \u2014 compare calculations using different common denominators for the same pair of fractions",
+          "Investigate adding three fractions with different denominators and develop an efficient multi-step approach"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Finding common denominators for unrelated fractions is procedurally demanding and error-prone at this stage. Errors in denominator selection or numerator conversion cascade directly into incorrect sums. Fluency with this procedure is the prerequisite for problem-solving application.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Accurate common denominator finding and numerator conversion is the procedural foundation for Node 2 (mixed numerals) and Node 3 (problem contexts). Students who cannot reliably convert will produce wrong results in every subsequent fraction addition and subtraction task.",
+        "success_criteria": [
+          "Student correctly finds a common denominator for two fractions with different denominators.",
+          "Student converts both fractions correctly and calculates the sum or difference."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Adding and subtracting mixed numerals",
+        "progression_checkpoint": "Students can add and subtract mixed numerals, managing the conversion between mixed numerals and improper fractions where needed.",
+        "minimum_width": "Add or subtract two mixed numerals with the same denominator; add or subtract two mixed numerals requiring common denominator work; handle regrouping in subtraction (where the fractional part of the subtrahend is larger).",
+        "typical_width": "Add and subtract mixed numerals with different denominators; convert between mixed numeral and improper fraction forms as needed; apply in problem contexts including measurement and capacity.",
+        "wider": [
+          "Compare methods for adding mixed numerals (add wholes and fractions separately vs convert to improper fractions first) and identify when each is more efficient",
+          "Solve multi-step problems requiring both addition and subtraction of mixed numerals"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Subtraction of mixed numerals where regrouping is needed (e.g. 3\u00bd \u2212 1\u00be) requires a multi-step reasoning chain that students often short-circuit. Explicitly scaffolding the logical steps \u2014 recognise the fractional subtrahend is larger, regroup one whole into a fraction, then subtract \u2014 prevents procedural collapse.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Regrouping in mixed numeral subtraction is a structural failure point: students who short-circuit the reasoning chain produce negative fractional parts and cannot self-correct. This node must be secure before Node 3 problem contexts, which embed mixed numeral operations in multi-step situations.",
+        "success_criteria": [
+          "Student adds two mixed numerals with different denominators correctly.",
+          "Student subtracts mixed numerals including cases requiring regrouping."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Fraction addition and subtraction in problems",
+        "progression_checkpoint": "Students can solve contextual problems that require adding and subtracting fractions, selecting appropriate strategies and interpreting results.",
+        "minimum_width": "Solve at least two word problems involving addition or subtraction of fractions with different denominators; show working including the common denominator step; interpret the answer in context.",
+        "typical_width": "Solve a range of problem types involving fraction addition and subtraction \u2014 including sharing contexts, measurement contexts, and problems requiring a sequence of operations; justify solution approach and check reasonableness of result.",
+        "wider": [
+          "Design problems for a partner that require fraction addition and subtraction in authentic contexts, and evaluate whether the fractions chosen are realistic",
+          "Investigate fraction patterns \u2014 e.g. the sum of consecutive unit fractions \u2014 and describe what happens as more terms are added"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Problem-solving with fractions requires students to identify the operation needed, select the correct common denominator procedure, execute the calculation, and interpret the result in context. These are coordinated skills \u2014 the integration is the point of this node.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Fraction addition and subtraction problems span a wide range of authentic contexts \u2014 cooking, measurement, sharing, part-whole relationships \u2014 that offer genuine breadth for advancing students. Each context foregrounds a different aspect of fraction meaning.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly solves a word problem involving addition or subtraction of fractions with different denominators, showing the common denominator step.",
+          "Student interprets the answer in the context of the problem."
+        ]
+      }
+    ]
+  }
+}

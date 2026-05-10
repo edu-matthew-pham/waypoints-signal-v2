@@ -1,0 +1,131 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P09",
+    "title": "Implement programs with functions",
+    "description": "Implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can implement algorithms as visual programs involving control structures, variables and input (AC9TDI6P05). They have programmed in visual/block-based environments but have not yet used a general-purpose text-based language, defined functions, or systematically debugged programs.",
+    "progression_endpoint": "Students implement working programs in a general-purpose language (e.g. Python, JavaScript) using branching, iteration, variables and functions; read and modify existing code to change functionality; and debug programs by identifying and fixing errors.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Writing programs with control structures",
+        "progression_checkpoint": "Students can write programs in a general-purpose language using branching, iteration and variables to solve problems",
+        "minimum_width": "Write a program that uses at least one branching structure and one loop with variables to solve a given problem",
+        "typical_width": "Write programs using nested control structures (IF inside loops, loops with conditionals) to solve more complex problems; use meaningful variable names and comments",
+        "wider": [
+          "Write a program that receives data from the environment to change behaviour (e.g. reading moisture from a soil sensor to control a watering system)",
+          "Apply programming to an open-ended student-chosen problem with self-selected context"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "The transition from visual/block-based to text-based programming requires building syntax fluency. Width is thin — Python syntax doesn't vary across contexts. What helps is more practice: writing more small programs, fixing more syntax errors, building comfort with the text environment.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot write syntactically correct programs in a text-based language cannot define or call functions (Node 2), read and modify existing code (Node 3), or debug programs (Node 4). Syntax errors block all subsequent production skills in this standard.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Writes a program that runs without syntax errors",
+          "Program uses at least one branching structure and one loop",
+          "Variables are used to store and manipulate data"
+        ],
+        "related_standards": [
+          "AC9TDI8P05",
+          "AC9TDI8P06"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Defining and using functions",
+        "progression_checkpoint": "Students can define functions that accept arguments and produce output, and use them to organise programs into reusable parts",
+        "minimum_width": "Define a function that takes at least one argument and returns or produces output; call the function from the main program",
+        "typical_width": "Define and use multiple functions that produce different output based on their arguments; explain why functions make programs easier to read and maintain",
+        "wider": [
+          "Refactor an existing program by extracting repeated code into functions — explain how the refactored version is easier to modify",
+          "Limited width — function definition is a mechanical programming skill. The breadth comes from the variety of problems they solve, which is captured at Node 1 and Node 3."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Defines a function that accepts at least one argument",
+          "The function produces output that varies based on the argument",
+          "Calls the function correctly from the main program"
+        ],
+        "related_standards": [
+          "AC9TDI8P05"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Reading and modifying existing code",
+        "progression_checkpoint": "Students can read and interpret an existing program, explain what it does, and modify the code to change its functionality",
+        "minimum_width": "Given an existing program, explain what it does; make one modification to change its behaviour and verify the change works",
+        "typical_width": "Read an unfamiliar program (e.g. a weather app showing temperatures); modify it to add functionality (e.g. include rainfall, UV levels); explain what each modification changes",
+        "wider": [
+          "Use AI tools to generate code for a given problem; critically evaluate the generated code for correctness, efficiency and readability before using it",
+          "Read and modify a program written by a peer — identify what they did well and suggest improvements"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Reading and modifying code in different domains (weather apps, data tools, games) builds the transferable reading skill — students who only read code they wrote cannot interpret unfamiliar structure. Variety of program contexts is genuine breadth here.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The AI code generation direction is genuinely rich — critically evaluating generated code for correctness, efficiency and readability requires students to read code analytically rather than just follow it, which is a meaningfully higher engagement.",
+        "success_criteria": [
+          "Explains what an existing program does in plain language",
+          "Makes a modification that changes the program's behaviour as intended"
+        ],
+        "related_standards": [
+          "AC9TDI8P05",
+          "AC9TDI8P06"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Debugging programs",
+        "progression_checkpoint": "Students can identify and fix errors in programs by testing, reading error messages, and tracing program execution",
+        "minimum_width": "Given a program with an error, identify the error and fix it; explain what was wrong",
+        "typical_width": "Debug programs with multiple errors (syntax and logic); use error messages and systematic testing to locate each error; explain the fix for each",
+        "wider": [
+          "Compare debugging strategies — reading error messages vs adding print statements vs using a step-through debugger; explain when each is most useful",
+          "Limited width — debugging is a process applied the same way regardless of program. The variety comes from the programs being debugged, not from the debugging process itself."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Debugging requires a systematic process — read the error message → locate the relevant code → understand what it's trying to do → identify what's wrong → fix and verify. Students who approach debugging by random modification or by re-reading code without a strategy waste time and miss logic errors. Scaffolding the debugging process builds a transferable systematic habit."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the location and type of error in a program",
+          "Fixes the error so the program produces the intended output",
+          "Explains what was wrong and why the fix works"
+        ],
+        "related_standards": [
+          "AC9TDI8P05",
+          "AC9TDI8P06"
+        ]
+      }
+    ]
+  }
+}

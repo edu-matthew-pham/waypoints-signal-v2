@@ -1,0 +1,67 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LY04",
+    "title": "Integrate reading knowledge",
+    "description": "read different types of texts, integrating phonic, semantic and grammatical knowledge to read accurately and fluently, re-reading and self-correcting when needed",
+    "strand": "Literacy / Reading",
+    "mode": "B",
+    "prior_knowledge": "Students read a range of texts accurately and fluently using phonic, semantic and grammatical knowledge (AC9E3LY04). They have not yet practised integrating all three knowledge sources across different text types with self-correction strategies.",
+    "progression_endpoint": "Students can read different text types accurately and fluently by integrating phonic, semantic and grammatical knowledge simultaneously, and apply self-correction strategies — re-reading, pausing, cross-checking — when meaning breaks down.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Three knowledge sources working together",
+        "progression_checkpoint": "Students can explain how phonic, semantic and grammatical knowledge each contribute to fluent reading and how they use all three simultaneously.",
+        "minimum_width": "Explain what each of the three knowledge sources does for a reader: phonic (sounds/letters), semantic (meaning), grammatical (sentence structure).",
+        "typical_width": "Demonstrate understanding that fluent reading requires simultaneous integration of all three sources, explaining how a reader uses all three when encountering an unknown word — checking sound, meaning and grammatical fit.",
+        "wider": [
+          "Analyse what goes wrong when only one knowledge source is applied (e.g. a phonically correct but semantically wrong word choice) and explain how integration corrects this",
+          "Reflect on own reading using the three knowledge sources as a framework, identifying which source is strongest and which needs more attention"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2's self-correction strategies require students to know which knowledge source has failed — without the three-source framework, students cannot diagnose breakdowns and apply targeted correction.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The concept of three integrated knowledge sources is abstract for Year 4 students who read fluently. Making the integration visible requires explicit reasoning about what each source does and how they cross-check.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can name and briefly describe all three knowledge sources",
+          "Can explain that fluent reading uses all three simultaneously, not one at a time"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Self-correction strategies",
+        "progression_checkpoint": "Students can identify and apply self-correction strategies — re-reading, pausing, cross-checking — when reading breaks down.",
+        "minimum_width": "Identify one self-correction strategy and demonstrate its use when reading a challenging text aloud.",
+        "typical_width": "Apply a range of self-correction strategies — re-reading from the start of the sentence, pausing to check meaning, cross-checking across all three knowledge sources — automatically when meaning breaks down in a range of text types.",
+        "wider": [
+          "Reflect on which self-correction strategies are most useful for which types of breakdown (unfamiliar word, complex sentence, unfamiliar topic) and explain why",
+          "Apply self-correction strategies to increasingly complex texts, including subject-specific texts from other curriculum areas"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Self-correction is a fluency habit built through practice. Students who understand the strategies intellectually still need repeated reading practice across texts to internalise them as automatic responses."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can name at least two self-correction strategies",
+          "Demonstrates re-reading or cross-checking when meaning breaks down in reading aloud"
+        ]
+      }
+    ]
+  }
+}

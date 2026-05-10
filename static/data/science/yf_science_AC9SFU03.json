@@ -1,0 +1,67 @@
+{
+  "year_level": "F",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9SFU03",
+    "title": "Materials and Their Properties",
+    "description": "recognise that objects can be composed of different materials and describe the observable properties of those materials",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "No formal prior science learning assumed. Students bring everyday experience of handling objects and materials.",
+    "progression_endpoint": "Students recognise that objects are made of materials, identify the material(s) an object is made from, and describe observable properties of materials using appropriate vocabulary.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Objects are made of materials",
+        "progression_checkpoint": "Students can identify the material an object is made of and recognise that some objects are made of more than one material.",
+        "minimum_width": "Students identify the material of at least three objects and name at least one object made of more than one material.",
+        "typical_width": "Students observe and manipulate objects to identify their materials; recognise that some objects are made of more than one material type; use digital cameras on a materials scavenger hunt; and suggest why different parts of everyday objects (saucepan, clothing) are made from different materials.",
+        "wider": [
+          "Investigate how First Nations Australians make utensils for different purposes by combining different materials — examining purposeful multi-material design",
+          "Use a digital camera to collect images of objects on a materials scavenger hunt",
+          "Suggest why different parts of everyday objects (saucepan handle vs base, clothing layers) are made from different materials"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The object-material distinction — that objects are made of materials, not that they are those materials — is the conceptual move this node must make explicit. First Nations multi-material utensil examples provide a culturally grounded context in which the distinction between the object's purpose and the material's properties is visible.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations multi-material utensil making provides a culturally grounded direction for why material selection matters.",
+        "success_criteria": [
+          "Identifies the material of at least three objects",
+          "Names at least one object made of more than one material and explains why"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 (describing and sorting materials by observable properties) requires students to correctly identify what material an object is made of before they can describe that material's properties. Students who conflate the object with the material (e.g. 'the cup' rather than 'plastic') cannot direct their property observations to the right referent."
+      },
+      {
+        "id": 2,
+        "label": "Materials have observable properties",
+        "progression_checkpoint": "Students can describe observable properties of materials using appropriate vocabulary (colour, hardness, texture, flexibility) and sort materials by those properties.",
+        "minimum_width": "Students describe at least two observable properties of each of three materials using appropriate vocabulary.",
+        "typical_width": "Students sort and group materials by properties (colour, hardness, texture, flexibility); create displays naming materials and exploring property language; describe and compare properties across materials; and recognise that tools like magnifying glasses enable more-detailed observations.",
+        "wider": [
+          "Create a display of different materials, naming each and exploring language to describe properties",
+          "Sort materials by multiple properties — examining that materials can be grouped in different ways",
+          "Recognise that magnifying glasses enable more-detailed observations of material surfaces and textures"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least two observable properties of each of three different materials",
+          "Sorts materials into groups by a named property and explains the rule"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

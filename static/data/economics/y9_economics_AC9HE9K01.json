@@ -1,0 +1,162 @@
+{
+  "year_level": "9",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE9K01",
+    "title": "Australia's Financial Sector",
+    "description": "the role of Australia's financial sector and its effect on economic decision-making by individuals, businesses and global markets",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "From Y8: how markets influence resource allocation decisions and the effect of prices (AC9HE8K01); how businesses adapt to market opportunities and changing work (AC9HE8K02); First Nations Australian businesses and entrepreneurs in markets (AC9HE8K03). Students understand basic market mechanisms and business types but have not yet studied the financial sector's specific role as an intermediary.",
+    "progression_endpoint": "Students explain the role of Australia's financial sector and its effect on economic decision-making by individuals, businesses and global markets.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Structure of the financial sector",
+        "progression_checkpoint": "Students can identify the main types of organisations within Australia's financial sector and describe their core functions.",
+        "minimum_width": "Identify at least two types of financial organisations (e.g. banks, credit unions) and describe one core function each (e.g. collecting deposits, lending funds).",
+        "typical_width": "Identify the range of organisations within Australia's financial sector — banks, credit unions, building societies, insurance companies, superannuation funds — and explain their distinct functions including collecting deposits, pooling savings, lending, providing insurance, and managing long-term savings.",
+        "wider": [
+          "Compare the ownership and governance models of mutual organisations (credit unions, building societies) with shareholder-owned banks, examining how structure affects decision-making and consumer outcomes",
+          "Investigate the role of non-bank financial institutions (e.g. fintech lenders, buy-now-pay-later providers) and how they have changed the structure of Australia's financial sector",
+          "Examine how First Nations Community Development Finance Institutions (CDFIs) provide financial services to underserved communities, comparing their functions with mainstream banks"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish organisational types from functions will conflate what a financial institution is with what it does, causing persistent confusion when explaining how the sector affects decision-making in subsequent nodes.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Use a structured table: institution type → ownership → core function → who it serves. The category-function distinction is non-obvious and benefits from explicit visual scaffolding before moving to effects.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Multiple institution types (banks, credit unions, super funds, insurance companies) in different contexts help students see that the sector is a system of specialised roles, not just 'banks'.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of financial institutions in Australia is broad and culturally varied. First Nations CDFIs, fintech disruptors, and mutual organisations offer rich comparative contexts that reveal how sector structure shapes access and outcomes differently for different communities.",
+        "success_criteria": [
+          "Names at least three types of organisations within Australia's financial sector",
+          "Describes the core function of each named organisation type",
+          "Distinguishes between types (e.g. bank vs credit union) based on ownership or structure"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Financial products and investment",
+        "progression_checkpoint": "Students can explain what investment means and describe how financial products enable individuals to receive future income.",
+        "minimum_width": "Explain the concept of investment using one financial product (e.g. shares or term deposits) to show how it generates future income.",
+        "typical_width": "Explain the nature of investment — committing funds now to receive income in the future — and describe how a range of financial products serve this purpose: shares (dividends, capital growth), term deposits (interest), managed funds (pooled investment), and superannuation (retirement income). Explain how each product generates returns.",
+        "wider": [
+          "Investigate how superannuation functions as Australia's mandatory retirement saving system, examining how fund choice and investment strategy affect long-term outcomes for individuals",
+          "Compare traditional investment products with newer platforms (e.g. micro-investing apps, ETFs) and explain what has changed about how Australians access investment",
+          "Examine ethical investment funds and ESG criteria, exploring how values-based investing has created new product categories and changed investment decision-making"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a repertoire of product types to address the range of elaboration examples. Building this incrementally — one product at a time — before comparing them is more effective than presenting all at once.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of financial products in Australia's market is extensive and rapidly evolving. Superannuation as a mandatory system, ethical investment, and fintech platforms offer contexts that connect to students' own futures and families, creating high engagement and transfer potential.",
+        "success_criteria": [
+          "Explains what investment means (committing funds to receive future income)",
+          "Describes how at least two named financial products generate returns for investors",
+          "Uses correct economic terminology (e.g. returns, interest, dividends, capital growth)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Debt, savings and financial management",
+        "progression_checkpoint": "Students can explain the difference between good and bad debt, describe how to manage debt, and explain why a savings buffer matters.",
+        "minimum_width": "Distinguish good debt (used to build assets or income) from bad debt (consumer debt with high interest) and explain one risk of over-indebtedness.",
+        "typical_width": "Explain the difference between good and bad debt (purpose, interest cost, asset or liability creation), describe strategies for managing debt (budgeting, prioritising repayment, avoiding compound interest traps), explain the risks of over-indebtedness (financial stress, restricted economic decision-making), and explain why a savings buffer provides financial security.",
+        "wider": [
+          "Analyse the growth of buy-now-pay-later services in Australia and evaluate whether they represent a new category of consumer debt risk for young people",
+          "Examine how student loan debt (HECS-HELP) differs from commercial debt in its interest treatment and repayment structure, and explain why this matters for young Australians' decision-making",
+          "Investigate patterns of household debt in Australia compared with other OECD countries, explaining what these patterns reveal about Australian consumer behaviour and financial vulnerability"
+        ],
+        "hinge": true,
+        "hinge_reason": "The good/bad debt distinction is a prerequisite for understanding how the financial sector affects decision-making — students who cannot distinguish productive from unproductive debt cannot analyse the effects of lending practices or consumer financial decisions in subsequent nodes.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The good/bad debt distinction requires students to reason about purpose, cost and outcome simultaneously. A structured decision framework (purpose → interest rate → asset/liability outcome) prevents students from treating 'all debt is bad' as the answer.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Distinguishes good debt from bad debt with reference to purpose and financial outcome",
+          "Identifies at least two risks associated with over-indebtedness",
+          "Explains why maintaining a savings buffer reduces financial risk"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Forces shaping Australia's financial landscape",
+        "progression_checkpoint": "Students can explain the forces that shape and affect Australia's financial landscape, including deregulation, technology, economic conditions and consumer sentiment.",
+        "minimum_width": "Identify and explain one force that has shaped Australia's financial landscape (e.g. financial deregulation or technological change) and describe its effect on financial sector behaviour.",
+        "typical_width": "Explain the range of forces shaping Australia's financial landscape: financial deregulation (opening competition, reducing barriers), technological change (digital banking, fintech, open banking), economic and business activity cycles (how economic conditions affect lending and investment), and consumer and business sentiment (how confidence affects spending, saving and borrowing). Explain how each force affects the behaviour of financial institutions and their customers.",
+        "wider": [
+          "Investigate Australia's financial deregulation in the 1980s — what changed, which institutions were affected, and how it reshaped competition and consumer access to financial products",
+          "Examine how the Royal Commission into Misconduct in the Banking, Superannuation and Financial Services Industry (2018) changed regulation of Australia's financial sector and its effects on consumer protection",
+          "Analyse the emergence of open banking in Australia and explain how data-sharing between institutions is changing competitive dynamics and consumer decision-making"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Each force (deregulation, technology, cycles, sentiment) represents a distinct explanatory context. Using multiple real Australian examples — the 1980s deregulation, the GFC, the rise of fintechs — prevents students from learning only one causal story.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Australia's financial history offers rich case studies — deregulation in the 1980s, the Banking Royal Commission, open banking reforms — that allow students to trace causal chains from policy decisions through to consumer outcomes, building sophisticated economic reasoning.",
+        "success_criteria": [
+          "Names at least two forces that shape Australia's financial landscape",
+          "Explains how each named force affects the behaviour of financial institutions or their customers",
+          "Uses relevant economic terms (e.g. deregulation, sentiment, capital, competition)"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "The financial sector in global markets",
+        "progression_checkpoint": "Students can explain how Australia's financial sector supports businesses in global markets, including payment systems, currency access, insurance and capital.",
+        "minimum_width": "Identify one way Australia's financial sector supports businesses operating in global markets (e.g. currency exchange, payment clearing) and explain why this matters for international trade.",
+        "typical_width": "Explain how Australia's financial sector supports businesses in global markets across the range of elaboration examples: global financial services (trade finance, letters of credit), payment systems (clearing and settlement of international transactions), access to foreign currencies, international insurance, and access to capital for investment in global operations. Explain how each service enables Australian businesses to participate in global trade.",
+        "wider": [
+          "Examine how correspondent banking relationships connect Australian banks to international payment networks and explain the risks when these relationships are withdrawn (derisking)",
+          "Investigate how Australian superannuation funds invest in global markets and explain the effect of this on Australia's financial integration with the global economy",
+          "Analyse a case where disruption to global financial systems (e.g. sanctions, correspondent banking withdrawal) affected Australian businesses or individuals, explaining the channels of effect"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the sector structure (Node 1), financial products (Node 2), and forces shaping the sector (Node 4) into an explanation of how the sector enables global economic participation. Students should connect prior nodes explicitly — the sector's structure enables the services that support global trade.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": ["AC9HE9K02", "AC9HE9K03"],
+        "success_criteria": [
+          "Identifies at least two services the financial sector provides to businesses operating in global markets",
+          "Explains how each named service enables international trade or investment",
+          "Connects financial sector services to economic decision-making by businesses"
+        ]
+      }
+    ]
+  }
+}

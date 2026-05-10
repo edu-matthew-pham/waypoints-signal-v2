@@ -1,0 +1,100 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LA05",
+    "title": "Embedded clauses in complex sentences",
+    "description": "understand how embedded clauses can expand the variety of complex sentences to elaborate, extend and explain ideas",
+    "strand": "Language — Expressing and developing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand that the structure of a complex sentence includes a main clause and at least one dependent clause (AC9E5LA05). They have not yet examined how embedded (relative) clauses are inserted within a main clause to expand noun groups, as distinct from adverbial dependent clauses that follow or precede the main clause.",
+    "progression_endpoint": "Students understand how embedded clauses expand noun groups within complex sentences and can use them to elaborate, extend and explain ideas.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What an embedded clause is",
+        "progression_checkpoint": "Students can identify an embedded (relative) clause within a sentence and distinguish it from a trailing dependent clause.",
+        "minimum_width": "Identify the embedded clause in at least two provided example sentences (e.g. 'The town that was flooded suffered extensive damage'); explain how it is positioned inside the main clause rather than following it.",
+        "typical_width": "Identify and explain embedded clauses across a range of provided sentences; distinguish between adverbial dependent clauses (e.g. 'Because it rained, the game was cancelled') and embedded clauses that expand noun groups within the main clause.",
+        "wider": [
+          "Analyse a paragraph from a curriculum-area text (science, history) and identify where embedded clauses are used and what noun groups they expand",
+          "Compare the effect of an embedded clause vs a trailing clause in conveying the same information (e.g. 'The dog that bit me...' vs 'The dog bit me, and it...')"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish embedded from trailing clauses cannot attempt the Node 2 construction task — they will produce trailing dependent clauses and believe they have met the requirement.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who have only encountered trailing dependent clauses will classify all complex sentences as having the same structure. Encountering embedded clauses in multiple sentence contexts helps students build a more complete model of complex sentence variety.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the embedded clause in at least two provided sentences",
+          "Explains how an embedded clause differs in position from a trailing dependent clause"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using embedded clauses to elaborate ideas",
+        "progression_checkpoint": "Students can construct complex sentences using embedded clauses to elaborate, extend and explain ideas, and explain why they have used an embedded clause in preference to other constructions.",
+        "minimum_width": "Construct at least one sentence using an embedded clause to expand a noun group (e.g. 'Hamish studied the rock samples that he had collected on the excursion'); identify the embedded clause and what noun group it expands.",
+        "typical_width": "Create and use complex sentences with embedded clauses in writing, selecting conjunctions that enable the clauses to elaborate, extend or explain; revise sentences to evaluate whether an embedded clause improves precision and variety.",
+        "wider": [
+          "Experiment with stacking multiple clauses in a sentence and evaluate where embedded clauses create clarity vs. awkwardness",
+          "Edit a piece of own writing to introduce embedded clauses where they add precision, and reflect on the effect"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot produce accurate embedded clauses cannot deploy them in extended writing (Node 3 and AC9E6LY06) — the production skill must be established before the integration task is attempted.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Constructing embedded clauses accurately requires mechanical precision — students need practice producing them in varied sentences before they can deploy them fluently in extended writing. Fluency here enables transfer to AC9E6LY06.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Constructs a grammatically accurate sentence with an embedded clause",
+          "Identifies the embedded clause and names the noun group it expands"
+        ],
+        "related_standards": [
+          "AC9E6LY06"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Embedded clauses in extended writing",
+        "progression_checkpoint": "Students can deploy embedded clauses in extended writing as part of a varied repertoire of complex sentence structures.",
+        "minimum_width": "Produce a short piece of extended writing (at least one paragraph) that uses at least one embedded clause accurately within a varied sentence structure.",
+        "typical_width": "Write extended texts that use embedded clauses alongside other complex sentence structures; evaluate the variety and precision of complex sentences in own writing; edit to improve sentence variety where needed.",
+        "wider": [
+          "Analyse a paragraph from a curriculum-area information report and identify all complex sentence types used, including any embedded clauses",
+          "Rewrite a provided paragraph using a greater variety of complex sentence structures, including embedded clauses, and evaluate the improvement"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Deploying embedded clauses fluently in extended writing requires integrating identification knowledge (Node 1) with production skills (Node 2) in sustained compositional context — the transfer to extended writing is the integration challenge."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces at least one grammatically accurate embedded clause within a piece of extended writing",
+          "Demonstrates at least two different complex sentence structures in the same piece of writing"
+        ],
+        "related_standards": [
+          "AC9E6LY06",
+          "AC9E6LA06"
+        ]
+      }
+    ]
+  }
+}

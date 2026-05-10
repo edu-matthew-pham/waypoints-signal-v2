@@ -1,0 +1,67 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLA05",
+    "title": "Sentences express ideas",
+    "description": "recognise that sentences are key units for expressing ideas",
+    "strand": "Language — Expressing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students use spoken sentences naturally but have not yet reflected on what makes a sentence. They have not yet been asked to distinguish a sentence from a fragment or to identify word order as meaningful.",
+    "progression_endpoint": "Students can identify a sentence as a complete unit that expresses a single idea, distinguish it from a fragment, and recognise that word order affects meaning.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "A sentence is complete",
+        "progression_checkpoint": "Students can identify that a sentence expresses a complete idea — it makes sense on its own.",
+        "minimum_width": "Identify whether a group of words is a complete sentence or a fragment in one example.",
+        "typical_width": "Recognise the difference between a sentence fragment and a complete sentence; identify sentences in familiar texts; understand that a sentence expresses a single complete idea.",
+        "wider": [
+          "Sort a range of written phrases and sentences into 'complete' and 'not complete' groups and explain the sorting",
+          "Identify sentences and fragments across different text types — labels, books, signs — comparing how completeness shows up in different contexts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding that a sentence is a complete unit is a prerequisite for Node 2 — students cannot reason about word order affecting sentence meaning if they do not yet have a concept of what a sentence is as a unit.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The sentence/fragment distinction can feel arbitrary when only one or two examples are used. Multiple contrasting pairs help build the concept of 'completeness' as a stable criterion.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify a sentence as expressing a complete idea.",
+          "Student can say why a fragment does not make sense on its own."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Word order carries meaning",
+        "progression_checkpoint": "Students can demonstrate that changing word order in a sentence changes — or destroys — its meaning.",
+        "minimum_width": "Identify that two sentences with the same words in different order mean different things (e.g. 'The boy sat on the dog' vs 'The dog sat on the boy').",
+        "typical_width": "Understand that word order in sentences is important for meaning; experiment with reordering words in simple sentences and observe what happens to meaning.",
+        "wider": [
+          "Create multiple sentences from a small set of words in different orders — exploring which orders make sense and which don't",
+          "Compare word order in English sentences with word order in other languages familiar to students in the class"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may think order is arbitrary or that meaning comes only from individual words. Multiple examples — including deliberately nonsensical reorderings — are needed to consolidate that word order is systematically meaningful in English."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can explain that moving words around in a sentence changes what it means.",
+          "Student can produce or identify at least one example of the same words in different order making different sense."
+        ]
+      }
+    ]
+  }
+}

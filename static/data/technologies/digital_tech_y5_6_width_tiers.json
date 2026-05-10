@@ -1,0 +1,251 @@
+{
+  "description": "Width tiers for Digital Technologies Year 5-6 (AC9TDI6). Generated from ACARA v9 elaborations using width_generation_prompt v1.0.",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "band": "5-6",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "For K-strand (concept) descriptors: the minimum phenomena or contexts required to honestly satisfy the descriptor's command term (investigate, examine, explain, explore). For P-strand (capability) descriptors: the minimum task scope where the capability is genuinely demonstrated rather than described.",
+    "typical_width": "For K-strand: the range of contexts and examples covering the descriptor's full scope as elaborated by ACARA. For P-strand: standard classroom task range where the capability is exercised across multiple contexts with appropriate tools and conventions.",
+    "wider": "Enrichment directions that add contexts, phenomena, or task types rather than increasing difficulty within the same context. First Nations contexts are included where elaborations explicitly identify them. Genuine width is not depth-on-fewer-phenomena.",
+    "elaborations": "ACARA v9 elaborations for each descriptor are preserved verbatim as the source record for width tier generation."
+  },
+  "standards": {
+    "AC9TDI6K01": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the main internal components of a single familiar digital system (e.g. a tablet or desktop) and describe the function of each component.",
+      "typical_width": "Investigate the main internal components (CPU, RAM, storage, I/O) across different types of digital systems; explain how components perform specific functions and how they work together for a given task.",
+      "wider": [
+        "Investigate the internal components of a video conferencing system used for telehealth services in remote communities — identifying how specific components support the transmission and display of ultrasound imagery",
+        "Compare internal components across different device categories (smartphone, gaming console, laptop, smart TV) — explaining which components are shared and how the same component type serves different functions in each",
+        "Investigate a historical or purpose-built digital system (e.g. an ATM, a traffic light controller) and identify which internal components are present and which are absent — explaining why"
+      ],
+      "elaborations": [
+        "explaining how digital systems are made up of parts that perform specific functions, for example the processor controls the tablet, performs calculations and manipulates data",
+        "exploring how the central processing unit (CPU), memory and input/output components work together to perform a simple calculation",
+        "investigating the main components in a video conferencing system and their functions, for example a telehealth system used to access ultrasound and other imagery services by communities in areas classified as remote such as those of some First Nations Australians"
+      ]
+    },
+    "AC9TDI6K02": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe at least two ways a digital system can connect to a network, and explain that data is broken into packets and transmitted through multiple devices to reach a destination.",
+      "typical_width": "Examine how digital systems form networks using different connection types (cable, Wi-Fi); describe how data is structured into packets, transmitted through multiple devices, and reassembled at the destination — across a range of network contexts.",
+      "wider": [
+        "Investigate how satellite phones provide network access in remote areas where mobile networks are unavailable, such as homeland communities in Arnhem Land — explaining why different network infrastructure is required",
+        "Investigate what happens when packets are lost or delayed in a network and how devices detect and recover from transmission errors",
+        "Compare network performance across different connection types — explaining how bandwidth, latency, and reliability differ between wired, Wi-Fi, and satellite connections"
+      ],
+      "elaborations": [
+        "explaining how separate systems can be connected in different ways to exchange data, for example how a laptop can be connected to a network via a cable or radio waves",
+        "describing the way data is structured and transmitted through a network, for example broken up into packets (small pieces) and passed from the source, through multiple devices, to the destination",
+        "investigating the use of satellite phones where mobile phone networks are not available, inaccessible or unreliable, for example many homeland communities of Arnhem Land have limited access to mainstream communication networks"
+      ]
+    },
+    "AC9TDI6K03": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain that digital systems store all data as numbers, using at least one example showing how a non-numeric data type (e.g. text) is encoded as a number.",
+      "typical_width": "Explain how different data types — text, numbers, images, sounds — are all ultimately represented as numbers in a digital system; demonstrate that the data type determines what operations are possible on the same value.",
+      "wider": [
+        "Investigate how Unicode encodes characters from non-English scripts and First Nations language characters — explaining why a universal numeric encoding scheme is necessary for global digital communication",
+        "Explore how images are stored as numeric pixel values and what image processing operations (brightness, contrast, filters) this enables — connecting numeric representation to visual transformation",
+        "Investigate how emoji are assigned numeric codes and transmitted as numbers across messaging systems — making the text-as-numbers concept concrete with a familiar context"
+      ],
+      "elaborations": [
+        "representing data using whole numbers and recognising this is how digital systems represent data, for example converting letters in a message to numbers using their position in the alphabet",
+        "explaining how the data type used to represent data changes the operations that can be performed on it, for example adding numbers performs addition whereas adding strings joins them"
+      ]
+    },
+    "AC9TDI6K04": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain that an on/off state in a digital circuit represents 0 and 1, and give one example of a two-state system representing binary data.",
+      "typical_width": "Explore how on/off states (binary) underlie digital data representation; connect the binary foundation to the numeric representation from AC9TDI6K03 — demonstrating that all digital data ultimately reduces to sequences of on/off states.",
+      "wider": [
+        "Collaboratively create a binary representation of a word or phrase in a local First Nations language using beads, switches or symbols — demonstrating that any two-state physical medium can encode binary and displaying as an Acknowledgement of Country",
+        "Investigate historical two-state encoding systems (Morse code, punch cards, telegraph) and explain how the same binary principle appeared in physical technologies before electronic computers",
+        "Investigate how the number of binary digits (bits) determines how many distinct values can be stored — tracing from 1 bit (2 values) to 8 bits (256 values) to explain why more bits enables more complex data"
+      ],
+      "elaborations": [
+        "making collaboratively a long thread with beads representing binary for the letters that spell the Country/Place name in the local First Nations language and English, and could be displayed as a 'binary banner' as an Acknowledgement of Country that we are on the Traditional Lands of the Peoples",
+        "demonstrating that an on/off state in a circuit can represent the digits one and zero, and this is how digital systems represent data",
+        "recognising how the answer to a yes/no question can be represented using on/off states, for example switching a light on or off in a circuit or a long or short dash (beep) in Morse code"
+      ]
+    },
+    "AC9TDI6P01": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Given a stimulus, identify a problem and write at least one user story with a user, need, and reason; connect to at least one design criterion.",
+      "typical_width": "Define a problem from a stimulus by identifying the user group and their needs, writing user stories, and co-developing design criteria that can be used to evaluate solutions — across a range of problem contexts.",
+      "wider": [
+        "Define the problem for a community emergency preparedness solution from the perspective of a family in a bushfire or flood-prone environment — writing user stories that reflect their specific context and constraints",
+        "Investigate how feral animals affect native flora and fauna in a specific region and define the problem from the perspectives of different stakeholders (rangers, farmers, community members) — writing separate user stories for each",
+        "Develop design criteria for a roadside risk rating system that weighs competing constraints — cost, sustainability, timeliness, and accessibility — and explain trade-offs between criteria"
+      ],
+      "elaborations": [
+        "using provided stimulus to identify an issue and writing a user story in groups, for example using a newspaper article to develop a user story, such as: a family in a bushfire or flood-prone environment needs a way to ensure they are prepared in case of an emergency",
+        "discussing possible design criteria based on a stimulus, for example the cost, sustainability and timeliness for a roadside bushfire or flood risk rating system",
+        "investigating the impact that feral animals have on native flora and fauna and how this problem has led to economic development opportunities for groups such as the Arnhem Land Progress Aboriginal Corporation"
+      ]
+    },
+    "AC9TDI6P02": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Design an algorithm with at least one loop with a stopping condition AND at least one branch with more than two alternatives.",
+      "typical_width": "Design algorithms for a range of problem types that combine branching (multiple alternatives) and iteration (condition-controlled loops); represent algorithms in structured form (pseudocode, flowchart, or structured English); compare two algorithms for the same problem.",
+      "wider": [
+        "Design an algorithm for First Nations rangers responding to live feral animal tracking data — combining a monitoring loop with multi-branch response logic depending on the animal's location and trajectory",
+        "Design an algorithm for a multi-digit addition process that uses iteration (column-by-column) and branching (carry or no carry) — connecting algorithmic thinking to a familiar mathematical procedure",
+        "Design two algorithms that solve the same problem, one using nested loops and one using a flat loop with branching — compare clarity and efficiency and explain the trade-off"
+      ],
+      "elaborations": [
+        "designing an algorithm or understanding and modifying an existing algorithm to fix an error or change functionality, for example exploring issues in drought-prone areas to decide when to water a garden, taking into account humidity as well as soil moisture level",
+        "creating the steps, decisions and loops in algorithms and knowing what step they are up to, for example repeating the steps to add 2 digits for each column in multi-digit addition, knowing which column they are adding and when to stop",
+        "constructing more than one sequence of steps that solve the same problem and explaining why one is better than the other, for example specifying the exact route through a maze versus using the right-hand rule that works for all mazes",
+        "modelling a decision that has more than 2 options to select the next step, for example selecting transport IF distance is less than 2 km THEN walk, ELSE IF the distance is less than 5 km THEN ride a bike, ELSE catch the bus",
+        "planning algorithms that repeat until a condition is met, for example keep mixing UNTIL the ingredients are combined or subtracting a number UNTIL the result reaches zero",
+        "designing an algorithm including branching and iteration which responds to data, for example how First Nations Australian rangers use structured procedures to respond to live tracking data that indicates feral buffalo are approaching an environmentally or culturally significant site"
+      ]
+    },
+    "AC9TDI6P03": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Produce a labelled interface design (on paper or digitally) for a specific purpose, showing key elements and layout.",
+      "typical_width": "Design a user interface that addresses an identified user need — including layout, labels, navigation and controls; explain design decisions in relation to the user's task; consider at least one accessibility or usability factor.",
+      "wider": [
+        "Design a user interface then modify it for a visually impaired user — documenting changes to font size, colour contrast, and navigation to support accessibility",
+        "Design a user interface for users from different cultural and language backgrounds — using consistent symbols and layout conventions to support access across language differences",
+        "Design the user interface for a community platform intended for users in a remote area with limited digital literacy — explaining every design decision in terms of the user's capabilities and context"
+      ],
+      "elaborations": [
+        "designing a user interface on paper or using digital tools, for example drawing the designed layout of the landing page of an app to order lunches from the school canteen",
+        "designing a user interface to address an identified need, for example including customisable font size and colour contrast to help users who are visually impaired",
+        "modelling how user interfaces allow people from different cultures and language backgrounds to access information, for example using consistent symbols to represent common actions such as copy, paste and save"
+      ]
+    },
+    "AC9TDI6P04": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Generate at least two distinct design ideas, evaluate them against design criteria, select a preferred design and identify at least one modification needed.",
+      "typical_width": "Generate a range of design ideas, evaluate each systematically against design criteria and user stories, select and justify a preferred design, and document modifications where it falls short of criteria.",
+      "wider": [
+        "Evaluate designs for a game or game controller from the perspective of a wider range of users (including users with physical limitations) — modifying the preferred design to remove assumptions that exclude some users",
+        "Use a structured decision matrix to evaluate competing design ideas where multiple criteria must be weighed — explaining how to make decisions when no single design satisfies all criteria",
+        "Prototype one modification to the preferred design, apply it, and re-evaluate — going through a full iteration of the design-modify-evaluate cycle"
+      ],
+      "elaborations": [
+        "ideating a range of possible design ideas, discussing them and judging them against the design criteria and user stories, for example using the design criteria to put design ideas in order of preference in a group discussion",
+        "suggesting modifications to the preferred design idea if it does not satisfy all design criteria and user stories, for example modifying a game or game controller so that it can be used by a wider range of players"
+      ]
+    },
+    "AC9TDI6P05": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Write a visual program that stores user input in a variable, uses that variable in at least one branch or loop, and produces correct output — with at least one error identified and fixed.",
+      "typical_width": "Implement algorithms as visual programs that combine variables, multi-branch decisions, and condition-controlled loops; test with multiple inputs; locate and fix errors by comparing expected and actual outputs.",
+      "wider": [
+        "Write a program simulating First Nations Australian rangers' automated gate-closing task — using iteration to monitor a condition and branching to select a response",
+        "Write an interactive quiz program combining variables (score counter), branching (correct/incorrect feedback), and a loop (repeat for each question) — testing with inputs that trigger all branches",
+        "Write a Turtle Graphics program that draws a rotated shape a specified number of times using a loop and variable-controlled rotation angle — verifying by predicting the output before running"
+      ],
+      "elaborations": [
+        "writing and editing programs to solve problems using branching, iteration and variables in a visual programming environment, for example writing a program to draw a rotated shape a given number of times using Turtle Graphics",
+        "writing programs that take input from the user or environment and storing that input in a variable for later use, for example asking the user how many shapes to draw in a circle and using that to calculate the number of iterations and angle to rotate each time",
+        "writing programs that make decisions involving multiple alternatives, for example an interactive quiz that checks if the answer is correct, gives feedback and updates the score, or gives a final grade based on the score",
+        "writing programs that repeat multiple steps based on the user's input, for example repeatedly drawing a shape a given number of times, shifting the position between each iteration",
+        "stating the expected behaviour of a program, running the program to check it is correct and fixing any errors, for example 'when I press the left arrow key, the cat should move left, finding the cat moves right, and fixing it by changing the 10 to -10 to alter the direction'",
+        "programming digital systems to perform automated tasks, such as closing gates, for example simulating the work of First Nations Australian rangers attempting to lure and capture feral animals"
+      ]
+    },
+    "AC9TDI6P06": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Evaluate a solution against at least two design criteria or user stories with evidence, and identify at least one broader community impact.",
+      "typical_width": "Evaluate both an existing and a student solution against design criteria, user stories and safety features; explain how the solution affects different community groups beyond its intended users.",
+      "wider": [
+        "Evaluate an existing solution against Safety by Design principles for young people — identifying specific safety features, naming the risks they address, and identifying gaps",
+        "Evaluate how an AI-generated output (e.g. a biography of a local leader) compares to authoritative sources — treating verification of AI content as an evaluation criterion in its own right",
+        "Investigate community systems (transport timetables, emergency alert systems, licence databases) and evaluate who benefits and who is excluded — connecting design decisions to equity outcomes"
+      ],
+      "elaborations": [
+        "evaluating the effectiveness of their own solutions to address the identified problem from the user stories, for example checking if the information created for the local interactive history walk is relevant and meets the council's needs",
+        "evaluating how an existing solution provides users with safety tools and features such as those described in the Safety by Design Vision for Young People, for example having a clearly visible button to easily report and block inappropriate behaviour in an app or on a website",
+        "reflecting on the many systems that are used in the wider community to address a range of problems, for example timetables to manage transport and other services through to details such as storing licence information so that police can enforce road rules",
+        "verifying the correctness of AI-generated content against information known to be factually accurate; for example, comparing the output from a generative text model providing a biography of a local leader with the data published on their official website or other authoritative source"
+      ]
+    },
+    "AC9TDI6P07": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Select at least one digital tool appropriate for a given task and explain why; plan steps and locate content by refining at least one search query.",
+      "typical_width": "Select appropriate digital tools for creating, locating and communicating content across a multi-step task; plan achievable steps and timeframes; apply common conventions; judge content appropriateness for audience.",
+      "wider": [
+        "Plan a multi-tool workflow for a school report — identifying where output from one tool becomes input for another (spreadsheet data → chart → report document → presentation)",
+        "Verify AI-generated content about a specific topic against an authoritative source — explaining what 'appropriate use of autocomplete or generative text' looks like for a specific audience and purpose",
+        "Create a collaborative spreadsheet with a small group to plan and cost a school celebration — applying formulas, shared editing, and file organisation conventions appropriately"
+      ],
+      "elaborations": [
+        "creating achievable steps and timeframes and identifying digital tools needed to produce a solution to a given problem, for example planning what they need to do to create a report on the effectiveness of the school's recycling initiatives",
+        "locating content through search engines and in documents by revising queries and using required search terms, for example reviewing search results and modifying search terms to make the query more accurate",
+        "creating appropriate content that reflects planning as well as new external factors, for example uploading a draft of a report on a local government issue to the teacher for feedback as part of an iterative process",
+        "creating content for a school celebration, for example designing a collaborative spreadsheet that can be used by a small group to plan and cost their graduation party, together with a folder of tagged resources which support the planning",
+        "judging the tone and appropriateness for the intended audience of text generated using autocomplete; for example, deciding that the predictive text was too formal for a conversation with a friend and rewriting it in more casual language"
+      ]
+    },
+    "AC9TDI6P08": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Organise shared project files with a logical naming and folder structure, and demonstrate at least two agreed online behaviours during a collaborative task.",
+      "typical_width": "Select appropriate tools for sharing content and project collaboration; manage files for shared access; apply agreed online behaviours including cultural protocols and intellectual property conventions across a project.",
+      "wider": [
+        "Apply cultural protocols when sharing content relating to First Nations Australians' cultural artefacts online — identifying what permissions and attributions are required and demonstrating them in practice",
+        "Moderate an online class forum or shared document — explaining each moderation decision in terms of the agreed community standards",
+        "Present content for a school or community audience (e.g. parents and citizens meeting) via an online forum — selecting tools and formats appropriate for participants with different levels of digital familiarity"
+      ],
+      "elaborations": [
+        "following a previously created plan to report back to the class on a given problem, using digital tools, for example small groups reporting on the best location for a new skate park in the local government area",
+        "defining and acting collectively using online community standards and valuing the work of others, for example moderating language and behaviour in an online class forum, not deleting the work of collaborators, and respecting others' intellectual property",
+        "naming, organising and storing files in a way that allows for easy retrieval of shared content, for example labelling the main folders by topic, such as school garden project, and then creating sub-folders for each section of the project, such as 'plans', 'designs' and 'implementation'",
+        "demonstrating agreed behaviours; following cultural protocols, including relevant permissions and attributions; acknowledging diversity, capability and strength; and addressing risks and responsibilities such as privacy, security, and accuracy of data; for example when sharing images of First Nations Australians' cultural artefacts",
+        "using a range of communication tools to share ideas and information with stakeholders, for example presenting content for a school celebration such as a graduation celebration with the parents and citizens association or school executive in an online forum"
+      ]
+    },
+    "AC9TDI6P09": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "depth_fallback",
+      "minimum_width": "Explain what makes a passphrase strong and describe the risk cascade when the same password is reused across multiple accounts.",
+      "typical_width": "Access multiple accounts using unique passphrases; explain in detail how reusing a password across accounts enables an attacker to access additional accounts after one compromise — naming the specific accounts and the consequences of each.",
+      "wider": [
+        "Explain how credential stuffing attacks automate the reuse of leaked credentials across multiple websites — connecting the personal habit of password reuse to a large-scale attack pattern",
+        "Investigate how password managers address the password reuse problem — explaining the security trade-offs involved in storing all credentials in one place",
+        "Limited width — passphrase security and reuse risk is a narrow concept. The genuine enrichment is in the attack mechanisms (credential stuffing, brute force) and mitigation tools (password managers), not in additional contexts for the same concept."
+      ],
+      "elaborations": [
+        "using multiple accounts, each with different passphrases, to access each website or app used for school and home, for example having a different username and password combination for school, gaming and music accounts",
+        "explaining why re-using a password is risky when one of them is found out, for example how a compromised password from one social media account might be able to be used to access their bank or school account if the password is the same and other details are also compromised"
+      ],
+      "width_notes": "Limited width — the concept does not vary meaningfully across contexts at this year band. Credential stuffing and password managers represent genuine enrichment that goes analytically further rather than broader."
+    },
+    "AC9TDI6P10": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Describe at least one scenario where a digital action creates a persistent record; explain why collecting unnecessary personal data creates a privacy risk.",
+      "typical_width": "Explain how digital footprints are created and persist across platforms and time; apply the data minimisation principle to at least two scenarios — identifying what data is necessary and what is unnecessary for a given purpose.",
+      "wider": [
+        "Evaluate a digital sign-up form or app as a designer — applying the data minimisation principle to identify which fields are necessary for the stated purpose and which should be removed",
+        "Explain how personal data shared online can be used to train generative AI models — connecting data collection decisions to long-term privacy consequences that are not immediately visible to the user",
+        "Investigate how digital footprints from multiple platforms combine over time to create a detailed profile — explaining why each individual action seems minor but the cumulative record is significant"
+      ],
+      "elaborations": [
+        "describing scenarios where data, images or both that have been posted online can lead to information being resurfaced at a later date, for example how a comment made on a social media post or video associates a person with both their comment and the content",
+        "explaining why collecting the smallest amount of data needed for a purpose is important to protect someone's privacy, for example how choosing not to collect information about someone's birthdate when it is not necessary ensures that private data cannot be stolen in a cyber attack",
+        "understanding the implications of how personal data can be used to train generative AI models; for example, sharing personal information increases the likelihood that private information is revealed through AI outputs now and in the future"
+      ]
+    }
+  }
+}

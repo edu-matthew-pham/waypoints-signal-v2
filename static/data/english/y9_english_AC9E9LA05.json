@@ -1,0 +1,96 @@
+{
+  "year_level": "9",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E9LA05",
+    "title": "Creative sentence variation for effect",
+    "description": "identify how authors vary sentence structures creatively for effects, such as intentionally using a dependent clause on its own or a sentence fragment",
+    "strand": "Language — Expressing Ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand how complex and compound-complex sentences elaborate, extend and explain ideas (AC9E7LA05). They have not yet examined how authors deliberately violate sentence conventions as a creative device.",
+    "progression_endpoint": "Students identify how authors use intentional structural violations — dependent clauses as sentences, sentence fragments, interrupting clauses — to achieve deliberate effects.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying intentional structural violations",
+        "progression_checkpoint": "Students can distinguish between unintentional sentence errors and deliberate structural violations used for effect.",
+        "minimum_width": "Identify at least one example of a deliberate structural violation (fragment or dependent clause used as a sentence) and explain why it is intentional rather than an error.",
+        "typical_width": "Identify and distinguish intentional sentence fragments, stand-alone dependent clauses, and interrupting clauses in published texts, explaining the markers that signal deliberate rather than erroneous use.",
+        "wider": [
+          "Compare how structural violations in literary fiction versus advertising create different effects — and different conventions about when violation is acceptable",
+          "Examine how spoken language conventions (incomplete sentences, interruptions) are imported into written texts for particular effects"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The concept of intentional violation is confusing for students who have been taught that fragments are 'wrong'. Multiple contexts — literary, advertising, journalism — each have different tolerance for structural violation and different effects. Breadth across contexts resolves the apparent rule-violation confusion.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish intentional from erroneous violations cannot analyse effects at N2 and N3 — they have no principled basis for treating a fragment as a device rather than a mistake to ignore.",
+        "success_criteria": [
+          "Student identifies a structural violation and names the type (fragment, stand-alone dependent clause, interrupting clause)",
+          "Student provides a reason for treating it as intentional (e.g. author, publication context, consistency of device, effect achieved)"
+        ],
+        "related_standards": ["AC9E9LE05", "AC9E9LY06"]
+      },
+      {
+        "id": 2,
+        "label": "Effect of sentence fragments and stand-alone clauses",
+        "progression_checkpoint": "Students can identify how sentence fragments and stand-alone dependent clauses create specific effects — emphasis, rhythm, voice, immediacy.",
+        "minimum_width": "Identify a sentence fragment or stand-alone dependent clause and explain the specific effect it creates (e.g. emphasis, pause, urgency).",
+        "typical_width": "Analyse how fragments, stand-alone dependent clauses and their placement in the surrounding prose create effects of emphasis, rhythm or voice in literary or persuasive texts.",
+        "wider": [
+          "Compare the effect of a fragment at the start versus end of a paragraph, and analyse how position interacts with the device",
+          "Examine how fragments are used differently in first-person narrative versus third-person, and what this reveals about voice and reader positioning"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who can identify fragments still often produce generic effect labels ('it creates tension'). Comparing fragment effects across different positions and genres — and examining what changes and what stays constant — builds the analytical precision needed to move beyond generic effect labelling."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies the structural violation and names a specific effect it creates",
+          "Student explains how the effect connects to the surrounding text — not just the fragment in isolation"
+        ],
+        "related_standards": ["AC9E9LA08", "AC9E9LE05"]
+      },
+      {
+        "id": 3,
+        "label": "Interrupting clauses and their effects",
+        "progression_checkpoint": "Students can identify how interrupting clauses (embedded inside another clause) create effects of qualification, digression, intimacy or irony.",
+        "minimum_width": "Identify an interrupting clause in a text and explain how its placement within another clause creates a specific effect on pace, voice or meaning.",
+        "typical_width": "Analyse how interrupting clauses are used across literary and informational texts to create qualification, digression, intimacy or irony, explaining the effect of the interruption on reader experience.",
+        "wider": [
+          "Compare how the same type of interrupting clause (e.g. parenthetical aside) creates very different effects in fiction versus formal academic writing",
+          "Examine how writers use interrupting clauses to mimic the rhythms of thought or spoken language in stream-of-consciousness or first-person narrative"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node completes the set — fragments, stand-alone clauses, interrupting clauses — as a coordinated toolkit of intentional sentence variation. Students are building an integrated understanding of structural violation as a legitimate authorial resource, not three separate tricks.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Intentional sentence variation connects to authorial voice, style and genre conventions — rich territory for Y9 writers as well as readers. Advancing students can explore how these devices construct distinctive prose styles across authors, which supports both literary analysis and creative writing.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies an interrupting clause (naming the outer and inner clause structure)",
+          "Student explains a specific effect the interruption creates — not just that it 'adds detail'"
+        ],
+        "related_standards": ["AC9E9LE04", "AC9E9LE05", "AC9E9LY06"]
+      }
+    ]
+  }
+}

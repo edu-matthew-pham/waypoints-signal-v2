@@ -1,0 +1,524 @@
+{
+  "description": "Width tiers for Mathematics Year 7 — ACARA v9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "band": "Year 7",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "phenomena_contexts"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest context that honestly satisfies the descriptor's command term. Every student in the class reaches this floor.",
+    "typical_width": "The full scope of the descriptor as ACARA intended — grounded in the most common elaboration cases. Reflects sound standard practice.",
+    "wider": "Enrichment directions that add new phenomena, contexts or applications — not harder versions of the same context. 2–4 discrete directions per descriptor."
+  },
+  "standards": {
+    "AC9M7N01": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "List perfect square numbers from 1 to 144, connect each to a square area diagram, and find the square root of any perfect square up to 144.",
+      "typical_width": "Describe the relationship between perfect square numbers and square roots using notation and area diagrams; locate the approximate position of non-perfect square roots between consecutive integers; solve practical problems involving finding side lengths of squares from area.",
+      "wider": [
+        "Investigate patterns in perfect square numbers — last digit cycles, differences between consecutive squares — and describe the emerging structure.",
+        "Apply the square root relationship to multi-step problems: find the perimeter of a square tile floor given total area, or check whether given dimensions produce a perfect square.",
+        "Explore Pythagorean triples (3, 4, 5) informally — identify whether a² + b² is a perfect square for small natural numbers."
+      ],
+      "elaborations": [
+        "investigating squares of natural numbers from 1 to 20, and connecting them to visual representations such as dots arranged in a square pattern",
+        "using the square and square root notation, and the distributive property and area diagrams to calculate the squares of two-digit numbers",
+        "determining between which 2 consecutive natural numbers the square root of a given number lies; for example, 43 is between the square numbers 36 and 49",
+        "generating a list of perfect square numbers and describing any emerging patterns; for example, the last digit of perfect square numbers, or the differences between consecutive squares",
+        "using the relationship between perfect square numbers and their square roots to determine the perimeter of a square tiled floor using square tiles"
+      ]
+    },
+    "AC9M7N02": {
+      "strand": "number_modelling",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Express a composite number as a product of prime factors using a factor tree, and write the result using exponent notation.",
+      "typical_width": "Apply prime factorisation using repeated division and factor trees; use prime factorisations to find the lowest common multiple and greatest common divisor of pairs of natural numbers; apply LCM and GCD in practical contexts.",
+      "wider": [
+        "Investigate the sequence of powers of 2 (1, 2, 4, 8, 16, 32, ...) and its connection to computing contexts (storage, binary).",
+        "Explore the Fundamental Theorem of Arithmetic informally — demonstrate that different factor trees for the same number converge on the same prime factorisation.",
+        "Apply LCM to scheduling problems: find the time until two cyclic events coincide, such as buses departing at different intervals."
+      ],
+      "elaborations": [
+        "applying knowledge of factors to strategies for expressing natural numbers as products of powers of prime factors, such as repeated division by prime factors or creating factor trees",
+        "developing familiarity with the sequence 1, 2, 4, 8, 16, 32, 64, 128, 256, 512 and powers of 2; the sequence 1, 3, 9, 27, 81 and powers of 3; the sequence 1, 5, 25, 125 and powers of 5",
+        "solving problems involving lowest common multiples and greatest common divisors (highest common factors) for pairs of natural numbers by comparing their prime factorisations"
+      ]
+    },
+    "AC9M7N03": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Write a given natural number in expanded notation using powers of 10, and reconstruct a number from expanded notation.",
+      "typical_width": "Connect place value columns to powers of 10 up to at least 10⁶; apply and explain expanded notation for numbers of varying sizes; explain why 10⁰ = 1.",
+      "wider": [
+        "Investigate how expanded notation makes mental computation transparent — for example, why multiplying 6300 × 100 is equivalent to increasing the exponent by 2.",
+        "Explore the pattern extending to 10⁻¹, 10⁻², as a preview of decimal place value, connecting the sequence to familiar decimal column names.",
+        "Limited width: this descriptor is narrow in scope — the main enrichment is deepening the connection between place value and exponent notation rather than broadening contexts."
+      ],
+      "elaborations": [
+        "investigating exponent notation for powers of 10 such as 'one hundred thousand' is 100,000 = 10×10×10×10×10 = 10⁵",
+        "relating the sequences 10, 100, 1000, 10,000 ... and 10¹, 10², 10³, 10⁴ ...",
+        "applying and explaining the connections between place value and expanded notations; for example, 7000 = 7×10³ and 3750 = 3×10³ + 7×10² + 5×10¹"
+      ]
+    },
+    "AC9M7N04": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Find equivalent fractions using common multiples, simplify fractions to lowest terms, and convert between fraction, decimal and percentage for familiar values.",
+      "typical_width": "Apply equivalence across fraction, decimal and percentage forms for a range of rational numbers; represent positive and negative fractions and mixed numerals on a number line across intervals that are not symmetric about zero.",
+      "wider": [
+        "Investigate repeating decimals (1/3 = 0.333..., 1/7 = 0.142857...) as rational numbers — explore the repeating pattern and what makes it terminate or repeat.",
+        "Explore the density of rational numbers — between any two rationals, find another — and discuss informally what this implies about the number line.",
+        "Apply fraction-decimal-percentage conversion in consumer contexts: comparing discounts, nutrition labels, and interest rates presented in different forms."
+      ],
+      "elaborations": [
+        "investigating equivalence of fractions using common multiples and a fraction wall, diagrams or a number line",
+        "expressing a fraction in simplest form using common divisors",
+        "applying and explaining the equivalence between fraction, decimal and percentage representations of rational numbers; for example, 16%, 0.16, 4/25 are equivalent",
+        "representing positive and negative fractions and mixed numerals on various intervals of the real number line, including intervals that are not symmetric about zero"
+      ]
+    },
+    "AC9M7N05": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Round a decimal to a specified number of decimal places; identify whether a given answer is reasonable using estimation.",
+      "typical_width": "Choose and apply rounding conventions appropriate to different contexts; use multiple estimation strategies (front-end, compatible numbers, rounding) to check reasonableness of solutions across a range of problems.",
+      "wider": [
+        "Investigate contexts where rounding up is always appropriate (paint quantities, person counts) versus contexts where standard rounding applies — develop context-sensitive rounding judgment.",
+        "Explore the effect of rounding at each step of a multi-step calculation versus rounding only the final answer — compare the accumulated error.",
+        "Apply estimation as a pre-calculation strategy to set bounds on expected answers before solving, then verify the computed result falls within bounds."
+      ],
+      "elaborations": [
+        "identifying the interval between a pair of consecutive integers that includes a given rational number",
+        "choosing and applying conventions for rounding correct to a specified number of decimal places based upon the context",
+        "checking that the accuracy of rounding is suitable for context and purpose, such as the amount of paint required and cost estimate for renovating a house"
+      ]
+    },
+    "AC9M7N06": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Add and subtract fractions with unlike denominators; multiply and divide simple fractions; find a percentage of a quantity.",
+      "typical_width": "Apply all four operations to positive rational numbers including fractions, decimals and percentages; select the most efficient representation (fraction, decimal, or percentage) for a given computation; apply commutative and associative properties explicitly.",
+      "wider": [
+        "Investigate why multiplying by a fraction less than 1 produces a smaller result — connect to area model representations and explain the concept.",
+        "Apply rational number operations to percentage increase and decrease in financial contexts: GST, discounts, profit and loss.",
+        "Explore cases where percentage reasoning can mislead: a 50% increase followed by a 50% decrease does not return to the original value."
+      ],
+      "elaborations": [
+        "solving addition and subtraction problems involving fractions and decimals",
+        "choosing an appropriate numerical representation for a problem so that efficient computations can be made, such as 12.5%, 1/8, 0.125",
+        "developing efficient strategies with appropriate use of the commutative and associative properties, place value, patterning, and multiplication facts",
+        "solving multiplicative problems involving fractions and decimals using fraction walls, rectangular arrays, algebra tiles, calculators or informal jottings",
+        "carry out calculations to solve problems using the representation that makes computations efficient such as 12.5% of 96 is more efficiently calculated as 1/8 of 96"
+      ]
+    },
+    "AC9M7N07": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Compare and order integers including negatives using < and > notation; add and subtract integers using a number line.",
+      "typical_width": "Apply < and > notation in expressions; add and subtract integers without a number line; solve practical problems involving addition and subtraction of integers in real contexts (temperature, gain/loss, floors).",
+      "wider": [
+        "Investigate the pattern that subtracting a negative equals adding a positive — explain through number line movement and verify with multiple examples.",
+        "Explore integer operations in financial contexts: running balance problems involving credits and debits over a series of transactions.",
+        "Apply integer reasoning to temperature change problems that chain multiple additions and subtractions across a daily record."
+      ],
+      "elaborations": [
+        "using less-than and greater-than notation in expressions when comparing and ordering integers; for example, negative 5 is less than positive 2 and is represented as -5 < 2",
+        "discussing language such as 'addition', 'subtraction', 'magnitude', 'difference', 'sign' and synonyms of these terms",
+        "ordering, adding and subtracting integers using a number line"
+      ]
+    },
+    "AC9M7N08": {
+      "strand": "number_modelling",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Represent a given ratio using a diagram and ratio notation; share a quantity in a given two-part ratio.",
+      "typical_width": "Distinguish part-part and part-whole ratio interpretations; find equivalent ratios and simplify; share quantities in two- and three-part ratios; apply ratios to practical mixing and sharing problems.",
+      "wider": [
+        "Apply ratios to realistic measurement contexts: mixing liquids with given concentrations, dividing materials in construction or food production.",
+        "Investigate scale ratios in maps and scale drawings — connect the ratio to actual and represented distances.",
+        "Apply ratio sharing to First Nations Australian contexts: investigate proportional relationships in substances or resource allocation, understanding part-part and part-whole relationships."
+      ],
+      "elaborations": [
+        "using diagrams, physical or virtual materials to represent ratios, recognising that ratios express the quantitative relationship between 2 or more groups",
+        "using fractions to solve ratio problems involving comparison of quantities and considering part-part and part-whole relations",
+        "sharing quantities in a given ratio; for example, sharing an amount of money in the ratio 2:3",
+        "applying ratios to realistic and meaningful contexts; for example, mixing 500 millilitres of a liquid with a concentration of 1:4"
+      ]
+    },
+    "AC9M7N09": {
+      "strand": "number_modelling",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Formulate and solve a practical problem involving rational numbers or percentages; express the solution with appropriate units and check reasonableness.",
+      "typical_width": "Use mathematical modelling across a range of practical contexts including financial problems (profit/loss, credits/debits); choose appropriate representations; justify choices; interpret and communicate solutions in terms of the situation.",
+      "wider": [
+        "Model additive situations involving positive and negative quantities: running financial balances, temperature change over a period, height above/below sea level.",
+        "Investigate the proportion of land mass of First Nations Australians' traditional grain belt compared with current agricultural land — use modelling to interpret and communicate findings.",
+        "Model proportion contexts using secondary data: the proportion of students attending school events, recycling refund rates, proportion of bottle cost."
+      ],
+      "elaborations": [
+        "modelling additive situations involving positive and negative quantities; for example, a lift travelling up and down floors in a high-rise apartment",
+        "modelling contexts involving proportion, such as the proportion of students attending the school disco, proportion of bottle cost to recycling refund",
+        "modelling financial problems involving profit and loss, credits and debits, gains and losses; for example, holding a fundraising sausage sizzle",
+        "using mathematical modelling to investigate the proportion of land mass/area of Australian First Nations Peoples' traditional grain belt compared with current agricultural land use"
+      ]
+    },
+    "AC9M7A01": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify variables in a given formula, describe what each represents, and substitute given values to evaluate the formula.",
+      "typical_width": "Recognise and use variables to represent everyday formulas; substitute values to find the result; determine an unknown by substituting known values and solving; verify by substitution back.",
+      "wider": [
+        "Interpret and use formulas from other subject areas: maximum heart rate, density, distance-speed-time — substitute values and interpret results in context.",
+        "Apply formulas in Country/Place contexts: investigate formulas relevant to First Nations Australian land management or traditional ecological knowledge.",
+        "Explore formulas with multiple unknowns where all but one value are given — systematically find the unknown across a range of practical contexts."
+      ],
+      "elaborations": [
+        "linking variables to attributes and measures being modelled when using formulas, such as area of a rectangle as A = l × w",
+        "interpreting and using formulas obtained from other sources; for example, maximum heart rates and target heart rates for moderate exercise",
+        "substituting numerical values for variables when using formulas and calculating the value of an unknown in practical situations; for example, calculating weekly wage W = b + 1.5 × h × r",
+        "using everyday formulas and their application to contexts on Country/Place, investigating the relationships between variables"
+      ]
+    },
+    "AC9M7A02": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Translate a verbal description of a mathematical relationship into an algebraic expression using constants, variables and operations.",
+      "typical_width": "Formulate algebraic expressions involving brackets and multiple operations; translate in both directions (words to algebra, algebra to words); generalise arithmetic patterns to algebraic expressions.",
+      "wider": [
+        "Investigate common translation ambiguities: 'five less than x' versus 'x less five' — use substitution to verify which expression is correct.",
+        "Create word problems that match given algebraic expressions, then exchange with peers for verification — building fluency in both translation directions.",
+        "Explore how the same relationship can be expressed in multiple equivalent algebraic forms — compare 2(x + 3) and 2x + 6 and discuss what each form makes visible."
+      ],
+      "elaborations": [
+        "generalising arithmetic expressions to algebraic expressions involving constants, variables, operations and brackets; for example, 7 + 7 + 7 = 3 × 7, x + x + x = 3 × x",
+        "formulating algebraic expressions that represent mathematical relationships; for example, translating from words to symbols, 'think of a number' problems",
+        "recognising and applying the concept of variable as something that can change in value, investigating the relationships between variables, and the application of formulas"
+      ]
+    },
+    "AC9M7A03": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Solve a two-step one-variable linear equation using backtracking or algebraic method; verify the solution by substitution.",
+      "typical_width": "Solve one-variable linear equations with natural number solutions using algebraic methods; explain each step; always verify by substitution; apply to equations arising from practical word problems.",
+      "wider": [
+        "Compare backtracking and algebraic (balance) methods for the same equations — articulate when each is more efficient.",
+        "Create and solve equations from contextual problems: 'I think of a number' scenarios, perimeter problems, simple fare/cost problems.",
+        "Investigate equations where the solution must be interpreted in context: when must the answer be a whole number? What does a non-integer solution mean?"
+      ],
+      "elaborations": [
+        "recognising that solving an equation is a process of determining a value that makes the equation true; using substitution to determine whether a given value is a solution",
+        "solving equations using concrete materials, the balance model, and backtracking, explaining the process",
+        "solving linear equations such as 3x + 7 = 19 algebraically, and verifying the solution by substitution"
+      ]
+    },
+    "AC9M7A04": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Read values from a graph of authentic data and describe the overall trend and relationship between the two variables in plain language.",
+      "typical_width": "Describe relationships between variables in graphs from authentic data, including direction, rate of change, peaks, plateaus and notable features; interpret what unusual features indicate in context.",
+      "wider": [
+        "Analyse electricity or gas usage graphs over time — identify and explain periods of high/low usage and what real events might explain the shape.",
+        "Use travel graphs to compare journeys: identify periods of travel, stopping and return; estimate average speed from the graph.",
+        "Explore how functions are used in machine learning to model relationships — describe what a linear regression model graph communicates about the data.",
+        "Use graphs of evaporation rates to explore First Nations Australians' methods of water resource management."
+      ],
+      "elaborations": [
+        "using graphs to analyse a building's electricity or gas usage over a period of time, the value of shares on a stock market, or the temperature during the day",
+        "using travel graphs to compare the distance travelled to and from school, interpreting and discussing features of travel graphs such as the slope of lines",
+        "telling the story behind what is being represented in graphs of functions; for example, graphs representing pouring rates or distance versus time",
+        "exploring how functions are used in machine learning to model relationships; for example, in linear regression models",
+        "using graphs of evaporation rates to explore and discuss First Nations Australians' methods of water resource management"
+      ]
+    },
+    "AC9M7A05": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Generate a table of values from a simple linear function rule and plot the ordered pairs on the Cartesian plane.",
+      "typical_width": "Generate tables from growing patterns and function rules; describe the pattern in output values; plot linear relationships on the Cartesian plane; describe the resulting graph and identify that linear rules produce straight lines.",
+      "wider": [
+        "Use a programming language or spreadsheet to generate tables from growing patterns and graph the relationships — connect the code/formula to the algebraic rule.",
+        "Compare two linear functions plotted on the same axes — identify what differs in the graph (steepness, intercept) and connect to differences in the rule.",
+        "Explore a non-linear function (e.g. y = x²) from a table — generate values, plot, and contrast the curved result with linear functions."
+      ],
+      "elaborations": [
+        "plotting points from a table of values generated using simple linear functions and recognising patterns, such as the points lie on a straight line",
+        "discussing and using variables to create a general rule and determine the value of the dependent variable for any given value of the independent variable",
+        "using function machines to generate a table of ordered pairs using input and output values, plotting the relationships on a Cartesian plane",
+        "using diagrams and manipulatives to form linear growth patterns, representing these patterns in tables and describing the relationship",
+        "using a simple general-purpose programming language to create and use algorithms that generate growing patterns and graphing the relationships"
+      ]
+    },
+    "AC9M7A06": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Using a digital tool (spreadsheet or table), vary one variable in a multi-variable formula while holding others constant and describe the effect on the output.",
+      "typical_width": "Systematically vary each variable in a multi-variable formula in turn; describe the effect of each variable; compare which variable produces the largest change in output for an equal proportional variation.",
+      "wider": [
+        "Analyse distance = speed × time using a table — investigate different combinations of speed and time that produce the same distance, and describe the pattern.",
+        "Explore how deep learning models involve multi-variable function manipulation — describe informally what 'parameter tuning' means in this context.",
+        "Investigate how spreadsheet formula functions encode systematic variation: use cell references to automate the variation and compare outputs across a large range."
+      ],
+      "elaborations": [
+        "experimenting with different sets of tables of values from formulas; for example, using volume of a rectangular prism = length × width × height",
+        "using spreadsheets and the formula function to recognise the effect of changing parameters on the entries in cells",
+        "analysing distance travelled for different combinations of average speed and time of travel using a table of values and the distance formula",
+        "exploring how deep learning models used for training artificial intelligence agents can involve the manipulation of mathematical functions with multiple variables",
+        "understanding that the relationship between variables in an artificial intelligence model assists with explainability and interpretability"
+      ]
+    },
+    "AC9M7M01": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Apply the area formula for a triangle (A = ½bh) and a parallelogram to calculate areas given dimensions.",
+      "typical_width": "Derive the area formulas for triangles and parallelograms from the rectangle formula; solve practical problems involving area including composite shapes; select appropriate units.",
+      "wider": [
+        "Apply area formulas to practical estimation problems: cost of materials for irregular spaces by decomposing into triangles and rectangles.",
+        "Investigate First Nations Australian design elements that use triangular and parallelogram forms — calculate areas in context and discuss how the shapes are used.",
+        "Explore the constant area result for triangles with a fixed base and altitude: use dynamic geometry to slide the apex and observe that area is unchanged."
+      ],
+      "elaborations": [
+        "using the formula for the area of a rectangle and the array structure to derive the formula for the area of a triangle and the area of a parallelogram",
+        "using dynamic geometry software to demonstrate how the sliding of the vertex of a triangle at a fixed altitude leaves the area of the triangle unchanged",
+        "using established formulas to solve practical problems involving the area of triangles, parallelograms and rectangles; for example, estimating the cost of materials"
+      ]
+    },
+    "AC9M7M02": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate the volume of a rectangular prism and a triangular prism using V = Ah with appropriate units.",
+      "typical_width": "Connect the cross-sectional area and height to volume for both rectangular and triangular prisms; solve practical problems including unit conversion (cm³ to litres); derive the formula using spatial reasoning.",
+      "wider": [
+        "Solve real-world volume problems: volume of a concrete triangular ramp, capacity of a storage container — including conversion between volume units.",
+        "Investigate composite prisms: decompose an L-shaped or stepped prism into two rectangular prisms and calculate total volume.",
+        "Explore the connection between prism volume and the area of floor space multiplied by number of floors — apply to a building volume estimation problem."
+      ],
+      "elaborations": [
+        "building a rectangular prism out of unit cubes and showing that the measure of volume is the same as would be found by multiplying the 3 edge lengths",
+        "developing the connection between the area of the parallel cross-section (base), the height and volume of a rectangular or triangular prism",
+        "connecting the area of the floor space and the number of floors of a high-rise building to calculate the volume of a building",
+        "using dynamic geometry software, spatial reasoning and prediction to derive the formula for the volume of prisms"
+      ]
+    },
+    "AC9M7M03": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the features of a circle and state their relationships; measure and calculate C/d for a circle and connect the result to π.",
+      "typical_width": "Establish π as the constant ratio C/d through measurement across multiple circles; use C = πd and C = 2πr to calculate circumference and to find diameter given circumference; apply to practical problems.",
+      "wider": [
+        "Investigate historical approximations of π — Archimedes' polygon method, early Chinese and Indian approximations — and evaluate the accuracy achieved.",
+        "Apply circumference to practical problems: number of wheel rotations over a distance, length of a circular track, perimeter of a semicircular shape.",
+        "Explore the applications and significance of circles in the everyday life of First Nations Australians — basketry, symbols, architectural forms — and calculate relevant circumferences."
+      ],
+      "elaborations": [
+        "recognising the features of circles and their relationships to one another; for example, labelling the parts of a circle including centre, radius, diameter, chord, arc",
+        "comparing the circumference of circles in relation to their radius and diameter, to establish measurement formulas",
+        "investigating π as the constant in the proportional relationship between the circumference of a circle and its diameter, and historical approximations",
+        "investigating the applications and significance of circles in everyday life of First Nations Australians such as in basketry, symbols and architecture"
+      ]
+    },
+    "AC9M7M04": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify corresponding, alternate and co-interior angle pairs for parallel lines cut by a transversal; use one angle relationship to find a missing angle.",
+      "typical_width": "Apply all three angle relationships (corresponding equal, alternate equal, co-interior supplementary) to find unknown angles in diagrams; give geometric reasons for each step; apply across varied diagram orientations.",
+      "wider": [
+        "Use dynamic geometry software to explore how the angle relationships change when lines are not parallel — identify when the properties no longer hold.",
+        "Apply angle reasoning to real design contexts: analyse angles in scissor lifts, folding umbrellas, or roof truss designs.",
+        "Construct parallel and perpendicular lines using compasses and ruler — connect the construction process to the angle properties used to verify parallelism."
+      ],
+      "elaborations": [
+        "constructing a pair of parallel lines and a pair of perpendicular lines using their properties, a pair of compasses and a ruler, set squares or using geometry software",
+        "using dynamic geometry software to identify relationships between alternate, corresponding and co-interior angles for a pair of parallel lines cut by a transversal",
+        "using dynamic geometry software to demonstrate how angles and their properties are involved in the design and construction of scissor lifts, folding umbrellas",
+        "using geometric reasoning of angle properties to generalise the angle relationships of parallel lines and transversals"
+      ]
+    },
+    "AC9M7M05": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Demonstrate that the interior angles of a triangle sum to 180° using a concrete method; find an unknown angle in a triangle using the angle sum property.",
+      "typical_width": "Demonstrate the triangle angle sum using paper tearing and dynamic geometry; apply decomposition to find the interior angle sum of quadrilaterals and other polygons; use the general formula (n−2) × 180°; find unknown angles in multi-step problems with geometric reasons.",
+      "wider": [
+        "Investigate the exterior angle sum of convex polygons (always 360°) — connect to the interior angle sum and explain the relationship.",
+        "Explore which regular polygons tessellate and why — connect to the interior angle of each regular polygon and whether it divides 360° exactly.",
+        "Apply angle sum reasoning to isosceles triangles where the base angle property combines with the angle sum to find unknowns."
+      ],
+      "elaborations": [
+        "using concrete materials to demonstrate that the sum of the interior angles of a triangle is 180°; for example, using paper triangles and tearing to demonstrate",
+        "using decomposition and the angle sum of a triangle to generalise the interior angle sum of an n-sided polygon, as 180(n − 2)"
+      ]
+    },
+    "AC9M7M06": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Formulate and solve a practical ratio problem involving measurement quantities (length, capacity or mass); express the solution with appropriate units.",
+      "typical_width": "Use mathematical modelling to solve practical ratio problems across construction, design, food or textile contexts; apply part-part and part-whole interpretations; justify representation choices; interpret and communicate solutions.",
+      "wider": [
+        "Investigate scale ratio problems: design or interpret a scale model or scale drawing, connecting the scale ratio to actual and represented measurements.",
+        "Explore mixing primary colours in various ratios to produce secondary and tertiary colours — model the mixing ratios and predict results.",
+        "Investigate commercialised substances founded on First Nations Australians' knowledge of substances — model the concentration ratios of pharmaceuticals or natural compounds in context."
+      ],
+      "elaborations": [
+        "using fractions to model and solve ratio problems involving comparison of quantities, and considering part-part and part-whole relations",
+        "modelling and solving practical problems involving ratios of length, capacity or mass, such as in construction, design, food or textile production",
+        "modelling the situation using manipulatives, diagrams and/or mathematical discussion; for example, mixing primary colours in a variety of ratios",
+        "investigating commercialised substances founded on First Nations Australians' knowledges of substances including pharmaceuticals and toxins"
+      ]
+    },
+    "AC9M7SP01": {
+      "strand": "space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Draw a valid net for a triangular prism; construct a 3D object from a given net; draw two orthographic views (e.g. top and front) of a given object.",
+      "typical_width": "Identify, draw and test nets of prisms and other 3D objects; draw and interpret isometric drawings and plan/elevation views; reason about which representations show which information.",
+      "wider": [
+        "Investigate all 11 valid nets of a cube — systematically find them and verify each by folding.",
+        "Explore aerial views of real buildings and structures — identify the 3D shape from the footprint and compare with side and front views.",
+        "Investigate two-dimensional representations in First Nations Australians' artworks or cultural maps of Country/Place — discuss what spatial information each representation conveys."
+      ],
+      "elaborations": [
+        "deconstructing packaging to identify shapes and nets",
+        "using different nets to construct prisms and determining which nets will make a cube, rectangular prism, triangular prism or pyramid",
+        "using aerial views of buildings and other three-dimensional structures to visualise the footprint made by the building or structure",
+        "building objects by interpreting isometric and perspective drawings",
+        "using isometric and square grid paper to draw views of front, back, side, top and bottom of objects",
+        "exploring different two-dimensional representations of objects in First Nations Australians' artworks or cultural maps of Country/Place"
+      ]
+    },
+    "AC9M7SP02": {
+      "strand": "space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Classify a given triangle by both side and angle properties; classify a given quadrilateral and state the properties used.",
+      "typical_width": "Classify triangles and quadrilaterals using side and angle properties; identify hierarchical relationships between quadrilateral families; reason about properties of polygons up to octagons including regularity and convexity.",
+      "wider": [
+        "Construct a hierarchy diagram (Venn or tree) of quadrilaterals showing all subset relationships — identify which properties are necessary and which are sufficient for each classification.",
+        "Investigate the triangle inequality: which combinations of three side lengths can form a triangle? Test using physical strips.",
+        "Explore which combinations of side-type and angle-type are possible for triangles: can an equilateral triangle be obtuse? Explain why or why not."
+      ],
+      "elaborations": [
+        "using strips of paper with parallel sides to make triangles and quadrilaterals, and contrasting the rigidity of triangles with the flexibility of quadrilaterals",
+        "constructing triangles with 3 given side lengths and discussing whether any 3 lengths can be used to form the sides of a triangle",
+        "identifying and communicating about side and angle properties of scalene, isosceles, equilateral, right-angled, acute and obtuse triangles",
+        "describing, comparing and contrasting squares, rectangles, rhombuses, parallelograms, kites and trapeziums, explaining the relationships between these shapes"
+      ]
+    },
+    "AC9M7SP03": {
+      "strand": "space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Translate a set of points on the Cartesian plane and describe the translation; reflect a shape across the x-axis or y-axis and state the coordinate rule.",
+      "typical_width": "Perform and describe translations, reflections on both axes, and rotations of 90°, 180° and 270° about the origin using coordinates; identify the coordinate rule for each transformation.",
+      "wider": [
+        "Investigate how two successive reflections across different axes produce a rotation — explore the relationship between the axes and the angle of the resulting rotation.",
+        "Use digital tools to experiment with combinations of transformations and investigate which sequences produce the same result.",
+        "Explore the coordinate rule for rotation by 90° about the origin: (x, y) → (−y, x) — verify with multiple examples and explain why it works."
+      ],
+      "elaborations": [
+        "using digital tools to transform shapes in the Cartesian plane, describing and recording the transformations",
+        "describing patterns and investigating different ways to produce the same transformation, such as using 2 successive reflections to provide the same result as a rotation",
+        "experimenting with, creating and re-creating patterns using combinations of translations, reflections and rotations, using digital tools"
+      ]
+    },
+    "AC9M7SP04": {
+      "strand": "space",
+      "width_axis": "task_contexts",
+      "minimum_width": "Design a flowchart that correctly classifies triangles as scalene, isosceles or equilateral using side properties.",
+      "typical_width": "Design and test classification algorithms (as flowcharts or decision trees) for triangles and quadrilaterals; trace a given algorithm with test inputs; identify and fix errors.",
+      "wider": [
+        "Design an algorithm for broader polygon classification including regularity and convexity — test with edge cases (degenerate polygons, concave shapes).",
+        "Compare two algorithms for the same classification task — evaluate which handles edge cases better and which requires fewer decision steps.",
+        "Implement a classification algorithm in a simple programming language or flowchart tool and test it with a set of generated shapes."
+      ],
+      "elaborations": [
+        "creating a classification scheme for triangles based on sides and angles, using a flow chart using sequences and decisions",
+        "creating a flow chart or hierarchy for quadrilaterals that shows the relationships between trapeziums, parallelograms, rhombuses, rectangles, squares and kites",
+        "creating a classification scheme for regular, irregular, concave or convex polygons that are sorted according to the number of sides"
+      ]
+    },
+    "AC9M7ST01": {
+      "strand": "statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate range, median, mean and mode for a small data set; identify which measure best describes a simple symmetric distribution.",
+      "typical_width": "Acquire data sets for discrete and continuous variables; calculate all four summary statistics; make and justify decisions about which measure of central tendency best represents a given distribution, considering outliers and skewness.",
+      "wider": [
+        "Investigate how outliers affect each statistic differently — construct data sets where mean and median give very different pictures of the centre.",
+        "Explore how descriptive statistics are used by AI developers to summarise data and detect anomalies — connect to real-world AI applications such as fraud detection.",
+        "Acquire continuous numerical data through a measurement experiment or field study; compare measures of central tendency across two groups and explain what the differences suggest."
+      ],
+      "elaborations": [
+        "understanding that summarising data by calculating measures of centre can help make sense of the data, commenting on skewness or symmetry of data",
+        "comparing the mean, median, mode and range of displays of data from a given context, and explaining how outliers may affect summary statistics",
+        "recognising how different data sets can have the same measures of central tendency and experimenting with how varying data affects these measures",
+        "acquire continuous numerical data by taking measurement samples during a science experiment, observation or field study",
+        "exploring how descriptive statistics are used by artificial intelligence developers to summarise and analyse data"
+      ]
+    },
+    "AC9M7ST02": {
+      "strand": "statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Construct an ordered stem-and-leaf plot from a given data set; describe the distribution in terms of shape, centre and spread.",
+      "typical_width": "Create stem-and-leaf plots and other numerical displays; use split or back-to-back stem-and-leaf plots to compare two data sets; describe and compare distributions including outliers; connect display features to summary statistics.",
+      "wider": [
+        "Investigate how artificial intelligence systems use descriptive statistics to identify outliers or anomalies in data — for example, fraud detection or quality control.",
+        "Compare data sets with the same mean but different distributions — use displays to show how summary statistics alone can conceal important structural differences.",
+        "Explore a back-to-back stem-and-leaf plot comparing two groups on a real measurement (e.g. reaction times, heights) and draw conclusions about the populations."
+      ],
+      "elaborations": [
+        "using ordered stem-and-leaf plots to record and display numerical data collected in a class investigation",
+        "comparing variation in attributes by category using split stem-and-leaf plots or dot plots",
+        "connecting features of the data display — highest frequency, clusters, gaps, symmetry or skewness — to the mode, range and median",
+        "using mean and median to compare data sets, identifying possible outliers and explaining how these may affect the comparison",
+        "exploring how artificial intelligence systems can use descriptive statistics to identify outliers or anomalies in data; for example, fraud detection"
+      ]
+    },
+    "AC9M7ST03": {
+      "strand": "statistics",
+      "width_axis": "task_contexts",
+      "minimum_width": "Plan and conduct a simple statistical investigation with a discrete or continuous variable; display data and report findings including shape and at least one summary statistic.",
+      "typical_width": "Plan and conduct statistical investigations with both discrete and continuous variables; analyse and interpret distributions; report findings in terms of shape, centre, spread and context; draw conclusions that address the original statistical question.",
+      "wider": [
+        "Conduct an investigation using secondary data from the Reconciliation Barometer to investigate and report on statistical questions relating to First Nations Australians.",
+        "Design and conduct an investigation testing a claim (e.g. 'teenagers have faster reaction times than adults') — frame the report around evidence for and against the claim.",
+        "Conduct a STEM-linked investigation to evaluate whether a design modification improves a measurable outcome — connect statistical findings to a design decision."
+      ],
+      "elaborations": [
+        "conducting an investigation to draw conclusions about whether teenagers have faster reaction times than adults",
+        "conducting an investigation to support claims that a modification of a STEM related design has improved a measurable outcome",
+        "using secondary data from the Reconciliation Barometer to conduct and report on statistical investigations relating to First Nations Australians"
+      ]
+    },
+    "AC9M7P01": {
+      "strand": "probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "List the sample space for a single-stage event; assign a probability to a specified outcome as a fraction; predict the number of times an outcome will occur in a given number of trials.",
+      "typical_width": "Identify sample spaces for varied single-stage events (coins, dice, spinners, lucky dips); assign probabilities including for non-equally-likely outcomes; predict relative frequencies and compare predictions to theoretical values.",
+      "wider": [
+        "Investigate non-fair devices (biased spinners, weighted dice) — assign probabilities based on proportional sectors and verify that all probabilities sum to 1.",
+        "Explore how relative frequency prediction is used in natural language processing to estimate the likelihood of word sequences occurring.",
+        "Apply probability reasoning to fairness analysis: evaluate whether a described game is fair, and modify the rules to make it fair."
+      ],
+      "elaborations": [
+        "discussing the meaning of probability terminology; for example, 'probability', 'sample space', 'favourable outcome', 'trial', 'experiment' and 'event'",
+        "listing sample spaces for games involving throwing a coin or a dice, spinners, or lucky dip",
+        "exploring how relative frequencies can be used to make predictions by estimating the probability of an event in natural language processing",
+        "assigning the probability for throwing a 6 on a dice and using this to predict the number of times a 6 will occur when a dice is thrown multiple times"
+      ]
+    },
+    "AC9M7P02": {
+      "strand": "probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Conduct a repeated chance experiment for at least 20 trials; record results; compare observed relative frequency to theoretical probability and explain any difference.",
+      "typical_width": "Conduct experiments with increasing numbers of trials using digital simulation tools; observe that relative frequencies approach theoretical probability as trials increase; explain why short-run results can differ significantly from predictions.",
+      "wider": [
+        "Investigate First Nations Australian children's instructive games — for example, Koara from the Jawi and Bardi Peoples of Sunday Island — record and analyse probability outcomes from simulated play.",
+        "Explore the law of large numbers quantitatively: investigate how many trials are needed before relative frequency stays consistently within 5% of the theoretical probability.",
+        "Apply the law of large numbers to real contexts: explain how insurance companies and casinos rely on large trial numbers to ensure predictable long-run outcomes."
+      ],
+      "elaborations": [
+        "developing an understanding of the law of large numbers through using experiments and simulations to conduct large numbers of trials for seemingly random events",
+        "conducting simulations using online simulation tools and comparing the combined results of a large number of trials to predicted results",
+        "exploring and observing First Nations Australian children's instructive games; for example, Koara from the Jawi and Bardi Peoples of Sunday Island in the Kimberley"
+      ]
+    }
+  }
+}

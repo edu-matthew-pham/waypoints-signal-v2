@@ -1,0 +1,73 @@
+{
+  "year_level": "2",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S2U03",
+    "title": "Physical Changes to Materials",
+    "description": "recognise that materials can be changed physically without changing their material composition and explore the effect of different actions on materials including bending, twisting, stretching and breaking into smaller pieces",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can observe and describe properties of materials (AC9SFU03, F band). They have not yet distinguished between changing the form of a material and changing its composition, or systematically explored multiple physical change actions.",
+    "progression_endpoint": "Students recognise that physical actions (bending, twisting, stretching, folding, cutting, crushing) change the shape or size of a material without changing what it is made of, and explore how different materials respond differently to the same physical action.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Physical changes alter shape without changing composition",
+        "progression_checkpoint": "Students can explain that physically changing a material (bending, twisting, stretching, breaking) changes its shape or size but not what it is made of.",
+        "minimum_width": "Students demonstrate at least two physical changes to a material and explain that the material is still the same substance after the change.",
+        "typical_width": "Students manipulate materials (paper, fabric, playdough, wool); apply multiple physical changes (scrunching, twisting, bending, cutting, tearing, folding); explain that the material is still the same even though its shape has changed; and compare the properties of the original and changed material.",
+        "wider": [
+          "Crush a stick of chalk into powder — comparing properties of the stick and powder and discussing whether it is still the same material",
+          "Explore how First Nations Australians make physical changes to natural materials to produce objects such as bowls, baskets and fibre crafts — examining purposeful physical transformation",
+          "Create an 'odd one out' game using samples of the same material changed in different ways plus one different material — applying composition knowledge to a classification challenge"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2 requires students to accept that physical action changes form but not composition before they can reason about why different materials respond differently to the same action. Without the composition-vs-form distinction, students conflate different physical outcomes with different materials — blocking the comparison at N2.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly believe that dramatically changing the shape of a material (crushing chalk, folding paper into a plane) creates a different material. Making the composition-vs-form distinction explicit — the shape changes, what it is made of does not — is the essential conceptual scaffold before students can correctly distinguish physical from chemical change in later years.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies at least two physical changes to a material and names each action",
+          "Explains that the material is still the same substance after a physical change — only its shape or size has changed"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Different actions affect materials differently",
+        "progression_checkpoint": "Students can explore and describe how different physical actions affect different materials and explain how physical changes can be purposeful.",
+        "minimum_width": "Students compare how the same action affects two different materials and describe the result of each.",
+        "typical_width": "Students investigate how different materials respond to the same actions (twisting cotton wool vs paper vs fabric); explore how physical changes can be purposeful (twisting strands of cotton to make thread stronger, folding paper to make it fly); and describe multiple ways the same material can be physically changed.",
+        "wider": [
+          "Explore how materials can be physically changed to suit a particular purpose — twisting cotton to make thread stronger, folding paper to make it fly",
+          "Learn from people who work with materials (woodworkers, fibre artists, sculptors) about how they learn about material properties and use creativity when manipulating them (AC9S2H01)",
+          "Explore how physically changing materials helps us re-use them — connecting physical change to waste reduction"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Material worker perspectives (AC9S2H01) and purposeful change directions provide authentic real-world connections that show physical transformation as intentional and contextually meaningful — enriching the concept beyond classroom manipulation tasks.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Material worker perspectives (AC9S2H01) provide an authentic real-world direction. The purposeful change direction connects physical transformation to design intent.",
+        "success_criteria": [
+          "Compares how the same physical action affects two different materials",
+          "Describes at least one physical change that is purposeful — explaining why the change is useful"
+        ],
+        "related_standards": [
+          "AC9S2H01"
+        ]
+      }
+    ]
+  }
+}

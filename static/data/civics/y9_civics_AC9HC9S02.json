@@ -1,0 +1,69 @@
+{
+  "year_level": "9",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC9S02",
+    "title": "Locate, select and compare information",
+    "description": "locate, select and compare information, data and ideas from a range of sources",
+    "strand": "Civics inquiry skills",
+    "mode": "B",
+    "prior_knowledge": "Students can locate, select and organise information, data and ideas from different sources (AC9HC8S02). At Year 9 the expectation advances from organising to comparing — students are expected to evaluate relative accuracy and reliability across sources, not just find and sort relevant information.",
+    "progression_endpoint": "Students locate, select and compare information, data and ideas from a range of sources, evaluating the accuracy and reliability of different sources.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Locating and selecting relevant information",
+        "progression_checkpoint": "Students can locate information from a range of source types and select what is relevant to their inquiry.",
+        "minimum_width": "Locate information on a civic, political or legal issue from at least two different source types (e.g. a government website and a news article) and select information relevant to the inquiry question.",
+        "typical_width": "Locate information from a range of print and online source types — including statistics, graphs, tables, maps, articles, blogs and advertisements — and select relevant information or data about a civic issue; explain why some sources are more relevant than others for a specific inquiry question.",
+        "wider": [
+          "Locate information from primary sources (e.g. parliamentary Hansard, legislation, court judgements) alongside secondary sources and compare what each type offers for civic inquiry",
+          "Investigate how to access government data sets or ABS statistics and use them to support analysis of a civic issue",
+          "Practise locating information on a contentious civic issue (e.g. water policy, COVID policy) across multiple source types and assess which source types are most informative"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students default to search engines and Wikipedia. Building familiarity with a wider repertoire of source types — government databases, Hansard, NGO reports, statistical data sets — is prerequisite to the comparative analysis in Node 2."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locates information on a civic issue from at least two different source types",
+          "Identifies which information is most relevant to the inquiry question and explains the selection"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Comparing accuracy and reliability across sources",
+        "progression_checkpoint": "Students can compare sources and explain why some have greater accuracy and reliability than others for a given civic inquiry.",
+        "minimum_width": "Compare two sources on the same civic issue and explain why one has greater accuracy or reliability than the other.",
+        "typical_width": "Identify why some sources and information have greater accuracy and reliability than others; apply criteria such as authority, currency, bias, purpose, and evidence base to evaluate sources; compare across source types (e.g. government reports vs opinion pieces vs social media posts); explain how source reliability varies by inquiry question.",
+        "wider": [
+          "Evaluate sources on a specific contested civic issue (e.g. Indigenous rights, refugee policy, climate legislation) where sources reflect strongly opposed perspectives, and assess how to use each appropriately",
+          "Investigate how misinformation circulates on civic topics and develop criteria for identifying unreliable sources in a social media context",
+          "Compare Australian and international sources on the same civic issue and evaluate how national context affects source perspective and reliability"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Comparing source reliability is a reasoning task, not a checklist exercise. Students need explicit practice applying evaluative criteria to real source comparisons — particularly for sources where bias is subtle or where authority and motivation conflict.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Contested civic issues where multiple source types conflict (e.g. policy debates where government, NGO, and media accounts all diverge) are rich contexts for developing sophisticated source evaluation skills. This is a transferable capability with value well beyond Year 9 Civics.",
+        "success_criteria": [
+          "Compares at least two sources on a civic issue and explains which is more reliable and why",
+          "Applies at least two evaluative criteria (e.g. authority, currency, bias, purpose) when comparing sources"
+        ]
+      }
+    ]
+  }
+}

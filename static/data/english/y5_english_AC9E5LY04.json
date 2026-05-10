@@ -1,0 +1,87 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LY04",
+    "title": "Navigate texts for purpose",
+    "description": "Navigate and read texts for specific purposes, monitoring meaning using strategies such as skimming, scanning and confirming",
+    "strand": "Literacy",
+    "mode": "A",
+    "prior_knowledge": "Students can read different types of texts integrating phonic, semantic and grammatical knowledge using strategies including monitoring, predicting, confirming and rereading (AC9E4LY04). They have not yet applied skimming and scanning as distinct, purposeful navigation strategies, or used signposting features systematically to locate specific information.",
+    "progression_endpoint": "Students navigate texts for specific purposes by applying skimming, scanning and confirming strategies, and by using signposting features such as headings, subheadings and homepage navigation to locate, evaluate and confirm relevant information.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Skimming and scanning as distinct strategies",
+        "progression_checkpoint": "Students can distinguish skimming (reading for gist) from scanning (searching for specific information) and apply each to an appropriate task.",
+        "minimum_width": "Apply skimming to determine whether a text is broadly relevant to a purpose, and scanning to locate a specific piece of information in a text, and explain how the two strategies differ.",
+        "typical_width": "Apply and explain skimming and scanning as distinct strategies across a range of text types and navigation tasks. Discuss when each strategy is appropriate and what each does for the reader — skimming checks pertinence, scanning locates specifics.",
+        "wider": [
+          "Compare how skimming and scanning work differently in print texts versus digital texts with hyperlinks and navigation features — discussing how the strategies adapt to different reading environments",
+          "Apply skimming and scanning in a genuine research task, reflecting on which strategy was used when and why"
+        ],
+        "hinge": true,
+        "hinge_reason": "Reliable distinction between skimming and scanning is prerequisite for Node 3's meaning-monitoring work, which requires students to select appropriate strategies purposefully during research reading. Students who conflate the two strategies or apply them randomly cannot monitor whether they are using the right strategy at the right moment.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly conflate skimming with slow reading or treat scanning as random. Applying both strategies to diverse text types and reading purposes helps students develop reliable, strategic deployment rather than guessing or applying the wrong strategy to a task.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly applies skimming to determine relevance and scanning to locate specific information in separate task demonstrations.",
+          "Explains the difference between the two strategies and when each is used."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using signposting features",
+        "progression_checkpoint": "Students can use headings, subheadings, homepages, and subpages to navigate texts and locate specific information efficiently.",
+        "minimum_width": "Use at least two signposting features (headings, subheadings, navigation buttons, homepage structure) to locate specific information in a text, and explain how each feature guided the navigation.",
+        "typical_width": "Navigate texts using signposting features including headings and subheadings, homepages and subpages, to read texts efficiently. Explain how signposting features function as navigation tools and how they help readers locate relevant information without reading the full text.",
+        "wider": [
+          "Compare signposting conventions across different types of texts — informational websites, reference books, digital databases — and discuss how navigation feature design reflects audience expectations",
+          "Apply subject and technical vocabulary knowledge to use signposting features more effectively, connecting prior subject knowledge to navigation efficiency"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locates specific information in a text using at least two signposting features and explains how each feature supported the navigation.",
+          "Demonstrates efficient navigation — does not read from start to finish when signposting features enable targeted access."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Monitoring meaning and confirming",
+        "progression_checkpoint": "Students can monitor their understanding while reading for a purpose, recognise when meaning breaks down, and use confirming strategies to resolve confusion.",
+        "minimum_width": "During a purposeful reading task, identify at least one point where meaning was unclear, describe the strategy used to confirm or restore meaning, and explain how the confusion was resolved.",
+        "typical_width": "Apply a range of meaning-monitoring strategies during purposeful reading: rereading, using context to infer, checking signposting features, and confirming against prior knowledge. Explain the strategy used in specific instances and why it helped.",
+        "wider": [
+          "Develop a metacognitive reading log during a research task — tracking where skimming, scanning, confirming, and other strategies were applied — and reflect on reading strategy choices",
+          "Compare how monitoring and confirming strategies work differently in narrative texts versus informational texts, discussing what good comprehension monitoring looks like in each text type"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Metacognitive reading — noticing when meaning has broken down and selecting a repair strategy — requires explicit attention. Students often read through confusion without monitoring or applying confirming strategies. A structured reasoning approach helps students develop the monitor-and-repair habit."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a moment of meaning confusion and describes the confirming strategy applied.",
+          "Explains how the strategy resolved the confusion — demonstrates monitoring and repair, not just continued reading."
+        ]
+      }
+    ]
+  }
+}

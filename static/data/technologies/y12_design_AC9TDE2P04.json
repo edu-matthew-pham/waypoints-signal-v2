@@ -1,0 +1,76 @@
+{
+  "year_level": "1-2",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE2P04",
+    "title": "Sequence making steps cooperatively",
+    "description": "sequence steps for making designed solutions cooperatively",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can use materials and equipment to make solutions (AC9TDEFP01, AC9TDE2P02). They have followed steps to make things. They have not yet formally sequenced steps for making as a planning activity, recorded procedures, or identified roles for cooperative group making.",
+    "progression_endpoint": "Students sequence the steps for making a designed solution and work cooperatively with others, identifying roles within a group.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sequencing making steps",
+        "progression_checkpoint": "Students can sequence the steps needed to make a designed solution in a logical order",
+        "minimum_width": "Sequence at least four steps for making a simple product in the correct order; explain why the order matters",
+        "typical_width": "Use lists or storyboarding to plan and sequence steps for making across different production contexts; record the procedure; explain why steps must be in a particular order and what happens if they are not",
+        "wider": [
+          "Record the ordered steps for making a salad or other food preparation task \u2014 describe each step and explain what would happen if the order changed",
+          "Create a planning list or storyboard for an electronic planting calendar \u2014 sequence the steps and explain the order decisions"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Step sequencing in design feels obvious for simple tasks but students often conflate steps with materials or confuse what to do with when to do it. Multiple production contexts \u2014 food preparation (where order is safety-critical), construction (where joins must be made before assembly), garden tasks \u2014 each expose different dimensions of why sequence matters.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Sequences at least four steps in a logical order",
+          "Can explain why at least one step must come before another"
+        ],
+        "related_standards": [
+          "AC9TDI2P02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Step sequencing is the planning input for Node 2's cooperative role assignment \u2014 without a sequence to distribute across group members, roles cannot be meaningfully identified and the cooperative making has no structure."
+      },
+      {
+        "id": 2,
+        "label": "Working cooperatively with identified roles",
+        "progression_checkpoint": "Students can identify roles for group members and work cooperatively toward a shared making outcome",
+        "minimum_width": "Participate in a cooperative making task where roles are identified; carry out at least one assigned role",
+        "typical_width": "Identify roles for each group member appropriate to the task; work cooperatively toward a shared goal; adjust roles or steps as needed when problems arise",
+        "wider": [
+          "Make a number of items for a school event with a group \u2014 assign roles (cutting, joining, decorating, checking), carry out the assigned role and explain how each role contributes to the shared outcome",
+          "Write instructions for making a container or bag \u2014 include who does each step (role) and in what order; test whether another group can follow the instructions"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Cooperative making requires students to coordinate sequenced steps (node 1) with distributed roles \u2014 two understandings that must work together. Integration failure looks like: students who can sequence steps individually but cannot coordinate with others (duplicating work, waiting, doing steps in the wrong order because communication broke down)."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Carries out an identified role in a cooperative making task",
+          "The group's shared output is produced \u2014 the cooperative process functioned"
+        ],
+        "related_standards": [
+          "AC9TDI2P04",
+          "AC9TDI2P05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

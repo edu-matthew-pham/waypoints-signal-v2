@@ -1,0 +1,102 @@
+{
+  "year_level": "6",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS6S05",
+    "title": "Develop evidence-based conclusions",
+    "description": "develop evidence-based conclusions",
+    "strand": "HASS Skills",
+    "mode": "B",
+    "prior_knowledge": "Students develop evidence-based conclusions (AC9HS5S05). At Y5, they identify valid evidence, distinguish evidence-based conclusions from those based on personal preference or limited sources, and draw conclusions from primary and secondary sources considering differing information. They have practised using source analysis from AC9HS5S04 to feed conclusions.",
+    "progression_endpoint": "Students develop evidence-based conclusions.",
+    "nodes": [
+      {
+        "id": "AC9HS6S05-N1",
+        "label": "Distinguishing evidence from bias and limited sourcing",
+        "progression_checkpoint": "Students identify the difference between a conclusion grounded in valid evidence and one shaped by personal bias, preference, or reliance on limited sources.",
+        "minimum_width": "Given two contrasting conclusions on a HASS topic, identify which is better supported by evidence and explain why the weaker conclusion falls short (bias, preference, or limited sourcing).",
+        "typical_width": "Examine a set of primary and secondary sources and identify which conclusions are well-evidenced and which reflect bias, personal preference, or selective use of sources. Explain the specific weakness in each flawed conclusion.",
+        "wider": [
+          "Analyse historical examples where conclusions based on limited or biased sources led to significant consequences (e.g. early colonial accounts of First Nations peoples).",
+          "Compare how different source types (census data, personal narratives, government records) produce different conclusions about the same event — and evaluate which provides stronger evidence."
+        ],
+        "hinge": true,
+        "hinge_reason": "Without the ability to distinguish evidence quality, students cannot construct valid conclusions in N2 — they will conflate preference with evidence and the conclusion-building task collapses into opinion writing.",
+        "success_criteria": [
+          "Correctly identifies at least one feature that makes a conclusion evidence-based (specific source, verifiable information).",
+          "Names at least one way a conclusion can be weakened (bias, personal preference, limited sources).",
+          "Does not treat all conclusions as equally valid regardless of evidence quality."
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "A worked example comparing a flawed and a sound conclusion — with explicit criteria — is the appropriate scaffold here. The risk is students applying intuitive agreement/disagreement rather than evidentiary criteria.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "AC9HS6S05-N2",
+        "label": "Drawing conclusions from identified evidence",
+        "progression_checkpoint": "Students draw conclusions from identified evidence across primary and secondary sources, including sources with differing information.",
+        "minimum_width": "Draw a conclusion about a HASS topic using at least two identified sources, stating which evidence supports the conclusion.",
+        "typical_width": "Draw conclusions that synthesise evidence from multiple primary and secondary sources, including sources that offer different or conflicting perspectives. Acknowledge where evidence is stronger or weaker, and explain how conflicting information was weighed.",
+        "wider": [
+          "Use census data alongside personal narrative sources to construct an argument about migration patterns — explaining how quantitative and qualitative evidence complement and sometimes contradict each other.",
+          "Draw conclusions about a governance topic (e.g. suffrage reform) using evidence from at least three source types, explicitly addressing the strongest counter-evidence."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Conclusion is explicitly linked to at least two named sources.",
+          "Acknowledges at least one source that complicates or qualifies the conclusion.",
+          "Conclusion is framed as following from evidence, not as personal opinion."
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Elaborations reference a range of topic contexts (census data for migration, business council information for economic topics). Each new context applies the same evidence-evaluation and conclusion-building skill — genuine breadth.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Wider students can apply evidence-based conclusion-building to additional inquiry contexts (migration, civic action, environmental decisions) without escalating cognitive demand beyond the descriptor's command term.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "AC9HS6S05-N3",
+        "label": "Conclusions demonstrating conceptual understanding and question alignment",
+        "progression_checkpoint": "Students develop conclusions that demonstrate consideration of inquiry questions, understanding of disciplinary concepts, and identified evidence — forming a coherent, disciplined response to their inquiry.",
+        "minimum_width": "Produce a conclusion that refers back to the original inquiry question, incorporates at least one disciplinary concept (e.g. federation, migration, democracy, sustainability), and is supported by evidence from at least two sources.",
+        "typical_width": "Develop a well-structured conclusion that explicitly addresses the inquiry question, demonstrates understanding of relevant disciplinary concepts across the full HASS inquiry (history, geography, civics or economics), and synthesises evidence from primary and secondary sources including conflicting perspectives.",
+        "wider": [
+          "Develop conclusions that address a complex inquiry question requiring integration of evidence from multiple HASS disciplines (e.g. a question about migration with historical, geographical and civic dimensions).",
+          "Evaluate the conclusions of a published historical or geographical account against the evidence it uses, identifying where the author's disciplinary understanding strengthens or limits their conclusion."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Conclusion explicitly references the original inquiry question.",
+          "Uses at least one disciplinary concept correctly in the conclusion.",
+          "Shows that the conclusion is derived from evidence, not merely consistent with personal views.",
+          "Acknowledges at least one complicating factor or alternative perspective."
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Conclusions can be developed across multiple disciplinary inquiry contexts — historical, geographical, civic, economic — with each requiring the same conclusion-building process applied to different evidence types and concepts.",
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node synthesises the prior two — evidence quality judgement and source-based conclusion-drawing — into a full inquiry conclusion. Integration is the appropriate response mode."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Wider students can develop conclusions for additional inquiry topics across HASS disciplines, applying the same disciplined conclusion-building process to new conceptual territory.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      }
+    ]
+  }
+}

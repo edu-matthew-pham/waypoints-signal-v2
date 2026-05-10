@@ -1,0 +1,71 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3I03",
+    "title": "Observing and Measuring",
+    "description": "follow procedures to make and record observations, including making formal measurements using familiar scaled instruments and using digital tools as appropriate",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can make and record observations using their senses and simple tools (AC9S1I03/I04, 1-2 band). They have not yet used scaled instruments with formal measurement conventions or discussed the effect of scale size on measurement accuracy.",
+    "progression_endpoint": "Students follow procedures to make and record systematic observations, use familiar scaled instruments accurately (including reading scales and applying rounding conventions), and use digital tools where appropriate to record observations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reading scaled instruments accurately",
+        "progression_checkpoint": "Students can read a value from a familiar scaled instrument (ruler, thermometer, measuring cylinder, balance) and apply rounding conventions when the reading falls between scale divisions.",
+        "minimum_width": "Students read values from at least two types of scaled instruments and correctly apply rounding (up or down) when a value falls between scale markings.",
+        "typical_width": "Students explain the effect of scale size on measurement accuracy — a ruler with 1mm divisions is more accurate than one with 1cm divisions for the same measurement — and select an appropriate instrument for a given measurement task.",
+        "wider": [
+          "Investigate how the choice of scale increments affects the conclusions that can be drawn — can a difference between two objects be detected if the scale is too coarse?",
+          "Compare digital and analogue instruments for the same measurement — what are the trade-offs in accuracy, ease of use and recording?",
+          "Explore how ecologists use specific instruments for field identification — pitfall traps, call identification equipment, GPS — and what each measures"
+        ],
+        "hinge": true,
+        "hinge_reason": "Instrument reading accuracy is a prerequisite for data quality in all subsequent inquiry work. Systematic reading errors (wrong end of ruler, meniscus ignored) propagate into every data set students produce, making conclusions from those data unreliable. Students who cannot read instruments correctly cannot produce usable data for AC9S3I04 or AC9S3I05.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate scale reading requires precision and consistent application of rounding conventions. Errors are common (reading from the wrong end of a ruler, ignoring the meniscus in a measuring cylinder, not aligning the instrument correctly) and affect all subsequent data recording. Repeated accurate practice with feedback is the primary remedy — not broader context variation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Reads a value from a familiar scaled instrument to the nearest marked division",
+          "Applies rounding correctly when a reading falls between two scale divisions",
+          "Identifies a more or less accurate instrument for a given measurement task based on scale size"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Systematic observation and recording",
+        "progression_checkpoint": "Students can follow a procedure to make observations systematically — recording what is observed in an organised way (table, graphic organiser, labelled diagram) so that it can be used for analysis.",
+        "minimum_width": "Students follow a provided procedure to make and record observations in a table or graphic organiser, recording all required observations in a consistent format.",
+        "typical_width": "Students select an appropriate recording format for a given observation task, explain why that format suits the data type, and complete the recording consistently across multiple observations.",
+        "wider": [
+          "Compare different recording formats for the same data set — table vs graphic organiser vs labelled diagram — and evaluate which is clearest for the type of observations being made",
+          "Use digital tools (camera, voice recorder, data logger) to record observations and discuss what digital tools add (timestamping, precision, replayability) compared to written recording",
+          "Examine how scientists use field notebooks and digital tools in combination for ecological observations — exploring professional observation recording practice"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to default to one recording format (usually a list or informal notes) regardless of the observation type. Encountering systematic recording across varied observation types — counts, measurements, field identifications, material properties — helps students build a more flexible understanding of how recording format should match data type."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Records all required observations in a consistent, organised format (table, graphic organiser or diagram as appropriate)",
+          "Recording is complete and legible enough that another student could use it for analysis"
+        ],
+        "related_standards": ["AC9S3I04"]
+      }
+    ]
+  }
+}

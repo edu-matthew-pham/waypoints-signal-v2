@@ -1,0 +1,73 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3A02",
+    "title": "Mental strategies from known facts",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "extend and apply knowledge of addition and subtraction facts to 20 to develop efficient mental strategies for computation with larger numbers without a calculator",
+    "prior_knowledge": "Students can recall and demonstrate proficiency with addition facts to 20 and related subtraction facts (AC9M2A02). They have not yet applied these facts systematically as a foundation for mental computation with larger numbers.",
+    "progression_endpoint": "Students extend addition and subtraction facts to 20 into efficient mental strategies for computing with larger numbers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Extending known facts to larger numbers",
+        "progression_checkpoint": "Students can use a known fact (e.g. 6+7=13) to derive related calculations (e.g. 16+7=23, 60+70=130) by recognising the place value extension.",
+        "minimum_width": "Given three known facts, generate two related larger-number calculations for each and explain the connection.",
+        "typical_width": "Apply the extension pattern across a range of addition and subtraction facts to 20; derive mental calculation results for two- and three-digit extensions.",
+        "wider": [
+          "Explore how the extension principle works for subtraction facts as well — connecting 13-7=6 to 130-70=60, 1300-700=600",
+          "Investigate how doubles facts (6+6, 7+7) extend to particularly efficient mental strategies for near-doubles in large numbers"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who know 6+7=13 often cannot see why 16+7=23 without re-counting. Seeing the extension pattern across multiple fact families — and across both addition and subtraction — resolves this.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Recognising the place value extension from basic facts is the conceptual engine behind all mental strategies in Node 2 — students who do not see why facts extend cannot select appropriate strategies (bridging, partitioning, compensation all rely on this principle) and will revert to counting-based approaches with larger numbers.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The doubles/near-doubles extension and the subtraction parallel provide rich structural insight: students see that place value and basic facts are multiplicatively related, which underpins mental computation throughout upper primary.",
+        "success_criteria": [
+          "Students can state a related larger-number calculation from a given basic fact and explain the connection.",
+          "Students can use a known addition fact to derive a larger-number subtraction fact."
+        ],
+        "related_standards": ["AC9M3A01", "AC9M3N03"]
+      },
+      {
+        "id": 2,
+        "label": "Choosing efficient mental strategies",
+        "progression_checkpoint": "Students can select and apply an efficient mental strategy (bridging, partitioning, compensation) for a given computation with larger numbers.",
+        "minimum_width": "Calculate three two-digit additions mentally using a named strategy; explain the strategy chosen for each.",
+        "typical_width": "Apply bridging through tens, partitioning and compensation strategies across a range of additions and subtractions; choose the most efficient strategy for each.",
+        "wider": [
+          "Compare two strategies applied to the same problem to determine which is more efficient and why (e.g. bridging vs compensation for 78+24)",
+          "Investigate when compensation produces an estimate rather than an exact answer, and when it produces an exact result"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Mental strategy fluency is built through practice. Once students know the strategies, repeated application in varied contexts is what makes them genuinely 'mental' rather than laboured."
+          },
+          {
+            "mode": "repertoire_building",
+            "reason": "The descriptor calls for a repertoire of strategies. Students need enough practice with each strategy (bridging, partitioning, compensation) to have genuine choice."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can calculate a two- or three-digit addition or subtraction mentally using at least one named strategy.",
+          "Students can name the strategy they used and explain why they chose it."
+        ],
+        "related_standards": ["AC9M3N03", "AC9M3N05"]
+      }
+    ]
+  }
+}

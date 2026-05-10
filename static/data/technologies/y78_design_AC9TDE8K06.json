@@ -1,0 +1,111 @@
+{
+  "year_level": "7-8",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE8K06",
+    "title": "Combining materials and systems",
+    "description": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how characteristics and properties of materials, systems, components, tools and equipment affect their use when producing designed solutions (AC9TDE6K05). They understand that properties affect use but have not yet analysed how different materials and systems are combined, or how the interaction between properties determines what a designed solution can achieve.",
+    "progression_endpoint": "Students analyse how the characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions, including testing and selecting the most appropriate options for a given purpose.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Properties that determine use",
+        "progression_checkpoint": "Students can identify the characteristics and properties of materials, components and equipment that determine their suitability for different design purposes",
+        "minimum_width": "Given a material or component, name at least two properties and explain how each affects its suitability for a specific design purpose",
+        "typical_width": "Compare properties across a range of materials and components; explain safe work practices for specific equipment; identify which properties matter most for a given design challenge",
+        "wider": [
+          "Investigate the significance of hafting in First Nations Australian traditional toolkits — how the properties of resin, cord and stone combine for function",
+          "Research advanced materials such as carbon fibre reinforced polymers and explain what properties make them suitable for high-performance applications"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who know properties of only two materials will not have enough comparison points to analyse combinations at Node 2 — explaining why a combination works requires understanding how the properties of each material complement or constrain the others.",
+        "success_criteria": [
+          "Names at least two properties of a material or component",
+          "Explains how each property affects suitability for the design purpose"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Property identification requires building a repertoire of material-property-purpose relationships before students can analyse combinations. Students who only know properties of two materials will not have enough comparison points to explain why particular combinations work. More material examples with different property profiles is what helps here.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations hafting toolkit and carbon fibre advanced materials directions offer genuinely rich property analysis — both require understanding how multiple properties (not just one) determine suitability, which is richer than single-property identification.",
+        "related_standards": [
+          "AC9TDE8P01",
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "How combining creates new possibilities",
+        "progression_checkpoint": "Students can analyse how combining different materials, systems and components creates designed solutions that individual components could not achieve alone",
+        "minimum_width": "Given a designed solution, identify at least two components that are combined; explain what the combination achieves that neither component could alone",
+        "typical_width": "Analyse how materials, tools and processes are combined across a range of technologies contexts (e.g. architecture, textiles, electronics); explain how the choice of one component constrains or enables the choice of others",
+        "wider": [
+          "Investigate how First Nations Australians combine material properties in traditional toolkit construction — how do the properties of each material complement the others?",
+          "Compare material choices for the same design challenge across different contexts — architecture, medicine, sport — and analyse why different combinations are optimal"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat materials as isolated choices cannot make evidence-based selection justifications at Node 3 — the testing and selection task requires understanding that choosing one component constrains or enables the choice of others.",
+        "success_criteria": [
+          "Identifies at least two components combined in a designed solution",
+          "Explains what the combination achieves that individual components could not"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who think of materials as isolated choices ('pick the strongest one') rather than as combinations where properties interact will produce designs where components conflict rather than complement. Seeing how combinations work across different technologies contexts — traditional toolkits, architecture, electronics — builds the systems thinking needed for genuine analysis.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8K03",
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Testing and selecting combinations",
+        "progression_checkpoint": "Students can test and select the most appropriate materials, components, tools and equipment for a design solution, justifying selections based on how properties combine",
+        "minimum_width": "Test at least two material or component options for a design task; select one and justify the selection based on properties",
+        "typical_width": "Test and select across multiple options; justify by explaining how the selected combination of properties serves the design purpose; identify risks and safe work practices for the selected materials and equipment",
+        "wider": [
+          "Investigate a broad range of technologies — tools, equipment, processes, materials, systems, components — when designing for a specific specialisation context such as architecture or medicine",
+          "Evaluate how the choice of material affects the entire production process — for example, how choosing hardwood vs softwood determines joining techniques, finishing methods and durability"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Tests at least two options for a design task",
+          "Justifies the selection by referencing how properties serve the design purpose"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Justifying material and component selection requires students to reason from properties to purpose: identify what the design needs → identify which properties serve those needs → compare options → explain why the selected combination is most appropriate. Students who skip this chain produce intuitive rather than evidence-based justifications."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates property knowledge (Node 1) and combination analysis (Node 2) into a selection and justification task. Students must apply both — knowing properties enables the comparison, understanding combination effects enables the justification.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The whole-process material consequence direction (how choosing hardwood vs softwood determines joining, finishing and durability) and the specialisation context direction (architecture, medicine) both offer advancing students rich, multi-step consequence analysis that goes well beyond single-property selection.",
+        "related_standards": [
+          "AC9TDE8P01",
+          "AC9TDE8P03",
+          "AC9TDE8P04"
+        ]
+      }
+    ]
+  }
+}

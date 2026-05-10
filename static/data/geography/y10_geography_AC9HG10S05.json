@@ -1,0 +1,96 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10S05",
+    "title": "Develop, evaluate and recommend strategies",
+    "description": "develop and evaluate strategies using environmental, economic or social criteria; recommend a strategy and explain the predicted impacts",
+    "strand": "Geographical Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "At Y9, students developed and evaluated strategies using environmental, economic or social criteria, recommended a strategy and explained predicted impacts (AC9HG9S05). At Y10 the same descriptor applies with greater complexity: explicit reflection on personal values, evaluation of collective as well as individual action, and integration with First Nations traditional practices.",
+    "progression_endpoint": "Students develop and evaluate both individual and collective strategies using environmental, economic and social criteria; recommend a strategy with explained predicted impacts; reflect on personal values and their influence on strategy choices.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Developing strategies — individual and collective",
+        "progression_checkpoint": "Students can propose both individual and collective strategies for addressing a geographical challenge, supporting each with reasons.",
+        "minimum_width": "Propose at least one individual and one collective strategy for a geographical challenge, providing reasons for each.",
+        "typical_width": "Propose and describe both individual actions (e.g. reducing ecological footprint) and collective actions (e.g. community programs, volunteering, policy advocacy) for a geographical challenge; explain the reasoning behind each strategy and identify who is responsible for implementation.",
+        "wider": [
+          "Investigate specific organisations that students could engage with collectively — Red Cross, Red Crescent, environmental NGOs — and evaluate what individual participation in collective action achieves",
+          "Compare the scale and type of impact achievable through individual vs collective action for the same challenge, identifying where individual action is most and least effective",
+          "Research a case where grassroots collective action led to policy change, tracing the pathway from individual decisions to collective impact at a systems level"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often focus on individual action as the primary response to geographical challenges. Exposure to collective action models — including First Nations community-led approaches — broadens the strategy repertoire.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The individual/collective distinction maps onto different modes of geographical agency — students who have explored both develop a more nuanced understanding of how change happens at different scales.",
+        "success_criteria": [
+          "Students propose at least one individual and one collective strategy, providing reasons for each",
+          "Students identify who has responsibility for implementing each proposed strategy"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating strategies against criteria",
+        "progression_checkpoint": "Students can evaluate the effectiveness of a strategy using environmental, economic and social criteria, reflecting on whether the strategy achieves its aims.",
+        "minimum_width": "Evaluate one strategy against at least two criteria (environmental, economic or social), identifying evidence of effectiveness and limitations.",
+        "typical_width": "Evaluate strategies using environmental, economic and social criteria; reflect on whether environmental degradation has been reduced or wellbeing improved; explain reasons for decisions including traditional practices (e.g. firestick farming) and grassroots aid implementations.",
+        "wider": [
+          "Apply a systematic multi-criteria evaluation framework to compare two strategies for the same challenge, producing a reasoned recommendation based on the comparison",
+          "Examine cases where evaluation evidence for a strategy is contested — identifying why different evaluators reach different conclusions using the same criteria",
+          "Evaluate a strategy involving First Nations traditional practices (e.g. firestick farming, water management) against environmental, cultural and social criteria — explaining how traditional practices are validated as effective strategies"
+        ],
+        "hinge": true,
+        "hinge_reason": "Multi-criteria evaluation is the basis for the recommendation in Node 3 — if students evaluate using only one criterion or apply criteria without evidence, their recommendation will not be genuinely justified and the final integration node cannot produce a defensible geographical conclusion.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often evaluate using one preferred criterion (usually environmental or economic) and ignore the others. Scaffold simultaneous three-criteria evaluation explicitly — including acknowledgment that criteria may point in different directions and that trade-offs are a feature, not a problem to be resolved.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students evaluate a strategy against at least two criteria from different domains, providing evidence for their evaluation",
+          "Students identify at least one trade-off in the strategy — where meeting one criterion compromises another"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Recommending a strategy with predicted impacts",
+        "progression_checkpoint": "Students can recommend a strategy, explain the predicted impacts, and reflect on how personal values and attitudes influence the strategy choice.",
+        "minimum_width": "Recommend one strategy, explain at least two predicted impacts, and reflect on how at least one personal value influenced the choice.",
+        "typical_width": "Recommend a strategy supported by reasons from the evaluation; explain predicted environmental, economic and social impacts; reflect on how personal values and attitudes — including sustainability values, social justice values or cultural values — influenced the strategy choice.",
+        "wider": [
+          "Develop a recommendation that explicitly addresses the trade-offs identified in Node 2 — explaining how the recommended strategy prioritises some criteria over others and why",
+          "Reflect on how a different value position would lead to a different strategy recommendation — making the value-strategy connection explicit and non-deterministic",
+          "Apply sustainable design principles to an urban or built environment strategy and explain how the design principles reflect specific values about wellbeing, environment and community"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "A strategy recommendation integrates criteria evaluation, predicted impact analysis and value reflection into a coherent geographical argument. The teaching signal is to make each component explicit in the recommendation — not a bare recommendation, but one that shows the evaluative reasoning and value position behind it."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students recommend a strategy and explain at least two predicted impacts (one intended, one possible unintended or trade-off consequence)",
+          "Students reflect on at least one personal value that influenced their strategy choice, explaining the connection"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9S02",
+    "title": "Collecting, Representing and Comparing Geographical Data",
+    "description": "collect, represent and compare data and information from primary research methods, including fieldwork and secondary research materials, using geospatial technologies and digital tools as appropriate",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can collect, represent and compare geographical data using a range of methods and tools (Y7-8). At Y9, the moves are: evaluating sources for relevance and reliability, creating multi-variable visual representations, and constructing cartographically-compliant special purpose maps using geospatial technologies.",
+    "progression_endpoint": "Students collect primary and secondary data, evaluate sources for relevance and reliability, create multi-variable visual representations using digital tools, and construct cartographically-compliant special purpose maps.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Primary research methods including fieldwork",
+        "progression_checkpoint": "Students can identify appropriate primary research methods including fieldwork to collect original geographical materials",
+        "minimum_width": "Identify at least two primary research methods (e.g. fieldwork observation, photography, field sketches, surveys, interviews); explain what geographical data each produces and when each is appropriate",
+        "typical_width": "Identify and use primary research methods including fieldwork to collect original materials relevant to a geographical inquiry (e.g. aerial photograph comparison, field sketches documenting biome alteration, surveys on technology use); justify method selection for the inquiry",
+        "wider": [
+          "Compare what different primary methods reveal about the same phenomenon — explain what fieldwork observation captures that a survey cannot, and vice versa",
+          "Evaluate the feasibility of different primary methods for Y9 inquiry topics — which are accessible for students and which require modification?",
+          "Design a fieldwork protocol for documenting biome alteration over time using repeated photography and field sketches — specify what would be compared and how"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Primary method selection requires students to build a working repertoire of method types and their appropriate uses. Students who only know one method cannot make justified choices. The elaboration's range of examples (aerial photographs, field sketches, surveys) signals the need for repertoire across method types."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two primary research methods and the data each produces",
+          "Explains when each method is appropriate for a geographical inquiry",
+          "Justifies method selection for a specific inquiry topic"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Collecting and evaluating secondary research materials",
+        "progression_checkpoint": "Students can collect relevant secondary research materials using targeted criteria and evaluate them for relevance and reliability",
+        "minimum_width": "Collect at least two secondary sources using targeted search criteria; evaluate each source for relevance (Does it address the inquiry question?) and reliability (Who is the author? Is it referenced?)",
+        "typical_width": "Collect secondary research materials online using targeted criteria relevant to an inquiry (e.g. biome modification, digital divide); evaluate each source for relevance and reliability using explicit criteria including author expertise, referencing and currency",
+        "wider": [
+          "Compare the relevance and reliability of a government report, a news article and a peer-reviewed source on the same topic — explain what each is appropriate for",
+          "Investigate how the same phenomenon is represented differently in sources from different countries or organisations — explain what this reveals about reliability and perspective",
+          "Develop a source evaluation rubric for a Y9 geography inquiry — specify criteria and weighting for relevance and reliability"
+        ],
+        "hinge": true,
+        "hinge_reason": "Source evaluation is prerequisite for all downstream data interpretation and conclusion-drawing in S03-S04. Students who collect sources without evaluating them use unreliable or irrelevant data to draw conclusions, undermining the entire investigation. Phase collapse here (accepting any source as equally valid) cascades through every subsequent analysis phase.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Relevance and reliability evaluation requires students to interrogate sources against explicit criteria rather than accept them uncritically. Students who cannot articulate the criteria (What makes a source relevant? What makes it reliable?) cannot apply them. Scaffolding the two-question diagnostic — relevance test, then reliability test — builds the evaluative procedure.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Evaluating multiple source types (government, news, peer-reviewed) against the same criteria gives students comparative calibration — they develop a sense of the reliability spectrum rather than treating evaluation as a pass/fail binary.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Developing a source evaluation rubric requires students to formalise and justify their criteria — a higher-order task that produces a reusable tool. Advancing students who construct rubrics develop methodological infrastructure that supports all subsequent S-strand work, not just this standard.",
+        "success_criteria": [
+          "Collects at least two secondary sources using targeted search criteria",
+          "Evaluates each source for relevance to the inquiry question",
+          "Evaluates each source for reliability using at least two explicit criteria"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Creating multi-variable visual representations",
+        "progression_checkpoint": "Students can create multi-variable visual representations of geographical data using digital tools",
+        "minimum_width": "Create at least one visual representation of multi-variable geographical data (e.g. a complex graph, table or diagram); identify the variables displayed and what the representation reveals",
+        "typical_width": "Create multi-variable visual representations using digital tools — e.g. a temperature-precipitation-biome graph, a data comparison table, a cross-section showing soil horizons; explain what the representation reveals about geographical patterns",
+        "wider": [
+          "Create a visual representation that shows a relationship between two variables — explain how the choice of representation type (graph, table, diagram) affects what the relationship reveals",
+          "Construct a 3D diagram or flow diagram that shows process interactions (e.g. oil spill impacts on aquatic food production, subsistence farmer daily activity) — explain why a 2D representation would be insufficient",
+          "Evaluate a data visualisation made by someone else — identify what it communicates well and what it obscures"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Multi-variable representation requires students to match representation type (graph, table, cross-section, flow diagram) to data type and analytical purpose. Building a range of representation types ensures students can select appropriately for different data structures.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating someone else's data visualisation is rich — it requires students to apply criteria about what a visualisation should communicate and what it can obscure, developing critical data literacy that extends beyond production to interpretation. This bridges directly to S03 pattern-explanation work.",
+        "success_criteria": [
+          "Creates a visual representation displaying at least two variables",
+          "Identifies what the representation reveals about geographical patterns",
+          "Selects an appropriate representation type for the data"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Constructing cartographically-compliant special purpose maps",
+        "progression_checkpoint": "Students can represent the spatial distribution of geographical phenomena by constructing special purpose maps that conform to cartographic conventions",
+        "minimum_width": "Construct a special purpose map that includes at least four cartographic conventions (title, scale, legend, north arrow, border); represent the spatial distribution of at least one geographical phenomenon",
+        "typical_width": "Construct a cartographically-compliant special purpose map showing the relationship between biomes and world food production or another geographical phenomenon; apply all required cartographic conventions; explain what the spatial distribution revealed by the map shows",
+        "wider": [
+          "Construct a map using GIS software — explain how digital tools change the process of map construction and what they enable that manual maps cannot",
+          "Compare two maps of the same phenomenon at different scales — explain what each reveals and what each obscures",
+          "Evaluate a published map for cartographic quality — identify conventions met and violations, and explain the impact on map readability"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Cartographic conventions are a precision task — errors in scale, legend or orientation are directly assessable and produce misleading maps. Students need practice producing complete maps under the full convention checklist, not just awareness that conventions exist. Repeated production with feedback is the appropriate response at this node."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Constructs a map with at least four cartographic conventions correctly applied",
+          "Represents the spatial distribution of a geographical phenomenon accurately",
+          "Map title and legend correctly describe what is shown"
+        ]
+      }
+    ]
+  }
+}

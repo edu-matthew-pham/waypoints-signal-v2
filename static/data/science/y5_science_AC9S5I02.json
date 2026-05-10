@@ -1,0 +1,64 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5I02",
+    "title": "Planning and Conducting",
+    "description": "plan and conduct repeatable investigations to answer questions, including, as appropriate, deciding the variables to be changed, measured and controlled in fair tests; describing potential risks; planning for the safe use of equipment and materials; and identifying required permissions to conduct investigations on Country/Place",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can use provided scaffolds to plan fair tests (AC9S3I02, 3-4 band). They now take greater ownership — deciding variables independently, planning for repeatability, and considering field site permissions and risks without a provided scaffold.",
+    "progression_endpoint": "Students independently plan repeatable investigations — deciding variables, describing risks, planning safe equipment use and identifying required permissions — and conduct investigations that could be reproduced by another person from the recorded method.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Repeatable investigations require a recorded, reproducible method",
+        "progression_checkpoint": "Students can plan and record an investigation method in sufficient detail that another person could repeat it, and explain why repeatability is important for reliable findings.",
+        "minimum_width": "Students record an investigation method for a given question in enough detail that another student could follow it, and explain why repeatability matters.",
+        "typical_width": "Students plan investigations across different approaches (experimental testing, field observation, research, virtual simulation), record methods in sufficient detail for reproduction, and explain that repeatable findings are more reliable than single-trial results.",
+        "wider": [
+          "Compare different investigation approaches for the same question (experimental vs field observation vs simulation) and evaluate the trade-offs in repeatability, control and ecological validity",
+          "Plan a field excursion to collect erosion data — using maps or aerial photographs to predict sites, planning observation methods and recording a method that could be repeated by another group",
+          "Consult with First Nations Australians to identify local areas that require permission before accessing — examining the intersection of scientific investigation and cultural protocols on Country"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Records an investigation method in sufficient detail for another student to repeat it",
+          "Explains why repeatability is important for the reliability of findings"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Variables, risks and permissions are identified in planning",
+        "progression_checkpoint": "Students can independently decide which variables to change, measure and control in a fair test, describe potential risks, plan safe equipment use, and identify any permissions required for field investigations.",
+        "minimum_width": "Students independently identify the variable to change, variable to measure and at least two variables to control for a given investigation question, and describe one potential risk.",
+        "typical_width": "Students independently plan fair tests across Y5-6 investigation contexts (light, erosion, survival features); decide all variables without scaffolding; describe multiple potential risks and planned safety measures; identify any permissions required for field investigations on Country/Place.",
+        "wider": [
+          "Evaluate an investigation plan for completeness — identifying any uncontrolled variables, unaddressed risks or missing permissions, and explaining the consequence of each gap",
+          "Plan for and navigate the practical challenge of conducting field erosion observations — identifying what permissions, safety equipment and observation methods are required",
+          "Consult with First Nations Australians to guide investigation planning, including safety considerations and culturally appropriate approaches to field sites"
+        ],
+        "hinge": true,
+        "hinge_reason": "Independent variable identification is the prerequisite for all subsequent fair test work at Y5-6 — students who cannot decide variables without scaffolding cannot meaningfully engage with I03 precision measurement or I05 error analysis, both of which assume a validly planned investigation.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students at this band must transfer the fair test planning skill to investigation types beyond the classroom bench test — field observations, simulations, research-based investigations. Encountering planning across these varied investigation types builds the flexible, context-independent planning capability the descriptor requires.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Independently identifies variables to change, measure and control without a provided scaffold",
+          "Describes at least one potential risk and the planned safety measure to address it"
+        ]
+      }
+    ]
+  }
+}

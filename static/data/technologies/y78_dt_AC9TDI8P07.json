@@ -1,0 +1,162 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P07",
+    "title": "Design user experience",
+    "description": "Design the user experience of a digital system",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can design a user interface for a digital system (AC9TDI6P03) and generate, modify, communicate and evaluate design ideas (AC9TDI6P04). They have experience designing interfaces but have not yet considered user experience holistically — including branding, user values, and how design decisions serve user stories.",
+    "progression_endpoint": "Students design the user experience of a digital system by creating wireframes and storyboards across multiple pages, applying branding guidelines for visual identity, and justifying design decisions against user stories and design criteria.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "UX vs UI",
+        "progression_checkpoint": "Students can distinguish user experience from user interface and explain that UX design centres on how users interact with and feel about a system, not just how it looks",
+        "minimum_width": "Given examples, identify which design decisions are about user experience (flow, ease of use, satisfaction) and which are about user interface (layout, colour, buttons)",
+        "typical_width": "Analyse an existing digital system — identify UX decisions and UI decisions separately; explain how a good UI can still have poor UX and vice versa",
+        "wider": [
+          "Compare the UX of the same service across different platforms (e.g. mobile app vs website vs voice assistant) — how does the experience change when the interface changes?",
+          "Limited width — the UX/UI distinction is a single conceptual insight. More examples reinforce but do not meaningfully broaden the understanding."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The UX/UI distinction is a misconception-prone conceptual boundary — students who conflate them will produce wireframes treated as complete UX designs. Seeing the distinction applied across multiple platforms (mobile, web, voice) resolves the misconception more reliably than a single definition.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat UX and UI as interchangeable will produce wireframes that only address layout without considering user flow or satisfaction at Nodes 3 and 5. The UX/UI distinction shapes every design justification in this standard.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies UX and UI decisions in a given example",
+          "Explains that UX includes flow, ease of use, and user satisfaction — not just visual design",
+          "Does not treat UX and UI as interchangeable"
+        ],
+        "related_standards": [
+          "AC9TDI8P04",
+          "AC9TDI8P08"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Users and their needs",
+        "progression_checkpoint": "Students can explain what user stories and design criteria capture and how they guide design decisions",
+        "minimum_width": "Given a user story, identify what the user needs and what the design must satisfy to meet that need",
+        "typical_width": "Compare two different user stories for the same product; explain how design decisions would differ to serve each user",
+        "wider": [
+          "Consider why a user might choose a product beyond utility — how brand alignment with user values and identity contributes to appeal",
+          "Evaluate accessibility considerations — how design criteria change when designing for users with diverse needs"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "User stories for different user types (different demographics, accessibility needs, values) reveal that design criteria vary with user context. Students who only work with one user type don't see how design decisions must trade off between competing user needs.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The brand-values alignment and accessibility directions offer advancing students rich analytical territory — understanding why users choose products and how design criteria change for diverse users goes meaningfully beyond functional user story analysis.",
+        "success_criteria": [
+          "Identifies the user need captured in a given user story",
+          "Explains how a specific design decision serves or fails a user story",
+          "Identifies at least one case where different users would need different design choices"
+        ],
+        "related_standards": [
+          "AC9TDI8P04",
+          "AC9TDI8P08"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Wireframes and storyboards",
+        "progression_checkpoint": "Students can use wireframes and storyboards to plan and communicate the user experience across multiple pages or screens of a digital system",
+        "minimum_width": "Sketch a wireframe for at least two connected pages of a digital system; show how a user navigates between them",
+        "typical_width": "Create wireframes and a storyboard that maps the user journey across multiple pages; annotate design decisions with references to user stories",
+        "wider": [
+          "Compare wireframes at different fidelity levels (sketch vs digital tool) and explain when each is appropriate in the design process",
+          "Limited width — wireframing is a technique. More pages or more detail is practice volume, not broader application. The genuine breadth is in the variety of user journeys the wireframes serve, which is captured through user stories at Node 2."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Wireframing is a practical skill that requires building comfort with visual layout conventions — what to show, what to annotate, how to indicate navigation. More wireframing practice is more useful than varying the type of application being wireframed."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces wireframes showing layout and navigation for at least two connected pages",
+          "Shows how a user moves between the pages"
+        ],
+        "related_standards": [
+          "AC9TDI8P08"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Branding and visual identity",
+        "progression_checkpoint": "Students can apply basic branding guidelines (colours, styling, typography) to communicate a consistent visual identity that supports the user experience",
+        "minimum_width": "Apply a consistent colour palette and styling across wireframes; explain how visual choices communicate the product's identity",
+        "typical_width": "Create simple branding guidelines (colour palette, typography, tone) for a product; apply them across wireframes and explain how they support the user experience",
+        "wider": [
+          "Investigate how brand alignment with user values affects product appeal beyond utility — why users choose products that reflect their identity",
+          "Compare the evolution of a real interface's branding over time (e.g. search engines, social media) and explain what drove the design shifts"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies consistent colours and styling across wireframes",
+          "Explains how visual choices communicate the product's identity or values",
+          "Branding supports rather than contradicts the user experience"
+        ],
+        "related_standards": [
+          "AC9TDI8P08"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Design a complete user experience",
+        "progression_checkpoint": "Students can design a complete user experience that integrates wireframes, storyboards, branding, and user stories into a cohesive design justified against design criteria",
+        "minimum_width": "Produce a UX design for a digital system with wireframes, branding and at least one user story; justify at least one design decision against the criteria",
+        "typical_width": "Produce a complete UX design with multiple wireframes, a storyboard, branding guidelines, and user stories; justify key design decisions and identify where trade-offs were made between competing user needs",
+        "wider": [
+          "Present the design to peers or stakeholders and iterate based on feedback — demonstrate how the design changed in response to evaluation",
+          "Evaluate the design against accessibility criteria not originally in the brief — what would need to change to serve a broader user base?"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node synthesises all preceding UX components — UX/UI understanding, user stories, wireframes and branding — into a single coherent design. Students who have learned each component separately commonly produce designs where branding and wireframes don't serve the user stories. The integration task surfaces whether the components were genuinely connected throughout.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The present-and-iterate direction requires advancing students to defend their design decisions under evaluation and demonstrate responsiveness to feedback — a genuinely richer engagement than producing the design alone.",
+        "success_criteria": [
+          "Produces a cohesive UX design that includes wireframes, branding and user stories",
+          "Justifies at least two design decisions against user stories or design criteria",
+          "Design is internally consistent — branding, layout and navigation work together"
+        ],
+        "related_standards": [
+          "AC9TDI8P04",
+          "AC9TDI8P08",
+          "AC9TDI8P10"
+        ]
+      }
+    ]
+  }
+}

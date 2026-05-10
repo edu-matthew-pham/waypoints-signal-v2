@@ -1,0 +1,104 @@
+{
+  "year_level": "3-4",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE4K02",
+    "title": "Forces and material properties",
+    "description": "describe how forces and the properties of materials affect function in a product or system",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explore how technologies including materials affect movement in products (AC9TDE2K02). They have explored movement through play. They have not yet described the relationship between forces, material properties and function, or connected these to design decisions in a product or system.",
+    "progression_endpoint": "Students describe how forces (push, pull, gravity, buoyancy) and the properties of materials (strength, flexibility, weight) affect the function of products and systems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Forces that act on products and systems",
+        "progression_checkpoint": "Students can name the forces acting on a product or system and describe what each force does",
+        "minimum_width": "Name at least two forces (e.g. push, pull, gravity, buoyancy) and describe what each one does in a product or system context",
+        "typical_width": "Describe the forces acting in different products and systems \u2014 pushing, pulling, gravity acting on a falling or supported object, buoyancy keeping a watercraft afloat; explain how each force affects what the product or system does",
+        "wider": [
+          "Research how First Nations Australians consider buoyant forces when selecting materials for watercraft such as bark or dugout canoes \u2014 examine how understanding of buoyancy informs material choice",
+          "Explore how forces interact in a puppet system (e.g. a Japanese bunraku puppet) \u2014 identify which forces act on each part and how designers use them to control movement"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two forces and describes what each does",
+          "Connects a named force to a product or system context"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "Students who cannot name the forces acting on a product cannot proceed to N2's material-property explanations or N3's combined explanation \u2014 describing how materials interact with forces requires knowing which forces are at play."
+      },
+      {
+        "id": 2,
+        "label": "Material properties and their role in function",
+        "progression_checkpoint": "Students can identify material properties (strength, flexibility, weight, buoyancy) and explain how each affects what a product or system can do",
+        "minimum_width": "Name at least two material properties and explain how one of them affects the function of a product",
+        "typical_width": "Describe how material properties (strength, flexibility, weight, hardness, buoyancy) affect function across different products; explain why a designer would choose a material with specific properties for a given purpose",
+        "wider": [
+          "Investigate how different surface materials (carpet, grass, concrete) affect a robot's or vehicle's movement \u2014 describe how the interaction between material properties and forces determines performance",
+          "Compare how materials from different cultural contexts (e.g. bark, bamboo, plantation timber, synthetic materials) have different properties and how those properties make them suited to different design applications"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily connect material properties to obvious cases (metal is strong) but struggle to apply the concept when the relevant property is less obvious (e.g. flexibility in a parachute, weight in a toy with moving parts). More product contexts surface the range of relevant properties.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two material properties correctly",
+          "Explains how one property affects the function of a specific product"
+        ],
+        "related_standards": [
+          "AC9TDE4P01",
+          "AC9TDE4P03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot connect material properties to function cannot complete the N3 integration \u2014 the combined explanation (force + property \u2192 function) requires both building blocks."
+      },
+      {
+        "id": 3,
+        "label": "How forces and materials together determine function",
+        "progression_checkpoint": "Students can describe how the interaction between forces and material properties determines whether a product or system functions as intended",
+        "minimum_width": "Describe one product or system and explain how both a force and a material property work together to make it function (e.g. a rubber band releases stored force because the material is elastic)",
+        "typical_width": "Describe how forces and material properties interact in a range of products and systems (a model with wheels, a parachute, a container protecting an object, a windmill with moving sails); explain how changing the material or the force would change the function",
+        "wider": [
+          "Deconstruct a product or system (e.g. a model windmill, a pop-up card, a parachute) to identify all forces and material properties at work \u2014 explain how the design coordinates them to achieve the intended function",
+          "Design and test a container or parachute that keeps an egg intact when dropped \u2014 use observations about forces (gravity, air resistance) and material properties to explain why the design works or fails"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The coordination of forces and material properties into a functional explanation is the descriptor's core demand. Students who understand each concept separately often struggle to describe them as an interactive system. This node is where the building blocks from nodes 1 and 2 come together."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to converge on a single product type when reasoning about forces and materials. Working across different product types \u2014 moving toys, watercraft, containers, structures \u2014 builds a more generalisable explanatory framework.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The test-and-explain direction (dropping an egg, designing a parachute, building a tower) offers rich practical application that connects forces and material properties to real design decisions. The First Nations watercraft context provides culturally situated application of the same concepts.",
+        "success_criteria": [
+          "Names at least one force and one material property in the same explanation",
+          "Explains how both contribute to the product or system functioning as intended"
+        ],
+        "related_standards": [
+          "AC9TDE4P01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

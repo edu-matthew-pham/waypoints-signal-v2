@@ -1,0 +1,98 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9M04",
+    "title": "Measurement Error",
+    "description": "calculate and interpret absolute, relative and percentage errors in measurements, recognising that all measurements are estimates",
+    "strand": "Measurement",
+    "mode": "A",
+    "prior_knowledge": "Students can represent and operate with very large and very small values in scientific notation (AC9M9M02). They have not yet formally distinguished between absolute error, relative error and percentage error, or applied these to interpret measurement accuracy.",
+    "progression_endpoint": "Students calculate and interpret absolute, relative and percentage errors in measurements, recognising that all measurements are estimates.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "All measurements are estimates",
+        "progression_checkpoint": "Students can explain why all measurements are estimates and identify lower and upper bounds for a given measurement.",
+        "minimum_width": "State that all measurements involve some degree of uncertainty; give one reason why; identify the lower and upper bounds for a measurement given to a specified precision (e.g. 4.5 cm measured to the nearest mm \u2192 4.45 to 4.55 cm).",
+        "typical_width": "Explain why measurements are estimates due to instrument limitations and reading imprecision; identify lower and upper bounds for measurements at different precision levels; connect precision to the instrument being used (e.g. ruler vs calliper).",
+        "wider": [
+          "Investigate the precision of different laboratory instruments (measuring cylinder vs pipette, ruler vs micrometer) and compare the bounds they produce",
+          "Explore how measurement precision is communicated using significant figures and connect to scientific notation",
+          "Investigate examples where measurement precision has practical consequences (e.g. engineering tolerances, medical dosages)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often believe that a measurement is exact if they read it carefully. Seeing multiple contexts where instrument limits \u2014 not reader error \u2014 introduce unavoidable uncertainty establishes the conceptual foundation that all measurements are estimates.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States that all measurements are estimates and gives a reason related to instrument precision or reading",
+          "Correctly calculates lower and upper bounds for a measurement given its precision",
+          "Identifies the half-unit uncertainty corresponding to the precision of a given instrument"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who believe exact readings are possible cannot correctly identify bounds in N2/N3 or interpret error meaningfully. The foundational concept \u2014 all measurements are estimates \u2014 must be established before error quantification is meaningful."
+      },
+      {
+        "id": 2,
+        "label": "Absolute and relative error",
+        "progression_checkpoint": "Students can calculate and distinguish absolute error and relative error for a measurement.",
+        "minimum_width": "Calculate the absolute error for one measurement (|measured \u2212 actual|); calculate the relative error as the ratio of absolute error to the exact value; explain the difference between the two.",
+        "typical_width": "Calculate absolute and relative errors for a range of measurements; explain that relative error gives a meaningful comparison independent of scale; identify contexts where each measure is more informative.",
+        "wider": [
+          "Compare absolute and relative errors for measurements of very different scales (e.g. a small chemical mass vs a large geological time span) \u2014 discuss why relative error is more meaningful for comparison",
+          "Investigate how AI regression models use absolute and relative error metrics (MAE, MAPE) to evaluate prediction accuracy \u2014 connect to the mathematical definitions",
+          "Explore contexts where only the absolute error matters (e.g. medical dosage) vs contexts where relative error is the right measure (e.g. manufacturing tolerance as a percentage)"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly calculates absolute error as |measured value \u2212 exact value|",
+          "Correctly calculates relative error as absolute error \u00f7 exact value",
+          "Explains in their own words why relative error allows comparison across different scales"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Percentage error",
+        "progression_checkpoint": "Students can calculate and interpret percentage error, using absolute value where appropriate.",
+        "minimum_width": "Calculate the percentage error for one measurement; explain what the percentage error value means in the context of the problem.",
+        "typical_width": "Calculate percentage errors across a range of practical contexts (attendance estimates, budget variances, scientific measurements); apply the absolute value formula for percentage error; discuss when using absolute value is appropriate and when direction of error matters.",
+        "wider": [
+          "Investigate percentage error in budget or planning contexts \u2014 explore whether overestimating or underestimating has different consequences in specific situations",
+          "Connect percentage error to the concept of percentage change \u2014 identify the structural similarity and the key difference",
+          "Investigate how recommendation systems and regression models report percentage error (MAPE) and discuss what a given MAPE value means for prediction quality"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often apply percentage error correctly in one context but fail to generalise \u2014 particularly around when absolute value is needed. Working across contexts where the direction of error matters differently resolves this and builds transferable application.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Percentage error connects to a wide range of real-world contexts \u2014 budgeting, AI evaluation metrics, scientific measurement \u2014 giving it genuine cross-disciplinary richness. Students who explore this concept across domains develop a transferable tool for quantifying reliability.",
+        "success_criteria": [
+          "Correctly calculates percentage error using the formula (|measured \u2212 exact| / exact) \u00d7 100",
+          "States the percentage error with % units and explains what it means",
+          "Identifies at least one context where using absolute value in the formula is important"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

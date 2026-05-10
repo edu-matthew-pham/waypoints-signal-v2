@@ -1,0 +1,88 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LY05",
+    "title": "Evaluate information and ideas",
+    "description": "Use comprehension strategies such as visualising, predicting, connecting, summarising, monitoring and questioning to build literal and inferred meaning to evaluate information and ideas",
+    "strand": "Literacy",
+    "mode": "A",
+    "prior_knowledge": "Students can use comprehension strategies to build literal and inferred meaning and to evaluate ideas and information (AC9E4LY05). They have not yet applied research skills systematically — identifying purpose, locating texts, evaluating source quality, and summarising across multiple sources.",
+    "progression_endpoint": "Students apply comprehension strategies including visualising, predicting, connecting, summarising, monitoring and questioning to build literal and inferred meaning, evaluate information and ideas across sources, and conduct purposeful research including assessing source accuracy and currency.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Building literal and inferred meaning",
+        "progression_checkpoint": "Students can apply comprehension strategies — particularly connecting and questioning — to build meaning beyond the literal content of a text, making inferences supported by textual evidence.",
+        "minimum_width": "Use at least two comprehension strategies to make and support an inference about a text's meaning that goes beyond what is explicitly stated.",
+        "typical_width": "Apply a range of comprehension strategies (visualising, predicting, connecting, monitoring, questioning) to build understanding across a text. Distinguish between literal meaning (what the text says) and inferred meaning (what can be concluded from what the text says).",
+        "wider": [
+          "Apply comprehension strategies to complex or challenging texts — including texts with technical vocabulary or unfamiliar cultural contexts — and discuss how strategy use changes when the text is less familiar",
+          "Compare how different comprehension strategies are more or less useful for different types of texts — building metacognitive awareness of which strategies to deploy when"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Makes an inference about a text's meaning that goes beyond literal content and supports it with specific textual evidence.",
+          "Identifies which comprehension strategy was used to construct the inference."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Summarising and main idea",
+        "progression_checkpoint": "Students can summarise a text or passage to determine its main idea, distinguishing main ideas from supporting detail.",
+        "minimum_width": "Summarise a text to identify its main idea, demonstrating that the summary captures the central point rather than listing details.",
+        "typical_width": "Summarise ideas and information across texts to determine main ideas, identify supporting evidence, and distinguish central claims from supporting examples. Apply summarising in research contexts to distil information from multiple sources.",
+        "wider": [
+          "Compare summaries of the same text produced by different readers, discussing what choices are made about what counts as 'main' versus 'supporting' and why those choices might differ",
+          "Apply summarising skills across texts on the same topic from different sources, synthesising the main ideas into a coherent overview"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3's research task requires students to summarise across multiple sources to distil and evaluate information. Students who cannot reliably identify main ideas — producing detail-lists rather than central-claim summaries — will be unable to synthesise across sources or evaluate whether a source's claims are accurate or relevant.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Summarising accurately — capturing the main idea without drifting into list-of-details — is a skill that requires practice. Students commonly produce summaries that are too detailed or that miss the central claim. Consolidation through varied texts and explicit feedback builds the reliable summarising that underpins research skills.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a summary that captures the main idea rather than listing supporting details.",
+          "Can explain why their summary is a main-idea summary rather than a detail list."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating sources and information",
+        "progression_checkpoint": "Students can evaluate the accuracy and currency of information from print and digital sources, and identify the research purpose before selecting and organising information.",
+        "minimum_width": "Identify the research purpose for a task and evaluate at least two sources for their relevance and accuracy, explaining the basis for the evaluation.",
+        "typical_width": "Apply research skills including identifying research purpose, locating texts, gathering and organising information, evaluating the accuracy and currency of print and digital sources, and summarising information from several sources. Explain the criteria used to evaluate source quality.",
+        "wider": [
+          "Examine how the same topic is covered differently across sources of different types (encyclopedia, news article, personal blog, academic reference) and discuss what each source's characteristics suggest about its reliability and purpose",
+          "Apply information evaluation skills to a contested topic — where sources offer different claims — and discuss how to navigate conflicting information"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluating source accuracy and currency requires students to apply criteria rather than accept information at face value. The reasoning chain — 'this source is/isn't reliable because... based on criteria...' — needs to be made explicit; students without this scaffold tend to trust all sources equally or distrust all unfamiliar sources.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Source evaluation — across source type, currency, authorial purpose, and contested claims — is genuinely rich. Advancing students can develop a systematic framework for source assessment that applies across research contexts and topics.",
+        "success_criteria": [
+          "Identifies a research purpose and explains how it guides source selection.",
+          "Evaluates at least two sources using specific criteria (accuracy, currency, relevance) and explains the evaluation — does not simply accept or reject sources without reasoning."
+        ]
+      }
+    ]
+  }
+}

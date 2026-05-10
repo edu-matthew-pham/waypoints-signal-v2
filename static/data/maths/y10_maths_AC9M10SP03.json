@@ -1,0 +1,106 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10SP03",
+    "title": "Algorithms for spatial problems",
+    "strand": "Space",
+    "mode": "B",
+    "description": "design, test and refine solutions to spatial problems using algorithms and digital tools; communicate and justify solutions",
+    "prior_knowledge": "Students can design, test and refine algorithms based on geometric constructions and theorems (AC9M9SP03). They have not yet applied this capability to the full range of spatial problem types at Y10 \u2014 scale models, floor plan optimisation, network routing, and self-similar patterns \u2014 or communicated and justified solutions at this level.",
+    "progression_endpoint": "Students design, test and refine algorithmic solutions to spatial problems using digital tools, and communicate and justify their solutions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Defining and decomposing spatial problems",
+        "progression_checkpoint": "Students can precisely define a spatial problem and decompose it into sub-problems suitable for algorithmic solution.",
+        "minimum_width": "Define a spatial problem in precise terms (specifying inputs, constraints, and desired output); identify at least two sub-problems that together constitute the full problem.",
+        "typical_width": "Define and decompose spatial problems across different types (floor plan optimisation, network routing, scale model design); identify which decomposition makes the problem most tractable; specify all constraints and success criteria before designing the algorithm.",
+        "wider": [
+          "Explore how geospatial technologies used by First Nations Australians' communities decompose spatial problems of position and transformation \u2014 and compare these problem-solving approaches to computational decomposition methods",
+          "Investigate how floor plan problems (e.g. minimising congestion at key areas in a department store) can be formally specified as optimisation problems with defined constraints"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Problem decomposition requires systematic thinking \u2014 students who jump to algorithm design before the problem is precisely defined frequently produce solutions that do not match the actual constraints. Explicit problem specification before algorithm design needs scaffolding.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student states a spatial problem with precise inputs, constraints and success criteria",
+          "Student identifies at least two sub-problems and explains how they combine to solve the full problem"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot precisely define a spatial problem before designing an algorithm produce solutions that do not match the actual constraints \u2014 N2 algorithm design and N3 testing are both invalidated by an underspecified problem definition."
+      },
+      {
+        "id": 2,
+        "label": "Designing algorithms for spatial problems",
+        "progression_checkpoint": "Students can design an algorithm (using pseudocode or flowchart) that addresses a defined spatial problem.",
+        "minimum_width": "Write pseudocode or a flowchart for an algorithm that solves a defined spatial problem; the algorithm must specify all steps clearly enough that another person could follow it.",
+        "typical_width": "Design algorithms for spatial problems across at least two different types (e.g. scale model generation and network routing); express algorithms in pseudocode or flowchart; identify decision points and loops; evaluate the algorithm's completeness before testing.",
+        "wider": [
+          "Design algorithms for producing self-similar (fractal) patterns using recursive pseudocode; trace the algorithm for at least two iterations to verify the pattern",
+          "Investigate how computational thinking approaches to weighted network problems (shortest path, minimum spanning tree) can be expressed as algorithms and test them on small networks"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need experience designing algorithms for multiple spatial problem types \u2014 the algorithm structures for scale model generation, floor plan optimisation and network routing are different. A repertoire of problem-type-to-algorithm-structure mappings is the goal.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Self-similar pattern algorithms (fractals via recursion) and weighted network algorithms are genuinely rich territory \u2014 connecting spatial mathematics with algorithmic thinking in ways that are engaging and appropriately challenging for advancing students.",
+        "success_criteria": [
+          "Student produces pseudocode or a flowchart that is unambiguous and complete for the defined spatial problem",
+          "Student identifies decision points and loops in the algorithm and explains their role"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Testing, refining and justifying",
+        "progression_checkpoint": "Students can test an algorithm against multiple cases, identify and fix failures, and communicate why the refined solution addresses the problem.",
+        "minimum_width": "Test an algorithm against at least two different input cases; identify one case where it fails or produces unexpected output; describe a refinement to address the failure.",
+        "typical_width": "Test algorithms against a range of cases including edge cases; systematically identify failure modes; refine the algorithm to address failures; validate the refined version; communicate the solution and justification in clear terms appropriate for the audience.",
+        "wider": [
+          "Investigate how geospatial technologies used by First Nations Australians' communities address spatial problems of position and transformation \u2014 considering how these established methods relate to computational verification",
+          "Apply the testing process to a self-similar pattern algorithm \u2014 validate against multiple iteration depths and compare the algorithmic output to a geometric description of the pattern"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Testing and refinement takes very different forms across problem types \u2014 testing a floor plan algorithm requires spatial visualisation, testing a network routing algorithm requires tracing paths, testing a fractal algorithm requires iteration tracing. Multiple problem types build the generalised testing mindset."
+          },
+          {
+            "mode": "integration",
+            "reason": "Testing and justification integrates problem decomposition (node 1), algorithm design (node 2) and communication into the complete design cycle. It is the node where algorithmic thinking becomes a full engineering practice."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student tests the algorithm against at least two cases and correctly identifies a failure case",
+          "Student describes a specific refinement and explains how it addresses the identified failure",
+          "Student communicates the solution and justification clearly to a specified audience"
+        ],
+        "related_standards": [
+          "AC9M10SP01",
+          "AC9M10SP02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

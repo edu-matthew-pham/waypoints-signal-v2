@@ -1,0 +1,100 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9S03",
+    "title": "Evaluating Data: Generalisations, Patterns and Relationships",
+    "description": "evaluate geographical data and information to make generalisations and predictions, explain patterns and trends and infer relationships",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can identify patterns and trends in geographical data (Y7-8). At Y9, the moves are: making and justifying generalisations from data, making predictions from trends, and inferring causal relationships between variables.",
+    "progression_endpoint": "Students evaluate geographical data to make justified generalisations and predictions, explain patterns and trends with reference to geographical factors, and infer relationships between causes and impacts represented in data.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Making generalisations from data",
+        "progression_checkpoint": "Students can make generalisations about trends from geographical data",
+        "minimum_width": "Make at least one generalisation from a dataset or survey; explain what evidence from the data supports the generalisation",
+        "typical_width": "Make and justify generalisations about geographical trends from data sources such as questionnaires, interviews or quantitative datasets; identify evidence that supports and evidence that qualifies the generalisation",
+        "wider": [
+          "Compare generalisations made from a qualitative source (e.g. interviews about food access) with generalisations from a quantitative source (e.g. food production statistics) on the same topic — explain what each type of data reveals",
+          "Identify when a generalisation is over-broad — find a data point that doesn't fit and explain what it reveals about the limitations of the generalisation",
+          "Evaluate two generalisations about the same trend (e.g. from different data sources) — explain which is better supported and why"
+        ],
+        "hinge": true,
+        "hinge_reason": "Generalisation is the bridge between raw data and pattern explanation. Students who cannot make a justified generalisation produce data summaries rather than analysis, and cannot make predictions or infer relationships in Nodes 2-3. If students cannot move from 'the data shows X' to 'we can therefore say Y generally', the subsequent analytical moves in this standard are inaccessible.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Generalisation requires students to synthesise across data points rather than read off individual values. The reasoning scaffold — 'what pattern appears across multiple data points?' then 'what does that allow us to say generally?' — needs explicit modelling. Students who describe individual data points rather than synthesising them have not crossed this node's threshold.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Makes at least one generalisation that goes beyond restating individual data points",
+          "Identifies specific evidence from the data that supports the generalisation",
+          "Qualifies the generalisation appropriately (e.g. 'in most cases', 'with some exceptions')"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Explaining patterns and trends",
+        "progression_checkpoint": "Students can explain a geographical pattern or trend with reference to geographical factors",
+        "minimum_width": "Identify at least one pattern or trend in data; explain it with reference to at least one geographical factor",
+        "typical_width": "Explain geographical patterns and trends in data (e.g. locations of food scarcity from hunger index maps, transport network distribution from survey data) using relevant geographical factors; connect the explanation to the inquiry question",
+        "wider": [
+          "Compare pattern explanations across scales — explain why the same trend appears differently at local versus global scale",
+          "Use multiple data sources to triangulate a pattern explanation — explain how different sources support or complicate the explanation",
+          "Explain a pattern that has an unexpected feature — identify what additional factor or exception the data reveals beyond the main trend"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Pattern explanation requires students to move from 'I can see X in the data' to 'X occurs because of geographical factor Y'. Students who describe patterns without explaining them have not reached this node. The causal step — connecting the pattern to a geographical mechanism — needs explicit scaffolding.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Explaining unexpected pattern features is rich — it requires students to interrogate their own explanation and consider whether additional factors are needed. This develops genuine geographical reasoning rather than pattern-matching to expected outcomes, and directly supports the inference and conclusion work in S03-S04.",
+        "success_criteria": [
+          "Identifies at least one pattern or trend in geographical data",
+          "Explains the pattern with reference to at least one geographical factor",
+          "Uses geographical data vocabulary (trend, distribution, pattern) correctly"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Inferring relationships between causes and impacts",
+        "progression_checkpoint": "Students can explain relationships between causes and impacts of factors represented in data",
+        "minimum_width": "Identify at least one causal relationship between two variables shown in data; explain the mechanism connecting cause to impact",
+        "typical_width": "Explain relationships between causes and impacts of geographical factors represented in data (e.g. GPS and GIS use → precision fertiliser application → yield increase + reduced run-off; GPS mapping → tourist transport choices → tourist distribution); distinguish correlation from causal relationship",
+        "wider": [
+          "Identify a relationship in the data that could be correlation rather than causation — explain what additional evidence would be needed to confirm causation",
+          "Trace a multi-step causal chain in the data (e.g. technology adoption → precision farming → reduced environmental impact → sustained productivity) — explain each link",
+          "Compare two datasets and explain why the same causal factor produces different impacts in different geographical contexts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Inferring relationships requires students to distinguish correlation from causation and to articulate the mechanism connecting cause to impact. Students who confuse the two or who cannot articulate a mechanism cannot evaluate strategies in S05 or draw conclusions in S04. Scaffolding the mechanism step — 'what process connects X to Y?' — is the critical analytical move.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The correlation-causation distinction is rich — it raises genuine methodological questions about how geographical data can and cannot support causal claims. Advancing students who engage with this distinction develop data literacy that is foundational for research and evaluation beyond this year level.",
+        "success_criteria": [
+          "Identifies at least one causal relationship between variables in data",
+          "Explains the mechanism connecting the cause to the impact",
+          "Distinguishes between a relationship that shows correlation and one that shows causation"
+        ]
+      }
+    ]
+  }
+}

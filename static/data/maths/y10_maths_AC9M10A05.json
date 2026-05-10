@@ -1,0 +1,128 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10A05",
+    "title": "Experiment with functions and relations",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "experiment with functions and relations using digital tools, making and testing conjectures and generalising emerging patterns",
+    "prior_knowledge": "Students can use mathematical modelling with linear, quadratic or exponential models to solve growth and decay problems (AC9M10A04). They have not yet experimented systematically across the range of function and relation types at this year band \u2014 including circles, intersections of different function types, and bisection methods \u2014 using conjecture and generalisation as the primary inquiry mode.",
+    "progression_endpoint": "Students experiment with functions and relations using digital tools, making and testing conjectures, and generalising emerging patterns across linear, quadratic, exponential and circular representations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Making and testing conjectures with digital tools",
+        "progression_checkpoint": "Students can use a digital graphing tool to explore a function family, formulate a conjecture about an observed pattern, and test it by varying parameters.",
+        "minimum_width": "Use a digital tool to observe a pattern in a function family (e.g. varying the coefficient of x\u00b2); state a conjecture; test it with at least two additional parameter values.",
+        "typical_width": "Formulate and systematically test conjectures across multiple function families (linear, quadratic, exponential); vary parameters deliberately rather than randomly; record what changes and what stays constant; refine or reject conjectures based on evidence.",
+        "wider": [
+          "Investigate how digital tools with zoom functionality allow systematic refinement of approximate intersection locations \u2014 connecting the visual zoom process to interval bisection as a numerical method",
+          "Explore how machine learning uses functions and parameter variation to fit models to data \u2014 connecting mathematical experimentation to an emerging applied context"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often explore digital tools without structuring their exploration as conjecture-test cycles. Explicit scaffolding of the conjecture-test-refine loop is needed before students can use digital tools as genuine mathematical inquiry instruments.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student states a conjecture as a testable claim (not an observation) about a function family",
+          "Student provides evidence from at least two test cases that either supports or contradicts the conjecture"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not structure exploration as conjecture-test cycles cannot do the work of N2\u2013N4 \u2014 locating intersections, working with circles, and generalising all require disciplined hypothesis-driven use of digital tools rather than undirected play."
+      },
+      {
+        "id": 2,
+        "label": "Intersections of functions",
+        "progression_checkpoint": "Students can use digital tools to locate intersection points of two functions and identify coordinate values, including using zoom or bisection to refine approximations.",
+        "minimum_width": "Locate the approximate intersection of two graphed functions using a digital tool; read off the coordinates.",
+        "typical_width": "Locate intersections of linear, quadratic and exponential function pairs; apply zoom or bisection methods to refine approximations to specified accuracy; identify intersections of a linear function with a quadratic or a circle; connect intersection points to the algebraic meaning (simultaneous solution).",
+        "wider": [
+          "Apply a bisection algorithm to systematically narrow an interval containing a root of a quadratic, connecting the numerical method to graphical behaviour and developing a general procedure",
+          "Investigate how intersections of functions are used to solve equations that cannot be solved by standard algebraic methods \u2014 appreciating digital tools as extending algebraic capability"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only find intersections of linear function pairs may not recognise the same process applies to quadratic-linear, exponential-linear, or circle-linear intersections. Multiple function pairings are needed to generalise the concept.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The bisection algorithm and its connection to interval narrowing introduces algorithmic thinking in a mathematical context \u2014 a rich bridge between pure mathematics and computational thinking for advancing students. This node connects naturally to AC9M10SP03.",
+        "success_criteria": [
+          "Student locates the intersection of two given functions graphically and states the coordinates",
+          "Student can refine an approximate intersection point using a zoom or bisection approach"
+        ],
+        "related_standards": [
+          "AC9M10SP03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Circles and transformations as relations",
+        "progression_checkpoint": "Students can work with the unit circle x\u00b2 + y\u00b2 = 1 as a relation, apply transformations, and identify key features of the transformed relation.",
+        "minimum_width": "Recognise x\u00b2 + y\u00b2 = 1 as a circle centred at the origin with radius 1; graph it using a digital tool; identify that it is a relation, not a function.",
+        "typical_width": "Apply transformations (translation, scaling) to x\u00b2 + y\u00b2 = 1; identify the centre and radius of the resulting circle; find intersection points of a circle with a linear function graphically; investigate intervals where a quadratic function is positive or negative.",
+        "wider": [
+          "Explore transformations of the unit circle algebraically, connecting the transformed equation to the geometric centre and radius, and generalising the standard form (x\u2212h)\u00b2 + (y\u2212k)\u00b2 = r\u00b2",
+          "Investigate the difference between functions and relations more broadly \u2014 why a circle is a relation but not a function, and how this distinction matters for analysis"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The function/relation distinction is a genuine conceptual hinge \u2014 students who have only worked with functions may not recognise that y = f(x) is not the only valid form of a mathematical relationship. The circle provides the canonical context for making this distinction clear."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly graphs the unit circle using a digital tool and explains why it is not a function",
+          "Student identifies the effect of a given transformation on the circle's centre and radius"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Generalising emerging patterns",
+        "progression_checkpoint": "Students can generalise a pattern observed across multiple function experiments into a stated rule or conjecture that applies across a family of cases.",
+        "minimum_width": "State a generalisation (in words or algebraic form) that summarises a pattern observed across at least three cases in a function experiment.",
+        "typical_width": "Generalise patterns across function families (e.g. the effect of coefficient changes, the relationship between roots and factors); express generalisations algebraically where possible; test generalisations against novel cases; distinguish generalisations that hold from those that break down at boundary cases.",
+        "wider": [
+          "Investigate how the same function family (e.g. exponential) appears across multiple domains (finance, biology, physics) and generalise which structural features drive the shared behaviour",
+          "Explore how pattern generalisation in mathematics connects to how machine learning models extract patterns from data \u2014 a conceptual parallel rather than a formal equivalence"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Generalisation is the culminating act of this descriptor \u2014 it requires coordinating observations across experiments, identifying invariant features, and expressing findings in general form. This node is where the exploratory work of prior nodes becomes mathematical knowledge.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Generalisation across function families \u2014 expressing rules that hold across all cases \u2014 is the deepest mathematical work in this descriptor. Advancing students can engage with generalisations that connect to function theory (even/odd functions, roots and factors, transformations as a group) at a level appropriate to the year band.",
+        "success_criteria": [
+          "Student states a generalisation in clear terms that applies to all tested cases",
+          "Student tests the generalisation against at least one case not used to form it and reports whether it holds"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

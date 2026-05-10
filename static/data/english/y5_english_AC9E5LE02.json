@@ -1,0 +1,88 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LE02",
+    "title": "Present opinion with literary terms",
+    "description": "Present an opinion on a literary text using specific terms about literary devices, text structures and language features, and reflect on the viewpoints of others",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the effects of text structures and language features in literary texts (AC9E4LE02). They have not yet used specific literary terminology to support and present an opinion, or reflected on how others' viewpoints differ from their own.",
+    "progression_endpoint": "Students present an opinion on a literary text supported by specific references to literary devices, text structures and language features using relevant terminology, and reflect on how the viewpoints of others complement, challenge, or extend their own interpretation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Opinion supported by textual evidence",
+        "progression_checkpoint": "Students can state an opinion about a literary text and support it with specific references to the text, identifying the textual evidence for their view.",
+        "minimum_width": "State an opinion about a literary text and support it with at least two specific references to the text, explaining the connection between each reference and the opinion.",
+        "typical_width": "Present an opinion on a literary text supported by several specific textual references, explaining how each reference supports the opinion. Select references that represent different types of evidence — plot, character, language — rather than the same type repeatedly.",
+        "wider": [
+          "Examine how textual evidence can support multiple different opinions about the same text, discussing what this reveals about interpretation",
+          "Compare how different readers select different evidence for the same opinion and discuss why evidence selection varies"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States an opinion and provides at least two specific textual references that support it.",
+          "Explains the connection between each reference and the opinion — does not just quote and leave the connection implicit."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using specific literary terms",
+        "progression_checkpoint": "Students can use specific terms about literary devices, text structures and language features accurately when discussing a literary text and explaining their opinion.",
+        "minimum_width": "Use at least two specific literary terms correctly in presenting an opinion about a literary text, explaining how the feature named by each term contributes to the effect being discussed.",
+        "typical_width": "Use a range of specific literary terms — including terms for literary devices, text structural features, and language features — accurately in presenting a literary opinion. Apply terms from the Y5 literature curriculum including those from AC9E5LE03 (point of view), AC9E5LE04 (imagery, simile, metaphor, personification, sound devices) where appropriate.",
+        "wider": [
+          "Compare how using specific vs. vague language when presenting a literary opinion changes the precision and persuasiveness of the opinion — examining what is gained by using exact terminology",
+          "Research and apply one literary term not yet studied, using it correctly in presenting an opinion and explaining what it adds to the discussion"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to integrate textual evidence, terminology, and reflection on others' viewpoints into a single discussion move. Students who cannot deploy literary terms accurately will be unable to participate meaningfully in the reflective discussion that Node 3 demands — the shared language of literary terms is the medium through which viewpoints are compared and extended.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Literary terminology is a vocabulary repertoire that grows across the year and across the curriculum. Students need encounter with terms across multiple texts and discussion contexts to develop reliable accurate use. No single term is a hinge; the goal is expanding the working repertoire of correctly used terms.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least two specific literary terms correctly and with explanation — not just appended as labels.",
+          "The term is used accurately — the feature it names is present in the text at the place cited."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Engaging with the viewpoints of others",
+        "progression_checkpoint": "Students can reflect on viewpoints expressed by others about a literary text, explaining how those viewpoints are the same as, different from, or extend their own interpretation.",
+        "minimum_width": "After a discussion of a literary text, identify at least one viewpoint expressed by another reader that differs from or extends their own, and explain how that viewpoint relates to their original opinion.",
+        "typical_width": "Engage in discussion of a literary text by posing and responding to questions about character dilemmas and author choices. Reflect on how the discussion has deepened, challenged or confirmed their own interpretation. Begin making judgements about the dilemmas characters face, supported by reasons.",
+        "wider": [
+          "Examine how the same literary text generates different opinions depending on readers' backgrounds or prior experiences, discussing what this reveals about the relationship between reader and text",
+          "Compare critical responses to a text from different contexts or perspectives and discuss what each viewpoint illuminates or overlooks"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to integrate textual evidence (node 1), terminology (node 2), and awareness of multiple interpretations into a reflective discussion move — the full demand of the descriptor's 'reflect on the viewpoints of others' clause.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of viewpoints available on literary texts — by background, experience, prior knowledge, cultural context — is genuinely rich. Advancing students can examine how interpretive communities form around texts, and how divergent readings illuminate different aspects of a text's meaning.",
+        "success_criteria": [
+          "Identifies a viewpoint from discussion that differs from their own and explains the difference — not just notes that it is different.",
+          "Reflects on how another viewpoint has affected their own interpretation, even if their opinion has not changed."
+        ]
+      }
+    ]
+  }
+}

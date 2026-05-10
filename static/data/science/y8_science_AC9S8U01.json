@@ -1,0 +1,101 @@
+{
+  "year_level": "8",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S8U01",
+    "title": "Cell Structure",
+    "description": "investigate cell structure and function, including the role of organelles in plant and animal cells, and explain how the microscope has contributed to this understanding",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can explain the cell as the basic unit of life and describe differences between plant and animal cells at a structural level (AC9S7U01 adjacent — living things and classification). They have not yet examined organelle-level structure and function or connected microscopy technology to the development of cell theory.",
+    "progression_endpoint": "Students investigate the structure and function of organelles in plant and animal cells, explain how the microscope enabled discovery of cell structures that were not observable to the naked eye, and construct or evaluate models of cells that represent organelle arrangement and function.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Plant and animal cells have distinct organelles",
+        "progression_checkpoint": "Students can identify key organelles in plant and animal cells (nucleus, cell membrane, cytoplasm, mitochondria, cell wall, chloroplasts, vacuole) and state the function of each, distinguishing which organelles are found in plant cells only, animal cells only, or both.",
+        "minimum_width": "Students identify and state the function of at least five organelles across plant and animal cells, correctly distinguishing which are present in each cell type.",
+        "typical_width": "Students describe the function of each major organelle in the context of what the cell needs to do — connecting structure to function — and explain why plant cells have organelles animal cells lack (cell wall for structural support, chloroplasts for photosynthesis, large central vacuole for turgor).",
+        "wider": [
+          "Investigate specialist cell types (red blood cells, nerve cells, guard cells, root hair cells) and explain how each cell's organelle complement reflects its specific function",
+          "Examine prokaryotic cells (bacteria) and compare their structure with eukaryotic plant and animal cells — exploring what the absence of a nucleus means for cell function",
+          "Research how advances in electron microscopy revealed organelle structures invisible to light microscopes — connecting technology development to knowledge development (AC9S8H01)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Organelle-function misattribution at this node propagates directly into Node 3 — students who cannot accurately identify organelles and their functions cannot construct or evaluate a meaningful cell model, reducing model work to a labelling exercise without structural reasoning.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to accumulate an accurate working set of organelle-to-function associations before they can use these in structural analysis or model evaluation tasks. The distinction between plant-only, animal-only and shared organelles is frequently confused and requires deliberate practice across multiple representations.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least five organelles by name and states the function of each",
+          "Correctly distinguishes which organelles are present in plant cells only, animal cells only, or both"
+        ],
+        "related_standards": ["AC9S8U02", "AC9S8H01"]
+      },
+      {
+        "id": 2,
+        "label": "The microscope enabled discovery of cell structure",
+        "progression_checkpoint": "Students can explain how the invention and improvement of the microscope made cell structures visible that were previously unobservable, and describe how this contributed to the development of cell theory.",
+        "minimum_width": "Students explain that the microscope enabled scientists to observe cells and their internal structures for the first time, and name at least one specific discovery that depended on microscopy.",
+        "typical_width": "Students describe how improvements in microscopy (light → electron microscopy) progressively revealed finer cell structures, explain how these observations contributed to and revised cell theory, and connect technological development to knowledge change.",
+        "wider": [
+          "Construct a timeline showing key microscopy developments and the cell discoveries they enabled — connecting tool development to scientific knowledge change (AC9S8H01)",
+          "Investigate how digital microscopes and imaging software are used in contemporary cell biology — extending the technology-to-knowledge connection to current practice",
+          "Examine how advances in medical imaging (CT, MRI, ultrasound) follow the same pattern as microscopy: new observation technology enabling new understanding of structure"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students tend to treat the microscope as merely a magnification tool rather than as the instrument that made an entire category of knowledge possible. Making the reasoning chain explicit — what was not observable → microscope made it observable → this changed what scientists could claim → this produced new understanding — is necessary before students can engage meaningfully with the technology-to-knowledge narrative in AC9S8H01.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The technology-to-knowledge narrative connects directly to AC9S8H01 (new evidence changes scientific knowledge) and offers substantive enrichment. A timeline of microscopy developments provides a structured investigation that goes beyond knowing that microscopes exist to understanding how successive generations of technology enabled successive layers of discovery.",
+        "success_criteria": [
+          "Explains that the microscope made cell structures visible that were unobservable to the naked eye",
+          "Names at least one specific cell structure or discovery that required microscopy",
+          "Describes how improved microscopy revealed structures invisible to earlier microscopes"
+        ],
+        "related_standards": ["AC9S8H01"]
+      },
+      {
+        "id": 3,
+        "label": "Models represent cell structure",
+        "progression_checkpoint": "Students can design or evaluate a physical or digital model of a cell, explaining how the model represents organelle structure and function and identifying at least one limitation of the model.",
+        "minimum_width": "Students design a model of a plant or animal cell that correctly positions and labels at least five organelles, and identify one way the model differs from a real cell.",
+        "typical_width": "Students design a model of a cell with accurate organelle representation, explain how each element of the model represents a real structure or function, and describe at least two limitations of the model — connecting to the general principle that models simplify reality.",
+        "wider": [
+          "Compare 2D and 3D representations of cells and explain what each representation communicates that the other cannot — connecting to the broader use of representations in science",
+          "Evaluate a given cell model (diagram, physical model, digital simulation) against the criterion of accuracy and identify specific improvements",
+          "Design a model that represents a specialist cell type and explain how the organelle complement in the model reflects that cell's specific function"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Model construction requires students to apply organelle knowledge, function-structure reasoning, and an understanding of what models are for — simultaneously. Students who have organelle knowledge as a list must now deploy it in a spatial, relational representation. The model evaluation task (identifying limitations) requires an additional metacognitive move about the relationship between models and reality."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Designs or evaluates a cell model with at least five correctly positioned and labelled organelles",
+          "Explains how at least one element of the model represents a real structure or function",
+          "Identifies at least one way the model differs from or simplifies a real cell"
+        ],
+        "related_standards": ["AC9S8I04"]
+      }
+    ]
+  }
+}

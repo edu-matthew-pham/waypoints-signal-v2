@@ -1,0 +1,101 @@
+{
+  "year_level": "6",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S6U03",
+    "title": "Electrical Circuits",
+    "description": "investigate the transfer and transformation of energy in electrical circuits, including the role of circuit components, insulators and conductors",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students understand that heat transfers from warm to cool objects and can classify materials as conductors or insulators of heat (AC9S3U03). They have classified energy types as kinetic and potential (AC9S8U05 — later band). They have not yet examined electrical circuits, circuit components or electrical conductors and insulators.",
+    "progression_endpoint": "Students investigate the requirements for a working electrical circuit, identify the role of each component, distinguish electrical conductors from insulators, construct and represent circuits using standard conventions, and explain how electrical energy is transferred and transformed within a circuit.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "A circuit requires a complete conducting path and energy source",
+        "progression_checkpoint": "Students can explain what is required for an electrical circuit to work — a complete conducting path from and back to the energy source — and identify what happens to the circuit when the path is broken.",
+        "minimum_width": "Students explain that a circuit requires a complete path and an energy source, and describe what happens when the path is broken.",
+        "typical_width": "Students construct real or virtual circuits, identify the necessary components (energy source, conducting material, load), explain that electricity flows only in a complete circuit, explore the role of switches in opening and closing the circuit, and explain why a broken path stops the circuit.",
+        "wider": [
+          "Explore electrical hazards in the home and identify safety measures — fuses, circuit breakers, insulation — that prevent dangerous current flow (AC9S6H02)",
+          "Investigate why underground power cables were developed and how scientific knowledge about electrical safety informs infrastructure decisions (AC9S6H02)",
+          "Examine how the development of electrical circuits has required collaboration across science and engineering — connecting circuit science to the broader history of electrical technology"
+        ],
+        "hinge": true,
+        "hinge_reason": "The complete-circuit model is prerequisite for Nodes 2 and 3 — students who believe electricity is consumed at the load cannot reason about why conductors and insulators matter (N2) or how energy is transferred through the whole circuit (N3). The 'electricity used up' misconception produces systematic errors in all subsequent circuit reasoning.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly believe electricity 'comes out' of one terminal of a battery and is used up, rather than flowing continuously in a complete loop. Making the complete-circuit logic explicit — electricity must flow from the source, through the circuit, and back to the source — is necessary before students can explain why breaks stop circuits or why components in series all stop when one fails.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that a circuit requires a complete conducting path and an energy source",
+          "Explains what happens to the circuit when the path is broken and why"
+        ],
+        "related_standards": ["AC9S6H02"]
+      },
+      {
+        "id": 2,
+        "label": "Conductors allow electricity to flow; insulators do not",
+        "progression_checkpoint": "Students can distinguish electrical conductors from insulators, classify common materials, explain why conductors and insulators are used in specific components, and connect this to safe electrical design.",
+        "minimum_width": "Students classify at least four materials as electrical conductors or insulators with examples, and explain why this distinction matters in electrical devices.",
+        "typical_width": "Students investigate different electrical conductors and insulators; explain that conductors allow electrons to move freely while insulators restrict flow; classify metals as conductors and most plastics, rubber and ceramics as insulators; explain why wires are metal with plastic coating; and connect conductor/insulator selection to safety.",
+        "wider": [
+          "Use an ammeter to compare conductivity of different materials — examining how current measurement reveals conductor quality rather than just a binary conductor/insulator distinction",
+          "Examine how knowledge of electrical conductors and insulators informs the design of electrical safety guidelines for children (AC9S6H02)",
+          "Connect electrical insulation to heat insulation studied in Y3 (AC9S3U03) — examining what these two types of insulation have in common and what is different"
+        ],
+        "hinge": true,
+        "hinge_reason": "The conductor/insulator distinction is directly required for Node 3 component analysis — students must understand material properties to explain why specific components transform energy as they do, and why circuit design places conductors and insulators in specific roles. Without this, N3 energy transformation explanations lack material-level grounding.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students know metals conduct electricity but often do not understand why the distinction matters in circuit design and safety. Encountering conductor/insulator properties across circuit components, safety equipment, and everyday objects builds a more complete understanding of how material properties are applied in electrical engineering.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies at least four materials as electrical conductors or insulators",
+          "Explains why a wire has a metal core with a plastic coating — connecting conductor and insulator properties to a real design decision"
+        ],
+        "related_standards": ["AC9S3U03"]
+      },
+      {
+        "id": 3,
+        "label": "Electrical energy is transferred and transformed by circuit components",
+        "progression_checkpoint": "Students can explain how electrical energy is transferred through a circuit and transformed by components into light, heat and sound, and represent circuits using standard conventions.",
+        "minimum_width": "Students explain that at least one named component (globe, buzzer, motor) transforms electrical energy into another form, and draw a circuit diagram using standard symbols.",
+        "typical_width": "Students explain how electrical energy is transferred through the circuit and transformed by different components (globes → light and heat, buzzers → sound, motors → kinetic energy); represent circuits using accepted conventions; examine the purpose of different components including switches, bulbs and ammeters; and connect electrical energy transformation to the general concept of energy transformation (AC9S8U05).",
+        "wider": [
+          "Design a product that uses electrical circuits for a specific purpose and present a case for its use — applying circuit knowledge in a design context (AC9S6I06)",
+          "Explore how electricity is used in the home and identify where each energy transformation occurs — tracing electrical energy from source through appliances",
+          "Investigate how aquatic noise pollution is related to energy transformation in underwater electrical devices — connecting circuit energy transformation to environmental impact (AC9S6H02)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Circuit energy transformation requires students to coordinate component function knowledge, circuit diagram conventions, and energy transformation concepts from the energy strand. Students who have each as separate knowledge must now apply them together in circuit design and analysis tasks.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The product design direction (AC9S6I06) provides a genuine application context that motivates circuit knowledge. Home electricity mapping connects abstract circuit concepts to familiar everyday energy use.",
+        "success_criteria": [
+          "Explains how at least two different circuit components transform electrical energy into other forms",
+          "Draws a circuit diagram using standard symbols",
+          "Connects electrical energy transformation in a circuit to the general concept that energy changes form"
+        ],
+        "related_standards": ["AC9S6H02", "AC9S8U05"]
+      }
+    ]
+  }
+}

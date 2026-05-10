@@ -1,0 +1,67 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY13",
+    "title": "Spell with common letter patterns",
+    "description": "spell one- and two-syllable words with common letter patterns",
+    "strand": "phonic_word_knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can understand that letters represent multiple sounds and that syllables contain vowel sounds (AC9E1LY12). They have not yet applied this knowledge to spell a range of one- and two-syllable words using common letter patterns systematically.",
+    "progression_endpoint": "Students spell one- and two-syllable words with common letter patterns.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Spelling one-syllable words with known patterns",
+        "progression_checkpoint": "Students can spell one-syllable words using known letter patterns — including short vowels, consonant blends and digraphs.",
+        "minimum_width": "Correctly spell at least five one-syllable words containing known letter patterns (e.g. short vowel, blend).",
+        "typical_width": "Spell a range of one-syllable words using known letter patterns — CVC, CVCC, CCVC, digraphs — applying phoneme-grapheme knowledge to spell previously unwritten words.",
+        "wider": [
+          "Generate and spell multiple words from the same pattern family (e.g. words ending in -st, -nd, -ng)",
+          "Apply spelling knowledge to write one-syllable topic vocabulary in content area writing"
+        ],
+        "hinge": true,
+        "hinge_reason": "Reliable one-syllable spelling is the foundation for the two-syllable strategy in N2 — students who cannot spell single syllables accurately cannot apply the 'spell each part' strategy to longer words.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Spelling requires more precision than reading — students can recognise correctly spelled words they cannot yet produce. Consolidation through varied writing contexts builds reliable spelling production.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly spells at least five one-syllable words with known patterns",
+          "Student can apply known patterns to spell a new, unfamiliar one-syllable word"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Spelling two-syllable words",
+        "progression_checkpoint": "Students can spell one- and two-syllable words by applying syllable knowledge and known letter patterns.",
+        "minimum_width": "Correctly spell at least three two-syllable words containing known blends or patterns.",
+        "typical_width": "Spell two-syllable words by attending to each syllable separately, applying known letter patterns to each part — including words with common blends in either syllable.",
+        "wider": [
+          "Explore two-syllable compound words and discuss how spelling each part separately helps",
+          "Write sentences using two-syllable topic vocabulary correctly spelled"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Spelling two-syllable words requires a deliberate strategy: break the word into syllables, spell each part, then reassemble. A simple scaffold ('say it in parts, spell each part') makes this strategy explicit."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly spells at least three two-syllable words",
+          "Student can describe the strategy they use to approach spelling a two-syllable word"
+        ]
+      }
+    ]
+  }
+}

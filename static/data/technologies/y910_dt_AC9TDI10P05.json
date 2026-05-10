@@ -1,0 +1,125 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P05",
+    "title": "Design algorithms with logical operators",
+    "description": "design algorithms involving logical operators and represent them as flowcharts and pseudocode",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can design algorithms involving nested control structures and represent them as flowcharts and pseudocode (AC9TDI8P05). They have experience with sequence, selection and iteration. They have not yet used Boolean logical operators (AND, OR, NOT) to express compound conditions in control structures.",
+    "progression_endpoint": "Students design algorithms using Boolean logical operators (AND, OR, NOT) to express compound conditions, and represent them as flowcharts and pseudocode.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Boolean logical operators",
+        "progression_checkpoint": "Students can describe the behaviour of AND, OR and NOT and evaluate compound Boolean expressions.",
+        "minimum_width": "Evaluate the truth value of at least three compound Boolean expressions involving AND, OR and NOT; explain what each operator does.",
+        "typical_width": "Evaluate compound Boolean expressions for multiple input combinations; describe in plain language what condition each compound expression represents; identify when a condition will be true and when false for AND, OR and NOT combinations.",
+        "wider": [
+          "Use truth tables to systematically evaluate all combinations for two-variable AND, OR and NOT expressions",
+          "Translate a plain-language rule (e.g. 'a person can vote if they are 18 or older AND are a registered citizen') into a Boolean expression and verify it"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Boolean operator evaluation requires precision \u2014 students commonly confuse AND (both must be true) with OR (at least one must be true), and misapply NOT. Sufficient practice with varied expressions, including edge cases, builds reliable operator intuition before algorithm design.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly evaluates a compound expression with at least two operators",
+          "Correctly identifies when an AND expression is false (either operand false) vs when an OR expression is false (both operands false)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Boolean operator errors (confusing AND with OR, misapplying NOT) propagate directly into N2 \u2014 students who cannot reliably evaluate compound expressions cannot write correct IF conditions, making algorithmic design at N4 unreachable."
+      },
+      {
+        "id": 2,
+        "label": "Using logical operators in control structures",
+        "progression_checkpoint": "Students can use Boolean operations in IF conditions to express compound requirements in algorithms.",
+        "minimum_width": "Write or interpret an IF condition using AND, OR or NOT that correctly captures a compound requirement; trace through the algorithm with at least two inputs.",
+        "typical_width": "Design IF conditions using combinations of AND, OR and NOT to express compound conditions; trace the algorithm with multiple inputs including boundary cases; explain why the compound condition correctly captures the intended logic.",
+        "wider": [
+          "Design an algorithm that uses nested logical operators \u2014 a condition within a condition \u2014 and explain the evaluation order",
+          "Analyse an algorithm with a logical operator error and explain what incorrect behaviour it causes and how to fix it"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Writing correct compound conditions requires students to reason from the intent (what should happen and when?) to the expression (how do I write that as a Boolean condition?). Without this direction, students write conditions by trial and error, producing subtle logic errors that are hard to detect.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "IF condition using at least one logical operator correctly captures the stated compound requirement",
+          "Algorithm produces correct output when traced with at least two different inputs"
+        ],
+        "hinge": true,
+        "hinge_reason": "An incorrect compound condition in an IF statement makes N3 representation invalid \u2014 students represent and communicate an algorithm that does not solve the problem, and N4 design is built on faulty logic."
+      },
+      {
+        "id": 3,
+        "label": "Representing algorithms as flowcharts and pseudocode",
+        "progression_checkpoint": "Students can represent algorithms that use logical operators as both flowcharts and pseudocode, using precise and unambiguous notation.",
+        "minimum_width": "Represent one algorithm with a compound Boolean condition as either a flowchart OR pseudocode with correct notation.",
+        "typical_width": "Represent the same algorithm using both flowchart and pseudocode; use precise pseudocode notation (e.g. IF [condition] AND [condition] THEN); explain how the two representations describe the same algorithm.",
+        "wider": [
+          "Represent a complex algorithm \u2014 involving multiple compound conditions and nested structures \u2014 as both a flowchart and pseudocode; explain how readability differs between the two forms and when each is more useful",
+          "Translate between a decision tree (e.g. animal classification) and pseudocode \u2014 identify the equivalent control structures in each representation"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Flowchart or pseudocode correctly represents the algorithm's logic including at least one compound Boolean condition",
+          "Notation is unambiguous \u2014 another person could implement the algorithm from the representation"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Designing algorithms for real problems",
+        "progression_checkpoint": "Students can design algorithms involving logical operators to solve a specified real-world problem, including modifying existing algorithms.",
+        "minimum_width": "Design an algorithm with at least one compound Boolean condition that correctly solves a specified problem, OR modify an existing algorithm to fix or extend it.",
+        "typical_width": "Design or modify an algorithm that uses AND, OR and NOT to solve a problem with multiple conditions \u2014 represent it as both flowchart and pseudocode, and verify it handles edge cases correctly.",
+        "wider": [
+          "Design an algorithm to detect whether two shapes intersect, including the edge case where shapes just touch \u2014 represent and verify with test cases",
+          "Design an algorithm with Boolean conditions for a decision-making context (e.g. eligibility checking, sensor-triggered automation) and evaluate it against a range of scenarios",
+          "Extend an existing algorithm with new requirements expressed as additional Boolean conditions \u2014 explain how the extension changes the algorithm's behaviour"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Nodes 1\u20133 address Boolean operators, compound conditions and representation separately. The design node requires students to coordinate all three \u2014 understanding what condition is needed, expressing it correctly with Boolean operators, and representing it unambiguously. Students who can do each part individually often struggle to design from scratch.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real-problem algorithm design with compound conditions is genuinely rich \u2014 the variety of problem contexts (shape intersection, eligibility checking, sensor automation) each requires different Boolean logic structures and reveals different design considerations.",
+        "success_criteria": [
+          "Algorithm correctly handles the primary case",
+          "Algorithm handles at least one edge case (e.g. boundary input, conflicting conditions)",
+          "Algorithm can be traced to verify correct output"
+        ],
+        "related_standards": [
+          "AC9TDI10P06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

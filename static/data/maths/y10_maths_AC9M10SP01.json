@@ -1,0 +1,115 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10SP01",
+    "title": "Deductive reasoning and geometric proof",
+    "strand": "Space",
+    "mode": "A",
+    "description": "apply deductive reasoning to proofs involving shapes in the plane and use theorems to solve spatial problems",
+    "prior_knowledge": "Students can establish properties of quadrilaterals using congruent triangles and solve related problems (AC9M8SP02). They have not yet applied formal deductive reasoning to construct proofs \u2014 writing logically connected sequences of statements with explicit justification \u2014 or used theorems as starting points for solving new spatial problems.",
+    "progression_endpoint": "Students apply deductive reasoning to construct proofs involving shapes in the plane and use geometric theorems to solve spatial problems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Proof vs demonstration",
+        "progression_checkpoint": "Students can distinguish between a practical demonstration (showing a result is true in specific cases) and a mathematical proof (showing it must be true in all cases), and explain why the distinction matters.",
+        "minimum_width": "Explain the difference between demonstrating that a result holds in a specific example and proving it holds in all cases; give one example of each for a geometric result.",
+        "typical_width": "Distinguish proof from demonstration for at least two geometric results; explain why measuring angles in a specific triangle does not prove the angle sum property for all triangles; identify what makes a valid geometric proof (general argument, logical chain, no unstated assumptions).",
+        "wider": [
+          "Investigate historical cases where a result was widely believed true before a proof was found, and cases where apparent demonstrations turned out to be wrong \u2014 building appreciation for why proof matters",
+          "Explore how automated theorem provers (ATP) and interactive proof assistants (IPA) provide a formal framework for verifying proofs that is distinct from human demonstration"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The proof vs demonstration distinction is conceptually non-trivial and frequently resisted by students who see measurement as sufficient. Explicit reasoning about why a general argument is needed \u2014 and what a general argument must include \u2014 is essential groundwork.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly classifies a given geometric argument as a demonstration or a proof and explains the distinction",
+          "Student identifies at least one unstated assumption or generalisation step that would need to be made explicit in a rigorous proof"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand why a specific demonstration is insufficient cannot construct a valid proof in N2 \u2014 they will produce examples when asked for proofs, not recognising what a general argument requires."
+      },
+      {
+        "id": 2,
+        "label": "Constructing deductive proofs",
+        "progression_checkpoint": "Students can construct a deductive proof for a geometric result, writing a sequence of logically connected statements with explicit reasons at each step.",
+        "minimum_width": "Write a proof for one geometric result (e.g. base angles of an isosceles triangle are equal) using a sequence of statements with stated reasons (given, definition, congruence test, angle property).",
+        "typical_width": "Construct proofs involving congruent triangles, angle properties, and similarity; write proofs in clear logical sequences with explicit reasons; apply multiple geometric theorems within a single proof; identify when a proof is complete vs when a step is missing or unjustified.",
+        "wider": [
+          "Investigate the proof that the base angles of an isosceles triangle are equal using multiple approaches (congruence, reflection symmetry, circle geometry) and compare what each approach illuminates",
+          "Use dynamic geometry software to investigate and then prove a less familiar result (e.g. the angle in a semicircle is 90\u00b0, or the perpendicular bisectors of a triangle are concurrent)"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Proof writing is a skill that requires repeated practice \u2014 students who understand the concept of proof still need to develop fluency with the format (statement \u2192 reason chains) and the range of justifications available. Practice across multiple proof types is needed.",
+            "flags": [
+              "hinge"
+            ]
+          },
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a repertoire of geometric theorems and congruence criteria they can deploy as reasons within proofs. Building this repertoire across triangle and quadrilateral contexts is prerequisite for flexible proof construction.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student writes a valid geometric proof with each step explicitly justified",
+          "Student identifies and corrects an unjustified step when presented with an incomplete proof"
+        ],
+        "hinge": true,
+        "hinge_reason": "Proof construction fluency and a working theorem repertoire are both required for N3 \u2014 students cannot apply theorems to solve novel problems if they cannot yet deploy those theorems as justified reasons within a proof."
+      },
+      {
+        "id": 3,
+        "label": "Using theorems to solve spatial problems",
+        "progression_checkpoint": "Students can identify which geometric theorem applies to a given spatial problem and use it as a basis for solving or proving a result.",
+        "minimum_width": "Identify a geometric theorem relevant to a spatial problem; apply it as a reason in solving for an unknown angle or length.",
+        "typical_width": "Apply multiple geometric theorems to solve multi-step spatial problems involving angles, lengths and congruence; select appropriate theorems from a repertoire; combine similarity, congruence and angle properties in problem-solving; verify answers using logical consistency.",
+        "wider": [
+          "Use dynamic geometry software to investigate the shortest path that touches three sides of a rectangle \u2014 formulate, investigate and prove that the path forms a parallelogram",
+          "Investigate how logical reasoning and similarity are used in numerical exercises that go beyond congruence (e.g. problems involving scale factors, trigonometric relationships, or circle geometry)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Applying theorems flexibly to novel problems requires exposure to varied problem types. Students who only practise theorem application in congruence contexts may not recognise when similarity or angle properties provide the key step in a new problem.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Using theorems to solve spatial problems integrates proof (node 2) with problem-solving: the ability to identify what is known, what theorem bridges the gap, and how to construct the argument. It is the culminating problem-solving mode of the descriptor."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Investigations using dynamic geometry software \u2014 where students explore, conjecture and then prove \u2014 offer rich engagement for advancing students that connects empirical exploration to formal deductive reasoning.",
+        "success_criteria": [
+          "Student correctly identifies a relevant geometric theorem for a given problem and uses it as a stated reason in the solution",
+          "Student solves a multi-step spatial problem requiring at least two distinct theorems"
+        ],
+        "related_standards": [
+          "AC9M10M03",
+          "AC9M10SP03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

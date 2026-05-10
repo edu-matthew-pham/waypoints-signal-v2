@@ -1,0 +1,105 @@
+{
+  "year_level": "7-8",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE8K05",
+    "title": "Food properties and presentation",
+    "description": "analyse how properties of foods determine preparation and presentation techniques when designing solutions for healthy eating",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how the characteristics of foods influence selection and preparation for healthy eating (AC9TDE6K04). They understand that food characteristics matter for healthy eating but have not yet analysed how specific food properties (sensory properties, nutrient retention) determine preparation and presentation techniques.",
+    "progression_endpoint": "Students analyse how the properties of foods — including sensory properties (flavour, texture, appearance, aroma) and nutrient value — determine the selection of preparation and presentation techniques when designing solutions for healthy eating.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Food properties that matter",
+        "progression_checkpoint": "Students can identify the sensory properties and nutritional properties of foods that influence how they should be prepared",
+        "minimum_width": "Name at least two sensory properties (e.g. flavour, texture, appearance, aroma) and explain how each is affected by preparation",
+        "typical_width": "Distinguish between sensory properties and nutritional properties; explain how preparation techniques can enhance one while diminishing another (e.g. roasting improves flavour but may reduce nutrient value)",
+        "wider": [
+          "Investigate how First Nations Australians prepare foods to improve edibility — for example, leaching toxins from seeds or using specific cooking methods that preserve nutritional value",
+          "Compare how the same food's properties are valued differently across cultures — what one culture considers desirable texture or flavour may differ from another"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who know only two sensory properties will not be able to explain preparation trade-offs at Node 2 — selecting between techniques requires understanding how multiple properties respond differently to different methods, and that sensory and nutritional properties can pull in opposite directions.",
+        "success_criteria": [
+          "Names at least two sensory properties of food",
+          "Explains how at least one property is affected by preparation"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Food properties must be accumulated across types before students can reason about how preparation affects them. Students who only know two sensory properties will not be able to explain preparation trade-offs at Node 2. More food examples with different property profiles build the repertoire needed.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations preparation methods and cross-cultural property valuation directions are genuinely rich — they reveal that food properties are not objective facts but are valued differently across cultural contexts, which is a substantive insight beyond the minimum.",
+        "related_standards": [
+          "AC9TDE8P01",
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "How preparation techniques affect properties",
+        "progression_checkpoint": "Students can analyse how different preparation techniques impact sensory properties and nutrient retention",
+        "minimum_width": "Given a preparation technique, explain how it changes at least one sensory property and its effect on nutrient value",
+        "typical_width": "Compare multiple techniques (e.g. stir-frying vs steaming vs boiling) and analyse how each affects flavour, texture, appearance and nutrient retention differently; explain how a recipe can be modified to enhance health benefits",
+        "wider": [
+          "Analyse food preparation techniques from Asian cultures (e.g. stir-frying, steaming, poaching) and their impact on nutrient retention compared to Western techniques",
+          "Investigate how traditional wood selection for roasting and smoking complements flavour in First Nations cooking"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat preparation techniques as generic 'cooking methods' rather than deliberate choices that transform specific properties will not be able to select and justify techniques at Node 3 — design for healthy eating requires knowing how each technique affects both sensory appeal and nutrient value.",
+        "success_criteria": [
+          "Explains how a preparation technique changes at least one sensory property",
+          "Identifies whether the technique improves or reduces nutrient value"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who think of preparation techniques as simply 'cooking methods' rather than as deliberate choices that transform food properties will not be able to design solutions for healthy eating at Node 3. Seeing how different techniques produce different outcomes across multiple food types and cultural traditions builds the analytical framework needed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Designing for healthy eating",
+        "progression_checkpoint": "Students can select and justify preparation and presentation techniques based on food properties when designing solutions for healthy eating",
+        "minimum_width": "Given a healthy eating goal, select a preparation technique and explain why it suits the food's properties and the health objective",
+        "typical_width": "Design a food solution that balances sensory appeal with nutritional goals; justify technique and presentation choices by referencing specific food properties; modify an existing recipe to improve its health benefits while maintaining appeal",
+        "wider": [
+          "Compare food design solutions across cultures — how different traditions balance health, flavour and presentation using different techniques and different foods",
+          "Design a food solution for a specific dietary requirement and evaluate how preparation techniques support both the nutritional need and sensory experience"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Selects a preparation technique appropriate for the food and the health objective",
+          "Justifies the choice by referencing specific food properties"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Designing for healthy eating requires students to draw on food property knowledge (Node 1) and preparation technique analysis (Node 2) simultaneously — selecting a technique requires knowing both what it does to sensory properties and how it affects nutrient retention. Students who have learned these separately often design without considering both dimensions.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The cross-cultural food design comparison and specific dietary requirement directions offer advancing students genuinely complex design problems — balancing nutritional science, sensory appeal and cultural appropriateness requires more sophisticated design reasoning than a single-context brief.",
+        "related_standards": [
+          "AC9TDE8P04",
+          "AC9TDE8P03"
+        ]
+      }
+    ]
+  }
+}

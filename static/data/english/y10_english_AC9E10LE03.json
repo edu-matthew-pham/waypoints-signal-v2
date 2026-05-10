@@ -1,0 +1,83 @@
+{
+  "year_level": "10",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E10LE03",
+    "title": "Aesthetic qualities and audience response",
+    "description": "analyse how the aesthetic qualities associated with text structures, language features, literary devices and visual features, and the context in which these texts are experienced, influence audience response",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students analyse how features of literary texts influence reader preferences (AC9E9LE03). They have not yet analysed how aesthetic qualities, context and text features combine to influence audience response.",
+    "progression_endpoint": "Students analyse how the aesthetic qualities associated with text structures, language features, literary devices and visual features, and the context in which these texts are experienced, influence audience response.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying aesthetic qualities and their sources",
+        "progression_checkpoint": "Students can identify aesthetic qualities in a literary text and trace them to specific text structures, language features, literary devices or visual features.",
+        "minimum_width": "Identify at least one aesthetic quality in a provided text and trace it to the specific feature (language, structural or visual) that creates it.",
+        "typical_width": "Identify a range of aesthetic qualities in a literary text and analyse how different features \u2014 structural, linguistic, literary and visual \u2014 combine to produce those qualities.",
+        "wider": [
+          "Compare the aesthetic qualities of texts experienced in different modes (e.g. a poem read silently versus read aloud versus set to music) and analyse how mode of experience affects aesthetic response",
+          "Examine how the aesthetic qualities of First Nations Australian texts may be constructed through features not typically foregrounded in Western literary analysis (e.g. oral performance conventions)",
+          "Analyse how the aesthetic qualities of a text change when adapted from one medium to another"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to analyse how context of experience shapes response \u2014 a move that depends on being able to connect features to effects. Students who cannot trace aesthetic qualities to their sources will analyse context as separate from the text rather than interacting with it.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students tend to describe aesthetic responses ('I found it powerful') without identifying the specific features producing those responses \u2014 the reasoning from effect back to cause needs explicit scaffolding.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one aesthetic quality in a text",
+          "Traces that quality to a specific text feature (structural, linguistic, literary or visual)"
+        ],
+        "related_standards": [
+          "AC9E10LE07",
+          "AC9E10LA07"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Context of experience and audience response",
+        "progression_checkpoint": "Students can analyse how the context in which a text is experienced shapes audience response, including how narrative position or other contextual factors affect reader sympathy or engagement.",
+        "minimum_width": "Analyse how the context of a text's reception (e.g. narrative position, audience expectation) influences how the audience responds to the text.",
+        "typical_width": "Analyse how both text features and the context of experience (narrative position, audience expectations, cultural context) combine to influence audience response.",
+        "wider": [
+          "Examine how the same text produces different responses in different audience contexts \u2014 e.g. comparing responses to a First Nations Australian text from First Nations and non-First Nations audiences",
+          "Analyse how a text experienced in a community or ceremonial context produces a different response than the same text read individually",
+          "Compare audience responses to a text in its original context and in a contemporary context, analysing how time and cultural shift affect response"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The relationship between text and audience response is context-dependent \u2014 the same text features can evoke different responses in different audience contexts; students need contrasting audience contexts to understand this variability.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Audience response analysis is genuinely rich across cultural, temporal and contextual variations \u2014 First Nations Australian texts offer particularly rich comparative material for examining how context shapes response.",
+        "success_criteria": [
+          "Identifies a specific contextual factor that influences audience response to a text",
+          "Analyses how that contextual factor interacts with text features to shape the response"
+        ],
+        "related_standards": [
+          "AC9E10LE01",
+          "AC9E10LE04",
+          "AC9E10LY01"
+        ]
+      }
+    ]
+  }
+}

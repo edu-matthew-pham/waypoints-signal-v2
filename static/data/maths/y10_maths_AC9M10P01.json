@@ -1,0 +1,105 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10P01",
+    "title": "Conditional probability",
+    "strand": "Probability",
+    "mode": "A",
+    "description": "use the language of \"if ... then\", \"given\", \"of\", \"knowing that\" to describe and interpret situations involving conditional probability",
+    "prior_knowledge": "Students can design simulations comparing simple and compound event probabilities (AC9M9P03). They have not yet used the specific language of conditional probability ('given', 'if...then', 'knowing that') to describe or interpret situations, nor distinguished dependent from independent events using this language.",
+    "progression_endpoint": "Students use the language of conditional probability correctly to describe and interpret situations involving dependent and independent events, using two-way tables, Venn diagrams, arrays and tree diagrams.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The language of conditional probability",
+        "progression_checkpoint": "Students can interpret statements using conditional probability language ('given', 'if...then', 'knowing that') and identify what information is being conditioned on.",
+        "minimum_width": "Correctly interpret a conditional statement using 'given' or 'knowing that' in context; identify what event is the condition and what event is the outcome.",
+        "typical_width": "Interpret all four conditional probability language forms ('if...then', 'given', 'of', 'knowing that') across multiple contexts; distinguish between 'P(A given B)' and 'P(B given A)'; identify common language errors in interpreting conditional statements.",
+        "wider": [
+          "Investigate the 'prosecutor's fallacy' \u2014 confusing P(evidence | innocent) with P(innocent | evidence) \u2014 as a high-stakes real-world example of conditional language misinterpretation",
+          "Explore how natural language processing systems use conditional probability to predict the next word ('given the previous words, what comes next?') and connect the linguistic and mathematical uses of 'given'"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Conditional probability language is a genuine hinge \u2014 confusing P(A|B) with P(B|A) is a systematic error with serious real-world consequences (medical testing, legal reasoning). Multiple context types, including reversed conditional statements, are essential to stabilise the distinction.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The reversal error (prosecutor's fallacy, base rate neglect in medical testing) is rich conceptual territory \u2014 advancing students can engage with the real-world consequences of misinterpreting conditional language in medicine, law and AI at the year band.",
+        "success_criteria": [
+          "Student correctly identifies the conditioning event and the outcome event in a conditional probability statement",
+          "Student distinguishes P(A|B) from P(B|A) and explains why they are not generally equal"
+        ],
+        "hinge": true,
+        "hinge_reason": "Confusion between P(A|B) and P(B|A) cascades into every subsequent node \u2014 students who cannot reliably distinguish the conditioning direction will set up wrong calculations in N2 and reach incorrect independence conclusions in N3."
+      },
+      {
+        "id": 2,
+        "label": "Representing conditional probability",
+        "progression_checkpoint": "Students can use two-way tables, Venn diagrams and tree diagrams to represent situations involving conditional probability and read conditional probabilities from these representations.",
+        "minimum_width": "Read a conditional probability from a two-way table or Venn diagram; identify the relevant subset of the sample space defined by the condition.",
+        "typical_width": "Represent conditional probability situations using two-way tables, Venn diagrams, arrays and tree diagrams; read conditional probabilities from each representation; move between representations of the same situation; verify that probabilities are consistent across representations.",
+        "wider": [
+          "Investigate medical testing scenarios using two-way tables (sensitivity, specificity, false positive rate) and interpret conditional probabilities in terms of clinical decision-making",
+          "Explore how the same conditional probability problem appears very different depending on which representation is used, and discuss why some representations make conditional probability more intuitive"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Reading conditional probabilities from a two-way table requires a systematic process: identify the conditioning row/column, restrict to that sub-total, then read the outcome frequency. Students who skip this restriction process get incorrect unconditional probabilities.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly reads a conditional probability from a two-way table by restricting to the appropriate row or column",
+          "Student represents the same conditional probability situation using at least two different representations and verifies consistency"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot correctly restrict to the conditioning row/column in a two-way table will calculate unconditional rather than conditional probabilities \u2014 this error propagates directly into N3 independence testing, which depends on accurately computing P(A|B)."
+      },
+      {
+        "id": 3,
+        "label": "Dependent and independent events",
+        "progression_checkpoint": "Students can use conditional probability language and representations to determine whether two events are dependent or independent.",
+        "minimum_width": "Calculate P(A|B) and P(A) for a given situation; determine whether the events are independent by checking whether conditioning on B changes the probability of A.",
+        "typical_width": "Use arrays and tree diagrams to represent dependent and independent event probabilities; compare probabilities of dependent and independent events; identify whether conditioning changes the probability (dependent) or not (independent); connect independence to the language 'knowing that B has occurred does not change the probability of A'.",
+        "wider": [
+          "Investigate how conditional probability is used in recommendation systems: 'given that a user watched X, what is the probability they will watch Y?' \u2014 and discuss whether the events are truly independent or dependent",
+          "Explore real-world cases where events that appear independent are actually dependent (e.g. disease co-occurrence, correlated financial risks) and discuss the consequences of incorrectly assuming independence"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The distinction between dependent and independent events requires checking in multiple contexts \u2014 students who only practise with card draws may assume independence is rare. Varied contexts (medical, technological, financial) build reliable dependence-testing."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates conditional language (node 1) and representations (node 2) into the full concept of conditional probability: what it means for one event's probability to depend on another. It connects the linguistic, graphical and numerical aspects into coherent understanding."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly determines whether two events are dependent or independent by comparing P(A|B) and P(A)",
+          "Student explains in plain language what it means for two events to be independent in terms of conditional probability"
+        ],
+        "related_standards": [
+          "AC9M10P02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

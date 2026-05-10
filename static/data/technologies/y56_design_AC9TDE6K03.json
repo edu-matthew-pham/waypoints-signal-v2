@@ -1,0 +1,79 @@
+{
+  "year_level": "5-6",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE6K03",
+    "title": "Managed food and fibre production",
+    "description": "Explain how and why food and fibre are produced in managed environments",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the ways of producing food and fibre (AC9TDE4K03). They understand that food and fibre come from different production systems. They have not yet explained how and why those environments are actively managed \u2014 the decisions, constraints, and sustainability practices behind production.",
+    "progression_endpoint": "Students explain how food and fibre are produced in managed environments, including soil preparation, plant and animal selection, and supply chain processes, and why these management decisions are made.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Why food and fibre production requires active management",
+        "progression_checkpoint": "Students can explain why food and fibre production requires deliberate management decisions rather than just natural growth",
+        "minimum_width": "Identify at least two management decisions made in a food or fibre production environment and explain why each decision is made",
+        "typical_width": "Explain how soil preparation, plant selection and animal breed selection are management decisions made to match the environment; describe why specific plants or animals suit specific climates or regions \u2014 connecting environmental conditions to production outcomes",
+        "wider": [
+          "Investigate how before colonisation, First Nations Australians managed food and fibre resources sustainably \u2014 including the cultivation of bunya nuts, macadamia and finger limes \u2014 and how some of these are now commercially cultivated to meet domestic and international demand",
+          "Compare tropical food production (northern Australia \u2014 higher temperature, tropical fruits) with temperate food production (cooler regions \u2014 sheep, cool-climate crops) \u2014 explaining how environment shapes management choices",
+          "Investigate and experiment with soil preparation methods (composting, mulching, nutrient cycling) and explain how each improves soil quality and production sustainability"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to think of food production as natural rather than designed. Multiple managed environment contexts \u2014 different climates, different species, different management decisions \u2014 help students see production as a system of deliberate choices responsive to environmental constraints.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations pre-colonial resource management context is genuinely rich \u2014 it presents sustainable food and fibre management as a long-standing designed system, not just a contemporary environmental aspiration, and creates direct comparison with modern commercial practices.",
+        "success_criteria": [
+          "Identifies at least two management decisions in food or fibre production",
+          "Explains why each decision is made \u2014 connecting it to a production goal or environmental constraint"
+        ],
+        "related_standards": [
+          "AC9TDE4K03",
+          "AC9TDE6K01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot explain why management decisions are made cannot sequence supply chain stages meaningfully in N2 \u2014 the 'why' of each stage (soil prep timing, harvest scheduling) requires understanding the management rationale, not just the step order."
+      },
+      {
+        "id": 2,
+        "label": "Supply chains \u2014 from production to retail",
+        "progression_checkpoint": "Students can sequence and explain the process of converting on-farm food or fibre products into a product suitable for retail sale",
+        "minimum_width": "Identify at least three stages in a paddock-to-plate or fibre-to-garment supply chain and explain what happens at each stage",
+        "typical_width": "Sequence the full supply chain for a food or fibre product \u2014 from production through processing to retail; explain what value is added at each stage and why each step is necessary; represent the chain visually (e.g. flowchart, diagram)",
+        "wider": [
+          "Create a digital flowchart representing a paddock-to-plate supply chain for a locally grown product \u2014 annotating each stage with the management decisions and technologies involved",
+          "Sequence the fibre-to-garment life cycle (fibre \u2192 yarn \u2192 fabric \u2192 garment) and explain how decisions at each stage affect the sustainability and quality of the final product",
+          "Visit or virtually tour a farm and investigate how on-site decisions (breed selection, soil management, harvesting timing) affect the quality and quantity of product reaching the consumer"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly know the end product and the raw material but cannot sequence the transformation steps. Tracing the supply chain as a connected sequence \u2014 where the output of each stage is the input of the next \u2014 makes the managed system legible as a designed process."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Sequences at least three stages in a food or fibre supply chain in correct order",
+          "Explains what happens at each stage"
+        ],
+        "related_standards": [
+          "AC9TDE6K01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

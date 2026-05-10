@@ -1,0 +1,133 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9K01",
+    "title": "Distribution and Characteristics of Biomes",
+    "description": "the distribution and characteristics of biomes as regions with distinctive climates, soils, vegetation and productivity",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the characteristics of environments and explain how physical and human factors influence the characteristics of places (Y7-8). They have not formally studied biomes as regions defined by distinctive climate-soil-vegetation interconnections, nor analysed patterns of biome productivity across countries.",
+    "progression_endpoint": "Students identify and describe the major aquatic and terrestrial biomes, explain the interconnections between environmental processes and human activities that shape their characteristics, and interpret patterns of productivity across biomes in Australia and Asia.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Biome concept and classification",
+        "progression_checkpoint": "Students can define biomes as regions with distinctive climates, soils, vegetation and productivity, and distinguish major terrestrial biome types",
+        "minimum_width": "Define biome; identify at least five major terrestrial biome types (e.g. tropical rainforest, grassland, desert, temperate forest, tundra) and their key distinguishing features",
+        "typical_width": "Classify a set of biomes by climate, dominant vegetation and soil type; explain what makes each biome distinctive as a region",
+        "wider": [
+          "Compare aquatic biomes (freshwater, marine, estuarine) alongside terrestrial biomes — identify what makes 'biome' a useful classification for both",
+          "Investigate how biome classification systems differ (e.g. Whittaker's biome diagram uses temperature-precipitation axes) and why scientists use different classification schemes",
+          "Examine how soil formation processes link to climate and vegetation type in different biomes"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a working biome concept — that biomes are defined by the interaction of climate, soil and vegetation, not just one factor — students cannot explain why biomes have distinctive productivity in Node 2 or interconnections in Node 3. Conflating biomes with climatic zones or vegetation types alone blocks both downstream nodes.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The biome concept bundles four interdependent factors (climate, soil, vegetation, productivity). Students who list features without grasping the interconnective logic produce fragmented descriptions. Scaffolding the reasoning — why does tropical climate produce this soil type, which supports this vegetation? — builds the relational concept that underpins later nodes.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Defines biome as a region characterised by distinctive climate, soil, vegetation and productivity",
+          "Identifies at least five major terrestrial biome types with distinguishing features",
+          "Distinguishes biomes from each other using climate and vegetation criteria"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Global distribution and mapping",
+        "progression_checkpoint": "Students can identify the distribution of major terrestrial and aquatic biomes and map their patterns at a global and Australian scale",
+        "minimum_width": "Identify the location of major biomes on a world map and a map of Australia; describe broad latitudinal patterns in biome distribution",
+        "typical_width": "Explain latitudinal and continental patterns in biome distribution using climate factors; identify the major aquatic and terrestrial biomes of Australia compared with a country in Asia",
+        "wider": [
+          "Analyse why the same latitudinal band can contain different biomes (e.g. coastal versus interior) — explain using rainfall and continentality",
+          "Use digital mapping tools (e.g. Google Earth, GIS) to explore biome boundaries and transitions (ecotones) at regional scale",
+          "Compare biome distribution maps at different time periods to identify shifts attributable to climate change"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Distribution is best understood through multiple spatial contexts. Mapping at global, regional and Australian scales — and comparing with an Asian country — builds the spatial literacy that the elaborations require. Students who only see one map produce overgeneralised pattern descriptions.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Using digital GIS tools and comparing biome maps across time periods gives advancing students genuine spatial analysis experience — they move from reading maps to interrogating them. The ecotone direction raises a productive conceptual question (where does one biome end and another begin?) that enriches the classification work from Node 1.",
+        "success_criteria": [
+          "Correctly locates at least five major biomes on a world map",
+          "Describes the broad latitudinal distribution pattern of terrestrial biomes",
+          "Identifies major biomes present in Australia and one country in Asia"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Biome productivity patterns",
+        "progression_checkpoint": "Students can interpret and explain patterns and trends in the productivity of major biomes, comparing Australia with a country in Asia",
+        "minimum_width": "Define biome productivity; describe at least two productivity differences between biomes; interpret a graph or table of biome productivity data",
+        "typical_width": "Explain why tropical rainforest biomes have higher productivity than desert or tundra biomes using climate and nutrient cycle factors; compare productivity patterns between Australian and Asian biomes",
+        "wider": [
+          "Analyse aquatic biome productivity — compare ocean productivity zones (e.g. upwelling zones, coral reefs, open ocean) with terrestrial biomes",
+          "Investigate the relationship between biodiversity and productivity across biomes — explain whether high productivity always means high biodiversity",
+          "Evaluate the limitations of productivity as a sole measure of biome value (e.g. carbon storage, cultural significance, biodiversity hotspots)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Productivity explanation requires students to link climate inputs (solar energy, rainfall) through soil nutrient cycles to vegetation outputs. Students who cannot construct this causal chain produce correlation-only answers ('tropical areas are productive because they are hot') without mechanism. Scaffolding the energy/nutrient pathway builds the explanatory logic needed for Node 4.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The aquatic productivity direction is rich — upwelling zones produce some of the highest marine productivity despite low nutrient surface conditions, which challenges simplistic climate-productivity correlations. The biodiversity-productivity relationship direction raises a genuine scientific debate (NDVI data vs species richness) that advancing students can investigate with real data.",
+        "success_criteria": [
+          "Defines biome productivity and explains at least two factors that determine it",
+          "Correctly compares the relative productivity of at least three major biomes",
+          "Interprets a productivity graph or table and describes a pattern"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Environmental interconnections and human impacts on biome characteristics",
+        "progression_checkpoint": "Students can explain the effects of interconnections between environmental processes and human activities — such as deforestation, mining and agriculture — on biome characteristics",
+        "minimum_width": "Identify interconnections between at least two environmental processes (atmosphere, hydrosphere, lithosphere, biosphere); explain how one human activity alters biome characteristics",
+        "typical_width": "Explain how deforestation, mining or agriculture alters the climate, soil and vegetation characteristics of a biome by disrupting interconnections between environmental processes",
+        "wider": [
+          "Trace the cascading effects of one human activity (e.g. large-scale agriculture) through multiple biosphere components — atmosphere, hydrosphere, lithosphere and biosphere",
+          "Compare the effects of the same human activity (e.g. mining) on different biome types — explain why impacts differ",
+          "Examine how First Nations Australians' land management practices work with biome interconnections rather than against them — contrast with post-colonial land use changes"
+        ],
+        "hinge": true,
+        "hinge_reason": "The interconnections concept is the integrating idea for this standard — biome characteristics are produced by environmental system interconnections, and humans alter those interconnections. Students who describe human impacts as isolated events (deforestation removes trees) without systemic logic cannot explain why different activities have different effects across biomes in K02–K04.",
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the biome concept (Node 1), distribution (Node 2) and productivity (Node 3) with the system-level idea that biome characteristics are produced by interconnected environmental processes. Teaching investment should focus on coordinating these components — mapping a human activity's effects across multiple biosphere components simultaneously, not treating each component separately.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Tracing interconnections through multiple activity types (deforestation, mining, agriculture) and biome types prevents students from learning one case and applying it as a template. Advancing students who examine First Nations land management practices gain a worked counterexample — management that works with interconnections rather than disrupting them.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations land management direction is rich — practices like cultural burning actively manage the fire regime to maintain biome characteristics, offering a genuine case of working with ecological interconnections rather than against them. Advancing students who compare this with post-colonial land use changes develop a more sophisticated understanding of what 'managing' a biome means.",
+        "success_criteria": [
+          "Identifies interconnections between at least two of the four environmental processes (atmosphere, hydrosphere, lithosphere, biosphere)",
+          "Explains how a named human activity alters biome characteristics by disrupting these interconnections",
+          "Uses geographical terminology (e.g. biosphere, hydrosphere, interconnection) correctly"
+        ]
+      }
+    ]
+  }
+}

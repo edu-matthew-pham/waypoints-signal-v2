@@ -1,0 +1,86 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4N06",
+    "title": "Efficient addition and multiplication strategies",
+    "description": "Develop efficient strategies and use appropriate digital tools for solving problems involving addition and subtraction, and multiplication and division where there is no remainder",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can add and subtract two- and three-digit numbers using place value (AC9M3N03) and multiply and divide one- and two-digit numbers (AC9M3N04). They have not yet developed efficient strategies for multi-digit multiplication or applied digital tools strategically.",
+    "progression_endpoint": "Students develop and apply efficient strategies for addition, subtraction, multiplication and division problems with larger numbers, selecting strategies appropriately and using digital tools where helpful.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Efficient addition and subtraction strategies",
+        "progression_checkpoint": "Students can apply and explain at least two efficient strategies for multi-digit addition or subtraction.",
+        "minimum_width": "Apply one strategy beyond the standard algorithm (e.g. compensation, near-hundreds) to solve one addition or subtraction problem; explain why this approach is efficient.",
+        "typical_width": "Develop, apply and explain multiple efficient strategies for addition and subtraction (partitioning, compensation, near-numbers, constant difference for subtraction); select strategies based on the numbers involved; use digital tools to verify.",
+        "wider": [
+          "Compare the efficiency of different strategies for the same problem type (e.g. 497 + 348: partition vs compensation) and build a decision rule for when each strategy is more efficient",
+          "Apply strategies to multi-step problems where an efficient approach for each sub-step reduces overall cognitive load"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Efficient computation requires a repertoire of strategies, not a single approach. Students who know only one method (e.g. always partition) are less flexible than those who can select from compensation, near-hundreds or constant difference depending on the numbers."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can apply at least two different efficient strategies for multi-digit addition or subtraction",
+          "Students can explain why a chosen strategy is efficient for a given pair of numbers"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Multiplication strategies for larger numbers",
+        "progression_checkpoint": "Students can apply area model or partitioning strategies to multiply a two-digit number by a one-digit number.",
+        "minimum_width": "Use place value partitioning to multiply a two-digit number by a one-digit number (e.g. 34 × 6 = 30×6 + 4×6); record and explain the steps.",
+        "typical_width": "Develop and apply efficient strategies for multiplication including area models, partitioning and the distributive property; extend to two-digit by two-digit multiplication using arrays or area models; use digital tools to check solutions.",
+        "wider": [
+          "Use an area model to connect multiplication of two-digit numbers to the distributive property — showing how the grid squares represent the partial products",
+          "Investigate which strategies are most efficient for different types of multiplication problems (e.g. near-doubles, using known facts as anchors for derived facts)"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Area models and partitioning require students to keep track of partial products — the reasoning scaffold (recording each step, labelling which part of the grid corresponds to which calculation) is necessary to prevent errors that accumulate from informal mental approaches."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multiplication strategies with the area model and distributive property provide a rich conceptual foundation for multi-digit multiplication algorithms in later years and for algebra. Students who engage deeply here have a visual model they can apply to abstract expressions.",
+        "success_criteria": [
+          "Students can multiply a two-digit number by a one-digit number using a partitioning strategy, recording each step",
+          "Students can explain the connection between their calculation and the area model or array"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Division without remainders",
+        "progression_checkpoint": "Students can solve division problems without remainders using known multiplication facts and sharing/grouping strategies.",
+        "minimum_width": "Solve one division problem without a remainder using known multiplication facts or equal sharing (e.g. 48 ÷ 6 by thinking 'what times 6 equals 48?').",
+        "typical_width": "Solve division problems without remainders using inverse multiplication, grouping and sharing; represent with arrays; use digital tools to check; select efficient strategies based on the size of numbers and available facts.",
+        "wider": [
+          "Investigate the two meanings of division (equal sharing vs equal grouping) using the same problem, and discuss when each interpretation is more natural in context",
+          "Connect division to fraction notation — 12 ÷ 4 = 1/4 of 12 = 3 — building the fraction-as-division understanding"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can solve a division problem without a remainder using an appropriate strategy",
+          "Students can explain whether they are finding the number of groups or the size of each group"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7P01",
+    "title": "Sample Space and Probability",
+    "strand": "Probability",
+    "description": "identify the sample space for single-stage events; assign probabilities to the outcomes of these events and predict relative frequencies for related events",
+    "mode": "A",
+    "prior_knowledge": "Students can assign probabilities on a 0–1 scale using fractions, percentages and decimals (from AC9M6P01). Students have experience with probability language and listing outcomes.",
+    "progression_endpoint": "Students identify sample spaces for single-stage events, assign probabilities to outcomes, and use these to predict relative frequencies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying and listing sample spaces",
+        "progression_checkpoint": "Students identify the sample space for a single-stage event and list all possible outcomes systematically.",
+        "minimum_width": "List the sample space for a coin toss and a standard die roll; explain what sample space means.",
+        "typical_width": "List sample spaces for spinners, lucky dips, and card draws; verify the sample space is complete by confirming all outcomes are mutually exclusive and exhaustive.",
+        "wider": [
+          "Investigate sample spaces with unequal likelihood outcomes — can outcomes still be listed even if not equally likely?",
+          "Compare sample spaces for different versions of the same game (6-sided vs 8-sided die)."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Systematic, complete listing of a sample space is prerequisite to assigning probabilities. Students who list incomplete sample spaces assign wrong probabilities to all outcomes.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "An incomplete sample space produces wrong probability fractions for all outcomes in Node 2 — if an outcome is missing from the sample space, every other outcome gets an inflated probability and the probabilities cannot sum to 1.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Lists a complete sample space for a given single-stage event.",
+          "Explains what sample space means.",
+          "Verifies completeness (all outcomes accounted for)."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 2,
+        "label": "Assigning probabilities to outcomes",
+        "progression_checkpoint": "Students assign theoretical probabilities to outcomes of a single-stage event using P = favourable/total and express these as fractions, decimals or percentages.",
+        "minimum_width": "Assign the probability of each outcome for a fair die roll; express as a fraction.",
+        "typical_width": "Assign probabilities for events with unequal outcomes (e.g. spinners with unequal sectors); express in fraction, decimal and percentage forms; verify probabilities sum to 1.",
+        "wider": [
+          "Investigate non-fair devices: if a spinner has sectors of 1/4, 1/4, and 1/2, assign probabilities and verify.",
+          "Connect probability fractions to relative frequency: a probability of 1/6 means in the long run about 1 in every 6 outcomes."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often believe probability only applies to fair devices. Encountering non-fair devices (biased coins, unequal spinners) generalises their understanding."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly assigns the probability to each outcome in a sample space.",
+          "Verifies that all probabilities sum to 1.",
+          "Expresses probability in the most appropriate form for the context."
+        ],
+        "related_standards": [
+          "AC9M7N04",
+          "AC9M7N06"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Predicting relative frequencies",
+        "progression_checkpoint": "Students use theoretical probability to predict how often an outcome will occur in a given number of trials.",
+        "minimum_width": "Predict the number of times an outcome will occur in 60 trials given its probability.",
+        "typical_width": "Predict relative frequencies for multiple outcomes; compare predictions to simulated results; explain discrepancies.",
+        "wider": [
+          "Investigate how the accuracy of predictions improves with more trials — connect to AC9M7P02.",
+          "Apply relative frequency prediction to real decisions: fairness of a game, likelihood of an event occurring."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Predicting relative frequencies requires connecting probability, multiplication, and the meaning of the sample space — integrating all prior nodes.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly predicts the relative frequency for a given number of trials.",
+          "Understands that predictions are expected values, not certainties.",
+          "Can adjust predictions for non-fair devices."
+        ],
+        "related_standards": [
+          "AC9M7P02"
+        ],
+        "width_opportunity_reason": "Connecting theoretical probability to relative frequency prediction, and then to the law of large numbers, is a rich conceptual bridge — advancing students can reason about what probability actually means for real outcomes."
+      }
+    ]
+  }
+}

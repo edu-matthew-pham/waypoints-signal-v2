@@ -1,0 +1,114 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N03",
+    "title": "Compare fractions with related denominators",
+    "strand": "Number",
+    "description": "Compare and order fractions with the same and related denominators including mixed numerals, applying knowledge of factors and multiples; represent these fractions on a number line",
+    "prior_knowledge": "Students can represent fractions as parts of a whole and on a number line, and identify equivalences (AC9M4N03, AC9M4N04). They have not yet compared fractions with related (not same) denominators, or worked with mixed numerals systematically.",
+    "progression_endpoint": "Students compare and order fractions with the same and related denominators including mixed numerals, applying knowledge of factors and multiples, and represent these on a number line.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Equivalent fractions",
+        "progression_checkpoint": "Students can generate equivalent fractions by multiplying or dividing numerator and denominator by the same factor.",
+        "minimum_width": "Generate at least 3 equivalent fractions for a given fraction using multiplication or division; explain why they are equivalent.",
+        "typical_width": "Use factor knowledge to find equivalent fractions systematically; represent equivalences on fraction walls and number lines; simplify fractions using common factors.",
+        "wider": [
+          "Connect equivalent fractions to percentage and decimal representations",
+          "Use area models to justify equivalence visually"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fluency with equivalence generation is the prerequisite skill for all comparison and addition of fractions. Students need it to be automatic before comparison tasks become tractable.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Equivalent fraction generation is directly required by Node 2 — students who cannot convert between equivalent forms cannot identify related denominators or make the conversion needed to compare fractions.",
+        "success_criteria": [
+          "Student generates equivalent fractions correctly using multiplication and division",
+          "Student explains why two fractions are equivalent using numerator-denominator reasoning"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Related denominators",
+        "progression_checkpoint": "Students can identify when denominators are related (one is a multiple of the other) and use this to compare fractions.",
+        "minimum_width": "Identify whether two fractions have related denominators; convert the smaller denominator to the larger using factor knowledge to enable comparison.",
+        "typical_width": "Compare fractions with related denominators across a range of examples; apply multiples knowledge to determine the conversion factor; verify using number lines.",
+        "wider": [
+          "Investigate what happens when denominators share a common factor but neither is a multiple of the other",
+          "Connect to LCM: what is the smallest denominator both fractions can share?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly try to compare numerators or denominators independently without converting. Varied fraction pairs — including non-obvious related pairs — expose the limitation of shortcut strategies.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "LCM connections give advancing students a bridge to the general comparison method used in Year 6.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies whether two fractions have related denominators",
+          "Student correctly converts to a common denominator and compares"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Mixed numerals",
+        "progression_checkpoint": "Students can represent, compare and order mixed numerals on a number line.",
+        "minimum_width": "Represent a mixed numeral on a number line; compare two mixed numerals with the same denominator.",
+        "typical_width": "Convert between improper fractions and mixed numerals; compare mixed numerals with related denominators; order sets of mixed numerals and fractions on a number line.",
+        "wider": [
+          "Use measurement contexts (e.g. lengths in metres and fractions of metres) to give mixed numerals meaning",
+          "Investigate Aboriginal and Torres Strait Islander uses of fractional and proportional quantities in cultural contexts"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student places mixed numerals on a number line at correct positions",
+          "Student compares two mixed numerals using equivalence reasoning"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Ordering fractions with factors and multiples",
+        "progression_checkpoint": "Students can order a mixed set of fractions including mixed numerals with related denominators by applying factor and multiple knowledge.",
+        "minimum_width": "Order a set of 4+ fractions (including at least one mixed numeral) with related denominators, showing the common denominator used.",
+        "typical_width": "Order mixed sets of fractions across a variety of related denominators; represent the ordered set on a number line; explain the reasoning chain.",
+        "wider": [
+          "Design fraction ordering puzzles that require multi-step factor reasoning",
+          "Connect fraction ordering to proportional reasoning: which fraction of a quantity is larger?"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node is where equivalence, related denominators, mixed numerals and factor knowledge all operate together. Coordination of these components is the learning, not any single component in isolation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-step reasoning with creative contexts (puzzles, proportional comparison) is rich territory for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student orders a set of fractions with related denominators correctly, showing working",
+          "Student represents the ordered set accurately on a number line"
+        ]
+      }
+    ]
+  }
+}

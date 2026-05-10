@@ -1,0 +1,89 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N08",
+    "title": "Approximate with rational numbers",
+    "description": "Approximate numerical solutions to problems involving rational numbers and percentages, including financial contexts, using appropriate estimation strategies",
+    "strand": "number_modelling",
+    "mode": "A",
+    "prior_knowledge": "Students can check and explain the reasonableness of solutions using estimation strategies appropriate to the context including financial contexts (AC9M5N08). They can use mathematical modelling with additive and multiplicative situations. They have not yet applied estimation strategies specifically to rational number (fraction, decimal, percentage) problems.",
+    "progression_endpoint": "Students can approximate numerical solutions to problems involving rational numbers and percentages, including in financial contexts, using appropriate estimation strategies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Rounding rational numbers for estimation",
+        "progression_checkpoint": "Students can round fractions, decimals and percentages to convenient values to produce estimates, selecting the rounding precision appropriate to the context.",
+        "minimum_width": "Round a decimal to the nearest whole number and a fraction to the nearest half or whole number; use rounded values to estimate a sum, difference or product.",
+        "typical_width": "Round rational numbers (fractions, decimals, percentages) to convenient nearby values for estimation; select rounding precision based on the context and desired accuracy; explain the trade-off between rounding precision and estimate accuracy.",
+        "wider": [
+          "Investigate over-estimation vs under-estimation \u2014 when does rounding up every number in an addition produce a useful bound? When does it over-estimate?",
+          "Apply rounding estimation to budget planning \u2014 estimating total cost before calculating exactly"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student rounds decimals and fractions to convenient values and uses them to produce a reasonable estimate.",
+          "Student explains why their chosen rounding precision is appropriate for the context."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Benchmark and mental estimation strategies",
+        "progression_checkpoint": "Students can apply benchmark estimation strategies (using 0, \u00bd, 1 as reference points; using 10% as a base for percentage estimates) to approximate rational number solutions.",
+        "minimum_width": "Use benchmark fractions (0, \u00bd, 1) to estimate whether a fraction calculation result is less than, around, or greater than one; use 10% as a base to estimate other percentages.",
+        "typical_width": "Apply multiple estimation strategies to rational number problems: benchmark fractions, 10%-building for percentages, compatible numbers for decimals; select the most efficient strategy for a given problem; estimate financial calculations (e.g. approximate total after percentage discount).",
+        "wider": [
+          "Compare front-end, rounding, and benchmark strategies on the same set of problems and evaluate which produces closer estimates",
+          "Investigate contexts where estimation is the expected output (e.g. reading graphs, navigating, budgeting) and distinguish from contexts requiring exact answers"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Estimation fluency comes from having multiple strategies available and recognising which applies. Students need to accumulate a repertoire \u2014 not just know one estimation method \u2014 to handle the diversity of rational number problems they will encounter.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Estimation strategies are transferable across all number domains and everyday contexts. Building a rich repertoire of strategies and meta-cognitive judgment about when to use each is a high-value investment at this stage.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student applies at least two different estimation strategies to rational number problems and explains when each is useful.",
+          "Student uses estimation to check whether a calculated answer to a percentage or fraction problem is plausible."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Approximation in financial and real-world contexts",
+        "progression_checkpoint": "Students can select and apply appropriate estimation strategies to approximate solutions to problems involving rational numbers and percentages in financial and practical contexts.",
+        "minimum_width": "Solve at least two estimation problems in financial contexts (e.g. approximate total cost, approximate discount amount, approximate share of an expense) using an appropriate strategy; interpret the approximation in context.",
+        "typical_width": "Apply estimation to financial contexts including percentage discounts, unit pricing, GST approximation, budget estimates; identify when an approximation is sufficient for the decision being made; communicate the estimate and its precision level.",
+        "wider": [
+          "Investigate a real financial context (e.g. planning a class event on a given budget) using estimation as the primary tool for decision-making",
+          "Explore how financial approximation is used in professional contexts \u2014 journalists reporting figures, builders quoting costs, shoppers comparing prices \u2014 and discuss the expected precision in each"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Financial estimation integrates rounding skills, benchmark strategies, and contextual judgment. Students must coordinate these while also interpreting the result in terms of the situation \u2014 the integration of these is the defining challenge of this node."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student selects an appropriate estimation strategy for a financial context problem and explains why it suits the situation.",
+          "Student communicates an approximate solution with an appropriate level of precision for the context."
+        ]
+      }
+    ]
+  }
+}

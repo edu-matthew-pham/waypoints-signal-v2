@@ -1,0 +1,83 @@
+{
+  "year_level": "10",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E10LA07",
+    "title": "Features of still and moving images",
+    "description": "evaluate the features of still and moving images, and the effects of those choices on representations",
+    "strand": "Language",
+    "mode": "A",
+    "prior_knowledge": "Students analyse how symbols in still and moving images augment meaning (AC9E9LA07). They have not yet evaluated the features of still and moving images and the effects of those choices on representations.",
+    "progression_endpoint": "Students evaluate the features of still and moving images, and the effects of those choices on representations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Visual feature identification and analysis",
+        "progression_checkpoint": "Students can identify specific visual features of still and moving images (e.g. lighting, angle, colour, framing) and analyse their effect on meaning.",
+        "minimum_width": "Identify at least two visual features in a still or moving image and analyse the effect of each on how a subject is represented.",
+        "typical_width": "Analyse a range of visual features in still and moving images across different media contexts, explaining how each feature contributes to the representation of the subject.",
+        "wider": [
+          "Compare how the same visual features (e.g. high angle shot, low-key lighting) function differently in film noir, documentary and advertising contexts",
+          "Examine how visual features in news photography construct representations of events and people",
+          "Analyse how First Nations Australian visual artists use features such as light, colour and framing to create representations that challenge dominant visual conventions"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to evaluate the effects of visual feature choices on representations \u2014 a judgement that depends on having a working vocabulary of visual features. Without this, evaluation cannot be grounded in specific technical choices.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to build a repertoire of visual feature vocabulary (shot type, angle, lighting, colour temperature, framing) before they can analyse novel images effectively \u2014 accumulating cases across image types is the pedagogical work here.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two specific visual features in a still or moving image",
+          "Explains the effect of each feature on how the subject is represented"
+        ],
+        "related_standards": [
+          "AC9E10LA03",
+          "AC9E10LY01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating effects on representations",
+        "progression_checkpoint": "Students can evaluate how visual feature choices create nuance in representations, making supported judgements about the effect of those choices.",
+        "minimum_width": "Evaluate how at least one visual feature choice (e.g. use of light and dark) creates nuance in a representation, making a supported judgement.",
+        "typical_width": "Evaluate how a range of visual feature choices work together to create complex or nuanced representations in still and moving images, making supported judgements with visual evidence.",
+        "wider": [
+          "Evaluate how visual feature choices in political imagery have shaped representations of power or vulnerability across different historical periods",
+          "Compare the representation of the same subject in different media (e.g. film still, news photograph, artwork) and evaluate how different visual choices construct different meanings",
+          "Evaluate how documentary filmmakers use visual features to position audiences in relation to their subjects, examining ethical dimensions of those choices"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often evaluate visual features as if they have fixed meanings (e.g. \u2018darkness = evil\u2019); encountering the same feature used to different effect in different contexts resolves this misconception and builds genuine evaluative flexibility.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluation of visual representations opens into rich comparative work across film, photography, advertising and art \u2014 the nuance available in contrasting contexts (documentary versus advertising, for instance) is substantial.",
+        "success_criteria": [
+          "Makes a supported judgement about how at least one visual feature choice affects the representation of the subject",
+          "Uses specific visual evidence to support the evaluation"
+        ],
+        "related_standards": [
+          "AC9E10LE03",
+          "AC9E10LY01",
+          "AC9E10LA03"
+        ]
+      }
+    ]
+  }
+}

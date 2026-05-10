@@ -1,0 +1,70 @@
+{
+  "year_level": "10",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH10S03",
+    "title": "Origin, Content, Purpose and Context of Sources",
+    "description": "identify the origin and content of sources, and explain the purpose and context of primary and secondary sources",
+    "strand": "Historical Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can identify the origin and content of sources and explain the purpose and context of primary and secondary sources in a Year 9 inquiry context.",
+    "progression_endpoint": "Students identify the origin and content of a range of source types, explain their purpose and historical context, and describe stylistic elements of sources to inform meaning.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Origin, content and context",
+        "progression_checkpoint": "Students can explain the historical context of a source, identify its origin and content, and identify any gaps or inaccuracies.",
+        "minimum_width": "For at least one source, explain its historical context, identify its origin and content, and identify at least one gap or potential inaccuracy.",
+        "typical_width": "Explain the historical context of sources and identify gaps or inaccuracies — asking what the source cannot tell us as well as what it can; identify the origin (who created it, when, where) and content (what it contains, what it describes) of primary and secondary sources across a range of types used in Year 10 History.",
+        "wider": [
+          "Apply origin and context analysis to a source whose historical context has been contested or misrepresented — examining how knowing the correct context changes the source's meaning",
+          "Analyse sources produced by or about First Nations Australians — examining how understanding the cultural context of production (a petition, an oral account, a sacred object) requires different analytical approaches than standard documentary analysis"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding context is the prerequisite for purpose analysis in Node 2. Students who analyse purpose without first establishing context typically produce circular or superficial purpose statements — 'the author wrote this to inform readers' — rather than historically grounded purpose analysis.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Use the OPVL (Origin, Purpose, Value, Limitation) or similar structured framework as a scaffold for context-before-purpose analysis. Explicitly require students to establish context before attempting purpose — model what changes in the purpose analysis when context is established.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identify the origin of at least one source (who created it, when, in what context)",
+          "Explain the historical context in which the source was produced",
+          "Identify at least one gap or potential inaccuracy in the source and explain what might have produced it"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Purpose and stylistic elements",
+        "progression_checkpoint": "Students can analyse the intent of the author and the features of a source to determine its purpose, and describe stylistic elements to inform the meaning of sources.",
+        "minimum_width": "Analyse the intent of the author of at least one source and explain its purpose; describe at least one stylistic element of a source and explain what it contributes to meaning.",
+        "typical_width": "Analyse the intent of the author and the features of a source to determine purpose — asking why it was made, for what audience, and to what effect; describe stylistic elements of sources such as artistic technique, architectural features, or textual structure to inform the meaning of sources; apply this analysis across both primary and secondary source types.",
+        "wider": [
+          "Apply purpose analysis to a source whose purpose has been contested or misread — such as a propaganda image or a manipulated photograph — examining how knowledge of intent changes interpretation",
+          "Analyse a non-documentary source type (photograph, artwork, material artefact, oral testimony) and compare the purpose/stylistic analysis process with that used for written documents — examining what each source type reveals and conceals"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Apply purpose and stylistic analysis across multiple source types within one inquiry — written document, photograph, material artefact, oral testimony — to build a repertoire of analytical approaches. Each source type reveals different dimensions of purpose.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Applying purpose and stylistic analysis across diverse source types builds genuinely transferable historical source analysis skills — a capability that operates across every K-strand topic in the course and into senior history.",
+        "success_criteria": [
+          "Analyse the intent of the author of at least one source and explain its purpose in relation to its historical context",
+          "Describe at least one stylistic element of a source (artistic, architectural, or textual) and explain what it contributes to meaning",
+          "Apply purpose analysis across at least two different source types and compare what each type reveals"
+        ]
+      }
+    ]
+  }
+}

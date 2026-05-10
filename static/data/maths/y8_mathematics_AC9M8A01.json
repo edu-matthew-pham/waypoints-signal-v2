@@ -1,0 +1,100 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8A01",
+    "title": "Linear Expressions",
+    "strand": "Algebra",
+    "description": "create, expand, factorise, rearrange and simplify linear expressions, applying the associative, commutative, identity, distributive and inverse properties",
+    "mode": "A",
+    "prior_knowledge": "Students can formulate algebraic expressions and apply the distributive property informally (from AC9M7A02). Students understand variables, constants and operations in expressions.",
+    "progression_endpoint": "Students fluently expand, factorise, rearrange and simplify linear expressions, applying algebraic properties explicitly.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Expanding and simplifying linear expressions",
+        "progression_checkpoint": "Students expand brackets in linear expressions using the distributive property and collect like terms to simplify.",
+        "minimum_width": "Expand and simplify a linear expression with one set of brackets (e.g. 3(2x + 4) − x).",
+        "typical_width": "Expand and simplify expressions with multiple brackets and negative coefficients; identify and collect like terms; use algebra tiles or area models to verify.",
+        "wider": [
+          "Investigate the distributive property across subtraction: verify that a(b − c) = ab − ac using substitution and area models.",
+          "Explore common student errors in expansion (e.g. 3(x + 2) = 3x + 2) — explain why the error occurs and how to avoid it."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Expanding and collecting like terms is a procedural skill requiring fluency before factorisation and rearrangement. Errors in sign handling with negative coefficients are the primary failure point.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Expansion errors — particularly sign errors with negative coefficients — propagate directly into Node 2 (factorisation requires recognising expanded form) and Node 3 (rearrangement requires reliable expansion to verify). Students who cannot expand fluently cannot check their factorisation or rearrangement by expanding back.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly expands brackets including those with negative coefficients.",
+          "Collects like terms accurately.",
+          "Does not partially distribute (e.g. only multiply the first term)."
+        ],
+        "related_standards": ["AC9M7A02"]
+      },
+      {
+        "id": 2,
+        "label": "Factorising linear expressions",
+        "progression_checkpoint": "Students factorise linear expressions by identifying the highest common factor and express as a product of the HCF and a bracket.",
+        "minimum_width": "Factorise a linear expression with an integer HCF (e.g. 6x + 9 = 3(2x + 3)).",
+        "typical_width": "Factorise linear expressions with variable and integer common factors; verify by expanding; understand factorisation as the inverse of expansion.",
+        "wider": [
+          "Investigate the relationship between factorisation and GCD from number — connect algebraic HCF to numerical HCF.",
+          "Explore factorising expressions with negative leading terms — develop a convention for handling negative HCF."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Factorisation requires an explicit search strategy: identify the HCF of all terms, divide each term, write the bracket. Students who approach factorisation without a structured method miss common factors or introduce errors.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Factorisation is required within Node 3 rearrangement (isolating a variable from multi-term expressions requires recognising common factors) — students who cannot factorise reliably cannot complete the rearrangement steps that depend on it.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the HCF of all terms in a linear expression.",
+          "Writes the factorised form correctly.",
+          "Verifies by expanding back to the original expression."
+        ],
+        "related_standards": ["AC9M7N02"]
+      },
+      {
+        "id": 3,
+        "label": "Rearranging linear expressions",
+        "progression_checkpoint": "Students rearrange linear expressions and formulas using inverse operations and algebraic properties, maintaining equivalence.",
+        "minimum_width": "Rearrange a two-term linear expression to isolate a specified variable.",
+        "typical_width": "Rearrange multi-term linear formulas to make any variable the subject; apply commutative and inverse properties explicitly; verify by substitution.",
+        "wider": [
+          "Apply rearrangement to real formulas from science and everyday contexts: rearrange distance = speed × time for speed; rearrange area formulas for dimensions.",
+          "Investigate how rearrangement connects to solving equations — express the connection between 'rearranging a formula' and 'solving for a variable' explicitly."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Rearranging formulas requires simultaneous application of expansion, factorisation, and inverse operations — integrating all prior nodes in this descriptor.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Rearranging real formulas from science and engineering contexts is a rich application for advancing students — the connection between formula rearrangement and solving equations is a significant algebraic insight.",
+        "success_criteria": [
+          "Correctly rearranges a linear formula to make a specified variable the subject.",
+          "Applies inverse operations in the correct order.",
+          "Verifies the rearranged formula by substitution."
+        ],
+        "related_standards": ["AC9M7A01", "AC9M8A02"]
+      }
+    ]
+  }
+}

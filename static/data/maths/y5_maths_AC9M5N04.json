@@ -1,0 +1,93 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N04",
+    "title": "Percentages, decimals and fractions",
+    "strand": "Number",
+    "description": "Recognise that 100% represents the complete whole and use percentages to describe, represent and compare relative size; connect familiar percentages to their decimal and fraction equivalents",
+    "prior_knowledge": "Students can express natural numbers as products of factors and recognise multiples (AC9M5N02). They have not yet used percentages as a representation or connected familiar percentages to decimal and fraction equivalents.",
+    "progression_endpoint": "Students recognise that 100% represents the whole and use percentages to describe, represent and compare relative size; connect familiar percentages to decimal and fraction equivalents.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "100% as the whole",
+        "progression_checkpoint": "Students can explain that 100% represents the complete whole and describe parts of a whole as percentages.",
+        "minimum_width": "Shade or mark a percentage of a 100-grid and write the percentage; explain that the total always equals 100%.",
+        "typical_width": "Represent percentages on 100-grids, bar models and number lines; describe real-world part-whole situations as percentages.",
+        "wider": [
+          "Use statistical data displays to read percentages in context",
+          "Connect to First Nations representations of proportional sharing in cultural contexts"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student shades a given percentage of a 100-grid correctly",
+          "Student explains that all parts of a whole sum to 100%"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Familiar percentage–fraction–decimal connections",
+        "progression_checkpoint": "Students can convert between familiar percentages (50%, 25%, 10%, 75%) and their fraction and decimal equivalents.",
+        "minimum_width": "Convert between 50%, 25%, 10% and their fraction and decimal equivalents; explain the connection.",
+        "typical_width": "Extend to 75%, 20%, 5%, 1% and connect to hundredths decimals; use all three representations interchangeably for familiar values.",
+        "wider": [
+          "Build a percentage–fraction–decimal reference chart extending to 33⅓%, 12.5%",
+          "Use money contexts: 10% of $80, 25% of $200"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fluent recall of familiar equivalences (50%=0.5=½) is the foundation for all percentage calculation. Students benefit from targeted practice before tackling novel percentages.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only see abstract tables often fail to apply equivalences in context. Money, measurement and data contexts help cement the connections.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The equivalence landscape (percentage–fraction–decimal triple) is rich for advancing students; money and data application contexts extend meaningfully.",
+        "hinge": true,
+        "hinge_reason": "Fluent equivalence recall is directly required by Node 3 — students who cannot convert between representations cannot evaluate whether percentage comparisons reference the same whole.",
+        "success_criteria": [
+          "Student converts between familiar percentages and their fraction/decimal equivalents without error",
+          "Student represents the equivalence in at least two forms"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing relative size with percentages",
+        "progression_checkpoint": "Students can use percentages to compare the relative size of parts across different wholes.",
+        "minimum_width": "Compare two percentages and identify which is larger; explain that comparison is valid because both reference the same whole (100%).",
+        "typical_width": "Compare relative sizes across contexts (e.g. 60% of class A vs 45% of class B); recognise that percentage comparison is only valid when the whole is the same or specified.",
+        "wider": [
+          "Analyse media reports that use percentages to compare populations of different sizes",
+          "Investigate misleading percentage comparisons and explain what additional information is needed"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The 'same whole' constraint is a key conceptual hurdle. Varied contexts — some where comparison is valid, some where it isn't — help students develop the necessary critical lens.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Media analysis and misleading statistics give advancing students genuinely rich critical thinking territory.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly identifies which of two percentages represents a larger relative share",
+          "Student explains when percentage comparison is and is not valid"
+        ]
+      }
+    ]
+  }
+}

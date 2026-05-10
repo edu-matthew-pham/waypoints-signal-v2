@@ -1,0 +1,65 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LY08",
+    "title": "Joined handwriting fluency",
+    "description": "write words using clearly formed joined letters, with developing fluency and automaticity",
+    "strand": "Literacy / Writing",
+    "mode": "A",
+    "prior_knowledge": "Students form letters with developing consistency (prior year handwriting). They have not yet developed fluency and automaticity with clearly formed joined letters.",
+    "progression_endpoint": "Students can write words using clearly formed joined letters with developing fluency and automaticity, so that handwriting does not impede composition.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Clearly formed joined letters",
+        "progression_checkpoint": "Students can write words using correctly formed joined letters that are legible to a reader.",
+        "minimum_width": "Write a short piece of text using joined letters that are legible and consistently formed.",
+        "typical_width": "Write extended pieces using joined letters across a range of tasks, maintaining legibility and consistent letter formation throughout.",
+        "wider": [
+          "Limited width — joined handwriting fluency is a motor skill that does not vary meaningfully across contexts at this year band. Extension involves writing at greater length and speed while maintaining legibility, not broadening application across contexts."
+        ],
+        "hinge": true,
+        "hinge_reason": "Developing fluency and automaticity in N2 requires correctly formed letters — practising at speed with incorrect formation reinforces the wrong habits and is harder to remediate later.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Handwriting automaticity is built through practice volume. Fluency and automaticity with joined letters require sustained practice — there is no conceptual breadth to exploit, only time on task.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Joined letters are legible — a reader can identify all letters without assistance",
+          "Letter formation is consistent across a piece of writing"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Developing fluency and automaticity",
+        "progression_checkpoint": "Students can write with developing speed and fluency so that handwriting does not slow down or interrupt the composition process.",
+        "minimum_width": "Write a short piece at a pace that does not significantly interrupt the flow of ideas — composition is not held up by letter formation.",
+        "typical_width": "Write extended texts with developing automaticity — letter formation is sufficiently fluent that students can focus cognitive attention on composing rather than forming letters.",
+        "wider": [
+          "Limited width — handwriting automaticity is a motor fluency target, not a conceptual one. The enrichment direction is sustained practice with increasing text length."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Automaticity is achieved through practice volume, not conceptual breadth. Students need extended writing practice to develop the fluency this descriptor targets."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can complete a sustained writing task without stopping to think about letter formation",
+          "Writing pace is sufficient for the task demand"
+        ]
+      }
+    ]
+  }
+}

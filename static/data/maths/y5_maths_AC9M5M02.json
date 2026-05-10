@@ -1,0 +1,88 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5M02",
+    "title": "Perimeter and area problems",
+    "strand": "Measurement",
+    "description": "Solve practical problems involving the perimeter and area of regular and irregular shapes using appropriate metric units",
+    "prior_knowledge": "Students can calculate perimeter and area of regular shapes using standard units (AC9M4M02). They have not yet solved problems involving irregular shapes or chosen between appropriate metric units for area/perimeter.",
+    "progression_endpoint": "Students solve practical problems involving the perimeter and area of regular and irregular shapes using appropriate metric units.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Perimeter of regular and irregular shapes",
+        "progression_checkpoint": "Students can calculate the perimeter of regular and irregular shapes, including shapes with missing sides.",
+        "minimum_width": "Calculate the perimeter of an irregular rectilinear shape by adding all side lengths; identify and calculate missing side lengths using total dimension reasoning.",
+        "typical_width": "Solve perimeter problems for a range of regular and irregular shapes in practical contexts (e.g. fencing, framing); use appropriate metric units.",
+        "wider": [
+          "Investigate shapes with equal perimeter but different area",
+          "Explore perimeter in real contexts: orienteering, garden borders"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student calculates perimeter of an irregular rectilinear shape correctly",
+          "Student identifies and uses missing side lengths in perimeter calculation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Area of irregular shapes",
+        "progression_checkpoint": "Students can calculate the area of irregular rectilinear shapes by decomposing into rectangles.",
+        "minimum_width": "Decompose an irregular rectilinear shape into two or more rectangles; calculate the area of each and sum.",
+        "typical_width": "Apply decomposition strategy across a range of irregular rectilinear shapes; choose between different decomposition approaches; use appropriate area units.",
+        "wider": [
+          "Estimate area of irregular curved shapes using grid overlays",
+          "Investigate how Aboriginal and Torres Strait Islander land management practices involve area estimation"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Area decomposition requires a deliberate strategy: identify non-overlapping rectangles, calculate each, sum. Students who skip the decomposition step get incorrect totals. The reasoning scaffold is the decomposition process itself.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multiple valid decomposition paths for the same shape give advancing students genuine mathematical flexibility; estimation of irregular shapes extends richly.",
+        "hinge": true,
+        "hinge_reason": "Decomposition strategy fluency is required by Node 3 — students who skip decomposition cannot reliably solve practical problems where irregular shapes require both area and perimeter reasoning.",
+        "success_criteria": [
+          "Student decomposes an irregular shape into rectangles and calculates the total area",
+          "Student shows the decomposition in their working"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Perimeter and area in practical problems",
+        "progression_checkpoint": "Students can solve practical problems that require choosing between perimeter and area and using appropriate units.",
+        "minimum_width": "Solve a practical problem requiring perimeter or area; identify which measure is needed and state the appropriate unit.",
+        "typical_width": "Solve problems where context determines whether perimeter or area is needed; explain the choice; apply metric unit selection.",
+        "wider": [
+          "Design a garden or room layout within given perimeter and area constraints",
+          "Investigate real trade contexts: tiling (area) vs skirting board (perimeter) for the same room"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students confuse perimeter and area, especially in novel problem contexts. Varied practical situations — some requiring perimeter, some area, some both — resolve the conflation more effectively than abstract distinction exercises.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Design problems with dual constraints (perimeter AND area) are rich for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly identifies whether perimeter or area is required for a given problem",
+          "Student solves the problem correctly with appropriate units"
+        ]
+      }
+    ]
+  }
+}

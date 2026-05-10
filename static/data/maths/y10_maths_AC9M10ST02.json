@@ -1,0 +1,108 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10ST02",
+    "title": "Boxplots and continuous distributions",
+    "strand": "Statistics",
+    "mode": "A",
+    "description": "compare data distributions for continuous numerical variables using appropriate data displays including boxplots; discuss the shapes of these distributions in terms of centre, spread, shape and outliers in the context of the data",
+    "prior_knowledge": "Students can analyse statistical claims in media including ethical considerations and sources of bias (AC9M10ST01). They have not yet constructed or interpreted boxplots, calculated five-number summaries, or compared continuous distributions by shape.",
+    "progression_endpoint": "Students compare data distributions for continuous numerical variables using boxplots and other displays, discussing centre, spread, shape and outliers in context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Five-number summary",
+        "progression_checkpoint": "Students can calculate the five-number summary for a data set and explain what each value represents.",
+        "minimum_width": "Calculate minimum, lower quartile, median, upper quartile and maximum for a given data set; state what each of the five values represents.",
+        "typical_width": "Calculate five-number summaries for multiple data sets; distinguish between median and mean as measures of centre; calculate IQR; identify the quartile boundaries as the values that divide the data into four equal groups.",
+        "wider": [
+          "Investigate different conventions for calculating quartiles (inclusive vs exclusive median methods) and compare results on the same data set",
+          "Explore how the five-number summary connects to the concept of percentiles more generally \u2014 Q1 is the 25th percentile, Q3 is the 75th percentile"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Quartile calculation errors (especially confusion about whether to include or exclude the median when finding Q1 and Q3) are systematic. Fluency with the calculation procedure needs practice before interpretation work.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly calculates all five values of the five-number summary",
+          "Student explains what each value represents (not just its name)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Quartile calculation errors propagate directly into N2 \u2014 an incorrect five-number summary produces an incorrectly drawn boxplot, making the entire graphical representation misleading."
+      },
+      {
+        "id": 2,
+        "label": "Constructing and interpreting boxplots",
+        "progression_checkpoint": "Students can construct a boxplot from a five-number summary and interpret the key features in the context of the data.",
+        "minimum_width": "Draw a boxplot from a given five-number summary; identify and label the five key positions; describe what the box and whiskers represent.",
+        "typical_width": "Construct boxplots from raw data sets; interpret box width (IQR as spread measure), whisker length, and outlier positions; describe distributions in terms of centre and spread using boxplot features; identify outliers using the 1.5 \u00d7 IQR rule; connect the visual representation to the five-number summary.",
+        "wider": [
+          "Investigate how the identification and handling of outliers is a critical step in machine learning \u2014 comparing statistical outlier detection criteria to how data scientists decide whether to include or exclude outliers from model training",
+          "Explore how boxplots are used in scientific research to compare experimental vs control group distributions and identify practically significant differences"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students frequently misread boxplots \u2014 interpreting box width as frequency rather than spread, or misidentifying the median position. Explicit reasoning about what each feature encodes is essential before comparison work.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly constructs a boxplot from a five-number summary with accurate scale and labelling",
+          "Student correctly identifies the median, IQR and any outliers from a given boxplot"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who misread boxplot features (interpreting box width as frequency, misidentifying the median position) cannot make valid distribution comparisons in N3 \u2014 the comparison task depends on correctly reading the features being compared."
+      },
+      {
+        "id": 3,
+        "label": "Comparing distributions",
+        "progression_checkpoint": "Students can compare two or more distributions using boxplots, describing similarities and differences in centre, spread, shape and outliers in context.",
+        "minimum_width": "Compare two distributions using side-by-side boxplots; describe at least two differences in terms of centre and spread using context-appropriate language.",
+        "typical_width": "Compare multiple distributions using boxplots and other displays (histograms, dot plots, cumulative frequency graphs); describe shape (symmetry, skew, modality); discuss what the shape reveals about the data-generating process; use digital tools to explore different display types for the same data; evaluate which display best addresses a given question.",
+        "wider": [
+          "Compare the distribution shapes of the same variable across different subgroups (e.g. performance across different schools, biological measurements across different species) and discuss what the comparison reveals",
+          "Investigate how the same data appears very different on different display types (boxplot, histogram, dot plot) and evaluate which display answers a given statistical question most effectively"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Describing distribution shape (symmetric, skewed, bimodal) requires seeing these shapes in varied contexts \u2014 biological data is often right-skewed, social data often bimodal. Multiple data contexts build the shape-recognition vocabulary and connect shape to real-world phenomena.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Distribution comparison integrates five-number summary knowledge (node 1), boxplot construction and reading (node 2), and contextual interpretation into the full statistical comparison act. It is the endpoint of this descriptor's learning progression."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing distributions across multiple display types \u2014 and evaluating which display best answers a statistical question \u2014 is rich inquiry work that connects statistical reasoning to genuine decision-making about representation.",
+        "success_criteria": [
+          "Student compares two distributions using boxplots, commenting on centre, spread, shape and outliers with context-appropriate language",
+          "Student explains what the distributional difference reveals about the underlying context"
+        ],
+        "related_standards": [
+          "AC9M10ST03",
+          "AC9M10ST05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFSP02",
+    "title": "Position and Location",
+    "description": "describe the position and location of themselves and objects in relation to other people and objects within a familiar space",
+    "strand": "Space",
+    "mode": "A",
+    "prior_knowledge": "Students have informal spatial vocabulary from everyday experience. They may use words like 'in', 'on' and 'next to' informally. They have not yet consistently and precisely described their own position or the position of objects in relation to a reference point.",
+    "progression_endpoint": "Students describe the position and location of themselves and objects in relation to other people and objects within a familiar space using positional language.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Positional language vocabulary",
+        "progression_checkpoint": "Students can use a range of positional words correctly to describe where an object is in relation to a reference point.",
+        "minimum_width": "Use at least three positional words correctly (e.g. 'in', 'on', 'under', 'next to', 'behind') to describe the position of an object.",
+        "typical_width": "Use a range of positional words (inside, outside, underneath, on top of, behind, in front of, next to, near, far, between) accurately to describe object positions in relation to reference points in a familiar space.",
+        "wider": [
+          "Explore positional language in First Nations Australians' instructive games — e.g. Thapumpan from the Wik-Mungkan Peoples — using spatial language to describe position relative to other participants",
+          "Use positional language to describe the position of a robotic toy in relation to classroom objects as it moves, connecting spatial vocabulary to technology contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Positional vocabulary needs to become fluent and automatic so students can use it in real-time spatial description. Students commonly confuse similar terms (in front of / behind; under / on top of) or use general words ('there', 'over there') instead of precise positional terms. Repeated use in varied, concrete placement activities builds the vocabulary precision needed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 require students to produce and interpret position descriptions — which are meaningless without precise positional vocabulary. Students who use vague terms ('there', 'over there') cannot give descriptions that allow a partner to locate an object, and cannot interpret descriptions given to them.",
+        "success_criteria": [
+          "Student correctly uses at least four different positional words to describe object positions in relation to a reference point",
+          "Student uses positional words that specify the relationship clearly enough for another person to identify the described location"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Describing position in a familiar space",
+        "progression_checkpoint": "Students can describe the position of themselves and objects in relation to other people and objects within a familiar space.",
+        "minimum_width": "Describe the position of one object in relation to another in a familiar space using positional language, and follow a position description given by someone else to find an object.",
+        "typical_width": "Describe the position of objects and themselves in a familiar space using multiple positional references; interpret position descriptions given by others; describe positions from different reference points (e.g. from own position, from another person's position).",
+        "wider": [
+          "Describe the position of objects in a familiar space well enough for a partner to find a hidden object — testing and refining the description",
+          "Explore First Nations Australians' instructive games involving position and movement descriptions within a space — e.g. Thapumpan from the Wik-Mungkan Peoples of Cape Bedford"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Describing position requires students to identify a reference point, name the positional relationship, and specify what object is being located — three components that must be coordinated into a useful description. Students commonly omit the reference object or use vague references ('over there'). The reasoning scaffold here is: what is being located? in relation to what? using which positional word?",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 3 (describing movement) requires students to describe a changing position — which depends on being able to describe a static position first. Students who cannot produce the three-component description (what / in relation to what / which word) cannot meaningfully extend to describing where something moved to.",
+        "success_criteria": [
+          "Student describes the position of an object or themselves in a familiar space using at least one positional word and a named reference object",
+          "Student locates an object by following a position description given by another person"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Describing movement and location",
+        "progression_checkpoint": "Students can describe where they have moved themselves or objects in a familiar space in relation to other objects, using positional language.",
+        "minimum_width": "Describe where they moved an object (or themselves) in a familiar space using at least one positional word and a reference point.",
+        "typical_width": "Describe movement of objects and themselves within a familiar space using positional language; give location descriptions that would allow someone else to retrace a path or find an object; connect movement descriptions to starting and ending positions.",
+        "wider": [
+          "Describe and follow simple positional instructions to navigate a familiar space (e.g. classroom or playground) — testing whether descriptions are sufficient for the listener",
+          "Explore First Nations Australians' games involving movement and spatial description within a space — describing position and movement relative to other participants and objects",
+          "Use positional language to describe and predict where a robotic toy will be after a movement instruction — connecting spatial reasoning to technology"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Describing movement integrates positional vocabulary (node 1) and static position description (node 2) into a dynamic context — students must track changing positions and describe the relationship after movement. The added complexity of movement (position is not fixed) is the integration challenge.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Using positional language to describe movement — and testing descriptions for sufficiency by having a partner follow them — is genuinely rich spatial reasoning. First Nations games and robotics contexts both extend positional language into purposeful, dynamic contexts.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student describes the new position of an object or themselves after movement, using positional language and a reference point",
+          "Student's description is specific enough for another person to identify the new location"
+        ]
+      }
+    ]
+  }
+}

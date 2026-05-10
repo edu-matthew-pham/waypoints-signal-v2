@@ -1,0 +1,96 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLA09",
+    "title": "Punctuation and capital letters",
+    "description": "identify punctuation as a feature of written text different from letters; recognise that capital letters are used for names, and that capital letters also signal the beginning of sentences while punctuation marks signal the end",
+    "strand": "Language — Expressing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise some letters and have encountered written text. They have not yet been asked to distinguish punctuation marks from letters or to understand the systematic roles of capital letters and end-of-sentence punctuation.",
+    "progression_endpoint": "Students can identify punctuation marks as distinct from letters, recognise capital letters in names and at sentence beginnings, and identify end-of-sentence punctuation marks — understanding that these are consistent, rule-based conventions in written English.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Punctuation is not letters",
+        "progression_checkpoint": "Students can identify punctuation marks in a text and distinguish them from letters.",
+        "minimum_width": "Point to at least one punctuation mark in a written text and say it is not a letter.",
+        "typical_width": "Identify punctuation marks as distinct features of written text; sort punctuation marks from letters across several familiar examples; begin to name common punctuation marks.",
+        "wider": [
+          "Collect and classify all punctuation marks encountered in a class text — grouping them and counting how many of each type appear",
+          "Explore punctuation marks in digital texts — including emoji — and discuss which ones follow the same rules as print punctuation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without reliably distinguishing punctuation from letters, students cannot identify what capital letters or end punctuation marks are — both Nodes 2 and 3 depend on punctuation marks being already separated from the letter system.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students need reliable letter–punctuation discrimination as a prerequisite for all subsequent print literacy. This is a precision skill: errors (treating punctuation as letters) cascade into reading and writing. Practice with a range of texts is the remedy.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can reliably point to punctuation marks and identify them as distinct from letters.",
+          "Student can name at least one punctuation mark by name (e.g. full stop, question mark)."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Capital letters signal names and sentence starts",
+        "progression_checkpoint": "Students can identify capital letters used for names and at the beginning of sentences, and explain the rule behind each use.",
+        "minimum_width": "Identify a capital letter in a familiar word and say why it is capitalised (name, or start of sentence).",
+        "typical_width": "Recognise that capital letters are used for proper names (people, places, school names); recognise that capital letters signal the beginning of sentences; identify these in everyday and classroom texts.",
+        "wider": [
+          "Investigate capital letters across a wide range of text types — books, signs, labels, digital texts — and confirm consistency of the rules",
+          "Compare own name, classmates' names, the school name and the class name — noting that the capital letter rule applies consistently",
+          "Explore how capital letters appear in other alphabetic writing systems and compare with English conventions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The two uses of capitals (names and sentence starts) can be confused — students may think only one rule exists. Multiple contexts showing both uses, alongside consistent exceptions (mid-sentence common nouns), help build a complete schema."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify a capital letter used for a name and say why it is capitalised.",
+          "Student can identify a capital letter at the start of a sentence and say why it is capitalised.",
+          "Student can explain that capital letters follow rules — they are not placed randomly."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Punctuation signals sentence endings",
+        "progression_checkpoint": "Students can identify end-of-sentence punctuation marks (full stop, question mark, exclamation mark) and understand that they signal the end of a sentence.",
+        "minimum_width": "Identify a full stop in a text and say that it means the sentence has ended.",
+        "typical_width": "Identify full stops, question marks and exclamation marks as sentence-end signals; recognise the rule that punctuation marks — not new lines — signal sentence endings; apply this in reading and beginning writing.",
+        "wider": [
+          "Compare sentences ending with different punctuation marks and discuss how each affects how the sentence is read or spoken",
+          "Investigate how punctuation functions differently in digital informal writing (texts, posts) vs formal written texts",
+          "Sort sentences by end punctuation type and read each aloud — exploring how punctuation signals prosody"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may know full stops but not question marks or exclamation marks as sentence-enders — each requires its own contextual exposure before the general 'punctuation ends sentences' concept is robust."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify a full stop, question mark and exclamation mark in a text.",
+          "Student can explain that each of these signals the end of a sentence.",
+          "Student can use a full stop in their own writing at the end of a sentence."
+        ]
+      }
+    ]
+  }
+}

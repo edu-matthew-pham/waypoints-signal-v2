@@ -1,0 +1,96 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10S03",
+    "title": "Evaluate data to generalise, explain patterns and infer relationships",
+    "description": "evaluate geographical data and information to make generalisations and predictions, explain patterns and trends and infer relationships",
+    "strand": "Geographical Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "At Y9, students evaluated geographical data to make generalisations and predictions, explain patterns and trends and infer relationships (AC9HG9S03). At Y10 the same descriptor applies with the implicit expectation that students apply it to more complex data sets — including geospatial technology outputs, multi-variable data and cross-national comparisons — that match the Y10 content strand complexity.",
+    "progression_endpoint": "Students evaluate geographical data and information to develop generalisations, explain patterns and trends in complex datasets including geospatial outputs, and infer relationships between key environmental or wellbeing indicators at the national scale.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Developing generalisations from data",
+        "progression_checkpoint": "Students can develop generalisations from geographical data and information, critically analysing text and images for meaning and significance.",
+        "minimum_width": "Analyse one geographical data source or image and develop at least one generalisation grounded in the evidence.",
+        "typical_width": "Critically analyse text, data and images for meaning and significance; develop generalisations that go beyond description — making a claim about a geographical pattern that the data supports, and acknowledging what the data does not show.",
+        "wider": [
+          "Develop competing generalisations from the same dataset and evaluate which is better supported, identifying the reasoning steps that distinguish a strong from a weak generalisation",
+          "Analyse contrasting images (e.g. before/after deforestation satellite images, contrasting nightlife North/South Korea) and develop generalisations about what the contrast reveals at a geographical level",
+          "Investigate how generalisations function in geographical argument — what makes a generalisation too broad or too narrow to be analytically useful"
+        ],
+        "hinge": true,
+        "hinge_reason": "Generalisation is the inferential move that links raw data to geographical argument — without it, pattern explanation and relationship inference (nodes 2 and 3) are merely description without analytical payload.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often confuse generalisation with description ('the map shows that area X has low HDI') rather than making an inferential claim ('areas with lower HDI tend to be rural and landlocked, suggesting that resource access and connectivity are systematic factors'). Scaffold the description → inference → generalisation chain.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students develop at least one generalisation that makes an inferential claim rather than describing a single data point",
+          "Students ground their generalisation in specific evidence and acknowledge at least one limitation of the generalisation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Explaining patterns and trends",
+        "progression_checkpoint": "Students can explain geographical patterns and trends in data, including trends in complex and multi-variable datasets.",
+        "minimum_width": "Identify a pattern or trend in a geographical dataset and offer an explanation for that pattern using at least one geographical factor.",
+        "typical_width": "Explain patterns and trends in geographical data with reference to multiple causal factors — including why spatial or temporal patterns show the distribution they do and what factors account for the trend; apply to both environmental sustainability and wellbeing contexts.",
+        "wider": [
+          "Analyse a pattern that contradicts a common expectation (e.g. a country with high GDP but low HDI, or a protected area with declining biodiversity) and explain the anomaly",
+          "Examine how the apparent pattern changes depending on the scale of data aggregation — e.g. national level vs subnational level vs local level for the same variable",
+          "Explain a trend over time (e.g. HDI trajectory, biodiversity index change) identifying the policy, economic or environmental events that correspond to inflection points in the trend"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Practising pattern explanation across both environmental and wellbeing data types builds transferability — the analytical move is the same but the factor vocabulary differs, and students need experience in both.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Pattern explanation across multiple data types and scales is the core analytical skill of geographical inquiry — exposure to both environmental and wellbeing data contexts, and to patterns at different scales, builds a more flexible explanatory toolkit.",
+        "success_criteria": [
+          "Students identify a pattern or trend in a dataset and provide a causal explanation using at least one geographical factor",
+          "Students distinguish between a description of the pattern and an explanation of why the pattern exists"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Inferring relationships between indicators",
+        "progression_checkpoint": "Students can infer relationships between key environmental or wellbeing indicators at the national scale, using geospatial technology applications where appropriate.",
+        "minimum_width": "Identify a likely relationship between two geographical indicators (e.g. air quality and population density, adult literacy and HDI) and explain the basis for inferring the relationship.",
+        "typical_width": "Infer relationships between multiple environmental or wellbeing indicators at national scale; use geospatial technology applications to create maps showing the relationship spatially; evaluate the strength of the inferred relationship with reference to data evidence.",
+        "wider": [
+          "Distinguish between correlation and causation in a geographical relationship — identifying a case where two indicators correlate but are both caused by a third factor rather than each other",
+          "Use a scatterplot or bivariate map to visualise a relationship between two indicators and evaluate what the visualisation reveals and conceals about the relationship",
+          "Investigate a relationship between an environmental indicator and a wellbeing indicator at national scale — tracing the mechanism that connects them"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Relationship inference integrates generalisation, pattern explanation and data visualisation (from S02) into a coherent analytical conclusion. Students should explicitly connect the relationship they infer to the patterns they have explained and the data they have used."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students identify a relationship between two indicators and explain the basis for inferring it from the data",
+          "Students evaluate the strength of the inferred relationship, acknowledging alternative explanations or confounding factors"
+        ]
+      }
+    ]
+  }
+}

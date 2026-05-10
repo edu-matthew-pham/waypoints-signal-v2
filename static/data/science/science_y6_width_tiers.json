@@ -1,0 +1,99 @@
+{
+  "description": "Width tiers for Year 6 Science — ACARA v9. Covers the four U-strand descriptors (Biological, Earth and Space, Physical and Chemical Sciences). H-strand and I-strand (5–6 band) are in science_y5_6_width_tiers.json.",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "6",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "phenomena_contexts"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term — the fewest phenomena or contexts that still genuinely satisfy what the descriptor requires.",
+    "typical_width": "The full scope of the descriptor grounded in the most common elaboration cases — spirit and scope met without requiring every elaboration.",
+    "wider": "Enrichment directions that add phenomena, cultural contexts or applications. First Nations directions included where elaborations indicate them.",
+    "elaborations": "ACARA elaborations treated as source data for intended range. Typical grounded in common cases; wider may infer within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S6U01": {
+      "strand": "Biological Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least three physical conditions of a named habitat; describe how one condition changes over time; describe how a change in one physical condition affects the growth or survival of a named organism with evidence.",
+      "typical_width": "Identify and describe the full range of physical conditions in a habitat; investigate how changes in multiple conditions (temperature, salinity, light, moisture) affect plant and animal growth and survival; examine how human-caused condition changes affect organisms; describe community or scientific responses to those changes.",
+      "wider": [
+        "Investigate First Nations Australians' knowledge of the physical conditions necessary for survival of certain plants and animals — examining how observational knowledge guides land management",
+        "Research the impacts of light pollution on nocturnal and migratory animals and examine community responses using scientific knowledge (AC9S6H02)",
+        "Investigate international scientific collaboration in Antarctica to understand how extreme physical conditions affect living things (AC9S6H01)",
+        "Use digital sensors to collect physical condition data over time and identify patterns in condition variation"
+      ],
+      "elaborations": [
+        "identifying the physical conditions in an aquatic or terrestrial habitat and how they change over time",
+        "investigating how changes to physical conditions such as salinity, soil type, sunlight or temperature affect plant growth",
+        "examining how changes in physical conditions such as temperature, light availability and rainfall affect animals, such as corals, honey bees or flying foxes, and predict impacts of these changes",
+        "investigating changes in physical conditions that are the result of human activity and exploring the impact of these on living things, such as the impact of urban lighting on nocturnal and migratory animals",
+        "investigating the effect of physical conditions on the growth of bread mould colonies in sealed plastic bags",
+        "recognising that environmental conditions can affect stages of life, such as ponds drying up, seeds requiring water to germinate, or temperatures being too hot or cold for eggs to hatch",
+        "investigating First Nations Australians' knowledges and understandings of the physical conditions necessary for the survival of certain plants and animals"
+      ]
+    },
+    "AC9S6U02": {
+      "strand": "Earth and Space Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe the movement of Earth and at least two other planets relative to the sun; explain that gravity keeps planets in orbit; explain that day and night are caused by Earth's rotation on its axis; explain that Earth's axial tilt causes one hemisphere to receive more sunlight than the other at different times of year.",
+      "typical_width": "Describe the solar system including relative positions and orbital paths; explain gravity keeping planets in orbit; model Earth's rotation causing day and night using 3D models or role-play; explain why different regions experience different amounts of daylight; model how Earth's tilt and revolution cause variable day length and opposite seasons across hemispheres.",
+      "wider": [
+        "Research First Nations Australians' understandings of the night sky for timekeeping — examining how sky observation was used to track seasons and time before mechanical clocks",
+        "Construct a timeline of contributions from scientists, mathematicians and astronomers across many cultures that advanced understanding of the solar system (AC9S6H01)",
+        "Use real-time views of Earth from space to observe which regions are in daylight and darkness at a given moment",
+        "Explore why polar regions experience continuous sunlight or darkness — examining the extreme case of the axial tilt effect"
+      ],
+      "elaborations": [
+        "exploring simulations of the solar system such as a pocket solar system to appreciate the distances and relationships between the sun and planets",
+        "recognising the role of gravity in keeping the planets in orbit around the sun",
+        "using 3-dimensional models or role-play to model how Earth's rotation on its axis causes day and night",
+        "using virtual simulations or real-time views of Earth from space to explore why different regions on Earth, such as the South Pole, experience long periods of sunlight or darkness over the cycle of one revolution of Earth around the sun",
+        "using 3-dimensional models to explore how the tilt of Earth points one hemisphere towards the sun and the other away at different times of the year, and predicting how this affects the amount of sunlight on the surface of different regions on Earth",
+        "researching First Nations Australians' understandings of the night sky and its use for timekeeping purposes as evidenced in oral cultural records, rock paintings, paintings and stone arrangements"
+      ]
+    },
+    "AC9S6U03": {
+      "strand": "Physical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain that a circuit requires a complete conducting path and an energy source; classify at least four materials as electrical conductors or insulators; explain how at least two circuit components transform electrical energy into other forms; draw a circuit diagram using standard symbols.",
+      "typical_width": "Construct real or virtual circuits; identify necessary components and the role of each; explain that electricity flows only in a complete circuit; investigate electrical conductors and insulators; explain the purpose of switches; represent circuits using standard conventions; explain how electrical energy is transformed by different components into light, heat, sound and kinetic energy.",
+      "wider": [
+        "Explore electrical hazards in the home and identify safety measures (fuses, circuit breakers, insulation) that prevent dangerous current flow (AC9S6H02)",
+        "Use an ammeter to compare conductivity of different materials — examining that conductivity is a spectrum, not a binary",
+        "Design a product using electrical circuits for a specific purpose and present a case for its production (AC9S6I06)",
+        "Investigate why underground power cables were developed and how scientific knowledge informs electrical safety infrastructure decisions (AC9S6H02)"
+      ],
+      "elaborations": [
+        "identifying necessary components for an electric circuit such as a source of electrical energy and conducting material such as metal wires",
+        "constructing a real or virtual circuit to examine requirements to allow the flow of electricity, including exploring the construction and role of switches",
+        "constructing representations of electrical circuits and their components using accepted conventions",
+        "examining the purpose of different components such as switches and bulbs and exploring use of ammeters to measure current",
+        "investigating different electrical conductors and insulators and examining why they may be used",
+        "exploring how electricity is used in the home and identifying electrical hazards and safety measures used to mitigate these hazards"
+      ]
+    },
+    "AC9S6U04": {
+      "strand": "Chemical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain that dissolving and state changes are reversible; name one method for recovering a dissolved substance; explain that irreversible changes (cooking, rusting) produce new substances; classify at least four everyday changes as reversible or irreversible with the new-substance criterion.",
+      "typical_width": "Explain the reversible/irreversible distinction using the new-substance criterion; describe methods for recovering dissolved substances (evaporation, filtration); compare energy requirements for state change vs irreversible change; examine evidence of new substance formation in cooking and rusting; apply the classification to ambiguous cases; describe applications of reversible change in recycling.",
+      "wider": [
+        "Investigate First Nations Australians' knowledge of reversible processes (adhesives) and irreversible processes (fuels for torches) — examining how reversibility is a deliberately selected property in traditional material use",
+        "Compare how the amount of heat energy determines whether a reversible or irreversible change occurs — examining the threshold between melting and burning",
+        "Examine how knowledge of reversibility influences material and process selection in manufacturing and product design",
+        "Explore how reversible changes are used to recycle materials and examine the limits of recyclability"
+      ],
+      "elaborations": [
+        "discussing what makes a change reversible or irreversible, using everyday examples",
+        "examining the substances produced in cooking and rusting and comparing them with the original substances",
+        "comparing how the amount of heat energy added affects whether a change in state or an irreversible change occurs",
+        "describing how dissolved substances are reclaimed from solutions",
+        "exploring how reversible changes can be used to recycle materials",
+        "investigating First Nations Australians' knowledges of reversible processes such as the application of adhesives and of irreversible processes such as the use of fuels for torches"
+      ]
+    }
+  }
+}

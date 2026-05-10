@@ -1,0 +1,114 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5ST01",
+    "title": "Nominal and ordinal data",
+    "strand": "Statistics",
+    "description": "Acquire, validate and represent data for nominal and ordinal categorical and discrete numerical variables, to address a question of interest or purpose using software including spreadsheets; discuss and report on data distributions in terms of highest frequency (mode) and shape, in the context of the data",
+    "prior_knowledge": "Students can analyse data distributions and identify patterns in many-to-one displays (AC9M4ST02). They have not yet distinguished nominal, ordinal and discrete numerical variables or calculated and interpreted mode.",
+    "progression_endpoint": "Students acquire, validate and represent data for nominal, ordinal and discrete numerical variables; discuss distributions in terms of mode and shape.",
+    "mode": "B",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Types of categorical data",
+        "progression_checkpoint": "Students can distinguish nominal, ordinal and discrete numerical variables and explain the difference.",
+        "minimum_width": "Classify given variables as nominal, ordinal or discrete numerical with an explanation for each.",
+        "typical_width": "Classify a range of real-world variables; explain why ordinal data has order but not equal intervals; connect data type to appropriate display choices.",
+        "wider": [
+          "Survey how data type determines analysis choices in contexts like surveys and scientific research",
+          "Investigate what information is lost when ordinal data is treated as nominal"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The nominal/ordinal distinction is subtle and context-dependent. Multiple varied variables — some clearly nominal, some clearly ordinal, some ambiguous — help students develop the discrimination.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Data type classification is required by Node 3 — students who cannot distinguish nominal from ordinal cannot select appropriate displays or justify their choices, collapsing the Mode B task.",
+        "success_criteria": [
+          "Student correctly classifies given variables by data type",
+          "Student explains the key difference between nominal and ordinal data"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Acquiring and validating data",
+        "progression_checkpoint": "Students can collect data for a question of interest, identify and address data quality issues.",
+        "minimum_width": "Collect data for a stated question using a systematic method; identify at least one data quality issue (missing responses, inconsistencies) and describe how to address it.",
+        "typical_width": "Design a data collection method appropriate for the variable type; validate data for completeness and consistency; use a spreadsheet to organise and check data.",
+        "wider": [
+          "Investigate how surveys are designed to minimise response error",
+          "Compare data collected by different methods for the same question and analyse differences"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Data validation requires students to apply a deliberate checklist: completeness → consistency → plausibility. Without an explicit scaffold, students skip validation steps and proceed with flawed data.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Data quality determines the validity of every downstream step — students who skip validation proceed with flawed data that produces misleading distributions and unreliable mode calculations (Mode B phase collapse).",
+        "success_criteria": [
+          "Student collects data using a systematic method",
+          "Student identifies and describes at least one data quality issue in a dataset"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Representing data with software",
+        "progression_checkpoint": "Students can create appropriate data displays using spreadsheet software for their variable type.",
+        "minimum_width": "Create a frequency table and a bar chart for a categorical variable using spreadsheet software.",
+        "typical_width": "Select and create appropriate displays for nominal, ordinal and discrete numerical data using software; justify display choice based on variable type.",
+        "wider": [
+          "Compare how the same data appears in different display types and explain which is most informative",
+          "Use software to create grouped frequency tables for discrete numerical data"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student creates an appropriate display for a given variable type using software",
+          "Student labels the display correctly including titles and axis labels"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Mode and distribution shape",
+        "progression_checkpoint": "Students can identify the mode of a dataset and describe the shape of its distribution in context.",
+        "minimum_width": "Identify the mode of a dataset from a frequency table or display; describe whether the distribution is roughly symmetric or skewed.",
+        "typical_width": "Calculate and interpret mode for nominal, ordinal and discrete numerical datasets; describe distribution shape (symmetric, skewed, bimodal) using data context; explain what the mode tells us about the data.",
+        "wider": [
+          "Investigate real datasets (e.g. survey data, class data) where the mode is misleading or limited",
+          "Compare mode to other measures of centre: when is mode the best summary?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Distribution shape and mode interpretation are deeply context-dependent. Students need varied real datasets — not constructed examples — to understand what summaries actually tell us.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real dataset analysis and comparison of summary measures gives advancing students genuine statistical reasoning territory.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies the mode from a display or table",
+          "Student describes the distribution shape using appropriate language"
+        ]
+      }
+    ]
+  }
+}

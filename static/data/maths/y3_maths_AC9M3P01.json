@@ -1,0 +1,69 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3P01",
+    "title": "Chance language and reasoning",
+    "strand": "Probability",
+    "mode": "A",
+    "description": "identify practical activities and everyday events involving chance; describe possible outcomes and events as 'likely' or 'unlikely' and identify some events as 'certain' or 'impossible' explaining reasoning",
+    "prior_knowledge": "Probability is introduced at Year 3 — no direct Y2 predecessor. Students have informal everyday language about likelihood but have not yet applied a formal likelihood vocabulary or reasoned about certainty and impossibility.",
+    "progression_endpoint": "Students identify chance events in practical contexts and describe outcomes using likely, unlikely, certain and impossible, explaining their reasoning.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying chance events",
+        "progression_checkpoint": "Students can distinguish between events that definitely happen, definitely don't happen, and might happen, and connect these to everyday experiences.",
+        "minimum_width": "Classify three everyday events as certain, impossible or involving chance; justify each classification.",
+        "typical_width": "Identify and classify a range of everyday events using certain/impossible/chance; explain what makes an event a chance event (outcome is not predetermined).",
+        "wider": [
+          "Explore how chance appears across different everyday contexts — weather forecasting, games, sport outcomes, natural events",
+          "Investigate how different cultures have explained unpredictable events, and how the concept of probability developed as a mathematical way of reasoning about uncertainty"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often have narrow intuitions about what counts as a 'chance event' (e.g. only games with dice). Broad contextual exposure — weather, sport, nature — establishes that chance is a property of situations, not just games.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "A working understanding of what makes an event a chance event (outcome not predetermined) is the conceptual foundation for Node 2 — students who cannot distinguish chance events from certain/impossible ones cannot apply likely/unlikely language correctly or reason about possible outcomes.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can classify an event as certain, impossible or a chance event.",
+          "Students can explain what makes an event a chance event (we don't know in advance what will happen)."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Likely, unlikely and explaining reasoning",
+        "progression_checkpoint": "Students can describe outcomes of chance events as likely or unlikely and explain their reasoning with reference to the possible outcomes.",
+        "minimum_width": "For two chance events, describe the most likely outcome and explain why, referencing what outcomes are possible.",
+        "typical_width": "Apply likely/unlikely language to a range of chance contexts; explain reasoning by considering all possible outcomes and comparing their chances.",
+        "wider": [
+          "Introduce an informal probability scale from impossible to certain, placing events at approximate positions and justifying placement",
+          "Explore situations where 'equally likely' applies — fair coins, fair spinners — and contrast with situations where outcomes are not equally likely"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The reasoning chain 'what outcomes are possible? → which seems to happen more often? → therefore it is likely/unlikely' needs explicit scaffolding. Without it, students assert likelihood based on gut feeling rather than structured analysis of outcomes.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The probability scale and the equally-likely vs non-equally-likely distinction are genuinely rich extensions — they begin to formalise intuitive likelihood into a structure that prepares students for numerical probability at Y5.",
+        "success_criteria": [
+          "Students can describe an outcome as likely or unlikely and explain their reasoning.",
+          "Students can identify all possible outcomes for a simple chance event."
+        ],
+        "related_standards": ["AC9M3P02"]
+      }
+    ]
+  }
+}

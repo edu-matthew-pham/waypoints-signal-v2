@@ -1,0 +1,107 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY06",
+    "title": "Create and edit written texts",
+    "description": "create and re-read to edit short written and/or multimodal texts to report on a topic, express an opinion or recount a real or imagined event, using grammatically correct simple sentences, some topic-specific vocabulary, sentence boundary punctuation and correct spelling of some one- and two-syllable words",
+    "strand": "literacy_mode_b",
+    "mode": "B",
+    "prior_knowledge": "Students can create and participate in shared editing of short written texts to record and retell experiences (AC9EFLY06). They have not yet independently created texts across three purposes (report, opinion, recount), or applied grammatically correct simple sentences, topic vocabulary, sentence punctuation and spelling as a coordinated set of writing conventions.",
+    "progression_endpoint": "Students create and edit short written and/or multimodal texts to report, express opinion or recount, using simple sentences, topic vocabulary, sentence punctuation and correct spelling of some one- and two-syllable words.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Writing for a purpose",
+        "progression_checkpoint": "Students can write a short text for a specific purpose — report, opinion or recount — and identify the purpose of their text.",
+        "minimum_width": "Write a short text with a clear purpose (report, opinion or recount) and name the purpose.",
+        "typical_width": "Create short written and/or multimodal texts across all three purposes — reporting on a topic, expressing an opinion and recounting an event — with content appropriate to each purpose.",
+        "wider": [
+          "Write on the same topic for two different purposes (e.g. a recount of an event AND an opinion about it) and discuss how the text changes",
+          "Create a multimodal text combining images and words for a chosen purpose"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student's text has a clear purpose (report, opinion or recount)",
+          "Student can name the purpose of their text when asked"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Grammatically correct simple sentences",
+        "progression_checkpoint": "Students can write grammatically correct simple sentences — with a participant, process and optional circumstances.",
+        "minimum_width": "Write at least two simple sentences that are grammatically complete (participant + process).",
+        "typical_width": "Write grammatically correct simple sentences across their texts, with appropriate participants and processes, and some circumstances for detail.",
+        "wider": [
+          "Edit a piece of writing specifically to improve grammatical completeness — adding missing participants or processes",
+          "Experiment with varying sentence structure by moving circumstances to different positions"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot produce grammatically complete sentences cannot develop the writing quality needed for the remaining nodes — fragments undermine both topic vocabulary expression (N3) and the re-reading-to-edit process (N4), which assume sentences are already structurally present.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Writing grammatically complete sentences requires sustained practice — students frequently produce fragments or run-ons at this level. Consolidation through frequent writing and re-reading builds the automatic production of complete sentences.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Each sentence contains an identifiable participant and process",
+          "Student can identify and fix a sentence fragment in their own writing"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Topic vocabulary and punctuation",
+        "progression_checkpoint": "Students can use some topic-specific vocabulary and sentence boundary punctuation in their writing.",
+        "minimum_width": "Include at least one topic-specific word and correct end punctuation in a short written text.",
+        "typical_width": "Use topic-specific vocabulary appropriate to the text's subject matter and apply sentence boundary punctuation (full stops, question marks, exclamation marks) consistently throughout.",
+        "wider": [
+          "Use a word resource (word wall, dictionary) to find and check topic vocabulary",
+          "Review a peer's writing and identify topic vocabulary and punctuation use"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student includes at least one topic-specific word correctly used in their text",
+          "Student uses sentence boundary punctuation at the end of each sentence"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Re-reading to edit",
+        "progression_checkpoint": "Students can re-read their own writing to identify and fix errors — adding words for meaning, correcting spelling, checking punctuation.",
+        "minimum_width": "Re-read a piece of their own writing and make at least one change that improves it.",
+        "typical_width": "Re-read writing to edit for meaning (adding or deleting words), spelling (using resources to check words they are unsure of), and punctuation, making concrete improvements.",
+        "wider": [
+          "Discuss what to look for when editing — develop a simple personal editing checklist",
+          "Compare a first draft with an edited version and describe the improvements made"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Re-reading to edit requires a deliberate and sequenced checking routine — students need to learn to read their own writing as a reader, not just a writer. A simple scaffold (Does it make sense? Are words spelt right? Does each sentence end with a mark?) supports the habit."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student re-reads their text and makes at least one deliberate edit",
+          "Student can explain what they changed and why"
+        ]
+      }
+    ]
+  }
+}

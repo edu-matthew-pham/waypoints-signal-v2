@@ -1,0 +1,100 @@
+{
+  "year_level": "8",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S8U05",
+    "title": "Energy Transfer and Transformation",
+    "description": "classify different types of energy as kinetic or potential and investigate energy transfer and transformations in simple systems",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe pushes, pulls and frictional forces and their effects on motion (AC9S4U03). They have encountered heat energy in the context of state changes (AC9S3U04) and have not yet formally classified energy types or examined energy conservation principles in systems.",
+    "progression_endpoint": "Students classify energy types as kinetic or potential, trace energy transfers and transformations through a simple system, identify heat as a by-product of energy transfer, and represent energy changes using flow diagrams.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Energy types are classified as kinetic or potential",
+        "progression_checkpoint": "Students can classify different types of energy as either kinetic (energy of motion: movement, heat, sound, electricity) or potential (stored energy: chemical, elastic, gravitational) and give examples of each.",
+        "minimum_width": "Students classify at least four energy types correctly as kinetic or potential with examples, and explain the basis for the classification (energy in motion vs stored energy).",
+        "typical_width": "Students classify the full range of energy types across both categories, explain why each type belongs in its category, and give real-world examples of each. Students explain that the kinetic/potential distinction is based on whether the energy is associated with motion or stored in a system.",
+        "wider": [
+          "Investigate traditional fire-starting methods used by First Nations Australians and identify the energy transformations involved — examining how chemical potential and kinetic energy interact in fire production",
+          "Examine nuclear energy and discuss how it fits within the kinetic/potential classification — exploring whether the binary classification captures all energy types adequately",
+          "Create a digital infographic comparing different energy forms, highlighting examples and distinguishing features of kinetic and potential types"
+        ],
+        "hinge": true,
+        "hinge_reason": "Misclassification of energy types — particularly treating heat, sound and electrical energy as potential rather than kinetic — produces systematic errors in Node 2 flow diagrams. Students who cannot reliably classify energy types cannot correctly identify what transforms into what at each step of a system, invalidating their flow diagram output.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students commonly restrict 'kinetic energy' to movement energy and struggle to classify heat, sound and electrical energy correctly. Building a reliable classification across all energy types, with reasoning grounded in the kinetic/potential distinction rather than memorisation, is necessary before students can accurately trace energy transformations through a system.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies at least four energy types as kinetic or potential with examples",
+          "Explains the basis for classifying energy as kinetic (associated with motion) or potential (stored in a system)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Energy transfers and transforms through systems",
+        "progression_checkpoint": "Students can trace the path of energy through a simple system — identifying each energy transfer (same type moving from one object to another) and transformation (one type converting to another) — and represent these changes in a flow diagram.",
+        "minimum_width": "Students identify at least two energy transfers or transformations in a named simple system and represent them in a flow diagram.",
+        "typical_width": "Students trace the complete sequence of energy transfers and transformations through a simple system (roller-coaster, Newton's cradle, electrical circuit), correctly distinguishing transfers from transformations, and represent the sequence in a labelled flow diagram.",
+        "wider": [
+          "Analyse a Rube Goldberg machine and identify all energy transfers and transformations in sequence — applying the framework to a complex multi-step system",
+          "Investigate relationships between kinetic and potential energy in a roller-coaster or pendulum — examining how energy shifts between forms as conditions change without disappearing",
+          "Examine energy flow in traditional First Nations Australians' fire-starting methods — tracing the transformation from mechanical kinetic energy (friction) through heat to chemical potential (combustion) to heat and light"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly conflate energy transfer (same type, different object) with energy transformation (one type becomes another) and use the terms interchangeably. Making the distinction explicit and applying it systematically through a specific system — before attempting more complex multi-step systems — prevents persistent errors in flow diagram construction.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Rube Goldberg machine provides a genuinely engaging multi-step system for applying energy transfer/transformation analysis at scale. The First Nations fire-starting direction grounds the abstract framework in a culturally meaningful and historically significant context.",
+        "success_criteria": [
+          "Distinguishes between an energy transfer (same type, different object) and an energy transformation (one type becomes another)",
+          "Traces at least three energy changes through a named system in a labelled flow diagram",
+          "Correctly identifies the starting and ending energy types in a named system"
+        ],
+        "related_standards": ["AC9S8I04"]
+      },
+      {
+        "id": 3,
+        "label": "Heat is produced as a by-product of energy transfer",
+        "progression_checkpoint": "Students can identify that heat energy is produced as a by-product in many energy transfers and explain why this means real systems are less efficient than ideal ones — connecting to the concept of energy dissipation.",
+        "minimum_width": "Students identify at least two real-world examples where heat is produced as a by-product of energy transfer, and explain why this means less useful energy is available at the end of the transfer.",
+        "typical_width": "Students explain that heat is produced as a by-product in most energy transfers (filament globes, exercise, battery charging, friction), describe why this makes real systems less efficient than ideally designed ones, and connect this to the motivation for more efficient energy technologies.",
+        "wider": [
+          "Investigate how electrical circuit design affects heat production as a by-product — examining how resistance affects energy dissipation and connecting to the development of energy-efficient technologies",
+          "Examine the development of hybrid, electric and hydrogen-powered vehicles as responses to energy dissipation and fossil fuel depletion — connecting the physics of energy transfer efficiency to contemporary engineering (AC9S8H03)",
+          "Research changes in battery energy output following repeated recharging cycles and relate degradation to the dissipation of chemical potential energy over time"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly treat heat production as a special case (filament globes) rather than as a universal feature of energy transfer. Encountering heat as a by-product across varied contexts — mechanical friction, electrical resistance, chemical reactions, biological processes — helps students develop a more general understanding of energy dissipation and why efficiency matters.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The energy-efficient vehicles direction (AC9S8H03) provides a rich real-world application that connects fundamental physics to contemporary engineering responses to environmental problems. Battery degradation research connects the abstract concept of energy dissipation to measurable real-world data.",
+        "success_criteria": [
+          "Identifies at least two contexts where heat is produced as a by-product of energy transfer",
+          "Explains why heat production as a by-product means less useful energy is available at the output of a transfer"
+        ],
+        "related_standards": ["AC9S8H03"]
+      }
+    ]
+  }
+}

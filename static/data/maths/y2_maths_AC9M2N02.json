@@ -1,0 +1,68 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2N02",
+    "title": "Partition three-digit numbers",
+    "strand": "Number",
+    "mode": "A",
+    "description": "partition, rearrange, regroup and rename two- and three-digit numbers using standard and non-standard groupings; recognise the role of a zero digit in place value notation",
+    "prior_knowledge": "Students partition one- and two-digit numbers in different ways including into tens and ones (AC9M1N02). They have not yet partitioned three-digit numbers, worked with non-standard groupings, or reasoned about zero as a placeholder.",
+    "progression_endpoint": "Students partition, rearrange, regroup and rename two- and three-digit numbers using standard and non-standard groupings, and explain the role of zero as a placeholder in place value notation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Standard partitioning",
+        "progression_checkpoint": "Students can partition a three-digit number into hundreds, tens and ones using materials and explain the value of each part.",
+        "minimum_width": "Partition at least two three-digit numbers into hundreds, tens and ones using base-ten materials; match to expanded form (e.g. 300 + 40 + 5).",
+        "typical_width": "Partition a range of three-digit numbers including those with a zero digit; represent as expanded notation; compare the digits of a numeral with grouped materials.",
+        "wider": [
+          "Partition three-digit numbers with zero in different positions (tens, ones, hundreds) and explain why the numeral still has three digits",
+          "Use a range of materials (base-ten blocks, bundling sticks, collections of objects) to represent the same number and compare the representations"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 non-standard regrouping requires students to reason about how many tens are contained in a hundreds group. Students who omit zeros or misread place value cannot perform this reasoning — they cannot regroup what they have not correctly partitioned.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Zero as a placeholder is a persistent misconception — students may omit zeros or misread 305 as 35. Multiple representations across different contexts (materials, expanded form, numerals) help consolidate the concept that zero holds a position even when no quantity occupies it.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Partitions a three-digit number into hundreds, tens and ones using materials",
+          "Writes the expanded form of a three-digit number including one with a zero digit"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Non-standard regrouping",
+        "progression_checkpoint": "Students can rename a three-digit number using non-standard groupings (e.g. 245 as 24 tens and 5 ones) and explain why both representations are equivalent.",
+        "minimum_width": "Rename one three-digit number in at least one non-standard way using materials; explain why the value is unchanged.",
+        "typical_width": "Rename two- and three-digit numbers in multiple ways using standard and non-standard groupings; use knowledge of place value to explain equivalence; e.g. 245 as 2 hundreds 45 ones or 24 tens 5 ones.",
+        "wider": [
+          "Find all possible ways to rename a given three-digit number using different groupings; record systematically and look for patterns",
+          "Use non-standard partitioning to assist mental addition: e.g. rename 138 as 13 tens and 8 ones to add 40 more"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Non-standard regrouping requires students to reason through equivalence explicitly — it is not immediately obvious that 24 tens and 5 ones equals 245. The reasoning scaffold of 'how many tens are in 2 hundreds?' needs to be made visible before students can apply it independently.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Finding all possible renamings and recording them systematically offers genuine richness — students begin to see multiplicative relationships between place value units (10 ones = 1 ten, 10 tens = 1 hundred) as a generalisable structure, not just a fact about one number.",
+        "success_criteria": [
+          "Renames a three-digit number in at least one non-standard way using materials",
+          "Explains why the renamed form represents the same quantity as the standard form"
+        ]
+      }
+    ]
+  }
+}

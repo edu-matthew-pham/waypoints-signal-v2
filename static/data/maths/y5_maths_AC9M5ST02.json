@@ -1,0 +1,87 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5ST02",
+    "title": "Interpret line graphs",
+    "strand": "Statistics",
+    "description": "Interpret line graphs representing change over time; discuss the relationships that are represented and conclusions that can be made",
+    "prior_knowledge": "Students can acquire and represent data in frequency tables and charts (AC9M5ST01). They have not yet interpreted line graphs as representations of change over time.",
+    "progression_endpoint": "Students interpret line graphs representing change over time and discuss the relationships and conclusions they represent.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reading line graphs",
+        "progression_checkpoint": "Students can read values from a line graph and describe what the axes represent.",
+        "minimum_width": "Read specific values from a line graph; identify what each axis represents including units.",
+        "typical_width": "Read and compare values at specific time points; identify the maximum, minimum and any missing values; describe the overall trend in a sentence.",
+        "wider": [
+          "Compare two line graphs with different scales for the same data",
+          "Read line graphs from real media: weather, finance, sport"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student reads specific values from a line graph accurately",
+          "Student correctly identifies axis labels and units"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Interpreting change and relationships",
+        "progression_checkpoint": "Students can describe the pattern of change shown in a line graph and identify the relationship between the variables.",
+        "minimum_width": "Describe whether values are increasing, decreasing or staying the same over a given time period; identify the steepest and flattest sections.",
+        "typical_width": "Describe the full pattern of change in a line graph using precise temporal language; interpret what steep and flat sections mean in context; discuss the relationship between the variables.",
+        "wider": [
+          "Compare line graphs for related datasets (e.g. two cities' temperatures over a year)",
+          "Investigate line graphs used in First Nations environmental monitoring"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Slope interpretation requires understanding that steepness = rate of change, not magnitude. Multiple contexts — temperature, population, finance — help students generalise the interpretation principle.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-dataset comparison and environmental monitoring contexts give advancing students rich, purposeful interpretation tasks.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student describes the pattern of change in a line graph using temporal language",
+          "Student interprets what the steepest/flattest section means in context"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Drawing conclusions",
+        "progression_checkpoint": "Students can make and justify conclusions from a line graph, distinguishing between what the data shows and what might explain it.",
+        "minimum_width": "Make one conclusion supported by the graph; explain the data evidence for the conclusion.",
+        "typical_width": "Make multiple conclusions from a line graph; distinguish between what the data directly shows and possible explanations; discuss limitations of conclusions from a single graph.",
+        "wider": [
+          "Critically evaluate conclusions made in media reports about line graph data",
+          "Investigate how the choice of time scale affects conclusions drawn from the same data"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Data-to-conclusion reasoning varies greatly by context. Students need diverse real datasets to develop genuine reasoning rather than template conclusions."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student makes a conclusion supported by specific graph evidence",
+          "Student distinguishes between what the data shows and a possible explanation"
+        ]
+      }
+    ]
+  }
+}

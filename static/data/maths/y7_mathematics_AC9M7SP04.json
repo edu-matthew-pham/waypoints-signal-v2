@@ -1,0 +1,72 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7SP04",
+    "title": "Algorithms for Classifying Shapes",
+    "strand": "Space",
+    "description": "design and create algorithms involving a sequence of steps and decisions that will sort and classify sets of shapes according to their attributes, and describe how the algorithms work",
+    "mode": "A",
+    "prior_knowledge": "Students can classify triangles, quadrilaterals and polygons by properties (from AC9M7SP02). Students have experience writing step-by-step instructions and using decision trees informally.",
+    "progression_endpoint": "Students design and describe algorithms (using flowcharts or pseudocode) that sort and classify shapes by their attributes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Designing a classification algorithm",
+        "progression_checkpoint": "Students design a step-by-step algorithm (as a flowchart or decision tree) that classifies shapes according to their attributes.",
+        "minimum_width": "Create a flowchart that correctly classifies triangles as scalene, isosceles or equilateral.",
+        "typical_width": "Design and test an algorithm for classifying quadrilaterals; identify and fix errors when the algorithm misclassifies a shape.",
+        "wider": [
+          "Design an algorithm for a broader polygon classification including regularity and convexity.",
+          "Compare two algorithms for the same classification task — which is more efficient? Which handles edge cases better?"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Algorithm design requires explicit thinking about the order of decisions and what each branch tests. Students who write algorithms informally miss cases and produce ambiguous decision points.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who design algorithms without an explicit decision-ordering scaffold produce algorithms with missing branches or ambiguous tests — these cannot be evaluated or described correctly in Node 2, since tracing an incomplete algorithm produces unpredictable outputs.",
+        "width_opportunity": true,
+        "success_criteria": [
+          "Produces a flowchart or decision tree that correctly classifies the target shapes.",
+          "Includes decision points with clear yes/no branches.",
+          "Tests the algorithm on at least two examples and corrects any errors."
+        ],
+        "related_standards": [
+          "AC9M7SP02"
+        ],
+        "width_opportunity_reason": "Designing a broader polygon classification algorithm that handles regularity and convexity, and comparing algorithms for efficiency, is a rich computational thinking task — advancing students engage with algorithm design as a genuine problem-solving activity."
+      },
+      {
+        "id": 2,
+        "label": "Describing and evaluating algorithms",
+        "progression_checkpoint": "Students describe in words how an algorithm works and evaluate its correctness by tracing through it with test cases.",
+        "minimum_width": "Trace a given classification algorithm with two test shapes and describe each decision made.",
+        "typical_width": "Evaluate whether a given algorithm is correct, efficient, and handles all cases; identify and fix errors.",
+        "wider": [
+          "Implement the classification algorithm in a simple programming language or flowchart tool.",
+          "Investigate the relationship between the number of decision steps and the number of categories — how does complexity scale?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Algorithm evaluation requires seeing both correct and incorrect algorithms to develop critical judgment. Students who only design algorithms rarely develop the ability to critique others'."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly traces a classification algorithm with a test input.",
+          "Identifies at least one case where a given algorithm fails (if one exists).",
+          "Explains in plain language how the algorithm works."
+        ],
+        "related_standards": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3M01",
+    "title": "Metric units and estimation",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "identify which metric units are used to measure everyday items; use measurements of familiar items and known units to make estimates",
+    "prior_knowledge": "Students can measure and compare objects based on length, capacity and mass using appropriate uniform informal units and smaller units for greater accuracy (AC9M2M01). They have not yet named or used metric units, or connected informal measurement to the metric system.",
+    "progression_endpoint": "Students identify appropriate metric units for everyday measurement attributes and use benchmarks to make reasonable estimates.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Naming metric units for everyday attributes",
+        "progression_checkpoint": "Students can match metric units (mm, cm, m, km; mL, L; g, kg) to appropriate everyday measurement contexts.",
+        "minimum_width": "Sort six everyday items into groups by measurement attribute and name the appropriate metric unit for each attribute.",
+        "typical_width": "Examine packaging and real-world items; match measurement attributes (length, capacity, mass) to appropriate metric units; explain why a given unit is appropriate or inappropriate.",
+        "wider": [
+          "Investigate how metric units on product packaging represent different scales — e.g. comparing 500mL and 2L containers, 50g and 1kg packets",
+          "Explore the structure of the metric system — prefixes milli-, centi-, kilo- — as a pattern that applies across all measurement attributes"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse units across attributes (e.g. using kilograms for length) or fail to distinguish between units within an attribute (cm vs m). Exposure across varied real-world items resolves this more effectively than explicit rules.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Correct unit identification is the prerequisite for AC9M3M02 (measuring with instruments) — students who cannot match the attribute to the appropriate unit cannot select the right instrument or interpret the measurement result correctly.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can identify the appropriate metric unit for a given everyday measurement context.",
+          "Students can explain why a particular unit is appropriate for a given attribute."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using benchmarks to estimate",
+        "progression_checkpoint": "Students can use familiar measurement benchmarks to estimate an unknown quantity and explain their reasoning.",
+        "minimum_width": "Use one benchmark item (e.g. 1L milk carton, 1kg of flour) to estimate the measurement of two other items; explain reasoning.",
+        "typical_width": "Apply benchmark items across length, mass and capacity estimation contexts; explain reasoning referencing the benchmark; compare estimate to measured value.",
+        "wider": [
+          "Estimate measurements in natural and outdoor contexts — tree heights, distances across the playground, capacity of a bucket — connecting to First Nations Australian knowledge of country",
+          "Investigate estimation error: which types of estimation (length, mass, capacity) produce more accurate results and why"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who estimate only in classroom contexts with familiar items often cannot transfer the skill to outdoor or less familiar contexts. Varied real-world estimation contexts — including First Nations country-based examples — establish estimation as a generalised skill rather than a classroom exercise.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Outdoor and First Nations estimation contexts connect measurement to purposeful real-world reasoning, and investigating estimation error provides genuine metacognitive richness about precision and uncertainty.",
+        "success_criteria": [
+          "Students can state an estimate for a measurement and identify the benchmark they used.",
+          "Students can explain why their estimate is reasonable in relation to the benchmark."
+        ],
+        "related_standards": ["AC9M3N05", "AC9M3M02"]
+      }
+    ]
+  }
+}

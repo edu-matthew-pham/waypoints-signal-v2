@@ -1,0 +1,84 @@
+{
+  "year_level": "8",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E8LE05",
+    "title": "Sentence patterns, tone and imagery",
+    "description": "analyse how language features such as sentence patterns create tone, and literary devices such as imagery create meaning and effect",
+    "strand": "Literature \u2014 Examining literature",
+    "mode": "B",
+    "prior_knowledge": "Students can identify how literary devices and language features create effects in literary texts (AC9E7LE05). They have not yet analysed how sentence-level grammatical choices (active/passive voice, simple vs complex syntax) systematically create tone, or how this connects to the broader operation of imagery in meaning-making.",
+    "progression_endpoint": "Students analyse how sentence patterns create tone and how literary devices such as imagery create meaning and effect in literary texts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sentence patterns creating tone",
+        "progression_checkpoint": "Students can analyse how sentence-level choices \u2014 including active/passive voice, simple vs complex syntax, sentence length and pattern \u2014 create tone in a literary text.",
+        "minimum_width": "Identify how one sentence-level choice (e.g. active vs passive voice, terse vs elaborate syntax) creates a specific tone in a provided literary passage.",
+        "typical_width": "Analyse how sentence patterns \u2014 including active and passive voice, simple and complex syntax, and varied sentence length \u2014 create tone across a literary text; explain how different sentence-level choices produce formal, intimate, urgent or detached tones.",
+        "wider": [
+          "Compare how a short story writer and a poet create contrasting tones using different approaches to sentence structure and length",
+          "Examine how First Nations Australian authors use sentence patterns that reflect oral storytelling rhythms to create a tone distinct from written Western prose tradition",
+          "Analyse how a single paragraph changes in tone when rewritten using active instead of passive voice, or terse instead of complex syntax"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often identify sentence features (e.g. 'short sentences') without connecting them to tone (e.g. 'which creates urgency'). The reasoning scaffold \u2014 feature \u2192 tone \u2192 effect \u2014 needs to be made explicit and practised before it becomes automatic.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a specific sentence-level feature (e.g. passive voice, terse syntax) in a literary text.",
+          "Explains how that feature creates a specific tone, using appropriate metalanguage."
+        ],
+        "related_standards": [
+          "AC9E8LA05",
+          "AC9E8LA06",
+          "AC9E8LE02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 analyses how imagery creates meaning and effect \u2014 a task requiring the feature\u2192effect reasoning chain built at Node 1. Students who identify sentence features without connecting them to tone arrive at Node 2 unable to analyse images for meaning rather than just label them as devices."
+      },
+      {
+        "id": 2,
+        "label": "Imagery creating meaning and effect",
+        "progression_checkpoint": "Students can analyse how literary devices including imagery \u2014 and specifically how simile, metaphor and sensory imagery \u2014 create meaning and effect in literary texts.",
+        "minimum_width": "Identify an image (simile, metaphor or sensory image) in a literary text and analyse what meaning it creates \u2014 what it suggests beyond its literal content.",
+        "typical_width": "Analyse how imagery and related literary devices create meaning and effect in literary texts; explain how writers use terse or elaborate language choices and how these influence both the meaning created by images and the tone of the text overall.",
+        "wider": [
+          "Analyse how sustained imagery (an extended metaphor or a consistent pattern of images) creates cumulative meaning across a literary text",
+          "Compare how imagery operates differently in poetry vs prose \u2014 examining how compressed imagery in poetry creates different effects from extended imagery in narrative",
+          "Investigate how First Nations Australian authors use imagery connected to Country, place and natural cycles to create meaning not available through imagery drawn from other traditions"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only encounter imagery in poetry may not transfer the analytical skill to prose. Encountering imagery across poetry, prose fiction and drama \u2014 and seeing how it operates differently in each \u2014 builds a genuinely transferable analytical capability.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The analysis of imagery \u2014 and particularly the connection between image choice and the cultural or experiential world it draws on \u2014 is one of the richest sites in literary analysis for Year 8 students. First Nations imagery, extended metaphor, and cross-genre comparison all offer substantial depth.",
+        "success_criteria": [
+          "Identifies a specific image in a literary text and names the device (simile, metaphor, personification, sensory image).",
+          "Analyses the meaning or effect the image creates, explaining what it suggests beyond its literal content."
+        ],
+        "related_standards": [
+          "AC9E8LA02",
+          "AC9E8LE04",
+          "AC9E8LY05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

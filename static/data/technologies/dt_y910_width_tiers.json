@@ -1,0 +1,328 @@
+{
+  "description": "Width tiers for Digital Technologies Year 9-10 band (ACARA v9). All 17 descriptors. Generated from elaborations using width_generation_prompt v1.0.",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "band": "9-10",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest engagement that satisfies the descriptor's command term. For K strand: minimum phenomena or contexts that satisfy 'investigate', 'represent', or 'explain'. For P strand: narrowest task context in which the process skill is demonstrably applied.",
+    "typical_width": "Full descriptor scope as ACARA intends it. Grounded in the most common elaboration cases. Reflects what a class that has engaged with the descriptor fully would have done — not every elaboration, but the scope and spirit of the descriptor.",
+    "wider": "Enrichment directions that add phenomena, task contexts or application domains. Each direction is a distinct context — not a harder version of the same thing. First Nations contexts included where elaborations indicate them.",
+    "elaborations": "ACARA elaborations are source data, not a checklist. Typical_width is grounded in common elaboration cases. Wider may reasonably extend beyond elaborations where the direction is clearly within the descriptor's scope and year band."
+  },
+  "standards": {
+    "AC9TDI10K01": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain how at least two components (e.g. operating system abstraction and IP addressing, OR access control and cryptographic protocols) manage and secure data in a networked system; describe what each component does and what threat it addresses.",
+      "typical_width": "Investigate how hardware and software components — OS abstraction, IP addressing and DNS, access control (authentication and permissions), and cryptographic protocols (TLS and hashing) — work together to manage and secure networked systems; explain the role of each and the threat each addresses.",
+      "wider": [
+        "Configure a simulated network and observe packet movement between devices — identify where encryption, routing and access control each operate in the packet's journey",
+        "Investigate how public key infrastructure (certificate authorities) establishes trust in encrypted connections — explain what happens when a certificate is invalid",
+        "Examine how remote access to community health data in First Nations contexts is managed securely and how data sovereignty requirements shape cryptographic and access control choices",
+        "Analyse a documented network breach and identify which layers of the security model failed and what controls should have prevented it"
+      ],
+      "elaborations": [
+        "explaining how the operating system hides the complexity of different hardware from applications, for example applications can treat input from a mouse and touch screen in the same way",
+        "exploring how public key cryptography, for example TLS, and hashing, such as SHA-1, secure the storage and transmission of data",
+        "configuring a simple network using real or simulated hardware and observing packets moving around the network, for example monitoring packets on simulated switches and networked devices",
+        "explaining how domain names and IP addresses allow data to be transmitted to specific networked devices, for example DNS and routing tables",
+        "describing elements of access control and explaining why they are necessary, for example authentication and permissions for restricting access to install software to administrators"
+      ]
+    },
+    "AC9TDI10K02": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Represent a simple web document by identifying its content (text), structure (HTML tags) and presentation (CSS rules); explain what one benefit of keeping them separate is.",
+      "typical_width": "Represent online documents using HTML for content and structure and CSS for styling; explain how HTML tags separate content from structure; describe multiple benefits of separation including independent editing, consistent styling across pages, and accessibility for screen readers.",
+      "wider": [
+        "Demonstrate the maintenance benefit by changing a single CSS file that reskins an entire multi-page site — explain why this is only possible because content, structure and presentation are separated",
+        "Investigate how content management systems implement content/structure/presentation separation at a platform level and explain the architectural benefits",
+        "Examine how First Nations language preservation websites use structural separation to support multiple language versions of the same content — explain why separation makes this feasible"
+      ],
+      "elaborations": [
+        "representing documents by separating the content (the text in the document), the structure (the document structure such as headings and paragraphs) and presentation (how the document is laid out and styled)",
+        "writing web pages using HyperText Markup Language (HTML) for the content and structure and Cascading Style Sheets (CSS) for styling the page and explaining how HTML tags separate content from structure",
+        "explaining how representing content, structure and presentation separately allows each of them to be designed, edited, manipulated and stored independently of the others and why this is important"
+      ]
+    },
+    "AC9TDI10K03": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Apply run-length encoding to a simple data sequence (e.g. pixel row) to demonstrate lossless compression; explain the difference between lossy and lossless compression with one example of each.",
+      "typical_width": "Investigate lossless compression using run-length encoding — apply it to image data, calculate the compression ratio, and explain when it is effective; explore lossy compression by comparing format examples (MP3, MP4 vs WAV); explain the consequences of lossy compression in different contexts and why the choice between lossy and lossless matters.",
+      "wider": [
+        "Compare audiovisual codecs and explain what information is permanently discarded in lossy compression and why human perceptual limits make this acceptable in most contexts",
+        "Investigate the consequences of lossy compression in high-stakes domains — medical imaging, legal evidence, archival records — and explain why lossless is required",
+        "Examine the energy cost of transmitting uncompressed versus compressed data at scale and explain the environmental and bandwidth implications",
+        "Investigate additional lossless techniques beyond RLE (e.g. Huffman coding concepts) and explain how they generalise the principle of efficient pattern representation"
+      ],
+      "elaborations": [
+        "using an algorithm to identify patterns in data and represent them in a compressed way, for example repeated pixels in an image with run-length encoding",
+        "exploring the difference between lossy and lossless compression and the consequences of each, for example exploring codecs for audiovisual compression such as MP3, MP4 and WAV formats, considering energy requirements of file sizes",
+        "examining an image and discussing whether the image quality would be compromised if all the blue pixels of the sky in one row were to be replaced by one token and the number of pixels it represents"
+      ]
+    },
+    "AC9TDI10P01": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Develop a data collection system for a specific purpose that acquires data, stores it in a structured format, applies at least one automated validation rule, and addresses one Australian Privacy Principle for personally identifiable data.",
+      "typical_width": "Develop techniques across the full data pipeline: design structured data collection with appropriate field types; implement automated validation using both UI constraints and rule-based checks; acquire data from multiple source types (surveys and existing datasets such as ABS); store in spreadsheet or database; apply the Australian Privacy Principles to limit collection and protect PII; evaluate the strengths and weaknesses of different collection methods for the question.",
+      "wider": [
+        "Implement statistical validation techniques to detect bias or fake responses in collected data (e.g. detecting anomalous rating patterns)",
+        "Investigate and address training data issues — what happens when a predictive model's training data lacks examples of a valid input category, and how data collection and validation practices affect model quality",
+        "Access and store ABS data on population trends, evaluate what questions it can and cannot answer, and explain how First Nations Australian population data should be handled in accordance with both APPs and Indigenous data sovereignty principles",
+        "Design a mixed-method data collection approach that combines sources to compensate for each individual method's weaknesses"
+      ],
+      "elaborations": [
+        "developing systems that store structured data, for example a movie or travel review website that collects Likert scale ratings and written reviews",
+        "developing systems that check data is correct and meaningful using automated techniques and manual analysis, for example, validating movie review data using rules and user interface elements, and detecting bias and fake reviews through simple statistical analysis",
+        "developing systems that acquire, use and protect data according to the Australian Privacy Principles, for example ensuring personally identifiable information is not publicly shared without consent and is protected from unauthorised access",
+        "accessing and storing data from the Australian Bureau of Statistics in a format that is useful for analysis, for example acquiring data on the population growth across age groups in Australia",
+        "identifying strengths and weaknesses of collecting data using different methods, for example online surveys, face-to-face interviews, phone interviews, observation, comments in response to a social media posting, phone logs, browser history and online webcam systems",
+        "considering how training data issues such as the zero problem dictate the output from predictive models; for example, a model with many examples of horses and no zebras in its training data is likely to classify all zebras as horses"
+      ]
+    },
+    "AC9TDI10P02": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Analyse a dataset using software to identify at least one trend and one outlier; draw one conclusion and make one prediction from the data; create one visualisation.",
+      "typical_width": "Analyse and visualise data interactively using spreadsheets or databases — summarise dataset attributes and relationships, identify trends and outliers, draw conclusions and make predictions; develop an interactive visualisation with user-controllable elements; explore how machine learning analyses patterns in a dataset by training and testing a simple model.",
+      "wider": [
+        "Develop a motion chart or time-series interactive visualisation (e.g. population, life expectancy, fertility rate) that allows users to explore change over time",
+        "Investigate emerging industry or population trends in Australia using ABS data — make predictions and explicitly identify the limiting assumptions",
+        "Adjust parameters of a machine learning model to observe how weighting different variables changes predictions — explain which variables have most influence and why",
+        "Investigate how training data composition (e.g. underrepresentation of certain groups) produces biased model outputs in real AI systems"
+      ],
+      "elaborations": [
+        "summarising data, its attributes and the relationships between data sets, identifying trends and outliers to draw conclusions and make predictions, for example summarising data about electorates and their demographics, historical swings and exceptions to predict an election outcome",
+        "developing interactive visualisations for exploring complex data, for example population, life expectancy and fertility rate in motion charts",
+        "using software to visualise and compare data to identify patterns, relationships and trends, for example investigating emerging trends in Australia's industries",
+        "exploring machine learning, a form of artificial intelligence where an algorithm is trained using a data set, for example to classify images into categories",
+        "adjusting parameters of an AI model to observe the impact of different factors on predicted outcomes; for example, changing the weighting of different input variables to see how much it changes the model's outputs"
+      ]
+    },
+    "AC9TDI10P03": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Model at least two entities with their attributes and one relationship; design a simple relational schema with primary and foreign keys; build and populate the database; write a SELECT/WHERE query to retrieve data.",
+      "typical_width": "Model a multi-entity domain by identifying entities, attributes and relationships; design a relational database schema with primary keys, foreign keys and appropriate data types; build and populate the database; write SQL queries using SELECT, WHERE, JOIN and GROUP BY/COUNT to retrieve, filter and aggregate data; use structured data to support decision-making.",
+      "wider": [
+        "Design and implement a relational schema for a community data need (e.g. a First Nations language archive with speakers, words and recordings) — identify the entities, relationships and privacy requirements specific to the community",
+        "Write SQL queries to detect data integrity issues (e.g. duplicate reviews, orphaned records) — explain how the query logic maps to the integrity requirement",
+        "Evaluate a schema with redundancy issues and normalise it — explain what problems the original design caused and how normalisation resolves them",
+        "Explore edge cases in JOIN behaviour (left join, no match) and explain why this matters for specific query types"
+      ],
+      "elaborations": [
+        "modelling entities and processes, their attributes and the relationships between them, for example creating database tables for a movie, a user and their movie review, where a movie has a title, genre and release date, and a review has a movie, a user and their rating and comments",
+        "using structured data to help in decision-making, for example creating a data schema for a relational database and building the database, incorporating query and reporting functionality to solve a problem of student choice",
+        "interpreting and querying multi-table databases using SQL queries with SELECT, WHERE and simple JOIN/GROUP BY clauses and counting, for example checking that each user has only reviewed each movie once"
+      ]
+    },
+    "AC9TDI10P04": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Conduct at least one stakeholder interview using prepared questions; create at least two user stories from the interview data; write a problem definition with at least one scope constraint; derive at least two assessable design criteria.",
+      "typical_width": "Interview stakeholders to elicit needs; create a set of user stories using the standard template; write a precise problem definition with scope awareness; establish design criteria that are specific, assessable, and derived from user stories — covering both functional and non-functional requirements.",
+      "wider": [
+        "Interview stakeholders with different or conflicting needs; synthesise findings to identify where requirements align and where they must be reconciled",
+        "Explore how interviewing First Nations Australian community members for digital solution development requires additional considerations: cultural protocols, community consent, and understanding community-defined needs",
+        "Apply MoSCoW prioritisation to a user story set and justify the prioritisation — explain what would be cut and why given real constraints",
+        "Examine how broadly framed problems can be decomposed into sub-problems and identify which sub-problems are and aren't addressable with a digital system"
+      ],
+      "elaborations": [
+        "creating user stories by interviewing a stakeholder to complete a template such as \"As a , I want so that \", for example interviewing an amateur athlete to complete the template",
+        "defining the problem with precision and some awareness of scope, for example \"How do we encourage people to balance their energy intake and expenditure?\" and \"Can this be solved in a specified timeframe?\"",
+        "asking questions that help them define the problem more precisely, for example \"How do we measure energy intake?\" or \"How much energy does each exercise expend?\"",
+        "recognising the importance of diverse perspectives when defining the problem and devising survey or interview questions to elicit stakeholder needs",
+        "exploring how First Nations Australian cultural stories and languages are being preserved with digital systems, for example how communities could record, animate and maintain their connections with culture and language in a contemporary format"
+      ]
+    },
+    "AC9TDI10P05": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Design an algorithm with at least one compound Boolean condition (AND, OR or NOT) to solve a specified problem; represent it as a flowchart or pseudocode.",
+      "typical_width": "Design algorithms involving logical operators (AND, OR, NOT) to express compound conditions in control structures; represent algorithms using both flowcharts and pseudocode with precise, unambiguous notation; design or modify algorithms to fix, extend or improve them.",
+      "wider": [
+        "Design an algorithm with Boolean conditions for a decision-making context (e.g. eligibility checking, sensor automation) and evaluate it against a range of scenarios including edge cases",
+        "Design an algorithm to detect geometric conditions (e.g. shape intersection including touching) — represent with test cases verifying boundary behaviour",
+        "Extend an existing algorithm with new Boolean requirements and trace the modified algorithm to verify it handles both new and existing cases correctly",
+        "Translate between a decision tree and equivalent pseudocode — explain the relationship between the two representations"
+      ],
+      "elaborations": [
+        "designing an algorithm or modifying an existing algorithm to fix, extend or improve it, for example fixing a bug in an algorithm to detect if 2 shapes intersect when the shapes just touch or extending the algorithm to support a new shape",
+        "describing algorithms using flowcharts or other appropriate diagram types, for example a decision tree for classifying an animal based on physical characteristics",
+        "describing algorithms precisely and succinctly using pseudocode, for example short, unambiguous statements such as IF length of word is greater than 4 AND first letter is a vowel",
+        "using Boolean operations (that is, AND, OR and NOT) to express complex conditions in control structures, for example IF [the temperature is above 30 degrees AND people are inside the building] THEN open the windows"
+      ]
+    },
+    "AC9TDI10P06": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Design a test suite with at least three test cases (normal input, boundary case, invalid input); apply the test suite to an algorithm or program; record expected vs actual output.",
+      "typical_width": "Validate algorithms and programs by designing and applying a complete test suite including normal, boundary and invalid input test cases; trace the algorithm when a test fails to identify the location and cause of the error; apply the fix and re-run the test suite to confirm the fix.",
+      "wider": [
+        "Apply the test-fix-retest cycle to a program with multiple bugs, tracking which bugs are resolved and whether fixes introduce regressions",
+        "Design boundary test cases for a geometric algorithm (e.g. shape intersection at touching, overlapping, and separate configurations) and verify each",
+        "Compare manual test suites with automated testing approaches — explain what automation enables that manual testing cannot scale to",
+        "Design a test suite for a peer's solution and present the test cases with rationale to the peer — explain what each test case checks and why"
+      ],
+      "elaborations": [
+        "tracing and debugging an algorithm by identifying when its state is unexpected, why this has occurred, and the changes needed to correct it, for example identifying that a loop has finished one iteration too early",
+        "determining boundary test cases and testing that they are handled correctly by a program, for example checking that an intersection is detected when 2 shapes are perfectly aligned",
+        "generating invalid input and user errors and testing that they are handled appropriately by a program, for example checking that a program does not crash when text is entered instead of a number"
+      ]
+    },
+    "AC9TDI10P07": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Design an interface that addresses at least one functional requirement and one aesthetic consideration; build a prototype with at least two linked screens.",
+      "typical_width": "Design and prototype the user experience of a digital system — consider aesthetics, functionality, and emotional/satisfaction dimensions; build an interactive prototype using a presentation tool or no-code prototyping tool with clickable flows between screens; test with at least one user and identify one improvement.",
+      "wider": [
+        "Create a prototype that includes edge states (empty states, error states, success confirmations) not just the happy path",
+        "Design documentation, branding and onboarding materials for a solution — explain how these extend the user experience beyond screen interactions",
+        "Conduct a structured usability test: define tasks, observe users completing them, note where they struggle, and use findings to revise the design",
+        "Evaluate the getting-started experience of an existing system — identify what creates ease or frustration and connect each finding to specific design decisions"
+      ],
+      "elaborations": [
+        "designing engaging user experiences, considering aesthetics, functionality and the feeling of enjoyment and satisfaction of the user",
+        "prototyping a user experience, using simple graphical tools that support clicking on an image to change slides or views, for example using a presentation tool or a no-code user interface prototyping tool to design a simple mobile app",
+        "considering all aspects of a product as perceived by the users, for example evaluating users' initial experience of setting up and using a system, or users' emotional or cultural response to using a digital system",
+        "designing documentation, branding and marketing for a digital solution, for example a product demonstration screencast or 'getting started' user guide"
+      ]
+    },
+    "AC9TDI10P08": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Generate at least two distinct design ideas using an ideation technique; evaluate them against at least two design criteria; select the preferred design and explain the rationale.",
+      "typical_width": "Use a range of ideation techniques to generate multiple design ideas; critically evaluate designs against design criteria and user stories, identifying trade-offs; modify the preferred design in consultation with stakeholders; communicate the preferred design with appropriate representations and a clear rationale.",
+      "wider": [
+        "Use generative AI model outputs as inspiration (not final solution) — document what AI outputs were used as starting points and what human creative decisions were made from there",
+        "Conduct a design review with stakeholders and iterate based on feedback — document what was changed, retained, and why across at least two review-modify cycles",
+        "Apply a formal design evaluation matrix and reflect critically on whether the matrix fully captures stakeholder values or oversimplifies the evaluation"
+      ],
+      "elaborations": [
+        "eliminating design ideas by evaluating them against the design criteria and user stories, for example in consultation with stakeholders, reviewing the design ideas, making modifications if necessary, and further developing the design of the preferred solution",
+        "using a range of ideation techniques to create multiple design ideas for a solution, for example using graphic organisers, role-play and mind mapping to develop and then record a range of ideas without evaluating them first",
+        "combining the output from generative AI models and human capital from recognised experts to meet a specific need; for example, using a range of outputs from an image generator as inspiration for modelling a 3D character in a game"
+      ]
+    },
+    "AC9TDI10P09": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Write a modular program using at least one custom class or function that processes input and produces correct output; debug at least one error using a systematic approach.",
+      "typical_width": "Implement, modify and debug modular programs using appropriate data structures (arrays, dictionaries, objects) and custom classes; read and modify existing codebases split across files/classes; apply the test-fix-verify debugging cycle; write programs that process structured input using algorithms and data structures in an OOP language.",
+      "wider": [
+        "Build a program that reads and processes structured data from a file (e.g. timestamped sensor data) to produce a graphical output",
+        "Extend a provided game codebase (e.g. adventure game) by adding new characters, levels or abilities — identify where each addition belongs in the existing structure",
+        "Define classes that model a real-world system (e.g. library management, inventory tracking) with methods that track and modify object state over time",
+        "Use a library data structure (e.g. binary search function) in a program and explain why using the library is preferable to reimplementing from scratch",
+        "Refactor a program that uses dictionaries or parallel lists to use a custom class — explain the improvement"
+      ],
+      "elaborations": [
+        "writing and editing programs to solve problems using algorithms and data structures in general-purpose and object-oriented programming languages, such as Python, JavaScript or C#",
+        "debugging a program by locating an error, modifying the program, and verifying that the changes made are correct",
+        "reading and interpreting programs split across files, functions or classes, and modifying them to add functionality",
+        "writing programs that receive structured data from the user that determines the program's behaviour",
+        "applying simple data structures and algorithms appropriately in their programs, for example using an array to store temperature data, a dictionary for character information in an RPG",
+        "defining their own classes to model and define the actions that can be performed on data in their programs",
+        "selecting different types of data structures such as array, record and object to model structured data"
+      ]
+    },
+    "AC9TDI10P10": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Evaluate a digital solution against at least two design criteria with evidence; identify at least one unintended consequence or future impact; explain one enterprise or adaptation opportunity.",
+      "typical_width": "Evaluate existing and student solutions systematically against design criteria and user stories; assess possible future impacts including unintended consequences for diverse users; consider how existing products have pivoted to serve different users and identify opportunities for adaptation or enterprise.",
+      "wider": [
+        "Examine how AI image generation solutions trained on homogeneous data produce outputs that fail to represent diverse users — evaluate what training decisions caused this and what mitigation would be appropriate",
+        "Analyse the complexities of training predictive models on low-probability events (e.g. autonomous vehicles, safety systems) — evaluate how solution design should account for edge cases",
+        "Evaluate how an existing safety-by-design implementation (e.g. social media platform moderation) meets or fails the Safety by Design Vision criteria",
+        "Investigate how a digital product has pivoted to meet the needs of a substantially different user group — evaluate what design changes the pivot required and what new risks it introduced"
+      ],
+      "elaborations": [
+        "evaluating how an existing solution detects violations of site rules and imposes sanctions as described in the Safety by Design Vision for Young People",
+        "judging the quality of the output of their solution against the design criteria",
+        "evaluating how existing products have pivoted to meet the needs of a different set of users",
+        "examining the unintended consequences of an image generation solution implemented using AI; for example, using a model trained on a homogenous population to generate graphics that do not represent the diversity of customers",
+        "considering the complexities associated with training predictive models to capture events that occur with low probability"
+      ]
+    },
+    "AC9TDI10P11": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Create a piece of interactive content using at least one advanced search technique or emerging tool feature; include at least one interactive element; apply at least one accessibility feature.",
+      "typical_width": "Select and use emerging digital tools (e.g. AR overlay, AI search, interactive sliders) to create content with multiple interactive elements for a diverse audience; ensure content is accessible using built-in features (ALT text, captions, colour contrast, semantic structure); communicate a complex idea or narrative that requires interactivity to be understood.",
+      "wider": [
+        "Use an AR overlay triggered by a QR code to add dynamic contextual information to physical content — explain how this extends communication beyond static formats",
+        "Combine outputs from multiple generative AI sources (images, sounds, text) to produce an interactive animation or complex narrative — document curation and creative decisions",
+        "Design and conduct an accessibility audit of existing interactive content — explain each issue found and implement fixes",
+        "Create interactive content for a specific underserved audience and evaluate it with representative users"
+      ],
+      "elaborations": [
+        "locating relevant content by using Boolean operators or artificial intelligence search features",
+        "using emerging technologies to add dynamic features to content, for example using a QR code to trigger an augmented reality (AR) overlay",
+        "incorporating interactive elements into content to assist with analysis, for example adding sliders to visualisations",
+        "ensuring content is accessible by using built-in accessibility features, for example using ALT tags in images inside HTML",
+        "combining the output from multiple generative AI sources to communicate a complex idea or narrative"
+      ]
+    },
+    "AC9TDI10P12": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Use a project management tool to decompose a project into tasks, assign responsibilities, and identify at least two risks with mitigations; apply at least one relevant legislative or guideline requirement.",
+      "typical_width": "Use project management tools to plan and manage an agile project — decompose into sequenced tasks, assign clear responsibilities, use version control for collaborative code development, identify and mitigate risks, and apply relevant legislation and guidelines (data protection, copyright, privacy) throughout.",
+      "wider": [
+        "Apply an agile sprint structure — plan, execute, review, adjust — and reflect on what the retrospective revealed about the original plan",
+        "Use branching and merging in version control for collaborative development — explain what branching enables and how merge conflicts are resolved",
+        "Develop a project plan for collaborating with a First Nations Australian community group — document cultural protocols, permissions, attributions, and how privacy, security and accuracy responsibilities would be addressed",
+        "Incorporate AI-assisted project management features (e.g. meeting summaries, risk forecasting) and evaluate their usefulness and limitations"
+      ],
+      "elaborations": [
+        "managing collaborative projects using appropriate platforms, for example sharing code development using a collaborative version control tool such as GitHub",
+        "establishing clear lines of responsibility and tasks for all members of a project team",
+        "using relevant legislation or guidelines to inform their solutions",
+        "planning the creation of content using project management tools to mitigate potential risks or project delays",
+        "accounting for appropriate project management responsibilities, for example when collaborating with First Nations Australians' community groups to develop digital solutions: following cultural protocols, including relevant permissions and attributions",
+        "incorporating suggestions made by built-in virtual assistants in project planning and organisation tools to streamline and prioritise work"
+      ]
+    },
+    "AC9TDI10P13": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Create a data flow diagram for a simple system identifying at least two data flows and one threat; describe one vulnerability type and explain how it could be exploited.",
+      "typical_width": "Develop a cyber security threat model by mapping data flows through a system and identifying threats at each point; explore a specific vulnerability (software, user or supply chain) by systematically tracing the exploitation path in own software; explain the impact of the vulnerability and what should have prevented it.",
+      "wider": [
+        "Investigate how prompt injection attacks can change the behaviour of generative AI models — explain why this constitutes a software vulnerability and how it relates to supply chain risks in AI-integrated systems",
+        "Analyse a real or documented network attack using a data flow diagram — classify the vulnerabilities exploited and trace the attack chain",
+        "Compare data flow diagrams for the same system with and without specific security controls — explain how each control changes the threat profile",
+        "Explore the full impact of a successfully exploited vulnerability — not just initial access but what data or capabilities become accessible as a consequence"
+      ],
+      "elaborations": [
+        "using a data flow diagram to understand how private information moves through a system and when it would be the most likely target of a cyber attack",
+        "exploring the impact of a cyber security threat by systematically following the steps involved in bypassing a known vulnerability in their own software",
+        "explaining how techniques like prompt injection can change the intended behaviour of generative AI models"
+      ],
+      "width_notes": "Vulnerability exploration must be conducted only on student-owned systems or deliberately vulnerable lab environments. This is an ethical and legal boundary, not just a pedagogical one."
+    },
+    "AC9TDI10P14": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify at least two Australian Privacy Principles relevant to a digital system; critique one feature of an existing system against an APP; implement at least one technical control in a student solution to protect PII.",
+      "typical_width": "Apply the Australian Privacy Principles to critique the extent to which existing systems allow users to control their data; evaluate and manage the digital footprint collected by student solutions — implement technical controls including cryptographic hashing for passwords and data minimisation for collection; explain how each control addresses specific APP requirements.",
+      "wider": [
+        "Implement password hashing in a student solution and explain why hashed storage prevents a data breach from exposing users to password reuse attacks",
+        "Audit a school-used platform against the APPs — document findings and propose procurement requirements for student-facing tools",
+        "Investigate how Indigenous data sovereignty principles extend APP requirements when collecting data from or about First Nations Australian communities",
+        "Compare APPs with GDPR — identify key differences and explain what each framework prioritises and why"
+      ],
+      "elaborations": [
+        "critiquing the extent to which online services allow them to control access to their data in line with the Australian Privacy Principles",
+        "using the Australian Privacy Principles as a reference to evaluate the steps they are taking to protect user information in their application, for example explaining how they are storing passwords using cryptographic hashing algorithms so that a data breach does not expose their users to security vulnerabilities due to password re-use"
+      ]
+    }
+  }
+}

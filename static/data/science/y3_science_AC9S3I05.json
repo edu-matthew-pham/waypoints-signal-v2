@@ -1,0 +1,108 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3I05",
+    "title": "Evaluating",
+    "description": "compare findings with those of others, consider if investigations were fair, identify questions for further investigation and draw conclusions",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can compare observations with predictions with guidance, and identify unexpected results (AC9S1I05, 1-2 band). They have not yet systematically evaluated fairness of investigations, drawn evidence-based conclusions, or posed further questions from findings.",
+    "progression_endpoint": "Students compare their findings with others, evaluate whether their investigation was fair, draw conclusions that are grounded in their data, and identify questions for further investigation arising from their findings or unexpected results.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Conclusions are grounded in data",
+        "progression_checkpoint": "Students can draw a conclusion from an investigation that is directly grounded in the data collected, and distinguish between a conclusion supported by data and a claim that goes beyond the data.",
+        "minimum_width": "Students draw a conclusion from a given data set and explain how the data supports the conclusion.",
+        "typical_width": "Students identify the difference between a conclusion that accurately reflects the data and one that overclaims, and revise an overclaiming conclusion to match the data.",
+        "wider": [
+          "Examine a scenario where two data sets lead to different conclusions \u2014 what does this suggest about the investigation?",
+          "Evaluate conclusions drawn from food chain simulations (virtual or role-play) against what would actually happen in a real habitat \u2014 what does the simulation's simplification mean for the conclusion's validity?",
+          "Compare how conclusions are presented in a scientific article (hedged, data-referenced) versus how they appear in a news report (often more absolute) \u2014 and discuss why scientists are cautious"
+        ],
+        "hinge": true,
+        "hinge_reason": "Data-grounded conclusion drawing is the payoff of the entire inquiry sequence and feeds directly into AC9S3H01. Students who cannot distinguish a supported conclusion from an overclaim produce unreliable conclusions that undermines the purpose of investigation \u2014 and carry this pattern into all subsequent inquiry work.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The data-to-conclusion chain requires explicit scaffolding. Students commonly draw conclusions that go well beyond what the data shows, or that contradict the data, without recognising the mismatch. Making the chain explicit (what did the data show \u2192 what can I conclude from that data \u2192 what would I need to be able to say something stronger?) supports more disciplined conclusion-drawing.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States a conclusion that accurately reflects the data (does not overclaim)",
+          "Identifies at least one piece of data that supports the conclusion"
+        ],
+        "related_standards": [
+          "AC9S3I04",
+          "AC9S3H01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Comparing findings and evaluating fairness",
+        "progression_checkpoint": "Students can compare their investigation findings with those of other students or groups, identify differences and suggest reasons for them, and evaluate whether differences are attributable to unfair testing.",
+        "minimum_width": "Students compare their findings with at least one other student's findings, identify at least one difference, and suggest a reason for the difference.",
+        "typical_width": "Students identify whether differences between findings are likely due to an unfair test element (uncontrolled variable) or natural variation, and explain their reasoning.",
+        "wider": [
+          "Compare findings of water use surveys across different homes or contexts and discuss what the differences reveal \u2014 and what cannot be concluded without knowing more about the context",
+          "Examine findings from the same investigation run multiple times and discuss what repeated results increase confidence in vs what a single result cannot support",
+          "Research how scientists handle inconsistent results between research groups \u2014 replication, peer review, reporting methods \u2014 as the professional version of the same evaluation activity"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily identify that someone 'did it wrong' as the reason for different findings, without considering legitimate sources of variation (natural variation, measurement precision, context differences). Varied comparison contexts \u2014 water surveys, material tests, force investigations \u2014 where different findings are legitimate help students develop a more nuanced understanding of what differences between findings mean."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one difference between their findings and another student's findings",
+          "Suggests a specific reason for the difference \u2014 distinguishing between an unfair test element and a legitimate source of variation"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Identifying questions for further investigation",
+        "progression_checkpoint": "Students can identify at least one question for further investigation arising from their findings, unexpected results, or limitations of the investigation.",
+        "minimum_width": "Students identify at least one question arising from their investigation findings or an unexpected result, and explain what prompted the question.",
+        "typical_width": "Students identify questions arising from both expected and unexpected results, and distinguish between questions they could investigate further in the classroom and questions requiring a different approach (longer time, larger scale, different equipment).",
+        "wider": [
+          "Examine a scenario with unexpected findings and generate two further investigation questions \u2014 one that tests whether the unexpected finding is reliable, and one that explores a possible explanation for it",
+          "Explore how unexpected findings in real science have led to significant discoveries \u2014 connecting the habit of posing further questions to the way science progresses",
+          "Connect to AC9S3H01: scientists use unexpected findings and the questions they generate as part of developing scientific explanations"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who generate further questions only from expected results miss the richer direction \u2014 unexpected findings. Encountering varied scenarios where unexpected results prompted real scientific discoveries broadens students' understanding of how further questions function in science practice.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection between unexpected findings and scientific discovery (AC9S3H01) offers a genuine enrichment direction that connects classroom evaluation practice to how science actually progresses. Students engaging this direction develop a richer sense of how investigation and explanation are iterative.",
+        "success_criteria": [
+          "Identifies at least one question for further investigation that arises specifically from the findings or an unexpected result",
+          "Explains what in the investigation prompted the further question"
+        ],
+        "related_standards": [
+          "AC9S3I01",
+          "AC9S3H01"
+        ]
+      }
+    ]
+  }
+}

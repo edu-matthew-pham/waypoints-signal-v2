@@ -1,0 +1,104 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7M05",
+    "title": "Interior Angle Sums",
+    "strand": "Measurement",
+    "description": "demonstrate that the interior angle sum of a triangle in the plane is 180° and apply this to determine the interior angle sum of other shapes and the size of unknown angles",
+    "mode": "A",
+    "prior_knowledge": "Students can identify angle relationships on straight lines and at points (from AC9M6M04). Students understand that angles on a straight line sum to 180°.",
+    "progression_endpoint": "Students demonstrate that the interior angle sum of a triangle is 180° and apply this and the decomposition principle to find interior angle sums of polygons and unknown angles.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Demonstrating the triangle angle sum",
+        "progression_checkpoint": "Students demonstrate, using concrete or dynamic methods, that the interior angles of any triangle sum to 180°.",
+        "minimum_width": "Tear off the corners of a triangle and arrange them on a straight line to show they sum to 180°; verify with measurement for two different triangles.",
+        "typical_width": "Demonstrate using paper tearing and using dynamic geometry software; explain why the property holds for any triangle.",
+        "wider": [
+          "Investigate what happens to the angle sum if you draw a triangle on a sphere — explore non-Euclidean geometry informally.",
+          "Use the parallel lines result from AC9M7M04 to prove why the angle sum is 180° (formal derivation)."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only see one demonstration believe the angle sum might be different for unusual triangles. Testing acute, obtuse, right-angled, and very flat triangles builds confidence in the universality of the property.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who don't believe the 180° sum is universal make errors in Node 2 decomposition — if they think obtuse triangles have a different angle sum, the formula (n-2) × 180° breaks down and polygon calculations become unreliable.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Demonstrates the angle sum of a triangle is 180° using at least one method.",
+          "States the property applies to all triangles.",
+          "Measures angles in a triangle and verifies the sum is approximately 180°."
+        ],
+        "related_standards": [
+          "AC9M7M04"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Interior angle sum of polygons by decomposition",
+        "progression_checkpoint": "Students use decomposition of polygons into triangles to determine the interior angle sum formula for n-sided polygons.",
+        "minimum_width": "Decompose a quadrilateral and pentagon into triangles and calculate their interior angle sums.",
+        "typical_width": "Derive and apply the formula (n−2) × 180° for any polygon; verify for specific cases.",
+        "wider": [
+          "Investigate the exterior angle sum of polygons (always 360° for convex polygons) — connect to interior angle sum.",
+          "Apply to regular polygons: find the interior angle of a regular hexagon, octagon — connection to tessellation."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Decomposition requires a systematic approach: draw diagonals from one vertex, count triangles, multiply by 180°. Students who decompose randomly get inconsistent results.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly decomposes a polygon into triangles and calculates the interior angle sum.",
+          "States the general formula (n−2) × 180° and applies it correctly.",
+          "Can verify their result by measuring."
+        ],
+        "related_standards": [
+          "AC9M7SP02"
+        ],
+        "width_opportunity_reason": "The generalisation to n-sided polygons and the exterior angle sum offer advancing students structural pattern recognition — connecting decomposition to a general formula is a rich algebraic-geometric link."
+      },
+      {
+        "id": 3,
+        "label": "Finding unknown angles using angle sums",
+        "progression_checkpoint": "Students use triangle and polygon angle sum properties to find unknown angles, giving reasons.",
+        "minimum_width": "Find an unknown angle in a triangle or quadrilateral using the angle sum property.",
+        "typical_width": "Solve multi-step problems combining angle sum, straight line, and parallel line properties; give geometric reasons.",
+        "wider": [
+          "Solve problems involving isosceles triangles where the angle sum property combines with the equal base angles property.",
+          "Design angle puzzles for peers — create a figure with multiple unknown angles that can be found step by step."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Finding unknown angles requires students to select and apply the right angle property from their repertoire simultaneously — a genuine integration of angle sum, supplementary, and parallel line results."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly finds unknown angles using angle sum properties.",
+          "States the property used as the reason for each step.",
+          "Applies the correct angle sum for the polygon type."
+        ],
+        "related_standards": [
+          "AC9M7M04",
+          "AC9M7SP02"
+        ]
+      }
+    ]
+  }
+}

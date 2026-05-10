@@ -1,0 +1,69 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LA01",
+    "title": "Language and identity",
+    "description": "Understand how language expresses and creates personal and social identities",
+    "strand": "Language — Interacting with others",
+    "mode": "A",
+    "prior_knowledge": "Students understand how language varies with formality and social distance (AC9E6LA01) and how objective and subjective language can reveal bias (AC9E6LA02). They have not yet examined how language actively constructs identity — the idea that identity is not just expressed but created through language choices.",
+    "progression_endpoint": "Students understand how language expresses and creates personal and social identities.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Language as identity expression",
+        "progression_checkpoint": "Students can identify ways that language choices express aspects of personal or social identity",
+        "minimum_width": "Identify at least two examples of language use (vocabulary, dialect, register, idiom) that signal something about a speaker's or writer's identity; explain what each signals",
+        "typical_width": "Examine a range of language examples and identify what each reveals about personal identity (individual personality, values) and social identity (group membership, cultural background, age, region)",
+        "wider": [
+          "Examine local idioms and discuss their connection to community identity — what does using or not using a particular expression signal about belonging?",
+          "Compare how the same person uses language differently in different social contexts (family, friends, teachers) and discuss what this reveals about shifting identities"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify how language choices signal identity, Node 2's conceptual shift — that language creates rather than just reflects identity — is inaccessible. The creation argument depends on students already seeing the expression relationship clearly.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly treat language-as-identity-expression as a matter of accent or slang only. Seeing examples across vocabulary choice, register, dialect, idiom and code-switching across varied social contexts builds a broader and more nuanced understanding of the relationship.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Local idioms are a rich starting point — they ground the abstract concept in students' own experience and community, and the question of belonging/exclusion through language is genuinely engaging for Year 7 students navigating social identity.",
+        "success_criteria": [
+          "Identifies at least two language features that express aspects of identity",
+          "Explains what each feature signals about personal or social identity"
+        ],
+        "related_standards": ["AC9E7LA02"]
+      },
+      {
+        "id": 2,
+        "label": "Language as identity creation",
+        "progression_checkpoint": "Students can understand that language does not just reflect identity but actively creates and shapes it",
+        "minimum_width": "Given an example (e.g. dialogue that reveals character, a social media profile, a speech), explain how the language choices are doing more than reporting — they are constructing how the speaker or character is perceived and understood",
+        "typical_width": "Compare two versions of a character or speaker represented through different language choices; discuss how the language creates a different identity in each case, not just describes it differently",
+        "wider": [
+          "Examine how developing dialogue for a character in a comic, cartoon or animation requires making active language choices that construct — not just reflect — who that character is",
+          "Discuss how names, titles and honorifics create social identity and position within a relationship or community"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The shift from 'language reflects identity' to 'language creates identity' is conceptually significant and students commonly don't make it without scaffolding. An explicit reasoning scaffold — what would this character/person be like if these language choices were different, and why does changing the language change the identity rather than just the description — is needed to make the distinction productive."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains how a language choice constructs (not just describes) an aspect of identity",
+          "Distinguishes between language that expresses an existing identity and language that creates one"
+        ],
+        "related_standards": ["AC9E7LE03", "AC9E7LE07"]
+      }
+    ]
+  }
+}

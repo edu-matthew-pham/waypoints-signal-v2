@@ -1,0 +1,89 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LA07",
+    "title": "Images, figures, tables, diagrams, maps and graphs",
+    "description": "identify and explain how images, figures, tables, diagrams, maps and graphs contribute to meaning",
+    "strand": "Language — Expressing and developing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how the sequence of images in print, digital and film texts has an effect on meaning (AC9E5LA07). They have not yet examined how a range of non-narrative visual representations (tables, diagrams, maps, graphs, flowcharts) contribute to meaning in informational and procedural texts.",
+    "progression_endpoint": "Students can identify and explain how a range of visual representations — images, figures, tables, diagrams, maps and graphs — contribute to meaning in different text types.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sequential visual representations",
+        "progression_checkpoint": "Students can identify how sequential visual representations (timelines, flowcharts, procedure diagrams, life-cycle diagrams) represent order and process.",
+        "minimum_width": "Explain how one type of sequential visual representation (e.g. a flowchart or procedure diagram) represents order or process in a provided text; identify what information it adds that the written text alone does not.",
+        "typical_width": "Identify and explain how a range of sequential visual representations (timelines, flowcharts, procedure diagrams, life-cycle diagrams, photo stories) convey sequence and process; compare how different sequential types suit different purposes.",
+        "wider": [
+          "Create a visual sequential representation (flowchart, timeline or diagram) for a curriculum-area process and evaluate whether it adds meaning more efficiently than prose",
+          "Compare how comic strips and scientific procedure diagrams both use sequential images — and identify what is the same and what differs in their conventions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the type of sequential visual representation and names the type of information it conveys",
+          "Explains at least one way the visual contributes to meaning differently from the accompanying written text"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Conceptual visual representations",
+        "progression_checkpoint": "Students can explain how tables, maps, graphs and diagrams represent concepts, information and relationships visually.",
+        "minimum_width": "Explain how one type of conceptual visual (table, map, graph, or diagram) contributes to meaning in a provided text; identify at least one relationship or pattern it makes visible.",
+        "typical_width": "Analyse how tables, maps, graphs and diagrams represent different kinds of information and relationships; explain why a visual representation may communicate certain information more effectively than prose.",
+        "wider": [
+          "Compare the same data presented as a table vs. a graph and explain which is more effective for different purposes",
+          "Analyse a map from a curriculum-area text (geography, history) and explain how its design choices (scale, symbols, orientation) affect meaning"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students typically have more experience with graphs than with tables, maps or diagrams. Encountering all types across curriculum areas helps students build a generalised understanding of how visual representations work, rather than a graph-specific one.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-curriculum visual literacy work is genuinely rich — understanding how tables, graphs and maps communicate in science, history and geography builds transferable multimodal comprehension skills.",
+        "success_criteria": [
+          "Names the type of conceptual visual representation and identifies the kind of information or relationship it displays",
+          "Explains how the visual adds to meaning beyond what the accompanying written text provides"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Cultural sensitivity in visual texts",
+        "progression_checkpoint": "Students understand that images and maps may hold cultural significance or sensitivity for First Nations Australians, and can apply appropriate judgement when using or sharing such materials.",
+        "minimum_width": "Identify that some images and maps may be sensitive for First Nations Australians and explain why a disclaimer or careful judgement may be required when using them.",
+        "typical_width": "Discuss examples of images or maps that may be culturally sensitive for First Nations Australians; explain the concept of cultural appropriateness and how this should shape decisions about using or reproducing visual texts.",
+        "wider": [
+          "Research how First Nations Australian communities manage the use and sharing of culturally significant images and maps, and compare with general copyright practices",
+          "Examine the difference between an image that is legally available and one that is culturally appropriate to share, and develop a set of questions to ask before using visual materials"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need explicit reasoning support to navigate the distinction between legal availability and cultural appropriateness — the reasoning chain from 'I can access this image' to 'I should consider whether it is appropriate to use it' requires scaffolding.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations cultural protocols around visual and cartographic materials connect to broader questions of respect, consent and representation — rich cross-curricular learning that extends well beyond visual literacy conventions.",
+        "success_criteria": [
+          "Identifies that visual materials including maps may hold cultural significance for First Nations Australians",
+          "Explains why a disclaimer or judgement about cultural appropriateness is relevant when using such materials"
+        ],
+        "related_standards": ["AC9E6LY01", "AC9E6LY04"]
+      }
+    ]
+  }
+}

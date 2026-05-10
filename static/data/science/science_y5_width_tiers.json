@@ -1,0 +1,99 @@
+{
+  "description": "Width tiers for Year 5 Science — ACARA v9. Covers the four U-strand descriptors (Biological, Earth and Space, Physical and Chemical Sciences). H-strand and I-strand (5–6 band) are in science_y5_6_width_tiers.json.",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "5",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "phenomena_contexts"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term — the fewest phenomena or contexts that still genuinely satisfy what the descriptor requires.",
+    "typical_width": "The full scope of the descriptor grounded in the most common elaboration cases — spirit and scope met without requiring every elaboration.",
+    "wider": "Enrichment directions that add phenomena, cultural contexts or applications. First Nations directions included where elaborations indicate them.",
+    "elaborations": "ACARA elaborations treated as source data for intended range. Typical grounded in common cases; wider may infer within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S5U01": {
+      "strand": "Biological Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least three structural features of one named organism and explain how each addresses a specific survival challenge; identify at least two behavioural adaptations and explain the survival function of each; explain why the organism is suited to its specific habitat.",
+      "typical_width": "Examine structural features and behaviours across multiple organisms from different habitats; explain the function of each in terms of the survival challenge it addresses; compare how different organisms solve the same challenge differently; connect organism features to the specific physical conditions of the habitat; predict challenges the organism would face in a different habitat.",
+      "wider": [
+        "Use physical or digital simulations to explore how beak shape influences food-finding success across different habitat resource types",
+        "Investigate First Nations Australians' knowledge of structural features of certain species and how those features can be sustainably exploited",
+        "Research how the discovery of biofluorescent mammals led to international scientific collaboration — connecting structural feature discovery to collaborative science practice (AC9S5H01)",
+        "Examine how camouflage functions as both a structural (colour, pattern) and behavioural (stillness, movement timing) adaptation working in combination"
+      ],
+      "elaborations": [
+        "identify physical and behavioural characteristics that enable a plant or animal to survive, such as being able to see in dim light and being nocturnal",
+        "exploring features of plants and animals that enable them to survive in Australia's desert environments, such as bottle (or boab) trees and the water-holding frog",
+        "investigating how camouflage is used by animals to hide from predators and to ambush prey",
+        "using physical or digital simulations to explore how the shape of animals' body parts, such as the beak of a particular bird species, influence their ability to find food and survive in a given environment",
+        "investigating First Nations Australians' knowledges of the structural features of certain species and how those features can be exploited"
+      ]
+    },
+    "AC9S5U02": {
+      "strand": "Earth and Space Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Distinguish weathering from erosion; name at least two types of weathering with examples; describe the erosion → transportation → deposition sequence with one agent; describe at least one way human activity increases erosion rates.",
+      "typical_width": "Describe mechanical and biological weathering with examples; explain erosion, transportation and deposition by multiple agents (water, wind); identify resulting landforms; compare fast and slow timescales; examine how human activities change erosion rates and describe mitigation strategies; identify local or regional examples.",
+      "wider": [
+        "Use aerial photographs or maps to identify patterns in erosion site locations at local or regional scale",
+        "Examine how erosion mitigation techniques (contour banks, strip cropping) adapt and build on First Nations Australians' fire management and agricultural practices (AC9S5H01)",
+        "Consider how First Nations Australians are impacted by rapid sand dune erosion and the effect on culturally significant freshwater swamps",
+        "Examine the effects of significant monsoon rainfall on transportation and deposition of river sediments in the Asia-Pacific region"
+      ],
+      "elaborations": [
+        "identifying types of weathering caused by mechanical means such as by wind abrasion, cycles of extreme heat or cold, and frost wedging; and biological means such as by plants and tree roots",
+        "exploring how erosion can be caused by moving air or moving water and how substances such as surface soil are relocated, and identifying examples of erosion on a local or regional scale",
+        "analysing the difference between weathering and erosion and comparing the timescales over which these processes can occur",
+        "modelling the effects of erosion on a simulated landscape and exploring factors that mitigate its effects",
+        "investigating how humans have changed local landscapes and predicting the effect these changes might have on rates of erosion",
+        "considering how First Nations Australians are impacted by the rapid erosion of sand dunes and the resulting effect of saltwater on culturally significant freshwater swamps",
+        "considering the effects of significant rainfall, such as a monsoon, on the transportation and deposition of river sediments in the Asia-Pacific region"
+      ]
+    },
+    "AC9S5U03": {
+      "strand": "Physical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Distinguish natural from artificial light sources with examples; explain that light travels in straight paths; explain shadow formation using straight-line travel; explain reflection and refraction as different light interactions, with one everyday example of each; draw a ray diagram for reflection.",
+      "typical_width": "Classify light sources as natural and artificial; explain shadow formation and predict shadow change with light source position; investigate shadows using sundials or shadow puppets; explain reflection from flat surfaces with ray diagrams and describe applications (periscopes, mirrors); explain refraction and describe the rainbow spectrum; distinguish reflection from refraction.",
+      "wider": [
+        "Investigate bioluminescent organisms as natural light sources — examining how living things produce light and why",
+        "Explore how understanding of optics developed historically through contributions from Plato, Euclid, Ibn al-Haytham and Roger Bacon (AC9S5H01)",
+        "Recognise First Nations Australians' understanding of refraction in spearfishing and reflection in construction materials",
+        "Explore how holograph videos use refractive properties of light to create apparently 3-dimensional images"
+      ],
+      "elaborations": [
+        "distinguishing between natural (such as glow worms, the sun and stars) and artificial (such as light bulbs or candles) sources of light",
+        "investigating the shadows that are formed when light is completely or partially blocked by an object, such as when using a sundial or shadow puppets",
+        "drawing ray diagrams to show how the path of light from a source reflects off surfaces into the eye",
+        "observing refraction of light using prisms or water droplets and examining the rainbow effect produced",
+        "exploring how 'holograph' videos use the refractive properties of light to create an image that appears to be 3-dimensional",
+        "exploring the use of reflection of light by mirrors such as in periscopes and mirror mazes",
+        "recognising First Nations Australians' understanding of refraction as experienced in spearfishing and in shimmering body paint, and reflection as evidenced by materials selected for construction of housing"
+      ]
+    },
+    "AC9S5U04": {
+      "strand": "Chemical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe at least two observable properties of gases distinguishing them from solids and liquids; describe particle arrangement and motion for each of the three states; connect particle arrangement/motion to at least two observable state properties; explain melting using the particle model.",
+      "typical_width": "Classify substances as solids, liquids and gases with properties; demonstrate that gases have mass; explain all major observable properties of each state using particle arrangement and motion; represent particle models using diagrams or role-play; explain all common state changes using the particle model including conservation of mass.",
+      "wider": [
+        "Use role-play to model particle arrangement and motion and explore how collective particle behaviour produces macroscopic state properties",
+        "Observe compressed coloured gas demonstrations and explain colour intensity change using the particle model",
+        "Investigate First Nations Australians' knowledge of gases in practical applications — extraction of oils, medical therapies, cooking — connecting traditional knowledge to particle-level understanding",
+        "Connect particle model state change to the water cycle — explaining evaporation and condensation as particle-level processes driving the macroscopic cycle (AC9S4U02)"
+      ],
+      "elaborations": [
+        "classifying substances as solids, liquids and gases and investigating their properties",
+        "exploring examples that demonstrate that gases have mass, such as blowing air through straws to move objects or using a balance to compare an empty balloon to one filled with air",
+        "using role-play to model the arrangement and motion of particles in solids, liquids and gases",
+        "observing a virtual demonstration of coloured gases being compressed and providing an explanation for the change in colour intensity",
+        "exploring, through guided discussion, ideas about what is between particles",
+        "recognising First Nations Australians' knowledges and understandings of solids, liquids and gases and how these knowledges are applied in a range of processes and practices, including the extraction of oils, medical therapies and cooking"
+      ]
+    }
+  }
+}

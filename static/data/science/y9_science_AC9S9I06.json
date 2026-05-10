@@ -1,0 +1,70 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9I06",
+    "title": "Evaluating Validity and Conclusions",
+    "description": "assess the validity and reproducibility of methods and evaluate the validity of conclusions and claims, including by identifying assumptions, conflicting evidence and areas of uncertainty",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can identify error sources and evaluate conclusions (AC9S7I06, 7-8 band). They now extend to formally assessing validity and reproducibility as method criteria, identifying assumptions and evaluating their reasonableness, and determining whether uncertainty could support alternative conclusions.",
+    "progression_endpoint": "Students assess the validity and reproducibility of methods against explicit criteria, identify and evaluate assumptions embedded in methods, recognise areas of uncertainty, and determine whether conflicting evidence or uncertainty supports a viable alternative conclusion.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Method validity and reproducibility are assessed against explicit criteria",
+        "progression_checkpoint": "Students can assess whether an investigation method is valid (measures what it claims to measure; controls relevant variables) and reproducible (described precisely enough to be repeated with the same result), and identify specific gaps or weaknesses that threaten each.",
+        "minimum_width": "Students assess a given method for validity and reproducibility, identifying at least one specific weakness affecting each.",
+        "typical_width": "Students distinguish validity (measures the right thing; controls relevant variables) from reproducibility (method is precise enough to be repeated); assess methods against both criteria; identify gaps or weaknesses and explain their specific effect on the conclusion; and examine how assumptions embedded in a method affect its validity.",
+        "wider": [
+          "Identify possible sources of error in a given method and examine whether further testing or extra variable control is needed to improve validity",
+          "Consider how general practitioners manage conflicting evidence when diagnosing illness — examining how validity assessment operates under real-world uncertainty",
+          "Evaluate the validity of secondary source information — examining what makes a source valid and how to assess reproducibility of reported data"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to identify assumptions and evaluate whether uncertainty supports alternative conclusions — moves that depend on being able to apply validity and reproducibility as distinct explicit criteria. Students who conflate them cannot identify which type of assumption threatens which criterion, and cannot locate where uncertainty enters the method.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students use 'valid' and 'reliable' loosely as synonyms for 'good'. Making validity (measures the right thing) and reproducibility (can be repeated) distinct, and connecting each to specific method design choices, is the scaffold that produces genuine method assessment rather than vague quality judgements.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Distinguishes validity from reproducibility and applies each as a distinct assessment criterion",
+          "Identifies at least one specific weakness in a method and explains its effect on the conclusion"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Assumptions, uncertainty and conflicting evidence are evaluated in conclusions",
+        "progression_checkpoint": "Students can identify assumptions in a method or conclusion, evaluate their reasonableness, identify areas of uncertainty, and determine whether conflicting evidence or uncertainty could support a viable alternative conclusion.",
+        "minimum_width": "Students identify at least two assumptions in a given method or conclusion and evaluate the reasonableness of each; identify one area of uncertainty and explain whether it could support an alternative conclusion.",
+        "typical_width": "Students identify explicit and hidden assumptions; evaluate whether each assumption is reasonable given the evidence; identify areas of uncertainty and explain their effect on confidence in conclusions; examine conflicting evidence; determine whether uncertainty could lead to a viable alternative conclusion; and consider how GPs manage conflicting evidence to diagnose illness.",
+        "wider": [
+          "Consider how areas of uncertainty could lead to viable alternative conclusions in real scientific debates — examining cases where uncertainty enables legitimate competing interpretations",
+          "Analyse methods and conclusions to identify hidden assumptions — facts or premises taken for granted — and evaluate their reasonableness",
+          "Examine a case where an overlooked assumption invalidated a widely accepted conclusion — connecting assumption identification to how scientific knowledge gets revised"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students identify obvious assumptions (a measurement is accurate) but miss embedded assumptions (the sample is representative; the relationship is linear; the control variable was truly constant). Encountering assumption identification across varied investigation types — field surveys, lab experiments, modelling studies, medical diagnosis — builds a more complete and transferable assumption-spotting capability.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The hidden-assumption and viable-alternative-conclusion directions represent genuinely sophisticated epistemological thinking that connects method evaluation to how scientific knowledge changes over time. Students engaging this direction develop critical thinking about scientific claims that applies far beyond specific investigation contexts.",
+        "success_criteria": [
+          "Identifies at least two assumptions in a method or conclusion and evaluates the reasonableness of each",
+          "Identifies an area of uncertainty and explains whether it could support a viable alternative conclusion"
+        ]
+      }
+    ]
+  }
+}

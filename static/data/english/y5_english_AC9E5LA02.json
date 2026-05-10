@@ -1,0 +1,93 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LA02",
+    "title": "Beyond assertions to evidence",
+    "description": "Understand how to move beyond making bare assertions by taking account of differing ideas or opinions and authoritative sources",
+    "strand": "Language",
+    "mode": "A",
+    "prior_knowledge": "Students can identify subjective language of opinion and feeling, and objective language of factual reporting (AC9E4LA02). They have not yet examined the rhetorical mechanisms for tempering assertions — distancing language, sourcing, generalising support — or how these choices affect a claim's persuasive weight.",
+    "progression_endpoint": "Students explain how bare assertions can be strengthened by using distancing language, recruiting support, or citing authoritative sources, and identify how these moves shift the persuasive weight and reliability of a claim.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What makes a bare assertion",
+        "progression_checkpoint": "Students can identify a bare assertion and explain why it is insufficient as persuasive or informative language in contexts that require evidence or qualification.",
+        "minimum_width": "Identify examples of bare assertions in texts and explain what is absent — evidence, qualification, or sourcing — that would make them more persuasive or reliable.",
+        "typical_width": "Distinguish bare assertions from qualified or evidenced claims across a range of texts. Explain why bare assertions may not convince a reader and what a reader might need before accepting the claim.",
+        "wider": [
+          "Examine advertising or social media posts where bare assertions function as persuasive technique, discussing why audiences accept or reject them",
+          "Limited width — this node is a conceptual foundation (what a bare assertion is) that does not vary meaningfully across contexts at this year band. Extensions connect to how bare assertions function rhetorically, explored in later nodes."
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to identify and explain tempering moves specifically as responses to what bare assertions lack — distancing compensates for unsubstantiated confidence, sourcing compensates for anonymity. Students who cannot identify what makes an assertion bare cannot analyse why or how specific tempering moves address those gaps.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students often confuse opinion-statements with bare assertions, and may not recognise that a claim can be factual but still function as a bare assertion if unsupported. Consolidation through multiple examples helps students develop reliable identification before moving to the tempering moves.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a bare assertion in a sample text and explains what is missing (evidence, sourcing, qualification).",
+          "Distinguishes between a bare assertion and a qualified or evidenced claim in at least two examples."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Tempering moves: distancing and recruiting support",
+        "progression_checkpoint": "Students can identify and explain how distancing language (impersonal it, modal verbs) and recruited support (anonymous or general sourcing) change the persuasive character of an assertion.",
+        "minimum_width": "Identify at least two tempering moves (e.g. 'It could be said...' or 'Most people agree...') in a sample text and explain how each changes the claim's relationship to the reader.",
+        "typical_width": "Identify and explain the full range of distancing and recruiting-support moves from the elaboration examples. Analyse how each move positions the writer in relation to the claim and the reader, and discuss when each move is more or less appropriate.",
+        "wider": [
+          "Compare how academic writing, journalism, and everyday persuasive writing use these tempering moves differently, and explain what those differences signal about each genre's conventions",
+          "Examine political speeches or editorials and identify where and why writers choose to distance themselves from or recruit support for claims, discussing the rhetorical effect"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to compare the persuasive weight of anonymous versus specific sourcing — a comparison that only makes sense against a shared understanding of why sourcing matters at all. Students who have not grasped that distancing and recruited support are rhetorical moves with distinct effects cannot reason about the elevated credibility that named authoritative sourcing adds.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly treat all tempering moves as equivalent ('they all just say you're not sure'). Encountering the moves across different genres and contexts helps students see that each move signals a distinct relationship between writer, claim, and evidence — distancing vs. sourcing serve different rhetorical purposes.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of tempering moves — from modal distancing to anonymous support to generalised sourcing — represents genuine conceptual richness at this node. Advancing students can examine how these moves are used strategically in persuasive genres including journalism and political discourse, adding significant analytical range within year band.",
+        "success_criteria": [
+          "Identifies at least two distinct tempering moves in a text and names what type of move each represents.",
+          "Explains how at least one tempering move changes the relationship between the writer, the claim, and the reader."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Citing authoritative sources",
+        "progression_checkpoint": "Students can explain how specifying an authoritative source strengthens a claim, and identify the difference in persuasive weight between general and specific sourcing.",
+        "minimum_width": "Identify examples of specific source citation in a text and explain how naming the source changes the claim's credibility compared to anonymous or general sourcing.",
+        "typical_width": "Compare examples ranging from anonymous support through general sourcing to specific authority citation, and explain how each level of specificity changes the claim's credibility and the reader's relationship to it. Discuss what makes a source 'authoritative' in context.",
+        "wider": [
+          "Examine how citation conventions differ across genres (news report vs. academic text vs. student essay) and discuss what those conventions signal about each genre's standards of evidence",
+          "Investigate what makes a source authoritative in different contexts — who is considered an authority in science vs. community knowledge vs. sports — and discuss how this affects language choices"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The reasoning chain — 'this source is authoritative because... and therefore citing it does this to the claim' — is not automatic for Year 5 students. A structured reasoning scaffold helps students move beyond 'it has a source' to understanding how source specificity and authority interact to shape a claim's persuasive weight."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains why specifying a named authoritative source makes a claim more persuasive than anonymous or general sourcing.",
+          "Identifies whether a cited source is authoritative in context and justifies that judgement."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "year_level": "1-2",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI2P06",
+    "title": "Access accounts with credentials",
+    "description": "access their school account with a recorded username and password",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have used digital systems at home and school but have not previously managed personal login credentials. They may have used shared devices without individual accounts. They have not yet connected the concept of personal credentials to privacy or account ownership.",
+    "progression_endpoint": "Students access their school account using a recorded username and password, and understand that credentials are personal and private.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What accounts and credentials are",
+        "progression_checkpoint": "Students can explain what a username and password are and why they are used to access a digital system",
+        "minimum_width": "Explain what a username and password are; state why they are used to access a system (to identify the user and keep their account private)",
+        "typical_width": "Explain that a username identifies you and a password keeps your account private; give examples of where accounts are used at school (computer login, school website); explain that credentials are personal \u2014 not shared with others",
+        "wider": [
+          "Compare using a library card (physical identification) with a username and password (digital identification) \u2014 explain what each one does and why both serve the same purpose of identifying the user",
+          "Discuss what would happen if someone else used your username and password \u2014 explain why keeping credentials private protects your account"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may not have a conceptual model for why credentials exist \u2014 they experience login as a procedural requirement, not as a privacy and identity mechanism. Multiple contexts that ground the purpose of credentials (library card analogy, school login, account protection scenarios) help students understand why the procedure exists, not just how to follow it.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can explain what a username is and what a password is",
+          "Can state at least one reason why credentials are kept private"
+        ],
+        "related_standards": [
+          "AC9TDI2P07"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand why credentials exist (privacy and identity) will execute Node 2 login as a rote procedure without any safety awareness \u2014 they cannot reason about credential privacy if the purpose of credentials is opaque."
+      },
+      {
+        "id": 2,
+        "label": "Accessing a school account with recorded credentials",
+        "progression_checkpoint": "Students can use a recorded username and password to access their school account",
+        "minimum_width": "Use a recorded username and password (e.g. from a card given by the teacher) to log into a school digital system",
+        "typical_width": "Access a school account using recorded credentials; locate the login screen; enter the username and password accurately; access their personal account area",
+        "wider": [
+          "Limited width \u2014 this is a narrow procedural skill. The genuine extension is understanding why credentials are private and personal (covered in node 1 and in AC9TDI2P07)."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate credential entry is a procedural skill requiring motor precision \u2014 distinguishing username from password fields, entering characters correctly, locating the login screen. Students need practice to build fluency. Consolidation is the appropriate response when errors are procedural (wrong field, typos, forgotten steps) rather than conceptual."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Successfully logs into the school system using their recorded credentials",
+          "Enters the username and password in the correct fields"
+        ],
+        "related_standards": [],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

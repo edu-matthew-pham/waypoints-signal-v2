@@ -1,0 +1,108 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7N02",
+    "title": "Prime Factorisation and Exponent Notation",
+    "strand": "Number",
+    "description": "represent natural numbers as products of powers of prime numbers using exponent notation",
+    "mode": "A",
+    "prior_knowledge": "Students can identify prime and composite numbers and know their basic properties (from AC9M6N02). Students can use factor trees to find factors of numbers.",
+    "progression_endpoint": "Students represent any natural number as a product of powers of prime factors using exponent notation, and apply this to find lowest common multiples and greatest common divisors.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Exponent notation for repeated multiplication",
+        "progression_checkpoint": "Students understand exponent notation as shorthand for repeated multiplication and can convert between expanded and exponent forms.",
+        "minimum_width": "Write 2×2×2×2 as 2⁴ and vice versa for small bases and exponents.",
+        "typical_width": "Convert fluently between repeated multiplication and exponent notation for bases 2, 3, 5, 7 and small exponents; state what the base and exponent each mean.",
+        "wider": [
+          "Investigate the sequence 2¹, 2², 2³, ... and connect to powers of 2 in computing contexts (bytes, storage).",
+          "Explore 10¹, 10², 10³ and connect to place value notation (links to AC9M7N03)."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Exponent notation is a new symbolic system. Students need fluency reading and writing it before applying it to prime factorisation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot fluently read and write exponent notation cannot record or interpret prime factorisation results in Node 2 — the symbolic system is the medium for all subsequent work in this standard.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly converts between repeated multiplication and exponent notation.",
+          "States the meaning of the base and exponent in a given expression.",
+          "Does not confuse aⁿ with a×n (e.g. does not evaluate 2³ as 6)."
+        ],
+        "related_standards": [
+          "AC9M7N03"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Prime factorisation via factor trees",
+        "progression_checkpoint": "Students can express any natural number as a product of prime factors using a factor tree, and write the result using exponent notation.",
+        "minimum_width": "Use a factor tree to find the prime factorisation of a given composite number (e.g. 36 = 2² × 3²).",
+        "typical_width": "Find prime factorisations for a range of composite numbers including larger ones (e.g. 360), write results in exponent notation, and verify by expanding.",
+        "wider": [
+          "Show that different factor trees for the same number always yield the same prime factorisation (Fundamental Theorem of Arithmetic — informally).",
+          "Investigate which numbers have only one prime factor (powers of primes) and what their factor trees look like."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often believe different factor trees can produce different prime factorisations. Seeing multiple paths to the same result across several numbers resolves this misconception.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who believe prime factorisation is non-unique cannot apply the LCM/GCD algorithm in Node 3 correctly — the entire method depends on there being one canonical factorisation to compare.",
+        "width_opportunity": true,
+        "success_criteria": [
+          "Produces a correct factor tree and writes the result in exponent notation.",
+          "Verifies the factorisation by expanding and multiplying.",
+          "Understands that the prime factorisation of a number is unique."
+        ],
+        "related_standards": [],
+        "width_opportunity_reason": "The uniqueness of prime factorisation (Fundamental Theorem of Arithmetic, informally) is a rich structural insight — advancing students who explore multiple factor trees and observe convergence are engaging with a deep number theory idea."
+      },
+      {
+        "id": 3,
+        "label": "LCM and GCD from prime factorisations",
+        "progression_checkpoint": "Students use prime factorisations to find the lowest common multiple and greatest common divisor of pairs of natural numbers.",
+        "minimum_width": "Find the LCM and GCD of two numbers using their prime factorisations.",
+        "typical_width": "Apply the LCM and GCD in context: e.g. find when two cyclic events coincide (LCM), or find the largest equal shares (GCD).",
+        "wider": [
+          "Explore the relationship LCM(a,b) × GCD(a,b) = a × b and verify for several pairs.",
+          "Apply LCM to scheduling problems: if two buses leave every 12 and 18 minutes, when do they next leave together?"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The algorithm (take highest power of each prime for LCM; lowest power for GCD) requires an explicit systematic scaffold. Students who proceed by listing multiples/factors miss the prime factorisation connection.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "integration",
+            "reason": "LCM and GCD require coordinating prime factorisation, exponent comparison, and contextual interpretation simultaneously.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot apply the systematic LCM/GCD algorithm from prime factorisations revert to listing methods — this blocks the connection to AC9M7N04 fraction simplification and AC9M7N06 common denominator work where the prime factorisation method is the efficient path.",
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly finds LCM and GCD for a given pair using prime factorisations.",
+          "Can explain why the method works (not just apply it).",
+          "Applies LCM or GCD appropriately when presented with a contextual problem."
+        ],
+        "related_standards": [
+          "AC9M7N06"
+        ],
+        "width_opportunity_reason": "The relationship LCM × GCD = a × b and its application to scheduling problems offers advancing students genuine algebraic-structural reasoning within the Year 7 band."
+      }
+    ]
+  }
+}

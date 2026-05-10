@@ -1,0 +1,103 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7SP02",
+    "title": "Classifying Triangles and Polygons",
+    "strand": "Space",
+    "description": "classify triangles, quadrilaterals and other polygons according to their side and angle properties; identify and reason about relationships",
+    "mode": "A",
+    "prior_knowledge": "Students have informal familiarity with shape names and basic properties. Students can measure angles and sides.",
+    "progression_endpoint": "Students classify triangles and quadrilaterals using side and angle properties and reason about hierarchical relationships between shape families.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Classifying triangles by sides and angles",
+        "progression_checkpoint": "Students classify triangles as scalene, isosceles or equilateral (by sides) and as acute, right-angled or obtuse (by angles), and understand that these classifications are independent.",
+        "minimum_width": "Classify a given triangle by both its side and angle properties.",
+        "typical_width": "Classify a range of triangles; identify that a triangle can be e.g. isosceles and right-angled simultaneously; investigate which combinations are possible.",
+        "wider": [
+          "Construct triangles with given side lengths and determine which combinations are possible (triangle inequality).",
+          "Investigate which combinations of side-type and angle-type are possible vs impossible (e.g. can a triangle be equilateral and obtuse?)."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often treat side classification and angle classification as mutually exclusive. Encountering diverse triangles that require both labels simultaneously resolves this."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly classifies a triangle by both side and angle properties.",
+          "Understands that the two classifications are independent.",
+          "Does not assume equilateral means right-angled."
+        ],
+        "related_standards": [
+          "AC9M7M05"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Classifying quadrilaterals and their relationships",
+        "progression_checkpoint": "Students classify quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) using side and angle properties, and identify hierarchical relationships.",
+        "minimum_width": "Classify a given quadrilateral and state the properties used.",
+        "typical_width": "Describe, compare and contrast all quadrilateral types; explain hierarchical relationships (e.g. all squares are rectangles, not all rectangles are squares).",
+        "wider": [
+          "Construct a hierarchy diagram (Venn or tree) of quadrilaterals showing subset relationships.",
+          "Investigate which quadrilateral properties are necessary vs sufficient for classification."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Hierarchical classification requires deliberate reasoning about necessary and sufficient conditions. Students who classify by appearance alone fail with non-standard orientations and confuse the hierarchy.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who classify by appearance rather than properties cannot design reliable classification algorithms in AC9M7SP04 — the algorithm requires specifying testable property conditions, not visual recognition rules.",
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly classifies any standard quadrilateral using its properties.",
+          "States at least two hierarchical relationships between quadrilateral types.",
+          "Does not rely on orientation to classify (e.g. recognises a rotated square)."
+        ],
+        "related_standards": [
+          "AC9M7SP04"
+        ],
+        "width_opportunity_reason": "Constructing a quadrilateral hierarchy diagram and reasoning about necessary vs sufficient conditions for classification is rich structural thinking — advancing students engage with logic and set relationships within a geometric context."
+      },
+      {
+        "id": 3,
+        "label": "Classifying other polygons and reasoning about properties",
+        "progression_checkpoint": "Students classify polygons by number of sides and by regularity, and reason about properties such as line symmetry and convexity.",
+        "minimum_width": "Name and classify polygons up to at least octagons; distinguish regular from irregular and convex from concave.",
+        "typical_width": "Reason about properties of specific polygons: angle sums, number of diagonals, symmetries.",
+        "wider": [
+          "Investigate tessellation properties: which regular polygons tessellate alone, and why? Connect to interior angles.",
+          "Explore polygon properties in architecture, design, and cultural patterns."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Classifying polygons draws together side properties, angle sum knowledge, and symmetry reasoning simultaneously."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly classifies polygons by name, regularity, and convexity.",
+          "Explains what makes a polygon regular.",
+          "Can identify whether a polygon is convex or concave and explain the difference."
+        ],
+        "related_standards": [
+          "AC9M7M05",
+          "AC9M7SP04"
+        ]
+      }
+    ]
+  }
+}

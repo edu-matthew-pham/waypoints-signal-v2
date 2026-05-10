@@ -1,0 +1,65 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4P08",
+    "title": "Memorised passwords",
+    "description": "access their school account using a memorised password and explain why it should be easy to remember, but hard for others to guess",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can access their school account using a recorded username and password (AC9TDI2P06). They know that accounts require credentials. They have not yet memorised credentials independently or reasoned about what makes a password strong (easy to remember, hard to guess).",
+    "progression_endpoint": "Students access their school account using a memorised password and explain the principles that make a password both memorable and secure.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Why passwords keep accounts private",
+        "progression_checkpoint": "Students can explain why keeping a password private protects their data",
+        "minimum_width": "Explain in one or two sentences why a password should be kept secret and what happens if someone else learns it",
+        "typical_width": "Explain how passwords protect personal work and data stored in accounts; describe a scenario where someone learns another person's password and explain the consequence",
+        "wider": [
+          "Discuss why shared device passwords (e.g. a school tablet shared between classes) create different security challenges compared to personal account passwords \u2014 explore how the school manages this",
+          "Investigate what data is stored in a school account and who can access it with the password \u2014 connect this to AC9TDI4P09 (personal data in online accounts)"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States that a password keeps others from accessing the account",
+          "Connects password secrecy to data protection, not just 'the rules'"
+        ],
+        "related_standards": [
+          "AC9TDI4P09"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not connect password secrecy to data protection (treating it as just a rule) cannot reason about what makes a password strong in N2 \u2014 the 'hard to guess' criterion only makes sense if students understand what guessing enables."
+      },
+      {
+        "id": 2,
+        "label": "What makes a password strong",
+        "progression_checkpoint": "Students can explain what makes a password easy to remember but hard for others to guess, and give an example",
+        "minimum_width": "Explain at least one characteristic of a strong password (e.g. uses unrelated but memorable words, is not an obvious personal detail) and give an example",
+        "typical_width": "Explain that a strong password balances memorability and security; describe techniques for creating memorable-but-secure passwords (e.g. three unrelated words); distinguish between strong and weak passwords with reasons",
+        "wider": [
+          "Investigate why common password choices (names, birthdays, 'password') are weak \u2014 discuss what information about a person could be used to guess a weak password and why this is a risk",
+          "Explore how passphrase-style passwords (multiple unrelated words) are both more memorable and more secure than complex single-word passwords \u2014 explain the reasoning"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students initially assess password strength by complexity (symbols and numbers = strong) rather than by unpredictability. Multiple examples of why personally meaningful information makes passwords guessable \u2014 and why random but memorable combinations work \u2014 reframe the concept from complexity to unpredictability."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one feature that makes a password hard to guess",
+          "Names at least one feature that makes a password easy to remember"
+        ],
+        "related_standards": [],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

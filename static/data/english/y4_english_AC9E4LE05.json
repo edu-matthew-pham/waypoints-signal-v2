@@ -1,0 +1,94 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LE05",
+    "title": "Create and edit literary texts",
+    "description": "create and edit literary texts by developing storylines, characters and settings",
+    "strand": "Literature",
+    "mode": "B",
+    "prior_knowledge": "Students create and edit imaginative texts using or adapting language features, characters, settings and plot structures (AC9E3LE05). They have not yet created and edited literary texts that deliberately develop storylines, characters and settings toward narrative effect.",
+    "progression_endpoint": "Students can plan and create literary texts that develop a storyline, at least one character and a setting with intentional choices, and edit their texts by evaluating and improving those choices in collaboration with a peer.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning storyline, character and setting",
+        "progression_checkpoint": "Students can plan a literary text by making deliberate choices about storyline shape, character and setting before writing.",
+        "minimum_width": "Create a simple plan that identifies a storyline shape, one main character and a setting before beginning to write.",
+        "typical_width": "Plan a literary text by making deliberate choices about storyline structure (orientation, complication, resolution), character development approach and setting with mood, explaining why each choice suits the text's intended effect.",
+        "wider": [
+          "Experiment with alternative storyline structures (e.g. circular endings, flashbacks, multiple complications) and evaluate how each would change the text's effect",
+          "Study how a chosen author structures their planning — using author interviews, craft books or published drafts — and apply one technique to own planning"
+        ],
+        "hinge": true,
+        "hinge_reason": "Creating with deliberate craft in N2 requires students to have made explicit storyline, character and setting choices in planning — without a plan, N2's intentional craft choices cannot be made or evaluated.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Making deliberate planning choices across storyline, character and setting requires explicit reasoning about why each choice suits the intended narrative effect — students without a scaffold default to writing whatever comes to mind rather than planning with purpose.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Has made explicit choices about storyline shape, character and setting before writing begins",
+          "Can explain one reason for each planning choice"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Creating with craft — sentences, dialogue and literary devices",
+        "progression_checkpoint": "Students can create literary texts using a range of sentence types, including dialogue and at least one literary device, to develop their storyline, character and setting.",
+        "minimum_width": "Create a literary text that includes at least one piece of punctuated dialogue and one literary device (e.g. simile, descriptive phrase, alliteration).",
+        "typical_width": "Create a literary text that deliberately uses a range of sentence types for effect, dialogue that reveals character, and literary devices (figurative language, rhythm, word choice) to develop the storyline, character and setting toward an intended effect.",
+        "wider": [
+          "Create literary texts in different forms — narrative, prose poem, short story — and compare how the same story content is shaped differently by each form",
+          "Create a literary text inspired by First Nations Australian storytelling structures or imagery, with attention to respectful and informed use of cultural elements"
+        ],
+        "hinge": true,
+        "hinge_reason": "Peer editing in N3 requires a created literary text — N3 cannot proceed without the artefact N2 produces.",
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating a literary text with deliberate craft integrates knowledge from across the Language and Literature strands — sentence structure, dialogue punctuation, figurative language, structural choices — into a single coordinated performance.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Creation across different literary forms and with deliberate craft choices is rich territory. The range of sentence types, literary devices and forms available makes this a genuinely wide node for advancing students.",
+        "success_criteria": [
+          "Text includes correctly punctuated dialogue",
+          "Text includes at least one literary device used deliberately for effect",
+          "Storyline has an identifiable orientation, complication and resolution"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Editing — peer feedback and revision",
+        "progression_checkpoint": "Students can give and receive specific feedback about choices in storyline, character and setting development, and revise their text in response to feedback.",
+        "minimum_width": "Share a literary text with a peer, give one piece of specific feedback about a storyline, character or setting choice, and make at least one revision to their own text based on feedback received.",
+        "typical_width": "Engage in structured peer editing focused on storyline, character and setting choices — identifying what is working, what could be developed, and giving specific, text-referenced feedback — and revise the text in response.",
+        "wider": [
+          "Compare a draft and revised version of a text and explain what changed and why the revision improves the text",
+          "Use a published author's editing process (e.g. from interviews or manuscript facsimiles) as a model for own revision approach"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Effective peer editing requires a structured framework — students without prompts default to 'it was good'. Explicit criteria for storyline, character and setting feedback provide the scaffold that makes editing generative."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can give one specific piece of feedback about a storyline, character or setting choice in a peer's text",
+          "Has made at least one revision to own text in response to feedback received"
+        ]
+      }
+    ]
+  }
+}

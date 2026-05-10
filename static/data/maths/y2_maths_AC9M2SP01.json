@@ -1,0 +1,87 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2SP01",
+    "title": "Classify shapes by sides",
+    "strand": "Space",
+    "mode": "A",
+    "description": "recognise, compare and classify shapes, referencing the number of sides and using spatial terms such as \"opposite\", \"parallel\", \"curved\" and \"straight\"",
+    "prior_knowledge": "Students sort, compare and classify shapes by features using informal language (AC9M1SP01). They have not yet used specific spatial terms (parallel, opposite, curved, straight) or classified shapes by number of sides systematically.",
+    "progression_endpoint": "Students recognise, compare and classify shapes by referencing the number of sides and using spatial terms including opposite, parallel, curved and straight.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Spatial terms for shape features",
+        "progression_checkpoint": "Students can use the terms straight, curved, parallel and opposite correctly to describe the sides and features of shapes.",
+        "minimum_width": "Identify straight and curved sides on a given shape; identify one pair of parallel sides in a shape where they exist.",
+        "typical_width": "Use all four terms (straight, curved, parallel, opposite) to describe shape features; identify opposite sides and parallel sides in polygons; distinguish between shapes with and without parallel sides.",
+        "wider": [
+          "Investigate shapes of different sporting fields and label their features using spatial terms: sidelines, parallel lines, curved boundaries",
+          "Use digital tools to create and manipulate shapes; drag vertices and describe the effect on side properties using spatial language"
+        ],
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 both rely on students using spatial terms to describe classification properties and orientation-invariant features. Students who conflate 'parallel' with 'same length' or cannot identify curved vs straight sides cannot accurately classify shapes or explain why orientation doesn't change type.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "'Parallel' is a new term at Year 2 and students commonly confuse it with 'the same length' or apply it only to horizontal lines. Multiple contexts — different shape orientations, real-world examples, digital tools — help establish the correct concept (same direction, never meeting) across varied representations.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies straight and curved sides in given shapes",
+          "Identifies a pair of parallel sides in a polygon and explains what makes them parallel"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Classifying by number of sides",
+        "progression_checkpoint": "Students can sort and classify a collection of shapes by number of sides, including identifying and naming triangles, quadrilaterals, pentagons and hexagons.",
+        "minimum_width": "Sort a set of shapes into groups by number of sides; correctly count sides for each shape.",
+        "typical_width": "Sort and classify shapes by number of sides; name common polygons (triangle, quadrilateral, pentagon, hexagon); explain the classification rule; sort in different ways (e.g. by number of sides, by whether all sides are equal).",
+        "wider": [
+          "Sort triangles and other polygons into subgroups; discuss how a triangle can have different side lengths and angles but is always a triangle",
+          "Sort quadrilaterals by properties: some have all equal sides, some have parallel opposite sides — investigate which quadrilaterals have both"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Sorts a collection of shapes by number of sides correctly",
+          "Names triangles (3 sides) and quadrilaterals (4 sides) accurately"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Orientation invariance",
+        "progression_checkpoint": "Students can recognise that rotating or flipping a shape does not change its classification, and demonstrate this with examples.",
+        "minimum_width": "Show that a shape (e.g. triangle, rectangle) is still the same shape when turned upside down or on its side.",
+        "typical_width": "Manipulate shapes in different orientations; confirm classification is unchanged; explain that shape identity depends on number of sides and properties, not orientation; recognise irregular shapes in the same category as regular ones.",
+        "wider": [
+          "Cut out pictures of shapes in various orientations; sort into categories; explain why each belongs even when not in the 'standard' position",
+          "Use a digital tool to rotate and flip shapes; describe what changes (position, orientation) and what stays the same (number of sides, type)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Orientation dependence is a well-documented misconception: students may not recognise a triangle with a vertex pointing down as a triangle, or a square rotated 45° as a square. Multiple orientation contexts make orientation invariance explicit."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a shape in a non-standard orientation as the same shape",
+          "Explains that rotating or flipping a shape does not change what type of shape it is"
+        ]
+      }
+    ]
+  }
+}

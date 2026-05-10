@@ -1,0 +1,111 @@
+{
+  "year_level": "7-8",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE8K04",
+    "title": "Sustainable managed production",
+    "description": "analyse how food and fibre are produced in managed environments and how these can become sustainable",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how and why food and fibre are produced in managed environments (AC9TDE6K03). They understand that production is managed but have not yet analysed the techniques used to increase production ethically and sustainably, or compared production methods across contexts including First Nations and Asian approaches.",
+    "progression_endpoint": "Students analyse how food and fibre are produced in managed environments — including ethical and sustainable techniques for increasing production — and evaluate how these methods can become more sustainable across different production contexts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How managed environments work",
+        "progression_checkpoint": "Students can explain how managed environments for food and fibre production control growing conditions to increase yield and quality",
+        "minimum_width": "Identify at least two factors that are managed in a food or fibre production environment (e.g. soil, water, nutrients, pest control); explain how managing each affects production",
+        "typical_width": "Analyse how physical and chemical characteristics of soil affect plant growth; investigate different management strategies (e.g. grazing vs supplementary feeding for animals) and their effects on quality",
+        "wider": [
+          "Investigate how traditional First Nations Australian food and fibre sources offer sustainability benefits such as water conservation or resilience",
+          "Compare land and water management methods between Australian and Asian production contexts, including smart farm technologies such as robotics and GPS"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who know only one or two management variables cannot compare or evaluate approaches at Node 2 — the ethical/sustainable technique analysis requires a working repertoire of managed factors to assess what each technique achieves.",
+        "success_criteria": [
+          "Identifies at least two managed factors in a production environment",
+          "Explains how managing each factor affects yield or quality"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Understanding how managed environments work requires encountering a range of management variables — soil chemistry, water, nutrients, pest control, animal nutrition. Students who only know one or two management strategies cannot later compare or evaluate approaches. Building the repertoire of managed factors is the prior condition for Node 2's analysis.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations traditional food source direction and the Australia-Asia smart farming comparison offer advancing students rich, real-world contexts for understanding how managed environments vary across cultural and technological settings.",
+        "related_standards": [
+          "AC9TDE8K01",
+          "AC9TDE8P01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Ethical and sustainable techniques",
+        "progression_checkpoint": "Students can analyse the ethical and sustainable techniques used in food and fibre production and evaluate their effectiveness",
+        "minimum_width": "Identify at least one ethical and one sustainable technique used in food or fibre production; explain what each achieves",
+        "typical_width": "Compare ethical and sustainable techniques across production systems — animal welfare practices, organic vs conventional methods, water management strategies; analyse trade-offs between sustainability and productivity",
+        "wider": [
+          "Investigate the relationship between animal nutrition strategies and product quality across different production systems",
+          "Research how food and fibre production contributes to Australia's food security and economy, including trade with Asian countries"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate ethical and sustainable techniques, or treat sustainability as a single checkbox, will produce superficial evaluations at Node 3 — proposing improvements requires accurately distinguishing what each technique achieves and why.",
+        "success_criteria": [
+          "Identifies at least one ethical and one sustainable technique",
+          "Does not conflate ethical with sustainable — explains what each specifically achieves"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who cannot distinguish ethical from sustainable techniques (or who treat sustainability as a single checkbox) will produce superficial analyses. Seeing multiple ethical and sustainable techniques across different production contexts — animal welfare, organic farming, water management, cultural practices — builds the discrimination needed for genuine analysis.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8K01",
+          "AC9TDE8P04"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Making production more sustainable",
+        "progression_checkpoint": "Students can evaluate how food and fibre production methods can become more sustainable and propose improvements based on analysis",
+        "minimum_width": "Given a production method, identify at least one way it could become more sustainable; explain why the change would improve sustainability",
+        "typical_width": "Evaluate sustainability across the production lifecycle — sourcing, growing, harvesting, processing, transport; propose and justify improvements that balance sustainability with economic viability",
+        "wider": [
+          "Investigate traditional First Nations Australian food sources for potential species that offer sustainability benefits in contemporary production",
+          "Compare how different countries approach sustainable production of the same commodity — what works in one context and why it may not transfer directly"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Identifies at least one way a production method could become more sustainable",
+          "Explains why the proposed change improves sustainability"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluating how production can become more sustainable requires students to reason from evidence: identify current practice → identify the sustainability problem → propose a change → explain why the change improves sustainability → consider trade-offs with productivity. Students who propose changes without this reasoning chain produce aspirational statements rather than evaluations."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates managed environment knowledge (Node 1) and ethical/sustainable technique analysis (Node 2) into a forward-looking evaluation. Students must apply both to propose improvements that are both technically feasible and genuinely more sustainable.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations traditional species and cross-country production comparison directions offer genuine analytical depth — evaluating what is transferable across contexts requires understanding why a practice works in its original context.",
+        "related_standards": [
+          "AC9TDE8K01",
+          "AC9TDE8K02",
+          "AC9TDE8P04"
+        ]
+      }
+    ]
+  }
+}

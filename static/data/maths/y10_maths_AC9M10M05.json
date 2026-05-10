@@ -1,0 +1,101 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10M05",
+    "title": "Model proportion and scaling",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "use mathematical modelling to solve practical problems involving proportion and scaling of objects; formulate problems and interpret solutions in terms of the situation; evaluate and modify models as necessary, and report assumptions, methods and findings",
+    "prior_knowledge": "Students can identify how measurement errors affect accuracy of results in practical contexts (AC9M10M04). They have not yet used mathematical modelling as a full cycle (formulate, solve, interpret, evaluate, modify) specifically for proportion and scaling problems.",
+    "progression_endpoint": "Students use mathematical modelling to solve practical problems involving proportion and scaling, interpreting and evaluating results in context and reporting assumptions, methods and findings.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Scale factors and conversion",
+        "progression_checkpoint": "Students can determine the scale factor between a model and the actual object, and use it to convert measurements in both directions.",
+        "minimum_width": "Calculate the scale factor given one model measurement and one actual measurement; use the scale factor to find an unknown actual or model dimension.",
+        "typical_width": "Determine scale factors from plans, drawings or physical models; convert dimensions in both directions (model \u2192 actual, actual \u2192 model); apply scale factors to areas (scale factor squared) and volumes (scale factor cubed); check scale consistency across a drawing.",
+        "wider": [
+          "Estimate the scale of an unfamiliar object (e.g. a toy car, a model building) by measuring a recognisable linear dimension and comparing to a known typical value",
+          "Investigate how scale factors apply differently to lengths, areas and volumes \u2014 and why a model that is 1:10 in length has a volume ratio of 1:1000"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The scaling of areas and volumes (squared and cubed scale factors) is a non-obvious extension of linear scale that students frequently miss. Explicit reasoning about why area scales by k\u00b2 and volume by k\u00b3 prevents rote misapplication.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly calculates a scale factor from given measurements and applies it to find an unknown dimension",
+          "Student explains why area and volume scale differently from linear dimensions"
+        ],
+        "hinge": true,
+        "hinge_reason": "Scale factor errors cascade through N2 and N3 \u2014 students who cannot correctly derive and apply scale factors will misread plans (N2) and formulate incorrect proportion models (N3), invalidating all downstream work."
+      },
+      {
+        "id": 2,
+        "label": "Reading and using scaled plans",
+        "progression_checkpoint": "Students can read dimensions from a scaled plan or elevation drawing and use them to make practical decisions or calculations.",
+        "minimum_width": "Read dimensions from a scaled plan using the stated scale; convert plan measurements to actual measurements.",
+        "typical_width": "Use plans and elevation drawings to make design decisions (e.g. furniture placement, room modifications); convert between plan and actual dimensions; identify when a proposed change is feasible given the scale; apply appropriate scales for different purposes (1:100 for buildings, 1:50 for rooms).",
+        "wider": [
+          "Investigate compliance with Australian building codes and standards using a scaled plan \u2014 e.g. checking whether corridor widths, door clearances, or escalator gradients meet specified standards",
+          "Design a modified building plan (e.g. adding a room extension) using an appropriate scale, ensuring all new dimensions are proportionally correct"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Reading scaled plans varies across plan types (floor plans, elevation drawings, site plans) and scale conventions. Students who only practise with one plan type may not apply the scale reading process to unfamiliar formats."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads a dimension from a scaled plan and correctly converts it to an actual measurement",
+          "Student uses plan dimensions to evaluate a practical decision (e.g. 'will this furniture fit?')"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Modelling proportion and scaling problems",
+        "progression_checkpoint": "Students can formulate a practical scaling or proportion problem as a mathematical model, solve it, and interpret the result in context.",
+        "minimum_width": "Formulate a scaling or proportion problem from a practical context; solve using a scale factor or proportion equation; state the result in context-appropriate terms.",
+        "typical_width": "Apply mathematical modelling to solve proportion and scaling problems across multiple contexts (prototypes, 3D printing, architectural plans); state assumptions; interpret and evaluate results; modify the model when initial assumptions prove inadequate; report methods and findings clearly.",
+        "wider": [
+          "Investigate how AI image generators use proportion and scaling techniques (aspect ratio preservation, object-to-scene ratio) to produce realistic images \u2014 critically evaluating outputs for proportion errors",
+          "Model a 3D printing or rapid-prototyping scenario: determine scale factor for a given material constraint, calculate dimensions of the scaled model, and evaluate whether the model will fit its intended purpose"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Proportion and scaling modelling problems vary considerably in how they're set up across contexts (plans use ratio scales, 3D printing uses dimensional constraints, AI imaging uses aspect ratios). Multiple context types build flexible formulation skills.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "The full modelling cycle (formulate, solve, interpret, evaluate, modify, report) integrates scale factors (node 1), plan reading (node 2), and contextual reasoning into complete mathematical modelling practice. This is the integration node for the descriptor."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The full modelling cycle applied to multi-context proportion problems \u2014 especially design and evaluation tasks with genuine constraints \u2014 provides rich engagement for advancing students at the year band.",
+        "success_criteria": [
+          "Student correctly formulates a proportion or scaling relationship from a described context and solves for the required quantity",
+          "Student states at least one assumption of the model and evaluates whether the result makes sense in context"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

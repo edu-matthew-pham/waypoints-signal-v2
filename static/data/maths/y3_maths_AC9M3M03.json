@@ -1,0 +1,69 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3M03",
+    "title": "Formal time units",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "recognise and use the relationship between formal units of time including days, hours, minutes and seconds to estimate and compare the duration of events",
+    "prior_knowledge": "Students can recognise and read time on an analog clock to the hour, half-hour and quarter-hour (AC9M2M04). They have not yet worked with the full hierarchy of time units (days, hours, minutes, seconds) or used these relationships to estimate and compare durations.",
+    "progression_endpoint": "Students recognise the relationships between days, hours, minutes and seconds, and use these to estimate and compare the duration of events.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Relationships between time units",
+        "progression_checkpoint": "Students can state the relationships between days, hours, minutes and seconds and use these to convert between adjacent units.",
+        "minimum_width": "State the number of hours in a day, minutes in an hour, and seconds in a minute; convert two given time quantities (e.g. '3 hours = ? minutes').",
+        "typical_width": "Apply the full hierarchy of time unit relationships; convert across adjacent units in both directions; explain why the relationships have the values they do (history of 60-based time).",
+        "wider": [
+          "Explore why different cultures have used different time unit systems — e.g. ancient Egyptian hours, Indigenous seasonal calendars",
+          "Investigate how digital devices represent time and compare digital time displays with the unit relationships"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Time unit relationships (60 seconds, 60 minutes, 24 hours) are non-decimal and must be memorised. Practice with varied conversion problems is more effective than broadening context here.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Time unit relationships are the prerequisite for Node 2 duration estimation and comparison — students who do not know that 1 hour = 60 minutes cannot estimate whether an event will take 'about 45 minutes' or convert between units when comparing durations. The non-decimal relationships are error-prone and must be secure before application.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can state the number of seconds in a minute, minutes in an hour, and hours in a day.",
+          "Students can convert a given duration between adjacent time units."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Estimating and comparing durations",
+        "progression_checkpoint": "Students can estimate the duration of familiar events in appropriate units and compare durations using the time unit relationships.",
+        "minimum_width": "Estimate the duration of three everyday events in appropriate units and justify the unit choice; compare two durations expressed in different units.",
+        "typical_width": "Estimate and measure durations of a range of events; compare using time unit relationships; connect to planning contexts (e.g. planning a party schedule).",
+        "wider": [
+          "Design a daily timetable or sequence of events, applying duration estimation and addition with time units",
+          "Investigate how estimating time relates to First Nations Australian seasonal calendars and duration of events on Country"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who estimate time only in structured classroom contexts (sand timers, countdowns) often cannot apply duration reasoning to open-ended real-world planning. Timetable design and culturally situated time-keeping contexts extend the skill.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Timetable design and cultural time-keeping contexts offer genuine real-world planning richness and connect time measurement to purposeful decision-making.",
+        "success_criteria": [
+          "Students can estimate the duration of a familiar event in an appropriate unit and explain the choice.",
+          "Students can compare two durations and state which is longer, converting to a common unit if needed."
+        ],
+        "related_standards": ["AC9M3M04", "AC9M3N06"]
+      }
+    ]
+  }
+}

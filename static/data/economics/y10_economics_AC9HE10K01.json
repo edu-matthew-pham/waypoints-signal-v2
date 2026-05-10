@@ -1,0 +1,166 @@
+{
+  "year_level": "10",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE10K01",
+    "title": "Economic indicators",
+    "description": "how and why the economic indicators influence economic decision-making",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students understand the role of Australia's financial sector and its effect on economic decision-making by individuals, businesses and global markets (AC9HE9K01). They understand how economic decision-making involves the interdependence of consumers, businesses, the financial sector and government (AC9HE9K02). They can explain how economic decisions by one actor affect others across the system.",
+    "progression_endpoint": "Students explain how and why economic indicators influence economic decision-making by governments, businesses and individuals in Australia.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What economic indicators are",
+        "progression_checkpoint": "Students can identify key economic indicators and describe what each measures about the economy.",
+        "minimum_width": "Identify at least three economic indicators (e.g. GDP growth rate, unemployment rate, inflation rate) and state what each measures.",
+        "typical_width": "Identify and explain a range of economic indicators including GDP growth, unemployment trends, inflation rates, and sustainability indexes; describe what each measures and what it signals about economic conditions.",
+        "wider": [
+          "Investigate composite indexes such as the OECD Better Life Index or the Genuine Progress Indicator and evaluate what they add to traditional economic indicators",
+          "Compare how different countries select and weight economic indicators, examining how political context shapes measurement priorities",
+          "Explore leading, lagging and coincident indicators and explain how their timing affects how decision-makers use them"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish what different indicators measure will conflate them when explaining how each influences decision-making. Without this foundation, later nodes on government response become vague ('the government responds to bad numbers') rather than specific.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Introduce indicators systematically — what is being measured, what unit, over what period, and what direction signals concern. Students commonly conflate GDP and employment, or confuse inflation with interest rates. A structured note-taking scaffold per indicator prevents this.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "repertoire_building",
+            "reason": "Build a reference set of indicators that students can draw on throughout the unit. Class-constructed reference cards or a shared table work well here.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of indicators is genuinely wide — sustainability indexes, composite wellbeing measures and non-traditional indicators offer rich cross-disciplinary connections and allow students to interrogate what 'economic health' means beyond conventional GDP metrics.",
+        "success_criteria": [
+          "Names at least three distinct economic indicators and states what each measures",
+          "Distinguishes between indicators (e.g. can explain why unemployment and inflation measure different things)"
+        ],
+        "related_standards": ["AC9HE10K02", "AC9HE10S02"]
+      },
+      {
+        "id": 2,
+        "label": "Interpreting indicator data",
+        "progression_checkpoint": "Students can read and interpret indicator data — identifying trends, describing what a change in direction signals, and using appropriate economic vocabulary.",
+        "minimum_width": "Read a provided graph or table for one indicator; describe the trend and state what a rise or fall signals.",
+        "typical_width": "Interpret data for multiple indicators across a time period; describe trends, identify turning points, and use terms such as economic growth, recession, inflation, unemployment rate accurately.",
+        "wider": [
+          "Analyse a period of economic volatility (e.g. GFC, COVID-19) using multiple indicator datasets to explain what happened and in what sequence",
+          "Compare Australian indicator trends with those of a trading partner to identify divergence and consider its implications",
+          "Evaluate the limitations of a specific indicator — what it misses, who it undercounts, or what it obscures"
+        ],
+        "hinge": true,
+        "hinge_reason": "The rest of the descriptor requires students to explain how indicators *influence* decisions — this is only possible if they can read what the indicators are saying. Students who cannot interpret a trend cannot explain why a government might respond.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Practise reading graphs of different indicators with varied time periods. Common errors include misreading rate-of-change (confusing a slowing growth rate with a decline), or misinterpreting unemployment — knowing fluency here prevents errors in later analysis.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Expose students to data from different economic events and time periods so they can apply interpretation skills across varied contexts rather than pattern-matching to a single example.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multiple economic events (GFC, COVID, post-COVID inflation) and the ability to compare international data offer rich real-world application. Students who can interpret across contexts develop genuine economic literacy.",
+        "success_criteria": [
+          "Correctly describes the trend shown in a provided indicator dataset (rising, falling, stable, volatile)",
+          "Uses at least one specific economic term accurately when describing what the trend signals"
+        ],
+        "related_standards": ["AC9HE10S03"]
+      },
+      {
+        "id": 3,
+        "label": "Government economic objectives",
+        "progression_checkpoint": "Students can name and explain the Australian Government's key economic objectives and connect each to one or more indicators that track progress toward it.",
+        "minimum_width": "Name at least two government economic objectives (e.g. economic growth, full employment, price stability) and identify which indicator tracks each.",
+        "typical_width": "Explain the Australian Government's main economic objectives — economic growth, full employment and price stability — and explain why each matters for living standards; connect each objective to its corresponding indicator(s).",
+        "wider": [
+          "Investigate how environmental sustainability or wellbeing has been framed as a policy objective and which indicators governments are beginning to use to track it",
+          "Compare Australia's stated economic objectives with those of a different country and examine whether the same indicators are used",
+          "Examine how objectives can conflict (e.g. low unemployment can drive inflation) and how governments balance competing indicators"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without understanding that indicators are proxies for objectives — that GDP is tracked because growth is a goal — students cannot explain *why* indicators matter to decision-making. They will describe reaction without understanding rationale.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Help students build the explicit connection: objective → what it means → why it matters → which indicator tracks it → what direction signals concern. This logic chain is the scaffold for the integration node.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two government economic objectives and explains why each matters for Australians",
+          "Correctly matches each objective to the indicator(s) used to track it"
+        ],
+        "related_standards": ["AC9HE10K02"]
+      },
+      {
+        "id": 4,
+        "label": "How indicators prompt government response",
+        "progression_checkpoint": "Students can explain how changes in specific indicators trigger or justify government economic decisions, using examples of actual or hypothetical government responses.",
+        "minimum_width": "Describe one example of a government response to a change in an economic indicator, explaining the connection between the indicator movement and the decision.",
+        "typical_width": "Explain how the Australian Government may intervene in response to emerging economic issues or changes in indicators — such as responding to declining GDP with fiscal stimulus, or to rising inflation with interest rate signals — with reference to economic objectives.",
+        "wider": [
+          "Analyse a specific historical case of government intervention (e.g. fiscal stimulus during GFC, COVID-19 JobKeeper) and evaluate whether the indicator signal justified the response",
+          "Investigate how international organisations (IMF, World Bank) use economic indicators to issue recommendations to governments and assess whether governments follow them",
+          "Examine the role of the Reserve Bank of Australia in interpreting inflation data and adjusting the cash rate, tracing the decision chain from indicator to policy"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Use multiple real-world examples of government response across different indicator triggers so students can generalise the mechanism rather than memorise one case.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real-world case studies of fiscal and monetary policy responses are rich, varied and widely available. Students who analyse multiple cases develop transferable reasoning about how indicator reading translates into policy — a genuine economic literacy outcome.",
+        "success_criteria": [
+          "Explains a government decision with reference to a specific indicator change that preceded it",
+          "Names the economic objective the response was intended to serve"
+        ],
+        "related_standards": ["AC9HE10K02", "AC9HE10S04"]
+      },
+      {
+        "id": 5,
+        "label": "Indicators and individual/business decision-making",
+        "progression_checkpoint": "Students can explain how economic indicators influence decision-making beyond government — by businesses and individuals — and describe the logic of these responses.",
+        "minimum_width": "Give one example of how an economic indicator (e.g. rising unemployment or inflation) affects a decision made by a business or individual consumer.",
+        "typical_width": "Explain how indicators such as employment statistics, inflation rates and GDP growth influence decision-making by businesses (e.g. investment, hiring, pricing) and individuals (e.g. spending, saving, borrowing), and connect these to the broader economic picture.",
+        "wider": [
+          "Investigate how consumer confidence surveys (a leading indicator) influence business investment decisions and explain the transmission mechanism",
+          "Analyse how a small business owner in a specific sector would interpret a suite of current indicators to make a decision about expansion or staffing",
+          "Compare how high-income and low-income households respond differently to the same indicator signal (e.g. rising interest rates) and examine equity implications"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node brings together indicator knowledge, government objectives and real-world actors into the full scope of the descriptor — how and why indicators influence economic decision-making across all actors. It synthesises the prior nodes.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Extending to business and household decision-making opens up genuinely varied real-world contexts — sector comparisons, income distribution, small business vs corporate responses. These widen economic literacy into students' lived experience.",
+        "success_criteria": [
+          "Gives a specific example of how an indicator influences a decision by a non-government actor (business or individual)",
+          "Explains the reasoning behind the decision — why this indicator matters to this actor"
+        ],
+        "related_standards": ["AC9HE10K03", "AC9HE10S03"]
+      }
+    ]
+  }
+}

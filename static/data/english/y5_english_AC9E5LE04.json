@@ -1,0 +1,93 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LE04",
+    "title": "Imagery and sound devices",
+    "description": "Examine the effects of imagery, including simile, metaphor and personification, and sound devices in narratives, poetry and songs",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students can examine the use of literary devices and deliberate word play including imagery and rhythm in literary texts (AC9E4LE04). They have not yet examined how specific imagery types — simile, metaphor, personification — create meaning through comparison, or how sound devices create effects in poetry and song.",
+    "progression_endpoint": "Students examine and explain the effects of simile, metaphor and personification, and sound devices in narratives, poetry and songs — explaining how each device creates meaning and what effect it has on the reader or listener.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Imagery: comparison and new ways of seeing",
+        "progression_checkpoint": "Students can identify simile, metaphor and personification in texts and explain how each works through comparison to create a new way of seeing something.",
+        "minimum_width": "Identify examples of simile, metaphor and personification in a text and explain how each creates a comparison and what that comparison helps the reader understand or experience.",
+        "typical_width": "Identify and explain the working mechanism of simile (explicit comparison using 'like' or 'as'), metaphor (implicit comparison asserting identity), and personification (attributing human qualities to non-human things) across narrative, poetry and song examples. Explain how each device creates a new way of looking at the world.",
+        "wider": [
+          "Examine how simile and metaphor can be used to explore the same concept in different ways — comparing examples and discussing what each comparison makes visible that others do not",
+          "Investigate extended metaphors in texts and discuss how sustaining a comparison across a passage or poem creates particular effects"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding how each imagery type works through comparison is prerequisite for Node 2's analysis of effect. Students who cannot explain the comparison mechanism — what is being compared to what, and why — cannot reason about the specific emotional, sensory, or conceptual effect the comparison creates for the reader.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often identify imagery types as labels without understanding the comparison mechanism — 'that's a simile' without explaining what is being compared to what and what insight the comparison creates. Encountering diverse examples across narrative, poetry and song helps students develop the analytical move from identification to explanation of effect.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies an example of simile, metaphor and personification and explains the comparison each makes.",
+          "Explains what new understanding or experience the comparison creates for the reader — not just names the device."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Imagery creates effect",
+        "progression_checkpoint": "Students can explain the specific effect that a piece of imagery creates for the reader — emotional, sensory, conceptual — connecting the comparison to the author's purpose.",
+        "minimum_width": "For at least two examples of imagery, explain the specific effect each creates for the reader and connect that effect to the author's purpose at that point in the text.",
+        "typical_width": "Examine imagery across narratives, poems and songs, explaining in each case the specific effect created (emotional response, sensory experience, new conceptual understanding) and why the author chose that comparison at that point. Discuss how by appealing to imagination, figurative language provides new ways of looking at the world.",
+        "wider": [
+          "Discuss how different readers might respond differently to the same imagery based on their prior experiences, examining what this reveals about the relationship between reader background and literary response",
+          "Compare how imagery functions differently in narrative prose versus poetry — examining how genre shapes how imagery works and what it can do"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Explaining the effect of imagery — not just identifying it — requires a reasoning chain: 'This image compares X to Y. This makes the reader feel/see/understand Z because...'. This chain does not come automatically and benefits from explicit scaffolding.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The effects of figurative language — across emotional, sensory, and conceptual dimensions — across narrative, poetry and song is genuinely rich territory. Advancing students can develop a nuanced vocabulary for describing imagery effects and examine how authors calibrate imagery to genre and purpose.",
+        "success_criteria": [
+          "Explains the effect of at least two pieces of imagery, connecting the comparison to a specific reader experience (emotional, sensory, or conceptual).",
+          "Connects the imagery choice to the author's purpose at that point in the text."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Sound devices and their effects",
+        "progression_checkpoint": "Students can identify sound devices in poetry and songs and explain the effects they create for the reader or listener.",
+        "minimum_width": "Identify at least two sound devices (e.g. alliteration, assonance, onomatopoeia, rhyme) in a poem or song and explain the specific effect each creates.",
+        "typical_width": "Examine how sound devices — including alliteration, assonance, consonance, onomatopoeia, rhyme, and rhythm — are used in narratives, poetry and songs to create particular effects: musicality, mood, emphasis, sensory experience. Explain how sound devices work alongside imagery to create the text's full effect.",
+        "wider": [
+          "Compare how sound devices function in a poem meant to be read silently versus one written to be performed or sung, discussing what the performance dimension adds",
+          "Examine how First Nations Australian songlines and oral poetry traditions use sound and repetition to create meaning and carry knowledge — discussing what these practices reveal about the relationship between sound, rhythm, and meaning-making"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Sound device recognition is a terminology repertoire that students build through encounter across multiple poems and songs. No single device is a hinge; the goal is developing a working repertoire of identified and named devices students can apply analytically. Breadth of encounter across text types is the investment signal."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two sound devices by name and explains the specific effect each creates.",
+          "Connects at least one sound device to the poem or song's overall effect or purpose."
+        ]
+      }
+    ]
+  }
+}

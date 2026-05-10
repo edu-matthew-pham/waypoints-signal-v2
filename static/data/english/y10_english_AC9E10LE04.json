@@ -1,0 +1,83 @@
+{
+  "year_level": "10",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E10LE04",
+    "title": "Ethical positions and world views in literary texts",
+    "description": "evaluate literary texts from a range of contexts about ethical positions and world views that are challenged, presented, reinforced or privileged",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students analyse texts and evaluate the aesthetic qualities and appeal of an author's literary style (AC9E9LE04). They have not yet evaluated the explicit ethical positions or world views that may be challenged or reinforced by literary texts from a range of contexts.",
+    "progression_endpoint": "Students evaluate literary texts from a range of contexts about ethical positions and world views that are challenged, presented, reinforced or privileged.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying ethical positions and world views",
+        "progression_checkpoint": "Students can identify the ethical positions and world views present in a literary text, distinguishing between those challenged, presented, reinforced or privileged.",
+        "minimum_width": "Identify at least one ethical position or world view in a provided literary text and describe whether it is challenged, reinforced or privileged.",
+        "typical_width": "Identify and analyse the ethical positions and world views across a literary text, explaining how the text positions each \u2014 what is challenged, what is reinforced, what is taken for granted.",
+        "wider": [
+          "Compare the ethical positions presented in texts from different cultural contexts about the same issue (e.g. justice, loyalty, belonging)",
+          "Examine how First Nations Australian literary texts challenge or reframe ethical positions that are privileged in mainstream Australian literature",
+          "Analyse how a text's genre or form shapes which ethical positions it is capable of challenging or reinforcing"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to evaluate the strengths and weaknesses of ethical positions \u2014 a move that presupposes students have identified and distinguished the text's relationship to those positions. Without this, evaluation has no object.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Distinguishing between positions that are challenged versus reinforced versus merely presented requires explicit reasoning scaffolding \u2014 students tend to identify positions but struggle to analyse the text's relationship to each position.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one ethical position or world view in a literary text",
+          "Describes whether the text challenges, reinforces or privileges that position"
+        ],
+        "related_standards": [
+          "AC9E10LE01",
+          "AC9E10LE03"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating ethical positions across contexts",
+        "progression_checkpoint": "Students can evaluate the ethical positions and world views in literary texts from a range of contexts, making supported judgements about the strengths and weaknesses of those positions.",
+        "minimum_width": "Evaluate the strengths and weaknesses of at least one ethical position in a literary text, with supporting analysis.",
+        "typical_width": "Evaluate ethical positions and world views across literary texts from different cultural, historical and social contexts, making supported judgements with reference to the text and relevant context.",
+        "wider": [
+          "Evaluate conflicting ethical positions presented across two literary texts from different cultural contexts on the same issue, making a reasoned assessment of each",
+          "Examine a significant ethical issue treated in First Nations Australian literature and evaluate the position(s) the text takes, considering the cultural and political context",
+          "Evaluate how the same ethical position is treated differently across literary texts from different time periods, assessing what each treatment reveals about its historical moment"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Evaluation of ethical positions requires students to encounter positions from outside their own cultural frame \u2014 texts from First Nations, non-Western and other diverse contexts are essential to prevent students evaluating all positions by a single cultural standard.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparative evaluation of ethical positions across cultural and historical contexts is genuinely rich \u2014 the range of ethical questions treatable through world literature offers sustained analytic work for advancing students.",
+        "success_criteria": [
+          "Makes a supported judgement about the ethical position(s) in a literary text",
+          "Evaluates at least one strength or weakness of an ethical position with reference to the text"
+        ],
+        "related_standards": [
+          "AC9E10LE01",
+          "AC9E10LE03",
+          "AC9E10LY01"
+        ]
+      }
+    ]
+  }
+}

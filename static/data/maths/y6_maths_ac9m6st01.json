@@ -1,0 +1,94 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6ST01",
+    "title": "Compare distributions",
+    "description": "Interpret and compare data sets for ordinal and nominal categorical, discrete and continuous numerical variables using comparative displays or visualisations and digital tools; compare distributions in terms of mode, range and shape",
+    "strand": "statistics",
+    "mode": "A",
+    "prior_knowledge": "Students can acquire and represent nominal and ordinal data and report on distributions in terms of mode and shape (AC9M5ST01). They can interpret line graphs representing change over time (AC9M5ST02). They have not yet formally compared distributions across two data sets or used range as a comparative measure.",
+    "progression_endpoint": "Students can interpret and compare data sets for ordinal, nominal categorical, discrete and continuous numerical variables using comparative displays; compare distributions in terms of mode, range and shape.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Variable types and appropriate displays",
+        "progression_checkpoint": "Students can identify whether a variable is ordinal categorical, nominal categorical, discrete numerical, or continuous numerical and select an appropriate display for each.",
+        "minimum_width": "Classify at least four variables by type; match each to an appropriate display type with justification.",
+        "typical_width": "Classify variables across all four types; justify display choices (e.g. why a histogram suits continuous data, why a bar chart suits categorical data); identify mismatched display/variable combinations in given examples.",
+        "wider": [
+          "Investigate real datasets and identify cases where variable classification is ambiguous (e.g. age as discrete or continuous, rating scales as ordinal or discrete)",
+          "Compare how different display choices for the same data emphasise different features of the distribution"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often default to one display type regardless of variable type. Encountering varied variable types and their appropriate displays across diverse contexts builds the classification judgment needed for independent data work."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly classifies a variable by type.",
+          "Student selects and justifies an appropriate display for a given variable type."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Mode, range and shape as comparative tools",
+        "progression_checkpoint": "Students can calculate or identify the mode and range of a data set and describe its shape, and use these to make comparative statements between two data sets.",
+        "minimum_width": "Find the mode and range of two given data sets; describe the shape of each distribution (symmetric, skewed, uniform, bimodal); make at least two comparative statements using these measures.",
+        "typical_width": "Calculate mode and range for a range of dataset types; describe shape using appropriate vocabulary; compare two datasets systematically using mode, range, and shape; explain what differences in range reveal about spread; recognise the mode's limitations for comparison.",
+        "wider": [
+          "Investigate how the same shape description can fit very different datasets \u2014 what additional information is needed for useful comparison?",
+          "Explore what median and mean could add to comparisons that mode and range miss \u2014 introduce informally without requiring formal calculation"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who use mode and range in isolation often make superficial comparisons. Multiple dataset contexts \u2014 survey data, sports data, measurement data \u2014 help students develop judgment about when mode is informative, when range is the key comparison, and when shape matters most.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Mode, range, and shape as comparative measures are the gateway to statistical reasoning. The limitations of each measure and the need for multiple measures to characterise distributions provide rich discussion for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies the mode, range, and shape of a dataset.",
+          "Student makes at least two specific comparative statements between two datasets using these measures."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparative displays and interpretation",
+        "progression_checkpoint": "Students can construct or read comparative displays (side-by-side bar charts, parallel dot plots) and use them to compare distributions, stating conclusions in the context of the data.",
+        "minimum_width": "Read a provided comparative display; identify differences in mode, range, and shape between the two distributions; state at least two conclusions in context.",
+        "typical_width": "Construct comparative displays from provided data; identify and discuss distribution differences using mode, range, and shape; consider what the comparison reveals about the context; acknowledge limitations of the comparison.",
+        "wider": [
+          "Investigate comparative displays from media sources (sports statistics, survey results, health data) and evaluate the claims made from the comparison",
+          "Compare distributions from First Nations Australian community data contexts \u2014 e.g. comparing outcomes across contexts \u2014 and discuss what fair and respectful data comparison looks like"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Comparative interpretation requires students to read the display, apply mode/range/shape reasoning, and construct contextual statements. This coordinates statistical literacy, mathematical reasoning, and contextual judgment simultaneously."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student reads a comparative display and states two specific distributional differences between the datasets.",
+          "Student relates the statistical comparison to the context of the data (not just the numbers)."
+        ]
+      }
+    ]
+  }
+}

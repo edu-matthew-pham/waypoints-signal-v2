@@ -1,0 +1,100 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9ST05",
+    "title": "Statistical Investigations",
+    "description": "plan and conduct statistical investigations involving the collection and analysis of different kinds of data; report findings and discuss the strength of evidence to support any conclusions",
+    "strand": "Statistics",
+    "mode": "B",
+    "prior_knowledge": "Students can plan and conduct statistical investigations using samples, make population inferences acknowledging uncertainty (AC9M8ST04). They have not yet applied this across different kinds of data (primary and secondary, quantitative and qualitative), or evaluated the strength of evidence to support conclusions.",
+    "progression_endpoint": "Students plan and conduct statistical investigations across different data types, report findings, and evaluate the strength of evidence supporting their conclusions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning the investigation",
+        "progression_checkpoint": "Students can pose a statistical question and plan a data collection strategy appropriate to the question, identifying potential sources of bias.",
+        "minimum_width": "Pose one statistical question; identify whether primary or secondary data is more appropriate; describe one data collection method and one potential source of bias.",
+        "typical_width": "Pose a clear statistical question; plan data collection including source (primary or secondary), method, sample size and sampling strategy; identify potential sources of bias and how to minimise them; consider ethical and fair data collection practices.",
+        "wider": [
+          "Pose statistical questions in relation to reconciliation and First Nations Australian communities; plan data collection from multiple sources, considering relationships between variables and cultural sensitivity in data collection",
+          "Plan a multi-variable investigation (e.g. factors affecting location for a tropical fruit plantation) using secondary data from multiple sources; identify what data is available and what its limitations are",
+          "Investigate how ABS and other government agencies plan large-scale data collection \u2014 evaluate the methods they use and the potential sources of error"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Poses a statistical question that can be investigated with data",
+          "Identifies an appropriate data source (primary or secondary) and justifies the choice",
+          "Identifies at least one potential source of bias in the planned data collection"
+        ],
+        "related_standards": [
+          "AC9M8ST04",
+          "AC9M9ST01",
+          "AC9M9ST02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Collecting and analysing data",
+        "progression_checkpoint": "Students can collect or access data appropriate to the investigation and analyse it using suitable representations and summary statistics.",
+        "minimum_width": "Collect or access data for the investigation; represent it using an appropriate display; calculate at least one summary statistic relevant to the question.",
+        "typical_width": "Collect or access data from appropriate sources; clean and organise data as needed; represent using appropriate displays for the data type; calculate relevant summary statistics (centre, spread); identify patterns or relationships in the data relevant to the investigation question.",
+        "wider": [
+          "Access and analyse secondary data from the ABS or equivalent databases; compare data from multiple sources and evaluate consistency",
+          "Plan and conduct a consumer research investigation with attention to sampling techniques, data cleaning and the difference between primary and secondary data quality",
+          "Investigate multi-variable data (e.g. rainfall, land prices, farming costs across multiple regions) and analyse relationships between variables"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often analyse data without maintaining a connection to the original question \u2014 reporting statistics and graphs without explaining what they mean for the investigation. Scaffolding the reasoning loop (What did I find? What does this mean for my question?) keeps the analysis purposeful."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Collects or accesses data that is relevant to the stated statistical question",
+          "Represents the data using an appropriate display type",
+          "Calculates at least one relevant summary statistic and states what it means for the investigation"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Reporting findings and evaluating evidence",
+        "progression_checkpoint": "Students can report investigation findings and evaluate the strength of evidence supporting their conclusions.",
+        "minimum_width": "State one finding from the data analysis; explain what evidence supports it; identify one limitation of the evidence.",
+        "typical_width": "Report investigation findings clearly with supporting data evidence; distinguish between strong and weak evidence; discuss what the data does and does not support; acknowledge uncertainty and limitations; identify how the investigation could be improved.",
+        "wider": [
+          "Report findings from an investigation into a socially significant topic (e.g. reconciliation data, health disparities) \u2014 discuss the strength of evidence carefully and consider what further data would be needed to support stronger conclusions",
+          "Compare conclusions drawn from investigations using different data sources or methods for the same question \u2014 discuss how data collection choices affect conclusions",
+          "Evaluate the strength of statistical evidence in a published report and compare to the strength of evidence from the student's own investigation"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Reporting and evaluation integrate the full investigation cycle \u2014 question, data, analysis and conclusion. The integration challenge is producing a conclusion that is honest about what the evidence supports and what it does not, rather than overstating findings. This distinguishes mature statistical reasoning from mechanical data processing.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating the strength of evidence is a genuinely transferable skill that underpins scientific literacy, civic reasoning and decision-making. Investigations into socially significant topics (reconciliation, health disparities, environmental issues) give this skill real stakes and develop students' capacity to engage critically with data-based arguments.",
+        "success_criteria": [
+          "States at least one finding supported by specific data evidence",
+          "Evaluates the strength of that evidence (strong/moderate/weak) and explains why",
+          "Identifies at least one limitation of the investigation that affects confidence in the conclusion"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

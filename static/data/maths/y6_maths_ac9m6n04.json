@@ -1,0 +1,107 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N04",
+    "title": "Add and subtract decimals",
+    "description": "Apply knowledge of place value to add and subtract decimals, using digital tools where appropriate; use estimation and rounding to check the reasonableness of answers",
+    "strand": "number_concepts",
+    "mode": "A",
+    "prior_knowledge": "Students can interpret, compare and order numbers with more than 2 decimal places using place value understanding (AC9M5N01). They can solve problems involving multiplication of larger numbers and use estimation to check reasonableness (AC9M5N06). They have not yet systematically applied place value to addition and subtraction of decimals with different numbers of decimal places.",
+    "progression_endpoint": "Students can apply place value knowledge to add and subtract decimals, use digital tools where appropriate, and use estimation and rounding to check the reasonableness of answers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Place value alignment for decimal operations",
+        "progression_checkpoint": "Students can align decimal numbers by place value to set up addition and subtraction calculations, including numbers with different numbers of decimal places.",
+        "minimum_width": "Set up addition and subtraction of two decimal numbers by aligning decimal points; explain why alignment ensures like values are combined; add zeros as placeholders where needed.",
+        "typical_width": "Align decimal numbers with varying numbers of decimal places for both addition and subtraction; use placeholder zeros to maintain alignment; apply alignment strategy to both vertical algorithm and mental calculation setups.",
+        "wider": [
+          "Investigate what happens when decimals are added without alignment (common error) and diagnose the resulting errors",
+          "Connect decimal place value alignment to the same principle in whole number algorithms \u2014 why do we align ones with ones?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Misalignment is the primary error in decimal addition and subtraction. Students benefit from seeing the error pattern in varied examples \u2014 not just being shown the correct method \u2014 to understand why alignment is necessary, not merely procedural.",
+            "flags": [
+              "hinge"
+            ]
+          },
+          {
+            "mode": "consolidation",
+            "reason": "Alignment must become automatic before multi-digit decimal calculations are reliable. This is a precision prerequisite for the calculation nodes below.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Misalignment in place value setup produces systematic errors in Node 2 calculations. Students who do not reliably align decimals before calculating will produce confidently wrong answers in every subsequent decimal addition and subtraction task.",
+        "success_criteria": [
+          "Student correctly aligns decimal numbers for calculation, including adding placeholder zeros where needed.",
+          "Student explains why alignment ensures correct place value combinations."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Adding and subtracting decimals",
+        "progression_checkpoint": "Students can accurately add and subtract decimal numbers with up to three decimal places using written and mental strategies.",
+        "minimum_width": "Add and subtract pairs of decimal numbers with up to two decimal places using a written algorithm; check result is reasonable by inspection.",
+        "typical_width": "Add and subtract decimal numbers with up to three decimal places using written algorithms, mental strategies (e.g. partitioning, compensation), and digital tools; select the most appropriate strategy for a given calculation.",
+        "wider": [
+          "Investigate multi-step decimal calculations in realistic contexts (e.g. calculating change, comparing totals across multiple items)",
+          "Explore when mental strategies for decimal addition/subtraction are more efficient than written algorithms and articulate the conditions"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate decimal calculation requires fluency with the written algorithm and reliable place value alignment. Errors compound across multi-step problems. Targeted practice builds the precision needed for application contexts.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Fluent, accurate decimal addition and subtraction is a prerequisite for AC9M6N07 (fractions, decimals and percentages of quantities) and AC9M6N09 (modelling with rational numbers). Students with persistent calculation errors cannot execute multi-step rational number problems reliably.",
+        "success_criteria": [
+          "Student accurately adds and subtracts decimal numbers with up to two decimal places using a written strategy.",
+          "Student identifies and corrects a calculation error in a provided worked example."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Estimation and rounding as a reasonableness check",
+        "progression_checkpoint": "Students can round decimal numbers to check the reasonableness of addition and subtraction results, and identify when a calculated answer is unreasonable.",
+        "minimum_width": "Round two decimal numbers to the nearest whole number or one decimal place; use rounded values to estimate a sum or difference; compare estimate to calculated answer and judge reasonableness.",
+        "typical_width": "Apply rounding and estimation before or after calculations to judge reasonableness; identify and explain errors in given decimal calculations using estimation; select appropriate rounding precision for the context (e.g. money to the nearest cent, measurements to one decimal place).",
+        "wider": [
+          "Investigate real-world contexts where estimation is more useful than exact calculation (e.g. shopping budgets, approximate measurements) and justify when each is appropriate",
+          "Compare different estimation strategies (front-end estimation, rounding to different precisions) and evaluate their accuracy across different calculation types"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often use estimation as a post-hoc check but do not have a concept of what 'unreasonable' looks like until they encounter varied contexts. Using estimation across money, measurement, and data contexts builds the judgment needed to catch errors automatically.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Estimation as a mathematical habit of mind is applicable across all number operations and real-world contexts. Advancing students benefit from developing judgment about when estimation suffices and how to select appropriate precision \u2014 skills that transfer across the curriculum.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student uses rounding to estimate a decimal sum or difference and compares the estimate to their calculated answer.",
+          "Student identifies whether a given calculated answer is reasonable using estimation and explains their reasoning."
+        ]
+      }
+    ]
+  }
+}

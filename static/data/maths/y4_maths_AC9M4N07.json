@@ -1,0 +1,81 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4N07",
+    "title": "Estimation and rounding",
+    "description": "Choose and use estimation and rounding to check and explain the reasonableness of calculations including the results of financial transactions",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can estimate quantities in collections and assess reasonableness of calculations (AC9M3N05). They have not yet applied rounding systematically to calculations or used estimation in financial contexts.",
+    "progression_endpoint": "Students use rounding and estimation to check the reasonableness of calculations and financial transactions, explaining whether an estimate is above or below the actual answer and why.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Rounding to convenient numbers",
+        "progression_checkpoint": "Students can round numbers to the nearest 10 or 100 and explain the rounding rule.",
+        "minimum_width": "Round one number to the nearest 10 and one to the nearest 100; explain the rule for deciding which way to round.",
+        "typical_width": "Round two- and three-digit numbers to the nearest 10 or 100; explain the midpoint rule (5 rounds up); apply to prices and measurements; recognise that rounding to a closer power of 10 gives a more accurate estimate.",
+        "wider": [
+          "Investigate rounding in different directions (always up, always down, round-half-up) and discuss when each is appropriate — e.g. always rounding up when budgeting to avoid overspending",
+          "Explore how the choice of rounding precision (to nearest 10 vs nearest 100) affects the usefulness of an estimate for different purposes"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can round any two- or three-digit number to the nearest 10 and 100",
+          "Students can explain which way a number rounds and why"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Estimation as a check",
+        "progression_checkpoint": "Students can use estimation to determine what range a calculation answer should fall within, and identify unreasonable answers.",
+        "minimum_width": "Estimate the result of one calculation by rounding and determine a bounding range (the answer will be between ___ and ___); identify whether a given answer is reasonable.",
+        "typical_width": "Use rounded estimates to determine a range for calculation results; identify whether computed answers are reasonable; explain the effect of rounding both numbers up, both down, or one each way on the estimate; apply to multi-step calculations.",
+        "wider": [
+          "Investigate the accumulated effect of rounding in multi-step calculations — when does rounding at each step compound into a significant error?",
+          "Compare estimation strategies for the same problem: front-end estimation vs rounding vs compatible numbers, and discuss which gives a closer estimate"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need the reasoning scaffold 'what am I over-counting and what am I under-counting when I round?' to develop the habit of predicting estimate direction. Without this, estimation remains a ritual rather than a genuine check on reasonableness."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can estimate the result of a calculation and state a bounding range",
+          "Students can identify an unreasonable answer using estimation and explain why it is unreasonable"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Estimation in financial contexts",
+        "progression_checkpoint": "Students can apply estimation and rounding to financial transactions and explain their reasoning.",
+        "minimum_width": "Estimate the total cost of two or three items by rounding prices; explain whether the estimate is likely to be above or below the actual total.",
+        "typical_width": "Use rounded amounts to complete an estimated budget for a shopping trip or event; explain why overestimating is appropriate when budgeting; apply estimation to check financial calculations for reasonableness.",
+        "wider": [
+          "Plan a complete budget for a class event or excursion, using estimation throughout and justifying all rounding decisions in terms of the financial context",
+          "Investigate how supermarket price rounding (everything to the nearest 5 cents in cash transactions) is applied and calculate the cumulative effect on a shopping basket"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Financial estimation contexts are authentically motivating and connect to numeracy beyond school. Students who engage with budget estimation develop practical number sense and learn that the direction of rounding is a purposeful choice.",
+        "success_criteria": [
+          "Students can estimate a total cost by rounding prices and explain whether the estimate is an overestimate or underestimate",
+          "Students can justify a rounding direction decision in a financial context (e.g. round up to avoid overspending)"
+        ]
+      }
+    ]
+  }
+}

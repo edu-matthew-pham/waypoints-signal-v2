@@ -1,0 +1,67 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4N04",
+    "title": "Fractions on number lines",
+    "description": "Count by fractions including mixed numerals; locate and represent these fractions as numbers on number lines",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise unit fractions and their multiples and combine fractions with the same denominator (AC9M3N02). They have not yet counted past one whole using fractions or represented mixed numerals on number lines.",
+    "progression_endpoint": "Students count by unit fractions past one whole, represent mixed numerals on number lines, and convert between mixed numerals and improper fractions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Counting past one whole with fractions",
+        "progression_checkpoint": "Students can count by fractions past one whole and name mixed numerals in the counting sequence.",
+        "minimum_width": "Count by quarters from zero to at least two wholes, naming each step (one-quarter, two-quarters, three-quarters, one-whole, one-and-one-quarter…); represent on a number line.",
+        "typical_width": "Count by halves, quarters and thirds; name fractions in the counting sequence including mixed numerals; recognise when different counting sequences land at the same position (e.g. 2/4 = 1/2); use physical objects to ground the count.",
+        "wider": [
+          "Use parallel number lines for halves, quarters and thirds simultaneously, investigating which fraction counts coincide and explaining the equivalence",
+          "Extend counting to sixths and eighths, connecting to the fraction families from AC9M4N03"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "A common error is treating fractions on the number line as labels rather than quantities — placing 1/4, 2/4, 3/4 without understanding that 4/4 = 1 and that counting continues beyond. Parallel number lines showing multiple fraction sequences make the continuity of the counting sequence across one whole visible.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat fractions as labels rather than quantities cannot meaningfully engage in Node 2 — converting between mixed numerals and improper fractions requires understanding that the fraction count continues across whole-number positions, not that it resets.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can continue a fraction counting sequence past one whole, correctly naming each mixed numeral",
+          "Students can locate at least three fractions including one mixed numeral on a number line"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Mixed numerals and improper fractions",
+        "progression_checkpoint": "Students can convert between mixed numerals and improper fractions and represent both on a number line.",
+        "minimum_width": "Convert one mixed numeral to an improper fraction (e.g. 1 and 1/4 = 5/4) and represent it on a number line; explain the conversion.",
+        "typical_width": "Convert between mixed numerals and improper fractions in both directions; represent on number lines; explain the connection (e.g. 1 and 3/4 = 7/4 because there are 4 quarters in a whole and 3 more); count in tenths and recognise that 10 tenths = 1.",
+        "wider": [
+          "Investigate conversion using physical objects (e.g. cutting oranges into quarters — 7 quarter-pieces = 1 and 3/4 oranges = 7/4 oranges) to ground the abstract conversion in a countable context",
+          "Use number lines to explore the relationship between tenths, halves, quarters and fifths — identifying positions that can be named by multiple fractions"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The conversion algorithm (multiply the whole number by the denominator and add the numerator) is easily memorised without understanding. Scaffolding the reasoning through the counting sequence or physical partitioning ensures students can reconstruct the conversion from understanding rather than recall a procedure."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can convert a mixed numeral to an improper fraction and explain the reasoning",
+          "Students can locate a mixed numeral on a number line by correctly subdividing the unit intervals"
+        ]
+      }
+    ]
+  }
+}

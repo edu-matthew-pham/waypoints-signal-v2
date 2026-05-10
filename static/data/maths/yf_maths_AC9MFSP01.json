@@ -1,0 +1,93 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFSP01",
+    "title": "Familiar Shapes",
+    "description": "sort, name and create familiar shapes; recognise and describe familiar shapes within objects in the environment, giving reasons",
+    "strand": "Space",
+    "mode": "A",
+    "prior_knowledge": "Students have informal experience with shapes in play and everyday objects. They may be able to identify some shapes by name (circle, square) in canonical orientations. They have not yet systematically sorted shapes by attributes or described shapes within objects in the environment.",
+    "progression_endpoint": "Students sort, name and create familiar shapes; recognise and describe familiar shapes within objects in the environment, giving reasons for their identification.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Naming and recognising familiar shapes",
+        "progression_checkpoint": "Students can name familiar shapes (circle, triangle, rectangle, square) and recognise them in different sizes and orientations.",
+        "minimum_width": "Name at least three familiar shapes (circle, triangle, rectangle or square) and identify them in a collection that includes varied sizes and orientations.",
+        "typical_width": "Name circles, triangles, rectangles and squares in a range of sizes and orientations; recognise these shapes in everyday objects; connect shape names to their defining features (number of sides, curved vs straight).",
+        "wider": [
+          "Describe and name shapes observed on Country/Place — connecting shape recognition to the natural and built environment in First Nations contexts",
+          "Investigate shapes within familiar objects (bicycles, kitchen pantry items, toy vehicles) — identifying and naming the shapes they can see"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly recognise shapes only in canonical orientations and sizes — a triangle must be upright and equilateral, a rectangle must be landscape. Encountering shapes in many sizes, orientations and colours (with colour, size and orientation explicitly varied) is what builds recognition based on defining features rather than prototype matching.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to identify shapes within environmental objects — which appear in arbitrary sizes and orientations, not canonical ones. Students whose recognition is prototype-based will fail to identify shapes embedded in objects or rotated in artworks, undermining the environmental description and reasoning the descriptor demands.",
+        "success_criteria": [
+          "Student correctly names at least three familiar shapes in varied sizes and orientations",
+          "Student identifies a named shape within at least two everyday objects in the environment"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sorting shapes by attributes",
+        "progression_checkpoint": "Students can sort a collection of shapes by a chosen attribute and describe how they sorted.",
+        "minimum_width": "Sort a collection of shapes into two groups using one attribute (e.g. number of sides, curved vs straight) and name the sorting rule.",
+        "typical_width": "Sort shapes by different attributes (number of sides, colour, size, curved vs straight); re-sort the same collection using a different attribute; describe sorting decisions and give reasons.",
+        "wider": [
+          "Sort shapes using two attributes simultaneously (e.g. shapes that are both triangles AND green) and describe the combined rule",
+          "Describe and sort shapes found on Country/Place or in First Nations artworks and cultural objects into groups based on shape"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student sorts a collection of shapes by a self-chosen attribute and correctly places each shape",
+          "Student names the sorting rule and explains at least one placement decision"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Creating shapes and describing shapes in the environment",
+        "progression_checkpoint": "Students can create familiar shapes and recognise and describe familiar shapes within objects in the environment, giving reasons for their identification.",
+        "minimum_width": "Create at least two different familiar shapes using materials (e.g. drawing, tracing, blocks); identify and name a shape within one object in the environment and give a reason.",
+        "typical_width": "Create familiar shapes using a range of materials; recognise and name familiar shapes within objects in the environment; describe shape features that support the identification (e.g. 'it's a rectangle because it has four sides and they are all straight'); give reasons for shape identifications.",
+        "wider": [
+          "Create a picture or pattern using combinations of familiar shapes, describing each shape used and explaining why it was chosen",
+          "Explore shapes found on Country/Place and in First Nations artworks — recreating shapes using art materials and sorting them into groups",
+          "Create shapes using groups of people (e.g. holding hands to form a circle or triangle) — connecting shape properties to physical experience"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Describing shapes within objects in the environment with reasons requires students to name a shape and then justify the identification with reference to shape features — not just 'it looks like a square' but 'it has four equal sides'. This reasoning scaffold (name + feature evidence) is the specific thinking move the descriptor demands.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates shape naming (node 1) and attribute knowledge from sorting (node 2) into productive creation and environmental recognition. Students must apply feature knowledge actively — to create accurate shapes and to justify environmental identifications. The integration of creation and description is the endpoint demand."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Creating pictures with shapes, exploring shapes in cultural and natural contexts, and connecting shapes to environmental objects gives advancing students rich engagement with spatial thinking. First Nations shape contexts connect mathematical shape recognition to cultural observation.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student creates at least two familiar shapes using materials that are recognisable as the named shape",
+          "Student identifies a familiar shape within an object in the environment and gives at least one reason based on shape features"
+        ]
+      }
+    ]
+  }
+}

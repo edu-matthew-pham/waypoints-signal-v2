@@ -1,0 +1,88 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LY05",
+    "title": "Build and monitor meaning",
+    "description": "use comprehension strategies such as visualising, predicting, connecting, summarising, monitoring and questioning to build literal and inferred meaning",
+    "strand": "Literacy — Analysing",
+    "mode": "B",
+    "prior_knowledge": "Students use comprehension strategies to build literal and inferred meaning, drawing on vocabulary and knowledge of text structures (AC9E1LY05). They have not yet added monitoring and summarising strategies, or made inferences by integrating print, image and prior knowledge simultaneously.",
+    "progression_endpoint": "Students can use comprehension strategies including visualising, predicting, connecting, summarising, monitoring and questioning to build literal and inferred meaning.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Predicting and connecting",
+        "progression_checkpoint": "Students can use prior knowledge and text cues to predict content and vocabulary, and connect text to personal experience or prior knowledge.",
+        "minimum_width": "Make one prediction before or during reading that is supported by at least one text cue or prior knowledge.",
+        "typical_width": "Use predicting strategies — vocabulary prediction from topic and purpose, content prediction from images and headings — across a range of text types; connect texts to personal experience or prior knowledge and discuss the connections.",
+        "wider": [
+          "Predict vocabulary likely to appear in texts from different subjects based on topic knowledge, then verify predictions during reading",
+          "Connect two texts on the same topic and discuss what each adds to or changes about prior knowledge"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student makes a prediction supported by a text cue or prior knowledge before reading.",
+          "Student makes at least one connection between the text and prior knowledge or experience during or after reading."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Making inferences",
+        "progression_checkpoint": "Students can make a supportable inference by integrating information from print, images and prior knowledge.",
+        "minimum_width": "Make one inference and identify at least two sources of information used to support it (e.g. text + image, text + prior knowledge).",
+        "typical_width": "Make inferences across a range of text types — narrative and informative — integrating print, image and prior knowledge; identify the main idea of a text as a form of inference.",
+        "wider": [
+          "Use a graphic organiser to record text evidence, image evidence and prior knowledge used to support an inference, then discuss how confident the inference is",
+          "Compare inferences made by different readers about the same text and discuss why they might differ"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often treat inference as guessing. The key misconception is that inferences are unsupported. Multiple text examples — where the inference is clearly grounded in combinations of evidence sources — resolve this. More text-type and evidence-source combinations is the productive investment.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Inference-making across evidence sources is a rich comprehension direction — graphic organisers that map evidence sources, and comparison of different readers' inferences, offer genuine analytical depth within Year 2.",
+        "success_criteria": [
+          "Student makes an inference that integrates at least two sources of information.",
+          "Student can identify which sources of information support the inference (text, image, prior knowledge)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Monitoring, summarising and questioning",
+        "progression_checkpoint": "Students can monitor their comprehension, identify key information for summarising, and generate questions during and after reading.",
+        "minimum_width": "Identify the main idea of a text and generate at least one question about something they want to know more about.",
+        "typical_width": "Apply monitoring, summarising and questioning strategies across informative and persuasive texts — identifying main idea, tracking comprehension, generating questions before, during and after reading.",
+        "wider": [
+          "Use a graphic organiser to represent connections between characters, order of events or sequence of information after reading",
+          "Compare summaries made by different students of the same text and discuss what was included or omitted and why"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to deploy multiple comprehension strategies simultaneously — monitoring while reading, identifying key ideas for summarising, generating questions throughout. Coordinating these as a set of active reading behaviours is the integration demand."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify the main idea of a text.",
+          "Student generates at least one question during or after reading that goes beyond what was explicitly stated.",
+          "Student identifies when their comprehension has broken down and takes a monitoring action."
+        ]
+      }
+    ]
+  }
+}

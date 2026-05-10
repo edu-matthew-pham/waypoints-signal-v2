@@ -1,0 +1,104 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7A05",
+    "title": "Tables of Values and Graphing",
+    "strand": "Algebra",
+    "description": "generate tables of values from visually growing patterns or the rule of a function; describe and plot these relationships on the Cartesian plane",
+    "mode": "A",
+    "prior_knowledge": "Students can plot points in all four quadrants of the Cartesian plane (from AC9M6SP02). Students can write rules for growing patterns (from AC9M6A01, AC9M6A03).",
+    "progression_endpoint": "Students generate tables of values from growing patterns or function rules, plot the relationships on the Cartesian plane, and describe the resulting graph.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Generating tables of values from patterns",
+        "progression_checkpoint": "Students identify the rule in a visually growing pattern and use it to generate a table of values.",
+        "minimum_width": "Given a visual growing pattern, complete a table of values for the first 5 terms.",
+        "typical_width": "Identify the rule in words and algebraic notation; use the rule to generate values including for non-consecutive terms.",
+        "wider": [
+          "Investigate growing patterns using physical materials (tiles, blocks) and connect the physical growth to the algebraic rule.",
+          "Compare two growing patterns — which grows faster? How can you tell from the table?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only see numerical patterns without visual context often generate tables mechanically without understanding the rule. Visual pattern contexts anchor the algebraic structure."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly generates a table of values from a growing pattern.",
+          "Identifies the rule that generates the values.",
+          "Can find the value for a term not shown in the original pattern."
+        ],
+        "related_standards": [
+          "AC9M7A02"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Generating tables from function rules",
+        "progression_checkpoint": "Students generate a table of ordered pairs from a given function rule and identify the relationship between input and output values.",
+        "minimum_width": "Given a simple function rule (e.g. y = 2x + 1), generate a table of at least 5 ordered pairs.",
+        "typical_width": "Generate tables from various linear function rules; describe the pattern in the output values; identify the effect of changing the rule.",
+        "wider": [
+          "Use a function machine or spreadsheet to generate tables for multiple rules and compare outputs side by side.",
+          "Investigate what happens to the table when the rule changes: how does doubling the coefficient change the values?"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Systematic generation of ordered pairs requires procedural care that students need to practise before plotting. Errors in the table cascade into errors in the graph.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Errors in the table of ordered pairs cascade directly into Node 3 — incorrectly generated pairs produce a graph that doesn't represent the function rule, meaning students cannot see or describe the relationship they were supposed to plot.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly generates a table of ordered pairs from a given function rule.",
+          "Labels the table with input (x) and output (y) columns.",
+          "Does not substitute the same value for both x and y."
+        ],
+        "related_standards": [
+          "AC9M7A06"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Plotting and describing relationships on the Cartesian plane",
+        "progression_checkpoint": "Students plot ordered pairs from a table of values on the Cartesian plane and describe the resulting relationship.",
+        "minimum_width": "Plot a set of ordered pairs from a table and connect them; describe whether the relationship is linear.",
+        "typical_width": "Plot and describe relationships for several linear rules; identify that linear functions produce straight lines; describe slope informally.",
+        "wider": [
+          "Compare two functions plotted on the same axes — identify what differs (steepness, y-intercept) and connect to the rule.",
+          "Investigate the graphical representation of a non-linear function (e.g. y = x²) from a table — contrast with linear."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Plotting connects the table of values, the function rule, and the Cartesian plane simultaneously. Describing the resulting graph requires coordinating all three representations.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly plots ordered pairs from a table on the Cartesian plane.",
+          "Draws a line through plotted points for a linear relationship.",
+          "Describes the relationship shown in the graph using appropriate language."
+        ],
+        "related_standards": [
+          "AC9M7SP03",
+          "AC9M7A04"
+        ],
+        "width_opportunity_reason": "Comparing two functions on the same axes and connecting visual differences to rule differences (steepness, intercept) is genuinely rich — advancing students can begin to reason about what the rule parameters control."
+      }
+    ]
+  }
+}

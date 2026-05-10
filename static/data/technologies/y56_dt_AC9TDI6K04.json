@@ -1,0 +1,76 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6K04",
+    "title": "Binary representation",
+    "description": "Explore how data can be represented by off and on states (zeros and ones in binary)",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how digital systems represent all data using numbers (AC9TDI6K03). They understand that text and other data types are stored as numbers. They have not yet explored how numbers themselves are represented in a digital system \u2014 the binary (on/off) basis of all digital data.",
+    "progression_endpoint": "Students explore how on/off states in digital circuits can represent zeros and ones, and how binary is the fundamental representation underlying all digital data.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "On/off states represent zero and one",
+        "progression_checkpoint": "Students can explain that an on/off state in a digital circuit represents the digits one and zero",
+        "minimum_width": "Demonstrate or explain that a two-state system (on/off, yes/no, long/short) can represent 1 and 0; connect this to how digital systems store data at the physical level",
+        "typical_width": "Demonstrate that an on/off state in a circuit represents 1 and 0; recognise that yes/no questions, Morse code dashes and dots, and circuit states all use the same two-state principle; explain that digital systems use billions of these switches to store complex data",
+        "wider": [
+          "Create a binary representation of a word or phrase (e.g. the name of a local Country/Place in a First Nations language) using beads, switches or symbols \u2014 demonstrating that any two-state medium can encode binary data",
+          "Investigate how punch cards or early telegraph systems used physical two-state mechanisms to encode information before electronic computers existed"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often struggle to see that binary is an abstract principle, not a specific technology. Seeing the same on/off structure in circuits, Morse code, beads, and yes/no questions helps students abstract the principle: any two distinguishable states can encode 0 and 1.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The collaborative binary banner/bead activity with First Nations language names (from the elaboration) is genuinely rich \u2014 it grounds an abstract representation concept in a physical, culturally meaningful artifact that also serves as an Acknowledgement of Country.",
+        "success_criteria": [
+          "Explains that an on/off state represents 1 and 0 in a digital system",
+          "Gives at least one example of a two-state system representing binary data"
+        ],
+        "related_standards": [
+          "AC9TDI6K03"
+        ],
+        "hinge": true,
+        "hinge_reason": "The on/off state = 0/1 concept is definitionally required for N2 \u2014 without it, the integration of numeric representation (K03) with physical storage cannot proceed. N2's chain (data \u2192 number \u2192 binary \u2192 physical state) collapses at the last step."
+      },
+      {
+        "id": 2,
+        "label": "Binary connects numeric representation to physical storage",
+        "progression_checkpoint": "Students can explain how binary connects the numeric representation of data (from AC9TDI6K03) to the physical on/off states in a digital system",
+        "minimum_width": "Explain that numbers stored in a digital system are ultimately represented as sequences of on/off states \u2014 each digit (0 or 1) corresponds to one switch state",
+        "typical_width": "Trace the connection from data (e.g. the letter 'A') \u2192 number (65 in ASCII) \u2192 binary sequence (01000001) \u2192 physical on/off states; explain each step in the chain",
+        "wider": [
+          "Represent a short word in binary using a provided encoding table; explain that the digital system performs this translation billions of times per second",
+          "Investigate how the number of binary digits (bits) limits how many different values can be stored \u2014 1 bit = 2 values, 2 bits = 4 values, 8 bits = 256 values"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the data-as-numbers understanding from K03 with the binary/on-off understanding from K04 node 1. Tracing the full chain (data \u2192 number \u2192 binary \u2192 physical state) is the integration act \u2014 students who cannot connect these steps have two disconnected facts rather than a system understanding."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Connects the idea that data is stored as numbers to the idea that numbers are stored as binary sequences",
+          "Can describe the on/off state interpretation of at least one binary digit"
+        ],
+        "related_standards": [
+          "AC9TDI6K03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

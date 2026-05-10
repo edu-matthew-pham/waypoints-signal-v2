@@ -1,0 +1,101 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9M01",
+    "title": "Volume and Surface Area",
+    "description": "solve problems involving the volume and surface area of right prisms and cylinders using appropriate units",
+    "strand": "Measurement",
+    "mode": "A",
+    "prior_knowledge": "Students can solve problems involving the circumference and area of a circle using formulas (AC9M8M03). They have not yet extended these to three-dimensional objects \u2014 finding surface area by unfolding nets, or calculating volumes of right prisms and cylinders.",
+    "progression_endpoint": "Students solve problems involving the surface area and volume of right prisms and cylinders using appropriate formulas and units.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Surface area from nets",
+        "progression_checkpoint": "Students can calculate the surface area of a right prism or cylinder by identifying and summing the areas of all faces.",
+        "minimum_width": "Draw or identify the net of a rectangular prism; calculate the area of each face; sum to find total surface area with appropriate units.",
+        "typical_width": "Analyse nets of right prisms (rectangular, triangular) and cylinders; identify all faces and their dimensions; calculate the area of each face and sum to find surface area; derive general surface area formulas from nets.",
+        "wider": [
+          "Investigate objects and technologies of First Nations Australians (e.g. woven baskets, bark containers) \u2014 analyse their surface structure and estimate the surface area in context",
+          "Compare the surface area of different right prisms with the same volume \u2014 conjecture which shape minimises surface area and test with calculations",
+          "Design packaging for a given object and determine the minimum material required, considering waste from cutting"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "A common error is double-counting faces or missing curved surfaces (for cylinders). Systematic face-by-face accounting using the net \u2014 labelling each face, calculating its area, and summing \u2014 prevents these errors. The scaffold is the net itself: it makes every face explicit.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies all faces of a right prism or cylinder and their dimensions",
+          "Calculates the area of each face and sums to give total surface area",
+          "Uses appropriate units (cm\u00b2, m\u00b2) and maintains consistency throughout"
+        ],
+        "related_standards": [
+          "AC9M8M03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Systematic face-by-face accounting is prerequisite for N3 problem-solving. Students who miss curved faces (cylinder lateral surface) or double-count produce wrong surface areas and cannot reliably select the correct measure in applied problems."
+      },
+      {
+        "id": 2,
+        "label": "Volume of right prisms and cylinders",
+        "progression_checkpoint": "Students can calculate the volume of right prisms and cylinders using V = Ah (cross-sectional area \u00d7 height).",
+        "minimum_width": "Calculate the volume of one right prism and one cylinder using the appropriate formula; state units correctly.",
+        "typical_width": "Calculate the volume of a range of right prisms (rectangular, triangular) and cylinders; apply the principle V = Ah to connect cross-sectional area to volume; solve practical problems involving volume (e.g. capacity of a tank).",
+        "wider": [
+          "Investigate the relationship between volume and capacity (1 cm\u00b3 = 1 mL) in practical measurement contexts",
+          "Find different prisms with the same volume but different surface areas; conjecture about which prism shape minimises surface area for a given volume",
+          "Investigate the volume of objects in First Nations Australian technology and explore how volume relates to capacity and function"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the cross-sectional area as the base of the V=Ah formula",
+          "Calculates volume correctly for both right prisms and cylinders",
+          "Uses appropriate units (cm\u00b3, m\u00b3, L) and converts between them where required"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Solving problems with surface area and volume",
+        "progression_checkpoint": "Students can apply surface area and volume calculations to solve practical problems, including selecting the appropriate measure for the context.",
+        "minimum_width": "Solve one practical problem requiring surface area and one requiring volume; identify which measure is appropriate for each context.",
+        "typical_width": "Solve a range of practical problems involving both surface area and volume; distinguish contexts requiring surface area (material, wrapping, coating) from those requiring volume (capacity, filling, displacement); apply appropriate formulas and units throughout.",
+        "wider": [
+          "Design a can-cooler for a standard soft-drink can \u2014 determine the amount of material needed and find the most cost-efficient way to cut the pieces from a rectangular sheet",
+          "Investigate how manufacturers determine dimensions for packaging that minimises material while meeting volume requirements",
+          "Explore how surface area to volume ratio affects biological organisms at different scales (e.g. why small animals lose heat faster)"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The integration demand is distinguishing when a problem calls for surface area vs volume \u2014 a conceptual decision that sits above the calculation mechanics. Students who can calculate both measures often apply the wrong one. This node makes the decision itself the learning.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Design and optimisation problems (packaging, material efficiency) give surface area and volume calculations genuine purpose. Students who engage with these problems develop appreciation for how the two measures interact \u2014 not as separate topics but as tools for real design decisions.",
+        "success_criteria": [
+          "Correctly identifies whether a problem requires surface area or volume and explains why",
+          "Solves the problem using the correct formula with appropriate units",
+          "Checks that the answer is reasonable in the context of the problem"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

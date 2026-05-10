@@ -1,0 +1,111 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6P01",
+    "title": "Define problems with user stories",
+    "description": "Define problems with given or co-developed design criteria and by creating user stories",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can define problems with given design criteria and by co-creating user stories (AC9TDI4P01). They have worked with provided design criteria and contributed to user stories collaboratively. They have not yet developed design criteria with more agency (co-developed rather than given) or created user stories independently from stimulus.",
+    "progression_endpoint": "Students define a problem by co-developing or applying design criteria and by creating user stories that identify an issue, the user, and their need.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying a problem from stimulus",
+        "progression_checkpoint": "Students can identify an issue from a stimulus and frame it as a problem that a digital solution could address",
+        "minimum_width": "Given a stimulus (e.g. an article, scenario), identify an issue and state the problem a solution needs to address",
+        "typical_width": "Use stimulus material to identify an issue, name the affected users, and describe the problem in terms of what users need \u2014 not just what is wrong",
+        "wider": [
+          "Investigate how feral animals threaten native flora and fauna and identify the problem from the perspective of different stakeholders \u2014 rangers, farmers, ecologists \u2014 developing a problem statement that reflects one user group's needs",
+          "Examine how a community in a bushfire or flood-prone area needs an emergency preparedness solution \u2014 defining the problem from the perspective of the family user rather than the system designer"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to frame problems from a system-designer perspective ('we need an app') rather than a user perspective ('the family needs to know what to do'). Stimulus materials with emotionally real, socially meaningful contexts \u2014 emergencies, environmental threats \u2014 help students stay anchored to the user's actual experience and need.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The environmental and emergency contexts from the elaborations are rich \u2014 they place problem definition in real-world, socially meaningful settings where the stakes of getting the problem statement right are legible.",
+        "success_criteria": [
+          "Identifies a specific issue from the stimulus",
+          "States the problem in terms of a user need, not just a system gap"
+        ],
+        "related_standards": [
+          "AC9TDI4P01",
+          "AC9TDI6P04",
+          "AC9TDI6P06"
+        ],
+        "hinge": true,
+        "hinge_reason": "Problem framing in N1 cascades into N2 (user story) and N3 (design criteria) \u2014 a student who frames the problem incorrectly will write user stories for the wrong user and criteria that cannot evaluate the actual need. All downstream design work inherits the N1 framing."
+      },
+      {
+        "id": 2,
+        "label": "Writing a user story",
+        "progression_checkpoint": "Students can write a user story that identifies who the user is, what they need, and why",
+        "minimum_width": "Write a user story in standard form: 'As a [user], I need [something] so that [reason]' \u2014 linked to an identified problem",
+        "typical_width": "Write one or more user stories that capture the core needs of the user group; use the user stories to clarify what the solution must do versus what would be nice to have",
+        "wider": [
+          "Write user stories for a roadside bushfire or flood risk rating system from the perspectives of two different user groups (e.g. a traveller vs a local resident) \u2014 identifying where their needs diverge",
+          "Discuss user stories that reflect different cultural or accessibility needs \u2014 e.g. a user who reads in a language other than English or a user with a visual impairment"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The user story format is a reasoning scaffold, not just a template. Students who use it mechanically produce technically compliant stories that miss the 'why' \u2014 the reason the user needs the feature is what connects the story to the design criteria. Unpacking the three-part structure explicitly (who / what / why) helps students use it as a thinking tool.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Writes a user story that identifies the user, their need, and the reason for the need",
+          "The user story is consistent with the identified problem"
+        ],
+        "related_standards": [
+          "AC9TDI6P04",
+          "AC9TDI6P06"
+        ],
+        "hinge": true,
+        "hinge_reason": "User stories in N2 are the direct input for N3's criteria co-development \u2014 criteria are derived from what the user stories identify as needs. Students who produce vague or missing user stories cannot develop meaningful criteria in N3."
+      },
+      {
+        "id": 3,
+        "label": "Co-developing design criteria",
+        "progression_checkpoint": "Students can contribute to co-developing design criteria that can be used to evaluate solutions",
+        "minimum_width": "Given a problem and user stories, identify at least two design criteria that a solution must satisfy; explain how each criterion connects to the user stories",
+        "typical_width": "Discuss and co-develop a set of design criteria based on user stories and practical constraints (e.g. cost, sustainability, timeliness); use the criteria to distinguish between requirements and preferences",
+        "wider": [
+          "Discuss design criteria for a bushfire/flood risk rating system \u2014 weighing timeliness (must update quickly), reliability (must work offline) and accessibility (must suit low-literacy users) as competing criteria",
+          "Consider how design criteria for a digital solution change when the user community has different infrastructure access \u2014 e.g. low-bandwidth constraints in remote areas"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Design criteria integrate the user stories (what the user needs) with practical constraints (what is feasible). This is the node where problem definition becomes actionable for design \u2014 students who cannot connect stories to criteria will generate design ideas disconnected from user needs."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States at least two design criteria that connect to the identified user stories",
+          "Can explain what each criterion means for what the solution must do"
+        ],
+        "related_standards": [
+          "AC9TDI6P04",
+          "AC9TDI6P06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3ST03",
+    "title": "Guided statistical investigations",
+    "strand": "Statistics",
+    "mode": "B",
+    "description": "conduct guided statistical investigations involving the collection, representation and interpretation of data for categorical and discrete numerical variables with respect to questions of interest",
+    "prior_knowledge": "Students can collect data and create graphical representations (AC9M3ST01, AC9M3ST02). They have not yet completed a full investigation cycle end-to-end under teacher guidance.",
+    "progression_endpoint": "Students conduct guided statistical investigations: posing a question, collecting and representing data, and interpreting results for categorical and discrete numerical variables.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Posing investigable questions",
+        "progression_checkpoint": "Students can identify a question of interest that can be investigated by collecting data, and state the variable(s) involved.",
+        "minimum_width": "With teacher guidance, formulate one question of interest that can be investigated using data; identify the variable and its type.",
+        "typical_width": "Formulate and refine questions of interest; identify relevant variables and their types; explain how data could be collected to answer the question.",
+        "wider": [
+          "Compare several possible questions about the same context and evaluate which can be answered with available data",
+          "Explore questions of community or social relevance — e.g. questions about their school or local environment — connecting statistics to purposeful inquiry"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Posing an investigable question requires understanding what makes a question answerable with data. The reasoning scaffold 'what would I need to collect to answer this?' needs to be made explicit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "An investigable question with a clearly identified variable is the entry point for the investigation cycle in Node 2 — a question that cannot be answered by data collection, or where the variable is undefined, means the student cannot proceed to collection or interpretation meaningfully.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can state a question that can be answered by collecting data.",
+          "Students can identify the variable in their question and its type (categorical or discrete numerical)."
+        ],
+        "related_standards": ["AC9M3ST01", "AC9M3ST02"]
+      },
+      {
+        "id": 2,
+        "label": "Conducting the investigation cycle",
+        "progression_checkpoint": "Students can complete a guided investigation cycle: collect data, represent it graphically, and make an interpretive statement about the results.",
+        "minimum_width": "With teacher guidance, complete one investigation: collect data for a given question, create one graph, and write one sentence interpreting the result.",
+        "typical_width": "Complete a guided investigation from question through data collection, representation and interpretation; compare results with classmates; discuss what the data shows.",
+        "wider": [
+          "Conduct two investigations on similar questions with different groups/samples and compare findings — introducing the idea that data varies",
+          "Contribute findings to a class investigation combining data from multiple groups — experiencing aggregated data as more informative than individual samples"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The investigation cycle integrates all prior statistics nodes. Students whose component skills are individually solid often still struggle with the cycle as a whole — the integration of posing, collecting, representing and interpreting requires coordination that needs guided practice."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-group comparison and data aggregation are genuinely enriching — they introduce the concept of sampling variation and collective data, which are foundational statistical ideas that extend well beyond Y3.",
+        "success_criteria": [
+          "Students can collect data, create a graph and make an interpretive statement as a connected investigation.",
+          "Students can explain how their interpretation relates back to the original question of interest."
+        ]
+      }
+    ]
+  }
+}

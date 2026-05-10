@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LE01",
+    "title": "Ideas and context in literature",
+    "description": "Identify and explore ideas, points of view, characters, events and/or issues in literary texts, drawn from historical, social and/or cultural contexts, by First Nations Australian, and wide-ranging Australian and world authors",
+    "strand": "Literature — Literature and contexts",
+    "mode": "B",
+    "prior_knowledge": "Students can identify responses to characters and events in literary texts drawn from historical, social or cultural contexts (AC9E6LE01). They have not yet moved from identifying responses to exploring ideas, points of view and issues — the shift from response to analysis of the ideas themselves.",
+    "progression_endpoint": "Students identify and explore ideas, viewpoints and issues in literary texts across historical, social and cultural contexts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying ideas and issues in context",
+        "progression_checkpoint": "Students can identify the ideas, issues or points of view present in a literary text and connect them to the text's historical, social or cultural context",
+        "minimum_width": "In a given literary text, identify at least one significant idea, issue or point of view; explain how it connects to the context in which the text was created",
+        "typical_width": "Identify multiple ideas, issues and points of view in a literary text and examine how each is shaped by the historical, social or cultural context — what does the text reveal about the world it came from?",
+        "wider": [
+          "Explore ideas about heroism in literary texts by wide-ranging world authors — how does context shape what counts as heroic?",
+          "Explore depictions of the city or the bush in Australian poems and short stories from different eras — how has the representation of these settings changed across historical contexts?"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot connect ideas to context, Node 2's comparative work collapses — comparison across contexts requires first being able to situate ideas within a single context.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly read literary texts as universal without recognising how context shapes what ideas are foregrounded, what counts as a problem, and whose perspective is centred. Reading across genuinely different historical, social and cultural contexts — including First Nations Australian texts and wide-ranging world authors — is what builds the understanding that all texts are contextually situated.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The breadth of contexts named in the descriptor is itself the richness — First Nations Australian, wide-ranging Australian, and world authors each offer different ideas and issues. Advancing students who read across this full range develop genuine comparative cultural awareness.",
+        "success_criteria": [
+          "Identifies at least one significant idea, issue or point of view in a literary text",
+          "Connects the idea to the historical, social or cultural context of the text"
+        ],
+        "related_standards": ["AC9E7LY03", "AC9E7LE02"]
+      },
+      {
+        "id": 2,
+        "label": "Exploring across texts and contexts",
+        "progression_checkpoint": "Students can explore how the same idea or issue is represented differently across literary texts from different contexts",
+        "minimum_width": "Compare how the same idea or issue (e.g. heroism, belonging, justice) is represented in two texts from different contexts; identify at least one difference and explain it in terms of context",
+        "typical_width": "Explore how ideas, points of view and issues are represented across multiple texts from different historical, social or cultural contexts — discussing what the differences reveal about how context shapes literary representation",
+        "wider": [
+          "Discuss similarities and differences in character representations in film adaptations of novels and plays — how does the shift in context and medium affect the representation?",
+          "Explore representations of characters and events in literary texts by First Nations Australians alongside mainstream Australian texts on similar themes — what does comparison reveal about different perspectives?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Exploring ideas across contexts is not just reading more texts — it is building comparative awareness of how context shapes representation. Each genuinely different context (First Nations, historical, world literature) reveals something that a single context cannot. The breadth is the analytical tool.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison of First Nations and mainstream Australian texts on similar themes is particularly rich — it makes visible how the same events or places can be represented from fundamentally different perspectives, and connects to critical literacy and intercultural understanding.",
+        "success_criteria": [
+          "Compares how the same idea or issue is represented in two texts from different contexts",
+          "Explains at least one difference in terms of the texts' different contexts"
+        ],
+        "related_standards": ["AC9E7LE02", "AC9E7LE05", "AC9E7LY03"]
+      }
+    ]
+  }
+}

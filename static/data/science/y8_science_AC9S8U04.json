@@ -1,0 +1,100 @@
+{
+  "year_level": "8",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S8U04",
+    "title": "Rock Cycle",
+    "description": "describe the key processes of the rock cycle, including the timescales over which they occur, and examine how the properties of sedimentary, igneous and metamorphic rocks reflect their formation and influence their use",
+    "strand": "Earth and Space Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe properties of natural materials including minerals and rocks as Earth resources and compare their properties (AC9S3U02, 3-4 band). They have not yet examined the formation processes of different rock types, the timescales involved, or how formation processes determine observable properties.",
+    "progression_endpoint": "Students describe the key processes of the rock cycle — weathering, erosion, deposition, heat and pressure, melting and crystallisation — including the vastly different timescales involved, and analyse how the formation process of each rock type determines its observable properties and influences its practical uses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The rock cycle connects formation processes across timescales",
+        "progression_checkpoint": "Students can describe the major rock cycle processes — weathering, erosion, deposition, compaction/cementation, melting, crystallisation, heat and pressure — and explain that these processes operate on radically different timescales, from rapid volcanic cooling to millions of years of sediment accumulation.",
+        "minimum_width": "Students name and describe at least four rock cycle processes and identify one process that occurs rapidly and one that occurs over geological timescales.",
+        "typical_width": "Students describe the complete rock cycle, tracing how rock material is transformed from one type to another through named processes; explain the role of forces, heat energy and time in different stages; and identify which processes are fast and which are extremely slow.",
+        "wider": [
+          "Analyse the role of each driving force in the rock cycle — tectonic forces driving uplift and subduction, solar energy driving weathering and erosion, geothermal energy driving metamorphism and melting — examining where the energy for each process comes from",
+          "Investigate how the extreme age and stability of the Australian craton reflects a geological history of minimal rock cycle transformation — connecting rock cycle processes to Australia's unique tectonic context (AC9S8U03)",
+          "Examine how environmental rehabilitation of mine sites must account for the chemical and physical properties released by rock cycle disruption — connecting cycle processes to environmental impact"
+        ],
+        "hinge": true,
+        "hinge_reason": "The rock cycle process logic — specific processes driven by specific energy sources producing specific rock types — is the prerequisite for Node 2. Students who treat the rock cycle as a loop diagram without understanding the transformation logic at each transition cannot connect formation conditions to rock properties in Node 2.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat the rock cycle as a loop diagram without understanding the processes at each transition or the extreme difference in timescales. The logical structure — material is transformed by specific processes driven by identifiable energy sources over very different timescales — needs to be explicit before students can use the rock cycle to explain rock properties or predict formation contexts.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names and describes at least four rock cycle processes",
+          "Correctly identifies processes that occur rapidly (volcanic cooling) and those that take geological time (sediment compaction, metamorphism)",
+          "Explains the role of heat and/or pressure in at least one formation process"
+        ],
+        "related_standards": ["AC9S8U03"]
+      },
+      {
+        "id": 2,
+        "label": "Formation process determines rock properties",
+        "progression_checkpoint": "Students can explain how the formation process of each rock type (sedimentary, igneous, metamorphic) determines its characteristic observable properties, using the formation conditions to predict what properties the rock will have.",
+        "minimum_width": "Students explain how the formation process of each of the three rock types determines at least one observable property — connecting conditions of formation to the property that results.",
+        "typical_width": "Students explain how formation conditions (rapid vs slow cooling, depth of burial, pressure, temperature, type of sediment) determine the observable properties of rocks — grain size, crystal size, layering, hardness, texture — across all three rock types and explain how to identify rock types from these properties.",
+        "wider": [
+          "Use a provided dichotomous key to classify unknown rock samples, then explain the formation process that would have produced each sample's properties",
+          "Examine fossil evidence — body fossils, trace fossils, opalised fossils — to reconstruct the formation conditions of the sedimentary rock containing them",
+          "Investigate the traditional geological knowledge of First Nations Australians used in selecting different rock types for specific purposes — examining how deep empirical knowledge of rock properties guided material selection"
+        ],
+        "hinge": true,
+        "hinge_reason": "The formation-to-property reasoning chain is the prerequisite for Node 3. Students who have not built this logic — conditions of formation determine observable properties — cannot construct the property-to-use explanatory chain in Node 3. Without it, Node 3 becomes isolated memorisation of use cases rather than reasoned application of formation history.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently memorise rock type names and properties without understanding the formation-to-property logic. Encountering the formation-property relationship across multiple specific examples — coarse granite (slow cooling, large crystals) vs fine basalt (rapid cooling, small crystals); well-sorted sandstone (long transport) vs poorly sorted conglomerate (rapid deposition) — builds a more flexible and accurate model of why different rocks have different properties.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations geological knowledge of rock selection provides a sophisticated real-world application of property-based reasoning, connecting deep empirical knowledge to the same formation-property logic students are developing. The fossil evidence direction offers a genuine investigative approach to formation conditions that goes beyond classification.",
+        "success_criteria": [
+          "Explains how the formation process of each rock type (sedimentary, igneous, metamorphic) determines at least one observable property",
+          "Uses formation conditions to predict at least one property of a rock formed under specified conditions"
+        ],
+        "related_standards": ["AC9S8H02"]
+      },
+      {
+        "id": 3,
+        "label": "Rock properties determine uses",
+        "progression_checkpoint": "Students can explain how the properties of specific rocks — derived from their formation process — make them suitable for particular uses, including traditional and contemporary applications.",
+        "minimum_width": "Students explain why a named rock is used for a specific purpose by connecting its formation-derived properties to the demands of that use.",
+        "typical_width": "Students explain the property-to-use connection for rocks across all three types — identifying how formation-derived properties (hardness, crystal structure, porosity, layering) determine use cases — and compare how the same property requirement is met by different rock types in different contexts.",
+        "wider": [
+          "Investigate how First Nations Australians used quarrying to access specific rock types for tools (grindstones, hammerstones, cutting tools) and explain the property rationale for each selection",
+          "Examine how the mining of ores and minerals impacts local environments and research environmental rehabilitation initiatives — connecting rock properties to resource extraction and sustainability",
+          "Research how rock properties are used in construction (slate for roofing, granite for benchtops, limestone for cement) and evaluate how formation history determines why each rock suits its use"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to integrate rock type identification, formation-process reasoning, and property-to-use analysis in a single explanatory chain. Students who have each of these as separate knowledge components must now deploy them together. It is the same integration challenge as AC9S4U04 (materials) but at a more complex formation-history level."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations quarrying knowledge provides a sophisticated and culturally grounded application of property-based rock selection that connects geological knowledge to human practice. The mining and rehabilitation direction adds an environmental dimension that connects rock science to contemporary sustainability concerns.",
+        "success_criteria": [
+          "Explains why a named rock is suited to a specific use by connecting its properties to the demands of that use",
+          "Connects the formation process to the property to the use in a single explanatory chain for at least one example"
+        ],
+        "related_standards": ["AC9S8H02", "AC9S8H03"]
+      }
+    ]
+  }
+}

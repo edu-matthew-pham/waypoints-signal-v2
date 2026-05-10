@@ -1,0 +1,116 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3U03",
+    "title": "Heat Energy and Transfer",
+    "description": "identify sources of heat energy and examine how temperature changes when heat energy is transferred from one object to another",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how objects move and respond to pushes and pulls (1-2 band). They have informally experienced heat and cold but have not yet identified heat as a form of energy, distinguished temperature from heat, or examined heat transfer between objects systematically.",
+    "progression_endpoint": "Students identify sources of heat energy in everyday and natural contexts, explain that heat energy transfers from warmer to cooler objects, use thermometers to measure temperature change, and identify how materials vary in their ability to conduct or insulate heat.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Heat energy comes from identifiable sources",
+        "progression_checkpoint": "Students can identify and classify sources of heat energy in everyday and natural contexts (sun, fire, electrical devices, geothermal, friction, body heat) and explain that heat is a form of energy.",
+        "minimum_width": "Students identify at least four sources of heat energy from different categories (natural, electrical, combustion) and explain that heat is a form of energy.",
+        "typical_width": "Students identify and classify heat sources across natural (sun, geothermal, fire) and human-made (electrical devices, friction) categories, explain that heat is a form of energy that can be sensed and measured, and distinguish between a heat source and an object that has been warmed by a source.",
+        "wider": [
+          "Explore how First Nations Australians developed fire-starting techniques \u2014 examining the heat sources involved and the knowledge required to produce and maintain fire",
+          "Investigate geothermal heat as a less familiar heat source \u2014 examining how geothermal springs, geysers and geothermal power use heat from within the Earth",
+          "Research how different cooking methods (boiling, frying, roasting, solar cooking) use different heat sources and heat transfer mechanisms (AC9S3H02)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to list only familiar heat sources (sun, fire, electric heater) and miss friction and geothermal sources. Encountering a wider range \u2014 including culturally grounded contexts like First Nations fire-starting and geothermal phenomena \u2014 builds a more complete understanding of what counts as a heat source.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations fire-starting knowledge provides a culturally grounded and technically rich direction that goes well beyond listing sources. The cooking methods connection (AC9S3H02) links heat sources to a real human application context.",
+        "success_criteria": [
+          "Identifies at least four sources of heat energy across at least two categories",
+          "Explains that heat is a form of energy that can be transferred and measured"
+        ],
+        "related_standards": [
+          "AC9S3H02"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Heat transfers from warmer to cooler objects",
+        "progression_checkpoint": "Students can explain that heat energy transfers from a warmer object to a cooler object when they are in contact, describe what happens to the temperature of each object during the transfer, and use temperature measurements to support their explanation.",
+        "minimum_width": "Students describe what happens to the temperature of a warm and a cold object when they are placed in contact, and explain the direction of heat transfer using observations.",
+        "typical_width": "Students observe and measure temperature change when objects of different temperatures are placed in contact, explain that heat flows from warmer to cooler until temperatures equalise, and use thermometer readings to support their explanation.",
+        "wider": [
+          "Investigate how 18th-century physicists Jean Ingenhousz and Benjamin Thompson collected temperature data to determine best conductors and insulators \u2014 connecting systematic observation to scientific explanation (AC9S3H01)",
+          "Model heat transfer using drawings, role-play or arrows to show the direction of energy movement \u2014 applying a representation to make the invisible visible",
+          "Explore how heat transfer from warm ocean water to cooler air drives weather patterns \u2014 extending the object-to-object transfer concept to environmental scale"
+        ],
+        "hinge": true,
+        "hinge_reason": "The direction of heat transfer \u2014 warm to cool, never the reverse \u2014 is the conceptual prerequisite for understanding conduction and insulation in Node 3. Students holding the 'cold flows in' misconception will systematically misexplain why insulators work and produce inverted reasoning about conductor/insulator selection.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly believe cold 'flows into' a warm object (a cold drink makes your hand cold) rather than heat flowing from the warm hand to the cold drink. Making the direction of transfer explicit \u2014 heat always moves from warmer to cooler, never the reverse \u2014 and supporting this with thermometer evidence is the key conceptual scaffold before students can understand insulation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that heat transfers from warmer to cooler objects, not from cold to warm",
+          "Describes what happens to the temperature of both objects during heat transfer (warm cools, cool warms) until they reach the same temperature",
+          "Uses thermometer observations to support the explanation"
+        ],
+        "related_standards": [
+          "AC9S3H01",
+          "AC9S3I03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Materials differ in how well they conduct or insulate heat",
+        "progression_checkpoint": "Students can explain that some materials (conductors) transfer heat quickly and others (insulators) transfer heat slowly, give examples of each, and connect material selection to everyday uses for keeping things hot or cold.",
+        "minimum_width": "Students identify at least two conductors and two insulators, explain the difference between them, and give one everyday example of each being used for its heat transfer properties.",
+        "typical_width": "Students investigate heat transfer through different materials (metals, plastics, ceramics, fabrics), classify them as better or worse conductors using evidence, explain why conductors and insulators are selected for specific uses, and connect material properties to everyday objects (saucepan handles, oven mitts, thermos flasks, building insulation).",
+        "wider": [
+          "Explore how First Nations Australians developed clothing from animal skins (possum fur cloaks, kangaroo skin) that trap heat close to the body \u2014 examining how insulation properties guided material selection",
+          "Investigate how engineers test insulation properties of materials and how this information is used to design food packaging, building insulation or cold-weather clothing (AC9S3H02)",
+          "Plan and conduct a fair test to determine which material is the best insulator for keeping a substance cold \u2014 applying conductor/insulator knowledge to an investigation (AC9S3I02)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly know metals are conductors and fabrics are insulators without understanding why different materials are selected in different contexts. Encountering conductor/insulator properties across varied everyday contexts \u2014 cooking, building, clothing, food storage \u2014 helps students develop a more flexible understanding of how material properties determine use.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations clothing knowledge provides a sophisticated and culturally grounded application of insulation principles. The engineering testing direction (AC9S3H02) connects material property knowledge to real design practice and provides a natural link to fair test investigation (AC9S3I02).",
+        "success_criteria": [
+          "Identifies at least two conductors and two insulators with examples",
+          "Explains the difference between a conductor and an insulator in terms of how quickly heat transfers",
+          "Gives at least one everyday example where conductor or insulator properties determine material selection"
+        ],
+        "related_standards": [
+          "AC9S3H02",
+          "AC9S3I02"
+        ]
+      }
+    ]
+  }
+}

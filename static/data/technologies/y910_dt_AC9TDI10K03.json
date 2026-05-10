@@ -1,0 +1,94 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10K03",
+    "title": "Data compression techniques",
+    "description": "investigate simple data compression techniques",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how digital systems represent text, image and audio data using binary (AC9TDI8K03) and how integers are represented in binary (AC9TDI8K04). They understand that different data types require different amounts of storage. They have not yet investigated how data can be compressed to reduce storage and transmission requirements.",
+    "progression_endpoint": "Students investigate simple data compression techniques, including lossless methods such as run-length encoding and lossy methods, and explain the difference between lossy and lossless compression and the consequences of each.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Why compression is needed",
+        "progression_checkpoint": "Students can explain why data compression is useful and identify contexts where it matters.",
+        "minimum_width": "Explain what data compression is and give at least one reason why it is useful (e.g. file size, transmission speed, storage cost).",
+        "typical_width": "Explain why compression is important in contexts including storage, transmission speed, energy use, and bandwidth cost; compare file sizes before and after a simple compression example.",
+        "wider": [
+          "Investigate the energy cost of transmitting large uncompressed files compared to compressed equivalents \u2014 connect this to environmental impact of digital systems",
+          "Examine why compression is particularly important in low-bandwidth contexts such as remote First Nations communities and what trade-offs arise"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly explains what compression does (reduces file size)",
+          "Gives at least one concrete reason why reducing file size matters"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Lossless compression \u2014 run-length encoding",
+        "progression_checkpoint": "Students can use run-length encoding to represent patterns in data in a compressed form and explain how the algorithm works.",
+        "minimum_width": "Apply run-length encoding to a simple sequence (e.g. a row of pixels) and explain how it reduces storage by representing repeated values as a count-value pair.",
+        "typical_width": "Apply run-length encoding to image row data; calculate the compression ratio achieved; explain when RLE is effective (many repeated values) and when it is not (random/varied data).",
+        "wider": [
+          "Investigate additional lossless compression techniques (e.g. Huffman coding concepts) and explain how they generalise the principle of representing frequent patterns efficiently",
+          "Apply RLE to different data sequences and identify what properties make data more or less compressible with this technique"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Run-length encoding requires students to apply a precise algorithmic procedure. Errors in counting runs or encoding the count-value pair are common. Sufficient practice with varied sequences \u2014 images, text repetitions, binary strings \u2014 builds the procedural fluency needed before the conceptual explanation is solid.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly applies RLE to encode a simple sequence",
+          "Explains how the encoded form represents the original data"
+        ],
+        "hinge": true,
+        "hinge_reason": "RLE procedural errors cascade into N3 \u2014 students who cannot correctly encode a sequence cannot calculate compression ratios or reason about when RLE is effective versus ineffective, which is the foundation for lossy/lossless comparison."
+      },
+      {
+        "id": 3,
+        "label": "Lossy vs lossless \u2014 trade-offs and consequences",
+        "progression_checkpoint": "Students can explain the difference between lossy and lossless compression, identify contexts where each is appropriate, and describe the consequences of using each.",
+        "minimum_width": "Explain the difference between lossy and lossless compression and give one example of each; identify one consequence of using lossy compression.",
+        "typical_width": "Explain that lossless compression preserves all original data (decompression recovers the original exactly) while lossy compression permanently discards information; describe appropriate contexts for each (e.g. medical images require lossless; music streaming tolerates lossy); explain why the same file format may not suit both contexts.",
+        "wider": [
+          "Compare audiovisual codecs (MP3 vs WAV, MP4 vs uncompressed video) and explain what information is discarded and why human perception makes this acceptable in most contexts",
+          "Investigate the consequences of lossy compression in high-stakes domains \u2014 medical imaging, legal evidence, archival records \u2014 and explain why lossless is required",
+          "Explore how image compression artefacts arise (e.g. JPEG block artefacts) and explain the algorithmic reason they appear"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The lossy/lossless distinction is abstract without concrete cases. Students need examples where the trade-off is consequential \u2014 medical imaging, audio quality, image artefacts \u2014 to understand why the distinction matters beyond a vocabulary definition.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Medical imaging, audiovisual codec comparison, and archival records each illuminate the lossy/lossless trade-off in a genuinely different way. The direction is rich because the consequences are real and the reasoning is substantive.",
+        "success_criteria": [
+          "Correctly distinguishes lossless (exact recovery) from lossy (permanent data loss) compression",
+          "Identifies an appropriate context for each type and justifies the choice",
+          "Names at least one consequence of using lossy compression in an inappropriate context"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

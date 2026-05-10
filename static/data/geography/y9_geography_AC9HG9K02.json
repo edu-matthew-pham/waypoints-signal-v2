@@ -1,0 +1,104 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9K02",
+    "title": "Human Alteration of Biomes",
+    "description": "the effects on environments of human alteration of biomes to produce food, industrial materials and fibres",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how people modify environments for agriculture and other purposes (Y7-8) and can describe some effects of these modifications. They have not analysed how biome alteration affects flows of nutrients, water and biodiversity systematically, nor compared natural and agricultural ecosystems structurally.",
+    "progression_endpoint": "Students identify biomes that produce food and industrial materials, explain differences between natural and agricultural ecosystems in nutrient and water flows and biodiversity, and explain how agricultural innovations have increased productivity through biome alteration in Australia and Asia.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Biomes as sources of food and industrial materials",
+        "progression_checkpoint": "Students can identify the biomes in Australia and a country in Asia that produce major food and non-food products",
+        "minimum_width": "Identify at least two biomes in Australia and one country in Asia that produce food or non-food products; give examples of products from each",
+        "typical_width": "Map the biomes in Australia and an Asian country that produce staple foods, industrial materials and fibres; explain why particular biomes support particular production types",
+        "wider": [
+          "Trace a specific product (e.g. palm oil, rice, wool) from biome to consumer — identify all biome types involved across the supply chain",
+          "Compare food and non-food biome products from a tropical rainforest biome in Indonesia with a temperate grassland biome in Australia — explain the role of biome characteristics in determining product type",
+          "Investigate how First Nations Australians used multiple biomes to sustainably source food and materials — compare with contemporary monoculture production"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Covering multiple biomes in both Australia and an Asian country (as the elaborations require) prevents students from over-generalising from one case. Connecting product type to biome characteristics builds the explanatory link this node needs."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two biomes in Australia that produce food or non-food products",
+          "Names specific products from each identified biome",
+          "Identifies at least one biome in an Asian country producing food or non-food products"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Natural vs agricultural ecosystems: nutrient flows, water and biodiversity",
+        "progression_checkpoint": "Students can explain differences between natural and agricultural ecosystems in nutrient flows, water flows and biodiversity",
+        "minimum_width": "Identify at least two differences between natural and agricultural ecosystems in nutrient flows, water flows, or biodiversity; explain why these differences occur",
+        "typical_width": "Compare natural and agricultural ecosystems using nutrient cycles, water flows and biodiversity indicators; explain how agricultural management (e.g. fertiliser, irrigation) substitutes for or disrupts natural ecosystem functions",
+        "wider": [
+          "Analyse a case study biome (e.g. tropical rainforest in Indonesia) — trace how conversion to agriculture alters nutrient cycling, hydrological flows and species diversity simultaneously",
+          "Compare nutrient and water flows in a dryland farming system versus an irrigated system in the same biome — explain what ecosystem functions each relies on",
+          "Investigate how agroforestry and intercropping systems attempt to mimic natural ecosystem functions — evaluate how successful they are"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding that agricultural ecosystems substitute artificial inputs for natural ecosystem functions (fertiliser for natural nutrient cycling, irrigation for natural water flow) is the conceptual foundation for explaining why innovations increase productivity in Node 3 and why biome degradation challenges food security in K03-K04. Students who see agriculture as simply 'removing nature' cannot explain these mechanisms.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The comparison requires students to hold two ecosystem models simultaneously and trace equivalent functions through each. Students who cannot do this produce lists of differences without explanation. Scaffolding the parallel structure — what happens to nutrients in a natural forest vs a farm? — builds the analytical framework needed for Node 3.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The elaboration specifically references the tropical rainforest biome in Indonesia as a case study. Using this alongside an Australian case ensures students can apply the comparison framework across biome types, not just in one context.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The agroforestry/intercropping direction is rich — these systems explicitly try to restore some natural ecosystem functions while maintaining production. Advancing students who analyse how well they succeed gain a nuanced understanding of the trade-off between production and ecosystem function, which is central to sustainability debates in K03-K04.",
+        "success_criteria": [
+          "Identifies at least two differences between natural and agricultural ecosystems in nutrient flows, water or biodiversity",
+          "Explains why these differences occur rather than just listing them",
+          "Uses ecosystem vocabulary (nutrient cycle, biodiversity, hydrological flow) correctly"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Agricultural innovations and productivity",
+        "progression_checkpoint": "Students can explain how human alteration of biomes through specific agricultural innovations has increased productivity in Australia and a country in Asia",
+        "minimum_width": "Name at least three agricultural innovations (e.g. drip irrigation, fertilisers, genetically modified seeds); explain how each increases productivity by altering biome conditions",
+        "typical_width": "Explain how a range of innovations (drip irrigation, fertilisers, pesticides, GM seeds, terracing, erosion control) increase productivity by addressing specific biome limitations; compare their use in Australia and an Asian country",
+        "wider": [
+          "Evaluate the trade-offs of specific innovations — which biome functions do they enhance, and which do they degrade over time?",
+          "Compare how the same innovation (e.g. drip irrigation) operates differently in an arid Australian biome versus a tropical Asian biome — explain using biome characteristics",
+          "Investigate agrobiotics as an innovation — explain how biological rather than chemical inputs change the relationship between agriculture and biome conditions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The elaboration requires examining innovations in both Australia and an Asian country. Covering multiple innovation types across different biome contexts prevents students from learning one case as a template. The biome-specific operation of the same innovation (Node 2 + Node 3 combined) is the explanatory move this node targets.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The agrobiotics direction introduces a conceptually different approach to productivity — working with biome biology rather than overriding it. Advancing students who compare agrobiotics with chemical inputs develop a richer understanding of what 'innovation' means in an agricultural context and connect naturally to K04 sustainability debates.",
+        "success_criteria": [
+          "Names at least three agricultural innovations and explains how each increases productivity",
+          "Links each innovation to a specific biome condition it addresses (e.g. drip irrigation addresses water scarcity)",
+          "Compares innovation use in Australia and at least one Asian country"
+        ]
+      }
+    ]
+  }
+}

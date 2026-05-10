@@ -1,0 +1,72 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8N05",
+    "title": "Mathematical Modelling with Percentages",
+    "strand": "Number",
+    "description": "use mathematical modelling to solve practical problems involving rational numbers and percentages, including financial contexts; formulate problems, choosing efficient calculation strategies and using digital tools where appropriate; interpret and communicate solutions in terms of the situation, reviewing the appropriateness of the model",
+    "mode": "A",
+    "prior_knowledge": "Students can model practical problems with rational numbers and percentages (from AC9M7N09). Students can apply four operations to integers and rationals (from AC9M8N04).",
+    "progression_endpoint": "Students formulate and solve practical models involving percentage increase/decrease, financial contexts including tax, and problems with negative quantities; review model appropriateness and communicate solutions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Modelling percentage increase and decrease",
+        "progression_checkpoint": "Students model situations involving percentage increase and decrease, including mark-ups, discounts, and GST, and explain why the result is an increase or decrease.",
+        "minimum_width": "Model a percentage increase or decrease problem (e.g. discount, mark-up) and explain why the result is higher or lower.",
+        "typical_width": "Apply percentage modelling to mark-ups, discounts, GST, and market trends; explain the direction of change; use multiplier approach for efficiency.",
+        "wider": [
+          "Investigate successive percentage changes — why does a 20% increase followed by a 20% decrease not return to the original? Develop a general model.",
+          "Model environmental or population contexts involving percentage change over extended time periods — connect to exponential growth informally."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Percentage increase and decrease problems span a wide range of structures and contexts. Students who only practise one type (e.g. discount) fail to recognise the same structure in other contexts (e.g. tax, population change).",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 financial modelling includes percentage-based tax and interest calculations — students who cannot reliably apply percentage increase/decrease across varied contexts cannot set up the financial models that depend on this reasoning.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Successive percentage changes and the non-commutativity of percentage operations are rich structural insights for advancing students — connecting to exponential growth is a meaningful conceptual extension within Year 8.",
+        "success_criteria": [
+          "Correctly models a percentage increase or decrease problem.",
+          "Explains why the change is an increase or decrease.",
+          "Uses an efficient multiplier strategy where appropriate."
+        ],
+        "related_standards": ["AC9M7N09", "AC9M7N06"]
+      },
+      {
+        "id": 2,
+        "label": "Modelling financial and real-world contexts",
+        "progression_checkpoint": "Students formulate and solve models for financial problems including personal income tax, and interpret and communicate solutions including review of model appropriateness.",
+        "minimum_width": "Model a simple financial problem (e.g. tax bracket, pay rate) and interpret the solution in context.",
+        "typical_width": "Apply modelling to income tax, comparing taxation brackets; model weather/environmental contexts with positive and negative quantities; review whether the model is appropriate for the situation.",
+        "wider": [
+          "Model personal income tax across multiple tax brackets — calculate effective tax rate and compare to marginal rate.",
+          "Investigate modelling of sea depth or temperature changes using negative quantities — apply to real environmental data."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Financial modelling requires simultaneous application of percentage operations, negative number handling, and communication of results in context — the integration of all prior number strand work at Year 8.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Income tax bracket modelling with effective vs marginal rate comparison is a rich and practically significant application for advancing students that connects all rational number operations in a meaningful real-world context.",
+        "success_criteria": [
+          "Formulates a model correctly from a financial or real-world context.",
+          "Interprets the solution with appropriate units and contextual meaning.",
+          "Reviews whether the model captures the situation accurately."
+        ],
+        "related_standards": ["AC9M8N04", "AC9M7N09"]
+      }
+    ]
+  }
+}

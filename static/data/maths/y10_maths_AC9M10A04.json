@@ -1,0 +1,112 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10A04",
+    "title": "Model growth and decay",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "use mathematical modelling to solve applied problems involving growth and decay, including financial contexts; formulate problems, choosing to apply linear, quadratic or exponential models; interpret solutions in terms of the situation; evaluate and modify models as necessary and report assumptions, methods and findings",
+    "prior_knowledge": "Students can connect algebraic and graphical representations of exponential relations and solve exponential equations (AC9M10A03). They have not yet chosen between linear, quadratic and exponential models for a given applied context, nor evaluated and modified models, nor reported assumptions and findings in a full modelling cycle.",
+    "progression_endpoint": "Students use mathematical modelling to solve applied growth and decay problems by selecting, applying, evaluating and reporting linear, quadratic or exponential models; interpret solutions in terms of the situation; and report assumptions, methods and findings.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Selecting the appropriate model",
+        "progression_checkpoint": "Students can determine whether a given growth or decay situation is best modelled as linear, quadratic or exponential by analysing the pattern of change.",
+        "minimum_width": "Classify a relationship as linear, quadratic or exponential using a table of values (constant first difference, constant second difference, constant ratio); justify the classification.",
+        "typical_width": "Use first differences, second differences and ratios to classify relationships; connect the classification to the appropriate equation form; recognise when contextual descriptions (constant rate, constant percentage change) indicate a model type without needing a table.",
+        "wider": [
+          "Compare multiple representations of the same situation (table, graph, verbal description) and classify the model from each, checking for consistency",
+          "Investigate edge cases where the model type is not immediately clear (e.g. growth that starts linear but becomes exponential) and discuss the limitations of simple classification"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who practise model selection on obvious cases (doubling = exponential, flat rate = linear) fail when the context is ambiguous or described verbally rather than in a table. Multiple context types \u2014 financial, biological, physical \u2014 build reliable classification.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly classifies a relationship from a table using the appropriate pattern (difference or ratio)",
+          "Student justifies the classification by showing the relevant constant pattern in the data"
+        ],
+        "hinge": true,
+        "hinge_reason": "Incorrect model selection at N1 means the wrong equation is formulated in N2 \u2014 the entire modelling output is invalid if the model type is misidentified."
+      },
+      {
+        "id": 2,
+        "label": "Formulating and applying the model",
+        "progression_checkpoint": "Students can write an equation for a growth or decay model from a described context and use it to answer questions about the situation.",
+        "minimum_width": "Write an exponential growth or decay equation from a described context (stating initial value and growth/decay factor); use the equation to calculate a value at a specified time.",
+        "typical_width": "Formulate linear, quadratic and exponential models from contextual descriptions; calculate key values (e.g. population at a given time, balance after n periods); determine doubling time or half-life for exponential models; model compound interest using authentic rates.",
+        "wider": [
+          "Investigate and formulate exponential equations for population growth of native animals on Country/Place with varying reproductive behaviour, discussing what the model's parameters represent ecologically",
+          "Model compound interest scenarios using authentic Australian interest rate data; compare compound and simple interest growth over time"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Setting up exponential models from verbal descriptions requires explicit scaffolding \u2014 students need a clear process for identifying initial value, growth factor (from percentage change), and time variable before they can write the equation reliably.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Formulating exponential models across genuinely different applied contexts (population ecology, compound interest, carbon dating) builds flexible modelling capability. The First Nations population and carbon dating contexts offer particularly rich engagement for advancing students.",
+        "success_criteria": [
+          "Student writes a correct exponential model equation identifying initial value and growth/decay factor from a described context",
+          "Student uses the equation to calculate a specified value and states it in context-appropriate units"
+        ],
+        "related_standards": [
+          "AC9M10A03",
+          "AC9M10M04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Interpreting and evaluating the model",
+        "progression_checkpoint": "Students can interpret modelled results in terms of the original situation and evaluate whether the model is appropriate, identifying key assumptions and limitations.",
+        "minimum_width": "Interpret a modelled result in plain language relevant to the context; state at least one assumption the model makes; identify one limitation of the model.",
+        "typical_width": "Interpret results (doubling time, break-even point, half-life, projected value) in context-specific language; evaluate whether the model fits the situation by checking against known data points; identify assumptions (e.g. constant growth rate, no external shocks); discuss limitations of extrapolation.",
+        "wider": [
+          "Investigate how exponential equations are used in carbon dating to estimate the age of First Nations Australians' artefacts \u2014 examining the assumptions underlying the method and discussing the social significance of measurement accuracy",
+          "Compare model predictions to actual data for a well-documented growth/decay situation and evaluate where the model diverges and why"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Model evaluation \u2014 identifying assumptions and limitations \u2014 is a genuine hinge skill. Students who only evaluate models in one context (e.g. financial) struggle to apply the same critical lens to biological or physical contexts. Multiple context types build transferable evaluation thinking.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Interpretation and evaluation require coordinating the mathematical result with the real-world context, the model's structure, and an understanding of what assumptions were made. This node integrates the modelling cycle into a complete act of mathematical reasoning."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The evaluation and critique of models \u2014 especially in contexts like carbon dating and First Nations population data \u2014 offers genuinely rich engagement with the nature of mathematical modelling and its real-world stakes. Width investment here builds the kind of critical mathematical literacy that distinguishes deep understanding.",
+        "success_criteria": [
+          "Student interprets a modelled result in clear context-appropriate language",
+          "Student identifies at least one assumption the model makes and explains what would happen if that assumption were violated",
+          "Student identifies at least one context in which the model would give unreliable predictions"
+        ],
+        "related_standards": [
+          "AC9M10ST05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

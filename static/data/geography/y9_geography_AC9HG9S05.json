@@ -1,0 +1,131 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9S05",
+    "title": "Developing and Evaluating Strategies",
+    "description": "develop and evaluate strategies using environmental, economic or social criteria; recommend a strategy and explain the predicted impacts",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can propose actions and explain reasons for them (Y7-8). At Y9, the moves are: evaluating strategies against environmental, economic and social criteria; making a recommendation from alternatives; explaining predicted outcomes; and reflecting on personal values.",
+    "progression_endpoint": "Students develop and evaluate strategies using environmental, economic and social criteria, recommend a strategy, explain its predicted impacts, and reflect on how personal values influence predicted outcomes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Proposing individual and collective strategies",
+        "progression_checkpoint": "Students can propose individual and collective strategies for addressing a geographical challenge and support each with reasons",
+        "minimum_width": "Propose at least one individual and one collective strategy for a geographical challenge; explain why each would address the challenge",
+        "typical_width": "Propose a range of individual actions (e.g. reducing food wastage, reducing environmental impact in tourist places) and collective actions (e.g. organisational food security initiatives, labour practice improvements) for addressing a geographical challenge; support each with reasoned justification",
+        "wider": [
+          "Compare the scale of impact of individual versus collective strategies for the same challenge — explain what individual action cannot achieve alone",
+          "Identify who would need to act for each strategy to be effective — explain how collective action problems arise when individual and collective incentives diverge",
+          "Develop a strategy that combines individual and collective action — explain how the two levels reinforce each other"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a working repertoire of strategy types at different scales (individual, community, organisational, government) to evaluate and select from in Nodes 2-3. Students who can only propose one type of strategy have an underdeveloped evaluative toolkit."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Proposes at least one individual and one collective strategy",
+          "Supports each strategy with at least one reason explaining how it addresses the challenge",
+          "Distinguishes between what individual and collective action can achieve"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating strategy effectiveness",
+        "progression_checkpoint": "Students can evaluate the effectiveness of a strategy in relation to environmental, economic and social criteria",
+        "minimum_width": "Apply at least two of the three criteria (environmental, economic, social) to evaluate one strategy; explain what the evaluation reveals about the strategy's effectiveness",
+        "typical_width": "Evaluate the effectiveness of a strategy against environmental, economic and social criteria (e.g. assessing SDG Goal 2 food security progress, evaluating a national park management plan's implementation); identify which criteria the strategy meets, partially meets or does not address",
+        "wider": [
+          "Identify trade-offs in a strategy evaluation — a strategy may perform well against one criterion while performing poorly against another",
+          "Apply the same three criteria to evaluate two competing strategies for the same challenge — compare the evaluation outcomes",
+          "Evaluate a strategy's effectiveness at different scales — does it perform differently at local, national or global scale?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Evaluation against explicit criteria is the prerequisite for recommendation in Node 3 — without criterion-based evaluation, the recommendation has no rational basis. Students who say a strategy 'is good' without applying criteria cannot explain predicted impacts or compare alternatives, collapsing the recommendation into preference rather than justified judgement.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Criterion-based evaluation is a structured reasoning task. Students commonly apply criteria in name only ('this is good environmentally because it's sustainable') without substantive evidence. Scaffolding the full evaluation cycle — criterion stated, evidence identified, judgement made — builds the evaluative rigour that recommendation requires.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Applying the same criteria to different strategies, or the same strategy across scales, prevents students from assuming that good performance on one criterion generalises. Trade-off identification is only possible when students can see strategies performing differently across criteria.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The trade-off identification direction is rich — recognising that a strategy cannot maximise all three criteria simultaneously requires students to reason about sustainability as a balancing problem, not a checklist. Advancing students who can articulate trade-offs develop the evaluative sophistication central to geographical inquiry at senior levels.",
+        "success_criteria": [
+          "Applies at least two of the three criteria (environmental, economic, social) to evaluate a strategy",
+          "Provides evidence-based judgement for each criterion applied",
+          "Identifies at least one trade-off or limitation in the strategy"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Recommending a strategy and predicting impacts",
+        "progression_checkpoint": "Students can recommend a strategy and explain its predicted outcomes and impacts",
+        "minimum_width": "Recommend one strategy with a reasoned justification; explain at least two predicted outcomes or impacts of implementing the strategy",
+        "typical_width": "Recommend a strategy for a geographical challenge (e.g. improving food quality and cultural acceptability, reducing global hazardous waste movement) and explain its predicted outcomes and impacts across environmental, economic and social dimensions; connect the recommendation to the evaluation from Node 2",
+        "wider": [
+          "Address likely counterarguments to the recommended strategy — explain why the recommendation stands despite the limitations identified in evaluation",
+          "Predict second-order impacts — what might change as a result of the strategy's first-order effects?",
+          "Compare two possible recommendations and explain why one is preferable given the evaluation criteria from Node 2"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Recommendation integrates the strategy repertoire from Node 1 and the criterion-based evaluation from Node 2 into a justified choice. The recommendation must be explicitly grounded in the evaluation — a recommendation that ignores the evaluation has not integrated the prior nodes."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States a clear strategy recommendation",
+          "Justifies the recommendation with reference to the evaluation criteria from Node 2",
+          "Explains at least two predicted outcomes or impacts of the recommended strategy"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Reflecting on personal values and predicted outcomes",
+        "progression_checkpoint": "Students can reflect on the influence of personal values and attitudes on predicted outcomes and impacts",
+        "minimum_width": "Identify at least one personal value or attitude that influences a predicted outcome; explain how a different value or attitude might produce a different prediction",
+        "typical_width": "Reflect on how personal values (e.g. preference for locally produced food, commitment to recycling) influence predicted outcomes and impacts; explain how different values lead to different predictions about the same strategy",
+        "wider": [
+          "Examine how cultural background or geographic position might shape what values are held and what outcomes are predicted — connect to S04 perspective reflection",
+          "Identify where a value judgement is embedded in an apparently objective predicted impact — explain what would change if the value were different",
+          "Reflect on how the values implicit in a government or organisational strategy differ from personal values — explain what this reveals about whose interests are prioritised"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Values-reflection requires metacognitive awareness — students must step back from their prediction and ask what value it assumes. Students who cannot identify the embedded value cannot reflect on how different values produce different predictions. Scaffolding the identification step — 'what do I have to believe is important for this prediction to follow?' — builds the reflective capacity.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The embedded-value identification direction is rich — recognising that 'objective' impact predictions rest on value judgements (e.g. whose food is more important, what counts as environmental improvement) develops the critical literacy central to geographical thinking. Advancing students who engage with this direction develop evaluative sophistication that extends beyond geography.",
+        "success_criteria": [
+          "Identifies at least one personal value that influences a predicted outcome",
+          "Explains how a different value would produce a different prediction",
+          "Connects the values reflection back to the strategy recommendation from Node 3"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9U04",
+    "title": "Wave and Particle Models of Energy Transfer",
+    "description": "use wave and particle models to describe energy transfer through different mediums and examine the usefulness of each model for explaining phenomena",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can classify energy types and trace energy transfers and transformations (AC9S8U05). They can explain heat transfer via conduction informally. They have not yet used wave or particle models to explain energy transfer mechanisms, or evaluated the usefulness and limitations of competing models.",
+    "progression_endpoint": "Students use the particle model to explain conduction, convection and electrical current, use the wave model to explain sound and electromagnetic radiation, and evaluate the usefulness of each model for explaining specific phenomena — including cases where neither model alone is sufficient.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Particle model explains conduction, convection and electrical current",
+        "progression_checkpoint": "Students can use the particle model to explain how heat is transferred by conduction (particle collisions) and convection (bulk particle movement), and how the particle model of electricity explains static electricity and current flow.",
+        "minimum_width": "Students explain conduction and convection using the particle model, and use the particle model to explain how electrical current involves movement of charged particles.",
+        "typical_width": "Students explain conduction (energy transferred between adjacent particles by collision) and convection (bulk movement of particles carrying energy) using particle-level reasoning; explain static electricity as charge build-up and current as directed flow of electrons; connect conductors and insulators to particle-level explanations of electron mobility.",
+        "wider": [
+          "Investigate aspects of heat transfer and conservation in the design of First Nations Australians' bedding and clothing across different climatic regions — examining how material selection reflects particle-level understanding of heat transfer",
+          "Examine how the particle model of electricity underlies the design of circuits — connecting Y6 circuit knowledge to a particle-level explanation",
+          "Explore how modern technology has enabled exploration of energy conversion at sub-atomic scales — connecting the particle model to contemporary physics (AC9S9H02)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to evaluate the usefulness of each model for different phenomena — a comparison that requires both models to be accurately understood first. Students who cannot explain conduction and convection at particle level cannot identify where the particle model succeeds and where the wave model is needed instead.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students know the particle model from state changes but have not applied it to energy transfer mechanisms. Encountering the model across conduction, convection and electrical current — with distinct particle-level explanations for each — builds a more versatile and accurate model of what particles do in energy transfer.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations bedding and clothing design provides a culturally grounded material science direction that applies particle-level heat transfer reasoning to real design decisions. The sub-atomic scale direction (AC9S9H02) provides a genuine enrichment extension.",
+        "success_criteria": [
+          "Explains conduction using particle collision reasoning",
+          "Explains convection as bulk particle movement",
+          "Explains electrical current as directed movement of charged particles (electrons)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Wave model explains sound and electromagnetic radiation",
+        "progression_checkpoint": "Students can use the wave model to describe how sound and electromagnetic radiation transfer energy, identify the medium required for each, and describe how wave properties (frequency, wavelength, amplitude) relate to observable phenomena.",
+        "minimum_width": "Students explain sound as a wave requiring a medium and electromagnetic radiation as a wave that can travel through a vacuum, and describe one wave property and its observable effect.",
+        "typical_width": "Students model sound transfer using wave representations (slinky springs); explain how sound wave properties relate to pitch and volume; explain electromagnetic radiation as waves across a spectrum; connect wave properties to the uses of different EM regions (radio, microwave, infrared, visible, UV, X-ray, gamma); and explain why EM radiation travels through a vacuum but sound does not.",
+        "wider": [
+          "Investigate the impact of material selection on sound energy transfer in First Nations Australians' traditional musical, hunting and communication instruments",
+          "Examine how properties of electromagnetic radiation relate to its uses — radar, medicine, mobile communications, remote sensing, microwave cooking (AC9S9H02)",
+          "Explore how forms of electromagnetic radiation are used in modern communication technologies and identify limitations of each"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to evaluate which phenomena the wave model explains better than the particle model, and where both fail. Students who do not understand wave properties and medium requirements cannot identify what the wave model predicts or where it breaks down — the model comparison in Node 3 is groundless without this foundation.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students connect wave properties to sound in familiar contexts but do not extend the model to electromagnetic radiation or see the EM spectrum as a continuum of wave types with different properties and applications. Encountering wave model application across sound, EM spectrum regions and real technology directions builds the breadth needed for the model evaluation in Node 3.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Traditional instrument design provides a culturally grounded sound wave application. The EM spectrum applications direction (AC9S9H02) connects wave model knowledge to a wide range of real technologies.",
+        "success_criteria": [
+          "Explains that sound requires a medium and electromagnetic radiation does not",
+          "Describes at least one wave property and its observable effect for both sound and EM radiation",
+          "Names at least three regions of the EM spectrum and one use of each"
+        ],
+        "related_standards": ["AC9S9H02"]
+      },
+      {
+        "id": 3,
+        "label": "Models are useful for different phenomena — neither is complete",
+        "progression_checkpoint": "Students can evaluate the usefulness and limitations of wave and particle models for explaining specific energy transfer phenomena, and recognise that neither model alone explains all observed behaviour of light.",
+        "minimum_width": "Students identify one phenomenon better explained by the particle model and one better explained by the wave model, and explain why the other model is less useful for each.",
+        "typical_width": "Students compare wave and particle models for explaining light, sound, heat and electrical energy; explain that light shows both wave-like (interference, diffraction) and particle-like (photoelectric effect, photons) behaviour; evaluate what each model explains and where each fails; and discuss why scientists use both models depending on context.",
+        "wider": [
+          "Discuss the wave-particle duality of light including the concept of photons — examining how two models can both be useful without either being complete",
+          "Research how understanding of the nature of matter and energy has changed over time, and how modern technology has enabled exploration at scales from black holes to sub-atomic particles (AC9S9H02)",
+          "Examine how the development of quantum mechanics resolved the wave-particle debate — connecting model evaluation to the history of scientific knowledge change (AC9S9H01)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students expect scientific models to be either right or wrong. The idea that two models can both be useful — explaining different phenomena and failing for different reasons — is a sophisticated epistemological move that requires explicit scaffolding. The reasoning chain (what does the wave model explain well? → where does it fail? → what does the particle model add? → where does that fail?) is the foundation for evaluating model usefulness."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a phenomenon better explained by each model with reasoning",
+          "Explains that light shows both wave-like and particle-like behaviour",
+          "Explains why scientists use both models depending on the context"
+        ],
+        "related_standards": ["AC9S9H01", "AC9S9H02"]
+      }
+    ]
+  }
+}

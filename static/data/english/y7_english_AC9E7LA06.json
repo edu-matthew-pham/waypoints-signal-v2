@@ -1,0 +1,69 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LA06",
+    "title": "Tense consistency",
+    "description": "Understand how consistency of tense through verbs and verb groups achieves clarity in sentences",
+    "strand": "Language — Expressing and developing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand how verb choice, elaborated tenses and adverb groups sharpen and expand ideas (AC9E6LA06). They have not yet focused on tense consistency as a clarity mechanism — how maintaining tense across compound, complex and compound-complex sentences prevents reader confusion.",
+    "progression_endpoint": "Students understand how consistent tense through verbs and verb groups achieves clarity.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Verb tense forms",
+        "progression_checkpoint": "Students can identify verb tense forms and explain what each communicates about time",
+        "minimum_width": "Identify the tense of verbs in given sentences; distinguish at least three tense forms (simple past, simple present, present continuous)",
+        "typical_width": "Identify and name a range of verb tense forms across compound, complex and compound-complex sentences; explain what each communicates about the timing of events",
+        "wider": [
+          "Examine how different tense forms interact in compound-complex sentences — e.g. 'I organise the cake stall every week, and I am running the meeting this weekend' — and explain why both tenses are correct",
+          "Compare how tense choices differ across text types — present tense in explanations vs past tense in recounts"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot reliably identify tense forms, Node 2's consistency work is impossible — identifying inconsistency requires first being able to name the tense of each verb encountered.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Tense identification is a precision skill with consistent error patterns — students confuse present continuous with simple present, and struggle with perfect tenses. Consolidation across varied sentence structures builds the reliable identification that tense-consistency work requires.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the tense of verbs in given sentences",
+          "Names at least three distinct tense forms"
+        ],
+        "related_standards": ["AC9E7LA05"]
+      },
+      {
+        "id": 2,
+        "label": "Consistency of tense for clarity",
+        "progression_checkpoint": "Students can understand how maintaining tense consistency across a sentence or passage achieves clarity, and identify where inconsistency creates confusion",
+        "minimum_width": "Given a sentence or short passage with a tense inconsistency, identify the error and explain why it creates confusion for the reader",
+        "typical_width": "Examine how tense is maintained across compound, complex and compound-complex sentences; identify intentional tense shifts (e.g. flashback, quoted speech) and distinguish them from errors",
+        "wider": [
+          "Examine how tense consistency operates differently in different text types — narrative (past tense maintained), explanation (present tense maintained), and mixed texts where intentional tense shifts occur",
+          "Discuss cases where tense inconsistency is deliberate — stream of consciousness, historical present — and explain how context signals intentionality"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Tense inconsistency in student writing is a high-frequency error that responds to practice rather than broader contexts. Students understand the concept but lose tense tracking in longer sentences and passages. Sustained practice identifying and correcting inconsistency across varied sentence structures is the remedy."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a tense inconsistency in a given sentence or passage",
+          "Explains why the inconsistency creates confusion for the reader"
+        ],
+        "related_standards": ["AC9E7LA05", "AC9E7LY06"]
+      }
+    ]
+  }
+}

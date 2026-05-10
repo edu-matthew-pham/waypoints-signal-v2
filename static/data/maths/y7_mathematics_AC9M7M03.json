@@ -1,0 +1,100 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7M03",
+    "title": "Pi and Circle Features",
+    "strand": "Measurement",
+    "description": "describe the relationship between π and the features of circles including the circumference, radius and diameter",
+    "mode": "A",
+    "prior_knowledge": "Students are familiar with circle vocabulary (centre, radius, diameter) from informal prior experience. Students can measure length and calculate with decimals (from AC9M6M01, AC9M7N06).",
+    "progression_endpoint": "Students describe π as the constant ratio of circumference to diameter and use this relationship to calculate circumference and diameter.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Features of circles and their relationships",
+        "progression_checkpoint": "Students can identify and name the features of a circle (radius, diameter, circumference, chord) and state that diameter = 2 × radius.",
+        "minimum_width": "Label all features on a circle diagram; state the relationship between radius and diameter.",
+        "typical_width": "Measure radius and diameter of several circles; verify d = 2r consistently; identify chord, arc, sector informally.",
+        "wider": [
+          "Investigate circles in First Nations Australian contexts: circular designs in weaving, significance of circles in cultural practices.",
+          "Explore how changing the radius changes both the diameter and circumference proportionally."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Circle vocabulary and the d = 2r relationship must be automatic before investigating π. Students who confuse radius and diameter make systematic errors in all circle calculations.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who confuse radius and diameter use the wrong measurement when calculating C/d in Node 2, making π appear to be approximately 6.28 or 1.57 — this completely undermines the discovery of π's constancy and all subsequent circumference calculations.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly identifies and labels all key features of a circle.",
+          "States that diameter = 2 × radius and applies it correctly.",
+          "Does not confuse radius with diameter."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 2,
+        "label": "Discovering π as a constant ratio",
+        "progression_checkpoint": "Students investigate the ratio C/d for multiple circles and recognise that it is always approximately 3.14 — this constant is π.",
+        "minimum_width": "Measure the circumference and diameter of at least two circles; calculate C/d and observe the approximate constancy.",
+        "typical_width": "Calculate C/d for several circles with different sizes; record results; discuss why the ratio is constant; state that this constant is named π.",
+        "wider": [
+          "Investigate the history of π and how mathematicians approximated it using polygons.",
+          "Explore why π is irrational — it cannot be written as an exact fraction, only approximated."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The constancy of C/d is not obvious from a single measurement. Multiple circles of very different sizes make the invariance of π compelling rather than arbitrary.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Measures and calculates C/d for at least two circles and observes the result is approximately 3.14.",
+          "States that π ≈ 3.14 and explains what it represents.",
+          "Does not treat π as just a button on a calculator without understanding its meaning."
+        ],
+        "related_standards": [],
+        "width_opportunity_reason": "The history and irrationality of π, and its emergence from measurement, is conceptually rich for advancing students — it connects the procedural formula to a deep mathematical idea."
+      },
+      {
+        "id": 3,
+        "label": "Using π to calculate circumference and diameter",
+        "progression_checkpoint": "Students use C = πd (or C = 2πr) to calculate the circumference given the diameter or radius, and rearrange to find diameter given circumference.",
+        "minimum_width": "Calculate the circumference of a circle given its diameter or radius; find the diameter given the circumference.",
+        "typical_width": "Solve practical problems involving circumference: wheel rotations, perimeter of semicircles, circular paths.",
+        "wider": [
+          "Investigate how many rotations a wheel of a given diameter makes over a set distance.",
+          "Explore applications of circumference in First Nations contexts: circular fish traps, traditional circular dwelling dimensions."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students need varied practical contexts to understand when C = πd is the right tool. Purely procedural practice leads to application failures in novel problems."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly calculates circumference given diameter or radius.",
+          "Correctly finds diameter given circumference.",
+          "Uses an appropriate approximation for π and specifies it."
+        ],
+        "related_standards": [
+          "AC9M7N06",
+          "AC9M7N05"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "year_level": "8",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH8S06",
+    "title": "Identify perspectives and values in sources",
+    "description": "identify perspectives, attitudes and values of the past in sources",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "Students identify perspectives, attitudes and values of the past in sources (AC9HH7S06). They can identify the perspective in a source. They have not yet used additional sources to show how an individual account is broadly representative of or contrasts with wider societal values, or analysed how historians' own contexts shape their interpretations.",
+    "progression_endpoint": "Students identify perspectives, attitudes and values of the past in sources — describing what a source reveals and using additional sources to assess how representative it is of broader societal values — and explain why historians interpret the same sources differently based on their own perspectives and contextual factors.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Values and attitudes in individual sources",
+        "progression_checkpoint": "Students can identify the values and attitudes revealed by an individual source and describe what these suggest about the society or individual that produced it.",
+        "minimum_width": "Identification of at least two values or attitudes revealed by a source, with an explanation of what these suggest about the source's producer.",
+        "typical_width": "Values and attitudes identified across multiple source types: a medieval chronicle's values about religious authority; bushido as a value system revealed through samurai texts; Zhou Daguan's Chinese perspective on Khmer society; the monk-written accounts of Viking raids revealing Christian values about violence and the sacred. Understanding that a source's values are not just stated but embedded in what is described, emphasised or omitted.",
+        "wider": [
+          "Examine Matteo Villani's diary, Boccaccio's Decameron or Fordun's Chronicle of the Scottish Nation as sources that reveal how individuals understood and valued the social order disrupted by the Black Death",
+          "Analyse how Viking warrior culture — particularly the significance of honour — is revealed through both the content of Viking sagas and the decisions made by saga characters, going beyond explicit statements of value"
+        ],
+        "hinge": true,
+        "hinge_reason": "Identifying values and attitudes in sources is prerequisite to the corroboration and representativeness analysis in Node 2. Students who can only describe what a source says, rather than what it reveals about values and attitudes, cannot assess how representative it is.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often describe the content of a source rather than the values it reveals. Scaffold the distinction: what does the author include, emphasise or omit — and what does that tell us about what they valued or assumed?",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two values or attitudes revealed by a source and explains what they suggest about the source's producer",
+          "Distinguishes between what a source explicitly states and what its values or assumptions reveal implicitly"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Representativeness and broader societal values",
+        "progression_checkpoint": "Students can use additional sources to assess whether an individual account's values and attitudes are broadly representative of the society, or contrast with it — and explain the significance of this for the source's usefulness.",
+        "minimum_width": "Use of at least one additional source to assess whether the values in the first source are representative of the broader society.",
+        "typical_width": "Corroboration across sources: using multiple sources to determine whether an individual account's values represent a majority position, a minority perspective, or an official view that masked dissent. Examples: comparing individual accounts of the Black Death (Villani, Boccaccio, Ibn Khaldun) to assess whether their values and attitudes are broadly shared; examining whether the monks' accounts of Viking raids reflect wider Christian society's values about the Vikings.",
+        "wider": [
+          "Compare the values revealed by sources from different social groups about the same event — e.g. aristocratic vs peasant accounts of the feudal system — to show how societal values are not uniform but contested across class and position",
+          "Examine how the values of different historians — shaped by their own national, cultural or political contexts — have led them to different interpretations of the same medieval sources"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Representativeness assessment requires multiple sources from different positions within the same society. Varying the types of sources used (individual accounts, official records, visual sources, artefacts) builds a richer picture of whose values are represented and whose are not.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The question of whose perspectives are preserved in the historical record — and whose are systematically absent — is a conceptually rich insight that connects source analysis to broader questions about who writes history and why. Medieval women, peasants, and non-European observers offer contrasting perspectives that reward sustained comparative analysis.",
+        "success_criteria": [
+          "Uses at least one additional source to assess whether an individual account's values are broadly representative or contrasting",
+          "Explains the significance of this assessment for the source's usefulness in a historical inquiry"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Historians' perspectives and interpretations",
+        "progression_checkpoint": "Students can explain why historians have different interpretations of sources — including how access to source material, personal views, and the contextual factors of the historian's own time have influenced their conclusions.",
+        "minimum_width": "An explanation of at least one reason why historians might interpret the same source or event differently.",
+        "typical_width": "Multiple reasons why historians' interpretations diverge: differential access to source material (not all sources available to all scholars); personal views and cultural background of the historian; the historical context in which the historian worked (e.g. Cold War historians interpreting medieval power structures differently from post-colonial historians); the influence of prevailing intellectual frameworks on historical judgement.",
+        "wider": [
+          "Examine how historians' interpretations of the significance of women in Renaissance society — particularly figures like Caterina Sforza or Isabella d'Este — have changed as feminist historiography became more prominent, showing how the historian's context shapes their reading of sources",
+          "Investigate how post-colonial historians' interpretations of the Spanish conquest differ from earlier European-centred accounts, examining what changed as Indigenous perspectives were included in the interpretive frame"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates all prior source-analysis work into an understanding of historiography as a practice shaped by human perspective. Invest in helping students see that different interpretations are not random — they follow from specific differences in access, perspective and context."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least two reasons why historians might interpret the same source or event differently",
+          "Identifies a specific example of how a historian's context — access, perspective, or historical period — shaped their interpretation"
+        ]
+      }
+    ]
+  }
+}

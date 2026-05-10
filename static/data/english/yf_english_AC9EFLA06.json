@@ -1,0 +1,69 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLA06",
+    "title": "Words work together in sentences",
+    "description": "recognise that sentences are made up of groups of words that work together in particular ways to make meaning",
+    "strand": "Language — Expressing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students recognise that sentences express ideas (AC9EFLA05). They have not yet examined how words within a sentence work as a system — how nouns connect to verbs, or adjectives to nouns.",
+    "progression_endpoint": "Students can identify that words in a sentence have particular roles and work together — nouns, verbs and adjectives connect to make meaning — and can demonstrate this across multiple simple examples.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Words have jobs",
+        "progression_checkpoint": "Students can identify that words in a sentence do different things — some name things, some describe actions, some describe qualities.",
+        "minimum_width": "Identify one noun (a naming word) and one verb (a doing word) in a simple sentence.",
+        "typical_width": "Recognise that words play different roles in sentences: nouns name things, verbs describe actions or states, adjectives describe qualities; identify examples in simple sentences.",
+        "wider": [
+          "Sort word cards from familiar sentences into 'naming words', 'doing words' and 'describing words' categories",
+          "Identify the same word playing different roles in different sentences — for example, 'run' as a noun vs a verb"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without distinguishing word roles (naming, doing, describing), students cannot identify how those words connect and relate to each other in Node 2 — word connection reasoning presupposes that the roles are already distinguished.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to encounter many examples of each word class before the categories become robust — a single example of a noun or verb is insufficient. Accumulating examples is the learning work.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can point to a noun and a verb in a simple sentence.",
+          "Student can say what job each word is doing — naming, doing or describing."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Words connect to each other",
+        "progression_checkpoint": "Students can identify how specific words in a sentence relate to each other — how a noun connects to a verb, or an adjective to a noun.",
+        "minimum_width": "Show how a noun and verb connect in one simple sentence (e.g. 'the cat ate').",
+        "typical_width": "Identify how words in a sentence relate to one another: how a noun connects to a verb (the subject doing the action), and how an adjective connects to a noun (describing it); apply this to multiple simple sentences.",
+        "wider": [
+          "Use physical sentence-building activities — word cards, sentence strips — to construct and break sentences, discussing which words connect",
+          "Explore how changing the connecting word (adjective or verb) changes the meaning of the whole sentence",
+          "Identify word connections across a range of text types — picture books, labels, captions — noting how the same patterns appear in different contexts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The relationship between words in a sentence is not immediately obvious — students need a visible reasoning scaffold (which word connects to which, and how) before they can apply the pattern independently. Worked examples that make the connection explicit are important here."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify the noun-verb relationship in a simple sentence.",
+          "Student can identify what an adjective is describing in a simple sentence.",
+          "Student can explain how removing one word affects the meaning of the sentence as a whole."
+        ]
+      }
+    ]
+  }
+}

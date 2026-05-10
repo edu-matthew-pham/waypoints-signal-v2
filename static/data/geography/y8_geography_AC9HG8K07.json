@@ -1,0 +1,96 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8K07",
+    "title": "Urban distribution",
+    "description": "differences in the distribution of urban settlements and urban concentration in Australia compared with another country such as the United States of America, and their implications",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students explain the location and distribution of services and facilities and liveability implications (AC9HG7K06). They have applied basic spatial analysis at local/urban scales. They have not yet compared urban distribution patterns at the national scale across countries.",
+    "progression_endpoint": "Students explain differences in the distribution and concentration of urban settlements in Australia compared with another country, and interpret the relationship between population density and proximity to urban centres.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Representing urban distribution",
+        "progression_checkpoint": "Students can locate and represent the distribution of urban settlements in Australia and another country (e.g., USA), identifying similarities and differences.",
+        "minimum_width": "Students locate major urban settlements in Australia and one other country on a map, describing a broad distribution pattern.",
+        "typical_width": "Students represent the location of urban settlements in Australia and the United States of America, identifying similarities and differences in distribution — e.g., coastal concentration in Australia, more even interior distribution in the USA — and use maps to describe the spatial pattern.",
+        "wider": [
+          "Compare urban distribution patterns across three or more countries, identifying what physical, historical or economic factors correlate with each pattern.",
+          "Examine how urban distribution maps change over time — tracking 50-year shifts in settlement concentration.",
+          "Investigate how remote sensing data is used to map urban extent and track urbanisation spatially."
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot read and represent distribution patterns at the national scale, they cannot explain the causes of urban concentration (Node 2) or interpret population density gradients (Node 3). Spatial literacy at national scale is the prerequisite.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reading and creating national-scale distribution maps requires cartographic practice. Students need to work actively with maps — not just look at them — before they can use distribution patterns as evidence for explanation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locates and labels major urban settlements in Australia and another country on a map.",
+          "Describes at least two differences in the distribution pattern of urban settlements between the two countries."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Causes of urban concentration",
+        "progression_checkpoint": "Students can examine the causes of urban concentration in Australia, including historical, economic, environmental and political factors.",
+        "minimum_width": "Students explain at least two causes of urban concentration in Australia.",
+        "typical_width": "Students examine the causes of urban concentration in Australia — history of European settlement, migration, export-oriented economy, centralisation of state governments, environmental constraints, transportation network shape — and compare with the causes in another country.",
+        "wider": [
+          "Weigh the relative contribution of each cause to Australia's urban concentration pattern.",
+          "Compare how Australia's causes of concentration differ from a country with dispersed settlement (e.g., USA or Canada).",
+          "Examine how Indigenous settlement patterns predate and differ from the European-derived urban concentration."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using multiple causal factors and a comparison country prevents students from producing mono-causal explanations. Building a multi-factor explanatory repertoire is the core intellectual task here.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The multi-causal explanation of urban concentration — weighing historical, economic, environmental and political factors — is genuinely complex geographic reasoning. Wider students can develop comparative causal arguments and assess the relative significance of factors.",
+        "success_criteria": [
+          "Identifies and explains at least two causes of urban concentration in Australia.",
+          "Connects the identified causes to the spatial pattern of urban distribution described in Node 1."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Population density and urban proximity",
+        "progression_checkpoint": "Students can interpret and explain the relationship between population density and proximity to urban centres at the national scale.",
+        "minimum_width": "Students explain the relationship between population density and distance from urban centres using an example.",
+        "typical_width": "Students interpret and explain the core-periphery relationship between population density and proximity to urban centres (e.g., higher density near the CBD declining toward the rural-urban fringe in Brisbane), and examine the effects of urban concentration in a comparison country including environmental degradation, waste, carbon emissions and infrastructure access.",
+        "wider": [
+          "Analyse census data to map population density gradients around a major Australian city.",
+          "Compare core-periphery density patterns across cities of different sizes and structures.",
+          "Investigate how transportation infrastructure shapes the density gradient — where does density drop most steeply and why?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates spatial distribution (Node 1) and causation (Node 2) with population data interpretation. Students move from mapping to analysing relationships — the full explanatory demand of the descriptor."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains the relationship between population density and proximity to a named urban centre at the national scale.",
+          "Identifies the implications of urban concentration (environmental, economic or social) in at least one country."
+        ]
+      }
+    ]
+  }
+}

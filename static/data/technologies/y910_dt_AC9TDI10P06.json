@@ -1,0 +1,126 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P06",
+    "title": "Validate algorithms and programs",
+    "description": "validate algorithms and programs by comparing their output against a range of test cases",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can trace algorithms to predict output for a given input and identify errors (AC9TDI8P06). They can identify when a program's state is unexpected. They have not yet designed systematic test suites including boundary and invalid input cases, or applied a validation methodology beyond ad-hoc tracing.",
+    "progression_endpoint": "Students validate algorithms and programs by designing and applying a range of test cases \u2014 including boundary cases and invalid inputs \u2014 to confirm correct behaviour or identify errors.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Tracing algorithms and identifying unexpected state",
+        "progression_checkpoint": "Students can trace an algorithm to identify when its state becomes unexpected, why this occurred, and what change is needed.",
+        "minimum_width": "Trace an algorithm step by step, record the state of each variable at each step, and identify one point where the state is unexpected.",
+        "typical_width": "Trace an algorithm with a bug; identify the exact step where the state diverges from expected; explain why the bug occurred (e.g. off-by-one, wrong condition, incorrect variable) and describe the fix needed.",
+        "wider": [
+          "Trace an algorithm involving nested loops or nested conditions, tracking the state of multiple variables simultaneously",
+          "Compare two algorithms that produce the same output for most inputs but differ at an edge case \u2014 explain what the difference is and which is correct"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Algorithm tracing requires precision and discipline. Students who skip steps or guess at state values often fail to locate bugs correctly. Sufficient practice with varied algorithms \u2014 including those with intentional bugs \u2014 builds the systematic tracing habit.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Records the state of key variables at each step of the algorithm",
+          "Identifies the step where state becomes unexpected and explains why"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot systematically trace algorithm state cannot identify boundary conditions at N2 \u2014 boundary test design requires knowing what the algorithm does at each step to determine where its behaviour changes."
+      },
+      {
+        "id": 2,
+        "label": "Designing boundary test cases",
+        "progression_checkpoint": "Students can identify boundary conditions for an algorithm or program and design test cases that verify boundary behaviour is handled correctly.",
+        "minimum_width": "For a given algorithm, identify at least one boundary condition and write a test case that checks it; explain what the test case is checking.",
+        "typical_width": "Identify the full set of boundary conditions for an algorithm (e.g. minimum/maximum valid input, exact equality cases, first/last element of a collection); write test cases for each and explain what each checks.",
+        "wider": [
+          "Determine boundary test cases for a geometric algorithm (e.g. shape intersection when shapes just touch vs overlap vs are separate) and verify each case",
+          "Explain why boundary conditions are the most likely place for algorithms to fail and connect this to how conditions are evaluated in code"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Identifying boundaries requires systematic reasoning: what values represent the edge of the valid range? What happens at exactly the boundary value vs one above/below? Students who approach testing intuitively often miss the most important boundary case. A structured approach (identify range \u2192 find boundary \u2192 test at boundary, just inside, just outside) is the key skill.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one genuine boundary condition (not just a typical input)",
+          "Designs a test case that specifically targets the boundary",
+          "Explains what correct behaviour at the boundary should be"
+        ],
+        "hinge": true,
+        "hinge_reason": "A test suite without boundary cases at N4 does not constitute systematic validation \u2014 the descriptor specifically requires a range of test cases, and boundary cases are the most likely failure points in algorithmic implementations."
+      },
+      {
+        "id": 3,
+        "label": "Testing with invalid inputs and error handling",
+        "progression_checkpoint": "Students can generate invalid inputs and user errors and verify that programs handle them appropriately without crashing.",
+        "minimum_width": "Identify at least one type of invalid input for a program; test the program with that input and describe what happened; explain what the correct behaviour should be.",
+        "typical_width": "Identify multiple categories of invalid input (wrong type, out of range, missing input, unexpected format); test the program against each; verify that errors are handled appropriately rather than causing crashes or silent failures.",
+        "wider": [
+          "Design a systematic set of invalid input tests that covers all categories of potential user error for a specific program",
+          "Investigate how professional software uses try/catch or error-handling mechanisms to manage invalid input \u2014 compare this to defensive validation at input time"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Tests at least one invalid input type",
+          "Identifies whether the program's response to invalid input is appropriate (handled gracefully) or a failure (crashes, silent corruption, wrong output)"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Systematic validation against a test suite",
+        "progression_checkpoint": "Students can design and apply a complete test suite that validates an algorithm or program against normal inputs, boundary cases and invalid inputs.",
+        "minimum_width": "Design a test suite with at least three test cases (normal, boundary, invalid); apply each to the algorithm or program and record the outcome.",
+        "typical_width": "Design a complete test suite; apply each test case; record expected vs actual output; for any failed test, trace the algorithm to locate the error and fix it; re-run the test suite to confirm the fix.",
+        "wider": [
+          "Apply the test-fix-retest cycle to a program with multiple bugs, tracking which bugs are introduced or unintentionally fixed by each change",
+          "Compare manual test suites with automated testing approaches \u2014 explain what automation enables that manual testing cannot scale to",
+          "Design a test suite for an algorithm at a peer's solution and explain each test case's purpose to the peer"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "A complete test suite integrates tracing (node 1), boundary identification (node 2) and invalid input testing (node 3) into a coordinated validation approach. Students who can do each step individually often produce incomplete test suites by defaulting to only normal-case tests. Integration here is recognising what categories of testing are needed and deliberately including all three.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The test-fix-retest cycle and automated testing comparison are substantive extensions \u2014 they connect to professional software development practice and raise questions about regression testing and scalability that are genuinely interesting.",
+        "success_criteria": [
+          "Test suite includes at least one normal, one boundary and one invalid input test case",
+          "Expected output is defined for each test case before testing",
+          "Outcome (pass/fail) is recorded for each test case"
+        ],
+        "related_standards": [
+          "AC9TDI10P09"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

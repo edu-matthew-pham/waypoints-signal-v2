@@ -1,0 +1,104 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFM01",
+    "title": "Measurement Attributes",
+    "description": "identify and compare attributes of objects and events, including length, capacity, mass and duration, using direct comparisons and communicating reasoning",
+    "strand": "Measurement",
+    "mode": "A",
+    "prior_knowledge": "Students have informal experience with size and weight in play and daily life (e.g. 'this is big', 'that's heavy'). They have not yet systematically distinguished between different measurement attributes or used direct comparison with explicit reasoning.",
+    "progression_endpoint": "Students identify and compare attributes of objects and events across length, capacity, mass and duration using direct comparison, and communicate reasoning about their comparisons.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Naming measurement attributes",
+        "progression_checkpoint": "Students can name and distinguish between the four measurement attributes — length, capacity, mass and duration — and connect each to the correct measurement language.",
+        "minimum_width": "Name two of the four measurement attributes and use at least one correct word for each (e.g. 'long/short' for length, 'heavy/light' for mass).",
+        "typical_width": "Name all four measurement attributes and use appropriate language for each (tall/short/long/wide for length; holds more/less for capacity; heavier/lighter for mass; takes longer/shorter for duration); connect measurement words to familiar everyday objects and events.",
+        "wider": [
+          "Investigate objects that have interesting or surprising combinations of attributes (e.g. something tall that is also light) — discussing which attribute you are describing",
+          "Connect measurement language to familiar contexts on Country/Place (e.g. comparing lengths of natural objects, duration of familiar activities)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly conflate measurement attributes — particularly confusing length with size in general, or mass with size. Encountering each attribute named correctly across many different familiar objects (not just one canonical example) helps students build distinct categories for each attribute rather than using size as a catch-all term.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Students who conflate measurement attributes will compare the wrong attribute in node 2 — measuring length when asked about mass, or using mass language for capacity comparisons. Attribute confusion produces confidently incorrect comparisons and undermines the reasoning communication demanded in node 3.",
+        "success_criteria": [
+          "Student correctly names at least three of the four measurement attributes when shown an example of each",
+          "Student uses at least one appropriate comparative word for each attribute named (e.g. longer, heavier, holds more, takes longer)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Direct comparison of a single attribute",
+        "progression_checkpoint": "Students can directly compare two objects or events on a single measurement attribute and state which has more or less of that attribute.",
+        "minimum_width": "Directly compare two objects on one attribute (length or mass), state which has more of that attribute, and demonstrate or explain how they know.",
+        "typical_width": "Directly compare pairs of objects on each of the four measurement attributes; use direct comparison strategies (lining up bases for length, hefting for mass, filling for capacity, starting at the same time for duration); justify comparisons using attribute language.",
+        "wider": [
+          "Compare the same pair of objects on two different attributes (e.g. which is longer AND which is heavier) and discuss how different attributes give different information about the same object",
+          "Compare objects from the kitchen pantry, classroom or natural environment — including objects found on Country/Place — on a chosen attribute, communicating reasoning"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "A common error is comparing the wrong attribute — e.g. comparing the colour or general size of an object rather than the specified attribute. Comparing across many pairs of objects, with the attribute named explicitly, helps students focus on the attribute rather than a general sense of 'bigger'. Different attribute types (length vs mass vs capacity) all require this focus shift.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "consolidation",
+            "reason": "Direct comparison requires physical manipulation and careful alignment or measurement technique (e.g. lining up bases). Students need repeated practice with the physical comparison process before they can reliably demonstrate reasoning.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 3 demands that students communicate reasoning about comparisons — but that reasoning can only be articulated if the comparison itself was performed correctly and on the right attribute. Students who habitually compare the wrong attribute, or who lack physical comparison technique, cannot produce valid reasoning at node 3.",
+        "success_criteria": [
+          "Student performs a direct comparison using an appropriate strategy for the attribute (e.g. lines up objects for length, hefts for mass)",
+          "Student states which object has more or less of the attribute and demonstrates or explains how they know"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Communicating reasoning about comparisons",
+        "progression_checkpoint": "Students can compare objects or events on a chosen measurement attribute and communicate their reasoning using attribute-specific language.",
+        "minimum_width": "Compare two objects on a measurement attribute, state the result, and give at least one reason for the comparison (e.g. 'I put them next to each other and this one sticks out further').",
+        "typical_width": "Compare objects and events across all four measurement attributes; explain or demonstrate how they know which has more or less of the attribute; use appropriate measurement language to communicate reasoning in familiar contexts.",
+        "wider": [
+          "Compare objects found in everyday home or community contexts (including objects on Country/Place) on a self-chosen attribute, communicating reasoning to a partner",
+          "Investigate and discuss situations where direct comparison is tricky (e.g. comparing the mass of a large light object with a small heavy object) and reason about what the comparison shows",
+          "Compare the duration of two familiar events by starting them at the same time, describe which took longer and explain why duration comparison requires a shared start point"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Communicating reasoning about measurement comparisons requires students to articulate not just the result but the method — how did they know? The reasoning scaffold (what did you do? what did you find out? how do you know?) is the specific thinking move Foundation students need to develop. Simply naming the result without method is a very common truncation.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates attribute naming (node 1) and direct comparison technique (node 2) into coherent communication — students must coordinate knowing the attribute, applying the comparison method, and explaining the result. The coordination of these three moves is the endpoint demand."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The reasoning communication move — 'how do I know which is longer/heavier?' — is rich territory for advancing students. Wider contexts that create genuine measurement problems (e.g. objects where the comparison is non-obvious, duration comparison requiring a shared start) give advancing students something substantive to reason about.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student compares two objects or events on a specified attribute and correctly states which has more of that attribute",
+          "Student communicates at least one reason for their comparison using attribute-specific language"
+        ]
+      }
+    ]
+  }
+}

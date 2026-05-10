@@ -1,0 +1,127 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9K03",
+    "title": "Factors Affecting Agricultural Productivity",
+    "description": "the environmental, economic and technological factors that impact agricultural productivity, in Australia and a country in Asia",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe factors that affect land use and explain why places have particular characteristics (Y7-8). They have not examined the interaction between environmental, economic and technological factors on agricultural productivity comparatively across two countries, nor analysed how innovations reduce environmental limitations.",
+    "progression_endpoint": "Students examine how environmental, economic and technological factors — and their interconnections — impact the yield of specific crops in Australia and a country in Asia.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Environmental factors and agricultural productivity",
+        "progression_checkpoint": "Students can explain how environmental factors — climate, soil, landform, water and hazards — support or constrain agricultural production",
+        "minimum_width": "Identify at least three environmental factors (climate, soil, landform, water, hazards) and explain how each affects agricultural production; give examples from Australia or Asia",
+        "typical_width": "Explain how multiple environmental factors combine to support high agricultural production of a staple crop (e.g. wheat in Australia, rice in Asia); identify where and why environmental factors limit production",
+        "wider": [
+          "Compare how environmental factors operate differently for rice production in a monsoon climate (Asia) versus wheat production in a semi-arid climate (Australia)",
+          "Analyse how natural hazards (e.g. drought, flood, cyclone) interact with other environmental factors to reduce yield — examine a case study from Australia and one from Asia",
+          "Investigate the relationship between soil type and landform in determining agricultural suitability — explain using a specific case (e.g. the Murray-Darling Basin)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Environmental factors are the baseline against which economic and technological factors operate — technologies exist specifically to address environmental limitations, and economic viability depends partly on environmental endowment. Students who cannot identify specific environmental constraints cannot explain why particular technologies are used or why productivity differs across locations in Nodes 2 and 3.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Environmental factors produce different effects in different climates and crop systems. Comparing Australia (wheat, semi-arid) with an Asian country (rice, monsoon) from the start ensures students understand that the same factor (water) operates differently in different biome-crop combinations.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least three environmental factors and explains how each affects productivity",
+          "Gives specific examples from Australia and/or an Asian country",
+          "Explains how at least one environmental factor limits production in a named location"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Economic and technological factors",
+        "progression_checkpoint": "Students can examine how economic factors — land, labour, finance, enterprise — and technological factors — biotechnology, GIS — affect agricultural production",
+        "minimum_width": "Identify at least two economic factors and two technological factors; explain how each affects agricultural production in Australia or an Asian country",
+        "typical_width": "Explain how economic factors (available land, labour supply, finance, access to markets and transport) interact with technological factors (biotechnology, GIS) to affect production levels; compare examples from Australia and an Asian country",
+        "wider": [
+          "Analyse how GIS technology changes farm management decisions — explain what spatial data enables that was not possible without it",
+          "Examine how labour cost differences between Australia and an Asian country affect the economic viability of different production systems",
+          "Investigate how access to finance and enterprise support differs between small-scale farmers in Asia and large-scale commercial farmers in Australia — explain impacts on technology adoption"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The elaboration requires comparing Australia and an Asian country. Economic and technological contexts differ significantly across these cases — mechanisation vs labour intensity, access to finance, GIS adoption. Students who only examine one context miss the comparative logic the descriptor requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The GIS technology direction is rich for advancing students — it connects to geospatial skills in S02 and raises substantive questions about what kinds of farm decisions spatial data enables. The finance and enterprise comparison direction gives students a genuine economic geography case study that connects agricultural productivity to development context.",
+        "success_criteria": [
+          "Identifies at least two economic and two technological factors affecting production",
+          "Explains the mechanism by which each factor affects productivity (not just names it)",
+          "Compares examples from Australia and an Asian country"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Agricultural innovations reducing environmental limitations",
+        "progression_checkpoint": "Students can examine how agricultural innovations have reduced environmental limitations on food production in Australia and an Asian country",
+        "minimum_width": "Name at least two innovations (e.g. high-yielding varieties, drip irrigation, stubble mulching); explain how each reduces a specific environmental limitation",
+        "typical_width": "Explain how innovations such as high-yielding and pest-resistant crop varieties, drip irrigation, stubble mulching, intercropping and agroforestry reduce specific environmental limitations (e.g. water scarcity, soil degradation, pest pressure) in Australia and an Asian country",
+        "wider": [
+          "Evaluate a specific innovation — what environmental limitation does it address, does it create new limitations, and what is the net effect on productivity sustainability?",
+          "Compare how the same innovation (e.g. high-yielding varieties) has affected productivity differently in an Australian and an Asian context — explain using environmental and economic factors from Nodes 1-2",
+          "Investigate crop rotation as an innovation that works with environmental processes rather than overriding them — explain the ecological mechanisms"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates environmental factors (Node 1) with economic/technological factors (Node 2) — innovations are technological and economic responses to environmental limitations. Teaching investment should ensure students connect the specific limitation an innovation addresses back to the environmental factor that creates it, producing explanatory chains rather than lists."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two innovations and explains what environmental limitation each reduces",
+          "Links the innovation back to the specific environmental factor it addresses (Node 1 connection)",
+          "Gives examples from both Australia and an Asian country"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Interconnections between factors and crop yield",
+        "progression_checkpoint": "Students can explain the impact of interconnections between environmental, economic and technological factors on the yield of a particular crop in Australia",
+        "minimum_width": "Identify at least two interconnections between factors (e.g. water availability affects which technology is viable; technology adoption requires finance); explain their combined impact on yield of one crop",
+        "typical_width": "Explain the interconnected impacts of environmental, economic and technological factors on the yield of a specific crop (e.g. wheat or rice) in Australia; show how a change in one factor cascades through others",
+        "wider": [
+          "Construct a systems diagram showing the interconnections between at least three factors affecting wheat or rice yield in Australia — explain at least two feedback loops",
+          "Analyse a case where changing one factor (e.g. drought reducing water availability) cascades through economic and technological factors to affect yield",
+          "Compare the factor interconnections for the same crop in Australia and an Asian country — explain why the same crop faces different interconnection patterns"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates all three factor types into an interconnected explanation for a specific crop. The teaching investment is on coordination — students need to show how factors interact, not treat them as independent variables. Using a systems diagram or cascading-change scenario forces this coordination.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The systems diagram direction is rich — constructing causal diagrams with feedback loops requires students to formalise their understanding of interconnections rather than describe them loosely. Advancing students who can identify and explain feedback loops have achieved a level of geographical thinking that connects directly to sustainability analysis in K04.",
+        "success_criteria": [
+          "Identifies at least two interconnections between different factor types",
+          "Explains the combined impact of interconnected factors on yield of one named crop",
+          "Uses geographical terminology (interconnection, yield, productivity) correctly"
+        ]
+      }
+    ]
+  }
+}

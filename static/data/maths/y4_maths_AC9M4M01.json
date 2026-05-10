@@ -1,0 +1,62 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4M01",
+    "title": "Measure with scaled instruments",
+    "description": "Interpret unmarked and partial units when measuring and comparing attributes of length, mass, capacity, duration and temperature, using scaled and digital instruments and appropriate units",
+    "strand": "Measurement and Space",
+    "mode": "A",
+    "prior_knowledge": "Students can measure with familiar metric units using instruments with labelled markings (AC9M3M02) and read analog clocks to the nearest minute (AC9M3M04). They have not yet interpreted readings that fall between labelled markings on scaled instruments, or measured duration on clocks without marked minutes.",
+    "progression_endpoint": "Students interpret partial and unmarked units on scaled instruments across five attributes, recording measures in appropriate units including decimal notation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reading between the marks",
+        "progression_checkpoint": "Students can read a measurement from a scaled instrument where the value falls between two marked units, identifying the unit each mark represents.",
+        "minimum_width": "Read one measurement from a scaled instrument (e.g. kitchen scale) where the value falls between two marked values; explain what each marking on the scale represents.",
+        "typical_width": "Interpret partial and unmarked units on analog scales across at least two different attributes (e.g. mass on a kitchen scale, volume in a measuring jug); explain what unit the subdivisions represent; record values using appropriate units.",
+        "wider": [
+          "Make a scaled measuring instrument from scratch (e.g. a measuring cup using a known container and subdivisions), explaining how they determined where to place each marking",
+          "Compare analog and digital instruments measuring the same attribute — discussing what information each provides and how to handle a digital reading between whole-unit increments"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only practise with fully marked instruments may not recognise what unmarked subdivisions represent. Reading across different instruments (scales, measuring jugs, thermometers) where subdivision sizes differ builds the generalised skill of 'determine the scale unit before reading'.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify what each subdivision represents on an unfamiliar instrument cannot meaningfully select or use instruments in Node 2's multi-attribute measurement tasks — they will record incorrect values or avoid instruments where the reading falls between marks.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can read a measurement from a scaled instrument where the value falls between two marked units",
+          "Students can explain what the unmarked subdivisions on a given instrument represent"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Measurement across multiple attributes",
+        "progression_checkpoint": "Students can measure and compare across all five attributes using appropriate instruments and units, recording measures with decimal notation where appropriate.",
+        "minimum_width": "Measure one object or event using a scaled instrument for at least two different attributes; record with appropriate units.",
+        "typical_width": "Measure length, mass, capacity, temperature and duration using scaled instruments; select the appropriate instrument and unit for each attribute; record measures using decimal notation (e.g. 5.25 m, 2.5 kg, 28.5°C); compare measurements made with different instruments.",
+        "wider": [
+          "Investigate how First Nations Ranger Groups and other groups use scaled instruments to monitor and care for Country/Place — comparing traditional and contemporary measurement tools for environmental monitoring",
+          "Design and conduct a measurement investigation requiring at least three different attributes (e.g. measuring conditions for a plant growth experiment), explaining why each instrument and unit was selected"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-attribute measurement provides rich opportunities to develop measurement sense — understanding which units are appropriate, how precision relates to scale divisions, and how measurement serves real purposes. The First Nations Ranger context connects measurement to authentic environmental stewardship.",
+        "success_criteria": [
+          "Students can select and use an appropriate scaled instrument and unit for a given measurement task",
+          "Students can record a measurement in decimal notation where the value falls between whole units"
+        ]
+      }
+    ]
+  }
+}

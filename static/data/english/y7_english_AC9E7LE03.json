@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LE03",
+    "title": "Literary devices create character",
+    "description": "Explain the ways that literary devices and language features such as dialogue, and images are used to create character, and to influence emotions and opinions in different types of texts",
+    "strand": "Literature — Engaging with and responding to literature",
+    "mode": "B",
+    "prior_knowledge": "Students can identify and explain characteristics that define an author's individual style (AC9E6LE03). They have not yet examined how specific literary devices and language features — dialogue, imagery, description — work to construct character and influence the reader's emotional and evaluative response.",
+    "progression_endpoint": "Students explain how literary devices and language features create character and influence emotions and opinions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How literary devices construct character",
+        "progression_checkpoint": "Students can identify literary devices and language features used to create character and explain how each constructs the reader's understanding of that character",
+        "minimum_width": "In a given text, identify at least one literary device or language feature (e.g. dialogue, description, imagery) used to create a character; explain what it reveals about the character",
+        "typical_width": "Examine how multiple devices and features work together to construct a character — dialogue that reveals personality, description that establishes appearance and setting, imagery that signals values or inner life — and explain how each contributes",
+        "wider": [
+          "Compare the representation of a character's appearance in a novel and a film adaptation — how does the translation between modes (written description vs visual image) affect what is constructed about the character?",
+          "Examine how the absence of a literary device changes character construction — what would be lost if a character never spoke directly in dialogue?"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot explain how a device constructs character, Node 2's work on influencing emotions and opinions is inaccessible — both require the same explanatory move (device → effect on reader), and without it at the character level, students cannot extend it to emotional influence.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly identify that a device is present (there is dialogue) without explaining what the dialogue constructs (what does this dialogue reveal about who this character is?). The reasoning scaffold — device → what it shows → what the reader understands about the character — is the explanatory move this node develops.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one literary device or language feature used to create a character",
+          "Explains what the device reveals about the character"
+        ],
+        "related_standards": ["AC9E7LE05", "AC9E7LA02"]
+      },
+      {
+        "id": 2,
+        "label": "Influencing emotions and opinions",
+        "progression_checkpoint": "Students can explain how literary devices and language features are used to influence the reader's emotional response and opinions in different text types",
+        "minimum_width": "In a given text, identify a device or language feature used to influence the reader's emotions or opinions; explain how it produces that effect",
+        "typical_width": "Examine how literary devices and language features influence emotional response and opinion across different text types — how imagery creates empathy in narrative, how dialogue reveals moral character in drama, how visual composition positions the viewer in film; explain the mechanisms of influence in each",
+        "wider": [
+          "Explain the impact and significance of specific language features in a text — not just what they do locally but what they contribute to the reader's cumulative emotional and evaluative response",
+          "Compare how the same character is presented to influence the reader's sympathy differently in two different texts or adaptations — what devices are deployed to generate different emotional responses?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The mechanisms by which devices influence emotions and opinions vary significantly across text types — dialogue works differently in drama than in narrative; imagery operates differently in poetry than in film. Seeing the influence mechanism across genuinely different text types builds understanding of how influence is constructed, not just that it happens.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison of novel and film representations of the same character is particularly rich — it makes the construction of emotional response visible by showing how different media use different devices to achieve similar or different effects.",
+        "success_criteria": [
+          "Identifies a device or language feature used to influence emotions or opinions",
+          "Explains how it produces that effect on the reader or viewer"
+        ],
+        "related_standards": ["AC9E7LE02", "AC9E7LE06", "AC9E7LY03"]
+      }
+    ]
+  }
+}

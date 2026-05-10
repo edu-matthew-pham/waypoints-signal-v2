@@ -1,0 +1,104 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7M04",
+    "title": "Angles and Parallel Lines",
+    "strand": "Measurement",
+    "description": "identify corresponding, alternate and co-interior relationships between angles formed when parallel lines are crossed by a transversal; use them to solve problems and explain reasons",
+    "mode": "A",
+    "prior_knowledge": "Students can identify angle relationships on lines and at points and determine unknown angles (from AC9M6M04). Students understand that angles on a straight line sum to 180° and angles at a point sum to 360°.",
+    "progression_endpoint": "Students identify corresponding, alternate and co-interior angle relationships and use them with geometric reasoning to find unknown angles.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Parallel lines and transversals",
+        "progression_checkpoint": "Students identify parallel lines and transversals in diagrams and name the eight angles formed.",
+        "minimum_width": "Identify and label all eight angles formed by a transversal crossing two parallel lines.",
+        "typical_width": "Draw parallel lines with a transversal; identify corresponding, alternate, and co-interior pairs by position.",
+        "wider": [
+          "Investigate designs and structures where parallel lines and transversals appear (roof trusses, railway tracks, tiled floors).",
+          "Use dynamic geometry software to verify that corresponding angles remain equal as the transversal angle changes."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Correct identification of angle pairs is prerequisite to all reasoning in this descriptor. Students who confuse corresponding with alternate make systematic errors in every subsequent problem.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who confuse angle pair types (corresponding, alternate, co-interior) apply the wrong property in Nodes 2 and 3 — they may apply the equal-angles rule to co-interior pairs (which are supplementary), producing wrong answers throughout.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly identifies and labels the eight angles formed.",
+          "Correctly identifies at least one example of each: corresponding, alternate, co-interior pair.",
+          "Does not confuse vertically opposite angles with the parallel line angle relationships."
+        ],
+        "related_standards": [
+          "AC9M7M05"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Properties of corresponding, alternate and co-interior angles",
+        "progression_checkpoint": "Students state and apply the angle properties: corresponding angles are equal, alternate angles are equal, co-interior angles are supplementary.",
+        "minimum_width": "State each property and calculate a missing angle using one of the three relationships.",
+        "typical_width": "Apply multiple properties in sequence to find all unknown angles in a parallel lines diagram; give reasons for each step.",
+        "wider": [
+          "Investigate why these properties hold — informally, by translating or rotating the transversal to show correspondence.",
+          "Apply properties to real-world geometric problems: angles in roof pitch design, alignment of structures."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently misapply the properties, especially confusing co-interior (supplementary) with alternate (equal). Multiple diagram orientations — not just the standard vertical layout — resolve this.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "The co-interior/alternate confusion produces persistent errors in Node 3 multi-step reasoning — students who apply the wrong property at step 1 propagate wrong values through the entire chain, with no self-correction possible without restating geometric reasons.",
+        "width_opportunity": true,
+        "success_criteria": [
+          "States each angle property correctly.",
+          "Calculates missing angles using the correct property.",
+          "Does not apply the equal-angle property to co-interior pairs."
+        ],
+        "related_standards": [],
+        "width_opportunity_reason": "Understanding why the angle properties hold (via translation/rotation argument) is richer than applying them — advancing students who can construct an informal justification develop genuine geometric reasoning."
+      },
+      {
+        "id": 3,
+        "label": "Using angle reasoning to solve problems",
+        "progression_checkpoint": "Students solve multi-step angle problems involving parallel lines, giving geometric reasons for each step.",
+        "minimum_width": "Solve a problem requiring two steps of angle reasoning and state the reason for each step.",
+        "typical_width": "Solve problems combining parallel line angle properties with straight line and vertically opposite angle facts; write full geometric reasons.",
+        "wider": [
+          "Design a problem requiring at least three angle reasoning steps — write the solution with full justification.",
+          "Investigate how angle properties are applied in geometric proofs (informal): show that a given pair of lines must be parallel."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Multi-step geometric reasoning requires an explicit scaffold: identify what you know, select the applicable property, state the reason. Students who calculate without reasons cannot self-check and lose marks systematically.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Solves a multi-step angle problem correctly.",
+          "States a geometric reason for each step.",
+          "Does not assume angle values without justification."
+        ],
+        "related_standards": [
+          "AC9M7M05",
+          "AC9M7SP02"
+        ],
+        "width_opportunity_reason": "Multi-step geometric proof design is a rich task for advancing students — creating problems that require chaining three or more angle facts develops systematic reasoning within the Year 7 band."
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1M02",
+    "title": "Measure length with informal units",
+    "description": "Measure the length of shapes and objects using informal units, recognising that units need to be uniform and used end-to-end",
+    "strand": "Measurement and Space",
+    "mode": "A",
+    "prior_knowledge": "Students can compare objects directly by length (AC9MFM01) and order objects by length using direct comparison (AC9M1M01). They have not yet iterated a unit along a length to produce a numerical measure, or reasoned about why units must be uniform and placed end-to-end.",
+    "progression_endpoint": "Students measure the length of shapes and objects using informal units, recognising that units need to be uniform and used end-to-end.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Iterate units end-to-end",
+        "progression_checkpoint": "Students can measure the length of an object by placing informal units end-to-end and counting them, producing a numerical measurement.",
+        "minimum_width": "Measure one object using a chosen informal unit placed end-to-end; count the units and record the measurement.",
+        "typical_width": "Measure several objects using an informal unit (blocks, pop sticks) placed end-to-end; count and record each measurement; compare measurements to determine which object is longer; explain what end-to-end placement means.",
+        "wider": [
+          "Measure the same object multiple times using the same unit, investigating whether the result is always the same and discussing what could cause variation.",
+          "Measure classroom features (door frame, table, corridor) using body-based units (footsteps, handspans) and record results, discussing how this connects to historical measurement practices."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Correctly placing units end-to-end without gaps or overlaps requires practice and physical care — it is a procedural skill that needs to become reliable before students can reason about unit consistency. Errors in placement directly undermine the validity of the measurement.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Placement errors (gaps or overlaps) produce invalid measurements that undermine Node 2 — students who cannot iterate units accurately cannot meaningfully compare measurements or reason about why units must be uniform, because their measurements are not trustworthy to begin with.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Places informal units end-to-end without gaps or overlaps to measure a length.",
+          "Counts and records the number of units correctly."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Units must be uniform",
+        "progression_checkpoint": "Students can explain why informal units need to be the same size (uniform) to produce a valid and comparable measurement.",
+        "minimum_width": "Measure one object using two different-sized informal units; explain why the two measurements give different numbers.",
+        "typical_width": "Measure the same object with two different informal units (e.g. pop sticks and pencils); compare the resulting numbers; explain why different units give different counts; articulate that larger units produce smaller numbers for the same length and vice versa.",
+        "wider": [
+          "Explore historical body-based measurement units (handspan, cubit, pace) and investigate why non-uniform body units caused problems for trade and communication — connecting the historical reason for standard units to the Year 1 concept.",
+          "Compare measurements taken by different students using footsteps as the unit, explaining why results differ and what would make the measurements directly comparable."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently assume that different measurements must mean different lengths — they don't yet see that the unit is the variable. Using two different units on the same object, and comparing results across classmates using non-uniform personal units (footsteps), gives the contexts that make the uniformity principle vivid.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The uniformity principle is the conceptual foundation of all measurement — understanding that a measurement is a ratio of the measured quantity to the unit. Students who truly understand why units must be uniform have grasped the deep structure of measurement.",
+        "success_criteria": [
+          "Measures the same object with two different units and correctly states both measurements.",
+          "Explains why the two measurements are different, referring to the size of the unit."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Compare using measurement",
+        "progression_checkpoint": "Students can use informal-unit measurement to compare the length of two or more objects, stating how much longer one is than another.",
+        "minimum_width": "Measure two objects with the same informal unit; state which is longer and by how many units.",
+        "typical_width": "Measure and compare two or more objects using the same informal unit; state the length difference in units; explain why the same unit must be used for both to make a valid comparison; apply measurement comparison to practical contexts (does this object fit in this space?).",
+        "wider": [
+          "Measure and compare lengths across a classroom investigation — designing a measurement challenge where the question requires comparing multiple objects using a chosen unit.",
+          "Investigate what happens to comparative measurements when a different unit is chosen — confirming that the ordering of lengths is preserved even when the unit changes."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Using measurement to compare requires students to apply unit iteration, count correctly, ensure uniformity, and interpret the result in context — all components of the descriptor operating together."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Measures two objects with the same informal unit and states which is longer.",
+          "States the difference in length in units and explains why the same unit was necessary for a valid comparison."
+        ]
+      }
+    ]
+  }
+}

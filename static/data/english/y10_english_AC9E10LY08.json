@@ -1,0 +1,81 @@
+{
+  "year_level": "10",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E10LY08",
+    "title": "Spelling system and spelling for effect",
+    "description": "use knowledge of the spelling system to spell words and to manipulate standard spelling for particular effects",
+    "strand": "Literacy",
+    "mode": "A",
+    "prior_knowledge": "Students explain how spelling is used deliberately for effects such as characterisation, humour and accent representation (AC9E9LY08). They have not yet used knowledge of the spelling system both to spell words correctly and to manipulate standard spelling for particular effects.",
+    "progression_endpoint": "Students use knowledge of the spelling system to spell words and to manipulate standard spelling for particular effects.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Applying spelling system knowledge",
+        "progression_checkpoint": "Students can use their knowledge of the spelling system to spell words accurately, including technically complex vocabulary.",
+        "minimum_width": "Accurately spell a range of technical and academic vocabulary in context, applying knowledge of the spelling system.",
+        "typical_width": "Apply knowledge of the spelling system to spell words accurately across a range of text types and registers, including technical and academic vocabulary.",
+        "wider": [
+          "Examine how knowledge of word etymology and morphology supports spelling of unfamiliar technical vocabulary across different subject areas",
+          "Analyse how spelling conventions differ across Australian, British and American English, and explain when each is appropriate",
+          "Limited width \u2014 this node has limited context variation; enrichment at this node is primarily through applying accurate spelling in increasingly sophisticated and technical texts."
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to manipulate standard spelling for deliberate effect \u2014 a move that depends on knowing what standard spelling is and why it exists. Students without secure spelling system knowledge cannot distinguish deliberate manipulation from error.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate spelling of technical vocabulary requires practice and consolidation \u2014 students need repeated exposure and use in context to internalise correct forms, particularly for domain-specific vocabulary.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Spells a range of technical and academic vocabulary accurately in own writing",
+          "Can apply spelling knowledge to unfamiliar words using system knowledge (morphology, etymology)"
+        ],
+        "related_standards": [
+          "AC9E10LA08"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Manipulating spelling for particular effects",
+        "progression_checkpoint": "Students can manipulate standard spelling deliberately to achieve particular effects, understanding how the departure from standard spelling creates meaning.",
+        "minimum_width": "Identify one example of deliberate spelling manipulation in a text (e.g. a homophone used for effect, a respelling for humour) and explain the effect it creates.",
+        "typical_width": "Identify and analyse a range of deliberate spelling manipulations in texts, explaining how each departure from standard spelling achieves its intended effect.",
+        "wider": [
+          "Examine how homophones and deliberate misspellings are used in advertising, brand names and product marketing (e.g. 'lite') and evaluate their effectiveness",
+          "Analyse how spelling manipulation is used in digital communication contexts (e.g. internet vernacular, memes) to create new meaning or group identity",
+          "Examine how authors have used spelling manipulation to represent dialect, accent or characterisation, and evaluate the ethics of such representations for different communities"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Spelling manipulation operates very differently across literary characterisation, advertising and digital communication \u2014 students need multiple contexts to understand that manipulation is deliberate craft, not just error.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of contexts for spelling manipulation \u2014 literary, advertising, digital communication, dialect representation \u2014 is rich and the ethical dimension of dialect spelling offers genuine depth.",
+        "success_criteria": [
+          "Identifies a deliberate spelling manipulation in a text",
+          "Explains the effect the manipulation creates and how it differs from standard spelling"
+        ],
+        "related_standards": [
+          "AC9E10LA09",
+          "AC9E10LA05"
+        ]
+      }
+    ]
+  }
+}

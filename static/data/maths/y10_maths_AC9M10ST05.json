@@ -1,0 +1,107 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10ST05",
+    "title": "Statistical investigations with bivariate data",
+    "strand": "Statistics",
+    "mode": "B",
+    "description": "plan and conduct statistical investigations of situations that involve bivariate data; evaluate and report findings with consideration of limitations of any inferences",
+    "prior_knowledge": "Students can plan and conduct statistical investigations and discuss strength of evidence for conclusions (AC9M9ST05). They have not yet conducted investigations specifically involving bivariate data, or evaluated the limitations of inferences including interpolation/extrapolation limits and data validity considerations at this level.",
+    "progression_endpoint": "Students plan and conduct statistical investigations involving bivariate data, evaluating and reporting findings with explicit consideration of the limitations of any inferences drawn.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Formulating bivariate investigation questions",
+        "progression_checkpoint": "Students can formulate a statistical investigation question that specifies two variables whose relationship will be investigated.",
+        "minimum_width": "Write a statistical question that specifies two variables and a claim about their possible relationship that can be investigated with data.",
+        "typical_width": "Formulate statistical investigation questions for bivariate data in multiple contexts (observational, experimental, secondary data); identify the explanatory and response variable; specify how the data will be collected (observation, experiment, measurement, secondary source); identify what constitutes an adequate sample.",
+        "wider": [
+          "Investigate anecdotal claims about bivariate relationships (e.g. 'social media use is linked to wellbeing', 'housing affordability is related to income') and evaluate whether the claim is appropriately formulated as an investigation question",
+          "Design a bivariate investigation to address the question 'Is there a relationship between vaccines and immunity?' \u2014 specifying variables, data collection method and sample"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Formulating a well-defined bivariate investigation question requires deliberate reasoning about variable specification, directionality and testability. Students frequently produce questions that are too vague or confound multiple variables. Explicit scaffolding of question formation is needed.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student writes an investigation question that clearly specifies two variables and their possible relationship",
+          "Student identifies the explanatory and response variable for the question"
+        ],
+        "hinge": true,
+        "hinge_reason": "A vague or poorly specified investigation question cascades through N2 and N3 \u2014 data collection (N2) lacks direction, and findings evaluation (N3) cannot be meaningfully scoped to limitations if the original question was ill-defined."
+      },
+      {
+        "id": 2,
+        "label": "Collecting, displaying and describing bivariate data",
+        "progression_checkpoint": "Students can collect or access bivariate data, display it using an appropriate graph, and describe the initial visual pattern.",
+        "minimum_width": "Collect or access a bivariate data set; display it in a scatterplot or two-way table as appropriate; describe the initial visual pattern using association vocabulary.",
+        "typical_width": "Collect bivariate data through observation, experiment or secondary sources; display using appropriate graphs (scatterplot for numerical, two-way table for categorical); describe association in terms of strength, direction and linearity; identify potential outliers or unusual features in the display.",
+        "wider": [
+          "Investigate biodiversity changes in Australia before and after colonisation by comparing relevant bivariate data sets; discuss data provenance and how the historical context affects interpretation",
+          "Access and use secondary data sets for a real bivariate investigation (e.g. climate data, health data, ecological data) and evaluate the quality and representativeness of the data"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Data collection for bivariate investigations varies substantially across methods \u2014 observational, experimental, and secondary source data each involve different quality considerations and display choices. Multiple collection types build flexible data handling."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student produces an appropriate display for the bivariate data collected",
+          "Student describes the initial pattern using association vocabulary appropriate to the data type"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Evaluating and reporting findings",
+        "progression_checkpoint": "Students can evaluate the strength of their statistical findings and report conclusions with explicit acknowledgement of limitations, including interpolation/extrapolation limits and data validity.",
+        "minimum_width": "State a conclusion supported by the data; identify at least one limitation of the inference (e.g. sample size, data validity, interpolation/extrapolation).",
+        "typical_width": "Report statistical findings using appropriate inferential language (hedged claims, strength-of-evidence statements); evaluate data validity; identify interpolation and extrapolation limits; acknowledge alternative explanations; discuss what further investigation would be needed to strengthen the conclusion; communicate findings for a specified audience.",
+        "wider": [
+          "Investigate biodiversity changes in Australia before and after colonisation by comparing related bivariate data; discuss and report on associations with consideration of data provenance, historical framing and the limitations of available data",
+          "Conduct a full bivariate statistical investigation of a real anecdotal claim (e.g. about climate, housing, or natural resources), reporting findings to a specified audience with explicit discussion of what the data can and cannot establish"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The limitations of bivariate inferences vary substantially across investigation types \u2014 interpolation limits matter more for regression contexts, data validity matters more for observational studies, sample representativeness matters more for surveys. Multiple context types build comprehensive evaluation.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Evaluating and reporting findings integrates question formulation (node 1), data display and description (node 2), and critical evaluation of evidence into the full statistical investigation cycle. It is the capability endpoint of the descriptor."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Full statistical investigation cycles on real, meaningful questions \u2014 biodiversity changes, vaccine-immunity relationships, climate claims \u2014 give advancing students genuinely purposeful work that develops statistical reasoning as a tool for understanding the world.",
+        "success_criteria": [
+          "Student states a conclusion that is supported by the data and uses appropriate hedging language",
+          "Student identifies at least two limitations of the inference and explains why each is relevant",
+          "Student communicates findings clearly for a specified audience"
+        ],
+        "related_standards": [
+          "AC9M10ST01",
+          "AC9M10ST03",
+          "AC9M10P02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

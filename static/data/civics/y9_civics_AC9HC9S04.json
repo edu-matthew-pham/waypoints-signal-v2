@@ -1,0 +1,74 @@
+{
+  "year_level": "9",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC9S04",
+    "title": "Evaluate civic participation methods",
+    "description": "evaluate the methods or strategies related to making decisions about civic participation",
+    "strand": "Civics inquiry skills",
+    "mode": "B",
+    "prior_knowledge": "Students can explain the methods or strategies related to making decisions about civic participation (AC9HC8S04). At Year 9 the expectation advances from explaining to evaluating — students must assess whether methods are effective and what their intended and unintended effects are.",
+    "progression_endpoint": "Students evaluate the methods or strategies used in civic participation decisions, assess intended and unintended effects of action plans, and develop evaluated plans for addressing a contemporary civic issue.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Examining civic action plans",
+        "progression_checkpoint": "Students can examine a government or community action plan, identifying its actions, measures, and intended and unintended effects.",
+        "minimum_width": "Examine one government or community action plan and identify its intended goals and at least one measure used to achieve them.",
+        "typical_width": "Examine a government action plan and identify the actions, the measures, and the intended and unintended effects of the plan; use examples such as a local recycling program, a national literacy campaign, or a waste reduction strategy; explain how intended and unintended effects are discovered and how they should inform future planning.",
+        "wider": [
+          "Compare two civic action plans on the same issue (e.g. two different government approaches to reducing plastic waste) and evaluate which methods were more effective and why",
+          "Investigate how a government action plan has been evaluated over time and assess whether evaluation data led to changes in method",
+          "Examine an action plan that produced significant unintended negative effects and analyse what evaluation processes could have identified the risk earlier"
+        ],
+        "hinge": true,
+        "hinge_reason": "The ability to identify actions, measures, and effects is prerequisite to developing an evaluated plan in Node 2. Students who cannot distinguish a measure (how progress is tracked) from an action (what is done) cannot build evaluation criteria into their own planning.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students frequently conflate 'what we will do' with 'how we will know it worked'. An explicit scaffold that separates action → measure → intended effect → evaluation builds the analytical vocabulary needed for Node 2's planning work.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two specific actions in a civic action plan",
+          "Identifies at least one intended effect and one measure used to track it"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Developing and evaluating a civic participation plan",
+        "progression_checkpoint": "Students can develop a plan to address a contemporary civic issue that incorporates a consultation process and evaluation criteria.",
+        "minimum_width": "Develop a basic plan to address a civic issue that includes at least one action, one measure of success, and one way to consult stakeholders.",
+        "typical_width": "Develop a plan of action to address a contemporary civic issue that incorporates a consultation process to ensure a range of views are heard, and participants are provided with opportunities to contribute; include evaluation criteria for assessing effectiveness; consider examples such as a local safety campaign, a community sustainability initiative, or an educational resources strategy.",
+        "wider": [
+          "Develop and peer-review plans for addressing the same civic issue using different methods (e.g. media campaign vs community consultation vs policy advocacy) and evaluate which approach best fits the context",
+          "Evaluate government media campaigns and community activities used over time to address a recurring civic issue (e.g. littering, road safety) and determine which have been most effective and why",
+          "Incorporate feedback loops into a civic plan — specifying how the plan would be revised if early evaluation data indicated it was not working"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Developing a plan integrates the analytical skills from Node 1 (examining existing plans) with the capability skills of civic planning. Students are executing a genuine mode B task — the thinking is only legible through the plan they produce."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Plans developed for contrasting civic contexts (a local personal safety issue, an international development or aid context) build transferability — students learn that civic planning methods must be adapted to context, not just applied formulaically.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Civic planning is a genuinely generative capability. Advancing students who develop plans for multiple civic contexts across different scales and stakeholder groups are building transferable skills in consultation design, evaluation, and advocacy — relevant well beyond the Year 9 curriculum.",
+        "success_criteria": [
+          "Develops a plan that includes at least one action, one consultation mechanism, and one evaluation criterion",
+          "Explains how the consultation process ensures a range of views will be represented"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7A06",
+    "title": "Manipulating Formulas with Digital Tools",
+    "strand": "Algebra",
+    "description": "manipulate formulas involving several variables using digital tools, and describe the effect of systematic variation in the values of the variables",
+    "mode": "A",
+    "prior_knowledge": "Students can substitute values into formulas and generate tables of values (from AC9M7A01, AC9M7A05). Students have used digital tools for calculation.",
+    "progression_endpoint": "Students use digital tools to systematically vary values in multi-variable formulas, and describe the effect of each variable's change on the output.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Systematic variation of one variable",
+        "progression_checkpoint": "Students vary one variable in a formula while holding others constant, and describe the effect on the output.",
+        "minimum_width": "Using a spreadsheet or table, vary one variable in a simple formula (e.g. V = l × w × h, vary h) and describe the effect on V.",
+        "typical_width": "Systematically vary each variable in turn in a multi-variable formula; describe the relationship between each variable and the output.",
+        "wider": [
+          "Investigate formulas where the output changes non-linearly with one variable (e.g. area of a square vs side length) — describe the difference.",
+          "Use spreadsheet formula functions to automate systematic variation across a range of values."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Systematic variation requires the explicit strategy of holding all variables constant except one. Students without this scaffold vary multiple things simultaneously and cannot isolate the effect of each variable.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who vary multiple variables simultaneously in Node 1 cannot describe the effect of any single variable — this blocks Node 2, where comparing the effect of different variables requires having isolated each one first.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly varies one variable while holding others constant.",
+          "Describes the effect of the variation on the output in words.",
+          "Uses a table or digital tool to organise the systematic variation."
+        ],
+        "related_standards": [
+          "AC9M7A01",
+          "AC9M7A05"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Describing effects of variation across multiple variables",
+        "progression_checkpoint": "Students describe how changing each variable in a multi-variable formula affects the output, and identify which variables have the greatest effect.",
+        "minimum_width": "Compare the effect of equal proportional changes in two different variables on the output of a formula.",
+        "typical_width": "Analyse a real formula (e.g. distance = speed × time; volume of a prism) and describe which variable has the most/least impact on the output for a given change.",
+        "wider": [
+          "Explore parameter variation in formulas used in machine learning or AI contexts (as described in elaborations) — model the concept of tuning parameters.",
+          "Investigate the formula for compound scenarios: if both speed and time double, what happens to distance? Connect to proportional reasoning."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing the effect of variables requires varied formula contexts to develop generalised understanding. Students who only explore one formula see the pattern as context-specific rather than a feature of multi-variable relationships.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly describes the effect of changing each variable on the output.",
+          "Identifies which variable produces the largest change in output for an equal proportional variation.",
+          "Uses digital tool output systematically rather than performing isolated calculations."
+        ],
+        "related_standards": [
+          "AC9M7A04",
+          "AC9M7A01"
+        ],
+        "width_opportunity_reason": "Parameter variation in multi-variable formulas is the conceptual foundation for modelling and AI — advancing students can investigate compound variation and connect to proportional reasoning in ways that go well beyond the minimum."
+      }
+    ]
+  }
+}

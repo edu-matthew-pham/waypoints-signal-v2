@@ -1,0 +1,82 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3ST02",
+    "title": "Graphical representations",
+    "strand": "Statistics",
+    "mode": "B",
+    "description": "create and compare different graphical representations of data sets including using software where appropriate; interpret the data in terms of the context",
+    "prior_knowledge": "Students can acquire and record data for categorical and discrete numerical variables (AC9M3ST01). They have not yet created multiple representations of the same data set for comparison, or explicitly interpreted representations in context.",
+    "progression_endpoint": "Students create and compare different graphical representations of data sets and interpret what the data shows in terms of the context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Creating graphical representations",
+        "progression_checkpoint": "Students can create at least two types of graphical representation (e.g. picture graph, bar graph) for the same data set.",
+        "minimum_width": "Create one bar graph or picture graph from a provided frequency table; include title, labels and scale.",
+        "typical_width": "Create two or more different graph types (picture graph, bar graph, dot plot) from the same data set, including using software where appropriate; ensure all components are correctly labelled.",
+        "wider": [
+          "Create graphical representations using digital tools (spreadsheet graphing functions) and compare the software output with hand-drawn versions",
+          "Explore a wider range of graph types relevant to the data (e.g. line graph for numerical data over time) and discuss when each type is appropriate"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can create a correctly labelled bar graph or picture graph from a frequency table.",
+          "Students can include a title, axis labels, and a consistent scale in their graph."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Comparing representations",
+        "progression_checkpoint": "Students can compare two graphical representations of the same data and explain what each makes easier or harder to see.",
+        "minimum_width": "Compare two representations of the same data and state one thing that is easier to see in each.",
+        "typical_width": "Compare the features of different graph types for the same data set; explain which representation better answers specific questions about the data.",
+        "wider": [
+          "Investigate how the same data can be made to look different by changing scale or graph type — discussing misleading representations",
+          "Explore how media and advertising use graphical representations and whether they are honest depictions of the data"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Comparison requires holding two representations in mind simultaneously and reasoning about their relative affordances. This is the integrative move of the descriptor — students who can create graphs but not compare them haven't reached the full demand."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The misleading representations context provides genuine statistical literacy richness — understanding that representation choices are not neutral is a powerful insight that extends well beyond the year-band skill.",
+        "success_criteria": [
+          "Students can identify a feature of the data that is more clearly shown in one graph type than another.",
+          "Students can explain which graph is more useful for a specific question about the data."
+        ],
+        "related_standards": ["AC9M3ST01", "AC9M3ST03"]
+      },
+      {
+        "id": 3,
+        "label": "Interpreting in context",
+        "progression_checkpoint": "Students can interpret what a graphical representation shows and answer questions about the data in terms of the original context.",
+        "minimum_width": "Answer three questions about a provided graph that require reading values and making a simple interpretation statement about the context.",
+        "typical_width": "Interpret data in graphs by identifying patterns, most/least common values, and making statements connected to the original question of interest.",
+        "wider": [
+          "Formulate additional questions that the data set could answer, and identify questions it cannot answer — developing question-data alignment thinking",
+          "Connect interpretation to decision-making: 'What would you do based on this data?' — applying data reasoning to real choices"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can read values from a graph accurately.",
+          "Students can make a statement about what the data shows that connects back to the original question of interest."
+        ]
+      }
+    ]
+  }
+}

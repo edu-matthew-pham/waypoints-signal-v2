@@ -1,0 +1,63 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3ST01",
+    "title": "Data collection and recording",
+    "strand": "Statistics",
+    "mode": "B",
+    "description": "acquire data for categorical and discrete numerical variables to address a question of interest or purpose by observing, collecting and accessing data sets; record the data using appropriate methods including frequency tables and spreadsheets",
+    "prior_knowledge": "Students can create different graphical representations using software and compare representations of data (AC9M2ST02). They have not yet explicitly acquired data through observation and collection for named variable types, or used frequency tables as a systematic recording method.",
+    "progression_endpoint": "Students collect data for categorical and discrete numerical variables addressing a question of interest, and record it using frequency tables and spreadsheets.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Categorical and numerical variables",
+        "progression_checkpoint": "Students can distinguish between categorical and discrete numerical variables and identify each in a given investigation context.",
+        "minimum_width": "Given two example investigations, identify whether the variable is categorical or discrete numerical and explain the difference.",
+        "typical_width": "Identify the variable type in a range of investigation contexts; explain what values the variable could take; propose questions of interest for each variable type.",
+        "wider": [
+          "Explore how the same real-world phenomenon can be measured as either categorical or numerical depending on the question asked (e.g. 'What colour is your hair?' vs 'How many siblings do you have?')",
+          "Investigate how variable type determines which graphical representations are appropriate"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The categorical/numerical distinction requires a conceptual framework — it is not intuitively obvious. Explicit scaffolding of 'what type of values does this variable take?' provides the decision procedure students need.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Variable type identification is a prerequisite for Node 2 (appropriate recording method) and AC9M3ST02 (selecting appropriate graph types) — students who cannot classify variables will choose inappropriate recording and representation methods, undermining the entire investigation.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can classify a variable as categorical or discrete numerical and justify the classification.",
+          "Students can give an example of each variable type from everyday contexts."
+        ],
+        "related_standards": ["AC9M3ST02", "AC9M3ST03"]
+      },
+      {
+        "id": 2,
+        "label": "Collecting and recording data",
+        "progression_checkpoint": "Students can collect data through observation or survey for a question of interest and record it in a frequency table or spreadsheet.",
+        "minimum_width": "Collect data from at least 10 observations for one variable and record in a frequency table; explain what the tally marks represent.",
+        "typical_width": "Collect, tally and record data for categorical and discrete numerical variables using frequency tables and spreadsheets; ensure data is complete and correctly recorded.",
+        "wider": [
+          "Access an existing data set (e.g. class or school data, weather records) and record a subset in a frequency table — practising data acquisition from secondary sources",
+          "Investigate how data collection methods affect what you can and cannot find out (e.g. observation vs survey vs measuring)"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can collect data for a question of interest and record all responses without omission.",
+          "Students can construct a frequency table showing tally marks and totals for a collected data set."
+        ]
+      }
+    ]
+  }
+}

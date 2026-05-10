@@ -1,0 +1,119 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N01",
+    "title": "Decimals beyond hundredths",
+    "strand": "Number",
+    "description": "Interpret, compare and order numbers with more than 2 decimal places, including numbers greater than one, using place value understanding; represent these on a number line",
+    "prior_knowledge": "Students can represent and compare decimals to hundredths on a number line (AC9M4N01). They have not yet interpreted thousandths or beyond, or compared decimals greater than one requiring more than 2 decimal places.",
+    "progression_endpoint": "Students interpret, compare and order numbers with more than 2 decimal places, including numbers greater than one, using place value understanding, and represent these on a number line.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Tenths and hundredths review",
+        "progression_checkpoint": "Students can name the place value of each digit in a decimal to hundredths and explain what each digit represents.",
+        "minimum_width": "Identify and name the value of each digit in a decimal number to hundredths (e.g. 3.47 — 3 ones, 4 tenths, 7 hundredths).",
+        "typical_width": "Represent and interpret decimals to hundredths using place value charts, number lines and MAB-style representations; explain the relative size of tenths and hundredths.",
+        "wider": [
+          "Use measurement contexts (e.g. metres/centimetres) to ground place value meaning",
+          "Connect decimal and fraction representations: 0.47 = 47/100"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly identifies the place value of each digit in a given decimal to hundredths",
+          "Student can partition a decimal to hundredths into its component parts and record them"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Thousandths and beyond",
+        "progression_checkpoint": "Students can read, write and name decimals with more than 2 decimal places, explaining the place value of each digit.",
+        "minimum_width": "Read, write and name a decimal to thousandths; identify the place value of each digit.",
+        "typical_width": "Extend the place value chart to thousandths and ten-thousandths; connect to metric contexts (e.g. kilometres, millimetres). Explain the pattern of powers of ten extending to the right.",
+        "wider": [
+          "Explore scientific measurement contexts requiring 4+ decimal places",
+          "Investigate how First Nations land measurement and navigation systems express precision differently"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Thousandths are abstract without grounding contexts. Students commonly confuse the length of a decimal with its magnitude — more decimal places perceived as bigger. Multiple concrete contexts (measurement, money, science) help resolve this.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Rich measurement contexts (km, scientific data) provide genuine breadth and relevance for advancing students.",
+        "hinge": true,
+        "hinge_reason": "The 'longer decimal = bigger number' misconception causes systematic errors in Node 3 — students who conflate decimal length with magnitude cannot compare or order decimals correctly.",
+        "success_criteria": [
+          "Student reads and writes a decimal to thousandths correctly",
+          "Student identifies the place value of each digit in a decimal with 3+ decimal places"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing and ordering decimals",
+        "progression_checkpoint": "Students can compare and order sets of decimals with more than 2 decimal places, including decimals greater than one, justifying their reasoning using place value.",
+        "minimum_width": "Compare two decimals with up to 3 decimal places and place them in order, justifying using place value column comparison.",
+        "typical_width": "Order sets of 4-6 decimals with mixed decimal places (e.g. 1.3, 0.27, 1.039, 0.3); explain common ordering errors (e.g. treating longer decimals as larger).",
+        "wider": [
+          "Compare decimals arising from measurement contexts with different units requiring conversion",
+          "Sort sporting or scientific data (e.g. race times, pH values) where ordering decimals is purposeful",
+          "Explore how different representations (number line, place value chart) highlight different aspects of comparison"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The 'longer decimal = bigger number' misconception is persistent. Varied contexts expose the misconception from multiple angles — students who see only abstract lists may retain the error even after instruction.",
+            "flags": ["hinge", "width_opportunity"]
+          },
+          {
+            "mode": "consolidation",
+            "reason": "Comparison requires consistent application of the place value alignment procedure. Students benefit from practising the alignment step explicitly before it becomes fluent.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Sports and science datasets give purposeful, rich ordering tasks for advancing students.",
+        "hinge": true,
+        "hinge_reason": "Accurate decimal comparison is the prerequisite for number line placement in Node 4 — students who cannot correctly order decimals cannot meaningfully position them on a number line.",
+        "success_criteria": [
+          "Student correctly orders a set of decimals with different numbers of decimal places",
+          "Student identifies and explains the error in an incorrect ordering (e.g. 0.35 > 0.9)"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Representing on a number line",
+        "progression_checkpoint": "Students can place decimals with more than 2 decimal places, including numbers greater than one, accurately on a number line.",
+        "minimum_width": "Place at least two decimals with 3 decimal places on a labelled number line, choosing an appropriate scale.",
+        "typical_width": "Construct and label a number line for a given range and interval; place decimals greater than one and justify placement using place value estimation.",
+        "wider": [
+          "Use open number lines to compare intervals between decimals",
+          "Connect to measurement scales (thermometers, rulers, scales) as physical number lines"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate number line placement requires students to apply both understanding (place value) and precision (estimation of intervals). Fluency here supports all subsequent decimal work."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student places given decimals with 3+ decimal places on a number line at approximately correct positions",
+          "Student justifies placement using place value language"
+        ]
+      }
+    ]
+  }
+}

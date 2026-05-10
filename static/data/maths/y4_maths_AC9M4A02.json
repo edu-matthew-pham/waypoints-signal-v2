@@ -1,0 +1,118 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4A02",
+    "title": "Multiplication facts to 10×10",
+    "description": "Recall and demonstrate proficiency with multiplication facts up to 10 x 10 and related division facts; extend and apply facts to develop efficient mental strategies for computation with larger numbers without a calculator",
+    "strand": "Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can recall multiplication facts for 3, 4, 5 and 10 and apply to develop related division facts (AC9M3A03). They have not yet extended this to all facts up to 10×10, and have not yet applied known facts to derive efficient strategies for multi-digit computation.",
+    "progression_endpoint": "Students recall all multiplication facts up to 10×10 and related division facts, and apply these to develop efficient mental strategies for computation with larger numbers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Patterns in the multiplication table",
+        "progression_checkpoint": "Students can identify and explain patterns in the 10×10 multiplication table using arrays.",
+        "minimum_width": "Use arrays to show the pattern in one row of the multiplication table (e.g. multiples of 6); explain the related division facts from the same array.",
+        "typical_width": "Use arrays on grid paper to develop and explain patterns across the 10×10 table; identify commutativity visually (e.g. 4×7 = 7×4 from the same array); use arrays to explain corresponding division facts.",
+        "wider": [
+          "Explore the symmetry of the full 10×10 table and explain why half the facts mirror the other half (commutativity as a structural property)",
+          "Identify which products appear most and least frequently in the table, and explain why some products (e.g. 12, 24) have many factor pairs"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to accumulate visual and structural understanding of the table — not just memorise isolated facts. Building a repertoire of array-based representations helps students derive unfamiliar facts from known structural relationships."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can use an array to represent a multiplication fact and explain the corresponding division facts",
+          "Students can identify at least two patterns within the multiplication table (e.g. even multiples, commutativity)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Derivation strategies",
+        "progression_checkpoint": "Students can derive unknown multiplication facts from known facts using doubling, halving, and adding/subtracting one group.",
+        "minimum_width": "Use one derivation strategy (e.g. doubling: ×3 facts doubled give ×6 facts) to establish at least one unfamiliar multiplication fact; record and explain the connection.",
+        "typical_width": "Use and explain multiple derivation strategies including doubling, halving, near-multiples (e.g. ×9 = ×10 minus one group), and distributive property (e.g. ×7 = ×2 + ×5) to establish facts for 4, 6, 7, 8 and 9; connect each derived fact to its related division fact.",
+        "wider": [
+          "Compare multiple derivation paths for the same fact (e.g. 6×7 via 2+5 decomposition vs 3×7 doubled) and discuss which is most efficient for quick recall",
+          "Investigate the distributive property visually — using arrays to show that 6×7 = 6×(2+5) = 6×2 + 6×5, and connecting this to the area model"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students who know only one derivation path for each unfamiliar fact are brittle — they need a repertoire of strategies to handle different contexts quickly. Building multiple pathways to the same fact strengthens the mental network supporting recall.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Derivation strategies are pedagogically rich because they make the multiplicative structure of the number system visible. Students who understand how facts connect have more durable recall and a stronger foundation for multi-digit multiplication.",
+        "success_criteria": [
+          "Students can derive at least one unfamiliar multiplication fact using a named strategy (doubling, near-multiple, distributive), explaining each step",
+          "Students can state the related division fact for any multiplication fact they can recall or derive"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Recall fluency",
+        "progression_checkpoint": "Students can recall multiplication and division facts up to 10×10 with increasing automaticity.",
+        "minimum_width": "Recall all facts for two or more fact families (e.g. 4s and 8s) with reasonable speed; identify related division facts.",
+        "typical_width": "Demonstrate increasing automaticity with all multiplication facts up to 10×10 and their related division facts; use varied retrieval practice (games, timed recall, mixed fact families).",
+        "wider": [
+          "Design an instructive card game that embeds multiplication and division fact recall in a game format — drawing on game design principles to make retrieval practice engaging",
+          "Investigate which fact families students find hardest to recall and use targeted strategies to address those specifically"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Automaticity requires repeated retrieval practice distributed over time. This is a consolidation-heavy node — fluency does not come from understanding alone, and consistent low-stakes practice is the primary intervention for students who are slow but accurate.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot recall facts with automaticity must use working memory for recall during Node 4's extension tasks — applying facts to larger numbers — leaving insufficient capacity to track the place-value reasoning simultaneously. Fluency at this node is a prerequisite for efficient mental computation.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can recall multiplication facts up to 10×10 without needing to derive each one",
+          "Students can quickly state the related division fact for any multiplication fact they know"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Apply to larger numbers",
+        "progression_checkpoint": "Students can extend and apply multiplication and division facts to compute with larger numbers mentally.",
+        "minimum_width": "Use one known fact (e.g. 6×7=42) to solve one related larger problem mentally (e.g. 6×70, 60×7); explain the place-value reasoning used.",
+        "typical_width": "Apply multiplication facts and place value to solve a range of mental computation problems with larger numbers (e.g. 4×30, 7×80, 560÷7); explain the strategy; select efficient strategies based on the numbers involved.",
+        "wider": [
+          "Investigate how knowledge of factors supports estimation for larger products (e.g. knowing 8×7=56 means 8×70≈560 and 80×70≈5600)",
+          "Apply fact-based strategies to multi-step problems, identifying where each step uses a known fact as a building block"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The extension from known facts to larger numbers requires explicit place-value reasoning — students need to articulate 'I know 6×7=42, and 6×70 is 10 times larger, so 420.' Without this scaffolding, students resort to repeated addition for larger multiples."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can use a known multiplication fact to solve a related computation with multiples of 10",
+          "Students can explain the place-value reasoning connecting the known fact to the larger problem"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8S02",
+    "title": "Collect, organise and represent data",
+    "description": "collect, organise and represent data and information from primary research methods, including fieldwork and secondary research materials, using geospatial technologies and digital tools as appropriate",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students collect, organise and represent data from primary and secondary methods using geospatial technologies (AC9HG7S02). At Y8, greater emphasis falls on evaluating reliability and relevance of sources, and on protocols for engaging First Nations communities.",
+    "progression_endpoint": "Students collect, organise and represent relevant and reliable data from primary and secondary sources, using geospatial technologies and digital tools, respecting protocols for First Nations community consultation where appropriate.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Primary research methods and fieldwork",
+        "progression_checkpoint": "Students can identify and use appropriate primary research methods, including fieldwork, to collect original geographical materials.",
+        "minimum_width": "Students identify and use at least one primary research method appropriate to a geographical investigation.",
+        "typical_width": "Students identify appropriate primary research methods for geographical investigations \u2014 field observations, sketches, measurements, digital tools to recreate topographic features \u2014 and apply these to collect original materials related to landforms or urban environments.",
+        "wider": [
+          "Compare the strengths and limitations of different primary research methods for the same investigation question.",
+          "Design a fieldwork protocol including ethical considerations and safety planning.",
+          "Investigate how digital tools (drones, apps, GIS devices) have expanded primary data collection options."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies an appropriate primary research method for a given geographical investigation.",
+          "Collects original data using at least one primary method and records it in an appropriate format."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Secondary research and source evaluation",
+        "progression_checkpoint": "Students can collect secondary research materials using targeted search strategies and evaluate them for relevance and reliability.",
+        "minimum_width": "Students collect at least two secondary sources and evaluate each for relevance to their investigation question.",
+        "typical_width": "Students collect relevant secondary research materials using targeted search strategies (field-specific search functions), and evaluate sources for relevance (Does the information reflect current thinking?) and reliability (Who is the author? Are other experts referenced?), distinguishing credible from unreliable sources.",
+        "wider": [
+          "Compare primary and secondary research findings for the same investigation, identifying consistencies and discrepancies.",
+          "Examine how media sources, government reports and academic sources differ in reliability and bias for geographical topics.",
+          "Investigate how to evaluate the currency and authority of geospatial data sources."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot evaluate source reliability will incorporate unreliable data into their analysis and conclusions, producing flawed findings. Source evaluation quality cascades directly into the validity of the whole inquiry.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Source evaluation requires explicit criteria. A reliability framework (authorship, referencing, currency, purpose) needs scaffolding before students can apply it independently to distinguish credible from unreliable sources.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Evaluates at least two sources for relevance to the investigation question.",
+          "Applies at least two reliability criteria (e.g., authorship, currency, referencing) to assess source credibility."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "First Nations consultation protocols",
+        "progression_checkpoint": "Students can identify and respect protocols for consultation with First Nations Australian communities when organising primary research or fieldwork.",
+        "minimum_width": "Students identify at least one protocol for consulting First Nations communities in geographical research or fieldwork.",
+        "typical_width": "Students identify and explain the protocols for consultation with First Nations Australian communities when organising primary research or fieldwork involving Dreaming stories, Country/Place connections, or community knowledge \u2014 including prior consent, cultural sensitivity and appropriate attribution.",
+        "wider": [
+          "Examine why these protocols exist and their historical context \u2014 what harms have occurred when protocols were not followed?",
+          "Investigate how research ethics frameworks (Indigenous data sovereignty) shape geographical research practice.",
+          "Compare consultation protocols across different First Nations communities and research contexts."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names and explains at least one protocol for First Nations community consultation in geographical research.",
+          "Explains why these protocols are important for ethical geographical inquiry."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Representing data using digital tools",
+        "progression_checkpoint": "Students can represent relevant and reliable data and information in appropriate formats using digital tools and cartographic conventions.",
+        "minimum_width": "Students represent data in at least one appropriate digital format conforming to basic cartographic conventions.",
+        "typical_width": "Students represent spatial distributions and other geographical data using appropriate formats (annotated diagrams, digital mapping tools, distribution maps at different scales) that conform to cartographic conventions, combining data from primary and secondary sources.",
+        "wider": [
+          "Create a multi-layer digital map combining demographic, topographic and qualitative data.",
+          "Evaluate the cartographic choices made in a published map \u2014 what does the choice of projection, classification or symbology communicate?",
+          "Investigate how animated or interactive maps can represent change over time."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Representing data requires students to select, evaluate and organise findings from multiple sources into a coherent cartographic product \u2014 integrating methods, source evaluation and geographic knowledge.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digital mapping and cartographic representation offer rich technical and interpretive opportunities. Wider students can make and justify cartographic choices, a skill that transfers across all subsequent geography inquiry work.",
+        "success_criteria": [
+          "Represents geographical data in at least one appropriate format using a digital tool.",
+          "Applies basic cartographic conventions (title, scale, legend, orientation) to the representation."
+        ]
+      }
+    ]
+  }
+}

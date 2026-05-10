@@ -1,0 +1,69 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFN02",
+    "title": "Subitising to 5",
+    "description": "recognise and name the number of objects within a collection up to 5 using subitising",
+    "strand": "Number",
+    "mode": "A",
+    "prior_knowledge": "Students can count small collections of objects using one-to-one correspondence. They have not yet recognised quantities instantly without counting — subitising as a deliberate strategy is new.",
+    "progression_endpoint": "Students recognise and name the number of objects within a collection up to 5 using subitising, without counting.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Instant recognition to 3",
+        "progression_checkpoint": "Students can recognise and name collections of 1, 2 and 3 objects instantly, without counting.",
+        "minimum_width": "Recognise collections of 1, 2 and 3 objects instantly in standard arrangements (e.g. dot cards, dice) and name the quantity without counting.",
+        "typical_width": "Recognise and name collections of 1, 2 and 3 in a range of arrangements (different dot card layouts, small groups of objects); use subitising to identify quantities in quick-look games.",
+        "wider": [
+          "Recognise collections of 1, 2 and 3 in non-standard arrangements and in familiar objects (e.g. 3 buttons on a shirt, 2 eyes)",
+          "Compare two collections of 1–3 objects using subitising — stating which has more without counting"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Instant recognition requires fluency built through repeated exposure to quick-look activities. Students need practice with many examples across arrangements to build reliable perceptual number sense for 1–3 before extending to 4 and 5.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Reliable instant recognition of 1–3 is the perceptual base for extending subitising to 4 and 5 in node 2. Students who count rather than subitise for 1–3 do not develop the perceptual number sense needed to see 4 as '3 and 1 more' or 5 as '3 and 2' — structured subitising at node 2 depends on fluency at this node.",
+        "success_criteria": [
+          "Student names a collection of 1, 2 or 3 objects immediately (without counting) on at least three consecutive occasions",
+          "Student can distinguish a subitised response from a counted response ('I just knew' vs 'I counted')"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Extending subitising to 5",
+        "progression_checkpoint": "Students can recognise and name collections of 4 and 5 objects using subitising.",
+        "minimum_width": "Recognise collections of 4 and 5 objects instantly in standard arrangements (e.g. dice patterns, dot cards) and name the quantity without counting.",
+        "typical_width": "Recognise and name collections up to 5 using subitising across a range of arrangements; use subitising to play card games requiring quick recognition of quantities; compare and order collections up to 5 using subitising.",
+        "wider": [
+          "Use subitising to play instructive card games (e.g. memory games with dot cards in different arrangements) — connecting subitising to game contexts",
+          "Investigate structured subitising for 4 and 5 as part-part combinations (e.g. 5 as 4+1, 3+2) — beginning to connect subitising to part-part-whole thinking",
+          "Explore subitising in everyday contexts — dice, dominoes, tally marks — describing the strategy used"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly subitise familiar standard arrangements (dice patterns) but revert to counting for unfamiliar arrangements of 4 and 5. Encountering 4 and 5 in varied spatial arrangements — not just canonical dice patterns — builds flexible perceptual recognition rather than pattern memorisation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Connecting subitising of 4 and 5 to part-part combinations (structured subitising) is rich territory that bridges to AC9MFN04. Advancing students who can reliably subitise to 5 can begin to see quantities as composed of parts — a genuinely deeper engagement with number.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly names collections of 4 and 5 objects without counting, across at least two different arrangements",
+          "Student uses subitising in a quick-look game context, naming quantities up to 5 immediately"
+        ]
+      }
+    ]
+  }
+}

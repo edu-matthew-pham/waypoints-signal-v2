@@ -1,0 +1,131 @@
+{
+  "year_level": "10",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE10K03",
+    "title": "Major financial decisions",
+    "description": "factors that influence major consumer and financial decisions, and the short- and long-term consequences of these decisions",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students understand how individuals and businesses manage consumer and financial risks and rewards (AC9HE9K05). They can identify financial risks, explain strategies for managing them, and consider trade-offs in financial decision-making. They have also explored how consumer decisions are influenced by market forces.",
+    "progression_endpoint": "Students analyse factors that influence major consumer and financial decisions and explain both the short- and long-term consequences of these decisions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Minor vs major financial decisions",
+        "progression_checkpoint": "Students can distinguish between minor and major consumer and financial decisions, and explain what makes a decision 'major' in terms of scale, commitment and consequence.",
+        "minimum_width": "Give examples of both minor and major consumer/financial decisions and explain at least one characteristic that makes a decision 'major' (e.g. size of commitment, difficulty to reverse, long-term impact).",
+        "typical_width": "Identify and contrast examples of minor and major consumer and financial decisions; explain processes that guide decision-making and what distinguishes major decisions — scale of financial commitment, duration, difficulty of reversal, and significance of consequences.",
+        "wider": [
+          "Investigate how a major decision (e.g. taking out a student loan) affects financial decision-making for years afterward — tracing opportunity costs and constrained choices",
+          "Compare how major financial decisions differ across life stages (school leaver, mid-career, pre-retirement) and explain why the same decision may be major at one stage and minor at another",
+          "Examine how cognitive biases (e.g. present bias, overconfidence) affect how people categorise decisions as major or minor and what this means for decision quality"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify what makes a decision major, the factors analysis in subsequent nodes becomes unanchored — they will apply the same analysis to any purchase rather than to the high-stakes decisions the descriptor targets.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Build a clear set of criteria that define a major financial decision. Concrete examples (buying a car, taking a personal loan, choosing a mobile plan on contract) anchor the abstract criteria.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly classifies at least two decisions as minor and at least two as major with supporting reasons",
+          "Identifies at least one characteristic that distinguishes a major financial decision"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Factors influencing major decisions",
+        "progression_checkpoint": "Students can analyse multiple factors that influence major consumer and financial decisions, including economic, personal and ethical factors.",
+        "minimum_width": "Identify and explain at least three factors that influence a major financial decision (e.g. price, availability of finance, marketing, age of consumer).",
+        "typical_width": "Analyse the range of factors that influence major consumer and financial decisions: price, availability and cost of finance, marketing of products, age and gender of consumer, convenience, and ethical and environmental considerations; explain how different factors interact in a real decision scenario.",
+        "wider": [
+          "Investigate how targeted digital marketing (e.g. social media algorithms, buy-now-pay-later integration) shapes consumer financial decisions, especially for young people",
+          "Compare how ethical and environmental considerations influence financial decisions differently across demographic groups and examine what drives these differences",
+          "Analyse a major financial product (e.g. a car loan, a home loan) by working through all the listed factors and explaining how each shapes the decision landscape"
+        ],
+        "hinge": true,
+        "hinge_reason": "This node contains the descriptor's primary analytical demand. Students who cannot identify and explain the full factor range will produce surface-level analysis in assessments and cannot connect factors to consequences in the next node.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Build a reference set of factors through varied examples — not just one case. Students need to see that different factors dominate in different decision contexts.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Marketing, finance availability and ethical considerations are richer as width directions — applying the factor framework to different decision types (housing, vehicle, education) reveals which factors are constant and which are context-specific.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The factor range is deliberately broad in the descriptor and elaborations. Students who apply the full factor framework to multiple decision types (vehicle, housing, mobile plan, investment) develop transferable analytical capability.",
+        "success_criteria": [
+          "Identifies at least three distinct factors and explains how each influences a named major financial decision",
+          "Explains how at least two factors interact or reinforce each other in the same decision"
+        ],
+        "related_standards": ["AC9HE10S04"]
+      },
+      {
+        "id": 3,
+        "label": "Short- and long-term consequences",
+        "progression_checkpoint": "Students can identify and explain both the short- and long-term consequences of major financial decisions, distinguishing costs from benefits across different time horizons.",
+        "minimum_width": "For one major financial decision, identify at least one short-term and one long-term consequence, distinguishing whether each is a cost or a benefit.",
+        "typical_width": "Analyse the short- and long-term costs and benefits of major consumer and financial decisions — including ability to make loan repayments, available savings, depreciation, maintenance costs and insurance, as well as benefits such as independence and convenience (e.g. for purchasing a car or home).",
+        "wider": [
+          "Model the total cost of ownership of a specific major purchase (e.g. a car) over 5 years, accounting for depreciation, insurance, fuel, maintenance and opportunity cost of capital",
+          "Compare two financing pathways for the same major purchase (e.g. cash vs loan vs lease) and evaluate which produces better long-term outcomes under different assumptions",
+          "Investigate how a major financial decision taken early in life (e.g. student debt, early home purchase) constrains or enables subsequent financial decisions through compound effects"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Vary the major decision context — vehicle purchase, home purchase, personal loan — so students can identify which consequences are universal (opportunity cost, ongoing repayment commitment) and which are specific to the decision type.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The time-horizon analysis is rich — compound effects of financing, depreciation schedules, and opportunity costs reward quantitative exploration and produce genuine financial literacy outcomes.",
+        "success_criteria": [
+          "Distinguishes at least one short-term and one long-term consequence for a named major financial decision",
+          "Correctly identifies whether each consequence is a cost or a benefit and provides supporting reasoning"
+        ],
+        "related_standards": ["AC9HE10S04"]
+      },
+      {
+        "id": 4,
+        "label": "Factors and consequences — integrated analysis",
+        "progression_checkpoint": "Students can analyse factors influencing a major financial decision and connect these to predicted short- and long-term consequences, demonstrating integrated understanding of the descriptor.",
+        "minimum_width": "For one major financial decision, explain two influencing factors and one consequence that flows from each factor.",
+        "typical_width": "Analyse a major financial decision by identifying the key influencing factors, explaining how they shape the decision, and evaluating the likely short- and long-term consequences — including trade-offs between convenience, cost and long-term financial wellbeing.",
+        "wider": [
+          "Analyse a real case study (e.g. a young person taking on a car loan with high interest while receiving youth allowance) using the full factor and consequence framework",
+          "Evaluate how the ability to 'opt out' if circumstances change should be factored into a major financial decision, and apply this to a real product comparison",
+          "Design a decision-making guide for a specific major financial decision targeted at a Year 10 audience, demonstrating command of factors and consequences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The integration demand is the descriptor's full scope — analysing factors *and* consequences together. This node is where students demonstrate that they can connect the analytical moves from nodes 2 and 3 into a coherent account of a specific decision."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Analyses a named major financial decision by identifying at least two factors and at least one consequence per factor",
+          "Distinguishes between short- and long-term consequences and explains at least one trade-off in the decision"
+        ],
+        "related_standards": ["AC9HE10K04", "AC9HE10S04"]
+      }
+    ]
+  }
+}

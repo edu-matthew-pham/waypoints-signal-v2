@@ -1,0 +1,132 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9K08",
+    "title": "Production, Consumption and Sustainability",
+    "description": "the impacts of the production and consumption of goods on places throughout the world, and strategies to manage sustainability in these places",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how production and consumption affect places (Y7-8). They have examined trade interconnections in K07. They have not analysed full supply chains end-to-end, evaluated the environmental effects across a supply chain, or examined sustainability management strategies for production and consumption impacts at scale.",
+    "progression_endpoint": "Students examine the environmental, economic and social effects of production and consumption on places worldwide, and examine and evaluate sustainability strategies used to manage these impacts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Effects of production on people, places and environments",
+        "progression_checkpoint": "Students can examine the effects on people, places and environments of mining, farming, forestry and the production of manufactured goods",
+        "minimum_width": "Identify at least two production types (mining, farming, forestry, manufacturing); explain one environmental, economic or social effect of each on the place of production",
+        "typical_width": "Explain the environmental, economic and social effects of mining, farming, forestry or manufactured goods production on the places where they occur; identify who is affected and how",
+        "wider": [
+          "Compare the effects of two different production types (e.g. mining vs forestry) on the same type of place — explain what differs in their environmental footprints",
+          "Examine the cumulative effects of multiple production activities in a single region — explain how effects interact",
+          "Investigate how the effects of production in low-income countries differ from those in high-income countries — explain using regulation, labour conditions and environmental standards"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The descriptor lists four production types (mining, farming, forestry, manufactured goods). Students who examine only one have an incomplete picture of the range of impact types. Multiple production contexts ensure the node's building block function for the supply chain analysis in Node 2."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two production types and their effects on places",
+          "Distinguishes between environmental, economic and social effects",
+          "Names specific affected groups or places rather than speaking in generalities"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Environmental effects across the product supply chain",
+        "progression_checkpoint": "Students can explain the environmental effects of the production and distribution of consumer products on places at each stage of the supply chain",
+        "minimum_width": "Trace at least three stages of a product supply chain; identify an environmental effect at each stage",
+        "typical_width": "Trace a full product supply chain (e.g. e-waste: mining → production → sales → disposal) and explain the environmental effects on the places where raw materials are extracted, products are made and waste is received",
+        "wider": [
+          "Map the geographic spread of supply chain environmental effects — which countries bear extraction costs, which bear waste costs, and why?",
+          "Analyse the global oil supply chain from extraction to waste — explain the environmental effects at each stage and in both extraction (West Asia) and consumer (Australia) locations",
+          "Investigate the concept of 'externalities' — explain why environmental costs are often borne by places different from those that benefit economically"
+        ],
+        "hinge": true,
+        "hinge_reason": "The supply chain framing — tracing effects across production, distribution and consumption stages — is the key analytical move for this standard and for evaluating strategies in Nodes 3-4. Students who can only describe effects at one stage cannot explain why particular places are disproportionately affected or evaluate whether a strategy addresses the right stage of the chain.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Supply chain analysis requires students to trace across stages and identify where impacts occur geographically, not just what impacts exist. Students who describe impacts without geographic sequencing cannot explain why e-waste effects fall in developing countries while consumer benefits accrue in developed ones. Scaffolding the stage-by-stage geographic trace builds this analytical structure.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The elaboration provides two supply chain cases: e-waste and global oil. Using both gives students contrasting supply chain structures — discrete manufactured goods versus a continuous resource commodity — and prevents over-generalisation from one case.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The 'externalities' concept direction is rich — it introduces a formal economic geography framework for understanding why environmental costs are geographically displaced from economic benefits. Advancing students who grasp externalities can apply the concept to any supply chain case and connect to policy debates about environmental regulation and trade.",
+        "success_criteria": [
+          "Traces at least three stages of a product supply chain",
+          "Identifies an environmental effect at each stage and the place where it occurs",
+          "Explains why environmental effects are distributed across different places in the supply chain"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Global oil supply chain: extraction to waste",
+        "progression_checkpoint": "Students can evaluate the environmental, economic and social impacts of the global oil supply chain and identify how impacts could be sustainably managed",
+        "minimum_width": "Identify where oil is extracted (West Asia), processed and consumed (including Australia); explain at least two environmental, economic or social impacts across the chain",
+        "typical_width": "Evaluate the environmental, economic and social impacts of the global oil supply chain from extraction (West Asia), processing, and sale to waste disposal in Australia and West Asia; identify how these impacts could be sustainably managed",
+        "wider": [
+          "Compare the impacts of oil extraction and the impacts of oil consumption — which places bear environmental costs and which bear economic benefits?",
+          "Analyse how oil spills at different stages of the supply chain (extraction, transport, refinery, end use) differ in their environmental footprints and management challenges",
+          "Evaluate the extent to which current management strategies for the oil supply chain address extraction impacts versus consumption impacts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The descriptor's 'evaluate' command term signals that students must go beyond description to weigh impacts against criteria. Students who list impacts without evaluating their relative significance or tracing their geographic distribution are not yet at this node's checkpoint. Scaffolding the evaluation framework (what criteria distinguish serious from minor impacts?) builds the analytical depth needed.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison of extraction vs consumption impact burden is rich — it foregrounds global equity: the places bearing the greatest environmental costs from oil extraction (West Asia, developing nations) are often not the primary consumers. Advancing students who analyse this asymmetry develop a geographically and ethically sophisticated understanding of sustainability that extends beyond technical fixes.",
+        "success_criteria": [
+          "Identifies at least two environmental, economic or social impacts of the oil supply chain",
+          "Locates impacts geographically (distinguishing extraction vs consumption locations)",
+          "Identifies at least one management strategy and explains what impact it addresses"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Waste management strategies and sustainability",
+        "progression_checkpoint": "Students can examine waste management strategies used by governments and identify implications for sustainability",
+        "minimum_width": "Identify at least one waste management strategy used by a local, state or national government in Australia; explain what sustainability dimension (environmental, economic, social) it addresses",
+        "typical_width": "Examine a waste management strategy used in an Australian city or regional centre (e.g. waste reduction, recycling programs, circular economy approaches); identify the environmental, economic and social sustainability implications; connect to supply chain logic from Node 2",
+        "wider": [
+          "Evaluate a specific waste management strategy against all three sustainability criteria — environmental, economic and social — and identify trade-offs",
+          "Compare waste management approaches in different Australian cities or between Australia and an Asian country — explain why approaches differ",
+          "Investigate extended producer responsibility policies — explain how shifting waste management costs back to producers changes the supply chain logic"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates production effects (Node 1), supply chain logic (Node 2) and oil supply chain evaluation (Node 3) into a management analysis. Waste management strategies only make sense as responses to specific impacts at specific supply chain stages. Teaching investment should connect the strategy directly back to the impact it addresses in the supply chain.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Extended producer responsibility is rich because it reframes the supply chain question — instead of consumers or governments bearing waste costs, producers internalise them. Advancing students who examine this policy direction connect the externalities concept from Node 2, the supply chain structure, and sustainability governance into a genuinely integrated analysis.",
+        "success_criteria": [
+          "Identifies a specific waste management strategy used by an Australian government",
+          "Explains what sustainability dimension the strategy addresses",
+          "Identifies at least one sustainability implication (environmental, economic or social) of the strategy"
+        ]
+      }
+    ]
+  }
+}

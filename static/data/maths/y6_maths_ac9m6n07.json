@@ -1,0 +1,107 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N07",
+    "title": "Fractions, decimals and percentages",
+    "description": "Solve problems that require finding a familiar fraction, decimal or percentage of a quantity, including percentage discounts, choosing efficient calculation strategies and using digital tools where appropriate",
+    "strand": "number_modelling",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise that 100% represents the whole and connect familiar percentages to decimal and fraction equivalents (AC9M5N04). They can use mathematical modelling to solve additive and multiplicative problems including financial contexts (AC9M5N09). They have not yet found fractions, decimals or percentages of quantities systematically or applied percentage discount calculations.",
+    "progression_endpoint": "Students can solve problems that require finding a familiar fraction, decimal or percentage of a quantity, including percentage discounts, selecting efficient strategies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Finding a fraction of a quantity",
+        "progression_checkpoint": "Students can find a unit fraction and non-unit fraction of a whole number or measurement quantity using multiplication and division.",
+        "minimum_width": "Find a unit fraction (one-half, one-quarter, one-third, one-fifth) of a given whole number quantity; extend to non-unit fractions (three-quarters, two-thirds); show the division-then-multiplication method.",
+        "typical_width": "Find any familiar fraction of a quantity using efficient strategies; connect to multiplication (finding \u00be of 24 = \u00be \u00d7 24 = 18); apply to measurement, money, and data contexts; verify results using estimation.",
+        "wider": [
+          "Apply fraction-of-quantity to real contexts such as recipes, sharing scenarios, and map scales",
+          "Investigate: if you know \u00be of a quantity is 18, what is the whole? \u2014 work backwards from fractions of quantities"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Finding a non-unit fraction of a quantity (divide by denominator, multiply by numerator) is a two-step procedure where errors in either step propagate. Fluency with the procedure is needed before percentage and discount applications.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "The divide-then-multiply procedure for finding a fraction of a quantity is the conceptual model that underpins Node 2 (percentage of a quantity) and Node 3 (discount calculations). Students who cannot reliably execute this two-step procedure will fail to understand percentage methods as a connected extension.",
+        "success_criteria": [
+          "Student correctly finds a unit fraction of a quantity using division.",
+          "Student extends to non-unit fractions using the divide-then-multiply method."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Finding a percentage of a quantity",
+        "progression_checkpoint": "Students can find common percentages (10%, 25%, 50%, 75%, 20%) of a quantity using efficient strategies connecting percentages to fraction and decimal equivalents.",
+        "minimum_width": "Find 50%, 25%, and 10% of given quantities using fraction equivalents or place value strategies; explain why 50% = \u00bd and 10% = divide by 10.",
+        "typical_width": "Find common percentages (10%, 20%, 25%, 50%, 75%, 5%, 1%) of quantities using efficient methods; build non-standard percentages from components (e.g. 15% = 10% + 5%); select digital tools for complex percentages.",
+        "wider": [
+          "Investigate building any percentage from 10% and 1% components \u2014 develop a mental strategy that works for any percentage",
+          "Compare multiple strategies for finding the same percentage and explain when each is most efficient"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who learn percentages only as 'multiply by the decimal' often fail to recognise percentage problems in everyday contexts. Varied contexts \u2014 discounts, surveys, nutrition labels, sports statistics \u2014 build the recognition needed to identify percentage problems in unfamiliar situations.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Percentage-of-quantity connects to a wide range of authentic contexts and is ubiquitous in everyday life. Advancing students benefit from developing fluency across contexts and building mental strategies for non-standard percentages.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student finds 50%, 25%, and 10% of a given quantity using a mental or written strategy.",
+          "Student explains the connection between the percentage and the calculation method used."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Percentage discounts and financial applications",
+        "progression_checkpoint": "Students can calculate a percentage discount on a price and determine the discounted price.",
+        "minimum_width": "Calculate a common percentage discount (10%, 25%, 50%) on a price; find the discounted price by subtracting the discount from the original.",
+        "typical_width": "Calculate percentage discounts including 5%, 15%, 20%; find the discounted price; compare prices to determine better value; apply to a range of financial contexts including GST, savings, and price comparison.",
+        "wider": [
+          "Investigate multi-step discount problems (e.g. 20% off, then further 10% off \u2014 is this the same as 30% off?)",
+          "Explore how GST (10%) affects prices \u2014 calculate prices with and without GST; connect to business and consumer mathematics contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often confuse the discount amount with the discounted price. The two-step reasoning (calculate the discount, then subtract from original) needs explicit scaffolding, particularly for students who conflate percentage with the final result.",
+            "flags": [
+              "hinge"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Percentage discount problems integrate finding a fraction/decimal/percentage of a quantity (Nodes 1-2) with multi-step calculation and financial reasoning. Coordinating these components in a real-world context is the endpoint of this standard.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Percentage discount problems in financial contexts are practically significant and motivationally rich for students. The multi-step, multi-context nature rewards both computational fluency and strategic thinking.",
+        "hinge": true,
+        "hinge_reason": "Conflating discount amount with discounted price is a persistent conceptual error \u2014 students who do not distinguish the two steps will produce systematically wrong answers in AC9M6N09 financial modelling contexts where multi-step percentage calculations are embedded.",
+        "success_criteria": [
+          "Student correctly calculates a percentage discount and determines the discounted price.",
+          "Student explains the two steps: finding the discount amount and subtracting from the original price."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4K02",
+    "title": "Transmitting data between systems",
+    "description": "explore transmitting different types of data between digital systems",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can identify digital systems and represent data as pictures, symbols, numbers and words (AC9TDI2K01, AC9TDI2K02). They have not yet explored how data moves between digital systems or considered the types of data that can be transmitted.",
+    "progression_endpoint": "Students explore how different types of data (text, audio, video, images) can be transmitted between digital systems, and describe examples of data transmission in everyday contexts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Data types that can be transmitted",
+        "progression_checkpoint": "Students can identify the different types of data that digital systems can transmit and give an example of each",
+        "minimum_width": "Name at least two types of data (e.g. text, audio, video, images) that can be sent between digital systems and give one example of each type being transmitted",
+        "typical_width": "Identify text, audio, video and image as data types that can be transmitted; provide concrete examples of each (e.g. messaging, streaming music, video calls, photo sharing)",
+        "wider": [
+          "Investigate what types of data are transmitted when a First Nations community ranger sends location data via GPS \u2014 discuss what data types are involved and how they combine",
+          "Explore how sensor data (e.g. temperature, movement) is a type of data that can be transmitted \u2014 compare to more familiar types like images and text"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two distinct data types correctly",
+          "Matches each type to a concrete real-world transmission example"
+        ],
+        "related_standards": [
+          "AC9TDI4K03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot name and categorise data types cannot describe what is being transmitted in N2 \u2014 descriptions collapse to 'stuff going between devices' without conceptual grounding."
+      },
+      {
+        "id": 2,
+        "label": "How data moves between systems",
+        "progression_checkpoint": "Students can describe what happens when data is transmitted between digital systems \u2014 that data travels from one system to another across a connection",
+        "minimum_width": "Describe one example of data being sent from one digital system to another and identify the sender, data type and receiver",
+        "typical_width": "Describe several examples of data transmission (streaming music on a smartphone, making a video call, sending a file) identifying what data moves from which system to which; recognise that a network or connection is needed",
+        "wider": [
+          "Explore how video call data can be transmitted from a remote First Nations community to a city location \u2014 investigate how 3G network limitations affect the quality and reliability of video data transmission",
+          "Investigate how data is transmitted when downloading a game or app \u2014 discuss the path data takes between a server and the student's device"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often think of data transmission only in terms of internet browsing. Exploring diverse examples \u2014 video calls, music streaming, file sharing \u2014 builds a more generalised understanding of data moving between systems rather than memorising one context.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The remote community / connectivity context (explicitly elaborated by ACARA) is genuinely rich \u2014 it connects data transmission to equity, infrastructure, and real-world constraints in a way that goes well beyond the basic concept while staying within the band.",
+        "success_criteria": [
+          "Identifies sender and receiver in a described data transmission",
+          "Names the type of data being transmitted"
+        ],
+        "related_standards": [
+          "AC9TDI4K01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "year_level": "3-4",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE4P04",
+    "title": "Evaluate with design criteria",
+    "description": "use given or co-developed design criteria including sustainability to evaluate design ideas and solutions",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can evaluate the success of design ideas and solutions based on personal preferences and including sustainability (AC9TDE2P03). They have evaluated based on personal judgement. They have not yet used explicit design criteria as the basis for evaluation or co-developed criteria with others.",
+    "progression_endpoint": "Students use given or co-developed design criteria \u2014 including sustainability \u2014 to evaluate design ideas and solutions, with reasons grounded in the criteria.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Understanding design criteria as evaluation tools",
+        "progression_checkpoint": "Students can explain what design criteria are and describe what a solution would need to do to meet a given criterion",
+        "minimum_width": "Read a set of given design criteria and explain in plain language what a solution must do to satisfy at least two of them",
+        "typical_width": "Read and interpret design criteria for different design problems; explain what each criterion requires of a solution; distinguish between criteria that are met and criteria that are not met for a given solution",
+        "wider": [
+          "Examine design criteria that include universal design principles (flexible use, low physical effort, intuitive use) \u2014 explain what each principle means as a design requirement and how it addresses social sustainability",
+          "Compare two sets of criteria for the same problem \u2014 discuss how different criteria lead to different design priorities and potentially different solutions"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains what at least two criteria require of a solution",
+          "Distinguishes between criteria and solution (criteria state what the solution must do; they are not the solution itself)"
+        ],
+        "related_standards": [
+          "AC9TDE4K01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot interpret what a criterion requires of a solution cannot co-develop meaningful criteria in N2 or evaluate against them in N3 \u2014 the evaluation task requires correctly reading the criteria first."
+      },
+      {
+        "id": 2,
+        "label": "Co-developing design criteria",
+        "progression_checkpoint": "Students can contribute to developing design criteria with others, including at least one criterion related to sustainability",
+        "minimum_width": "Contribute at least one criterion to a co-developed set, explaining why it matters for the design problem",
+        "typical_width": "Co-develop design criteria with others for a design problem; include criteria addressing function, safety, sustainability and user needs; explain the reasoning behind each criterion",
+        "wider": [
+          "Develop design criteria that include a social sustainability criterion addressing accessibility for different user groups \u2014 explain how this criterion reflects universal design thinking",
+          "Develop criteria for a product that will be evaluated by users from different cultural backgrounds \u2014 discuss how criteria might need to reflect diverse needs and what this reveals about how criteria are never fully neutral"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only develop criteria for one type of problem (e.g. a toy) may not see that criteria development is always contextual. Developing criteria across different problem types and user groups builds the habit of thinking from the user's perspective rather than the designer's preferences."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Contributes at least one criterion with a stated reason",
+          "The contributed criterion addresses something a solution must do, not a preference"
+        ],
+        "related_standards": [],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Evaluating ideas and solutions against criteria",
+        "progression_checkpoint": "Students can evaluate a design idea or solution against criteria \u2014 including sustainability \u2014 and provide reasons grounded in the criteria",
+        "minimum_width": "Evaluate one design idea or solution against at least two criteria and state whether each criterion is met, with a reason for each judgement",
+        "typical_width": "Evaluate design ideas and solutions against criteria including sustainability across different design contexts; use evaluation to revise and select between design ideas; reflect on how well the final solution meets the criteria",
+        "wider": [
+          "Compare the waste produced by different design ideas and the potential for recycling \u2014 use sustainability criteria to evaluate and select between design ideas based on material choices",
+          "Evaluate a designed solution against criteria that include safety, sustainability and community/cultural appropriateness \u2014 discuss cases where criteria compete (e.g. a more sustainable material is less durable) and how to reason through trade-offs"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluating against criteria requires criterion-by-criterion reasoning, not an overall impression. Scaffolding the process prevents students from simply stating a preference. The reasoning move (identify criterion \u2192 check solution \u2192 state match/gap \u2192 give reason) needs to become habitual."
+          },
+          {
+            "mode": "integration",
+            "reason": "Evaluation integrates criteria knowledge (node 1), co-developed criteria (node 2), and knowledge of materials and sustainability (AC9TDE4K01, K02) into a practical judgement. The coordination of multiple knowledge sources in an evaluation task is the descriptor's full demand.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The sustainability evaluation direction \u2014 comparing material waste, recyclability and durability across design ideas \u2014 is genuinely rich and directly connects to the descriptor's inclusion of sustainability as a criterion type. Students can engage with real trade-offs that go well beyond 'does it meet the criteria?'",
+        "success_criteria": [
+          "States whether each criterion is met with a reason",
+          "At least one criterion involves sustainability",
+          "Evaluation references the solution's features, not just personal preference"
+        ],
+        "related_standards": [
+          "AC9TDE4K01",
+          "AC9TDE4P01",
+          "AC9TDE4P02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

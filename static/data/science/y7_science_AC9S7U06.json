@@ -1,0 +1,194 @@
+{
+  "year_level": "7",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S7U06",
+    "title": "Pure Substances and Mixtures",
+    "description": "use a particle model to describe differences between pure substances and mixtures and apply understanding of properties of substances to separate mixtures",
+    "strand": "Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can classify materials as solids, liquids or gases and have an introductory particle model from AC9S7U05. They have not formally distinguished pure substances from mixtures at the particle level or applied separation techniques systematically.",
+    "progression_endpoint": "Students use a particle model to describe the difference between pure substances and mixtures, and select and apply appropriate separation techniques based on properties of substances.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Pure substances vs mixtures at the particle level",
+        "progression_checkpoint": "Students can distinguish pure substances from mixtures using particle diagrams and classify familiar materials correctly",
+        "minimum_width": "Distinguish pure substance from mixture using particle diagrams; classify 5 familiar materials correctly with justification",
+        "typical_width": "Draw particle diagrams for a pure substance, a homogeneous mixture and a heterogeneous mixture; explain the key differences",
+        "wider": [
+          "Use representations of particles to show the difference between samples of pure substances and mixtures; identify examples of each in everyday contexts",
+          "Examine different solutions and identify the solvent and solute; represent at the particle level",
+          "Investigate a borderline case (e.g. alloy, saltwater at different concentrations) \u2014 is it pure or a mixture? What does this reveal about the definition?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The pure/mixture distinction at the particle level is prerequisite for all separation technique selection. Students who cannot make this distinction select inappropriate techniques and cannot explain their choices. Seeing the distinction across multiple material types \u2014 solutions, alloys, everyday materials \u2014 forces students to apply the particle-level definition rather than relying on visual appearance.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9S7I04"
+        ],
+        "success_criteria": [
+          "Correctly distinguishes pure substance from mixture using particle diagrams",
+          "Classifies 5 familiar materials correctly with justification",
+          "Does not confuse homogeneous mixtures (e.g. solutions) with pure substances"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish pure substances from mixtures at the particle level cannot select appropriate separation techniques in Nodes 3-5 \u2014 technique selection requires knowing what type of mixture is present."
+      },
+      {
+        "id": 2,
+        "label": "Properties as the basis for separation",
+        "progression_checkpoint": "Students can explain that separation techniques exploit differences in physical properties and match property differences to techniques",
+        "minimum_width": "State that separation techniques exploit differences in physical properties; match at least three property differences to a separation technique",
+        "typical_width": "Analyse a mixture \u2014 identify relevant property differences and justify which technique is most appropriate, including why others would not work",
+        "wider": [
+          "Analyse how physical properties of substances in mixtures (particle size, density, volatility) determine the separation technique used",
+          "Explore and compare separation methods used in a variety of situations such as in the home, recycling industries and water purification",
+          "Evaluate a separation scenario with multiple possible techniques \u2014 rank by efficiency, cost and practicality"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Understanding that techniques exploit property differences (not just 'removing things') is the conceptual key. Without this, students apply techniques by rote and cannot explain or adapt when scenarios change. Seeing the property-technique connection across multiple real-world contexts \u2014 home, industry, water purification \u2014 forces students to apply the principle rather than memorise a technique-mixture pairing.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9S7I01",
+          "AC9S7I05"
+        ],
+        "success_criteria": [
+          "States that separation exploits differences in physical properties",
+          "Correctly matches at least 3 property differences to separation techniques",
+          "Explains why a chosen technique would work for a given mixture"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot map property differences to techniques apply techniques by rote and cannot justify choices or adapt when scenarios change. This mapping is the conceptual engine for all technique selection nodes."
+      },
+      {
+        "id": 3,
+        "label": "Filtration and evaporation",
+        "progression_checkpoint": "Students can perform or describe filtration and evaporation and justify their use for appropriate mixtures",
+        "minimum_width": "Correctly perform or describe filtration and evaporation; identify a mixture each technique is appropriate for and explain why using property differences",
+        "typical_width": "Design a procedure to separate a given mixture using filtration and/or evaporation; predict and explain the result at the particle level",
+        "wider": [
+          "Investigate and use filtration and evaporation in a range of practical contexts; evaluate effectiveness",
+          "Investigate separation techniques used by First Nations Australians such as hand-picking, sieving, winnowing and filtering \u2014 explain the property differences each exploits",
+          "Investigate the effect of a variable (e.g. filter paper grade, temperature) on separation efficiency; analyse results using particle theory"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Performing or describing filtration and evaporation correctly requires procedural precision \u2014 students commonly describe steps in the wrong order, omit key steps, or confuse the two techniques. Practice with feedback on procedural accuracy is what helps, not more separation technique contexts.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations separation techniques direction is rich \u2014 hand-picking, sieving, winnowing and filtering represent a systematic set of property-based separations developed over thousands of years, and analysing the property differences each exploits gives advancing students a cross-cultural perspective on separation science that connects to AC9S7H02.",
+        "related_standards": [
+          "AC9S7I02",
+          "AC9S7I03",
+          "AC9S7I06",
+          "AC9S7H02"
+        ],
+        "success_criteria": [
+          "Correctly describes or performs filtration and evaporation",
+          "Identifies a mixture appropriate for each technique with property reasoning",
+          "Explains why the chosen technique works using property differences"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Distillation and chromatography",
+        "progression_checkpoint": "Students can describe the principles of distillation and chromatography and identify mixtures each technique is appropriate for",
+        "minimum_width": "Describe the principle of distillation and chromatography; identify a mixture each is appropriate for and explain why",
+        "typical_width": "Compare distillation and evaporation \u2014 explain when each is appropriate and why, using particle theory and property differences",
+        "wider": [
+          "Investigate crystallisation, chromatography and distillation; explain the property differences each exploits",
+          "Investigate separation techniques used by First Nations Australians such as yandying, cold-pressing and steam distilling \u2014 connect to property principles",
+          "Analyse a chromatography result \u2014 calculate Rf values, identify components, evaluate what the result reveals about mixture composition"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly confuse distillation with evaporation \u2014 both involve heat and phase change \u2014 without reasoning through the key difference: distillation collects the vapour, evaporation does not. Scaffolding the comparison explicitly (same property exploited, different outcome sought, different equipment needed) is what resolves the confusion.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The yandying, cold-pressing and steam distilling direction is rich \u2014 these First Nations techniques map directly onto property-based separation principles (density differences for yandying, mechanical pressing for cold-press, volatility for steam distilling) and give advancing students cross-cultural examples that deepen the property-technique connection rather than adding more Western laboratory techniques.",
+        "related_standards": [
+          "AC9S7I02",
+          "AC9S7I03",
+          "AC9S7I04",
+          "AC9S7I05",
+          "AC9S7H02"
+        ],
+        "success_criteria": [
+          "Describes the principle of distillation and chromatography",
+          "Identifies a mixture appropriate for each technique",
+          "Distinguishes when distillation is preferred over evaporation"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 5,
+        "label": "Selecting and justifying separation techniques",
+        "progression_checkpoint": "Students can select and justify an appropriate separation technique for an unfamiliar mixture using property differences",
+        "minimum_width": "Given an unfamiliar mixture, select an appropriate technique and justify the choice using property differences",
+        "typical_width": "Design a multi-step separation procedure for a mixture with three components; justify each step and predict the outcome",
+        "wider": [
+          "Evaluate a real-world separation process (e.g. water purification, mining, food processing) \u2014 identify techniques used and property differences exploited",
+          "Compare industrial and First Nations separation techniques for the same type of mixture \u2014 analyse efficiency, sustainability and cultural significance",
+          "Design and evaluate an original separation procedure for a novel mixture; assess against criteria of efficiency, cost and practicality"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates pure/mixture distinction (Node 1), property-technique mapping (Node 2), and procedural knowledge of all four techniques (Nodes 3-4) into a coordinated selection and justification task for unfamiliar mixtures. Students who can handle each technique separately but cannot select and justify for a novel mixture have not integrated the property-based framework.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The industrial vs First Nations technique comparison direction is rich \u2014 it introduces efficiency, sustainability and cultural significance as dimensions of technique evaluation that go beyond the standard 'which technique works' question. Advancing students who engage this direction develop a more sophisticated understanding of what makes a separation method appropriate in context.",
+        "related_standards": [
+          "AC9S7I01",
+          "AC9S7I02",
+          "AC9S7I06",
+          "AC9S7I07",
+          "AC9S7H03",
+          "AC9S7H04"
+        ],
+        "success_criteria": [
+          "Selects an appropriate technique for an unfamiliar mixture",
+          "Justifies the choice using property differences",
+          "Identifies at least one technique that would not work and explains why"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

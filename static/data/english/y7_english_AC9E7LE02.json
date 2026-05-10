@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LE02",
+    "title": "Form and justify opinions",
+    "description": "Form an opinion about characters, settings and events in texts, identifying areas of agreement and difference with others' opinions and justifying a response",
+    "strand": "Literature — Engaging with and responding to literature",
+    "mode": "B",
+    "prior_knowledge": "Students can identify similarities and differences in literary texts on similar topics, themes or plots (AC9E6LE02). They have not yet formed personal opinions about characters, settings and events and justified them — or explicitly engaged with the tension between their own and others' interpretations.",
+    "progression_endpoint": "Students form and justify opinions about texts, identifying agreement and difference with others.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Forming and justifying a personal response",
+        "progression_checkpoint": "Students can form an opinion about characters, settings or events in a text and justify it by reference to the text",
+        "minimum_width": "Form an opinion about a character, setting or event in a given text; justify it with at least one reference to what the text shows or says",
+        "typical_width": "Form opinions about multiple aspects of a text (character, setting, events) and justify each with textual evidence; explain what in the text led to each opinion",
+        "wider": [
+          "Compare personal opinions on texts and justify responses with reference to specific textual evidence — including reasoning about character behaviours such as integrity and loyalty",
+          "Establish criteria for discussing the relative merits of characters, settings and events before forming opinions — discuss how having criteria makes justification more rigorous"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot justify an opinion with textual reference, Node 2's dialogic work has no foundation — engaging with others' opinions requires first being able to anchor one's own position in the text.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students form opinions readily but rarely justify them with textual evidence — they describe their feeling (I liked/disliked the character) without connecting it to what the text actually shows. The reasoning scaffold — opinion → textual evidence → connection between evidence and opinion — is the core move this node develops.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States a personal opinion about a character, setting or event",
+          "Justifies the opinion with at least one reference to the text"
+        ],
+        "related_standards": ["AC9E7LA02", "AC9E7LE03"]
+      },
+      {
+        "id": 2,
+        "label": "Engaging with others' opinions",
+        "progression_checkpoint": "Students can identify areas of agreement and difference between their own and others' opinions about a text and respond to those differences",
+        "minimum_width": "Given another person's opinion about a character, setting or event, identify whether you agree or disagree and explain why — reference both your own response and what the text says",
+        "typical_width": "Participate in a discussion of a literary text where multiple opinions are present; identify specific points of agreement and difference, justify your own position, and respond to at least one point of difference by engaging with the other person's reasoning",
+        "wider": [
+          "Establish forums for discussing the relative merits of characters, settings and events — practise structured literary discussion where opinions are presented, challenged and refined",
+          "Compare opinions on a text where characters exhibit complex behaviours (integrity, loyalty, moral ambiguity) — discuss how different readers can reach different justified conclusions from the same text"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Engaging with interpretive difference requires genuine interpretive diversity — students need to encounter opinions that differ from their own in non-trivial ways to develop the habit of identifying and responding to difference rather than dismissing it. A range of text types and discussion contexts provides the varied perspectives that make this learning possible.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Structured literary discussion around morally complex characters is genuinely rich — it makes interpretive difference productive rather than conflictual and builds the dialogic skills that are valuable across subjects.",
+        "success_criteria": [
+          "Identifies at least one point of agreement or difference with another's opinion",
+          "Justifies their own position in response to the difference, with reference to the text"
+        ],
+        "related_standards": ["AC9E7LY02", "AC9E7LE01"]
+      }
+    ]
+  }
+}

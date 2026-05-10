@@ -1,0 +1,130 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10M01",
+    "title": "Surface area and volume of composite objects",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "solve problems involving the surface area and volume of composite objects using appropriate units",
+    "prior_knowledge": "Students can solve surface area and volume problems for right prisms and cylinders (AC9M9M01). They have not yet worked with composite objects \u2014 solids formed by combining or subtracting multiple familiar 3D shapes.",
+    "progression_endpoint": "Students solve problems involving the surface area and volume of composite objects by decomposing them into familiar component solids and applying appropriate units.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Decomposing composite objects",
+        "progression_checkpoint": "Students can identify the component solids in a composite object and describe how they combine (addition or subtraction of volumes/surfaces).",
+        "minimum_width": "Given a composite solid, identify its component prisms or cylinders; state whether surfaces are added, removed, or partially removed when the components join.",
+        "typical_width": "Decompose composite objects into components in multiple ways; identify which faces become internal (no longer exterior) when components join; choose the most efficient decomposition for a given problem.",
+        "wider": [
+          "Explore how the same composite object can be decomposed in more than one way and verify that both decompositions give the same result",
+          "Investigate real composite structures (e.g. buildings with attached extensions, storage tanks with domed ends) and practise identifying their components from photographs or plans"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The internal face problem \u2014 faces that disappear when two solids join \u2014 is the main source of surface area errors. Students need the reasoning made explicit: when solids share a face, that face is removed from both surfaces, not just one.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies the component solids of a given composite object",
+          "Student identifies which faces become internal when components join and explains why they are excluded from surface area calculations"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify which faces become internal when solids join will systematically double-count or include hidden faces in N2 surface area calculations \u2014 the decomposition reasoning is the prerequisite for accurate calculation."
+      },
+      {
+        "id": 2,
+        "label": "Surface area of composite objects",
+        "progression_checkpoint": "Students can calculate the surface area of a composite object by summing exposed faces of component solids.",
+        "minimum_width": "Calculate the surface area of a composite solid formed from two right prisms or cylinders, correctly excluding internal faces.",
+        "typical_width": "Calculate surface areas of composite objects formed from multiple components including prisms, cylinders and combinations; estimate surface areas for practical purposes; apply appropriate units and check reasonableness of answers.",
+        "wider": [
+          "Estimate the surface area of composite objects in practical contexts where exact dimensions are unavailable, discussing the accuracy needed for the application",
+          "Investigate how surface area to volume ratio changes as objects become more complex, with applications to packaging design or heat transfer"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Surface area calculation errors are systematic \u2014 missing faces, double-counting, unit errors. Fluency requires deliberate practice across multiple composite configurations before modelling applications.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly calculates the surface area of a composite object with no missing or double-counted faces",
+          "Student states the answer in appropriate units"
+        ],
+        "hinge": true,
+        "hinge_reason": "Surface area calculation errors cascade into N4 \u2014 modelling problems requiring surface area (e.g. material cost estimation) produce meaningless results if the calculation step is unreliable."
+      },
+      {
+        "id": 3,
+        "label": "Volume of composite objects",
+        "progression_checkpoint": "Students can calculate the volume of a composite object by summing or subtracting volumes of component solids.",
+        "minimum_width": "Calculate the volume of a composite solid formed from two right prisms or cylinders by addition or subtraction of component volumes.",
+        "typical_width": "Calculate volumes of composite objects using additive and subtractive decomposition; select the most efficient decomposition; apply appropriate units; estimate volumes for practical contexts.",
+        "wider": [
+          "Investigate how material costs or capacity calculations for real composite structures (e.g. swimming pools, storage tanks, industrial containers) depend on accurate volume calculation",
+          "Explore how 3D printing or CNC fabrication requires precise volume calculations for material estimation, connecting measurement to design technology contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Volume calculation errors (especially additive vs subtractive decomposition confusion) are systematic. Fluency with volume calculation across multiple composite configurations is needed before modelling applications in N4."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly calculates the volume of a composite object using an appropriate decomposition",
+          "Student states the answer in appropriate units and checks reasonableness"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Modelling with composite objects",
+        "progression_checkpoint": "Students can use surface area and volume calculations for composite objects to solve a practical problem, stating assumptions and interpreting results in context.",
+        "minimum_width": "Apply surface area or volume calculation to solve a practical problem involving a composite object; state the answer in context-relevant terms.",
+        "typical_width": "Model practical problems involving composite objects (e.g. rainwater collection from a composite roof, optimal storage container design, supply estimation for an event); identify and state assumptions; interpret and evaluate results; choose between competing designs using calculated values.",
+        "wider": [
+          "Design and evaluate optimal composite container configurations for a given volume constraint (e.g. maximum rainwater storage fitting a given space), modelling multiple configurations and comparing",
+          "Investigate how surface area to volume ratio of composite biological structures (e.g. lung alveoli, tree branching) is optimised for function \u2014 connecting measurement to real-world design principles"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Translating practical problems into composite object decompositions varies substantially across context types. Students who only model one context type (e.g. construction) may not apply the same decomposition thinking to biological or design contexts. Multiple context types build flexible application.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates decomposition, surface area and volume calculation with the full modelling cycle \u2014 formulation, calculation, interpretation and evaluation. It is the integration point for all prior nodes in this descriptor."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Practical modelling with composite objects \u2014 especially optimisation problems like 'design the best rainwater tank for a given site' \u2014 is rich territory for advancing students, requiring them to generate and compare multiple designs rather than solve a single question.",
+        "success_criteria": [
+          "Student identifies the composite object structure relevant to the practical problem and performs the correct calculation",
+          "Student states the result in context-appropriate terms and identifies at least one assumption made",
+          "Student checks whether the result is reasonable given the context"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

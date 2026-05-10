@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LE04",
+    "title": "Aesthetic and social value",
+    "description": "Discuss the aesthetic and social value of literary texts using relevant and appropriate metalanguage",
+    "strand": "Literature — Engaging with and responding to literature",
+    "mode": "B",
+    "prior_knowledge": "Students can identify and explain characteristics that define an author's individual style (AC9E6LE03) and explain the way authors use sound and imagery to create meaning and effect in poetry (AC9E6LE04). They have not yet discussed aesthetic and social value as distinct concepts, or applied metalanguage specifically to those evaluative judgements.",
+    "progression_endpoint": "Students discuss the aesthetic and social value of literary texts using appropriate metalanguage.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Aesthetic and social value as distinct concepts",
+        "progression_checkpoint": "Students can distinguish between aesthetic value (how well the text achieves its artistic effects) and social value (what it contributes to cultural understanding or social conversation)",
+        "minimum_width": "Given a literary text, describe one aspect of its aesthetic value (e.g. how language or structure creates effect) and one aspect of its social value (e.g. what it contributes to understanding of a social or cultural issue); explain the difference between the two",
+        "typical_width": "Examine a literary text across both dimensions — aesthetic (language craft, structural choices, imagery) and social (what ideas it puts in circulation, whose experiences it represents, what conversations it enables) — and discuss how the two kinds of value relate",
+        "wider": [
+          "Determine criteria for evaluating the aesthetic value of a literary text before forming judgements — discuss what makes a principled aesthetic evaluation different from personal taste",
+          "Compare a film adaptation and the source literary text, discussing the aesthetic and social value of each — how does the shift in medium affect both kinds of value?"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot distinguish aesthetic from social value, Node 2's metalanguage work lacks the conceptual structure it depends on — the metalanguage must be anchored to a distinction students actually hold, not just a vocabulary list.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly collapse aesthetic and social value — treating a text as aesthetically good because they agree with its message, or dismissing aesthetic craft because the social content is uncomfortable. An explicit reasoning scaffold that separates the two judgements and examines how they relate is needed before productive discussion is possible.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies one aspect of aesthetic value and one of social value in a given text",
+          "Explains the difference between the two kinds of value"
+        ],
+        "related_standards": ["AC9E7LE02", "AC9E7LE03"]
+      },
+      {
+        "id": 2,
+        "label": "Using metalanguage in literary discussion",
+        "progression_checkpoint": "Students can use relevant metalanguage to discuss the aesthetic and social value of literary texts",
+        "minimum_width": "In a discussion of a literary text's value, use at least two metalanguage terms correctly — e.g. naming a literary device, text structure, or language feature when discussing aesthetic value, or using terms like 'representation', 'perspective', 'context' when discussing social value",
+        "typical_width": "Discuss the aesthetic and social value of a literary text using a range of metalanguage terms accurately — naming text structures, literary devices, language features and social/cultural concepts as appropriate to the discussion",
+        "wider": [
+          "Compare a film adaptation of a literary text using specific metalanguage for both film and literary form — discuss the aesthetic and social value of each using appropriate terminology for each medium",
+          "Discuss the social value of a text using critical vocabulary — 'representation', 'perspective', 'ideology', 'context' — and explain how metalanguage enables more precise discussion"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Metalanguage for literary discussion is a vocabulary resource that needs to be built up. Students need enough terms across aesthetic and social dimensions to conduct a genuinely analytical discussion — having the words enables more precise thought, not just more precise expression.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The film vs literary text comparison with medium-specific metalanguage is rich — it requires students to learn and apply different technical vocabularies simultaneously, and the comparison makes both vocabularies more meaningful.",
+        "success_criteria": [
+          "Uses at least two metalanguage terms correctly in discussing a text's value",
+          "The metalanguage is used to support a specific evaluative claim, not just as labelling"
+        ],
+        "related_standards": ["AC9E7LE03", "AC9E7LE06", "AC9E7LA02"]
+      }
+    ]
+  }
+}

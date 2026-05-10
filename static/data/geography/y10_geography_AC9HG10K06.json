@@ -1,0 +1,96 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10K06",
+    "title": "Spatial variations in wellbeing: regional and national scale",
+    "description": "reasons for, and consequences of, spatial variations in human wellbeing at a regional and national scale, drawing on studies such as from within India or another country in Asia",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can compare wellbeing measurements using GDP, HDI, PQLI and other indices at global scale (AC9HG10K05). They understand urbanisation causes and effects (AC9HG8K06) and internal/international migration patterns (AC9HG8K08), which are relevant to within-country wellbeing variation.",
+    "progression_endpoint": "Students identify and describe the causes and consequences of spatial inequality in human wellbeing within India or another country in Asia, interpreting spatial data on wellbeing to identify regions of high and low wellbeing and explaining similarities and differences.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Spatial patterns of wellbeing within a country",
+        "progression_checkpoint": "Students can interpret spatial data on human wellbeing within India or another Asian country to identify regions of high and low wellbeing, describing the spatial pattern.",
+        "minimum_width": "Interpret a map or spatial dataset showing wellbeing variation within one country and describe the spatial pattern (e.g. urban/rural, coastal/inland, regional concentration).",
+        "typical_width": "Interpret and analyse spatial data on wellbeing in India or another Asian country using measures such as MPI, HDI sub-national data, or equivalent; identify regions of high and low wellbeing and describe the spatial pattern and its key characteristics.",
+        "wider": [
+          "Compare spatial patterns of wellbeing in two Asian countries, explaining how different historical, geographical and political factors produce different spatial patterns",
+          "Use geospatial technologies to map and analyse multi-variable wellbeing data within a country, identifying clustering or spatial autocorrelation in the distribution",
+          "Investigate how spatial patterns of wellbeing within a country have changed over time in response to development policies, migration or economic shifts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Spatial pattern description is foundational — if students cannot read the geographic distribution of wellbeing variation, they cannot identify which regions require explanation in Node 2 or connect consequences to the right regions.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often describe data without identifying the spatial dimension — noting that some regions are low without articulating the geographic pattern (rural/urban, north/south, coastal/inland). Explicitly scaffold spatial description before explanation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students identify regions of high and low wellbeing in a studied country from spatial data, using geographic references",
+          "Students describe the spatial pattern (e.g. rural-urban gradient, regional concentration) observed in the data"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Causes of spatial inequality",
+        "progression_checkpoint": "Students can identify and describe the economic, social, technological, political and environmental causes of spatial variations in wellbeing within India or another Asian country compared to Australia.",
+        "minimum_width": "Identify at least two causes of spatial inequality in wellbeing within the studied country and explain how each contributes to the spatial pattern observed.",
+        "typical_width": "Describe economic (uneven investment, industrial concentration), social (education access, healthcare distribution), technological (connectivity gaps), political (historical marginalisation, policy focus) and environmental (climate, resource access) causes of spatial wellbeing inequality; compare causes in India or another Asian country with causes in Australia.",
+        "wider": [
+          "Investigate how colonial history shaped current spatial inequalities — examining how British colonial infrastructure development in India produced long-lasting geographic economic concentrations",
+          "Analyse a specific policy or investment decision (e.g. Special Economic Zones, infrastructure corridors) and evaluate its effects on the spatial distribution of wellbeing",
+          "Examine intersectionality in causes — how caste, gender and geography interact in India to compound wellbeing disadvantage in specific regions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Cause identification is enriched by comparison — seeing that different countries have different spatial inequality profiles driven by different cause combinations builds understanding of causation as complex and contextual, not universal.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-country causal comparison (India or Asia vs Australia) is explicitly mandated by the descriptor and is substantively rich — the cause mix differs significantly, revealing how geography, history and policy interact in different ways.",
+        "success_criteria": [
+          "Students identify at least two types of causes (drawing from economic, social, technological, political or environmental) of spatial inequality in the studied country",
+          "Students explain how each identified cause contributes to the spatial pattern of wellbeing variation"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Consequences of spatial inequality",
+        "progression_checkpoint": "Students can interpret and analyse measures of wellbeing, identify the consequences of inequality, and make inferences about wellbeing levels at different scales.",
+        "minimum_width": "Describe at least two consequences of spatial wellbeing inequality for people in low-wellbeing regions of the studied country.",
+        "typical_width": "Interpret and analyse measures including MPI, PFI, FSI and similar; describe consequences of inequality at multiple scales (individual, community, national); make inferences about wellbeing in specific contexts (e.g. rural Rajasthan vs urban Mumbai; local vs national scale for child labour).",
+        "wider": [
+          "Investigate feedback loops — how low wellbeing in a region produces further disadvantage (e.g. brain drain, infrastructure underinvestment, political marginalisation) — tracing the self-reinforcing mechanisms of spatial inequality",
+          "Examine how specific consequences of spatial inequality (e.g. rural-urban migration pressure, political instability, environmental degradation) create externalities that affect even high-wellbeing regions",
+          "Compare the consequences of spatial inequality in India with consequences of indigenous/remote disadvantage in Australia (linking to K07), identifying structural parallels and differences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates spatial pattern reading (Node 1), cause analysis (Node 2) and consequence identification into a coherent inequality analysis. Students need to connect the geographic pattern to its causes and then to its human consequences — a three-step chain that requires explicit scaffolding."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students identify at least two consequences of spatial wellbeing inequality for people in low-wellbeing regions",
+          "Students make an inference about wellbeing in a specific region or context using data evidence, not assertion"
+        ]
+      }
+    ]
+  }
+}

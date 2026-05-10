@@ -1,0 +1,132 @@
+{
+  "year_level": "7",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG7K06",
+    "title": "Services, facilities and liveability",
+    "description": "the location and distribution of services and facilities, and implications for liveability of places",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students have completed K05 — they understand liveability as a concept, can distinguish objective and subjective measures, and know that factors including environmental quality influence residential decisions. They can represent distribution of resources from K02 work. This standard applies distribution analysis specifically to services and facilities and connects it to liveability outcomes.",
+    "progression_endpoint": "Students explain the location and distribution of services and facilities and their implications for liveability.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Comparing services and facilities across settlement types",
+        "progression_checkpoint": "Students can compare the distribution and location of services and facilities between different settlement types — urban, rural, remote and very remote.",
+        "minimum_width": "Students compare access to at least two types of service or facility between two different settlement types.",
+        "typical_width": "Students compare the distribution and location of a range of services and facilities — including clean water, sanitation, education and health services — between urban, rural, remote and very remote settlements, identifying patterns of provision and under-provision.",
+        "wider": [
+          "Map the distribution of a specific service (e.g. hospitals, schools, internet access) across Australia at a national scale and identify patterns of concentration and absence",
+          "Compare service distribution in an Australian remote context with a rural context in a country in Asia — identify common patterns and differences in what drives under-provision",
+          "Examine the concept of a 'service desert' (an area with very limited access to multiple services simultaneously) and identify examples in Australia"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot read or interpret a distribution pattern cannot engage meaningfully with the implication analysis in node 2. The distributional analysis is the spatial foundation on which liveability implications are built.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurately describing distributional patterns from maps and data requires practice. Students need repeated exposure to service distribution maps with structured observation tasks before they can generate independent pattern descriptions.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing multiple settlement types (not just urban vs rural) and multiple services reveals the cumulative disadvantage of compound under-provision — a place can lack one service or many simultaneously.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The pattern of service distribution across Australian settlement types — particularly the concentration of services in coastal urban areas and their thinning in remote Australia — is a rich geographical story with significant equity dimensions that connects to K07 (First Nations connectedness to remote Country).",
+        "success_criteria": [
+          "Describes the distributional pattern of at least two services or facilities across different settlement types, identifying where provision is greatest and where it is absent.",
+          "Uses appropriate geographical language (distribution, concentration, access, provision) to describe service patterns."
+        ],
+        "related_standards": ["AC9HG7S02", "AC9HG7S03"]
+      },
+      {
+        "id": 2,
+        "label": "Implications of service distribution for liveability",
+        "progression_checkpoint": "Students can explain implications of service and facility distribution for the liveability of places, including for people with limited access.",
+        "minimum_width": "Students explain at least two implications of service under-provision for the liveability of a specific place.",
+        "typical_width": "Students analyse the distribution of services and facilities in different settlement types — using aerial images and data — to identify implications for people, including access to services and availability of facilities, and explain how these implications affect liveability.",
+        "wider": [
+          "Analyse a specific remote or outer suburban area using aerial images and service data — develop a liveability profile and explain how service distribution shapes that profile",
+          "Examine how internet and mobile connectivity has altered service access for remote communities — is digital infrastructure now a critical liveability service?",
+          "Compare liveability implications of the same service deficit (e.g. no local hospital) in a remote Indigenous community vs an outer suburban area — are the implications equivalent?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The link between distribution and liveability implication requires explicit reasoning: distribution pattern → access condition → liveability effect. Students often jump from 'few services' to 'bad liveability' without explaining the mechanism. Scaffolding the causal chain builds analytical depth."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing the same service deficit in different contexts (remote Indigenous community vs outer suburb) prevents overgeneralisation and reveals how other factors — economic resources, social capital, cultural context — mediate the liveability impact of service under-provision.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The mediated relationship between service distribution and liveability outcomes — where the same distribution pattern produces different implications for different communities — is one of geography's most important equity insights. Students who grasp this can apply it to any distribution-implication analysis.",
+        "success_criteria": [
+          "Explains at least two ways that service distribution affects the liveability of a specific place, with reference to who is affected and how.",
+          "Distinguishes between having a service in a place and being able to access it, identifying at least one access barrier beyond simple location."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Transport and technology as service access enablers",
+        "progression_checkpoint": "Students can explain the role transport and technologies play in people's ability to access services and participate in activities in their local area.",
+        "minimum_width": "Students explain how at least one transport or technology factor affects people's access to services in a specific context.",
+        "typical_width": "Students explain the role transport (roads, public transport, distance) and technologies (internet, telehealth, online education) play in people's ability to access services and participate in community activities — including cases where technology substitutes for physical service access and cases where it cannot.",
+        "wider": [
+          "Examine the digital divide — how does internet access vary by settlement type, income and age in Australia, and what are the liveability implications?",
+          "Research the Flying Doctor Service or remote schooling programs as examples of technology-enabled service delivery and evaluate their effectiveness as liveability solutions",
+          "Consider the limits of technology substitution — what services require physical presence (medical procedure, school sports, aged care) and what does this mean for remote liveability?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Widening to both transport and technology, and to both enabling and limiting cases, prevents the misconception that technology fully solves service access inequality for remote communities."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains how at least one transport or technology factor affects access to services in a specific settlement type.",
+          "Identifies at least one service type where technology can substitute for physical access and one where it cannot."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Integration: distribution, access and liveability",
+        "progression_checkpoint": "Students explain the location and distribution of services and facilities and their implications for liveability — integrating distributional analysis, access factors and liveability outcomes.",
+        "minimum_width": "Students produce an explanation of a specific place that addresses service distribution, an access consideration, and a liveability implication.",
+        "typical_width": "Students produce an integrated analysis of a specific Australian settlement type that: maps the distribution of key services, explains how transport or technology affects access, identifies implications for liveability, and uses aerial images or data to support the analysis.",
+        "wider": [
+          "Develop a liveability profile of a contrasting pair of Australian places (e.g. inner-city suburb vs remote town) using service distribution data, aerial images, and access analysis — argue which has greater liveability and for whom",
+          "Apply the distribution-access-liveability framework to a place in Asia, identifying similarities and differences with the Australian pattern"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The standard brings together spatial distribution analysis, access mediation and liveability outcomes. Integration practises applying these three analytical moves simultaneously to a specific place rather than as separate exercises."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a place-based analysis that addresses service distribution, access, and liveability implications.",
+          "Uses appropriate evidence (maps, aerial images, data) to support at least one claim in the analysis."
+        ],
+        "related_standards": ["AC9HG7K05", "AC9HG7K08", "AC9HG7S03", "AC9HG7S04"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6P06",
+    "title": "Evaluate solutions against criteria and community impact",
+    "description": "Evaluate existing and student solutions against the design criteria and user stories and their broader community impact",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can discuss how existing and student solutions satisfy the design criteria and user stories (AC9TDI4P05). They have made comparisons between solutions and criteria. They have not yet evaluated broader community impact \u2014 the new demand is assessing solutions beyond their immediate function to consider effects on the wider community.",
+    "progression_endpoint": "Students evaluate solutions (their own and existing ones) against design criteria and user stories, and consider the broader community impact of those solutions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Evaluating effectiveness against criteria and user stories",
+        "progression_checkpoint": "Students can evaluate how well a solution addresses the identified problem by testing it against the design criteria and user stories",
+        "minimum_width": "Identify at least two criteria or user story requirements and state whether the solution meets each \u2014 with evidence",
+        "typical_width": "Systematically evaluate a solution against all design criteria and user stories; for each criterion, provide evidence of whether it is met and explain what would need to change if it is not",
+        "wider": [
+          "Evaluate the effectiveness of a student solution for a local interactive history walk \u2014 checking whether information is accurate, relevant to council needs, and accessible to expected visitors",
+          "Evaluate an existing solution (e.g. a community transport timetable system) against user stories for a specific group (e.g. elderly users, non-English speakers) rather than a general audience"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students typically describe a solution positively rather than testing it against criteria. The evaluation reasoning scaffold \u2014 criterion / evidence / met or not met / what would fix it \u2014 prevents description-as-evaluation and makes the claim-evidence structure explicit.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "References at least two design criteria or user story requirements in the evaluation",
+          "Provides evidence for whether each criterion is met"
+        ],
+        "related_standards": [
+          "AC9TDI6P01",
+          "AC9TDI6P04"
+        ],
+        "hinge": true,
+        "hinge_reason": "The evaluation reasoning scaffold established in N1 (criterion \u2192 evidence \u2192 verdict) is applied in N2 (safety features) and N3 (community impact) \u2014 students who evaluate by description in N1 will describe rather than evaluate in the subsequent nodes."
+      },
+      {
+        "id": 2,
+        "label": "Evaluating safety features in existing solutions",
+        "progression_checkpoint": "Students can evaluate how an existing solution provides safety tools and features, including for young people",
+        "minimum_width": "Identify at least one safety feature in an existing digital solution (e.g. a report/block button, age verification) and explain what risk it addresses",
+        "typical_width": "Evaluate how an existing app or website provides safety features aligned with principles such as Safety by Design \u2014 identifying visible controls, reporting mechanisms, and privacy settings; explain what user group each feature protects and what gaps remain",
+        "wider": [
+          "Compare the safety features of two apps used by the same age group \u2014 identifying where one provides stronger protections and explaining what the weaker app could add",
+          "Evaluate how AI-generated content is verified in a digital solution \u2014 testing whether the solution includes mechanisms for users to check factual accuracy against authoritative sources"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Evaluating safety features across different apps and digital contexts helps students build a generalised framework for what 'safety by design' looks like \u2014 rather than memorising features of one specific app. AI content verification, reporting tools, and age controls each represent a different category of safety design that accumulates into a transferable evaluation lens.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The AI-generated content verification direction is rich and contemporary \u2014 it connects evaluation skills to a pressing, age-appropriate issue (generative AI accuracy) and requires students to think about what 'good verification' looks like as a design criterion.",
+        "success_criteria": [
+          "Identifies at least one safety feature and names the risk it addresses",
+          "Explains who the safety feature is designed to protect"
+        ],
+        "related_standards": [
+          "AC9TDI6P10"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Broader community impact",
+        "progression_checkpoint": "Students can consider the broader community impact of digital solutions beyond their immediate function",
+        "minimum_width": "Identify one positive and one potential negative community impact of a digital solution beyond whether it works as intended",
+        "typical_width": "Evaluate an existing or student solution for its community impact \u2014 considering effects on different groups (e.g. those without access, those with privacy concerns, those whose data is collected); explain how design decisions contribute to these impacts",
+        "wider": [
+          "Reflect on how community systems (transport timetables, licence databases, emergency alert systems) create dependencies \u2014 and what happens to people who cannot access or are excluded by those systems",
+          "Investigate how an AI-generated content issue (e.g. a biography with inaccurate information) could affect an individual's community reputation \u2014 evaluating the responsibility of the solution provider to prevent this"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Community impact is abstract for students who think of digital solutions as tools rather than systems. Real-world contexts where impact is legible \u2014 a timetable that doesn't work for wheelchair users, an AI biography with errors about a real person \u2014 help students see that design decisions create winners and losers.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The AI-content verification and community systems directions are genuinely rich \u2014 they raise questions about accountability, equity, and the social consequences of design decisions that are substantive at this year level.",
+        "success_criteria": [
+          "Identifies at least one community impact beyond whether the solution meets its immediate purpose",
+          "Connects the impact to a specific design decision or feature of the solution"
+        ],
+        "related_standards": [
+          "AC9TDI6P07",
+          "AC9TDI6P08",
+          "AC9TDI6P10"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

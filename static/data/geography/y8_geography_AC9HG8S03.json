@@ -1,0 +1,95 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8S03",
+    "title": "Interpret geographical data",
+    "description": "interpret and analyse geographical data and information to identify similarities and differences, explain patterns and trends and infer relationships",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students interpret and analyse geographical data to identify similarities and differences, explain patterns and trends and infer relationships (AC9HG7S03). At Y8, more complex data sets and multi-scale analysis are expected.",
+    "progression_endpoint": "Students interpret and analyse geographical data to identify similarities and differences, explain patterns and trends, and infer relationships from primary research and complex secondary sources.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying similarities and differences",
+        "progression_checkpoint": "Students can identify and describe similarities and differences from geographical data and information.",
+        "minimum_width": "Students identify at least two similarities and two differences from a given data set.",
+        "typical_width": "Students identify and describe similarities and differences from geographical data \u2014 e.g., comparing source and destination of international migration for Australia across two time periods \u2014 using appropriate data language and relating observations to geographic context.",
+        "wider": [
+          "Compare across three or more cases, identifying which similarities are most geographically significant.",
+          "Examine how the scale of comparison (local, national, global) affects what similarities and differences are visible.",
+          "Investigate how selection bias in data collection can produce misleading comparisons."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two similarities and two differences from a geographical data set.",
+          "Relates the identified differences to a geographic context or variable."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Explaining patterns and trends",
+        "progression_checkpoint": "Students can explain patterns and trends in geographical data, using data representations such as compound graphs and census data.",
+        "minimum_width": "Students identify and describe one pattern or trend from a data representation.",
+        "typical_width": "Students compare compound graphs or census data across different time periods to identify patterns in urban concentration in Australia and the USA, or trends in international migration \u2014 explaining what the pattern shows and suggesting geographic reasons for it.",
+        "wider": [
+          "Examine anomalies or exceptions in patterns and investigate geographic explanations.",
+          "Compare patterns at different scales \u2014 does a national trend hold at the regional level?",
+          "Investigate how data visualisation choices (graph type, scale) can emphasise or obscure patterns."
+        ],
+        "hinge": true,
+        "hinge_reason": "If students can only describe patterns without explaining their geographic causes, they cannot infer relationships in Node 3 or draw evidence-based conclusions in S04. Explanation \u2014 not just description \u2014 is the prerequisite move.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Moving from pattern description to pattern explanation requires a disciplined reasoning step: from 'what the data shows' to 'why this geographic pattern exists'. Explicit scaffolding of this move prevents description-only responses.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a pattern or trend in a geographical data set and describes it accurately.",
+          "Provides a geographic explanation for why the pattern or trend exists."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Inferring relationships",
+        "progression_checkpoint": "Students can infer relationships from primary and secondary geographical data, using observations, measurements and other evidence to suggest causes, effects and trends.",
+        "minimum_width": "Students infer at least one relationship from a data set, stating the relationship and the evidence that supports it.",
+        "typical_width": "Students use observations, field sketches, field measurements or interview data from primary research to infer relationships in geographical data \u2014 e.g., inferring the relationship between land use and population distribution, or between migration patterns and urban concentration \u2014 and suggest possible causes, effects and trends.",
+        "wider": [
+          "Distinguish between correlation and causation in geographical data, identifying examples of each.",
+          "Examine how inferring relationships from primary data differs from reading relationships from secondary data.",
+          "Develop and test a hypothesis about a geographical relationship using available data."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Inferring relationships integrates similarity/difference analysis and pattern explanation into a higher-order analytic act \u2014 the full demand of this descriptor. Students must coordinate data reading, geographic reasoning and tentative causal inference.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Inferring relationships \u2014 especially distinguishing correlation from causation \u2014 is a transferable geographic reasoning skill with broad application. Wider students can interrogate their own inferences critically, a skill that carries through to S04.",
+        "success_criteria": [
+          "Infers at least one geographic relationship from data, naming both variables and the direction of the relationship.",
+          "Cites specific data evidence that supports the inferred relationship."
+        ]
+      }
+    ]
+  }
+}

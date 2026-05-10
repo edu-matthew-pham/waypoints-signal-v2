@@ -1,0 +1,65 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5I05",
+    "title": "Evaluating",
+    "description": "compare methods and findings with those of others, recognise possible sources of error, pose questions for further investigation and select evidence to draw reasoned conclusions",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can compare findings, evaluate fairness and draw data-grounded conclusions (AC9S3I05, 3-4 band). They now extend to recognising specific error sources, selecting evidence from data, and drawing reasoned conclusions — not just grounded ones.",
+    "progression_endpoint": "Students compare methods and findings with peers, recognise specific sources of error in methods and measurements, select appropriate evidence from data to support reasoned conclusions, and pose further questions arising from method limitations or unexpected findings.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Errors are identified and their effect on findings is explained",
+        "progression_checkpoint": "Students can identify specific sources of error in an investigation method (uncontrolled variables, measurement errors, environmental changes) and explain how each error could affect the findings and conclusions.",
+        "minimum_width": "Students identify at least two specific sources of error in a given investigation and explain how each could affect the findings.",
+        "typical_width": "Students identify error sources across types (uncontrolled variable, misreading of measurements, changed environmental factors); explain the specific effect of each error on the data; compare methods with peers to identify whether different methods produced different findings due to error differences; and distinguish error from natural variation.",
+        "wider": [
+          "Examine the difference between data and evidence — discussing how the same data can be interpreted differently depending on what counts as relevant evidence for a conclusion",
+          "Compare proposed reasons for findings in a group — explaining reasoning, identifying disagreements and posing further questions about what additional evidence would resolve them",
+          "Reflect on inferences made during analysis and evaluate whether the inference is supported by the data or goes beyond it"
+        ],
+        "hinge": true,
+        "hinge_reason": "Error identification is prerequisite for Node 2 evidence selection — students who cannot recognise what made their data unreliable cannot make principled decisions about which data counts as valid evidence for a conclusion. Thin treatment here produces conclusions that ignore data quality.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two specific sources of error in an investigation method",
+          "Explains how each identified error could affect the findings or conclusion"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evidence is selected to draw reasoned conclusions",
+        "progression_checkpoint": "Students can select relevant evidence from a data set, use it to draw a reasoned conclusion, and explain why the selected evidence supports the conclusion while other data does not.",
+        "minimum_width": "Students identify at least two pieces of evidence from a data set that support a named conclusion and explain why each piece is relevant.",
+        "typical_width": "Students distinguish between data (all recorded observations) and evidence (data selected because it is relevant to the question); select evidence to support a reasoned conclusion; explain why the conclusion is reasoned (evidence-based, not overclaiming); and pose at least one further question arising from the limitations of the investigation.",
+        "wider": [
+          "Examine a scenario where two groups selected different evidence from the same data set and drew different conclusions — discussing how evidence selection affects conclusions",
+          "Evaluate an inference made from observational data — determining whether it follows from the evidence or goes beyond it",
+          "Research and discuss how scientists in different fields manage the data-to-evidence selection process — examining how peer review and replication address this challenge"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The data-vs-evidence distinction and the scenario of two groups drawing different conclusions from the same data are genuinely enriching directions that connect to epistemological thinking about science. These go well beyond what the minimum band requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The data-vs-evidence distinction and the scenario of two groups drawing different conclusions from the same data are genuinely enriching directions that connect to epistemological thinking about science. These go well beyond what the minimum band requires.",
+        "success_criteria": [
+          "Distinguishes between data and evidence for a given investigation",
+          "Selects at least two pieces of evidence that support a named conclusion and explains why each is relevant",
+          "Draws a reasoned conclusion that does not overclaim beyond the selected evidence"
+        ]
+      }
+    ]
+  }
+}

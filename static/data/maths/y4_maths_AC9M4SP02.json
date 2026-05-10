@@ -1,0 +1,62 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4SP02",
+    "title": "Grid reference systems",
+    "description": "Create and interpret grid reference systems using grid references and directions to locate and describe positions and pathways",
+    "strand": "Measurement and Space",
+    "mode": "A",
+    "prior_knowledge": "Students can interpret and create 2D representations of familiar environments (AC9M3SP02). They have not yet used formal grid reference systems to precisely locate and communicate positions.",
+    "progression_endpoint": "Students create and interpret grid reference systems using grid references and directional language to locate positions and describe pathways.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reading grid references",
+        "progression_checkpoint": "Students can locate a position on a grid reference map using a letter-number grid reference.",
+        "minimum_width": "Locate one position on a grid map using a grid reference (e.g. C3); explain how grid references work.",
+        "typical_width": "Interpret grid reference maps of familiar locations; locate multiple positions; follow directions to trace pathways; recognise that the letter (column) comes before the number (row) in a grid reference.",
+        "wider": [
+          "Compare a grid reference map without the grid overlay to one with it, investigating how the grid increases precision in locating and describing positions",
+          "Recognise that spreadsheets use a grid reference system (column letter + row number) and locate and enter data in spreadsheet cells"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students frequently reverse column and row (reading row first, then column), or confuse the region vs intersection interpretation of a grid reference. Consistent practice with correctly formatted references (letter then number) until the convention is automatic prevents downstream confusion in map reading.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who have not automatised the letter-then-number convention will systematically locate the wrong positions in Node 2, making direction-writing and pathway descriptions incoherent. The convention must be reliable before students can produce usable grid-reference directions.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can correctly locate a position on a grid map using a grid reference",
+          "Students can write the grid reference for a specified location on a grid map"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Creating and describing with grid references",
+        "progression_checkpoint": "Students can write directions using grid references and directional language to guide someone from one location to another.",
+        "minimum_width": "Write a set of directions using grid references to guide someone from one location to another on a familiar map.",
+        "typical_width": "Interpret and create grid reference maps; write directions combining grid references and directional language; use grids to enlarge images proportionally; use grid references to describe positions and pathways in different contexts.",
+        "wider": [
+          "Simulate a robotic or autonomous vehicle moving through a grid environment using grid references and directional instructions — connecting grid navigation to real automation applications",
+          "Use a grid overlay to enlarge a piece of artwork, systematically applying the grid reference to transfer each section proportionally"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Grid reference systems connect to authentic navigation, robotics and data organisation contexts. The robotic vehicle extension in particular makes the mathematical structure of grid coordinates visible in an engaging computational context.",
+        "success_criteria": [
+          "Students can write clear directions using grid references to guide movement from one location to another",
+          "Students can create a grid reference map of a familiar space with at least four labelled locations"
+        ]
+      }
+    ]
+  }
+}

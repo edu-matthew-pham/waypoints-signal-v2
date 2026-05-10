@@ -1,0 +1,73 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9SP02",
+    "title": "Enlargement Transformation",
+    "description": "apply the enlargement transformation to shapes and objects using dynamic geometry software as appropriate; identify and explain aspects that remain the same and those that change",
+    "strand": "Space",
+    "mode": "A",
+    "prior_knowledge": "Students can design, create and test algorithms that identify congruency or similarity of shapes (AC9M8SP04). They have not yet applied the enlargement transformation systematically, or generalised the relationships between scale factor and changes to length, area and volume.",
+    "progression_endpoint": "Students apply the enlargement transformation to shapes and objects and explain which properties are invariant and which change, including the relationships between scale factor, length, area and volume.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Invariant and changing properties under enlargement",
+        "progression_checkpoint": "Students can identify which properties of a shape are preserved under enlargement (angles, shape) and which change (side lengths, perimeter, area).",
+        "minimum_width": "Apply one enlargement transformation to a polygon using a given scale factor; list two properties that remain the same and two that change.",
+        "typical_width": "Apply enlargement transformations to a range of 2D shapes with various scale factors (including <1 for reduction); identify invariant properties (angles, shape, orientation) and changing properties (lengths, perimeter, area); verify using measurement and ratio.",
+        "wider": [
+          "Investigate how scale drawings and map scales use enlargement transformations \u2014 relate scale factor to real-world dimensions",
+          "Explore digital zoom and image resizing \u2014 discuss how uniform and non-uniform scaling relate to enlargement and distortion",
+          "Connect enlargement to the conditions for similarity established in AC9M8SP01 \u2014 confirm that enlargement always produces similar shapes"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly applies enlargement transformation and identifies the image dimensions",
+          "Lists at least two properties that are invariant (angles, shape) and two that change (lengths, area)",
+          "Uses the scale factor correctly to calculate new dimensions"
+        ],
+        "related_standards": [
+          "AC9M8SP01",
+          "AC9M9M03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Scale factor relationships for length, area and volume",
+        "progression_checkpoint": "Students can generalise the relationships between scale factor k and the scaling of length (\u00d7k), area (\u00d7k\u00b2) and volume (\u00d7k\u00b3).",
+        "minimum_width": "Calculate the area of a shape and its image after enlargement by scale factor k for at least two values of k; identify that area scales by k\u00b2.",
+        "typical_width": "Investigate and generalise the relationships: lengths scale by k, areas scale by k\u00b2, volumes scale by k\u00b3; verify using numerical examples for whole and rational scale factors; explain why the exponent increases for each dimension.",
+        "wider": [
+          "Investigate biological scaling \u2014 why animals of different sizes have proportionally different limb thicknesses (surface area grows as k\u00b2, volume as k\u00b3, requiring thicker bones)",
+          "Explore how the k\u00b2 area relationship applies to similar figures beyond squares and cubes (e.g. similar triangles, similar irregular polygons)",
+          "Investigate how the k\u00b3 volume relationship applies to 3D objects (e.g. scale models of buildings or aircraft) and what this means for material use"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students consistently apply k rather than k\u00b2 when asked about areas of enlarged figures (and k rather than k\u00b3 for volumes). The misconception is resistant because k feels intuitively correct. Multiple examples across different shapes and scale factors \u2014 verifying k\u00b2 each time \u2014 is more effective than re-explaining the rule.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The k, k\u00b2, k\u00b3 scaling relationships are a genuinely elegant mathematical result with surprising real-world implications \u2014 from biological scaling to packaging design to architectural modelling. Students who explore these connections develop both mathematical insight and cross-disciplinary appreciation.",
+        "success_criteria": [
+          "States and applies the correct scaling relationships: lengths \u00d7k, areas \u00d7k\u00b2, volumes \u00d7k\u00b3",
+          "Verifies the area scaling relationship (\u00d7k\u00b2) for at least two different scale factors",
+          "Explains in their own words why area scales as k\u00b2 (two dimensions each scaled by k)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Applying k rather than k\u00b2 for area (and k rather than k\u00b3 for volume) is a near-universal error. Students who carry it cannot correctly solve any problem in AC9M9M03 or AC9M9SP03 that involves scaled areas or volumes."
+      }
+    ]
+  }
+}

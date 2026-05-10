@@ -1,0 +1,73 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9U01",
+    "title": "Body Systems and Negative Feedback",
+    "description": "compare the role of body systems in regulating and coordinating the body's response to a stimulus, and describe the operation of a negative feedback mechanism",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can analyse structure-function relationships across cells, tissues and organs in body systems (AC9S8U02). They have not yet examined how multiple systems coordinate responses to stimuli, or modelled negative feedback as a regulatory mechanism.",
+    "progression_endpoint": "Students compare how the nervous and endocrine systems coordinate responses to stimuli — using models of receptor-command centre-effector pathways — and describe how negative feedback maintains homeostasis, including the effects of feedback system disorders.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Body systems coordinate responses to stimuli via receptor-command-effector pathways",
+        "progression_checkpoint": "Students can describe how the body detects a stimulus and coordinates a response through a receptor → command centre → effector pathway, and compare the roles of the nervous and endocrine systems in this process.",
+        "minimum_width": "Students describe the receptor-command centre-effector pathway for one named stimulus, and identify whether the nervous or endocrine system (or both) is involved.",
+        "typical_width": "Students compare electrical (nervous) and chemical (hormonal) signalling as two coordination mechanisms; trace the receptor → command centre → effector pathway for multiple stimuli (temperature change, pathogen detection, dehydration, exercise); explain the relative speed and duration of nervous vs endocrine responses; use flow diagrams or models to represent pathways.",
+        "wider": [
+          "Analyse how imaging technologies (MRI, CT, PET scans) have improved understanding of how body systems interact during stimulus-response — connecting technology advances to scientific knowledge (AC9S9H02)",
+          "Investigate how understanding of feedback mechanisms has enabled development of pharmaceuticals — e.g. insulin for diabetes, electrolytes in sports drinks — tracing the science-to-application pathway",
+          "Examine how a disorder in a feedback system (diabetes-induced blindness, hypothermia) disrupts the receptor-command-effector pathway"
+        ],
+        "hinge": true,
+        "hinge_reason": "The receptor → command centre → effector pathway is the structural model that Node 2 (negative feedback) applies directly. Students who cannot trace the pathway for a stimulus cannot locate where the feedback signal enters the loop, and cannot distinguish the set point detection from the corrective effector response.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat stimulus-response as automatic rather than as coordinated through identifiable pathways involving specific systems. Making the receptor → command centre → effector chain explicit — and distinguishing fast electrical signals (nervous) from slower chemical signals (endocrine) — is the scaffold that allows students to compare and predict system behaviour under different conditions.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Traces the receptor → command centre → effector pathway for a named stimulus",
+          "Distinguishes the role of the nervous system (fast, electrical) from the endocrine system (slower, chemical) in coordinating responses"
+        ],
+        "related_standards": ["AC9S9H02", "AC9S8U02"]
+      },
+      {
+        "id": 2,
+        "label": "Negative feedback maintains homeostasis",
+        "progression_checkpoint": "Students can describe how a negative feedback mechanism operates — detecting deviation from a set point, generating a corrective response, and monitoring return to the set point — and give at least two biological examples.",
+        "minimum_width": "Students describe the operation of negative feedback using one biological example, identifying the set point, the deviation, the corrective response, and how return to set point is detected.",
+        "typical_width": "Students describe negative feedback for multiple homeostatic mechanisms (temperature regulation, blood glucose regulation, blood pressure); explain why negative feedback maintains stability rather than amplifying change; model the mechanism using flow diagrams; and explain why homeostasis is essential for cell function.",
+        "wider": [
+          "Examine how disorders of feedback systems (type 1 diabetes, hypothyroidism, hypertension) represent breakdowns at specific points in the feedback loop — applying the model diagnostically",
+          "Investigate how medical devices (insulin pumps, pacemakers, CPAP machines) artificially replace or supplement natural negative feedback mechanisms",
+          "Develop an interactive presentation showing feedback loops in human body systems — applying digital communication skills to represent dynamic biological processes (AC9S9I08)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly understand negative feedback from one example (temperature regulation) but cannot apply the model to other homeostatic systems. Encountering the same feedback structure across blood glucose, blood pressure, and hormone regulation builds a more generalisable model that students can apply to novel cases.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Medical device applications and disorder analysis provide genuinely rich real-world directions. The interactive presentation direction (AC9S9I08) provides a meaningful cross-strand connection that challenges students to represent dynamic processes digitally.",
+        "success_criteria": [
+          "Describes the operation of negative feedback for a named homeostatic mechanism — identifying set point, deviation, corrective response and return detection",
+          "Explains why negative feedback maintains stability rather than amplifying change",
+          "Names at least two biological examples of negative feedback"
+        ],
+        "related_standards": ["AC9S9H02", "AC9S9I08"]
+      }
+    ]
+  }
+}

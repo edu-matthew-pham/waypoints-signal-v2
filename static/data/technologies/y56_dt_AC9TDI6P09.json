@@ -1,0 +1,76 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6P09",
+    "title": "Unique passphrases and password reuse risks",
+    "description": "Access multiple personal accounts using unique passphrases and explain the risks of password re-use",
+    "strand": "Processes and Production Skills",
+    "mode": "A",
+    "prior_knowledge": "Students can access their school account using a memorised password and explain why it should be easy to remember but hard for others to guess (AC9TDI4P08). They have a single-account security practice. They have not yet managed multiple accounts with different credentials, or understood the specific risk cascade that password reuse creates.",
+    "progression_endpoint": "Students access multiple accounts using unique passphrases and can explain why password reuse creates a risk cascade when one credential is compromised.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Why passphrases are stronger than passwords",
+        "progression_checkpoint": "Students can explain what makes a passphrase strong and why passphrases are more secure than short passwords",
+        "minimum_width": "Explain at least two characteristics of a strong passphrase (length, unpredictability) and contrast with a weak password",
+        "typical_width": "Explain that passphrases are longer sequences of words that are hard to guess but easier to remember than short complex passwords; describe what makes a passphrase strong (length, not a famous phrase, not personal info) and what makes it weak",
+        "wider": [
+          "Compare how a brute-force attack works against a short complex password versus a long passphrase \u2014 explaining why length is more protective than character complexity alone",
+          "Investigate how password managers store multiple unique passphrases securely \u2014 and why using a password manager is better than reusing a memorable password"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The passphrase strength reasoning (length beats complexity; unpredictability beats memorability) is counter-intuitive. Students need the reasoning made explicit \u2014 'a longer random phrase takes exponentially longer to guess than a short complex one' \u2014 before they can apply it to evaluate their own credentials.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least two characteristics that make a passphrase strong",
+          "Contrasts a strong passphrase with a weak password example"
+        ],
+        "related_standards": [
+          "AC9TDI4P08",
+          "AC9TDI6P10"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand what makes a credential strong cannot reason about the reuse risk in N2 \u2014 the cascade argument requires knowing that a compromised credential is now known to an attacker, and that requires understanding what 'compromised' means relative to credential strength."
+      },
+      {
+        "id": 2,
+        "label": "The risk cascade of password reuse",
+        "progression_checkpoint": "Students can explain how reusing a password across multiple accounts creates a risk cascade when one account is compromised",
+        "minimum_width": "Describe a scenario where the same password is used on two accounts; explain what an attacker can do if they discover that password",
+        "typical_width": "Explain the full risk cascade: one account is compromised \u2192 attacker obtains the password \u2192 attacker tries the same password on other accounts \u2192 multiple accounts compromised; identify which types of accounts are most valuable to protect (banking, school, personal communications)",
+        "wider": [
+          "Explain how credential stuffing attacks work \u2014 automated attempts to use a leaked username/password list against multiple websites \u2014 and why unique passphrases prevent them",
+          "Investigate a real-world example where a social media breach led to bank or email account compromise because users had reused credentials \u2014 without identifying specific individuals"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The password reuse risk is abstract until students see the chain: one compromise \u2192 many compromises. Multiple concrete scenarios (social media + school + gaming + banking) where each account has a different consequence of compromise help students understand what is at stake at each link in the chain."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that a compromised password can be used to access other accounts if the same password is reused",
+          "Identifies at least two accounts where this compromise would matter"
+        ],
+        "related_standards": [
+          "AC9TDI6P10"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

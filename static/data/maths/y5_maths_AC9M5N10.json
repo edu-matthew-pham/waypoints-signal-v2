@@ -1,0 +1,94 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N10",
+    "title": "Algorithms for factors and divisibility",
+    "strand": "Number",
+    "description": "Create and use algorithms involving a sequence of steps and decisions and digital tools to experiment with factors, multiples and divisibility; identify, interpret and describe emerging patterns",
+    "prior_knowledge": "Students can apply written algorithms involving sequences of steps (AC9M4N09). They have not yet designed algorithms for mathematical investigation or used digital tools to experiment with factors and multiples.",
+    "progression_endpoint": "Students create and use algorithms to experiment with factors, multiples and divisibility and identify, interpret and describe emerging patterns.",
+    "mode": "B",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What is an algorithm?",
+        "progression_checkpoint": "Students can describe an algorithm as a sequence of steps and decisions, and identify algorithms in familiar mathematical procedures.",
+        "minimum_width": "Describe a familiar calculation procedure (e.g. checking divisibility by 2) as a sequence of steps; represent it as a written or visual flowchart.",
+        "typical_width": "Identify the decision points (if/else) in a mathematical procedure; translate a verbal procedure into a step-by-step algorithm using flowchart notation or pseudocode.",
+        "wider": [
+          "Compare algorithm representations: written steps vs flowchart vs code",
+          "Investigate algorithms used in everyday technology (e.g. sorting, searching)"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The explicit step-decomposition of a procedure is a reasoning scaffold students need before creating their own algorithms. Without this, algorithm creation defaults to vague descriptions rather than precise sequences.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Step-decomposition understanding is the prerequisite for Node 2 — students who cannot distinguish steps from decisions cannot create a valid algorithm for testing factors or divisibility.",
+        "success_criteria": [
+          "Student describes a familiar procedure as a sequence of steps",
+          "Student identifies at least one decision point in the procedure"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Creating algorithms for factors and multiples",
+        "progression_checkpoint": "Students can create an algorithm that tests or generates factors, multiples or divisibility for a given number.",
+        "minimum_width": "Create a step-by-step algorithm (written or diagrammatic) that tests whether a number is divisible by a given divisor; trace through the algorithm for at least two examples.",
+        "typical_width": "Design and trace algorithms for finding factors, listing multiples, or testing divisibility; refine the algorithm based on tracing errors; use digital tools (e.g. spreadsheet formulas or block-based code) to implement and test.",
+        "wider": [
+          "Extend to prime-number testing algorithm",
+          "Implement the Sieve of Eratosthenes as an algorithm in a digital tool"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Algorithm design for different purposes (factors vs multiples vs divisibility) reveals how small changes in the decision logic produce different behaviours. Variety prevents students from memorising one template.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Sieve of Eratosthenes implementation is genuinely rich — combines algorithm design, factor reasoning and digital tool application.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student creates an algorithm that correctly tests or generates factors/multiples",
+          "Student traces the algorithm with specific inputs and gets correct outputs"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Identifying patterns",
+        "progression_checkpoint": "Students can use their algorithm and digital tool outputs to identify, interpret and describe emerging patterns in factors, multiples and divisibility.",
+        "minimum_width": "Run an algorithm on multiple inputs and describe at least one pattern in the results.",
+        "typical_width": "Investigate patterns across a range of numbers using digital output; describe patterns using mathematical language (e.g. 'multiples of 6 are always even'); propose and test conjectures about patterns.",
+        "wider": [
+          "Investigate the pattern of factor counts across the first 100 natural numbers",
+          "Connect patterns to visual representations: factor rainbows, number grids"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Pattern identification requires algorithm creation, digital tool use and mathematical vocabulary to work together. The interpretation task — giving meaning to digital output — is the Mode B capability being assessed.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Conjecture-and-test with digital tools is rich, open-ended territory for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies at least one pattern from algorithm output",
+          "Student describes the pattern using appropriate mathematical language"
+        ]
+      }
+    ]
+  }
+}

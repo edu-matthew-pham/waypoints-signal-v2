@@ -1,0 +1,99 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N05",
+    "title": "Add and subtract fractions",
+    "strand": "Number",
+    "description": "Solve problems involving addition and subtraction of fractions with the same or related denominators, using different strategies",
+    "prior_knowledge": "Students can compare and order fractions with the same and related denominators and generate equivalent fractions (AC9M4N06, AC9M5N03). They have not yet added or subtracted fractions requiring denominator conversion.",
+    "progression_endpoint": "Students solve problems involving addition and subtraction of fractions with the same or related denominators using different strategies.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Adding and subtracting with same denominators",
+        "progression_checkpoint": "Students can add and subtract fractions with the same denominator, explaining the procedure in terms of unit fractions.",
+        "minimum_width": "Add and subtract fractions with the same denominator; express the result as a simplified fraction or mixed numeral where applicable.",
+        "typical_width": "Solve a range of same-denominator problems including results greater than 1; connect to number line jumps; explain why denominators do not change.",
+        "wider": [
+          "Use measurement contexts (e.g. adding lengths in fractions of a metre)",
+          "Model with fraction bars or area models"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students commonly add denominators as well as numerators. Targeted practice with the 'add numerators, keep denominator' principle needs to precede related-denominator work.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "The 'add denominators' error propagates directly into Node 2 — students who have not consolidated same-denominator operations apply the same error after conversion, producing systematically wrong results.",
+        "success_criteria": [
+          "Student adds/subtracts same-denominator fractions correctly",
+          "Student explains why the denominator remains unchanged"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Adding and subtracting with related denominators",
+        "progression_checkpoint": "Students can add and subtract fractions with related denominators by converting to a common denominator.",
+        "minimum_width": "Convert one fraction to match the other's denominator and then add or subtract; verify the result.",
+        "typical_width": "Solve problems involving fractions with related denominators; choose the most efficient equivalent form; express answers in simplest form.",
+        "wider": [
+          "Use cooking or construction problem contexts requiring fraction addition",
+          "Solve multi-step problems combining same and related denominator fractions"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The conversion step requires an explicit sequence: identify related denominators → find conversion factor → convert → operate → simplify. Without scaffolding, students conflate or skip steps.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Related denominators vary — some pairs are obvious (halves/quarters), some less so (thirds/sixths, fifths/tenths). Varied pairs prevent students from learning a single pattern.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real-world contexts (cooking, construction) give advancing students purposeful multi-step problems.",
+        "hinge": true,
+        "hinge_reason": "The conversion-then-operate sequence is the prerequisite for Node 3 — students who skip or conflate steps cannot reliably tackle multi-step problems where both same and related denominator operations occur.",
+        "success_criteria": [
+          "Student correctly converts to a common denominator and completes the operation",
+          "Student expresses the result in simplest form"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Multi-step fraction problems",
+        "progression_checkpoint": "Students can solve multi-step problems involving both addition and subtraction of fractions with same or related denominators.",
+        "minimum_width": "Solve a problem requiring both addition and subtraction of fractions with related denominators; show each step.",
+        "typical_width": "Apply addition and subtraction of fractions in multi-step practical problems; connect to measurement and cooking contexts; check answers using equivalent forms.",
+        "wider": [
+          "Design and solve original fraction problems for peers involving multiple operations",
+          "Connect fraction operations to percentage equivalents: adding 1/4 and 3/10 via common denominator vs via percentages"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Multi-step fraction problems require same-denominator operations, related-denominator conversion and simplification to work together in sequence — the integration of all prior fraction reasoning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-step problems and fraction–percentage connections give advancing students rich, creative territory.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student solves a multi-step fraction problem showing each operation",
+          "Student expresses the final answer in simplest form"
+        ]
+      }
+    ]
+  }
+}

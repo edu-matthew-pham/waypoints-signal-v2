@@ -1,0 +1,77 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6K02",
+    "title": "Networks and data transmission",
+    "description": "Examine how digital systems form networks to transmit data",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explore the transmission of different types of data between digital systems (AC9TDI4K02). They understand that data can move between devices. They have not yet examined how networks are structured, how devices connect to form them, or how data is structured for transmission (packets).",
+    "progression_endpoint": "Students examine how digital systems connect in different ways to form networks, and explain how data is structured and transmitted through a network from source to destination.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How separate systems connect to form networks",
+        "progression_checkpoint": "Students can explain how separate digital systems can be connected in different ways to exchange data",
+        "minimum_width": "Describe at least two ways a device can connect to a network (e.g. cable, Wi-Fi) and explain that connecting devices allows them to exchange data",
+        "typical_width": "Explain how a laptop or device can connect to a network via a physical cable or radio waves (Wi-Fi/Bluetooth); compare when each type of connection is more appropriate",
+        "wider": [
+          "Investigate how satellite phones provide network access where mobile phone networks are unavailable, such as in remote Arnhem Land communities \u2014 explaining why different network infrastructure is needed in these locations",
+          "Compare how the same device (e.g. a laptop) uses different connection types in different situations \u2014 wired at school, Wi-Fi at home, mobile data travelling \u2014 and why the network experience differs"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse the connection type (cable vs wireless) with the network itself \u2014 thinking the wire is the internet rather than a path to it. Multiple connection contexts (home, school, remote area) help students see that the network is the shared infrastructure, not the physical medium.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The satellite/remote community direction is rich \u2014 it makes network infrastructure visible as a designed, imperfect system rather than a background convenience, and raises equity questions about unequal access that are substantive and age-appropriate.",
+        "success_criteria": [
+          "Names at least two ways a device can connect to a network",
+          "Explains that connecting devices allows data to be exchanged between them"
+        ],
+        "related_standards": [
+          "AC9TDI4K02",
+          "AC9TDI6K01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who have not grasped that separate devices connect to form networks cannot follow the packet transmission model in N2 \u2014 the path a packet travels requires understanding there is a network of connected devices for it to traverse."
+      },
+      {
+        "id": 2,
+        "label": "How data travels through a network",
+        "progression_checkpoint": "Students can describe how data is structured into packets and transmitted through multiple devices from source to destination",
+        "minimum_width": "Explain that data is broken into packets for transmission and these packets travel from the source through multiple devices to the destination",
+        "typical_width": "Describe how data is broken into packets, transmitted through multiple intermediate devices, and reassembled at the destination; explain why breaking data into packets is useful (e.g. packets can take different routes, errors affect only one packet)",
+        "wider": [
+          "Investigate what happens when a packet is lost or delayed \u2014 how does the destination device detect missing data and request retransmission?",
+          "Compare how packet size and number of intermediate devices (hops) affects transmission speed and reliability in different network types"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The packet model is counter-intuitive \u2014 students expect data to travel as a single stream like water through a pipe. Tracing a message as packets through a diagrammed network (source \u2192 router \u2192 router \u2192 destination) makes the multi-step transmission legible and challenges the 'direct connection' mental model."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that data is broken into packets for network transmission",
+          "Describes that packets travel through multiple devices to reach the destination"
+        ],
+        "related_standards": [
+          "AC9TDI6K01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

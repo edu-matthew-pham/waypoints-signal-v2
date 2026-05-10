@@ -1,0 +1,100 @@
+{
+  "year_level": "7",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE7S03",
+    "title": "Interpret Information and Data",
+    "description": "interpret information and data to identify economic and business issues, trends and economic cause-and-effect relationships",
+    "strand": "Economics Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can evaluate information and data to identify and describe patterns and trends, and infer relationships (AC9HS6S03). The Year 7 demand adds specific economic frames — identifying issues, identifying multi-variable trends using interactive digital tools, and reasoning about cause-and-effect relationships in economic contexts.",
+    "progression_endpoint": "Students interpret information and data to identify economic and business issues, trends and economic cause-and-effect relationships.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying economic issues from information",
+        "progression_checkpoint": "Students can interpret information to identify an economic or business issue, making an inference beyond what is directly stated.",
+        "minimum_width": "Interpret one piece of economic information and identify the issue it points to; explain the inference made.",
+        "typical_width": "Interpret information from a range of sources to identify economic and business issues; make inferences beyond the data — for example, inferring the effect of growth in online shopping on the number of customers entering physical stores.",
+        "wider": [
+          "Interpret multiple pieces of information about the same economic issue from sources with different perspectives (e.g. business data vs consumer survey) and explain how each reveals a different aspect of the issue",
+          "Identify an economic issue affecting a First Nations community by interpreting community economic data or a published community report",
+          "Examine a news article or data release and identify two distinct economic issues it raises — practising the separation of connected issues"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who can only describe what data shows — without inferring the issue behind it — will not be able to engage with trend identification or cause-and-effect reasoning in subsequent nodes. Interpretation that stops at 'what happened' cannot advance to 'what issue does this reveal or what caused it.'",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need an explicit inference scaffold: 'The data shows X. This suggests Y is happening. The economic issue this points to is Z.' Practise the move from data observation to issue identification before asking students to do it independently.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies an economic or business issue from provided information",
+          "Explains the inference made — what in the information pointed to the issue"
+        ],
+        "related_standards": ["AC9HE7S02"]
+      },
+      {
+        "id": 2,
+        "label": "Identifying trends using multi-variable data",
+        "progression_checkpoint": "Students can interpret multi-variable data using interactive digital tools to identify trends and answer specific questions about economic change over time.",
+        "minimum_width": "Use a provided digital tool to identify one trend in a two-variable economic dataset; describe the trend in economic terms.",
+        "typical_width": "Interpret multi-variable data using interactive digital tools — identifying trends, answering directed questions such as 'For a 10-year period, how has the number of people in casual work changed?'; explain what the trend reveals about the economic context.",
+        "wider": [
+          "Compare trends across two different time periods or demographic groups in the same dataset — identifying whether a trend is consistent or variable",
+          "Select an appropriate digital tool to investigate a self-directed trend question about a contemporary economic issue, justifying the tool and dataset choice",
+          "Interpret employment trend data disaggregated by gender or regional area and identify what this reveals about differential economic participation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need experience with multiple dataset types and digital tools before they can apply trend identification independently. Build fluency through a sequence of increasingly complex datasets — starting with simple two-variable line graphs, progressing to multi-variable interactive displays."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies and describes a trend in a multi-variable dataset using a digital tool",
+          "Answers a directed question about the trend using evidence from the data"
+        ],
+        "related_standards": ["AC9HE7S02", "AC9HE7S04"]
+      },
+      {
+        "id": 3,
+        "label": "Cause-and-effect relationships",
+        "progression_checkpoint": "Students can interpret visual displays of multi-variable data to identify a cause-and-effect relationship within an economic issue, such as the relationship between income and saving or spending behaviour.",
+        "minimum_width": "Identify one cause-and-effect relationship in a visual display of economic data; explain which variable is the cause and which is the effect.",
+        "typical_width": "Interpret visual displays of multi-variable data to identify cause-and-effect relationships — for example, the relationship between income and levels of saving and spending; explain the direction and nature of the relationship using evidence from the data; distinguish correlation from causation.",
+        "wider": [
+          "Analyse a case where an apparent economic cause-and-effect relationship is complicated by a third variable — practising the distinction between correlation and causation",
+          "Investigate a cause-and-effect relationship in the context of a First Nations community economic issue — for example, how access to financial services affects saving behaviour in remote communities",
+          "Compare cause-and-effect relationships in consumer behaviour data across different demographic groups, identifying what additional variables might explain differences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Cause-and-effect reasoning in economics requires students to hold the relationship structure in mind: 'X changes, which causes Y to change, because...' The 'because' is the economic reasoning. Students need scaffolded practice constructing the full chain, not just labelling the correlation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Economic cause-and-effect relationships vary meaningfully across contexts — income and spending, employment type and financial security, access to services and economic outcomes. Broader context exposure builds transferable causal reasoning rather than surface-level data description.",
+        "success_criteria": [
+          "Identifies a cause-and-effect relationship in a visual data display",
+          "Explains the direction of the relationship using evidence from the data",
+          "Uses economic terms (trend, cause, effect, relationship, variable) accurately"
+        ],
+        "related_standards": ["AC9HE7S04"]
+      }
+    ]
+  }
+}

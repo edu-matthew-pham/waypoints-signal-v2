@@ -1,0 +1,92 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6M03",
+    "title": "Timetables and itineraries",
+    "description": "Interpret and use timetables and itineraries to plan activities and determine the duration of events and journeys",
+    "strand": "measurement",
+    "mode": "A",
+    "prior_knowledge": "Students can compare 12- and 24-hour time systems and solve conversion problems (AC9M5M03). They can read and interpret time in both 12- and 24-hour formats. They have not yet applied time reading skills to multi-row timetables or planned itineraries requiring calculation of durations across multiple legs.",
+    "progression_endpoint": "Students can interpret and use timetables and itineraries to plan activities and determine durations of events and journeys.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reading timetables",
+        "progression_checkpoint": "Students can read and extract information from a multi-row timetable, including departure and arrival times, duration, and frequency of services.",
+        "minimum_width": "Read departure and arrival times from a provided timetable for at least three services; identify the duration of at least two journeys; identify the next available service after a given time.",
+        "typical_width": "Extract a range of information from timetables in both 12- and 24-hour formats; calculate journey durations including those that cross the hour; read timetables with multiple routes or services; identify connections between services.",
+        "wider": [
+          "Compare timetables across different transport types (bus, train, ferry) and identify how each is structured and what information each prioritises",
+          "Investigate how timetables are designed to be read quickly \u2014 what conventions make them usable, and what would make them confusing?"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly reads departure and arrival times from a timetable.",
+          "Student calculates the duration of a journey from timetable information."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Calculating duration across time periods",
+        "progression_checkpoint": "Students can calculate the duration of events and journeys, including those spanning hours, days, or involving 12-/24-hour format conversions.",
+        "minimum_width": "Calculate the duration of at least four time intervals, including at least one that crosses midday or midnight; show working for each.",
+        "typical_width": "Calculate durations using counting-on, subtraction, and number line strategies; convert between 12- and 24-hour format as needed for calculation; determine elapsed time in hours and minutes; apply to checking timetable information.",
+        "wider": [
+          "Investigate duration calculations across time zones \u2014 if a flight leaves Sydney at 7:30 pm AEDT and lands in Tokyo 9 hours 45 minutes later, what is the Tokyo arrival time?",
+          "Explore historical calendars and timekeeping challenges \u2014 how were durations calculated before standardised time zones?"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Duration calculation is error-prone at boundaries \u2014 crossing midday/midnight, dealing with non-decimal time (60 minutes in an hour). Fluency requires targeted practice with these boundary cases rather than routine whole-hour calculations.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Reliable duration calculation at time boundaries (midday/midnight crossings) is the prerequisite for Node 3 itinerary planning. Students who make errors at boundaries will plan infeasible itineraries and cannot verify whether connection times are adequate.",
+        "success_criteria": [
+          "Student correctly calculates the duration of a time interval, including one that crosses a time boundary (e.g. midday or midnight).",
+          "Student shows a strategy for the calculation."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Planning with itineraries",
+        "progression_checkpoint": "Students can plan a multi-activity or multi-leg itinerary using timetables, calculating total durations, identifying constraints, and making decisions about timing.",
+        "minimum_width": "Plan a simple two- or three-leg itinerary using a provided timetable; identify departure and arrival times for each leg; calculate total journey time.",
+        "typical_width": "Plan a multi-leg itinerary accounting for connection times, waiting times, and constraints; identify the latest departure time for a given arrival deadline; determine whether a planned itinerary is feasible; communicate the plan as a clear schedule.",
+        "wider": [
+          "Plan a real or realistic class excursion or event itinerary with multiple activities and constraints and present it as a formatted schedule",
+          "Investigate how airlines, event organisers, or schools build buffer time into schedules and discuss the trade-off between efficiency and reliability"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Itinerary planning requires simultaneous management of timetable reading, duration calculation, and constraint satisfaction. The coordination of all three \u2014 while making decisions about feasibility and sequence \u2014 is the practical problem-solving goal of this standard.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Itinerary planning is an authentic, motivating application context. Real-world complexity \u2014 time zones, transport connections, event programs \u2014 provides genuinely broad terrain for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student constructs a feasible multi-leg itinerary from timetable information.",
+          "Student identifies the total duration of the planned journey or schedule."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9A04",
+    "title": "Quadratic Functions and Equations",
+    "description": "identify and graph quadratic functions, solve quadratic equations graphically and numerically, and solve monic quadratic equations with integer roots algebraically, using graphing software and digital tools as appropriate",
+    "strand": "Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can experiment with linear functions and relations using digital tools, making and testing conjectures (AC9M8A04). They have not yet encountered quadratic functions as a distinct family, identified quadratic relationships from tables of values, or solved quadratic equations.",
+    "progression_endpoint": "Students identify and graph quadratic functions, interpret their key features, and solve monic quadratic equations with integer roots algebraically, graphically and numerically.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying quadratic relationships",
+        "progression_checkpoint": "Students can identify quadratic functions from tables of values (using second differences) and from the form of an equation.",
+        "minimum_width": "Calculate first and second differences for a table of values and use constant second differences to identify a quadratic relationship; identify whether y = ax\u00b2+bx+c (a\u22600) is quadratic from its equation form.",
+        "typical_width": "Identify quadratic relationships from tables of values (constant second differences), equations and graphs; distinguish quadratics from linear and other functions; recognise the role of the squared term in determining function type.",
+        "wider": [
+          "Investigate how second differences connect to the coefficient of x\u00b2 (second difference = 2a) and explain the algebraic reason",
+          "Explore real-world data sets and use second differences to determine whether the underlying relationship might be quadratic",
+          "Connect the identification of quadratic functions to the classification of polynomial functions by degree"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly calculates first and second differences for a given table of values",
+          "Correctly identifies a quadratic relationship when second differences are constant",
+          "Correctly classifies at least three function equations as quadratic or non-quadratic"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Graphing quadratic functions and identifying key features",
+        "progression_checkpoint": "Students can graph quadratic functions and identify their key features: turning point, axis of symmetry, x-intercepts, y-intercept, and whether the function has a maximum or minimum.",
+        "minimum_width": "Graph one quadratic function y=ax\u00b2+bx+c using a table of values or digital tools; identify the turning point, axis of symmetry, and whether it opens upward or downward.",
+        "typical_width": "Graph a range of quadratic functions using digital tools; identify and interpret the turning point, axis of symmetry, x-intercepts (if they exist), y-intercept, maximum and minimum values; determine when values of the function lie within a given range.",
+        "wider": [
+          "Graph percentages of illumination of moon phases and connect the shape to a quadratic model; discuss this in relation to First Nations Australians' understandings of moon phases",
+          "Investigate how changing the coefficient of x\u00b2 affects the width and orientation of the parabola \u2014 connect to parameter variation in AC9M9A06",
+          "Explore projectile motion contexts (e.g. paths of thrown objects, water from a hose) and interpret turning point and intercepts physically"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly conflate the x-coordinate of the turning point with the axis of symmetry (confusing a point with a line), or believe all parabolas cross the x-axis. Seeing a range of quadratics \u2014 including those with no real roots, those with a double root, and those opening downward \u2014 addresses all three misconceptions.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Interpreting key features of quadratic graphs in context (projectile paths, moon illumination, satellite dishes) is where the function's mathematical structure connects to the physical world. Students who go beyond identification to contextual interpretation develop lasting understanding of what parabolic relationships model.",
+        "success_criteria": [
+          "Correctly identifies the turning point coordinates and axis of symmetry equation for a graphed quadratic",
+          "Correctly reads x-intercepts from the graph and states 'no real solutions' when the graph does not cross the x-axis",
+          "Identifies whether the turning point is a maximum or minimum and explains why based on the direction the parabola opens"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Solving quadratic equations algebraically",
+        "progression_checkpoint": "Students can solve monic quadratic equations with integer roots algebraically using factorisation and the null factor law.",
+        "minimum_width": "Factorise one monic quadratic equation and apply the null factor law to find the two solutions; verify solutions by substitution.",
+        "typical_width": "Solve a range of monic quadratic equations with integer roots by factorisation and the null factor law; recognise the connection between the factorised form (x\u2212p)(x\u2212q)=0 and the roots x=p, x=q; verify solutions by substitution and by graphical comparison.",
+        "wider": [
+          "Investigate how the null factor law generalises \u2014 why does ab=0 imply a=0 or b=0? What property of real numbers does this rely on?",
+          "Solve equations of the form x\u00b2=a using square roots, recognising two solutions; connect to the graph",
+          "Investigate cases where the quadratic does not factorise over integers and discuss what methods would be needed (preview of quadratic formula)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly find one solution and stop, or misapply the null factor law (e.g. writing x+3=5 when the equation is (x\u22122)(x+3)=5 instead of 0). The equation must equal zero before the null factor law applies \u2014 seeing this across several cases with explicit checking resolves the error.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Rewrites the equation in the form (x+p)(x+q)=0 before applying the null factor law",
+          "Correctly identifies both roots (including cases where roots are zero, equal, or negative)",
+          "Verifies at least one solution by substitution back into the original equation"
+        ],
+        "related_standards": [
+          "AC9M9A02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who apply the null factor law to non-zero RHS (e.g. (x-2)(x+3)=6 \u2192 x=2 or x=-3) cannot solve equations reliably in N4 or in AC9M9A05 modelling contexts. The equation must equal zero \u2014 this is non-negotiable."
+      },
+      {
+        "id": 4,
+        "label": "Connecting algebraic, graphical and numerical solutions",
+        "progression_checkpoint": "Students can solve quadratic equations using multiple methods and explain the connections between graphical x-intercepts, factorised form roots, and numerical solutions.",
+        "minimum_width": "Solve one quadratic equation algebraically; sketch the corresponding graph and identify the x-intercepts; explain how the algebraic roots and graphical intercepts are related.",
+        "typical_width": "Solve quadratic equations using algebraic (factorisation), graphical (reading x-intercepts) and numerical (trial and improvement, digital tools) methods; recognise that a graph with no x-intercepts corresponds to an equation with no real solutions; relate x\u00b2=a to two symmetric solutions on the graph.",
+        "wider": [
+          "Investigate quadratic equations with no real solutions graphically \u2014 connect to the concept of complex roots at a purely conceptual level (the parabola misses the x-axis)",
+          "Use digital tools to solve quadratic equations numerically and compare precision with algebraic solutions",
+          "Investigate how quadratic equations model the path of a thrown object \u2014 set up and solve an equation to find when the object reaches a given height or hits the ground"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node connects three previously separate methods (algebraic, graphical, numerical) into a unified understanding of quadratic equations. The integration payoff is recognising that each method gives the same answer and that the method choice depends on context \u2014 this is the full descriptor demand."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies x-intercepts of a quadratic graph and states these as roots of the equation",
+          "Explains why a graph with no x-intercepts means the equation has no real solutions",
+          "Solves the same quadratic equation using at least two different methods and verifies agreement"
+        ],
+        "related_standards": [
+          "AC9M9A05",
+          "AC9M9A06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

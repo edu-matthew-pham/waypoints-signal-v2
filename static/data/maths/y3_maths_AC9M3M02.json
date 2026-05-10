@@ -1,0 +1,68 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3M02",
+    "title": "Measuring with instruments",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "measure and compare objects using familiar metric units of length, mass and capacity, and instruments with labelled markings",
+    "prior_knowledge": "Students can identify which metric units are used to measure everyday items and use benchmarks to make estimates (AC9M3M01). They have not yet used measuring instruments with labelled metric markings to produce precise measurements.",
+    "progression_endpoint": "Students measure and compare objects using metric units of length, mass and capacity with appropriately marked measuring instruments.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reading labelled markings on instruments",
+        "progression_checkpoint": "Students can read a measurement from a ruler, measuring jug or scales by identifying the value at a marked graduation.",
+        "minimum_width": "Read three measurements from two different instruments (e.g. ruler and measuring jug), identifying the unit and the value shown.",
+        "typical_width": "Read measurements from rulers, measuring jugs and kitchen/bathroom scales across length, capacity and mass; interpret labelled and unlabelled graduations.",
+        "wider": [
+          "Investigate how to interpolate between unlabelled graduations (e.g. a ruler with only every 5cm marked) using reasoning about equal divisions",
+          "Explore how precision varies with instrument choice — comparing a measuring jug marked in 100mL vs one marked in 10mL"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often read only at labelled marks and cannot interpret positions between graduations. Exposure to varied instruments with different graduation densities resolves this.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Instrument reading is a prerequisite for Node 2 measurement and comparison tasks — students who can only read at labelled marks will produce incorrect measurements for the majority of real measurements that fall between graduations, undermining all subsequent comparison work.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can read a measurement from a marked instrument and state the value with its unit.",
+          "Students can interpret the meaning of the lines on a measuring instrument."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Measuring and comparing across attributes",
+        "progression_checkpoint": "Students can measure objects for length, mass and capacity using appropriate instruments and compare results using metric language.",
+        "minimum_width": "Measure and record two objects for each of length, mass and capacity; make at least one comparison statement for each attribute.",
+        "typical_width": "Measure a range of objects across all three attributes; compare using metric units and comparative language; connect measurements to real-world context.",
+        "wider": [
+          "Conduct a measurement investigation comparing objects across contexts (e.g. science measurement tasks) and discuss why precision matters in the context",
+          "Investigate what happens when you measure the same object with different instruments — exploring measurement variation and its sources"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Cross-attribute measurement integrates reading skill (node 1) with instrument selection (from AC9M3M01) and the comparison of results. Students who struggle here often have a gap in instrument reading or unit identification."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Measurement variation investigation provides genuine scientific thinking richness — students encounter that measurement is never perfectly precise and that instrument choice affects precision, which is important for science inquiry contexts.",
+        "success_criteria": [
+          "Students can use an appropriate instrument to measure an object for length, mass or capacity.",
+          "Students can compare two measurements using correct metric units and comparison language."
+        ],
+        "related_standards": ["AC9M3M01", "AC9M3N03", "AC9M3ST01"]
+      }
+    ]
+  }
+}

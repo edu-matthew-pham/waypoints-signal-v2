@@ -1,0 +1,99 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LA03",
+    "title": "Text structure: stages, phases and adaptation",
+    "description": "explain how texts across the curriculum are typically organised into characteristic stages and phases depending on purposes, recognising how authors often adapt text structures and language features",
+    "strand": "Language — Text structure and organisation",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how spoken, written and multimodal texts use language features and are typically organised into stages for different purposes (AC9E5LA03). They have not yet examined the internal phase structure within stages, or the ways authors deliberately adapt typical structures.",
+    "progression_endpoint": "Students can explain the characteristic stages and phases of texts across the curriculum and identify and explain when authors adapt typical structures and language features.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Stages and phases within texts",
+        "progression_checkpoint": "Students can identify that texts are organised into stages and that stages can be further divided into phases, and name the stages and phases in a familiar text type.",
+        "minimum_width": "Identify the stages of one familiar text type (e.g. narrative) and name at least one phase within a stage (e.g. the hook as a phase within the introduction).",
+        "typical_width": "Examine a range of text types (narrative, review, discussion, historical recount) and identify their stages; identify how introductions and other stages may be divided into phases with distinct purposes.",
+        "wider": [
+          "Map the stage and phase structure of a film or picture book narrative, comparing visual and written structural signals",
+          "Compare stage and phase structures across curriculum areas (e.g. a science report vs a history recount) and identify shared and distinct structural features"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify stages across a range of text types arrive at Node 2 without the structural vocabulary needed to compare characteristic structures — N2 presupposes that stage/phase concepts are stable across text types.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to accumulate examples of stage/phase structures across multiple text types before the underlying concept of structural organisation becomes generalisable. Exposure to a range of text types — not just narrative — builds the repertoire needed to recognise and explain the concept across the curriculum.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names the stages of at least one text type accurately",
+          "Identifies at least one phase within a stage and explains its purpose"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Characteristic structures across text types",
+        "progression_checkpoint": "Students can explain the characteristic stages and phases of multiple text types including reviews, discussions and historical recounts.",
+        "minimum_width": "Identify and explain the characteristic stages of at least two different text types, including at least one from outside narrative (e.g. review or discussion).",
+        "typical_width": "Explain characteristic stages and phases across the range of text types encountered in curriculum — including reviews, discussions of alternative positions, historical recounts, and narratives; identify language features that accompany each stage.",
+        "wider": [
+          "Examine a range of curriculum-area texts (science, history, geography) and explain how structural stages serve the discipline's purposes",
+          "Investigate how humour texts use stage structures differently — for example, how exaggeration functions within a structural stage"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students typically build strong understanding of narrative structure but underestimate the structural regularity of non-narrative texts. Extending across reviews, discussions and recounts prevents the misconception that text structure is primarily a literary concern.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-curriculum text structure work is genuinely rich — it directly supports reading comprehension and writing production in science, history, and geography, and connects to AC9E6LY03.",
+        "success_criteria": [
+          "Names and explains the characteristic stages of at least two text types, including one non-narrative type",
+          "Identifies at least one language feature associated with a specific stage in a text type"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Author adaptation of text structures",
+        "progression_checkpoint": "Students can recognise and explain when and why authors adapt or subvert the characteristic stages and language features of a text type.",
+        "minimum_width": "Identify one example where an author has adapted a typical text structure (e.g. a narrative that opens with a flashback rather than a scene-setting introduction) and explain the effect.",
+        "typical_width": "Analyse at least two examples of authors adapting text structures or language features across different text types; explain what effect the adaptation creates and why an author might choose it.",
+        "wider": [
+          "Compare two texts of the same type by different authors and evaluate how structural adaptations shape audience experience or argument",
+          "Create a short text that deliberately adapts a typical structural feature and explain the choice in an author's note"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Recognising adaptation requires holding the conventional structure in mind simultaneously with the actual structure — a metacognitive comparison move. Scaffolding the reasoning ('What is the typical structure? What has changed? What effect does that create?') prevents students from either accepting deviation as arbitrary or missing it entirely."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates knowledge of stages (Node 1), knowledge of characteristic structures across text types (Node 2), and applies both to the analytic question of intentional adaptation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Author adaptation analysis is a genuinely rich task that connects structural knowledge to authorial intent — strong preparation for both literary analysis and creative writing at Y6.",
+        "success_criteria": [
+          "Identifies a specific structural adaptation in a text and names what the conventional structure would be",
+          "Explains what effect the adaptation creates for the reader"
+        ],
+        "related_standards": ["AC9E6LE02", "AC9E6LE03", "AC9E6LY03"]
+      }
+    ]
+  }
+}

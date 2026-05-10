@@ -1,0 +1,92 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LA09",
+    "title": "Commas and apostrophes",
+    "description": "Use commas to indicate prepositional phrases, and apostrophes where there is multiple possession",
+    "strand": "Language",
+    "mode": "A",
+    "prior_knowledge": "Students can understand that punctuation signals dialogue through quotation marks and that different types of punctuation including commas signal meaning to a reader (AC9E4LA12). They have not yet applied commas to prepositional phrases or apostrophes in multiple-possession contexts.",
+    "progression_endpoint": "Students use commas to signal prepositional phrases at the beginning of sentences, and use apostrophes correctly for plural possession including regular plural nouns, irregular plural nouns, and proper nouns.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Commas with fronted prepositional phrases",
+        "progression_checkpoint": "Students can identify a prepositional phrase at the start of a sentence and use a comma to signal its boundary from the main clause.",
+        "minimum_width": "Identify prepositional phrases fronted in sentences and add or verify commas to signal the boundary between the phrase and main clause.",
+        "typical_width": "Apply comma use to fronted prepositional phrases across a range of sentence types and writing contexts. Identify sentences where the comma prevents ambiguity or signals the reader's parsing path, and explain why the comma is placed where it is.",
+        "wider": [
+          "Examine how other sentence-opening elements — time clauses, adverbial clauses — also take a following comma, connecting the rule to the broader principle that sentence openers are separated from the main clause",
+          "Limited width — comma use with fronted prepositional phrases is a mechanical rule that does not vary meaningfully across contexts. Extension involves the general rule for sentence openers, not broader application of the same rule."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "This is a mechanical punctuation rule with high error frequency in student writing. Consolidation through practice — identifying, applying, and checking — is the investment signal. Width is thin; practice and precision matter."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly places a comma after a fronted prepositional phrase in at least three examples.",
+          "Identifies sentences where a comma is missing after a fronted prepositional phrase and explains where it should go."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Apostrophes for plural possession",
+        "progression_checkpoint": "Students can apply apostrophes correctly for plural possession, including regular plural nouns ending in -s, and explain the difference between singular and plural possession apostrophe placement.",
+        "minimum_width": "Apply the apostrophe rule for regular plural possessives (e.g. 'the students' classroom') and distinguish the placement from singular possessives (e.g. 'the student's classroom').",
+        "typical_width": "Apply apostrophe rules for plural possession across a range of cases: regular plurals ending in -s, multiple owners with apostrophe on the last owner, and proper nouns. Explain the rule applied in each case.",
+        "wider": [
+          "Investigate irregular plural possessives (e.g. 'the children's books', 'the women's team') where the apostrophe-s is added because the plural does not end in -s — connecting this to the underlying rule",
+          "Examine variant forms for proper nouns ending in -s (e.g. 'James's' or 'James'') and discuss why both are accepted in Standard Australian English"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3's multiple-ownership rule is an extension of the plural possession rule — students must have secure singular vs. plural apostrophe placement before they can reason about joint versus separate ownership, which requires holding both rules simultaneously. Students with unreliable plural possession will apply the wrong base rule in Node 3.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Apostrophe placement for possession — especially distinguishing singular from plural possessives — is a high-frequency error site. The rule is mechanical and consistent but students conflate the singular and plural cases. Consolidation through deliberate practice across case types is more useful than width.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly applies the apostrophe for plural possession in at least three examples with regular plural nouns.",
+          "Distinguishes apostrophe placement for singular vs. plural possession (e.g. 'student's' vs. 'students'') and explains the rule."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Multiple possession and joint ownership",
+        "progression_checkpoint": "Students can apply the apostrophe rule for multiple ownership (apostrophe on the last owner) and explain why the rule is placed as it is.",
+        "minimum_width": "Apply the apostrophe correctly in at least two examples of multiple ownership (e.g. 'the cat and kitten's bowls') and explain why the apostrophe appears on the last owner.",
+        "typical_width": "Apply the multiple-ownership rule across a range of examples, and distinguish between joint ownership (one apostrophe on last owner) and separate ownership (apostrophe on each). Explain the difference in meaning between 'James and Sarah's house' and 'James's and Sarah's houses'.",
+        "wider": [
+          "Collect examples from authentic texts of possession apostrophe use — including errors — and create an annotated analysis distinguishing correct from incorrect usage and explaining each case",
+          "Examine how apostrophe use has changed over time in English (e.g. the 'greengrocers apostrophe') and discuss what those changes reveal about conventions in language"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The multiple-ownership rule requires students to reason about what the apostrophe signals — 'who owns this?' — rather than applying a surface pattern. The joint vs. separate ownership distinction requires explicit reasoning about meaning, not just pattern matching."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly applies the apostrophe in a multiple-ownership sentence and explains why it is placed on the last owner.",
+          "Distinguishes between joint and separate ownership apostrophe placement with at least one example of each."
+        ]
+      }
+    ]
+  }
+}

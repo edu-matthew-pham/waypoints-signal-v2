@@ -1,0 +1,73 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9I05",
+    "title": "Analysing Patterns, Trends and Anomalies",
+    "description": "analyse and connect a variety of data and information to identify and explain patterns, trends, relationships and anomalies",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can identify patterns and anomalies from representations (AC9S7I05, 7-8 band). They now extend to analysing data from multiple sources, connecting patterns across datasets, evaluating graph extrapolation validity, and identifying proportional relationships.",
+    "progression_endpoint": "Students identify and describe patterns, trends, proportional relationships and anomalies across multiple data sources, connect patterns across datasets, and evaluate the validity of extrapolating beyond observed data.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Patterns, trends, relationships and anomalies are identified across multiple sources",
+        "progression_checkpoint": "Students can analyse data from multiple sources, identify patterns, trends and proportional relationships, recognise anomalies, and connect consistent patterns across different data sets.",
+        "minimum_width": "Students identify a pattern or trend in data from at least two different sources and connect them, and identify at least one anomaly.",
+        "typical_width": "Students analyse atmospheric CO₂ data from ice cores and monitoring stations to identify patterns and connect them; analyse heat transfer data to identify proportional relationships; examine radioactive decay data across tables, graphs and simulations; compare published with experimental sound insulation data and identify systematic trends in differences; recognise anomalies and distinguish them from expected variation.",
+        "wider": [
+          "Analyse representations of atmospheric CO₂ from ice cores and monitoring stations — identifying patterns, trends and inconsistencies across source types",
+          "Analyse heat transfer data through insulating layers to identify the proportional relationship between thickness and heat transfer",
+          "Examine radioactive decay tables and graphs to identify the half-life pattern and predict mass changes over time"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to explain what patterns mean and evaluate extrapolation — moves that are impossible without first reliably identifying patterns and anomalies from multiple sources. Students who cannot identify cross-source patterns cannot interpret them or judge whether trends continue beyond observed data.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students identify patterns within a single dataset but do not connect patterns across different source types (e.g. ice core data and monitoring station data showing the same CO₂ trend). Making the cross-source connection explicit — same pattern in independent sources strengthens the claim — is the scaffold for moving from observation to analysis.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a pattern or trend in data from at least two different sources and describes the connection between them",
+          "Identifies at least one anomaly in a data set and distinguishes it from expected variation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Patterns are explained and extrapolation validity is evaluated",
+        "progression_checkpoint": "Students can explain what identified patterns and anomalies indicate about the phenomenon being studied, and evaluate whether extrapolating beyond the observed data range is valid.",
+        "minimum_width": "Students explain what one identified pattern indicates about the investigation question, and evaluate whether extrapolating from a given graph is valid.",
+        "typical_width": "Students explain what identified patterns mean for the investigation question (not just describing the pattern, but interpreting it); explain what anomalies might indicate; evaluate when graph extrapolation is valid and when it overreaches the data; and discuss what additional data would be needed to support a claimed extrapolation.",
+        "wider": [
+          "Discuss the validity of extrapolating from a graph — examining cases where extrapolation is reasonable and cases where it misleads",
+          "Compare published sound insulation data with experimentally determined values and explain the systematic pattern in differences — examining what the discrepancy indicates about experimental conditions vs standardised testing",
+          "Examine a case where an anomaly led to a significant scientific discovery — connecting pattern-and-anomaly analysis to how science progresses"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students readily describe what a pattern looks like without explaining what it means — they report 'as X increases, Y decreases' without connecting this to the scientific question. Similarly they extend graph lines beyond data without evaluating validity. The reasoning chain (what does this pattern tell us about the phenomenon? → is the relationship likely to continue outside the observed range? → what would need to be true for extrapolation to be valid?) is the scaffold that moves description to analysis.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The extrapolation validity question is a genuinely rich analytical direction that applies across all Y9 data contexts. The anomaly-to-discovery connection (AC9S9H01) provides a cross-strand enrichment that elevates pattern analysis from a technical skill to a scientific practice.",
+        "success_criteria": [
+          "Explains what an identified pattern indicates about the phenomenon being studied — not just describes the pattern",
+          "Evaluates whether extrapolating from a given graph is valid and explains the reasoning"
+        ],
+        "related_standards": [
+          "AC9S9H01"
+        ]
+      }
+    ]
+  }
+}

@@ -1,9 +1,12 @@
 import type { NodeFile } from './types/NodeFile'
+import type { SubjectConfig } from './config/subjects'
+import { nodeFileForCode } from './config/subjects'
 
 // Fetch a node file from static/data/
-export async function loadNodeFile(code: string): Promise<NodeFile> {
-  const year = code.match(/AC9S(\d+)/)?.[1] ?? '7'
-  const res = await fetch(`/data/y${year}_science_${code}.json`)
+export async function loadNodeFile(subject: SubjectConfig, code: string): Promise<NodeFile> {
+  const path = nodeFileForCode(subject, code)
+  if (!path) throw new Error(`No node file for ${code} in ${subject.id}`)
+  const res = await fetch(`/data/${path}`)
   if (!res.ok) throw new Error(`Could not load node file for ${code}`)
   return res.json() as Promise<NodeFile>
 }

@@ -1,0 +1,88 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N09",
+    "title": "Model additive and multiplicative problems",
+    "strand": "Number",
+    "description": "Use mathematical modelling to solve practical problems involving additive and multiplicative situations including financial contexts; formulate the problems, choosing operations and efficient calculation strategies, using digital tools where appropriate; interpret and communicate solutions in terms of the situation",
+    "prior_knowledge": "Students can use mathematical modelling to solve additive and multiplicative practical problems (AC9M4N08). They have not yet modelled problems requiring the choice between additive and multiplicative approaches or worked with financial contexts requiring both.",
+    "progression_endpoint": "Students use mathematical modelling to solve practical additive and multiplicative problems including financial contexts, formulating, calculating, interpreting and communicating solutions.",
+    "mode": "B",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Formulating the problem",
+        "progression_checkpoint": "Students can represent a practical problem using a mathematical model, identifying what operation(s) are needed and what quantities are known and unknown.",
+        "minimum_width": "Represent a practical problem using a diagram, equation or expression; identify the known and unknown quantities and the operation required.",
+        "typical_width": "Formulate additive and multiplicative problems across a range of practical contexts; use representations (bar models, diagrams, equations) to show the structure of the problem before calculating.",
+        "wider": [
+          "Compare different representations of the same problem to evaluate which makes the structure clearest",
+          "Use financial contexts: profit, cost, change, discounts"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Formulation is the phase that most students skip — they calculate before understanding the structure. A representation-first scaffold is the intervention, not more arithmetic practice.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Problem representation skills (bar models, equations) are rich pedagogical territory; financial contexts extend purposefully.",
+        "hinge": true,
+        "hinge_reason": "Formulation quality determines the quality of every subsequent phase — students who calculate without representing the structure produce solutions that cannot be verified or communicated in context (Mode B phase collapse).",
+        "success_criteria": [
+          "Student represents the problem structure using a diagram or equation before calculating",
+          "Student correctly identifies the operation(s) required"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Choosing efficient strategies",
+        "progression_checkpoint": "Students can select and justify an efficient calculation strategy for a given practical problem.",
+        "minimum_width": "Identify and apply one efficient calculation strategy for a given problem; explain the choice.",
+        "typical_width": "Compare the efficiency of mental, written and digital strategies for a range of problem types; select and justify the best approach for each.",
+        "wider": [
+          "Investigate strategy efficiency for financial problems at different scales (small amounts vs large)",
+          "Use digital tools to compare speed and accuracy across strategies"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student selects an appropriate calculation strategy",
+          "Student explains why their chosen strategy is efficient for the specific problem"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Interpreting and communicating solutions",
+        "progression_checkpoint": "Students can interpret a calculated result in context and communicate the solution clearly in terms of the original situation.",
+        "minimum_width": "Express the solution to a practical problem in terms of the context (not just as a number); check that the answer makes sense.",
+        "typical_width": "Interpret solutions across additive and multiplicative contexts; address the original question with appropriate units and context; identify when a solution is unreasonable and revise.",
+        "wider": [
+          "Write a solution explanation for an unfamiliar audience",
+          "Design and solve a multi-step financial problem (e.g. saving towards a goal) and communicate the full solution"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Interpretation and communication require formulation, calculation and context-reading to work together. This is where modelling skill is made visible through the work — the key Mode B assessment point.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-step financial problem design is genuinely rich for advancing students; communication task variety supports capability transfer.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student expresses the solution in context-appropriate terms with correct units",
+          "Student checks and confirms the reasonableness of the solution"
+        ]
+      }
+    ]
+  }
+}

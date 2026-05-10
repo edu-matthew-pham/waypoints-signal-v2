@@ -1,0 +1,68 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLY01",
+    "title": "Identify familiar texts and purpose",
+    "description": "identify familiar texts and some features that indicate their purposes",
+    "strand": "Literacy — Texts in context",
+    "mode": "A",
+    "prior_knowledge": "Students encounter texts in home and community settings daily. They have not yet been explicitly asked to identify text features that signal purpose, or to connect specific features (ingredients list, numbered steps, images) to the purpose of the text.",
+    "progression_endpoint": "Students can identify a range of familiar texts and name features that indicate their purposes — connecting observable features (lists, headings, images, numbered steps) to the texts' communicative functions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Texts have features we can see",
+        "progression_checkpoint": "Students can identify observable features of a familiar text — noting what is on the page or screen beyond just the words.",
+        "minimum_width": "Name at least one visible feature of a familiar text beyond words alone (e.g. pictures, a list, numbers).",
+        "typical_width": "Identify multiple visual and structural features of familiar texts — headings, images, lists, numbered steps, labels; discuss what these features look like across different text types.",
+        "wider": [
+          "Compare the features of two different text types side by side — noting what is the same and what is different",
+          "Collect and sort examples of text features (lists, headings, pictures, numbered steps) from a range of classroom and everyday texts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without being able to observe and name specific text features, students cannot connect those features to purpose in Node 2 — feature identification is the perceptual prerequisite for the feature-purpose reasoning that follows.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Feature recognition must become reliable across multiple text types before students can reason about what those features signal. Practice across diverse texts builds the naming habit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can point to at least two distinct features in a familiar text.",
+          "Student can name what each feature is (e.g. 'That's a list', 'That's a heading')."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Features signal purpose",
+        "progression_checkpoint": "Students can connect specific text features to the text's purpose — explaining why a recipe has a list or why instructions are numbered.",
+        "minimum_width": "Match one text feature to the purpose it serves (e.g. 'The picture shows what the food looks like so you know what to make').",
+        "typical_width": "Identify features that indicate text purposes — a recipe with an ingredients list and numbered steps is for cooking; a label is for identifying; a set of instructions is for doing something; discuss why each feature serves the purpose it does.",
+        "wider": [
+          "Select a text for a specific purpose from a collection (e.g. 'Find a text that would help you learn how to do something') and explain the feature that told you it would help",
+          "Explore how the same feature (e.g. numbered steps) is used across multiple text types — and whether it always signals the same purpose",
+          "Investigate how First Nations Australian texts may serve community purposes through features different from standard school texts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The feature-purpose connection can over-generalise from one example — e.g. students may think 'pictures mean it's for children'. Multiple text types with different feature-purpose pairings are needed to build a flexible rather than rigid schema."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify a text feature and explain what purpose it serves.",
+          "Student can use a text feature to select an appropriate text for a given purpose."
+        ]
+      }
+    ]
+  }
+}

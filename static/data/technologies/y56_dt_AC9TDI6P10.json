@@ -1,0 +1,80 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6P10",
+    "title": "Digital footprint and privacy",
+    "description": "Explain the creation and permanence of their digital footprint and consider privacy when collecting user data",
+    "strand": "Processes and Production Skills",
+    "mode": "A",
+    "prior_knowledge": "Students can identify what personal data is stored and shared in their online accounts and discuss associated risks (AC9TDI4P09). They understand that accounts hold personal data. They have not yet understood the concept of digital footprint as cumulative and permanent, or considered data minimisation as a design principle when collecting user data.",
+    "progression_endpoint": "Students explain how digital footprints are created and persist over time, and apply privacy considerations when thinking about collecting user data \u2014 including the principle of collecting only what is needed.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How digital footprints are created and persist",
+        "progression_checkpoint": "Students can explain how a digital footprint is created and why it persists over time",
+        "minimum_width": "Describe at least one scenario where a digital action creates a persistent record that could be resurfaced later",
+        "typical_width": "Explain how online actions \u2014 comments, posts, images, search history \u2014 create records that persist and can be associated with a person later; describe at least two different ways a digital footprint is created and explain why deletion is not always effective",
+        "wider": [
+          "Investigate how a comment made on a social media post or video links the commenter's identity to both the comment and the content \u2014 explaining why that association is permanent even if the post is later deleted",
+          "Explore how digital footprints accumulate over time \u2014 explaining that data from multiple platforms and years can be combined to build a detailed profile"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to think of digital actions as ephemeral \u2014 'I can just delete it'. Multiple contexts where deletion does not remove the trace (comment linked to another user's post, cached search results, data already shared with a third party) help students understand permanence as a structural feature, not a privacy setting.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least one digital action and explains how it creates a persistent record",
+          "Explains why deleting a post may not remove the digital footprint it created"
+        ],
+        "related_standards": [
+          "AC9TDI4P09",
+          "AC9TDI6P09"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand that digital footprints are permanent and cumulative cannot engage meaningfully with N2's data minimisation reasoning \u2014 the design principle of 'collect only what is needed' requires understanding why unnecessary data collection has lasting consequences."
+      },
+      {
+        "id": 2,
+        "label": "Data minimisation \u2014 collecting only what is needed",
+        "progression_checkpoint": "Students can explain why collecting the minimum data needed for a purpose protects user privacy",
+        "minimum_width": "Give one example where collecting unnecessary personal data creates a privacy risk \u2014 and identify what could be collected instead",
+        "typical_width": "Explain the principle that systems should collect the minimum data needed for their purpose; apply this to at least two scenarios \u2014 identifying what data is necessary, what is unnecessary, and what harm unnecessary collection creates",
+        "wider": [
+          "Evaluate a sign-up form for an app and identify which fields are necessary for the stated purpose and which could be removed without affecting function \u2014 applying the data minimisation principle as a designer",
+          "Explain how collecting personal data to train generative AI models creates a long-term privacy risk \u2014 personal information shared once could surface in AI outputs far in the future"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students typically think of privacy as about keeping secrets, not about what should be collected in the first place. The data minimisation framing is counter-intuitive \u2014 it requires students to think as designers, not just users. Multiple scenarios (form design, AI training data) help students apply the principle from a design perspective rather than a personal-risk perspective.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The AI training data direction (from the elaboration) is genuinely rich \u2014 it connects data collection design to long-term, systemic privacy consequences that are not visible to the individual user but are substantive at this year level and increasingly important.",
+        "success_criteria": [
+          "Explains why collecting unnecessary data creates privacy risk",
+          "Identifies at least one example of unnecessary data collection and what could be collected instead"
+        ],
+        "related_standards": [
+          "AC9TDI6P06",
+          "AC9TDI6P09"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

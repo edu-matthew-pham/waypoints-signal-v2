@@ -1,0 +1,84 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2M04",
+    "title": "Read analog clock",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "recognise and read the time represented on an analog clock to the hour, half-hour and quarter-hour",
+    "prior_knowledge": "Students sequence events by duration and use time language (AC9M1M03). They have not yet read time on an analog clock or connected clock hand positions to hours, half-hours and quarter-hours.",
+    "progression_endpoint": "Students recognise and read the time on an analog clock to the hour, half-hour and quarter-hour, and explain the relationship between each hand's movement and the time it represents.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The two hands and the hour",
+        "progression_checkpoint": "Students can identify the hour hand and minute hand on an analog clock, and read times to the hour.",
+        "minimum_width": "Identify the hour and minute hand on a clock; read and show at least three o'clock times.",
+        "typical_width": "Identify and distinguish the hour and minute hand; explain how long each hand takes to complete one full rotation and what time unit each represents; read and show times on the hour across the full 12-hour cycle.",
+        "wider": [
+          "Create an analog clock from a paper plate; label the numbers, draw both hands; explain the movement of each hand as time passes",
+          "Connect clock language to duration: 'It is 3 o'clock — in one hour it will be 4 o'clock; the minute hand goes all the way around'"
+        ],
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 both require students to read specific minute-hand positions (pointing to 6, 3, 9). Students who cannot reliably distinguish the hour and minute hands cannot interpret these positions — every subsequent clock-reading task collapses into guessing.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the hour hand and minute hand on an analog clock",
+          "Reads and sets the clock to a given time on the hour"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Half-past",
+        "progression_checkpoint": "Students can read and show half-past times on an analog clock and explain that half-past means the minute hand is halfway around its cycle.",
+        "minimum_width": "Read 'half past' for at least three different hours; explain that the minute hand is pointing to 6.",
+        "typical_width": "Read and show half-past times for all hours; connect 'half past' language to the minute hand being at the halfway point in its full cycle; relate to half of 60 minutes = 30 minutes.",
+        "wider": [
+          "Connect half past to the clock face divided into halves; discuss why 'half past' means the minute hand has gone halfway around",
+          "Relate to M02 — half an hour as half of the clock face circle"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Reads a half-past time on an analog clock correctly",
+          "Explains that 'half past' means the minute hand is pointing to 6 (halfway around)"
+        ],
+        "related_standards": ["AC9M2M02"]
+      },
+      {
+        "id": 3,
+        "label": "Quarter-past and quarter-to",
+        "progression_checkpoint": "Students can read and show quarter-past and quarter-to times on an analog clock and explain the meaning of each.",
+        "minimum_width": "Read 'quarter past' and 'quarter to' for at least two different hours each.",
+        "typical_width": "Read and show quarter-past and quarter-to times; explain the meaning of 'quarter past' (minute hand at 3, 15 minutes into the hour) and 'quarter to' (minute hand at 9, 15 minutes before the next hour); divide the clock face into halves and quarters.",
+        "wider": [
+          "Investigate the clock face divided into four quarters; connect to measures of turn — quarter-past represents a quarter-turn from the top",
+          "Compare quarter-past and quarter-to for the same hour; explain how many minutes each represents and why they add to one hour"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "'Quarter to' is a persistent difficulty because it references the upcoming hour, not the current one. Students need multiple contexts and explicit attention to the direction of counting to distinguish 'quarter past' (minutes elapsed) from 'quarter to' (minutes remaining)."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Reads quarter-past and quarter-to times on an analog clock correctly",
+          "Explains that 'quarter to 4' means 15 minutes before 4 o'clock",
+          "Distinguishes 'quarter past 3' from 'quarter to 4' on the same clock face"
+        ],
+        "related_standards": ["AC9M2M02", "AC9M2M05"]
+      }
+    ]
+  }
+}

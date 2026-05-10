@@ -1,0 +1,88 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2N04",
+    "title": "Add and subtract two-digit numbers",
+    "strand": "Number",
+    "mode": "A",
+    "description": "add and subtract one- and two-digit numbers, representing problems using number sentences, and solve using part-part-whole reasoning and a variety of calculation strategies",
+    "prior_knowledge": "Students add and subtract numbers within 20 using part-part-whole knowledge to 10 and a variety of calculation strategies (AC9M1N04). They have not yet extended these strategies to two-digit numbers or represented problems as number sentences.",
+    "progression_endpoint": "Students add and subtract one- and two-digit numbers by representing problems as number sentences and solving using part-part-whole reasoning and a range of strategies including bridging tens, near doubles, partitioning and number lines.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Number sentences for problems",
+        "progression_checkpoint": "Students can represent an addition or subtraction situation as a number sentence and explain how each number in the sentence connects to the problem.",
+        "minimum_width": "Write a number sentence for a given addition or subtraction situation; identify what each number in the sentence represents.",
+        "typical_width": "Represent addition and subtraction problems using number sentences and bar models; explain the connection between each number and the situation; recognise that the same situation can be represented as both an addition and subtraction sentence.",
+        "wider": [
+          "Use First Nations Australians' stories and dances to represent addition and subtraction relationships as number sentences; discuss how the two operations balance each other",
+          "Write number sentences for situations where one quantity is unknown (missing addend); explain how part-part-whole helps find the missing value"
+        ],
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 both require students to represent problems as number sentences before applying strategies. Students who cannot form a number sentence from a situation have no structure to reason from — strategy selection and application cannot occur.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Writes a correct number sentence for an addition or subtraction situation",
+          "Identifies what each number in the sentence represents in the context"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Strategies for two-digit addition",
+        "progression_checkpoint": "Students can add two-digit numbers using at least two strategies (e.g. bridging tens, partitioning, near doubles) and explain their reasoning.",
+        "minimum_width": "Add two two-digit numbers using one mental strategy; explain the steps (e.g. partition, bridge to ten, combine).",
+        "typical_width": "Apply strategies including near doubles, part-part-whole to 10, bridging tens and partitioning to mentally solve two-digit addition problems; use informal jottings to track steps; recognise that zero added leaves a number unchanged.",
+        "wider": [
+          "Apply the associative property to rearrange addends for easier calculation: e.g. 7+8 = 7+(7+1) = (7+7)+1",
+          "Use a number line or hundreds chart to solve two-step addition problems; compare results with mental strategies and explain why they give the same answer"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "At this node students need to build a repertoire of strategies rather than rely on a single approach. Each strategy (bridging, partitioning, near doubles) suits different problem types — building range means students can select flexibly."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly adds two two-digit numbers using a mental strategy",
+          "Explains the reasoning steps of the strategy used",
+          "Applies at least two different strategies to the same problem type"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Strategies for two-digit subtraction",
+        "progression_checkpoint": "Students can subtract one- and two-digit numbers using part-part-whole reasoning and at least one mental strategy, and represent the problem as a number sentence.",
+        "minimum_width": "Subtract a one- or two-digit number from a two-digit number using a mental strategy; represent as a number sentence.",
+        "typical_width": "Apply strategies including counting back, bridging tens and partitioning to subtract one- and two-digit numbers; use informal jottings; connect subtraction to related addition facts (inverse relationship).",
+        "wider": [
+          "Use a physical or mental number line to solve multi-step subtraction problems (e.g. gift card problem: $100 - $38 - $15)",
+          "Explore the inverse relationship by writing the related addition fact for a subtraction problem; discuss why knowing one helps you solve the other"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Subtraction is more error-prone than addition at this stage because students may revert to counting back from the minuend rather than using efficient strategies. Working across multiple problem contexts — including those where the structure clearly suggests bridging or adding up — helps students see that the choice of strategy depends on the numbers involved."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Subtracts a one- or two-digit number from a two-digit number correctly",
+          "Represents the subtraction as a number sentence",
+          "Explains the strategy steps used"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "year_level": "1-2",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE2K02",
+    "title": "Materials affect movement",
+    "description": "explore how technologies including materials affect movement in products",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explore how products are designed by people (AC9TDEFK01). They have made simple solutions using materials (AC9TDEFP01). They have not yet systematically connected material properties to movement outcomes, or explored how changing materials or forces changes how a product moves.",
+    "progression_endpoint": "Students explore how material properties and forces affect movement in products, and explain how changing materials can change how a product moves.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Material properties and movement",
+        "progression_checkpoint": "Students can identify how a material's properties affect how a product moves",
+        "minimum_width": "Identify at least one material property (e.g. smooth, rough, flexible, rigid) and explain how it affects movement in a product or on a surface",
+        "typical_width": "Explore multiple material properties (smooth/rough, light/heavy, flexible/rigid) and explain how each affects movement; select materials to show how properties are appropriate for particular movement outcomes (sliding, floating, flying)",
+        "wider": [
+          "Investigate First Nations Australians' instructive toys and how they are designed and made to produce movement \u2014 for example propeller toys made from pandanus across northern Australia; identify which materials are used and how their properties create the movement",
+          "Test a wheeled toy on different surfaces (timber, carpet, rubber, plastic) \u2014 measure or observe differences in movement and speed; explain how surface material properties affect movement"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students at Y1-2 may connect a specific material to a specific toy without generalising to the property relationship \u2014 'the smooth floor makes it go fast' without understanding that smoothness (low friction) is the relevant property. Multiple material-movement contexts where the same property appears in different products builds the generalised property concept.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations propeller toys direction is rich \u2014 it connects material-movement knowledge to purposeful, culturally situated design, and the pandanus material properties are genuinely interesting to investigate alongside modern materials.",
+        "success_criteria": [
+          "Names at least one material property",
+          "Explains how that property affects how a product moves"
+        ],
+        "related_standards": [
+          "AC9TDE2P02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without the material-property concept, Node 2's integration of material properties with forces has no anchor \u2014 students who cannot generalise from specific examples to a property cannot reason about how property and force interact."
+      },
+      {
+        "id": 2,
+        "label": "Combining materials and forces to create movement",
+        "progression_checkpoint": "Students can explore how combining materials with forces creates movement in a product",
+        "minimum_width": "Using one product (e.g. a toy boat, kite or puppet), identify the materials used and explain how force and material combine to create movement",
+        "typical_width": "Manipulate materials using tools and techniques to create different types of movement across multiple products; explore how combining materials with forces (push, pull, gravity, wind) creates and controls movement; explain the relationship between materials, forces and movement",
+        "wider": [
+          "Explore a marionette or Indonesian wayang kulit shadow puppet \u2014 identify how combining materials with forces creates movement; explain how the design enables the operator to control the movement",
+          "Construct a toy boat that floats or a kite that flies \u2014 select materials deliberately for their movement-enabling properties and explain the material and force choices"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "At this node, material properties (node 1) and forces must be coordinated simultaneously to understand movement in a product. Neither alone explains movement \u2014 it is the interaction of material properties with applied forces that produces the outcome. Integration failure looks like: identifying the material or the force separately without explaining how they combine.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The puppet/marionette direction is rich \u2014 controlling movement through force applied to specific materials makes the material-force-movement relationship tangible and allows students to experiment with cause and effect in a hands-on, culturally interesting context.",
+        "success_criteria": [
+          "Identifies both a material and a force involved in a product's movement",
+          "Explains how the material and force combine to produce the movement"
+        ],
+        "related_standards": [
+          "AC9TDE2P02",
+          "AC9TDE2K01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "year_level": "7",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG7K01",
+    "title": "Water as an environmental resource",
+    "description": "classification of environmental resources and the way that water connects and changes places as it moves through environments",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students enter Year 7 Geography from the F–6 HASS curriculum. They have a working understanding of basic geographical concepts (place, space, environment, interconnections, scale, sustainability, change), can identify natural and managed environments, and have located Australia within the Asia-Pacific region. They have not previously encountered formal resource classification frameworks or the concept of the hydrological cycle as an agent of landscape change.",
+    "progression_endpoint": "Students explain how water is classified as an environmental resource and how its movement through environments connects and changes places.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Resource classification framework",
+        "progression_checkpoint": "Students can classify environmental resources as renewable, non-renewable or continuous and give examples of each type.",
+        "minimum_width": "Students classify at least two examples of each resource type and explain the defining characteristic that places each in its category.",
+        "typical_width": "Students use the three-category framework to classify a range of environmental resources including water in different forms, fossil fuels, solar energy and timber, explaining the basis for each classification.",
+        "wider": [
+          "Examine contested classifications — e.g. is groundwater renewable or non-renewable given recharge timescales? Where does 'fossil water' sit in the framework?",
+          "Compare this classification to alternative frameworks (e.g. natural capital, ecosystem services) and evaluate which is more useful for decision-making",
+          "Investigate how resource classification has changed over time as technology has enabled previously inaccessible resources to be used"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot accurately apply the three-category framework, they will misclassify water in its various forms throughout the rest of the unit, undermining analysis of sustainability, distribution and management strategies in K01–K03.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students frequently confuse 'continuous' (always available, e.g. solar, wind) with 'renewable' (regenerates within a human timeframe, e.g. timber, fish). A consolidation pass using targeted sorting exercises with explicit feedback on the continuous/renewable distinction resolves this before it propagates.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Widening to contested and edge cases (fossil water, geothermal, unconventional gas) builds genuine understanding of the classification logic rather than memorised category membership.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The classification framework is genuinely contested at its edges — fossil water, desalinated seawater, and emerging energy resources all sit at category boundaries. Exploring these cases deepens students' understanding of what the categories are actually doing and prepares them for the sustainability arguments in K02.",
+        "success_criteria": [
+          "Classifies water in at least three forms (e.g. surface water, groundwater, water vapour, salt water, ice) using the renewable/non-renewable/continuous framework and justifies each classification.",
+          "Explains the defining characteristic that distinguishes renewable resources from continuous resources."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Water movement and place connection",
+        "progression_checkpoint": "Students can explain how water moving through environments connects places, using geographical terminology for different water forms and pathways.",
+        "minimum_width": "Students trace at least one water pathway (e.g. surface water in a river system, groundwater movement) and explain how it connects two or more places.",
+        "typical_width": "Students explain how groundwater, surface water and soil moisture move through environments, identifying at least two ways this movement connects places — including the role of water as a potential resource when it exists as salt water, ice or water vapour.",
+        "wider": [
+          "Map a river catchment at multiple scales, tracing how upstream and downstream places are connected through water movement and identifying human modifications to that flow",
+          "Investigate the Great Artesian Basin as a case study of groundwater connecting geographically distant places across long timeframes",
+          "Examine how climate systems (ENSO, Indian Ocean Dipole) affect the distribution of water movement across Australia, connecting meteorological patterns to water availability in different places"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding water movement as a connective process between places is the conceptual foundation for K02 (distribution and sustainability) and K03 (values). Without this spatial understanding, students treat water as a static resource rather than a dynamic system.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often confuse 'water connects places' with simple transport (water flows downstream). The reasoning scaffold needed is: water moves → carries materials, energy and consequences → downstream/down-gradient places are affected by upstream/up-gradient conditions. Diagramming catchment connections explicitly supports this.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Widening to different water movement types — surface, sub-surface, atmospheric — and different scales prevents students from overgeneralising from river examples.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The concept of hydrological connectivity is rich with scalar complexity — local, regional and continental connections all operate simultaneously. Wider cases like the Great Artesian Basin or the Murray-Darling system illustrate that 'place connection' through water is not just downstream flow but also multi-decade groundwater recharge cycles.",
+        "success_criteria": [
+          "Names and distinguishes at least three forms of water (e.g. groundwater, surface water, soil moisture, salt water, ice) and their pathways through environments.",
+          "Explains, using a specific example, how water movement connects at least two places — identifying what is carried, transferred or affected."
+        ],
+        "related_standards": ["AC9HG7K02", "AC9HG7S03"]
+      },
+      {
+        "id": 3,
+        "label": "Environmental, economic and social effects of water movement",
+        "progression_checkpoint": "Students can explain environmental, economic or social effects of water as it connects places, using a specific Australian example.",
+        "minimum_width": "Students explain one effect type (environmental, economic or social) of water movement connecting places, supported by a specific example.",
+        "typical_width": "Students explain environmental, economic and social effects of water movement across two or more examples, including at least one case where water connection produces both beneficial and adverse effects for different groups.",
+        "wider": [
+          "Examine the Snowy Mountains Hydroelectric Scheme — compare environmental effects of water diversion (reduced flows in the Snowy and Murrumbidgee rivers) with economic effects (power generation and irrigation)",
+          "Investigate the Mutitjulu Waterhole as a case where the social and cultural effects of water connectivity are primary — connecting this to prior understanding of First Nations relationships to Country",
+          "Research the Ord River Irrigation Area, examining how engineered water movement produced economic effects for some groups and adverse social/environmental effects for others"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The three effect types (environmental, economic, social) are best understood comparatively across contexts. Using multiple case studies prevents students from conflating the framework with a single example.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The elaborations name three distinct Australian case studies with different dominant effect types. Engaging all three reveals that the same water movement can produce environmental, economic and social effects simultaneously and that these can be in tension — an important insight for K02 sustainability analysis.",
+        "success_criteria": [
+          "Identifies a specific case of water movement connecting places and explains at least one environmental, economic or social effect with reference to the geographical processes involved.",
+          "Distinguishes between beneficial and adverse effects of the same water movement for at least one example."
+        ],
+        "related_standards": ["AC9HG7K02", "AC9HG7K03"]
+      },
+      {
+        "id": 4,
+        "label": "Moving water as an agent of landscape change",
+        "progression_checkpoint": "Students can explain how moving water changes places through erosion, deposition and related geomorphological processes.",
+        "minimum_width": "Students explain at least one process by which moving water changes the physical landscape of a place (e.g. erosion cutting valleys, soil erosion).",
+        "typical_width": "Students explain how moving water causes erosion and deposition, identifying examples of landforms created by water movement and explaining the conditions that intensify these processes.",
+        "wider": [
+          "Investigate a specific landform created by water action (e.g. river gorge, alluvial plain, delta, coastal cliff) and trace the process sequence that produced it",
+          "Examine how land use change (clearing, urban surfaces) alters water movement and intensifies erosion processes",
+          "Compare water-driven landscape change rates across different climate zones — arid Australia vs monsoonal tropics vs temperate coasts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students tend to describe outcomes (valleys exist) without explaining the process chain (water energy → rock/soil disaggregation → transport → deposition elsewhere). Explicitly scaffolding the process sequence — energy source, material acted on, transport, deposition site — grounds the explanation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least one way moving water changes the physical characteristics of a place, identifying the process involved.",
+          "Uses appropriate geographical terminology (e.g. erosion, deposition, runoff, valley) to describe water-driven landscape change."
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Integration: water as classifier, connector and change agent",
+        "progression_checkpoint": "Students can explain how water is classified as an environmental resource and how its movement through environments connects and changes places — applying the classification framework, connectivity concept and change processes to a specific geographical context.",
+        "minimum_width": "Students produce an explanation that draws on at least two of the three concepts (classification, connection, change) for a specific water-related geographical context.",
+        "typical_width": "Students produce an integrated explanation of a water-related geographical context that applies the resource classification framework, traces the connectivity between places, and identifies a change process — making explicit the relationship between the three concepts.",
+        "wider": [
+          "Apply all three concepts simultaneously to a complex case: e.g. the Murray-Darling Basin as a system where water classification (competing uses and scarcity), connectivity (rivers linking states and ecosystems) and change (salinity, erosion, altered flow regimes) operate together",
+          "Evaluate a real or proposed water management intervention using the three-concept framework to assess what it changes about classification (access), connectivity (flow alteration) and physical change (erosion, sedimentation)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The three concepts in this descriptor — classification, connection and change — are typically taught as sequential nodes but the descriptor requires them to work together in explanation. The integration node is where students practise moving between the three simultaneously rather than applying each in isolation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces an explanation of a specific water-related context that applies the resource classification framework, explains a connection between places, and identifies a change process.",
+          "Uses accurate geographical terminology throughout and names specific places, water forms and processes."
+        ],
+        "related_standards": ["AC9HG7K02", "AC9HG7K03", "AC9HG7S04"]
+      }
+    ]
+  }
+}

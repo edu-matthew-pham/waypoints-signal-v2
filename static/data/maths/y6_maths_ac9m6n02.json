@@ -1,0 +1,128 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N02",
+    "title": "Prime, composite and square numbers",
+    "description": "Identify and describe the properties of prime, composite and square numbers and use these properties to solve problems and simplify calculations",
+    "strand": "number_modelling",
+    "mode": "A",
+    "prior_knowledge": "Students can express natural numbers as products of their factors and determine if one number is divisible by another (AC9M5N02). They can recognise multiples. They have not yet classified numbers as prime or composite, nor explored square numbers as a distinct number class.",
+    "progression_endpoint": "Students can identify and describe the properties of prime, composite and square numbers and use these properties to simplify calculations and solve problems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Factors and the prime/composite distinction",
+        "progression_checkpoint": "Students can determine the number of factors a whole number has and classify it as prime (exactly two factors: 1 and itself) or composite (more than two factors).",
+        "minimum_width": "Find all factors of numbers to at least 30; classify each as prime or composite based on factor count; explain why 1 is neither prime nor composite.",
+        "typical_width": "Find all factors of numbers to 100; classify numbers as prime or composite with justification; identify all primes to 50 using factor analysis; explain why 2 is the only even prime.",
+        "wider": [
+          "Use the Sieve of Eratosthenes to systematically identify all primes to 100 and describe the pattern of what remains",
+          "Investigate the distribution of primes \u2014 why do primes thin out as numbers get larger? Is there a largest prime?",
+          "Explore twin primes (pairs differing by 2) and identify examples up to 100"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse 'has no factors' with 'prime' or think odd numbers are automatically prime. Varied examples \u2014 including borderline cases (1, 2, 4, 9, 25) and testing larger numbers \u2014 expose and resolve these misconceptions more reliably than repeated practice on a narrow range.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The prime/composite distinction opens rich investigative territory \u2014 the Sieve, twin primes, the infinitude of primes, prime gaps \u2014 that is genuinely accessible at Year 6 and rewards curiosity without exceeding the year band.",
+        "hinge": true,
+        "hinge_reason": "Correct classification of numbers as prime or composite is a prerequisite for Node 2 (prime factorisation). Students with misconceptions about primes \u2014 odd = prime, or 1 is prime \u2014 produce systematically incorrect factor trees that cannot be corrected without first fixing the classification.",
+        "success_criteria": [
+          "Student correctly identifies all factors of a given number to 100 and classifies it as prime or composite.",
+          "Student explains why 1 is neither prime nor composite and why 2 is the only even prime."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Prime factorisation",
+        "progression_checkpoint": "Students can express composite numbers as products of prime factors using factor trees or repeated division.",
+        "minimum_width": "Use a factor tree to express at least three composite numbers as products of prime factors; verify the result by multiplication.",
+        "typical_width": "Express composite numbers as products of prime factors using factor trees and repeated division; recognise that the prime factorisation of a number is unique (order aside); express prime factorisation using index notation where appropriate.",
+        "wider": [
+          "Use prime factorisation to find the highest common factor (HCF) of two numbers",
+          "Use prime factorisation to find the lowest common multiple (LCM) of two numbers",
+          "Investigate patterns in prime factorisations of perfect squares (all prime factors appear an even number of times)"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Factor trees require procedural accuracy \u2014 students must correctly identify prime factors at each branch and continue until all leaves are prime. Errors here propagate into HCF/LCM calculations. Fluency and accuracy need deliberate practice.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Accurate prime factorisation is required for Node 4 (simplifying calculations, simplifying fractions). Students who produce incorrect factor trees will apply wrong common factors in simplification tasks.",
+        "success_criteria": [
+          "Student correctly constructs a factor tree for a composite number and expresses the result as a product of primes.",
+          "Student verifies their prime factorisation by multiplication."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Square numbers and their properties",
+        "progression_checkpoint": "Students can identify square numbers, recognise them as products of a number multiplied by itself, connect them to square arrays, and identify square roots of familiar square numbers.",
+        "minimum_width": "List the first 12 square numbers; explain what makes a number 'square' using array or area models; identify the square root of familiar square numbers (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144).",
+        "typical_width": "Identify and generate square numbers; connect square numbers to square arrays and the area of squares; identify that square numbers have an odd number of factors (unique property); use square number knowledge to estimate and check calculations.",
+        "wider": [
+          "Investigate triangular numbers (1, 3, 6, 10...) as a parallel number class and compare their visual patterns with square numbers",
+          "Explore the sum of consecutive odd numbers pattern (1=1\u00b2, 1+3=2\u00b2, 1+3+5=3\u00b2...) and explain why it works using array diagrams"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often treat square numbers as a list to memorise rather than a property to understand. Array and area model representations, alongside procedural practice, build both the conceptual understanding and the recall needed for problem-solving use.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Square numbers connect to area, indices, number patterns, and estimation in ways that reward exploration. Triangular numbers and consecutive-odd-number patterns are accessible at Year 6 and offer genuine mathematical richness.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly identifies whether a given number is a square number and explains why using an array or multiplication.",
+          "Student states the square root of familiar square numbers up to 144."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Using number properties to simplify and solve",
+        "progression_checkpoint": "Students can use properties of prime, composite and square numbers to solve problems and simplify calculations, including selecting efficient approaches.",
+        "minimum_width": "Use prime/composite/square number knowledge to solve at least two problems \u2014 for example, determining if a number is prime, simplifying a fraction using prime factorisation, or finding if a number of objects can form a perfect square array.",
+        "typical_width": "Apply number property knowledge to select efficient calculation strategies \u2014 simplifying fractions using prime factorisation, testing divisibility, identifying whether a product will be a square number; explain the reasoning behind the strategy chosen.",
+        "wider": [
+          "Use prime factorisation to simplify fractions and connect this to work on equivalent fractions",
+          "Investigate cryptography connections \u2014 why are large primes important in securing digital information? \u2014 at a conceptual level appropriate for Year 6"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to coordinate their knowledge of prime, composite, and square numbers and select the appropriate property for a given problem. The integration \u2014 choosing the right tool from their number property repertoire \u2014 is the primary learning at this point."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student uses number property knowledge (prime, composite, or square) to select an efficient approach to at least one problem and explains their reasoning.",
+          "Student correctly applies the chosen strategy and verifies the answer."
+        ]
+      }
+    ]
+  }
+}

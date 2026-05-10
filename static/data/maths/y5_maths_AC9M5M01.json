@@ -1,0 +1,88 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5M01",
+    "title": "Choose metric units",
+    "strand": "Measurement",
+    "description": "Choose appropriate metric units when measuring the length, mass and capacity of objects; use smaller units or a combination of units to obtain a more accurate measure",
+    "prior_knowledge": "Students can measure with scaled instruments using formal units (AC9M4M01). They have not yet selected the most appropriate metric unit for a given measurement or combined units for greater accuracy.",
+    "progression_endpoint": "Students choose appropriate metric units for length, mass and capacity and use smaller units or combinations of units for greater accuracy.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Metric unit relationships",
+        "progression_checkpoint": "Students can state the relationship between common metric units and explain which is larger or smaller.",
+        "minimum_width": "State the relationship between at least two metric units for one attribute (e.g. 1 m = 100 cm = 1000 mm); order metric units from largest to smallest.",
+        "typical_width": "Identify and describe unit relationships for length (mm, cm, m, km), mass (g, kg, t) and capacity (mL, L); explain the 10/100/1000 relationship patterns.",
+        "wider": [
+          "Connect metric prefixes to their meanings (milli-, centi-, kilo-)",
+          "Explore non-SI units still in common use and compare to metric equivalents"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Unit relationship knowledge is foundational for appropriate unit selection and conversion. Students need fluency before they can make principled choices.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Unit relationship fluency is required by Node 2 — students who cannot reliably state metric relationships cannot justify why one unit is more appropriate than another for a given measurement.",
+        "success_criteria": [
+          "Student correctly states the relationship between two given metric units",
+          "Student orders metric units for a given attribute from smallest to largest"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Choosing appropriate units",
+        "progression_checkpoint": "Students can select the most appropriate metric unit for a given measurement task and justify their choice.",
+        "minimum_width": "Select an appropriate unit for a given measurement (e.g. mm for pencil width, km for road distance) and justify the choice.",
+        "typical_width": "Apply unit selection across length, mass and capacity contexts; compare the appropriateness of multiple units for a single measurement; explain the trade-off between precision and convenience.",
+        "wider": [
+          "Survey how different professions (nurses, builders, scientists) select units in practice",
+          "Investigate First Nations measurement practices and compare to metric system conventions"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Appropriate unit selection is context-dependent. Students who see only table-drill exercises over-apply one unit. Varied real contexts build the judgement to select rather than recall.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Professional contexts and cross-cultural measurement practices give advancing students rich comparative material.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student selects an appropriate unit for a given context",
+          "Student explains why the chosen unit is more appropriate than an alternative"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Combining units for accuracy",
+        "progression_checkpoint": "Students can use a combination of metric units to express a measurement more accurately than a single unit allows.",
+        "minimum_width": "Express a measurement using two units (e.g. 1 m 34 cm); explain why the combination is more accurate than either unit alone.",
+        "typical_width": "Measure and record length, mass and capacity using combinations of units; convert between combined and single-unit expressions; compare precision achievable with different unit combinations.",
+        "wider": [
+          "Use combinations in practical tasks: measuring body height in cm and mm",
+          "Investigate how digital measurement tools report combinations (e.g. GPS elevation in m and cm)"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student expresses a measurement as a combination of two units correctly",
+          "Student explains why a combination provides greater accuracy"
+        ]
+      }
+    ]
+  }
+}

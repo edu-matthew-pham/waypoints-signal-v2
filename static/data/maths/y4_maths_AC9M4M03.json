@@ -1,0 +1,82 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4M03",
+    "title": "Duration with am and pm",
+    "description": "Solve problems involving the duration of time including situations involving 'am' and 'pm' and conversions between units of time",
+    "strand": "Measurement and Space",
+    "mode": "A",
+    "prior_knowledge": "Students can use relationships between days, hours, minutes and seconds to estimate and compare duration (AC9M3M03) and read analog and digital clocks to the nearest minute (AC9M3M04). They have not yet worked with am/pm notation in duration problems or converted between units of time to solve problems.",
+    "progression_endpoint": "Students solve problems involving duration including am and pm notation and conversions between units of time.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "am and pm notation",
+        "progression_checkpoint": "Students can read and write times using am and pm notation and explain what each represents.",
+        "minimum_width": "Read and write at least three times in am and pm notation; explain what am and pm mean.",
+        "typical_width": "Read and write times in am and pm notation across the full day; recognise that noon and midnight are the transition points; represent a day's schedule using both am and pm times; explain which times fall in am and which in pm.",
+        "wider": [
+          "Investigate the history and purpose of the am/pm convention — comparing with 24-hour time and discussing when each is more useful (transport timetables, clocks, scheduling)",
+          "Connect am/pm notation to a world map context: exploring what time it is in different time zones while it is 10:00 am in Sydney"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can correctly read and write times using am and pm notation",
+          "Students can explain which part of the day am refers to and which pm refers to"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Duration calculations spanning am and pm",
+        "progression_checkpoint": "Students can calculate the duration between two times, including cases where the start and finish times span the am/pm boundary.",
+        "minimum_width": "Calculate the duration between two times that are both am or both pm; state the answer in hours and minutes.",
+        "typical_width": "Calculate duration between two times including cases that span the noon or midnight boundary; use number line or bridging strategies (e.g. count to the hour, then add remaining minutes); apply to real contexts (movie duration, bus journey, flight times).",
+        "wider": [
+          "Create a timetable for a real or imagined event (athletics carnival, sports day) involving activities across am and pm, ensuring durations are correctly calculated and times are consistent",
+          "Investigate flight duration problems including departure and arrival in different time zones — discussing why the quoted duration and the difference in times might not match"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Duration calculations spanning the noon boundary require students to bridge through 12:00 — a reasoning scaffold (how long to noon? how long after noon?) prevents common errors from subtracting times directly as if they were whole numbers.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who subtract times directly as whole numbers (e.g. 2:30 pm − 10:45 am = 8:15, missing the carry) produce systematically incorrect duration values. This error propagates directly into Node 3 conversion problems and any real-world timetabling context in this standard.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can calculate the duration between two times that span noon or midnight",
+          "Students can express duration in appropriate units (hours and minutes, or minutes and seconds)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Converting units of time",
+        "progression_checkpoint": "Students can convert between units of time and apply conversions to solve practical problems.",
+        "minimum_width": "Convert one duration between units (e.g. express 90 minutes as 1 hour and 30 minutes); use this to solve one practical problem.",
+        "typical_width": "Convert between seconds, minutes and hours; apply conversions to solve practical duration problems; create timetables requiring unit conversions; apply to real contexts (exercise routines, activity schedules).",
+        "wider": [
+          "Explore First Nations Australians' explanations of time through cultural accounts about cyclic phenomena — sun, moon and stars as time-keeping systems — and discuss how cyclical models of time differ from linear duration measurement",
+          "Design a full-day schedule for an event, converting between units throughout and checking all times are consistent with am/pm notation"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection between cyclical time (daily/lunar/seasonal cycles) and linear duration is a conceptually rich contrast that opens genuine discussion about different ways of experiencing and measuring time.",
+        "success_criteria": [
+          "Students can convert a duration between seconds, minutes and hours",
+          "Students can apply a unit conversion to solve a practical time problem"
+        ]
+      }
+    ]
+  }
+}

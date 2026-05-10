@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1A02",
+    "title": "Repeating patterns",
+    "description": "Recognise, continue and create repeating patterns with numbers, symbols, shapes and objects, identifying the repeating unit",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise, copy and continue repeating patterns (AC9MFA01). They have not yet identified the unit of repeat explicitly, represented patterns abstractly using letters or symbols, or recognised repeating structure in the natural number sequence.",
+    "progression_endpoint": "Students recognise, continue and create repeating patterns with numbers, symbols, shapes and objects, identifying the repeating unit.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identify the unit of repeat",
+        "progression_checkpoint": "Students can identify the unit of repeat in a given repeating pattern and explain how they know where the repeat starts and ends.",
+        "minimum_width": "Identify the unit of repeat in a given repeating pattern; explain how many elements are in the unit.",
+        "typical_width": "Identify the unit of repeat in a variety of repeating patterns (AB, ABC, AABBC types); explain why certain elements are part of the unit; describe the unit and how many times it repeats; distinguish the unit from the full pattern.",
+        "wider": [
+          "Investigate repeating patterns in First Nations Australians' craft practices — such as the making of shell or seed necklaces — identifying the unit of repeat in the colour, size and shape sequence.",
+          "Explore repeating patterns in everyday environments (textiles, tiling, music) and identify units of repeat of different lengths and structures."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only see AB patterns (two-element units) often fail to recognise longer or more complex units of repeat. Varied pattern structures — ABC, AAB, ABBC — help students focus on the structural property (the unit repeats) rather than pattern appearance.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Correctly identifying the unit of repeat is a prerequisite for Node 2 — students who cannot isolate the unit cannot abstract it into letter notation. A prototype-based concept of pattern (expecting only AB) causes systematic failure when encountering longer units.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the unit of repeat in a given pattern.",
+          "Explains how many elements are in the unit and where the unit begins and ends."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Abstract representation of the unit",
+        "progression_checkpoint": "Students can represent the unit of repeat using letters or symbols, and connect abstract representation to the physical pattern.",
+        "minimum_width": "Represent the unit of repeat in a given pattern using letters (e.g. SSCSC); connect the letters to the physical elements.",
+        "typical_width": "Represent units of repeat using letters, numbers or symbols across a variety of pattern types; explain the connection between the abstract representation and the physical pattern; use the representation to continue or predict the pattern; recognise that the same abstract pattern (e.g. ABCBA) can be realised in many physical forms.",
+        "wider": [
+          "Explore the abstract pattern structure of counting games from different cultures — including the repeating structure in First Nations oral and gestural number sequences — and represent the unit using letters.",
+          "Investigate how the same abstract pattern structure appears in different modalities (movement, sound, shape, colour) and create a pattern in one modality based on a pattern seen in another."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Abstraction from a physical pattern to a letter-code requires students to see the pattern elements as instances of types rather than specific objects. This is an early algebraic move — scaffolding with the explicit labelling step (this is A, this is B, so the unit is AB) is the critical teaching act.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The move to abstract representation is the foundation of algebraic thinking — recognising that the same structural pattern can be realised in many different materials. Students who grasp this readily are encountering the concept of a variable at its most concrete.",
+        "success_criteria": [
+          "Represents the unit of repeat using letters or symbols correctly.",
+          "Explains the connection between the letter code and the physical elements of the pattern."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Create and extend repeating patterns",
+        "progression_checkpoint": "Students can create their own repeating pattern, identify the unit, and extend the pattern or represent it in a different medium.",
+        "minimum_width": "Create one repeating pattern with a clearly identifiable unit of repeat; continue the pattern for at least two full repetitions.",
+        "typical_width": "Create repeating patterns with numbers, symbols, shapes and objects; identify the unit of repeat in created patterns; represent patterns created by others in abstract form; use dynamic geometric software or generative tools to create geometric repeating patterns; connect the 0–9 digit repeat in the natural number sequence to the repeating pattern concept.",
+        "wider": [
+          "Create a collaborative repeating pattern using dynamic software or a generative AI tool, articulating the instructions needed and testing whether the tool produces the expected result.",
+          "Investigate the digit repeat in the natural number sequence (0–9 cycling between decades) as an instance of a repeating pattern, and use this insight to predict two-digit numbers beyond 20."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating a pattern, identifying its unit, and representing it in another form requires students to synthesise identification, abstraction and generation — all three aspects of the descriptor working together."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates a repeating pattern with a unit that repeats at least twice.",
+          "Identifies and states the unit of repeat in the created pattern."
+        ]
+      }
+    ]
+  }
+}

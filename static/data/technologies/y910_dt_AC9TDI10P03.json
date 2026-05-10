@@ -1,0 +1,131 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P03",
+    "title": "Model and query entities and relationships",
+    "description": "model and query entities and their relationships using structured data",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can model and query the attributes of objects and events using structured data (AC9TDI8P03). They have experience with single-table databases and basic queries. They have not yet modelled multi-entity relationships, created relational data schemas, or written SQL queries with JOIN operations.",
+    "progression_endpoint": "Students model entities and their relationships using a relational data schema, build a structured database, and query it using SQL including SELECT, WHERE and simple JOIN/GROUP BY clauses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Modelling entities and their attributes",
+        "progression_checkpoint": "Students can identify entities, their attributes, and the relationships between them for a given domain.",
+        "minimum_width": "Identify at least two entities in a given scenario, list their attributes, and describe one relationship between them.",
+        "typical_width": "Model a multi-entity domain (e.g. movies, users and reviews) by identifying all entities, their attributes, and the relationships between them; represent the model as an entity-relationship diagram or equivalent.",
+        "wider": [
+          "Model a community data scenario (e.g. a local First Nations language archive with speakers, words and recordings) \u2014 identify entities, attributes and relationships specific to the community's needs",
+          "Compare how the same domain can be modelled differently depending on the questions the database needs to answer \u2014 explain the implications of each modelling choice"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Entity modelling requires systematic domain reasoning \u2014 what things exist? what are their properties? how do they relate? Students who approach this intuitively often omit entities or model relationships as attributes. Scaffolding the domain analysis step by step prevents schema design from inheriting modelling errors.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two distinct entities with their respective attributes",
+          "Correctly identifies at least one relationship between entities (including its type \u2014 one-to-many or many-to-many)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Entity and relationship modelling errors cascade directly into N2 schema design \u2014 a student who misidentifies entities or omits a relationship cannot design a correct schema, and all downstream database build and query work inherits the error."
+      },
+      {
+        "id": 2,
+        "label": "Designing a relational database schema",
+        "progression_checkpoint": "Students can design a relational database schema with multiple tables, primary keys and foreign keys that captures the entities and relationships in their model.",
+        "minimum_width": "Design at least two database tables with a primary key in each and a foreign key linking them; explain what the foreign key relationship represents.",
+        "typical_width": "Design a relational schema for a multi-entity domain; define primary keys, foreign keys and appropriate data types for each attribute; explain how the schema enforces the relationships between entities.",
+        "wider": [
+          "Design a schema that resolves a many-to-many relationship using a junction table \u2014 explain why this is necessary and how the junction table works",
+          "Evaluate an existing schema for redundancy and normalisation issues \u2014 identify what problems the original design causes and how to resolve them"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Schema design requires students to reason from the entity model to implementation decisions: which entity owns the foreign key? What data type suits each attribute? How do we represent a many-to-many relationship? Without a reasoning scaffold, students produce schemas by intuition and make structural errors that are hard to debug.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Schema has at least two tables each with a primary key",
+          "A foreign key correctly links the tables and reflects the modelled relationship",
+          "Data types are appropriate for each attribute"
+        ],
+        "hinge": true,
+        "hinge_reason": "Schema design errors (wrong primary/foreign keys, wrong data types, missing relationships) propagate directly into N3 \u2014 a student cannot build a correct database from an incorrect schema, and subsequent queries will fail or return wrong results."
+      },
+      {
+        "id": 3,
+        "label": "Building and populating the database",
+        "progression_checkpoint": "Students can build a database from a schema and populate it with data that reflects real-world entities and their relationships.",
+        "minimum_width": "Build at least two linked tables from a schema; insert enough data to test the relationships (at least one parent and two child records).",
+        "typical_width": "Build a database from a designed schema; populate it with sufficient data to support the queries needed to solve the problem; ensure that foreign key constraints are satisfied in the inserted data.",
+        "wider": [
+          "Populate a database using data imported from an existing source (CSV or spreadsheet) rather than manually \u2014 explain any transformation required to fit the schema",
+          "Deliberately insert data that violates foreign key constraints and observe how the database enforces referential integrity \u2014 explain what this prevents"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "SQL data definition and insertion requires syntactic precision. Students need sufficient practice with CREATE TABLE, INSERT INTO, and constraint specification before they can fluently build databases from schemas. Errors at this stage cascade into query failures that are harder to debug.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Database tables exist and are populated with data",
+          "Relationships between tables are represented correctly in the data (foreign key values match parent primary keys)"
+        ],
+        "hinge": true,
+        "hinge_reason": "A database that is incorrectly built or incompletely populated cannot be queried at N4 \u2014 SQL errors at N3 (missing tables, foreign key violations, wrong data types) prevent any query from executing correctly."
+      },
+      {
+        "id": 4,
+        "label": "Querying with SELECT, WHERE and JOIN",
+        "progression_checkpoint": "Students can write SQL queries using SELECT, WHERE and JOIN to retrieve and filter data across multiple tables.",
+        "minimum_width": "Write at least one SQL query that uses SELECT and WHERE to filter rows from a single table, and one query that uses JOIN to combine data from two tables.",
+        "typical_width": "Write queries using SELECT, WHERE, JOIN and GROUP BY/COUNT to retrieve, filter, aggregate and count data across multiple tables; explain what each clause does and why it is needed for the given question.",
+        "wider": [
+          "Write SQL queries to detect data integrity issues (e.g. confirming each user has only reviewed each movie once using GROUP BY and HAVING COUNT)",
+          "Use SQL to answer a real decision-support question (e.g. identifying which products have no reviews, or which users have the highest activity) and explain how the query logic maps to the question",
+          "Explore edge cases in JOIN behaviour \u2014 what happens with left joins when no match exists, and why this matters for certain queries"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "SQL queries are best learned through varied question types \u2014 each question type (filtering, aggregating, joining, detecting duplicates) requires a different clause combination. Students who only practise SELECT/WHERE often struggle when JOIN logic is needed, or don't know when GROUP BY is appropriate.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Data integrity queries and decision-support SQL are genuinely rich \u2014 they require students to translate a real question into query logic, which is the highest-value SQL skill. This is substantive analytical work beyond syntax practice.",
+        "success_criteria": [
+          "Correctly writes a SELECT/WHERE query that filters data by a specified condition",
+          "Correctly writes a JOIN query that combines data from two tables",
+          "Output matches what the question asks for"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

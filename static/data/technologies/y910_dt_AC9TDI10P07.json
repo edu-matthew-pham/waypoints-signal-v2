@@ -1,0 +1,100 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P07",
+    "title": "Design and prototype user experience",
+    "description": "design and prototype the user experience of a digital system",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can design the user experience of a digital system, including interface mock-ups and considering user needs (AC9TDI8P07). They have experience with digital design tools. They have not yet prototyped an interactive user experience with clickable flows, or considered all dimensions of UX including emotional, cultural and onboarding experiences.",
+    "progression_endpoint": "Students design and prototype the user experience of a digital system, including interactive prototypes with clickable flows and consideration of aesthetics, functionality, accessibility, and emotional or cultural user responses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "UX as more than interface \u2014 all dimensions of user experience",
+        "progression_checkpoint": "Students can describe what user experience means across its full scope \u2014 aesthetics, functionality, onboarding, emotional and cultural responses.",
+        "minimum_width": "Describe at least two distinct dimensions of user experience beyond visual layout (e.g. onboarding experience, emotional response, cultural response, task completion feeling).",
+        "typical_width": "Describe the full scope of user experience for a given digital system \u2014 including first-use experience, aesthetic and functional response, and emotional or cultural dimensions; explain how each dimension affects users differently.",
+        "wider": [
+          "Evaluate the first-use onboarding experience of an existing digital system \u2014 describe what assumptions it makes about users and where those assumptions fail",
+          "Examine how users from different cultural backgrounds experience the same digital system differently \u2014 identify design choices that create exclusion and what changes would improve inclusivity"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students typically think of UX as visual design. Multiple contrasting UX dimensions \u2014 onboarding, emotional response, cultural response \u2014 expand this to the full scope of the descriptor and are better learned through comparison of distinct contexts than through a definition.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two UX dimensions beyond visual layout",
+          "Describes how each dimension affects a user's experience of a specific system"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who reduce UX to visual design cannot complete N2 or N3 \u2014 designing for aesthetics + functionality + enjoyment simultaneously, and prototyping a full UX, require the broader conception of UX established at N1."
+      },
+      {
+        "id": 2,
+        "label": "Designing for aesthetics, functionality and enjoyment",
+        "progression_checkpoint": "Students can design a user experience that integrates aesthetic, functional and enjoyment considerations into a coherent interface.",
+        "minimum_width": "Design an interface that addresses both a functional requirement (what the system does) and an aesthetic choice (how it looks and feels); explain the intention behind each choice.",
+        "typical_width": "Design a user experience that integrates aesthetics, functionality and the feeling of enjoyment \u2014 explain how the design choices work together to create a satisfying user experience; identify trade-offs made between competing design goals.",
+        "wider": [
+          "Design documentation, branding and onboarding materials that extend the UX beyond the screen interactions \u2014 explain how consistent branding creates a coherent user experience",
+          "Analyse the UX of an existing digital system's getting-started experience \u2014 identify what creates a sense of ease or frustration and connect to specific design choices"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "UX design requires students to reason from intent (what experience?) to choices (which aesthetic and functional decisions serve that intent?) \u2014 without this reasoning, design choices are arbitrary. Scaffolding the design decision chain prevents the N3 prototype from being a collection of features rather than a designed experience.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Design addresses at least one functional requirement and at least one aesthetic consideration",
+          "Student can explain the intention behind specific design choices"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a coherent design intent from N2, the N3 prototype has no basis for its interaction and flow decisions \u2014 students prototype arbitrary features rather than a designed experience."
+      },
+      {
+        "id": 3,
+        "label": "Building an interactive prototype",
+        "progression_checkpoint": "Students can prototype a user experience with interactive elements that simulate clickable flows between screens or views.",
+        "minimum_width": "Create a prototype with at least two screens/views linked by a clickable interaction; demonstrate the flow to a peer.",
+        "typical_width": "Build a prototype of a simple digital system (e.g. mobile app) using a presentation tool or no-code prototyping tool; include multiple screens with clickable interactions that simulate the user's task completion flow; demonstrate the prototype with a test user and identify one improvement.",
+        "wider": [
+          "Create a high-fidelity prototype that includes edge states \u2014 empty states, error states, and success confirmations \u2014 not just the happy path",
+          "Conduct a structured usability test with a prototype \u2014 define tasks, observe users completing them, note where they struggle, and use findings to revise the design"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "A prototype integrates UX understanding (node 1), design intent (node 2) and technical prototype-building skills. Students who understand UX principles often struggle to translate them into an interactive artefact where all the flows must work coherently. The integration challenge is connecting design intent to every specific screen and interaction.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Usability testing with real users is a genuinely rich direction \u2014 it produces specific feedback that forces design revision, which is the core UX design skill. Edge states and error handling require students to think about UX beyond the primary flow.",
+        "success_criteria": [
+          "Prototype has at least two screens linked by a clickable interaction",
+          "A user can complete at least one task using the prototype without narration from the designer"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

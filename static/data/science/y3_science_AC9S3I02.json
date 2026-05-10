@@ -1,0 +1,96 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3I02",
+    "title": "Planning and Conducting",
+    "description": "use provided scaffolds to plan and conduct investigations to answer questions or test predictions, including identifying the elements of fair tests, and considering the safe use of materials and equipment",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can follow instructions to conduct investigations safely and make observations (AC9S1I02, 1-2 band). They have not yet identified the elements of a fair test or used a provided scaffold to plan an investigation, as opposed to following a given procedure.",
+    "progression_endpoint": "Students use provided scaffolds to plan investigations that test a prediction, identify and control the elements of a fair test (variable to change, variable to measure, variables to keep the same), and conduct investigations safely with appropriate materials and equipment.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Fair tests control variables",
+        "progression_checkpoint": "Students can identify the variable being changed, the variable being measured, and the variables that must be kept the same in a fair test, and explain why controlling variables makes a test fair.",
+        "minimum_width": "Students identify the independent, dependent and control variables in a given investigation scenario using the terms 'what I change', 'what I measure' and 'what I keep the same'.",
+        "typical_width": "Students explain why each variable must be treated as described — connecting the rationale for keeping variables the same to the reliability of the result — and identify what would make a test unfair.",
+        "wider": [
+          "Analyse an investigation scenario with a flaw (an uncontrolled variable) and explain specifically how the flaw affects the reliability of any conclusion drawn",
+          "Examine how simulations (food chain role-play, virtual habitat models) control variables in ways that real investigations cannot — what are the trade-offs",
+          "Compare fair test design for different investigation types from Y4 science contexts (friction, magnetic force, material properties) and discuss how the variables differ across contexts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Variable identification is the prerequisite for completing an investigation scaffold (Node 2). Students who cannot identify what to change, measure and keep the same cannot populate the planning scaffold meaningfully — they produce a scaffold with blanks or incorrect entries that make the planned investigation unworkable.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The variable control logic is non-obvious. Students understand 'only change one thing' as a rule without understanding why — they do not connect uncontrolled variables to unreliable conclusions. Making the reasoning chain visible (if we change two things at once → we cannot tell which one caused the result → our conclusion is unreliable) is the scaffold that allows students to identify fair test elements purposefully rather than mechanically.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the variable being changed, the variable being measured, and at least two variables kept the same in a given investigation",
+          "Explains why keeping variables the same makes the test fair (not just states the rule)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using a scaffold to plan an investigation",
+        "progression_checkpoint": "Students can use a provided investigation scaffold to plan a fair test that answers a given question, including identifying variables, selecting materials and outlining a procedure.",
+        "minimum_width": "Students complete a provided investigation scaffold for a given question, correctly identifying variables and describing the steps of the procedure.",
+        "typical_width": "Students use a provided scaffold to plan a fair test for a question they have generated, evaluate whether their plan addresses all elements of a fair test, and identify any gaps.",
+        "wider": [
+          "Plan and build a prototype to test a prediction (e.g. toy or game design predicting force interactions) using a provided scaffold — connecting design thinking to fair test planning",
+          "Compare two student-generated plans for the same question and evaluate which is the fairer test, identifying specific improvements",
+          "Explore how professional investigation protocols in science (lab procedures, field survey protocols) serve the same function as classroom scaffolds — standardising what is changed, measured and controlled"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to transfer fair test planning mechanically to new investigation contexts — repeating a familiar procedure rather than adapting the scaffold to the new question. Encountering the scaffold across varied investigation types (friction, materials, food chains, magnetic force) builds flexible application of the planning framework."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Completes a provided scaffold with all required elements: question, prediction, variable to change, variable to measure, variables to keep the same, and procedure steps",
+          "Procedure steps are described clearly enough that another student could follow them"
+        ],
+        "related_standards": ["AC9S3I01", "AC9S3I03"]
+      },
+      {
+        "id": 3,
+        "label": "Safe and appropriate use of materials and equipment",
+        "progression_checkpoint": "Students can identify safety considerations relevant to a planned investigation and demonstrate safe behaviour when using materials and equipment, including field site considerations.",
+        "minimum_width": "Students identify at least two safety considerations relevant to a given investigation and explain the safe procedure for each.",
+        "typical_width": "Students apply safety rules appropriately in practice — wearing PPE correctly, using equipment according to guidelines, and identifying and managing risks in a field site or biological specimen investigation.",
+        "wider": [
+          "Compare safety requirements across different investigation contexts — classroom (chemical or physical), field (biological specimens, outdoor sites) — and explain why contexts require different safety measures",
+          "Research how professional scientists manage safety in their investigation contexts — lab safety protocols, field site risk assessments",
+          "Limited width — safety procedure following is a compliance and precision skill. Extensions exist (risk assessment design, professional safety protocols) but these go beyond the Y4 band. The key demand at this year level is applying given safety rules correctly, not designing safety protocols."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Safe equipment use and PPE compliance require consistent accurate practice, not broader conceptual understanding. Students need repeated application of safety procedures across different investigations to build reliable safe behaviour. This is a precision-required procedural skill where practice is the primary lever."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two safety considerations relevant to a specific investigation",
+          "Demonstrates correct safety behaviour when conducting an investigation (PPE use, equipment handling)"
+        ]
+      }
+    ]
+  }
+}

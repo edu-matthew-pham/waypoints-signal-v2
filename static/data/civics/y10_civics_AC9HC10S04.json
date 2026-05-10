@@ -1,0 +1,77 @@
+{
+  "year_level": "10",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC10S04",
+    "title": "Evaluate civic participation methods and outcomes",
+    "description": "evaluate the methods or strategies and outcomes related to making decisions about civic participation",
+    "strand": "Civics Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have evaluated the methods or strategies related to making decisions about civic participation at Year 9 (AC9HC9S04). At Year 10 the descriptor adds 'and outcomes' — students are now expected to evaluate not just the method but what the method achieved.",
+    "progression_endpoint": "Students evaluate both the methods or strategies used in civic participation and the outcomes achieved, drawing conclusions about effectiveness and accountability.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying civic participation methods and strategies",
+        "progression_checkpoint": "Students can identify the methods or strategies used by a government, NGO or campaign group to address an issue at regional or global level or to ensure accountability to international obligations.",
+        "minimum_width": "Identify and describe at least two methods or strategies used by a civic actor to address a specific issue, with a brief description of what each involves.",
+        "typical_width": "Examine the methods or strategies used by the Australian Government, a non-government organisation, or a campaigning or pressure group to address an issue at a regional or global level or to ensure accountability to Australia's international obligations — identifying the full range of strategies deployed.",
+        "wider": [
+          "Compare the methods used by a government actor and a non-government actor addressing the same issue and analyse why their strategic choices differ",
+          "Investigate how a specific pressure group or advocacy campaign has adapted its methods over time in response to changing political conditions",
+          "Research how international accountability mechanisms (e.g. UN treaty review processes) are used as civic participation strategies by NGOs and affected communities"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who have a vague understanding of what methods were used cannot evaluate the relationship between method and outcome — knowing that a campaign 'raised awareness' is insufficient for evaluating effectiveness.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students benefit from seeing a variety of civic participation methods (lobbying, public campaigns, litigation, international reporting, grassroots organising) before selecting one to evaluate in depth — a thin repertoire produces thin evaluation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two methods or strategies used by a civic actor",
+          "Describes what each method involves with sufficient detail to enable evaluation",
+          "Connects the method to the specific issue or obligation being addressed"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating methods and outcomes",
+        "progression_checkpoint": "Students can evaluate the methods or strategies and outcomes related to civic participation, making a supported judgement about effectiveness and drawing conclusions about accountability.",
+        "minimum_width": "Evaluate at least one civic participation method, making a supported judgement about its effectiveness by connecting the method to a specific measurable or describable outcome.",
+        "typical_width": "Evaluate the methods or strategies and outcomes related to civic participation — assessing whether the methods achieved their aims, how effectively they ensured accountability (to international obligations or to affected communities), and what the outcomes reveal about the strengths and limitations of civic participation.",
+        "wider": [
+          "Compare the effectiveness of different civic participation strategies (e.g. litigation vs lobbying vs public campaigning) on the same issue and evaluate which strategy achieved more and why",
+          "Evaluate whether a government's or NGO's civic participation methods adequately addressed the needs or rights of First Nations Australians or other affected communities",
+          "Investigate a civic participation campaign that failed to achieve its stated outcomes and analyse what factors contributed to the failure"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluating civic participation requires students to distinguish between intent and outcome, and between process quality and result quality. Scaffold this distinction explicitly — 'Did the method work?' requires a different kind of evidence than 'Was the method well-designed?'"
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The campaign failure direction is genuinely different from a success case — analysing failure requires students to identify counterfactual conditions rather than just connecting method to positive outcome.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The failure case direction demands a qualitatively different kind of evaluative reasoning — identifying what conditions would have been needed for success, rather than tracing a successful causal chain. This builds more transferable evaluative capability.",
+        "success_criteria": [
+          "Evaluates at least one civic participation method against its stated or implied aims",
+          "Connects method to a specific outcome with supporting evidence",
+          "Makes a supported judgement about effectiveness, acknowledging limitations"
+        ],
+        "related_standards": ["AC9HC10S03", "AC9HC10K02"]
+      }
+    ]
+  }
+}

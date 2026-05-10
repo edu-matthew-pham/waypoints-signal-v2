@@ -1,0 +1,92 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1N03",
+    "title": "Quantify sets by skip counting",
+    "description": "Quantify sets of objects, to at least 120, by partitioning collections into equal groups using number knowledge and skip counting",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can quantify and compare collections to at least 20 using counting (AC9MFN03). They can recognise and continue skip counting sequences by twos, fives and tens (AC9M1A01). They have not yet applied skip counting systematically to count large collections beyond 20 by grouping into equal groups.",
+    "progression_endpoint": "Students quantify sets of objects, to at least 120, by partitioning collections into equal groups using number knowledge and skip counting.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Group into equal sets",
+        "progression_checkpoint": "Students can partition a collection of objects into equal groups of a chosen size, explaining why grouping makes counting more efficient.",
+        "minimum_width": "Group a collection of 20–40 objects into equal groups of 5 or 10; explain why grouping is helpful.",
+        "typical_width": "Group collections of various sizes into equal groups of 2, 5 or 10; compare different grouping sizes for the same collection; explain the efficiency gained by grouping rather than counting one by one.",
+        "wider": [
+          "Investigate how grouping strategies are used in practical contexts — packaging, stacking, bundling — and discuss what group size is most efficient for different purposes.",
+          "Explore grouping practices used historically and in First Nations contexts, comparing the choice of group size to the decimal (base-10) grouping used in the standard system."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Partitions a collection into equal groups of a stated size with no objects left over from the grouping phase.",
+          "Explains why grouping makes counting more efficient than counting one by one."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Skip count the groups",
+        "progression_checkpoint": "Students can skip count a grouped collection to find the total and connect the count to the digit representation of the total.",
+        "minimum_width": "Skip count by 5s or 10s to find the total of a grouped collection of at least 50 objects; state the total and connect it to the count of groups.",
+        "typical_width": "Skip count by 2s, 5s or 10s over grouped collections to find totals to at least 120; include any ungrouped remainder in the count; record the total; connect the number of groups and the group size to the resulting total.",
+        "wider": [
+          "Apply skip counting to count collections of Australian coins by denomination (5c, 10c, $1, $2), connecting skip counting to practical money contexts.",
+          "Count the same large collection using different group sizes, comparing the number of groups produced and the skip counting sequence used, and discussing which is most efficient."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Skip counting fluency for groups of 5 and 10 requires practice — the sequence must be automatic enough to apply reliably to counting tasks. Students who lose track mid-sequence need more practice with the sequence itself before applying it to collections.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Skip counting fluency is required for Node 3 — students who lose track of the count mid-sequence cannot reliably produce the total needed to connect groups to digit notation. Errors here prevent the place-value connection in Node 3 from working.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Skip counts correctly across a grouped collection to state the total.",
+          "Includes any remaining ungrouped objects in the final count."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Connect groups to digits",
+        "progression_checkpoint": "Students can connect the number of tens groups and ones remainder in a counted collection to the digits in the written numeral.",
+        "minimum_width": "After counting a collection by tens, state the number of tens groups and any remaining ones; connect these to the digits in the written numeral.",
+        "typical_width": "Count collections of at least 120 objects by grouping in tens and ones; record the total; explicitly connect the number of tens to the tens digit and the number of ones to the ones digit in the numeral; explain the connection in words.",
+        "wider": [
+          "Count a very large collection (200+ objects) by grouping into hundreds, tens and ones, introducing the idea of three-digit numbers as a natural extension of the grouping strategy.",
+          "Record the counting process using a simple place-value chart, reinforcing the connection between the physical groups and the numeral structure."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only count by tens with pre-grouped materials (e.g. MAB blocks) sometimes fail to generalise to ungrouped real-world collections. Counting genuinely ungrouped collections (pencils, seeds, tiles) across different contexts strengthens the connection between the grouping act and the numeral produced.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "This node is where grouping, skip counting, and place-value numeral reading come together as a coordinated skill. The three components all need to operate simultaneously — this is the integration point for the descriptor."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Connecting physical groupings to digit notation is the core place-value insight. Students who see this connection across multiple collection types and recording formats build robust number sense that underpins all subsequent number work.",
+        "success_criteria": [
+          "After counting a collection by grouping in tens, states the number of tens and ones correctly.",
+          "Writes the numeral for the total and explains how the tens digit and ones digit relate to the physical groups."
+        ]
+      }
+    ]
+  }
+}

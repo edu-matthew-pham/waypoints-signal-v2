@@ -1,0 +1,79 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9ST01",
+    "title": "Analysing Survey Reports",
+    "description": "analyse reports of surveys in digital media and elsewhere for information on how data was obtained to estimate population means and medians",
+    "strand": "Statistics",
+    "mode": "A",
+    "prior_knowledge": "Students can compare distributions from random samples and recognise the effect of sample size on variation (AC9M8ST03). They have not yet critically analysed survey reports for methodology, or evaluated whether reported means and medians are reliable estimates of population parameters.",
+    "progression_endpoint": "Students analyse survey reports to evaluate how data was obtained and assess the reliability of claims about population means and medians.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How data is obtained \u2014 sampling methods in survey reports",
+        "progression_checkpoint": "Students can identify from a survey report how data was obtained and explain how the sampling method could affect the representativeness of the sample.",
+        "minimum_width": "Read one survey report and identify the sampling method used; explain one way the method could introduce bias or limit representativeness.",
+        "typical_width": "Analyse survey reports from media sources; identify sampling methods (random, convenience, voluntary response); explain how each method affects representativeness; link sampling method to the reliability of any statistical claims about the population.",
+        "wider": [
+          "Analyse reports on public opinion surveys about environmental issues (e.g. land clearing, wind farms) \u2014 evaluate the sampling method and discuss the reasonableness of inferences",
+          "Investigate how technological and social changes (e.g. decreased landline usage, caller ID avoidance) create new sampling biases in phone surveys",
+          "Explore how NLP tools are used to analyse large volumes of survey data and discuss limitations of automated analysis"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly evaluate surveys only on surface features (large sample = trustworthy) without examining how the sample was obtained. Working across multiple report types \u2014 polls, media surveys, research reports \u2014 builds the discrimination between sample size and sampling method quality.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the sampling method from the report description",
+          "States at least one way the sampling method could limit representativeness or introduce bias",
+          "Connects the sampling method to the reliability of the reported statistic"
+        ],
+        "related_standards": [
+          "AC9M8ST03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who only evaluate sample size (not sampling method) cannot assess representativeness in N2 and cannot critically analyse reports. The method-vs-size distinction is the conceptual foundation for all statistical evaluation in this descriptor."
+      },
+      {
+        "id": 2,
+        "label": "Evaluating statistical claims \u2014 means and medians",
+        "progression_checkpoint": "Students can evaluate a claim about a population mean or median by linking it back to how the data was collected and what the data displays show.",
+        "minimum_width": "Identify one claim about a population mean or median in a survey report; explain whether the sampling method and sample size support or undermine that claim.",
+        "typical_width": "Evaluate statistical claims in survey reports by linking claims to displays, reported statistics and sampling information; assess whether the reported mean or median is a reasonable estimate of the population parameter given how the data was obtained.",
+        "wider": [
+          "Analyse reports from the ABS or other government sources on Australian population data and compare to similar data from other countries (e.g. age distributions in Australia, Cambodia, Tonga) \u2014 evaluate whether comparisons are valid given how the data was collected",
+          "Investigate statistical reports on Australia's trade with Asia-region countries \u2014 evaluate whether the reported statistics support the claims made",
+          "Explore how different ways of computing an average (mean vs median) can produce different impressions from the same data set"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only evaluate reports from one domain (e.g. political polls) apply a narrow template and fail to transfer evaluation skills to scientific, environmental or health reports. Working across diverse report types \u2014 different fields, different claim styles, different audiences \u2014 builds flexible critical reading that generalises.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating claims about means and medians from real survey reports connects statistical reasoning to media literacy \u2014 a genuinely valuable cross-disciplinary skill. Students who engage with authentic reports from multiple domains develop transferable critical evaluation skills.",
+        "success_criteria": [
+          "Links a specific statistical claim in a report to the sampling method and data collection process",
+          "Assesses whether the claim is adequately supported by the evidence described",
+          "Identifies at least one reason why the reported mean or median might not accurately represent the full population"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

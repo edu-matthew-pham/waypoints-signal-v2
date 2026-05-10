@@ -1,0 +1,101 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6M02",
+    "title": "Area of rectangles",
+    "description": "Establish the formula for the area of a rectangle and use it to solve practical problems",
+    "strand": "measurement",
+    "mode": "A",
+    "prior_knowledge": "Students can solve practical problems involving the perimeter and area of regular and irregular shapes (AC9M5M02). They can measure area using square units. They have not yet formally established the area formula for a rectangle through reasoning, nor applied it systematically to practical problems with decimal dimensions.",
+    "progression_endpoint": "Students can establish the formula for the area of a rectangle through reasoning and use it to solve practical problems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Establishing the area formula",
+        "progression_checkpoint": "Students can explain why the area of a rectangle is length \u00d7 width by connecting the formula to the array structure of square unit counting.",
+        "minimum_width": "Draw a rectangle on grid paper; count square units; show that the total equals the number of rows \u00d7 the number in each row; generalise to area = length \u00d7 width.",
+        "typical_width": "Establish the formula by examining rectangles with different dimensions; verify that counting squares and applying the formula give the same result; articulate why the formula works using array reasoning; apply to rectangles where dimensions are whole numbers.",
+        "wider": [
+          "Investigate whether the formula still works when dimensions are decimals or fractions \u2014 test with a 2.5 \u00d7 4 rectangle by partitioning into whole and fractional parts",
+          "Explore the relationship between the area formula for rectangles and the area of right-angled triangles \u2014 why is the triangle half the rectangle?"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often apply the formula correctly without understanding why it works. Establishing the formula through the array reasoning chain (rows \u00d7 columns = total squares = area) is essential \u2014 it is the basis for understanding area formulas for other shapes in subsequent years.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The establishment of area formula through reasoning \u2014 rather than just application \u2014 opens rich territory: decimal dimensions, relationship to triangles, compound shapes. This is pedagogically valuable beyond what is strictly needed for the standard.",
+        "hinge": true,
+        "hinge_reason": "The array-based justification of area = length \u00d7 width is the conceptual foundation for Node 2 and Node 3. Students who apply the formula without understanding the array reasoning cannot extend confidently to decimal dimensions or decompose compound shapes into rectangles.",
+        "success_criteria": [
+          "Student explains why area = length \u00d7 width using an array or row-counting argument.",
+          "Student applies the formula to find the area of a rectangle with given dimensions."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Area with decimal and fractional dimensions",
+        "progression_checkpoint": "Students can apply the area formula to rectangles with decimal dimensions and interpret the result in appropriate square units.",
+        "minimum_width": "Calculate the area of at least two rectangles with dimensions given in decimal form (e.g. 3.5 m \u00d7 2.4 m); state the units of the area and explain why they are square units.",
+        "typical_width": "Apply the area formula to rectangles with decimal and fractional dimensions across a range of measurement contexts (floor area, garden beds, tiling); convert dimensions to consistent units before calculating; interpret area results in appropriate units.",
+        "wider": [
+          "Investigate tiling problems: given an area and one dimension, find the other; determine how many tiles of given dimensions are needed for a floor area",
+          "Explore area problems involving unit conversion \u2014 e.g. dimensions in cm but area needed in m\u00b2"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Area calculations with decimal dimensions combine the area formula with decimal multiplication. Accuracy requires fluency with both. Unit errors (cm\u00b2 vs m\u00b2) are common and persistent without targeted practice.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Unit accuracy in area calculations (cm\u00b2 vs m\u00b2) is a prerequisite for Node 3 practical problems. Students who produce unit errors in straightforward calculations will carry them into compound shape and real-world problems where errors are harder to detect.",
+        "success_criteria": [
+          "Student correctly calculates the area of a rectangle with decimal dimensions and states the appropriate unit.",
+          "Student identifies and corrects a unit error in a given area calculation."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Area in practical problem contexts",
+        "progression_checkpoint": "Students can formulate and solve practical problems requiring the area of a rectangle, including problems requiring decomposition of irregular shapes into rectangles.",
+        "minimum_width": "Solve at least two practical problems requiring area of a rectangle; show working including dimensions, formula application, and units in the answer.",
+        "typical_width": "Solve practical area problems including: finding area from given dimensions, finding a missing dimension given area, decomposing an L-shaped or compound region into rectangles; work with contexts including flooring, gardening, and tiling.",
+        "wider": [
+          "Investigate First Nations Australians' use of area and spatial reasoning in design \u2014 e.g. traditional patterns, weaving, or land management \u2014 and connect geometric principles to these contexts",
+          "Design a room or garden layout with specific area requirements and multiple constraints, calculating areas and comparing options"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Practical area problems require students to identify the shape type, select dimensions, apply the formula correctly with units, and interpret the result in context. Decomposing compound shapes adds another layer of coordination. The integration of these moves is the practical problem-solving goal.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Practical area problems span architecture, environmental design, fabric and craft, agriculture, and spatial planning. The range of authentic contexts is genuinely broad and motivating for students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student solves a practical area problem showing dimensions, formula, calculation, and units.",
+          "Student correctly finds a missing dimension when area and one side are given."
+        ]
+      }
+    ]
+  }
+}

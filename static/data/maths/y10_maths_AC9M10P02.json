@@ -1,0 +1,98 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10P02",
+    "title": "Simulate conditional probability",
+    "strand": "Probability",
+    "mode": "B",
+    "description": "design and conduct repeated chance experiments and simulations using digital tools to model conditional probability and interpret results",
+    "prior_knowledge": "Students can describe and interpret situations involving conditional probability using language, tables and diagrams (AC9M10P01). They have not yet designed and conducted simulations specifically for conditional probability or dependent event scenarios using digital tools.",
+    "progression_endpoint": "Students design and conduct repeated chance experiments and simulations using digital tools to model conditional probability situations, and interpret simulated frequencies in relation to theoretical probabilities.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Designing simulations for conditional probability",
+        "progression_checkpoint": "Students can design a simulation to model a conditional probability situation, specifying how the conditioning will be implemented in the digital tool.",
+        "minimum_width": "Describe the steps needed to simulate a conditional probability scenario (e.g. drawing without replacement); implement the simulation using a digital tool.",
+        "typical_width": "Design simulations for dependent event scenarios (with and without replacement); implement using digital tools; identify how the conditioning condition is built into the simulation design; distinguish simulation design for dependent vs independent events.",
+        "wider": [
+          "Investigate simulations for counter-intuitive problems (Monty Hall three-door problem, birthday problem) \u2014 design the simulation, run it, and use the results to explain why the intuitive answer is wrong",
+          "Design a simulation for a sampling-with-replacement vs without-replacement scenario at different sample sizes, investigating at what population-to-sample ratio the difference becomes negligible"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Designing a simulation for conditional probability requires explicit reasoning about how dependency is encoded in the simulation steps. Students who design simulations mechanically without thinking through the dependency structure produce invalid results.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Counter-intuitive probability simulations (Monty Hall, birthday problem) are genuinely engaging and rich \u2014 they force students to confront the limits of intuition and show how simulation can resolve apparent paradoxes. This is high-quality mathematical reasoning for advancing students.",
+        "success_criteria": [
+          "Student describes a simulation design that correctly encodes the conditional structure of the problem",
+          "Student implements the simulation in a digital tool and runs it for a sufficient number of trials"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Interpreting simulated results",
+        "progression_checkpoint": "Students can compare simulated frequencies to theoretical probabilities and explain why they differ for small samples but converge for large samples.",
+        "minimum_width": "Compare the simulated frequency from a chance experiment to the theoretical probability; explain why they are not identical.",
+        "typical_width": "Compare simulated and theoretical probabilities across multiple simulation runs and sample sizes; identify that larger samples produce closer approximations; quantify the convergence using relative frequency; explain why simulation results are not exact.",
+        "wider": [
+          "Investigate how simulation is used to predict infection rates for flu or virus spread \u2014 run the simulation with different infection probability assumptions and discuss what the range of outputs means for public health planning",
+          "Explore how probability simulations are used in real-world decision-making (supply chain management, insurance pricing) and identify what assumptions are built into each simulation"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Interpreting simulation results varies across context \u2014 comparing simulated and theoretical for a fair coin is different from interpreting disease spread simulations where theoretical probability is unknown. Multiple contexts build flexible interpretation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly compares a simulated frequency to the theoretical probability and describes the direction and size of the difference",
+          "Student explains that increasing sample size reduces the gap between simulated and theoretical probabilities"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Connecting simulation to real-world decision-making",
+        "progression_checkpoint": "Students can identify a real-world situation where probability simulation supports decision-making and explain what the simulation contributes that theoretical analysis cannot.",
+        "minimum_width": "Describe one real situation where simulation is used for decision-making; explain what problem the simulation is solving.",
+        "typical_width": "Identify at least two real contexts where probability simulation is used (supply/demand, insurance, disease modelling, queueing); explain what information the simulation provides; discuss what assumptions are built into the simulation and how those assumptions affect its reliability.",
+        "wider": [
+          "Investigate the use of Monte Carlo simulation in finance or engineering and discuss how repeated random sampling builds an approximate probability distribution for an otherwise analytically intractable problem",
+          "Analyse a disease spread simulation (e.g. flu or virus infection rate modelling) and discuss the ethical responsibilities involved in communicating probabilistic predictions to the public"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Connecting simulation to real-world decision-making integrates simulation design (node 1), result interpretation (node 2), and contextual understanding of why simulation is used. It is the node where probability simulation becomes a reasoning tool rather than a procedural exercise."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student describes a real decision-making context where simulation is used and explains what the simulation provides",
+          "Student identifies at least one assumption in the simulation and explains how changing it would affect the result"
+        ],
+        "related_standards": [
+          "AC9M10P01",
+          "AC9M10ST05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

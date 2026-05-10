@@ -1,0 +1,92 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9K16",
+    "title": "Different Experiences During the Industrial Revolution",
+    "description": "the different perspectives and experiences of men, women and children during the Industrial Revolution, and their changing way of life",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students have examined the causes and effects of the Industrial Revolution (AC9HH9K13) and the population and settlement changes of the period (AC9HH9K015). They have a structural understanding of what industrialisation involved. This descriptor asks them to examine the human experience of those changes — examining how specific groups lived through industrialisation differently depending on class, gender, and age.",
+    "progression_endpoint": "Students examine the different perspectives and experiences of men, women and children during the Industrial Revolution, and explain their changing ways of life.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Impact of industrial technologies on daily life",
+        "progression_checkpoint": "Students can compare and contrast the impact of steam, gas and electricity on people's way of life during the Industrial Revolution, including differences across social classes.",
+        "minimum_width": "Describe how one industrial technology (steam, gas, or electricity) changed the daily life of people during the Industrial Revolution.",
+        "typical_width": "Compare and contrast the impact of steam, gas and electricity on people's lives during the Industrial Revolution; examine differences in living conditions for rich and poor; describe improvements in living standards for the growing middle class; describe the persistence of poor conditions for the industrial working class; examine changes in working conditions for agricultural workers displaced to factories.",
+        "wider": [
+          "Examine the development of gas lighting in cities and its social effects — examining how artificial light extended working hours and transformed urban social life in ways that benefited different classes differently",
+          "Compare the living conditions of factory owners in their new suburban villas with those of mill workers in back-to-back housing in the same city — using contemporary sources such as Charles Booth's poverty maps or Parliamentary reports"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Class-differentiated analysis is essential here — the same technology (steam, gas, electricity) produced very different experiences depending on where you sat in the economic hierarchy."
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Compares the impact of at least one industrial technology on the lives of people from at least two different social positions",
+          "Identifies at least one way industrial technology improved living conditions and one way it worsened them for specific groups"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Working conditions — adults and children",
+        "progression_checkpoint": "Students can investigate the changes in working conditions during the Industrial Revolution, including long hours, low pay, dangerous conditions, and the use of child labour.",
+        "minimum_width": "Describe at least two features of working conditions in industrial factories and explain why they developed.",
+        "typical_width": "Investigate the changes in working conditions including: long hours (12–16 hour days), low and irregular pay, physically dangerous conditions, child labour as a cheap source of labour; describe the specific conditions faced by children in factories and mines; examine primary sources (Parliamentary reports, reformers' accounts) documenting these conditions.",
+        "wider": [
+          "Examine specific Parliamentary reports on child labour (e.g. the Sadler Committee Report, 1832) as primary sources — analysing the testimony of child workers and factory owners to assess how conditions were documented and contested",
+          "Compare working conditions in a textile mill with those in a coal mine — examining how different industrial contexts produced different types of risk and exploitation",
+          "Investigate the role of women in industrial work — examining how their lower wages than men were justified, what work they did, and how industrial labour both expanded and constrained women's economic roles"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding working conditions — especially for the most vulnerable (children, women, unskilled workers) — is essential for understanding why reform movements (Node 3) emerged and what they were responding to. Without a concrete picture of conditions, trade unions and Factory Acts seem arbitrary rather than responsive.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Examining conditions across adult, female, and child workers — and across different industries — prevents a generalised picture and grounds students in the specific circumstances that drove reform.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Working conditions during the Industrial Revolution are documented in rich primary sources — Parliamentary inquiries, reformers' accounts, contemporary illustration — that make the conditions tangible and support genuine source-based historical thinking. The child labour case in particular is historically significant and connects to contemporary child rights debates.",
+        "success_criteria": [
+          "Describes at least three specific features of working conditions in industrial factories or mines",
+          "Explains why child labour was widespread and what specific conditions children experienced"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Growth of trade unions",
+        "progression_checkpoint": "Students can identify the growth of trade unions as a response to the impacts of the Industrial Revolution on the working class and explain how collective action changed the relationship between workers and employers.",
+        "minimum_width": "Describe what trade unions were and explain why workers formed them during the Industrial Revolution.",
+        "typical_width": "Identify the growth of trade unions as a response to poor working conditions and employer exploitation; explain how collective bargaining gave workers leverage they did not have individually; describe key milestones in trade union development; connect trade union growth to the broader reform movement and the Factory Acts.",
+        "wider": [
+          "Examine the Combination Acts (1799, 1800) — which banned trade unions — and their eventual repeal — tracing how workers' collective action was first suppressed and then legally permitted",
+          "Investigate the Tolpuddle Martyrs (1834) as a case study in how early trade unionism was criminalised and how the popular response to their transportation changed public attitudes toward workers' rights",
+          "Examine the relationship between trade unionism and early socialist ideas — exploring how collective workers' action contributed to the ideological development of socialism as an alternative to capitalism"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Trade unions integrate the experiences described in Nodes 1–2 with collective political response — students should see union formation as a rational response to specific documented conditions, not as an abstract political phenomenon."
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Explains why trade unions grew during the Industrial Revolution, connected to specific working conditions",
+          "Describes how collective organisation changed the relationship between workers and employers"
+        ]
+      }
+    ]
+  }
+}

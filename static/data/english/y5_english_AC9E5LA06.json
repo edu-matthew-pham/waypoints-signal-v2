@@ -1,0 +1,93 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LA06",
+    "title": "Expanded noun groups",
+    "description": "Understand how noun groups can be expanded in a variety of ways to provide a fuller description of a person, place, thing or idea",
+    "strand": "Language",
+    "mode": "A",
+    "prior_knowledge": "Students can understand how adverb groups/phrases and prepositional phrases work in different ways to provide circumstantial detail (AC9E4LA08). They have not yet examined how multiple modifiers are combined within a noun group to build a precise, layered description.",
+    "progression_endpoint": "Students explain how noun groups are expanded by combining determiners, adjectives, classifiers and other modifiers, and identify how noun group expansion creates precision and richness of description across different text types.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Components of a noun group",
+        "progression_checkpoint": "Students can identify the head noun and the elements that modify it within a noun group, including determiners, adjectives and classifiers.",
+        "minimum_width": "Identify the head noun and at least two types of modifying elements in several noun groups from sample texts.",
+        "typical_width": "Map the components of noun groups from texts across different genres, identifying determiner, adjective, and classifier elements and explaining what descriptive work each component does.",
+        "wider": [
+          "Compare noun group complexity across different text types — narrative, information report, argument — and discuss how text type shapes the typical complexity of noun groups",
+          "Limited width — the internal structure of noun groups is a grammatical system that does not vary meaningfully across contexts; extension involves analysing longer or more complex noun groups rather than encountering genuinely different contexts."
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to combine multiple modifier types in a specific order, and Node 3 requires them to explain how those combinations create effect. Students who confuse adjectives and classifiers, or cannot distinguish modifier types, will make systematic errors when combining modifiers and will be unable to explain which component is creating which effect.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students commonly conflate adjectives and classifiers, or miss that a preceding noun can function as a classifier (e.g. 'cattle dogs'). Consolidation through varied examples builds reliable identification of noun group components before expansion is examined.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the head noun and at least two modifier types in a given noun group.",
+          "Does not confuse adjective with classifier — can explain the difference (adjective expresses quality; classifier indicates type or sub-category)."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Combining modifiers for precision",
+        "progression_checkpoint": "Students can explain how multiple modifiers are combined in a specific order within a noun group to provide a fuller, more precise description.",
+        "minimum_width": "Construct or identify noun groups that combine at least three modifier types and explain how the combination provides more precise description than any single modifier would.",
+        "typical_width": "Analyse and construct expanded noun groups from model texts and guided composition, explaining how the layering of modifiers — determiners, number, adjectives (opinion, size, age, colour), classifiers, head noun — adds successive layers of precision. Discuss the conventional order of adjective types.",
+        "wider": [
+          "Examine how noun group expansion is used to create vivid description in narrative compared to precise technical description in information texts — discussing how the same grammatical tool serves different purposes",
+          "Collect noun groups from texts by First Nations Australian authors and discuss how the modifiers chosen reflect the author's perspective and the world being described"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to explain how noun group expansion choices create specific effects — precision, vividness, technical authority. Students who have not yet grasped how modifier combination produces layered precision cannot analyse what specific expansion choices achieve or connect grammatical decisions to communicative purpose.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often pile up adjectives without understanding the conventional ordering constraints or the distinction between precision and cumulative weight. Encountering expanded noun groups across narrative and informational contexts helps students see that expansion serves different precision goals in different genres — vividness vs. technical classification.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Noun group expansion — how adjective ordering conventions, classifier use, and head noun choice create precision or richness — has genuine depth. Advancing students can investigate how noun group construction differs systematically across narrative and informational text types, developing a useful grammatical lens.",
+        "success_criteria": [
+          "Constructs or identifies a noun group with at least three modifying elements and explains the descriptive work of each.",
+          "Explains why the modifiers are ordered as they are (e.g. opinion before size before colour before classifier)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Noun group expansion for effect",
+        "progression_checkpoint": "Students can explain how noun group expansion choices in a text create specific effects — precision, vividness, technical authority — and how these choices serve the text's purpose.",
+        "minimum_width": "Identify a noun group in a text, explain the expansion choices the writer has made, and connect those choices to the effect they create for the reader.",
+        "typical_width": "Analyse noun group choices across a text, explaining how expanded noun groups create the text's descriptive style and serve its purpose. Compare a passage with minimal noun groups to one with rich expansion, discussing what is gained and lost.",
+        "wider": [
+          "Analyse how poets and literary authors use noun group expansion to create imagery and mood, comparing to how scientific or technical writers use expansion to create precision — examining what noun group choices reveal about each genre's values",
+          "Experiment with varying the level of noun group expansion in a piece of writing and reflect on how those choices affect reader experience"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to apply component knowledge (node 1) and combination knowledge (node 2) to explaining writer effect — connecting grammatical choice to communicative purpose across text types."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains how a specific noun group expansion creates a particular effect (precision, vividness, authority) with reference to the modifier choices made.",
+          "Connects the noun group choice to the text's purpose or genre conventions."
+        ]
+      }
+    ]
+  }
+}

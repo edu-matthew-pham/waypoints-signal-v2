@@ -1,0 +1,155 @@
+{
+  "year_level": "7",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG7K05",
+    "title": "Liveability decisions",
+    "description": "factors that influence the decisions people make about where to live, including perceptions of the liveability of places and the influence of environmental quality",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students enter the liveability unit having completed the water unit (K01–K04). They understand that places have environmental, economic, cultural, spiritual and aesthetic dimensions of value, and that water distribution creates differential access for populations in different settlement types. They have not previously encountered the concept of 'liveability' or the objective/subjective measurement distinction.",
+    "progression_endpoint": "Students explain factors that influence where people live, including perceptions of liveability and the influence of environmental quality.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Factors influencing residential location decisions",
+        "progression_checkpoint": "Students can identify and explain multiple types of factors (economic, cultural, spiritual, aesthetic) that influence decisions about where to live.",
+        "minimum_width": "Students identify at least two different types of factor and explain how each influences a residential location decision.",
+        "typical_width": "Students explain economic factors (employment, industries in remote places), cultural factors (connection for cultural groups), spiritual factors (meanings attributed to places) and aesthetic factors (urban amenity, 'tree change') that influence where people choose to live.",
+        "wider": [
+          "Analyse a migration case study — e.g. sea change/tree change movements in Australia — mapping which factor types predominate and which populations make these moves",
+          "Examine forced vs voluntary movement and how the weight of different factors changes when choice is constrained (e.g. economic refugees, natural disaster displacement)",
+          "Interview or survey community members about their residential location decisions and categorise the factors they name"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish multiple factor types will default to economic explanations for all residential decisions. This blocks understanding of cultural and spiritual factors in K07 (First Nations connectedness) and prevents meaningful liveability measurement analysis in node 2.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using diverse case studies — remote Indigenous community, rural tree change, urban professional, remote mining town — makes visible the range of factors that can be primary in different residential decisions, dismantling the economic default.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The diversity of factors across population groups is the rich pedagogical content here. Students who engage with multiple case studies build genuine understanding of the complexity of residential decision-making rather than applying a single economic model.",
+        "success_criteria": [
+          "Identifies at least three different factor types (economic, cultural, spiritual, aesthetic) influencing residential location decisions, with an example for each.",
+          "Explains how one non-economic factor can be the primary reason for a residential location decision."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Liveability: concept and measurement",
+        "progression_checkpoint": "Students can explain the concept of liveability, distinguish between objective and subjective measures, and compare examples of each.",
+        "minimum_width": "Students explain what liveability means and distinguish at least one objective measure from one subjective measure.",
+        "typical_width": "Students discuss the concept of liveability and ways it is measured, comparing objective measures (transportation infrastructure, health services, safety statistics) with subjective measures (people's perceptions, sense of belonging, personal safety feelings).",
+        "wider": [
+          "Critically evaluate a global liveability index (e.g. EIU, Mercer) — examine what indicators are included and excluded, and whose experiences are centred in the measurement approach",
+          "Compare how liveability rankings change when subjective community perceptions are given equal weight to objective infrastructure measures",
+          "Investigate how liveability measures have changed over time — what does their evolution reveal about changing values?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish objective from subjective measures will be unable to evaluate liveability claims in K06 and K08, where they compare places and assess strategies. The whole evaluation framework depends on understanding what kind of evidence is being used.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The objective/subjective distinction requires careful scaffolding — students often believe that quantitative = objective and qualitative = subjective, but many perceptions can be quantified and many objective indicators embed value choices. The reasoning scaffold needs to address the nature of each type, not just the data format.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Critically examining global liveability indices gives students a concrete analytical exercise with real data, making the objective/subjective distinction tangible.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Critical evaluation of liveability indices — examining whose values are built into the measurement framework — is a significant geographical literacy skill with implications beyond this unit. It connects to broader questions of data literacy and geographical knowledge construction.",
+        "success_criteria": [
+          "Defines liveability and distinguishes between objective and subjective measures, providing an example of each.",
+          "Explains one limitation of either objective or subjective measures of liveability."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Local access and perceptions of liveability",
+        "progression_checkpoint": "Students can compare their own access to and use of places in their local area and evaluate how this affects perceptions of liveability.",
+        "minimum_width": "Students identify at least two aspects of their local area that affect their perception of its liveability.",
+        "typical_width": "Students compare their own access to and use of places and spaces in their local area with classmates and community members, evaluating how different levels of access to the same physical environment produce different perceptions of liveability.",
+        "wider": [
+          "Survey classmates on liveability perceptions and map variation — examine what predicts difference in perception (age, mobility, transport access, cultural background)",
+          "Compare a local area's liveability as perceived by young people, elderly residents and people with disability — what spaces are accessible or inaccessible to each group?",
+          "Conduct a walkability audit of the local area and relate findings to liveability perceptions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Moving beyond personal experience to compare perceptions across different population groups in the same place makes visible how access determines perception — the central insight of this node.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Local fieldwork on liveability perceptions is one of the most generative pedagogy contexts in the curriculum. Students directly apply geographical inquiry methods (survey, observation) to a place they know, producing genuine data that can be compared and analysed.",
+        "success_criteria": [
+          "Identifies at least two local area features that influence perceptions of liveability, distinguishing between objective access and subjective perception.",
+          "Compares their own liveability perception with at least one other perspective, explaining what accounts for any difference."
+        ],
+        "related_standards": ["AC9HG7S01", "AC9HG7S02"]
+      },
+      {
+        "id": 4,
+        "label": "Environmental quality and residential decisions",
+        "progression_checkpoint": "Students can explain how environmental quality influences decisions about where to live, using examples of specific environmental quality factors.",
+        "minimum_width": "Students identify at least two environmental quality factors and explain how each influences residential decision-making.",
+        "typical_width": "Students examine the influence of environmental quality — clean land, air and water, views, recreation facilities and favourable climate — on decisions about where to live, using specific Australian place examples.",
+        "wider": [
+          "Analyse the relationship between environmental quality and housing prices in a specific urban market — examine whether environmental quality is reflected in economic value",
+          "Examine how environmental degradation (e.g. air pollution in industrial areas, contaminated land) influences residential movement and community response",
+          "Investigate how climate change projections are beginning to alter perceptions of environmental quality and residential desirability in coastal and bushfire-prone areas"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using contrasting examples of environmental quality (coastal amenity vs industrial brownfield vs bushfire risk) reveals how the same geographical concept (environmental quality) operates differently depending on the specific environmental characteristics of a place."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two environmental quality factors that influence residential decisions and explains how each operates.",
+          "Uses a specific place example to illustrate how environmental quality affects where people choose or choose not to live."
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Integration: factors, liveability and environmental quality",
+        "progression_checkpoint": "Students explain factors that influence residential decisions — integrating economic, cultural, spiritual and aesthetic factors with liveability measurement and environmental quality analysis.",
+        "minimum_width": "Students produce an explanation of a residential decision context that addresses at least two factor types and applies the liveability concept.",
+        "typical_width": "Students produce an integrated explanation of why people make specific residential decisions — combining factor type analysis, objective and subjective liveability measures, and environmental quality considerations — applied to a specific place or population group.",
+        "wider": [
+          "Apply the integrated framework to a complex case: e.g. the decision of a family to move from urban Sydney to a regional town — map all factor types, liveability measures and environmental quality considerations, and explain the decision",
+          "Evaluate how the factors that drive residential decisions differ for First Nations Australians (where spiritual and cultural factors may be primary) vs recently arrived migrants (economic and cultural safety factors) in the same city"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The standard brings together factor types, liveability measurement, local perception and environmental quality. Integration practises weaving these into a coherent explanation of a real residential decision rather than listing four separate considerations."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces an explanation of a residential decision that addresses multiple factor types and explicitly applies the liveability concept.",
+          "Distinguishes objective and subjective elements in the liveability analysis."
+        ],
+        "related_standards": ["AC9HG7K06", "AC9HG7K07", "AC9HG7S04"]
+      }
+    ]
+  }
+}

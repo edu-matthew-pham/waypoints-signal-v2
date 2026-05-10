@@ -1,0 +1,80 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9ST04",
+    "title": "Choosing Data Displays",
+    "description": "choose appropriate forms of display or visualisation for a given type of data; justify selections and interpret displays for a given context",
+    "strand": "Statistics",
+    "mode": "A",
+    "prior_knowledge": "Students can represent and compare multiple data distributions using comparative representations (AC9M9ST03). They have not yet systematically matched display type to data type and purpose, or justified visualisation choices for a given audience and context.",
+    "progression_endpoint": "Students choose appropriate data displays for given data types, justify their selections, and interpret displays in context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Matching display type to data type",
+        "progression_checkpoint": "Students can identify the data type (categorical nominal/ordinal, numerical discrete/continuous) and select an appropriate display type.",
+        "minimum_width": "Classify one data set as categorical or numerical, discrete or continuous; select and justify an appropriate display type for it.",
+        "typical_width": "Classify a range of data sets by type; match display types to data types (bar chart for categorical nominal, histogram for numerical continuous, dot plot or stem-and-leaf for small discrete numerical data sets); justify choices based on data type.",
+        "wider": [
+          "Investigate non-standard display types such as infographics and assess what data type and purpose they are suited for \u2014 evaluate one real infographic",
+          "Compare the same data displayed in two different but plausible formats and evaluate which communicates more effectively for the intended audience",
+          "Use digital tools including generative AI to produce multiple display options for the same data set and critically evaluate each"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly apply bar charts to all categorical data and histograms to all numerical data, without distinguishing discrete vs continuous or nominal vs ordinal. Working across a range of data types \u2014 including ordinal categorical (survey scales), numerical discrete (count data) and numerical continuous (measurement data) \u2014 builds accurate discrimination.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly classifies the data type as categorical (nominal/ordinal) or numerical (discrete/continuous)",
+          "Selects an appropriate display type and names it",
+          "Justifies the selection with reference to the data type"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot classify data type (categorical vs numerical, discrete vs continuous) cannot make justified display choices in N2 \u2014 justification requires naming the data type as the reason."
+      },
+      {
+        "id": 2,
+        "label": "Justifying and interpreting displays in context",
+        "progression_checkpoint": "Students can justify a display choice with reference to purpose and audience, and interpret key features of a display in context.",
+        "minimum_width": "Choose a display for a given data set and purpose; justify the choice with reference to both the data type and the audience; interpret one key feature of the display in context.",
+        "typical_width": "Choose and justify display types for a range of contexts, considering data type, audience and purpose; interpret displays by identifying and explaining key features (trend, centre, spread, proportion) in context; compare and interpret stacked bar charts, area charts and line graphs for part-whole and trend data.",
+        "wider": [
+          "Evaluate a non-standard visualisation (e.g. infographic from a news source) \u2014 assess purpose, audience and how well it communicates the statistical question",
+          "Use generative AI to produce display options for a data set, then critically evaluate which form is most appropriate for the intended purpose and audience",
+          "Investigate how stacked bar charts and area charts represent part-whole relationships and when line graphs are more appropriate for trend data"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Justifying display choices requires integrating data type knowledge, audience awareness and purpose \u2014 not just selecting a graph type in isolation. Students who can classify data but cannot articulate why a display works for a specific audience and purpose have not reached the descriptor's full demand.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Non-standard visualisations (infographics, area charts, interactive displays) provide rich material for developing both statistical literacy and critical thinking. Students who evaluate real-world visualisations develop a transferable skill that spans data literacy, media literacy and civic reasoning.",
+        "success_criteria": [
+          "Justifies a display choice with reference to both data type and purpose/audience",
+          "Correctly interprets at least two features of the display in the language of the context",
+          "Evaluates whether the display communicates the key message clearly and fairly"
+        ],
+        "related_standards": [
+          "AC9M9ST02",
+          "AC9M9ST03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

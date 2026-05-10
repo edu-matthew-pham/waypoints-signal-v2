@@ -1,0 +1,112 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9A01",
+    "title": "Exponent Laws",
+    "description": "apply the exponent laws to numerical expressions with integer exponents and extend to variables",
+    "strand": "Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can establish and apply exponent laws with positive integer exponents and the zero exponent using numbers (AC9M8N02). They have not yet applied exponent laws to negative integer exponents, or extended the laws systematically to algebraic expressions involving variables.",
+    "progression_endpoint": "Students apply all exponent laws to numerical expressions with integer exponents (including negative) and extend these laws to simplify algebraic expressions involving variables.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Negative integer exponents",
+        "progression_checkpoint": "Students can evaluate expressions with negative integer exponents and explain why a negative exponent produces a reciprocal.",
+        "minimum_width": "Evaluate at least two expressions with negative integer exponents (e.g. 5\u207b\u00b3, 2\u207b\u00b9); explain using a sequence pattern (e.g. 5\u00b3, 5\u00b2, 5\u00b9, 5\u2070, 5\u207b\u00b9\u2026) why 5\u207b\u00b3 = 1/5\u00b3.",
+        "typical_width": "Evaluate a range of expressions with positive and negative integer exponents; explain the pattern that connects positive and negative exponents using division-by-base sequences; connect decimal representations to negative powers of 10 (e.g. 0.01 = 10\u207b\u00b2).",
+        "wider": [
+          "Represent decimals in expanded exponential form (e.g. 0.475 = 4\u00d710\u207b\u00b9 + 7\u00d710\u207b\u00b2 + 5\u00d710\u207b\u00b3) and connect to place value",
+          "Connect negative exponents to SI unit prefixes (e.g. milli- = 10\u207b\u00b3, micro- = 10\u207b\u2076, nano- = 10\u207b\u2079) and explore scientific measurement contexts",
+          "Investigate how negative exponents appear in compound interest formulas and other financial mathematics contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly interpret a negative exponent as a negative number (reading 5\u207b\u00b3 as \u2212125 or \u22121/125). Seeing the pattern through multiple bases \u2014 with the sequence 5\u00b2, 5\u00b9, 5\u2070, 5\u207b\u00b9, 5\u207b\u00b2 making the reciprocal structure visible \u2014 resolves the misconception more reliably than restating the rule.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly evaluates at least two expressions with negative integer exponents as fractions",
+          "Explains using a pattern or sequence why a negative exponent produces a reciprocal",
+          "Does not confuse a negative exponent with a negative result"
+        ],
+        "related_standards": [
+          "AC9M8N02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who read negative exponents as negative numbers produce systematically wrong results in every exponent law application in N2 and N3. This misconception is invisible to students \u2014 they produce confident wrong answers."
+      },
+      {
+        "id": 2,
+        "label": "Exponent laws with numerical expressions",
+        "progression_checkpoint": "Students can apply all exponent laws (product, quotient, power of a power, power of a product, zero exponent) to simplify numerical expressions with integer exponents and explain why each law works.",
+        "minimum_width": "Apply at least three exponent laws to simplify numerical expressions involving integer exponents; justify each step using the definition of an exponent (repeated multiplication/division).",
+        "typical_width": "Apply all five exponent laws to numerical expressions; relate each law to first-principles reasoning (e.g. b\u00b2\u00d7b\u00b3 = b\u2075 because counting factors gives 2+3=5 factors); simplify multi-law expressions; identify which law applies in each step.",
+        "wider": [
+          "Investigate why (ab)\u00b2 = a\u00b2b\u00b2 but (a+b)\u00b2 \u2260 a\u00b2+b\u00b2 \u2014 connect to the distributive property and preview of binomial expansion",
+          "Apply exponent laws to expressions involving SI prefixes in combined calculations (e.g. 3\u00d710\u2074 \u00d7 2\u00d710\u207b\u2076)",
+          "Explore how the exponent laws underpin logarithm rules (e.g. log(ab) = log a + log b corresponds to the product law) \u2014 conceptual connection only"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Selecting the correct law and applying it without error requires fluency built through varied practice. Students who can explain the laws conceptually still commonly make errors on multi-step simplifications \u2014 particularly confusing product law (add exponents) with power of a power law (multiply exponents).",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly names and applies at least three distinct exponent laws to simplify a multi-step numerical expression",
+          "Justifies at least one step using first-principles counting of factors",
+          "Correctly handles the zero exponent (any non-zero base to the power 0 equals 1)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Fluency selecting the correct law for the correct operation is the direct prerequisite for N3. Students who conflate product and power-of-a-power laws carry the error into algebraic simplification where it is harder to detect."
+      },
+      {
+        "id": 3,
+        "label": "Extending exponent laws to variables",
+        "progression_checkpoint": "Students can apply exponent laws to simplify algebraic expressions involving variables, including products, quotients and powers of expressions with constants and variables.",
+        "minimum_width": "Apply exponent laws to simplify at least two algebraic expressions involving one variable (e.g. x\u00b3 \u00d7 x\u00b2, (a\u00b2)\u00b3, y\u2074 \u00f7 y\u00b2); use correct algebraic conventions (e.g. x\u00b9=x, x\u2070=1).",
+        "typical_width": "Apply all exponent laws to simplify algebraic expressions involving products, quotients and powers of constants and variables (including multi-variable expressions); apply conventions for writing simplified expressions (e.g. 1/w = w\u207b\u00b9); relate to first-principles expansion using repeated multiplication.",
+        "wider": [
+          "Simplify complex multi-variable expressions (e.g. (2xy)\u00b3/xy\u2074) and verify using numerical substitution",
+          "Investigate how exponent laws apply in algebraic fraction simplification (e.g. 6a\u00b3b\u00b2/3ab\u2075) as a precursor to rational expressions",
+          "Connect algebraic exponent laws to the structure of polynomial expressions and powers of binomials"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often apply the laws correctly to single-variable expressions but make errors when coefficients and multiple variables are combined (e.g. treating (2x)\u00b3 as 2x\u00b3 instead of 8x\u00b3). Working across a range of expression types \u2014 single variable, multiple variables, coefficients included \u2014 builds reliable application.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-variable algebraic simplification is where the exponent laws come fully alive as an algebraic tool. Students who work with complex expressions (two variables, coefficients, mixed operations) develop genuine algebraic fluency that underpins future work with polynomial manipulation and rational expressions.",
+        "success_criteria": [
+          "Correctly simplifies at least two algebraic expressions involving exponent laws, including one with multiple variables",
+          "Applies the convention x\u2070=1 and x\u00b9=x correctly",
+          "Uses negative exponents correctly in algebraic expressions (e.g. writes 1/x\u00b2 as x\u207b\u00b2)"
+        ],
+        "related_standards": [
+          "AC9M9A02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

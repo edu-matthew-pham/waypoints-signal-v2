@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LE05",
+    "title": "Characters, settings and meaning",
+    "description": "Identify and explain the ways that characters, settings and events combine to create meaning in narratives",
+    "strand": "Literature — Examining literature",
+    "mode": "B",
+    "prior_knowledge": "Students can identify and explain how images, figures and visual elements contribute to meaning (AC9E6LA07) and identify characteristics of an author's individual style (AC9E6LE03). They have not yet examined how narrative elements — characters, settings and events — combine to create meaning, rather than each contributing independently.",
+    "progression_endpoint": "Students identify and explain how characters, settings and events combine to create meaning in narratives.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How each narrative element creates meaning",
+        "progression_checkpoint": "Students can identify how characters, settings and events each contribute to meaning in a narrative",
+        "minimum_width": "In a given narrative, identify one example of how a character, one of how a setting, and one of how an event contributes to meaning; explain each",
+        "typical_width": "Examine how character construction, setting description and event sequencing each create specific meanings in a narrative — what does each element make possible for the story's meaning that the others cannot?",
+        "wider": [
+          "Analyse and explain the structure and features of short stories, discussing how authorial choices about character, setting and event sequence serve the story's purpose and affect its appeal",
+          "Explore traditional stories from Asia and discuss how oral mode, visual elements and verse are used alongside character, setting and event to create meaning"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify what each element individually contributes, Node 2's work on how they combine is inaccessible — combination analysis requires first knowing what each element contributes in isolation.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to build a repertoire of narrative examples — stories where character construction, setting and event sequencing each do distinct work — before they can understand how the elements combine. Building the repertoire across short stories, traditional stories and different narrative forms gives students the comparative material needed for the next node.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies how a character, setting and event each contribute to meaning in a given narrative",
+          "Explains what each element contributes — not just that it is present"
+        ],
+        "related_standards": ["AC9E7LE03", "AC9E7LE06"]
+      },
+      {
+        "id": 2,
+        "label": "Narrative elements combine to create meaning",
+        "progression_checkpoint": "Students can explain how characters, settings and events work together — not just separately — to create meaning in a narrative",
+        "minimum_width": "In a given narrative, identify a moment where character, setting and event interact to produce meaning that none could create alone; explain the combination",
+        "typical_width": "Examine how the combination of character, setting and event creates cumulative meaning in a narrative — how setting shapes character behaviour, how events reveal character, how character choices drive events — and explain the interdependencies",
+        "wider": [
+          "Discuss how different authorial choices for the combination of character, setting and event in a short story create different purposes and different reader experiences — compare two short stories with similar settings but different character-event combinations",
+          "Analyse how the combination of narrative elements differs between a written story and its film adaptation — how does the medium affect how the three elements interact?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students identify narrative elements in isolation but rarely explain how they work together. The reasoning scaffold — how does the setting shape this character's options, how does this event reveal character, how do character and setting together determine what this event means — builds the integrative analysis the descriptor requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing the written story and film adaptation is rich — the translation between modes makes the combination of elements visible, because film must externalise what prose can leave internal. This connects to AC9E7LE03 and AC9E7LE04.",
+        "success_criteria": [
+          "Identifies a moment where character, setting and event interact",
+          "Explains how the combination creates meaning that the elements could not produce alone"
+        ],
+        "related_standards": ["AC9E7LE03", "AC9E7LE06", "AC9E7LE01"]
+      }
+    ]
+  }
+}

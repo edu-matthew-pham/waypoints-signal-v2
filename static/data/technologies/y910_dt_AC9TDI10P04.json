@@ -1,0 +1,128 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P04",
+    "title": "Define and decompose real-world problems",
+    "description": "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can define and decompose real-world problems with design criteria and by considering the needs of users (AC9TDI8P04). They can identify constraints and requirements. They have not yet conducted stakeholder interviews, formulated user stories from primary research, or defined problems with explicit scope awareness.",
+    "progression_endpoint": "Students define and decompose real-world problems by interviewing stakeholders to create user stories, establishing design criteria with precision and scope awareness.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Eliciting stakeholder needs through interviews",
+        "progression_checkpoint": "Students can design and conduct an interview with a stakeholder to elicit their needs, capturing information relevant to defining the problem.",
+        "minimum_width": "Conduct at least one stakeholder interview using prepared questions; record the key needs and perspectives the interviewee expressed.",
+        "typical_width": "Design interview questions that elicit both specific needs and open-ended responses; conduct the interview; synthesise findings to identify the core stakeholder needs and distinguish explicit requests from underlying goals.",
+        "wider": [
+          "Conduct interviews with stakeholders who have different or conflicting needs \u2014 synthesise findings to identify where requirements agree and where they must be reconciled",
+          "Explore how interviewing First Nations Australian community members to develop digital solutions requires additional considerations: cultural protocols, community consent, and understanding community-defined needs rather than imposing external problem frames",
+          "Compare interview-elicited user needs with assumptions made without interviews \u2014 reflect on what would have been designed wrongly without the primary research"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Stakeholder interview quality varies enormously with question design. Students who only interview one type of stakeholder (e.g. a peer) often miss how different perspectives create different requirements. Interviewing stakeholders with different roles or needs reveals the problem space more fully.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Interviewing First Nations community members and reconciling conflicting stakeholder needs are both substantive extensions \u2014 they require students to think about power, consent and synthesis rather than just data collection.",
+        "success_criteria": [
+          "Conducts an interview using prepared questions",
+          "Records the stakeholder's expressed needs accurately",
+          "Identifies at least one insight that came from the interview rather than assumption"
+        ],
+        "hinge": true,
+        "hinge_reason": "Inadequate stakeholder interviews cascade through the entire design process \u2014 user stories at N2 built on unelicited or assumed needs, and a problem definition at N3 that doesn't reflect real stakeholder requirements, produce design criteria at N4 that cannot evaluate whether the right problem is being solved."
+      },
+      {
+        "id": 2,
+        "label": "Creating user stories",
+        "progression_checkpoint": "Students can create user stories from stakeholder interview data using the standard template format.",
+        "minimum_width": "Create at least two user stories from interview data using the template: 'As a [user], I want [goal] so that [reason]'.",
+        "typical_width": "Create a set of user stories from interview findings that cover the key needs identified; ensure each story identifies the user type, goal and rationale; use the stories to drive subsequent design decisions.",
+        "wider": [
+          "Prioritise user stories using a technique such as MoSCoW (must have, should have, could have, won't have) and explain the prioritisation reasoning",
+          "Identify ambiguous or conflicting user stories and resolve them through follow-up with stakeholders"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "User story template compliance requires precision \u2014 students commonly omit the 'so that' rationale or write stories from their own perspective rather than the stakeholder's. Sufficient practice with varied stakeholder data builds the habit of template-grounded story creation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "User stories follow the template format correctly",
+          "User stories are grounded in interview data, not assumed needs",
+          "Each user story identifies a specific user type, goal and rationale"
+        ],
+        "hinge": true,
+        "hinge_reason": "User stories that don't follow the template or aren't grounded in interview data cannot drive problem definition at N3 or design criteria at N4 \u2014 the criteria become disconnected from actual stakeholder needs."
+      },
+      {
+        "id": 3,
+        "label": "Defining the problem with precision and scope",
+        "progression_checkpoint": "Students can write a precise problem definition that names the problem, identifies scope boundaries, and acknowledges what is and isn't solvable within the project.",
+        "minimum_width": "Write a problem definition statement that names the problem clearly and identifies at least one scope constraint (what is and isn't being solved).",
+        "typical_width": "Write a problem definition with precision about what the problem is, what it is not, and whether it is solvable in the available timeframe; connect the definition to the user stories; identify questions that need answering before design can begin.",
+        "wider": [
+          "Explore how a broadly framed problem ('How do we encourage people to balance energy intake?') can be decomposed into sub-problems \u2014 identify which sub-problems are solvable with a digital system and which are not",
+          "Examine how recognising diverse stakeholder perspectives changes the problem definition \u2014 what looks like one problem from one stakeholder's view is a different problem from another's"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students tend to leap from a problem statement to a solution before the problem is well-defined. A reasoning scaffold \u2014 what exactly is the problem? \u2192 for whom? \u2192 what would count as solving it? \u2192 what is out of scope? \u2014 prevents premature solution framing and produces more useful design criteria.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Problem definition names the specific problem (not just a domain)",
+          "Identifies at least one scope boundary (what is out of scope)",
+          "Problem definition is connected to the user stories rather than developed independently"
+        ],
+        "hinge": true,
+        "hinge_reason": "A problem definition without scope boundaries makes N4 criteria impossible to evaluate \u2014 students cannot check whether criteria are met if the problem itself is not precisely defined."
+      },
+      {
+        "id": 4,
+        "label": "Establishing design criteria",
+        "progression_checkpoint": "Students can establish design criteria derived from user stories and problem definition that will guide evaluation of solutions.",
+        "minimum_width": "Write at least two design criteria derived from user stories; criteria must be assessable (checkable against a solution).",
+        "typical_width": "Establish a set of design criteria from user stories and problem definition; ensure criteria are specific and assessable; include both functional criteria (what the system does) and non-functional criteria (how it performs or what constraints apply).",
+        "wider": [
+          "Develop design criteria that explicitly account for diverse user needs \u2014 including accessibility criteria for users with different abilities",
+          "Compare functional and non-functional design criteria for a system and explain why non-functional criteria (e.g. performance, privacy, accessibility) are as important as functional ones"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "At least two design criteria are written that are checkable against a solution",
+          "Criteria are derived from user stories, not generated independently"
+        ],
+        "related_standards": [
+          "AC9TDI10P10"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

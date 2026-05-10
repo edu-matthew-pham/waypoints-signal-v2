@@ -1,0 +1,97 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6ST02",
+    "title": "Critique statistical arguments",
+    "description": "Identify statistically informed arguments presented in traditional and digital media; discuss and critique methods, data representations and conclusions",
+    "strand": "statistics",
+    "mode": "A",
+    "prior_knowledge": "Students can interpret line graphs and discuss relationships (AC9M5ST02). They have not yet critically evaluated statistical claims in media sources or examined the connection between data collection methods and conclusions.",
+    "progression_endpoint": "Students can identify statistically informed arguments in media, discuss and critique the methods, data representations, and conclusions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying statistical claims in media",
+        "progression_checkpoint": "Students can identify when a media argument is supported by statistical evidence and locate the data, representation, and conclusion in the argument.",
+        "minimum_width": "Find two examples of statistical arguments in media (newspaper, website, advertisement); identify the claim, the data used, and the display; note what context is given.",
+        "typical_width": "Identify statistical arguments across traditional and digital media formats; distinguish claims that are supported by data from those that are not; locate the data source, representation type, and conclusion in each argument.",
+        "wider": [
+          "Compare how the same dataset is presented differently across multiple media outlets and discuss what each presentation emphasises or omits",
+          "Examine historical examples of misleading statistical reporting and identify the techniques used"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Statistical literacy requires recognising statistical arguments in varied media contexts \u2014 advertising, news reporting, social media, scientific communication. Students need broad exposure to develop recognition across contexts rather than just in school-constructed examples."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies a statistical claim, the supporting data, and the conclusion in a media example.",
+          "Student notes whether the data source is stated."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Critiquing methods and data representations",
+        "progression_checkpoint": "Students can identify potential problems with the methods used to collect data or create a display, including sampling issues, misleading scales, and representation choices.",
+        "minimum_width": "Identify at least two potential problems in provided statistical examples \u2014 e.g. small sample, biased question, missing scale origin, inappropriate display type.",
+        "typical_width": "Evaluate data collection methods for bias, sample size, and question design; identify representation problems including truncated axes, misleading 3D effects, cherry-picked time periods; explain how each issue could affect the conclusion.",
+        "wider": [
+          "Investigate published examples of misleading graphs (truncated y-axis, inconsistent intervals, 3D pie charts) and explain each technique's effect on perception",
+          "Design a deliberately misleading and a fair representation of the same dataset and compare \u2014 discuss the choices made in each"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students can often identify that 'something seems wrong' with a graph but cannot articulate the mechanism. Scaffolding the reasoning \u2014 'what would change if the axis started at zero?' \u2014 builds the analytical precision needed for genuine critique.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Statistical critique is one of the highest-value real-world mathematical skills at this level. The range of misleading techniques and the skill of constructing counter-arguments provide rich territory for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies at least one specific problem with a data collection method or representation and explains how it could affect the conclusion.",
+          "Student uses appropriate statistical vocabulary (sample, bias, scale, representation)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating conclusions",
+        "progression_checkpoint": "Students can evaluate whether a conclusion drawn from statistical data is justified, overstated, or not supported by the evidence presented.",
+        "minimum_width": "Given a statistical argument, state whether the conclusion follows from the data; identify at least one way the conclusion might be overstated or misleading.",
+        "typical_width": "Evaluate conclusions across multiple statistical arguments; identify when correlation is presented as causation; consider what additional data would be needed to support a stronger conclusion; discuss the role of context in interpreting statistical results.",
+        "wider": [
+          "Investigate the difference between correlation and causation with accessible examples (e.g. ice cream sales and drowning rates) \u2014 why does correlation not imply causation?",
+          "Evaluate statistical arguments from public health, environmental, or social contexts and discuss what makes a statistical argument trustworthy"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluating conclusions requires students to coordinate their understanding of data collection, representation, and statistical measures to form a judgment about the strength of an argument. This is the critical thinking endpoint of statistical literacy at Year 6.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Critical evaluation of statistical arguments is practically significant and develops thinking skills that transfer across subject areas. Engaging with real media examples connects mathematics to citizenship and critical literacy.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student evaluates a given statistical conclusion and states whether it is supported, overstated, or not supported by the data.",
+          "Student identifies at least one way the argument could be strengthened or one limitation of the conclusion."
+        ]
+      }
+    ]
+  }
+}

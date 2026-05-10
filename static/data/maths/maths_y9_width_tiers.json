@@ -1,0 +1,421 @@
+{
+  "description": "Width tiers for Mathematics Year 9 — ACARA v9. One entry per descriptor code.",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "band": "9",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest engagement that satisfies the descriptor's command term. For understanding/concept descriptors: minimum phenomena or contexts. For modelling and investigation descriptors: the narrowest single context that completes the full cycle.",
+    "typical_width": "Full descriptor scope grounded in the most common elaboration cases. What a well-taught Year 9 class would reach.",
+    "wider": "Enrichment directions that add phenomena, contexts or application domains — not harder versions of the same context. First Nations directions included wherever elaborations indicate them.",
+    "elaborations": "ACARA v9 elaborations are used as source data for grounding typical_width and identifying wider directions. They are preserved verbatim in each entry as a source record."
+  },
+  "standards": {
+    "AC9M9N01": {
+      "strand": "Number",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Represent the real number system as a hierarchy (natural numbers, integers, rationals, irrationals); give one example of an irrational number and explain why it cannot be expressed as a fraction; solve one problem by substituting a real number into a formula.",
+      "typical_width": "Represent the relationships between irrationals, rationals, integers and natural numbers; distinguish between exact representations (e.g. π, √2) and decimal approximations; use the real number line to represent solution intervals for linear inequalities; solve problems by substituting real numbers into formulas, expressing answers in exact and approximate form.",
+      "wider": [
+        "Investigate the position of irrational numbers on the real number line using geometric constructions (e.g. locating √2 as the diagonal of a unit square)",
+        "Explore how ancient and First Nations mathematical traditions represented and worked with quantities that we now classify as irrational",
+        "Investigate the difference between algebraic and transcendental irrationals (e.g. √2 vs π) and what is known about their nature"
+      ],
+      "elaborations": [
+        "investigating the real number system by representing the relationships between irrationals, rationals, integers and natural numbers and discussing the difference between exact representations and approximate decimal representations of irrational numbers",
+        "using a real number line to indicate the solution interval for inequalities of the form ax+b<c or ax+b>c",
+        "using positive and negative rational numbers to solve problems; for example, for financial planning such as budgeting",
+        "solving problems involving the substitution of real numbers into formulas, understanding that solutions can be represented in exact form or as a decimal approximation, such as calculating the area of a circle using A=πr²",
+        "investigating the position of rational and irrational numbers on the real number line, using geometric constructions to locate rational numbers and square roots on a number line"
+      ]
+    },
+    "AC9M9A01": {
+      "strand": "Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Apply at least three exponent laws to simplify numerical expressions with positive and negative integer exponents; apply the same laws to simplify a simple algebraic expression with one variable.",
+      "typical_width": "Apply all exponent laws (product, quotient, power of a power, zero exponent, negative exponent) to both numerical expressions and algebraic expressions involving products, quotients and powers of constants and variables; explain why negative exponents produce reciprocals; connect to SI unit prefixes.",
+      "wider": [
+        "Represent decimals in expanded exponential form and connect to place value structure",
+        "Apply exponent laws in scientific contexts involving very large or very small quantities (e.g. SI prefixes from pico- to tera-)",
+        "Investigate how exponent laws underpin logarithmic relationships and connect to Year 10 work on surds and logarithms"
+      ],
+      "elaborations": [
+        "representing decimals in exponential form; e.g. 0.475 = 4×10⁻¹ + 7×10⁻² + 5×10⁻³",
+        "simplifying and evaluating numerical expressions involving both positive and negative integer exponents, explaining why; e.g. 5⁻³ = 1/5³ = 1/125",
+        "relating the computation of numerical expressions involving exponents to the exponent laws; e.g. 2³÷2⁵ = 2⁻² = 1/4 and (3×5)² = 9×25 = 225",
+        "recognising exponents in algebraic expressions and applying the relevant exponent laws; e.g. a⁰=1, x¹=x, 1/w × 1/w = w⁻²",
+        "relating simplification from first principles to exponent laws; e.g. (a²)³ = a⁶; b²×b³ = b⁵",
+        "applying the exponent laws to simplifying expressions involving products, quotients and powers of constants and variables; e.g. (2xy)³/xy⁴ = 8x²y⁻¹",
+        "relating the prefixes for SI units from pico- to tera- to the corresponding powers of 10"
+      ]
+    },
+    "AC9M9A02": {
+      "strand": "Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Expand one binomial product of the form (x+a)(x+b) where a and b are integers; factorise one monic quadratic expression x²+bx+c with integer roots.",
+      "typical_width": "Expand all four combinations of binomials (both signs) and identify the general pattern (x+a)(x+b) = x²+(a+b)x+ab; factorise monic quadratic expressions x²+mx+n for integer m and n; recognise the relationship between expansion and factorisation as inverse operations; use area models or algebra tiles to represent both processes.",
+      "wider": [
+        "Use digital tools to systematically explore factorisation patterns for x²+mx+n across a range of integer values of m and n, including non-factorisable cases",
+        "Investigate special cases: difference of squares (x+a)(x−a) = x²−a² and perfect square trinomials (x+a)² = x²+2ax+a²",
+        "Connect factorisation to solving quadratic equations and to graphical features of the parabola (x-intercepts)"
+      ],
+      "elaborations": [
+        "expanding combinations of binomials such as (x+7)(x+8), (x+7)(x−8), (x−7)(x+8), (x−7)(x−8) to identify expansion and factorisation patterns related to (x+a)(x+b) = x²+(a+b)x+ab, where a and b are integers",
+        "using manipulatives such as algebra tiles or area models to expand or factorise; e.g. (x+1)(x+3) = x²+4x+3, (x−5)² = x²−10x+25",
+        "recognising the relationship between expansion and factorisation, using digital tools to explore factorisation of x²+mx+n where m and n are integers"
+      ]
+    },
+    "AC9M9A03": {
+      "strand": "Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate the gradient of a line segment between two given points; find the midpoint of a line interval; calculate the distance between two points using Pythagoras' theorem.",
+      "typical_width": "Calculate gradient, midpoint and distance for any two points on the Cartesian plane using appropriate formulas; verify that gradient is independent of which two points on a line are chosen; use gradient relationships to identify parallel and perpendicular lines; interpret gradient as a constant rate of change in linear modelling contexts.",
+      "wider": [
+        "Investigate gradients in real-world contexts using superimposed images (ramps, escalators, playground equipment) and connect to linear function rules",
+        "Explore how coordinate geometry underpins machine learning algorithms (e.g. linear regression, object detection) — discuss how gradient and distance calculations feature in these systems",
+        "Investigate how the midpoint formula and distance formula are used in geographic information systems (GIS) and mapping applications"
+      ],
+      "elaborations": [
+        "recognising that the gradient of a line is independent of which 2 distinct points on the line are used for the calculation",
+        "using digital tools to illustrate that parallel lines have the same gradient and that perpendicular lines have gradients whose product is −1",
+        "using Pythagoras' theorem to establish the distance between 2 points in the Cartesian plane",
+        "investigating graphical and algebraic techniques for finding the midpoint and gradient of a line segment between 2 points",
+        "using dynamic graphing software and superimposed real-world images to investigate gradients in context",
+        "investigating how coordinate geometry plays a role in machine learning and predictive algorithms such as object detection and navigation by autonomous vehicles"
+      ]
+    },
+    "AC9M9A04": {
+      "strand": "Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify a quadratic function from a table of values or equation; graph one quadratic function and identify its key features (turning point, axis of symmetry, x-intercepts if they exist); solve one monic quadratic equation with integer roots algebraically using factorisation.",
+      "typical_width": "Identify quadratic functions using second differences; graph quadratic functions using digital tools and interpret symmetry, turning point, maximum/minimum and intercepts; solve monic quadratic equations algebraically (factorisation, null factor law) and graphically; recognise that no x-intercepts means no real solutions; recognise that x²=a (a>0) has two solutions.",
+      "wider": [
+        "Graph percentages of illumination of moon phases and connect to First Nations Australians' understandings of moon phases, discussing the quadratic-like shape of the illumination cycle",
+        "Investigate projectile motion contexts (e.g. paths of balls, water from a hose) and interpret turning point and intercepts in physical terms",
+        "Explore how the discriminant (b²−4ac, introduced informally) determines the number of real solutions, connecting to graphical cases with 0, 1 or 2 x-intercepts"
+      ],
+      "elaborations": [
+        "recognising that constant second differences in a table of values indicate a quadratic",
+        "graphing quadratic functions using digital tools; interpreting symmetry, turning point, maximum/minimum values",
+        "solving quadratic equations algebraically and comparing to graphical solutions",
+        "using graphs to determine solutions; recognising roots correspond to x-intercepts; if no x-intercepts, no real solutions",
+        "relating x-intercepts to factorised form using the null factor law; e.g. y = (x−2)(x−3) has x-intercepts at x=2 and x=3",
+        "recognising x²=a (a>0) has 2 solutions; e.g. x²=39 gives x=±√39 ≈ ±6.245",
+        "graphing percentages of illumination of moon phases in relation to First Nations Australians' understandings of moon phases"
+      ]
+    },
+    "AC9M9A05": {
+      "strand": "Algebra",
+      "width_axis": "task_contexts",
+      "minimum_width": "Formulate a problem involving change as either a linear or quadratic function (with justification of the choice); solve the problem; interpret the solution in terms of the original situation; state one limitation of the model.",
+      "typical_width": "Apply the full mathematical modelling cycle (formulate → solve → interpret → evaluate) to at least two different applied contexts involving change — one using a linear model and one using a quadratic model; compare what each model captures and where each breaks down; report methods and findings clearly.",
+      "wider": [
+        "Model the hunting techniques of First Nations Australians using quadratic functions, exploring the effect of varying the number of hunters and interpreting the turning point in context",
+        "Model financial contexts involving both fixed and variable components (e.g. trade quotes with call-out fees, profit/loss with fixed overhead) and compare the linear model to real-world outcomes",
+        "Model a situation where neither linear nor quadratic is a perfect fit; evaluate what the model gets right and wrong, and suggest how it could be improved"
+      ],
+      "elaborations": [
+        "modelling practical contexts using linear functions such as cooking times including resting or cooling times, or water leakage from water tanks",
+        "modelling measurement situations: perimeter and areas of rectangles where length is a linear function of width",
+        "modelling practical contexts using simple quadratic functions; interpreting turning point and intercepts; e.g. area, projectiles, parabolic mirrors",
+        "modelling financial contexts using linear functions; e.g. profit/loss, trade quotes with call-out fees",
+        "modelling situations involving change; e.g. temperature change, speed fluctuation, acceleration/deceleration",
+        "modelling the hunting techniques of First Nations Australians using quadratic functions and exploring the effect of increasing the number of hunters"
+      ]
+    },
+    "AC9M9A06": {
+      "strand": "Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Vary one parameter (a or b) in y=ax+b or y=ax² and describe the effect on the graph; make a generalisation about what each parameter controls.",
+      "typical_width": "Systematically vary both parameters in linear and quadratic functions using digital tools; describe the effect of each parameter on the graph (stretch, reflection, translation); connect graphical transformations to the algebraic form including completed square form; generalise emerging patterns.",
+      "wider": [
+        "Extend parameter variation to at least two additional function families (e.g. reciprocal y=1/x, square root y=√x, exponential y=aˣ) and identify which transformation patterns generalise across families",
+        "Investigate how parameter variation in function families underpins AI model training — discuss how adjusting model parameters changes predicted behaviour (conceptual, not technical)",
+        "Compare transformations across function families: which parameters shift, which stretch, which reflect — construct a generalisation that works across multiple function types"
+      ],
+      "elaborations": [
+        "investigating transformations of y=x to y=ax+b by systematic variation of a and b",
+        "investigating transformations of y=x² using digital tools, including completed square form; e.g. y=(1/3)(x−5)²+7",
+        "experimenting with reciprocal, square root, cube and exponential function families, identifying transformation patterns",
+        "investigating how parameter variation provides AI researchers insights into the predictive behaviour of AI models"
+      ]
+    },
+    "AC9M9M01": {
+      "strand": "Measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate the surface area and volume of one right prism and one cylinder using formulas; use appropriate units throughout.",
+      "typical_width": "Calculate surface area and volume of a range of right prisms (triangular, rectangular, other polygonal cross-sections) and cylinders; analyse nets to understand how surface area formulas are derived; solve practical problems involving surface area and volume (e.g. material needed for a container, volume of a tank).",
+      "wider": [
+        "Investigate objects and technologies of First Nations Australians (e.g. woven containers, bark canoes), analysing their surface area and volume, and exploring how these relate to capacity and function",
+        "Investigate the relationship between surface area and volume for prisms of fixed volume — conjecture about which prism shape minimises surface area and test using examples",
+        "Design a practical container for a given purpose (e.g. can-cooler, storage box) and determine the most material-efficient dimensions"
+      ],
+      "elaborations": [
+        "analysing nets of objects to generate shortcuts and establish formulas for surface area",
+        "determining the amount of material needed to make can-coolers; working out the most cost-efficient cutting approach",
+        "finding different prisms with the same volume but different surface areas; conjecturing about which prism has smallest or largest surface area",
+        "investigating objects and technologies of First Nations Australians, analysing surface area and volume, and exploring their relationship to capacity"
+      ]
+    },
+    "AC9M9M02": {
+      "strand": "Measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Convert one very large and one very small measurement between decimal form and scientific notation; perform one calculation with values in scientific notation.",
+      "typical_width": "Represent very large and very small measurements in scientific notation and convert back to decimal form; apply exponent laws to operate with numbers in scientific notation in applied contexts; use scientific notation in contexts from science and engineering (e.g. geological time scales, molecular masses); record measurements to the correct degree of accuracy.",
+      "wider": [
+        "Investigate degrees of accuracy across different measurement instruments (e.g. measuring cylinder vs pipette) and discuss the relationship between instrument precision and scientific notation",
+        "Explore time scales in astronomy or geology — compare orders of magnitude and discuss how scientific notation makes these scales tractable",
+        "Investigate how computing systems represent and store very large or very small floating-point numbers, connecting to scientific notation"
+      ],
+      "elaborations": [
+        "representing very large and small real numbers in scientific notation; converting between forms; e.g. geological age of earth 4.6×10⁹ years, sugar molecule mass 5.68×10⁻²¹ grams",
+        "using place value knowledge and exponent laws to operate with numbers in scientific notation in applied contexts",
+        "examining the degree of accuracy of different measurement instruments (e.g. measuring cylinder vs pipette) and recording data using appropriate scientific notation"
+      ]
+    },
+    "AC9M9M03": {
+      "strand": "Measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Apply Pythagoras' theorem and one trigonometric ratio (sin, cos or tan) to find an unknown side or angle in a right-angled triangle in a practical context.",
+      "typical_width": "Apply Pythagoras' theorem, the three trigonometric ratios, similarity and scale to solve a range of spatial problems; use the scale factor relationship for areas of similar figures; apply the distance formula on the Cartesian plane; solve multi-step problems combining these tools.",
+      "wider": [
+        "Apply Pythagoras' theorem and trigonometry to surveying or design problems — e.g. design and use a Biltmore stick to estimate tree height, connecting to rates and algebra",
+        "Investigate how autonomous vehicles solve spatial navigation problems using geometric properties (angles, distances, scale)",
+        "Explore applications of Pythagoras' theorem and trigonometry in First Nations Australian navigation, astronomy or construction contexts"
+      ],
+      "elaborations": [
+        "investigating applications of Pythagoras' theorem in authentic problems, including surveying and design",
+        "applying the distance formula on the Cartesian plane",
+        "understanding the relationship between corresponding sides of similar right-angled triangles and the scale factor for areas",
+        "using photographic images to estimate actual measurements using scale",
+        "investigating the triangle inequality and generalising links between Pythagoras and inequalities for acute/obtuse triangles",
+        "designing and using a Biltmore stick using similar triangles, Pythagoras, rates and algebra",
+        "investigating how autonomous vehicles solve spatial problems using algorithms based on geometric properties"
+      ]
+    },
+    "AC9M9M04": {
+      "strand": "Measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate the absolute error and percentage error for one measurement in a practical context; explain what the error value means.",
+      "typical_width": "Calculate and interpret absolute, relative and percentage errors across a range of measurement contexts (event attendance, budgets, laboratory instruments); use the absolute value formula for percentage error; give suitable lower and upper bounds for a measurement; recognise that all measurements are estimates.",
+      "wider": [
+        "Investigate how AI systems (e.g. regression models, recommendation systems) use error metrics and discuss how the concepts of absolute and relative error apply in these contexts",
+        "Compare measurement errors across different instruments in a science lab context (e.g. measuring cylinders, rulers, digital scales) and discuss which instrument is appropriate for which task",
+        "Investigate percentage error in real-world budget or planning contexts — explore when overestimation vs underestimation of error has greater consequences"
+      ],
+      "elaborations": [
+        "investigating error as a percentage of the exact value",
+        "using absolute value in a percentage error formula; considering when to use absolute value depending on context",
+        "calculating percentage errors in expected budgets versus actual expenditure",
+        "estimating the accuracy of measurements in practical contexts and giving suitable lower and upper bounds",
+        "investigating how absolute, relative and percentage errors relate to AI systems such as regression models and recommendation systems"
+      ]
+    },
+    "AC9M9M05": {
+      "strand": "Measurement",
+      "width_axis": "task_contexts",
+      "minimum_width": "Formulate one practical problem involving direct proportion or rates as a mathematical model; solve it; interpret the solution in context; identify one assumption or limitation.",
+      "typical_width": "Apply the full modelling cycle to at least two different practical contexts involving direct proportion, rates, ratio or scale; justify model choices; interpret solutions in terms of the situation; evaluate the model and report methods and findings.",
+      "wider": [
+        "Explore fire management techniques used by First Nations Australians that involve proportion relationships — model the rate of fire spread in different fuel types relative to wind speed, temperature and humidity",
+        "Model compliance situations in building and construction (staircase rise-to-tread ratio, escalator gradient) and evaluate whether a design meets standards",
+        "Investigate image distortion in social media editing — model how non-uniform scaling breaks proportional relationships and calculate the resulting distortion"
+      ],
+      "elaborations": [
+        "modelling situations involving direct proportion: pro rata pay, exchange rates, multiple quotes, unit conversion, Hooke's law",
+        "modelling image editing on social media where proportion is not maintained, resulting in distorted images",
+        "modelling compliance with building and construction standards; e.g. staircase rise and tread, escalator components",
+        "modelling rates in practical contexts; e.g. density, birth rate, flow, heartbeats",
+        "exploring fire management techniques used by First Nations Australians using proportion relationships including rate of fire spread vs wind speed, temperature and humidity"
+      ]
+    },
+    "AC9M9SP01": {
+      "strand": "Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the opposite, adjacent and hypotenuse sides relative to a given angle in a right-angled triangle; verify using at least two similar triangles that the ratio of two specified sides is constant for a given angle; name that ratio as sine, cosine or tangent.",
+      "typical_width": "Establish, through investigation of nested similar triangles, that sine, cosine and tangent ratios are constant for a given angle regardless of triangle size; relate each ratio to the sides of the unit-hypotenuse triangle; connect the tangent of an angle to the gradient of a line on the Cartesian plane.",
+      "wider": [
+        "Investigate how the tangent ratio connects to gradient — explore how the angle a line makes with the horizontal axis determines its gradient",
+        "Explore historical and cultural contexts for trigonometry (e.g. ancient surveying, astronomical measurement) and discuss how the constancy of ratios was understood before formal notation",
+        "Connect trig ratios to the unit circle informally — explore how sine and cosine values change as an angle increases from 0° to 90°"
+      ],
+      "elaborations": [
+        "understanding the terms base, altitude, hypotenuse, adjacent and opposite in a right-angled triangle",
+        "investigating patterns in nested similar triangles to identify constancy of ratios of corresponding sides for a given angle",
+        "establishing that sine is the altitude and cosine is the base of a right-angled triangle with hypotenuse of length one unit",
+        "relating tangent to altitude and base of nested similar triangles; connecting to gradient of a straight line"
+      ]
+    },
+    "AC9M9SP02": {
+      "strand": "Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Apply the enlargement transformation to one shape using a given scale factor; identify which properties remain invariant (angles, shape) and which change (lengths, area).",
+      "typical_width": "Apply enlargement transformations to 2D shapes and 3D objects using whole and rational scale factors; generalise the relationship between scale factor and changes to length (×k), area (×k²) and volume (×k³); use properties of similarity to solve problems.",
+      "wider": [
+        "Investigate enlargement in design and mapping contexts — e.g. scale drawings, map scales, architectural plans — and discuss how scale factor relates to real-world measurements",
+        "Explore how image compression and digital zoom use enlargement transformations and discuss the trade-offs between scale and quality",
+        "Connect the area and volume scaling relationships (k² and k³) to biological scaling problems — e.g. why animals of different sizes have proportionally different limb thicknesses"
+      ],
+      "elaborations": [
+        "comparing the ratio of lengths of corresponding sides of similar triangles and angles",
+        "using the properties of similarity to solve problems involving enlargement",
+        "investigating and generalising patterns in length, angle, area and volume when side lengths are enlarged by whole and rational numbers; e.g. factor of 3 multiplies area by 9 and volume by 27"
+      ]
+    },
+    "AC9M9SP03": {
+      "strand": "Space",
+      "width_axis": "task_contexts",
+      "minimum_width": "Design an algorithm (pseudocode or flowchart) for one geometric construction or theorem application; test it with at least one case; identify one refinement needed.",
+      "typical_width": "Design, test and refine algorithms for at least two different geometric construction or theorem contexts (e.g. triangle inequality, angle bisection, Pythagorean triple generation); evaluate refinements by discussing how the algorithm improved; represent algorithms using pseudocode or flowcharts.",
+      "wider": [
+        "Develop an algorithm for animating a geometric construction or visual proof; evaluate using multiple test cases and document refinements",
+        "Investigate how geometric algorithms underpin computer graphics or game development — discuss how specific geometric constructions (e.g. collision detection, rotation) are implemented algorithmically",
+        "Design an algorithm that verifies a geometric theorem (e.g. triangle inequality) for all integer side lengths up to a given bound and analyse its output"
+      ],
+      "elaborations": [
+        "creating an algorithm using pseudocode or flow charts to apply the triangle inequality, or to generate Pythagorean triples",
+        "creating and testing algorithms to construct or bisect angles",
+        "developing an algorithm for an animation of a geometric construction or visual proof; evaluating using test cases"
+      ]
+    },
+    "AC9M9ST01": {
+      "strand": "Statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Analyse one statistical report to identify how data was obtained; assess whether the sampling method is likely to produce a representative sample; explain how this affects the reliability of any reported mean or median.",
+      "typical_width": "Analyse reports from a range of media sources; evaluate sampling methods, data collection procedures and the reasonableness of claims about population means and medians; link statistical claims back to data displays and assess whether the evidence supports the inference.",
+      "wider": [
+        "Investigate statistical reports on Australia's trade with Asia-region countries — evaluate whether the data sources and methods support the claims made",
+        "Explore how NLP tools are used to analyse large volumes of survey reports; discuss the benefits and limitations of automated analysis for statistical interpretation",
+        "Analyse a range of data about different populations (e.g. age distributions in Australia, Cambodia and Tonga) and evaluate what can and cannot be inferred from the reported statistics"
+      ],
+      "elaborations": [
+        "investigating and evaluating statistical reports in the media by linking claims to displays, statistics and representative data",
+        "investigating the use of statistics in reports about Australia's trade with Asia region countries",
+        "exploring how NLP tools can be used to analyse large volumes of survey reports, discussing benefits and limitations",
+        "investigating a range of data and its sources; e.g. age of residents in Australia, Cambodia and Tonga; subjects studied by 14-year-olds across multiple countries",
+        "analysing reports of public opinion surveys on environmental issues; discussing data collection methods and the reasonableness of inferences"
+      ]
+    },
+    "AC9M9ST02": {
+      "strand": "Statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify one sampling method used in a survey and explain one way it could introduce bias; identify one visualisation choice that could be used to make data appear to support a particular view.",
+      "typical_width": "Analyse how at least two different sampling methods (e.g. voluntary response, convenience, random) affect survey results; examine how visual choices (axis scale, graph type, omitted data) can be used to support a particular point of view; evaluate data visualisations (including infographics) for strengths, weaknesses and biases.",
+      "wider": [
+        "Explore potential cultural bias in sampling techniques used in statistical reports about First Nations Australians — analyse specific reports and evaluate whether sampling methods are equitable and representative",
+        "Investigate how technological and social changes (e.g. reduced landline usage, call aversion) create new sources of sampling bias — discuss what kinds of populations are systematically under-represented",
+        "Analyse two infographics presenting the same data set and evaluate how different design choices lead to different interpretations"
+      ],
+      "elaborations": [
+        "investigating and analysing different visualisations of data (infographics in media), commenting on strengths, weaknesses and possible biases",
+        "discussing the impact of decreased landline usage or aversion to answering calls from unknown numbers on survey data",
+        "exploring potential cultural bias relating to First Nations Australians by critically analysing sampling techniques in statistical reports"
+      ]
+    },
+    "AC9M9ST03": {
+      "strand": "Statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Represent two data sets using the same comparative display type (e.g. back-to-back stem-and-leaf, parallel box plots); describe and compare the distributions using at least two of: centre, spread, shape.",
+      "typical_width": "Represent multiple data sets using appropriate comparative representations; compare distributions with consideration of centre (mean, median), spread (range, IQR), shape (symmetric, skewed, bimodal) and the effect of outliers on each measure; construct and interpret grouped histograms.",
+      "wider": [
+        "Explore comparative data from the National Indigenous Australians Agency 'Closing the Gap' reports; discuss the comparative distributions in context and what can and cannot be concluded from the data",
+        "Investigate how the same data set looks different when plotted using different representation types (stem-and-leaf vs histogram vs box plot) and discuss the trade-offs",
+        "Investigate a health dataset (e.g. disease incidence rates) using grouped histograms and evaluate what the distribution reveals about trends across the population"
+      ],
+      "elaborations": [
+        "describing the shape of data distributions using terms: positive skew, negative skew, symmetric, bi-modal",
+        "using stem-and-leaf plots to compare 2 like sets of data; e.g. heights of girls and boys",
+        "constructing grouped histograms showing trends in health issues and using them to justify, verify or invalidate claims",
+        "exploring comparative data from the National Indigenous Australians Agency 'Closing the Gap' reports; discussing comparative distributions in context"
+      ]
+    },
+    "AC9M9ST04": {
+      "strand": "Statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Choose an appropriate display for one given data set (specifying data type as categorical or numerical, discrete or continuous); justify the choice; interpret one key feature of the display.",
+      "typical_width": "Choose appropriate display types for a range of data types (categorical nominal/ordinal, numerical discrete/continuous); justify selections with reference to data type, purpose and audience; interpret displays including stacked bar charts, area charts, line graphs, histograms, dot plots and stem-and-leaf plots; use digital tools to generate and compare displays.",
+      "wider": [
+        "Evaluate non-standard visualisations such as infographics — assess purpose, intended audience and how well they communicate the statistical question",
+        "Use generative AI tools to produce multiple display options for a data set and critically evaluate which form best serves the intended purpose",
+        "Investigate how stacked bar charts and area charts represent part-whole relationships and compare their effectiveness against alternative display types for the same data"
+      ],
+      "elaborations": [
+        "comparing data displays using mean, median and range to describe and interpret numerical data sets using histograms, dot plots or stem-and-leaf plots",
+        "choosing representation type based on data type: categorical (nominal or ordinal) or numerical (discrete or continuous)",
+        "using non-standard representations such as infographics; evaluating how well they communicate for intended audiences",
+        "comparing and interpreting stacked bar charts, area charts and line graphs",
+        "using digital tools including generative AI to generate different data displays and discussing which form is most appropriate"
+      ]
+    },
+    "AC9M9ST05": {
+      "strand": "Statistics",
+      "width_axis": "task_contexts",
+      "minimum_width": "Pose one statistical question; collect or access data relevant to it; represent and analyse the data; report one finding and identify one limitation of the evidence.",
+      "typical_width": "Plan and conduct a statistical investigation with a clear question, appropriate data collection or secondary source selection, analysis using suitable representations and summary statistics, a report of findings, and an honest discussion of what the evidence does and does not support.",
+      "wider": [
+        "Pose statistical questions relating to reconciliation and First Nations Australian communities; collect, represent and interpret data from different sources, considering relationships between variables",
+        "Conduct a multi-variable investigation (e.g. best location for a tropical fruit plantation) using secondary data from multiple sources; compare variables across countries or regions and evaluate the strength of evidence",
+        "Design and conduct a consumer research investigation (e.g. teenage spending habits) with attention to sample techniques, potential bias and the strength of conclusions that can be drawn"
+      ],
+      "elaborations": [
+        "planning and conducting an investigation using secondary data from online databases such as the ABS",
+        "planning and conducting an investigation relating to consumer spending habits; modelling market research on teenage spending with consideration of sample techniques and potential bias",
+        "investigating the best location for a tropical fruit plantation by comparing variables such as annual rainfall in Australia, Indonesia, New Guinea and Malaysia, land prices and farming costs",
+        "posing statistical questions, collecting, representing and interpreting data in relation to reconciliation, considering relationships between variables"
+      ]
+    },
+    "AC9M9P01": {
+      "strand": "Probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "List all outcomes for one two-step compound event (with or without replacement) using a systematic method (tree diagram, table or list); assign probabilities to the outcomes.",
+      "typical_width": "List all outcomes for compound events both with and without replacement using tree diagrams, tables and arrays; assign probabilities to all outcomes; compare how replacing or not replacing changes the probability space; extend to three-stage events using tree diagrams.",
+      "wider": [
+        "Investigate two-step games and competitions (e.g. selecting team leaders from a bag) — use systematic listing to assign exact probabilities and compare to intuitive estimates",
+        "Explore compound events involving real population data (e.g. selecting 2 students from a school year group) and discuss how probabilities change with population size",
+        "Connect compound event probability to combinatorial reasoning — introduce the idea of counting outcomes systematically as a foundation for future work with permutations and combinations"
+      ],
+      "elaborations": [
+        "discussing two-step chance experiments such as Heads and Tails, describing outcomes and probabilities",
+        "using systematic methods (lists or arrays) to record outcomes and assign probabilities",
+        "using a tree diagram for a three-stage event; e.g. selecting 3 cards with and without replacement",
+        "assigning probabilities to compound events involving random selection from a population; e.g. selecting 2 Year 9 students at random from a school"
+      ]
+    },
+    "AC9M9P02": {
+      "strand": "Probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate relative frequencies from a given data set to estimate the probability of one event involving 'and' or 'or'; represent the event using a Venn diagram or two-way table.",
+      "typical_width": "Use relative frequencies from given or collected data to estimate probabilities of events involving 'and', inclusive 'or' and exclusive 'or'; represent compound events using Venn diagrams and two-way tables; connect long-run relative frequency to theoretical probability.",
+      "wider": [
+        "Design, test and refine an algorithm to calculate relative frequencies from a generated data set — use the algorithm to estimate probabilities for compound events and evaluate its reliability",
+        "Investigate how large data sets (e.g. health survey data, census data) are used to estimate population-level probabilities — discuss the role of sample size in reliability",
+        "Connect Venn diagram regions to set notation ('and' = intersection, 'or' = union) as a foundation for formal probability"
+      ],
+      "elaborations": [
+        "understanding that relative frequencies from large data sets or long-run experiments provide reliable probability estimates",
+        "using Venn diagrams or two-way tables to estimate frequencies of events involving 'and' and 'or'",
+        "designing, testing and refining an algorithm to determine relative frequencies from a generated data set to estimate different probabilities"
+      ]
+    },
+    "AC9M9P03": {
+      "strand": "Probability",
+      "width_axis": "task_contexts",
+      "minimum_width": "Design and conduct one chance experiment or simulation using a digital tool; compare the experimental probability of one simple event to a related compound event; describe the result.",
+      "typical_width": "Design and conduct repeated chance experiments and simulations using digital tools; compare probabilities of simple events to related compound events; compare experiments that differ only by with/without replacement; use systematic methods to list favourable outcomes; describe and explain results.",
+      "wider": [
+        "Use repeated trials of First Nations Australian children's instructive games (e.g. Gorri) to calculate probabilities of winning and not winning — compare experimental results to theoretical predictions",
+        "Design a simulation to investigate a counterintuitive probability result (e.g. birthday problem, Monty Hall problem at an accessible level) and use the simulation to build intuition",
+        "Investigate how simulation is used in real-world contexts (e.g. risk modelling, weather forecasting) to estimate probabilities that are too complex to calculate theoretically"
+      ],
+      "elaborations": [
+        "using digital tools to conduct probability simulations demonstrating the relationship between compound event and individual probabilities",
+        "comparing experiments that differ only by with vs without replacement",
+        "conducting two-step chance experiments using systematic methods to list outcomes",
+        "using repeated trials of First Nations Australian children's instructive games (e.g. Gorri) to calculate probabilities of winning and not winning"
+      ]
+    }
+  }
+}

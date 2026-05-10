@@ -1,0 +1,83 @@
+{
+  "year_level": "5-6",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE6P04",
+    "title": "Negotiate criteria and evaluate",
+    "description": "Negotiate design criteria including sustainability to evaluate design ideas, processes and solutions",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can use given or co-developed design criteria including sustainability to evaluate design ideas and solutions (AC9TDE4P04). They have applied provided or jointly created criteria. They have not yet negotiated criteria \u2014 the new demand is taking ownership of developing the criteria collaboratively, including sustainability as a non-optional factor.",
+    "progression_endpoint": "Students negotiate design criteria \u2014 including sustainability \u2014 collaboratively, and use those criteria to evaluate design ideas, processes and solutions throughout a project.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Negotiating design criteria collaboratively",
+        "progression_checkpoint": "Students can collaborate to develop and agree on design criteria that will be used to evaluate a designed solution \u2014 including at least one sustainability criterion",
+        "minimum_width": "Collaboratively develop at least three design criteria for a specific designed solution, including at least one sustainability criterion; explain how each criterion connects to the design's purpose",
+        "typical_width": "Decide on design criteria collaboratively \u2014 discussing what the solution must achieve, what sustainability means in this context (e.g. recyclable, low waste, durable), and how to make criteria specific enough to be testable; develop criteria that distinguish between requirements and preferences",
+        "wider": [
+          "Develop design criteria for a beeswax wrap product \u2014 negotiating which material properties, tool requirements and sustainability factors to include as criteria, and explaining trade-offs between competing criteria",
+          "Develop criteria for a community fundraising event \u2014 including waste reduction, attendance, funds raised and consideration of how to improve future events; explain how each criterion was negotiated among the group",
+          "Include a Safety by Design criterion in the criteria set \u2014 discussing what prevention, protection or proactive change would look like as a measurable design requirement"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students negotiating criteria for the first time tend to produce vague or unmeasurable criteria (e.g. 'it should be good'). The criteria development scaffold \u2014 what must the solution do? \u2192 how will we know it's done? \u2192 what counts as sustainable here? \u2014 produces criteria that can actually be used for evaluation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Contributes at least one criterion to a collaboratively developed set",
+          "Criteria set includes at least one sustainability criterion",
+          "Each criterion is specific enough to be applied when evaluating a solution"
+        ],
+        "related_standards": [
+          "AC9TDE4P04",
+          "AC9TDE6P01",
+          "AC9TDE6K01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Negotiated criteria are the prerequisite for N2 \u2014 if students have not developed criteria, they have nothing to evaluate against. N2's systematic evaluation task cannot proceed without the output of N1."
+      },
+      {
+        "id": 2,
+        "label": "Evaluating solutions against criteria \u2014 including processes and sustainability",
+        "progression_checkpoint": "Students can evaluate design ideas, production processes and finished solutions against negotiated criteria \u2014 including sustainability \u2014 and identify where solutions meet or fall short",
+        "minimum_width": "Apply at least two negotiated criteria to evaluate a design idea or solution; for each criterion, state whether it is met and provide evidence",
+        "typical_width": "Evaluate designed solutions, production processes and design ideas systematically against all negotiated criteria; consider benefits and costs of production processes and environmental impact; use evaluation to determine how well criteria were met and identify what could be improved",
+        "wider": [
+          "Evaluate a designed solution for an animal shelter \u2014 applying criteria related to function, materials, cost and environmental impact; documenting both what was achieved and what would be changed in a future iteration",
+          "Evaluate a school or community fundraising event against multiple criteria (waste, attendance, funds, future improvement) \u2014 gathering relevant data to support each judgement rather than relying on impression",
+          "Iterate and modify a design based on evaluation \u2014 explaining exactly what changed, which criterion drove the change, and how the modification improves the solution's performance against that criterion"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students applying criteria for the first time treat evaluation as description \u2014 listing what they did rather than judging it against a standard. Contexts with multiple, distinct criteria each requiring different evidence (a measurement, a user response, a comparison) help students build evaluation as a multi-criteria reasoning act.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The iteration-driven-by-evaluation direction is rich \u2014 students who connect a specific criterion shortfall to a specific modification are performing genuine design thinking. This is where evaluation becomes generative rather than retrospective.",
+        "success_criteria": [
+          "Applies at least two criteria to evaluate a solution, with evidence for each",
+          "Identifies at least one area where the solution meets criteria and one where it falls short"
+        ],
+        "related_standards": [
+          "AC9TDE6P02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

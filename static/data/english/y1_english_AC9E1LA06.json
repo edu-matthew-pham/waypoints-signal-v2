@@ -1,0 +1,112 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LA06",
+    "title": "Simple sentences",
+    "description": "understand that a simple sentence consists of a single independent clause representing a single event or idea",
+    "strand": "expressing_ideas",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise that sentences are key units for expressing ideas (AC9EFLA05). They have not yet understood the internal structure of a simple sentence — that it consists of a single independent clause with a process (verb), participants (noun groups) and optional circumstances (adverbs).",
+    "progression_endpoint": "Students understand that a simple sentence is a single independent clause representing one event or idea, containing a process, participants and optional circumstances.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "A sentence expresses one event or idea",
+        "progression_checkpoint": "Students can identify that a sentence expresses one complete event or idea and recognise when a sentence is complete.",
+        "minimum_width": "Identify whether a given group of words is a complete sentence (expresses a complete event or idea) or is incomplete.",
+        "typical_width": "Identify complete sentences and explain what makes them complete — they express a whole event or idea. Distinguish complete sentences from fragments and from sequences of multiple events.",
+        "wider": [
+          "Sort a set of word groups into complete sentences and fragments, explaining the decision for each",
+          "Find examples of single-event sentences in a familiar picture book and discuss what each one expresses"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reliably identify a complete sentence cannot identify the participant and process structure in N2 — the completeness concept is definitionally prior to analysis of what a complete sentence contains.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Recognising a complete sentence requires repeated exposure to both examples and non-examples. Students need practice judging completeness across varied sentence types before moving to internal structure.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies at least three complete sentences in a mixed set",
+          "Student explains why a given fragment is not a complete sentence"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sentences have participants and processes",
+        "progression_checkpoint": "Students can identify the participant (who or what) and the process (what is happening) in a simple sentence.",
+        "minimum_width": "In a given simple sentence, identify who or what is involved and what is happening.",
+        "typical_width": "Identify the participant (noun group) and process (verb) in simple sentences, and explain what each contributes to the sentence's meaning — who/what is doing or being something, and what that doing or being is.",
+        "wider": [
+          "Explore sentences with more than one participant (e.g. 'The cat chased the mouse') and identify both participants and the process",
+          "Investigate how changing the participant or process changes the meaning of a sentence"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often focus on identifying the 'doing word' without grasping that participant and process work together as a minimum sentence unit. Varied sentence examples — different participant types, different verb types — help establish the interdependence of these elements."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies the participant and process in at least three simple sentences",
+          "Student explains what the participant and process each contribute to the meaning"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Circumstances add detail",
+        "progression_checkpoint": "Students can identify circumstantial detail (when, where, how) in simple sentences and explain that these details are optional additions to the core event.",
+        "minimum_width": "In a given sentence, identify one circumstantial detail (where, when or how) and confirm the sentence would still make sense without it.",
+        "typical_width": "Identify circumstantial details (adverb groups/phrases answering when, where, how) in simple sentences, and understand that these extend the sentence without creating a new independent clause.",
+        "wider": [
+          "Construct simple sentences that express the same core event with and without circumstances, discussing how meaning changes",
+          "Sort circumstantial details by type (when/where/how) across a range of simple sentences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies a circumstantial detail in a sentence and names what it answers (when/where/how)",
+          "Student confirms the sentence's core event is still expressed without the circumstance"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "The clause as a unit",
+        "progression_checkpoint": "Students can explain that a simple sentence is a single independent clause — one complete event or idea expressed with a participant, process and optional circumstances.",
+        "minimum_width": "Explain that a simple sentence contains one clause representing one event, with a who/what, a doing/being, and optional details.",
+        "typical_width": "Explain the structure of a simple sentence as a single independent clause, identifying its key elements (participant, process, optional circumstances) and understanding that adding circumstances does not create a new clause.",
+        "wider": [
+          "Identify simple sentences and multi-clause sentences in a short text and discuss the difference",
+          "Examine how authors use simple sentences for effect — pace, clarity, emphasis — in narrative and informative texts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This final node integrates participant, process and circumstance into the unified concept of the independent clause — the core schema students need before Year 2 work on compound sentences."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Examining how authors deliberately choose simple sentences for stylistic effect gives advancing students a genuine analytical task that bridges grammar and literary response.",
+        "success_criteria": [
+          "Student explains, in their own words, what makes a sentence a 'simple sentence'",
+          "Student correctly identifies participant, process and any circumstances in a new example sentence"
+        ]
+      }
+    ]
+  }
+}

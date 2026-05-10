@@ -1,0 +1,72 @@
+{
+  "year_level": "1",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S1U03",
+    "title": "Pushes and Pulls",
+    "description": "describe pushes and pulls in terms of strength and direction and predict the effect of these forces on objects' motion and shape",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students have informally experienced pushing and pulling objects. They have not yet described forces in terms of strength and direction or predicted their effects on motion and shape.",
+    "progression_endpoint": "Students describe pushes and pulls in terms of strength (stronger/weaker) and direction, predict how push and pull forces affect the motion and shape of objects, and represent forces using simple labels, arrows or role-play.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Pushes and pulls have strength and direction",
+        "progression_checkpoint": "Students can identify whether a force is a push or a pull, describe its direction, and compare the strength of forces (stronger/weaker).",
+        "minimum_width": "Students identify at least three everyday objects that require a push or pull, describe the direction of each force, and compare the strength needed.",
+        "typical_width": "Students observe and manipulate everyday objects (playground equipment, toys, doors, windows); identify the push or pull required; describe direction and strength; and explain that changing strength or direction changes the outcome for the object.",
+        "wider": [
+          "Investigate the push and pull movements of traditional First Nations Australians' children's instructive toys — examining how force direction and strength produce different play outcomes",
+          "Explore how traditional Asian toys and games (kendama, Daruma Otoshi, shuttlecock) are played using push or pull forces",
+          "Identify how we use pushes and pulls when preparing meals and the tools that help us push or pull objects"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2 requires students to apply strength and direction concepts when predicting force effects. Without being able to characterise a force by its direction and relative strength, students cannot reason about why changing the force changes the outcome for motion or shape.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Traditional toys from First Nations and Asian cultural contexts provide culturally rich and hands-on directions that ground force concepts in diverse real-world objects, building a more complete model of strength and direction before students apply these to prediction in N2.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Traditional toys from First Nations and Asian cultural contexts provide culturally rich and hands-on directions that ground force concepts in diverse real-world objects.",
+        "success_criteria": [
+          "Identifies at least three objects requiring a push or pull and names the direction of each force",
+          "Compares the strength of forces needed for at least two objects"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Forces affect motion and shape",
+        "progression_checkpoint": "Students can predict and describe how pushes and pulls affect the motion (start, stop, change direction, speed) and shape (squash, stretch) of objects.",
+        "minimum_width": "Students describe how a push or pull affects the motion of one object and the shape of one object, and make a prediction before observing.",
+        "typical_width": "Students investigate how push and pull forces start or stop motion, change direction of travel, or change the shape of materials (playdough, soft objects); make and check predictions about force effects; and represent forces using labels, arrows or role-play.",
+        "wider": [
+          "Investigate how the design of sporting equipment (paddles, plastic bats, racquets) produces stronger pushes and pulls — connecting force concepts to design",
+          "Design playground equipment, toys or games and represent push and pull forces using models, digital drawings or role-play",
+          "Explore how engineers use knowledge of forces to create new playground equipment or toys (AC9S1H01)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students readily observe that pushing makes things move but need explicit scaffolding to predict effects before observing and to connect force strength/direction to specific motion or shape outcomes. The prediction-then-observe sequence is the primary scaffold at this year level."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Predicts the effect of a push or pull on an object's motion or shape before observing",
+          "Describes how changing force strength or direction changes the outcome for the object"
+        ],
+        "related_standards": [
+          "AC9S1H01"
+        ]
+      }
+    ]
+  }
+}

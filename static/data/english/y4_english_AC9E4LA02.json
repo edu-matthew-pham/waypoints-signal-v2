@@ -1,0 +1,94 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LA02",
+    "title": "Subjective and objective language",
+    "description": "identify the subjective language of opinion and feeling, and the objective language of factual reporting",
+    "strand": "Language / Interacting",
+    "mode": "A",
+    "prior_knowledge": "Students understand how evaluative and emotive language including modal verbs can vary in forcefulness (AC9E3LA02). They have not yet distinguished subjective language of opinion/feeling from objective language of factual reporting as distinct registers with different purposes.",
+    "progression_endpoint": "Students can identify subjective language (opinion, feeling, thinking verbs) and objective language (factual reporting, summary verbs) in texts, explain the different purposes each serves, and recognise when each is appropriate.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Language of opinion and feeling",
+        "progression_checkpoint": "Students can identify thinking verbs and emotive vocabulary that signal a subjective point of view in a text.",
+        "minimum_width": "Identify thinking verbs (e.g. 'I think', 'I believe', 'I feel') in a provided text and explain that these signal the writer's personal view.",
+        "typical_width": "Identify a range of subjective language features across texts — thinking verbs, emotive adjectives, evaluative adverbs — and explain how these position the reader to share or consider the author's viewpoint.",
+        "wider": [
+          "Compare the use of subjective language across different opinion text types — a review, a letter to the editor, a persuasive speech — and identify which features are consistent and which vary by genre",
+          "Explore how First Nations Australian authors use subjective voice to position readers in relation to cultural knowledge and experience"
+        ],
+        "hinge": true,
+        "hinge_reason": "Identifying objective language in N2 requires students to know what subjective features look like — the contrast between thinking verbs/emotive vocabulary (N1) and summary verbs/neutral vocabulary (N2) is how students distinguish the two registers.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Subjective language features vary widely across opinion text types — students need multiple examples before the pattern is distinguishable from genre-specific features, and before the subjective/objective contrast is reliably seen.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify at least two thinking verbs in a text and explain that they signal personal opinion",
+          "Can distinguish emotive vocabulary (e.g. 'wonderful', 'terrible') from neutral descriptors"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Language of factual reporting",
+        "progression_checkpoint": "Students can identify summary verbs and neutral vocabulary that signal objective, factual reporting in a text.",
+        "minimum_width": "Identify summary verbs (e.g. 'we concluded', 'the report found', 'results showed') in a provided text and explain that these signal reported facts rather than personal views.",
+        "typical_width": "Identify objective language features across informational texts — summary verbs, precise nouns, impersonal constructions, present tense for facts — and explain how these create an effect of factual authority.",
+        "wider": [
+          "Compare how objective language is used differently in scientific reports, news articles and encyclopaedia entries — same information, different degrees of formality",
+          "Examine how news reporting attempts objectivity and identify moments where subjective language creeps in"
+        ],
+        "hinge": true,
+        "hinge_reason": "N3's explanation of why writers choose each register requires students to accurately characterise what each register consists of — the misconception about objective language from N2 produces inaccurate purpose analysis in N3.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students commonly conflate objective language with 'no adjectives' or 'short sentences'. Precision about what objective language features are — summary verbs, impersonal constructions — requires consolidation through multiple examples.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify at least one summary verb and explain that it reports a finding rather than expressing an opinion",
+          "Can distinguish 'The man has 6 cats' (objective) from 'The man has too many noisy cats' (subjective) and name the feature that marks each"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Purpose and context of each register",
+        "progression_checkpoint": "Students can explain why writers choose subjective or objective language depending on the purpose and context of their text.",
+        "minimum_width": "Explain why a particular text uses subjective or objective language by linking the language choice to the text's purpose.",
+        "typical_width": "Compare two texts on similar topics — one subjective (review, opinion piece), one objective (report, news article) — and explain how the purpose of each text drives its language choices.",
+        "wider": [
+          "Analyse a text that mixes subjective and objective language (e.g. a persuasive essay using reported evidence) and explain why the author moves between registers",
+          "Write a short objective and subjective version of the same information about a familiar topic, then discuss the effect of each on the reader"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often assume all informational texts should be objective and all personal texts subjective. Mixed-register texts — persuasive essays, biographies — help students see that purpose, not text type alone, determines register.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The interplay between subjective and objective language in real texts is rich territory — opinion pieces that use objective evidence, reports that reveal authorial bias. Wider engagement builds sophisticated register awareness.",
+        "success_criteria": [
+          "Can explain why a specific text uses the register it does by naming its purpose",
+          "Does not assume that only reports are objective — can identify register choices in any text type"
+        ]
+      }
+    ]
+  }
+}

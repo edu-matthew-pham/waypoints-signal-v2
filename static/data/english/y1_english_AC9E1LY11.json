@@ -1,0 +1,113 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY11",
+    "title": "Use vowels and blends to read and write",
+    "description": "use short vowels, common long vowels, consonant blends and digraphs to write words, and blend these to read one- and two-syllable words",
+    "strand": "phonic_word_knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can manipulate phonemes by addition, deletion and substitution (AC9E1LY10). They have been developing phoneme-grapheme knowledge at Foundation level. They have not yet applied knowledge of long vowels, consonant blends and digraphs systematically to read and write one- and two-syllable words.",
+    "progression_endpoint": "Students use short vowels, common long vowels, consonant blends and digraphs to write words, and blend these to read one- and two-syllable words.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Short vowels in words",
+        "progression_checkpoint": "Students can use short vowel sounds to read and write words with short vowel patterns.",
+        "minimum_width": "Read and write at least five single-syllable words using short vowel patterns (a, e, i, o, u).",
+        "typical_width": "Apply knowledge of all five short vowel sounds to read and write a range of single-syllable words, including CVC and CVCC patterns.",
+        "wider": [
+          "Compare minimal pairs with different short vowels (e.g. 'man', 'men', 'min', 'mon') and discuss how the vowel changes meaning",
+          "Sort words by short vowel sound across five families"
+        ],
+        "hinge": true,
+        "hinge_reason": "Short vowel accuracy is foundational for the entire phonics sequence — errors in short vowels produce systematic misreadings that cascade into long vowel work (N2), digraph work (N3) and two-syllable reading (N4).",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Short vowel accuracy is foundational — errors in short vowels cascade through spelling and decoding. Fluent recognition and production of all five short vowel patterns requires sustained practice.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads single-syllable words with short vowels correctly",
+          "Student writes words with short vowels using correct graphemes"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Common long vowels",
+        "progression_checkpoint": "Students can use common long vowel sounds to read and write words, applying common spelling patterns.",
+        "minimum_width": "Read and write at least three words using a common long vowel pattern (e.g. silent-e: 'time', 'make').",
+        "typical_width": "Apply common long vowel spelling patterns — silent-e, and other common patterns — to read and write words with long vowel sounds.",
+        "wider": [
+          "Explore that long vowels can be represented by different spelling patterns (e.g. the long /a/ in 'make', 'rain', 'play') — introduce at exposure level",
+          "Sort long vowel words by spelling pattern"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who apply short vowel rules to long vowel words produce systematic misreadings — this misconception, if uncorrected, causes persistent errors in reading unfamiliar words with silent-e and other long vowel patterns.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently apply short vowel rules to long vowel words. Encountering long vowels in multiple spelling patterns — even just recognising they exist — helps prevent over-application of the short vowel schema.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads words with a common long vowel pattern correctly",
+          "Student applies at least one long vowel spelling pattern in writing"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Consonant blends and digraphs",
+        "progression_checkpoint": "Students can use consonant blends and digraphs to read and write words.",
+        "minimum_width": "Read and write at least two words with consonant blends and two words with digraphs.",
+        "typical_width": "Apply consonant blend knowledge (initial and final: bl-, st-, cr-, -st, -nd) and common digraphs (sh, ch, th, wh) to read and write single-syllable words.",
+        "wider": [
+          "Compare reading words with blends versus without (e.g. 'rest' vs 'rest' without the -st) to see how blends change meaning",
+          "Collect and categorise words by blend or digraph type"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads single-syllable words containing consonant blends correctly",
+          "Student writes single-syllable words with common digraphs (sh, ch, th) correctly"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Reading two-syllable words",
+        "progression_checkpoint": "Students can blend phoneme knowledge to read one- and two-syllable words.",
+        "minimum_width": "Read at least three two-syllable words by breaking them into syllables and blending.",
+        "typical_width": "Apply blending skills to read one- and two-syllable words containing short vowels, long vowels, blends and digraphs, using syllable boundary knowledge to manage two-syllable words.",
+        "wider": [
+          "Read two-syllable compound words and discuss how each syllable carries meaning",
+          "Explore how syllable boundaries are determined in two-syllable words"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Reading two-syllable words requires integrating all prior phonics knowledge — vowel patterns, blends, digraphs — across multiple syllables. It is the integration task that demonstrates applied phonic knowledge."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads a two-syllable word by attempting to break it into syllables",
+          "Student correctly reads at least three two-syllable words using phonic knowledge"
+        ]
+      }
+    ]
+  }
+}

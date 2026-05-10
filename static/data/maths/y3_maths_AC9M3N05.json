@@ -1,0 +1,68 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3N05",
+    "title": "Estimation",
+    "strand": "Number",
+    "mode": "A",
+    "description": "estimate the quantity of objects in collections and make estimates when solving problems to determine the reasonableness of calculations",
+    "prior_knowledge": "No direct predecessor in progression map. Students have worked with counting and place value but have not yet developed explicit estimation strategies or used estimation to check reasonableness of calculations.",
+    "progression_endpoint": "Students estimate the quantity of objects in collections and use estimation to judge whether calculated answers are reasonable.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Estimation strategies for collections",
+        "progression_checkpoint": "Students can estimate the quantity of objects in a collection using a benchmark or grouping strategy, and explain their reasoning.",
+        "minimum_width": "Estimate the quantity in one collection of 20–100 objects using a stated strategy (chunking or benchmark); compare estimate to actual count.",
+        "typical_width": "Estimate quantities across collections of varying sizes using chunking, anchoring and benchmarking strategies; reflect on accuracy of estimates.",
+        "wider": [
+          "Estimate quantities in real-world contexts — number of seeds in a fruit, tiles on a floor, students in an assembly — and discuss sources of estimation error",
+          "Explore estimation contexts used in First Nations Australian land management practices (e.g. estimating quantities of food resources)"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a small repertoire of strategies (chunking, anchoring, benchmarking) to make estimation portable across contexts. Teaching one strategy and moving on limits applicability.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real-world estimation contexts provide genuine richness — students encounter that estimation is contextually purposeful (when is close enough good enough?) and that different contexts call for different tolerances.",
+        "success_criteria": [
+          "Students can estimate the size of a collection and name the strategy they used.",
+          "Students can compare their estimate to the actual count and reflect on its reasonableness."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Estimation to check reasonableness",
+        "progression_checkpoint": "Students can estimate the answer to an addition or subtraction problem before calculating, and use the estimate to judge whether their calculated answer is reasonable.",
+        "minimum_width": "For two calculation problems, make a prior estimate and then check whether the calculated answer is in the right range; explain the judgment.",
+        "typical_width": "Apply estimation to check reasonableness of addition, subtraction and simple multiplication calculations; explain how to recognise an unreasonable answer.",
+        "wider": [
+          "Apply estimation-before-calculation as a regular habit across multiplicative problems, discussing when estimation is more efficient than exact calculation",
+          "Investigate how rounding strategies affect estimation accuracy — comparing rounding to nearest 10 vs nearest 100"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The reasoning chain 'estimate first → calculate → compare → judge' needs explicit scaffolding. Without it, students often treat estimation as an add-on rather than a checking tool."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can make a prior estimate for a calculation problem and state a reasonable range.",
+          "Students can identify a calculated answer as reasonable or unreasonable based on their estimate and explain why."
+        ],
+        "related_standards": ["AC9M3N03", "AC9M3N04", "AC9M3N06"]
+      }
+    ]
+  }
+}

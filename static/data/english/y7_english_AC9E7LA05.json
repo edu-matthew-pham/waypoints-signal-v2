@@ -1,0 +1,128 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LA05",
+    "title": "Complex and compound-complex sentences",
+    "description": "Understand how complex and compound-complex sentences can be used to elaborate, extend and explain ideas",
+    "strand": "Language — Expressing and developing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand how embedded clauses can expand complex sentences to elaborate and explain ideas (AC9E6LA05). They have not yet worked with compound-complex sentences — the combination of coordination and subordination in a single sentence — or examined how sentence structure choices serve rhetorical purposes (elaborating, extending, explaining).",
+    "progression_endpoint": "Students understand how complex and compound-complex sentences can be used to elaborate, extend and explain ideas.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Clause types and relationships",
+        "progression_checkpoint": "Students can identify independent and dependent clauses and explain the relationship between them in a complex sentence",
+        "minimum_width": "Label the independent and dependent clauses in a given complex sentence; explain what the dependent clause adds to the independent clause",
+        "typical_width": "Identify clause relationships across several complex sentences; explain how the dependent clause elaborates, extends or qualifies the main idea in each case",
+        "wider": [
+          "Examine how the position of the dependent clause (before or after the independent clause) changes emphasis — 'Although it was raining, we went ahead' vs 'We went ahead, although it was raining'",
+          "Identify clause relationships in sentences from a range of text types (narrative, explanation, argument) and discuss how subordination serves different purposes in each"
+        ],
+        "hinge": true,
+        "hinge_reason": "Clause identification errors here propagate directly into Nodes 2 and 3 — students who cannot reliably distinguish independent from dependent clauses cannot identify compound-complex structure or explain elaboration/extension/explanation relationships.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Clause identification is a precision skill with a high error rate — students commonly mislabel the dependent clause as the main idea, or treat any long clause as 'complex'. Fluency here is the prerequisite for everything that follows; practice with varied sentence structures (not just textbook examples) builds the reliable recognition the later nodes depend on.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the independent and dependent clause in a given complex sentence",
+          "Explains what the dependent clause contributes to the meaning of the sentence"
+        ],
+        "related_standards": ["AC9E7LA06"]
+      },
+      {
+        "id": 2,
+        "label": "Compound-complex sentence structure",
+        "progression_checkpoint": "Students can identify and construct compound-complex sentences, distinguishing them from complex sentences",
+        "minimum_width": "Given a compound-complex sentence, identify its independent clauses and at least one dependent clause; explain how it differs from a complex sentence",
+        "typical_width": "Construct compound-complex sentences by combining coordination and subordination; discuss how adding a second independent clause changes what the sentence can express compared to a complex sentence alone",
+        "wider": [
+          "Compare a complex and compound-complex version of the same idea — 'When dinosaurs roamed the earth, vegetation depleted' vs 'When dinosaurs roamed the earth, weather patterns shifted significantly and as a result vegetation depleted' — and explain what the compound-complex version adds",
+          "Identify compound-complex sentences in published texts and discuss why the author chose that structure over a simpler alternative"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse compound-complex sentences with long or complicated sentences generally. The distinction between coordination and subordination — and what happens when both operate in the same sentence — only becomes clear when students see the structure across enough varied examples to isolate the pattern. A single textbook example produces surface recognition; breadth across sentence types and contexts builds the structural understanding.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison between complex and compound-complex versions of the same idea is genuinely rich — it foregrounds the structural choice as a meaning-making decision, not just a grammatical category. Advancing students can investigate how the second independent clause changes the rhetorical weight of the sentence.",
+        "success_criteria": [
+          "Identifies the independent and dependent clauses in a compound-complex sentence",
+          "Distinguishes a compound-complex sentence from a complex sentence and explains the structural difference"
+        ],
+        "related_standards": ["AC9E7LA04"]
+      },
+      {
+        "id": 3,
+        "label": "Elaborating, extending and explaining",
+        "progression_checkpoint": "Students can explain how complex and compound-complex sentence structures are used to elaborate, extend and explain ideas",
+        "minimum_width": "For a given sentence, identify whether the structure elaborates, extends or explains the main idea; give a reason",
+        "typical_width": "Examine several sentences and match each to the purpose it serves (elaborating — adding detail; extending — adding a related idea; explaining — giving a reason or condition); discuss how the clause relationship signals the purpose",
+        "wider": [
+          "Examine how the same base clause can be developed in different directions depending on the subordinating conjunction chosen — 'because', 'although', 'when', 'so that' each signal a different relationship and serve a different purpose",
+          "Compare how elaboration, extension and explanation are distributed differently across text types — argument texts tend toward explanation structures; narratives tend toward elaboration and extension"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students can correctly label clause types without being able to explain what purpose the structure serves. The elaboration/extension/explanation distinction requires students to reason about the semantic relationship between clauses, not just the grammatical label. An explicit reasoning scaffold — what does the dependent clause add, and what word signals that relationship — is what makes the distinction productive rather than a new set of labels to memorise."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The three purposes (elaborate, extend, explain) are not always cleanly distinct — a clause can extend and explain simultaneously. Seeing the structure across a range of text types and sentence examples helps students develop a flexible understanding of how clause relationships serve purpose, rather than treating the three categories as fixed boxes.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The relationship between subordinating conjunctions and semantic purpose is genuinely rich territory — advancing students can investigate how conjunction choice shapes meaning and begin to make deliberate structural choices in their own writing. This connects directly to AC9E7LY06 (creating texts for purpose).",
+        "success_criteria": [
+          "Identifies whether a given complex or compound-complex sentence elaborates, extends or explains the main idea",
+          "Explains how the clause structure signals the purpose"
+        ],
+        "related_standards": ["AC9E7LY06", "AC9E7LA04"]
+      },
+      {
+        "id": 4,
+        "label": "Sentence structure as a deliberate choice",
+        "progression_checkpoint": "Students can understand how writers choose between simple, complex and compound-complex sentences to serve different expressive purposes",
+        "minimum_width": "Given a short passage, identify where the writer has used a complex or compound-complex sentence and explain why a simpler sentence would have been less effective at that point",
+        "typical_width": "Examine how a writer varies sentence structure across a passage — when they choose simple sentences for impact and when they choose complex or compound-complex sentences to carry more meaning; discuss the cumulative effect",
+        "wider": [
+          "Explore the ACARA elaboration insight that a simple sentence can express sophisticated ideas and a complex sentence need not express 'complex' ideas — find examples in published texts that challenge the assumption that longer = more sophisticated",
+          "Examine how writers use sentence structure variation for rhythm and reader engagement, not just logical development of ideas"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The misconception that sentence sophistication equals sentence length is persistent and cuts across the whole descriptor. Students need to see enough counterexamples — powerful simple sentences alongside unwieldy complex ones — across varied text types before this understanding sticks. A single example is not enough to dislodge the length-equals-sophistication assumption.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "This is the integration node where grammatical understanding becomes a reader's and writer's tool. The insight that sentence structure is a deliberate choice — not a measure of difficulty — is the conceptual payoff of the whole descriptor. Advancing students who explore this across published texts build a transferable metalinguistic awareness that feeds directly into their own writing.",
+        "success_criteria": [
+          "Identifies where a writer has used a complex or compound-complex sentence and gives a reason for the choice",
+          "Explains why varying sentence structure serves the text's purpose better than using one sentence type throughout"
+        ],
+        "related_standards": ["AC9E7LY06", "AC9E7LE06"]
+      }
+    ]
+  }
+}

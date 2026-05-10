@@ -1,0 +1,94 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1ST02",
+    "title": "Represent and compare categorical data",
+    "description": "Represent collected data for a categorical variable using one-to-one displays and digital tools where appropriate; compare the data using frequencies and discuss the findings",
+    "strand": "Statistics and Probability",
+    "mode": "B",
+    "prior_knowledge": "Students can collect, sort and compare data represented by objects and images (AC9MFST01). They can acquire and record data using lists, tallies and symbols (AC9M1ST01). They have not yet represented data in formal one-to-one displays, used frequency counts to compare categories, or discussed findings in terms of most/least frequent categories.",
+    "progression_endpoint": "Students represent collected data for a categorical variable using one-to-one displays and digital tools where appropriate; compare the data using frequencies and discuss the findings.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Create one-to-one displays",
+        "progression_checkpoint": "Students can represent categorical data in a one-to-one display (pictograph or object display) where each item represents exactly one data value.",
+        "minimum_width": "Create one pictograph or object display for a categorical data set; ensure one object or drawing represents one data value.",
+        "typical_width": "Create pictographs with objects or drawings; discuss category choice; arrange items clearly into categories; reflect on whether the chosen categories were helpful; understand that one symbol represents one data value (one-to-one principle).",
+        "wider": [
+          "Explore First Nations Australian children's instructive games (e.g. Kolap from Mer Island), recording outcomes, creating a one-to-one display and discussing what patterns the display shows.",
+          "Create digital one-to-one displays using available classroom tools, comparing the digital representation with a hand-drawn pictograph of the same data."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "The one-to-one principle (each symbol/object represents exactly one data value) requires careful physical practice to establish. Students who use different-sized symbols or place symbols in non-aligned rows produce displays that cannot be read reliably — precise construction needs explicit reinforcement.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Displays that violate the one-to-one principle cannot be reliably read for frequency comparison in Node 3 — students who use differently-sized symbols or misaligned rows produce displays from which frequency comparisons are invalid.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates a one-to-one display with each data value represented by exactly one object or symbol.",
+          "Arranges symbols clearly into categories."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Translate between display formats",
+        "progression_checkpoint": "Students can translate data between a list or tally and a pictograph, and between a pictograph and a tally, recognising that the same data can be represented in multiple ways.",
+        "minimum_width": "Convert a tally chart into a pictograph (or vice versa) for the same data set; confirm the total count is preserved.",
+        "typical_width": "Translate between lists, tally charts and pictographs; use skip counting by fives to count tally marks efficiently; explain what each format shows and when each is useful; recognise that all formats represent the same underlying data.",
+        "wider": [
+          "Compare three representations of the same data (list, tally, pictograph) and evaluate which is most useful for answering specific questions about the data.",
+          "Represent the same data using both paper-based and digital formats, discussing what is easier and harder to communicate in each."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Translating between formats requires students to track data integrity — the count in each format must match. Scaffolding the translation with a checking step (do the totals match?) builds data discipline and reinforces the idea that the format is a representation of the same underlying information."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Converts a tally chart to a pictograph (or vice versa) with matching totals for each category.",
+          "Uses skip counting by fives to read tally marks."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Compare frequencies and discuss findings",
+        "progression_checkpoint": "Students can compare the frequencies of categories in a data display, identify the most and least frequent categories, and discuss what the data shows.",
+        "minimum_width": "State which category has the most responses and which has the fewest from a completed display; describe one finding from the data.",
+        "typical_width": "Compare category frequencies using counting strategies; identify the most and least frequent categories; discuss what the data shows in terms of the original question; address zero-frequency categories (include or omit); explain what the term 'frequency' means.",
+        "wider": [
+          "Investigate class data collected over multiple sessions (e.g. daily mood, weekly weather), comparing frequencies across time and discussing whether the pattern is consistent or variable.",
+          "Discuss what additional questions the data raises and plan a follow-up investigation to answer one of them."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Comparing frequencies and discussing findings requires students to read the display, apply counting strategies, interpret the result in the context of the original question, and communicate the finding — the full statistical sense-making cycle operating together.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Discussing findings from data — connecting the display back to a real question — is where statistical reasoning begins. Students who engage richly here develop the habit of asking what data means, not just what it shows.",
+        "success_criteria": [
+          "Identifies the most and least frequent categories in a data display.",
+          "States one finding from the data in terms of the original question."
+        ],
+        "related_standards": ["AC9M1ST01"]
+      }
+    ]
+  }
+}

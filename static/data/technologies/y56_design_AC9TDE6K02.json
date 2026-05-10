@@ -1,0 +1,85 @@
+{
+  "year_level": "5-6",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE6K02",
+    "title": "Electrical energy transformations",
+    "description": "Explain how electrical energy can be transformed into movement, sound or light in a product or system",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how forces and the properties of materials affect function in a product or system (AC9TDE4K02). They understand that materials have properties that affect how products work. They have not yet connected electrical energy specifically to output transformations \u2014 movement, sound, or light \u2014 or worked with circuits as systems.",
+    "progression_endpoint": "Students explain how electrical energy is transformed into movement, sound or light in products and systems, and can identify the components needed to control these transformations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Electrical energy can be transformed into different outputs",
+        "progression_checkpoint": "Students can identify that electrical energy can be transformed into movement, sound or light, and give an example of each",
+        "minimum_width": "Identify at least two different outputs that electrical energy can be transformed into (movement, sound, light) and name a product that performs each transformation",
+        "typical_width": "Explain how electrical energy is transformed into movement, sound or light across a range of products; describe what component performs the transformation in each case (e.g. motor \u2192 movement, speaker \u2192 sound, LED \u2192 light)",
+        "wider": [
+          "Investigate how automated photovoltaic (solar) systems transform electrical energy to control movement in aquaculture systems \u2014 explaining how this creates opportunities for First Nations Australians in coastal northern Australia",
+          "Deconstruct a torch or buzzer to identify the components and explain how each contributes to the energy transformation \u2014 tracing the path from power source to output",
+          "Investigate how sun-tracking solar panels use electrical energy to control movement, and how this improves renewable energy production efficiency in remote communities"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly know that electricity 'powers' things but don't think of it as a transformation \u2014 energy changing form. Multiple products each showcasing a different transformation output (motor, LED, speaker) help students build the generalisation: electricity in, different form of energy out.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The photovoltaic/aquaculture and solar tracking contexts from the elaborations are genuinely rich \u2014 they situate energy transformation in real-world renewable energy systems with social and economic dimensions, rather than just toy examples.",
+        "success_criteria": [
+          "Names at least two different outputs of electrical energy transformation",
+          "Identifies the component that performs the transformation in at least one product"
+        ],
+        "related_standards": [
+          "AC9TDE4K02",
+          "AC9TDE6K05",
+          "AC9TDE6P01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify that electrical energy transforms into different outputs cannot reason about which components to select or arrange in N2 \u2014 the planning and control task in N2 requires knowing what transformation is needed."
+      },
+      {
+        "id": 2,
+        "label": "Planning and controlling a system to produce a specific output",
+        "progression_checkpoint": "Students can explain how components in a circuit or system are selected and arranged to produce and control a specific output (movement, sound or light)",
+        "minimum_width": "Plan the components needed for a simple circuit that produces one specific output; explain the role of each component (power source, switch, output device)",
+        "typical_width": "Plan and select components for a system to perform a specific task; explain how switches, power sources and output components work together; describe how the arrangement of components controls the output (e.g. controlling movement with a switch, varying light with different resistors)",
+        "wider": [
+          "Construct or model a system that controls movement, sound or light \u2014 e.g. an automaton, a pulley-based lifting system, or a circuit in a security system \u2014 explaining how each component contributes to the overall output",
+          "Investigate the properties of materials that affect a circuit's output \u2014 for example, how the reflectivity of a surface affects a light sensor in a security system \u2014 connecting material properties to system performance"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Component selection is a reasoning task \u2014 students must work backwards from the desired output to the components needed. The reasoning chain (what output is needed? \u2192 what component produces it? \u2192 what controls it? \u2192 what powers it?) prevents students from listing components without understanding their roles."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates individual component knowledge into a working system understanding. The switch, power source and output device must be understood as a coordinated system, not separate items \u2014 the integration act is designing for a specific, controlled output."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the components needed for a circuit producing a specific output",
+          "Explains the role of each component in the system"
+        ],
+        "related_standards": [
+          "AC9TDE6K05",
+          "AC9TDE6P01",
+          "AC9TDE6P03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

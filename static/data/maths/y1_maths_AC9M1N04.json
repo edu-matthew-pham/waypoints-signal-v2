@@ -1,0 +1,102 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1N04",
+    "title": "Add and subtract within 20",
+    "description": "Add and subtract numbers within 20, using physical and virtual materials, part-part-whole knowledge to 10 and a variety of calculation strategies",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can represent practical addition and subtraction situations using materials and counting strategies (AC9MFN05). They can partition and combine collections to 10 using part-part-whole relationships (AC9MFN04). They have not yet applied systematic calculation strategies (counting on, bridging through 10, partitioning) to add and subtract within 20.",
+    "progression_endpoint": "Students add and subtract numbers within 20 using physical and virtual materials, part-part-whole knowledge to 10 and a variety of calculation strategies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Counting-on and counting-back strategies",
+        "progression_checkpoint": "Students can add and subtract within 20 using counting-on from the larger number and counting-back strategies, recording with + and − symbols and the equal sign.",
+        "minimum_width": "Add two numbers within 20 using counting-on; subtract using counting-back; record one calculation using + or − and = symbols.",
+        "typical_width": "Apply counting-on and counting-back strategies consistently within 20; use physical materials and number lines to represent the strategy; record calculations using + and − symbols and the equal sign; connect materials to symbolic recording.",
+        "wider": [
+          "Compare counting-on with counting-all for the same calculation, articulating why counting-on is more efficient and when each strategy might be preferred.",
+          "Use virtual number lines to model counting-on and counting-back, comparing the visual jump with the physical count."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students transitioning from counting-all to counting-on need practice to make counting-on the default strategy. The key error — starting the count at the first addend rather than the count after it — requires targeted correction and fluency practice.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Counting-on is the baseline strategy required for Node 2 — students who still default to counting-all cannot efficiently apply the bridging-through-10 strategy, which requires holding the first addend as a fixed starting point and partitioning the second.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies counting-on correctly for addition within 20 (starts count at the larger number + 1).",
+          "Records the calculation using + or − and = symbols."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Bridging through 10",
+        "progression_checkpoint": "Students can add numbers within 20 by partitioning one addend to bridge through 10, using part-part-whole knowledge.",
+        "minimum_width": "Partition one addend to make 10 with the other, then add the remainder; record the bridging strategy as a number sentence (e.g. 7 + 5 = 7 + 3 + 2 = 10 + 2 = 12).",
+        "typical_width": "Apply bridging through 10 to a range of additions within 20; use physical materials (ten-frames, counters) to model the partition; record the full bridging chain as a number sentence; connect the strategy to part-part-whole knowledge of combinations to 10.",
+        "wider": [
+          "Investigate which additions within 20 can be most efficiently solved by bridging (those that cross 10) versus those best solved by counting-on or using doubles, building a strategic repertoire.",
+          "Create story problems that require bridging through 10 and explain why bridging is the most efficient strategy for each."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Bridging through 10 relies on automatic knowledge of number combinations to 10. Students who don't yet know, for example, that 7 + 3 = 10 cannot apply the bridge. Using ten-frames and part-part-whole materials in varied contexts helps students see the bridging move as a general strategy rather than a procedure to memorise.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "The bridging chain (7 + 5 = 7 + 3 + 2 = 10 + 2 = 12) is a multi-step reasoning sequence. Students need the full chain made visible before they can apply it independently. Recording each step explicitly is the scaffold.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Bridging through 10 is a prerequisite strategy for two-digit addition in Year 2 — students who cannot apply it within 20 will lack the foundational move required when adding across decade boundaries. It is also required for Node 3 subtraction strategies that use the think-addition approach.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Bridging through 10 is the conceptual engine of mental addition strategies. Students who understand why it works (because 10 is a landmark number and our number system is base-10) develop transferable reasoning that extends to two-digit addition in Year 2.",
+        "success_criteria": [
+          "Partitions one addend correctly to make 10 with the other when adding numbers that cross 10.",
+          "Records the bridging chain with correct number sentences showing each step."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Subtraction strategies within 20",
+        "progression_checkpoint": "Students can subtract within 20 using a range of strategies including counting-back, using related addition facts, and partitioning, choosing strategies based on the numbers involved.",
+        "minimum_width": "Subtract within 20 using at least one strategy beyond counting-all; represent using physical materials or a Think Board.",
+        "typical_width": "Apply counting-back, think-addition (using known addition facts), and partitioning strategies to subtract within 20; represent story problems on a Think Board; use + and − symbols and the equal sign; explain which strategy was chosen and why.",
+        "wider": [
+          "Explore subtraction through creation and performance of addition and subtraction stories in movement contexts — connecting the mathematical operation to narrative and embodied experience.",
+          "Compare 'taking away' and 'finding the difference' as two subtraction interpretations, using the same number sentence to represent both situations."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often treat subtraction as only 'take away', missing the 'difference' and 'missing addend' interpretations. Varied story contexts are necessary to build the broader concept — the same symbolic subtraction sentence represents multiple real-world situations."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates counting strategies, part-part-whole knowledge, and symbolic recording into flexible strategy selection. Students need to coordinate all three to solve novel subtraction situations efficiently."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Solves subtraction problems within 20 using a strategy other than counting-all.",
+          "Represents a subtraction story problem using a diagram or Think Board and records it with a correct number sentence."
+        ]
+      }
+    ]
+  }
+}

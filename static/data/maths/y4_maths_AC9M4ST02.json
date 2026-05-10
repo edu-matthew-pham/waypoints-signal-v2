@@ -1,0 +1,61 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4ST02",
+    "title": "Comparing data displays",
+    "description": "Analyse the effectiveness of different displays or visualisations in illustrating and comparing data distributions, then discuss the shape of distributions and the variation in the data",
+    "strand": "Statistics",
+    "mode": "A",
+    "prior_knowledge": "Students can create and compare different graphical representations (AC9M3ST02). They have not yet analysed the relative effectiveness of different displays or discussed distribution shape and variation.",
+    "progression_endpoint": "Students analyse the effectiveness of different data displays, discuss distribution shape and identify variation in data.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Comparing display types",
+        "progression_checkpoint": "Students can compare two or more data displays of the same data and identify differences in what each communicates effectively.",
+        "minimum_width": "Compare two different displays of the same dataset; identify one way each display is more or less useful for answering a particular question.",
+        "typical_width": "Compare student-generated and digital displays of the same data; describe similarities and differences; comment on usefulness for different questions; interpret representations from media where symbols represent one-to-many relationships.",
+        "wider": [
+          "Evaluate data representations from news sources or online media, asking 'what questions can this display answer?' and 'what information does it obscure or distort?'",
+          "Investigate how AI developers use data visualisation as a step in data preparation, connecting data analysis to real-world AI applications"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can compare two displays of the same data and describe at least one advantage of each for a specific purpose",
+          "Students can suggest at least one question that can be answered by a given display"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Distribution shape and variation",
+        "progression_checkpoint": "Students can discuss the shape of a data distribution and describe the variation in the data.",
+        "minimum_width": "Describe one feature of a distribution's shape (e.g. which category has the most data, whether values are spread out or clustered).",
+        "typical_width": "Discuss the shape of distributions using informal language (spread out, clustered, even); identify the highest and lowest frequency categories; describe variation — how much the values differ; comment on what the distribution suggests about the original question.",
+        "wider": [
+          "Compare distributions from two different data sets on the same question (e.g. survey results from two different classes) and describe the differences in shape and variation",
+          "Investigate what happens to a distribution when the sample size changes — collecting data in two rounds and comparing the distributions"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Discussing distribution shape requires students to move beyond individual data points to see the aggregate pattern. The reasoning scaffold — 'look at the whole shape first, then describe where the data clusters' — must be made explicit to shift from point-by-point reading to pattern recognition."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can describe the overall shape of a distribution using informal language",
+          "Students can identify and describe the variation in a data set (whether values are spread out or clustered)"
+        ]
+      }
+    ]
+  }
+}

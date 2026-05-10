@@ -1,0 +1,97 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6M01",
+    "title": "Convert metric units",
+    "description": "Convert between common metric units of length, mass and capacity; choose and use decimal representations of metric measurements relevant to the context of a problem",
+    "strand": "measurement",
+    "mode": "A",
+    "prior_knowledge": "Students can choose appropriate metric units when measuring length, mass and capacity (AC9M5M01). They can multiply and divide by powers of 10 (AC9M6N06). They have not yet systematically applied decimal representations in metric conversions or selected appropriate units for problem contexts.",
+    "progression_endpoint": "Students can convert between common metric units of length, mass and capacity and choose and use decimal representations of metric measurements relevant to a problem context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Metric conversion as powers-of-10 operation",
+        "progression_checkpoint": "Students can explain that metric conversions involve multiplying or dividing by powers of 10 and apply this to convert between adjacent metric units.",
+        "minimum_width": "Convert between adjacent metric units for length (km\u2194m, m\u2194cm, cm\u2194mm), mass (kg\u2194g), and capacity (L\u2194mL) by multiplying or dividing by 10, 100, or 1000; identify the conversion factor for each pair.",
+        "typical_width": "Convert between adjacent and non-adjacent metric units across length, mass and capacity; connect the conversion factor to the prefix system (kilo = \u00d71000, centi = \u00f7100, milli = \u00f71000); apply powers-of-10 reasoning to conversion without memorising separate rules.",
+        "wider": [
+          "Investigate the SI metric prefix system beyond kilo and milli \u2014 mega, giga, micro, nano \u2014 and connect to scientific and technology contexts (gigabytes, nanometres)",
+          "Explore how metric units are defined in terms of each other and why the prefix system makes conversion simple compared to imperial units"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often convert correctly within a familiar domain (length) but fail to transfer the same powers-of-10 logic to mass or capacity. Encountering all three measurement types with the same underlying reasoning builds a general conversion schema.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Reliable conversion across measurement types (not just length) is the prerequisite for Node 3 problem solving, which embeds conversion decisions in multi-attribute problems. Students who have only surface familiarity with length conversions will fail to identify or execute conversions for mass and capacity.",
+        "success_criteria": [
+          "Student correctly converts between adjacent metric units across at least two measurement types.",
+          "Student states the conversion factor and whether to multiply or divide for a given conversion."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Decimal representations of metric measurements",
+        "progression_checkpoint": "Students can express metric measurements using decimal notation and choose the representation most relevant to the context.",
+        "minimum_width": "Express a measurement given in two units (e.g. 2 km 350 m) as a decimal in the larger unit (2.35 km); convert a decimal measurement to a two-unit expression.",
+        "typical_width": "Convert flexibly between two-unit and decimal representations of metric measurements; select the representation most useful for a given problem context (e.g. 1.5 kg vs 1500 g for a recipe vs a parcel weight); explain the connection between decimal place value and metric prefixes.",
+        "wider": [
+          "Investigate contexts where different decimal precisions are appropriate \u2014 when does 2.350 km matter? When is 2.4 km sufficient?",
+          "Explore real product labels and scientific data using metric measurements and evaluate the representation choices made"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Choosing between decimal and two-unit representations is a contextual judgment, not a procedural rule. Students need varied problem contexts to build the judgment of when each representation is useful."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student converts a two-unit metric measurement to a decimal representation in the larger unit.",
+          "Student selects an appropriate representation for a given problem context and explains the choice."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Metric conversions in problem solving",
+        "progression_checkpoint": "Students can identify when unit conversion is necessary to solve a problem, perform the conversion, and use the result appropriately.",
+        "minimum_width": "Solve at least two problems where metric units must be converted before comparing or operating on measurements; show the conversion step before the calculation.",
+        "typical_width": "Solve problems requiring conversion within and across measurement attributes; select the appropriate unit for the answer; apply to real contexts including cooking, sport, travel, and science.",
+        "wider": [
+          "Investigate problems where converting to a common unit changes the form of the calculation \u2014 e.g. adding 1.5 km + 750 m requires a conversion decision",
+          "Explore measurement contexts where mixed units create errors (e.g. historical NASA metric/imperial confusion) and discuss the importance of unit consistency"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Problem-solving with metric conversion integrates conversion rules, decimal representation choices, and contextual judgment. The coordination of these \u2014 identifying the need to convert, choosing the target unit, performing the conversion, and using the result \u2014 is the endpoint of this standard.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Metric conversion in applied problem contexts is practically significant and connects to science, health, sport, and technology. Advancing students benefit from encountering diverse problem types that reveal different conversion decisions.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies that a conversion is needed before solving a problem and performs it correctly.",
+          "Student uses the converted value to complete the calculation and expresses the answer in appropriate units."
+        ]
+      }
+    ]
+  }
+}

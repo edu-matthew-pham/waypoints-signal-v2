@@ -1,0 +1,66 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LY08",
+    "title": "Write legibly with growing fluency",
+    "description": "write words legibly and with growing fluency using unjoined upper-case and lower-case letters",
+    "strand": "Literacy — Creating",
+    "mode": "B",
+    "prior_knowledge": "Students write letters with developing formation using unjoined upper- and lower-case letters (Foundation). They have not yet written with growing fluency — consistent letter forms that do not slow down writing production.",
+    "progression_endpoint": "Students can write words legibly with growing fluency using consistent unjoined upper-case and lower-case letters.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Consistent letter formation",
+        "progression_checkpoint": "Students can form upper-case and lower-case letters consistently and legibly across a short piece of writing.",
+        "minimum_width": "Write a short passage where all letters are correctly formed and legible.",
+        "typical_width": "Sustain consistent and legible letter formation across varied writing tasks — short compositions, lists, labels — maintaining correct pencil grip/grasp.",
+        "wider": [
+          "Limited width — consistent letter formation does not vary meaningfully across contexts. Extensions such as speed writing or letter size variation go further in one dimension rather than broadening the skill."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Letter formation is a fluency and automaticity task. Students need repeated practice to consolidate accurate, legible formation so that handwriting does not consume cognitive resources needed for composition. Practice and habit-forming is the productive investment — width is thin.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "If letter formation is not automatic, cognitive load from handwriting displaces the composition capacity needed for all written production tasks — students who must consciously form letters cannot simultaneously plan, draft or edit what they are writing.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student's letters are recognisably correct and legible across a short piece of writing.",
+          "Student demonstrates a functional pencil grip/grasp."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Growing writing fluency",
+        "progression_checkpoint": "Students write at a pace that does not impede composition — forming letters without significant pausing or re-forming.",
+        "minimum_width": "Complete a short timed writing task (e.g. two or three sentences) without significant slowdown due to letter formation difficulty.",
+        "typical_width": "Write across varied tasks with growing fluency — speed does not need to be fast, but letter formation should not be the bottleneck for ideas.",
+        "wider": [
+          "Limited width — writing fluency is a developmental capacity built through practice volume, not breadth of contexts."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fluency is built through volume of practice. This is a consolidation node — what students need is more writing time, not more types of writing contexts. Thin width acknowledged.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Writing pace that cannot keep up with ideas causes composition to stall regardless of vocabulary or grammar knowledge — students lose their intended ideas before they can be recorded, undermining all subsequent written composition tasks.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student completes writing tasks without pausing significantly to re-form individual letters.",
+          "Writing pace is sufficient that ideas are not lost while forming letters."
+        ]
+      }
+    ]
+  }
+}

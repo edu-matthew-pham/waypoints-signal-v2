@@ -1,0 +1,115 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3N01",
+    "title": "Numbers beyond 10 000",
+    "strand": "Number",
+    "mode": "A",
+    "description": "recognise, represent and order natural numbers using naming and writing conventions for numerals beyond 10 000",
+    "prior_knowledge": "Students can recognise, represent and order numbers to at least 1000 using physical and virtual materials, numerals and number lines (AC9M2N01). They have not yet worked with numbers beyond the thousands range, or applied naming and writing conventions to numbers in the ten-thousands and beyond.",
+    "progression_endpoint": "Students recognise, represent and order natural numbers in the ten-thousands and beyond, applying correct naming and writing conventions for multi-digit numerals.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Place value to ten-thousands",
+        "progression_checkpoint": "Students can identify the value of each digit in a five-digit number, naming the ten-thousands place.",
+        "minimum_width": "Identify place value of each digit in a given five-digit number using a place value chart.",
+        "typical_width": "Represent five-digit numbers using physical or virtual materials (MAB/base-ten blocks); identify and state the value of any digit in a five-digit number.",
+        "wider": [
+          "Explore numbers up to 100 000, extending place value understanding across six-digit numbers",
+          "Compare First Nations Australian counting and number systems with the Hindu-Arabic place value system, examining structural differences"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often over-rely on the ones/tens/hundreds pattern and struggle to extend the logic to ten-thousands. Encountering the pattern across multiple five-digit numbers — including those with internal zeros — helps resolve this rather than re-explaining the same example.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Place value understanding of five-digit numbers is the prerequisite for all downstream nodes — naming conventions (Node 2), number line placement (Node 3) and ordering (Node 4) all require students to correctly identify digit values. Students who have not resolved the extension pattern will produce systematic errors in every subsequent node.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The extension to six-digit numbers and cross-cultural number system comparisons offers genuine structural richness: students encounter that place value is a design choice, not a universal law, which deepens conceptual understanding.",
+        "success_criteria": [
+          "Students can state the value of a specified digit in any five-digit number (e.g. the digit 4 in 24 381 is worth 4000).",
+          "Students can correctly partition a five-digit number into its place value components."
+        ],
+        "related_standards": ["AC9M3N02", "AC9M3N03"]
+      },
+      {
+        "id": 2,
+        "label": "Naming conventions for large numerals",
+        "progression_checkpoint": "Students can read aloud and write in words any natural number in the ten-thousands range, applying Australian naming conventions correctly.",
+        "minimum_width": "Read and write in words at least five different numerals in the ten-thousands range, including at least one with a zero digit.",
+        "typical_width": "Read, write and say numbers in the ten-thousands fluently across varied examples; correctly handle zero as a placeholder in naming (e.g. 40 305 = 'forty thousand, three hundred and five').",
+        "wider": [
+          "Research how large numbers are named differently across languages and cultures (e.g. lakh system in South Asian languages vs. thousands system)",
+          "Explore naming conventions for numbers into the hundred-thousands, generalising the pattern"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Naming conventions require fluency through repeated practice. Zero-placeholder cases cluster errors; targeted practice with a range of examples is more effective than broadening context."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can correctly write in words any numeral in the ten-thousands range, including those with zero digits.",
+          "Students can correctly write the numeral when given a number in words."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Representing large numbers on number lines",
+        "progression_checkpoint": "Students can place and read numbers beyond 10 000 on a number line, making reasonable estimates of unmarked positions.",
+        "minimum_width": "Place three given five-digit numbers on a number line with marked endpoints; read one number from an indicated position.",
+        "typical_width": "Place and estimate positions of five-digit numbers on number lines with varying scales; explain reasoning for estimates using benchmark numbers (e.g. 50 000 as midpoint).",
+        "wider": [
+          "Use interactive digital number lines to explore scale across orders of magnitude — from thousands to millions",
+          "Investigate how population data for Australian towns and cities can be ordered on a number line, connecting to real-world context"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can place given five-digit numbers at approximately correct positions on a number line.",
+          "Students can estimate the value of a position on a number line and justify their estimate using a benchmark."
+        ],
+        "related_standards": ["AC9M3N05"]
+      },
+      {
+        "id": 4,
+        "label": "Ordering and comparing large numbers",
+        "progression_checkpoint": "Students can order a set of natural numbers beyond 10 000 from smallest to largest and compare any two using < > = symbols.",
+        "minimum_width": "Order four five-digit numbers from smallest to largest, using place value reasoning to justify order.",
+        "typical_width": "Compare and order sets of five-digit numbers using place value; apply < > = to pairs of large numbers; explain reasoning referencing digit positions.",
+        "wider": [
+          "Order and compare real-world data sets beyond 10 000 (populations, distances, prices) and reason about what the differences mean in context",
+          "Investigate how ordering conventions differ when numbers represent different quantities (e.g. ordering temperatures vs. distances)"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Ordering integrates all prior nodes — place value understanding, naming and number line positioning all contribute to correct ordering. Students who struggle here often have a gap in one of the component understandings."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real-world data ordering tasks allow students to connect large number understanding to meaningful contexts and reason about magnitude, which extends conceptual depth without accelerating to new content.",
+        "success_criteria": [
+          "Students can correctly order a set of five-digit numbers from smallest to largest.",
+          "Students can use < > = to compare any two natural numbers and explain the comparison using place value."
+        ],
+        "related_standards": ["AC9M3N06"]
+      }
+    ]
+  }
+}

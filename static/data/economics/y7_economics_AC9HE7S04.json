@@ -1,0 +1,72 @@
+{
+  "year_level": "7",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE7S04",
+    "title": "Develop a Response to an Economic Issue",
+    "description": "develop a response to an economic and business issue, identifying potential costs and benefits",
+    "strand": "Economics Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can develop evidence-based conclusions and propose actions with assessed effects (AC9HS6S05, AC9HS6S06). The Year 7 demand adds the economic frame of costs and benefits — structuring a response to an issue by explicitly identifying and weighing the trade-offs involved, and explaining that a decision selects one alternative over another.",
+    "progression_endpoint": "Students develop a response to an economic and business issue, identifying potential costs and benefits.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What counts as a cost and a benefit",
+        "progression_checkpoint": "Students can identify the potential costs and benefits of an economic decision, recognising that both financial and non-financial factors count.",
+        "minimum_width": "Identify at least one cost and one benefit for a given decision; include at least one non-financial factor.",
+        "typical_width": "Identify the potential costs and benefits of an economic decision — including both financial and non-financial factors such as time, opportunity cost, social impact; distinguish direct from indirect costs and benefits; apply to realistic consumer and community decisions.",
+        "wider": [
+          "Analyse costs and benefits in a government resource allocation decision — where community benefit may be broad and indirect, and costs distributed unevenly across groups",
+          "Examine how a First Nations community might assess the costs and benefits of a new economic development proposal — weighing financial returns against cultural, environmental and community impacts",
+          "Evaluate a historical business decision by identifying costs and benefits at the time versus in retrospect — exploring how uncertainty affects cost-benefit analysis"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who reduce costs and benefits to financial amounts only will be unable to construct a complete response to an economic issue. Non-financial costs and benefits — time, social impact, opportunity cost, environmental effects — are essential to the full economic analysis demanded by the descriptor and the integration node.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The cost-benefit scaffold needs to be explicit: costs = what you give up (money, time, other options); benefits = what you gain (money, time, satisfaction, community good). Students need the non-financial categories named and modelled before applying independently.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one financial and one non-financial cost and benefit for a given decision",
+          "Explains why each factor counts as a cost or benefit"
+        ],
+        "related_standards": ["AC9HE7K01", "AC9HE7S03"]
+      },
+      {
+        "id": 2,
+        "label": "Reasoning from cost-benefit to a response",
+        "progression_checkpoint": "Students can combine known knowledge with new ideas to develop a response to an economic issue, using costs and benefits to justify the response.",
+        "minimum_width": "Develop a response to a structured issue — such as a purchase or part-time work decision — that uses identified costs and benefits as the reasoning basis.",
+        "typical_width": "Develop a response to an issue by combining known knowledge with new ideas — for example, using a product statement and personal budget to identify benefits and costs of a mobile phone purchase; explain why making an economic decision involves selecting one alternative over another; use cost-benefit reasoning as the explicit justification structure.",
+        "wider": [
+          "Develop a response to a community-level economic issue (e.g. 'Should the local council convert parkland to commercial development?') using a full cost-benefit analysis",
+          "Develop a response that explicitly addresses a sustainability dimension — identifying costs that accrue over time or benefits that are only realised in the long term",
+          "Develop a response to an economic issue facing a First Nations community, engaging with the specific costs and benefits as understood from within that community context"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need practice constructing the full reasoning chain: 'The issue is X. The alternatives are A and B. The costs of A are... the benefits of A are... Therefore my response is A, because...' Without this scaffold, cost-benefit identification stays at listing rather than becoming the basis of a reasoned response.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of decision contexts — personal purchases, community resource allocation, business decisions, First Nations development choices — all warrant genuine cost-benefit analysis but with meaningfully different structures and stakeholders. Wider engagement with this range builds transferable economic reasoning.",
+        "success_criteria": [
+          "Develops a response to an economic issue that identifies costs and benefits of the chosen option",
+          "Explains why one alternative was selected over another using cost-benefit reasoning"
+        ],
+        "related_standards": ["AC9HE7S05"]
+      }
+    ]
+  }
+}

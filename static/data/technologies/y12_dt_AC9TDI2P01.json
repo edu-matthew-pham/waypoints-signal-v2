@@ -1,0 +1,109 @@
+{
+  "year_level": "1-2",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI2P01",
+    "title": "Investigate problems for users",
+    "description": "investigate simple problems for known users that can be solved with digital systems",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have not yet formally investigated problems. They have encountered digital systems in familiar contexts and can recognise when a digital system helps them do something. They have not yet structured a problem investigation \u2014 identifying a user, a problem, and how a digital system could address it.",
+    "progression_endpoint": "Students investigate simple, well-defined problems for a known user and identify how a digital system could solve the problem.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying a user and their problem",
+        "progression_checkpoint": "Students can identify a known user and describe a simple, specific problem that user has",
+        "minimum_width": "Name a known user (themselves, a classmate, family member) and describe one specific problem they experience that a digital system might help solve",
+        "typical_width": "Identify multiple known users across familiar contexts (home, school, community) and describe a specific, observable problem for each; confirm the problem is real by asking the user or observing directly",
+        "wider": [
+          "Investigate how digital translation tools could address communication problems for First Nations Australians \u2014 identify a specific user and language communication need",
+          "Explore how a familiar community problem (e.g. knowing if the school library book you want is available) could be described as a problem for a known user"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students at this level often describe problems too broadly ('everyone wants to play games') or describe solutions before problems ('we need an app'). Encountering a range of specific, distinct user contexts \u2014 different people with different problems \u2014 helps students develop the habit of grounding problems in a real, named user before jumping to solutions.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations language communication direction offers genuine richness \u2014 it connects problem investigation to a real, community-level communication need, making 'known user' extend beyond the immediate classroom.",
+        "success_criteria": [
+          "Names a specific user (not 'everyone' or 'people')",
+          "Describes the problem from the user's perspective \u2014 what they can't do or find difficult, not what solution they want"
+        ],
+        "related_standards": [
+          "AC9TDI2P03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a named user and a described problem, Node 2's investigation has no subject \u2014 students cannot establish what a problem involves if no user or problem has been identified."
+      },
+      {
+        "id": 2,
+        "label": "Establishing what the problem involves",
+        "progression_checkpoint": "Students can investigate a simple problem by finding out what the user needs and what would count as solving it",
+        "minimum_width": "Ask at least one question to find out more about the problem from the user's perspective; describe what solving the problem would look like",
+        "typical_width": "Ask the user questions to understand the problem; identify what information is needed and what success looks like; describe the problem in terms of what the user needs to be able to do",
+        "wider": [
+          "Compare two versions of the same problem (e.g. 'I want to borrow a library book' \u2014 from a student's perspective vs a teacher's perspective) and identify how the problem description changes based on who the user is",
+          "Investigate a robot as a possible solution to a classroom clean-up problem \u2014 define what the robot would need to do by describing the problem in specific, step-by-step terms"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Problem investigation at this level requires students to reason from the user's perspective rather than their own. Scaffolding the investigation (who is the user? what can't they do? what would help?) prevents students from jumping to solutions before the problem is understood. The reasoning structure is the investigation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Asks or answers at least one question about the problem from the user's perspective",
+          "Describes what success looks like \u2014 what the user would be able to do once the problem is solved"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "Students who cannot describe what solving the problem would look like cannot attempt Node 3 \u2014 identifying how a digital system could solve the problem requires a success definition to match against."
+      },
+      {
+        "id": 3,
+        "label": "Identifying how a digital system could solve the problem",
+        "progression_checkpoint": "Students can investigate how a digital system could solve a simple, known problem for a specific user",
+        "minimum_width": "Identify one digital system that could solve the user's problem and explain how it addresses the need",
+        "typical_width": "Investigate how an existing or imagined digital system could solve the problem; explain which features of the system address the user's specific need; consider whether the solution actually solves the problem for that user",
+        "wider": [
+          "Investigate multiple possible digital systems for the same problem \u2014 for example whether a weather app, a robot, or an alarm could each solve the same 'what to wear' problem in different ways",
+          "Explore how digital tools are used at school to solve known problems (attendance, library loans) \u2014 identify the user, the problem and how the system addresses it"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to coordinate user identification, problem description, and digital system knowledge simultaneously. The investigation is complete when all three elements are connected \u2014 the system is matched to the user's specific problem. Integration failure looks like: naming a system that doesn't address the stated problem, or identifying a solution before establishing the problem.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The multiple-solutions direction (one problem, several digital systems) is genuinely rich \u2014 it requires students to reason about fit between system and problem, not just name any digital system. This is pedagogically valuable beyond what's needed for the minimum.",
+        "success_criteria": [
+          "Names a specific digital system",
+          "Explains how the system addresses the user's stated problem \u2014 the connection between system and problem is explicit"
+        ],
+        "related_standards": [
+          "AC9TDI2K01",
+          "AC9TDI2P03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

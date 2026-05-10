@@ -1,0 +1,94 @@
+{
+  "year_level": "7-8",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S7I04",
+    "title": "Select tables, graphs and models",
+    "description": "select and construct appropriate representations, including tables, graphs, models and mathematical relationships, to organise and process data and information",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can construct and use tables, graphs and models to describe patterns, trends and relationships (AC9S5I04). They have not yet selected between representation types based on data characteristics or constructed mathematical relationships from data.",
+    "progression_endpoint": "Students select and construct appropriate representations, including tables, graphs, models and mathematical relationships, to organise and process data and information.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Choosing appropriate representations",
+        "progression_checkpoint": "Students can select an appropriate representation type for a given data set based on data characteristics",
+        "minimum_width": "Construct one type of data representation (table, graph or diagram) from collected data; explain why it is appropriate for that data",
+        "typical_width": "Distinguish between discrete and continuous data; select appropriate representations for each; explain why a bar chart suits discrete data and a line graph suits continuous data",
+        "wider": [
+          "Evaluate a mismatched representation (e.g. a pie chart for continuous data) and explain why it is misleading",
+          "Compare two representations of the same data and explain what each reveals and conceals",
+          "Select representations for a multi-variable data set where different variables require different representation types"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly default to one representation type (usually a bar chart) regardless of data characteristics. Understanding that representation choice depends on data type is prerequisite for all subsequent analysis. Seeing different data types across science contexts — populations, forces, particles, astronomical data — helps students generalise the selection criteria rather than associating one type with one topic."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": ["AC9S7I03", "AC9S7I05"],
+        "success_criteria": [
+          "Selects a representation type appropriate for the data characteristics",
+          "Explains why the chosen representation suits the data",
+          "Does not default to one representation type regardless of data"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Constructing representations",
+        "progression_checkpoint": "Students can construct tables, graphs, food webs, dichotomous keys and other models to organise data and information",
+        "minimum_width": "Construct a representation from collected data with correct labels, scales and conventions; use it to describe a pattern",
+        "typical_width": "Construct food webs, dichotomous keys, graphs and tables; use spreadsheets to aid presentation and analysis; apply correct conventions for each representation type",
+        "wider": [
+          "Code a simple program to represent a dichotomous key as an interactive tool",
+          "Acknowledge, analyse and interpret data from First Nations Australians' astronomical observations using appropriate representations",
+          "Construct representations of data from multiple sources and synthesise findings across representations"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Constructing representations with correct conventions — axis labels, scales, titles, units — is a precision skill. Students commonly make procedural errors that undermine the representation's usefulness. Practice and feedback on conventions is what helps, not more representation types or contexts."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations astronomical observations direction is rich — it requires students to apply representation skills to a non-standard data set with cultural significance, choosing appropriate representation types for observations that may not fit standard scientific data formats. The dichotomous key app coding direction also offers genuine depth for advancing students interested in digital representation.",
+        "related_standards": ["AC9S7U01", "AC9S7U02", "AC9S7I03"],
+        "success_criteria": [
+          "Constructs a representation with correct labels, scales and conventions",
+          "Representation accurately reflects the source data",
+          "Uses the representation to describe at least one pattern"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Processing data through representations",
+        "progression_checkpoint": "Students can use representations including mathematical relationships to process and analyse data",
+        "minimum_width": "Use a constructed representation to identify a pattern and describe what it shows",
+        "typical_width": "Analyse secondary data to determine mathematical relationships such as tidal variation over a lunar cycle; use spreadsheets to process and analyse data; draw conclusions supported by the representation",
+        "wider": [
+          "Analyse data from multiple representations to build a more complete picture of a phenomenon",
+          "Investigate mathematical relationships in data sets such as qualitative relationships between planet mass and gravity",
+          "Evaluate whether a representation adequately supports the conclusion drawn from it"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe what a representation shows without reasoning from it to a conclusion — they read the pattern without connecting it to the scientific question. Scaffolding the reasoning step explicitly (what does this pattern mean in terms of the variables, and what conclusion does it support?) is what moves students from data reading to data processing."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": ["AC9S7I05", "AC9S7I06", "AC9S7U03"],
+        "success_criteria": [
+          "Uses a representation to identify and describe a pattern",
+          "Description is supported by specific reference to the data",
+          "Does not over-interpret the data beyond what the representation shows"
+        ]
+      }
+    ]
+  }
+}

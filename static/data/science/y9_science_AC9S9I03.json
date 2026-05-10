@@ -1,0 +1,44 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9I03",
+    "title": "Precision, Sample Size and Replicability",
+    "description": "select and use equipment to generate and record data with precision to obtain useful sample sizes and replicable data, using digital tools as appropriate",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can select equipment for appropriate precision and use standard units (AC9S7I03, 7-8 band). They now extend to significant figures, scientific notation, sample size reasoning and the relationship between instrument choice and data replicability.",
+    "progression_endpoint": "Students select equipment matched to precision requirements, record data to correct significant figures using scientific notation, discuss what constitutes a useful sample size, and evaluate how instrument choice affects data replicability.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Precision, significant figures and sample size are interconnected data quality factors",
+        "progression_checkpoint": "Students can select equipment for required precision, record data to the correct number of significant figures, explain what constitutes a useful sample size, and describe how instrument choice affects replicability.",
+        "minimum_width": "Students select appropriate equipment for a given measurement, record data to the correct significant figures, and explain why sample size matters for conclusions.",
+        "typical_width": "Students compare instrument precision (measuring cylinder vs pipette) and select appropriately; record data using correct significant figures and scientific notation; explain how sample size affects the validity of generalisations; and use data loggers and digital tools for larger or continuous data collection.",
+        "wider": [
+          "Examine the degree of accuracy of different instruments — comparing measuring cylinder vs pipette precision and explaining when higher precision is required",
+          "Discuss the amount of data needed for a useful sample size and how digital tools enable more efficient collection for larger samples",
+          "Consider how inaccuracies introduced when reading between scale markings affect replicability — examining systematic vs random error sources"
+        ],
+        "hinge": true,
+        "hinge_reason": "Correct significant figure recording and sample size judgements are required for valid representations in AC9S9I04 and valid conclusions in AC9S9I06. Students who record to incorrect significant figures produce representations with false precision; students who cannot reason about sample size cannot evaluate whether their generalisations are justified.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Significant figure conventions and scientific notation require consistent accurate practice. Students at this band must apply these conventions independently across varied measurement contexts. Deliberate practice with feedback is more productive than broad conceptual variation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Selects appropriate equipment for a measurement and explains the precision required",
+          "Records data to the correct number of significant figures using scientific notation where appropriate",
+          "Explains why sample size affects the validity of generalisations from data"
+        ]
+      }
+    ]
+  }
+}

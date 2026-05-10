@@ -1,0 +1,87 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY12",
+    "title": "Letters represent multiple sounds",
+    "description": "understand that a letter can represent more than one sound and that a syllable must contain a vowel sound",
+    "strand": "phonic_word_knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can use short and long vowels, blends and digraphs to read and write words (AC9E1LY11). They have not yet explicitly understood that the relationship between letters and sounds is not one-to-one — a letter can represent multiple sounds depending on context.",
+    "progression_endpoint": "Students understand that a letter can represent more than one sound, and that every syllable must contain a vowel sound.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "One letter, multiple sounds",
+        "progression_checkpoint": "Students can identify letters that represent more than one sound and give examples from their reading.",
+        "minimum_width": "Identify at least one letter that can represent more than one sound and give two examples showing both sounds.",
+        "typical_width": "Identify and discuss letters that represent multiple sounds — e.g. 'u' in 'cut', 'put' and 'use'; 'a' in 'cat', 'father' and 'any'; 'c' in 'cat' and 'cent' — and explain that context determines which sound is used.",
+        "wider": [
+          "Explore how context (surrounding letters, word position) determines which sound a letter makes",
+          "Find examples in shared reading texts where the same letter makes different sounds"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students operating on a one-letter-one-sound assumption will produce systematic decoding errors when encountering unfamiliar words — this misconception propagates indefinitely without explicit resolution and undermines the AC9E1LY13 spelling work that depends on context-sensitive grapheme choice.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students operating on a one-letter-one-sound assumption will struggle with unfamiliar words. Encountering multiple examples of the same letter making different sounds — across different vowels and consonants — resolves this misconception systematically.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student gives two examples of the same letter making different sounds",
+          "Student explains that letters can make different sounds in different words"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "One sound, multiple letters",
+        "progression_checkpoint": "Students can identify sounds that can be produced by different letters or letter combinations.",
+        "minimum_width": "Give at least two examples of the same sound being produced by different letters (e.g. 's' in 'sat' and 'cent').",
+        "typical_width": "Identify common examples where the same sound is produced by different graphemes — e.g. the /s/ sound in 'sat' and 'cent'; the /k/ sound in 'cat' and 'kit' — and explain that spelling must be learned, not just decoded from sound.",
+        "wider": [
+          "Collect a bank of words where the same sound has multiple spelling options — discuss why this makes spelling harder than reading",
+          "Explore how this principle links to the need to learn some words as whole units"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student gives two words where the same sound is made by different letters",
+          "Student explains why this means some spelling cannot be worked out from sound alone"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Syllables must have a vowel sound",
+        "progression_checkpoint": "Students can identify syllables in words and confirm that each syllable contains a vowel sound.",
+        "minimum_width": "Break a two-syllable word into syllables and identify the vowel sound in each syllable.",
+        "typical_width": "Identify syllables in one- and two-syllable words, confirm each syllable contains a vowel sound, and use this understanding to support reading and spelling of unfamiliar words.",
+        "wider": [
+          "Explore three-syllable words and confirm each syllable has a vowel",
+          "Discuss how the syllable-vowel rule helps identify syllable boundaries in longer words"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The syllable-vowel principle is a reasoning tool — students can use it to check their syllable division by asking 'does each part have a vowel sound?' A brief scaffold makes this check explicit and transferable."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies the syllable count in two-syllable words",
+          "Student identifies the vowel sound in each syllable of a two-syllable word"
+        ]
+      }
+    ]
+  }
+}

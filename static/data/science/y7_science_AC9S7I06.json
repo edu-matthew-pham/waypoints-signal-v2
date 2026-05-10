@@ -1,0 +1,106 @@
+{
+  "year_level": "7-8",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S7I06",
+    "title": "Analyse methods and claims",
+    "description": "analyse methods, conclusions and claims for assumptions, possible sources of error, conflicting evidence and unanswered questions",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can compare methods, recognise sources of error and select evidence to draw reasoned conclusions (AC9S5I05). They have not yet analysed conclusions and claims for assumptions, conflicting evidence and unanswered questions.",
+    "progression_endpoint": "Students analyse methods, conclusions and claims for assumptions, possible sources of error, conflicting evidence and unanswered questions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying sources of error",
+        "progression_checkpoint": "Students can identify possible sources of error in an investigation method and suggest improvements",
+        "minimum_width": "Identify one possible source of error in an investigation method; suggest how it could be reduced",
+        "typical_width": "Identify multiple sources of error in a method; suggest specific improvements with reasoning; consider the spread of repeated measurements and observations",
+        "wider": [
+          "Limited width \u2014 identifying specific sources of error and connecting them to consequences is a precision skill that does not vary meaningfully across investigation types. Applying evaluative criteria across more investigations and distinguishing random from systematic errors are more practice on the same skill, not broader contexts."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Identifying sources of error is a skill students often apply superficially \u2014 naming 'human error' without specifying what the error was or how it affected results. The concept does not vary across contexts; what helps is repeated practice identifying specific errors and connecting them to specific consequences in the data, until the specificity becomes habitual."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9S7I02",
+          "AC9S7I03"
+        ],
+        "success_criteria": [
+          "Identifies a specific source of error (not just 'human error')",
+          "Explains how the error affects the data or results",
+          "Suggests a specific improvement to reduce the error"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating methods and assumptions",
+        "progression_checkpoint": "Students can evaluate an investigation method by identifying assumptions about controlled variables and assessing whether the method tests the hypothesis",
+        "minimum_width": "Identify at least one assumption in a given method about a variable that should be controlled; explain why the assumption matters",
+        "typical_width": "Evaluate a method by identifying assumptions about controlled variables; suggest improvements with reasoning; assess whether the method adequately tests the hypothesis",
+        "wider": [
+          "Evaluate a method where an assumption about a controlled variable is likely wrong and explain the consequences for results",
+          "Compare two methods for testing the same hypothesis and evaluate which is more rigorous",
+          "Analyse conclusions and claims to identify facts or premises taken for granted and evaluate their relevance"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly evaluate methods by checking procedural steps rather than examining underlying assumptions. The misconception that a method is 'good' if the steps are followed correctly persists unless students see \u2014 across multiple investigation contexts \u2014 that hidden assumptions can invalidate even well-executed procedures. Different investigation types surface different categories of assumption."
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Identifying an assumption requires students to reason backward from the method \u2014 'for this method to work, what must be true about the controlled variables?' \u2014 which is a non-obvious reasoning move. Explicit scaffolding of this backward reasoning helps students find assumptions rather than just evaluate ones they're told about."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9S7I02",
+          "AC9S7I07"
+        ],
+        "success_criteria": [
+          "Identifies at least one assumption about a controlled variable",
+          "Explains why the assumption matters for the investigation's validity",
+          "Assesses whether the method tests the stated hypothesis"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating conclusions and claims",
+        "progression_checkpoint": "Students can analyse conclusions and claims for conflicting evidence and unanswered questions",
+        "minimum_width": "Identify one piece of evidence that supports and one that conflicts with a given claim; identify one unanswered question",
+        "typical_width": "Evaluate conclusions against the quality of evidence; identify the evidence cited to support a claim; evaluate conflicting evidence; identify unanswered questions that arise from the investigation",
+        "wider": [
+          "Evaluate conflicting evidence from multiple sources and assess which more strongly supports a conclusion",
+          "Analyse a published scientific claim \u2014 identify the evidence, assumptions and potential sources of error",
+          "Evaluate a conclusion by systematically assessing whether the evidence is sufficient, relevant and unambiguous"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat a conclusion as proven once any supporting evidence exists, without weighing conflicting evidence or identifying what remains unanswered. Scaffolding the evaluation structure \u2014 what supports this, what conflicts, what would need to be true for the conclusion to hold, and what is still unknown \u2014 builds systematic evaluative thinking rather than binary accept/reject judgement."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The published scientific claim direction \u2014 full analysis of evidence, assumptions and error sources for a real claim \u2014 is rich for advancing students. It applies the three-node analytical framework to authentic scientific content and develops genuine critical reading of science, connecting to AC9S7H01's evidence thread.",
+        "related_standards": [
+          "AC9S7I05",
+          "AC9S7I07",
+          "AC9S7H01"
+        ],
+        "success_criteria": [
+          "Identifies evidence that both supports and conflicts with a claim",
+          "Identifies at least one unanswered question arising from the evidence",
+          "Does not treat a conclusion as proven simply because some evidence supports it"
+        ]
+      }
+    ]
+  }
+}

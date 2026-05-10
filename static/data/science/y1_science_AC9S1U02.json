@@ -1,0 +1,72 @@
+{
+  "year_level": "1",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S1U02",
+    "title": "Daily and Seasonal Changes",
+    "description": "describe daily and seasonal changes in the environment and explore how these changes affect everyday life",
+    "strand": "Earth and Space Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can observe and describe features of their local environment (F band). They have not yet described daily and seasonal change patterns or connected those patterns to effects on living things and human decisions.",
+    "progression_endpoint": "Students describe observable daily changes (weather, temperature, day length) and seasonal patterns, and explain how these changes affect plants, animals and human daily life — including clothing, activity planning and habitat use.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The environment changes daily and across seasons",
+        "progression_checkpoint": "Students can describe observable daily changes (weather, temperature, daylight) and identify seasonal patterns across the year.",
+        "minimum_width": "Students describe at least two daily changes in the environment and name at least two seasons with one observable change for each.",
+        "typical_width": "Students make and record observations of daily weather changes and seasonal patterns in plants (leaf colour, flowering, dropping leaves) and weather; identify patterns across days and seasons; and explain what makes one season different from another using observable evidence.",
+        "wider": [
+          "Recognise the extensive knowledges of daily and seasonal change held by First Nations Australians — examining how traditional seasonal calendars describe environmental patterns beyond the four-season European model",
+          "Explore how First Nations Australians' concepts of time and weather patterns explain how things happen in the world around them",
+          "Investigate how seasonal changes affect animals including hibernation and migration — connecting seasonal pattern to animal behaviour"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2 requires students to have identified daily and seasonal change patterns before they can reason about how those changes affect people, plants and animals. Without an established pattern model, N2 explanations reduce to isolated anecdotes rather than pattern-based reasoning.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "First Nations seasonal calendars and animal behaviour directions broaden the pattern model beyond the European four-season framework, providing culturally rich and ecologically grounded encounters with seasonal change that deepen the concept before N2 applies it.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations seasonal calendars provide a culturally rich direction that broadens students' model of seasonal change beyond the European four-season framework.",
+        "success_criteria": [
+          "Describes at least two observable daily changes in the environment",
+          "Names at least two seasons and describes one observable environmental change for each"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Daily and seasonal changes affect everyday life",
+        "progression_checkpoint": "Students can explain how daily weather and seasonal changes affect decisions people make and how plants and animals respond to these changes.",
+        "minimum_width": "Students describe at least one way daily weather changes affect human decisions and one way seasonal change affects a plant or animal.",
+        "typical_width": "Students explain how daily weather indicators and seasonal patterns help people plan activities and clothing choices; investigate how seasonal changes affect animals (hibernation, migration) and plants; and connect their own experiences of responding to weather and season to the broader pattern.",
+        "wider": [
+          "Explore how people make clothing choices using weather predictions or seasonal knowledge — connecting observable pattern to everyday decision-making",
+          "Investigate how changes in weather affect plants and animals including humans",
+          "Recognising how First Nations Australians use changes in landscape and sky to answer questions about when to gather certain resources"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily connect seasonal change to their own clothing choices but miss the broader effects on other living things and on planning decisions. Encountering multiple ways daily and seasonal change affects daily life — human, plant and animal — builds a more complete model of environmental change and response."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least one way daily weather change affects a human decision",
+          "Describes at least one way seasonal change affects a plant or animal"
+        ],
+        "related_standards": [
+          "AC9S1H01"
+        ]
+      }
+    ]
+  }
+}

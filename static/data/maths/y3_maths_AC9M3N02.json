@@ -1,0 +1,95 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3N02",
+    "title": "Unit fractions",
+    "strand": "Number",
+    "mode": "A",
+    "description": "recognise and represent unit fractions including 1/2, 1/3, 1/4, 1/5 and 1/10 and their multiples in different ways; combine fractions with the same denominator to complete the whole",
+    "prior_knowledge": "Students can partition, rearrange, regroup and rename two- and three-digit numbers using standard and non-standard groupings (AC9M2N02). They have not yet worked formally with unit fractions as named quantities or combined fractions with the same denominator.",
+    "progression_endpoint": "Students recognise and represent unit fractions (halves, thirds, quarters, fifths, tenths) and their multiples, and combine fractions with the same denominator to make a whole.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What a unit fraction means",
+        "progression_checkpoint": "Students can explain that a unit fraction represents one equal part of a whole divided into equal parts, and identify the denominator's role.",
+        "minimum_width": "Fold or partition a shape into equal parts and identify one part as 1/2, 1/3, 1/4, 1/5 or 1/10, explaining what the denominator tells us.",
+        "typical_width": "Partition shapes, lengths and sets into equal parts; name each part as a unit fraction; explain that the denominator names the number of equal parts.",
+        "wider": [
+          "Explore how fractions are represented in First Nations Australian sharing and distribution practices, comparing with symbolic fraction notation",
+          "Investigate fractions in other cultural contexts — e.g. how recipes in different cultures use fractional measures"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse 'equal parts' with 'same shape parts'. Seeing unit fractions across varied representations — area models, length models, set models — resolves this more effectively than re-teaching with a single model.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "The equal-parts definition and the denominator's role are prerequisite for Node 2 (counting multiples) and Node 3 (combining to whole). Students who conflate 'equal' with 'same shape' will miscount parts and misapply combining — the misconception propagates into every subsequent fraction task.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-cultural and contextual representations of sharing provide rich real-world grounding and help students see fractions as a fundamental concept, not just a symbolic notation.",
+        "success_criteria": [
+          "Students can identify and name the unit fraction represented when a shape or set is divided into equal parts.",
+          "Students can explain what the denominator of a unit fraction tells us about the whole."
+        ],
+        "related_standards": ["AC9M3N06"]
+      },
+      {
+        "id": 2,
+        "label": "Multiples of unit fractions",
+        "progression_checkpoint": "Students can name and represent multiples of unit fractions (e.g. 2/3, 3/4, 4/5) and locate them on a number line.",
+        "minimum_width": "Shade or mark three different multiples of a unit fraction on area models and a number line (e.g. 2/4, 3/5).",
+        "typical_width": "Represent multiples of halves, thirds, quarters, fifths and tenths using area models, number lines and sets; name fractions correctly using numerator and denominator.",
+        "wider": [
+          "Explore fractions beyond one whole (e.g. 5/4, 7/3) as natural extensions of the multiple pattern on a number line",
+          "Investigate how tenths connect to decimal notation, using number lines to show both representations"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students benefit from explicit scaffolding of the numerator as a count — 'we are counting how many parts of size 1/4'. This framing prevents confusion between numerator and denominator roles and makes the multiple structure legible.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding the numerator as a count is directly required for Node 3 — combining fractions to complete the whole requires students to count parts toward the total. Students who conflate numerator and denominator roles will be unable to reason about what is missing from the whole.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can correctly name and write a fraction from a shaded area model or marked number line.",
+          "Students can represent a given fraction (e.g. 3/5) on a number line or area model."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Combining fractions to complete the whole",
+        "progression_checkpoint": "Students can combine fractions with the same denominator to make a whole, and identify the missing part to complete a whole.",
+        "minimum_width": "Given a fraction, identify the complementary fraction needed to complete the whole (e.g. if 3/5 is shaded, 2/5 remains); demonstrate with at least two different denominators.",
+        "typical_width": "Combine fractions with the same denominator to make a whole across halves, thirds, quarters, fifths and tenths; represent using models and number sentences.",
+        "wider": [
+          "Connect combining fractions to addition number sentences (e.g. 3/5 + 2/5 = 5/5 = 1), bridging to formal fraction addition",
+          "Apply fraction combination to real-world division contexts — e.g. sharing food, measuring ingredients"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the unit fraction meaning (node 1) with multiple counting (node 2) into the completing-the-whole concept. Students who struggle here typically have a gap in one of the prior nodes."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection to addition number sentences offers genuine conceptual richness — students begin to see fractions as numbers with the same additive properties as whole numbers, which is foundational for later fraction arithmetic.",
+        "success_criteria": [
+          "Students can identify the fraction needed to complete a whole when given a partial fraction.",
+          "Students can combine fractions with the same denominator and explain when the result equals one whole."
+        ],
+        "related_standards": ["AC9M3A01", "AC9M3N03"]
+      }
+    ]
+  }
+}

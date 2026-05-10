@@ -1,0 +1,72 @@
+{
+  "year_level": "3",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS3S04",
+    "title": "Analyse information and identify perspectives",
+    "description": "analyse information and data, and identify perspectives",
+    "strand": "Inquiry Skills \u2014 Analysing",
+    "mode": "B",
+    "prior_knowledge": "From Y2 (AC9HS2S03-S04): Students compared objects and activities and discussed perspectives of different groups.",
+    "progression_endpoint": "Students analyse information and data to identify evidence of change and identify perspectives in sources.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Comparing sources to identify change",
+        "progression_checkpoint": "Students can compare information across different sources to identify evidence of change and continuity.",
+        "minimum_width": "Compare at least two sources on the same topic and identify at least one piece of evidence of change or continuity.",
+        "typical_width": "Compare images and maps of the local area over time; compare accounts of historic events to determine effects of changes; use visible thinking strategies to examine paintings and maps across time periods.",
+        "wider": [
+          "Compare three or more sources from different time periods on the same topic and describe the trajectory of change",
+          "Evaluate which sources are most reliable for understanding a specific change and explain why"
+        ],
+        "hinge": true,
+        "hinge_reason": "Comparative source analysis is the foundational move for all historical analysis \u2014 students who cannot compare sources for evidence cannot identify perspectives or draw sound conclusions.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Source comparison requires a structured approach \u2014 use visible thinking protocols (See-Think-Wonder, compare-contrast matrices) to scaffold before expecting independent analysis.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Compares at least two sources on the same topic",
+          "Identifies at least one piece of evidence of change or continuity"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Identifying perspectives",
+        "progression_checkpoint": "Students can identify different perspectives in sources and explain what shapes each perspective.",
+        "minimum_width": "Identify at least two different perspectives on the same event or issue from provided sources.",
+        "typical_width": "Analyse information from interviews with different people about rules and decisions; compare different accounts of historic events; identify whose perspective is represented in a source and what it might omit.",
+        "wider": [
+          "Identify whose perspectives are absent from a set of sources and discuss why they might be missing",
+          "Analyse a set of paintings and maps to explore evidence of whose worldview is represented"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Multiple perspectives on the same topic reveal the constructed nature of historical accounts \u2014 use interviews, photographs and written sources together for genuine breadth.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Identifying whose perspectives are absent from sources is as important as identifying whose are present \u2014 this is a key historical thinking skill that transforms source analysis.",
+        "success_criteria": [
+          "Identifies at least two different perspectives on the same topic",
+          "Explains what might shape each perspective"
+        ]
+      }
+    ]
+  }
+}

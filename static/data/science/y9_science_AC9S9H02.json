@@ -1,0 +1,68 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9H02",
+    "title": "Technology Enabling Science and Vice Versa",
+    "description": "investigate how advances in technologies enable advances in science, and how science has contributed to developments in technologies and engineering",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students have examined how science knowledge is applied to meet needs and solve problems (earlier H-strand bands). They now examine the bidirectional relationship — technology enabling science and science enabling technology.",
+    "progression_endpoint": "Students investigate examples of the bidirectional science-technology relationship — identifying both cases where technology enabled new scientific discovery and cases where scientific understanding enabled new technology.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Technology advances enable scientific advances",
+        "progression_checkpoint": "Students can explain how specific technology advances made previously impossible scientific observations or experiments possible, and identify what knowledge was unlocked by each technology.",
+        "minimum_width": "Students describe at least two cases where a technology advance enabled a scientific advance, explaining the connection between the technology capability and the knowledge it made possible.",
+        "typical_width": "Students examine how imaging technologies (MRI, CT, PET) improved understanding of body system interactions; how monitoring technologies enabled tracking of greenhouse gas emissions; how particle accelerators and electron microscopes enabled exploration at atomic and sub-atomic scales; and trace the technology-to-knowledge pathway in each case.",
+        "wider": [
+          "Examine how developments in imaging technologies have improved understanding of body system functions and interactions — tracing specific technology improvements to specific knowledge gains",
+          "Research how technological advances in monitoring greenhouse gas emissions contributed to the reinstatement of traditional fire management practices as an emissions reduction strategy",
+          "Explore how understanding of the nature of matter and energy has changed as modern technology has enabled exploration from black holes to sub-atomic particles"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least two cases where a technology advance enabled a scientific discovery",
+          "Explains what specific capability the technology provided and what knowledge it unlocked"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Scientific knowledge enables technology development",
+        "progression_checkpoint": "Students can explain how specific scientific knowledge enabled the development of technologies — tracing the science-to-engineering pathway in real examples.",
+        "minimum_width": "Students describe at least two technologies that were developed based on specific scientific understanding, explaining the science that enabled each.",
+        "typical_width": "Students examine Australian technological contributions (cochlear implant, bionic eye, spray-on skin, wi-fi); explain how properties of electromagnetic radiation underlie technologies including radar, mobile phones and medical imaging; and describe how understanding of radioactivity led to medical and industrial applications.",
+        "wider": [
+          "Consider the impact of Australian technological developments — cochlear implant, bionic eye, spray-on skin, wi-fi — and examine the scientific knowledge that made each possible",
+          "Examine how properties of electromagnetic radiation relate to specific uses: radar, medicine, mobile communications, remote sensing and microwave cooking",
+          "Explore how advances in understanding radioactivity and radioisotopes led to new medical and industrial applications"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily identify one science-to-technology example without seeing the variety of pathways — from physics to medical device, from radioactivity to nuclear medicine, from wave theory to communications technology. The Australian contributions direction provides a nationally grounded set of cases that span multiple science disciplines and reveal the breadth of science-to-application pathways.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Australian technology contributions provide a nationally relevant direction with strong elaboration grounding. The EM radiation applications direction connects wave model knowledge from AC9S9U04 to real technology in a cross-strand way.",
+        "success_criteria": [
+          "Describes at least two technologies enabled by specific scientific knowledge",
+          "Explains the science-to-application pathway for each — what knowledge was applied and how"
+        ],
+        "related_standards": [
+          "AC9S9U04",
+          "AC9S9U06"
+        ]
+      }
+    ]
+  }
+}

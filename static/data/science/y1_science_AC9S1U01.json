@@ -1,0 +1,67 @@
+{
+  "year_level": "1",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S1U01",
+    "title": "Basic Needs of Plants and Animals",
+    "description": "identify the basic needs of plants and animals, including air, water, food or shelter, and describe how the places they live meet those needs",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can observe and describe features of living things and their environments (AC9SFU01, F band). They have not yet systematically identified needs of living things or described how habitat features meet those needs.",
+    "progression_endpoint": "Students identify the basic needs of plants and animals (air, water, food, shelter) and describe how features of the places they live meet those needs — connecting habitat features to specific survival requirements.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Living things have basic needs",
+        "progression_checkpoint": "Students can name the basic needs of plants and animals — air, water, food and shelter — and explain that all living things must have their needs met to survive.",
+        "minimum_width": "Students name the basic needs of plants and animals and give one example of each need being met for a named living thing.",
+        "typical_width": "Students identify and compare the needs of a variety of plants and animals including humans; explain that different living things have the same basic needs even if they meet them differently; and connect their own experiences (caring for pets, watering plants) to need-meeting.",
+        "wider": [
+          "Recognise how First Nations Australians care for living things — examining how traditional ecological knowledge addresses the needs of plants and animals on Country",
+          "Explore why caring for plants and animals matters beyond the individual — as sources of food, fibre and ecological balance",
+          "Learning from farmers, bush care volunteers or nursery owners about how they observe plant and animal needs and design habitats to meet them"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2 requires students to understand what basic needs are before they can describe how habitat features meet those needs. Without knowing what air, water, food and shelter mean as needs, students cannot reason about which habitat features are relevant or why.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names the four basic needs of living things (air, water, food, shelter)",
+          "Gives at least one example of each need being met for a named plant or animal"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "The places living things live meet their needs",
+        "progression_checkpoint": "Students can describe how features of a named habitat meet the basic needs of a plant or animal that lives there.",
+        "minimum_width": "Students identify one place a named plant or animal lives and describe how at least two features of that place meet its needs.",
+        "typical_width": "Students identify multiple habitats (pond, garden, forest, home) and describe how each provides for the needs of the living things found there; create dioramas or models showing need-meeting features; and explain why a living thing removed from its habitat may struggle to survive.",
+        "wider": [
+          "Identify ways local gardens or parks could better meet the needs of native animals — connecting habitat features to design decisions",
+          "Learn from local ecologists or wildlife carers about native animals' needs and how they observe behaviour to design supports (frog hotels, nesting boxes)",
+          "Exploring how First Nations Australians use science to meet their needs — food, water supply and shelter — through understanding of local habitats"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly think only of one or two familiar habitats (garden, home). Encountering a range of habitat types — aquatic, terrestrial, domestic, wild — and the different ways each meets living thing needs builds a more complete and generalisable model of habitat-need matching.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Wildlife carer and habitat design directions provide genuinely engaging real-world connections. First Nations habitat knowledge grounds the concept in a culturally rich and ecologically specific direction.",
+        "success_criteria": [
+          "Identifies a named habitat and describes how at least two features of it meet the needs of a living thing found there",
+          "Explains why those features matter for the living thing's survival"
+        ],
+        "related_standards": [
+          "AC9S1H01"
+        ]
+      }
+    ]
+  }
+}

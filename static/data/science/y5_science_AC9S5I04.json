@@ -1,0 +1,71 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5I04",
+    "title": "Processing and Representing Data",
+    "description": "construct and use appropriate representations, including tables, graphs and visual or physical models, to organise and process data and information and describe patterns, trends and relationships",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can construct tables and column graphs and use visual/physical models (AC9S3I04, 3-4 band). They now extend to selecting appropriate representations independently, constructing a wider range of types (ray diagrams, annotated field sketches, maps, physical landscape models), and using representations to identify and describe patterns, trends and relationships — not just to display data.",
+    "progression_endpoint": "Students select and construct appropriate representations for a given data type or relationship, and use those representations to identify and describe patterns, trends and relationships — treating construction and interpretation as two distinct phases of data processing.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Representations are selected and constructed for a given data type",
+        "progression_checkpoint": "Students can select an appropriate representation type for a given data set or relationship and construct it accurately — with correct labels, conventions and structure.",
+        "minimum_width": "Students select and construct one appropriate representation for a given data set and explain why that representation type suits the data.",
+        "typical_width": "Students select and construct representations across Y5-6 science contexts — annotated field sketches for structural features, column graphs for simulation outcomes, physical landscape models for erosion, labelled ray diagrams for light behaviour, maps for erosion pattern distribution — and justify the representation type chosen in each case.",
+        "wider": [
+          "Compare two different representation types for the same data set and explain what each communicates that the other does not — examining representation as a deliberate choice",
+          "Construct labelled ray diagrams for light reflection and refraction scenarios — applying a new representation convention to Y5 physical science content",
+          "Use maps or aerial photographs to represent spatial data on erosion site locations — examining how spatial representation suits geographically distributed data"
+        ],
+        "hinge": true,
+        "hinge_reason": "Constructing a valid representation is the prerequisite for Node 2 interpretation — students cannot extract patterns from a malformed or wrong-type representation. A student who defaults to column graphs regardless of data type will be unable to use maps or ray diagrams to identify the patterns those representations are designed to reveal.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students at this band encounter a wider range of representation types than at 3-4 band — ray diagrams, annotated photographs, physical landscape models and maps are all new. Building fluency in selecting the right type for the data, and constructing each accurately, requires encountering varied representation types across different science contexts. Without breadth, students default to familiar formats (tables, column graphs) regardless of data type.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The variety of representation types across Y5-6 science content — ray diagrams, landscape models, maps, annotated sketches — provides genuine width. Students engaging the wider tier develop a principled understanding of representation selection rather than a procedural habit, which transfers across all inquiry work.",
+        "success_criteria": [
+          "Selects a representation type appropriate to the data or relationship and explains why it suits the purpose",
+          "Constructs the representation with correct labels, units and conventions for the chosen type"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Representations are used to identify and describe patterns, trends and relationships",
+        "progression_checkpoint": "Students can use a completed representation to identify a pattern, trend or relationship in the data and describe what it means in the context of the investigation question.",
+        "minimum_width": "Students use one completed representation to identify and describe one pattern or relationship, connecting it to the investigation question.",
+        "typical_width": "Students use representations across Y5-6 science contexts to describe patterns and relationships — predation and camouflage outcomes from column graphs, erosion patterns from maps, force interactions from ray diagrams, structural feature distributions from annotated sketches — and explain what each pattern or relationship means for the investigation question.",
+        "wider": [
+          "Construct column graphs from repeated simulation data (predation and camouflage outcomes) and explain why using values across multiple runs gives a more reliable pattern than a single run",
+          "Use a representation to distinguish a clear pattern from a noisy or ambiguous result — examining what makes a pattern reliable enough to support a conclusion",
+          "Connect an identified pattern directly to a prediction made before the investigation — evaluating whether the pattern confirms, partially confirms or contradicts the prediction"
+        ],
+        "hinge": true,
+        "hinge_reason": "Pattern identification from representations is directly required by I05 evaluating — students must select evidence from data to draw conclusions. A student who cannot identify what a representation shows cannot distinguish evidence from noise, and cannot draw a reasoned conclusion at I05.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily describe what a representation shows at surface level ('the column graph shows group A had more') without identifying a pattern or connecting it to the investigation question. Encountering the interpretation move across varied representation types and science contexts — where 'what does this show?' requires different reasoning for a ray diagram vs a map vs a column graph — builds a more generalisable interpretation capability.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The interpretation move is the harder and richer half of this descriptor. Students who can construct representations often struggle to extract meaning from them. The wider tier — distinguishing reliable patterns from noise, connecting patterns to predictions, explaining what a relationship means — develops genuine analytical thinking that transfers across all inquiry work. This is where the most pedagogically valuable width investment lies.",
+        "success_criteria": [
+          "Identifies at least one pattern, trend or relationship in a completed representation",
+          "Describes what the pattern or relationship means in the context of the investigation question — not just what the graph shows, but what it tells us"
+        ],
+        "related_standards": ["AC9S5I05"]
+      }
+    ]
+  }
+}

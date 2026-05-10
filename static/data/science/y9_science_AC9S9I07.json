@@ -1,0 +1,70 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9I07",
+    "title": "Constructing Evidence-Based Arguments",
+    "description": "construct arguments based on analysis of a variety of evidence to support conclusions or evaluate claims, and consider any ethical issues and cultural protocols associated with accessing, using or citing secondary data or information",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can construct evidence-based arguments and acknowledge ethical issues (AC9S7I07, 7-8 band). They now extend to interrogating secondary source credibility and data validity, evaluating media science claims against their methods, and constructing arguments that acknowledge First Peoples' knowledge contributions.",
+    "progression_endpoint": "Students construct arguments from multiple evaluated evidence sources that support a conclusion or evaluate a claim, and address ethical issues and cultural protocols in the access, use and citation of secondary data — including acknowledgement of First Peoples' knowledge systems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Secondary evidence is evaluated for credibility and validity before use",
+        "progression_checkpoint": "Students can examine secondary data for source credibility, data validity and reproducibility, identify multiple consistent sources for a claim, and evaluate whether media science claims are supported by the methods described.",
+        "minimum_width": "Students evaluate at least one secondary source for credibility and data validity, and compare it with at least one other source on the same claim.",
+        "typical_width": "Students examine secondary data for source credibility, validity and reproducibility; identify multiple consistent sources for a claim (e.g. vaccine effectiveness); interrogate media science reports against the methods used; distinguish between data supporting a claim and data that is consistent with but does not prove it; and recognise when reported findings have been overstated.",
+        "wider": [
+          "Research methods used in studies reported in the media and evaluate the validity of headlines against those methods — examining the gap between what the data shows and how it is reported",
+          "Identify multiple consistent sources for a claim such as vaccine effectiveness — examining how convergent independent evidence strengthens the argument",
+          "Examine secondary data for personal information risks, correct citation and relevance to the investigation question"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to construct arguments from evaluated evidence. Students who accept secondary sources uncritically cannot build valid arguments — they incorporate data that doesn't support their claim or overlook methodological limitations that undermine the conclusion. Source evaluation in Node 1 is the prerequisite raw material for argument construction in Node 2.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to accept secondary sources uncritically or reject them on superficial grounds (unfamiliar source = untrustworthy). Encountering source evaluation across varied secondary source types — peer-reviewed papers, media reports, government data, industry publications — builds a more principled and transferable credibility assessment capability.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Evaluates at least one secondary source for credibility and data validity with specific reasoning",
+          "Identifies whether a media science claim is supported by the methods described in the report"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Arguments are constructed from evaluated evidence with ethical and cultural awareness",
+        "progression_checkpoint": "Students can construct an argument from multiple evaluated evidence sources that supports a conclusion or evaluates a claim, and address ethical issues and cultural protocols relevant to the evidence used — including acknowledging First Peoples' knowledge contributions.",
+        "minimum_width": "Students construct one argument from at least two evaluated evidence sources with explicit reasoning; acknowledge at least one ethical issue or cultural protocol relevant to the evidence used.",
+        "typical_width": "Students construct arguments from multiple consistent evidence sources with explicit reasoning chains; acknowledge and identify the relationship between First Peoples' knowledges and contemporary science; construct arguments for First Nations contributions to medicine and health; address cultural protocols in citing or using First Nations knowledge; and evaluate claims about the age of ancient artefacts using multiple evidence types.",
+        "wider": [
+          "Acknowledge and construct an argument for First Nations Australians' contributions to medicine through knowledge of physiological pathways and medicinal delivery systems — examining how two knowledge systems contribute to the same understanding",
+          "Interrogate evidence and reasoning used to justify claims about ancient artefact ages — examining how multiple evidence types (radiocarbon dating, stratigraphy, material analysis) combine to build an argument",
+          "Examine secondary data to ensure it does not contain personal information that could harm individuals, is correctly cited and is relevant to the investigation question"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Constructing an argument from evaluated evidence requires students to simultaneously apply source evaluation, evidence selection, logical reasoning, and ethical/cultural awareness — all in a single coherent text. Students who have each as separate skills must now deploy them together. The ethical and cultural dimensions are not add-ons but are integral to the argument's validity and integrity.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Peoples' knowledge contribution direction is elaboration-grounded and represents genuine analytical depth — constructing an argument that recognises both knowledge systems requires sophisticated evidence integration and cultural understanding that goes well beyond standard argument-writing.",
+        "success_criteria": [
+          "Constructs an argument from at least two evaluated evidence sources with an explicit reasoning chain connecting evidence to conclusion",
+          "Addresses at least one ethical issue or cultural protocol relevant to the evidence used — not as a disclaimer but as part of the argument"
+        ]
+      }
+    ]
+  }
+}

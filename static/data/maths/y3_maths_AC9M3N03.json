@@ -1,0 +1,93 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3N03",
+    "title": "Addition and subtraction with place value",
+    "strand": "Number",
+    "mode": "A",
+    "description": "add and subtract two- and three-digit numbers using place value to partition, rearrange and regroup numbers to assist in calculations without a calculator",
+    "prior_knowledge": "Students can add and subtract one- and two-digit numbers using part-part-whole reasoning and a variety of calculation strategies (AC9M2N04). They have not yet applied place value partitioning and regrouping to three-digit calculations without a calculator.",
+    "progression_endpoint": "Students add and subtract two- and three-digit numbers, applying place value partitioning, rearranging and regrouping strategies to calculate without a calculator.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Partitioning for addition",
+        "progression_checkpoint": "Students can partition two- and three-digit numbers to add by place value (e.g. 245 + 132 = 200+100 + 40+30 + 5+2).",
+        "minimum_width": "Add at least two pairs of three-digit numbers by partitioning into hundreds, tens and ones, recording the working.",
+        "typical_width": "Apply place value partitioning to add a range of two- and three-digit number pairs; connect to informal written layout.",
+        "wider": [
+          "Explore different partitioning strategies — e.g. partitioning one number only, or using non-standard partitions like 245 = 200+45",
+          "Apply partitioning addition to multi-step problems and real-world contexts involving distances or quantities"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can partition both addends by place value and combine to find the sum.",
+          "Students can record the partitioned addition strategy clearly."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Regrouping in addition",
+        "progression_checkpoint": "Students can recognise when regrouping (carrying) is needed in addition and apply it correctly across hundreds, tens and ones.",
+        "minimum_width": "Solve at least three addition problems requiring at least one regrouping step, explaining where the regrouping occurs.",
+        "typical_width": "Add two- and three-digit numbers across a range of problems requiring regrouping at tens and/or hundreds; explain the regrouping action using place value language.",
+        "wider": [
+          "Use base-ten blocks or virtual manipulatives to model the physical exchange that underlies regrouping, connecting the model to the written procedure",
+          "Investigate what happens when regrouping is needed at multiple places simultaneously"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Regrouping is a common error site — students who see it only in columns of the same type (tens only) often fail to generalise. Encountering it at hundreds, tens and ones across varied problems resolves the confusion.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Regrouping in addition is a prerequisite for decomposition in Node 3 subtraction — students who have not generalised regrouping across place value positions cannot reliably apply the inverse procedure (decomposition/borrowing) and will produce systematic errors in subtraction.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can identify when regrouping is needed in an addition calculation.",
+          "Students can correctly apply regrouping and produce the correct sum."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Subtraction using place value",
+        "progression_checkpoint": "Students can subtract two- and three-digit numbers using place value partitioning, including cases requiring decomposition.",
+        "minimum_width": "Subtract two pairs of three-digit numbers using place value partitioning; at least one problem requires decomposition (borrowing).",
+        "typical_width": "Apply place value strategies — partitioning, rearranging, decomposition — to subtract across a range of two- and three-digit problems; choose the most efficient strategy.",
+        "wider": [
+          "Compare different subtraction strategies (partitioning, counting on/back, compensation) for the same problem, evaluating efficiency",
+          "Apply subtraction to financial contexts — e.g. calculating change from $100 in real-world purchase scenarios"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Subtraction with decomposition is the highest-error node in this descriptor — the 'borrowing' action is procedurally error-prone. Students who understand the place value rationale through multiple representations (models and written) make fewer errors than those who memorise procedure.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "consolidation",
+            "reason": "Once the decomposition concept is understood, students also benefit from practice to build fluency and reduce procedural errors in multi-step problems."
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Subtraction with decomposition feeds directly into AC9M3N06 mathematical modelling problems and AC9M3N05 estimation-checking tasks — students who cannot reliably subtract with decomposition cannot complete multi-step problems or check the reasonableness of results in subsequent standards.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Strategy comparison tasks — comparing partitioning vs compensation vs counting on for the same problem — give advancing students genuine structural insight into why different strategies work and when to choose them.",
+        "success_criteria": [
+          "Students can subtract a three-digit number from a three-digit number using at least one place value strategy.",
+          "Students can correctly apply decomposition where required and produce the correct difference."
+        ],
+        "related_standards": ["AC9M3A01", "AC9M3A02", "AC9M3N06"]
+      }
+    ]
+  }
+}

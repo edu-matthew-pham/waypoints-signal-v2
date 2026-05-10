@@ -1,0 +1,89 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LY05",
+    "title": "Comprehension strategies",
+    "description": "use comprehension strategies such as visualising, predicting, connecting, summarising, monitoring and questioning to build literal and inferred meaning, and to connect and compare content from a variety of sources",
+    "strand": "Literacy — Mode B (Capability)",
+    "mode": "B",
+    "prior_knowledge": "Students can use comprehension strategies including visualising, predicting, connecting, summarising, monitoring and questioning (AC9E5LY05). They have not yet applied these strategies specifically to building inferred meaning, or to connecting and comparing content across multiple sources.",
+    "progression_endpoint": "Students use comprehension strategies to build both literal and inferred meaning, and to connect and compare content from a variety of sources.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Building literal meaning",
+        "progression_checkpoint": "Students can use comprehension strategies to locate and construct literal meaning from a text.",
+        "minimum_width": "Apply at least two comprehension strategies (e.g. questioning, summarising) to extract literal meaning from a provided text; identify where in the text the information is explicitly stated.",
+        "typical_width": "Use the full range of comprehension strategies — visualising, predicting, connecting, summarising, monitoring and questioning — to build literal meaning from a text; locate specific literal content accurately.",
+        "wider": [
+          "Apply comprehension strategies to a complex multimodal text and identify which strategies were most useful for extracting different types of literal information",
+          "Use graphic organisers to visualise and organise literal information from a text, demonstrating hierarchical or categorical relationships"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least two comprehension strategies to locate literal information in a text",
+          "Distinguishes between information stated explicitly in the text and information that requires inference"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Building inferred meaning",
+        "progression_checkpoint": "Students can use prior knowledge and textual information to make inferences, going beyond what is explicitly stated.",
+        "minimum_width": "Identify at least one inference made during reading and explain what textual information and prior knowledge supported it.",
+        "typical_width": "Use prior knowledge and textual information to make inferences; connect information in print and images to construct inferred meaning; ask and answer questions that require inference rather than literal retrieval.",
+        "wider": [
+          "Identify a point in a text where inference is required due to ambiguity or implied meaning, and evaluate two different possible inferences against the textual evidence",
+          "Compare inferences made by different readers of the same text and discuss what prior knowledge or experience shaped different interpretations"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot make supported inferences cannot connect and compare across sources in Node 3 — multi-source comparison relies on inferred meaning as much as literal retrieval, and without the inference skill, cross-source synthesis collapses to surface matching.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Inference requires students to articulate the two-part reasoning move: 'the text says X; I know Y; therefore Z'. Students who have not had the inference process made explicit often guess rather than infer — scaffolding the distinction between evidence and guessing is productive here.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Analysing and comparing inferences across readers is rich metacognitive work — it reveals how comprehension is active and constructive, not passive, and connects to critical literacy.",
+        "success_criteria": [
+          "Makes an inference and names the textual evidence that supports it",
+          "Distinguishes the inference from what is explicitly stated in the text"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Connecting and comparing across sources",
+        "progression_checkpoint": "Students can connect and compare content from a variety of sources using comprehension strategies.",
+        "minimum_width": "Connect information from at least two sources on the same topic and identify one similarity and one difference in what they say.",
+        "typical_width": "Apply comprehension strategies to connect and compare content across a range of sources — print and digital, images and text; use graphic organisers to visualise connections, categories and hierarchies across sources; summarise and synthesise information from multiple texts.",
+        "wider": [
+          "Compare the claims made by three or more sources on the same topic and evaluate which is best supported by evidence",
+          "Investigate a topic using sources from different disciplines (e.g. a science article, a historical account, an Indigenous knowledge source) and compare what each perspective reveals"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Connecting and comparing across sources requires deploying literal comprehension (Node 1) and inferencing (Node 2) simultaneously on multiple texts — the integration challenge is managing meaning across sources, not just within one.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-source comparison is rich — it develops information literacy, critical thinking and synthesis skills that are foundational for secondary research tasks.",
+        "success_criteria": [
+          "Connects information from at least two sources and identifies a similarity or difference",
+          "Summarises content from one source accurately in own words"
+        ],
+        "related_standards": ["AC9E6LY04", "AC9E6LY01"]
+      }
+    ]
+  }
+}

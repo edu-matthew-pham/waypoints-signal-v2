@@ -1,0 +1,100 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFST01",
+    "title": "Collecting and Comparing Data",
+    "description": "collect, sort and compare data represented by objects and images in response to given investigative questions that relate to familiar situations",
+    "strand": "Statistics",
+    "mode": "B",
+    "prior_knowledge": "Students have informal experience sorting objects and answering yes/no questions in everyday life. They have not yet participated in a structured data investigation — collecting data in response to a question, organising it, and using the organised data to answer the question.",
+    "progression_endpoint": "Students collect, sort and compare data represented by objects and images in response to given investigative questions about familiar situations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Connecting a question to data collection",
+        "progression_checkpoint": "Students can identify what data needs to be collected to answer a given investigative question and describe how they will collect it.",
+        "minimum_width": "Given one investigative question, identify what information needs to be collected and describe one way to collect it.",
+        "typical_width": "Connect a range of investigative questions to appropriate data collection strategies; distinguish between questions that can be answered by looking at existing objects and questions that require asking people; describe how collected data will answer the question.",
+        "wider": [
+          "Explore how First Nations Australians collect information from the environment to answer questions (e.g. predicting weather events) — connecting data collection to Country/Place knowledge",
+          "Investigate how an AI system needs to be 'trained' by collecting yes/no data to recognise objects — connecting data collection to digital contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students at Foundation commonly try to answer investigative questions without systematic collection — they look at a collection and report an impression rather than identifying what data is needed. The reasoning scaffold (what is the question? what information would answer it? how would I collect that information?) is the thinking move that makes data collection purposeful.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 depend on students having collected data that is connected to the investigative question. Students who collect arbitrary data — not matched to the question — cannot sort it into meaningful categories or use it to answer the question. The question-to-data connection is what makes the whole inquiry cycle coherent.",
+        "success_criteria": [
+          "Student identifies what information needs to be collected to answer a given investigative question",
+          "Student describes at least one way to collect the needed data"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sorting and organising collected data",
+        "progression_checkpoint": "Students can sort collected objects or images into categories that correspond to the investigative question.",
+        "minimum_width": "Sort a collection of objects or images into two categories in response to an investigative question, naming each category.",
+        "typical_width": "Sort collected data (objects or images) into relevant categories; choose or use a given organising method (e.g. physical grouping, sticker chart, line of objects); create simple classroom charts or rosters using objects or stickers.",
+        "wider": [
+          "Sort data into more than two categories for investigative questions with multiple response options",
+          "Use one-to-one correspondence to line up or match objects from two categories — making the comparison visually clear",
+          "Explore how sorting and organising data from picture books (e.g. 'The Waterhole' by Graeme Base) can answer investigative questions"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "The physical process of sorting and organising data requires systematic allocation — each object goes in exactly one category. Students commonly create overlapping categories or re-sort mid-process. Repeated practice with the sorting process across varied investigative questions builds the systematic organisation habit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to compare organised categories to answer the investigative question — but disorganised data (items in multiple categories, incomplete allocation) cannot be meaningfully compared. Students who cannot sort systematically produce data that is uninterpretable at node 3.",
+        "success_criteria": [
+          "Student sorts collected data into at least two named categories with each item in exactly one category",
+          "Student's organisation method makes it possible to compare the categories"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing organised data to answer a question",
+        "progression_checkpoint": "Students can compare organised data to answer an investigative question and explain what the data shows.",
+        "minimum_width": "Compare two groups of sorted data and state which is larger or smaller, connecting the comparison to the original investigative question.",
+        "typical_width": "Compare sorted and organised data to answer yes/no and comparison investigative questions; interpret classroom charts and simple representations; explain what the data shows in response to the question using comparative language.",
+        "wider": [
+          "Investigate statistical contexts from picture books (e.g. 'The Waterhole' by Graeme Base) — asking investigative questions, collecting data from the book, and comparing results to draw conclusions",
+          "Role-play being an industrial robot or AI system that uses sorted data to make decisions — connecting data comparison to real-world automated sorting contexts",
+          "Explore what First Nations Australians' environmental observations tell us — discussing how collected information can be used to answer questions about Country/Place"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly report what they see in the data (there are more shoes with laces) without connecting the observation back to the investigative question. The reasoning scaffold — 'the question was X; the data shows Y; so the answer is Z' — is the thinking move that makes data interpretation purposeful. This closure is the specific skill the descriptor demands.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "Answering an investigative question integrates question-to-data connection (node 1) and sorting/organising (node 2) into a complete statistical inquiry. The data has been collected and organised for a purpose — using it to answer the question is where those moves pay off. The full inquiry cycle (question → collect → organise → compare → answer) is the endpoint demand."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Varied investigative contexts — including digital/AI contexts, picture book investigations, and First Nations environmental data — give advancing students rich opportunities to apply the complete data inquiry cycle to genuinely interesting questions. Each new context requires applying the same process to new data, building transferable statistical reasoning.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student compares two or more categories of organised data and states which is larger or smaller",
+          "Student connects the comparison to the original investigative question — stating what the data shows about the question"
+        ]
+      }
+    ]
+  }
+}

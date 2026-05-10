@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY04",
+    "title": "Read with phrasing and fluency",
+    "description": "read decodable and authentic texts using developing phonic knowledge, phrasing and fluency, and monitoring meaning using context and grammatical knowledge",
+    "strand": "literacy_mode_b",
+    "mode": "B",
+    "prior_knowledge": "Students can read decodable and authentic texts using developing phonic knowledge and monitor meaning at Foundation level (AC9EFLY04). They have not yet developed consistent phrasing and fluency, or systematically used context and grammatical knowledge as monitoring strategies alongside phonics.",
+    "progression_endpoint": "Students read decodable and authentic texts with developing phrasing and fluency, monitoring meaning using context and grammatical knowledge.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Applying phonic knowledge in reading",
+        "progression_checkpoint": "Students can decode unfamiliar words using developing phonic knowledge as a primary word-identification strategy.",
+        "minimum_width": "Use phonic knowledge to attempt to decode an unfamiliar word in a reading context.",
+        "typical_width": "Consistently apply developing phonic knowledge — blending, digraphs, common patterns — to decode unfamiliar words encountered in decodable and authentic texts.",
+        "wider": [
+          "Apply phonic knowledge to multi-syllable words, breaking them into decodable parts",
+          "Discuss what strategies help when phonics alone doesn't fully solve a word"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without fluent phonic decoding, cognitive resources cannot be directed toward comprehension — students who remain word-by-word decoders cannot develop the phrasing and fluency that N2 requires.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Phonic decoding must become fluent and automatic before reading resources can be directed to comprehension. Repeated reading of decodable texts builds the automaticity required.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student attempts to decode an unfamiliar word using phonics before guessing or skipping",
+          "Student correctly blends phonemes in single-syllable decodable words"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Phrasing and fluency",
+        "progression_checkpoint": "Students can read in phrases rather than word-by-word, with developing fluency and expression.",
+        "minimum_width": "Read a familiar text in phrases (groups of words) rather than word-by-word, at a pace that supports meaning.",
+        "typical_width": "Read decodable and authentic texts with developing phrasing — grouping words into meaningful units — and fluency, including appropriate pace, expression and attention to punctuation.",
+        "wider": [
+          "Read the same passage at different speeds and discuss how pace affects comprehension and listener experience",
+          "Practise reading aloud for an audience, using phrasing and expression to convey meaning"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who read word-by-word cannot effectively monitor for meaning in N3 — phrased reading is the processing unit through which semantic and grammatical checking operates.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fluent phrased reading requires substantial rehearsal — it develops through repeated reading of varied texts rather than instruction alone. Consolidation through wide reading practice is the primary lever.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads in phrases rather than word-by-word for at least a sentence",
+          "Student's pace and expression reflect the meaning and punctuation of the text"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Monitoring meaning",
+        "progression_checkpoint": "Students can recognise when meaning breaks down and use context and grammatical knowledge to self-correct.",
+        "minimum_width": "Notice when a word they have read doesn't make sense and attempt a self-correction using context or grammatical knowledge.",
+        "typical_width": "Consistently monitor for meaning when reading, noticing breakdowns and self-correcting using context (does it make sense?), grammatical knowledge (does it sound right?), and phonics together.",
+        "wider": [
+          "Discuss what strategies a reader can use when meaning breaks down — model the internal monitoring process",
+          "Compare self-correction strategies: re-reading from the start of the sentence, using picture cues, using context after the word"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Monitoring for meaning requires a deliberate self-checking routine — 'does this make sense? does it sound right?' — that students must learn to apply systematically. Explicit scaffolding of the three-way check (meaning, structure, phonics) supports this."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student pauses or re-reads when a word doesn't make sense",
+          "Student attempts self-correction using context or grammatical knowledge (not just phonics)"
+        ]
+      }
+    ]
+  }
+}

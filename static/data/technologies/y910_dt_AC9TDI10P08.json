@@ -1,0 +1,108 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P08",
+    "title": "Generate, modify and critically evaluate alternative designs",
+    "description": "generate, modify, communicate and critically evaluate alternative designs",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can generate, modify, communicate and evaluate alternative designs (AC9TDI8P08). They have experience with ideation techniques and design iteration. They have not yet critically evaluated designs against design criteria and user stories, or used generative AI outputs as ideation input.",
+    "progression_endpoint": "Students generate multiple design ideas using a range of ideation techniques, modify and evaluate them critically against design criteria and user stories, and communicate the preferred design with justification.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Generating multiple design ideas",
+        "progression_checkpoint": "Students can use ideation techniques to generate multiple design ideas without prematurely evaluating them.",
+        "minimum_width": "Generate at least two distinct design ideas for a problem using at least one ideation technique; ideas should be different from each other, not variations on the same approach.",
+        "typical_width": "Use at least two different ideation techniques (e.g. mind mapping, role-play, graphic organiser, generative AI prompting) to generate a range of ideas; produce ideas that vary in approach rather than in surface features.",
+        "wider": [
+          "Use generative AI model outputs as inspiration (not a direct solution) \u2014 explain how AI-generated outputs were used as a starting point and what human creative decisions were made from there",
+          "Investigate how design thinking frameworks structure the ideation phase \u2014 compare structured ideation with unstructured brainstorming and reflect on what each produces"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces at least two design ideas that are genuinely different approaches, not variations of the same idea",
+          "Uses an identifiable ideation technique"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Critically evaluating designs against criteria and user stories",
+        "progression_checkpoint": "Students can evaluate design ideas critically by comparing them against design criteria and user stories to identify which ideas meet requirements and which do not.",
+        "minimum_width": "Evaluate at least two design ideas against at least two design criteria; explain which criteria each idea meets and which it fails.",
+        "typical_width": "Evaluate a set of design ideas systematically against all design criteria and user stories; identify the strengths and weaknesses of each; explain trade-offs where an idea meets some criteria but not others.",
+        "wider": [
+          "Use a formal design evaluation matrix (criteria vs ideas scoring) to compare designs, and reflect on whether the matrix captures all relevant considerations or oversimplifies",
+          "Evaluate designs against criteria that were not initially obvious \u2014 identify what the stakeholder would value that wasn't in the original criteria set"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often evaluate designs by preference rather than against criteria. A structured reasoning approach \u2014 for each criterion: does this design meet it? how well? \u2014 builds the habit of evidence-based evaluation. Without structure, evaluation becomes rationalisation of a preferred design.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Evaluation references specific design criteria, not just general preferences",
+          "Identifies at least one design that meets criteria better than alternatives and explains why"
+        ],
+        "hinge": true,
+        "hinge_reason": "N3 modification requires knowing which criteria are not met \u2014 students who evaluate by preference rather than criteria produce modifications without design rationale and cannot justify decisions at N4."
+      },
+      {
+        "id": 3,
+        "label": "Modifying and developing the preferred design",
+        "progression_checkpoint": "Students can modify a design based on evaluation findings, in consultation with stakeholders, and further develop the preferred design toward implementation.",
+        "minimum_width": "Make at least one modification to a design based on evaluation feedback; explain what criterion or user story the modification addresses.",
+        "typical_width": "Review designs with stakeholders; make modifications to eliminate weaknesses identified in evaluation; develop the preferred design to a level of detail sufficient to guide implementation; document the design decisions made.",
+        "wider": [
+          "Conduct a design review with the stakeholder and use their feedback to make modifications \u2014 document what was changed, what was retained, and why",
+          "Iterate through at least two design-evaluate-modify cycles and reflect on how the design improved with each iteration"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "At least one modification is made and connected to a specific evaluation finding",
+          "The preferred design is developed with sufficient detail to guide the next phase"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Communicating the design",
+        "progression_checkpoint": "Students can communicate the preferred design and its rationale clearly to stakeholders.",
+        "minimum_width": "Present the preferred design with at least one visual representation and a brief explanation of why it was selected over alternatives.",
+        "typical_width": "Communicate the preferred design using appropriate representations (mockups, diagrams, written specifications); explain the rationale for selecting this design over alternatives; address how it meets the key design criteria and user stories.",
+        "wider": [
+          "Produce a design specification document that a different person could implement from without further clarification",
+          "Present the design to the stakeholder and handle questions and objections \u2014 revise the design or the communication in response to feedback"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Design is communicated with at least one visual representation",
+          "Rationale for choosing this design over alternatives is explained with reference to criteria or user stories"
+        ],
+        "related_standards": [
+          "AC9TDI10P04",
+          "AC9TDI10P07"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

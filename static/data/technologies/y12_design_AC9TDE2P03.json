@@ -1,0 +1,79 @@
+{
+  "year_level": "1-2",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE2P03",
+    "title": "Evaluate success and sustainability",
+    "description": "evaluate the success of design ideas and solutions based on personal preferences and including sustainability",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can evaluate what they made using personal preferences (AC9TDEFP01). They have shared opinions about their design. They have not yet evaluated against sustainability considerations, reflected on environmental impacts, or compared design ideas for strengths and weaknesses in a structured way.",
+    "progression_endpoint": "Students evaluate the success of design ideas and solutions based on personal preferences and sustainability considerations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Evaluating against personal preferences",
+        "progression_checkpoint": "Students can reflect on and record a judgement about a design idea or solution based on personal preferences, identifying strengths and areas for improvement",
+        "minimum_width": "Describe at least one strength and one weakness of a design or solution using personal preferences as the basis",
+        "typical_width": "Reflect on design ideas and solutions across the full design process \u2014 describe what meets the design need and what could be improved; record judgements using audio, video or written/drawn responses; share with others",
+        "wider": [
+          "Describe how design ideas meet the needs of those who will use the solution \u2014 use audio or video recording to capture the evaluation; review the recording and identify changes",
+          "Share design strengths and weaknesses with the class \u2014 explain how playground equipment might be unsuitable for some children and suggest specific improvements"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluation requires students to apply a criterion to their work \u2014 but at Y1-2, the criterion of personal preference is itself vague without scaffolding. A structure (what did you want it to do? does it do that? what would you change and why?) moves evaluation from 'I like it/I don't like it' to reasoned judgement about design success.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one strength of the design or solution",
+          "Names at least one area for improvement \u2014 not just 'make it better' but a specific change"
+        ],
+        "related_standards": [
+          "AC9TDEFP01",
+          "AC9TDE2P01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Evaluative reasoning against personal preferences is the prerequisite for Node 2's sustainability evaluation \u2014 Node 2 extends the same reasoning structure to environmental criteria. Students who cannot evaluate against any criterion cannot take on a second, less familiar one."
+      },
+      {
+        "id": 2,
+        "label": "Evaluating sustainability impacts",
+        "progression_checkpoint": "Students can reflect on the environmental impacts of a solution and consider alternative approaches that minimise negative impacts",
+        "minimum_width": "Identify at least one environmental impact of making a solution and suggest one way that impact could be reduced",
+        "typical_width": "Reflect on environmental impacts across multiple production contexts (food packaging, material waste, water use); identify negative impacts and suggest alternative approaches; connect sustainability evaluation to both design ideas and making processes",
+        "wider": [
+          "Identify the negative environmental impacts of different food packaging options \u2014 suggest how packaging could be redesigned to minimise impact; explain the trade-offs",
+          "Reflect on the challenges of producing a solution (growing food, making a structure, preparing a snack) and record what would be done differently to reduce environmental impact next time"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Sustainability impacts are not immediately visible at Y1-2 level \u2014 students need to encounter them in multiple, concrete production contexts before the evaluative habit generalises. Food packaging, water use and material waste are distinct enough to reveal different aspects of environmental impact, each making the abstract concept tangible.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The food packaging redesign direction requires students to apply sustainability evaluation as a design constraint \u2014 not just notice impact but propose a better design. This is richer than minimum evaluation and builds genuine design thinking with sustainability as a criterion.",
+        "success_criteria": [
+          "Identifies at least one environmental impact of a production activity",
+          "Suggests at least one concrete alternative that would reduce that impact"
+        ],
+        "related_standards": [
+          "AC9TDE2K01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

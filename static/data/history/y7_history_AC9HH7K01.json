@@ -1,0 +1,110 @@
+{
+  "year_level": "7",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH7K01",
+    "title": "Early human migration",
+    "description": "theories and historical interpretations about early human evolution and migration, such as the theory that people moved out of Africa and the causes of migration to other parts of the world, including Australia",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe significant individuals, events and ideas in Australia's post-Federation history and explain how migration to Australia changed society (AC9HS6K01, AC9HS6K03). They have not yet studied human prehistory, early human evolution, or the movement of peoples before written records. They have not worked with geological or archaeological timescales, or with theories about human origins.",
+    "progression_endpoint": "Students identify and describe competing theories of early human evolution and migration, explain how environmental changes drove the movement of peoples out of Africa and into other parts of the world including Australia, and identify how different types of evidence — excavation and stratigraphy, oral history, and radiocarbon dating — inform historical interpretations about these events.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Theories of human evolution",
+        "progression_checkpoint": "Students can identify competing theories about early human evolution, including the Out of Africa Theory and the Modern Theory of Evolution, and describe what each theory proposes about human origins.",
+        "minimum_width": "Identify and briefly describe the Out of Africa Theory as the major theory of human evolution — that anatomically modern humans evolved in Africa and spread outward.",
+        "typical_width": "Identify and describe both the Out of Africa Theory and the Modern Theory of Evolution, noting what distinguishes them and why historians and scientists work with competing interpretations of human origins.",
+        "wider": [
+          "Explore how the Out of Africa Theory has been refined over time as new genetic and archaeological evidence has emerged, including debates about whether there was a single dispersal or multiple waves.",
+          "Compare how different knowledge systems — scientific, archaeological, and First Nations oral traditions — offer different but potentially complementary accounts of human origins.",
+          "Investigate how the concept of 'theory' in historical and scientific inquiry differs from everyday usage, connecting to how historians use evidence to build and revise interpretations."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students at Year 7 entry have no prior schema for deep-time human history. They need to accumulate a basic repertoire of what these theories propose before they can reason about causes of migration or evaluate evidence. This node builds the conceptual vocabulary (evolution, migration, dispersal, interpretation) that underpins all subsequent nodes."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The comparison between scientific and First Nations knowledge systems about human origins is inherently rich — it surfaces questions about how we know what we know about the deep past, and raises issues of cultural authority and epistemic pluralism. Advancing students benefit from encountering multiple knowledge systems as complementary rather than competing, building the understanding that different epistemological approaches coexist.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison between scientific and First Nations knowledge systems about human origins is genuinely rich — it surfaces questions about how we know what we know about the deep past, and raises issues of cultural authority and epistemic pluralism that are central to the History curriculum. Advancing students can engage meaningfully with why these accounts coexist rather than simply which is correct.",
+        "success_criteria": [
+          "Names and briefly describes the Out of Africa Theory as the predominant theory of early human origins.",
+          "Identifies that historians and scientists work with competing or evolving theories rather than a single settled account of human evolution.",
+          "Uses the term 'theory' correctly in a historical/scientific context — as an evidence-based interpretation, not a guess."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Environmental causes of migration",
+        "progression_checkpoint": "Students can describe how environmental changes — including climate change and desertification — triggered the movement of early humans out of Africa and into other parts of the world.",
+        "minimum_width": "Describe at least one major environmental trigger (e.g. climate change, desertification) that caused early humans to migrate out of Africa.",
+        "typical_width": "Describe how a range of environmental changes — climate change, desertification, and shifting resource availability — combined to push and pull early human populations across different regions, including movement toward and eventually into Australia.",
+        "wider": [
+          "Examine specific geographical routes proposed for early human migration out of Africa (e.g. the coastal route, the northern route through the Levant), and how environmental conditions shaped which routes were viable.",
+          "Investigate how the concept of 'push and pull factors' used in modern migration studies applies to early human migration — connecting deep-time history to contemporary geographic and historical frameworks.",
+          "Explore how rising and falling sea levels during glacial periods created and closed land bridges, affecting where early humans could and could not travel."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot connect environmental change to migration as a causal mechanism will treat K02's arrival causes as disconnected facts rather than an extension of the same causal chain — the push-pull logic that explains departure from Africa is the same logic that explains arrival in Sahul.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The causal chain from environmental change → resource pressure → population movement is not self-evident to Year 7 students. They need the reasoning scaffold made explicit: what changed in the environment, how that affected survival, and why movement was a response. Without this scaffold, students list environmental changes without connecting them to migration as a human response.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least one specific environmental change (e.g. desertification, climate shift) and explains how it created conditions that triggered migration.",
+          "Identifies that environmental change caused early humans to move in search of resources — not simply that they 'chose' to migrate.",
+          "Places early human migration out of Africa in a plausible chronological context (hundreds of thousands of years ago)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evidence types and interpretations",
+        "progression_checkpoint": "Students can identify different types of evidence used by historians and archaeologists — including excavation and stratigraphy, oral history, and radiocarbon dating — and describe how each type informs interpretations about early human migration.",
+        "minimum_width": "Identify at least two types of evidence (e.g. stratigraphy, radiocarbon dating) and describe in basic terms what each can tell us about early human migration.",
+        "typical_width": "Identify and describe three evidence types — excavation and stratigraphy, oral history, and radiocarbon dating — explaining what each reveals about early human migration and why using multiple evidence types produces stronger interpretations.",
+        "wider": [
+          "Examine how genetic evidence (e.g. DNA analysis of ancient remains, mitochondrial DNA tracing) has been used alongside archaeological evidence to map migration routes, including the movement of peoples to Australia.",
+          "Explore the limitations of each evidence type — what stratigraphy cannot tell us, where radiocarbon dating has error ranges, and how oral histories can preserve long-timescale knowledge — and why historians must triangulate across sources.",
+          "Investigate specific examples where different evidence types have produced conflicting interpretations of the same migration event, and how historians have responded to that conflict."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate evidence with proof will apply a naive reliability model in all subsequent source analysis (S03–S04), treating a single source as settling interpretive claims rather than understanding that interpretations are built from converging lines of evidence.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly conflate 'evidence' with 'proof', treating a single piece of evidence as settling an interpretation. Exposure to multiple, distinct evidence types — each with different strengths and limitations — helps students see that interpretations are built from converging lines of evidence, not confirmed by a single source. Broader contexts (stratigraphy, oral history, radiocarbon dating, DNA) are specifically what resolves this misconception.",
+            "flags": ["hinge", "width_opportunity"]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "The logic of how evidence informs interpretation — rather than proves it — requires explicit scaffolding. Students need to understand the inference chain: evidence type → what it can detect → what interpretive claim it supports → what it cannot resolve. This reasoning structure is foundational for all subsequent source-analysis skills in the S strand.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison across evidence types is inherently rich — each type (physical stratigraphy, living oral tradition, radiometric dating) embodies a different epistemological approach to the past. Advancing students can engage with why historians value multiple evidence types, the distinctive contribution of oral history as evidence, and the methodological debates this raises. This also directly connects to the Ancient unit (K08) which returns to archaeological methods.",
+        "success_criteria": [
+          "Names at least two distinct evidence types and describes what each can reveal about early human migration.",
+          "Explains that interpretations about early human migration are based on multiple types of evidence, not a single source.",
+          "Does not treat evidence as synonymous with proof — recognises that evidence informs and supports interpretations while leaving room for revision."
+        ],
+        "related_standards": ["AC9HH7K08", "AC9HH7S03", "AC9HH7S04"]
+      }
+    ]
+  }
+}

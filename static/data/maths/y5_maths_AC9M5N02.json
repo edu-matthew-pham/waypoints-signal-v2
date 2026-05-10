@@ -1,0 +1,114 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N02",
+    "title": "Factors and multiples",
+    "strand": "Number",
+    "description": "Express natural numbers as products of their factors, recognise multiples and determine if one number is divisible by another",
+    "prior_knowledge": "Students can identify odd and even numbers and recognise some basic number properties (AC9M4N02). They have not yet systematically expressed numbers as products of factors or applied divisibility reasoning.",
+    "progression_endpoint": "Students express natural numbers as products of their factors, recognise multiples, and determine divisibility.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Multiples",
+        "progression_checkpoint": "Students can list multiples of a given number and recognise whether a number is a multiple of another.",
+        "minimum_width": "List at least 10 multiples of any single-digit number; identify whether a given number is a multiple of a given factor.",
+        "typical_width": "Generate multiples for numbers 2–12; use multiples to solve divisibility questions informally; identify common multiples.",
+        "wider": [
+          "Use skip-counting patterns on a hundreds chart to visualise multiples",
+          "Connect multiples to real-world contexts (e.g. scheduling, tiling, packing)"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fluency with multiples is foundational for later fraction and LCM work. Students need repeated practice before the concept transfers reliably.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Fluent multiple recognition is directly required by Node 2 (systematic factor pairs) and Node 4 (divisibility) — students who cannot reliably identify multiples cannot work systematically through factor pairs or apply divisibility rules.",
+        "success_criteria": [
+          "Student lists multiples of a given number without skip-counting errors",
+          "Student determines whether a given number is a multiple of another and explains why"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Factors and factor pairs",
+        "progression_checkpoint": "Students can find all factor pairs of a natural number and list all its factors.",
+        "minimum_width": "Find all factor pairs of a two-digit number using systematic division; list all factors in ascending order.",
+        "typical_width": "Apply a systematic factor-pair strategy to numbers up to 100; distinguish between factors and multiples; identify numbers with only two factors (primes) as a pattern without naming them.",
+        "wider": [
+          "Use rectangular arrays to model all factor pairs visually",
+          "Investigate why some numbers have an odd number of factors (perfect squares)"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The systematic factor-pair approach (start from 1, work up to the square root) requires an explicit reasoning scaffold. Without it, students miss factors or double-count.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Arrays and perfect square patterns give advancing students genuine mathematical structure to explore.",
+        "hinge": true,
+        "hinge_reason": "Systematic factor-pair finding is the prerequisite for Node 3 (products of factors) — students who cannot reliably enumerate factor pairs cannot express numbers as products of multiple factors.",
+        "success_criteria": [
+          "Student finds all factor pairs of a two-digit number systematically",
+          "Student lists all factors of a number in order without omissions"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Products of factors",
+        "progression_checkpoint": "Students can express a natural number as a product of two or more factors in multiple ways.",
+        "minimum_width": "Express a given number as a product of two factors in at least two different ways (e.g. 24 = 4 × 6 = 3 × 8).",
+        "typical_width": "Express numbers as products of more than two factors; connect to area models and array representations; recognise that multiplication is commutative across factor pairs.",
+        "wider": [
+          "Explore factor trees as a visual representation of repeated factoring",
+          "Investigate which numbers can be expressed as products of two equal factors (perfect squares)"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student expresses a given number as a product of factors in multiple ways",
+          "Student verifies each product using multiplication"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Divisibility",
+        "progression_checkpoint": "Students can determine whether one natural number is divisible by another and explain their reasoning.",
+        "minimum_width": "Determine whether a given number is divisible by 2, 5 or 10, explaining the rule used.",
+        "typical_width": "Apply and explain divisibility patterns for 2, 3, 4, 5, 6, 9 and 10; connect divisibility to the factor relationship.",
+        "wider": [
+          "Investigate divisibility patterns using digital tools to test large numbers",
+          "Explore how divisibility connects to factors and multiples in number grids (e.g. Sieve of Eratosthenes)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often over-generalise divisibility rules (e.g. applying the digit-sum rule to 4). Multiple number examples across different divisors help distinguish which rules apply where.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Sieve and large-number digital investigation give advancing students rich pattern exploration territory.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly applies divisibility rules for at least three different divisors",
+          "Student connects divisibility to the factor relationship (if a÷b has no remainder, b is a factor of a)"
+        ]
+      }
+    ]
+  }
+}

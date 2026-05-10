@@ -1,0 +1,135 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P05",
+    "title": "Design nested algorithms",
+    "description": "Design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
+    "strand": "Processes and Production Skills",
+    "mode": "A",
+    "prior_knowledge": "Students can design algorithms involving multiple branching alternatives and iteration (AC9TDI6P02). They can use sequence, branching and iteration as separate control structures. They have not yet nested control structures inside each other or represented algorithms in both flowcharts and pseudocode.",
+    "progression_endpoint": "Students design algorithms involving nested control structures (IF inside IF, IF inside loops, loops inside loops), represent them precisely using both flowcharts and pseudocode, and explain the design decisions at each branching or iteration point.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Control structures as building blocks",
+        "progression_checkpoint": "Students can identify sequence, branching and iteration as distinct control structures and explain what each does",
+        "minimum_width": "Name the three control structures (sequence, branching, iteration); given a simple algorithm, identify which structure is being used",
+        "typical_width": "Identify control structures in multiple algorithm examples; explain when each is appropriate — branching for decisions, iteration for repetition",
+        "wider": [
+          "Limited width — the three control structures are a fixed set. More examples reinforce recognition but do not broaden the concept. The genuine breadth comes from how they are combined at later nodes."
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "The three control structures must be reliably identified before students can understand how they combine. More algorithm examples at this node builds recognition fluency — the prerequisite for understanding what nesting adds at Node 2.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reliably identify sequence, branching and iteration as distinct structures cannot understand what it means to put one inside another at Node 2. Nesting requires a clear mental model of what is outer and what is inner — this requires the structures to be individually identifiable first.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names sequence, branching and iteration correctly",
+          "Identifies which structure is used in a given simple algorithm"
+        ],
+        "related_standards": [
+          "AC9TDI8P06",
+          "AC9TDI8P09"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "What nesting means",
+        "progression_checkpoint": "Students can explain what it means to nest one control structure inside another and why nesting is useful for more complex decisions",
+        "minimum_width": "Given a nested algorithm example (e.g. IF inside IF), identify the outer and inner structures; explain what the nesting achieves that a flat structure cannot",
+        "typical_width": "Identify nesting in multiple examples (IF inside IF, IF inside loop, loop inside loop); explain why each nesting pattern is useful for its specific problem",
+        "wider": [
+          "Limited width — nesting is a single conceptual insight (a structure inside a structure). More nesting patterns extend the concept but the core understanding is the same."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who don't grasp that nesting creates a hierarchy of decisions produce flat algorithms that cannot handle complex logic. Seeing different nesting patterns (IF inside IF, IF inside loop, loop inside loop) across different problem contexts is the width that builds robust understanding.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot articulate what nesting achieves that a flat structure cannot will produce flat algorithms at Node 3 when problems require nested logic. They will either avoid nesting (producing incorrect algorithms) or apply it randomly (producing non-functional ones).",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the outer and inner structures in a nested algorithm",
+          "Explains what the nesting achieves that a flat structure cannot",
+          "Does not confuse nesting with sequential ordering of separate structures"
+        ],
+        "related_standards": [
+          "AC9TDI8P06",
+          "AC9TDI8P09"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Designing nested algorithms",
+        "progression_checkpoint": "Students can design an algorithm with nested control structures to solve a problem, making deliberate choices about what to nest and why",
+        "minimum_width": "Design an algorithm with at least one nested structure (e.g. IF inside a loop) to solve a given problem; represent it in either flowchart or pseudocode",
+        "typical_width": "Design algorithms for problems requiring different nesting patterns; represent in both flowchart and pseudocode; explain design decisions at each branching point",
+        "wider": [
+          "Design algorithms for real-world contexts such as currency calculation or change-giving, where nesting handles multiple denominations",
+          "Modify an existing algorithm to fix an error or change functionality — identify how the nesting structure needs to change"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Designing nested algorithms for different real-world contexts (currency, change-giving, rule-checking) helps students see that nesting emerges from problem complexity, not from the algorithm designer's preference. More problem contexts = more robust understanding of why nesting is necessary.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The real-world context directions (currency calculation, modifying existing algorithms) offer advancing students genuinely complex design problems where nesting emerges from the problem rather than being imposed by a task structure.",
+        "success_criteria": [
+          "Designs an algorithm with at least one correctly nested structure",
+          "Represents the algorithm in at least one notation (flowchart or pseudocode)",
+          "The nesting solves the problem — removing it would break the algorithm"
+        ],
+        "related_standards": [
+          "AC9TDI8P06",
+          "AC9TDI8P09"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Representing in flowcharts and pseudocode",
+        "progression_checkpoint": "Students can represent the same nested algorithm precisely in both flowchart and pseudocode notation, and translate between them",
+        "minimum_width": "Given an algorithm in one notation, represent it in the other; verify that both representations produce the same output",
+        "typical_width": "Represent a self-designed algorithm in both notations; annotate the pseudocode with comments explaining design decisions; identify where each notation is clearer",
+        "wider": [
+          "Evaluate whether a design could be simplified without losing functionality — use the dual representation to spot redundant nesting",
+          "Limited width — flowcharts and pseudocode are two notations for the same thing. The breadth comes from the variety of algorithms represented, which is captured at Node 3."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Translating between flowchart and pseudocode is a precision skill requiring fluency with both notations. Width is thin — the same translation process applies regardless of algorithm. Practice with more algorithms builds the dual-representation habit."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces both a flowchart and pseudocode for the same algorithm",
+          "Both representations produce the same output for the same input"
+        ],
+        "related_standards": [
+          "AC9TDI8P06",
+          "AC9TDI8P09"
+        ]
+      }
+    ]
+  }
+}

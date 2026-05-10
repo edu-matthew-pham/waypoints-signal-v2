@@ -1,0 +1,87 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6K01",
+    "title": "Internal components and function",
+    "description": "Investigate the main internal components of common digital systems and their function",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explore and describe a range of digital systems and their peripherals for a variety of purposes (AC9TDI4K01). They understand that digital systems have input and output components. They have not yet investigated what happens inside a digital system \u2014 internal components and their specific functions remain unexplored.",
+    "progression_endpoint": "Students investigate the main internal components of common digital systems (CPU, memory, input/output components, storage) and explain how each component performs a specific function within the system.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Digital systems are made of parts",
+        "progression_checkpoint": "Students can identify that digital systems are made up of distinct internal components, each performing a specific function",
+        "minimum_width": "Name at least two internal components of a digital system and state what each does",
+        "typical_width": "Identify the main internal components (CPU, RAM, storage, input/output) of a familiar digital system such as a tablet or desktop; describe the function of each component in plain language",
+        "wider": [
+          "Compare internal components across different digital systems \u2014 a smartphone versus a gaming console versus a laptop \u2014 identifying which components are shared and which differ",
+          "Investigate the internal components of a telehealth system used to access ultrasound imagery in remote communities, identifying which components support sending and receiving large image files"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students at this node commonly confuse 'the device' with 'the component' \u2014 treating the whole system as a single thing. Seeing the same component (e.g. a CPU) appear in different devices (tablet, console, laptop) with different physical forms but the same function helps students separate the component from any single device form factor.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The telehealth direction is genuinely rich \u2014 it situates internal components in a socially meaningful context (remote health access) and makes the function of specific components (large image storage/transmission) concrete and consequential.",
+        "success_criteria": [
+          "Names at least two internal components of a digital system",
+          "States the function of each named component in plain language"
+        ],
+        "related_standards": [
+          "AC9TDI4K01",
+          "AC9TDI6K02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify what each component does cannot reason about how components coordinate in N2 \u2014 the 'how they work together' task requires knowing each part's role as a prerequisite."
+      },
+      {
+        "id": 2,
+        "label": "How CPU, memory and I/O work together",
+        "progression_checkpoint": "Students can explain how the CPU, memory and input/output components work together to perform a task",
+        "minimum_width": "Trace through a simple calculation or task (e.g. entering numbers and getting a sum) and identify which component handles each step \u2014 input, processing, memory, output",
+        "typical_width": "Explain how CPU, RAM and input/output components each play a role in completing a simple task; describe what would happen if one component were missing or very slow",
+        "wider": [
+          "Investigate how video conferencing systems combine multiple input/output components (camera, microphone, screen, speaker) and explain how the CPU coordinates them simultaneously",
+          "Explore how a calculator app on a tablet uses each component differently from a web browser \u2014 which components are used most and why?"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to reason about a process rather than just name components. The input \u2192 process \u2192 memory \u2192 output chain is a reasoning scaffold, not just a label set. Explicitly tracing a task step-by-step helps students build this as a thinking pattern rather than a memorised sequence.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "This node is where the individual component facts from Node 1 become a system understanding. Coordinating all four components in a single task trace is the learning \u2014 not any one component in isolation.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The video conferencing context (especially telehealth) is rich \u2014 it requires students to think about multiple simultaneous I/O streams and how the CPU coordinates them, which is a genuine extension of the basic task trace.",
+        "success_criteria": [
+          "Correctly assigns at least three roles (input, process, memory, output) to the correct component in a given task",
+          "Explains what each component contributes without treating them as interchangeable"
+        ],
+        "related_standards": [
+          "AC9TDI6K02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

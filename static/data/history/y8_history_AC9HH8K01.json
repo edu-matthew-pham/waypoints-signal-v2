@@ -1,0 +1,144 @@
+{
+  "year_level": "8",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH8K01",
+    "title": "Transformation to early modern world",
+    "description": "the transformation of the ancient world to the early modern world, from the decline of the Roman Empire in western Europe through Medieval, Renaissance or pre-modern Europe",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students explain the causes and effects of contacts and conflicts within and between ancient societies (AC9HH7K12), and the organisation and roles of key groups in ancient society (AC9HH7K10). They have not yet examined the large-scale structural transformation from the ancient to early modern world — the collapse of Roman order, the rise of new religious and political systems, and the emergence of Renaissance ideas.",
+    "progression_endpoint": "Students explain the key transformations from the ancient world to the early modern world — including the decline of the Roman Empire, the spread of Christianity and Islam, the development of feudalism, the growth of towns and trade, and the emergence of Renaissance ideas — and describe how these developments connect to the organisation of modern political, religious and cultural life.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Decline of the ancient world",
+        "progression_checkpoint": "Students can identify key events and processes that marked the decline of the ancient world — including the fall of the western Roman Empire and the migration of peoples — and describe what these meant for the organisation of European society.",
+        "minimum_width": "Two or more key events or processes (e.g. fall of Rome 476 CE, migration of peoples) with a brief explanation of their effects on political and social order.",
+        "typical_width": "Multiple contributing factors to Rome's decline — political fragmentation, migration pressures, economic strain — and their collective effect on the transition from ancient to medieval organisation, including the conversion of Constantine in 312 CE as a pivot point.",
+        "wider": [
+          "Compare the decline of Rome in the west with the continuation of the eastern Byzantine Empire, exploring why the split produced different historical trajectories",
+          "Examine the invasion of England by William the Conqueror (1066) as a case study of how conquest reshaped social and political order in the post-Roman world"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand what was lost or disrupted in the fall of Rome cannot make sense of why medieval institutions (Church, feudalism, towns) emerged as they did. The transformation logic in subsequent nodes depends on grasping this prior state.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat 'the fall of Rome' as a single event rather than a multi-causal, extended process. Scaffold the reasoning chain from fragmentation to collapse to reorganisation explicitly, using Constantine and 1066 as concrete anchors.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two events or processes contributing to the decline of the ancient world and explains their effects on political or social organisation",
+          "Explains what changed in the transition from ancient to post-Roman Europe using historical terms such as fragmentation, migration or decline"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Spread of Christianity and Islam",
+        "progression_checkpoint": "Students can explain the spread of Christianity through Europe and Islam through the Arab world, Mediterranean coast, Egypt, North Africa and Persia, and describe how both shaped the political and cultural organisation of the early medieval world.",
+        "minimum_width": "The spread of one religion (Christianity or Islam) with at least one example of how it shaped political or social organisation.",
+        "typical_width": "Both Christianity and Islam as parallel transformative forces — their geographic spread, the institutions they created, and their influence on law, culture and governance across the medieval world.",
+        "wider": [
+          "Examine the expansion of the Ottoman Empire as a case study in how Islamic political power and trade networks reshaped the Mediterranean world",
+          "Investigate interactions between Christian and Islamic civilisations — shared scholarship, trade and conflict — to show how transformation was driven by cross-civilisational contact"
+        ],
+        "hinge": true,
+        "hinge_reason": "The religious dimension is foundational to understanding medieval institutions, the Crusades, the power of the Church, and Renaissance humanism. Students who cannot account for religious transformation cannot explain the political and cultural structure of the medieval world.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Treating both Christianity and Islam as parallel transformative forces prevents students from reading the period through a single civilisational lens and prepares them for intercultural dynamics central to the medieval world.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The intersection of religious and political authority — and the interactions between Christian and Islamic civilisations including shared scholarship — is conceptually rich and connects to nodes on power, authority and the Renaissance.",
+        "success_criteria": [
+          "Explains the spread of at least one major religion and its role in shaping political or cultural organisation in the early medieval world",
+          "Uses historically appropriate terms (e.g. caliphate, papacy, Christendom, conversion) when describing religious transformation"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Feudalism, towns and trade",
+        "progression_checkpoint": "Students can describe the development of the feudal system, the growth of towns and cities, and the role of trade in transforming medieval European society.",
+        "minimum_width": "A basic description of the feudal hierarchy and one example of how towns or trade contributed to social and economic change.",
+        "typical_width": "The feudal system as a response to post-Roman disorder; the growth of towns as centres of commerce and culture; trade networks connecting Europe to wider worlds; the Magna Carta as an example of feudal tensions producing early constitutional ideas.",
+        "wider": [
+          "Trace the connection between the Magna Carta (1215) and the Westminster system to explore how feudal tensions produced lasting political structures",
+          "Examine how Islamic trade networks across the Mediterranean shaped European economic development, connecting religious and economic transformation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often describe feudalism as a fixed system rather than an adaptive response to specific historical conditions. Scaffold the causal logic: what problem did feudalism solve, who benefited, and how did towns and trade eventually undermine it?"
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes the feudal hierarchy and explains how it organised political and economic relationships in medieval Europe",
+          "Identifies at least one way in which the growth of towns or trade contributed to change in medieval society"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Renaissance and new ideas",
+        "progression_checkpoint": "Students can explain the emergence of Renaissance ideas — including humanism and new approaches to art, science and learning — and identify the role of significant individuals in driving intellectual change.",
+        "minimum_width": "At least one Renaissance idea or significant individual with an explanation of how it represented a shift from medieval thinking.",
+        "typical_width": "The Renaissance as a broader intellectual and cultural movement: humanism, the rediscovery of classical texts, new approaches to art and science, and the role of significant individuals (e.g. da Vinci, Copernicus); the emergence of the Scientific Revolution as an extension.",
+        "wider": [
+          "Examine the role of Islamic scholarship in preserving and transmitting classical Greek and Roman knowledge to Renaissance Europe, connecting Node 2 to intellectual transformation",
+          "Explore the significance of the printing press for the spread of Renaissance ideas, connecting technological change to intellectual transformation across Europe"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The Renaissance risks being taught as a purely European phenomenon. Widening to include Islamic scholarly transmission or the printing press helps students see it as a connected, multicausal development.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The link between Islamic preservation of classical texts and the European Renaissance is a genuine cross-civilisational connection that enriches students' understanding of how intellectual transformation happens and directly connects back to Node 2.",
+        "success_criteria": [
+          "Identifies at least one Renaissance idea or significant individual and explains how it represented a departure from medieval thought",
+          "Connects the emergence of Renaissance ideas to at least one prior development in the period (e.g. rediscovery of classical texts, printing press)"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Connections to the modern world",
+        "progression_checkpoint": "Students can explain how key developments of the medieval and early modern period connect to features of modern political, religious and cultural life.",
+        "minimum_width": "At least one connection between a medieval or early modern development and a modern institution or practice (e.g. religious holidays, parliamentary systems, legal traditions).",
+        "typical_width": "Multiple connections across political, religious and cultural domains — e.g. the Westminster system, the Magna Carta, the Church calendar, secular humanism — showing the ongoing relevance of the medieval-to-modern transformation.",
+        "wider": [
+          "Trace a contemporary political or legal institution (e.g. the Australian parliamentary system, rule of law) back through medieval developments to illustrate historical significance",
+          "Explore continuity and change by identifying aspects of medieval life that have not persisted into modernity, asking why some features transformed and others did not"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node draws together all prior threads — religious transformation, feudalism, Renaissance ideas — and applies them to the present. Invest in helping students make explicit connections across the unit rather than treating this as a summary exercise."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one connection between a medieval or early modern development and a feature of modern political, religious or cultural life",
+          "Uses historical concepts such as continuity, change and significance when explaining connections between the medieval period and the modern world"
+        ]
+      }
+    ]
+  }
+}

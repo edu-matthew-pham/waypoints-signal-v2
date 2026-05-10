@@ -1,0 +1,70 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLY12",
+    "title": "Write and read CVC words",
+    "description": "write consonant–vowel–consonant (CVC) words by representing sounds with the appropriate letters, and blend sounds associated with letters when reading CVC words",
+    "strand": "Literacy — Phonic/Word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can name letters, produce letter sounds (AC9EFLY11), and segment and blend phonemes (AC9EFLY10). They have not yet been asked to connect phoneme-grapheme knowledge in both directions: encoding (writing) and decoding (reading) CVC words.",
+    "progression_endpoint": "Students can write CVC words by encoding phonemes as letters, and read CVC words by blending the letter sounds — demonstrating bidirectional phoneme-grapheme correspondence at the CVC level.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sounds can be written as letters",
+        "progression_checkpoint": "Students can represent each phoneme in a CVC word with the correct letter when writing.",
+        "minimum_width": "Write at least five CVC words correctly from dictation, representing each phoneme with the appropriate letter.",
+        "typical_width": "Write CVC words across all short vowel sounds by representing each phoneme with the appropriate letter; spell common CVC patterns reliably.",
+        "wider": [
+          "Write CVC words across all five short vowel sounds — ensuring the vowel discrimination is secure",
+          "Write CVC words in the context of real writing tasks — labelling drawings, completing simple sentences",
+          "Sort CVC words by vowel sound — building awareness of short vowel patterns"
+        ],
+        "hinge": true,
+        "hinge_reason": "CVC encoding is the prerequisite for the spelling strategy in LY13 — students who cannot reliably encode CVC words cannot extend phoneme-grapheme correspondence to unknown words. Encoding errors also propagate directly into the writing tasks in LY06.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "CVC encoding must become reliable and accurate — encoding errors cascade directly into unintelligible writing. Practice across all short vowels is required before accuracy is secure.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly writes at least five CVC words, including words with different vowels.",
+          "Student represents each phoneme with the correct letter — not just onset and final consonant."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Letters can be blended into words",
+        "progression_checkpoint": "Students can read CVC words by blending the sounds associated with the letters left to right.",
+        "minimum_width": "Read at least five CVC words by blending letter sounds.",
+        "typical_width": "Blend the sounds of CVC words when reading; apply blending to new CVC words not previously seen; read CVC words in the context of simple texts.",
+        "wider": [
+          "Read CVC words in connected text — applying blending in the context of meaning-making",
+          "Read CVC words across a range of vowel patterns — not limited to familiar words",
+          "Identify CVC words in a familiar text and read them aloud — connecting letter-sound knowledge to reading fluency"
+        ],
+        "hinge": true,
+        "hinge_reason": "CVC decoding is the prerequisite for reading connected text in LY04 — students who cannot blend CVC words cannot apply phonic decoding to unknown words in authentic texts, and their reading remains dependent on memorisation.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Blending at the word level must become fluent — slow, halting blending interferes with comprehension. Accuracy first, then fluency across multiple CVC words.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads at least five CVC words by blending, including unfamiliar words.",
+          "Student reads CVC words within a short decodable text rather than only in isolation."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P08",
+    "title": "Generate and evaluate designs",
+    "description": "Generate, modify, communicate and evaluate alternative designs",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can generate, modify, communicate and evaluate design ideas (AC9TDI6P04). They have experience producing and sharing designs but have not yet systematically generated alternatives, used iterative modification, or evaluated designs against user stories for diverse users.",
+    "progression_endpoint": "Students generate multiple alternative designs using appropriate tools (concept maps, wireframes, diagrams, AI), communicate design ideas clearly, modify a preferred design iteratively based on evaluation, and evaluate alternatives against design criteria and user stories.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Generating alternative designs",
+        "progression_checkpoint": "Students can use strategies to generate multiple alternative design ideas rather than committing to a single idea",
+        "minimum_width": "Generate at least two alternative designs for a given brief; communicate each using sketches, diagrams or digital tools",
+        "typical_width": "Use multiple generation strategies (brainstorming, sketching, concept mapping) to produce alternatives; explain why generating multiple options before committing leads to better outcomes",
+        "wider": [
+          "Use generative AI to produce multiple design prototypes and compare them against user needs — evaluate what the AI generated well and what it missed",
+          "Research how professional design teams use divergent thinking techniques to generate alternatives before converging on a solution"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Alternative generation requires students to resist committing to the first idea — the repertoire of generation strategies (brainstorming, sketching, concept mapping) is what enables genuine alternatives. More strategies practised = less likely to produce variants of the same idea.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students with only one generation strategy produce variants of the same idea rather than genuine alternatives. Node 2 evaluation requires meaningfully different designs to evaluate — if all designs are the same idea with surface variation, the evaluation at Node 2 has nothing to compare.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces at least two genuinely different design alternatives for the same brief",
+          "Communicates each design clearly enough for someone else to understand the idea",
+          "Explains why generating alternatives is valuable before selecting one"
+        ],
+        "related_standards": [
+          "AC9TDI8P04",
+          "AC9TDI8P07"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating against criteria and user stories",
+        "progression_checkpoint": "Students can evaluate alternative designs against design criteria and user stories, identifying strengths and weaknesses of each",
+        "minimum_width": "Compare two designs against given design criteria; identify which better satisfies a user story and explain why",
+        "typical_width": "Evaluate multiple designs against criteria and user stories including the needs of diverse users; identify trade-offs where a design serves one user well but another poorly",
+        "wider": [
+          "Evaluate how design decisions affect diverse user groups — accessibility, cultural context, language",
+          "Assess a real commercial product against its likely design criteria and user stories — what trade-offs did the designers make?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who cannot articulate why one design is better than another will modify designs randomly rather than purposefully. Evaluating different designs against different criteria and different user stories is genuine breadth that builds the evaluative skill."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Compares designs against specific criteria rather than personal preference",
+          "Identifies at least one strength and one weakness per design",
+          "References user stories when explaining why a design succeeds or fails"
+        ],
+        "related_standards": [
+          "AC9TDI8P04",
+          "AC9TDI8P07",
+          "AC9TDI8P10"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Iterative modification",
+        "progression_checkpoint": "Students can modify a preferred design iteratively based on evaluation feedback, documenting what changed and why",
+        "minimum_width": "Modify a design in response to evaluation; explain what was changed and how the modification improves the design against criteria",
+        "typical_width": "Complete at least two rounds of modification based on feedback (peer review, user testing, or self-evaluation against criteria); document each modification and its rationale",
+        "wider": [
+          "Limited width — iterative modification is a process that operates the same way regardless of design context. The variation lies in what is being modified (captured in the design brief) not in how iteration works. More iterations are practice, not broader application."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Modifies a design in response to specific evaluation feedback",
+          "Documents what changed between versions",
+          "Explains how each modification improves the design against criteria or user stories"
+        ],
+        "related_standards": [
+          "AC9TDI8P07"
+        ]
+      }
+    ]
+  }
+}

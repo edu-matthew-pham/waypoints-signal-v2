@@ -1,0 +1,100 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6P02",
+    "title": "Simulations with increasing trials",
+    "description": "Conduct repeated chance experiments and run simulations with an increasing number of trials using digital tools; compare observations with expected results and discuss the effect on variation of increasing the number of trials",
+    "strand": "probability",
+    "mode": "A",
+    "prior_knowledge": "Students can conduct repeated chance experiments and use frequency to estimate likelihoods (AC9M5P02). They have observed that results vary. They have not yet used digital simulations, systematically compared experimental with theoretical probability, or investigated the effect of increasing trial numbers.",
+    "progression_endpoint": "Students can conduct repeated chance experiments and run simulations with increasing numbers of trials; compare observations with expected results; discuss the effect on variation of increasing trial numbers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Experimental vs theoretical probability",
+        "progression_checkpoint": "Students can distinguish between theoretical probability (what should happen) and experimental probability (what did happen), and recognise that they may differ in small samples.",
+        "minimum_width": "Conduct a chance experiment (e.g. 20 coin flips); calculate experimental probability from results; compare to theoretical probability; note the difference.",
+        "typical_width": "Calculate experimental probability from results of a chance experiment; compare to theoretical probability; explain why experimental results vary from theoretical; recognise that the gap between experimental and theoretical tends to decrease with more trials.",
+        "wider": [
+          "Investigate contexts where theoretical probability is unknown and only experimental probability is available \u2014 e.g. what is the probability a thumbtack lands point-up?",
+          "Compare the gambler's fallacy \u2014 'I've flipped heads 5 times so tails is 'due'' \u2014 to the correct understanding of independent events"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The distinction between theoretical and experimental probability requires students to reason about two different things that can both be called 'the probability of an event.' Scaffolding 'theoretical is what the maths predicts, experimental is what actually happened' prevents conflation of the two.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Students who conflate theoretical and experimental probability cannot meaningfully engage with Node 2 or Node 3 \u2014 the entire discussion of convergence with more trials requires the distinction to be clear. Students who treat these as interchangeable will misinterpret simulation results.",
+        "success_criteria": [
+          "Student calculates experimental probability from a set of trials.",
+          "Student compares experimental to theoretical probability and explains why they may differ."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Effect of increasing trials on variation",
+        "progression_checkpoint": "Students can describe how increasing the number of trials in a probability experiment reduces variation in the experimental probability estimate.",
+        "minimum_width": "Compare the experimental probability from 10 trials to that from 50 trials for the same experiment; describe how the result changes; note which gives a more reliable estimate.",
+        "typical_width": "Track cumulative experimental probability across an increasing number of trials; observe convergence toward theoretical probability; describe the effect of increasing trials on variation using appropriate language; explain why a larger sample gives a more reliable estimate.",
+        "wider": [
+          "Graph cumulative experimental probability against number of trials and describe the shape of the resulting curve",
+          "Investigate how many trials are 'enough' for different precision requirements \u2014 connecting to real-world sample size decisions"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often accept that 'more trials = more reliable' as a rule without understanding why. Seeing the convergence pattern across different experiment types (coins, dice, spinners, digital simulations) builds a principled rather than rule-based understanding.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The convergence of experimental to theoretical probability with increasing trials is one of the deepest ideas in probability at this level. The connection to real-world sampling decisions (quality control, surveys, clinical trials) opens rich territory for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student describes how experimental probability changes as the number of trials increases.",
+          "Student explains why more trials generally gives a more reliable estimate."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Digital simulations for large trial counts",
+        "progression_checkpoint": "Students can use digital tools to run simulations with large numbers of trials and use the results to compare experimental and expected outcomes.",
+        "minimum_width": "Use a digital tool to run a simulation of at least 100 trials; record results; compare to theoretical probability; describe the comparison.",
+        "typical_width": "Use digital simulations to run 100, 500, and 1000 trial experiments; compare results across trial sizes; identify the trend; compare experimental frequency to expected frequency for the whole simulation; draw conclusions about the effect of trial size on reliability.",
+        "wider": [
+          "Design a simulation for an event where theoretical probability is difficult to calculate analytically (e.g. two dice sum) and use simulation results to estimate probabilities",
+          "Investigate Monte Carlo methods at a conceptual level \u2014 the idea that random simulation can approximate mathematical quantities (e.g. estimating \u03c0 from random point drops in a square and circle)"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Running digital simulations and comparing results to expected outcomes integrates experimental/theoretical probability, the effect of trial size, and digital tool use. The interpretation of large-trial results \u2014 and connecting back to theoretical expectations \u2014 coordinates these into the descriptor's full demand.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digital probability simulations open genuinely exciting territory \u2014 Monte Carlo methods, simulation as approximation, large-sample behaviour \u2014 that is accessible at Year 6 and connects to fields from physics to finance.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student runs a digital simulation and records experimental probabilities.",
+          "Student compares results from different trial sizes and describes the trend."
+        ]
+      }
+    ]
+  }
+}

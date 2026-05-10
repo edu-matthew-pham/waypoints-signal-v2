@@ -1,0 +1,76 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9H04",
+    "title": "Society Influencing Scientific Research",
+    "description": "examine how the values and needs of society influence the focus of scientific research",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students have examined how scientific knowledge is used to make decisions (5-6 band). They now examine the reverse direction: how social values and needs shape what science is pursued in the first place.",
+    "progression_endpoint": "Students explain how funding decisions, social priorities, ethical values and community needs direct scientific research — and examine the tensions and consequences that arise when research agendas are shaped by social rather than purely scientific priorities.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Social values and needs direct research priorities",
+        "progression_checkpoint": "Students can explain how governments, communities and industries direct scientific research through funding and priority-setting, and identify how social values — including ethical constraints — shape what research is pursued.",
+        "minimum_width": "Students describe at least two cases where social values or needs influenced the direction of scientific research, explaining the value or need and how it shaped the research focus.",
+        "typical_width": "Students examine how government funding priorities, ethical constraints, public health needs and commercial interests shape research directions; explain how the need to minimise greenhouse gas production has directed both scientific and technological development; and examine how social priorities (safety, health, environmental sustainability) create research agendas.",
+        "wider": [
+          "Research how First Nations Peoples of the Torres Strait are at the forefront of developing scientific measures to prevent transfer of infectious diseases — examining how community need directly shapes a specific research focus",
+          "Explore how Australia developed an AI system to predict IVF embryo viability — examining how medical need, technological capability and social values aligned to drive this research",
+          "Examine why many manufacturers are adopting green chemistry processes — connecting commercial, regulatory and environmental value systems to research and development priorities"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to examine tensions and negative consequences arising from socially-directed research. Students who only hold a benign model (community need → useful science) cannot engage critically with cases where directing values produced harm or contested outcomes — they lack the analytical frame Node 2 depends on.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily identify funding and policy as drivers of research direction without seeing the variety of value systems — commercial, ethical, community, ideological — that shape research priorities. Encountering varied cases (community health need, commercial interest, government environmental priority, historical ideological constraint) builds a more complete model of the social-to-research pathway and prepares the critical analytical frame needed for Node 2.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Torres Strait community-directed research provides a powerful example of community values directly shaping scientific priorities, with contemporary relevance. The IVF AI direction shows how multiple value systems (medical, commercial, ethical) converge to create a specific research agenda.",
+        "success_criteria": [
+          "Describes at least two cases where social values or needs influenced research direction",
+          "Explains the mechanism in each case — how the value or need translated into a specific research priority or constraint"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Tensions and consequences arise when society shapes research",
+        "progression_checkpoint": "Students can examine the tensions and consequences that arise when research is shaped by social values and needs — including cases where values have directed research toward harm, and cases where research priorities are contested.",
+        "minimum_width": "Students describe at least one tension or negative consequence that has arisen from socially-directed research, and explain how the values or needs involved produced that outcome.",
+        "typical_width": "Students examine contested research priorities (greenhouse gas minimisation vs economic growth; genetic testing vs privacy); examine a historical case where social values directed research toward harm; and explain how identifying whose values are shaping research is itself an important analytical move.",
+        "wider": [
+          "Examine how considering innovative energy transfer devices reflects societal needs around transport and communication — exploring the values embedded in technology research priorities",
+          "Consider how development of new materials and procedures for workplace sound safety reflects occupational health values — examining how community wellbeing shapes materials research",
+          "Research how 19th and early 20th century Australian social values and scientific misconceptions about heredity influenced policies and attitudes toward First Nations Australians — examining how harmful values can direct harmful research (connects to AC9S10H04)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students readily see socially-directed research as benign (community need → useful science) without examining cases where the directing values produced harm or contested outcomes. Making the analytical move explicit — whose values are shaping this research? what are the consequences? — is the scaffold that produces critical rather than descriptive engagement with the science-society relationship."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one tension or contested priority in a socially-directed research case",
+          "Explains how the values or needs that shaped the research direction produced the tension or consequence"
+        ],
+        "related_standards": [
+          "AC9S9H03",
+          "AC9S10H04"
+        ]
+      }
+    ]
+  }
+}

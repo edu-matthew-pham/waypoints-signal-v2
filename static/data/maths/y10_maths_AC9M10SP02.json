@@ -1,0 +1,98 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10SP02",
+    "title": "Networks and network diagrams",
+    "strand": "Space",
+    "mode": "A",
+    "description": "interpret networks and network diagrams used to represent relationships in practical situations and describe connectedness",
+    "prior_knowledge": "Students can describe position and location in 3 dimensions using coordinate systems (AC9M8SP03). They have not yet encountered network diagrams as a mathematical representation of relationships, nor worked with concepts of connectedness, edges, vertices, or graph-theoretic properties.",
+    "progression_endpoint": "Students interpret networks and network diagrams representing relationships in practical situations, describe connectedness, and apply Euler's formula to polyhedra represented as networks.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Network diagrams \u2014 structure and vocabulary",
+        "progression_checkpoint": "Students can identify the nodes and edges of a network diagram and explain what each represents in a given practical context.",
+        "minimum_width": "Given a network diagram for a practical situation, identify the nodes (vertices) and edges; describe in plain language what each represents in the context.",
+        "typical_width": "Interpret network diagrams for at least three different practical contexts (transport, social, ecological, technological); identify nodes and edges; describe what connectedness means in each context; distinguish directed from undirected networks where relevant.",
+        "wider": [
+          "Represent First Nations Australians' kinship systems using network diagrams and explore the significance of the relationships to Country/Place encoded in the network",
+          "Investigate how a home network (LAN), social network, or electrical wiring network can be represented as a network diagram and use it to identify practical issues (e.g. single points of failure, router placement)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Network diagrams look structurally similar across contexts but encode very different relationships. Students who only interpret one type of network (e.g. transport) may not recognise that kinship systems, food webs and computer networks use the same mathematical object. Multiple contexts build generalised network thinking.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The kinship system context provides rich engagement \u2014 connecting a mathematical representation to a sophisticated cultural knowledge system \u2014 that goes beyond technical skill and develops genuine appreciation for networks as meaning-making structures.",
+        "success_criteria": [
+          "Student correctly identifies nodes and edges in a network diagram and explains what each represents in context",
+          "Student describes connectedness \u2014 what it means for two nodes to be connected \u2014 in terms of the practical situation"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Analysing connectedness",
+        "progression_checkpoint": "Students can analyse the connectedness of a network, identifying connected components, paths, and constraints such as traversability.",
+        "minimum_width": "Determine whether a given network is connected (all nodes reachable from any starting node); identify a path between two specified nodes.",
+        "typical_width": "Analyse connectedness in practical network contexts; identify connected vs disconnected networks; trace paths between nodes; investigate the K\u00f6nigsberg bridge problem as a classical example of traversability (Eulerian path); identify whether a network has an Eulerian path based on vertex degree.",
+        "wider": [
+          "Investigate food web networks \u2014 identify producers, consumers and decomposers as node types; analyse what happens to the network if a key node is removed",
+          "Explore metabolic networks or other biological/chemical structures as graph representations and discuss what network properties reveal about the system"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The K\u00f6nigsberg bridge problem and Eulerian path reasoning require systematic thinking about vertex degree \u2014 students need the odd-degree criterion explained, not just demonstrated. Explicit scaffolding of the reasoning prevents trial-and-error approaches."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly determines whether a given network is connected and justifies the answer",
+          "Student traces a valid path between two specified nodes in a network diagram"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Polyhedra as networks and Euler's formula",
+        "progression_checkpoint": "Students can represent a polyhedron as a network diagram and verify Euler's formula F + V = E + 2.",
+        "minimum_width": "Draw the network representation of a simple polyhedron (e.g. cube, tetrahedron); count faces, vertices and edges; verify F + V = E + 2.",
+        "typical_width": "Represent multiple polyhedra as network diagrams; verify Euler's formula for each; identify exterior and interior faces in the network representation; explain why the formula holds as a topological property rather than a geometric coincidence.",
+        "wider": [
+          "Investigate how Euler's formula connects to planar graph theory and discuss which graphs can be drawn without edge crossings",
+          "Explore polyhedra with 'holes' (toruses) and investigate how Euler's formula changes for different topological structures"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Representing polyhedra as networks integrates 3D spatial knowledge with graph theory \u2014 students must translate between a geometric object and its topological network representation. This is the cross-domain integration point of the descriptor."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly draws the network representation of a given polyhedron",
+          "Student verifies Euler's formula by correctly counting faces, vertices and edges"
+        ],
+        "related_standards": [
+          "AC9M10SP01",
+          "AC9M10SP03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

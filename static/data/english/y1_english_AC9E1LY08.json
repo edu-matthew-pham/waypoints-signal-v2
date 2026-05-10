@@ -1,0 +1,88 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY08",
+    "title": "Write with unjoined letters",
+    "description": "write words using unjoined lower-case and upper-case letters",
+    "strand": "literacy_mode_b",
+    "mode": "B",
+    "prior_knowledge": "Students have been developing foundational pencil grip and letter formation at Foundation level. They have not yet consolidated consistent, legible unjoined letter formation across both lower-case and upper-case letters in writing.",
+    "progression_endpoint": "Students write words using unjoined lower-case and upper-case letters.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Functional pencil grip",
+        "progression_checkpoint": "Students can hold a pencil with a functional grip that allows sustained writing without fatigue or loss of control.",
+        "minimum_width": "Demonstrate a functional pencil grip that allows them to write at least a sentence.",
+        "typical_width": "Hold a pencil with a consistent functional grip across writing tasks, sustaining control and comfort through short writing activities.",
+        "wider": [
+          "Explore alternative writing tools (marker, chalk, stylus) and discuss how grip adjusts",
+          "Reflect on grip comfort during longer writing tasks and adjust when needed"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a functional grip, students cannot produce the controlled letter formation required for N2 and N3 — formation exercises collapse without physical control of the tool.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Pencil grip is a physical habit that requires repeated practice to consolidate. Regular writing activities build the muscle memory and automaticity needed for a functional, sustained grip.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student holds the pencil with a functional grip (not fist grip) consistently",
+          "Student can write a sentence without loss of control"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Consistent lower-case letter formation",
+        "progression_checkpoint": "Students can write all lower-case letters with consistent, recognisable formation.",
+        "minimum_width": "Write all lower-case letters legibly with correct formation direction.",
+        "typical_width": "Write lower-case letters with consistent size, orientation and formation direction, producing legible writing across words and sentences.",
+        "wider": [
+          "Compare letter formation across different scripts or fonts — discuss what makes a letter recognisable despite variation",
+          "Identify and practise letters that are commonly confused or reversed (b/d, p/q)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Lower-case letter formation errors — particularly reversals — cascade directly into spelling and reading tasks; students who write b/d or p/q interchangeably cannot reliably encode or decode CVC words.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Lower-case letter formation requires sustained practice — particularly reversal-prone letters (b/d, p/q). Regular writing across varied tasks builds the automaticity needed for fluent handwriting.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student writes all lower-case letters legibly with correct formation direction",
+          "Student distinguishes commonly confused letter pairs (b/d, p/q) consistently"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Upper-case letter formation",
+        "progression_checkpoint": "Students can write all upper-case letters correctly and use them appropriately (sentence starts, proper nouns).",
+        "minimum_width": "Write upper-case letters for sentence beginnings and at least one proper noun.",
+        "typical_width": "Write all upper-case letters with correct formation and apply them in the appropriate contexts — sentence beginnings and proper nouns — in continuous writing.",
+        "wider": [
+          "Explore contexts where all-caps are used (headings, labels) and discuss the convention",
+          "Write a short text and identify all correct upper-case letter uses"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student writes upper-case letters legibly in sentence-start and proper noun positions",
+          "Student does not apply upper-case letters mid-sentence incorrectly"
+        ]
+      }
+    ]
+  }
+}

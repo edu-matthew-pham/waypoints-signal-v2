@@ -1,0 +1,82 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2SP02",
+    "title": "Locate positions in 2D space",
+    "strand": "Space",
+    "mode": "B",
+    "description": "locate positions in two-dimensional representations of a familiar space; move positions by following directions and pathways",
+    "prior_knowledge": "Students give and follow directions in familiar spaces using positional language (AC9M1SP02). They have not yet located positions in 2D map representations or moved through represented spaces by following systematic directional pathways.",
+    "progression_endpoint": "Students locate positions in two-dimensional representations of familiar spaces and move positions by following and giving directional pathways, including on grids and maps.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Interpreting 2D representations",
+        "progression_checkpoint": "Students can interpret a simple map or diagram of a familiar space and locate key features or positions.",
+        "minimum_width": "Use a simple classroom map or seating plan to locate a named position or feature.",
+        "typical_width": "Interpret maps of familiar places (classroom, school grounds); identify positions of key features; use a seating plan to locate a new seat; understand that maps represent real spaces from above.",
+        "wider": [
+          "Discuss why we use maps to give and receive directions and describe spatial relationships; compare the map view to the real space",
+          "Use a classroom seating plan to give directions to classmates to find their seats; discuss what information the map provides that spoken directions alone might miss"
+        ],
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 require students to track position on a 2D representation while following or giving instructions. Students who do not understand that a map represents real space from above cannot meaningfully follow pathways on it — they lack the spatial reference frame the tasks require.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locates a named feature or position on a simple map of a familiar space",
+          "Explains what a map represents (a view of the space from above)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Following directional pathways",
+        "progression_checkpoint": "Students can follow a set of directional instructions (including forward, backward, left, right, and fractional turns) to move through a grid or map.",
+        "minimum_width": "Follow at least three movement instructions to move from one position to another on a grid.",
+        "typical_width": "Follow movement instructions on a 4×4 grid or floor mat (forward, turns, backward) to reach a target; use a robotic toy to follow a path on a street scene mat; adjust instructions as needed.",
+        "wider": [
+          "Move through a 2D maze using directional language: clockwise, anticlockwise, quarter turn, take the path to the right",
+          "Follow and create instructions for a robotic toy on a floor map; verify the path and adjust instructions when the robot doesn't reach the target"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Connecting directional language to 2D representation is a spatial reasoning challenge — students need to interpret their position relative to the map, not just their physical orientation. Multiple grid and map contexts (floor mat, screen, paper) help build this perspective-taking."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Follows a set of movement instructions to reach a target position on a grid",
+          "Identifies and corrects an error in a given set of instructions that leads to the wrong position"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Giving directional pathways",
+        "progression_checkpoint": "Students can give clear directional instructions to move from one position to another in a 2D representation, considering order, direction and distance.",
+        "minimum_width": "Give a set of at least three instructions to move from one grid position to another; verify the instructions lead to the correct target.",
+        "typical_width": "Give instructions for moving through grids, maps and pathways; consider the order of instructions, direction and distance; test and revise instructions when they don't achieve the intended movement.",
+        "wider": [
+          "Create a movement pathway on a grid that requires a partner to use at least three turns; write the instructions and test them",
+          "Use quarter, half and three-quarter turns in directional instructions; connect to M05 turns vocabulary"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Gives a set of directional instructions that successfully moves from one grid position to a target",
+          "Identifies why incorrect instructions fail and revises them"
+        ],
+        "related_standards": ["AC9M2M05"]
+      }
+    ]
+  }
+}

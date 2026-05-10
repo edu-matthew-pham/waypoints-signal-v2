@@ -1,0 +1,88 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LA06",
+    "title": "Compound sentences",
+    "description": "understand that connections can be made between ideas by using a compound sentence with 2 or more independent clauses usually linked by a coordinating conjunction",
+    "strand": "Expressing and developing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand that a simple sentence is a single independent clause representing one event or idea (AC9E1LA06). They have not yet connected independent clauses into compound sentences or understood how coordinating conjunctions signal the relationship between clauses.",
+    "progression_endpoint": "Students can understand that compound sentences connect two or more independent clauses using coordinating conjunctions, and can identify the relationship between ideas that each conjunction signals.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Independent clauses can be joined",
+        "progression_checkpoint": "Students can identify that a compound sentence contains two or more complete ideas, each of which could stand alone, joined by a linking word.",
+        "minimum_width": "Identify the two independent clauses in a given compound sentence and confirm that each makes sense on its own.",
+        "typical_width": "Identify and construct compound sentences from pairs of simple sentences across a range of topics; verify that each clause is independent.",
+        "wider": [
+          "Sort a set of sentences into simple and compound, explaining the reasoning",
+          "Identify compound sentences in familiar picture books and shared reading texts"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify both independent clauses in a compound sentence.",
+          "Student can confirm that each clause makes sense without the other."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Conjunctions signal relationships",
+        "progression_checkpoint": "Students can identify how 'and', 'but' and 'so' each signal a different relationship between ideas — addition, contrast and consequence — and choose the correct conjunction for a given pair of clauses.",
+        "minimum_width": "Identify whether 'and', 'but' or 'so' is appropriate to connect two given clauses and explain the relationship.",
+        "typical_width": "Construct compound sentences using 'and', 'but' and 'so', explaining the relationship each conjunction signals; identify these conjunctions in a range of texts.",
+        "wider": [
+          "Compare sentences where the conjunction is changed (e.g. 'and' to 'but') and discuss how meaning changes",
+          "Identify compound sentences in informative texts and discuss whether the conjunction was the best choice"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often default to 'and' for any conjunction slot, treating compound sentences as mere addition. Exposure to multiple contexts where 'but' (contrast) or 'so' (consequence) is required — and where the wrong conjunction changes meaning — resolves the over-reliance on 'and'. More contrasting examples, not more practice with 'and', is the productive move.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The relationship-signalling function of conjunctions is a genuinely rich direction — it connects to argument, cause-and-effect and narrative turn, all of which students encounter across curriculum areas. Exploring how the same pair of clauses reads differently with different conjunctions is meaningful widening.",
+        "success_criteria": [
+          "Student selects the correct conjunction for a given relationship between two clauses.",
+          "Student can name the relationship ('and' = addition, 'but' = contrast, 'so' = consequence) for at least two conjunctions."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Constructing compound sentences",
+        "progression_checkpoint": "Students can construct their own compound sentences, connecting independent clauses with appropriate coordinating conjunctions to express related ideas clearly.",
+        "minimum_width": "Write at least two compound sentences using different conjunctions ('and', 'but', 'so') in a short piece of writing.",
+        "typical_width": "Use compound sentences with varied conjunctions flexibly across simple and compound sentence writing, adjusting conjunction choice to signal intended relationships.",
+        "wider": [
+          "Experiment with compound sentences of three clauses (e.g. 'The wolf huffed / and he puffed / and he blew the house down!') and discuss the rhythmic effect",
+          "Revise a piece of writing by converting some simple sentences to compound sentences where the relationship between ideas warrants it"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Constructing compound sentences correctly — ensuring both clauses are independent, choosing the right conjunction — requires practice and checking. Errors at this node (run-on sentences, clause-merging errors, wrong conjunction) propagate into written text production. Precision-focused practice is the productive investment here.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Compound sentence errors — run-on sentences, dependent clause errors, wrong conjunction — propagate into all written text production. Students who cannot construct these reliably carry grammatical incoherence into every subsequent writing task.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student produces a compound sentence where both clauses are independent and the conjunction is appropriate.",
+          "Student does not produce a run-on sentence or a sentence where one clause is dependent."
+        ]
+      }
+    ]
+  }
+}

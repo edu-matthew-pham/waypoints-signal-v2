@@ -1,0 +1,135 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9N01",
+    "title": "Real Number System",
+    "description": "recognise that the real number system includes the rational numbers and the irrational numbers, and solve problems involving real numbers using digital tools",
+    "strand": "Number",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise terminating and recurring decimals using digital tools (AC9M8N03). They have not yet encountered the formal distinction between rational and irrational numbers as a system, represented the full hierarchy of real number subsets, or used the real number line to solve problems involving irrational values.",
+    "progression_endpoint": "Students recognise that the real number system includes rational and irrational numbers; represent the relationships between subsets of real numbers; and solve problems involving real numbers including substitution into formulas.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Subsets of the real number system",
+        "progression_checkpoint": "Students can represent the hierarchy of number subsets \u2014 natural numbers, integers, rationals, irrationals \u2014 and explain what distinguishes each from the others.",
+        "minimum_width": "Label a diagram showing the nesting of natural numbers, integers, rational and irrational numbers within the reals; give one example of a number belonging to each subset.",
+        "typical_width": "Represent the relationships between all subsets using a diagram; explain what it means for one set to be a subset of another; classify given numbers (e.g. \u22123, 2/5, \u221a7, \u03c0, 0.333\u2026) into the correct subset and justify.",
+        "wider": [
+          "Investigate whether \u221a4 is rational or irrational and explain why not all square roots are irrational",
+          "Explore how the discovery of irrational numbers (e.g. the diagonal of a unit square) challenged ancient Greek mathematical assumptions about number",
+          "Investigate the difference between algebraic irrationals (e.g. \u221a2) and transcendental irrationals (e.g. \u03c0) at a conceptual level"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly believe all decimals are rational (identifying 0.333\u2026 as 'just a long decimal') or that all square roots are irrational. Classifying a range of examples across all subsets \u2014 including edge cases like \u221a4, \u22120, 0.1\u0304 \u2014 resolves these conflations and builds robust category understanding.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly classifies at least four different numbers into the appropriate subsets of the real number system",
+          "Explains the distinguishing property of rational numbers (expressible as p/q for integers p, q, q\u22600) in their own words",
+          "Identifies that integers are rational, not a separate category outside rationals"
+        ],
+        "related_standards": [
+          "AC9M8N01",
+          "AC9M8N03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reliably classify numbers into subsets carry category errors into every subsequent node \u2014 misidentifying irrationals as rationals corrupts exact-form reasoning, number line placement and formula substitution."
+      },
+      {
+        "id": 2,
+        "label": "Exact and approximate representations",
+        "progression_checkpoint": "Students can distinguish between exact representations of irrational numbers (e.g. \u221a2, \u03c0) and their decimal approximations, and explain why decimal approximations are not equal to the exact value.",
+        "minimum_width": "State that \u221a2 and \u03c0 cannot be written as exact terminating or recurring decimals; write a decimal approximation of \u221a2 to 4 decimal places and explain what 'approximation' means in this context.",
+        "typical_width": "Distinguish between exact forms (e.g. \u221a5, \u03c0, 3\u03c0/2) and decimal approximations across several examples; explain that no finite or recurring decimal can equal an irrational; recognise when a problem calls for an exact answer vs a decimal approximation.",
+        "wider": [
+          "Investigate what happens when calculators display irrational numbers \u2014 discuss what the display shows and what it omits",
+          "Explore contexts in which exact form is required (e.g. engineering tolerances, symbolic computation) vs contexts where approximation is sufficient",
+          "Investigate how mathematicians establish that a number is irrational \u2014 explore the classic proof that \u221a2 is irrational (proof by contradiction) at a conceptual level"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies a given decimal value as an approximation of an irrational and states which irrational it approximates",
+          "Explains why no finite decimal expansion can exactly equal an irrational number",
+          "Writes an exact form (e.g. \u221a3) and a correct decimal approximation for the same value, labelling which is which"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Real number line and inequalities",
+        "progression_checkpoint": "Students can locate real numbers (including irrationals) on the number line and represent solution intervals for linear inequalities.",
+        "minimum_width": "Locate \u221a2 and \u03c0 approximately on a number line by comparing to known benchmarks; represent the solution to one linear inequality (e.g. 2x+7<0) as an interval on the number line.",
+        "typical_width": "Locate a range of rational and irrational values on the number line using benchmarks and approximations; use a real number line to represent solution intervals for inequalities of the forms ax+b<c and ax+b>c; interpret number line representations of solutions.",
+        "wider": [
+          "Use geometric constructions to locate irrational numbers exactly on the number line (e.g. \u221a2 as the diagonal of a unit square, \u221a5 as the hypotenuse of a 1-2 right triangle)",
+          "Investigate compound inequalities (e.g. a<x<b) and represent solution sets on the number line",
+          "Connect number line representations of solution intervals to graphical solutions of linear inequalities in two variables"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often solve inequality mechanics correctly but make errors when negative coefficients require the inequality sign to flip, or when translating an algebraic solution interval into a number line diagram. Scaffolding the reasoning \u2014 why does dividing by a negative flip the sign? \u2014 prevents a persistent procedural error.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly locates at least two irrational numbers approximately on a number line relative to known values",
+          "Solves a linear inequality and represents the solution interval correctly on a number line",
+          "Uses correct inequality notation and open/closed circle conventions when marking solution intervals"
+        ],
+        "related_standards": [
+          "AC9M9A02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Inequality sign-flip errors (when dividing by a negative) and mis-mapping solutions to number line intervals propagate directly into AC9M9A-strand inequality work. Students who cannot represent solution intervals correctly cannot proceed with inequality reasoning."
+      },
+      {
+        "id": 4,
+        "label": "Solving problems with real numbers",
+        "progression_checkpoint": "Students can solve problems by substituting real numbers (including irrationals) into formulas, expressing solutions in both exact and approximate decimal form as appropriate.",
+        "minimum_width": "Substitute given real number values into a formula (e.g. A=\u03c0r\u00b2) to calculate a result; express the answer in exact form (e.g. 25\u03c0) and as a decimal approximation; use positive and negative rational numbers to solve one practical problem.",
+        "typical_width": "Solve a range of problems requiring substitution of real numbers into formulas; choose between exact and approximate forms based on context; use positive and negative rational numbers (including financial contexts); apply digital tools to verify or extend manual calculations.",
+        "wider": [
+          "Investigate problems where keeping exact form throughout a multi-step calculation prevents cumulative rounding error \u2014 compare the final result of exact vs approximated intermediate steps",
+          "Explore financial planning contexts using positive and negative rational numbers (e.g. budgeting with income and expenses) \u2014 model a simple scenario algebraically",
+          "Investigate the use of exact real number expressions in engineering or architecture contexts where precision matters"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the earlier concepts \u2014 number classification, exact vs approximate representation, and real number line reasoning \u2014 into applied problem-solving. Students need to coordinate: identifying which type of real number is involved, deciding whether to leave answers in exact form, and substituting correctly into formulas.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The choice between exact and approximate form is a genuinely rich decision point \u2014 it connects to significant ideas about precision, accumulated error, and mathematical communication. Students who explore when and why to use exact form develop deeper number sense beyond procedural substitution.",
+        "success_criteria": [
+          "Correctly substitutes real number values into a formula and simplifies",
+          "Expresses the answer in exact form where appropriate (e.g. 9\u03c0 cm\u00b2) and as a decimal approximation correct to 2 decimal places",
+          "Uses correct units and explains the choice between exact and approximate form"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

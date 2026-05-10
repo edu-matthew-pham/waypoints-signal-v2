@@ -1,0 +1,98 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5U02",
+    "title": "Weathering, Erosion, Transportation and Deposition",
+    "description": "describe how weathering, erosion, transportation and deposition cause slow or rapid change to Earth's surface",
+    "strand": "Earth and Space Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can compare observable properties of soils and rocks and explain their importance as Earth resources (AC9S3U02). They have not yet distinguished weathering from erosion, examined the agents driving each, or connected these processes to landscape change over time.",
+    "progression_endpoint": "Students describe how weathering breaks down rock material and how erosion, transportation and deposition move and redistribute that material to change Earth's surface — across both slow geological and rapid event-driven timescales — and examine human impacts on these processes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Weathering breaks down rocks in place",
+        "progression_checkpoint": "Students can distinguish weathering from erosion — explaining that weathering breaks down rock material in place through mechanical and biological means — and identify agents of weathering with examples.",
+        "minimum_width": "Students explain that weathering breaks down rock material in place, name at least two types of weathering (mechanical, biological) and give one example of each.",
+        "typical_width": "Students describe mechanical weathering (wind abrasion, freeze-thaw cycles, thermal expansion) and biological weathering (plant roots, organisms), explain how each breaks down rock without moving the material, and distinguish this from erosion which involves movement.",
+        "wider": [
+          "Investigate how freeze-thaw weathering operates by modelling water expanding in cracks — examining the mechanical force that splits rock without chemical change",
+          "Examine how biological weathering by tree roots and organisms operates at a timescale invisible to observation but visible in landscape features",
+          "Connect weathering to rock cycle processes (AC9S8U04) — examining how weathered material becomes sediment in the rock cycle"
+        ],
+        "hinge": true,
+        "hinge_reason": "The weathering/erosion distinction is definitionally prerequisite for Node 2 — students who conflate the two processes cannot accurately describe the erosion → transportation → deposition sequence, and will describe all surface change as 'erosion'. This conflation is a known persistent misconception that causes systematic errors across N2 and N3.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students consistently conflate weathering and erosion, treating them as synonyms or as sequential steps in the same process. The distinction — weathering breaks down in place, erosion moves material — is fundamental to understanding how landscapes change and must be established explicitly before students can accurately describe the full sequence.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that weathering breaks down rock material in place without moving it",
+          "Names at least two weathering agents and explains the mechanism by which each breaks down rock"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Erosion, transportation and deposition move and redistribute material",
+        "progression_checkpoint": "Students can explain that erosion picks up and moves weathered material, transportation carries it, and deposition lays it down in a new location — describing the agents involved (water, wind, ice, gravity) and the landforms each process produces.",
+        "minimum_width": "Students explain the sequence of erosion → transportation → deposition with one agent (water or wind), naming the agent and describing what happens at each stage.",
+        "typical_width": "Students describe erosion, transportation and deposition by multiple agents (water, wind, ice, gravity), identify the landforms each produces (river deltas, sand dunes, alluvial fans, cliffs), compare fast and slow timescales of these processes, and give local or regional examples.",
+        "wider": [
+          "Use aerial photographs or maps to identify patterns in erosion site locations at local or regional scale — examining how topography and land cover influence erosion distribution",
+          "Model landscape erosion using sand, gravel, soil and water to explore factors that affect erosion rates — connecting model behaviour to real landscape processes",
+          "Examine the effects of significant rainfall (monsoon, flood events) on transportation and deposition of river sediments in the Asia-Pacific region — exploring rapid event-driven change"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students typically think of erosion only as water cutting into riverbanks, missing wind erosion, glacial erosion, gravity-driven mass movement and coastal erosion. Encountering erosion agents across varied landform contexts builds a more complete and accurate model of how landscapes change.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Aerial photograph analysis and landscape modelling offer genuinely investigable directions. The Asia-Pacific monsoon direction connects geological processes to a regional context with real contemporary relevance.",
+        "success_criteria": [
+          "Explains the three-stage sequence: erosion (picks up) → transportation (carries) → deposition (lays down)",
+          "Names at least two agents of erosion and identifies a landform feature produced by each"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Human activity changes erosion rates",
+        "progression_checkpoint": "Students can explain how human activity alters natural erosion rates and predict the consequences of specific land use changes on local landscapes.",
+        "minimum_width": "Students describe at least one way human activity increases erosion rates and explain the likely consequence for the landscape.",
+        "typical_width": "Students examine how human activities (deforestation, urbanisation, agriculture, construction) change natural erosion rates, explain the mechanisms involved (removal of vegetation cover, increased run-off, disturbed soil), and describe strategies that reduce erosion in fragile environments.",
+        "wider": [
+          "Examine how erosion mitigation strategies — contour banks, strip cropping, revegetation — adapt and build on First Nations Australians' fire management and agricultural practices (AC9S5H01)",
+          "Consider how First Nations Australians are impacted by rapid erosion of sand dunes and the resulting effect of saltwater on culturally significant freshwater swamps",
+          "Research how park rangers use knowledge of erosion processes to design rules and built features that protect fragile environments and heritage sites (AC9S5H02)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly think of erosion as a purely natural process and are not aware of how dramatically human land use accelerates it. Encountering multiple contexts where human activity changes erosion rates — and where mitigation strategies have been designed in response — builds a more complete and practically useful understanding.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations land management connection (AC9S5H01) and park ranger design direction (AC9S5H02) provide rich cross-strand enrichment. The culturally significant freshwater swamp direction highlights real contemporary consequences of erosion for First Nations communities.",
+        "success_criteria": [
+          "Explains at least one mechanism by which human activity increases erosion rates",
+          "Describes at least one strategy that mitigates erosion and explains how it reduces the rate"
+        ],
+        "related_standards": ["AC9S5H01", "AC9S5H02"]
+      }
+    ]
+  }
+}

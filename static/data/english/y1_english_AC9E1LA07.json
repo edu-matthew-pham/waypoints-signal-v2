@@ -1,0 +1,133 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LA07",
+    "title": "Word classes",
+    "description": "understand that words can represent people, places and things (nouns, including pronouns), happenings and states (verbs), qualities (adjectives) and details such as when, where and how (adverbs)",
+    "strand": "expressing_ideas",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise that sentences are made up of groups of words that work together in particular ways (AC9EFLA06). They have not yet understood the distinct semantic roles that different word classes play — nouns, verbs, adjectives and adverbs as categories with specific functions.",
+    "progression_endpoint": "Students understand the major word classes — nouns (including pronouns), verbs, adjectives and adverbs — and the semantic roles each plays in a sentence.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Nouns name people, places and things",
+        "progression_checkpoint": "Students can identify nouns in sentences and explain that they name people, places or things.",
+        "minimum_width": "Identify at least three nouns in a given sentence or short text and confirm each names a person, place or thing.",
+        "typical_width": "Identify nouns across a range of sentence contexts, including common nouns, proper nouns and pronouns, and explain the semantic role of nouns as participants in a sentence.",
+        "wider": [
+          "Explore abstract nouns (e.g. happiness, time) and discuss how they extend the category beyond concrete people, places and things",
+          "Investigate how pronouns replace nouns and discuss why this matters for cohesion in a text"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies at least three nouns in a sentence and gives the category each belongs to (person/place/thing)",
+          "Student recognises a pronoun as a noun substitute"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Verbs represent happenings and states",
+        "progression_checkpoint": "Students can identify verbs in sentences and explain that they represent what is happening or a state of being.",
+        "minimum_width": "Identify the verb in at least three given sentences and explain whether it represents a happening (doing) or a state (being).",
+        "typical_width": "Identify verbs across a range of sentence contexts — action verbs (doing, saying) and state verbs (being, thinking, feeling) — and explain their role as the process element of the sentence.",
+        "wider": [
+          "Sort a set of verbs into action/doing verbs and state/being verbs, and discuss whether the boundary is always clear",
+          "Investigate how changing the verb changes what a sentence expresses, even when participants stay the same"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who only recognise action verbs will miss state verbs in sentences, producing systematic misidentification of the process element — this error propagates into N5's integration work and into the participant/process identification required for AC9E1LA06.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily identify 'doing words' (action verbs) but often miss state verbs like 'is', 'feels', 'knows'. Encountering sentences where the verb is a state rather than an action — and where the 'doing word' frame fails — is the key to broadening the category.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies the verb in sentences containing both action and state verbs",
+          "Student distinguishes between a happening verb and a state verb in given examples"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Adjectives describe qualities",
+        "progression_checkpoint": "Students can identify adjectives and explain that they describe the qualities of nouns.",
+        "minimum_width": "Identify at least two adjectives in a given sentence and explain what quality each adds to the noun it describes.",
+        "typical_width": "Identify adjectives in sentences, explain how they add quality information to nouns, and use adjectives to make sentences more specific.",
+        "wider": [
+          "Compare sentences with and without adjectives and discuss how precision and vividness change",
+          "Explore how adjectives are used differently in informative texts (precise, factual) versus narrative texts (evocative, sensory)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies at least two adjectives and links each to the noun it modifies",
+          "Student explains what quality the adjective adds to the noun"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Adverbs add circumstantial detail",
+        "progression_checkpoint": "Students can identify adverbs and explain that they add circumstantial detail answering when, where or how.",
+        "minimum_width": "Identify an adverb in a given sentence and state whether it answers when, where or how.",
+        "typical_width": "Identify adverbs across a range of sentence contexts, distinguish the circumstantial question each answers (when/where/how), and understand adverbs as optional details that extend but do not change the core clause.",
+        "wider": [
+          "Explore adverb placement (beginning, middle, end of sentence) and discuss how position affects emphasis",
+          "Distinguish adverbs modifying verbs from adjectives modifying nouns in context"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who confuse adverbs with adjectives cannot reliably identify the circumstantial elements in N5's integration task — the adverb/adjective distinction is prerequisite for the full word-class analysis that N5 requires.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Adverbs are the most easily confused word class at Year 1 — students frequently label any descriptive word as an adjective. Sorting practice (does this describe the noun or the action?) builds the discrimination needed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies an adverb in a sentence and states what question it answers",
+          "Student correctly distinguishes an adverb from an adjective in a given example"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Word classes work together in sentences",
+        "progression_checkpoint": "Students can identify all four word classes in a sentence and explain the role each plays in building meaning.",
+        "minimum_width": "In a given sentence, identify at least one noun, one verb and one adjective or adverb, and explain the role of each.",
+        "typical_width": "Identify nouns, pronouns, verbs, adjectives and adverbs in sentences and explain how each word class contributes to the meaning — who/what, process, quality, and circumstance.",
+        "wider": [
+          "Analyse how an author's word class choices shape the meaning and effect of a sentence in a literary text",
+          "Construct sentences that include all four word classes and discuss how each element contributes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires coordinating all four word classes as a functional system — not just labelling each in isolation but understanding how they fit together in a sentence to build complete meaning."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Analysing word class choices in literary texts — why this adjective, why this verb — connects grammar to reading and writing in ways that are genuinely rich for advancing students.",
+        "success_criteria": [
+          "Student correctly identifies noun, verb and at least one of adjective/adverb in a sentence",
+          "Student explains the role each identified word plays in the sentence's meaning"
+        ]
+      }
+    ]
+  }
+}

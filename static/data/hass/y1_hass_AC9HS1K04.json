@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS1K04",
+    "title": "Changing and caring for places",
+    "description": "how places change and how they can be cared for by different groups including First Nations Australians",
+    "strand": "Knowledge and Understanding — Geography",
+    "mode": "A",
+    "prior_knowledge": "From Foundation (AC9HSFK03): Students identified features of places and how places can be looked after. From AC9HS1K03: Students classified local place features as natural, managed or constructed.",
+    "progression_endpoint": "Students explain how places change and how they can be cared for by different groups including First Nations Australians.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How places change",
+        "progression_checkpoint": "Students can identify and describe examples of how local places change, including changes caused by weather, seasons, erosion and human activity.",
+        "minimum_width": "Describe at least two ways a local place has changed or could change (e.g. erosion, new buildings, revegetation).",
+        "typical_width": "Observe and describe changes to natural, managed and constructed features in local places; distinguish changes caused by natural processes (seasons, erosion) from those caused by human activity (construction, clearing); compare current observations with past photographs.",
+        "wider": [
+          "Track change in a specific local place over time using photographs, drawings and observations across seasons",
+          "Investigate how a significant environmental change (e.g. clearing, flooding) affected a local place and what happened as a result"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding how places change is prerequisite to understanding why they need care — students who cannot identify change mechanisms cannot explain the need for care actions in Node 2.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Change is most visible through direct observation and photograph comparison — multiple change examples across natural and human-caused change gives students the range needed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two ways a local place has changed",
+          "Distinguishes at least one natural change from one human-caused change"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Caring for places — why and how",
+        "progression_checkpoint": "Students can describe how and why local places are cared for, and identify who is responsible for different types of care.",
+        "minimum_width": "Describe at least two ways a local place can be cared for and explain why that care is needed.",
+        "typical_width": "Describe how local features and places are cared for; connect care actions to specific change risks (e.g. not walking in muddy areas, watering plants in dry weather); identify who provides care and why.",
+        "wider": [
+          "Investigate First Nations Australian practices of managing and caring for Country/Place and explain how these practices work",
+          "Compare how different groups (council, community, Traditional Owners) care for the same place and discuss similarities and differences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "First Nations Australian caring practices offer a qualitatively distinct model of care — integrate this alongside local council and community examples for genuine breadth.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations Australian land care practices (fire, rotational use, seasonal management) represent a sophisticated and contextually different approach to caring for places that enriches all students' understanding of stewardship.",
+        "success_criteria": [
+          "Describes at least two care actions for a local place",
+          "Explains why each care action is needed, connecting it to a change risk"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Reduce, reuse, recycle — local systems",
+        "progression_checkpoint": "Students can identify what local resources can be recycled, reduced or reused, and describe the local systems (rules, signs, collection) that support these activities.",
+        "minimum_width": "Identify at least three resources that can be recycled, reduced or reused and name one local system that supports these activities.",
+        "typical_width": "Distinguish between recyclable, reducible and reusable resources; identify local spaces and systems (waste collection routes, signs, rules) that support sustainable use; connect resource management to caring for places.",
+        "wider": [
+          "Investigate how local government waste management systems work and who is responsible for each part",
+          "Compare resource management practices at home, at school and in the wider community"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node connects caring-for-places principles to concrete local civic systems — an integration of geographic stewardship with civic knowledge."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies resources that can be recycled, reduced or reused with examples",
+          "Names at least one local system that supports sustainable resource management"
+        ]
+      }
+    ]
+  }
+}

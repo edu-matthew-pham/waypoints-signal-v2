@@ -1,0 +1,133 @@
+{
+  "year_level": "7",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE7K01",
+    "title": "Opportunity Cost and Scarcity",
+    "description": "why opportunity cost exists as decisions are made to allocate limited resources to meet unlimited needs and wants",
+    "strand": "Resources and Markets",
+    "mode": "A",
+    "prior_knowledge": "Students have explored influences on consumer choices and strategies for making informed personal consumer and financial choices (AC9HS6K08). They can identify that people make decisions about spending and saving but have not formally engaged with the economic concepts of scarcity, resource allocation, or opportunity cost.",
+    "progression_endpoint": "Students explain why opportunity cost exists as decisions are made to allocate limited resources to meet unlimited needs and wants.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Needs, wants and unlimited desire",
+        "progression_checkpoint": "Students can distinguish between needs and wants, and explain why human wants are effectively unlimited.",
+        "minimum_width": "Identify personal examples of needs and wants; explain that wants are unlimited and cannot all be satisfied.",
+        "typical_width": "Distinguish needs from wants across personal, household and community contexts; explain the concept of unlimited wants using concrete local examples; identify that a community's combined wants always exceed available resources.",
+        "wider": [
+          "Compare how needs and wants differ across cultural or socioeconomic contexts; for example, investigate how a remote First Nations community defines community needs versus wants and how these are prioritised",
+          "Examine how advertising and social influence expand perceived wants over time, using examples from contemporary media",
+          "Investigate how definitions of 'need' shift over time as societies develop; for example, whether internet access is now a need"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students do not distinguish needs from wants and grasp that wants are unlimited, the concept of scarcity and the resulting need for allocation choices will not make sense. Scarcity is only meaningful when unlimited wants collide with finite resources — students who blur needs and wants will treat resource limits as a solvable supply problem rather than a structural economic condition.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often conflate needs and wants or assume that wants could eventually all be met with enough production. Invest in the reasoning scaffold: why unlimited wants are a permanent structural feature of economic life, not a temporary shortage problem.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Broader contexts — community, cultural, historical — reveal that unlimited wants are not a personal weakness but a universal economic condition, strengthening the conceptual foundation for scarcity.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The distinction between needs and wants is culturally and contextually situated — First Nations exchange systems, community-run enterprises, and cross-cultural comparisons offer rich genuine variation in how communities define and prioritise needs, making this a strong context-breadth opportunity.",
+        "success_criteria": [
+          "Identifies at least two needs and two wants, distinguishing them with a clear reason",
+          "Explains why human wants are unlimited, using a concrete personal or community example"
+        ],
+        "related_standards": ["AC9HE7S01"]
+      },
+      {
+        "id": 2,
+        "label": "Economic scarcity",
+        "progression_checkpoint": "Students can explain economic scarcity as the condition that results from unlimited wants meeting limited resources, and apply it to the three fundamental allocation questions.",
+        "minimum_width": "Explain economic scarcity using one allocation context (what, how, or for whom to produce); give a concrete example of a scarce resource.",
+        "typical_width": "Explain scarcity as the structural gap between unlimited wants and finite resources; apply to all three allocation questions (what, how, for whom); use examples from local community resource use including land, labour and capital.",
+        "wider": [
+          "Investigate how First Nations communities use exchange systems (barter) or partnership networks to manage scarce resources sustainably across generations",
+          "Examine a contemporary resource scarcity case — such as water allocation in a drought-affected region — and analyse how the three allocation questions play out in practice",
+          "Explore how economic scarcity differs from physical scarcity: why something can be physically abundant but economically scarce (or vice versa)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who understand wants as unlimited but fail to connect this to resource limits will not grasp why allocation decisions are structurally necessary. Without the scarcity concept, opportunity cost reads as merely a personal budgeting observation rather than an economic principle — the next node cannot build meaningfully.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The three allocation questions (what/how/for whom) are abstract for Year 7 students. Scaffold by working through a concrete local example — a school tuckshop, a community garden — and applying each question explicitly before generalising.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Defines economic scarcity and distinguishes it from a temporary shortage",
+          "Applies at least one of the three allocation questions to a concrete resource example"
+        ],
+        "related_standards": ["AC9HE7K02"]
+      },
+      {
+        "id": 3,
+        "label": "Opportunity cost",
+        "progression_checkpoint": "Students can explain the concept of opportunity cost — what is given up when a choice is made — in relation to a specific allocation decision.",
+        "minimum_width": "Define opportunity cost; identify the trade-off in one personal or community resource decision (e.g. time, money, land).",
+        "typical_width": "Explain opportunity cost as the next-best alternative forgone when a choice is made; apply to personal time and money decisions and to community or business resource allocation decisions; explain that opportunity cost is not the price paid but the value of the best alternative not chosen.",
+        "wider": [
+          "Analyse opportunity costs in government spending decisions; for example, if state funds are directed to roads rather than hospitals, what is the opportunity cost?",
+          "Investigate how opportunity cost applies to non-monetary resources such as time, environmental capacity or cultural land use",
+          "Compare how First Nations communities weigh opportunity costs when balancing economic development against environmental and cultural custodianship"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need exposure to a range of decision contexts — personal, household, community, government — to distinguish opportunity cost from merely 'what you didn't buy'. Each new context reinforces that opportunity cost is always a real alternative forgone, not an abstract calculation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Opportunity cost applies across a rich range of decision contexts — personal time, household budgets, community land use, government spending, environmental trade-offs — all within the Year 7 scope. Wider engagement with diverse decision contexts builds a more transferable and accurate understanding of the concept.",
+        "success_criteria": [
+          "Defines opportunity cost accurately in own words",
+          "Identifies the specific alternative forgone in a given resource allocation example"
+        ],
+        "related_standards": ["AC9HE7S04"]
+      },
+      {
+        "id": 4,
+        "label": "Allocation, sustainability and integration",
+        "progression_checkpoint": "Students can explain why opportunity cost arises from the structural condition of scarcity, and apply this reasoning to how limited resources are (or could be) allocated more sustainably.",
+        "minimum_width": "Explain the chain: unlimited wants → scarcity → allocation decision → opportunity cost. Apply to one resource allocation scenario including a sustainability consideration.",
+        "typical_width": "Explain the full logical chain connecting scarcity to opportunity cost across personal and community contexts; discuss how resource allocation decisions can affect sustainability; evaluate whether a given allocation is meeting needs and wants into the future.",
+        "wider": [
+          "Investigate how First Nations resource management practices embody long-term opportunity cost reasoning — prioritising intergenerational sustainability over short-term wants",
+          "Analyse a local council or community decision about land or infrastructure allocation and map out the opportunity costs and sustainability implications",
+          "Explore how the concept of 'common pool resources' (shared resources like fisheries or groundwater) illustrates scarcity and collective allocation challenges"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to connect all prior building blocks into a coherent economic argument: scarcity forces allocation choices, and every choice has an opportunity cost. The teaching focus is on students producing an integrated explanation, not just listing the components."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains the logical chain from scarcity to opportunity cost using a specific resource example",
+          "Identifies at least one sustainability implication of a resource allocation decision",
+          "Uses economic terms (scarcity, needs, wants, opportunity cost, allocation) accurately in explanation"
+        ],
+        "related_standards": ["AC9HE7S04", "AC9HE7S05"]
+      }
+    ]
+  }
+}

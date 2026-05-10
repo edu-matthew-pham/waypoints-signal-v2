@@ -1,0 +1,83 @@
+{
+  "year_level": "10",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E10LE06",
+    "title": "Voice as a literary device",
+    "description": "compare and evaluate how 'voice' as a literary device is used in different types of texts, such as poetry, novels and film, to evoke emotional responses",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students create and edit literary texts including hybrids, experimenting with structures, features and devices for purpose (AC9E9LE06). They have not yet compared and evaluated how voice as a literary device evokes emotional responses across different text types.",
+    "progression_endpoint": "Students compare and evaluate how 'voice' as a literary device is used in different types of texts to evoke emotional responses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Understanding voice as a literary device",
+        "progression_checkpoint": "Students can identify how voice operates as a literary device in a text, explaining how the author constructs voice and what it contributes to the text.",
+        "minimum_width": "Identify how voice is constructed in a provided text and explain what it contributes to the text's meaning or effect.",
+        "typical_width": "Analyse how voice is constructed as a literary device across at least two different text types (poetry, prose, film), explaining how voice choices shape meaning and tone in each.",
+        "wider": [
+          "Examine how protest voice in poems or songs constructs a sense of collective identity and emotional urgency",
+          "Analyse how First Nations Australian authors use voice as a literary device to assert identity and challenge dominant narratives",
+          "Examine how unreliable narrators in novels construct a voice that evokes both sympathy and unease"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to compare and evaluate voice across text types \u2014 a move that collapses without the conceptual precision about what 'voice as a literary device' means. Students who retain colloquial uses of 'voice' cannot make meaningful cross-text-type comparisons.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Voice is a conceptually slippery term \u2014 students need explicit scaffolding to distinguish 'voice' as a literary device (constructed textual persona) from colloquial uses of 'voice'; the reasoning move from textual choices to constructed voice needs support.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies how voice is constructed in a text through specific literary choices",
+          "Explains what the constructed voice contributes to the text's meaning or tone"
+        ],
+        "related_standards": [
+          "AC9E10LE05",
+          "AC9E10LE07"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Comparing and evaluating voice across text types",
+        "progression_checkpoint": "Students can compare and evaluate how voice as a literary device evokes different emotional responses across poetry, novels and film.",
+        "minimum_width": "Compare how voice is used in at least two different text types and evaluate how each evokes a different emotional response.",
+        "typical_width": "Compare and evaluate how voice as a literary device evokes emotional responses across a range of text types \u2014 poetry, prose and film \u2014 making supported judgements about the effectiveness of each.",
+        "wider": [
+          "Compare the voice of protest across a range of poems, songs and speeches and evaluate how different voices evoke different emotional responses from different audiences",
+          "Evaluate how voice in a film creates a different emotional response than the same story told through prose, analysing what the medium change does to the voice",
+          "Examine how First Nations Australian authors use voice across text types to evoke emotional responses that challenge or illuminate dominant perspectives"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Voice functions very differently across poetry, prose and film \u2014 students who only analyse voice in one text type may assume it works the same way everywhere; cross-text-type comparison is the essential context variation here.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparative voice analysis across poetry, fiction and film offers rich material \u2014 protest voices, First Nations Australian voices and unreliable narrators all provide sustained comparative work.",
+        "success_criteria": [
+          "Compares how voice as a literary device operates in at least two different text types",
+          "Evaluates how each use of voice evokes a different emotional response, with textual evidence"
+        ],
+        "related_standards": [
+          "AC9E10LE05",
+          "AC9E10LE03",
+          "AC9E10LE07"
+        ]
+      }
+    ]
+  }
+}

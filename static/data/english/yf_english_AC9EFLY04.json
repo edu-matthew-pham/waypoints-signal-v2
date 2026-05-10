@@ -1,0 +1,97 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLY04",
+    "title": "Read using phonic knowledge",
+    "description": "read decodable and authentic texts using developing phonic knowledge, and monitor meaning using context and emerging grammatical knowledge",
+    "strand": "Literacy — Analysing",
+    "mode": "B",
+    "prior_knowledge": "Students are developing letter-sound knowledge (AC9EFLY11, AC9EFLY12). They have not yet been asked to apply phonic decoding strategies within connected text, or to monitor for meaning breakdown and self-correct using context.",
+    "progression_endpoint": "Students can read decodable and authentic texts using developing phonic knowledge — navigating correctly, attempting unknown words using phonics, and monitoring for meaning using context and grammatical knowledge.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Navigate a text correctly",
+        "progression_checkpoint": "Students can navigate a text from left to right, top to bottom, matching one spoken word to one written word.",
+        "minimum_width": "Read a short familiar text pointing to each word, maintaining left-to-right directionality and one-to-one word matching.",
+        "typical_width": "Navigate a text correctly — starting at the right place, reading left to right and top to bottom, returning to the next line correctly, matching one spoken word to one written word.",
+        "wider": [
+          "Apply navigation skills across a range of text formats — big books, small books, and simple digital texts",
+          "Read familiar texts at varying speeds while maintaining accurate tracking and word matching"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without accurate directional tracking and one-to-one word matching, phonic decoding in Node 2 cannot function — students cannot attempt to decode a word they have not correctly isolated on the page.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate tracking and one-to-one word matching must become automatic — they are the foundation of all reading. Practice across multiple texts builds the habit. Errors (losing track, skipping lines) cascade into comprehension breakdown.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student tracks from left to right consistently across a full page of text.",
+          "Student correctly matches each spoken word to one written word.",
+          "Student returns correctly to the start of the next line."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Use phonic knowledge to decode",
+        "progression_checkpoint": "Students can attempt to decode unknown words using their developing letter-sound knowledge and high-frequency word knowledge.",
+        "minimum_width": "Attempt at least one unknown word in a familiar text using letter-sound decoding.",
+        "typical_width": "Attempt to work out unknown words using phonic decoding and knowledge of high-frequency words; blend sounds to decode CVC and simple words encountered in text.",
+        "wider": [
+          "Apply decoding strategies to an increasing range of text types — decodable readers, picture books, simple information texts",
+          "Apply phonic decoding to names and topic words from culturally diverse contexts in classroom texts",
+          "Use multiple decoding strategies (phonics, word recognition, context) and explain which strategy was used"
+        ],
+        "hinge": true,
+        "hinge_reason": "Decoding is the prerequisite for meaning monitoring in Node 3 — students cannot notice that their reading does not make sense if they are not producing an approximation of the word through phonic attempt. Without decoding, self-correction has no raw material to work with.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may apply phonics only in isolated word tasks and not carry the strategy into connected text. Multiple connected text contexts — including authentic texts not just decodables — help generalise the strategy.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student attempts an unknown word using phonics rather than guessing randomly.",
+          "Student can blend sounds to produce a recognisable word in at least one attempt."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Monitor meaning and self-correct",
+        "progression_checkpoint": "Students can recognise when their reading does not make sense and pause or seek support — using context and emerging grammatical knowledge as a check.",
+        "minimum_width": "Pause when reading breaks down and attempt to self-correct or seek support.",
+        "typical_width": "Monitor meaning while reading — pause or ask for support when something does not make sense; use context (what would make sense here?) and emerging grammatical knowledge (does that sound right?) alongside phonics to monitor and repair.",
+        "wider": [
+          "Apply monitoring strategies across texts of increasing length and complexity",
+          "Explicitly articulate what strategy was used when meaning broke down — identifying the source of difficulty",
+          "Apply monitoring strategies to texts with culturally unfamiliar content, using context more heavily when phonics alone is insufficient"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Monitoring meaning requires integrating multiple cueing systems simultaneously — phonics, context and grammar — rather than relying on one. Coordinating these is the endpoint of Foundation-level reading."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student notices when their reading does not make sense.",
+          "Student pauses or attempts to self-correct without needing a prompt.",
+          "Student can say what they tried when meaning broke down."
+        ]
+      }
+    ]
+  }
+}

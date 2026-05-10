@@ -1,0 +1,104 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10ST01",
+    "title": "Critique statistical reports",
+    "strand": "Statistics",
+    "mode": "A",
+    "description": "analyse claims, inferences and conclusions of statistical reports in the media, including ethical considerations and identification of potential sources of bias",
+    "prior_knowledge": "Students can choose and justify appropriate data displays for given contexts (AC9M9ST04). They have not yet systematically analysed statistical claims in media for bias, misleading representations, or ethical considerations \u2014 moving from producing displays to critically reading others' statistical arguments.",
+    "progression_endpoint": "Students analyse statistical claims, inferences and conclusions in media reports, identifying misleading representations, potential sources of bias, and ethical considerations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying misleading representations",
+        "progression_checkpoint": "Students can identify specific features of a statistical graph or claim that could mislead a reader and explain the mechanism by which the misleading effect works.",
+        "minimum_width": "Identify at least one specific misleading feature in a given statistical graph or report (e.g. truncated axis, non-zero baseline, cherry-picked time period) and explain how it creates a false impression.",
+        "typical_width": "Identify multiple types of misleading features across several statistical representations; explain the mechanism for each (how the visual or numerical choice distorts the impression); distinguish between deliberate misleading and ambiguity; recognise when data is not related to the claim being made.",
+        "wider": [
+          "Analyse how the identification of bias is critical in machine learning and deep learning \u2014 because biased training data produces systematically unfair or inaccurate AI outputs \u2014 connecting statistical critique to contemporary technology",
+          "Use the concept of Indigenous data sovereignty to critique and evaluate the Australian Government's 'Closing the Gap' report \u2014 examining whose data is collected, how it is framed, and what claims are made"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Misleading representations take many forms \u2014 broken axes, cherry-picked endpoints, inappropriate scale choices, correlation presented as causation. Students who only practise with broken axes may not recognise other manipulation types. Multiple examples across different misleading techniques are needed.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Indigenous data sovereignty context provides rich engagement that connects statistical critique to real social and political consequences \u2014 analysing the 'Closing the Gap' report situates statistical literacy as a tool for critical citizenship.",
+        "success_criteria": [
+          "Student identifies a specific misleading feature in a given statistical representation and names it accurately",
+          "Student explains the mechanism \u2014 how the feature creates a false impression \u2014 not just that it exists"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Evaluating samples and representativeness",
+        "progression_checkpoint": "Students can evaluate whether a sample described in a statistical report is likely to be representative of the claimed population.",
+        "minimum_width": "Identify the source and approximate size of a sample in a report; state whether it is likely to be representative of the described population and why.",
+        "typical_width": "Evaluate sample representativeness across multiple report types; identify sampling bias (self-selection, convenience, non-response); explain how non-representative samples invalidate inferences to the population; connect sample size to reliability of estimates.",
+        "wider": [
+          "Investigate population rates and ethical considerations when presenting statistical data involving infection rates \u2014 examining how 'per head of population' framing affects interpretation and what ethical responsibilities reporters have",
+          "Use secondary data to predict rates of a health event (e.g. side effects, infection) and discuss the ethical considerations of reporting such predictions to the public"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Sample evaluation applies very differently across study types \u2014 voluntary surveys, government data collections, medical studies, and social media polls all have different bias mechanisms. Multiple sample contexts are needed to build generalised representativeness reasoning."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies the sample source and size in a described study",
+          "Student gives a specific reason why the sample is or is not likely to be representative of the population"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Ethical considerations in statistical reporting",
+        "progression_checkpoint": "Students can identify ethical considerations in statistical reporting and explain how ethical or political motivations can influence how data is collected, framed, or presented.",
+        "minimum_width": "Identify at least one ethical consideration in a described statistical report (e.g. who collected the data, who benefits from the conclusion, whose perspective is absent).",
+        "typical_width": "Identify multiple ethical considerations across different statistical reports; explain how ethical or political framing shapes data collection, display choice, and conclusion drawing; distinguish between statistical error and deliberate misrepresentation; evaluate statistical claims in terms of both technical accuracy and ethical transparency.",
+        "wider": [
+          "Investigate how the concept of Indigenous data sovereignty challenges conventional approaches to government-collected data about First Nations Australians \u2014 examining who has the right to collect, use and interpret data about a community",
+          "Analyse a specific case of statistical reporting in public health or environmental policy and evaluate the ethical responsibilities of researchers, media and government in communicating uncertainty and risk"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Ethical analysis of statistical reporting is a genuine hinge \u2014 students need to move beyond 'this graph is misleading' to understanding how statistical choices encode values and power. Multiple context types (health, government, AI) build this more complex critical lens.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Ethical critique integrates technical accuracy analysis (node 1), sample evaluation (node 2), and value judgements about who is served by a statistical claim. It is where statistical literacy becomes critical literacy."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Indigenous data sovereignty and the 'Closing the Gap' context provides genuinely rich, purposeful engagement with the ethics of statistical reporting \u2014 connecting mathematical analysis to real political and cultural stakes that matter in Australian society.",
+        "success_criteria": [
+          "Student identifies at least one ethical consideration in a statistical report that goes beyond technical accuracy",
+          "Student explains how an ethical or political framing has shaped a statistical claim or its presentation"
+        ],
+        "related_standards": [
+          "AC9M10ST05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

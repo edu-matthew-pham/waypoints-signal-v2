@@ -1,0 +1,134 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P02",
+    "title": "Analyse and visualise data",
+    "description": "analyse and visualise data interactively using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends and outliers",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can analyse and visualise data using a range of software including spreadsheets and databases (AC9TDI8P02). They can identify trends and patterns in data and draw conclusions from visualisations. They have not yet developed interactive visualisations, applied machine learning as a form of analysis, or adjusted model parameters to observe effects on predictions.",
+    "progression_endpoint": "Students analyse and visualise data interactively using spreadsheets and databases to draw conclusions and make predictions by identifying trends and outliers, including developing interactive visualisations and exploring how machine learning models analyse patterns in data.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Summarising data and identifying trends",
+        "progression_checkpoint": "Students can summarise a dataset by identifying its attributes, relationships between variables, trends and outliers.",
+        "minimum_width": "Given a dataset, identify at least one trend and one outlier; describe what each indicates about the data.",
+        "typical_width": "Summarise a dataset's attributes and the relationships between variables; identify multiple trends and outliers; explain what each finding suggests and whether outliers are errors or genuinely interesting data points.",
+        "wider": [
+          "Summarise electoral data including demographics, historical swings and exceptions \u2014 identify what trends predict outcomes and where exceptions undermine simple predictions",
+          "Investigate why the same dataset can show different trends depending on how it is grouped or filtered \u2014 connecting this to statistical concepts of aggregation"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Trend and outlier identification requires systematic data reading \u2014 students who scan data intuitively often miss outliers or misread trend direction. Scaffolding the analysis (describe the range \u2192 identify central tendency \u2192 find exceptions \u2192 name the direction) produces reliable summary before prediction.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one trend in a dataset and describes its direction",
+          "Identifies at least one outlier and explains whether it represents an error or a genuine data point"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify trends and outliers in a dataset cannot draw conclusions or make predictions at N2 \u2014 the N2 checkpoint is directly dependent on the data summary produced at N1."
+      },
+      {
+        "id": 2,
+        "label": "Drawing conclusions and making predictions",
+        "progression_checkpoint": "Students can draw conclusions from data analysis and make predictions, including identifying the limits of the prediction.",
+        "minimum_width": "Draw at least one conclusion from a dataset and make one prediction; note one limitation of the prediction.",
+        "typical_width": "Draw multiple conclusions from a dataset with different variables; make predictions by extending observed trends; identify what would need to be true for the predictions to hold and where they might fail.",
+        "wider": [
+          "Investigate emerging trends in Australia's industries using ABS data \u2014 make predictions about future employment patterns and identify what assumptions underpin each prediction",
+          "Analyse historical data to predict a future outcome (election, environmental trend, economic indicator) and explain what factors could cause the prediction to be wrong"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often confuse correlation with causation when making predictions, or state predictions without identifying their limiting assumptions. A reasoning scaffold \u2014 what does the trend show? \u2192 what would have to be true for this to continue? \u2192 what could break this pattern? \u2014 builds rigour in prediction-making.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States a conclusion that is grounded in the data (not just restating the data)",
+          "Makes a prediction and identifies at least one assumption or limitation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify limiting assumptions for predictions cannot meaningfully design interactive visualisations at N3 \u2014 the analytical intent of the visualisation depends on knowing what question is being asked and what its limitations are."
+      },
+      {
+        "id": 3,
+        "label": "Developing interactive visualisations",
+        "progression_checkpoint": "Students can develop interactive visualisations for exploring complex data, allowing users to control and view different aspects of a dataset.",
+        "minimum_width": "Create a visualisation with at least one interactive element (e.g. a filter, slider, or chart type selector) that allows a user to change what is displayed.",
+        "typical_width": "Develop an interactive visualisation for a complex dataset \u2014 include multiple views or filters that allow exploration of relationships, trends and outliers; explain how the interactive design helps users explore the data.",
+        "wider": [
+          "Develop a motion chart or time-series interactive visualisation (e.g. population, life expectancy and fertility rate) that allows users to explore change over time",
+          "Design an interactive dashboard with linked views where selecting a data point in one chart filters or highlights related data in another",
+          "Incorporate sliders to allow users to adjust visualisation parameters and observe the effect on how patterns appear"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Interactive visualisation requires coordinating data analysis, visual design and interactivity implementation. Students who understand each individually often struggle to build a visualisation that is both analytically useful and usable. The integration node is where analysis intent, visual form and interaction mechanism must work together.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Motion charts, linked views and time-series sliders are genuinely rich directions \u2014 each requires students to think about what question the visualisation is answering and how interaction helps users explore it. This is substantive UX-meets-data work.",
+        "success_criteria": [
+          "Visualisation includes at least one interactive element that changes what is displayed",
+          "The interaction serves an analytical purpose \u2014 it helps the user explore the data, not just decorative"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Machine learning as a form of data analysis",
+        "progression_checkpoint": "Students can explain how machine learning trains algorithms on data to identify patterns and classify inputs, and explore how adjusting model parameters affects outputs.",
+        "minimum_width": "Describe what machine learning is and explain, using one example, how an algorithm is trained on data to classify new inputs.",
+        "typical_width": "Use a machine learning tool to train a model on a dataset and classify new inputs; adjust at least one parameter and observe how it changes the model's output; explain what the parameter controls.",
+        "wider": [
+          "Explore how adjusting the weighting of different input variables in a model changes its predictions \u2014 explain what this reveals about which variables have most influence",
+          "Investigate how training data composition affects model output \u2014 what happens when certain categories are underrepresented? Connect this to real-world bias in deployed AI systems",
+          "Use a visual ML tool (e.g. Teachable Machine) to train image classifiers and observe how classification accuracy changes as training data volume increases"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Machine learning is conceptually opaque \u2014 students often treat it as a black box. Multiple hands-on experiments (image classification, parameter adjustment, training data variation) each make a different aspect of the process visible, building a more complete mental model than a single experiment.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Training data bias and parameter effects are both conceptually rich and consequential directions \u2014 they connect directly to real-world AI ethics and decision-making quality in deployed systems.",
+        "success_criteria": [
+          "Correctly explains that ML algorithms learn patterns from training data",
+          "Demonstrates that changing training data or parameters changes model output",
+          "Can explain in plain language what changed and why"
+        ],
+        "related_standards": [
+          "AC9TDI10P03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

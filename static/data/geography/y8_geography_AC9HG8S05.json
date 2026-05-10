@@ -1,0 +1,93 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8S05",
+    "title": "Identify strategies for action",
+    "description": "identify a strategy for action in relation to environmental, economic, social or other factors, and explain potential impacts",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students identify a strategy for action and explain potential impacts (AC9HG7S05). At Y8, students move toward evaluating strategy effectiveness across environmental, economic and social dimensions.",
+    "progression_endpoint": "Students identify and justify a strategy for action, explain potential impacts across environmental, economic and social factors, and evaluate the effectiveness of the strategy.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying and proposing action",
+        "progression_checkpoint": "Students can identify or propose a strategy for action related to a geographical issue, providing reasons that connect to environmental, economic or social factors.",
+        "minimum_width": "Students identify one strategy for action and provide at least one reason linking it to an environmental, economic or social factor.",
+        "typical_width": "Students propose individual or collective action related to a Y8 geographical issue (e.g., reducing e-waste impacting landscapes; decreasing urban carbon footprint; promoting urban agriculture; raising awareness of landform significance) and provide reasons connecting the proposed action to environmental, economic or social factors.",
+        "wider": [
+          "Compare individual and collective action strategies \u2014 what can each achieve that the other cannot?",
+          "Examine how scale affects action viability \u2014 what is feasible at individual vs community vs government level?",
+          "Investigate examples of successful collective geographic action and analyse what factors contributed to success."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies or proposes a strategy for action related to a geographical issue.",
+          "Provides at least one reason connecting the strategy to an environmental, economic or social factor."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Explaining potential impacts",
+        "progression_checkpoint": "Students can explain the potential impacts of a proposed strategy across environmental, economic and social dimensions.",
+        "minimum_width": "Students explain at least two potential impacts of their proposed strategy.",
+        "typical_width": "Students explain the potential impacts of their proposed strategy across environmental, economic and social dimensions, including both intended and unintended consequences \u2014 e.g., sustainable urban design principles for urban redevelopment that create green open spaces but may affect housing affordability.",
+        "wider": [
+          "Examine trade-offs between positive and negative impacts of the same strategy.",
+          "Investigate how impacts are distributed unequally across different groups (who benefits, who bears costs).",
+          "Develop an impact assessment that considers time scale \u2014 short-term vs long-term impacts."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who only identify intended impacts without considering unintended consequences or trade-offs cannot evaluate strategy effectiveness in Node 3. Single-dimension impact analysis produces incomplete strategy evaluation.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Multi-dimensional impact analysis (environmental + economic + social, intended + unintended) requires an explicit reasoning scaffold. Students need a systematic approach to avoid single-factor impact accounts.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Impact analysis that surfaces trade-offs and unequal distribution of benefits/costs is genuinely complex geographic reasoning. Wider students can develop sophisticated accounts of who gains and loses from different action strategies.",
+        "success_criteria": [
+          "Explains at least two potential impacts of the proposed strategy, across at least two dimensions (environmental, economic or social).",
+          "Identifies at least one potential unintended consequence of the strategy."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating strategy effectiveness",
+        "progression_checkpoint": "Students can evaluate the effectiveness of a strategy in relation to environmental, economic and social factors.",
+        "minimum_width": "Students evaluate one strategy's effectiveness using at least two criteria.",
+        "typical_width": "Students evaluate the effectiveness of a strategy by considering how well it achieves its goals across environmental, economic and social dimensions, reflecting on personal values and attitudes and how these influence their explanation of potential outcomes.",
+        "wider": [
+          "Compare the effectiveness of two different strategies addressing the same issue.",
+          "Examine how values and assumptions embedded in a strategy shape what counts as 'effective'.",
+          "Investigate how effectiveness is measured in practice \u2014 what indicators are used and who sets them?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluating effectiveness integrates impact analysis (Node 2) with value reflection and multi-factor assessment \u2014 the full demand of this descriptor. Students must coordinate evidence, criteria and personal reasoning."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Evaluates the effectiveness of a strategy using at least two criteria across different dimensions.",
+          "Reflects on how personal values influence the evaluation of the strategy's outcomes."
+        ]
+      }
+    ]
+  }
+}

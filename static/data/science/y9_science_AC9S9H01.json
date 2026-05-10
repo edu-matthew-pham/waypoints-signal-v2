@@ -1,0 +1,74 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9H01",
+    "title": "Validation and Peer Review",
+    "description": "explain how scientific knowledge is validated and refined, including the role of publication and peer review",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students can analyse factors contributing to science being adopted by society (AC9S7H03/H04, 7-8 band). They now examine the internal mechanisms by which science validates itself before broader adoption.",
+    "progression_endpoint": "Students explain the publication and peer review process, examine real cases where findings were initially rejected then later validated or refined, and connect evidence consistency across independent studies to the concept of scientific consensus.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Peer review validates scientific knowledge before publication",
+        "progression_checkpoint": "Students can explain the peer review process — submission, expert evaluation, revision, acceptance or rejection — and explain why peer review improves the quality and reliability of published science.",
+        "minimum_width": "Students describe the peer review process and explain at least two ways it improves the reliability of published scientific findings.",
+        "typical_width": "Students explain how editors and reviewers evaluate submitted papers for methodology, evidence quality and claims; examine why high-volume journals like Science reject most submissions; explain how peer review catches errors, unsupported claims and methodological weaknesses; and connect peer review to the reliability of published scientific knowledge.",
+        "wider": [
+          "Investigate the process of publishing in a scientific journal and examine how editors evaluate the 12,000+ annual submissions to Science — exploring the scale and selectivity of peer review",
+          "Explore why Barry Marshall and Robin Warren's work on peptic ulcer causes was first rejected then later validated — examining how peer review can initially resist paradigm-challenging findings",
+          "Examine how Marie and Pierre Curie's discovery of new elements was validated — tracing the peer review and independent replication process for a landmark discovery"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to distinguish scientific consensus from contested claims — a judgement that depends on understanding peer review as a quality-filtering process. Students who treat publication as proof cannot recognise that consensus requires convergent evidence across independently reviewed studies, not just a single published finding.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students tend to treat publication as proof rather than as a quality-filtered but fallible process. Making the peer review mechanism explicit — what reviewers check, how revision works, why rejection is common — is necessary before students can evaluate claims about published vs unpublished science.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes the peer review process from submission to publication",
+          "Explains at least two ways peer review improves reliability of scientific knowledge"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Scientific consensus is built through consistent evidence across studies",
+        "progression_checkpoint": "Students can explain how scientific consensus develops through consistent evidence from multiple independent studies, and distinguish between a consensus position and a contested claim.",
+        "minimum_width": "Students explain what scientific consensus means and describe how consistent evidence from multiple studies builds it.",
+        "typical_width": "Students examine how multiple independent lines of evidence (Thomson, Millikan, Rutherford) support the nuclear model of the atom; explain the scientific consensus on global warming as an example of consensus built from varied evidence types; and distinguish between scientific consensus and public debate.",
+        "wider": [
+          "Examine how Thomson's electron discovery, Millikan's oil drop experiment and Rutherford's gold foil experiment provide consistency of evidence for the particle model of electricity",
+          "Examine the scientific consensus supporting global warming — examining what evidence types contribute and how they converge",
+          "Investigate how the publication of data related to First Nations Australians' traditional fire regimes informed more effective fire management policies — examining evidence-based policy change"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily accept that 'multiple studies agree' without examining what makes those studies independent or why convergence across different evidence types is more compelling than replication of the same method. Encountering consensus-building across varied evidence types — particle physics experiments, climate datasets, fire management research — builds a more discriminating understanding of what convergent evidence actually means.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The multiple-line-of-evidence direction for atomic model connects directly to earlier U-strand content (AC9S9U06). The climate consensus direction has strong contemporary relevance and elaboration grounding.",
+        "success_criteria": [
+          "Explains how consistent evidence from multiple independent studies builds scientific consensus",
+          "Distinguishes between scientific consensus and public or political debate on the same topic"
+        ],
+        "related_standards": [
+          "AC9S9U06",
+          "AC9S9H02"
+        ]
+      }
+    ]
+  }
+}

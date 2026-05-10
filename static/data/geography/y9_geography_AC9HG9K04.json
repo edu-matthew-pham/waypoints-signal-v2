@@ -1,0 +1,127 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9K04",
+    "title": "Challenges to Sustainable Food Production",
+    "description": "challenges to sustainable food production and food security in Australia and appropriate management strategies",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students understand that environments can be degraded and that management strategies exist to address this (Y7-8). They have examined biome alteration and productivity factors in K01-K03. They have not examined challenges to sustainable food production at national scale or generated strategies responding to those challenges, nor considered First Nations Australians' food sources specifically.",
+    "progression_endpoint": "Students examine environmental, economic and social challenges to food production and food security in Australia, and evaluate and generate management strategies that restore agricultural quality, diversity or security.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Environmental challenges to food production",
+        "progression_checkpoint": "Students can examine how environmental impacts of changes to food production reduce the land's capacity to provide agricultural products",
+        "minimum_width": "Identify at least two environmental challenges (e.g. soil erosion, salinity, water scarcity, climate change); explain how each reduces agricultural productivity",
+        "typical_width": "Explain how land and water degradation processes — soil erosion, salinity, desertification, freshwater shortage, climate change and pollution — reduce the capacity of Australian land to produce food",
+        "wider": [
+          "Analyse how soil erosion and salinity are often interconnected — explain how addressing one without the other can exacerbate the problem",
+          "Examine how climate change projections alter the distribution of environmental challenges across Australian agricultural regions",
+          "Investigate how the same environmental challenge (e.g. water scarcity) operates differently in an irrigated agricultural region versus dryland farming"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding specific environmental degradation mechanisms is prerequisite for evaluating management strategies in Nodes 3-4 — management strategies are responses to specific challenges, and students who cannot name the mechanism cannot evaluate whether a strategy addresses it. Students who list challenges without explaining their productivity impact cannot assess management effectiveness.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Environmental challenges involve process chains: deforestation → increased runoff → soil erosion → nutrient loss → reduced productivity. Students who describe outcomes without mechanisms cannot evaluate whether management strategies address the cause or the symptom. Scaffolding the process chain builds the causal logic needed for management evaluation in Nodes 3-4.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two environmental challenges to food production in Australia",
+          "Explains the mechanism by which each challenge reduces agricultural productivity",
+          "Uses geographical terminology (degradation, erosion, salinity, desertification) correctly"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Economic, social and First Nations food security impacts",
+        "progression_checkpoint": "Students can examine economic and social impacts of changes to food production, including impacts on First Nations Australians' access to traditional food sources",
+        "minimum_width": "Identify at least two economic or social impacts of changes to food production; identify at least one impact on First Nations Australians' access to traditional food sources",
+        "typical_width": "Explain economic impacts (competing land uses — urban, industrial, recreational) and social impacts of changes to food production; explain how modifications to biomes have reduced First Nations Australians' access to traditional food sources such as myrrnong, cycads or bunya nuts",
+        "wider": [
+          "Analyse how competing land uses create different types of food security challenges — urban expansion versus agricultural degradation affect different populations differently",
+          "Investigate a specific First Nations food source (e.g. myrrnong/yam daisy in Victoria) — trace how biome modification reduced its availability and explain the cultural and nutritional significance of this loss",
+          "Examine how First Nations food sovereignty movements are reclaiming access to traditional food sources — explain what 'food security' means in a First Nations context"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Food security impacts are experienced differently across economic, social and cultural dimensions. Addressing economic and social impacts without the First Nations dimension produces an incomplete picture. Multiple contexts ensure students understand that food security is not a single, uniform challenge.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations food sovereignty direction is rich — it challenges students to understand food security as not only about caloric supply but cultural practice, Country connection and self-determination. Advancing students who investigate myrrnong or similar cases develop a more sophisticated understanding of what counts as food security and why biome modification has differential impacts.",
+        "success_criteria": [
+          "Identifies at least two economic or social impacts of changes to food production",
+          "Explains how modifications to biomes have affected First Nations Australians' access to traditional food sources",
+          "Names at least one specific First Nations food source and explains the impact on its availability"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Management strategies for food security",
+        "progression_checkpoint": "Students can examine management strategies that improve food security and explain how they address specific challenges",
+        "minimum_width": "Identify at least two management strategies for improving food security (e.g. reducing food wastage, government policies, trade barriers); explain what challenge each addresses",
+        "typical_width": "Explain how strategies such as reducing food wastage, government food security policies, trade regulation and international cooperation address specific food security challenges in Australia",
+        "wider": [
+          "Evaluate the effectiveness of food wastage reduction strategies — compare reduction at household, retail and production levels in terms of food security impact",
+          "Analyse how trade policy (e.g. tariffs, subsidies, trade agreements) affects food security differently for food exporters versus importers",
+          "Investigate how international food security frameworks (e.g. UN Sustainable Development Goal 2) translate into national policy — examine the gap between targets and implementation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly confuse describing a strategy with evaluating whether it addresses the challenge. Scaffolding the reasoning chain — what is the challenge, what mechanism does the strategy use, does it address cause or symptom? — builds evaluative capacity that this node and Node 4 both require."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two food security management strategies",
+          "Explains what specific challenge each strategy addresses",
+          "Uses food security vocabulary correctly"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Restoring agricultural quality and generating expansion strategies",
+        "progression_checkpoint": "Students can explain management strategies that restore agricultural quality and diversity, and generate ideas for strategies to expand agricultural production sustainably",
+        "minimum_width": "Describe at least two strategies that restore biome quality or diversity (e.g. improving soil condition, restoring natural biomes, monitoring land management); generate at least one idea for expanding production sustainably",
+        "typical_width": "Explain how strategies for restoring natural and anthropogenic biome function, improving soil condition, monitoring land management and building farmer capability restore agricultural quality and diversity; generate and justify an idea for expanding production (e.g. bush food markets, research investment, farm innovation support)",
+        "wider": [
+          "Evaluate a specific land restoration strategy (e.g. revegetation, perennial pastures) — what biome functions does it restore and over what timescale?",
+          "Generate a strategy for bush food commercialisation — identify what would be needed (land access, markets, knowledge partnerships) and what food security benefits it could provide",
+          "Analyse how farmer capability-building programs (e.g. Landcare) combine restoration with economic resilience — examine their outcomes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates all prior nodes — restoration strategies address the environmental challenges from Node 1, account for social and cultural considerations from Node 2, and connect to the broader food security strategies in Node 3. The idea-generation task requires students to synthesise all three dimensions simultaneously.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The bush food commercialisation direction is rich — it requires students to connect First Nations knowledge systems, biome ecology, market economics and food security into a single generative strategy. Advancing students who develop a bush food strategy must integrate cultural, environmental and economic dimensions in a way that no single previous node demanded.",
+        "success_criteria": [
+          "Describes at least two strategies that restore agricultural quality or diversity",
+          "Links each strategy to a specific challenge it addresses (Node 1/2 connection)",
+          "Generates and justifies at least one idea for expanding sustainable production"
+        ]
+      }
+    ]
+  }
+}

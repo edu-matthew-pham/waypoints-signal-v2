@@ -1,0 +1,71 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8A03",
+    "title": "Modelling with Linear Functions",
+    "strand": "Algebra",
+    "description": "use mathematical modelling to solve applied problems involving linear relations, including financial contexts; formulate problems with linear functions, choosing a representation; interpret and communicate solutions in terms of the situation, reviewing the appropriateness of the model",
+    "mode": "A",
+    "prior_knowledge": "Students can graph linear relations and solve linear equations (from AC9M8A02). Students have experience with mathematical modelling (from AC9M7N09).",
+    "progression_endpoint": "Students formulate linear function models for applied problems, choose appropriate representations, solve and interpret solutions, and review model appropriateness.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Formulating linear models",
+        "progression_checkpoint": "Students identify a linear relationship in a practical context, formulate it as a function y = mx + b, and identify the meaning of gradient and intercept in context.",
+        "minimum_width": "Given a practical context with a constant rate and fixed component, formulate the linear function and identify m and b in context.",
+        "typical_width": "Formulate linear models for varied contexts (taxi fares, pay rates, motion); identify gradient as rate of change and intercept as fixed value; choose table, graph or equation as appropriate.",
+        "wider": [
+          "Model patterns on Country/Place with linear functions — investigate Indigenous knowledge connections to linear relationships and use the model as a predictive tool.",
+          "Compare two linear models on the same axes (e.g. two taxi companies) and find the break-even point algebraically."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Formulating a linear model requires recognising the constant rate structure across varied contexts. Students who only practise with one context type fail to identify the linear structure in novel situations.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires solving and interpreting the model — students who cannot formulate the linear function from context have no model to solve, interpret, or review for appropriateness.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing two linear models and finding the break-even point, or connecting linear modelling to Country/Place contexts, offers advancing students a rich applied and cultural extension within the Year 8 band.",
+        "success_criteria": [
+          "Correctly identifies gradient and intercept from a practical context.",
+          "Formulates the linear function in equation form.",
+          "Interprets m and b in terms of the problem context."
+        ],
+        "related_standards": ["AC9M8A02", "AC9M8A04"]
+      },
+      {
+        "id": 2,
+        "label": "Solving, interpreting and reviewing the model",
+        "progression_checkpoint": "Students solve a linear model for a given value, interpret the solution in context, and evaluate whether the model is appropriate for the situation.",
+        "minimum_width": "Use a linear model to answer a specific question; state the solution in context; identify one limitation of the model.",
+        "typical_width": "Solve practical problems using the model; interpret solutions including units and contextual meaning; review model appropriateness considering domain, linearity assumption, and real-world constraints.",
+        "wider": [
+          "Investigate where a linear model breaks down — at what point does a taxi fare model, pay rate model, or motion model stop being realistic?",
+          "Apply linear modelling to a financial context involving different pay structures (base + commission vs flat rate) — model, compare and advise."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Solving, interpreting and reviewing simultaneously requires students to coordinate graphical, algebraic and contextual reasoning — the integration across all three representations is the learning."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses the linear model correctly to answer a specific question.",
+          "States the solution in contextually appropriate terms.",
+          "Identifies at least one limitation or domain restriction of the model."
+        ],
+        "related_standards": ["AC9M7N09", "AC9M8A02"]
+      }
+    ]
+  }
+}

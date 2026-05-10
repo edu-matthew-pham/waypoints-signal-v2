@@ -1,0 +1,87 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4N08",
+    "title": "Mathematical modelling — additive and multiplicative",
+    "description": "Use mathematical modelling to solve practical problems involving additive and multiplicative situations including financial contexts; formulate the problems using number sentences and choose efficient calculation strategies, using digital tools where appropriate; interpret and communicate solutions in terms of the situation",
+    "strand": "Number and Algebra",
+    "mode": "B",
+    "prior_knowledge": "Students can use mathematical modelling to solve additive and multiplicative problems including financial contexts (AC9M3N06). They have not yet formulated multi-step problems requiring selection between operations, or interpreted solutions in complex financial contexts.",
+    "progression_endpoint": "Students formulate and solve practical additive and multiplicative problems using appropriate representations and strategies, interpreting and communicating solutions in terms of the situation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Formulate — represent the situation",
+        "progression_checkpoint": "Students can represent a practical problem using a diagram (part-part-whole, bar model, array) and write a number sentence that matches the structure.",
+        "minimum_width": "Represent one additive or multiplicative practical problem using a bar model or array; write the corresponding number sentence; identify what is known and what is unknown.",
+        "typical_width": "Represent a range of additive and multiplicative problems using appropriate diagrams; write number sentences that reflect the problem structure (not just the calculation); identify the operation from the structure (additive: part or whole missing; multiplicative: groups or per-group missing); explain how each number in the sentence connects to the situation.",
+        "wider": [
+          "Compare two different representations of the same problem (e.g. bar model vs array) and discuss how each makes different aspects of the structure visible",
+          "Analyse word problems by identifying the structural type before selecting a representation — building the habit of problem analysis before calculation"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who encounter only additive problems may default to addition for all problems. Exposure to a wide range of problem types — missing part, missing whole, equal groups (number of groups missing), equal groups (per-group missing), comparison — is needed to develop appropriate operation selection. Phase collapse if this node is thin: students formulate incorrectly in all downstream modelling phases.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Incorrect formulation propagates through all subsequent modelling phases — an incorrect number sentence produces a correct calculation of the wrong thing. Students who cannot identify problem structure from context cannot meaningfully engage in Nodes 2 or 3.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can represent a practical problem using a diagram and write a matching number sentence",
+          "Students can identify what is known and what is unknown in the problem structure"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Solve — choose efficient strategies",
+        "progression_checkpoint": "Students can choose and apply an efficient calculation strategy for the operation identified in formulation.",
+        "minimum_width": "Select and apply an appropriate strategy for one additive and one multiplicative calculation; explain why the strategy was chosen.",
+        "typical_width": "Select efficient strategies for addition, subtraction and multiplication based on the numbers involved; use digital tools where appropriate to support calculations; explain strategy choices; apply known facts and properties to larger numbers.",
+        "wider": [
+          "Compare multiple strategies for the same calculation and justify which is most efficient for those specific numbers",
+          "Investigate when digital tools are the most efficient approach and when mental strategies are faster"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can solve the formulated problem using an appropriate and efficient strategy",
+          "Students can explain why the strategy was appropriate for the numbers involved"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Interpret and communicate",
+        "progression_checkpoint": "Students can interpret a solution in terms of the original situation and communicate it clearly.",
+        "minimum_width": "State the answer to one problem in terms of the situation (not just the number); explain what the answer means.",
+        "typical_width": "Interpret answers in context across a range of problem types (including where remainders must be handled contextually, or where the answer needs units); communicate solutions in full sentences referencing the situation; evaluate whether the answer is reasonable.",
+        "wider": [
+          "Solve multi-step modelling problems where each step requires interpretation before the next can be formulated — building the full modelling cycle iteratively",
+          "Present solutions to financial problems using appropriate financial language and conventions, considering who the audience is and what information they need"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The interpret-and-communicate phase requires students to coordinate formulation, calculation and contextual reasoning simultaneously. The quality of interpretation reveals whether the full modelling cycle was understood or whether the problem was treated as a calculation exercise."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Mathematical modelling problems with rich real-world contexts (financial planning, comparison shopping, event budgets) provide genuine opportunities for students to develop as problem-solvers who move fluidly between mathematics and context.",
+        "success_criteria": [
+          "Students can state the answer to a practical problem in terms of the situation, including appropriate units",
+          "Students can explain whether the answer is reasonable and what it means in the original context"
+        ]
+      }
+    ]
+  }
+}

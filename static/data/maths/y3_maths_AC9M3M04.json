@@ -1,0 +1,68 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3M04",
+    "title": "Analog and digital clocks to the minute",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "describe the relationship between the hours and minutes on analog and digital clocks, and read the time to the nearest minute",
+    "prior_knowledge": "Students can recognise and use the relationship between formal units of time (AC9M3M03) and can read analog time to the quarter-hour from Y2. They have not yet read analog or digital clocks to the nearest minute, or described the relationship between the hour and minute hands at all positions.",
+    "progression_endpoint": "Students describe the hour/minute relationship on both analog and digital clocks and read time to the nearest minute.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Minute hand and its relationship to hours",
+        "progression_checkpoint": "Students can explain how the minute hand relates to hours on an analog clock — one full revolution = one hour = 60 minutes.",
+        "minimum_width": "Explain the minute hand's full circuit using a clock face: state how many minutes elapse per full revolution and connect to the hour hand's movement.",
+        "typical_width": "Describe the relationship between the hour and minute hands across several different times; explain how the hour hand moves as the minute hand completes revolutions.",
+        "wider": [
+          "Explore how the 12-hour clock requires am/pm distinction — investigating how digital clocks encode this and why it matters",
+          "Compare 12-hour and 24-hour clock formats, connecting to contexts like train timetables and digital devices"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The inter-relationship between both hands is not intuitively obvious — the hour hand continuously moves, not in jumps. Explicit scaffolding of 'where is the hour hand when the minute hand is at 30 minutes?' prevents the common misconception that the hour hand is static.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding that the hour hand moves continuously (not in jumps) is required for accurate time reading in Node 2 — students with the 'static hour hand' misconception will misread times near the hour boundary and produce systematic errors across all to-the-minute readings.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can explain that one full revolution of the minute hand equals 60 minutes (one hour).",
+          "Students can describe where the hour hand points for a given time to the half-hour."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Reading time to the nearest minute",
+        "progression_checkpoint": "Students can read and record time to the nearest minute on both analog and digital clocks.",
+        "minimum_width": "Read four times shown on analog clocks to the nearest minute; record each in both analog description and digital notation (e.g. 3:47).",
+        "typical_width": "Read and record times to the nearest minute on analog and digital clocks across a range of times; set a digital device to a specified time; explain the reasoning.",
+        "wider": [
+          "Convert between 12-hour digital notation and analog time descriptions, including am/pm",
+          "Use time to the nearest minute for duration calculations — e.g. a program starts at 2:15 and runs for 35 minutes; when does it end?"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reading to the nearest minute requires precision and benefits from practice across a range of clock positions, particularly near the hour where the relationship between the minute numbers (5, 10...) and the 1-minute subdivisions is confusing."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can read an analog clock to the nearest minute.",
+          "Students can write the digital equivalent of a given analog time and vice versa."
+        ],
+        "related_standards": ["AC9M3M03"]
+      }
+    ]
+  }
+}

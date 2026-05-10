@@ -1,0 +1,72 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8M05",
+    "title": "Rates",
+    "strand": "Measurement",
+    "description": "recognise and use rates to solve problems involving the comparison of 2 related quantities of different units of measure",
+    "mode": "A",
+    "prior_knowledge": "Students can solve ratio problems (from AC9M7N08). Students understand proportional reasoning and unit conversion.",
+    "progression_endpoint": "Students recognise rates as comparisons of two different quantity types, apply rates to solve conversion and practical problems, and distinguish rates from ratios.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Rates as comparisons of different units",
+        "progression_checkpoint": "Students recognise that a rate compares two quantities with different units and express rates in standard form (quantity per unit).",
+        "minimum_width": "Identify and write rates from practical contexts (e.g. km/h, $/kg); convert between related rate units.",
+        "typical_width": "Identify constant and average rates in real contexts; apply rates to unit conversion problems; distinguish rates from ratios.",
+        "wider": [
+          "Investigate First Nations Australians' land management practices involving rates — e.g. rate of fire spread under different environmental conditions.",
+          "Compare multiple rate units for the same phenomenon (e.g. km/h, m/s, miles/hour) and practise conversion between them."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Rates appear in an enormous variety of contexts. Students who only practise speed calculations fail to recognise pay rates, dilution rates, or interest rates as the same mathematical structure.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who only recognise speed as a rate cannot identify the rate structure in Node 2 problems involving pay rates, tax rates, or dilution — they cannot set up the calculation because they don't recognise these as rate problems.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations land management rates and cross-unit rate conversion offer advancing students rich cultural and mathematical connections — the variety of real-world rate contexts extends well beyond standard speed/distance/time.",
+        "success_criteria": [
+          "Correctly identifies and writes a rate from a practical context.",
+          "Converts between related rate units.",
+          "Distinguishes a rate (different units) from a ratio (same units)."
+        ],
+        "related_standards": ["AC9M7N08"]
+      },
+      {
+        "id": 2,
+        "label": "Applying rates to practical problems",
+        "progression_checkpoint": "Students apply rates to solve practical problems including pay rates, run rates, dilution, taxation, and unit conversions.",
+        "minimum_width": "Solve a practical problem using a given rate (e.g. calculate cost at a given rate per kg, or distance at a given speed).",
+        "typical_width": "Apply rates to varied contexts including required run rates in sport, chemical dilution, income tax using rate tables, and currency conversion.",
+        "wider": [
+          "Use taxation rate tables to calculate annual income tax for a given salary — apply marginal rate structure and compute effective rate.",
+          "Investigate currency conversion as a rate problem: plan a budget for overseas travel using current exchange rates."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Rate application problems span a very wide range of real-world contexts and problem structures. Breadth of context is the primary driver of transferable rate reasoning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Taxation and currency exchange problems offer advancing students practically significant and complex rate applications — the marginal vs effective tax rate distinction is a rich conceptual extension within Year 8.",
+        "success_criteria": [
+          "Correctly applies a given rate to solve a practical problem.",
+          "Shows the rate calculation clearly with appropriate units.",
+          "Interprets the result in context."
+        ],
+        "related_standards": ["AC9M8M07", "AC9M8N05"]
+      }
+    ]
+  }
+}

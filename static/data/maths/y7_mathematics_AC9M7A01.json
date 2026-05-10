@@ -1,0 +1,104 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7A01",
+    "title": "Variables and Formulas",
+    "strand": "Algebra",
+    "description": "recognise and use variables to represent everyday formulas algebraically and substitute values into formulas to determine an unknown",
+    "mode": "A",
+    "prior_knowledge": "Students can find unknown values in equations involving brackets and combinations of operations, and recognise rules in growing patterns (from AC9M6A01, AC9M6A02). Students understand that a letter can represent an unknown.",
+    "progression_endpoint": "Students recognise variables as quantities that can change, represent everyday formulas algebraically, and substitute values to determine unknowns.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Variables as generalised quantities",
+        "progression_checkpoint": "Students recognise that variables represent quantities that can change, and distinguish a variable from an unknown constant.",
+        "minimum_width": "Identify the variables in a given formula and describe what each represents in context.",
+        "typical_width": "Link variables to the attributes they model; explain the difference between a variable (can take many values) and a specific unknown (one value to find).",
+        "wider": [
+          "Investigate how the same letter variable is used differently in different formulas (e.g. A for area in one, for amplitude in another) — variables are context-specific labels.",
+          "Explore formulas from other subjects: distance = speed × time; explore what each variable represents."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students entering Y7 typically treat all letters as 'the unknown x to solve for'. The variable-as-generalised-quantity concept requires multiple formula contexts to become stable."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly identifies what each variable represents in a given formula.",
+          "Explains the difference between a variable that can take many values and a specific unknown.",
+          "Does not treat all variables as things to 'solve for'."
+        ],
+        "related_standards": [
+          "AC9M7A02"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Substituting values into formulas",
+        "progression_checkpoint": "Students substitute given numerical values into a formula and calculate the result.",
+        "minimum_width": "Given a formula and values for all but one variable, substitute and evaluate.",
+        "typical_width": "Substitute values into formulas from practical contexts (area, perimeter, wage, density); evaluate correctly including with fractions and decimals.",
+        "wider": [
+          "Substitute values into formulas from science and everyday life (e.g. heart rate formula, body mass index) and interpret the result in context.",
+          "Investigate Country/Place formulas: investigate formulas used in Indigenous land management or navigation contexts."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Substitution is a mechanical skill that requires fluency before finding unknowns. Errors here are typically arithmetic (not algebraic) but propagate into node 3.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Arithmetic errors during substitution propagate directly into Node 3 — students who cannot substitute correctly cannot find unknowns, since the finding-unknown step builds on a correctly evaluated substitution.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly substitutes values into a formula and evaluates.",
+          "Applies correct order of operations during substitution.",
+          "Does not multiply the coefficient by the variable label (e.g. does not treat 3A as 3×'the letter A' rather than 3 times the value of A)."
+        ],
+        "related_standards": [
+          "AC9M7A06"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Finding an unknown by substitution and backtracking",
+        "progression_checkpoint": "Students determine the value of an unknown variable in a formula by substituting known values and solving.",
+        "minimum_width": "Given a formula with one unknown and all other values provided, find the unknown by substituting and solving.",
+        "typical_width": "Find unknowns in formulas in practical contexts (e.g. find the base wage given total wage and overtime details); verify by substituting back.",
+        "wider": [
+          "Compare finding unknowns using substitution + backtracking vs formal algebraic rearrangement — note both methods are valid.",
+          "Apply to a range of real formulas: perimeter to find a missing side, density formula to find mass or volume."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Finding an unknown brings together variable understanding, substitution, and arithmetic operations simultaneously. The coordinated application is the learning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly finds an unknown in a formula given all other values.",
+          "Verifies the solution by substituting back into the formula.",
+          "Interprets the result in context (with units and meaning)."
+        ],
+        "related_standards": [
+          "AC9M7A03",
+          "AC9M7A06"
+        ],
+        "width_opportunity_reason": "Advancing students can explore both substitution/backtracking and formal rearrangement as equivalent methods, and apply to a range of real formulas — connecting algebra to science and everyday contexts."
+      }
+    ]
+  }
+}

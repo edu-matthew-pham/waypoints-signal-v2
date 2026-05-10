@@ -1,0 +1,88 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LA08",
+    "title": "Images contribute to meaning",
+    "description": "compare how images in different types of texts contribute to meaning",
+    "strand": "expressing_ideas",
+    "mode": "A",
+    "prior_knowledge": "Students can explore the contribution of images and words to meaning in stories and informative texts (AC9EFLA07). They have not yet compared how images function differently across different text types, or how image sequences build meaning, or how images can carry meaning not present in the verbal text.",
+    "progression_endpoint": "Students compare how images in different types of texts contribute to meaning, including how image sequences build meaning, how images carry meaning independent of words, and how First Nations Australian authors use images.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Images carry meaning",
+        "progression_checkpoint": "Students can describe what meaning an image contributes to a text, independent of the words.",
+        "minimum_width": "Cover the words in a given illustrated text and describe what the image alone communicates.",
+        "typical_width": "Identify and describe the meaning carried by images in texts — what information, emotion or story detail the image communicates — and discuss how this meaning relates to the accompanying words.",
+        "wider": [
+          "Examine texts where the image and words tell different things — discuss what each contributes and why the author might have made that choice",
+          "Compare a cartoon image, a photograph and a diagram of the same subject and discuss how each conveys meaning differently"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat images as mere word-repetition cannot engage with N2's analysis of image sequences or N3's comparison of image types — both depend on students already accepting that images carry independent meaning.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often treat images as illustrations that simply repeat what words say. Encountering examples where images carry distinct or additional meaning — diagrams that explain what words only describe, images that show emotion not stated — resolves this misconception.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student describes at least one piece of meaning that an image carries independently of the words",
+          "Student identifies whether the image repeats, extends or contrasts the meaning of the accompanying words"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Image sequences build meaning",
+        "progression_checkpoint": "Students can explain how a sequence of images builds meaning across a text, not just within a single image.",
+        "minimum_width": "Describe how two consecutive images in a picture book connect to build a sense of progression or change.",
+        "typical_width": "Explain how authors and illustrators build meaning across a sequence of images — how each image relates to what came before and sets up what comes next, contributing to narrative progression or informational structure.",
+        "wider": [
+          "Investigate wordless picture books where the entire narrative is carried by image sequences",
+          "Compare how image sequences function in narrative texts versus informative texts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student explains how two consecutive images connect to show change or progression",
+          "Student identifies what a reader learns from an image sequence that a single image could not convey"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Images differ by text type",
+        "progression_checkpoint": "Students can compare how images function differently in different text types — narrative, informative, advertising — and explain how each type of image serves the text's purpose.",
+        "minimum_width": "Compare images from two different text types (e.g. a story illustration and a diagram) and explain how each serves its text's purpose differently.",
+        "typical_width": "Compare images across narrative texts (illustrations, character images), informative texts (diagrams, photographs, captions) and other text types (advertisements), explaining how each type of image serves the text's purpose.",
+        "wider": [
+          "Explore how digital images (animations, interactive images) in screen texts function differently from static print images",
+          "Examine images in stories and cultural accounts by First Nations Australian authors, discussing how visual choices reflect cultural perspectives and meaning-making"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing across text types is the core demand of the descriptor. Students who have only examined narrative illustration will transfer a narrow schema. Informative diagrams and advertisement images are qualitatively different and require distinct encounters.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations Australian authors' use of images offers a culturally significant and analytically rich context for examining how visual meaning-making reflects worldview and cultural knowledge — well beyond aesthetic comparison.",
+        "success_criteria": [
+          "Student correctly identifies the text type of two different texts and describes how the image in each serves that text's purpose",
+          "Student gives at least one way that images in an informative text and a narrative text function differently"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10K05",
+    "title": "Measuring human wellbeing and development",
+    "description": "the methods used to measure spatial variations in human wellbeing and development, and how these can be applied to determine differences between places at the global scale",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students have examined causes of urbanisation and its impacts on places (AC9HG8K06), reasons for and effects of migration (AC9HG8K08), and interconnections between places through trade and consumption (AC9HG9K07-K08). They understand that places differ in economic and social conditions but have not yet used formal measurement indices.",
+    "progression_endpoint": "Students identify the UN Sustainable Development Goals relevant to human wellbeing, compare different measurements of human wellbeing including GDP, HDI and PQLI, and interpret and explain trends in human wellbeing in a developed and a developing country over time.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Concepts of human wellbeing and development",
+        "progression_checkpoint": "Students can explain what human wellbeing and development mean as geographical concepts, identifying the UN Sustainable Development Goals relevant to human wellbeing.",
+        "minimum_width": "Define human wellbeing and development as distinct concepts and identify at least three SDGs relevant to wellbeing.",
+        "typical_width": "Explain human wellbeing as a multi-dimensional concept encompassing economic, social, environmental and political dimensions; identify the SDGs most relevant to wellbeing (health, education, poverty, inequality, clean water) and explain what each targets.",
+        "wider": [
+          "Investigate the Capability Approach (Amartya Sen, Martha Nussbaum) as an alternative conceptual framework for human wellbeing and evaluate how it differs from GDP-based development thinking",
+          "Examine critiques of 'development' as a concept — including post-development and degrowth perspectives — and assess their implications for how wellbeing is measured",
+          "Explore how the SDG framework was developed and which countries or stakeholders had the greatest influence on the goals selected, examining whose definition of wellbeing it reflects"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students understand human wellbeing only as economic prosperity, they will misinterpret multi-dimensional indices in Node 2 and cannot explain why different measures produce different country rankings.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often reduce wellbeing to wealth. Explicit conceptual work establishing wellbeing as multi-dimensional (economic, social, environmental, political) before introducing measurement indices prevents persistent conflation of wealth with wellbeing.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students define human wellbeing as encompassing more than economic conditions, identifying at least two non-economic dimensions",
+          "Students identify at least three SDGs relevant to human wellbeing and explain what each targets"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Measurement methods: GDP, HDI, PQLI and their trade-offs",
+        "progression_checkpoint": "Students can compare different measurements of human wellbeing — including GDP, HDI and PQLI — explaining what each measures, how they differ, and what rankings of selected countries reveal.",
+        "minimum_width": "Describe what GDP and at least one composite index (HDI or PQLI) measure and compare rankings for two countries, explaining one difference between the rankings.",
+        "typical_width": "Compare GDP, HDI and PQLI for a range of countries including Australia, India and a Pacific country; explain trends in different measurements and explain why a country may rank differently across indices.",
+        "wider": [
+          "Evaluate more recent composite measures such as the Multidimensional Poverty Index (MPI), Genuine Progress Indicator (GPI) or Happy Planet Index against GDP and HDI, assessing what each adds",
+          "Investigate anomalies — countries that rank much higher on HDI than GDP (or vice versa) — and explain the political, historical or social factors that produce the divergence",
+          "Examine gender-disaggregated wellbeing data (e.g. Gender Development Index, GII) and evaluate what the disaggregation reveals that composite indices obscure"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot explain why different measures produce different rankings and what that difference means, they cannot interpret spatial variation data in K06 or explain intra-national inequality in K07.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often treat indices as interchangeable and conclude that a 'better' measure is simply a more accurate version of the same thing. An explicit comparison framework showing what each index includes/excludes and why is essential before spatial analysis.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing indices across a range of countries (including countries that diverge in their relative rankings) is the primary way to develop understanding of what each index captures and what it misses.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Index comparison across multiple countries with divergent rankings is pedagogically rich — each anomaly reveals something substantive about the measurement tool and the development pathway of the country in question.",
+        "success_criteria": [
+          "Students describe what GDP, HDI and at least one other index measure, identifying the dimensions each captures",
+          "Students compare rankings of at least two countries across two different indices and explain the reason for a ranking difference"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Trends in wellbeing at global scale",
+        "progression_checkpoint": "Students can interpret and explain trends in human wellbeing in a developed and a developing country over time, applying wellbeing indices at the global scale.",
+        "minimum_width": "Interpret a graph or table of wellbeing data for two countries over time and describe at least one trend, offering an explanation for that trend.",
+        "typical_width": "Interpret and explain trends in human wellbeing for Australia and a country in Asia or the Pacific over time, identifying convergence or divergence patterns and explaining the economic, social and political factors driving the trends.",
+        "wider": [
+          "Examine global wellbeing trend data to identify regions showing fastest improvement and those showing stagnation or decline, explaining the structural factors behind divergent trajectories",
+          "Investigate the relationship between aid flows, foreign investment and wellbeing trends in a specific developing country — evaluating which interventions correlate with sustained improvement",
+          "Research how global shocks (pandemics, financial crises, climate events) differentially affect wellbeing trajectories in developed vs developing countries"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates conceptual understanding of wellbeing, index literacy and data interpretation into a coherent trend analysis. Students need to connect what the index measures to what the trend means — not just read the data but explain it in terms of the dimensions the index captures."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students interpret wellbeing data for two countries over time, identifying at least one trend",
+          "Students explain the trend with reference to at least one economic, social or political factor"
+        ]
+      }
+    ]
+  }
+}

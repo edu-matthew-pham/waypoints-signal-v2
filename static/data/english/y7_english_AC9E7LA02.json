@@ -1,0 +1,69 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LA02",
+    "title": "Evaluative language and substantiation",
+    "description": "Recognise language used to evaluate texts including visual and multimodal texts, and how evaluations of a text can be substantiated by reference to the text and other sources",
+    "strand": "Language — Interacting with others",
+    "mode": "A",
+    "prior_knowledge": "Students understand how objective and subjective language can reveal bias (AC9E6LA02). They have not yet developed a systematic vocabulary for evaluative language across the three dimensions (affect, judgement, appreciation) or examined how textual reference and outside sources function as substantiation.",
+    "progression_endpoint": "Students recognise evaluative language and understand how evaluations of a text can be substantiated by reference to the text and other sources.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Vocabulary of evaluation",
+        "progression_checkpoint": "Students can identify evaluative language and classify it across emotional response, judgement of behaviour, and aesthetic appreciation",
+        "minimum_width": "Given a short evaluative text, identify words that express evaluation; sort them into at least two categories (e.g. emotional response vs judgement)",
+        "typical_width": "Examine evaluative vocabulary across three domains — emotional responses to texts, judgement of characters and their actions, and appreciation of aesthetic qualities — and identify examples of each in a range of texts",
+        "wider": [
+          "Build a word bank of evaluative vocabulary across the three domains and explore how the same event or character can be evaluated very differently depending on word choice",
+          "Compare evaluative language in a student review vs a published critic's review of the same text — what vocabulary differences signal the difference in authority and register?"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify and classify evaluative vocabulary, Node 2's substantiation work loses its analytical grounding — students cannot examine how evaluations are supported without first being able to identify what counts as an evaluative claim.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Evaluative vocabulary is a resource students draw on — a wider repertoire directly improves their ability to recognise and produce nuanced evaluations. Building the word bank across the three domains (affect, judgement, appreciation) is the core work here, not just understanding the concept.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The three-domain framework (affect, judgement, appreciation) gives advancing students a principled way to analyse evaluative language rather than just collecting adjectives. Comparing student and professional reviews brings the vocabulary difference alive.",
+        "success_criteria": [
+          "Identifies evaluative language in a given text",
+          "Classifies evaluative words into at least two categories (emotional response, judgement, or aesthetic appreciation)"
+        ],
+        "related_standards": ["AC9E7LE04", "AC9E7LY03"]
+      },
+      {
+        "id": 2,
+        "label": "Substantiating evaluations",
+        "progression_checkpoint": "Students can understand how evaluations are substantiated by reference to the text and to other sources",
+        "minimum_width": "Given an evaluative claim about a text, identify whether it is supported by textual reference, outside source, or neither; explain why the unsupported claim is less persuasive",
+        "typical_width": "Examine how evaluative language is used in a review or critical response and trace the substantiation strategy — which claims are supported by textual evidence, which by external sources, and which are bare assertions; discuss the effect of each",
+        "wider": [
+          "Examine how evaluative language is used to critically assess the validity of evidence and the reliability of sources — moving from evaluating literary texts to evaluating informational texts and source quality",
+          "Compare two evaluations of the same text that reach different conclusions and identify how different substantiation strategies produce different persuasive effects"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly produce evaluative claims without understanding that a claim requires support, or they treat any reference to the text as adequate substantiation. An explicit reasoning scaffold — what is the claim, what is the evidence, and how does the evidence support the claim — builds the connection between evaluation and substantiation that is not intuitive."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies whether an evaluative claim is substantiated by textual reference, outside source, or neither",
+          "Explains how substantiation strengthens an evaluative claim"
+        ],
+        "related_standards": ["AC9E7LY03", "AC9E7LY06"]
+      }
+    ]
+  }
+}

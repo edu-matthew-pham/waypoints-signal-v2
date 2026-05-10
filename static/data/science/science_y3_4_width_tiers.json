@@ -1,0 +1,165 @@
+{
+  "description": "Width tiers for Science Year 3\u20134 band \u2014 ACARA v9. Covers H-strand (Science as a Human Endeavour) and I-strand (Science Inquiry) descriptors for the 3\u20134 year band. U-strand descriptors are in separate year-level files (science_y3_width_tiers.json, science_y4_width_tiers.json).",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "3-4",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term in a single, supported task context. For H-strand: the explanation-application pathway met in one case. For I-strand: the skill applied in one investigation context.",
+    "typical_width": "The full scope of the descriptor across the range of task contexts and investigation types typical for the 3\u20134 band.",
+    "wider": "Enrichment directions that add phenomena, cultural contexts or task types \u2014 not harder versions of the same context. For U-strand: more phenomena or cultural knowledge systems. For I-strand: the same skill applied in additional or more varied task contexts. First Nations directions are included as default wider directions where elaborations indicate them.",
+    "elaborations": "ACARA elaborations are treated as source data identifying the intended range of phenomena and contexts, not as a required checklist. Typical width is grounded in the most common elaboration cases; wider may infer beyond elaborations where clearly within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S3H01": {
+      "strand": "Science as a Human Endeavour",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify what data is in a given scientific scenario and describe how a named person or group used that data to support a scientific explanation.",
+      "typical_width": "Examine two or more real-world cases where data was collected and used to develop a scientific explanation; identify the type of data collected, what question it addressed, and how it supported the explanation; explain the difference between data (recorded observations) and explanation (interpretation of data).",
+      "wider": [
+        "Examine age-appropriate scientific reporting (documentary, news segment, journal article) and identify how researchers describe their data collection and the explanations it supports",
+        "Investigate how First Nations Australians test predictions and gather data in the development of technologies and processes \u2014 examining this as a form of systematic knowledge development",
+        "Research how hydrologists use rainfall and water use data to explain river flow patterns, connecting the data-to-explanation process to the water cycle concepts in AC9S4U02",
+        "Explore how ecologists use food chain and population data to explain species decline and design management responses \u2014 examining how data quality affects explanation reliability"
+      ],
+      "elaborations": [
+        "examining age-appropriate scientific journal articles, identifying common text features and exploring why the scientific community might have conventions for sharing information about data and explanations",
+        "viewing or listening to documentaries or news reports that feature researchers and identifying how they talk about their area of research, particularly references to observations, data and evidence",
+        "investigating how ecologists use food chain data to develop explanations for population decline of native species such as the Richmond birdwing butterfly, and to develop strategies to increase their population",
+        "explore how hydrologists use rainfall and water use data to explain the amount of water flowing in rivers and why this changes over time",
+        "investigating how First Nations Australians test predictions and gather data in the development of technologies and processes"
+      ]
+    },
+    "AC9S3H02": {
+      "strand": "Science as a Human Endeavour",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify a scientific explanation and describe how it has been used to meet a need or solve a problem, naming the specific knowledge used and the problem it addressed.",
+      "typical_width": "Examine two or more cases across different science domains where a scientific explanation enabled a solution or changed a practice; describe the explanation-to-application pathway for each; recognise that science knowledge can inform both designed solutions and behavioural or policy change.",
+      "wider": [
+        "Investigate how knowledge of decomposers has enabled the design of industrial composting systems \u2014 tracing the explanation-to-application pathway in detail",
+        "Examine how First Nations Australians of arid regions apply scientific knowledge of water behaviour and landscape to manage water resources sustainably",
+        "Research how knowledge of friction is used to improve vehicle and bicycle safety on wet and icy surfaces \u2014 examining tyre design, road surfacing and braking as applications of the same friction explanation",
+        "Explore how knowledge of magnetic force is applied in recycling, mining and food processing \u2014 tracing how one scientific explanation supports multiple industries"
+      ],
+      "elaborations": [
+        "investigating how knowledge of the role of decomposers has helped people design industrial composting systems to manage plant and animal waste",
+        "investigating how First Nations Australians of arid regions of Australia use scientific knowledge to manage precious water resources",
+        "considering how knowledges of plant biology enable First Nations Australians to sustainably harvest and use plants to make tools and weapons, musical instruments, clothing, cosmetics and artworks",
+        "exploring how knowledge of the properties of plastic has influenced people to change how they purchase, use and dispose of plastic products",
+        "examining how people use knowledge of friction to improve car or bicycle safety on slippery surfaces such as wet or icy roads",
+        "investigating how knowledge of magnetic force is used to sort metals in recycling, mining and food processing"
+      ]
+    },
+    "AC9S3I01": {
+      "strand": "Science Inquiry \u2014 Questioning and Predicting",
+      "width_axis": "task_contexts",
+      "minimum_width": "Pose one investigable question that targets a pattern or relationship (not just a description) in a given observation; make a prediction for that question explicitly grounded in a prior observation.",
+      "typical_width": "Pose relationship questions across two or more science contexts from the Y4 content; make predictions that are explicitly linked to observed patterns; distinguish between questions that can be tested in the classroom and those requiring a different approach; distinguish a prediction from a guess by stating its observational basis.",
+      "wider": [
+        "Pose and refine questions about food chain disruption scenarios \u2014 distinguishing between questions about individual organisms and questions about patterns across the chain",
+        "Consult resources on how First Nations Australians predict water source locations from landscape and vegetation observations \u2014 examining what constitutes an observation-based prediction in this context",
+        "Compare question types for biological and physical science contexts (ecological observation questions vs force investigation questions) and explain what makes each type investigable"
+      ],
+      "elaborations": [
+        "posing questions about why some materials are used more often than others for particular products",
+        "predicting the effect on food chains when living things are removed from or die out in an area",
+        "consulting with First Nations Australians about how to predict the location of water sources from observation of landscape features",
+        "making predictions about the distances over which magnets will attract or repel each other"
+      ]
+    },
+    "AC9S3I02": {
+      "strand": "Science Inquiry \u2014 Planning and Conducting",
+      "width_axis": "task_contexts",
+      "minimum_width": "Use a provided scaffold to plan a fair test for a given question, identifying the variable to change, the variable to measure, and at least two variables to keep the same; conduct the investigation safely.",
+      "typical_width": "Use provided scaffolds to plan and conduct fair test investigations across at least two different science contexts from Y4 content; identify and explain each element of a fair test; identify instances where an investigation was unfair and explain the effect on the result; follow safety rules consistently across investigation types.",
+      "wider": [
+        "Plan and build a prototype (toy, game or structure) to test a prediction about force interactions, using the fair test scaffold to evaluate the design against a specific criterion",
+        "Use a virtual or role-play food chain simulation to explore the effects of changing numbers of producers or consumers \u2014 examining what variables are controlled in the simulation and what limitations this creates",
+        "Compare fair test design across different investigation types (friction test, material strength test, magnetic force test) and identify how the variables differ while the planning structure remains the same"
+      ],
+      "elaborations": [
+        "using an investigation scaffold to design a fair test to identify which shoe provides the greatest or least friction or which materials are attracted to a magnet",
+        "predicting the interactions of forces in a game or toy design, and building and testing a prototype",
+        "predicting effects of changing numbers of producers or consumers, and using a virtual or roleplay food chain simulation to explore possible outcomes by running the simulation multiple times",
+        "following safety rules when conducting investigations, such as wearing personal safety gear correctly, using equipment according to guidelines and demonstrating safe behaviours in field sites or when interacting with biological specimens"
+      ]
+    },
+    "AC9S3I03": {
+      "strand": "Science Inquiry \u2014 Processing and Observing",
+      "width_axis": "task_contexts",
+      "minimum_width": "Follow a procedure to make and record observations in an organised format (table or graphic organiser); read a value from at least one familiar scaled instrument and apply rounding when the reading falls between scale divisions.",
+      "typical_width": "Make and record systematic observations across two or more investigation types using appropriate formats; use at least two types of familiar scaled instruments accurately; describe how scale size affects measurement accuracy; use digital tools (camera, voice recorder) where appropriate to record observations.",
+      "wider": [
+        "Use multiple observation methods in a field context \u2014 direct observation, pitfall traps, call or scat identification \u2014 and compare what each method records and what it misses",
+        "Compare digital and analogue instruments for the same measurement, evaluating trade-offs in accuracy, ease of use and recording",
+        "Investigate how the choice of scale increment affects whether a difference between two measurements can be detected \u2014 exploring the relationship between instrument precision and conclusion quality"
+      ],
+      "elaborations": [
+        "identifying animals in field locations using procedures such as direct or virtual observation, call or scat identification or pitfall traps",
+        "using appropriate equipment to make and record observations, such as digital cameras, video, voice recorders and familiar scaled instruments with appropriate increments",
+        "describing how to use rounding up or down when reading scaled instruments, and the effect of the scale size on the accuracy of the measurement",
+        "constructing tables or graphic organisers to record observations"
+      ]
+    },
+    "AC9S3I04": {
+      "strand": "Science Inquiry \u2014 Processing, Modelling and Analysing",
+      "width_axis": "task_contexts",
+      "minimum_width": "Construct a table with appropriate headings to organise data from one investigation; construct a column graph with labelled axes and title for a given data set; use or construct one visual or physical model to represent a relationship or process.",
+      "typical_width": "Construct tables and column graphs accurately across multiple investigation types; identify patterns in data from completed representations; select appropriate scales for graphs; construct and use models (food chain diagram, force arrow diagram, water cycle model) for different Y4 science relationships; explain what each element of a model represents.",
+      "wider": [
+        "Use force arrows to model forces on objects in varied scenarios \u2014 stationary, moving, floating \u2014 and explain what the combined arrows indicate about motion",
+        "Use virtual food chain simulations to explore population changes, comparing model predictions with real-world examples and evaluating what the model simplifies",
+        "Construct maps to show locations of water sources or sites of water wastage in the school grounds, using spatial representation to organise and communicate data",
+        "Compare the same data set displayed as a table and as a column graph \u2014 identifying what each representation makes visible and what each obscures"
+      ],
+      "elaborations": [
+        "using virtual or role-play food chain simulations to explore effects of changing numbers of producers or consumers in a habitat",
+        "using maps to locate water sources in the local area, or constructing maps to show sites of water wastage in the school grounds",
+        "constructing column graphs to compare numbers of objects made of particular materials or distances moved by objects experiencing frictional forces",
+        "using force arrows to show forces operating on objects"
+      ]
+    },
+    "AC9S3I05": {
+      "strand": "Science Inquiry \u2014 Evaluating",
+      "width_axis": "task_contexts",
+      "minimum_width": "Draw a conclusion from one investigation that is grounded in the data; compare findings with one other student and identify at least one difference; identify one question for further investigation arising from the findings.",
+      "typical_width": "Draw conclusions that accurately reflect data across multiple investigations (without overclaiming); compare findings with peers and suggest reasons for differences \u2014 distinguishing unfair test errors from legitimate variation; identify questions for further investigation arising from both expected and unexpected results; evaluate whether an investigation was fair.",
+      "wider": [
+        "Compare findings from water use surveys across different contexts (school vs home, different households) and discuss what the differences reveal \u2014 and what cannot be concluded without more context",
+        "Examine a scenario with unexpected findings and generate two further investigation questions: one testing whether the finding is reliable, one exploring a possible explanation for it",
+        "Compare how scientists report conclusions (hedged, data-referenced) with how the same findings are reported in news media \u2014 and discuss why scientists are cautious about the strength of claims"
+      ],
+      "elaborations": [
+        "identifying instances during investigations where elements may have been changed in error, resulting in an unfair test",
+        "comparing findings of water use surveys and discussing differences between home and school, or between each other's homes",
+        "comparing designed solutions, such as toys, lunchboxes or structures, to determine fitness for purpose of selected materials",
+        "comparing findings from investigations with peers and asking questions about factors that may have led to any differences in findings",
+        "identifying unexpected findings and posing questions for further investigation",
+        "drawing conclusions that reflect their data and information"
+      ]
+    },
+    "AC9S3I06": {
+      "strand": "Science Inquiry \u2014 Communicating",
+      "width_axis": "task_contexts",
+      "minimum_width": "Write or create a text for one identified purpose and audience using at least four science vocabulary terms accurately; explain how the purpose and audience influenced at least one feature of the text.",
+      "typical_width": "Write and create texts in two or more forms (informative report, poster, labelled diagram, model, slideshow) for different purposes and audiences; use scientific vocabulary purposefully for precision; select and justify a text form for a given communication purpose; use digital tools where appropriate.",
+      "wider": [
+        "Produce a community-facing text (poster, song, performance or slideshow) to communicate water conservation messages \u2014 applying science vocabulary and content to a genuine communicative purpose for a non-expert audience",
+        "Represent feeding relationships in multiple forms (written explanation, labelled diagram, physical model, oral presentation) and compare what each form communicates most effectively for different purposes",
+        "Examine how First Nations Australians represent and share information about water sources and ecological relationships using oral, visual and spatial forms \u2014 comparing with written scientific text conventions",
+        "Create a multi-modal digital text about a Y4 science topic and evaluate what the digital format enables that print cannot"
+      ],
+      "elaborations": [
+        "discussing the purpose of a text and identifying vocabulary appropriate to the topic and audience",
+        "acknowledging and learning about First Nations Australians' ways of representing and sharing information about water sources",
+        "sharing ideas about ways to represent feeding relationships including using drawings, labels, images or models",
+        "producing an informative text using scientific vocabulary to explain the impact of introduced predators on food chains",
+        "constructing a report using scientific vocabulary to explain which materials are best suited to be used for making particular products, such as nylon for tents, rubber for shoes or wool for warm clothing",
+        "creating posters, a song, slideshow or performance to encourage the school community to save water"
+      ]
+    }
+  }
+}

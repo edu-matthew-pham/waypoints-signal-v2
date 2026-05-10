@@ -1,0 +1,120 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LY05",
+    "title": "Comprehension and evaluation strategies",
+    "description": "use comprehension strategies such as visualising, predicting, connecting, summarising, monitoring and questioning to build literal and inferred meaning, to expand topic knowledge and ideas, and evaluate texts",
+    "strand": "Literacy / Reading",
+    "mode": "B",
+    "prior_knowledge": "Students use comprehension strategies to build meaning and begin to evaluate texts using knowledge of context and structure (AC9E3LY05). They have not yet applied the full named repertoire — visualising, predicting, connecting, summarising, monitoring, questioning — to build literal and inferred meaning and evaluate texts.",
+    "progression_endpoint": "Students can apply six named comprehension strategies to build literal and inferred meaning, expand topic knowledge and evaluate texts, including texts by First Nations Australian authors, using evidence and reasoning to support their evaluations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Literal meaning — main idea and supporting detail",
+        "progression_checkpoint": "Students can identify the main idea and supporting details in a text and explain the difference between literal and inferred meaning.",
+        "minimum_width": "Identify the main idea and at least two supporting details in an informational text.",
+        "typical_width": "Identify main ideas and supporting details across a range of text types, explaining how topic-specific vocabulary builds understanding and how the author organises information to support the main idea.",
+        "wider": [
+          "Compare how main ideas are signalled differently across text types — explicit topic sentences in reports versus embedded themes in narrative",
+          "Practise identifying main ideas in subject-specific texts from science, HASS and maths, noting how discipline language shapes meaning"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2's inference strategies require students to distinguish what is directly stated from what must be inferred — N1's literal/inferred distinction is the prerequisite for identifying when inference is needed.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reliable identification of main idea and supporting details — and the literal/inferred distinction — requires practice across text types before students can dependably know what the text says versus what they are reading into it.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify the main idea of a text in their own words",
+          "Can identify at least two supporting details and explain how they relate to the main idea"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Inferred meaning — connecting, predicting, questioning",
+        "progression_checkpoint": "Students can use connecting, predicting and questioning strategies to build inferred meaning from texts.",
+        "minimum_width": "Use one inference strategy (connecting, predicting or questioning) to explain a meaning that is not directly stated in a text.",
+        "typical_width": "Apply connecting (text-to-self, text-to-text, text-to-world), predicting (during reading, checking against text) and questioning (before, during, after) strategies to build inferred meaning across a range of texts.",
+        "wider": [
+          "Make inferences from multimodal texts by connecting visual and verbal information, including texts that use images and layout to convey meaning not stated in words",
+          "Apply inference strategies to texts by First Nations Australian authors, considering how connecting to cultural context supports inference"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often conflate inference with 'what I think' without connecting to textual evidence. Multiple text contexts — narrative, informational, multimodal — help students learn that inference is a text-grounded process across all text types.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Inference strategies across text types — including multimodal and culturally complex texts — is rich territory. First Nations Australian texts offer significantly different inference contexts.",
+        "success_criteria": [
+          "Can name an inference strategy and demonstrate its use with a specific textual example",
+          "Can distinguish an inference (meaning not directly stated) from a literal statement (meaning directly stated)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Summarising and monitoring",
+        "progression_checkpoint": "Students can summarise the key ideas of a text in their own words and monitor their comprehension, identifying when meaning has broken down.",
+        "minimum_width": "Write a brief summary of a text in own words and identify one point during reading where meaning was unclear.",
+        "typical_width": "Summarise key ideas from a range of texts in own words, applying monitoring strategies (re-reading, questioning unclear sections) to maintain comprehension throughout.",
+        "wider": [
+          "Practise summarising across different text types — narrative summary (plot) versus informational summary (main points) — and compare the different challenges each presents",
+          "Apply monitoring and summarising to complex multimodal texts, tracking meaning across verbal and visual modes"
+        ],
+        "hinge": true,
+        "hinge_reason": "Text evaluation in N4 requires students to have accurately comprehended the text's claims and structure — students who cannot summarise key ideas will evaluate a misread text, producing unreliable evaluations.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Summarising in own words — as distinct from lifting sentences — requires practice across multiple texts. Many students at this level still paraphrase rather than genuinely restructure.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can write a summary of a text that is significantly shorter than the original and in own words",
+          "Can identify a point in reading where meaning broke down and describe what strategy was used"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Evaluating texts",
+        "progression_checkpoint": "Students can evaluate a text by assessing the quality of its evidence, reasoning and argument, using textual evidence to support their evaluation.",
+        "minimum_width": "Evaluate one aspect of a text (e.g. whether the evidence supports the argument) and give a reason supported by a specific reference to the text.",
+        "typical_width": "Evaluate texts using multiple criteria — quality of evidence, strength of argument, author credibility, fairness of representation — giving text-referenced reasons for each evaluative judgement.",
+        "wider": [
+          "Compare evaluations of the same text from two different readers and discuss how different values or prior knowledge lead to different evaluations",
+          "Evaluate how First Nations Australian perspectives are represented (or misrepresented) in texts, using criteria of fairness, accuracy and whose voice is heard"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluation requires explicit criteria and text-referenced reasoning — students default to vague value judgements without a structured reasoning scaffold. The criteria + evidence + reasoning structure is the scaffold.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Text evaluation — especially evaluating representation, argument quality and evidence — is rich critical literacy territory with significant depth available at Year 4.",
+        "success_criteria": [
+          "Can state an evaluative judgement about a text with at least one text-referenced reason",
+          "Does not offer only unsupported opinion — evaluation is connected to specific textual evidence"
+        ]
+      }
+    ]
+  }
+}

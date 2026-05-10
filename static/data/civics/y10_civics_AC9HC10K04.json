@@ -1,0 +1,106 @@
+{
+  "year_level": "10",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC10K04",
+    "title": "International law and policy",
+    "description": "how Australia's international legal obligations shape Australian law and government policies, including those relating to First Nations Australians, and the issues related to the application of these obligations",
+    "strand": "Laws and Citizens",
+    "mode": "A",
+    "prior_knowledge": "Students know how individuals and groups participate in civic life and contribute to global citizenship (AC9HC9K05). They understand the court system's role in applying law (AC9HC9K03, AC9HC9K04).",
+    "progression_endpoint": "Students explain how Australia's international legal obligations shape Australian law and government policies, including those relating to First Nations Australians, and analyse issues related to applying those obligations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Australia's key international treaty commitments",
+        "progression_checkpoint": "Students can identify the key international treaties Australia has signed and ratified, and explain what signing and ratifying a treaty requires of the Australian Government.",
+        "minimum_width": "Identify at least two international treaties Australia has signed and ratified, and explain the difference between signing and ratifying a treaty.",
+        "typical_width": "Identify the main categories of international human rights and other treaties Australia has signed and ratified, explain the signing-to-ratification-to-implementation pathway, and describe what these obligations require of the Australian Government.",
+        "wider": [
+          "Research how many of the 9 key UN human rights treaties Australia has signed and ratified, and identify any that Australia has signed but not ratified",
+          "Investigate the reservations Australia has entered on certain treaty obligations and what this means for compliance",
+          "Examine the role of the UN treaty monitoring bodies and how Australia has engaged with them"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who don't understand the signing-ratification-implementation distinction will not be able to analyse the gap between Australia's stated obligations and its actual policies — they lack the conceptual framework to identify issues in application.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The treaty pathway (signed → ratified → implemented) is not self-evident and students frequently conflate stages. Invest in this foundational concept before examining specific treaty effects on domestic law.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two international treaties Australia has signed and ratified",
+          "Explains the difference between signing and ratifying a treaty",
+          "Describes at least one obligation that ratification creates for the Australian Government"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "How international obligations shape domestic law and policy",
+        "progression_checkpoint": "Students can explain how at least one international convention or declaration has shaped Australian law or government policy, using specific examples.",
+        "minimum_width": "Explain how at least one international convention or declaration has shaped a specific Australian law or government policy, using an example.",
+        "typical_width": "Investigate how international conventions and declarations — including the Declaration on the Rights of Indigenous Peoples, the Paris Agreement, the World Heritage Convention, and the Refugee Convention — have shaped Australian law and government policies, with specific examples for at least two.",
+        "wider": [
+          "Trace in detail how the Declaration on the Rights of Indigenous Peoples has shaped (or not shaped) Australian government law and policies with respect to First Nations Australians",
+          "Analyse Australia's legal obligations under the Paris Agreement (2016) and evaluate the extent to which Australian policy meets those obligations",
+          "Investigate how the Convention Relating to the Status of Refugees and its protocol shape Australia's offshore processing policy, and analyse the issues this creates"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot connect specific treaties to specific policy changes cannot complete the 'issues in application' analysis that is the descriptor's second key demand — they need the treaty-to-policy link established before they can examine where it breaks down.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Covering at least two distinct treaty-policy examples (e.g. UNDRIP and climate, or climate and refugees) gives students a comparative base — they see that different obligations create different kinds of issues rather than treating all treaties as equivalent.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The UNDRIP-First Nations pathway is rich because students can trace an ongoing, contested relationship between international obligation and domestic policy — it is not a resolved case. Similarly, the refugee convention and offshore processing is a live controversy connecting international law to contested domestic policy.",
+        "success_criteria": [
+          "Identifies at least one international convention or declaration and the obligation it creates",
+          "Explains how that obligation has shaped a specific Australian law or government policy",
+          "Uses accurate examples with correct names of treaties and policies"
+        ],
+        "related_standards": ["AC9HC10K03"]
+      },
+      {
+        "id": 3,
+        "label": "Issues in applying international obligations",
+        "progression_checkpoint": "Students can identify and analyse issues related to Australia's application of its international legal obligations, including tensions between international and domestic law, political will, and enforcement.",
+        "minimum_width": "Identify at least one issue or tension in Australia's application of an international legal obligation and provide a basic explanation of why the issue arises.",
+        "typical_width": "Analyse issues related to the application of Australia's international obligations, including: the gap between ratified obligations and domestic implementation, tensions between international law and domestic political interests, and the limits of international enforcement mechanisms.",
+        "wider": [
+          "Evaluate the impact of international obligations on First Nations Australians' reconciliation, truth-telling and sovereignty claims, and assess whether Australia's application of relevant instruments is adequate",
+          "Compare cases where Australia has been found non-compliant with international obligations and assess the consequences",
+          "Investigate how global interconnectedness both enables more effective compliance with international obligations and creates new areas of obligation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to distinguish between different types of 'issues' — legal uncertainty, political resistance, implementation gaps, and enforcement limits are all different. Structure the analysis to keep these categories clear."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The First Nations reconciliation/sovereignty direction connects international obligations to domestic civic life in a concrete way that makes the abstract enforcement problem tangible.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations reconciliation and sovereignty direction is substantively rich — it is not just another treaty-compliance case but raises questions about what justice requires beyond legal minimums, which is the deeper civic question this descriptor is building toward.",
+        "success_criteria": [
+          "Identifies at least one issue in the application of Australia's international legal obligations",
+          "Explains why the issue arises, including at least one factor creating the tension or gap",
+          "Connects the analysis to a specific treaty or obligation"
+        ],
+        "related_standards": ["AC9HC10K02", "AC9HC10K05"]
+      }
+    ]
+  }
+}

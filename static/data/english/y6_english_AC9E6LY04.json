@@ -1,0 +1,89 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LY04",
+    "title": "Select, navigate and read texts for purpose",
+    "description": "select, navigate and read texts for a range of purposes, monitoring meaning and evaluating the use of structural features; for example, table of contents, glossary, chapters, headings and subheadings",
+    "strand": "Literacy — Mode B (Capability)",
+    "mode": "B",
+    "prior_knowledge": "Students can navigate and read texts for specific purposes, monitoring meaning using strategies such as adjusting reading rate and re-reading (AC9E5LY04). They have not yet systematically evaluated structural features (table of contents, glossary, headings) for their effectiveness in serving navigation and comprehension purposes, or applied research skills to locate and evaluate multiple texts.",
+    "progression_endpoint": "Students can select, navigate and read texts for a range of purposes, monitoring meaning and evaluating how structural features serve those purposes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Using structural features to navigate",
+        "progression_checkpoint": "Students can use structural features of texts (table of contents, glossary, chapters, headings, subheadings) to locate specific content for a purpose.",
+        "minimum_width": "Use at least two structural features (e.g. table of contents, headings) to locate specific information in a provided text for a stated purpose.",
+        "typical_width": "Use knowledge of text structure to navigate a range of print and digital texts; use structural features including table of contents, glossary, chapters, headings and subheadings to locate specific literal content for a given research or reading purpose.",
+        "wider": [
+          "Compare navigation features in a print text vs. a digital text on the same topic and evaluate which features better serve a specific reading purpose",
+          "Navigate a multi-source research task using structural features across several texts and evaluate which texts best serve the purpose"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locates specific information in a text using at least two structural features",
+          "Identifies which structural feature was most useful for the stated purpose"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating structural features",
+        "progression_checkpoint": "Students can evaluate the use of structural features in a text — assessing how well they serve navigation, comprehension and the reader's purpose.",
+        "minimum_width": "Evaluate the effectiveness of at least one structural feature (e.g. a glossary, heading system, or table of contents) in a provided text; explain whether it aids navigation and why.",
+        "typical_width": "Evaluate how structural features in a range of print and digital texts serve navigation and comprehension; assess whether features are clearly designed, consistently applied and useful for the reader's purpose; identify where features are missing or poorly designed.",
+        "wider": [
+          "Design an improved structural feature (e.g. a revised heading hierarchy, a more detailed table of contents) for a provided text and explain how the improvement serves the reader",
+          "Compare structural feature use across curriculum-area texts (e.g. a science textbook, a geography atlas) and evaluate what each subject's conventions reveal about how its readers use texts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot articulate evaluation criteria for structural features cannot make principled source selections in Node 3 — the research task requires evaluation criteria, not just navigation skill.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluating structural features requires students to articulate criteria for 'good' navigation design — reasoning from reader purpose through feature design to effectiveness. Without a reasoning scaffold, evaluations remain vague ('this heading is clear').",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-curriculum evaluation of text structural features is rich — it develops reading-to-learn skills that transfer directly to research tasks across science, history and geography.",
+        "success_criteria": [
+          "Evaluates the effectiveness of at least one structural feature in a text with a stated reason",
+          "Identifies whether the feature effectively serves the reader's purpose"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Selecting and evaluating texts for research",
+        "progression_checkpoint": "Students can select, evaluate and use texts for their relevance to a task and the accuracy of their information, applying research skills including locating, gathering and organising information.",
+        "minimum_width": "Select at least one text for a given research task, explain why it was selected (relevance, accuracy), and locate specific information within it using structural features.",
+        "typical_width": "Apply research skills — locating, gathering, organising and evaluating texts — for a research task; bring subject and technical vocabulary to new reading; evaluate texts for pertinence to the task and accuracy of information.",
+        "wider": [
+          "Compare two texts on the same topic for accuracy and relevance, explaining why one is a better source for a specific research purpose",
+          "Evaluate a digital source for indicators of credibility (author, publication, date, evidence) and explain the reasoning"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Research-based reading integrates navigation skills (Node 1), evaluation of structural features (Node 2), and comprehension monitoring into a purposeful, multi-text reading act — the coordination is the learning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating sources for accuracy and relevance is rich critical literacy work that transfers across all curriculum areas and prepares students for independent research at secondary level.",
+        "success_criteria": [
+          "Selects a text for a research task and explains why it is relevant and likely accurate",
+          "Locates specific information within the text using at least one structural feature"
+        ],
+        "related_standards": ["AC9E6LY05", "AC9E6LY03", "AC9E6LY01"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P12",
+    "title": "Plan and manage agile projects",
+    "description": "use simple project management tools to plan and manage individual and collaborative agile projects, accounting for risks and responsibilities",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have experience with collaborative digital tools and sequencing tasks (AC9TDI8P12). They can assign roles and track progress. They have not yet applied agile project management techniques, worked with version control in a collaborative coding context, or systematically accounted for project risks.",
+    "progression_endpoint": "Students use project management tools to plan and manage individual and collaborative agile projects, establishing clear responsibilities, managing risks, and applying relevant legislation or guidelines.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning with agile decomposition",
+        "progression_checkpoint": "Students can decompose a project into tasks, schedule them, and assign responsibilities to team members.",
+        "minimum_width": "Decompose a project into at least four tasks; assign each task to a team member with a due date; record in a project management tool.",
+        "typical_width": "Decompose a project into sequenced tasks with dependencies; assign roles and responsibilities to all team members; use scheduling and revision to produce a realistic plan; explain the reasoning behind the task sequence.",
+        "wider": [
+          "Use project management tool features (e.g. AI-assisted summaries, risk forecasting) to identify potential delays or bottlenecks and explain how the plan was adjusted",
+          "Apply an agile sprint structure \u2014 plan a sprint, execute, review, adjust \u2014 and reflect on what the sprint review revealed about the original plan"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Project decomposition requires reasoning from the project goal backward through phases to specific tasks with dependencies \u2014 students who create flat task lists without sequencing or ownership produce plans that cannot be executed or tracked.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Project is decomposed into distinct tasks with assignments and due dates",
+          "Plan is recorded in a project management tool and accessible to all team members"
+        ],
+        "hinge": true,
+        "hinge_reason": "A project without a decomposed task structure makes N2 version control contributions uncoordinated (no tasks to commit against) and N3 risk identification abstract (no specific tasks to identify risks for)."
+      },
+      {
+        "id": 2,
+        "label": "Collaborative version control",
+        "progression_checkpoint": "Students can use a collaborative version control tool to manage shared code development, tracking changes and coordinating contributions.",
+        "minimum_width": "Make at least two contributions to a shared repository; explain what each contribution changed and why version control is useful.",
+        "typical_width": "Use a collaborative version control tool (e.g. GitHub) to plan, decompose and manage contributions with peers; commit changes with meaningful messages; explain how version control prevents conflicting changes and maintains a history of work.",
+        "wider": [
+          "Deliberately create a merge conflict and resolve it \u2014 explain what caused the conflict and how the resolution was reached",
+          "Use branching to develop a new feature independently of the main codebase and merge it when complete \u2014 explain what branches enable in team development"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Version control workflows require precise procedural knowledge \u2014 staging, committing, pushing, pulling, resolving conflicts. Students need sufficient practice with the workflow before they can use it fluently in a collaborative context. Errors in this workflow cause lost work and confusion.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "At least two commits are made with meaningful commit messages",
+          "Contribution history shows individual contributions are trackable"
+        ],
+        "hinge": true,
+        "hinge_reason": "Version control workflow fluency is prerequisite for collaborative project execution \u2014 students who cannot commit, push and pull correctly lose each other's work and cannot demonstrate the collaborative project management the descriptor requires."
+      },
+      {
+        "id": 3,
+        "label": "Identifying and managing risks",
+        "progression_checkpoint": "Students can identify project risks, assess their likelihood and impact, and plan mitigations for significant risks.",
+        "minimum_width": "Identify at least two project risks; describe the potential impact of each and one mitigation for each.",
+        "typical_width": "Identify a range of project risks (technical, team, timeline, legal); assess likelihood and impact; plan mitigations for significant risks; review risks as the project progresses and update mitigations.",
+        "wider": [
+          "Apply a formal risk register approach \u2014 categorise risks, rate likelihood and impact, and plan responses (avoid, mitigate, accept, transfer) for each",
+          "Retrospectively analyse a project that did not go to plan \u2014 identify which risks materialised, which mitigations worked, and what should have been done differently"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "At least two distinct risks are identified (not the same risk stated differently)",
+          "Each risk has an identified mitigation that is specific and actionable"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Applying relevant legislation and guidelines",
+        "progression_checkpoint": "Students can identify relevant legislation and guidelines that apply to their project and explain how the project addresses each requirement.",
+        "minimum_width": "Identify at least one piece of legislation or guideline relevant to the project (e.g. data protection, copyright, privacy) and explain what it requires.",
+        "typical_width": "Identify all relevant legislation and guidelines for the project; explain what each requires; demonstrate in the project plan or implementation how each requirement is being addressed.",
+        "wider": [
+          "Evaluate an existing project or student solution for legal compliance \u2014 identify gaps and explain what changes would achieve compliance",
+          "Investigate the responsibilities that arise when collaborating with First Nations Australian community groups on digital solutions \u2014 including cultural protocols, permissions, attributions and privacy requirements \u2014 and document how each would be addressed in a project plan"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Different legislative and guideline contexts (privacy law, copyright, Indigenous data sovereignty) each require different compliance actions \u2014 exposure to multiple contexts builds the habit of checking what applies rather than assuming all projects face the same requirements.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations community collaboration protocols are substantive and extend well beyond standard legal compliance \u2014 they require students to think about community consent, cultural authority and attribution in ways that are genuinely different from standard privacy and copyright compliance.",
+        "success_criteria": [
+          "At least one specific piece of legislation or guideline is identified and correctly described",
+          "Project plan includes at least one concrete action that addresses the legislative requirement"
+        ],
+        "related_standards": [
+          "AC9TDI10P14"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

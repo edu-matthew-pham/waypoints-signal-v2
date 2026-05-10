@@ -1,0 +1,98 @@
+{
+  "year_level": "8",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S8U07",
+    "title": "Physical and Chemical Changes",
+    "description": "compare physical and chemical changes and identify indicators of energy change in chemical reactions",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe physical changes to materials (shape, state) without change to composition (AC9S2U03). They can identify changes of state driven by heat energy (AC9S3U04). They have not yet formally distinguished physical from chemical change or identified the indicators of chemical change.",
+    "progression_endpoint": "Students distinguish physical changes from chemical changes using observable evidence, identify the indicators of chemical change (gas production, precipitate formation, colour change, temperature change), describe energy changes in chemical reactions, and interpret data on substance properties before and after interaction to determine the type of change.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Physical and chemical changes are fundamentally different",
+        "progression_checkpoint": "Students can distinguish physical changes (composition unchanged, often reversible) from chemical changes (new substances formed, usually irreversible) using observable evidence and particle-level reasoning.",
+        "minimum_width": "Students classify at least three examples as physical or chemical changes with justification, explaining what is and is not different after the change.",
+        "typical_width": "Students explain the fundamental distinction between physical change (same substances, different arrangement or state) and chemical change (new substances formed with different properties) using particle-level reasoning, and classify a range of examples — including ambiguous cases — with reasoning.",
+        "wider": [
+          "Analyse data on substance properties before and after interaction (colour, odour, melting point, solubility) and use this evidence to determine whether a physical or chemical change occurred",
+          "Examine everyday processes and classify them — dissolving, burning, rusting, melting, cooking, digestion — discussing cases where students' intuitions are challenged by the evidence",
+          "Investigate how the physical and chemical properties of a substance affect its production or use — connecting the change distinction to materials science applications"
+        ],
+        "hinge": true,
+        "hinge_reason": "The physical/chemical distinction is the conceptual prerequisite for both Node 2 (identifying indicators of chemical change — without the distinction students cannot explain why an indicator constitutes evidence of chemical change specifically) and Node 3 (interpreting energy changes — without knowing what a chemical change is, students cannot attribute temperature changes to the correct category of change).",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly classify dissolving as a chemical change (disappearance suggests transformation) and burning as a physical change (something is still there). The particle-level reasoning — same atoms but different arrangement = physical; atoms rearranged into new substances = chemical — is the scaffold that makes classification reliable across ambiguous cases, rather than pattern-matching to familiar examples.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies at least three changes as physical or chemical with particle-level justification",
+          "Explains why dissolving is a physical change and burning is a chemical change (common misconceptions addressed)"
+        ],
+        "related_standards": ["AC9S8U06"]
+      },
+      {
+        "id": 2,
+        "label": "Chemical changes have observable indicators",
+        "progression_checkpoint": "Students can identify the observable indicators of chemical change — gas production, precipitate (solid) formation, colour change, temperature change — and use these indicators as evidence to determine whether a chemical reaction has occurred.",
+        "minimum_width": "Students identify at least three indicators of chemical change and give one example of a reaction that produces each indicator.",
+        "typical_width": "Students perform or analyse simple chemical reactions to identify indicators of chemical change, explain how each indicator provides evidence that new substances have formed, and distinguish indicators of chemical change from superficially similar physical changes (e.g. temperature change from dissolving vs from reacting).",
+        "wider": [
+          "Investigate how chemical change indicators are used in soil, water and medical testing kits — examining how the same observable indicator (colour change, gas production) is applied diagnostically in different contexts",
+          "Analyse data from reactions involving different proportions of the same chemicals to identify relationships between reactant quantities and indicators of change (temperature change, gas volume)",
+          "Examine how the physical and chemical properties of a substance affect its use — e.g. why a material that corrodes (chemical change) is unsuitable for structural applications"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often recognise indicators in familiar reactions (vinegar and baking soda) but fail to identify them in less obvious contexts. Encountering the same indicators across varied reaction types — precipitation, decomposition, combustion, acid-base — helps students build a more reliable and transferable concept of what constitutes evidence for chemical change.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Chemical change indicators in diagnostic testing (soil kits, medical tests, water quality) provide a genuinely engaging real-world application that goes well beyond the classroom reaction context. Students engaging this direction see how the same observable evidence is used purposefully in professional and environmental contexts.",
+        "success_criteria": [
+          "Identifies at least three observable indicators of chemical change",
+          "Uses observable indicators as evidence to determine whether a chemical reaction has occurred in a given scenario"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Chemical reactions involve energy changes",
+        "progression_checkpoint": "Students can identify and investigate energy changes in chemical reactions — distinguishing exothermic reactions (release heat) from endothermic reactions (absorb heat) — and explain what the temperature change indicates about the energy stored in the reaction products vs reactants.",
+        "minimum_width": "Students identify whether a named chemical reaction is exothermic or endothermic based on observed temperature change and explain what the temperature change indicates.",
+        "typical_width": "Students investigate energy changes in different chemical reactions, distinguish exothermic from endothermic reactions using temperature data, and explain how energy change indicators connect to the broader concept of chemical potential energy being stored in or released from chemical bonds.",
+        "wider": [
+          "Investigate traditional fire-starting methods used by First Nations Australians — examining the chemical reactions involved and the energy transformations from mechanical to heat to light (connects to AC9S8U05)",
+          "Compare temperature differences obtained by reacting different proportions of the same chemicals — examining whether there is a relationship between quantity and energy change",
+          "Examine the difference between physical dissolution temperature changes (dissolving ammonium nitrate — endothermic) and chemical reaction temperature changes — applying the physical/chemical change distinction to energy observations"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly treat temperature change as only occurring in exothermic reactions and are surprised by endothermic examples. Encountering energy changes across both directions — and connecting the observation to the concept of chemical potential energy — builds a more accurate and complete model of how chemistry and energy are related."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies a named reaction as exothermic or endothermic based on temperature change evidence",
+          "Explains what a temperature increase or decrease in a reaction indicates about the energy of the products compared to the reactants"
+        ],
+        "related_standards": ["AC9S8U05"]
+      }
+    ]
+  }
+}

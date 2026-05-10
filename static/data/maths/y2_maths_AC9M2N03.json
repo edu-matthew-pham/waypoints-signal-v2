@@ -1,0 +1,90 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2N03",
+    "title": "Halves, quarters and eighths",
+    "strand": "Number",
+    "mode": "A",
+    "description": "recognise and describe one-half as one of 2 equal parts of a whole and connect halves, quarters and eighths through repeated halving",
+    "prior_knowledge": "Students have informally explored equal sharing (AC9M1N06). They have not yet named halves, quarters or eighths as unit fractions, or connected them through the structure of repeated halving.",
+    "progression_endpoint": "Students recognise one-half as one of two equal parts of a whole, and connect halves, quarters and eighths by demonstrating and explaining repeated halving across shapes, objects and collections.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "One-half as equal parts",
+        "progression_checkpoint": "Students can identify and create one-half of a shape, object or collection, explaining that both parts must be equal.",
+        "minimum_width": "Share a collection or fold a shape into 2 equal parts; identify one part as one-half; confirm equality of the two parts.",
+        "typical_width": "Create halves of shapes, objects and collections using different methods (folding, measuring, sharing); explain 'a half is one part out of 2 equal parts of a whole'; compare halves of different-sized wholes.",
+        "wider": [
+          "Compare half of a set of 12 counters with half of a set of 8 counters — discuss how both are one-half even though they are different amounts",
+          "Create halves using measurement contexts: half of a strip of paper, half of a cup of water; explain what 'equal' means in each case"
+        ],
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 depend on halving — creating quarters by halving a half, and eighths by halving a quarter. Students who accept unequal parts as halves will produce incorrect quarters and eighths, and the repeated-halving structure breaks completely.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse half with 'one of two parts' without understanding the equal-parts constraint, and conflate the size of the half with the concept of one-half (e.g. thinking half of 12 is bigger than half of 8, so it's 'more than a half'). Multiple contexts — shapes, objects and collections — help students see that the relationship (1 of 2 equal parts) is what defines one-half, not the size.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing halves of different-sized wholes is genuinely rich — it surfaces the relational nature of fractions and connects to proportional reasoning emerging at this year level. Advancing students can articulate why half of 12 ≠ half of 8 in absolute terms, yet both are one-half of their respective whole.",
+        "success_criteria": [
+          "Creates or identifies one-half of a shape, object or collection with equal parts",
+          "Explains that both halves must be equal — not just two parts"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Quarters through repeated halving",
+        "progression_checkpoint": "Students can create quarters by halving a half, and name each part as one-quarter.",
+        "minimum_width": "Fold or divide a shape or object in half, then fold the half in half again; name each of the four equal parts as one-quarter.",
+        "typical_width": "Create quarters of shapes, objects and collections using repeated halving; demonstrate that a quarter is a half of a half; name parts and compare sizes.",
+        "wider": [
+          "Investigate how food items (sandwiches, pizzas, slices) can be cut into quarters by halving twice; confirm all parts are equal",
+          "Explore halves and quarters in real measurement contexts: half a cup, quarter of a metre length, half an hour"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates quarters by halving a half using a material or shape",
+          "Names each of the four equal parts as one-quarter and confirms they are equal in size"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Eighths through repeated halving",
+        "progression_checkpoint": "Students can create eighths by halving a quarter, explain that an eighth is a half of a quarter, and compare the sizes of halves, quarters and eighths of the same whole.",
+        "minimum_width": "Divide a shape or strip into eighths by repeated halving; name each part as one-eighth; state that an eighth is a half of a quarter.",
+        "typical_width": "Create and name halves, quarters and eighths through repeated halving; compare the size of parts (eighths are smaller than quarters, quarters are smaller than halves); relate number of parts to the size of each part.",
+        "wider": [
+          "Use repeated halving to subdivide shapes in different ways; discuss why the more times you halve, the smaller each part becomes",
+          "Divide a shape into 4 equal parts and 8 equal parts; compare one-quarter and one-eighth; connect to the unit fraction rule (4 equal parts → one-quarter; 8 equal parts → one-eighth)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node brings together halves, quarters and eighths as a connected structure. The key integration is the inverse relationship: more equal parts means each part is smaller. Students need to coordinate the part-count, the name, and the size simultaneously.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The generalisation that 'more equal parts → smaller each part' is a foundational fraction concept with genuine richness. Advancing students can articulate this as a principle and apply it to predict relative sizes (e.g. is one-third bigger or smaller than one-quarter?).",
+        "success_criteria": [
+          "Creates eighths by repeated halving and names each part as one-eighth",
+          "States that an eighth is smaller than a quarter and a quarter is smaller than a half of the same whole",
+          "Explains the relationship: a quarter is a half of a half; an eighth is a half of a quarter"
+        ],
+        "related_standards": ["AC9M2M02"]
+      }
+    ]
+  }
+}

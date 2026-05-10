@@ -1,0 +1,105 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4P03",
+    "title": "Generate, communicate and compare designs",
+    "description": "generate, communicate and compare designs",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have explored problems for known users and generated simple design ideas through describing, drawing or modelling (AC9TDE2P01 \u2014 Design Technologies equivalent; AC9TDI2P01 for DT problem investigation). They have not yet worked with explicit comparison of design ideas against user stories or design criteria.",
+    "progression_endpoint": "Students generate multiple design ideas for a digital solution, communicate those ideas clearly, and compare them against user stories and design criteria to identify the most suitable approach.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Generating multiple design ideas",
+        "progression_checkpoint": "Students can generate more than one design idea for a given problem and describe what each idea proposes",
+        "minimum_width": "Generate at least two different design ideas for a simple problem and sketch or describe each one",
+        "typical_width": "Brainstorm multiple design ideas for a problem, accepting all suggestions as possibilities; describe each idea in enough detail to distinguish it from the others",
+        "wider": [
+          "Generate design ideas for a problem with a First Nations Australian community context \u2014 explore how different ideas might reflect different cultural considerations or access constraints",
+          "Use a structured brainstorming technique (e.g. SCAMPER or random prompt) to generate ideas beyond obvious solutions \u2014 discuss how forced variation produces ideas that wouldn't emerge from direct thinking"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students in early design experience tend to converge on the first idea they think of. Generating ideas for varied problem contexts builds the habit of ideating before selecting \u2014 a phase-critical behaviour for the design cycle.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces at least two visibly different design ideas",
+          "Describes what each idea would do, not just what it would look like"
+        ],
+        "related_standards": [
+          "AC9TDI4P01",
+          "AC9TDI4P05"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students with only one design idea cannot meaningfully compare in N3 \u2014 comparison requires at least two distinct ideas. Convergence on a single idea makes the evaluation step trivial."
+      },
+      {
+        "id": 2,
+        "label": "Communicating design ideas",
+        "progression_checkpoint": "Students can communicate a design idea to peers clearly enough for others to understand what it proposes",
+        "minimum_width": "Sketch or describe one design idea so that a peer can understand what the solution would do",
+        "typical_width": "Communicate design ideas using sketches, annotations or verbal explanation; include enough detail about what the solution does, who it is for, and how users interact with it",
+        "wider": [
+          "Communicate a design idea that would work for users in an unfamiliar context (e.g. a tool for a ranger group) \u2014 discuss what extra information a person unfamiliar with the context would need to understand the design",
+          "Compare different modes of communicating a design (sketch vs verbal description vs labelled diagram) \u2014 discuss which modes are clearest for different audiences"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Another student can describe back what the design proposes",
+          "Includes at least one feature that addresses the user's need"
+        ],
+        "related_standards": [],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Comparing designs against user stories and criteria",
+        "progression_checkpoint": "Students can compare at least two design ideas against user stories and design criteria and give reasons for preferring one",
+        "minimum_width": "Given two design ideas and a user story, state which idea better meets the user's need and give one reason linked to the user story or a criterion",
+        "typical_width": "Compare multiple design ideas against user stories and criteria for a range of problem contexts; identify which ideas meet the criteria and which miss aspects of the user's need; provide reasons for judgements",
+        "wider": [
+          "Compare designs for a problem where different users have different needs \u2014 for example, a recycling encouragement tool used by different age groups \u2014 discuss how a design that suits one user story might not suit another",
+          "Explore what happens when no design idea fully meets all criteria \u2014 discuss how to decide between imperfect options and whether criteria can be prioritised"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Comparing against criteria requires students to make a judgement move \u2014 not just describe the designs but evaluate them against a standard. The reasoning scaffold (does this design meet criterion X? does that one?) prevents students from selecting on preference alone."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates the design ideas generated in node 1 with the user stories and criteria from AC9TDI4P01. The comparison task only works when students bring both design ideas and problem definition together \u2014 coordination across the design process is the learning.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The wider tier \u2014 competing user stories, imperfect criteria trade-offs \u2014 introduces design judgement that is rich beyond the minimum. These are genuine decision-making contexts that advance students' understanding of why design comparison matters, not just how to do it procedurally.",
+        "success_criteria": [
+          "Names at least one criterion or user story element when comparing designs",
+          "States a preference and connects it to a reason beyond personal taste"
+        ],
+        "related_standards": [
+          "AC9TDI4P01",
+          "AC9TDI4P05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

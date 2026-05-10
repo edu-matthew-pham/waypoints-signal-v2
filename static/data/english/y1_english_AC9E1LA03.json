@@ -1,0 +1,87 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LA03",
+    "title": "Texts organised by purpose",
+    "description": "explore how texts are organised according to their purpose, such as to recount, narrate, express opinion, inform, report and explain",
+    "strand": "text_structure",
+    "mode": "A",
+    "prior_knowledge": "Students can understand that texts can take many forms and be used for different purposes (AC9EFLA03). They have not yet explored how organisation (stages and structure) differs systematically across text types such as recount, narrative, and information text.",
+    "progression_endpoint": "Students explore how texts are organised differently according to purpose, identifying the typical stages of familiar text types including recount, narrative, opinion, information, report and explanation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Texts have a purpose",
+        "progression_checkpoint": "Students can identify the purpose of a familiar text (e.g. to tell a story, to give information, to give instructions).",
+        "minimum_width": "Identify the purpose of at least two different texts from familiar text types.",
+        "typical_width": "Identify and discuss the purpose of a range of familiar text types — story, information text, recount, procedure — and explain how they know.",
+        "wider": [
+          "Compare digital and print versions of texts with the same purpose and discuss whether the purpose is served differently",
+          "Explore how some texts serve more than one purpose (e.g. a picture book can entertain and inform)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies the purpose of a given text",
+          "Student gives a reason for their identification (e.g. 'it tells me how to do something, so it's a procedure')"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Text stages differ by type",
+        "progression_checkpoint": "Students can identify the typical stages of at least two text types and explain how those stages serve the text's purpose.",
+        "minimum_width": "Identify the opening, middle and end of two different text types and describe what each stage does.",
+        "typical_width": "Describe the typical stages of familiar text types — recount (orientation, events, reorientation), narrative (orientation, complication, resolution), procedure (goal, steps) — and explain how stages serve the purpose.",
+        "wider": [
+          "Compare the stages of a recount and a narrative to identify where they overlap and where they differ",
+          "Examine informative texts to identify stages (introduction, information sections, conclusion/summary)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who apply the beginning-middle-end narrative schema to all texts cannot distinguish the stages of recounts, procedures or informative texts — this misconception, if uncorrected, flows into N3's multimodal organisation work and into AC9E1LY06 writing-for-purpose.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily grasp that stories have a beginning, middle and end but often apply this schema to all texts. Encountering multiple distinct text types with different stage names helps resolve the misconception that all text structure is narrative structure.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing stages across text types is genuinely rich — students who can articulate why a recount needs an orientation but not a complication are doing substantive structural analysis. This is a productive investment point for advancing students.",
+        "success_criteria": [
+          "Student identifies the stages of a given text and names at least the opening and purpose-serving stages",
+          "Student explains what a specific stage does for the reader (e.g. 'the orientation tells you who and when')"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Words and images both organise texts",
+        "progression_checkpoint": "Students can recognise that text organisation includes both words and visual/graphical elements, and that these work together to serve the text's purpose.",
+        "minimum_width": "Identify at least one visual or graphical element in an informative text and explain what it contributes to the text's organisation.",
+        "typical_width": "Recognise that informative and other texts use images, diagrams, headings and captions alongside words to organise information, and discuss how these visual elements serve the text's purpose.",
+        "wider": [
+          "Compare how a purely verbal text and a multimodal text with diagrams serve the same informative purpose differently",
+          "Explore how picture books use image sequences as a structural element — images tell part of the story that words don't"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently focus on verbal structure only. Examining informative texts where diagrams carry organisational load — where understanding depends on reading image and text together — resolves the misconception that structure is only verbal."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies a visual element in an informative text and describes what information it provides",
+          "Student explains how the image and the words work together in that text"
+        ]
+      }
+    ]
+  }
+}

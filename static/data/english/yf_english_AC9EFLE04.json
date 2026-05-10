@@ -1,0 +1,96 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLE04",
+    "title": "Explore rhythms and sound patterns",
+    "description": "explore and replicate the rhythms and sound patterns of literary texts such as poems, rhymes and songs",
+    "strand": "Literature",
+    "mode": "B",
+    "prior_knowledge": "Students have heard and participated in rhymes, songs and chants in home and early childhood settings. They have not yet been asked to consciously attend to, describe or replicate the rhythmic and sound patterns that structure these texts.",
+    "progression_endpoint": "Students can identify and replicate rhythmic and sound patterns in poems, rhymes and songs — including exploring rhythms from First Nations Australian poetry — demonstrating attention to the patterns through performance and participation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Poems and songs have rhythm",
+        "progression_checkpoint": "Students can identify that a poem, rhyme or song has a rhythmic beat — a repeating pattern of strong and weak sounds.",
+        "minimum_width": "Clap or tap the beat of one familiar rhyme or song.",
+        "typical_width": "Recognise that poems, rhymes and songs have rhythm; clap, tap or move to the beat of multiple rhymes and songs; identify rhythm as a pattern that repeats.",
+        "wider": [
+          "Compare the rhythms of different poem types — a nursery rhyme, a marching chant, a lullaby — and discuss how the rhythm feels different",
+          "Explore rhythms from First Nations Australian songs or chants and compare the rhythmic patterns with familiar English nursery rhymes"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without recognising that rhythmic beat is a pattern, students cannot identify rhyming and sound patterns in Node 2, nor replicate them in Node 3 — replication requires holding the pattern in mind, which is impossible if the pattern has not yet been consciously perceived.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Rhythmic beat recognition must become automatic through repeated clapping and moving to diverse rhymes — students need to internalise the pattern before they can transfer it to identifying and replicating sound patterns in subsequent nodes.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can clap or tap the beat of a familiar rhyme without losing the pattern.",
+          "Student can identify that a poem or song has a rhythm."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Rhyme and sound patterns repeat",
+        "progression_checkpoint": "Students can identify rhyming patterns and other sound patterns (e.g. alliteration) in poems and songs.",
+        "minimum_width": "Identify the rhyming words at the end of two lines in a familiar poem or song.",
+        "typical_width": "Identify rhyme patterns in poems and songs; recognise that sound patterns (rhyme, repetition of sounds) contribute to the text's effect; explore poems with both rhyme and alliteration.",
+        "wider": [
+          "Compare how rhyme patterns differ across several poems — some rhyme every line, some alternate, some don't rhyme — and discuss the effect",
+          "Create a short class rhyme or chant using a familiar sound pattern as a model",
+          "Explore sound patterns in First Nations Australian poetry and songs — attending to patterns that may be different from typical English rhyme schemes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may conflate 'poem' with 'rhyme' — the misconception that poems must rhyme. Multiple examples including non-rhyming poems and First Nations patterns that differ from English rhyme schemes are needed."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify rhyming words in a poem or song.",
+          "Student can describe the sound pattern they hear — where it repeats or changes."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Replicating rhythms and patterns",
+        "progression_checkpoint": "Students can replicate the rhythm and sound pattern of a familiar poem, rhyme or song — performing it with attention to the pattern.",
+        "minimum_width": "Recite or perform one rhyme with actions, maintaining the rhythm throughout.",
+        "typical_width": "Replicate rhythms and sound patterns through recitation with actions, clapping, or movement; use music to enhance appreciation; perform familiar poems and songs with rhythmic accuracy.",
+        "wider": [
+          "Perform the same poem in multiple ways — with actions, with instruments, with movement — and compare how each performance changes the experience",
+          "Explore and replicate rhythms from First Nations Australian poetry, using accompaniment where culturally appropriate",
+          "Compose a simple original chant using a pattern learned from a familiar poem"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Replication brings together: recognising the pattern, holding it in memory, and producing it in performance. These must be coordinated — and performance is how the learning becomes visible.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Exploring and replicating First Nations Australian rhythmic patterns alongside English patterns offers genuine cultural richness and deepens students' understanding of how rhythm functions across different poetic traditions.",
+        "success_criteria": [
+          "Student can recite or perform a poem, rhyme or song with the rhythm intact.",
+          "Student can identify the pattern they are replicating.",
+          "Student can clap or move to the beat of a poem they have not practised before."
+        ]
+      }
+    ]
+  }
+}

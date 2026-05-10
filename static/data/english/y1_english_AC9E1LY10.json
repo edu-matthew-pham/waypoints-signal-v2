@@ -1,0 +1,88 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY10",
+    "title": "Manipulate phonemes in words",
+    "description": "orally manipulate phonemes in spoken words by addition, deletion and substitution of initial, medial and final phonemes to generate new words (phonological awareness)",
+    "strand": "phonic_word_knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can segment words into separate phonemes including consonant blends (AC9E1LY09). They have not yet manipulated individual phonemes by adding, deleting or substituting them to generate new words.",
+    "progression_endpoint": "Students manipulate phonemes in spoken words by addition, deletion and substitution in initial, medial and final positions to generate new words.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Phoneme deletion",
+        "progression_checkpoint": "Students can delete a phoneme from a spoken word to produce a new word.",
+        "minimum_width": "Delete the initial or final phoneme from at least two words and correctly state the new word formed.",
+        "typical_width": "Delete initial, medial and final phonemes from spoken words to produce new words across a range of word patterns.",
+        "wider": [
+          "Delete phonemes from words with consonant blends — e.g. delete the /s/ from 'slip' to get 'lip'",
+          "Chain deletions: delete a phoneme, then delete another from the result"
+        ],
+        "hinge": true,
+        "hinge_reason": "Phoneme deletion is the foundational manipulation — students who cannot reliably delete cannot perform substitution (N2), which requires deleting and replacing, or addition (N3), which requires inserting into a held phoneme sequence.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Phoneme deletion requires secure phoneme segmentation — students who cannot reliably segment cannot reliably delete. Repeated practice, especially at the medial position, builds the precision needed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly produces the new word after deleting an initial phoneme",
+          "Student correctly produces the new word after deleting a final phoneme"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Phoneme substitution",
+        "progression_checkpoint": "Students can substitute an initial, medial or final phoneme in a spoken word to generate a new word.",
+        "minimum_width": "Substitute at least one phoneme in a spoken word (at any position) and correctly state the new word.",
+        "typical_width": "Substitute initial, medial and final phonemes to generate new words, including substituting medial vowel sounds in CVC words (e.g. pin→pen→pan) and final consonants (e.g. pet→peg).",
+        "wider": [
+          "Build a phoneme substitution chain: change one phoneme at a time across a series of words",
+          "Use phoneme substitution to generate rhyme families by substituting initial phonemes"
+        ],
+        "hinge": true,
+        "hinge_reason": "Medial vowel substitution specifically — the hardest manipulation — underpins the short and long vowel reading and spelling work in AC9E1LY11; students who cannot substitute medial vowels will struggle to distinguish vowel patterns in words.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Medial substitution (changing the vowel) is harder than initial or final substitution because vowel sounds are more abstract. Students need specific practice with medial vowel substitution as a distinct skill, not just more of initial substitution.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly substitutes an initial phoneme to make a new word",
+          "Student correctly substitutes a medial vowel to make a new word (e.g. pin → pen)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Phoneme addition",
+        "progression_checkpoint": "Students can add a phoneme to a spoken word in initial, medial or final position to generate a new word.",
+        "minimum_width": "Add a phoneme to at least two spoken words (at any position) and correctly state the new word.",
+        "typical_width": "Add phonemes to initial, medial and final positions in spoken words to generate new words, including adding phonemes to make consonant blends (e.g. add /s/ to 'lip' to get 'slip').",
+        "wider": [
+          "Explore how adding a final phoneme changes a word family (e.g. 'an' → 'and' → 'hand')",
+          "Combine addition and substitution tasks in oral word-play chains"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly adds a phoneme to make a new word",
+          "Student states the position (beginning/middle/end) where they added the phoneme"
+        ]
+      }
+    ]
+  }
+}

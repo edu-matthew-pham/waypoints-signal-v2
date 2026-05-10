@@ -1,0 +1,99 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3H01",
+    "title": "Data and Scientific Explanations",
+    "description": "examine how people use data to develop scientific explanations",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how people use science in daily life and use patterns to make scientific predictions (AC9S1H01, 1-2 band). They have not yet examined the specific role of data in developing scientific explanations or how the scientific community shares and evaluates explanations.",
+    "progression_endpoint": "Students examine how scientists and other knowledge-holders use data to develop and support scientific explanations, identifying what data is, how it is collected, and how it supports — rather than simply produces — an explanation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Data is recorded evidence from observations",
+        "progression_checkpoint": "Students can distinguish data from explanation — identifying what counts as data (recorded observations, measurements, survey results) and what counts as an explanation (an account of why or how).",
+        "minimum_width": "Students identify examples of data and examples of explanations from a given scenario and describe the difference between the two.",
+        "typical_width": "Students explain that data is collected through systematic observation or measurement, and that data supports (but does not automatically produce) an explanation — the scientist interprets the data.",
+        "wider": [
+          "Examine a simple scientific journal article or report and identify the data section and explanation/conclusion section — exploring why scientists communicate this way",
+          "Explore how First Nations Australians develop and test predictions through systematic observation — for example, observing landscape features or seasonal indicators — and discuss what makes this a form of data collection",
+          "Investigate the difference between reliable and unreliable data (one observation vs many observations, careful vs careless measurement)"
+        ],
+        "hinge": true,
+        "hinge_reason": "The data/explanation distinction is the foundational concept for the entire standard. Students who cannot separate what was recorded from what it means cannot examine the data-to-explanation pathway in Node 3, and will conflate evidence and conclusion in all subsequent inquiry work.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The data/explanation distinction is non-obvious at Year 4. Students tend to treat observations and explanations as the same kind of thing — 'I saw X therefore X happens'. Making the distinction explicit (data describes what was recorded; explanation accounts for why it happened using the data) is a necessary scaffold before students can examine how scientists move from data to explanation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Distinguishes data from explanation given a mixed set of statements from a scenario",
+          "Explains that data is collected through observation or measurement, and that the scientist uses the data to construct an explanation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Scientists collect data to answer questions",
+        "progression_checkpoint": "Students can describe how scientists or knowledge-holders collect data in response to a question, including the type of data collected and why that data is relevant to the question.",
+        "minimum_width": "Students describe how a scientist or knowledge-holder collected data to answer a specific question, naming the type of data and explaining how it connects to the question.",
+        "typical_width": "Students examine two contrasting contexts for scientific data collection (e.g. ecologist counting species; hydrologist measuring rainfall) and explain how each type of data connects to the explanations those scientists develop.",
+        "wider": [
+          "Examine documentary or news content featuring researchers and identify how they describe their data collection — what they count, measure or observe, and what question they are trying to answer",
+          "Investigate how First Nations Australians test predictions and gather data in the development of technologies and processes — for example, testing plant properties or observing animal behaviour patterns",
+          "Compare data collection for ecological questions (food chains, species populations) with data collection for physical questions (force, material properties) — what kinds of data suit different types of questions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to have a narrow image of 'scientist with a test tube' for data collection. Varied authentic contexts — ecologists, hydrologists, First Nations knowledge-holders — broaden the concept of what counts as scientific data collection and who engages in it, preventing a narrow stereotype from limiting students' understanding.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of authentic data collection contexts — ecological fieldwork, hydrology, First Nations knowledge practices — offers genuine richness that connects abstract data concepts to real science practice. This node provides an opportunity to broaden students' view of who does science and what scientific work looks like.",
+        "success_criteria": [
+          "Describes a specific example of how a named person or group collected data to answer a question",
+          "Explains how the data collected connects to the question being answered"
+        ],
+        "related_standards": ["AC9S3I01", "AC9S3I03"]
+      },
+      {
+        "id": 3,
+        "label": "Data supports the development of explanations",
+        "progression_checkpoint": "Students can examine a real-world case where data was used to develop a scientific explanation, tracing the connection between the data collected and the explanation produced.",
+        "minimum_width": "Students describe a real-world case where data was used to develop a scientific explanation, identifying what data was collected and what explanation it supported.",
+        "typical_width": "Students examine how ecologists use food chain data to explain population decline of native species and develop management strategies, connecting data type to explanation quality — more data, better explanation.",
+        "wider": [
+          "Investigate how hydrologists use rainfall and water use data to explain seasonal river flow variation (AC9S4U02 connection) — showing how the same data type supports multiple explanations",
+          "Examine a case where limited data produced an incomplete explanation, and discuss what additional data would be needed to improve it",
+          "Research how First Nations Australians use accumulated observational knowledge — passed across generations — as a form of long-term data that supports explanations about ecological patterns"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to see data as simply 'proving' an explanation rather than as evidence that supports it — missing the interpretive step and the idea that more varied data produces stronger explanations. Examining multiple real-world cases (ecology, hydrology) where the same kind of data work is done in different contexts helps students develop a more general understanding of how data functions in science.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connections to food chains (U01), water cycle (U02) and First Nations knowledge systems offer substantive cross-strand enrichment. Students engaging the wider tier can see how the same data-to-explanation process applies across the science concepts they are studying — a genuinely synthetic understanding.",
+        "success_criteria": [
+          "Identifies what data was collected and what explanation it supported in a given real-world case",
+          "Explains that data supports an explanation rather than automatically producing one — the scientist interprets the data"
+        ],
+        "related_standards": ["AC9S4U01", "AC9S4U02", "AC9S3I05"]
+      }
+    ]
+  }
+}

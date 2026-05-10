@@ -1,0 +1,77 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9U02",
+    "title": "Reproduction",
+    "description": "describe the form and function of reproductive cells and organs in animals and plants, and analyse how the processes of sexual and asexual reproduction enable survival of the species",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can compare life cycles of plants and animals (AC9S3U01). They have not yet examined gamete structure and function at a cellular level, compared reproductive strategies systematically, or connected reproduction mode to variation and survival.",
+    "progression_endpoint": "Students describe the structure and function of gametes and reproductive organs in animals and plants, compare sexual and asexual reproduction in terms of variation produced, and analyse how different reproductive strategies — including number of offspring and parental care — relate to survival of the species.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Gamete form reflects reproductive function",
+        "progression_checkpoint": "Students can describe the structural features of male and female gametes and explain how each feature relates to the gamete's function in reproduction.",
+        "minimum_width": "Students describe at least two structural features of a sperm and an egg and explain how each feature relates to its reproductive function.",
+        "typical_width": "Students explain how the form of male gametes (small, motile, numerous) and female gametes (large, nutrient-rich, fewer) reflects their respective functions; describe how male and female reproductive organs work collectively as a system; and explain fertilisation as the fusion of gametes producing a zygote with combined genetic material.",
+        "wider": [
+          "Compare gamete structure across animal groups (internal vs external fertilisers) and explain how gamete number and structure relate to fertilisation strategy",
+          "Examine how reproductive organ structures in plants (stamen, carpel) parallel animal structures in function — comparing across kingdoms",
+          "Investigate how assisted reproductive technologies (IVF, artificial insemination) work at the cellular level — connecting gamete biology to medical applications (AC9S9H02)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to explain why sexual reproduction produces variation through the combination of genetic material from two parents. Students who do not understand fertilisation as the fusion of two different gametes — each contributing genetic material — cannot account for the variation that results, and the survival analysis in Node 2 is groundless.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students describe gamete structure without connecting structural features to the outcome of fertilisation — specifically that combining two different genomes is what produces variation. Making the link explicit (structural feature → functional role in fertilisation → genetic contribution from each parent → variation in offspring) is the scaffold that prepares the variation-survival analysis in Node 2.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least two structural features of each gamete type and explains how each relates to function",
+          "Explains fertilisation as fusion of gametes producing a zygote"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sexual and asexual reproduction produce different levels of variation",
+        "progression_checkpoint": "Students can compare sexual and asexual reproduction in terms of the genetic variation produced in offspring, and explain why variation has implications for species survival.",
+        "minimum_width": "Students explain that sexual reproduction produces greater variation among offspring than asexual reproduction, and give one reason why variation is important for species survival.",
+        "typical_width": "Students explain why sexual reproduction produces variation (combination of genetic material from two parents), why asexual reproduction produces genetically identical offspring, compare reproductive strategies in plants (identifying examples of both), and explain how variation supports adaptability to environmental change.",
+        "wider": [
+          "Explore how sexual reproduction creates variation compared with asexual reproduction — examining the mechanisms (meiosis, fertilisation) that generate genetic diversity",
+          "Examine how the number of offspring produced by animals relates to the amount of parental care — analysing the survival trade-off between many offspring with low care vs few offspring with high care",
+          "Research how assisted reproductive technologies have become widely used since initial development — examining the factors that drove adoption (AC9S9H03)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often know that sexual reproduction produces variation without understanding why — the mechanism (two different genomes combining) must be explicit. Similarly the variation-survival link (diverse offspring → some survive changed conditions) is not obvious and requires the reasoning chain to be worked through.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The parental care trade-off direction provides a genuinely analytical direction connecting reproductive biology to ecology. The ART adoption direction (AC9S9H03) connects biology to a real societal application with meaningful adoption factors.",
+        "success_criteria": [
+          "Explains why sexual reproduction produces more variation among offspring than asexual reproduction",
+          "Explains how variation supports species survival when environmental conditions change"
+        ],
+        "related_standards": [
+          "AC9S9H03"
+        ]
+      }
+    ]
+  }
+}

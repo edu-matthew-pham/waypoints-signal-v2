@@ -1,0 +1,98 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9ST03",
+    "title": "Comparative Data Distributions",
+    "description": "represent the distribution of multiple data sets for numerical variables using comparative representations; compare data distributions with consideration of centre, spread and shape, and the effect of outliers on these measures",
+    "strand": "Statistics",
+    "mode": "A",
+    "prior_knowledge": "Students can analyse how sampling methods affect survey results and how representation choices support a point of view (AC9M9ST02). They have not yet formally described and compared distributions across multiple data sets using shape, centre, spread and outlier effects simultaneously.",
+    "progression_endpoint": "Students represent and compare multiple data distributions considering centre, spread, shape and the effect of outliers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Describing distribution shape",
+        "progression_checkpoint": "Students can describe the shape of a data distribution using appropriate terminology (symmetric, positively skewed, negatively skewed, bimodal).",
+        "minimum_width": "Identify and label at least two different distribution shapes from graphs (e.g. one symmetric, one skewed); explain what each term means in terms of where the data is concentrated.",
+        "typical_width": "Describe and distinguish symmetric, positively skewed, negatively skewed and bimodal distributions from graphs; explain what each shape reveals about where data is concentrated and what real-world contexts produce each shape.",
+        "wider": [
+          "Investigate real health data (e.g. disease incidence rates, life expectancy distributions) and describe distribution shape \u2014 discuss what the shape reveals about the population",
+          "Explore why certain measurements tend toward symmetric distributions (e.g. heights of a population) while others are skewed (e.g. household income, reaction times)",
+          "Investigate bimodal distributions in real contexts \u2014 discuss what a bimodal shape might indicate about an underlying population"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse positive and negative skew (associating 'positive' with a long tail pointing right but struggling with the direction when the axis is unlabelled or when the tail extends left). Seeing multiple real-data examples, connecting shape to context, resolves the label-direction confusion.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies symmetric, positively skewed and negatively skewed distributions from graphs",
+          "Explains where the 'tail' is in each skewed distribution and which direction it points",
+          "Identifies a bimodal distribution and gives a plausible explanation for why two peaks might occur"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who confuse positive and negative skew (or cannot identify bimodal) cannot describe comparative distributions in N3 using shape \u2014 a required component of the full comparison."
+      },
+      {
+        "id": 2,
+        "label": "Comparative representations",
+        "progression_checkpoint": "Students can represent two or more data sets using the same comparative display type to allow direct comparison.",
+        "minimum_width": "Construct a back-to-back stem-and-leaf plot or parallel dot plot for two data sets; ensure the scales are aligned for direct comparison.",
+        "typical_width": "Construct and interpret back-to-back stem-and-leaf plots, parallel box plots and comparative histograms; align scales correctly; read summary statistics directly from comparative representations.",
+        "wider": [
+          "Construct and compare two or more representations of the same data pair (e.g. back-to-back stem-and-leaf and parallel box plots) \u2014 discuss what each representation reveals and obscures",
+          "Explore comparative data from NIAA 'Closing the Gap' reports \u2014 construct appropriate comparative representations and discuss what they show",
+          "Investigate health trend data across demographic groups using grouped histograms and evaluate what the comparison reveals"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Constructs a correctly labelled comparative representation with aligned scales",
+          "Reads at least two summary statistics (e.g. median, range) directly from the representation",
+          "Identifies which data set has greater centre and greater spread from the display"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Comparing distributions \u2014 centre, spread, shape, outliers",
+        "progression_checkpoint": "Students can compare two or more distributions considering centre, spread, shape and the effect of outliers on each measure.",
+        "minimum_width": "Compare two data distributions by stating which has greater centre and greater spread; identify one outlier and explain its effect on the mean vs median.",
+        "typical_width": "Compare distributions using centre (mean, median), spread (range, IQR), shape (skew, symmetry) and outlier effects; explain how outliers affect the mean more than the median; make contextually meaningful statements about what the comparison reveals.",
+        "wider": [
+          "Investigate the effect of a single extreme outlier on the mean, median and range of a data set \u2014 calculate each before and after removing the outlier and compare",
+          "Compare distributions of two populations (e.g. age distributions in two countries) and discuss what the similarities and differences reveal in context",
+          "Explore how choosing mean vs median can be used to support different impressions of the same data set \u2014 connect to the representation bias discussion in AC9M9ST02"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Comparing distributions holistically \u2014 using centre, spread, shape and outliers together rather than one at a time \u2014 is the descriptor's full demand. Students who have learned each measure separately often give fragmented comparisons ('the mean is higher' without reference to spread or shape). Integration means forming a coherent overall comparison.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The outlier effect on mean vs median is a pedagogically rich insight that connects to real data literacy. Students who explore this with real data \u2014 health trends, income distributions, closing-the-gap data \u2014 develop lasting understanding of when each measure is appropriate.",
+        "success_criteria": [
+          "Compares two distributions using at least three of: centre, spread, shape, outliers",
+          "Correctly explains that outliers affect the mean more than the median",
+          "States the comparison in contextually meaningful terms (not just as numerical facts)"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

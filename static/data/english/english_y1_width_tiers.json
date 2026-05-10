@@ -1,0 +1,487 @@
+{
+  "description": "Width tiers for Year 1 English — ACARA v9. All 30 descriptors across Language (LA), Literature (LE) and Literacy (LY) strands.",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "band": "Year 1",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed",
+    "notes": "LA and texts_in_context strands use phenomena_contexts. Literature and literacy_mode_b strands use task_contexts. Phonic_word_knowledge strands use phenomena_contexts (conceptual) or depth_fallback for narrow mechanical skills."
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest construction that satisfies the descriptor's command term. Non-negotiable floor — what every student must do to have genuinely met the descriptor.",
+    "typical_width": "Full descriptor scope as ACARA intended. Grounded in elaborations. What a class that has engaged with the descriptor fully would have done.",
+    "wider": "Enrichment directions that add phenomena, contexts or task types — not harder versions of the same thing. First Nations directions included where elaborations indicate them."
+  },
+  "standards": {
+    "AC9E1LA01": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify two non-verbal communication modes and explain how language and gesture each contributed meaning in one familiar interaction.",
+      "typical_width": "Discuss how language, facial expressions, gestures and body language work together across different interaction types — providing information, making offers, exclaiming, requesting and giving commands — using examples from film, picture books and classroom interactions. Distinguish open and closed questions.",
+      "wider": [
+        "Explore how symbols and body language function as primary (not supplementary) communication modes in First Nations Australian communities, comparing with verbal-dominant communication contexts",
+        "Investigate how meaning shifts when verbal and non-verbal messages conflict — the same words with different facial expressions",
+        "Compare how the same interaction type (e.g. a request) uses different language and gesture in formal versus informal contexts"
+      ],
+      "elaborations": [
+        "recognising the effects of words, signing, gestures and body language on the way communications are received by others",
+        "understanding that symbols, gestures and body language are key components of communication in First Nations Australian communities",
+        "viewing short films and discussing how characters use words and body language to convey emotions",
+        "learning the difference between closed questions and open questions"
+      ]
+    },
+    "AC9E1LA02": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Use 'because' to give a reason for a preference about a familiar topic.",
+      "typical_width": "Use 'because' and similar connectives to provide specific reasons for likes, dislikes and preferences across a range of topics. Use comparative adjectives (e.g. 'better', 'faster') to express degrees of preference, naming what is being compared.",
+      "wider": [
+        "Explore other reason-giving connectives ('since', 'as') and compare their use in spoken and written contexts",
+        "Investigate how comparative and superlative adjectives work together as a degree system",
+        "Examine how preference and opinion language functions in simple persuasive texts such as reviews or recommendations"
+      ],
+      "elaborations": [
+        "using words including 'because' to introduce reasons for likes, dislikes and preferences",
+        "exploring comparative words (adjectives) to express the degree of preference; for example, 'better', 'faster'"
+      ]
+    },
+    "AC9E1LA03": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the purpose of two different text types and describe at least one stage in each that serves that purpose.",
+      "typical_width": "Explore how texts are organised according to purpose across familiar types — recount, narrative, procedure, informative — identifying typical stages and explaining how each stage serves the purpose. Recognise that text organisation includes both words and images/diagrams.",
+      "wider": [
+        "Compare the stages of two different text types side by side (e.g. recount vs narrative) to identify where structures overlap and diverge",
+        "Examine informative texts with diagrams and discuss how visual and verbal organisation work together",
+        "Explore digital texts and identify how purpose shapes organisation in screen formats"
+      ],
+      "elaborations": [
+        "discussing and comparing the purposes and organisation of familiar texts",
+        "becoming familiar with the typical stages of types of texts; for example, recount and procedure",
+        "recognising that the structure of a text may include words and pictures"
+      ]
+    },
+    "AC9E1LA04": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least one repetition pattern and one rhyme in a given poem or chant and describe the cohesion each creates.",
+      "typical_width": "Explore how repetition, rhyme and rhythm each create cohesion in simple poems, chants and songs — how they create pattern, predictability and a sense that the text holds together — using multiple text examples across these forms.",
+      "wider": [
+        "Compare a poem with and without its repetition removed — discuss how cohesion changes",
+        "Explore rhythm in First Nations Australian songs or chants and discuss how rhythm serves cultural and communal purposes beyond aesthetics",
+        "Investigate how chants use repetition functionally to enable communal participation and memory"
+      ],
+      "elaborations": [
+        "identifying patterns of repetition in texts; for example, repetition of sentence patterns such as 'Have you seen …'",
+        "discussing different poems and identifying rhyme; for example, end of line rhyme"
+      ]
+    },
+    "AC9E1LA05": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify two structural features of a print text and two navigation features of a screen text, explaining the purpose of each.",
+      "typical_width": "Understand how print texts use structural features (page numbers, table of contents, headings, titles) and screen texts use navigation features (buttons, swipe screens, verbal commands, links) to organise and navigate content. Compare the layout of a print information text with a digital equivalent.",
+      "wider": [
+        "Compare features across different digital text types — informative website, e-book, educational app — and discuss how navigation features vary by platform and purpose",
+        "Explore how images serve different structural roles in print (static, fixed position) versus screen texts (interactive, linked)",
+        "Discuss which navigation features a reader might find more or less intuitive and why"
+      ],
+      "elaborations": [
+        "comparing the layout of print and digital texts; for example, the layout of print and images in an information book and the layout of information in an online text"
+      ]
+    },
+    "AC9E1LA06": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the participant (who/what) and process (happening/state) in a simple sentence and confirm it represents one complete event or idea.",
+      "typical_width": "Understand that a simple sentence is a single independent clause containing a participant, a process, and optional circumstances (when/where/how). Identify all three elements in sentences and understand that adding circumstances does not create an additional clause.",
+      "wider": [
+        "Compare simple sentences with and without circumstantial detail and discuss how meaning changes",
+        "Examine how authors use simple sentences for deliberate effect — pace, clarity, emphasis — in narrative and informative texts",
+        "Identify simple sentences versus fragments and multi-clause constructions in short authentic texts"
+      ],
+      "elaborations": [
+        "knowing that a single event or idea can include a process, a happening or a state (verb), the participant or who or what is involved (noun group/phrase), and the surrounding circumstances (adverb group/phrase)",
+        "understanding that simple sentences answer questions such as 'what is happening?' and 'who or what is involved?' along with details such as 'where?', 'when?', 'how?'"
+      ]
+    },
+    "AC9E1LA07": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least one noun, one verb and one adjective in a sentence and explain the role of each.",
+      "typical_width": "Understand that words belong to classes that serve distinct roles: nouns (people, places, things, including pronouns), verbs (happenings and states), adjectives (qualities), adverbs (when/where/how details). Identify all four word classes in sentences and explain how each contributes to meaning.",
+      "wider": [
+        "Explore abstract nouns and state verbs as extensions of the 'noun names things' and 'verb is a doing word' schemas",
+        "Analyse word class choices in a literary text — why this adjective, why this verb — connecting grammar to reading and writing",
+        "Investigate how changing word class changes sentence meaning — e.g. replacing a precise verb with a general one"
+      ],
+      "elaborations": [
+        "understanding that words or groups of words can represent the participants (nouns) involved in various activities or processes (verbs) and the details or circumstances surrounding the activity (adjectives and adverbs)",
+        "recognising how a sentence can be made more specific by adding adjectives, adverbs and precise verbs"
+      ]
+    },
+    "AC9E1LA08": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Compare images from two different text types and explain how each image serves its text's purpose differently.",
+      "typical_width": "Compare how images contribute to meaning across different text types — narrative illustrations, informative diagrams and photographs, advertising images — explaining how each type of image serves its text's purpose. Discuss how image sequences build meaning across a text and how images can carry meaning not present in the words.",
+      "wider": [
+        "Explore stories and cultural accounts by First Nations Australian authors and illustrators — discuss how visual choices reflect cultural perspectives and meaning-making systems",
+        "Investigate how digital and animated images in screen texts function differently from static print images",
+        "Compare a cartoon image, photograph and diagram of the same subject — discuss how the image type shapes the meaning conveyed"
+      ],
+      "elaborations": [
+        "comparing images from texts where images of the same subject are represented differently",
+        "understanding how authors and illustrators build up meaning across a sequence of images",
+        "understanding that some images convey meaning that is not included in the accompanying written text",
+        "exploring images in stories and cultural accounts by First Nations Australian authors and discussing the impact this may have"
+      ]
+    },
+    "AC9E1LA09": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Name and use at least three topic-specific words from a current learning area topic in discussion.",
+      "typical_width": "Recognise topic-specific vocabulary across different learning area topics studied this year, using appropriate terms in discussion and writing. Use appropriate vocabulary for Acknowledgement of Country in school contexts, understanding this as a culturally situated vocabulary context.",
+      "wider": [
+        "Explore the meaning and cultural significance of terms used in Acknowledgement of Country (e.g. Traditional Owners, Country, Place) — why precise language matters in this protocol",
+        "Investigate how some words are used in everyday language and in a specialised technical sense in a learning area",
+        "Compare vocabulary from two different learning area topics and discuss what makes words 'belong' to a particular field"
+      ],
+      "elaborations": [
+        "using appropriate topic-specific vocabulary when discussing a learning area topic",
+        "using appropriate vocabulary for an Acknowledgement of Country at assemblies and other school events",
+        "identifying words for topics studied at school; for example, vocabulary used for weather and seasons"
+      ]
+    },
+    "AC9E1LA10": {
+      "standard_type": "LA",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify full stops, question marks and exclamation marks in a text and correctly punctuate two different sentence types in writing. Capitalise at least one familiar proper noun.",
+      "typical_width": "Understand and apply sentence boundary punctuation — full stops (statements), question marks (questions), exclamation marks (exclamations) — and use capital letters for familiar proper nouns (people, places, days, months, holidays). Apply these conventions consistently in reading aloud and in own writing.",
+      "wider": [
+        "Explore how the same words with different end punctuation create different sentences — investigating how punctuation shapes meaning",
+        "Write short dialogues using multiple sentence types with correct punctuation throughout",
+        "Edit a deliberately un-punctuated passage, adding sentence boundary punctuation and proper noun capitalisation"
+      ],
+      "elaborations": [
+        "using intonation and pauses in response to punctuation, when reading",
+        "identifying different sentence boundary punctuation, when reading",
+        "writing different types of sentences; for example, statements and questions, and discussing appropriate punctuation",
+        "identifying and using capital letters to name places and holidays"
+      ]
+    },
+    "AC9E1LE01": {
+      "standard_type": "LE",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify two specific language or image choices in a text and explain what each tells the reader about a character, setting or event.",
+      "typical_width": "Discuss how authors and illustrators use language choices (words, dialogue, description) and image choices (appearance, expression, colour, perspective) to create characters, settings and events in literature. Engage with literature by First Nations Australian, Australian and world authors and illustrators.",
+      "wider": [
+        "Compare how the same character type (e.g. an animal with human qualities, a trickster figure) is constructed differently across texts from different cultural traditions",
+        "Examine how literature by First Nations Australian authors depicts characters, settings and events — discussing the cultural knowledge and perspectives embedded in these choices",
+        "Explore how changing a single language or image choice would alter what is created — character, mood, event significance"
+      ],
+      "elaborations": [
+        "discussing how animal characters reflect human characteristics in fables by wide-ranging world authors",
+        "discussing how characters, settings and events are described or depicted in literature by First Nations Australian authors and illustrators",
+        "discussing the events associated with Australian animal characters in picture books from wide-ranging Australian authors"
+      ]
+    },
+    "AC9E1LE02": {
+      "standard_type": "LE",
+      "width_axis": "task_contexts",
+      "minimum_width": "Share a personal response to a character or event in a text and make one explicit connection to personal experience.",
+      "typical_width": "Discuss literary texts and share responses by making text-to-self connections across a range of texts, using language of thinking and feeling. Generate questions about characters, settings and events. Identify who tells the story. Express responses through discussion, drawing and role-play.",
+      "wider": [
+        "Compare personal connections made by different readers and discuss why different readers connect with different aspects of a text",
+        "Explore stories where the depicted experience is unfamiliar — discuss what strategies readers use to make meaning without personal connection",
+        "Investigate how identifying the narrator changes what questions a reader asks and what information is available"
+      ],
+      "elaborations": [
+        "generating questions about characters, settings and events from books and sharing responses",
+        "discussing different texts and offering opinions about how they reflect their own experiences",
+        "expressing responses to characters and events in stories using drawing and role-play",
+        "identifying who is telling the story in different texts"
+      ]
+    },
+    "AC9E1LE03": {
+      "standard_type": "LE",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify and describe the plot, at least two character qualities, and the setting of one story.",
+      "typical_width": "Discuss plot (sequence of events, problem and resolution), character (qualities, roles, relationships) and setting (place, time, realistic/imagined) as features of stories across a range of text types — picture books, traditional tales, narrative poems, fables. Discuss how these three features interact.",
+      "wider": [
+        "Compare how plot, character and setting function across two different story types (e.g. a fable and a contemporary picture book) — identifying similarities and differences",
+        "Explore what would change in a story if one element were altered — e.g. the same characters in a different setting, or the same plot with a different character type",
+        "Investigate how settings in Australian stories reflect Australian landscape and cultural context"
+      ],
+      "elaborations": [
+        "recognising similar characters and settings in different types of literary texts; for example, traditional tales, narrative poems and fables",
+        "discussing whether features of settings including time and place are realistic or imagined",
+        "retelling stories, identifying the main characters and describing their qualities and the events in sequence"
+      ]
+    },
+    "AC9E1LE04": {
+      "standard_type": "LE",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify alliteration and at least one rhyme pattern in a poem or chant, describe the effect, and produce one imitation (alliterative phrase or rhyming couplet).",
+      "typical_width": "Listen to and discuss poems, chants, rhymes and songs, identifying alliteration and rhyme patterns and describing their sound effects. Imitate sound patterns from model texts and invent original alliterative phrases and rhyming pairs.",
+      "wider": [
+        "Create a short original poem or chant that deliberately combines alliteration and rhyme for effect",
+        "Explore rhythm in First Nations Australian songs or chants — discuss how sound patterns serve cultural and communal purposes alongside aesthetic ones",
+        "Investigate other sound devices such as assonance and discuss how they differ from alliteration and rhyme"
+      ],
+      "elaborations": [
+        "listening to and discussing poems including those that play with sound; for example, tongue twisters and nonsense rhymes",
+        "clapping and chanting with poems and experimenting with rhythm",
+        "imitating and experimenting with alliteration using the same initial letter or sound"
+      ]
+    },
+    "AC9E1LE05": {
+      "standard_type": "LE",
+      "width_axis": "task_contexts",
+      "minimum_width": "Orally retell the main plot events of a familiar story in sequence, incorporating at least two vocabulary items from the original.",
+      "typical_width": "Orally retell or adapt a familiar story using plot sequence, character details, vocabulary and language features from the original text, and the text's structural conventions, through at least two modes — oral retelling, role-play, drawing or digital tools.",
+      "wider": [
+        "Adapt a familiar story by changing a character, setting or event while preserving the underlying plot structure — discuss what must stay the same for the story to still 'work'",
+        "Retell or adapt a story into a different medium (e.g. turn a written story into a role-play with invented dialogue)",
+        "Explore how a story from a different cultural context might be retold in an Australian setting — what would change and what would stay the same"
+      ],
+      "elaborations": [
+        "applying emerging knowledge of text structure and character when retelling or recreating stories",
+        "using language features including vocabulary from the original text in retelling",
+        "experimenting with different modes — role-play, drawing, digital tools — for retelling"
+      ]
+    },
+    "AC9E1LY01": {
+      "standard_type": "LY",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify two features in a given text that indicate its purpose and explain how each feature signals that purpose.",
+      "typical_width": "Discuss different texts and identify features that indicate their purposes — language features, structural elements and layout choices — across imaginative, informative and persuasive text types. Link features explicitly to purpose.",
+      "wider": [
+        "Compare two texts with different purposes on the same topic side by side, identifying the distinct features that mark each",
+        "Examine digital texts and discuss which features indicate purpose in online versus print contexts",
+        "Explore texts that serve more than one purpose and discuss which purpose is primary"
+      ],
+      "elaborations": [
+        "discussing different texts and identifying some features that indicate their purposes",
+        "selecting texts for a particular purpose or task"
+      ]
+    },
+    "AC9E1LY02": {
+      "standard_type": "LY",
+      "width_axis": "task_contexts",
+      "minimum_width": "Demonstrate turn-taking and active listening in a structured discussion, and respond to at least one other contribution.",
+      "typical_width": "Use interaction skills including turn-taking (waiting without interrupting), speaking clearly (audible volume and pace), active listening behaviours (eye contact, body orientation) and responding to others' contributions by acknowledging what was said before adding a new idea or question.",
+      "wider": [
+        "Practise interaction skills across different group sizes and contexts — pairs, small groups, whole class, formal and informal",
+        "Reflect on interaction skills as a class after a discussion — what worked well, what would improve the quality of the discussion",
+        "Explore how interaction conventions differ across cultural contexts and formal versus informal settings"
+      ],
+      "elaborations": [
+        "using turn-taking, speaking clearly, using active listening behaviours",
+        "responding to the contributions of others",
+        "contributing ideas and questions"
+      ]
+    },
+    "AC9E1LY03": {
+      "standard_type": "LY",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe two differences between two of the three text type categories (imaginative, informative, persuasive).",
+      "typical_width": "Describe similarities and differences between imaginative, informative and persuasive texts — in purpose, structural features and language choices — using specific text examples as evidence. Select an appropriate text type for a given task and explain the choice.",
+      "wider": [
+        "Explore how the same topic might be addressed by all three text types and discuss what each offers the reader",
+        "Examine texts that have features of more than one category and discuss how to classify them",
+        "Compare digital and print versions of each text type to see how purpose is communicated across media"
+      ],
+      "elaborations": [
+        "comparing and discussing texts, identifying some features that distinguish those that 'tell stories' from those that 'give opinions'",
+        "selecting texts for a particular purpose or task"
+      ]
+    },
+    "AC9E1LY04": {
+      "standard_type": "LY",
+      "width_axis": "task_contexts",
+      "minimum_width": "Read a short familiar text in phrases with developing fluency, using phonics and at least one self-correction when meaning breaks down.",
+      "typical_width": "Read decodable and authentic texts with developing phrasing and fluency — reading in meaningful groups of words at an appropriate pace with expression. Consistently monitor for meaning using phonics, context and grammatical knowledge, and self-correct when meaning breaks down.",
+      "wider": [
+        "Read a range of text types and genres with developing fluency — fiction, informative, poetry — practising phrasing appropriate to each text type",
+        "Practise reading aloud for an audience, using phrasing, expression and pace to convey meaning deliberately",
+        "Discuss and model self-correction strategies — which strategies are most useful in different situations"
+      ],
+      "elaborations": [
+        "recognising most high-frequency words when reading a text",
+        "self-correcting or asking for assistance when meaning breaks down"
+      ]
+    },
+    "AC9E1LY05": {
+      "standard_type": "LY",
+      "width_axis": "task_contexts",
+      "minimum_width": "Use at least two comprehension strategies (e.g. predict + infer, or connect + question) in a single reading experience and explain how each helped build meaning.",
+      "typical_width": "Use comprehension strategies — visualising, predicting, connecting, summarising and questioning — to build literal and inferred meaning when listening, viewing and reading. Draw on vocabulary and growing knowledge of context and text structures. Make explicit inferences by identifying the text clues used.",
+      "wider": [
+        "Apply comprehension strategies to multimodal texts — discuss how each strategy works differently when images carry part of the meaning",
+        "Reflect on which strategy was most useful for a particular comprehension difficulty — developing metacognitive awareness of strategy selection",
+        "Compare inferences based on text clues versus personal experience — discuss what the text actually supports"
+      ],
+      "elaborations": [
+        "identifying information and details from spoken informative texts",
+        "building topic knowledge and learning new vocabulary before and during reading",
+        "making predictions from the cover, from illustrations and at points in the text",
+        "drawing inferences and explaining inferences using clues from the text",
+        "making connections with existing knowledge and personal experiences"
+      ]
+    },
+    "AC9E1LY06": {
+      "standard_type": "LY",
+      "width_axis": "task_contexts",
+      "minimum_width": "Write a short text with a clear purpose (report, opinion or recount) using simple sentences, one topic-specific word and sentence boundary punctuation.",
+      "typical_width": "Create and re-read to edit short written and/or multimodal texts across all three purposes — report, opinion and recount — using grammatically correct simple sentences, topic-specific vocabulary, sentence boundary punctuation and correct spelling of some one- and two-syllable words. Editing involves making at least one deliberate improvement.",
+      "wider": [
+        "Write on the same topic for two different purposes and discuss how purpose shapes every aspect of the text",
+        "Create a multimodal text that combines drawn images and written text for a chosen purpose, discussing how each mode contributes",
+        "Develop a simple personal editing checklist and apply it systematically to a draft"
+      ],
+      "elaborations": [
+        "applying emerging knowledge of text structure and grammar when creating text",
+        "using learning area vocabulary when creating text",
+        "creating digital images and composing a story or information sequence on screen",
+        "adding or deleting words on a page or screen to improve meaning",
+        "beginning to use dictionaries and resources to check and correct spelling",
+        "identifying words that might not be spelt correctly"
+      ]
+    },
+    "AC9E1LY07": {
+      "standard_type": "LY",
+      "width_axis": "task_contexts",
+      "minimum_width": "Deliver a short oral presentation with an identifiable opening and conclusion, using at least two topic-specific words and an audible volume.",
+      "typical_width": "Create and deliver short oral and/or multimodal presentations on personal and learnt topics with a clear three-part structure (opening, middle, concluding statement), topic-specific vocabulary, and appropriate gesture, volume and pace for the purpose and audience.",
+      "wider": [
+        "Deliver presentations for different purposes — explaining, informing, retelling — and discuss how structure and delivery adjust for each purpose",
+        "Record a presentation and review one aspect of delivery (volume, pace or gesture) for self-improvement",
+        "Experiment with different openings — question, statement, surprising fact — and evaluate which best suits the topic"
+      ],
+      "elaborations": [
+        "reporting the results of group activities",
+        "explaining how to do or make something",
+        "giving short oral presentations about areas of interest or content area topics, speaking clearly and with appropriate volume",
+        "experimenting with volume and pace for particular purposes",
+        "giving reasons why the class should learn a particular game"
+      ]
+    },
+    "AC9E1LY08": {
+      "standard_type": "LY",
+      "width_axis": "depth_fallback",
+      "minimum_width": "Write words using consistently formed unjoined lower-case and upper-case letters with a functional pencil grip.",
+      "typical_width": "Write words and short sentences using consistently formed unjoined lower-case and upper-case letters, with a functional pencil grip, correct letter orientation and consistent letter size.",
+      "wider": [
+        "Limited width. Handwriting is a narrow mechanical skill at Year 1 — variation across contexts (different writing tools, surfaces, digital stylus) is the available enrichment. Explore how grip and formation adjust for different tools. Apply handwriting to varied real-world writing contexts — labels, cards, notes.",
+        "Compare how letter formations relate to print conventions seen in reading materials"
+      ],
+      "elaborations": [
+        "continuing to develop a functional pencil grip/grasp"
+      ]
+    },
+    "AC9E1LY09": {
+      "standard_type": "LY",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Segment at least three single-syllable words with consonant blends (initial or final) into individual phonemes in order.",
+      "typical_width": "Segment single-syllable words into all individual phonemes in sequence, including words with initial consonant blends or clusters (e.g. sp-, st-, bl-, cr-) and final consonant blends (e.g. -st, -nd, -mp).",
+      "wider": [
+        "Segment words with both initial and final consonant blends (e.g. 'stamp', 'blend') and confirm phoneme count",
+        "Compare segmenting with and without a blend in the word — e.g. 'lip' vs 'slip' — and discuss how blends affect phoneme count",
+        "Apply segmentation to support spelling decisions — segment a word before writing each phoneme"
+      ],
+      "elaborations": [
+        "saying sounds in order for a given spoken word; for example, 's-p-oo-n' and 'f-i-s-t'"
+      ]
+    },
+    "AC9E1LY10": {
+      "standard_type": "LY",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Substitute at least two phonemes in different positions (initial and medial) in spoken words to generate new words.",
+      "typical_width": "Orally manipulate phonemes in spoken words by addition, deletion and substitution of initial, medial and final phonemes to generate new words — including substituting medial vowels (e.g. pin→pen→pan) and final consonants (e.g. pet→peg).",
+      "wider": [
+        "Build phoneme substitution chains — change one phoneme at a time across a series of related words",
+        "Add phonemes to create words with consonant blends (e.g. add /s/ to 'lip' to get 'slip') — combining addition with blend knowledge",
+        "Combine all three manipulation types (add, delete, substitute) in playful oral word games"
+      ],
+      "elaborations": [
+        "adding, substituting or deleting phonemes in any position in one-syllable words with up to 4 phonemes",
+        "substituting medial sounds in spoken words to make new words; for example, 'pin', 'pen', 'pan'",
+        "substituting final sounds in spoken words"
+      ]
+    },
+    "AC9E1LY11": {
+      "standard_type": "LY",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Read and write at least three words with short vowels, two with a common long vowel pattern, two with consonant blends, and two with digraphs.",
+      "typical_width": "Use short vowels, common long vowels (especially silent-e pattern), consonant blends and digraphs to write words. Blend these phonics elements to read one- and two-syllable words, applying syllable knowledge to manage two-syllable words.",
+      "wider": [
+        "Explore that long vowels can be represented by multiple spelling patterns (e.g. long /a/ in 'make', 'rain', 'play') — at awareness level",
+        "Read two-syllable compound words and discuss how each syllable carries meaning",
+        "Apply phonic knowledge to reading short informative texts — discuss how phonics and context work together"
+      ],
+      "elaborations": [
+        "using knowledge of letters and sounds to write words with short vowels and common long vowel sounds",
+        "using knowledge of letter sounds to write single-syllable words with consonant digraphs and consonant blends"
+      ]
+    },
+    "AC9E1LY12": {
+      "standard_type": "LY",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Give two examples of the same letter making different sounds; identify the vowel sound in each syllable of a two-syllable word.",
+      "typical_width": "Understand that letters can represent more than one sound (e.g. 'u' in 'cut', 'put', 'use') and that different letters can represent the same sound (e.g. 's' in 'sat' and 'cent'). Understand that syllables must contain a vowel sound and apply this to break two-syllable words into parts.",
+      "wider": [
+        "Explore how surrounding letters and word position determine which sound a letter makes — building contextual phonics awareness",
+        "Collect examples of the same letter making different sounds in shared reading texts",
+        "Apply the syllable-vowel rule to check syllable boundaries in two- and three-syllable words"
+      ],
+      "elaborations": [
+        "recognising that letters can have more than one sound; for example, the letter 'u' in 'cut', 'put', 'use'",
+        "recognising sounds that can be produced by different letters; for example, the 's' sound in 'sat' and 'cent'"
+      ]
+    },
+    "AC9E1LY13": {
+      "standard_type": "LY",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Correctly spell at least five one-syllable words with known patterns and at least three two-syllable words.",
+      "typical_width": "Spell one- and two-syllable words with common letter patterns — CVC, CVCC, CCVC, digraphs, common blends — applying phoneme-grapheme knowledge systematically. Use a syllable-by-syllable strategy for two-syllable words.",
+      "wider": [
+        "Generate and spell word families built on the same letter pattern — building pattern-based spelling knowledge",
+        "Apply spelling knowledge to topic vocabulary in content area writing",
+        "Explore how two-syllable compound words can be spelled by attending to each part separately"
+      ],
+      "elaborations": [
+        "writing one- and two-syllable words containing known blends; for example, 'bl' and 'st'"
+      ]
+    },
+    "AC9E1LY14": {
+      "standard_type": "LY",
+      "width_axis": "depth_fallback",
+      "minimum_width": "Read at least 20 Year 1-level high-frequency words automatically and correctly spell at least 15 in writing.",
+      "typical_width": "Read and write an increasing number of high-frequency words — recognising them automatically in reading and spelling them correctly in writing, including irregular forms (e.g. 'one', 'have', 'pretty') that cannot be sounded out using phonics alone.",
+      "wider": [
+        "Limited width. High-frequency word knowledge is narrow in terms of contextual variation — the enrichment is scale (more words). Wider students extend their recognised and spelled bank more rapidly, and begin to distinguish decodable from irregular high-frequency words, understanding why some must be memorised as wholes.",
+        "Identify high-frequency words in authentic texts and discuss which are decodable and which need to be memorised"
+      ],
+      "elaborations": [
+        "learning an increasing number of high-frequency words and reading them independently; for example, 'one', 'have' and 'pretty'"
+      ]
+    },
+    "AC9E1LY15": {
+      "standard_type": "LY",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the base word and at least three different grammatical morphemes applied to it; use morpheme knowledge to read one unfamiliar morphologically complex word.",
+      "typical_width": "Recognise and use grammatical morphemes — plural -s/-es, past tense -ed, present continuous -ing, comparative -er — to create word families from familiar base words. Use morpheme knowledge to read unfamiliar words by identifying the base word first, and to spell words by applying known morphemes to known bases.",
+      "wider": [
+        "Build extended word families including compound forms (e.g. 'playground', 'playtime' from 'play') and discuss how each form is used",
+        "Explore what happens to some base words when morphemes are added — consonant doubling ('hop' → 'hopped') — at awareness level",
+        "Use morpheme knowledge as a self-correction strategy in reading — check whether the base word was read correctly"
+      ],
+      "elaborations": [
+        "building word families from common morphemes; for example, 'play', 'plays', 'playing', 'played', 'playground'",
+        "using morphemes to read words; for example, by recognising the base word in words such as 'walk-ed'"
+      ]
+    }
+  }
+}

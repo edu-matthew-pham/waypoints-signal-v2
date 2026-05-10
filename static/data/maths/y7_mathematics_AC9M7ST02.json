@@ -1,0 +1,105 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7ST02",
+    "title": "Data Displays and Distribution",
+    "strand": "Statistics",
+    "description": "create different types of numerical data displays including stem-and-leaf plots using software where appropriate; describe and compare the distribution of data, commenting on the shape, centre and spread including outliers and determining the range, median, mean and mode",
+    "mode": "A",
+    "prior_knowledge": "Students can calculate range, median, mean and mode (from AC9M7ST01). Students can interpret distributions using mode and range (from AC9M6ST01).",
+    "progression_endpoint": "Students create and interpret stem-and-leaf plots and other numerical data displays, describing and comparing distributions in terms of shape, centre, spread and outliers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Creating stem-and-leaf plots",
+        "progression_checkpoint": "Students construct ordered stem-and-leaf plots from a data set and read values from them accurately.",
+        "minimum_width": "Construct an ordered stem-and-leaf plot for a given data set of 10–15 values.",
+        "typical_width": "Construct stem-and-leaf plots for larger data sets; split stem-and-leaf plots for side-by-side comparison; use software where appropriate.",
+        "wider": [
+          "Construct a back-to-back stem-and-leaf plot to compare two data sets and explain what it shows.",
+          "Investigate what stem width to choose for a given data set to make the display useful."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Constructing a correct ordered stem-and-leaf plot is a skill that requires procedural care (ordering leaves, choosing stems). Errors in construction undermine all subsequent interpretation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who construct disordered or incorrect stem-and-leaf plots cannot read summary statistics from them in Node 2 — an unordered display makes median identification impossible and shape description unreliable.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Constructs an ordered stem-and-leaf plot with correct stems and leaves.",
+          "Orders the leaves within each stem.",
+          "Includes a key explaining what the stem and leaf represent."
+        ],
+        "related_standards": [
+          "AC9M7ST01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Describing distribution shape, centre, spread and outliers",
+        "progression_checkpoint": "Students describe the distribution of data in terms of its shape (symmetrical, skewed), centre, spread and the presence of outliers.",
+        "minimum_width": "Describe a given distribution using at least three of: shape, centre, spread, outliers.",
+        "typical_width": "Describe distributions from stem-and-leaf and dot plots; connect features of the display (clusters, gaps, symmetry) to appropriate summary statistics.",
+        "wider": [
+          "Investigate how outliers affect the appearance of a display and which statistics are most affected.",
+          "Compare the distribution of the same variable measured in two different groups — what do the differences suggest?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Distribution description requires a vocabulary for varied shapes — symmetrical, positively skewed, negatively skewed, bimodal. Encountering multiple distinct distributions develops this vocabulary.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Describes the shape of a distribution using appropriate vocabulary.",
+          "Identifies the appropriate measure of centre for the distribution's shape.",
+          "Identifies outliers and comments on their effect."
+        ],
+        "related_standards": [
+          "AC9M7ST01"
+        ],
+        "width_opportunity_reason": "Investigating how outliers affect different display types and statistics is rich for advancing students — it connects display choice to statistical decision-making in a way that goes beyond description."
+      },
+      {
+        "id": 3,
+        "label": "Comparing distributions",
+        "progression_checkpoint": "Students compare two distributions using displays and summary statistics, making statements about differences in shape, centre and spread.",
+        "minimum_width": "Compare two distributions by identifying at least one difference in centre, spread or shape.",
+        "typical_width": "Systematically compare two distributions using multiple statistics and display features; draw conclusions about what the differences mean in context.",
+        "wider": [
+          "Investigate whether a claim about two groups (e.g. 'boys are taller than girls on average') is supported by the data — use statistics and displays to evaluate.",
+          "Explore how sample size affects confidence in comparative claims."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Comparing distributions requires simultaneous application of display reading, summary statistic calculation, and contextual interpretation — the integration of the whole statistics strand at Year 7.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Makes at least two comparative statements about two distributions (using statistics and display features).",
+          "States conclusions in context, not just in mathematical terms.",
+          "Does not compare individual values as if they represent the distributions."
+        ],
+        "related_standards": [
+          "AC9M7ST03"
+        ],
+        "width_opportunity_reason": "Comparative investigation design (e.g. testing a claim about two groups) is a rich task for advancing students — it requires coordinating display, statistics, sample reasoning and contextual interpretation simultaneously."
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2N01",
+    "title": "Numbers to 1000",
+    "strand": "Number",
+    "mode": "A",
+    "description": "recognise, represent and order numbers to at least 1000 using physical and virtual materials, numerals and number lines",
+    "prior_knowledge": "Students recognise, represent and order numbers to at least 120 using physical and virtual materials, numerals and number lines (AC9M1N01). They have not yet encountered three-digit numbers or the place value structure of hundreds.",
+    "progression_endpoint": "Students recognise, represent and order numbers to at least 1000 using physical and virtual materials, numerals and number lines — including numbers with zeros in different positions and numbers that look or sound similar.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Counting into the hundreds",
+        "progression_checkpoint": "Students can count forward and backward through hundreds boundaries and recognise that the number sequence continues beyond 120 using the same patterns.",
+        "minimum_width": "Count forward and backward through at least one hundreds boundary (e.g. 95–105, 195–205) and identify the pattern.",
+        "typical_width": "Count forward and backward through multiple hundreds boundaries; skip count in tens and hundreds from various starting points; locate approximate positions on a 0–1000 number line.",
+        "wider": [
+          "Skip count in 5s, 10s and 100s from non-zero starting points; record on an open number line and describe the pattern",
+          "Investigate how many tens make 100, how many hundreds make 1000; connect to skip counting patterns"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 place value work requires students to treat the hundreds position as a natural extension of the counting sequence. Students who stall or produce errors crossing boundaries (e.g. 199 → 200) cannot form correct three-digit groupings — the counting structure underlies the place value structure.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Counts forward and backward through a hundreds boundary without error",
+          "Identifies the repeating pattern in the number sequence across hundreds"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Place value to 1000",
+        "progression_checkpoint": "Students can read, write and represent three-digit numbers using materials grouped into hundreds, tens and ones, and explain the value of each digit.",
+        "minimum_width": "Read, write and make a given three-digit number using base-ten materials; explain the value of each digit (e.g. the 3 in 345 means 3 hundreds = 300).",
+        "typical_width": "Read, write and represent a range of three-digit numbers including those with zeros in tens or ones position; explain each digit's value; match numerals to grouped materials and vice versa.",
+        "wider": [
+          "Collect and group a large quantity of objects (e.g. recycling items) into hundreds, tens and ones; record as a three-digit numeral and explain each group",
+          "Represent the same number in multiple ways using materials: e.g. 245 shown as 2 hundreds 4 tens 5 ones, and as 24 tens 5 ones — discuss why both are valid"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who drop or misread zero-placeholder digits (e.g. reading 305 as 35) will produce systematic ordering errors in Node 3 — they cannot correctly compare three-digit numbers if their digit-value interpretation is unreliable.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The meaning of each digit's positional value (especially zero as a placeholder) is a well-known misconception cluster. Representing numbers in multiple physical and symbolic forms helps students see that the digit's position — not just its face value — determines its meaning.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multiple representational forms (materials, numerals, number lines, charts) each illuminate different aspects of place value. Advancing students benefit from connecting these representations and articulating why 305 and 350 are different even though both use 3 and 5.",
+        "success_criteria": [
+          "Makes a given three-digit number using base-ten materials and states the value of each digit correctly",
+          "Writes the numeral for a set of grouped materials including at least one example with a zero digit"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Ordering three-digit numbers",
+        "progression_checkpoint": "Students can compare and order a set of three-digit numbers from smallest to largest (and largest to smallest), justifying their ordering.",
+        "minimum_width": "Order a set of at least four three-digit numbers from smallest to largest; explain which digit to compare first.",
+        "typical_width": "Order sets of three-digit numbers including numbers that share the same hundreds digit; locate numbers on a 0–1000 number line; identify missing numbers in a sequence.",
+        "wider": [
+          "Use hundreds chart puzzles to locate positions and reason about number order using patterns in the number system",
+          "Order numbers that look or sound similar (e.g. 808, 880, 818, 881); explain the strategy used to distinguish them",
+          "Locate and order numbers on number lines with different intervals (e.g. every 10, every 100)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Numbers that look or sound similar (808 vs 880) are a documented confusion point. Working across multiple ordering contexts — number lines, charts, symbolic sets — helps students build reliable comparison strategies anchored to place value rather than superficial features.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Ordering numbers that look or sound similar, and working with different number line scales, provides rich pedagogical territory. Advancing students can articulate multi-step comparison strategies and apply them flexibly across contexts.",
+        "success_criteria": [
+          "Orders a set of four or more three-digit numbers correctly from smallest to largest",
+          "Explains which digit position to compare first when ordering three-digit numbers",
+          "Identifies a missing number in a three-digit number sequence"
+        ]
+      }
+    ]
+  }
+}

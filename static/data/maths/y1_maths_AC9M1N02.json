@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1N02",
+    "title": "Partition two-digit numbers",
+    "description": "Partition one- and two-digit numbers in different ways using physical and virtual materials, including partitioning two-digit numbers into tens and ones",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can partition and combine collections up to 10 using part-part-whole relationships (AC9MFN04). They can represent numbers to at least 20 (AC9MFN01). They have not yet partitioned two-digit numbers systematically into tens and ones, or explored non-standard partitions of two-digit numbers.",
+    "progression_endpoint": "Students partition one- and two-digit numbers in different ways using physical and virtual materials, including partitioning two-digit numbers into tens and ones.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Part-part-whole to 10",
+        "progression_checkpoint": "Students can identify and represent all pairs of numbers that combine to make 10, using physical or virtual materials.",
+        "minimum_width": "Use ten-frames or physical materials to find at least three pairs that combine to make 10; record the pairs as number combinations.",
+        "typical_width": "Use virtual ten-frames, physical materials and part-part-whole diagrams to identify all pairs to 10; build fluency with the full set of combinations; explain why 0+10, 1+9, 2+8 … all equal 10.",
+        "wider": [
+          "Explore part-part-whole combinations to 10 using different manipulatives (two-colour counters, interlocking cubes, bead strings), comparing how each makes the structure visible.",
+          "Investigate how number bonds to 10 appear in cultural artefacts such as abacus designs and ten-frame tools used in different countries."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fluency with number combinations to 10 is foundational to all addition and subtraction strategies at this level. Students need practice and precision with these facts — they are building blocks, not concepts that widen significantly.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Number bond fluency to 10 is a direct prerequisite for the bridging-through-10 strategy in AC9M1N04 Node 2 — students who cannot recall combinations to 10 automatically cannot execute the bridge (e.g. knowing that 7 needs 3 to make 10).",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States the missing part when given one part and the whole (e.g. 7 and ___ make 10).",
+          "Represents a number combination to 10 using materials or a diagram."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Standard partition: tens and ones",
+        "progression_checkpoint": "Students can partition a two-digit number into tens and ones using physical materials, and record the partition using numbers.",
+        "minimum_width": "Partition a given two-digit number into tens and ones using physical materials; record as a number statement (e.g. 35 = 3 tens and 5 ones).",
+        "typical_width": "Partition a range of two-digit numbers into tens and ones using physical and virtual materials; record using number statements; connect the digits in the numeral to the grouped materials; include numbers with zero ones (e.g. 40 = 4 tens).",
+        "wider": [
+          "Use multiple representations of the same partition (MAB blocks, bundled sticks, ten-frames, place-value chart) and compare how each displays the tens and ones.",
+          "Investigate how place-value notation for tens and ones functions in other numeration systems — noting what is structurally similar and different."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently partition into tens and ones correctly with MAB blocks but fail to connect this to the digit positions in the written numeral. Using multiple physical representations alongside the numeral helps students see that the tens digit records the grouped count, not just an arbitrary symbol.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection between physical grouping and place-value notation is the conceptual engine of the number system. Students who see this connection clearly across multiple representations develop early algebraic understanding of positional notation.",
+        "success_criteria": [
+          "Partitions a given two-digit number into the correct number of tens and ones using materials.",
+          "Records the partition as a correct number statement connecting the groups to the numeral."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Non-standard partitions",
+        "progression_checkpoint": "Students can partition a two-digit number in multiple ways, including non-standard partitions, and record each partition.",
+        "minimum_width": "Find at least two different partitions of a two-digit number (one standard, one non-standard); record each as a number statement.",
+        "typical_width": "Partition two-digit numbers in multiple ways — standard (tens and ones) and non-standard (e.g. 24 = 10 + 14 = 20 + 4 = 15 + 9); use physical and virtual materials to build and check each partition; record all partitions found.",
+        "wider": [
+          "Systematically find all non-standard partitions of a two-digit number, organising the results in a table and explaining any patterns noticed.",
+          "Connect non-standard partitions to addition strategies — identifying which partitions are most useful as 'bridging' strategies for adding numbers within 20."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students readily find the standard tens-and-ones partition but resist non-standard partitions, often believing only one correct partition exists. Scaffolding with a systematic approach (fix one part, vary the other) supports the reasoning that any partition that totals the original number is valid."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces at least two different correct partitions of a given two-digit number.",
+          "Verifies each partition by combining the parts and confirming the total."
+        ]
+      }
+    ]
+  }
+}

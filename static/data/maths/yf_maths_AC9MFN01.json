@@ -1,0 +1,96 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFN01",
+    "title": "Numbers to 20",
+    "description": "name, represent and order numbers including zero to at least 20, using physical and virtual materials and numerals",
+    "strand": "Number",
+    "mode": "A",
+    "prior_knowledge": "Students have informal number experience from pre-school and home contexts — counting objects in play, hearing number words in songs and stories. They have not yet formally connected number names, numerals and quantities in a consistent ordered sequence to 20.",
+    "progression_endpoint": "Students name, represent and order numbers including zero to at least 20 using physical and virtual materials and numerals, and use ordinal language to describe positions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Number names and numerals to 10",
+        "progression_checkpoint": "Students can name numbers to 10 and match number names to numerals and to quantities.",
+        "minimum_width": "Match spoken number names to the correct numeral and to a collection of objects for numbers 1 to 10.",
+        "typical_width": "Name, read and write numerals 0 to 10; match each numeral to a quantity; recognise numerals in familiar contexts (books, labels, number tracks); connect number names to quantities in counting songs and stories.",
+        "wider": [
+          "Explore numbers 0 to 10 across multiple representations (numeral, dot pattern, fingers, ten-frame) and connect between representations",
+          "Connect quantities to number names and numerals through First Nations Australians' counting contexts — e.g. Segur etug from Mer Island in the Torres Strait region"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Number–numeral correspondence requires repeated exposure and practice. Students commonly know some number names from songs without connecting them reliably to numerals or quantities. Repeated practice connecting the three forms (name, numeral, quantity) is the primary support need here — breadth alone does not resolve incomplete correspondence.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Name–numeral–quantity correspondence to 10 is the foundation for extending to 20 (node 2) and ordering (node 3). Students with incomplete correspondence at 0–10 cannot reliably read teen numerals or place numbers on a number track — gaps here produce systematic errors across all subsequent number work.",
+        "success_criteria": [
+          "Student reads and names numerals 0 to 10 in and out of order",
+          "Student matches each numeral 0 to 10 to a collection of the correct number of objects"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Extending numbers to 20",
+        "progression_checkpoint": "Students can name, read and represent numbers from 11 to 20, recognising the pattern in the sequence.",
+        "minimum_width": "Name and match numerals to quantities for numbers 11 to 20.",
+        "typical_width": "Name, read and write numerals 0 to 20; recognise the order in the number sequence to 20; connect teen number names to their quantities; identify one more and one less for numbers to 20.",
+        "wider": [
+          "Investigate the pattern in teen number names (thirteen, fourteen... nineteen) and discuss how the number sequence is structured",
+          "Use instructive card games involving reading and ordering number cards to 20 — including numbers placed out of order to practise ordering",
+          "Explore how counting beyond 20 continues the pattern, making predictions about numbers in the twenties"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Teen numbers are a common site of confusion — number names like 'fourteen' do not transparently communicate '4 more than 10' in English. Encountering teen numbers across many representations (number lines, tens frames, spoken sequences, written numerals) helps students build reliable connections rather than relying on rote recitation alone.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to order all numbers 0–20 and use ordinal language — both depend on reliable numeral recognition across the full range. Students who confuse teen numerals (e.g. 14 vs 40, or 13 vs 30) cannot place numbers in correct sequence, making ordering unreliable.",
+        "success_criteria": [
+          "Student reads numerals 11 to 20 correctly",
+          "Student correctly identifies one more and one less for numbers to 20 on at least three occasions"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Ordering numbers and using ordinal language",
+        "progression_checkpoint": "Students can order numbers 0 to 20 from smallest to largest and use ordinal language to describe positions in a sequence.",
+        "minimum_width": "Place at least five numbers (0 to 20) in correct order on a number track or line; use 'first' and 'last' to describe positions.",
+        "typical_width": "Order all numbers 0 to 20; describe positions using ordinal terms (first, second, third... fifth... last); connect ordinal language to positions in familiar sequences (e.g. line-ups, races, card games); read and write numerals as labels for ordinal positions.",
+        "wider": [
+          "Use a number track with cards 0 to 20 to explore 'before', 'after' and 'between' relationships — asking and answering positional questions",
+          "Connect ordinal language to First Nations Australians' counting and ordering contexts",
+          "Extend ordering beyond 20 — predicting where numbers like 25 or 30 would sit on a number line and justifying the placement"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Ordering numbers integrates name–numeral knowledge (nodes 1 and 2) with understanding of the number sequence. Students must coordinate numeral recognition and sequence knowledge to place numbers correctly. Ordinal language adds a second layer — position in the sequence — that must be connected to the same framework.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The number sequence to 20 and beyond, connected to ordinal positions and positional language, is rich territory for advancing students. Exploring before/after/between relationships, predicting beyond 20, and investigating the structure of the counting sequence deepens number sense well beyond identification.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student places numbers 0 to 20 in correct order with no more than one error",
+          "Student correctly uses ordinal terms (first, second, third, last) to describe positions in a familiar sequence"
+        ]
+      }
+    ]
+  }
+}

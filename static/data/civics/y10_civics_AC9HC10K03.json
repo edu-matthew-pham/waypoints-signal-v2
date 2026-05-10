@@ -1,0 +1,139 @@
+{
+  "year_level": "10",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC10K03",
+    "title": "Parliament, High Court and rights",
+    "description": "the role of the parliament and the High Court of Australia in protecting rights under the Constitution, common law, and through federal and state statute law",
+    "strand": "Laws and Citizens",
+    "mode": "A",
+    "prior_knowledge": "Students know the key features and jurisdictions of Australia's court system and the operations of courts and tribunals (AC9HC9K03). They understand the role of courts, judges, lawyers and juries in trials, and the rights of the accused and victims (AC9HC9K04).",
+    "progression_endpoint": "Students explain the roles of both parliament and the High Court in protecting rights through the Constitution, common law, and statute law, comparing different mechanisms and their effectiveness.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sources of rights protection in Australia",
+        "progression_checkpoint": "Students can identify the three main sources of rights protection in Australia — the Constitution, common law, and statute law — and explain how each operates.",
+        "minimum_width": "Identify the three sources of rights protection (Constitution, common law, statute law) and explain in basic terms how each provides protection.",
+        "typical_width": "Explain how the Constitution, common law, and federal and state statute law each protect rights, including the nature of express versus implied constitutional rights, judge-made common law rights, and legislated rights.",
+        "wider": [
+          "Compare Australia's approach to rights protection (without a bill of rights) with a constitutional bill of rights (e.g. USA) and a statutory bill of rights (e.g. New Zealand), evaluating the strengths and limitations of each",
+          "Investigate what 'express rights' and 'implied rights' mean in the Australian constitutional context using specific historical examples",
+          "Explore why Australia does not have a national bill of rights and analyse the arguments for and against introducing one"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate the three sources — or who don't understand the distinction between constitutional, common law and statutory rights — will misattribute the role of parliament vs High Court in subsequent nodes, undermining the whole comparison.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The three-source framework requires clear categorical distinctions. Students commonly conflate common law and statute law, or assume the Constitution is the only source. Scaffolded comparison of all three before examining specific cases reduces confusion.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing with the US and NZ models gives students a clear external reference point that makes Australia's unusual rights framework more legible.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparative bill-of-rights direction is pedagogically rich — it forces students to think about why rights are protected in specific ways, not just what the mechanism is. The 'no bill of rights' debate is a genuine live civic question.",
+        "success_criteria": [
+          "Correctly identifies all three sources of rights protection in Australia",
+          "Explains how at least two of the three sources operate to protect rights",
+          "Distinguishes between constitutional rights and legislated rights"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Role of the High Court in interpreting and applying law",
+        "progression_checkpoint": "Students can explain the role of the High Court in interpreting and applying the law, and identify examples of High Court decisions that have shaped rights protection.",
+        "minimum_width": "Explain the High Court's role in interpreting the Constitution and applying the law, using at least one contemporary or significant case as an example.",
+        "typical_width": "Explain the role of the High Court in interpreting and applying the law, including exploration of express and implied constitutional rights through significant cases (e.g. Kruger v the Commonwealth, Roach v Electoral Commissioner, Mabo).",
+        "wider": [
+          "Investigate how the Native Title Act 1993 emerged from High Court interpretation of common law in Mabo, and how it then became enshrined in statutory law — tracing the pathway from case to legislation",
+          "Research how the Stolen Generations Case (Kruger v the Commonwealth) and the Vicki Lee Roach Case shaped understanding of implied rights in Australia",
+          "Examine a recent High Court decision and analyse how it changed or clarified existing rights protections"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who don't understand the High Court's interpretive role — that it applies existing law rather than making policy, but its interpretations can effectively create new rights — will not be able to accurately compare the parliament's and court's roles in the final node.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly misunderstand the distinction between judicial interpretation and legislative change. Invest in the 'how courts create law through interpretation' concept before examining specific cases.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The Mabo to Native Title Act pathway is a rare concrete example of the complete journey from common law to statute — a rich case for students who need an illustration of how the two sources interact.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The native title pathway (Mabo → Native Title Act) is a compelling, historically significant case that illustrates the interaction between courts and parliament in rights creation — not just a 'more' case but a qualitatively different kind of example.",
+        "success_criteria": [
+          "Explains the High Court's role in interpreting and applying the law",
+          "Identifies at least one case in which the High Court's interpretation shaped rights protection",
+          "Explains what the court decided and the significance of that decision for rights"
+        ],
+        "related_standards": ["AC9HC10K04"]
+      },
+      {
+        "id": 3,
+        "label": "Role of parliament in legislating rights",
+        "progression_checkpoint": "Students can explain how parliament protects rights through federal and state statute law, and how legislative rights differ from constitutional rights.",
+        "minimum_width": "Explain how parliament can create, modify or remove statutory rights through legislation, and identify at least one example of a law that protects rights.",
+        "typical_width": "Explain how parliament protects rights through federal and state statute law, including how legislative rights differ from constitutional protections, and discuss the significance of parliament's capacity to both create and remove statutory rights.",
+        "wider": [
+          "Investigate a case where parliament has legislated to override common law rights or to restrict previously legislated rights, and evaluate the implications",
+          "Compare the protections available to First Nations Australians under statute law with those available through constitutional and common law pathways",
+          "Examine a state-level statutory bill of rights (e.g. ACT Human Rights Act, Victorian Charter of Human Rights) and evaluate what it can and cannot protect"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Including state-level statutory rights instruments (ACT, Victoria) widens students' understanding of how parliament operates at different levels to protect rights — not just federal Parliament.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "State-level human rights legislation provides concrete examples often overlooked — students who examine the ACT or Victorian instruments understand parliamentary rights protection at a much more concrete level, including what statutory rights cannot do (override constitutional law).",
+        "success_criteria": [
+          "Explains how parliament can legislate to protect rights",
+          "Identifies at least one specific piece of legislation and the right it protects",
+          "Explains at least one way that statutory rights differ from constitutional rights"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Comparing and evaluating both institutions' roles",
+        "progression_checkpoint": "Students can compare the roles of parliament and the High Court in protecting rights, explaining how they interact and evaluating the effectiveness of Australia's overall approach to rights protection.",
+        "minimum_width": "Compare the roles of parliament and the High Court in protecting rights, identifying at least one key similarity and one key difference in how each institution contributes to rights protection.",
+        "typical_width": "Compare the roles of parliament and the High Court across constitutional, common law, and statute law contexts, explaining how the two institutions interact and evaluating the strengths and limitations of Australia's approach to protecting rights.",
+        "wider": [
+          "Evaluate whether Australia's patchwork approach to rights protection (no national bill of rights; relying on courts, parliament and common law) adequately protects all citizens, including marginalised groups",
+          "Analyse the Stolen Generations case and the native title pathway together as a set, drawing conclusions about what each institution can and cannot achieve",
+          "Compare Australia's approach with the USA or New Zealand and argue which model better protects citizens' rights, with evidence"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integration node — all earlier content (sources framework, High Court role, parliamentary role) comes together in an evaluative comparison. Teaching investment is in supporting the synthesis and helping students formulate a defensible argument rather than adding new factual content."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Compares parliament and the High Court's roles in rights protection with at least one similarity and one difference",
+          "Explains how the two institutions interact (e.g. parliament can respond to court decisions; courts interpret parliamentary legislation)",
+          "Offers a supported judgement about the effectiveness of Australia's approach to rights protection"
+        ],
+        "related_standards": ["AC9HC10K04", "AC9HC10K05"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LE05",
+    "title": "Create texts using literary features",
+    "description": "create imaginative texts or adaptations of texts using key features of literary texts appropriate to Year 2",
+    "strand": "Creating literature",
+    "mode": "B",
+    "prior_knowledge": "Students retell or adapt familiar stories using plot, characters, language features and structure (AC9E1LE05). They have not yet independently created imaginative texts or adaptations that deliberately apply key literary features as design choices.",
+    "progression_endpoint": "Students can create imaginative texts or adaptations using key literary features including character, setting, and narrative structure appropriate to Year 2.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying features to use",
+        "progression_checkpoint": "Students can identify key literary features in a model text and articulate how they will use those features in their own creation.",
+        "minimum_width": "Identify at least two literary features in a model text and state which they will use in their own creation.",
+        "typical_width": "Analyse a model text for literary features — character type, setting, structural pattern, language choices — and make deliberate decisions about which to use and how to adapt them for their own text.",
+        "wider": [
+          "Compare features across two model texts with different tones or purposes and discuss which features would suit their intended creation",
+          "Use a planning frame to map their intended character, setting and narrative structure before drafting"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "In Mode B, the planning phase is a hinge — shallow analysis of the model text cascades into an underdeveloped creation. Making the feature-identification and feature-selection reasoning explicit before drafting begins prevents downstream phase collapse.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Shallow feature identification at this node cascades directly into Nodes 2 and 3 — students who have not clearly identified which features they will use produce character and setting descriptions that lack deliberate design, and narratives with no coherent structural basis.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can name at least two literary features from a model text.",
+          "Student can articulate how they will use each feature in their own creation before drafting."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Creating character and setting",
+        "progression_checkpoint": "Students can create a character and setting for their imaginative text using deliberate language choices that establish each feature.",
+        "minimum_width": "Write a character description and setting description using at least one specific language choice for each.",
+        "typical_width": "Create characters with distinct personalities and settings with a clear sense of place, using specific vocabulary — nouns, adjectives — and establishing how character and setting connect.",
+        "wider": [
+          "Create a character who is transformed by or in conflict with their setting, using language that makes the connection explicit",
+          "Adapt an existing character into a different setting and discuss how the change affects the character's behaviour and the language used to describe them"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Character-setting connection is a rich creative direction — students who explore how a setting shapes a character's possibilities have genuine creative latitude. The adaptation task (existing character, new setting) is particularly productive for advancing students.",
+        "success_criteria": [
+          "Student creates a character with at least one specific language choice that establishes personality or appearance.",
+          "Student creates a setting with at least one language choice that establishes a sense of place.",
+          "Student's character and setting are meaningfully connected — the setting is not arbitrary."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Structuring a narrative",
+        "progression_checkpoint": "Students can create a short narrative or adaptation with a recognisable narrative structure — orientation, complication, resolution — and review it for coherence.",
+        "minimum_width": "Write a short narrative with an identifiable orientation, complication and resolution.",
+        "typical_width": "Create or adapt a complete narrative with a coherent structure, using language features studied — noun groups, character description, setting language — and review for structural completeness and vocabulary choices.",
+        "wider": [
+          "Create an adaptation that changes a familiar story's setting or character and discuss how the change affects the plot and resolution",
+          "Write a narrative with a complication that requires the character to draw on the setting — using character-setting connection as a narrative device"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating a complete narrative requires students to coordinate character creation, setting establishment, and narrative structure simultaneously — integrating all the literary features studied. Coordinated execution across all components is the learning demand of this phase."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student's narrative has an identifiable orientation, complication and resolution.",
+          "Student's character and setting are established using specific language features.",
+          "Student can review their text and identify at least one aspect they revised."
+        ]
+      }
+    ]
+  }
+}

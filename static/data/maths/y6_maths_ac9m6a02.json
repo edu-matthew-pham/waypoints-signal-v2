@@ -1,0 +1,104 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6A02",
+    "title": "Unknown values with brackets",
+    "description": "Find unknown values in numerical equations involving brackets and combinations of arithmetic operations, using the properties of numbers and operations",
+    "strand": "algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can find unknown values in numerical equations involving multiplication and division using properties of numbers and operations (AC9M5A02). They understand inverse operations. They have not yet worked with equations involving brackets or combined operations requiring order-of-operations reasoning.",
+    "progression_endpoint": "Students can find unknown values in numerical equations involving brackets and combinations of arithmetic operations using properties of numbers and operations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Order of operations including brackets",
+        "progression_checkpoint": "Students can evaluate numerical expressions involving brackets and combinations of operations, applying order-of-operations conventions correctly.",
+        "minimum_width": "Evaluate at least five expressions involving brackets and at least two different operations; explain why brackets take priority over other operations.",
+        "typical_width": "Evaluate expressions with brackets, powers (where introduced), and combinations of the four operations using the correct order; verify that the same expression gives different results if bracket placement changes; identify errors in given worked examples.",
+        "wider": [
+          "Investigate the BODMAS/BIDMAS convention history \u2014 why was a convention needed and what problems arise without it?",
+          "Explore calculator behaviour with and without brackets and explain any discrepancies"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly over-apply left-to-right evaluation or misplace the priority of brackets. Varied expression types \u2014 brackets nested, brackets with subtraction, expressions with both addition and multiplication \u2014 expose different manifestations of this misconception.",
+            "flags": [
+              "hinge"
+            ]
+          },
+          {
+            "mode": "consolidation",
+            "reason": "Order of operations requires procedural precision that underpins all equation work with combined operations. Errors here cascade into every subsequent equation-solving task.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Correct order-of-operations evaluation is the prerequisite for Node 2. Students who misapply bracket priority will apply inverse operations in the wrong sequence when solving for unknowns, producing systematic errors that cannot be self-corrected.",
+        "success_criteria": [
+          "Student correctly evaluates expressions involving brackets and mixed operations.",
+          "Student explains why bracket placement changes the result of an expression."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Finding unknown values in equations with brackets",
+        "progression_checkpoint": "Students can find unknown values in numerical equations involving brackets and combinations of operations by applying inverse operations and number properties systematically.",
+        "minimum_width": "Find the unknown value in at least four equations involving brackets and mixed operations (e.g. (\u25a1 + 3) \u00d7 4 = 28); show the inverse operation steps.",
+        "typical_width": "Find unknowns in equations with brackets using inverse operations, number properties (commutativity, associativity, distributivity), and systematic reasoning; verify solutions by substitution; identify where multiple steps are needed.",
+        "wider": [
+          "Investigate equations where the unknown appears on both sides of the equation \u2014 how does your strategy need to change?",
+          "Write your own equations with unknowns in different positions within brackets and exchange with a partner to solve"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students solving equations with brackets often apply the inverse operation to the wrong component or neglect bracket priority in their inverse operations. Scaffolding the 'undo in reverse order' logic explicitly is needed before students can reliably solve multi-step equations.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Equation solving with brackets is the gateway to algebraic thinking. The structural richness \u2014 position of unknown, complexity of bracket expression, number of steps \u2014 rewards deliberate exploration for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly finds the unknown in an equation with brackets using inverse operations.",
+          "Student verifies the solution by substituting back into the original equation."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Using number properties to solve and simplify",
+        "progression_checkpoint": "Students can apply number properties (distributive, associative, commutative) to simplify expressions and solve equations involving brackets and combinations of operations.",
+        "minimum_width": "Apply the distributive property to expand at least two expressions with brackets (e.g. 4 \u00d7 (3 + 7) = 4 \u00d7 3 + 4 \u00d7 7); use this to simplify calculations.",
+        "typical_width": "Apply distributive, associative, and commutative properties strategically to simplify complex numerical expressions before or instead of direct calculation; recognise which property applies in a given situation and explain the reasoning.",
+        "wider": [
+          "Use number properties to develop and justify mental calculation strategies \u2014 e.g. why 6 \u00d7 99 = 6 \u00d7 (100 \u2212 1) = 594",
+          "Investigate how the distributive property connects to area models and can be used to justify multiplication algorithms"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Applying number properties to simplify equations integrates order-of-operations knowledge, equation-solving strategies, and algebraic properties. The coordination of these in service of efficient calculation is the goal of this node."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student applies the distributive property to expand or simplify a bracketed expression.",
+          "Student uses at least one number property to simplify a calculation and names the property used."
+        ]
+      }
+    ]
+  }
+}

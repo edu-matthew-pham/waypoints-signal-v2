@@ -1,0 +1,98 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P13",
+    "title": "Cyber security threat models",
+    "description": "develop cyber security threat models, and explore a software, user or software supply chain vulnerability",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can explain how multi-factor authentication protects accounts and manage basic security settings (AC9TDI8P13). They understand access control concepts from AC9TDI10K01. They have not yet modelled how data moves through a system, constructed a threat model, or explored how specific vulnerabilities can be exploited.",
+    "progression_endpoint": "Students develop cyber security threat models to identify where data is at risk in a system, and explore a specific software, user or software supply chain vulnerability.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Data flow diagrams for threat modelling",
+        "progression_checkpoint": "Students can use a data flow diagram to trace how private information moves through a system and identify where it is most at risk.",
+        "minimum_width": "Draw a data flow diagram for a simple system showing at least two data flows; identify one point where the data could be at risk.",
+        "typical_width": "Map how data moves between user, application and server in a web-based system using a data flow diagram; identify points where data is transmitted, stored, or processed; for each point, identify what threat exists and why that point is a target.",
+        "wider": [
+          "Map data flows in a more complex system with multiple actors (user, server, third-party APIs) and identify threats at each boundary",
+          "Compare the data flow diagram for the same system with and without a specific security control \u2014 explain how the control changes the threat profile"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Threat modelling requires systematic thinking \u2014 for every data flow, what is the threat? Students who approach security intuitively spot obvious threats (password interception) but miss subtler ones (session token exposure, plaintext in logs). The data flow diagram provides the structure that makes systematic threat identification possible.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Data flow diagram correctly shows at least two data flows between system components",
+          "At least one threat is identified at a specific point in the diagram with an explanation of why that point is at risk"
+        ],
+        "hinge": true,
+        "hinge_reason": "Data flow diagrams are the analytical foundation for N2 and N3 \u2014 students who cannot map how data moves through a system cannot identify where it is at risk (N2) or trace the steps of exploiting a vulnerability (N3)."
+      },
+      {
+        "id": 2,
+        "label": "Understanding vulnerability types",
+        "progression_checkpoint": "Students can describe the nature of software, user and software supply chain vulnerabilities and explain how each can be exploited.",
+        "minimum_width": "Describe at least one type of vulnerability (software, user, or supply chain) and explain how it could be exploited.",
+        "typical_width": "Describe each of the three vulnerability types \u2014 software vulnerabilities (flaws in code), user vulnerabilities (social engineering, weak credentials), and software supply chain vulnerabilities (compromised dependencies); explain a realistic exploitation path for each.",
+        "wider": [
+          "Research a real-world cyber attack and classify the vulnerabilities exploited \u2014 explain the exploitation chain",
+          "Investigate how prompt injection attacks can change the intended behaviour of generative AI models \u2014 explain why this is a software supply chain concern in AI-integrated systems",
+          "Examine how dependency vulnerabilities in software supply chains have caused high-profile breaches \u2014 explain what the vulnerability was and how it propagated"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Vulnerability categories are best understood through distinct real-world cases \u2014 a social engineering example, a software bug example, and a supply chain example each illuminate a different attack surface. Students who only see one category often conflate the others.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Prompt injection as a supply chain concern and real-world breach analysis are substantive and contemporary directions \u2014 prompt injection is genuinely novel territory that extends the concept of software vulnerabilities into AI systems.",
+        "success_criteria": [
+          "Correctly describes at least one vulnerability type",
+          "Explains a realistic path by which the vulnerability could be exploited (not just that it exists)"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Exploring a specific vulnerability",
+        "progression_checkpoint": "Students can systematically explore a specific vulnerability in their own software by tracing the exploitation path and observing the impact.",
+        "minimum_width": "Identify one vulnerability in a system (own or provided); trace the steps involved in exploiting it; describe what an attacker could access or do.",
+        "typical_width": "Systematically explore a vulnerability in own software \u2014 map the exploitation path (e.g. changing a login cookie value to that of another user); observe the impact; explain what the vulnerability allows an attacker to do and why the system is susceptible.",
+        "wider": [
+          "Explore an authentication bypass vulnerability and explain what access control decision it subverts \u2014 what should the system have checked that it didn't?",
+          "Investigate the full impact of a successfully exploited vulnerability \u2014 not just initial access but what data or capabilities become exposed as a consequence"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a specific vulnerability and traces at least the first step of exploitation",
+          "Describes the impact \u2014 what an attacker would gain or access as a result"
+        ],
+        "notes": "Exploration should be conducted only on systems the student owns or that are explicitly provided for this purpose (e.g. deliberately vulnerable lab environments). This is a critical pedagogical boundary \u2014 emphasise ethical constraints of security research.",
+        "related_standards": [
+          "AC9TDI10K01",
+          "AC9TDI10P14"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

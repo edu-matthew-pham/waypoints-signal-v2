@@ -1,0 +1,421 @@
+{
+  "description": "Mathematics Year 4 width tiers — all descriptors. Generated from ACARA v9 elaborations per width_generation_prompt.md v1.0.",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "band": "4",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest context in which a student can honestly satisfy the descriptor's command term. For concept/understanding descriptors: the minimum range of phenomena or representations. For fluency descriptors: basic recall demonstrated in one context. For modelling descriptors: one worked problem with formulation and interpretation.",
+    "typical_width": "The full scope of the descriptor as ACARA intended, grounded in the most common elaboration cases. What a well-taught Year 4 class would engage with across a unit.",
+    "wider": "Enrichment directions that add phenomena, contexts, cultural perspectives or transfer tasks. Must genuinely broaden the range of cases — not harder versions of the same context. First Nations directions included where elaborations indicate them.",
+    "elaborations": "ACARA v9 elaborations are treated as source data for grounding typical_width and identifying wider directions. They are not a required checklist. Where elaborations overlap, they are merged into a single tier item."
+  },
+  "standards": {
+    "AC9M4N01": {
+      "strand": "Number and Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Represent tenths using a bar model or materials; name and write decimal numbers to tenths (e.g. 0.3, 1.7); identify the value of each digit.",
+      "typical_width": "Represent and name tenths and hundredths using materials and diagrams; rename decimals (e.g. 0.25 as two-tenths and five-hundredths or twenty-five hundredths); connect decimal notation to money and measurement contexts (e.g. $2.75, 2.75 m); compare the way decimals are read in money vs measurement contexts.",
+      "wider": [
+        "Explore the multiplicative relationship between wholes, tenths and hundredths using bundling materials (e.g. one straw = whole, cut into 10 = tenths, cut again = hundredths) to build structural understanding of the place value chain",
+        "Connect decimal notation to metric measurement across multiple attributes: metres/centimetres, kilograms/grams, litres/millilitres — examining how the decimal point marks the transition between units",
+        "Investigate how decimal notation is used and read differently across contexts (money, scientific measurement, sporting scores) and discuss why conventions differ"
+      ],
+      "elaborations": [
+        "using a bar to represent the whole, dividing it into 10 equal pieces with each piece representing 0.1 or a tenth of the whole length",
+        "using materials to show the multiplicative relationship between the whole, tenths and hundredths; for example, using a bundle of 10 straws",
+        "recognising that one is the same as ten-tenths and one-tenth is the same as 10 hundredths and using this relationship to rename decimals",
+        "making models of measurement attributes to show the relationship between the base unit and parts of the unit; for example, 1.5 metres is one metre and five-tenths of the next metre",
+        "counting large quantities of mixed notes and coins, writing the total using dollars and cents",
+        "comparing the way money and measures are read and said, and explaining how they are the same and different"
+      ]
+    },
+    "AC9M4N02": {
+      "strand": "Number and Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify whether given numbers are odd or even using the ones digit; explain why numbers ending in 0, 2, 4, 6, 8 are even.",
+      "typical_width": "Identify and explain odd and even numbers using the ones digit rule; explain patterns when adding, subtracting and multiplying odd and even numbers (e.g. odd + even = odd); use these patterns to check arithmetic answers; connect even numbers to equal sharing (divisible by 2 without remainder).",
+      "wider": [
+        "Investigate odd/even patterns across different operations systematically, generating and verifying rules for all combinations (even×even, odd×odd, etc.) and explaining why they hold",
+        "Explore odd and even properties in the context of algorithms — following a flowchart to determine whether numbers are even and extending to identify which numbers in a set are divisible by 2",
+        "Connect odd/even structure to visual patterns (dot arrays, grid arrangements) and investigate which numbers can be arranged in pairs without a remainder"
+      ],
+      "elaborations": [
+        "identifying even numbers and explaining why all numbers that end in the digits 0, 2, 4, 6 and 8 are even",
+        "explaining why some materials can be shared evenly between 2 people without leaving a remainder and some cannot",
+        "explaining the patterns involved in adding, subtracting and multiplying odd and even numbers",
+        "following an algorithm consisting of a flow chart with a series of instructions and decisions to determine whether a number is even or odd"
+      ]
+    },
+    "AC9M4N03": {
+      "strand": "Number and Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify one equivalent fraction for a given fraction using related denominators (e.g. 1/2 = 2/4); connect one fraction to its decimal equivalent using a model (e.g. 1/4 = 0.25 on a number line or ruler).",
+      "typical_width": "Find and represent equivalent fractions using related denominators with materials and diagrams (folding, arrays, fraction families); connect fractions to decimals using measurement contexts (e.g. 1/4 m = 0.25 m = 25 cm); use array diagrams to show the relationship between fractions and multiplication/division.",
+      "wider": [
+        "Extend fraction families systematically across related denominators (halves, quarters, eighths; thirds, sixths, twelfths) using materials to demonstrate that multiple names can represent the same quantity",
+        "Investigate fractions and their decimal equivalents in real-world measurement contexts across multiple attributes (length, capacity, mass), generating and recording equivalent pairs",
+        "Explore the connection between fractions, division and multiplication using array diagrams to reveal the multiplicative structure (e.g. 1/4 of 12 = 12 ÷ 4 = 3)"
+      ],
+      "elaborations": [
+        "extending fraction families within collections of materials; for example, seeing 3/4 as 3 in each 4, showing this within related fractions like 6/8",
+        "creating models of equivalent fractions by subdividing capacity measures into smaller fractions",
+        "folding paper to show equivalence between different fractions",
+        "identifying and using the connection between fractions of metres and decimals",
+        "using array diagrams to show the relationship between fractions and division and multiplication of natural numbers"
+      ]
+    },
+    "AC9M4N04": {
+      "strand": "Number and Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Count by unit fractions (quarters or thirds) past one whole; locate fractions on a number line, including one mixed numeral.",
+      "typical_width": "Count by halves, quarters and thirds on parallel number lines; identify when different fraction counts reach the same position; convert between mixed numerals and improper fractions; represent mixed numerals on a number line; count in tenths and recognise that 10 tenths = 1.",
+      "wider": [
+        "Use parallel number lines showing halves, quarters, thirds and sixths simultaneously to investigate which fraction counts meet at the same positions, building relational understanding across denominator families",
+        "Connect counting in tenths on a number line to decimal place value — moving between fraction notation (7/10) and decimal notation (0.7) for the same position",
+        "Explore counting with mixed numerals in real-world measurement contexts (e.g. lengths in metres, cooking quantities) to ground the number line representation in practical situations"
+      ],
+      "elaborations": [
+        "cutting objects such as oranges or sandwiches into quarters and counting by quarters to find the total number",
+        "subdividing the sections between whole numbers on parallel number lines so that one shows halves, another shows quarters and one other shows thirds",
+        "converting mixed numerals into improper fractions and vice versa and representing mixed numerals on a number line",
+        "using a number line to represent and count in tenths, recognising that 10 tenths is equivalent to one"
+      ]
+    },
+    "AC9M4N05": {
+      "strand": "Number and Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Use materials or a place value chart to demonstrate that multiplying by 10 moves digits one place to the left; solve one multiplication problem using this relationship (e.g. 34 × 10).",
+      "typical_width": "Explain and demonstrate the effect of multiplying and dividing by 10, 100 and 1000 using place value charts or materials; generalise the pattern and apply to solve multiplication problems without a calculator; use a calculator or spreadsheet to confirm and extend the pattern.",
+      "wider": [
+        "Use numeral expanders or sliders to make visible the digit movement interpretation of multiplying/dividing by powers of 10 — exploring why digits 'move' rather than zeros being 'added'",
+        "Investigate the connection between multiplying/dividing by 10 and the structure of metric unit conversions (e.g. cm to mm, kg to g), applying the multiplicative relationship to measurement problems",
+        "Extend beyond 10 and 100 to 1000 and 10 000 using a spreadsheet to generate sequences, identifying how many places digits move and connecting this to the exponent structure"
+      ],
+      "elaborations": [
+        "using physical or virtual materials to demonstrate the multiplicative relationship between the places",
+        "using materials such as place value charts, numeral expanders or sliders to recognise and explain why multiplying by 10 moves the digits one place to the left",
+        "using a calculator or other digital tools to recognise and develop an understanding of the effect of multiplying or dividing numbers by 10s, 100s and 1000s"
+      ]
+    },
+    "AC9M4N06": {
+      "strand": "Number and Algebra",
+      "width_axis": "task_contexts",
+      "minimum_width": "Select and apply one efficient strategy to solve an addition or subtraction problem with three- or four-digit numbers; solve one multiplication problem with a two-digit number using a strategy (e.g. partitioning).",
+      "typical_width": "Develop and explain efficient strategies for addition, subtraction and multiplication (including partitioning, doubling, near-doubles, compensation); use digital tools to check or extend; apply strategies to multi-step problems; select appropriate strategies based on the numbers involved.",
+      "wider": [
+        "Compare the efficiency of multiple strategies for the same problem (e.g. partitioning vs compensation for 297 + 348) and justify which approach is more efficient for different number types",
+        "Investigate division without remainders using arrays and known multiplication facts, developing the connection between division as inverse multiplication and as equal sharing/grouping",
+        "Apply efficient strategies to multi-digit problems embedded in real-world contexts (shopping, sports scores, event planning) where the choice of strategy affects calculation ease"
+      ],
+      "elaborations": [
+        "using an array to develop and explain the area model for multiplication of two- and three-digit numbers by one-digit numbers",
+        "using basic facts and knowledge of place value to develop and explain efficient mental computation strategies",
+        "using digital tools such as calculators or spreadsheets to check and extend solutions"
+      ]
+    },
+    "AC9M4N07": {
+      "strand": "Number and Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Round numbers to the nearest 10 or 100 to estimate the result of one calculation; explain whether an estimate is likely to be above or below the actual answer.",
+      "typical_width": "Use rounding to estimate results of calculations and determine bounding ranges (between what two amounts will the answer fall); apply to financial contexts (shopping, budgeting); explain the effect of rounding both numbers up, both down, or one each way and which gives the best approximation.",
+      "wider": [
+        "Investigate systematic rounding strategies for budget planning — exploring why overestimating is appropriate in some contexts (spending budget) and underestimating in others (time planning)",
+        "Analyse the accumulated effect of rounding in multi-step calculations — when does small rounding error become significant, and how can estimation be used to catch unreasonable answers?",
+        "Connect rounding and estimation to mental computation strategies — exploring how rounding to a friendly number (e.g. rounding $2.60 to $3 then adjusting) makes mental arithmetic manageable"
+      ],
+      "elaborations": [
+        "using proficiency with basic facts to estimate the result of a calculation and say what amounts the answer will be between",
+        "using rounded amounts to complete an estimated budget for a shopping trip or an excursion",
+        "recognising the effect of rounding in addition and multiplication calculations; rounding both numbers up, both numbers down and one number up and one number down"
+      ]
+    },
+    "AC9M4N08": {
+      "strand": "Number and Algebra",
+      "width_axis": "task_contexts",
+      "minimum_width": "Formulate one practical additive or multiplicative problem using a number sentence; solve using an appropriate strategy; interpret the answer in terms of the original situation.",
+      "typical_width": "Model and solve a range of practical problems involving addition, subtraction, multiplication and division using diagrams (part-part-whole, bar model, array); formulate number sentences for each; choose appropriate operations; solve problems involving money; interpret and communicate solutions in context.",
+      "wider": [
+        "Model multi-step problems that require selecting and sequencing operations, justifying the choice of each operation in relation to the problem structure",
+        "Investigate multiplicative comparison problems (e.g. 'Maryam read 4 times as many books') using bar models and arrays — distinguishing additive from multiplicative relationships",
+        "Apply mathematical modelling to financial planning contexts (budgets for events, comparing prices for bulk purchases) where interpreting the solution requires contextual judgement beyond arithmetic"
+      ],
+      "elaborations": [
+        "modelling and solving a range of practical additive problems using materials, part-part-whole diagrams and/or a bar model",
+        "modelling practical problems with division, interpreting and representing the situation using a diagram or array",
+        "modelling practical problems involving money, such as a budget for a large event",
+        "modelling and solving multiplication problems involving money using efficient mental strategies",
+        "modelling situations by formulating comparison problems using number sentences, comparison models and arrays"
+      ]
+    },
+    "AC9M4N09": {
+      "strand": "Number and Algebra",
+      "width_axis": "task_contexts",
+      "minimum_width": "Follow a given algorithm using addition or multiplication to generate a number sequence; identify and describe one pattern in the sequence.",
+      "typical_width": "Follow and create algorithms that generate number sequences using addition or multiplication; represent algorithms using basic flowcharts; use calculators or spreadsheets to extend sequences; identify, describe and explain emerging patterns; recognise that sequences can be extended indefinitely.",
+      "wider": [
+        "Use the 'fill down' function in a spreadsheet with a multiplication formula to generate large sequences (e.g. 100 terms) and identify patterns that are difficult to see in short sequences",
+        "Create and compare algorithms that generate the same sequence by different rules (e.g. ×4 each time vs +4, +8, +12…) and investigate when they diverge",
+        "Investigate algorithms that generate number sequences involving multiples and identify visual patterns when these sequences are plotted or represented on a number chart"
+      ],
+      "elaborations": [
+        "creating an algorithm that will generate number sequences involving multiples of one to 10 using digital tools",
+        "creating a basic flow chart that represents an algorithm that will generate a sequence of numbers using multiplication by a constant term",
+        "using a multiplication formula in a spreadsheet and the 'fill down' function to generate a sequence of numbers"
+      ]
+    },
+    "AC9M4A01": {
+      "strand": "Number and Algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Use the inverse relationship between addition and subtraction to find one unknown value in a number sentence (e.g. 27 + □ = 63); explain the reasoning used.",
+      "typical_width": "Use properties of numbers and operations (commutativity, inverse relationship, part-part-whole) to find unknowns in addition and subtraction equations; use balance models, number lines and bar models; explain whether equations are true or false using relational thinking; solve equivalent number sentences (e.g. 6 + 8 = □ + 10).",
+      "wider": [
+        "Explore equivalent number sentences systematically — generating families of equations with the same value on both sides (e.g. □ + 9 = 7 + □) and explaining what makes them equivalent",
+        "Use balance scales and informal units as a physical model for equation equivalence — moving quantities between sides while maintaining balance and connecting this to symbolic manipulation",
+        "Investigate the commutative property across multiple-addend equations, exploring how different orderings of three or more addends can make mental calculation easier"
+      ],
+      "elaborations": [
+        "demonstrating the commutative properties of addition using materials, diagrams and number lines",
+        "using balance scales and informal uniform units to create addition or subtraction number sentences showing equivalence and to find unknowns",
+        "using relational thinking and knowledge of equivalent number sentences to explain whether equations are true",
+        "using part-part-whole diagrams or bar models to recognise and explain the inverse relationship between addition and subtraction"
+      ]
+    },
+    "AC9M4A02": {
+      "strand": "Number and Algebra",
+      "width_axis": "depth_fallback",
+      "minimum_width": "Recall multiplication facts for a subset of the 10×10 table (e.g. 2s, 5s, 10s); demonstrate related division facts for these; apply at least one strategy to derive an unfamiliar fact from a known one.",
+      "typical_width": "Recall and demonstrate proficiency with all multiplication facts up to 10×10 and related division facts; explain and use derivation strategies (doubling, halving, adding/subtracting a group, distributive property); apply known facts to compute with larger numbers mentally.",
+      "wider": [
+        "Limited width — multiplication fact recall is a procedural fluency goal with thin contextual variation at this year band. Enrichment goes deeper rather than broader. Investigate the structure of the multiplication table: patterns in rows, columns and diagonals; symmetry of the table (commutativity); identifying which facts appear most frequently and why.",
+        "Design and play instructive card games that embed multiplication and division fact recall in varied game formats — shifting from recognition to automaticity through varied retrieval contexts",
+        "Explore the distributive property visually using arrays: decompose one factor in multiple ways (e.g. 7 = 2+5, 7 = 3+4) and verify that both decompositions give the same product"
+      ],
+      "elaborations": [
+        "using arrays on grid paper to develop, represent and explain patterns in the 10×10 multiplication facts",
+        "using materials or diagrams to develop and record multiplication strategies such as doubling, halving, commutativity",
+        "using known multiplication facts for 2, 3, 5 and 10 to establish multiplication facts for 4, 6, 7, 8 and 9",
+        "using arrays and known multiplication facts for twos and fives to develop the multiplication facts for sevens, applying the distributive property",
+        "using known multiplication facts and the inverse relationship to establish division facts",
+        "designing, creating and playing instructive card games involving recall of multiplication facts"
+      ],
+      "width_notes": "Flagged depth_fallback: multiplication fact recall is a consolidation-heavy standard with limited contextual variation. Width enrichment investigates the structural properties of the multiplication table rather than adding new application contexts."
+    },
+    "AC9M4M01": {
+      "strand": "Measurement and Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Read a measurement from a scaled instrument where the value falls between marked units (partial unit); identify the unit being measured and record the value.",
+      "typical_width": "Interpret partial and unmarked units across multiple attributes (length, mass, capacity, temperature, duration) using scaled and digital instruments; record measures using appropriate units including decimal notation (e.g. 5.25 m, 2.5 kg); explain what the scale markings represent on analog instruments; read analog clocks to the nearest minute.",
+      "wider": [
+        "Investigate how First Nations Ranger Groups and other groups use scaled instruments to make land management decisions (e.g. rainfall gauges, temperature loggers), contextualising standard measurement within caring for Country/Place",
+        "Make a scaled measuring instrument from scratch (tape measure, measuring cup, sundial) and explain design decisions — what unit was chosen and why, how markings were placed, and how accuracy is related to scale divisions",
+        "Compare digital and analog instruments for the same attribute, discussing where each is more useful and how to interpret readings that fall between digital increments"
+      ],
+      "elaborations": [
+        "reading the mass of objects measured with digital and analog kitchen scales and explaining what unit of mass the lines on the analog scales refer to",
+        "deciding on which attribute, unit and measuring instrument to use to compare the length and mass of various things",
+        "using scaled instruments such as tape measures, measuring jugs, kitchen scales and thermometers",
+        "reading and interpreting the scale of an analog clock without marked minutes to estimate the time to the nearest minute",
+        "using the timer or alarm function of a clock to alert when a specified duration has elapsed",
+        "making a scaled measuring instrument such as a tape measure, ruler, sand timer, sun dial or measuring cup",
+        "exploring the different types of scaled instruments used by First Nations Ranger Groups and other groups to make decisions about caring for Country/Place"
+      ]
+    },
+    "AC9M4M02": {
+      "strand": "Measurement and Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Measure the perimeter of one shape by adding side lengths; measure the area of one rectangle by covering with unit squares (whole units only).",
+      "typical_width": "Measure and compare perimeters of various shapes including irregular shapes (using string) and rectangles (efficient methods); measure and compare areas using arrays of unit squares, including partial units at edges; explain the difference between perimeter (boundary) and area (enclosed space); recognise that perimeter is the sum of side lengths.",
+      "wider": [
+        "Investigate how First Nations Ranger Groups and other groups measure areas of land for fire management decisions, contextualising area measurement within environmental care for Country/Place",
+        "Explore the relationship between perimeter and area by creating rectangles with the same perimeter but different areas (and vice versa) — investigating whether fixing one determines the other",
+        "Measure irregular enclosed spaces (garden beds, classroom areas) using string for perimeter and tiling for area, comparing the practicality of different approaches and discussing accuracy trade-offs"
+      ],
+      "elaborations": [
+        "recognising that perimeter is the sum of the lengths that form the boundary of a shape or enclosed space; using a piece of string or rope to measure the perimeter of irregular shapes",
+        "creating a range of rectangles representing 'paddocks' on grid paper and establishing different methods of working out the length of the boundary fences",
+        "recognising that area is the space enclosed by the boundary; measuring and comparing the area of shapes using an array of paper tiles including part units",
+        "demonstrating how to use one unit repeatedly to measure the area of a shape",
+        "investigating the ways First Nations Ranger Groups and other groups measure areas of land to make decisions about fire burns"
+      ]
+    },
+    "AC9M4M03": {
+      "strand": "Measurement and Space",
+      "width_axis": "task_contexts",
+      "minimum_width": "Calculate the duration between two times (both am or both pm) using known unit relationships; express the answer in appropriate units.",
+      "typical_width": "Solve problems involving duration where start and finish times span am and pm; convert between minutes and hours, and hours and seconds to solve problems; create timetables or schedules using duration calculations; apply to real-world contexts such as movies, transport journeys and activity routines.",
+      "wider": [
+        "Explore First Nations Australians' explanations of time through cultural accounts of cyclic phenomena (sun, moon, stars), comparing these cyclical models of time with the linear/duration model used in everyday calculation",
+        "Design a daily or event timetable with multiple activities and rests, making and justifying decisions about duration allocations — applying am/pm notation and unit conversions throughout",
+        "Investigate time zones and how duration calculations change when events span different times of day (e.g. a flight leaving 11:30 am and arriving 2:15 pm — is that 2h45m or longer?)"
+      ],
+      "elaborations": [
+        "calculating the amount of time between 2 events including cases where the starting and finishing times are written using am and pm notation",
+        "converting units of time using relationships between units to solve problems; creating a daily timetable",
+        "exploring First Nations Australians' explanations of the passing of time through cultural accounts about cyclic phenomena"
+      ]
+    },
+    "AC9M4M04": {
+      "strand": "Measurement and Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify acute, right and obtuse angles from examples; classify one angle as smaller or larger than a right angle.",
+      "typical_width": "Estimate and compare angles using angle names including acute, obtuse, straight angle, reflex and revolution; recognise their relationship to a right angle; create and use a right-angle template to compare angles in the environment; classify interior angles of shapes.",
+      "wider": [
+        "Systematically classify the interior angles of a range of polygons (triangles, quadrilaterals, pentagons) using a right-angle template, building a catalogue of angle types in familiar shapes",
+        "Use spirit levels and set squares as practical tools for determining perpendicularity (right angles) in the built environment — connecting angle estimation to construction and design applications",
+        "Explore how angles describe and quantify turn by connecting quarter/half/three-quarter turns (from Y2/3) to degrees of rotation, using dynamic software to make the connection visible"
+      ],
+      "elaborations": [
+        "classifying the interior angles of a range of shapes, using examples of angles to identify acute, obtuse, right and reflex angles",
+        "identifying angles within the environment and estimating whether they are acute, obtuse right or reflex",
+        "creating a right-angle template using cardboard or folded paper and using it to compare angles in the environment",
+        "using different measuring tools such as a spirit level or set squares to determine whether lines or objects are straight, square or perpendicular"
+      ]
+    },
+    "AC9M4SP01": {
+      "strand": "Measurement and Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the familiar shapes within one composite shape or object; re-create the composite using those shapes.",
+      "typical_width": "Identify and use combinations of familiar 2D shapes and 3D objects to represent and approximate composite shapes; use physical or virtual materials (cubes, geometric shapes) to construct models; recognise how familiar shapes are combined in logos, graphics and designed objects.",
+      "wider": [
+        "Build virtual environments using cube-based construction software (e.g. Minecraft-style tools), making decisions about which combinations of cubic units best approximate real-world objects and explaining the limitations of the approximation",
+        "Design logos or graphic elements using combinations of familiar geometric shapes, using graphic design software to manipulate and combine shapes — examining how professional designers use geometric primitives",
+        "Draw cartoon animals or characters by combining circles, ovals, rectangles and triangles, analysing how complex organic shapes can be approximated with geometric primitives"
+      ],
+      "elaborations": [
+        "identifying common shapes that form part of a composite shape by re-creating these shapes using physical or virtual materials",
+        "physically or virtually using cubes to make three-dimensional models that approximate real objects",
+        "approximating complex shapes and objects in the environment with familiar shapes and objects",
+        "recognising how familiar shapes and objects are used in logos and other graphics and creating logos using graphic design software"
+      ]
+    },
+    "AC9M4SP02": {
+      "strand": "Measurement and Space",
+      "width_axis": "task_contexts",
+      "minimum_width": "Locate a position on a grid reference map using a grid reference; write one set of directions using grid references to guide someone from one location to another.",
+      "typical_width": "Interpret and create grid reference maps of familiar locations; write and follow instructions using grid references and directional language; recognise that spreadsheets use a grid reference system; use grids as a tool for enlarging images; describe positions and pathways on grids.",
+      "wider": [
+        "Simulate autonomous/robotic vehicle movement on a grid, using grid references and directional language to program paths — connecting grid reference systems to real applications in navigation and logistics",
+        "Compare and contrast locating landmarks with and without a grid overlay, investigating how the grid improves precision and how grid size affects the specificity of a reference",
+        "Use grids as an enlargement tool to scale up artwork or images, applying grid references systematically to transfer proportions accurately"
+      ],
+      "elaborations": [
+        "interpreting a grid reference map of a familiar location and writing instructions using grid references",
+        "recognising that a spreadsheet uses a grid reference system, locating and entering data in cells",
+        "comparing and contrasting describing landmarks without a grid and then with a grid overlaid",
+        "using different sized grids as a tool to enlarge an image or artwork",
+        "simulating autonomous or robotic vehicles moving to different positions within a grid using grid references and directional language"
+      ]
+    },
+    "AC9M4SP03": {
+      "strand": "Measurement and Space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify whether a given shape has line symmetry; create one symmetrical pattern using a mirror or paper folding.",
+      "typical_width": "Identify line and rotational symmetry in shapes; test for rotational symmetry by tracing and rotating; create symmetrical patterns using dynamic geometric software or physical tools; identify line and rotational symmetries in tessellation patterns.",
+      "wider": [
+        "Explore symmetry in natural environments on Country/Place — investigating patterns and symmetry in flowers, plants and landscapes, and discussing how First Nations peoples have observed and used natural symmetry",
+        "Investigate line and rotational symmetry in cultural artefacts from diverse traditions (Central Asian textiles, Tibetan designs, Indian lotus patterns, Islamic geometric art), examining how symmetry creates pattern and beauty across cultures",
+        "Use dynamic geometric software or generative AI tools to create and manipulate tessellations, exploring how symmetry constraints produce different pattern families"
+      ],
+      "elaborations": [
+        "identifying rotational symmetry of shapes by tracing around various shapes to create an image and testing rotations",
+        "using dynamic geometric software or generative AI tools to manipulate shapes and create symmetrical patterns including tessellations",
+        "using stimulus materials such as motifs in Central Asian textiles, Tibetan artefacts, Indian lotus designs and Islamic artwork to investigate symmetry",
+        "exploring the natural environment on Country/Place to investigate patterns and symmetry in flowers, plants and landscapes"
+      ]
+    },
+    "AC9M4ST01": {
+      "strand": "Statistics",
+      "width_axis": "task_contexts",
+      "minimum_width": "Collect data for a categorical or discrete numerical variable; display data in a many-to-one pictograph or column graph using digital tools; identify one key feature of the data from the display.",
+      "typical_width": "Acquire data using surveys, observations or experiments; represent using many-to-one pictographs, column graphs and other digital displays; interpret and discuss the data including understanding that one symbol can represent multiple data points; construct graphs of science experiment data; interpret key features including scale and symbol value.",
+      "wider": [
+        "Use secondary data about fire burns to construct data displays that assist First Nations Ranger Groups and other groups to care for Country/Place, contextualising data literacy within environmental stewardship",
+        "Co-create an online poll and explore how digital platforms use AI to generate word clouds, quizzes and graphical summaries of collected data — connecting data literacy to real digital tools",
+        "Acquire data through repeated chance experiments and compare column graphs across multiple trials, discussing how variation in results relates to probability — connecting statistics and probability strands"
+      ],
+      "elaborations": [
+        "investigating many-to-one data displays using digital tools, interpreting and discussing key features",
+        "understanding that data can be represented with one symbol representing more than one piece of data",
+        "constructing graphs of data collected through observation during science experiments",
+        "co-creating an online poll to survey students, exploring how online platforms use AI to make graphical representations",
+        "acquiring samples of data using practical activities, recording using tally charts, digital tables or spreadsheets",
+        "using secondary data of fire burns to construct data displays that assist First Nations Ranger Groups"
+      ]
+    },
+    "AC9M4ST02": {
+      "strand": "Statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Compare two data displays of the same data and identify one difference in how clearly each shows the distribution; comment on one feature of the shape or spread of a data set.",
+      "typical_width": "Analyse the effectiveness of different data displays in illustrating and comparing distributions; discuss shape of distributions and variation in data; interpret representations with one-to-many relationships in media and other contexts; compare student-generated diagrams and comment on usefulness for interpretation.",
+      "wider": [
+        "Interpret data representations from news media or online sources where one symbol represents many data points, critically evaluating whether the representation is clear and whether part-whole relationships are shown accurately",
+        "Investigate how AI developers use data distribution analysis and visualisation as a fundamental step in preparing data for training — connecting data analysis skills to real-world AI contexts",
+        "Compare three or more different graphical representations of the same dataset (table, column graph, pictograph, dot plot) and debate which is most useful for different questions, building metalinguistic awareness of representation choice"
+      ],
+      "elaborations": [
+        "suggesting questions that can be answered by a given data display and using the display to answer these questions",
+        "interpreting data representations in the media where symbols represent one-to-many relationships",
+        "comparing different student generated diagrams, tables and graphs, describing similarities and differences",
+        "discussing how analysing data distributions and visualising data is a fundamental step in data preparation for AI developers"
+      ]
+    },
+    "AC9M4ST03": {
+      "strand": "Statistics",
+      "width_axis": "task_contexts",
+      "minimum_width": "Formulate one survey question; collect class responses; record data using a digital tool; interpret the results and report one finding.",
+      "typical_width": "Plan and conduct a statistical investigation: create survey questions, collect data using surveys or digital sources (online databases, weather records), record and display data using digital tools, interpret data in context and communicate findings to an audience.",
+      "wider": [
+        "Investigate a real-world question using online query interfaces to access secondary data (weather records, Google Trends, WHO data) — practising data acquisition from external sources and interpreting data not collected by the investigator",
+        "Investigate a question in a consumer context (e.g. product placement in supermarkets) by designing questions needed to collect relevant data, collecting and analysing it, and presenting findings with evidence-based claims",
+        "Compare statistical investigation findings with predictions made before the data was collected, discussing what surprised them and how the data did or did not support initial assumptions"
+      ],
+      "elaborations": [
+        "creating a survey to collect class responses, recording data using spreadsheets, graphing and interpreting the results",
+        "conducting a statistical investigation and acquiring data from different online sources such as weather records, Google Trends or the World Health Organization",
+        "investigating different contexts in which statistical investigations can take place and the types of questions to ask"
+      ]
+    },
+    "AC9M4P01": {
+      "strand": "Probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Order at least three everyday events from least likely to most likely; identify one pair of independent and one pair of dependent events from given examples.",
+      "typical_width": "Describe possible outcomes and order events by likelihood; distinguish independent from dependent events (where one outcome affects another); use likelihood reasoning to predict outcomes (e.g. coin toss after five heads); determine relative likelihood from composition of sets (e.g. bags with different numbers of coloured balls); connect likelihood to probability language.",
+      "wider": [
+        "Explore how early warning systems (natural disaster alerts, weather forecasting) use likelihood ordering as an essential component of AI decision-making, connecting mathematical probability language to real applications",
+        "Investigate how predictive text uses likelihood to make suggestions, discussing which word would most likely come next in a sentence and how this changes as more letters are revealed",
+        "Design and investigate dependent event chains from school contexts (e.g. if the forecast is stormy, what is the chance the outdoor activity goes ahead?) — building multi-step conditional reasoning"
+      ],
+      "elaborations": [
+        "using lists of events familiar to students and ordering them from least likely to most likely",
+        "predicting the outcome of a coin toss after 5 heads have been flipped, discussing whether a tail is now more likely",
+        "predicting how likely it is to select a red ball from bags with different compositions of red and white balls",
+        "identifying school activities where the chance of occurring is affected by the chance of other events",
+        "listing the outcomes of everyday chance situations and identifying where one cannot happen if the other does",
+        "identifying different dependent and independent events",
+        "exploring how ordering outcomes by likelihood is an essential component of early warning systems using AI",
+        "discussing how likelihood relates to AI predictive text decisions"
+      ]
+    },
+    "AC9M4P02": {
+      "strand": "Probability",
+      "width_axis": "task_contexts",
+      "minimum_width": "Conduct a repeated chance experiment (e.g. coin tosses or dice rolls) at least 10 times; record outcomes; identify and describe variation in the results.",
+      "typical_width": "Conduct repeated chance experiments using coins, dice and spinners (physical or virtual); record and order outcomes; discuss variation in results across repeated trials; investigate how results change with number of trials; connect to the idea that AI systems use random generators to train algorithms.",
+      "wider": [
+        "Experiment with two simultaneous coins and systematically record and analyse the frequency of outcomes (HH, HT, TT) across many trials, comparing observed frequencies with what might be expected",
+        "Play strategic games (Noughts and Crosses, First to 20) and investigate whether the order of play affects the chance of winning — distinguishing games of pure chance from games with strategic elements",
+        "Shuffle and draw cards repeatedly, recording suit outcomes and discussing how the results across many trials begin to reflect the composition of the deck"
+      ],
+      "elaborations": [
+        "playing games such as Noughts and Crosses or First to 20 and deciding if it makes a difference who goes first",
+        "recording and ordering the outcomes of experiments using different physical or virtual random generators, discussing how AI systems use random generators",
+        "experimenting with tossing 2 coins at the same time, recording and commenting on outcomes",
+        "shuffling cards, drawing at random, and recording whether the card was a spade, club, diamond or heart; repeating and discussing results"
+      ]
+    }
+  }
+}

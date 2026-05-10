@@ -1,0 +1,78 @@
+{
+  "year_level": "1-2",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI2P03",
+    "title": "Discuss existing digital systems",
+    "description": "discuss how existing digital systems satisfy identified needs for known users",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have explored digital systems in familiar contexts (AC9TDI2K01). They can identify systems and name their components. They have not yet evaluated systems against user needs \u2014 linking what a system does to whether it satisfies a specific user's requirement.",
+    "progression_endpoint": "Students discuss how existing digital systems satisfy identified needs for known users \u2014 explaining what the need is, and how specific features of the system address it.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying needs for known users",
+        "progression_checkpoint": "Students can describe a specific need that a known user has, distinct from a general want or preference",
+        "minimum_width": "For one known user (themselves, a family member, a classmate), describe a specific need that a digital system could help with",
+        "typical_width": "Identify needs for multiple different users across home, school and community contexts; distinguish a need (something required to do a task) from a want (a preference)",
+        "wider": [
+          "Discuss how digital systems store and provide access to cultural stories authored and published by First Nations Australians \u2014 identify the need these systems satisfy for communities who want to preserve and share these stories",
+          "Compare what a student needs from a digital system (e.g. to watch videos, play games) with what a teacher needs from the same system (e.g. to share work with the class) \u2014 identify the different needs for the same device"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students at this level tend to describe all digital system use as want-based ('I want to play games') rather than identifying genuine needs. Multiple users across contrasting contexts \u2014 student vs teacher, home vs community \u2014 help students see that the same system can address different, specific needs depending on the user.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations cultural preservation direction is genuinely rich \u2014 it extends 'needs for known users' to community-level preservation needs, making the concept of need more substantive than personal convenience.",
+        "success_criteria": [
+          "Names a specific user",
+          "Describes a need linked to a task or purpose, not just a preference"
+        ],
+        "related_standards": [
+          "AC9TDI2K01",
+          "AC9TDI2P01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without an identified need for a known user, Node 2 has nothing to connect system features to \u2014 discussing how a system satisfies a need requires a need to have been established first."
+      },
+      {
+        "id": 2,
+        "label": "Discussing how systems satisfy needs",
+        "progression_checkpoint": "Students can discuss how an existing digital system satisfies an identified need \u2014 connecting system features to the user's need",
+        "minimum_width": "For one known user and one identified need, discuss at least one feature of a digital system and explain how it addresses the need",
+        "typical_width": "Discuss how multiple features of a digital system satisfy different aspects of a user's need; share and compare ideas with the class about how systems are used for learning, communication and access to information",
+        "wider": [
+          "Discuss how an interactive display screen in the classroom satisfies the need for sharing student work \u2014 identify what specific features (large screen, visibility, connection to other devices) address different aspects of the need",
+          "Discuss how tablets can be used as phones and communication tools between families in different locations \u2014 identify the needs satisfied and which features of the tablet make this possible"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Discussing how a system satisfies a need requires students to reason about the fit between a specific feature and a specific need. Without scaffolding (what is the need? what does the system do? how does that match?), students tend to simply describe the system without connecting it to the user's need \u2014 the fit relationship is the challenging cognitive step."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names a feature of the digital system (not just the system type)",
+          "Explains how that feature addresses the user's identified need"
+        ],
+        "related_standards": [
+          "AC9TDI2K01",
+          "AC9TDI2P01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

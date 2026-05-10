@@ -1,0 +1,95 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5A02",
+    "title": "Unknown values in multiplication equations",
+    "strand": "Algebra",
+    "description": "Find unknown values in numerical equations involving multiplication and division using the properties of numbers and operations",
+    "prior_knowledge": "Students can find unknown values in equations involving addition and subtraction (AC9M4A02). They have not yet applied properties of multiplication and division (commutativity, associativity, equivalence) to find unknown values.",
+    "progression_endpoint": "Students find unknown values in numerical equations involving multiplication and division using properties of numbers and operations.",
+    "mode": "A",
+    "_audit_notes": "SPLIT_REQUIRED: Node 2 — checkpoint bundles truth-value determination ('determine whether equations are true/false') with unknown-finding ('find unknown values'). Wider tier enriches only the unknown-finding move (two-sided equations, multi-operation equivalences). Each move warrants its own node with its own width.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Properties of multiplication",
+        "progression_checkpoint": "Students can demonstrate that multiplication is commutative and associative, and that division is neither.",
+        "minimum_width": "Show that a×b=b×a using materials or arrays; show a case where a÷b ≠ b÷a; explain the difference.",
+        "typical_width": "Demonstrate commutativity and associativity of multiplication across multiple examples; explain why division is not commutative; connect to array representations.",
+        "wider": [
+          "Investigate the distributive property: a×(b+c) = a×b + a×c",
+          "Use the properties to derive unknown facts from known ones"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student demonstrates commutativity with an example and explanation",
+          "Student correctly identifies that division is not commutative with an example"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Equivalent number sentences",
+        "progression_checkpoint": "Students can use equivalence and number properties to determine whether multiplication/division equations are true and to find unknown values.",
+        "_node_audit": "SPLIT_REQUIRED: Checkpoint pairs truth-value reasoning with unknown-finding. Wider tier (two-sided equations, unknowns on both sides) only enriches the unknown-finding move. Node should be split into: (2a) Evaluating equation truth-value using relational thinking; (2b) Finding unknown values using equivalence properties.",
+        "minimum_width": "Determine whether a given multiplication/division equation is true or false; explain the reasoning.",
+        "typical_width": "Apply relational thinking to find unknown values in equations like 3×5=30÷□; use equivalence reasoning across a range of structures.",
+        "wider": [
+          "Create equivalent number sentences using multiple operations",
+          "Use equations with unknowns in both sides: 4×□ = □×6"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Relational thinking (understanding = as 'same value', not 'write the answer') requires an explicit scaffold. Students who have learned = as an answer prompt make systematic errors with balanced equations.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The variety of equation structures (unknown in different positions, multiple unknowns, cross-operation equivalence) exposes how relational thinking generalises. Breadth prevents students from learning the structure of one template.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Two-sided equations and multi-operation equivalences give advancing students genuine algebraic structure to work with.",
+        "hinge": true,
+        "hinge_reason": "Relational understanding of = is the prerequisite for Node 3 — students who treat = as 'write the answer' cannot formulate or verify equations arising from practical contexts.",
+        "success_criteria": [
+          "Student determines whether an equation is true/false with correct reasoning",
+          "Student finds an unknown value in a multiplication/division equation using properties"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Finding unknowns in context",
+        "progression_checkpoint": "Students can find unknown values in numerical equations arising from practical contexts using multiplication and division properties.",
+        "minimum_width": "Solve a practical problem that requires finding an unknown value in a multiplication or division equation; show the equation and solution.",
+        "typical_width": "Apply properties of multiplication and division to find unknowns in a range of practical and abstract contexts; connect equation-solving to word problem structures.",
+        "wider": [
+          "Design word problems that require unknown-value equations to solve",
+          "Connect to scaling contexts: if 3 books cost $21, what does 1 cost? Equation: 3 × □ = 21"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Applying equation reasoning in practical contexts requires properties knowledge, equation structure understanding and context interpretation to work together — the integrated application of the strand's learning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student writes an equation for a practical problem and finds the unknown value",
+          "Student verifies the solution by substituting back into the equation"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1SP02",
+    "title": "Give and follow directions",
+    "description": "Give and follow directions to move people and objects to different locations within a space",
+    "strand": "Measurement and Space",
+    "mode": "B",
+    "prior_knowledge": "Students can describe position and location of themselves and objects within a familiar space (AC9MFSP02). They have not yet given or followed multi-step directional instructions, created algorithms for movement, or used ordinal and positional language to direct others.",
+    "progression_endpoint": "Students give and follow directions to move people and objects to different locations within a space.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Interpret and follow directions",
+        "progression_checkpoint": "Students can interpret and follow a sequence of directional instructions using forwards, backwards, left, right and straight ahead to reach a stated location.",
+        "minimum_width": "Follow a three-step sequence of directions using at least two directional terms to reach a target location.",
+        "typical_width": "Interpret and follow multi-step directions using forwards, backwards, straight ahead, left, right; understand that left/right are relative to the mover's orientation; follow directions given by a peer or teacher; reach target locations reliably.",
+        "wider": [
+          "Follow directions that describe a familiar journey using landmark-based language from a First Nations perspective, recognising how directional language is shaped by relationship to Country/Place.",
+          "Program a floor robot (Bee-Bot or equivalent) by entering a direction sequence, testing it and debugging when the robot doesn't reach the target."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Left/right confusion is extremely common at Year 1 and requires targeted practice. Students need repeated experience with left/right from their own perspective — and from another person facing them — before they can reliably follow peer-given directions.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Reliable left/right orientation is a prerequisite for Node 2 (giving directions) and Node 3 (creating algorithms) — students who confuse their own left/right give systematically incorrect directions and produce algorithms that fail when tested.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Follows a multi-step direction sequence correctly, reaching the target location.",
+          "Demonstrates correct understanding of left/right relative to own orientation."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Create and give directions",
+        "progression_checkpoint": "Students can create a sequence of directional instructions to move an object or person from one location to another, testing whether the instructions work.",
+        "minimum_width": "Give a three-step direction sequence to move an object or peer to a new location; check whether the instructions were followed successfully.",
+        "typical_width": "Create multi-step direction sequences using directional language; give instructions to a peer and observe whether the instructions are followed as intended; revise instructions if the target was not reached; use ordinal and positional language to describe positions within a line or space.",
+        "wider": [
+          "Design a direction puzzle for a peer — writing the instructions on paper — and exchange puzzles, testing and giving feedback on precision.",
+          "Create an algorithm for a floor robot to reach a target, iterating the instruction sequence based on observed robot movement."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Writing directions from a giver's perspective requires spatial perspective-taking — imagining the path from the mover's point of view. Students who give ambiguous instructions (e.g. 'go forward a bit') need support in making the algorithm precise enough to be followed without interpretation."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates a direction sequence that successfully moves a person or object to the target location when followed exactly.",
+          "Revises the instructions when the target is not reached, identifying the specific instruction that caused the error."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Algorithms for movement",
+        "progression_checkpoint": "Students can create a step-by-step algorithm of instructions to move an object or person through a space, recognising that each instruction must be precise and complete.",
+        "minimum_width": "Create a movement algorithm of at least four steps; explain what an algorithm is (a set of instructions that must be followed exactly).",
+        "typical_width": "Create and follow movement algorithms; recognise that ambiguous or imprecise instructions cause failure; refine algorithms based on testing; connect the robot role-play to the concept of a precise algorithmic instruction set.",
+        "wider": [
+          "Program a digital floor robot using a sequence of coded direction instructions, comparing the precision required for digital instructions with the precision used in verbal instructions.",
+          "Create a direction narrative describing a journey across Country/Place, integrating landmark-based and compass-based directional language, and connecting to First Nations ways of describing movement through space."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating a complete, working movement algorithm requires students to coordinate spatial reasoning, directional language, sequence, and precision simultaneously. This is the integration node for the descriptor's full demand — and a genuine early encounter with algorithmic thinking.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The algorithmic movement context is the earliest encounter with computational thinking in the Mathematics curriculum. Students who understand that a movement algorithm must be precise and complete are building transferable reasoning about sequence and instruction that underpins Digital Technologies concepts.",
+        "success_criteria": [
+          "Creates a movement algorithm that reaches the target when followed exactly.",
+          "Explains why each instruction in the algorithm must be precise."
+        ],
+        "related_standards": ["AC9M1SP01"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1N05",
+    "title": "Model additive problems",
+    "description": "Use mathematical modelling to solve practical problems involving additive situations including simple money transactions; represent the situations with diagrams, physical and virtual materials, and use calculation strategies to solve the problem",
+    "strand": "Number and Algebra",
+    "mode": "B",
+    "prior_knowledge": "Students can represent practical addition and subtraction situations using materials and counting strategies (AC9MFN05). They can add and subtract within 20 using calculation strategies (AC9M1N04). They have not yet used structured mathematical modelling (Think Board, diagrams, multiple representations) to connect real-world additive situations to mathematical representations and calculations.",
+    "progression_endpoint": "Students use mathematical modelling to solve practical problems involving additive situations including simple money transactions; represent the situations with diagrams, physical and virtual materials, and use calculation strategies to solve the problem.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Interpret the additive situation",
+        "progression_checkpoint": "Students can identify the mathematical structure of a practical additive situation — whether it involves joining, separating, or comparing quantities.",
+        "minimum_width": "Listen to or read one practical additive story problem and identify: what is known, what is unknown, and whether the situation involves adding or subtracting.",
+        "typical_width": "Interpret a variety of practical additive story problems (joining, separating, comparing); identify the known and unknown quantities; determine the operation needed; explain the situation in own words before solving.",
+        "wider": [
+          "Interpret additive situations drawn from a range of real-world contexts including shopping, travel, and school events, identifying the mathematical structure in each.",
+          "Explore additive situations from First Nations contexts — counting objects significant to Country/Place, sharing within community — and identify the mathematical structure."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only experience one type of additive situation (typically joining/adding) often apply the same operation regardless of the problem structure. Varied contexts are necessary to build the ability to interpret the situation before selecting a strategy.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The ability to read the mathematical structure of a real-world situation is the foundation of mathematical modelling. Rich context variety at this node builds interpretive flexibility that transfers across all modelling work in subsequent years.",
+        "success_criteria": [
+          "Identifies what is known and what is unknown in an additive story problem.",
+          "States whether the situation requires adding or subtracting and gives a reason."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Represent with diagrams and materials",
+        "progression_checkpoint": "Students can represent an additive situation using at least two different representations (e.g. diagram, materials, Think Board) and explain the connections between them.",
+        "minimum_width": "Represent one additive problem using physical materials or a diagram; connect the representation to the numbers in the story.",
+        "typical_width": "Use Think Boards to represent additive problems with pictures, materials, diagrams and number sentences; explain the connections between each representation and the story; include simple money transactions using whole dollar amounts.",
+        "wider": [
+          "Represent the same problem using three different formats (materials, number line, part-part-whole diagram) and compare which representation makes the solution most visible.",
+          "Create a class display linking physical representations, diagrams and number sentences for a set of related additive problems."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Moving from a concrete material representation to a diagram to a number sentence is a three-step abstraction that requires explicit scaffolding. Students need the connections between each level made visible before they can coordinate them independently.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "The ability to represent a problem situation is a prerequisite for Node 3 — students who cannot connect a story to a representation cannot verify whether their calculation answers the right question or interpret the answer back in context.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a diagram or materials representation that correctly captures the quantities in the story problem.",
+          "Explains the connection between the representation and at least one element of the story (e.g. 'these blocks are the passengers who got on')."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Solve and explain",
+        "progression_checkpoint": "Students can apply a calculation strategy to solve an additive problem and communicate the solution in terms of the original situation.",
+        "minimum_width": "Apply a calculation strategy to solve one practical additive problem; state the answer in terms of the problem context.",
+        "typical_width": "Use calculation strategies to solve a variety of practical additive problems; record the solution as a number sentence; interpret the answer in the context of the original problem; check whether the solution is reasonable.",
+        "wider": [
+          "Solve a sequence of related additive problems (e.g. bus stops, shop transactions) where the output of one problem feeds into the next, building a chained calculation narrative.",
+          "Explore and solve open-ended additive problems where there are multiple valid solutions (e.g. 'I spent $10 — what could I have bought?')."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Interpreting the situation, choosing a representation, applying a strategy, and communicating the answer in context all need to work together here. This is the integration node for the full modelling cycle — students must coordinate all prior components."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States the answer to an additive problem using a correct calculation strategy.",
+          "Interprets the answer in terms of the original problem context (e.g. 'There are 14 passengers on the bus now')."
+        ]
+      }
+    ]
+  }
+}

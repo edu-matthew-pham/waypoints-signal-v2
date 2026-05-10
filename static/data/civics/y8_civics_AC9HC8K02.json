@@ -1,0 +1,128 @@
+{
+  "year_level": "8",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC8K02",
+    "title": "Political representation",
+    "description": "the role of political parties and independent representatives in Australian democracy, including elections and the formation of governments",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students know the key features of Australia's system of government including responsible government, federalism and the structure of parliament (AC9HC7K01). They understand the characteristics of Australia's democracy including freedoms that underpin political participation (AC9HC7K02). The gap this descriptor fills is the mechanics of how political representation operates — how parliaments are structured, how representatives are elected and how government is formed and lost.",
+    "progression_endpoint": "Students explain the role of political parties and independent representatives in Australian democracy, including how elections work, how different voting systems operate and how governments are formed and may be lost.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Structure of Australian parliaments",
+        "progression_checkpoint": "Students can describe the structure and composition of Australian parliaments at both federal and state/territory level, including bicameral and unicameral arrangements.",
+        "minimum_width": "Describe the structure of the federal parliament, identifying the two houses and their key functions.",
+        "typical_width": "Describe the structure and composition of Australian parliaments at both federal and state/territory level — including the House of Representatives, the Senate, state lower and upper houses, and unicameral territories — and explain the role of each chamber in the legislative process.",
+        "wider": [
+          "Compare the structures of two state or territory parliaments, examining why Queensland and the territories have unicameral parliaments while other states are bicameral",
+          "Investigate the composition of the current federal parliament — the representation of parties, independents, gender and cultural background — and what this reveals about political representation",
+          "Examine the role of the Governor-General and state governors in the formal structure of Australian parliamentary democracy"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding the structure of parliament — which chambers exist, what their roles are — is the prerequisite for understanding how government is formed, how voting systems work and what roles political parties play. A thin treatment produces confusion between the roles of upper and lower houses and prevents meaningful engagement with later nodes.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to build an accurate working map of parliamentary structures before they can make sense of how those structures operate politically. Focus on ensuring the key components (houses, roles, federal vs state) are securely understood.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify the two houses of the federal parliament and describe the distinct function of each",
+          "Can explain the difference between a bicameral and a unicameral parliament with an Australian example of each"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Voting systems",
+        "progression_checkpoint": "Students can describe and evaluate different voting systems used in Australian elections, including preferential and proportional representation, explaining what each system produces in terms of representation.",
+        "minimum_width": "Describe how preferential voting works in a House of Representatives election and explain one consequence for representation.",
+        "typical_width": "Describe and compare preferential voting (used for the lower house) and proportional representation (used for the Senate and some state systems), explaining how each system translates votes into seats and what consequences each has for which parties and independents gain representation.",
+        "wider": [
+          "Analyse how the Senate's proportional representation system has enabled the election of minor parties and independents, and how this affects the balance of power",
+          "Investigate the history of preferential voting in Australia — why it was introduced and what problems it was designed to solve",
+          "Compare Australia's voting systems with first-past-the-post systems used in other democracies, evaluating the trade-offs between representativeness and stability of government"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students do not understand how votes translate into seats differently under preferential and proportional systems, they cannot understand how minority governments form, why the Senate composition differs from the House, or what 'balance of power' means. This cascades into the government formation node.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Voting systems involve a causal chain — how preferences are counted, what that produces in seat distribution, what that means for representation. Invest in unpacking the logic of each system rather than just naming them.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing preferential and proportional systems across the two federal chambers gives students a concrete basis for evaluating what each system achieves — not just describing them in abstract.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Voting systems are intrinsically evaluative — students can genuinely weigh what different systems achieve and sacrifice. Width across preferential voting, proportional representation, and comparative international systems builds substantive analytical capability around representative democracy.",
+        "success_criteria": [
+          "Can describe how preferential voting produces a winner in a lower house election",
+          "Can explain one key difference between preferential and proportional representation systems and what that difference means for which parties gain seats"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Formation and loss of government",
+        "progression_checkpoint": "Students can explain how government is formed and how it may be lost in Australia, using concepts including parliamentary majority, the opposition, hung parliament, minority government, party discipline and balance of power.",
+        "minimum_width": "Explain how a government is formed after a federal election — what a party needs to form government and what happens if no party has a majority.",
+        "typical_width": "Explain how government is formed and may be lost in Australia, applying the key concepts: parliamentary majority, the opposition, hung parliament, minority government, party discipline and balance of power. Explain what a confidence vote is and how a government can fall.",
+        "wider": [
+          "Analyse a real example of a hung parliament or minority government in Australia (federal or state), examining what negotiations took place and what the balance of power looked like",
+          "Investigate the role of party discipline in maintaining government stability — how party discipline operates and what happens when it breaks down (e.g. conscience votes, party defections)",
+          "Examine the role of the crossbench in the current Senate and how balance of power operates in practice"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Abstract concepts like hung parliament and balance of power become meaningful when grounded in real examples. Widening across actual Australian cases prevents students from holding purely theoretical understandings that don't survive contact with real political events.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Government formation is conceptually rich and connected to current political events students encounter in media. Width across real Australian examples — hung parliaments, minority governments, balance of power negotiations — makes the concepts usable and transferable.",
+        "success_criteria": [
+          "Can explain what a party needs to form majority government and what happens if no single party achieves a majority",
+          "Can use at least two of the following concepts correctly in explaining how government may be lost or constrained: party discipline, balance of power, hung parliament, minority government, the opposition"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Roles of political parties and independents",
+        "progression_checkpoint": "Students can explain the roles of political parties and elected representatives including independents in Australian democracy, and explain what distinguishes party members from independent representatives.",
+        "minimum_width": "Describe the role of a political party in Australian democracy and explain what distinguishes an independent representative from a party member.",
+        "typical_width": "Investigate the roles of political parties (developing policy platforms, endorsing candidates, forming government or opposition, exercising party discipline) and elected representatives including independents — explaining how independents operate without party support or whip, and what role they play in parliament.",
+        "wider": [
+          "Investigate how the rise of independent candidates in recent Australian elections reflects changing voter attitudes toward political parties",
+          "Examine the tension between a representative's obligation to party discipline and their obligation to represent their electorate's views — with a specific Australian example",
+          "Compare the experiences of minor party representatives and independents in terms of what they can achieve in parliament and how their influence varies by chamber"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node brings together the structures, voting systems and government formation covered in previous nodes — the role of parties and independents only makes sense in the context of how elections work and how government is formed. Emphasise synthesis across the whole descriptor."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can describe at least two functions of a political party in Australian democracy",
+          "Can explain what distinguishes an independent representative from a party member and identify one way independents can influence parliament"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5SP01",
+    "title": "Nets of objects",
+    "strand": "Space",
+    "description": "Connect objects to their nets and build objects from their nets using spatial and geometric reasoning",
+    "prior_knowledge": "Students can create and classify composite shapes using geometric properties (AC9M4SP01). They have not yet connected 3D objects to their 2D nets or reasoned about which 2D arrangements fold into which 3D objects.",
+    "progression_endpoint": "Students connect objects to their nets and build objects from their nets using spatial and geometric reasoning.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Faces and surfaces of 3D objects",
+        "progression_checkpoint": "Students can identify and describe the faces of common 3D objects and explain how they relate to the object's surface.",
+        "minimum_width": "Identify the number and type of faces on a given 3D object (cube, rectangular prism, triangular prism, pyramid); describe each face shape.",
+        "typical_width": "Describe face properties of a range of prisms and pyramids; distinguish flat faces from curved surfaces; connect face count and shape to object name.",
+        "wider": [
+          "Investigate Platonic solids and their face properties",
+          "Connect face descriptions to packaging and engineering design"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly identifies and names all faces of a given 3D object",
+          "Student describes each face shape using geometric vocabulary"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Nets — connecting 2D to 3D",
+        "progression_checkpoint": "Students can identify the net of a given 3D object and explain how the net folds to form the object.",
+        "minimum_width": "Identify which of several 2D arrangements is the correct net for a given 3D object; explain how it folds.",
+        "typical_width": "Match nets to objects for a range of prisms and pyramids; trace and test nets by folding; identify non-valid arrangements and explain why they fail.",
+        "wider": [
+          "Identify multiple valid nets for the same object (e.g. the 11 nets of a cube)",
+          "Use dynamic geometry software to unfold 3D objects into nets"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly use visual guessing rather than face-count reasoning to identify nets. Multiple objects with similar-looking nets (e.g. different pyramids) require students to engage the geometric reasoning systematically.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multiple valid nets for one object (especially the 11 cube nets) is rich spatial investigation territory for advancing students.",
+        "hinge": true,
+        "hinge_reason": "Face-count reasoning for net identification is the prerequisite for Node 3 — students who rely on visual guessing rather than face-count verification cannot build objects reliably from unfamiliar nets.",
+        "success_criteria": [
+          "Student correctly identifies the net of a given 3D object",
+          "Student explains the folding process using face and edge language"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Building objects from nets",
+        "progression_checkpoint": "Students can construct a 3D object by building and folding its net.",
+        "minimum_width": "Construct one 3D object (e.g. triangular prism) by drawing or printing its net, cutting and folding.",
+        "typical_width": "Construct multiple objects from nets; verify the object matches the original description; reflect on which spatial reasoning guided the construction.",
+        "wider": [
+          "Design nets for custom packaging with specific volume requirements",
+          "Investigate nets used in product packaging and architectural models"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Construction from a net requires face knowledge, net identification and spatial folding reasoning to coordinate — this is the integration node where spatial and geometric reasoning becomes visible through the artefact."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly constructs a 3D object from its net",
+          "Student verifies the object has the expected number and type of faces"
+        ]
+      }
+    ]
+  }
+}

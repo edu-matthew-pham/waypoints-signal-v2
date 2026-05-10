@@ -1,0 +1,70 @@
+{
+  "year_level": "10",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH10S04",
+    "title": "Usefulness and Reliability of Sources",
+    "description": "explain the usefulness of primary and secondary sources, and the reliability of the information as evidence",
+    "strand": "Historical Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can explain the usefulness and reliability of primary and secondary sources as evidence in a Year 9 historical inquiry, identifying bias and perspective.",
+    "progression_endpoint": "Students explain the usefulness and reliability of primary and secondary sources as evidence, identifying absent perspectives, explaining bias and intent, corroborating across sources, and comparing sources for inconsistencies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Bias, intent, and absent perspectives",
+        "progression_checkpoint": "Students can identify perspectives absent from sources, explain the bias of an author and the intent of a source, and evaluate how each affects usefulness and reliability.",
+        "minimum_width": "For at least one source, identify an absent perspective and explain how its absence affects the source's usefulness; explain the bias of the author and evaluate its effect on reliability.",
+        "typical_width": "Identify perspectives absent from sources and evaluate the extent to which this affects usefulness; explain the bias of the author and the intent of a source and evaluate the extent to which this affects reliability; understand that bias does not disqualify a source — a biased source can be useful for revealing the attitudes of its author or period.",
+        "wider": [
+          "Apply absent-perspective analysis to a topic where the historical record systematically excludes certain voices — such as First Nations experiences of frontier conflict, or women's perspectives on political events — examining what the pattern of absence reveals about how the historical record was constructed",
+          "Examine a source whose bias has been contested by historians — such as a government report or official history — analysing the debate about its reliability and what the debate reveals about how historical sources are evaluated"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who equate bias with uselessness cannot do the sophisticated source work required in Node 2 (corroboration) or in S06 and S07 (perspectives, contested interpretations). The insight that biased sources are useful for revealing the attitudes of their author or period is foundational to professional historical source analysis.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Explicitly teach the distinction between 'this source is biased' and 'this source is not useful'. Model how a biased source can be highly useful for revealing the perspectives, attitudes or intentions of the author — reframing bias from a disqualifier to an analytical opportunity.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identify at least one perspective absent from a source and explain how its absence affects the source's usefulness",
+          "Explain the bias of the author of a source and evaluate its effect on reliability",
+          "Explain why a biased source is not necessarily a useless source, using a specific example"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Corroboration and question-dependent usefulness",
+        "progression_checkpoint": "Students can determine the usefulness of sources by corroborating with other sources and explain how the usefulness and reliability of a source depends on the questions asked of it.",
+        "minimum_width": "Corroborate information from at least two sources and explain how the usefulness of each changes depending on the question asked.",
+        "typical_width": "Determine usefulness by corroborating with other sources of information — verifying or questioning claims by triangulating across multiple sources; examine that the reliability and usefulness of a source depends on the questions asked of it — for example, an account with a particular historical perspective can be useful for revealing past prevailing attitudes even if unreliable as a factual record; determine whether information in one source can be verified by information in another; compare a range of sources and identify similarities, differences and inconsistencies in interpretations.",
+        "wider": [
+          "Apply corroboration across sources that present contradictory accounts of the same event — examining how historians navigate evidentiary conflict and what it means when sources cannot be reconciled",
+          "Apply question-dependent usefulness analysis to a propaganda source — examining how its reliability as a factual record is low but its usefulness as evidence of the attitudes of its producers or audience is high"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Corroboration and question-dependent usefulness bring together origin/context analysis (S03) and bias/perspective analysis (Node 1) into a fully integrated source evaluation framework. This is where the individual analytical skills combine into professional-level historical source work.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Question-dependent usefulness is a powerful analytical concept that transforms how students engage with all sources throughout the course — enabling them to make productive use of sources they might otherwise dismiss. It directly develops the S07 skill of analysing contested interpretations.",
+        "success_criteria": [
+          "Corroborate information from at least two sources and explain what the comparison reveals",
+          "Explain how the usefulness of a specific source changes depending on which question it is asked to answer",
+          "Identify at least one inconsistency between sources and explain what it suggests about the reliability of one or both"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8K04",
+    "title": "Human activity and landscapes",
+    "description": "the interconnections between human activity and geomorphological processes, and ways of managing distinctive landscapes",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students explain strategies to manage water sustainability (AC9HG7K02) and have examined responses to hydrological hazards (AC9HG7K04). They have not yet examined how human activity directly drives or modifies geomorphological processes.",
+    "progression_endpoint": "Students explain the interconnections between human activity and geomorphological processes, and evaluate ways of managing distinctive landscapes including contributions from First Nations Australian knowledges.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Interconnection as a concept",
+        "progression_checkpoint": "Students can explain what 'interconnection' means in the context of human activity and natural processes, and identify examples where human activity modifies geomorphological processes.",
+        "minimum_width": "Students explain what interconnection means and identify one example of human activity modifying a geomorphological process.",
+        "typical_width": "Students explain the concept of interconnection between human activity and the environment, identifying how activities such as tourism, land clearing, mining or urban development alter erosion, sedimentation and landscape stability, with located examples.",
+        "wider": [
+          "Map the chain of interconnections from one human activity through to multiple environmental effects.",
+          "Examine how interconnections operate at different scales — local activity producing regional or national-scale landscape change.",
+          "Investigate feedback loops where landscape degradation creates conditions for further human modification."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat human impact as external and one-directional (humans affect nature, not vice versa) cannot explain the bidirectional interconnections required by this descriptor, and will produce incomplete explanations in Nodes 2–3.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The concept of interconnection as bidirectional and multidirectional needs explicit scaffolding. A cause-chain reasoning structure (activity → process change → landscape outcome → feedback) prevents the linear 'humans damage environment' oversimplification.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains interconnection as a relationship where human activity modifies natural processes and vice versa.",
+          "Identifies at least one human activity and describes how it alters a specific geomorphological process."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Human activity and erosion/sedimentation",
+        "progression_checkpoint": "Students can explain the interconnections between specific human activities (tourism, land clearing, mining, river regulation) and the quality of geomorphological environments.",
+        "minimum_width": "Students explain one human activity and its effects on a geomorphological environment, identifying the process(es) modified.",
+        "typical_width": "Students explain the interconnections between at least two types of human activity (e.g., overuse of tourist tracks, land clearing for palm oil, mining, river regulation/dams) and the quality of geomorphological environments, identifying the processes affected and the environmental consequences.",
+        "wider": [
+          "Compare the scale of environmental impact of different human activities — which types of activity produce the most significant geomorphological change?",
+          "Investigate how the effects of human-modified erosion and sedimentation are distributed unevenly, affecting some communities more than others.",
+          "Examine specific case studies: Three Gorges Dam effects on the Yangtze River system, or Murray-Darling management."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using multiple activity types and contexts builds a repertoire of interconnection examples, preventing students from treating tourism overuse as the only mechanism of human-landscape modification.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of human activities affecting geomorphological processes — from industrial extraction to recreational overuse to agricultural clearing — offers genuine breadth. Wider students can develop comparative judgements about the severity and reversibility of different impact types.",
+        "success_criteria": [
+          "Explains the interconnection between a named human activity and a specific geomorphological process, describing the resulting environmental effects.",
+          "Uses location-specific evidence to support the explanation."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Managing distinctive landscapes",
+        "progression_checkpoint": "Students can explain ways of managing distinctive landscapes, including the contribution of First Nations Australian knowledges to landscape management.",
+        "minimum_width": "Students identify one management strategy for a distinctive landscape and explain how it addresses a geomorphological or environmental issue.",
+        "typical_width": "Students explain strategies used to manage distinctive landscapes (e.g., track management in bushland, land rehabilitation after mining, riparian vegetation management) and identify the contribution of First Nations Australian knowledges (e.g., Indigenous Peoples' Knowledge incorporated into management of Kakadu, Uluru, the Great Barrier Reef, the Snowy Mountains).",
+        "wider": [
+          "Evaluate the effectiveness of different management approaches — comparing government-led vs community-led vs co-management models.",
+          "Examine how First Nations land management practices (e.g., cultural burning) are being integrated into contemporary environmental management frameworks.",
+          "Investigate cases where management strategies have failed and analyse the reasons."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Management strategies require students to connect human activity (Node 2) with geomorphological processes (Node 1 and K01) and the value of landscapes (K03). The integration point synthesises knowledge, cultural significance and management reasoning together."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least one strategy for managing a distinctive landscape and identifies the problem it addresses.",
+          "Describes the contribution of First Nations Australian knowledges to the management of at least one landscape."
+        ],
+        "related_standards": ["AC9HG8K03"]
+      }
+    ]
+  }
+}

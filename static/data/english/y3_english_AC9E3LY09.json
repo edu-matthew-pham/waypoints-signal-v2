@@ -1,0 +1,43 @@
+{
+  "year_level": "3",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E3LY09",
+    "title": "Multisyllabic words and phonemes",
+    "description": "understand how to apply knowledge of phoneme-grapheme (sound-letter) relationships, syllables, and blending and segmenting to fluently read and write multisyllabic words with more complex letter patterns",
+    "strand": "Literacy — Phonic and Word Knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students manipulate complex sounds and use vowel digraphs, consonant clusters and silent letters to read and write multisyllabic words (AC9E2LY09-10). They have not yet applied this knowledge to more complex patterns including consonant digraphs representing different sounds.",
+    "progression_endpoint": "Students apply phoneme-grapheme knowledge and syllable patterns to fluently read and write multisyllabic words with more complex letter patterns.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Complex consonant patterns",
+        "progression_checkpoint": "Students can read and write words with consonant digraphs, consonant blends and digraphs that represent different sounds.",
+        "minimum_width": "Read and write at least four multisyllabic words with complex consonant patterns (digraphs, blends) and explain the sound each pattern represents.",
+        "typical_width": "Read and write complex words with consonant digraphs and blends; apply knowledge to consonant digraphs that represent different sounds in different words (e.g. 'machine', 'chef' for 'ch'); use blending and segmenting across syllable boundaries.",
+        "wider": [
+          "Collect examples of the same digraph representing different sounds (e.g. 'ch' in chair/chef/chorus) and sort them — discussing patterns in when each pronunciation applies",
+          "Explore how splitting words into syllables helps decode long unfamiliar words, practising across different syllable patterns"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot flexibly apply phoneme-grapheme knowledge for complex consonant patterns will encounter systematic decoding errors when reading multisyllabic words — this blocks accurate reading across curriculum texts and underpins fluency in LY10 and LY11 morphological work.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The key challenge is that digraphs like 'ch' don't always represent the same sound. Students need exposure to multiple examples across different words before they develop flexible pattern recognition rather than applying a single rule.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly reads multisyllabic words with complex consonant patterns",
+          "Student correctly segments a multisyllabic word into syllables when writing"
+        ],
+        "related_standards": ["AC9E3LY10", "AC9E3LY11", "AC9E3LY04"]
+      }
+    ]
+  }
+}

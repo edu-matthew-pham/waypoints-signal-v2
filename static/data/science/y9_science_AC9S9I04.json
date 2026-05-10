@@ -1,0 +1,73 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9I04",
+    "title": "Representations Including Statistical Summaries",
+    "description": "select and construct appropriate representations, including tables, graphs, descriptive statistics, models and mathematical relationships, to organise and process data and information",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can select and construct representations and use them to identify patterns (AC9S7I04, 7-8 band). They now extend to descriptive statistics (mean, median, range), mathematical relationships (Sankey diagram ratios, carbon storage formulas) and selecting the most appropriate representation for a given data type and conclusion purpose.",
+    "progression_endpoint": "Students select and construct appropriate representations — including descriptive statistics, mathematical relationships and varied graph types — and use those representations to organise and process data, evaluating which representation best supports a given conclusion.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Representations are selected and constructed appropriately",
+        "progression_checkpoint": "Students can select an appropriate representation type for a given data set — including tables, graphs, Sankey diagrams, molecular models and descriptive statistics — and construct it accurately using correct conventions, units and mathematical relationships.",
+        "minimum_width": "Students select and construct at least two different representation types for different data sets, explaining why each type suits the data.",
+        "typical_width": "Students select across representation types — tables, column and line graphs, Sankey diagrams with correct energy ratios, carbon storage formulas applied to field data, molecular models vs balanced equations; explain why each type suits the data; use spreadsheet software to construct tabular and graphical representations; and calculate descriptive statistics (mean, median, range) for a data set.",
+        "wider": [
+          "Apply algorithms to calculate carbon storage across different vegetation types — using mathematical relationships to process field data into a representation",
+          "Apply ratios to represent energy inputs and outputs in Sankey diagrams — examining how mathematical constraints (ratios must sum correctly) are built into the representation",
+          "Compare molecular model and balanced symbolic equation representations for the same reaction — examining what each encodes and what each omits"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to evaluate which representation best supports a conclusion — a judgement that is impossible without first being able to construct representations accurately. Students who cannot correctly calculate statistics or build Sankey diagram ratios cannot meaningfully compare representations for their analytical affordances.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Descriptive statistics and Sankey diagram ratios require precision — incorrect calculation undermines the representation's validity. Students need accurate practice with mean/median/range and ratio application before these representations can serve their analytical purpose. This is a precision-required construction skill.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Selects a representation type appropriate to the data and explains why it suits the purpose",
+          "Constructs the representation accurately — correct statistical calculations, correct units, correct mathematical ratios where applicable"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Representations are used to support conclusions",
+        "progression_checkpoint": "Students can use completed representations to identify the most appropriate statistical summary for a given data set, explain what the representation reveals about patterns or relationships, and evaluate which representation best supports a specific conclusion.",
+        "minimum_width": "Students use a completed representation to identify the most appropriate descriptive statistic for summarising the data and explain what it reveals.",
+        "typical_width": "Students identify which sample statistics (mean, median, range) are most appropriate for making generalisations from a specific data set; explain why mean is misleading when outliers are present; use spreadsheet representations to identify patterns; compare information conveyed by different representation types for the same data; and explain which representation best supports a given conclusion.",
+        "wider": [
+          "Compare information provided by molecular models and balanced equations when examining conservation of mass — explaining what each reveals that the other cannot",
+          "Examine how the choice of representation affects the conclusions that can be drawn — analysing a case where different representation choices lead to different apparent patterns",
+          "Evaluate which descriptive statistic best represents a skewed data set — examining why mean, median and range give different pictures of the same distribution"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily report what a representation shows without evaluating whether it is the most appropriate representation for the conclusion being drawn, or whether the chosen statistic accurately represents the data. Encountering cases where representation choice matters — skewed data where mean misleads, molecular models that hide quantitative relationships, Sankey diagrams that reveal efficiency in ways tables cannot — builds the evaluative dimension the descriptor requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating which representation best supports a given conclusion is a sophisticated analytical move that applies across all Y9 science content. Students engaging the wider tier develop genuine metacognitive awareness of representation as a tool with affordances and limitations — a capability that transfers beyond the specific representation types encountered.",
+        "success_criteria": [
+          "Identifies the most appropriate descriptive statistic for a given data set and explains the reasoning",
+          "Evaluates which of two representation types better supports a specific conclusion and explains why"
+        ],
+        "related_standards": [
+          "AC9S9I05"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "year_level": "3",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E3LA06",
+    "title": "Clauses with subject-verb agreement",
+    "description": "understand that a clause is a unit of grammar usually containing a subject and a verb, and that subject-verb agreement is required",
+    "strand": "Language — Expressing Ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand how compound sentences connect ideas using coordinating conjunctions (AC9E2LA06). They have not yet examined the internal structure of a clause — specifically the subject-verb relationship — or the agreement rule.",
+    "progression_endpoint": "Students understand that a clause contains a subject and a verb, and that subjects and verbs must agree in number.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying clause elements",
+        "progression_checkpoint": "Students can identify the verb and subject in a clause.",
+        "minimum_width": "Identify the verb and subject in at least three clauses by locating the verb first, then finding what or who the verb is about.",
+        "typical_width": "Identify clauses by locating verbs and the key words that link to the verbs; practise identifying subjects and verbs across different sentence types and text contexts.",
+        "wider": [
+          "Find clauses in different text types (narrative, information, instruction) and compare how subjects vary — from simple nouns to noun groups",
+          "Explore what happens to a clause when the subject is removed — discussing why subjects are necessary for meaning"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reliably identify the subject and verb in a clause cannot apply subject-verb agreement rules at N2 — agreement requires knowing which subject the verb must match.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Clause identification is a precision skill — knowing the definition doesn't translate automatically into reliable identification. Students need repeated practice across varied examples before subject and verb identification becomes fluent.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies the verb in a clause",
+          "Student correctly identifies the subject that goes with that verb"
+        ],
+        "related_standards": ["AC9E3LA07", "AC9E3LA08"]
+      },
+      {
+        "id": 2,
+        "label": "Subject-verb agreement",
+        "progression_checkpoint": "Students can identify when a singular subject requires a singular verb form and a plural subject requires a plural verb form.",
+        "minimum_width": "Identify at least two examples of subject-verb agreement (one singular, one plural) and explain why the verb form matches the subject.",
+        "typical_width": "Understand and apply subject-verb agreement: singular subjects take singular verbs, plural subjects take plural verbs — recognise and correct agreement errors.",
+        "wider": [
+          "Identify tricky agreement cases (e.g. collective nouns, compound subjects) and discuss why they are harder to get right",
+          "Find subject-verb agreement errors in student-level writing samples and explain the correction"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Subject-verb agreement errors are common in student writing and persist without targeted practice. This is a precision skill that requires repeated application across varied sentence types, not just comprehension of the rule."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies whether a subject is singular or plural",
+          "Student selects or confirms the correct verb form to match the subject"
+        ],
+        "related_standards": ["AC9E3LA07", "AC9E3LY06"]
+      }
+    ]
+  }
+}

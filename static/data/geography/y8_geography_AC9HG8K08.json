@@ -1,0 +1,97 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8K08",
+    "title": "Migration and changing nations",
+    "description": "reasons for, and effects of, internal migration and international migration in Australia, China or other countries",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students explain factors that influence where people live (AC9HG7K05) and cultural connectedness to places (AC9HG7K07). They have not yet examined migration as a driver of population change at national or international scales.",
+    "progression_endpoint": "Students explain the reasons for and effects of internal and international migration in Australia, China or other countries, including the relationship between migration and urban concentration.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Types and patterns of migration",
+        "progression_checkpoint": "Students can identify and explain the main types and patterns of internal and international migration.",
+        "minimum_width": "Students identify and explain at least two types of migration (e.g., permanent, temporary, forced) with an example of each.",
+        "typical_width": "Students explain the main types and patterns of migration — permanent migration, temporary labour migration, student migration, forced migration (refugees, illegal migrants, trafficked people) and circular migration — and distinguish internal from international migration.",
+        "wider": [
+          "Examine how legal status shapes the experience and rights of different migrant categories.",
+          "Compare the relative scale of voluntary vs forced migration globally and how these ratios change over time.",
+          "Investigate how the concept of 'circular migration' challenges traditional models of permanent settlement."
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a clear typology of migration types, students conflate voluntary and forced migration, permanent and circular, and produce confused explanations of causes and effects. The typology is the analytic foundation for Nodes 2 and 3.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The typology of migration requires explicit definitional work. A classification framework distinguishing voluntary/forced and permanent/temporary prevents undifferentiated 'people move for jobs' explanations.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies and explains at least three migration types (e.g., permanent, forced, circular) with a located example of each.",
+          "Distinguishes internal migration from international migration."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Reasons for migration",
+        "progression_checkpoint": "Students can explain the reasons — economic, social, political and environmental — driving internal and international migration in Australia, China or other countries.",
+        "minimum_width": "Students explain at least two reasons for migration with examples from a named country.",
+        "typical_width": "Students explain multiple drivers of migration — mining developments and employment (Australia: Pilbara, Bowen Basin), chain migration linked to family and employment, changing economic conditions, cultural events and circular mobility — across Australia and/or China.",
+        "wider": [
+          "Compare the relative weighting of economic vs social vs political drivers in different migration flows.",
+          "Examine how climate-driven displacement is reshaping traditional migration patterns.",
+          "Investigate how the reasons for migration have changed over time — comparing 1950s migration to present-day patterns."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using multiple migration examples across Australia and China — rather than a single case study — prevents students from treating one migration context as the universal pattern.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of migration drivers — economic, cultural, family network, political — and the contrast between Australia and China as case studies offer rich comparative geographic reasoning. Wider students can develop nuanced, multi-causal migration explanations.",
+        "success_criteria": [
+          "Explains at least two reasons driving a specific migration flow in a named country.",
+          "Connects the migration reasons to the type of migration (internal/international, permanent/temporary)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Effects of migration on places",
+        "progression_checkpoint": "Students can explain the effects of internal and international migration on places of origin and destination, including the relationship between migration and urban concentration.",
+        "minimum_width": "Students explain one effect of migration on a place of origin or destination.",
+        "typical_width": "Students explain the effects of migration on places of origin and destination — population growth in mining regions, cultural diversity in cities, urban concentration patterns — and interpret population data to describe the relationship between international migration and urban concentration in Australia, and internal migration and urban concentration in China.",
+        "wider": [
+          "Examine the brain drain effect — how migration of skilled workers affects places of origin.",
+          "Investigate how migrant communities reshape the cultural character of destination places (language, cuisine, religious infrastructure).",
+          "Compare how the effects of internal migration in China differ from international migration into Australia, considering scale and policy context."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to bring together migration typology, reasons and spatial patterns into an explanation of effects on places — including using population data as evidence for the migration-urbanisation relationship."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least two effects of migration on a named place of origin or destination.",
+          "Interprets population data to describe the relationship between migration and urban concentration in at least one country."
+        ],
+        "related_standards": ["AC9HG8K07"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7P02",
+    "title": "Repeated Experiments and Simulation",
+    "strand": "Probability",
+    "description": "conduct repeated chance experiments and run simulations with a large number of trials using digital tools; compare predictions about outcomes with observed results, explaining the differences",
+    "mode": "A",
+    "prior_knowledge": "Students can assign probabilities and predict relative frequencies (from AC9M7P01). Students have run simulations with increasing trials (from AC9M6P02).",
+    "progression_endpoint": "Students conduct repeated experiments and simulations to observe that relative frequencies approach theoretical probability as the number of trials increases, and explain differences between predicted and observed results.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Running experiments and recording results",
+        "progression_checkpoint": "Students conduct repeated chance experiments and record observed frequencies systematically.",
+        "minimum_width": "Conduct a simple chance experiment (e.g. coin toss) for at least 20 trials and record results in a frequency table.",
+        "typical_width": "Conduct experiments for increasing numbers of trials; record cumulative results; compare observed frequency to predicted frequency at each stage.",
+        "wider": [
+          "Use digital tools to run simulations of the same experiment with 100, 1000, 10000 trials — record and compare results.",
+          "Investigate First Nations Australian children's instructive games as probability experiments — record and analyse outcomes."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Systematic data recording is prerequisite to any comparison between experimental and theoretical probability. Students who record inconsistently cannot see the law of large numbers pattern.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who record inconsistently cannot generate reliable relative frequencies for Node 2 comparison — without a systematic cumulative record, the convergence pattern of the law of large numbers is invisible in the data.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Records observed frequencies in an organised frequency table.",
+          "Calculates relative frequency from observed results.",
+          "Compares observed relative frequency to theoretical probability."
+        ],
+        "related_standards": [
+          "AC9M7P01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Law of large numbers — observed vs predicted",
+        "progression_checkpoint": "Students observe that relative frequencies become closer to theoretical probability as the number of trials increases, and explain why short-run results may differ from predictions.",
+        "minimum_width": "Explain why 3 heads from 10 coin tosses does not mean the coin is unfair, using the idea that more trials are needed.",
+        "typical_width": "Use simulation data to show relative frequencies converging toward theoretical probability over many trials; describe the pattern in their own words.",
+        "wider": [
+          "Investigate: how many trials are needed before the relative frequency is consistently within 5% of the theoretical probability?",
+          "Apply the law of large numbers to real contexts: insurance companies and casinos rely on this — explain how."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The law of large numbers is counter-intuitive to students who expect short runs to match predictions. Multiple experiments with different devices, each showing the same convergence pattern, build the generalised understanding.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "States that relative frequencies approach theoretical probability as trials increase.",
+          "Explains why short-run results can differ significantly from predictions.",
+          "Does not commit the gambler's fallacy (thinking past outcomes affect future probabilities)."
+        ],
+        "related_standards": [],
+        "width_opportunity_reason": "Investigating how many trials are needed for stable relative frequency is a rich inquiry task — advancing students can connect this to real applications (insurance, casinos) and reason about the practical meaning of the law of large numbers."
+      }
+    ]
+  }
+}

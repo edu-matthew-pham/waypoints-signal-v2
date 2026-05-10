@@ -1,0 +1,94 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3A03",
+    "title": "Multiplication facts 3, 4, 5 and 10",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "recall and demonstrate proficiency with multiplication facts for 3, 4, 5 and 10; extend and apply facts to develop the related division facts",
+    "prior_knowledge": "Students can recall and demonstrate proficiency with multiplication facts for twos; extend and apply facts to develop related division facts (AC9M2A03). They have not yet developed automatic recall of 3, 4, 5 and 10 times tables.",
+    "progression_endpoint": "Students recall multiplication facts for 3, 4, 5 and 10 with proficiency and derive the related division facts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Building the 3, 5 and 10 times tables",
+        "progression_checkpoint": "Students can demonstrate and explain the pattern in the 3, 5 and 10 multiplication facts using skip-counting, grouping or repeated addition.",
+        "minimum_width": "Use skip-counting or repeated addition to generate the complete 3 and 5 times tables; identify and describe one pattern in each.",
+        "typical_width": "Generate the 3, 5 and 10 times tables using multiple representations (skip-counting, arrays, repeated addition); identify and describe the patterns (e.g. multiples of 5 end in 0 or 5).",
+        "wider": [
+          "Explore how the 10 times table connects to place value and the decimal system — explaining why multiplying by 10 shifts digits left",
+          "Investigate multiplication patterns using a calculator or spreadsheet, generating lists of multiples and describing emerging patterns"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who learn times tables purely through rote recall without pattern understanding often have fragile recall under pressure. Seeing the structural pattern (multiples of 5 end in 0 or 5; 3s have a digit sum pattern) builds durable recall.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Pattern-grounded understanding of the 3, 5 and 10 tables is required for Node 2 (building the 4 times table via doubling) and Node 3 (fluent recall and division derivation) — students with only fragile rote recall will be unable to derive unknown facts under pressure or use the doubling strategy for the 4s, creating gaps that propagate into AC9M3N04 calculation tasks.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can state any multiplication fact for 3, 5 or 10 within the expected range.",
+          "Students can describe a pattern in the 5 or 10 times table using mathematical language."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Building the 4 times table and deriving related facts",
+        "progression_checkpoint": "Students can recall the 4 times table and explain its relationship to the 2 times table (doubling).",
+        "minimum_width": "Generate the 4 times table using doubling from the 2 times table; state three related division facts.",
+        "typical_width": "Build the 4 times table using doubling; practise recall across all facts; derive the related division facts for 3, 4, 5 and 10.",
+        "wider": [
+          "Explore how the 4 times table connects to the 8 times table through another doubling step",
+          "Apply 4 times table facts to solve real-world problems involving groups of 4 (seasons, legs of animals, corners of squares)"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The 4=2×2 doubling derivation is a reasoning scaffold that connects the new table to already-known facts. Making this reasoning explicit prevents students from treating the 4 times table as an entirely new memorisation task.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "The 4 times table and the doubling derivation strategy are both required for Node 3 fluency — students who have not built the 4s cannot complete the full set of recall targets. Additionally, the doubling reasoning scaffold is the key mechanism preventing rote overload at Node 3.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can state any multiplication fact for 4 within the expected range.",
+          "Students can derive a division fact from a known multiplication fact for any of 3, 4, 5 or 10."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Fluency and division fact extension",
+        "progression_checkpoint": "Students can recall multiplication facts for 3, 4, 5 and 10 with proficiency and immediately state the related division facts.",
+        "minimum_width": "Recall any multiplication fact for 3, 4, 5 or 10 and immediately state both related division facts.",
+        "typical_width": "Demonstrate fluent recall across all 3, 4, 5 and 10 times tables; derive and use related division facts in calculation contexts.",
+        "wider": [
+          "Systematically explore algorithms using the multiplication facts — e.g. finding all numbers up to 100 that are divisible by 3, 4, 5 or 10",
+          "Investigate commutativity across tables: use 4×7=28 to derive 7×4, connecting to less-familiar combinations"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fact fluency is the explicit goal — 'recall and demonstrate proficiency' requires automaticity, which is built through practice after understanding. Students who understand patterns but hesitate under time pressure need consolidation not more breadth."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can state any multiplication fact for 3, 4, 5 or 10 without hesitation.",
+          "Students can immediately state the two related division facts for any given multiplication fact."
+        ],
+        "related_standards": ["AC9M3N04", "AC9M3N07"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8P02",
+    "title": "Combinations for Two Events",
+    "strand": "Probability",
+    "description": "determine all possible combinations for 2 events, using two-way tables, tree diagrams and Venn diagrams, and use these to determine probabilities of specific outcomes in practical situations",
+    "mode": "A",
+    "prior_knowledge": "Students can list sample spaces and assign probabilities for single-stage events (from AC9M7P01). Students understand complementary events (from AC9M8P01).",
+    "progression_endpoint": "Students represent all combinations for two events using two-way tables, tree diagrams and Venn diagrams, and calculate probabilities of compound events.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Representing two-event combinations",
+        "progression_checkpoint": "Students represent all possible combinations for two events using two-way tables, tree diagrams and Venn diagrams.",
+        "minimum_width": "Represent all combinations for two events using one of: two-way table, tree diagram, or Venn diagram.",
+        "typical_width": "Represent the same two-event situation using all three methods; identify which representation is most useful for different probability questions.",
+        "wider": [
+          "Explore First Nations Australian children's instructive games with two-event outcomes — e.g. Battendi from the Ngarrindjeri Peoples — represent combinations and discuss fairness.",
+          "Investigate mutually exclusive events using Venn diagrams: show that the circles don't overlap and explain what this means."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Each representation (table, tree, Venn) makes different probability questions easy or hard. Students need experience with all three to develop judgment about which to use for a given question.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot select an appropriate representation for a given probability question cannot access Node 2 — calculating compound event probabilities requires first constructing a valid representation of the sample space.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations games as a probability context and the systematic comparison of all three representation types offer advancing students both cultural richness and mathematical depth — comparing which representation best answers which question is a genuine reasoning task.",
+        "success_criteria": [
+          "Correctly lists all combinations for a two-event situation.",
+          "Represents combinations accurately using at least one method.",
+          "Identifies the advantage of each representation for different questions."
+        ],
+        "related_standards": ["AC9M7P01"]
+      },
+      {
+        "id": 2,
+        "label": "Calculating compound event probabilities",
+        "progression_checkpoint": "Students use representations to calculate probabilities of compound events using 'and', 'or' (inclusive and exclusive), and 'at least' language.",
+        "minimum_width": "Calculate P(A and B) and P(A or B) from a two-way table or Venn diagram.",
+        "typical_width": "Calculate probabilities using all event language types (and, or, at least, not); distinguish inclusive and exclusive or; apply to practical situations.",
+        "wider": [
+          "Investigate the addition rule P(A or B) = P(A) + P(B) − P(A and B) informally — verify using a two-way table.",
+          "Apply compound probability to real situations: the probability of a randomly selected student studying both maths and music, or either subject."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Compound probability calculation requires careful interpretation of event language before selecting a calculation method. Students who skip the interpretation step frequently calculate the wrong compound event."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly calculates P(A and B) and P(A or B) from a representation.",
+          "Distinguishes inclusive and exclusive 'or' in context.",
+          "Uses the representation systematically rather than guessing."
+        ],
+        "related_standards": ["AC9M8P01", "AC9M8P03"]
+      }
+    ]
+  }
+}

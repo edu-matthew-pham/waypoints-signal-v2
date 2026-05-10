@@ -1,0 +1,138 @@
+{
+  "year_level": "7",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG7S03",
+    "title": "Interpret and analyse geographical data",
+    "description": "interpret and analyse geographical data and information to identify similarities and differences, explain patterns and trends and infer relationships",
+    "strand": "Geographical Inquiry and Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have prior skills identifying patterns and trends from F–6 HASS (AC9HS6S03: evaluate information and data in a range of formats to identify and describe patterns and trends, or to infer relationships). This standard extends that to geographical-specific analytical moves: reading spatial data, explaining geographical patterns and trends with reference to geographical processes, and inferring place-based relationships from data.",
+    "progression_endpoint": "Students interpret and analyse geographical data to identify similarities and differences, explain patterns and trends, and infer relationships.",
+    "notes": "This descriptor contains three distinct analytical verbs — identify similarities/differences, explain patterns/trends, infer relationships — which warrant separate treatment as nodes. The third is trivially dependent on the first two (you infer after identifying and explaining), so a sequential structure is appropriate."
+  },
+  "standard": {
+    "code": "AC9HG7S03",
+    "title": "Interpret and analyse geographical data",
+    "description": "interpret and analyse geographical data and information to identify similarities and differences, explain patterns and trends and infer relationships",
+    "strand": "Geographical Inquiry and Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have prior skills identifying patterns and trends from F–6 HASS (AC9HS6S03: evaluate information and data in a range of formats to identify and describe patterns and trends, or to infer relationships). This standard extends that to geographical-specific analytical moves: reading spatial data, explaining geographical patterns and trends with reference to geographical processes, and inferring place-based relationships from data.",
+    "progression_endpoint": "Students interpret and analyse geographical data to identify similarities and differences, explain patterns and trends, and infer relationships.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying similarities and differences in geographical data",
+        "progression_checkpoint": "Students can identify similarities and differences in geographical data and information, using specific evidence from maps, images or data.",
+        "minimum_width": "Students identify at least two similarities and two differences in a geographical dataset or between two places, with specific evidence.",
+        "typical_width": "Students identify similarities and differences in geographical data — e.g. comparing housing density from aerial images of inner vs outer suburbs, or rural vs remote places — using specific evidence from the data and avoiding vague generalisations.",
+        "wider": [
+          "Compare data at multiple scales for the same phenomenon — identify similarities and differences at local, state and national scales",
+          "Compare similarities and differences using both quantitative data (statistics) and qualitative data (photographs, field sketches) for the same location pair",
+          "Examine a case where aggregate data obscures important local similarities and differences — practise identifying what fine-grained analysis reveals that aggregate analysis hides"
+        ],
+        "hinge": true,
+        "hinge_reason": "Identifying similarities and differences with specific evidence is the foundation for pattern explanation in node 2. Students who make vague comparisons ('one place has more services') without specific evidence cannot transition to explaining spatial patterns — they have no data points to connect into a pattern.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students frequently describe differences without citing specific evidence. Consolidation requires repeated practice extracting specific data points from maps and images as the basis for comparison — not describing general impressions.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two similarities and two differences between geographical datasets or places, citing specific evidence for each.",
+          "Avoids vague generalisations — each comparison is grounded in a specific data point, map feature or image detail."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Explaining geographical patterns and trends",
+        "progression_checkpoint": "Students can explain geographical patterns and trends in data, connecting the pattern to a geographical process or relationship.",
+        "minimum_width": "Students identify at least one geographical pattern or trend in data and explain it by reference to a geographical process or relationship.",
+        "typical_width": "Students explain patterns and trends in geographical data — e.g. using graphs, weather maps and satellite images to examine temporal and spatial patterns of a hydrological hazard — connecting the pattern to an underlying geographical process (not just naming it).",
+        "wider": [
+          "Distinguish between a pattern (spatial distribution at a point in time) and a trend (change over time) and analyse one example of each for the same phenomenon",
+          "Examine a pattern that appears simple but has a complex explanation — e.g. why do some remote areas have higher water costs despite being near water sources? — practising multi-causal explanation",
+          "Use two different data formats (e.g. map and graph) to identify the same pattern, and evaluate which format makes the pattern more visible"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who can identify patterns but not explain them cannot draw geographical conclusions (S04). Pattern description without process explanation is empirically incomplete — it cannot support inference or decision-making.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The move from describing a pattern to explaining it requires a process chain: observed pattern → geographical mechanism → why this pattern exists here and not elsewhere. Explicit scaffolding of this chain prevents students stopping at description.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Practising pattern explanation across both physical (hazard spatial patterns) and human (service distribution patterns) phenomena builds transferable analytical skills and prevents students from learning a single process explanation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Pattern explanation is the core analytical skill of geographical inquiry. Students who can explain patterns across diverse phenomena (hazard distribution, service distribution, housing density) have a genuine geographical analytical toolkit rather than topic-specific knowledge.",
+        "success_criteria": [
+          "Identifies at least one geographical pattern or trend in data and explains it by reference to a geographical process.",
+          "Distinguishes between describing a pattern (what is observed) and explaining it (why it occurs)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Inferring geographical relationships",
+        "progression_checkpoint": "Students can infer relationships in geographical data and information, explaining the relationship and the evidence base for the inference.",
+        "minimum_width": "Students infer at least one relationship from geographical data and explain the evidence that supports the inference.",
+        "typical_width": "Students infer relationships in data and information collected — e.g. using surveys and interviews to identify community attitudes about service distribution in cities vs remote communities — explaining the relationship inferred, the evidence base, and the degree of confidence warranted.",
+        "wider": [
+          "Distinguish between correlation (two things vary together) and causal relationship (one causes the other) in geographical data, and test this distinction on real examples",
+          "Infer a relationship from two different data types (quantitative and qualitative) for the same phenomenon and consider whether the two data types produce the same inference",
+          "Examine an apparent relationship in data that has an alternative explanation — practise generating and evaluating rival explanations"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often treat correlation as causation. The reasoning scaffold — pattern observed → relationship inferred → evidence for inference → confidence level → possible alternative explanation — builds epistemic care about inference that is central to geographical analysis.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The correlation/causation distinction and the habit of generating rival explanations are among the most transferable critical thinking skills the geography curriculum develops. Students who practise this have tools applicable in all evidence-based disciplines.",
+        "success_criteria": [
+          "Infers at least one relationship from geographical data and identifies the evidence that supports the inference.",
+          "Notes at least one limitation of the inference or an alternative explanation that the data cannot rule out."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Integration: interpret and analyse geographical data",
+        "progression_checkpoint": "Students interpret and analyse geographical data — identifying similarities and differences, explaining patterns and trends, and inferring relationships — in the context of a geographical inquiry.",
+        "minimum_width": "Students produce an analysis of geographical data that demonstrates at least two of the three analytical moves (compare, explain, infer).",
+        "typical_width": "Students produce an integrated analysis of a geographical dataset that identifies similarities and differences, explains at least one spatial pattern or trend, and infers at least one relationship — presented as a connected analytical argument rather than three separate exercises.",
+        "wider": [
+          "Produce a full data analysis section for a geographical inquiry report that applies all three analytical moves to multiple data sources, evaluates the reliability of the inferences, and identifies gaps",
+          "Peer-review another student's data analysis using the three-move framework — provide specific feedback on whether each move is demonstrated with sufficient evidence"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The three analytical moves — compare, explain, infer — need to be applied sequentially and cumulatively in a real analysis context. Integration practises moving through all three in response to a geographical dataset rather than applying each in isolation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a data analysis that demonstrates at least two of: identifying similarities/differences, explaining patterns/trends, inferring relationships.",
+          "Grounds each analytical claim in specific data evidence."
+        ],
+        "related_standards": ["AC9HG7S02", "AC9HG7S04"]
+      }
+    ]
+  }
+}

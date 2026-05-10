@@ -1,0 +1,71 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8K09",
+    "title": "Urban sustainability strategies",
+    "description": "strategies to manage the sustainability of Australia's changing urban places",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students explain the causes of urbanisation and its impacts (AC9HG8K06) and urban distribution patterns and concentration (AC9HG8K07). They now bring these together to evaluate management strategies for sustainable urban futures.",
+    "progression_endpoint": "Students explain strategies used to manage the sustainability of Australia's changing urban places, examining environmental, economic and social implications.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sustainability in urban contexts",
+        "progression_checkpoint": "Students can explain what sustainability means in an urban context, encompassing environmental, economic and social dimensions.",
+        "minimum_width": "Students explain what urban sustainability means, identifying environmental, economic and social dimensions.",
+        "typical_width": "Students explain the concept of urban sustainability as encompassing environmental quality, economic viability and social equity — and identify how growing urban populations create tensions between these dimensions (e.g., growth pressure vs liveability, density vs green space).",
+        "wider": [
+          "Examine how the concept of urban sustainability has evolved — from environmental-only to triple-bottom-line frameworks.",
+          "Investigate how different stakeholders (residents, developers, governments) define urban sustainability differently.",
+          "Compare sustainability challenges in rapidly growing cities vs stagnating cities."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who reduce sustainability to environmental management only will produce incomplete evaluations of strategies in Node 2 — missing economic viability and social equity dimensions that the descriptor explicitly requires.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The triple-dimension framework (environmental, economic, social) needs explicit establishment before strategy evaluation. Students need to see sustainability as multi-dimensional to evaluate trade-offs.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains urban sustainability as encompassing at least three dimensions (environmental, economic, social).",
+          "Identifies a tension or trade-off between sustainability dimensions in an urban growth context."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Strategies for urban sustainability",
+        "progression_checkpoint": "Students can examine strategies used by governments to manage projected population growth and identify implications for sustainability and liveability.",
+        "minimum_width": "Students identify one government strategy for managing urban population growth and explain one implication for sustainability.",
+        "typical_width": "Students examine at least one strategy used by local, state or national governments to manage projected population growth in an Australian city or regional centre (e.g., urban consolidation, transit-oriented development, decentralisation using Canberra as an example), identifying implications for environmental, economic and social sustainability and for liveability.",
+        "wider": [
+          "Compare urban consolidation strategies with decentralisation strategies — what are the trade-offs for liveability and sustainability?",
+          "Evaluate the success of a specific urban sustainability strategy using data on outcomes.",
+          "Examine how community groups or local residents influence or contest government urban strategies."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Examining multiple strategy types (consolidation, decentralisation, transit corridors) prevents students from treating one approach as the only solution and builds capacity for genuine strategy comparison.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Strategy comparison — weighing liveability, environmental cost, economic viability and equity implications across multiple approaches — is genuinely rich geographic argument. Wider students can develop and defend a preferred strategy with multi-factor reasoning.",
+        "success_criteria": [
+          "Identifies a named government strategy for managing urban population growth and explains its purpose.",
+          "Explains at least two implications of the strategy for sustainability (environmental, economic or social) and/or liveability."
+        ],
+        "related_standards": ["AC9HG8K06", "AC9HG8K07", "AC9HG8S05"]
+      }
+    ]
+  }
+}

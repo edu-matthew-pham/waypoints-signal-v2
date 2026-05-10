@@ -1,0 +1,83 @@
+{
+  "year_level": "10",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E10LE02",
+    "title": "Extending others' interpretations of literature",
+    "description": "reflect on and extend others' interpretations of and responses to literature",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students present personal responses comparing initial impressions with subsequent analysis (AC9E9LE02). They have not yet reflected on and extended others' interpretations of literature.",
+    "progression_endpoint": "Students reflect on and extend others' interpretations of and responses to literature.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Engaging with others' interpretations",
+        "progression_checkpoint": "Students can identify and reflect on how others have interpreted a literary text, comparing another's interpretation with their own.",
+        "minimum_width": "Identify one interpretation of a text from a published source or peer response and reflect on how it compares with their own reading.",
+        "typical_width": "Engage with multiple interpretations of a literary text (published critics, peers, class discussions), reflecting on points of agreement, difference and the reasons for different readings.",
+        "wider": [
+          "Debate whether a text possesses universal qualities and consider how different reader positions produce different claims about universality",
+          "Examine critical responses to a First Nations Australian text from both First Nations and non-First Nations critics, reflecting on how reader position shapes interpretation",
+          "Research how a text's critical reception has changed over time and reflect on what changed interpretations reveal about shifting contexts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to extend an interpretation \u2014 a move that is only available if students have first identified and reflected on what another interpretation is and where it differs from their own. Without this, Node 2 collapses into restating a single reading.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students need to encounter multiple different interpretations of the same text \u2014 from peers, published critics and culturally diverse readers \u2014 before the concept that interpretations differ and why becomes visible rather than abstract.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies another's interpretation of a text and reflects on how it compares with their own",
+          "Can articulate at least one reason why interpretations might differ"
+        ],
+        "related_standards": [
+          "AC9E10LE03",
+          "AC9E10LE05"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Extending interpretations through close textual analysis",
+        "progression_checkpoint": "Students can extend an interpretation of a text by presenting arguments based on close textual analysis, going beyond initial responses.",
+        "minimum_width": "Present at least one argument based on close textual analysis that extends or deepens an existing interpretation of a text.",
+        "typical_width": "Present a developed interpretation of a literary text, using close textual analysis to extend beyond surface readings and engage with complexity \u2014 through an essay, director's notes or similar form.",
+        "wider": [
+          "Write a critical essay that synthesises personal interpretation with engagement with at least one published critical reading, extending the published reading through own analysis",
+          "Create a set of director's notes or adaptation rationale that reflects on and extends interpretive possibilities for a text",
+          "Create a personal reading list that includes texts across genres and cultures and justify how each text earns its place through close reading"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Extending rather than merely summarising or agreeing with another's interpretation requires students to identify the limits or gaps in a reading and build from there \u2014 this moves students beyond 'I agree/disagree' into genuine analytic extension.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of forms for presenting extended interpretations (essay, director's notes, personal reading list) offers genuine variety, and the depth achievable through close textual analysis is rich for advancing students.",
+        "success_criteria": [
+          "Presents an argument based on close textual analysis that extends or deepens an interpretation",
+          "Uses textual evidence to support the extension of the interpretation"
+        ],
+        "related_standards": [
+          "AC9E10LE05",
+          "AC9E10LY06",
+          "AC9E10LA08"
+        ]
+      }
+    ]
+  }
+}

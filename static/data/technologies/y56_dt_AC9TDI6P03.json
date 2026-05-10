@@ -1,0 +1,81 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6P03",
+    "title": "Design a user interface",
+    "description": "Design a user interface for a digital system",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can generate, communicate and compare designs (AC9TDI4P03). They have produced design ideas and communicated them. They have not yet focused specifically on designing user interfaces \u2014 the layout, accessibility, and usability considerations of how a user interacts with a digital system.",
+    "progression_endpoint": "Students design a user interface for a digital system that addresses an identified need, considering layout, accessibility, and how users from different backgrounds can access the information.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What a user interface is and does",
+        "progression_checkpoint": "Students can explain that a user interface is the part of a digital system the user interacts with, and identify key elements of a user interface design",
+        "minimum_width": "Identify at least three elements of a user interface (e.g. buttons, menus, input fields, labels) in an existing app or system; explain the purpose of each element",
+        "typical_width": "Analyse an existing user interface (e.g. a school canteen ordering app) and identify how the layout, labels, and controls guide the user toward completing a task; discuss what would make it easier or harder to use",
+        "wider": [
+          "Investigate how consistent symbols (copy, paste, save icons) across different apps help users from different cultural and language backgrounds \u2014 exploring what happens when symbols are ambiguous or culturally specific",
+          "Examine the user interface of a telehealth or community services platform designed for remote use \u2014 identifying which design decisions support access for users with limited digital literacy"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Identifying UI elements across a range of apps (ordering, search, settings, navigation) builds the vocabulary students need to design with intent. Without having seen and named a range of element types, students default to what they know \u2014 typically a simple button grid \u2014 rather than selecting appropriate elements for the task.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least three user interface elements correctly",
+          "Explains the purpose of each identified element"
+        ],
+        "related_standards": [
+          "AC9TDI4P03",
+          "AC9TDI6P04"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify UI elements and their purposes cannot produce a purposeful design in N2 \u2014 interface design requires knowing what the components are and what they do for the user. Without N1, N2 produces decorative layouts rather than functional designs."
+      },
+      {
+        "id": 2,
+        "label": "Designing a user interface for an identified need",
+        "progression_checkpoint": "Students can design a user interface (on paper or digitally) that addresses an identified user need",
+        "minimum_width": "Produce a labelled sketch or digital mockup of a user interface for a specific purpose, showing the layout and key elements",
+        "typical_width": "Design a user interface that addresses an identified need (from user stories); include layout, labels, navigation and key controls; explain how each design decision relates to what the user needs to do",
+        "wider": [
+          "Design a user interface for the school canteen ordering app, then modify it for a user who is visually impaired \u2014 documenting changes to font size, colour contrast, and screen reader compatibility",
+          "Design a user interface intended for users from different cultural or language backgrounds \u2014 explaining how you used symbols, colour and layout to make it accessible across language differences"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students designing for themselves tend to produce interfaces that work for them but not for others. Designing for a specific, different user group (visually impaired, non-English speaking, remote community) makes the accessibility dimension concrete \u2014 it shifts design from personal preference to user-centred decision-making.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Designing for accessibility and cross-cultural usability is rich \u2014 it makes UI design decisions visibly principled rather than aesthetic, and the wider contexts (disability, language diversity, remote access) are each substantive design challenges in their own right.",
+        "success_criteria": [
+          "Produces a labelled interface design showing key elements and layout",
+          "Explains how at least one design decision connects to the user's identified need"
+        ],
+        "related_standards": [
+          "AC9TDI6P01",
+          "AC9TDI6P04",
+          "AC9TDI6P06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

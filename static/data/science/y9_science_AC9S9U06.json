@@ -1,0 +1,73 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9U06",
+    "title": "Atomic Model and Radioactivity",
+    "description": "explain how the model of the atom changed following the discovery of electrons, protons and neutrons and describe how natural radioactive decay results in stable atoms",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can classify matter as elements, compounds and mixtures and use element symbols and formulas (AC9S8U06). They have not yet examined subatomic particle structure, isotopes, or radioactive decay.",
+    "progression_endpoint": "Students explain how experimental evidence drove successive revisions of the atomic model, describe the subatomic structure of atoms including isotopes, explain how unstable isotopes decay to form stable atoms, and describe applications of radioactivity in medicine, industry and dating.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Evidence drove successive revisions of the atomic model",
+        "progression_checkpoint": "Students can trace the development of the atomic model from Thomson through Rutherford, explaining what experimental evidence prompted each revision and what the new model could explain that the previous one could not.",
+        "minimum_width": "Students describe at least two revisions to the atomic model and explain what experimental evidence prompted each change.",
+        "typical_width": "Students trace the model development from Dalton (indivisible sphere) → Thomson (plum pudding, discovery of electron) → Rutherford (nuclear model, gold foil experiment) → Bohr (electron shells); explain what evidence each experiment provided; and explain how each revision resolved a problem the previous model could not address.",
+        "wider": [
+          "Examine how Thomson's discovery of the electron, Millikan's oil drop experiment and Rutherford's gold foil experiment provide consistent lines of evidence for the nuclear model — connecting evidence consistency to validation (AC9S9H01)",
+          "Research how Marie and Pierre Curie's discovery of new elements was validated — examining the publication and peer review process for this discovery (AC9S9H01)",
+          "Explore how advances in understanding of matter and energy have been enabled by modern technology — from early atomic experiments to particle accelerators (AC9S9H02)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to understand subatomic particle structure (electrons, protons, neutrons) and how isotopes differ in neutron number. Students who have not worked through the evidence-driven model revisions will hold an undifferentiated particle model and will not understand why some isotopes are unstable — the stability/instability distinction in Node 2 requires knowing what the nucleus contains.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students tend to treat successive atomic models as different opinions rather than as progressive improvements driven by experimental evidence. The reasoning chain — existing model → experiment reveals anomaly → model revised to account for anomaly → new model → further experiment — is the scaffold for understanding atomic model history as evidence-driven scientific knowledge change.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The consistent-evidence direction (AC9S9H01) provides rich cross-strand enrichment connecting atomic history to how scientific knowledge is validated. The Curie validation story adds a gender and cultural dimension to the history of science.",
+        "success_criteria": [
+          "Names at least three atomic models in historical sequence",
+          "Explains what experimental evidence prompted at least two model revisions"
+        ],
+        "related_standards": ["AC9S9H01"]
+      },
+      {
+        "id": 2,
+        "label": "Isotopes, radioactive decay and half-life",
+        "progression_checkpoint": "Students can explain that isotopes are atoms of the same element with different neutron numbers, describe how unstable isotopes decay (alpha, beta, gamma) to form stable atoms, and apply the concept of half-life to predict decay over time.",
+        "minimum_width": "Students explain what an isotope is, name and describe one type of radioactive decay, and explain what half-life means.",
+        "typical_width": "Students explain isotopes as same-element atoms with different neutron numbers; describe alpha, beta and gamma decay with examples (radon-222, iodine-131, cobalt-60); define half-life; use half-life data to predict remaining mass over time; and explain that decay continues until a stable isotope is formed.",
+        "wider": [
+          "Investigate how radiocarbon and other dating methods have been used to establish that First Peoples of Australia have been present for more than 60,000 years — examining how decay rates enable age determination",
+          "Examine applications of radioactivity in medicine and industry — cancer diagnosis and treatment, flaw detection in aircraft components — tracing science knowledge to real technology (AC9S9H02)",
+          "Use digital simulations to model radioactive decay including half-life — examining how simulation enables safe investigation of phenomena not accessible in a classroom"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students typically encounter radioactivity as abstract decay types without seeing the applications. The dating methods, medical applications and industrial applications provide varied real-world contexts that make the abstract decay concepts meaningful and reveal the practical importance of understanding radioactivity.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Radiocarbon dating and its application to establishing First Peoples' presence provides a culturally significant and scientifically rigorous direction. Medical and industrial applications (AC9S9H02) ground abstract radioactivity concepts in real technology.",
+        "success_criteria": [
+          "Explains what an isotope is and why some isotopes are unstable",
+          "Describes at least two types of radioactive decay and names an example of each",
+          "Uses half-life data to calculate remaining mass after a given number of half-lives"
+        ],
+        "related_standards": ["AC9S9H01", "AC9S9H02"]
+      }
+    ]
+  }
+}

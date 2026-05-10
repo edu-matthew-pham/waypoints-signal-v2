@@ -1,0 +1,82 @@
+{
+  "description": "Width tiers for Year 2 Science \u2014 ACARA v9. Covers the three U-strand descriptors. H-strand and I-strand (1\u20132 band) are in science_y1_2_width_tiers.json.",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "2",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "phenomena_contexts"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor \u2014 fewest phenomena or contexts that still genuinely satisfy the descriptor.",
+    "typical_width": "Full scope grounded in the most common elaboration cases.",
+    "wider": "Enrichment directions adding phenomena, cultural contexts or applications. First Nations directions included where elaborations indicate them.",
+    "elaborations": "ACARA elaborations treated as source data. Typical grounded in common cases."
+  },
+  "standards": {
+    "AC9S2U01": {
+      "strand": "Earth and Space Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Name Earth as a planet in the solar system and identify at least two other planets; describe the pattern of the sun's movement across a day; describe at least two moon phases and make one prediction based on the monthly pattern.",
+      "typical_width": "Explore solar system representations; describe Earth's shape from space images; distinguish day and night sky objects; identify patterns in sun position and shadow length across a day; create a moon diary across a month identifying pattern and making predictions; observe and describe short-term and longer-term sky patterns.",
+      "wider": [
+        "Explore how cultural stories of First Nations Peoples of Australia describe patterns in the sun, moon and stars \u2014 comparing knowledge frameworks",
+        "Create a class model of the solar system naming the sun and planets",
+        "Distinguish regular sky events (full moon) from irregular events (blood moon, blue moon)",
+        "View time-lapse video of sun, moon, stars or satellite movement \u2014 using digital tools to observe patterns invisible at normal timescales"
+      ],
+      "elaborations": [
+        "identifying celestial objects visible in space: sun, moon, stars, planets",
+        "viewing images or video of Earth from space and describing Earth's shape",
+        "exploring representations of the solar system and identifying Earth and other planets",
+        "observing day and night sky phenomena",
+        "investigating how shadow length changes with changing sun position",
+        "creating a class moon diary across a month identifying patterns and making predictions",
+        "observing short-term and longer-term sky patterns",
+        "distinguishing regular and irregular sky events",
+        "exploring First Nations cultural stories about patterns in the sun, moon and stars"
+      ]
+    },
+    "AC9S2U02": {
+      "strand": "Physical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Name at least four different sound-producing actions with examples; describe vibrations in one sound-making object and explain that the object vibrates because of sound energy.",
+      "typical_width": "Explore and classify instruments by sound-producing action (striking, blowing, plucking, scraping, shaking); describe how traditional First Nations instruments produce sound; observe vibrations from a ruler, tuning fork or speaker; connect vibration speed/strength to loudness and pitch; design and make a simple instrument.",
+      "wider": [
+        "Explore how traditional musical instruments used by First Nations Australians produce their characteristic sounds",
+        "Investigate which materials best muffle sound \u2014 examining how materials absorb or block vibrations",
+        "Discuss echolocation in dolphins and bats \u2014 connecting sound vibration to animal navigation",
+        "Explore how music can be understood as patterns of sounds (AC9S2H01)"
+      ],
+      "elaborations": [
+        "building vocabulary for loudness and pitch, comparing instrument sounds",
+        "exploring different ways to produce sound using familiar objects and actions",
+        "exploring traditional First Nations Australian instruments",
+        "observing vibrations from a twanged ruler",
+        "investigating how sound energy makes things vibrate",
+        "investigating which materials muffle sound",
+        "designing and making instruments",
+        "discussing echolocation in humans with vision impairment and other animals"
+      ]
+    },
+    "AC9S2U03": {
+      "strand": "Chemical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Apply at least two physical changes to a material and name each action; explain that the material is still the same substance after the change; compare how the same action affects two different materials.",
+      "typical_width": "Manipulate multiple materials with multiple actions (scrunching, twisting, bending, cutting, tearing, folding, crushing); explain that physical changes alter shape but not composition; describe purposeful physical changes; compare properties of original and changed material.",
+      "wider": [
+        "Crush chalk into powder and discuss whether it is still the same material \u2014 challenging composition understanding",
+        "Explore how First Nations Australians make physical changes to natural materials to produce bowls, baskets and fibre crafts",
+        "Create an 'odd one out' game using physically changed vs different materials \u2014 applying composition knowledge to classification",
+        "Learn from material workers (woodworkers, fibre artists, sculptors) about how they manipulate material properties (AC9S2H01)"
+      ],
+      "elaborations": [
+        "exploring how materials can be physically changed for particular purposes",
+        "manipulating paper, fabric and other materials through multiple physical changes",
+        "crushing chalk and comparing properties of stick vs powder",
+        "exploring how First Nations Australians make physical changes to natural materials",
+        "creating an 'odd one out' game using same-material physical changes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5P02",
+    "title": "Estimate likelihoods from frequency",
+    "strand": "Probability",
+    "description": "Conduct repeated chance experiments including those with and without equally likely outcomes, observe and record the results; use frequency to compare outcomes and estimate their likelihoods",
+    "prior_knowledge": "Students can list possible outcomes and compare equally and unequally likely experiments (AC9M5P01). They have not yet used experimental frequency to estimate probability or compared experimental to theoretical likelihood.",
+    "progression_endpoint": "Students conduct repeated chance experiments, record results, and use frequency to compare outcomes and estimate likelihoods.",
+    "mode": "B",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Conducting and recording experiments",
+        "progression_checkpoint": "Students can conduct a chance experiment with repeated trials and record results systematically.",
+        "minimum_width": "Conduct a chance experiment with at least 20 trials; record results in a tally or frequency table.",
+        "typical_width": "Conduct experiments with and without equally likely outcomes; record in organised frequency tables; use digital tools to simulate large numbers of trials.",
+        "wider": [
+          "Combine class data to increase trial count and compare results",
+          "Design a recording system that tracks running totals as well as individual results"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student conducts a chance experiment with systematic recording",
+          "Student produces a complete, accurate frequency table for the experiment"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using frequency to estimate likelihood",
+        "progression_checkpoint": "Students can use relative frequency from experiments to estimate the likelihood of outcomes and compare outcomes.",
+        "minimum_width": "Calculate the relative frequency of each outcome from experimental data; use this to rank outcomes from most to least likely.",
+        "typical_width": "Calculate relative frequencies as fractions and percentages; compare relative frequencies across experimental conditions (equal vs unequal likelihood); use frequency estimates to make predictions.",
+        "wider": [
+          "Compare experimental frequency estimates from small vs large trial counts",
+          "Use digital simulations to explore how relative frequency stabilises with more trials"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The relationship between sample size and reliability of frequency estimates is not obvious. Multiple contexts with different trial counts help students develop intuition about when experimental estimates are trustworthy.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "Using frequency to estimate likelihood requires conducting experiments, organising data and applying fraction/percentage reasoning together — these must coordinate for the estimate to be meaningful."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digital simulation investigation of the Law of Large Numbers is genuinely rich for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student calculates relative frequency correctly from experimental data",
+          "Student uses relative frequency to rank or compare outcomes"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing experimental and theoretical likelihood",
+        "progression_checkpoint": "Students can compare experimental relative frequencies to expected theoretical likelihoods and discuss reasons for differences.",
+        "minimum_width": "Compare experimental relative frequencies for an equally likely experiment to the theoretical probability; describe similarities and differences.",
+        "typical_width": "Conduct experiments, calculate relative frequencies, and compare to theoretical probabilities for equally and unequally likely experiments; discuss how sample size affects agreement.",
+        "wider": [
+          "Investigate how the Law of Large Numbers causes experimental and theoretical values to converge",
+          "Design an experiment to determine whether an unknown spinner is fair using relative frequency evidence"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Comparing experimental and theoretical probability requires conducting experiments, calculating relative frequencies, applying fraction/percentage reasoning and interpreting theoretical probability — these all coordinate at this node.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Fair/unfair spinner investigation using evidence is genuinely rich for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly compares experimental relative frequency to theoretical probability",
+          "Student discusses at least one reason the values may differ"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5U03",
+    "title": "Light",
+    "description": "identify sources of light, recognise that light travels in a straight path and describe how shadows are formed and light can be reflected and refracted",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students have informally encountered light and shadows in earlier years. They have not yet examined light as travelling in straight paths, distinguished natural from artificial sources, or described reflection and refraction as distinct interactions between light and matter.",
+    "progression_endpoint": "Students identify natural and artificial light sources, explain that light travels in straight paths from a source, describe shadow formation and the conditions that affect shadow size and shape, explain reflection and refraction as different interactions of light with surfaces and media, and represent these using ray diagrams.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Light travels in straight paths from sources",
+        "progression_checkpoint": "Students can identify natural and artificial light sources, explain that light travels in straight paths (rays) from a source, and use this to explain why objects cast shadows.",
+        "minimum_width": "Students distinguish natural from artificial light sources with examples, and explain that light travels in straight paths from a source.",
+        "typical_width": "Students classify light sources as natural (sun, stars, fire, bioluminescence) and artificial (light globes, LEDs, candles), explain that light travels in straight lines from a source in all directions, and use straight-line travel to explain why we can see objects and why shadows form where light is blocked.",
+        "wider": [
+          "Investigate bioluminescent organisms (glow worms, deep sea creatures, fireflies) as natural light sources — examining how living things produce light and why",
+          "Explore how understanding of light and optics has developed historically — comparing ideas of Plato, Euclid, Ibn al-Haytham and Roger Bacon about the nature of light and how we see (AC9S5H01)",
+          "Research how First Nations Australians use shimmering body paint as an application of light reflection properties — connecting cultural practice to light behaviour"
+        ],
+        "hinge": true,
+        "hinge_reason": "Straight-line travel of light is the foundational model for all subsequent nodes — Node 2 shadow formation and Node 3 reflection/refraction both depend on the ray model. Students who do not hold this model cannot construct valid ray diagrams or predict shadow and reflection behaviour.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The historical development of optics (AC9S5H01) provides a rich cross-strand direction that connects the science content to how scientific understanding is built over time. Bioluminescence offers a genuinely interesting natural light source that broadens students' concept beyond sun and lamps — and breadth of light source examples reinforces the straight-line travel model across varied phenomena, addressing the hinge risk.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The historical development of optics (AC9S5H01) provides a rich cross-strand direction that connects the science content to how scientific understanding is built over time. Bioluminescence offers a genuinely interesting natural light source that broadens students' concept beyond sun and lamps.",
+        "success_criteria": [
+          "Names at least two natural and two artificial light sources",
+          "Explains that light travels in straight paths (rays) from a source",
+          "Uses straight-line travel to explain why an object casts a shadow"
+        ],
+        "related_standards": ["AC9S5H01"]
+      },
+      {
+        "id": 2,
+        "label": "Shadows form when light is blocked",
+        "progression_checkpoint": "Students can explain how shadows form when an opaque object blocks light, describe how shadow size and shape change with the position and distance of the light source, and represent shadow formation using ray diagrams.",
+        "minimum_width": "Students explain that shadows form when an object blocks light, and describe how changing the position of a light source changes the shadow.",
+        "typical_width": "Students explain shadow formation using the straight-line travel of light; describe how shadow size relates to the position and distance of the light source and object; investigate shadow formation using sundials or shadow puppets; and draw ray diagrams showing how light from a source is blocked to create a shadow.",
+        "wider": [
+          "Investigate how sundials use shadow position to indicate time — examining the relationship between sun position, Earth's rotation and shadow direction across the day",
+          "Explore how shadow puppets use controlled light blocking to create effects — examining how puppet distance, light distance and screen distance affect shadow size and sharpness",
+          "Examine partial shadows (penumbra) produced by extended light sources — exploring why the edge of a shadow is sometimes sharp and sometimes fuzzy"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe shadows as 'the dark side of an object' rather than as a region where light is blocked. Making the ray diagram reasoning explicit — light travels in straight lines → object blocks some rays → region behind object receives no light → shadow forms there — is the scaffold that allows students to predict shadow behaviour under different conditions."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains shadow formation using the straight-line travel of light being blocked by an object",
+          "Predicts how shadow size will change when the light source or object position changes, with reasoning",
+          "Draws a ray diagram showing shadow formation"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Light reflects off surfaces and refracts when changing medium",
+        "progression_checkpoint": "Students can explain reflection as light bouncing off a surface in a predictable direction, describe refraction as the bending of light when it passes between different media, give everyday examples of each, and draw ray diagrams for reflection.",
+        "minimum_width": "Students explain reflection using an everyday example and draw a ray diagram showing reflection; explain that refraction is the bending of light when it passes from one medium to another.",
+        "typical_width": "Students explain reflection from flat and curved surfaces with ray diagrams; describe practical applications of reflection (periscopes, mirrors, mirror mazes); explain refraction using prisms or water examples; describe the rainbow spectrum produced by refraction; and distinguish reflection from refraction as different light-surface interactions.",
+        "wider": [
+          "Recognise First Nations Australians' understanding of refraction as experienced in spearfishing — examining how refraction causes objects underwater to appear at a different position than they actually are",
+          "Explore how 'holograph' videos use refractive properties of light to create apparently 3-dimensional images — connecting refraction to contemporary optical technology",
+          "Investigate how signal lamps use reflection of light to communicate via Morse code — examining how reflection principles are applied in communication (AC9S5H02)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse reflection and refraction or reduce both to 'what mirrors do'. Encountering reflection across multiple surface types (flat mirror, curved mirror, water surface, shiny objects) and refraction across multiple media (prism, water, glass) — with distinct explanations for each — builds an accurate and differentiated understanding of the two phenomena.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations spearfishing knowledge of refraction provides a culturally grounded and practically sophisticated direction — understanding the apparent position shift requires genuine application of refraction reasoning. Signal lamps (AC9S5H02) connect reflection to a real communication application.",
+        "success_criteria": [
+          "Explains reflection using a ray diagram showing light bouncing off a surface",
+          "Explains refraction as the bending of light when it passes between different media, with an everyday example",
+          "Distinguishes reflection from refraction as different interactions of light with matter"
+        ],
+        "related_standards": ["AC9S5H02"]
+      }
+    ]
+  }
+}

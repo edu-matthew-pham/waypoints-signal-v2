@@ -1,0 +1,70 @@
+{
+  "year_level": "10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S10U03",
+    "title": "Big Bang Theory and Origin of the Universe",
+    "description": "describe how the big bang theory models the origin and evolution of the universe and analyse the supporting evidence for the theory",
+    "strand": "Earth and Space Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe Earth's position in the solar system and model day/night and seasonal cycles (AC9S6U02). They have not yet examined the universe beyond the solar system, the big bang model, or the evidence base for cosmological theory.",
+    "progression_endpoint": "Students describe the big bang theory as a model of universe origin and evolution, construct or analyse a timeline of major cosmic events, examine multiple lines of supporting evidence, and connect recent advances (gravitational waves, dark matter, SKA) to ongoing refinement of the model.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The big bang theory models the origin and evolution of the universe",
+        "progression_checkpoint": "Students can describe the big bang theory including the major stages of universe evolution from initial expansion through star and galaxy formation, and use appropriate scale units (light-years, astronomical units, scientific notation).",
+        "minimum_width": "Students describe the big bang theory and construct or annotate a timeline showing at least four major stages of universe evolution.",
+        "typical_width": "Students describe the big bang model of universe origin; construct a timeline from big bang through particle formation, atom formation, star formation, galaxy formation to present; describe major components of the universe (stars, galaxies, dark matter, dark energy) using appropriate units; and explain how stars' light spectra reveal composition, movement and distance.",
+        "wider": [
+          "Research First Nations Australians' knowledges of celestial bodies and explanations of the origin of the universe — comparing with the big bang model as different knowledge frameworks for explaining the same phenomena",
+          "Explore recent advances including gravitational wave detection, dark matter and dark energy discoveries, and how these have expanded our understanding (AC9S10H02)",
+          "Examine how the Australian Square Kilometre Array Pathfinder enables collection of astronomical data at unprecedented scale — connecting technology to knowledge advance (AC9S10H02)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 (evidence for the big bang) requires students to evaluate specific evidence types — red shift, CMB, Hubble's observations — against the model. Students who do not have a clear timeline and sequence of the big bang model cannot evaluate what each piece of evidence supports or why it matters. The model must precede the evidence examination.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The timeline of universe evolution — from initial expansion through particle formation, atom formation, star and galaxy formation — must be explicit before students can evaluate what each piece of evidence supports. Without this sequence as a reference frame, students cannot reason about why red shift or CMB radiation matters to the model.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations cosmological knowledge provides a valuable comparative direction that respects both knowledge systems without conflating them. Recent advances (gravitational waves, dark matter) provide genuinely exciting enrichment connecting the theory to frontier science.",
+        "success_criteria": [
+          "Describes the big bang theory and the major stages of universe evolution in sequence",
+          "Uses appropriate scale units (light-years, scientific notation) when describing the universe"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Multiple lines of evidence support the big bang theory",
+        "progression_checkpoint": "Students can describe multiple independent lines of evidence for the big bang theory and explain what each contributes to support for the model.",
+        "minimum_width": "Students describe at least three lines of evidence for the big bang and explain what each shows.",
+        "typical_width": "Students examine cosmic microwave background radiation, red/blue shift of galaxies, Hubble's observations, and the proportion of matter in the universe as independent lines of evidence; explain what each contributes; and explain how the discovery of gravitational waves validated Einstein's general relativity 100 years after prediction — connecting evidence accumulation to theory refinement (AC9S10H01).",
+        "wider": [
+          "Examine how each type of evidence — CMB radiation, red shift, Hubble's observations, matter proportions — independently supports the big bang and how they converge",
+          "Explore why the discovery of gravitational waves validated Einstein's general relativity — examining how a prediction made 100 years earlier was eventually confirmed by technology not yet available (AC9S10H01)",
+          "Identify different technologies used to collect astronomical data and the specific evidence types each enables"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least three lines of evidence for the big bang and explains what each contributes",
+          "Explains how converging independent evidence strengthens a scientific theory"
+        ],
+        "related_standards": [
+          "AC9S10H01"
+        ]
+      }
+    ]
+  }
+}

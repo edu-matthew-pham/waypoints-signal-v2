@@ -1,0 +1,132 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7N06",
+    "title": "Four Operations with Rational Numbers",
+    "strand": "Number",
+    "description": "use the 4 operations with positive rational numbers including fractions, decimals and percentages to solve problems using efficient calculation strategies",
+    "mode": "A",
+    "prior_knowledge": "Students can add and subtract fractions using equivalence, and multiply and divide decimals (from AC9M6N05, AC9M6N06). Students can find percentages of quantities (from AC9M6N07).",
+    "progression_endpoint": "Students apply all four operations to positive rational numbers including fractions, decimals and percentages, selecting efficient strategies appropriate to the numbers and context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Addition and subtraction of fractions and decimals",
+        "progression_checkpoint": "Students add and subtract fractions (including mixed numerals) and decimals fluently, using common denominators and place value alignment.",
+        "minimum_width": "Add and subtract two fractions with unlike denominators; add and subtract decimals to at least 2 decimal places.",
+        "typical_width": "Solve multi-step addition and subtraction problems mixing fractions and decimals; choose efficient representations (e.g. convert to decimals when convenient).",
+        "wider": [
+          "Investigate when it is more efficient to work with fractions vs decimals for addition and subtraction — develop personal decision rules.",
+          "Explore adding fractions with large unlike denominators using LCM from AC9M7N02."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Addition and subtraction of fractions requires procedural fluency (finding common denominators, converting mixed numerals) before multiplication and division can be layered on.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students without fluency in addition and subtraction of fractions and decimals cannot access Node 2 multiplication and division, which require the same fraction manipulation skills — errors here propagate into every subsequent rational number operation.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly adds and subtracts fractions with unlike denominators.",
+          "Correctly adds and subtracts decimals using place value alignment.",
+          "Does not add numerators and denominators directly when adding fractions."
+        ],
+        "related_standards": [
+          "AC9M7N04"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Multiplication and division of fractions and decimals",
+        "progression_checkpoint": "Students multiply and divide fractions and decimals using appropriate strategies including area models and algorithm.",
+        "minimum_width": "Multiply two fractions; divide a fraction by a whole number; multiply and divide decimals by whole numbers.",
+        "typical_width": "Multiply and divide fractions by fractions; multiply and divide decimals; apply distributive and associative properties to simplify.",
+        "wider": [
+          "Investigate why multiplying by a fraction less than 1 makes a number smaller — connect to area model.",
+          "Explore the 'invert and multiply' rule for fraction division with a concrete justification."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Fraction multiplication and division is the most common site for persistent misconceptions. Multiple representations (area model, number line, algorithm) across varied contexts are needed to build robust understanding.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "The misconception that multiplication always makes larger (and division always makes smaller) persists through to Node 3 percentage calculations and Node 4 strategy selection — students who hold this belief cannot reason about whether their percentage or fraction computation is in the right range.",
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly multiplies two fractions and simplifies the result.",
+          "Correctly divides a fraction by a whole number or simple fraction.",
+          "Does not apply addition rules (common denominator) to multiplication."
+        ],
+        "related_standards": [],
+        "width_opportunity_reason": "The conceptual explanation of why fraction multiplication shrinks and fraction division enlarges is rich for advancing students — connecting to area models provides genuine understanding rather than rule application."
+      },
+      {
+        "id": 3,
+        "label": "Operations with percentages",
+        "progression_checkpoint": "Students calculate percentages of quantities and solve problems involving percentage increase, decrease, and finding the whole given a percentage.",
+        "minimum_width": "Find a given percentage of a quantity; find what percentage one quantity is of another.",
+        "typical_width": "Solve problems involving percentage increase and decrease; select efficient strategy (mental, fraction, or decimal multiplication).",
+        "wider": [
+          "Investigate percentage change in financial contexts: GST, discounts, interest — connecting to AC9M7N09.",
+          "Explore how the choice of representation (fraction vs decimal vs percentage) affects computational efficiency for the same problem."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Percentage problems span a wide range of structures (find the percentage, find the quantity, find the whole). Students who only practise one structure fail to recognise others. Multiple problem structures across varied contexts are essential.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly finds a percentage of a quantity using an efficient method.",
+          "Solves a percentage increase or decrease problem correctly.",
+          "Selects an appropriate representation (fraction, decimal, or percentage) for efficient computation."
+        ],
+        "related_standards": [
+          "AC9M7N09",
+          "AC9M7N08"
+        ],
+        "width_opportunity_reason": "Percentage change in financial contexts (GST, successive discounts, misleading percentages) is rich and practically significant — advancing students can investigate cases where percentage reasoning misleads."
+      },
+      {
+        "id": 4,
+        "label": "Efficient strategy selection",
+        "progression_checkpoint": "Students choose the most efficient calculation strategy for a given rational number problem, drawing on number properties and representation choices.",
+        "minimum_width": "Given a problem, identify and apply at least one efficient strategy, justifying why it is more efficient than a standard algorithm.",
+        "typical_width": "Compare strategies for the same problem and evaluate efficiency; apply commutative, associative and distributive properties consciously.",
+        "wider": [
+          "Construct a personal reference of 'efficiency rules' for rational number computation — when to use mental, when to use fraction form, when to use decimal.",
+          "Investigate how spreadsheet formulas encode these strategies and compare outputs."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Efficient strategy selection requires students to draw on all prior nodes simultaneously — representations, operations, number properties. The integration of these is the learning at this node."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Selects and applies an efficient strategy (not just the standard algorithm) for a given computation.",
+          "Justifies why the chosen strategy is efficient.",
+          "Applies at least one number property (commutative, associative, distributive) explicitly."
+        ],
+        "related_standards": [
+          "AC9M7N09"
+        ]
+      }
+    ]
+  }
+}

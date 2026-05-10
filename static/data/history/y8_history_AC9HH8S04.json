@@ -1,0 +1,93 @@
+{
+  "year_level": "8",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH8S04",
+    "title": "Assess source accuracy and usefulness",
+    "description": "identify and describe the accuracy and usefulness of primary and secondary sources as evidence",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "Students identify and describe the accuracy and usefulness of primary and secondary sources as evidence (AC9HH7S04). They can ask basic validity questions about sources. They have not yet systematically distinguished fact from opinion using linguistic strategies, or evaluated usefulness with reference to the specific demands of a historical inquiry.",
+    "progression_endpoint": "Students identify and describe the accuracy and usefulness of primary and secondary sources as evidence — examining validity through source analysis questions, distinguishing fact from opinion using linguistic strategies, and evaluating how the accuracy and usefulness of a source depends on the specific inquiry question being asked.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Examining validity",
+        "progression_checkpoint": "Students can examine the validity of a source by asking systematic validity questions — where does it come from, what information is provided, is the information factual or opinion, what other sources are needed — and explain what those questions reveal about the source's reliability.",
+        "minimum_width": "Application of all four validity questions to at least one source with substantive answers.",
+        "typical_width": "Systematic validity examination across multiple sources: provenance questions (where does it come from?), content questions (what information is provided?), factual status questions (is it fact or opinion?), corroboration questions (what other sources are needed?). Understanding that validity is not binary — a source can be valid for some purposes and not others.",
+        "wider": [
+          "Apply validity questions to a medieval primary source with contested provenance (e.g. a chronicle whose authorship is uncertain) and explain how provenance uncertainty compounds validity concerns",
+          "Examine how the validity of church records as evidence of Black Death mortality — the elaboration's example — depends on understanding who kept the records, why, and what they may have omitted or exaggerated"
+        ],
+        "hinge": true,
+        "hinge_reason": "Systematic validity assessment is prerequisite to accurate source use in historical argument. Students who cannot distinguish fact from opinion in sources, or who assess validity without reference to provenance, will misuse sources in their writing (S08).",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Validity assessment requires consistent application of a framework across varied sources. Students need repeated practice before the four-question validity check becomes automatic and reliable.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies all four validity questions to a source and gives substantive answers to each",
+          "Explains what the validity examination reveals about the source's reliability as evidence"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Distinguishing fact from opinion",
+        "progression_checkpoint": "Students can distinguish between factual statements and opinion or interpretation in historical sources — using linguistic strategies to detect opinion including conditional language and hedging words.",
+        "minimum_width": "Correct identification of at least two factual statements and two opinion statements in sources, with explanation of the distinguishing features.",
+        "typical_width": "Fact-opinion distinction applied systematically: factual statements as verifiable claims (e.g. 'The moai were constructed on Easter Island'); opinion or interpretation as claims that go beyond what the evidence directly shows (e.g. 'The moai are representations of gods'). Linguistic strategies: identifying conditionals ('might', 'could'), hedging words ('believe', 'think', 'suggests'), and evaluative language as signals that an opinion is being offered.",
+        "wider": [
+          "Apply the fact-opinion distinction to a medieval historical source (e.g. Fordun's Chronicle of the Scottish Nation or Ibn Khaldun's recollection of the plague) and identify where the source moves between factual reporting and interpretation",
+          "Examine how historians' use of hedging language — 'suggests', 'may have', 'possibly' — is appropriate when evidence is ambiguous, rather than a sign of weakness in the argument"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "The fact-opinion distinction using linguistic strategies requires practice with varied texts before students can apply it reliably. Students commonly mistake confident assertions for facts and hedged claims for opinions — reversed from correct usage.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Examining how historians deliberately use hedging language to signal evidential uncertainty — rather than treating it as weakness — is a sophisticated insight into disciplinary writing that connects S04 directly to S08 (historical argument construction).",
+        "success_criteria": [
+          "Correctly identifies at least two factual statements and two opinion statements in historical sources",
+          "Identifies at least two linguistic features (conditional language, hedging words, evaluative language) that signal opinion or interpretation"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Usefulness for specific inquiry",
+        "progression_checkpoint": "Students can evaluate the usefulness of a source for a specific historical inquiry question — explaining how its accuracy, origin and purpose bear on what it can contribute to answering the question.",
+        "minimum_width": "An evaluation of at least one source's usefulness for a specific inquiry question, explaining what it can and cannot contribute.",
+        "typical_width": "Source usefulness evaluated against specific inquiry demands: a source may be accurate but not useful for a particular question; a biased source may be useful as evidence of attitudes even if not reliable as factual record. Cross-referencing multiple sources to assess how they support, challenge or complement each other.",
+        "wider": [
+          "Evaluate the usefulness of Matteo Villani's diary, Boccaccio's Decameron and Ibn Khaldun's recollections for the same inquiry question about the Black Death — examining how different sources are useful in different ways for the same question",
+          "Examine how the usefulness of a source depends on the inquiry question: Boccaccio's Decameron may be more useful for understanding contemporary attitudes to the Black Death than for reconstructing mortality statistics"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Usefulness evaluation integrates validity assessment (Node 1), fact-opinion distinction (Node 2) and source analysis from S03. Invest in helping students articulate why a source is or is not useful for their specific inquiry question — not just whether it is reliable in general."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Evaluates the usefulness of at least one source for a specific inquiry question",
+          "Explains how the source's accuracy, origin and purpose affect what it can contribute — distinguishing between reliability in general and usefulness for this inquiry"
+        ]
+      }
+    ]
+  }
+}

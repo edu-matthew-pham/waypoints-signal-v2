@@ -1,0 +1,71 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LE07",
+    "title": "Experiment with language and devices",
+    "description": "Create and edit literary texts that experiment with language features and literary devices encountered in texts",
+    "strand": "Literature — Creating literature",
+    "mode": "B",
+    "prior_knowledge": "Students can create and edit literary texts that adapt plot structure, characters, settings and ideas from texts they have experienced, and experiment with literary devices (AC9E6LE05). They have not yet focused on experimenting with language features and literary devices encountered in texts — the move from adapting existing elements to experimenting with specific craft techniques.",
+    "progression_endpoint": "Students create and edit literary texts experimenting with language features and literary devices.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Drawing on encountered texts",
+        "progression_checkpoint": "Students can identify specific language features and literary devices in a source text and use them as starting points for their own creative experimentation",
+        "minimum_width": "From a text they have read, identify at least one language feature or literary device to experiment with; explain what they noticed and what they will try",
+        "typical_width": "Examine a range of language features and literary devices encountered in texts — narrative structure, imagery, sentence variation, metaphor, word choice, narrative voice — and select at least two to experiment with in their own writing; explain the connection between what they read and what they are attempting",
+        "wider": [
+          "Use aspects of texts in imaginative recreations — re-situating a character from a text into a new situation, experimenting with how the device travels to the new context",
+          "Experiment with different narrative structures such as epistolary form, flashback, multiple narrators — drawing on structural devices encountered in reading"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify specific devices to attempt, Node 2's editing work loses its anchor — purposeful editing requires being able to name what was tried and evaluate whether it achieved its effect.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly recreate surface features (story about similar characters) without experimenting with specific craft techniques. Reading across a wider range of texts — poetry, narrative, drama, film — gives students a broader repertoire of devices to attempt. Breadth of reading is the precondition for breadth of creative experimentation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one language feature or literary device from a source text to experiment with",
+          "Explains the connection between the encountered device and their own creative attempt"
+        ],
+        "related_standards": ["AC9E7LE05", "AC9E7LE06"]
+      },
+      {
+        "id": 2,
+        "label": "Experimenting and editing",
+        "progression_checkpoint": "Students can create a literary text that experiments with language features and literary devices, and edit it with attention to the effect of their choices",
+        "minimum_width": "Create a literary text that includes at least one deliberate experiment with a language feature or literary device; identify at least one editing decision made to improve the effect of a specific choice",
+        "typical_width": "Create a literary text experimenting with at least two language features or literary devices; edit with attention to how each choice is working — what effect does it create, and what could be changed to improve that effect?",
+        "wider": [
+          "Create a prequel using an imagined series of life events of a character, presented as a series of flashbacks in a scripted monologue — experimenting with temporal structure and voice",
+          "Transform a familiar print narrative into a short video or film narrative — experimenting with how literary devices translate across modes and making deliberate adaptation choices",
+          "Experiment with imagery, sentence variation, metaphor and word choice in a literary text, making visible through annotation the intention behind each craft choice"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Literary creation integrates reading knowledge (what devices are available), craft knowledge (how to deploy them), and editing judgement (whether the deployment is achieving the intended effect) in a coordinated creative process. The integration across reading, planning, drafting and editing is what this node develops — each component can be practised separately but the creative act requires their coordination.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The mode-transformation direction (print narrative to film) is rich — it requires students to understand what literary devices are doing and make deliberate choices about how or whether those devices translate, which develops deep understanding of how devices create meaning.",
+        "success_criteria": [
+          "Creates a literary text with at least one deliberate experiment with a language feature or literary device",
+          "Identifies and explains at least one editing decision made to improve the effect of a craft choice"
+        ],
+        "related_standards": ["AC9E7LE05", "AC9E7LE06", "AC9E7LY06"]
+      }
+    ]
+  }
+}

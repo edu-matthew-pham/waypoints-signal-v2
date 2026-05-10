@@ -1,0 +1,92 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY15",
+    "title": "Grammatical morphemes and word families",
+    "description": "recognise and know how to use grammatical morphemes to create word families",
+    "strand": "phonic_word_knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can read and write an increasing number of high-frequency words (AC9E1LY14). At Foundation level students understand that words can be made of more than one meaningful part (AC9EFLY15). They have not yet systematically used grammatical morphemes — inflectional endings such as -s, -ed, -ing, -er — to generate and recognise word families.",
+    "progression_endpoint": "Students recognise and use grammatical morphemes to create and read word families.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Morphemes carry meaning",
+        "progression_checkpoint": "Students can identify that words can be made of more than one part (base word + morpheme) and that each part contributes meaning.",
+        "minimum_width": "Identify the base word and added morpheme in at least two examples (e.g. 'walk-ed', 'play-ing') and explain what each part contributes.",
+        "typical_width": "Identify base words and grammatical morphemes in familiar words, explain how the morpheme changes the meaning or grammatical role of the base, using examples like 'play', 'plays', 'playing', 'played'.",
+        "wider": [
+          "Explore how the same base word changes function with different morphemes — noun to verb, verb to adjective",
+          "Discuss how recognising a base word inside a longer word helps with reading and meaning"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Identifying base word and morpheme requires a segmenting reasoning move — 'what is the core word, what was added?' A simple scaffold ('find the word inside the word') supports students in making this move reliably."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies the base word in a morphologically complex word",
+          "Student names the morpheme added and explains what it changes"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Common grammatical morphemes",
+        "progression_checkpoint": "Students can recognise and use common grammatical morphemes — -s, -es, -ed, -ing, -er — to create word family members.",
+        "minimum_width": "Use at least three different grammatical morphemes to build new word forms from a given base word.",
+        "typical_width": "Recognise and use common grammatical morphemes to create word families — plural -s/-es, past tense -ed, present continuous -ing, comparative -er — from familiar base words.",
+        "wider": [
+          "Build extended word families from common morphemes and discuss what each form is used for",
+          "Explore morphological families that include compound forms (e.g. 'playground', 'playtime' from 'play')"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not have a working set of common grammatical morphemes cannot apply morpheme knowledge as a reading and spelling strategy in N3 — the N3 integration task requires knowing what the morphemes are before using them as decoding and encoding tools.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often recognise -ing and -ed but miss plural and comparative morphemes. Encountering all common grammatical morphemes as a coherent family — not individual spelling rules — builds the broader morphological awareness needed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly builds at least three word family members from a base word using different morphemes",
+          "Student reads a morphologically complex word by identifying the base word first"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Using morphemes to read and spell",
+        "progression_checkpoint": "Students can use morpheme knowledge to read unfamiliar words by recognising base words, and to spell by applying morpheme addition.",
+        "minimum_width": "Read an unfamiliar word by identifying the base word inside it; spell at least two words formed by adding a morpheme to a known base.",
+        "typical_width": "Apply morpheme knowledge to read unfamiliar words — recognising the base word and then the morpheme — and to spell words formed by adding known morphemes to known base words.",
+        "wider": [
+          "Discuss what happens to some base words when morphemes are added — e.g. 'hop' → 'hopped' (doubling) — at awareness level only",
+          "Use morpheme knowledge to self-correct reading errors — identify whether the base word was read correctly"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Using morphemes as a reading and spelling tool integrates knowledge of base words and morpheme function into an active decoding and encoding strategy — the endpoint of this strand's progression at Year 1."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads a morphologically complex word by identifying the base word",
+          "Student correctly spells a word formed by adding a familiar morpheme to a known base"
+        ]
+      }
+    ]
+  }
+}

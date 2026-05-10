@@ -1,0 +1,119 @@
+{
+  "year_level": "6",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS6K04",
+    "title": "Asia region diversity and location",
+    "description": "the geographical diversity and location of places in the Asia region, and its location in relation to Australia",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "From AC9HS5K04 (People shape places): Students understand how people influence the characteristics of places. Students can describe and locate places at a general level.",
+    "progression_endpoint": "Students explain the geographical diversity and location of places in the Asia region, describe its location in relation to Australia, and use latitude and longitude to describe absolute location.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Location of the Asia region in relation to Australia",
+        "progression_checkpoint": "Students can describe the location of the Asia region in relation to Australia, including the main sub-regions (North-East, South-East, South Asia) and Australia's proximity to and connections with each.",
+        "minimum_width": "Describe where the Asia region is in relation to Australia and name at least two sub-regions.",
+        "typical_width": "Describe the Asia region's location in relation to Australia, identify the main sub-regions (North-East, South-East, South Asia), and explain how Australia's location in the Asia-Pacific region shapes its relationships and connections.",
+        "wider": [
+          "Use latitude and longitude to describe the absolute location of at least three countries in the Asia region, and compare these with Australia's coordinates",
+          "Investigate how Australia's geographic proximity to South-East and South Asia has shaped historical and contemporary connections (trade, migration, diplomacy)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a secure geographical foundation for the location and structure of the Asia region, students cannot develop meaningful understanding of diversity, connections or comparisons within the region.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Location knowledge requires repeated map practice — students need to build a reliable mental map of the Asia region through multiple encounters with atlases, digital maps and coordinate systems.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students identify the Asia region and its main sub-regions on a map.",
+          "Students describe Australia's location in relation to the Asia region."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Absolute location using latitude and longitude",
+        "progression_checkpoint": "Students can describe the location of places in countries of the Asia region in absolute terms, using latitude and longitude.",
+        "minimum_width": "Use latitude and longitude to describe the absolute location of at least two places in the Asia region.",
+        "typical_width": "Describe the location of places in the Asia region using latitude and longitude; apply this to compare locations, explain hemispheric positions, and understand why latitude relates to climate and seasonal patterns.",
+        "wider": [
+          "Use a digital geospatial tool to plot locations in the Asia region using coordinates, and explain what the coordinates reveal about relative position and climate",
+          "Investigate how latitude affects climate across the Asia region, comparing countries at different latitudes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reading and using latitude and longitude is a precision geographic skill requiring practice. Errors in coordinate notation (reversing lat/long, confusion about hemispheres) need targeted correction."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students correctly use latitude and longitude to describe the location of at least two places in Asia.",
+          "Students explain what latitude and longitude coordinates mean (which hemisphere, how far from equator/prime meridian)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Geographical and cultural diversity of the Asia region",
+        "progression_checkpoint": "Students can describe the geographical and cultural diversity of the Asia region, including diversity of environments, settlement types, population, languages and ways of life.",
+        "minimum_width": "Describe two ways the Asia region is geographically or culturally diverse, with specific examples.",
+        "typical_width": "Describe the geographical diversity of environments (mountains, tropical forests, deserts, densely populated coastal cities, agricultural plains) and cultural diversity (population sizes, life expectancy, daily life, food, housing, education, wealth distribution) across the Asia region.",
+        "wider": [
+          "Compare the daily lives of people in two different countries in the Asia region, examining food, housing, education and economic conditions",
+          "Investigate the diversity of Indigenous peoples across the Asia region (e.g. Orang Asli, Tibetans, Mongols) and explore their sustainable ways of living and their cultural similarities and differences with First Nations Australians"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Diversity is the core concept here — students who study only one country or sub-region will not grasp that 'Asia' encompasses extraordinary variation. Breadth across sub-regions and types of diversity is the learning goal.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Indigenous peoples of the Asia region is an elaboration-supported direction with significant cultural and comparative value — connecting to First Nations Australians and examining sustainable living across cultures is rich and important territory.",
+        "success_criteria": [
+          "Students describe at least two types of geographical or cultural diversity in the Asia region with specific examples.",
+          "Students identify at least two countries or sub-regions that illustrate different aspects of this diversity."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Asia region: location, diversity and Australia's connections",
+        "progression_checkpoint": "Students can describe the geographical diversity and absolute location of places in the Asia region, and explain its location in relation to Australia, drawing on population, environment and life expectancy data.",
+        "minimum_width": "Describe the Asia region's location in relation to Australia, use latitude/longitude for at least one location, and describe the diversity of at least one country or sub-region.",
+        "typical_width": "Describe the geographical diversity and location of places in the Asia region; use latitude and longitude to describe absolute locations; compare population size and life expectancy across selected countries; describe the range of environments and ways of life in the region; explain its location in relation to Australia.",
+        "wider": [
+          "Analyse population and development data for countries across the Asia region, identifying patterns and explaining factors that account for differences",
+          "Evaluate how Australia's geographic position in relation to the Asia region has shaped its trade relationships, migration patterns and foreign policy"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This integration node draws together location (coordinates), diversity (environment, culture, population) and Australia's relationship to the region. Use a structured comparison matrix or annotated map to support synthesis."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students describe the Asia region's location in relation to Australia.",
+          "Students use latitude and longitude for at least one location in the region.",
+          "Students describe geographical and cultural diversity across at least two countries or sub-regions."
+        ]
+      }
+    ]
+  }
+}

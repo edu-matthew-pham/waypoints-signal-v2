@@ -1,0 +1,98 @@
+{
+  "description": "Width tiers for Year 3 Science — ACARA v9. Covers the four U-strand descriptors (Biological, Earth and Space, Physical and Chemical Sciences). H-strand and I-strand (3–4 band) are in science_y3_4_width_tiers.json.",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "3",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "phenomena_contexts"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term — the fewest phenomena or contexts that still genuinely satisfy what the descriptor requires. Minimum is the command term met in one named context or with one named example set.",
+    "typical_width": "The full scope of the descriptor as ACARA intended it, grounded in the most common elaboration cases. What a class that has engaged with the descriptor fully would have done — not every elaboration covered, but the spirit and scope of the descriptor met.",
+    "wider": "Enrichment directions that add phenomena, cultural contexts or applications — not harder versions of the same context. First Nations directions are included as default wider directions where elaborations indicate them.",
+    "elaborations": "ACARA elaborations are treated as source data for the intended range of phenomena and contexts. Typical width is grounded in the most common elaboration cases; wider may infer beyond elaborations where clearly within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S3U01": {
+      "strand": "Biological Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Classify objects as living, once living or non-living with characteristic-based reasoning; describe the life cycle stages of one plant and one animal; distinguish a metamorphic from a non-metamorphic life cycle with one example of each.",
+      "typical_width": "Explain the characteristics distinguishing living, once living and non-living things across ambiguous cases; describe and represent life cycles of multiple plants and animals; compare metamorphic (butterflies, beetles, frogs) and non-metamorphic cycles; explain how physical characteristics of an organism differ across life stages in metamorphic cycles.",
+      "wider": [
+        "Investigate how First Nations Australians understand and utilise the life cycles of certain species — examining how knowledge of life stage behaviour guides sustainable harvesting",
+        "Compare complete metamorphosis (egg → larva → pupa → adult) with incomplete metamorphosis (egg → nymph → adult) across insect examples",
+        "Research how Maria Sibylla Merian's systematic observation across life stages was the first to document metamorphosis — connecting careful data collection to scientific explanation (AC9S3H01)",
+        "Examine edge cases that challenge the living/non-living classification (viruses, fire, crystals, seeds) and discuss what characteristic evidence is used to decide"
+      ],
+      "elaborations": [
+        "classifying a collection of objects as living, once living or non-living and explaining their reasoning",
+        "observing and describing differences between metamorphic (such as butterflies, beetles or frogs) and non-metamorphic life cycles of animals, including humans",
+        "comparing the physical characteristics of an animal such as a frog or moth with its activity at different stages of its life cycle",
+        "representing stages of a plant or animal's life cycle using drawings, digital photographs, graphic organisers or concrete materials",
+        "investigating how First Nations Australians understand and utilise the life cycles of certain species"
+      ]
+    },
+    "AC9S3U02": {
+      "strand": "Earth and Space Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Compare at least two soil samples using observable properties and components; describe at least two observable properties of rocks and minerals; explain that minerals are components of rocks; give at least two examples of how living things depend on soils or how humans use rocks and minerals.",
+      "typical_width": "Compare soils from different contexts using a property framework (particle size, texture, colour, water retention, organic matter); compare rocks and minerals systematically using property vocabulary; explain that rocks are composed of minerals; describe multiple ways living things depend on soils and identify uses of specific rocks and minerals in everyday life and the built environment.",
+      "wider": [
+        "Investigate First Nations Australians' knowledge of rock and mineral types and their use for stone blades, grindstones and pigments — examining how deep property knowledge guided material selection",
+        "Research which rocks or minerals are quarried or mined locally or regionally and trace the resource from extraction to everyday use",
+        "Investigate how farmers use soil tests to monitor and manage farm health — connecting observable soil properties to agricultural decision-making (AC9S3H01)",
+        "Examine soil profiles (soil settled in water) to compare and contrast the components and particle sizes of different soils"
+      ],
+      "elaborations": [
+        "examining different soils from local areas and using magnifying glasses to observe their components, such as pebbles, sand or plant matter as well as living things such as earthworms and insects",
+        "exploring the school grounds or a local area and observing or collecting different types of rocks and describing similarities or differences such as texture, colour, grain or crystal size",
+        "recognising that minerals are the building blocks of rocks and that the different characteristics of rocks depend on the minerals they are made up of",
+        "identifying rocks as key components of the built and natural environment and recognising uses of minerals such as gemstones in jewellery, graphite in pencils, and table salt in food",
+        "investigating First Nations Australians' knowledges of different rock and mineral types, and how they were used such as for stone blades, grindstones and pigments",
+        "describing ways in which living things including humans depend on soils, such as for food, growing plants, providing habitat for organisms, and holding and cleaning water",
+        "examining information on plant tags and exploring the vocabulary used to describe soils and different plant soil requirements",
+        "investigating which rocks or minerals are quarried or mined locally or regionally and how those resources are used"
+      ]
+    },
+    "AC9S3U03": {
+      "strand": "Physical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least four sources of heat energy across different categories; explain that heat transfers from warmer to cooler objects using observation; identify at least two conductors and two insulators and explain the difference.",
+      "typical_width": "Identify and classify heat sources across natural and human-made categories; observe and measure temperature change when warm and cool objects contact; explain that heat flows from warmer to cooler until temperatures equalise; investigate heat transfer through different materials; explain how conductor and insulator properties determine material selection in everyday objects.",
+      "wider": [
+        "Explore how First Nations Australians developed clothing from animal skins (possum fur cloaks, kangaroo skin) that trap heat close to the body — examining how insulation properties guided material selection",
+        "Investigate how 18th-century physicists Jean Ingenhousz and Benjamin Thompson collected temperature data to determine best conductors and insulators (AC9S3H01)",
+        "Research how knowledge of heat transfer has been applied in food and beverage packaging, building insulation and cold-weather clothing design (AC9S3H02)",
+        "Model heat transfer using drawings, arrows or role-play to show the direction and flow of energy between objects"
+      ],
+      "elaborations": [
+        "exploring how we sense heat and identifying sources of heat such as the sun, fire, electrical devices and geothermal springs",
+        "recognising that changes in heat energy can be measured using a thermometer",
+        "observing and, with assistance, measuring, what happens when a cold object is placed in direct contact with a warm object and proposing explanations",
+        "modelling the movement of heat from one object to another using drawing or role-play",
+        "investigating how well heat is transferred by different types of materials such as metals, plastics and ceramics and identifying how materials are used to keep things hot and cold",
+        "exploring how First Nations Australians developed clothing from animal skins such as possum furs and kangaroo skin cloaks that trap heat close to the body to stay warm"
+      ]
+    },
+    "AC9S3U04": {
+      "strand": "Chemical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Classify at least five materials as solid or liquid using property evidence; name the change of state when heat is added (melting) and removed (freezing); explain that state change is reversible and the substance does not change.",
+      "typical_width": "Describe observable properties distinguishing solids from liquids; classify ambiguous cases (toothpaste, honey, slime) with reasoning; investigate melting or freezing in a sealed container; explain that mass is conserved during state change; describe how state change is reversed; connect adding and removing heat energy to state transitions.",
+      "wider": [
+        "Investigate changes of state in materials used by First Nations Australians — such as beeswax or resins — and explain how their melting properties make them useful for tools and artefacts",
+        "Explore how reversibility of state change enables recycling of glass and plastics — connecting state change to sustainability applications",
+        "Investigate melting points of different substances (ice, butter, chocolate, wax) and compare how quickly each melts — exploring whether all solids melt at the same temperature",
+        "Examine ambiguous substances (cornflour in water, toothpaste, slime) and discuss what properties are used to classify them and what limitations the solid/liquid binary has"
+      ],
+      "elaborations": [
+        "observing the properties of substances and classifying them as solids (that hold their shape) or liquids (that fill the bottom of containers)",
+        "investigating ice melting or water freezing in a sealed bag and explaining their observations",
+        "using ice cubes, butter or chocolate to explore how changes of state involve the removal of heat or the addition of heat",
+        "investigating how changes of state in materials used by First Nations Australians such as beeswax or resins are important for their use",
+        "exploring how changes from solid to liquid and liquid to solid can help us recycle materials such as glass or plastics"
+      ]
+    }
+  }
+}

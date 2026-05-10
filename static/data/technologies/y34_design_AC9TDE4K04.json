@@ -1,0 +1,95 @@
+{
+  "year_level": "3-4",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE4K04",
+    "title": "Food selection and healthy eating",
+    "description": "describe the ways food can be selected and prepared for healthy eating",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explore how food can be selected and prepared for healthy eating (AC9TDE2K04). They have explored food selection at a general level. They have not yet described specific selection criteria, examined food technologies for health and safety, or compared fresh and processed foods by nutritional content.",
+    "progression_endpoint": "Students describe the ways food can be selected and prepared for healthy eating, including how food technologies support food safety and nutrient retention and how sensory properties inform selection.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How food is selected for healthy eating",
+        "progression_checkpoint": "Students can describe factors that influence food selection for healthy eating, including nutrient content and sensory properties",
+        "minimum_width": "Describe at least one factor used to select food for healthy eating (e.g. nutrient content, freshness, sensory appeal) and explain how it guides selection",
+        "typical_width": "Describe how nutrient content, seasonal availability, sensory properties (colour, aroma, texture, taste) and cultural context influence food selection for healthy eating; apply at least one method of assessing nutritional value (e.g. nutrition label, nutrition app)",
+        "wider": [
+          "Explore how First Nations Australians consider the nutrient content of seasonal foods to maintain a balanced diet \u2014 investigate examples of seasonal food knowledge and discuss how this supports healthy eating",
+          "Use a nutrition calculator app to compare the nutrient content of several fresh foods \u2014 identify which nutrients are present and discuss how the data informs healthy selection decisions"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students typically focus on taste or 'what looks good' as selection criteria. Examining different selection factors \u2014 nutrients, seasonal availability, cultural practice \u2014 builds a more complete understanding of what healthy selection means and why it varies across contexts.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one factor used when selecting food for healthy eating",
+          "Explains how that factor guides a selection decision"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "Students who only think of taste or appearance as selection criteria cannot apply nutritional reasoning when evaluating food technologies (N2) or comparing fresh vs processed foods (N3) \u2014 the selection framework must be broader than personal preference before technology comparisons are meaningful."
+      },
+      {
+        "id": 2,
+        "label": "Food technologies and their role in health and safety",
+        "progression_checkpoint": "Students can describe what food technologies do and explain how they support food safety, nutrient retention or food availability",
+        "minimum_width": "Describe one food technology (e.g. pasteurisation, freezing, refrigeration) and explain what it does for food safety or nutrient retention",
+        "typical_width": "Describe how food technologies (pasteurisation, freezing, refrigeration, packaging) support food safety, retain nutrients and make a wide variety of food available; explain how each technology addresses a specific food challenge",
+        "wider": [
+          "Investigate how freezing vegetables to retain nutrients reduces food waste \u2014 compare frozen vegetables with fresh and processed equivalents and discuss what the technology preserves and what it changes",
+          "Explore how food technologies used in Australia and an Asian country differ \u2014 compare preservation and preparation technologies and discuss why different technologies are used in different food cultures"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one food technology and describes what it does",
+          "Connects the technology to food safety, nutrient retention or food availability"
+        ],
+        "related_standards": [],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Fresh vs processed food and preparation choices",
+        "progression_checkpoint": "Students can describe differences between fresh and processed foods in terms of nutritional value and explain how preparation choices affect healthy eating",
+        "minimum_width": "Describe one difference between a fresh food and a processed version of the same food, and explain one preparation choice that supports healthy eating",
+        "typical_width": "Compare fresh and processed foods using nutrition labels and apps; describe differences in nutritional value; explain how preparation methods (e.g. cooking techniques, presentation choices) affect taste, appeal and healthiness",
+        "wider": [
+          "Explore creative ways food can be prepared for maximum taste and appeal \u2014 locate and discuss examples of colourful or inventive food presentation that encourages healthy eating choices",
+          "Compare the nutritional information from a nutrition calculator app for a fresh ingredient versus a processed product using the same ingredient \u2014 analyse what the processing has added or removed and discuss what this means for healthy eating"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Comparing fresh and processed foods integrates selection knowledge (node 1) with technology knowledge (node 2) \u2014 students must use both nutritional understanding and knowledge of food technologies to make sense of why processed and fresh foods differ. The comparison task is where these concepts come together.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The nutrition calculator app investigation and fresh-vs-processed comparison offer genuinely rich content \u2014 students can engage with real data and make substantive observations rather than just describing categories. The preparation and presentation direction (creative healthy eating) also has strong engagement potential for this age group.",
+        "success_criteria": [
+          "Describes at least one nutritional difference between a fresh and processed food",
+          "Explains one preparation choice that makes food healthier or more appealing"
+        ],
+        "related_standards": [],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

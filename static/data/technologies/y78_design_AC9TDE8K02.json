@@ -1,0 +1,105 @@
+{
+  "year_level": "7-8",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE8K02",
+    "title": "Innovation for preferred futures",
+    "description": "analyse the impact of innovation and the development of technologies on designed solutions for global preferred futures",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how people in design and technologies occupations consider competing factors, including sustainability, in the design of products, services and environments (AC9TDE6K01). They have identified factors but have not yet analysed the impact of innovation or emerging technologies on designed solutions, or considered how design contributes to global preferred futures.",
+    "progression_endpoint": "Students analyse the impact of innovation and the development of technologies — including traditional, contemporary and emerging technologies — on designed solutions, and evaluate how these contribute to global preferred futures.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What innovation means in design",
+        "progression_checkpoint": "Students can explain what innovation means in a design context and identify factors that drive or enable innovation",
+        "minimum_width": "Define innovation in design terms; identify at least two factors that drive innovation (e.g. new materials, societal change, environmental need, technology development)",
+        "typical_width": "Explain how multiple factors interact to drive innovation — developing novel ideas, responding quickly to change, creating a point of differentiation, adding value for society, reducing costs or improving efficiency",
+        "wider": [
+          "Limited width — the concept of innovation is a single insight. The genuine breadth comes from seeing innovation applied across different technology types and contexts at later nodes."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who define innovation only as 'something new and digital' will not recognise traditional or adaptive technologies as innovation at Node 2, producing incomplete comparisons and a distorted analysis of impact at Node 3.",
+        "success_criteria": [
+          "Defines innovation in a design context (not just 'something new')",
+          "Identifies at least two factors that drive innovation"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Understanding what drives innovation requires accumulating a range of examples — students who only see technology-driven innovation will miss social, environmental and economic drivers. Building a repertoire of innovation examples across driver types is the prior condition for analysing technology types at Node 2.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8K01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Traditional, contemporary and emerging technologies",
+        "progression_checkpoint": "Students can compare traditional, contemporary and emerging technologies and analyse how each contributes to designed solutions",
+        "minimum_width": "Give one example each of a traditional, contemporary and emerging technology; explain how each solves a design problem",
+        "typical_width": "Compare traditional and contemporary approaches to the same design challenge (e.g. First Nations bushfire management vs IoT sensors and drones); analyse how emerging technologies respond to changing social, environmental or economic needs",
+        "wider": [
+          "Investigate how traditional technologies from a country in Asia are sustained or transformed in response to environmental or economic change",
+          "Research how biomimicry (e.g. Velcro inspired by burrs) or new materials drive innovation in manufactured products"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who equate innovation with only new or digital technology cannot meaningfully analyse impact at Node 3 — they will evaluate only emerging technologies and dismiss traditional approaches, producing an incomplete account of how innovation contributes to preferred futures.",
+        "success_criteria": [
+          "Gives a correct example of each technology type (traditional, contemporary, emerging)",
+          "Does not equate innovation with only new or digital technology"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who see 'innovation' as only meaning new/digital technology will dismiss traditional technologies and miss the insight that innovation includes adapting, sustaining and reinterpreting existing approaches. Seeing traditional, contemporary and emerging technologies side by side across different cultural contexts resolves this misconception.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8K01",
+          "AC9TDE8K03",
+          "AC9TDE8K06"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Impact on preferred futures",
+        "progression_checkpoint": "Students can analyse how innovation and technology development impact designed solutions and evaluate their contribution to global preferred futures",
+        "minimum_width": "Given a design innovation, analyse at least one positive and one negative impact; explain what 'preferred future' it contributes to or undermines",
+        "typical_width": "Analyse the impact of innovation across social, environmental and economic dimensions; evaluate competing design factors — for example, how house design or waste management practices in a country in Asia balance sustainability with livability",
+        "wider": [
+          "Investigate design factors for First Nations Australian communities in remote areas — how does innovation need to account for place, culture and access?",
+          "Compare how the same innovation (e.g. smart farming, renewable energy) impacts differently in urban vs remote vs developing contexts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Identifies at least one positive and one negative impact of a design innovation",
+          "Connects the impact to what kind of future it contributes to"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Analysing impact on preferred futures requires students to draw on both the innovation concept (Node 1) and the technology type comparison (Node 2) to make an evaluative judgement. Students who have only accumulated examples without building analytical tools will describe impacts without evaluating what kind of future they contribute to.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations remote community direction and the urban-remote-developing comparison offer advancing students genuinely rich contextual analysis — the same innovation produces different impacts depending on place, access and cultural context.",
+        "related_standards": [
+          "AC9TDE8K01",
+          "AC9TDE8P04"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4P02",
+    "title": "Algorithms with branching and iteration",
+    "description": "follow and describe algorithms involving sequencing, comparison operators (branching) and iteration",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can follow and describe algorithms involving a sequence of steps, branching and iteration (AC9TDI2P02). They have encountered these three structures but at a descriptive, recognition level. They have not yet worked with comparison operators explicitly or described algorithms involving numerical conditions.",
+    "progression_endpoint": "Students follow and describe algorithms that use sequencing, comparison operators (e.g. greater than, equal to) as branching conditions, and iteration (repeating steps a fixed number of times or until a condition is met).",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sequencing as ordered steps",
+        "progression_checkpoint": "Students can follow a multi-step algorithm and identify where they are in the sequence",
+        "minimum_width": "Follow a written or diagrammatic algorithm with at least four steps; identify the current step when paused mid-sequence",
+        "typical_width": "Follow algorithms in different representations (list of steps, simple diagram, recipe format); track progress through the sequence; identify if a step has been skipped and what effect that has",
+        "wider": [
+          "Follow algorithms that describe First Nations Australian practices with strict ordering requirements (e.g. step sequences for preparing traditional foods or caring for specific animals) \u2014 discuss why step order matters in these contexts",
+          "Compare two algorithms for the same task with different step orders \u2014 identify which is more efficient or which produces better results and explain why"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Follows a multi-step algorithm without skipping steps",
+          "Can identify which step they are at when asked mid-sequence"
+        ],
+        "related_standards": [
+          "AC9TDI4P04"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot track their position in a sequence cannot attempt N2 or N3 \u2014 branching and iteration both require knowing where you are in the algorithm before deciding or repeating."
+      },
+      {
+        "id": 2,
+        "label": "Comparison operators as branching conditions",
+        "progression_checkpoint": "Students can describe a branch in an algorithm using a comparison operator (e.g. if UV index > 3, if score = 10) and explain what each path does",
+        "minimum_width": "Given an algorithm with one branch using a comparison (e.g. if temperature is above 25\u00b0C), trace both paths and describe what happens in each case",
+        "typical_width": "Describe algorithms with multiple branches using comparison operators (greater than, less than, equal to) involving numbers and text; trace the correct path for different input values",
+        "wider": [
+          "Describe algorithms that branch on comparisons involving culturally specific conditions \u2014 for example, IF a certain animal is found in a ranger survey THEN a specific protocol applies; discuss how the comparison drives the decision",
+          "Explore algorithms involving combined conditions (e.g. IF UV index > 3 AND it is a school day) \u2014 describe what the combined comparison checks for"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Comparison operators abstract quickly from the concrete case. Students who only see one type of comparison (e.g. 'greater than' with temperature) may not recognise that text comparisons, equal-to checks, and multi-condition branches follow the same logic. Multiple contexts build the generalised pattern.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Tracing both branches of a conditional requires holding two cases simultaneously. Students benefit from explicit scaffolding: 'what happens if the condition is true? what happens if it is false?' before attempting to write their own branches.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison operator node is a genuine hinge point \u2014 students who cannot connect comparison conditions to branching behaviour will struggle to implement programs in AC9TDI4P04. The wider tier (combined conditions, real-world protocol branches) adds meaningful context without exceeding the band.",
+        "success_criteria": [
+          "Correctly traces both branches of an algorithm with a comparison condition",
+          "Names the comparison operator (greater than, equal to, etc.) used in the branch"
+        ],
+        "related_standards": [
+          "AC9TDI4P04"
+        ],
+        "hinge": true,
+        "hinge_reason": "Comparison operators are directly prerequisite for implementing branching in AC9TDI4P04 \u2014 students who cannot identify the condition and trace both paths cannot write a working conditional program."
+      },
+      {
+        "id": 3,
+        "label": "Iteration as repeating steps",
+        "progression_checkpoint": "Students can describe an algorithm that repeats steps a fixed number of times and explain what changes with each repetition",
+        "minimum_width": "Follow an algorithm that repeats a step a set number of times (e.g. add a number 5 times to compute a product); describe what the algorithm does and what changes in each repetition",
+        "typical_width": "Describe algorithms with iteration for different purposes \u2014 fixed-count repetition (multiply using repeated addition), and repetition until a condition is met; identify what is constant and what changes across iterations",
+        "wider": [
+          "Describe iteration in algorithms used for monitoring tasks \u2014 for example, an algorithm that counts sightings of a specific animal in a survey by repeating a tally step; discuss how the repetition connects to the data being collected",
+          "Explore an algorithm that combines iteration and branching \u2014 describe how repetition and decisions interact (e.g. 'check each item on a list; IF it matches THEN record it')"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often understand iteration from one context (e.g. counting) but do not recognise it in others (processing a list, animating movement, repeating a procedure). Multiple contexts build a functional understanding of 'do this repeatedly' across varied algorithmic uses.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies that steps are repeated in an iterative algorithm",
+          "States what changes between repetitions (e.g. a count increases, a position moves)"
+        ],
+        "related_standards": [
+          "AC9TDI4P04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Describing complete algorithms",
+        "progression_checkpoint": "Students can describe an algorithm that combines sequencing, branching and iteration in their own words or using a diagram",
+        "minimum_width": "Given an algorithm with all three structures, describe what it does in plain language \u2014 identifying where the sequence is, where a decision occurs, and where repetition happens",
+        "typical_width": "Describe algorithms of different complexity using written descriptions and diagrams; explain the purpose of the algorithm and how each structure contributes to achieving it",
+        "wider": [
+          "Describe an algorithm for a First Nations ranger protocol that involves all three structures \u2014 for example, a monitoring procedure with a fixed number of survey loops, conditional recording rules, and sequential reporting steps",
+          "Describe and compare two algorithms that solve the same problem differently (e.g. two routes to the same location with different decision points) \u2014 explain why both are valid and how they differ"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Describing a combined algorithm requires recognising that sequencing, branching and iteration are not separate things but work together in a single logical structure. The integration challenge is seeing how the structures interlock \u2014 this node is where that coordination is the learning."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one example each of sequencing, branching and iteration in a described algorithm",
+          "Description matches what the algorithm actually does"
+        ],
+        "related_standards": [
+          "AC9TDI4P04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

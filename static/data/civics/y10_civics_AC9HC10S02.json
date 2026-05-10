@@ -1,0 +1,104 @@
+{
+  "year_level": "10",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC10S02",
+    "title": "Locate, select and compare information",
+    "description": "locate, select and compare information, data and ideas from a range of sources",
+    "strand": "Civics Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have located, selected and compared information from a range of sources at Year 9 (AC9HC9S02). They can use digital tools to survey political issues and explore media for bias and representation.",
+    "progression_endpoint": "Students locate, select and compare information, data and ideas from a range of sources about political, legal or civic issues, evaluating sources for credibility, perspective and relevance.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Locating relevant sources across a range",
+        "progression_checkpoint": "Students can locate print and online sources relevant to a political, legal or civic issue, selecting sources that represent varying and conflicting points of view.",
+        "minimum_width": "Locate at least three sources on a civic issue that represent at least two different perspectives, including at least one print or formal source and one digital source.",
+        "typical_width": "Locate print and online sources that represent varying and conflicting points of view on a contemporary political, legal or civic issue, including traditional media, social media, government documents, and survey/polling data.",
+        "wider": [
+          "Use digital survey or polling tools to collect primary data on a political issue and evaluate how survey design affects the results obtained",
+          "Investigate how different media environments (traditional vs social media) make particular types of civic information more or less visible or accessible",
+          "Locate sources produced by groups whose perspectives are typically underrepresented in mainstream civic debate and evaluate what they add to the issue"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who locate only one perspective or who cannot deliberately seek out conflicting views will produce incomplete analysis — the comparison and evaluation in subsequent nodes depends on having sources that represent genuine variation.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Teach source-mapping as a deliberate strategy — students should plan their source search to ensure perspective diversity, not just gather whatever appears first. Model the difference between varied and echo-chamber sourcing.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locates at least three sources relevant to the civic issue",
+          "Sources represent at least two different perspectives or points of view",
+          "Includes both print/formal and digital sources"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating sources for credibility and bias",
+        "progression_checkpoint": "Students can evaluate sources for credibility, perspective and potential bias, including identifying stereotypes, over-generalisation and misrepresentation in media.",
+        "minimum_width": "Evaluate at least two sources for credibility and perspective, identifying one potential bias or limitation in each.",
+        "typical_width": "Evaluate sources for credibility, perspective and potential bias — including examining traditional and social media texts for stereotypes, over-generalisation and misrepresentation, such as those related to how cultural groups or immigrants are represented.",
+        "wider": [
+          "Conduct a detailed media analysis comparing how two different outlets frame the same civic issue, identifying specific language choices and representation patterns",
+          "Investigate how algorithms shape what civic information different users see on social media and evaluate what this means for an informed citizenry",
+          "Compare the policies of different political groups on a contested issue and evaluate the framing choices each group makes in presenting their position"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Source evaluation requires explicit criteria. Students benefit from a structured framework (e.g. authority, accuracy, purpose, perspective) rather than general scepticism — teach the evaluative categories before applying them to specific sources."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The algorithm and social media direction gives students a systemic rather than individual-source view of bias — understanding how information environments are structured is a different and richer analytical move.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The algorithmic information environment direction is substantively distinct from individual source evaluation — it raises the question of structural rather than incidental bias, which is a qualitatively different analytical capability.",
+        "success_criteria": [
+          "Evaluates at least two sources for credibility and perspective",
+          "Identifies a specific potential bias or limitation in at least one source",
+          "Distinguishes between a source's viewpoint and factual error"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Selecting and comparing across sources",
+        "progression_checkpoint": "Students can select relevant information from multiple sources and compare them to identify patterns, conflicts and gaps in the civic evidence base.",
+        "minimum_width": "Select information from at least three sources and compare them, identifying at least one point of agreement and one point of conflict.",
+        "typical_width": "Select varying and conflicting information across sources and compare them systematically, identifying points of agreement, conflict and significant gaps — and explaining what these patterns reveal about the civic issue being investigated.",
+        "wider": [
+          "Compare the information available on a civic issue from Australian government sources versus international bodies (e.g. UN reports) and evaluate what each source can and cannot tell you",
+          "Investigate a civic issue where survey data and media representation conflict and analyse what explains the difference",
+          "Extend source comparison to include perspectives from First Nations Australians or communities directly affected by the issue and evaluate what their perspectives add"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates source location and evaluation into comparative analysis — students must synthesise across multiple sources rather than treating each individually. Teaching investment is in supporting the move from 'source A says X, source B says Y' to 'these sources conflict because...'."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Selects information from at least three sources",
+          "Identifies at least one point of agreement and one point of conflict across sources",
+          "Explains what the pattern of agreement and conflict reveals about the issue"
+        ],
+        "related_standards": ["AC9HC10S03"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4P09",
+    "title": "Personal data risks online",
+    "description": "identify what personal data is stored and shared in their online accounts and discuss any associated risks",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can discuss how websites and apps store personal data online (AC9TDI2P07). They know data is stored online. They have not yet identified specifically what data is in their own accounts, how that data forms a digital identity, or systematically discussed the risks associated with that data.",
+    "progression_endpoint": "Students identify personal data stored and shared in their online accounts and discuss risks associated with that data being accessible, visible or misused.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What personal data is stored in accounts",
+        "progression_checkpoint": "Students can identify examples of personal data stored in at least two accounts they use and state who can access each",
+        "minimum_width": "Name at least two types of personal data stored in one account they use (e.g. school documents in cloud storage, gaming nickname) and state who can see it",
+        "typical_width": "Identify personal data stored across different account types (school cloud storage, gaming accounts, communication apps); state who can access the data in each (teacher only, all players, public); distinguish between data the user chose to share and data stored automatically",
+        "wider": [
+          "Investigate what information is automatically stored in an account without the user actively entering it (e.g. login times, device used, location) \u2014 discuss why this data exists and who can access it",
+          "Compare what data is stored in a school account versus a social/gaming account \u2014 discuss why the access levels are different and what that means for privacy"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to think of personal data as only information they deliberately entered. Multiple account types \u2014 especially those revealing automatically stored data \u2014 help students build a more complete picture of their digital footprint.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two types of personal data in at least one account",
+          "Identifies who can access that data"
+        ],
+        "related_standards": [
+          "AC9TDI4P08"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify what personal data exists in their accounts cannot reason about digital identity formation in N2 or associated risks in N3 \u2014 risk reasoning requires knowing what data is there first."
+      },
+      {
+        "id": 2,
+        "label": "Digital identity from online accounts",
+        "progression_checkpoint": "Students can explain how personal data stored across accounts can reveal information about who they are and how they live",
+        "minimum_width": "Give one example of how personal data stored in an account could tell someone something about the account owner beyond just their name",
+        "typical_width": "Explain how personal data in accounts (photos, location, habits, nickname, posted content) collectively forms a digital identity that reveals details about a person's life, location and interests",
+        "wider": [
+          "Analyse photographs of themselves, friends or fictional characters and identify what details (location, home, routine) could be inferred from the image \u2014 discuss how images are personal data with hidden detail",
+          "Discuss how a gaming nickname that seems anonymous can still reveal information about the player through patterns of play, team membership or in-game communication"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily understand that their name and address are personal data but underestimate how combinations of seemingly neutral data (nickname + playing time + region) build a detailed profile. Multiple examples across different data types build awareness of cumulative identity disclosure.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "The move from 'this data is stored' to 'this data reveals something about me' requires explicit inference reasoning. Students benefit from a scaffold: 'if someone only had this information, what could they work out about me?' \u2014 applied across several examples.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digital identity is a genuinely rich concept for this year band \u2014 students can engage with photos, gaming accounts and location data in ways that are immediately relevant to their lives. The wider tier (inferential analysis of photos, gaming identity) connects to real situations students encounter and produces meaningful insight beyond the minimum.",
+        "success_criteria": [
+          "Explains how a piece of stored data reveals something beyond just the data itself",
+          "Does not limit 'personal data' only to name and address"
+        ],
+        "related_standards": [
+          "AC9TDI4P07"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand how data accumulates into a digital identity cannot name specific risks in N3 \u2014 'what could go wrong' requires knowing what information is actually revealed, not just that data is stored."
+      },
+      {
+        "id": 3,
+        "label": "Risks associated with personal data online",
+        "progression_checkpoint": "Students can discuss at least two risks associated with personal data stored or shared in online accounts",
+        "minimum_width": "Name one risk associated with personal data being stored or visible online and explain who might be affected",
+        "typical_width": "Discuss risks associated with personal data in online accounts \u2014 including unwanted access, identity information being visible to unknown people, and data revealing location or habits; explain how these risks affect real users",
+        "wider": [
+          "Discuss how location data shared in online accounts could create safety risks \u2014 connect to the scenario of photographs revealing home or school location",
+          "Investigate how data shared for one purpose can create unexpected risks in another context \u2014 for example, a gaming account with location data being visible to other players"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who understand risk in one context (e.g. a stranger knowing your address) often miss how the same risk emerges from different data types (e.g. a photo timestamp revealing your school). Multiple risk contexts build a more complete and transferable understanding."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one specific risk associated with personal data online",
+          "Explains who could be affected by the risk"
+        ],
+        "related_standards": [
+          "AC9TDI4P07",
+          "AC9TDI4P08"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

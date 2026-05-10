@@ -1,0 +1,101 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10ST04",
+    "title": "Two-way tables and categorical relationships",
+    "strand": "Statistics",
+    "mode": "A",
+    "description": "construct two-way tables and discuss possible relationship between categorical variables",
+    "prior_knowledge": "Students can construct scatterplots and describe association in terms of strength, direction and linearity (AC9M10ST03). They have not yet used two-way tables specifically to investigate relationships between categorical variables \u2014 this extends bivariate analysis from numerical to categorical data.",
+    "progression_endpoint": "Students construct two-way tables from categorical data sets and discuss possible relationships between categorical variables using frequencies and proportions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Constructing two-way tables",
+        "progression_checkpoint": "Students can organise categorical bivariate data into a two-way table with correct row and column structure.",
+        "minimum_width": "Given a data set with two categorical variables, construct a two-way frequency table with appropriate row and column labels and correct cell counts.",
+        "typical_width": "Construct two-way tables from raw data for multiple context types (survey data, observational data, experimental data); calculate row totals, column totals and grand total; verify accuracy by checking that margins sum correctly.",
+        "wider": [
+          "Investigate a litter survey context \u2014 collect data on two categorical variables (e.g. type of litter and day of week) and construct a two-way table, explaining what the row and column structure reveals",
+          "Explore how two-way frequency tables are used in medical research and public health to organise data from observational studies"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Tally and tabulation errors (double-counting, miscounting) are common. Fluency with accurate data organisation needs practice before proportional analysis."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly constructs a two-way table with accurate cell counts and marginal totals",
+          "Student labels rows and columns to correctly identify which variable is in which dimension"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Using proportions to identify patterns",
+        "progression_checkpoint": "Students can calculate row or column proportions (or percentages) from a two-way table and use them to identify patterns across categories.",
+        "minimum_width": "Calculate row or column percentages for a given two-way table; identify one pattern suggested by comparing proportions across categories.",
+        "typical_width": "Calculate and interpret row proportions and column proportions for a two-way table; explain why proportions are more informative than raw counts when row/column sizes differ; identify patterns and associations by comparing conditional distributions across categories.",
+        "wider": [
+          "Investigate survey responses using five-point Likert scales across two categories of respondents (e.g. junior vs senior students); use proportions to compare response patterns and discuss what the comparison reveals",
+          "Explore how two-way tables connect to conditional probability \u2014 P(response | group) is the conditional distribution, linking statistics to the probability work in AC9M10P01"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Deciding whether to use row or column proportions requires explicit reasoning about which variable is being conditioned on. Students frequently use the wrong conditional direction \u2014 a systematic process for deciding is needed.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student calculates row or column proportions correctly for a given two-way table",
+          "Student explains why proportions are more useful than raw counts for comparing categories of different sizes"
+        ],
+        "related_standards": [
+          "AC9M10P01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Using the wrong conditional direction (row vs column proportions) in N2 produces a fundamentally incorrect reading of the two-way table \u2014 N3 discussion of possible relationships is invalidated if the proportional comparison is pointed the wrong way."
+      },
+      {
+        "id": 3,
+        "label": "Discussing possible relationships",
+        "progression_checkpoint": "Students can use proportional patterns in a two-way table to make a defensible claim about a possible relationship between two categorical variables, using appropriate hedging language.",
+        "minimum_width": "Identify a pattern in a two-way table's proportions and state whether it suggests a possible relationship between the two variables, using appropriate language ('suggests', 'appears to').",
+        "typical_width": "Discuss possible relationships between categorical variables using proportional evidence from two-way tables; use hedging language ('possible relationship', 'the data suggests'); acknowledge alternative explanations; discuss what additional data would strengthen or weaken the inference.",
+        "wider": [
+          "Conduct a school-based litter survey collecting two categorical variables; construct the two-way table, calculate proportions and write a report discussing whether the data suggests a relationship \u2014 acknowledging limitations",
+          "Analyse a published two-way table from a public health or social context; evaluate the strength of the claimed relationship and identify what the table cannot tell us"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The rhetorical skill of making a defensible but appropriately hedged statistical claim varies across context \u2014 the language appropriate for a school litter survey is different from medical research. Multiple context types build appropriate calibration of claim strength."
+          },
+          {
+            "mode": "integration",
+            "reason": "Discussing relationships integrates table construction (node 1), proportion calculation (node 2), and statistical reasoning about evidence strength into the full analysis act. This is the endpoint of the descriptor."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student makes a claim about a possible relationship supported by proportional evidence from the table",
+          "Student uses hedging language that correctly reflects the strength of the evidence"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

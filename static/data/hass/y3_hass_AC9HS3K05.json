@@ -1,0 +1,72 @@
+{
+  "year_level": "3",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS3K05",
+    "title": "Similarities and differences between places in Australia and neighbouring countries",
+    "description": "the similarities and differences between places in Australia and neighbouring countries in terms of their natural, managed and constructed features",
+    "strand": "Knowledge and Understanding \u2014 Geography",
+    "mode": "A",
+    "prior_knowledge": "From Y1 (AC9HS1K03): Students classified local place features as natural, managed and constructed. From Y2 (AC9HS2K03): Students explored geographical scales from local to state/territory.",
+    "progression_endpoint": "Students identify and describe similarities and differences between places in Australia and neighbouring countries in terms of natural, managed and constructed features.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Climatic types and natural features",
+        "progression_checkpoint": "Students can identify the main climatic types in Australia and neighbouring countries and describe the natural features associated with each.",
+        "minimum_width": "Identify at least two climatic types and describe one natural feature associated with each.",
+        "typical_width": "Identify and locate examples of equatorial, tropical, arid, semi-arid and temperate climatic types in Australia and neighbouring countries; describe features of each climate type and their impact on other natural features.",
+        "wider": [
+          "Compare how climate affects the natural features of a place in Australia with those in a contrasting country (e.g. Indonesia or a Pacific Island nation)",
+          "Investigate how animals and plants have adapted to specific climatic conditions in Australia and a neighbouring country"
+        ],
+        "hinge": true,
+        "hinge_reason": "Climate is the primary driver of natural feature variation \u2014 without climate knowledge, comparisons of natural features lack explanatory power.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The relationship between climate and natural features is causal \u2014 model the connection explicitly before expecting students to apply it in comparisons.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two climatic types",
+          "Describes one natural feature associated with each climatic type"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Comparing Australia with a neighbouring country",
+        "progression_checkpoint": "Students can compare Australia with at least one neighbouring country in terms of natural, managed and constructed features, identifying similarities and differences.",
+        "minimum_width": "Compare at least two features (natural, managed or constructed) between Australia and one neighbouring country, identifying one similarity and one difference.",
+        "typical_width": "Identify and describe similarities and differences in natural features (rocks, landforms, water bodies, climate, vegetation, animal life) and in housing, settlement types and built/managed environments between Australia and a neighbouring country.",
+        "wider": [
+          "Compare settlement patterns and classify them into hierarchical categories (isolated dwellings to large cities) for both Australia and a neighbouring country",
+          "Investigate why similar natural environments in different countries have been developed differently by their inhabitants"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing across multiple feature categories (natural, managed, constructed) gives richer comparison than focusing on one type.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparison across natural and human-made features reveals how environment shapes human responses \u2014 students who compare only natural features miss the managed/constructed layer of analysis.",
+        "success_criteria": [
+          "Identifies at least one similarity and one difference between Australia and a neighbouring country",
+          "Comparison covers at least two feature types (natural, managed or constructed)"
+        ]
+      }
+    ]
+  }
+}

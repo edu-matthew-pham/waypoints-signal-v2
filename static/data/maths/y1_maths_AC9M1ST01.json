@@ -1,0 +1,95 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1ST01",
+    "title": "Acquire and record categorical data",
+    "description": "Acquire and record data for categorical variables in various ways including using digital tools, objects, images, drawings, lists, tally marks and symbols",
+    "strand": "Statistics and Probability",
+    "mode": "B",
+    "prior_knowledge": "Students can collect, sort and compare data represented by objects and images (AC9MFST01). They have not yet designed data collection processes, selected from multiple recording formats, or reviewed the effectiveness of their collection method.",
+    "progression_endpoint": "Students acquire and record data for categorical variables in various ways including using digital tools, objects, images, drawings, lists, tally marks and symbols.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identify categories and plan collection",
+        "progression_checkpoint": "Students can identify categories for a data collection question and plan how to record responses before collecting.",
+        "minimum_width": "For a given data question, identify at least two categories and choose a recording format before starting to collect data.",
+        "typical_width": "Discuss possible data questions of interest; identify appropriate categories for the variable; select a recording format (list, tally, objects, drawings) that matches the context; predict what the data might show; begin collection with the plan in place.",
+        "wider": [
+          "Explore yes/no question trees as a data collection tool (chatbot role-play), planning the category structure before the questions are asked.",
+          "Investigate how data categories are structured in First Nations representational systems — examining how different purposes for representing information lead to different categorical frameworks."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students who jump directly to collecting without planning categories often produce data that cannot be compared or interpreted. Scaffolding the pre-collection step — naming categories, choosing format — is the key teaching move for building statistical thinking.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who collect without defined categories produce data that cannot be recorded consistently or compared across responses — this directly undermines Node 2 (recording using consistent formats) and Node 3 (reviewing for completeness and comparability).",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names the categories that will be used before data collection begins.",
+          "Selects a recording format appropriate to the data question."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Record using multiple formats",
+        "progression_checkpoint": "Students can record data for a categorical variable using at least two different recording formats, including at least one involving a mark or symbol system (tally, emoji, sticker).",
+        "minimum_width": "Record data using one mark-based format (tally marks, stickers or emojis) and one other format (list or drawing).",
+        "typical_width": "Record data using a range of formats — lists, tally marks, objects, images, drawings and symbols; use digital tools where appropriate (star charts, emoji charts); review recordings and explain what each format shows.",
+        "wider": [
+          "Explore ways of representing data through stories and symbols used by First Nations Australians, comparing these formats with conventional tally and list methods and discussing what different formats communicate.",
+          "Compare hand-drawn and digital recording formats for the same data set, discussing the advantages of each.",
+          "Create an emoji-based data recording system for a class survey, designing symbols for each category and presenting the result to the class."
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to develop a repertoire of recording formats so they can match format to context. Each format (list, tally, drawing, digital) has different affordances — building familiarity with the full set is the goal at this node.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Data recording formats are a rich area connecting mathematical representation to communication and cultural practice. Students who compare multiple formats — including First Nations representational systems — build flexible thinking about what a data record is for.",
+        "success_criteria": [
+          "Records data accurately in at least two different formats.",
+          "Explains what each recording format shows and how it could be used to answer the question."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Review and reflect on collection",
+        "progression_checkpoint": "Students can review collected data, explain what it shows and suggest how the collection method could be improved next time.",
+        "minimum_width": "Review collected data and state one thing the data shows; suggest one change to the collection method.",
+        "typical_width": "Examine collected data and generate questions it could answer; identify whether the categories were helpful or whether they would be changed; consider whether the recording method captured all relevant responses; describe what was learned from the data.",
+        "wider": [
+          "Compare two data sets collected on the same question using different methods, evaluating which method produced clearer or more useful data.",
+          "Investigate a class data question across time (daily mood tracking using emojis) and reflect on how the data changed and what patterns emerged."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Reviewing and reflecting integrates all prior nodes — category design, recording, and data interpretation — into the full statistical enquiry cycle. This is where students move from data producer to data analyst."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States at least one finding from the collected data.",
+          "Suggests one specific improvement to the collection method or category design."
+        ],
+        "related_standards": ["AC9M1ST02"]
+      }
+    ]
+  }
+}

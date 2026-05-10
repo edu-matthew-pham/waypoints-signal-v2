@@ -1,0 +1,101 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7N05",
+    "title": "Rounding and Estimation",
+    "strand": "Number",
+    "description": "round decimals to a given accuracy appropriate to the context and use appropriate rounding and estimation to check the reasonableness of solutions",
+    "mode": "A",
+    "prior_knowledge": "Students can round whole numbers and simple decimals. Students understand decimal place value and can multiply/divide decimals by powers of 10 (from AC9M6N04, AC9M6N06).",
+    "progression_endpoint": "Students round decimals to a specified accuracy appropriate to the context and use estimation to judge whether solutions are reasonable.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Rounding decimals to specified places",
+        "progression_checkpoint": "Students round decimals to a given number of decimal places using standard rounding conventions.",
+        "minimum_width": "Round a decimal to 1, 2 or 3 decimal places as specified.",
+        "typical_width": "Round to specified decimal places across a range of contexts; explain the rounding rule and why the convention exists.",
+        "wider": [
+          "Investigate contexts where rounding up or rounding down is more appropriate than standard rounding (e.g. buying enough paint — always round up).",
+          "Explore the effect of rounding at each step of a multi-step calculation vs rounding only at the end."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only practise decontextualised rounding often fail to select appropriate accuracy in context. Varied practical contexts are needed to build judgment about what 'appropriate' means."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly rounds a decimal to a specified number of decimal places.",
+          "Applies the 'round half up' convention consistently.",
+          "Does not confuse rounding to 2 decimal places with rounding to the nearest 100."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 2,
+        "label": "Context-appropriate accuracy",
+        "progression_checkpoint": "Students choose an appropriate level of rounding for a given context and explain why that accuracy is suitable.",
+        "minimum_width": "Given a practical problem (e.g. measuring fabric, calculating cost), state appropriate rounding and justify the choice.",
+        "typical_width": "Compare the effect of different levels of rounding across several contexts and evaluate which is most appropriate for each.",
+        "wider": [
+          "Investigate situations where over-precision misleads (e.g. reporting a population estimate to the nearest unit).",
+          "Discuss how measurement accuracy relates to rounding: a ruler accurate to 1mm supports reporting to 1dp in cm."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Judging appropriate accuracy requires a reasoning process students rarely apply spontaneously: What is the purpose of the answer? What precision is the measurement tool capable of? Does the context require over- or under-estimation?",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Selects a contextually appropriate level of decimal accuracy and justifies it.",
+          "Recognises that different contexts require different precision.",
+          "Can explain why rounding to too many places can give a false sense of precision."
+        ],
+        "related_standards": [
+          "AC9M7N09"
+        ],
+        "width_opportunity_reason": "Reasoning about appropriate precision and the misleading effects of over-precision connects mathematics to real-world decision-making — advancing students can engage with this as a genuine critical thinking task."
+      },
+      {
+        "id": 3,
+        "label": "Estimation to check reasonableness",
+        "progression_checkpoint": "Students use estimation strategies (front-end, rounding, compatible numbers) to check whether a calculated solution is reasonable.",
+        "minimum_width": "Estimate the answer to a calculation and compare with the computed result to check reasonableness.",
+        "typical_width": "Apply multiple estimation strategies; identify when a computed answer is unreasonable and diagnose the likely error.",
+        "wider": [
+          "Use estimation as a first step in multi-step problems to set bounds on the expected answer before computing.",
+          "Investigate how a calculator error (e.g. missing a decimal point) is caught by estimation."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Estimation as a reasonableness check only becomes habitual across a wide variety of problem types. Students who practise estimation only in drill exercises rarely apply it spontaneously in problem-solving."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Produces a reasonable estimate before or after computing.",
+          "Identifies whether a given answer is unreasonable based on estimation.",
+          "Explains the estimation strategy used."
+        ],
+        "related_standards": [
+          "AC9M7N06",
+          "AC9M7N09"
+        ]
+      }
+    ]
+  }
+}

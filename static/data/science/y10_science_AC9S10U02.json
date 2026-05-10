@@ -1,0 +1,67 @@
+{
+  "year_level": "10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S10U02",
+    "title": "Evolution by Natural Selection",
+    "description": "use the theory of evolution by natural selection to explain past and present diversity and analyse the scientific evidence supporting the theory",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how structural features enable survival in specific habitats (AC9S5U01) and describe variation from sexual reproduction (AC9S9U02). They have not yet applied the natural selection mechanism to explain species change over time or examined the evidence base for evolutionary theory.",
+    "progression_endpoint": "Students explain natural selection as a mechanism of evolutionary change (variation → selection → differential reproduction → changed population), analyse multiple lines of evidence for the theory, and connect genetic characteristics to survival and reproductive rates.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Natural selection explains how populations change over time",
+        "progression_checkpoint": "Students can explain the natural selection process — variation exists in a population; selection pressures favour some variants; favoured variants survive and reproduce at higher rates; over generations the population changes.",
+        "minimum_width": "Students explain the four-step natural selection process and give one example of selection operating on a named population.",
+        "typical_width": "Students explain variation, selection pressure, differential survival and reproduction, and population change over time; apply natural selection to explain artificial selection in breeding; connect genetic characteristics to survival and reproductive rates; and explain why natural selection acts on phenotype (expressed characteristics) not genotype directly.",
+        "wider": [
+          "Investigate some structural and physiological adaptations of First Nations Australians to the Australian environment — examining how natural selection shaped human adaptation over extended periods",
+          "Examine how artificial selection in breeding for desired characteristics mirrors natural selection — comparing the selection agent (human vs environment) and timescale",
+          "Investigate changes caused by natural selection in a specific population under a specified selection pressure — examining a real documented case of rapid evolution"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who hold a teleological model of evolution — believing organisms change by trying or wanting to adapt — cannot correctly reason about Node 2 (evidence for evolution). Their causal model is incompatible with the theory: they will interpret evidence through an intentional rather than selectionist lens, producing systematic misinterpretation of what fossils, homologous structures, and molecular similarities demonstrate.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly believe organisms change by trying or wanting to adapt, rather than through selection among pre-existing variants. Making the mechanism explicit — variation must pre-exist; selection acts on it; nothing is directed toward a goal — is the essential conceptual scaffold before evolution can be understood correctly.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations adaptation to the Australian environment is elaboration-grounded and provides a culturally significant application of natural selection to human evolution. Documented rapid evolution cases provide real evidence for a process students often treat as too slow to observe.",
+        "success_criteria": [
+          "Explains the four steps of natural selection in sequence",
+          "Applies natural selection to explain a change in a named population under a specific selection pressure"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Multiple lines of evidence support evolutionary theory",
+        "progression_checkpoint": "Students can describe at least three lines of evidence for evolution by natural selection — fossil record, anatomical similarities, chemical (molecular) evidence, geographical distribution — and explain what each contributes to the case for the theory.",
+        "minimum_width": "Students describe at least three types of evidence for evolution and explain what each line of evidence shows.",
+        "typical_width": "Students analyse fossil record, homologous structures, DNA sequence similarities, and geographical distribution as converging lines of evidence; explain how each independently supports evolution; and explain why multiple independent lines of evidence converge on the same conclusion, strengthening the theory.",
+        "wider": [
+          "Analyse evidence for the theory including fossil record, chemical and anatomical similarities, and geographical distribution — examining how each type of evidence contributes independently",
+          "Examine biodiversity as a function of evolution — explaining how natural selection from a common ancestor produces divergent species over time",
+          "Explore how DNA sequencing and molecular biology have added powerful evidence to earlier anatomical and fossil evidence — connecting new technology to evidence strengthening (AC9S10H02)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names and describes at least three lines of evidence for evolution",
+          "Explains what each line of evidence independently contributes to the case for the theory"
+        ]
+      }
+    ]
+  }
+}

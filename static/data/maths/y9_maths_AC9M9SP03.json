@@ -1,0 +1,101 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9SP03",
+    "title": "Geometric Algorithms",
+    "description": "design, test and refine algorithms involving a sequence of steps and decisions based on geometric constructions and theorems; discuss and evaluate refinements",
+    "strand": "Space",
+    "mode": "B",
+    "prior_knowledge": "Students can apply the enlargement transformation and identify invariant properties of similar shapes (AC9M9SP02). They have not yet designed and iteratively refined algorithms grounded in geometric constructions and theorems.",
+    "progression_endpoint": "Students design, test and refine algorithms based on geometric constructions and theorems, representing them using pseudocode or flowcharts and evaluating refinements.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Representing a geometric process as an algorithm",
+        "progression_checkpoint": "Students can represent a known geometric construction or theorem application as a step-by-step algorithm using pseudocode or a flowchart.",
+        "minimum_width": "Write a pseudocode or flowchart algorithm for one geometric process (e.g. applying the triangle inequality to test whether three lengths can form a triangle); identify each step as either a computation or a decision.",
+        "typical_width": "Represent at least two different geometric processes as algorithms (e.g. triangle inequality check, Pythagorean triple generation, angle bisection); use pseudocode or flowchart notation correctly; distinguish sequential steps from decision branches.",
+        "wider": [
+          "Represent a geometric construction (e.g. bisecting an angle using compass and straightedge) as a precise step-by-step algorithm and discuss what makes each step unambiguous",
+          "Investigate how geometric algorithms underpin computer graphics \u2014 describe conceptually how a rotation or reflection of a polygon could be implemented algorithmically",
+          "Compare pseudocode and flowchart representations of the same algorithm \u2014 discuss the trade-offs in clarity and detail"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Writes a step-by-step algorithm with clear, unambiguous steps",
+          "Correctly identifies at least one decision step (with two branches) and at least one computation step",
+          "Uses pseudocode or flowchart notation consistently"
+        ],
+        "related_standards": [
+          "AC9M8SP04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Testing an algorithm with cases",
+        "progression_checkpoint": "Students can test an algorithm using specific inputs, identify failure cases, and describe what the algorithm does correctly and incorrectly.",
+        "minimum_width": "Test one algorithm using at least three input cases (including at least one edge case or failure case); record the output for each; identify any case where the algorithm gives an incorrect or unexpected result.",
+        "typical_width": "Design and execute a test plan with at least three cases (typical, boundary, edge/failure); record expected and actual outputs; identify which cases the algorithm handles correctly and which it does not; explain what makes an edge case or boundary case significant.",
+        "wider": [
+          "Test an algorithm for generating Pythagorean triples \u2014 explore what happens at the boundary (n=1, m=1) and for non-integer or negative inputs",
+          "Test an angle bisection algorithm against a variety of angles including 0\u00b0, 180\u00b0 and obtuse angles \u2014 identify where the algorithm assumptions break down",
+          "Develop an algorithm and test it against a data set to evaluate whether it produces correct results for all valid inputs"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly test only 'typical' cases (the algorithm works for the obvious input) and miss edge cases. Scaffolding the reasoning about what makes a good test \u2014 including boundary and failure cases \u2014 is the key investment before algorithm refinement is possible.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Tests the algorithm with at least three cases including at least one edge or boundary case",
+          "Records inputs and outputs systematically",
+          "Correctly identifies at least one case where the algorithm fails or produces an unexpected result"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who test only typical cases and miss edge cases cannot identify failure modes \u2014 and therefore cannot refine the algorithm in N3. Refinement without prior test failures is superficial or impossible."
+      },
+      {
+        "id": 3,
+        "label": "Refining and evaluating the algorithm",
+        "progression_checkpoint": "Students can refine an algorithm based on test results and evaluate the refinement, explaining what changed and why it improves the algorithm.",
+        "minimum_width": "Make one refinement to an algorithm based on a failure case identified during testing; explain what the refinement changes and why; retest with the previously failing case.",
+        "typical_width": "Refine an algorithm to handle failure cases, improve efficiency or increase generality; retest after refinement; discuss and evaluate the refinement \u2014 explain what the algorithm now does that it did not before, and any remaining limitations.",
+        "wider": [
+          "Develop an algorithm for animating a geometric construction (e.g. step-by-step angle bisection or perpendicular bisector) and evaluate it using multiple test cases, refining until it handles all valid inputs correctly",
+          "Investigate how software developers approach algorithm refinement \u2014 discuss the concept of debugging as a structured process of identify-fix-retest",
+          "Evaluate two different algorithms for the same geometric task and compare their efficiency, correctness and generality"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Refinement and evaluation integrate design, testing and geometric reasoning into the full algorithm development cycle. The integration challenge is connecting the geometric insight (why this theorem or construction works) to the algorithmic fix (how to handle the edge case in code/pseudocode). This is the descriptor's full demand.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The design-test-refine cycle for geometric algorithms models authentic computational thinking. Students who complete a full cycle \u2014 including non-trivial refinement \u2014 develop problem-solving persistence and understanding of algorithm design that extends beyond mathematics.",
+        "success_criteria": [
+          "Makes a specific, justified refinement to the algorithm based on a test failure",
+          "Retests with the previously failing case and confirms the refinement resolves it",
+          "Evaluates the refined algorithm: states what it now handles correctly and any remaining limitations"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8M04",
+    "title": "Duration and Time Zones",
+    "strand": "Measurement",
+    "description": "solve problems involving duration, including using 12- and 24-hour time across multiple time zones",
+    "mode": "A",
+    "prior_knowledge": "Students can calculate elapsed time and convert between 12- and 24-hour time. Students understand the concept of time zones informally.",
+    "progression_endpoint": "Students solve problems involving duration and time zone conversion, including multi-zone itinerary and scheduling problems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Converting between time zones",
+        "progression_checkpoint": "Students convert times between time zones using UTC offsets and apply 12- and 24-hour time conventions.",
+        "minimum_width": "Convert a given time from one time zone to another using a UTC offset.",
+        "typical_width": "Convert between multiple time zones; handle day changes; apply to real contexts (flight arrival times, international calls, Perth vs eastern states).",
+        "wider": [
+          "Investigate why time zones exist and how the International Date Line creates calendar day differences.",
+          "Explore daylight saving — how does it affect time zone offsets between Australian states, and why is it not observed uniformly?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Time zone problems vary significantly: some cross midnight, some cross the date line, some involve daylight saving. Multiple real-world contexts are needed to develop reliable conversion reasoning.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 multi-zone scheduling requires chaining multiple individual time zone conversions — students who cannot reliably handle day changes or offset arithmetic in Node 1 produce cascade errors across the multi-zone itinerary.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly converts a time between two given time zones.",
+          "Handles day changes correctly when conversion crosses midnight.",
+          "Uses 24-hour time appropriately to avoid AM/PM ambiguity."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 2,
+        "label": "Solving multi-zone scheduling and itinerary problems",
+        "progression_checkpoint": "Students solve practical problems involving scheduling across multiple time zones, including travel itineraries and virtual meeting planning.",
+        "minimum_width": "Plan a meeting time that works for two people in different time zones; show the time in both zones.",
+        "typical_width": "Plan an international travel itinerary across multiple time zones; calculate local arrival and departure times; identify scheduling challenges for a multi-national team.",
+        "wider": [
+          "Plan an international travel itinerary across at least three time zones in Asia; calculate all local times; identify the best transit options.",
+          "Investigate the practical challenge of regular virtual meetings for a company with staff in different Australian states and an international office — propose a fair meeting time."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Multi-zone scheduling requires coordinating UTC offsets, duration calculation, date change reasoning, and 12/24-hour conversion simultaneously — a genuine integration of all time concepts.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "International travel itinerary and multi-national scheduling problems offer advancing students rich multi-step applied reasoning — the complexity of coordinating multiple time zones in a realistic scenario is genuinely challenging within Year 8.",
+        "success_criteria": [
+          "Correctly plans a meeting or itinerary accounting for all time zone offsets.",
+          "Identifies and resolves day-change issues.",
+          "Communicates the solution clearly showing local times in each zone."
+        ],
+        "related_standards": []
+      }
+    ]
+  }
+}

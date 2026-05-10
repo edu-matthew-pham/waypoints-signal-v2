@@ -1,0 +1,79 @@
+{
+  "year_level": "5-6",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE6K04",
+    "title": "Food characteristics and healthy eating",
+    "description": "Explain how the characteristics of foods influence selection and preparation for healthy eating",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the ways food can be selected and prepared for healthy eating (AC9TDE4K04). They understand that food choices affect health. They have not yet explained how specific food characteristics (nutritional value, spoilage, preparation requirements, taste) drive selection and preparation decisions.",
+    "progression_endpoint": "Students explain how the characteristics of foods \u2014 nutritional value, spoilage, preparation requirements, taste \u2014 influence selection and preparation decisions for healthy eating.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Food characteristics that influence selection",
+        "progression_checkpoint": "Students can identify and explain how food characteristics \u2014 nutritional value, availability, spoilage, taste \u2014 influence which foods are selected for healthy eating",
+        "minimum_width": "Identify at least two food characteristics and explain how each influences whether a food is selected for a healthy meal",
+        "typical_width": "Explain how nutritional value, availability, spoilage risk, preparation requirements and taste each influence food selection; apply the Australian Dietary Guidelines to plan a healthy meal or lunchbox for a specific individual \u2014 explaining selection decisions in terms of food characteristics",
+        "wider": [
+          "Investigate how First Nations Australians have long selected foods based on nutritional value, seasonal availability, spoilage characteristics, and preparation requirements \u2014 exploring how this knowledge guided sustainable food choices over generations",
+          "Explore how flavour profiles (sour, salty, sweet, spicy, umami \u2014 particularly from Asian cuisines) influence food selection and preparation preferences across different cultural groups",
+          "Investigate how food service options at a local restaurant or caf\u00e9 reflect food characteristic trade-offs \u2014 identifying how chefs balance nutrition, taste, availability and spoilage in menu design"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to select foods based on taste preference and treat healthy eating as a rule set rather than a characteristic-based reasoning process. Multiple contexts \u2014 cultural traditions, dietary guidelines, food service \u2014 help students see food selection as applying a set of criteria to characteristics, not following a prescribed list.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations food selection context is rich \u2014 it presents characteristic-based selection as a long-standing, systematically developed knowledge rather than modern nutrition science alone. The cross-cultural flavour context is also rich for building understanding of how taste characteristics vary by cultural context.",
+        "success_criteria": [
+          "Names at least two food characteristics",
+          "Explains how each characteristic influences whether a food is selected for healthy eating"
+        ],
+        "related_standards": [
+          "AC9TDE4K04",
+          "AC9TDE6P03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Food selection reasoning in N1 cascades directly into N2 \u2014 if students cannot identify characteristics (spoilage risk, nutritional value) as the basis for selection, they cannot connect those same characteristics to preparation decisions. The two nodes share the same conceptual structure."
+      },
+      {
+        "id": 2,
+        "label": "Food characteristics that influence preparation",
+        "progression_checkpoint": "Students can explain how food characteristics influence preparation methods and techniques",
+        "minimum_width": "Identify one food and explain how its characteristics (e.g. spoilage risk, texture, nutritional content) determine how it should be prepared",
+        "typical_width": "Explain how different food characteristics \u2014 perishability, hygiene requirements, nutritional value, texture \u2014 determine preparation methods; apply this understanding to design a food product or meal that meets health and safety requirements",
+        "wider": [
+          "Experiment with preservation techniques (pickling, fermentation, air drying, sun drying) and explain how each technique responds to specific food characteristics \u2014 connecting the preservation method to the characteristic being managed",
+          "Investigate work practices that reflect nutrition, hygiene and food safety considerations \u2014 explaining how washing produce, safe oil disposal, refrigeration of perishables, and allergen awareness each respond to a specific food characteristic",
+          "Explore the food service skills needed to prepare food for healthy eating in a restaurant or caf\u00e9 context \u2014 identifying how preparation techniques vary with the food's characteristics"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly follow preparation steps without connecting them to the food's characteristics. The reasoning chain \u2014 what characteristic does this food have? \u2192 what preparation risk or opportunity does that create? \u2192 what technique responds to it? \u2014 makes preparation decisions principled rather than procedural."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one food characteristic that determines how a food must be prepared",
+          "Explains the connection between the characteristic and the preparation method"
+        ],
+        "related_standards": [
+          "AC9TDE6P03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

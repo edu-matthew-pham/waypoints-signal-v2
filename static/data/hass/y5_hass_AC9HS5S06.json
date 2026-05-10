@@ -1,0 +1,119 @@
+{
+  "year_level": "5",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS5S06",
+    "title": "Assess effects using criteria",
+    "description": "propose actions or responses to issues or challenges and use criteria to assess the possible effects",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "From AC9HS4S06 (Propose responses with effects): Students propose responses to issues and identify possible effects. Students can suggest actions but do not yet apply formal criteria to assess effects.",
+    "progression_endpoint": "Students propose actions or responses to issues or challenges and use criteria to systematically assess the possible effects of those actions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying issues and proposed actions",
+        "progression_checkpoint": "Students can identify a HASS issue or challenge, describe why it matters, and propose at least one possible action or response.",
+        "minimum_width": "Identify one HASS issue or challenge and propose one possible action in response to it.",
+        "typical_width": "Identify a current or historical HASS issue or challenge (environmental, civic, economic, historical), describe its significance, and propose a range of possible actions or responses, including actions taken in the past and possible future actions.",
+        "wider": [
+          "Investigate a specific contemporary challenge (e.g. environmental hazard, community need, democratic issue) using a problem-finding process that examines causes before proposing actions",
+          "Compare how different groups have proposed different responses to the same challenge, explaining why their proposed actions differ"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who propose actions without clearly identifying the issue first tend to address symptoms rather than causes — their effects assessment will be shallow because they have not established what problem the action is meant to solve. Issue identification is the prerequisite for meaningful effect assessment.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Use a problem-framing scaffold (What is the issue? Who is affected? What causes it? What would a good response address?) before students propose actions — this prevents the common error of jumping to solutions before understanding the problem.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students identify a specific HASS issue or challenge and explain why it matters.",
+          "Students propose at least one possible action or response to the issue."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using criteria to assess effects",
+        "progression_checkpoint": "Students can identify and apply criteria to assess the possible effects of proposed actions, explaining what each criterion measures and why it matters.",
+        "minimum_width": "Name two criteria for assessing the effects of an action and apply each to one proposed action.",
+        "typical_width": "Identify a set of criteria (e.g. economic factors: needs, wants and costs; environmental factors; health factors; social factors) and apply them to assess the possible effects of proposed actions or responses to a HASS challenge.",
+        "wider": [
+          "Investigate how criteria are used in real decision-making contexts (e.g. council planning decisions, government environmental policies) and evaluate whether the criteria used reflect the right values",
+          "Develop and justify a custom set of criteria for a specific HASS challenge, explaining why these criteria are more appropriate than a generic set"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Applying criteria requires students to hold the action, the criterion, and the likely effect in mind simultaneously — use a structured evaluation table (action × criterion = likely effect) to make this thinking visible.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Criteria selection is not neutral — the elaborations name economic, environmental, health and social criteria, and examining how different criteria lead to different assessments of the same action is a rich analytical direction that develops genuine evaluative judgment.",
+        "success_criteria": [
+          "Students identify at least two criteria for assessing the effects of an action.",
+          "Students apply each criterion to a proposed action and describe the likely effect."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Forecasting probable and preferred futures",
+        "progression_checkpoint": "Students can forecast probable futures for a HASS issue and distinguish probable from preferred futures, proposing actions that move toward preferred outcomes.",
+        "minimum_width": "Describe one probable future for a HASS issue and propose one action that would move toward a preferred future.",
+        "typical_width": "Forecast probable futures for a HASS issue (what is likely to happen if current patterns continue), describe preferred futures (what outcome would be best), and propose specific actions that would move from the probable toward the preferred future.",
+        "wider": [
+          "Construct a futures wheel or consequence map for a HASS challenge, tracing second and third-order effects of proposed actions",
+          "Evaluate the effectiveness of a past response to a challenge (e.g. a colonial response to hardship, or a government environmental policy) and assess whether the preferred future was achieved"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The distinction between probable and preferred futures is an explicit futures thinking move — scaffold it clearly. Students often default to describing only what they want (preferred) without analysing what is likely (probable)."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students describe one probable future and one preferred future for a HASS issue.",
+          "Students explain at least one action that would help move toward the preferred future."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Integrated action proposal and effects assessment",
+        "progression_checkpoint": "Students can propose an action or response to a HASS issue or challenge and use a set of criteria to systematically assess its possible effects, drawing on evidence and disciplinary understanding.",
+        "minimum_width": "Propose one action for a HASS issue and use at least two criteria to assess its possible effects.",
+        "typical_width": "Propose a coherent action or response to a HASS issue; use a defined set of criteria (economic, environmental, social, health) to systematically assess possible effects; draw on evidence from inquiry to support the assessment; acknowledge that different criteria may lead to different conclusions.",
+        "wider": [
+          "Participate in a democratic decision-making process (e.g. class vote, mock community consultation) about a proposed action, and evaluate the outcome using the criteria developed",
+          "Evaluate how effectively a past challenge was addressed (e.g. a colonial or environmental challenge) using the same criteria framework, and assess whether the response achieved its goals"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The integrated proposal brings together issue identification, criteria selection, futures thinking and evidence-based assessment. Use a structured proposal format (issue → action → criteria assessment → recommendation) to support synthesis."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students propose a specific action in response to a HASS issue.",
+          "Students apply at least two criteria to assess the possible effects of their proposed action.",
+          "Students acknowledge potential unintended effects or limitations of their proposed action."
+        ]
+      }
+    ]
+  }
+}

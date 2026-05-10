@@ -1,0 +1,81 @@
+{
+  "year_level": "5-6",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE6P05",
+    "title": "Develop project plans and resources",
+    "description": "Develop project plans that include consideration of resources to individually and collaboratively make designed solutions",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can sequence steps to individually and collaboratively make designed solutions (AC9TDE4P05). They have sequenced production steps. They have not yet developed full project plans that include resources, roles, timelines, milestones and digital planning tools \u2014 the shift is from step sequencing to project management.",
+    "progression_endpoint": "Students develop project plans that sequence production steps, identify required resources, allocate roles and set milestones \u2014 using digital tools to manage and document the plan collaboratively.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning production steps and sequencing tasks",
+        "progression_checkpoint": "Students can plan and sequence the production steps needed to complete a designed solution \u2014 using digital tools to record the sequence",
+        "minimum_width": "List the production steps for a design project in a logical sequence; identify at least one dependency between steps (this step must happen before that one)",
+        "typical_width": "Plan production steps needed to produce a product, service or environment using digital tools \u2014 creating a flowchart, digital planner or task list that sequences tasks and includes deadlines; explain why steps must occur in a specific order",
+        "wider": [
+          "Create a digital flowchart or planner that records the sequence of tasks and deadlines for a design project \u2014 including contingency steps for when a task takes longer than expected",
+          "Use a cloud-based or server-based document to record production steps and timelines \u2014 explaining the document sharing settings applied and why",
+          "Plan the production of a community meal or event, sequencing food preparation and service tasks \u2014 identifying where tasks must be done in parallel versus sequentially"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students who list tasks without considering sequencing constraints don't yet understand project planning as dependency management. Making dependencies explicit \u2014 this step needs the output of that step \u2014 is the key reasoning move that distinguishes planning from task listing.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Sequences production steps in a logical order",
+          "Identifies at least one dependency between steps",
+          "Represents the plan using a digital tool"
+        ],
+        "related_standards": [
+          "AC9TDE4P05",
+          "AC9TDE6P03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Task sequencing in N1 is prerequisite for N2's resource allocation \u2014 you cannot specify when a resource is needed without knowing when in the sequence the task requiring it occurs. Students who cannot sequence tasks cannot produce a valid resource plan."
+      },
+      {
+        "id": 2,
+        "label": "Identifying resources and allocating roles",
+        "progression_checkpoint": "Students can identify the human resources, materials, tools and equipment needed for a project and specify when each is needed \u2014 allocating roles to team members",
+        "minimum_width": "Identify at least three types of resources needed for a project (human, materials, tools) and specify when each is needed in the production sequence",
+        "typical_width": "Develop a project plan that identifies human resources, materials, tools and equipment with timing \u2014 setting milestones, allocating roles to team members, and specifying when shared resources need to be scheduled; include document sharing permissions when collaborating digitally",
+        "wider": [
+          "Set milestones for a collaborative project \u2014 using a shared digital document or spreadsheet to list tasks, deadlines and team roles; configure document sharing permissions appropriately for the team",
+          "Plan access to a specialist resource (e.g. a wildlife expert at the planning stage, shared tools during construction) \u2014 explaining when in the production sequence this resource is needed and what constraints it creates",
+          "Develop a project plan for a habitat-building project for local animals \u2014 identifying all resource types needed at each phase and the timing constraints between resource availability and production steps"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Resource planning integrates the task sequence from node 1 with the knowledge of what each task requires. The integration act is aligning resource availability with task timing \u2014 if a resource isn't available when needed, the plan must adapt. Students who plan tasks and resources separately have not yet integrated them.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The specialist resource scheduling context (wildlife expert, shared tools) is rich \u2014 it introduces resource constraints that force students to reason about project planning as dependency management between tasks and resource availability, not just task sequencing.",
+        "success_criteria": [
+          "Identifies at least three resource types needed for the project",
+          "Specifies when each resource is needed relative to the production sequence",
+          "Allocates at least one role to a team member with a reason"
+        ],
+        "related_standards": [],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

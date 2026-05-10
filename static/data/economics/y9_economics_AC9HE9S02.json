@@ -1,0 +1,134 @@
+{
+  "year_level": "9",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE9S02",
+    "title": "Locate, Select and Analyse Sources",
+    "description": "locate, select and analyse information and data from a range of sources",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "From Y8 AC9HE8S02 (direct predecessor): locate, select and organise information and data from a range of sources. Students can locate and organise sources. Y9 adds 'analyse' to the capability — specifically analysing for relevance (does this help answer the question?) and reliability (who collected it, when, why?) — and adds selecting and presenting data using specialised digital tools and processes.",
+    "progression_endpoint": "Students locate, select and analyse information and data from a range of sources.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Locating sources using contextually specific search strategies",
+        "progression_checkpoint": "Students can locate online sources using contextually specific economic and business terms and criteria relevant to the issue being investigated.",
+        "minimum_width": "Locate at least two relevant sources using specific economic and business search terms (not generic terms) for a nominated issue.",
+        "typical_width": "Locate online sources using contextually specific terms (e.g. 'global markets', 'trade between Australia and Asia', 'consumer scam risk') or criteria (e.g. 'find case studies related to trade between Australia and Asia'). Demonstrate that search strategies are tailored to the issue's economic and business context rather than generic, and that the search approach identifies sources with the type of evidence needed to address the inquiry question.",
+        "wider": [
+          "Apply structured search strategies across different source types — official government statistics (ABS, RBA), industry reports, academic summaries, news sources — and explain why each type is appropriate for different evidence needs",
+          "Locate sources for a contested economic issue (e.g. effects of trade liberalisation) from multiple perspectives — government, business peak bodies, consumer advocates — and document the search process",
+          "Use specialist economic databases or tools (e.g. World Bank Open Data, DFAT trade statistics portal, ABS.Stat) to locate primary statistical data and explain when primary data is preferable to secondary commentary"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students benefit from a repertoire of specific source types and databases for Economics and Business investigations. Introducing each source type with a demonstration of its strengths — and when to prefer it — builds search capability beyond 'Google it'.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses specific economic and business search terms or criteria to locate sources",
+          "Identifies at least two sources relevant to the investigation issue",
+          "Explains why each located source is likely to contain relevant evidence"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Selecting for relevance",
+        "progression_checkpoint": "Students can select information and data from sources by asking and applying questions about relevance to their economic or business investigation.",
+        "minimum_width": "Apply at least one relevance criterion (e.g. 'Does this data help answer my question?') to select information from a provided source, explaining the selection decision.",
+        "typical_width": "Select and analyse information and data for relevance by applying the elaboration questions: 'How will the data or information help answer this economic or business question?' and 'How will the data or information inform a response to an economic or business issue?' Apply these criteria to select from a range of sources for a specific investigation, explaining selection and rejection decisions explicitly.",
+        "wider": [
+          "Apply relevance selection across sources of varying types (statistical data, case study, policy document, news report) for the same investigation, explaining how relevance criteria apply differently to each type",
+          "Practise the 'relevance decision' under conditions of abundance — given 8-10 possible sources, narrow to 3-4 and justify each inclusion and exclusion with specific relevance reasoning",
+          "Apply relevance criteria to a First Nations economic context — locating and selecting sources that are relevant to, and respectful of, community-specific economic and business issues"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot discriminate between relevant and irrelevant sources will produce investigations crowded with loosely related information. This blocks meaningful analysis in AC9HE9S03 and undermines the quality of arguments in AC9HE9S05.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Relevance requires explicit reasoning against the inquiry question — it is not a 'feels relevant' judgement. Teaching students to articulate the connection (this data shows X, which addresses Y in my question) prevents acceptance of superficially related sources.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies at least one explicit relevance criterion to evaluate a source",
+          "Explains how selected information helps answer a specific economic or business question",
+          "Distinguishes between relevant and irrelevant information from the same source"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Selecting for reliability",
+        "progression_checkpoint": "Students can select information and data by evaluating reliability — considering how and when data was collected, who collected it, and for what purpose.",
+        "minimum_width": "Apply at least two reliability questions (who collected it? when? for what purpose?) to evaluate one source, explaining how the answers affect how the source should be used.",
+        "typical_width": "Select and analyse information and data for reliability using the elaboration questions: 'How and when was it collected?', 'Who collected the data?', and 'For what purpose was the data collected?' Apply these criteria to assess the reliability of different source types — official statistics, industry-funded reports, advocacy group data, news articles — and explain how reliability judgements affect how sources can be used in an investigation.",
+        "wider": [
+          "Apply reliability analysis to a pair of sources on the same economic issue that reach different conclusions — explaining what the reliability differences reveal about why the conclusions differ",
+          "Examine how economic data published by government agencies (ABS, RBA, Treasury) differs in reliability characteristics from data published by industry peak bodies or lobby groups, and explain when each is appropriate to use",
+          "Investigate a specific case of misleading economic statistics in Australian public debate — tracing how data collection methods, purpose or framing affected the reliability of claims made"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot evaluate reliability will use industry-funded or advocacy data as equivalent to peer-reviewed or official statistics, leading to invalid conclusions in analysis tasks and weak justification in evaluative responses.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Reliability judgement requires applying multiple criteria simultaneously (when, who, why) and drawing a reasoned conclusion about trustworthiness. A structured evaluation framework prevents students from treating reliability as binary (reliable/not reliable) rather than as a spectrum with specific limitations.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Different source types (official statistics, industry data, advocacy reports) have systematically different reliability profiles. Encountering each type in context — rather than learning reliability as an abstract concept — builds transferable evaluation skill.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparative reliability analysis of conflicting economic data sources — particularly in contested policy areas — builds critical thinking about how economic claims are constructed and who benefits from particular framings. This is highly transferable to civic and media literacy.",
+        "success_criteria": [
+          "Applies at least two reliability criteria (who, when, purpose) to evaluate a source",
+          "Explains how reliability judgements affect how a source should be used in an investigation",
+          "Distinguishes between sources with different reliability profiles for the same topic"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Presenting data using digital tools",
+        "progression_checkpoint": "Students can select and present data in appropriate formats using specialised digital tools and processes.",
+        "minimum_width": "Select appropriate data from a source and present it in one digital format (e.g. a table or graph) that is appropriate for the data type and investigation purpose.",
+        "typical_width": "Select and present data in appropriate formats using specialised digital tools and processes — applying the elaboration example (a table and graph showing composition and direction of trade between Australia and Asia). Match data type to presentation format: statistical trends → line graphs; comparisons → bar charts; proportions → pie or stacked charts; multi-variable relationships → tables or scatter plots. Use digital tools to produce clear, correctly labelled visualisations that support the investigation.",
+        "wider": [
+          "Create comparative visualisations from two data sources on the same topic, explaining how the choice of format affects what patterns are visible and which insights are foregrounded",
+          "Apply data presentation to a full investigation output — selecting, presenting and annotating multiple data representations that together build an argument about an economic issue",
+          "Use open-data tools (e.g. World Bank data visualiser, ABS data explorer) to construct original visualisations rather than reproducing pre-made charts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Data presentation requires repeated practice with feedback to build format-to-data-type matching fluency. Students commonly apply familiar formats (bar charts for everything) without considering whether the format serves the data. Targeted practice with deliberate format choices builds precision.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": ["AC9HE9S03"],
+        "success_criteria": [
+          "Selects a presentation format appropriate for the data type and investigation purpose",
+          "Produces a correctly labelled table or graph using a digital tool",
+          "The presentation makes the relevant pattern or comparison visible without distortion"
+        ]
+      }
+    ]
+  }
+}

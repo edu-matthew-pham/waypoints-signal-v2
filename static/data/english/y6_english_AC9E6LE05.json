@@ -1,0 +1,89 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LE05",
+    "title": "Create and edit literary texts adapting from sources",
+    "description": "create and edit literary texts that adapt plot structure, characters, settings and/or ideas from texts students have experienced, and experiment with literary devices",
+    "strand": "Literature",
+    "mode": "B",
+    "prior_knowledge": "Students can create and edit literary texts, experimenting with figurative language, storylines, characters and settings (AC9E5LE05). They have not yet deliberately adapted specific elements (plot structure, characters, settings) from texts they have read, or consciously experimented with named literary devices in their own writing.",
+    "progression_endpoint": "Students can create and edit literary texts that deliberately adapt elements from source texts and experiment with literary devices, and explain the choices made.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Adaptation as a literary strategy",
+        "progression_checkpoint": "Students can identify how adaptation works — taking specific elements (character, setting, plot structure) from a known text and reimagining them — and distinguish adaptation from retelling.",
+        "minimum_width": "Identify at least two elements that have been adapted in a provided example of a literary adaptation; explain how the adaptation differs from the source.",
+        "typical_width": "Discuss how literary adaptation works across a range of forms (reimagined characters, altered settings, shifted plot structures); identify what has been kept, changed and added in an example adaptation; distinguish adaptation from retelling.",
+        "wider": [
+          "Compare an original text and its adaptation and analyse what the adapter's choices reveal about their perspective or context",
+          "Examine how an autobiography of a character from a known text requires inferring from the source while adding a new interpretive layer"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat adaptation as retelling cannot plan deliberate element choices in Node 2 — the planning task requires understanding that adaptation involves purposeful selection and transformation, not reproduction.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to understand that adaptation involves deliberate choice — not random change — and that choices must be justified against the source. The reasoning chain from 'I am changing this' to 'I am changing this because...' requires scaffolding before the production task.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two elements adapted from a source text in a provided example",
+          "Explains how the adaptation differs from retelling the same story"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Planning an adaptation",
+        "progression_checkpoint": "Students can plan a literary text that adapts elements from a source text, making deliberate choices about which elements to keep, change or add.",
+        "minimum_width": "Plan an adaptation of one element (e.g. reimagining the hero) from a text experienced, noting which elements are kept and which are changed; identify at least one literary device to experiment with.",
+        "typical_width": "Plan a literary adaptation that adapts multiple elements (character, setting, plot structure, ideas) from a source text; identify and plan for literary devices (figurative language, narrative structure, dialogue) to be used in the text.",
+        "wider": [
+          "Plan an adaptation that deliberately shifts the cultural or social context of the source text (e.g. reimagining a Western adventure story in an Australian context)",
+          "Plan a character autobiography that requires deep reading of the source text to infer characterisation details not stated directly"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a planning document that identifies at least two elements adapted from a source text",
+          "Identifies at least one literary device to be used and explains what effect it is intended to create"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Creating and editing the adaptation",
+        "progression_checkpoint": "Students can create, edit and discuss a literary text that adapts source material and experiments with literary devices, explaining choices made.",
+        "minimum_width": "Create a short literary text (written, spoken or multimodal) that adapts at least one element from a source text and uses at least one literary device; edit using at least one stated criterion; explain one choice made.",
+        "typical_width": "Create and edit a literary text that adapts plot structure, characters, settings and/or ideas from a source text; experiment with literary devices; discuss setting choices with a peer during editing; explain editing choices against the text's purpose.",
+        "wider": [
+          "Create a literary text adapting from a First Nations Australian text experienced, engaging respectfully with cultural elements and explaining the choices made",
+          "Present the adaptation alongside a reflection on how the literary devices used enhance the setting, character or plot"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating an adaptation integrates understanding of literary devices (from LA strand), knowledge of text structure (AC9E6LA03), and the adaptation strategy from Nodes 1-2 — all in a single production and editing act.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Creating literary adaptations and explaining choices is genuinely rich — it develops both creative and critical faculties simultaneously, and the discussion/editing phase produces authentic evidence of metacognitive literary thinking.",
+        "success_criteria": [
+          "Produces a literary text that demonstrably adapts at least one element from a source text",
+          "Identifies and explains at least one literary device used and the effect intended"
+        ],
+        "related_standards": ["AC9E6LE03", "AC9E6LE04", "AC9E6LA08", "AC9E6LY06"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "description": "Width tiers for Economics and Business Year 10 — ACARA v9. Covers all 10 descriptors (5 Knowledge and Understanding, 5 Skills). Generated from width_generation_prompt.md v1.0.",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "band": "10",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest engagement that honestly meets the descriptor's command term. For Knowledge and Understanding descriptors: the narrowest set of content cases or phenomena that satisfies the command term (explain, analyse, identify). For Skills descriptors: the narrowest task context in which the capability can be demonstrated. Minimum is set by the descriptor — not by what is easy or common practice.",
+    "typical_width": "Full descriptor scope as ACARA intended it, grounded in the most common elaboration cases. Reflects what a class that has engaged with the descriptor fully would have done. Does not require every elaboration to be covered, but does require the spirit and scope of the descriptor to be met.",
+    "wider": "Enrichment directions that add phenomena, contexts or task types — not harder versions of the same context. Each item is a discrete direction. First Nations directions are included where elaborations name them. Wider items add breadth of application, not cognitive demand elevation on a narrower base.",
+    "elaborations": "ACARA elaborations are used as source data for grounding typical_width and identifying wider directions. They are examples, not a required sequence. Some elaborations have been merged where they represent the same activity at different specificity levels."
+  },
+  "standards": {
+    "AC9HE10K01": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least three economic indicators, state what each measures, and give one example of a government or business decision that responded to a change in one of them.",
+      "typical_width": "Explain a range of economic indicators (GDP growth, unemployment, inflation, sustainability indexes); interpret indicator data to identify trends; explain Australia's economic objectives and how each connects to an indicator; explain how the government may intervene in response to indicator changes; explain how indicators also influence business and individual decision-making.",
+      "wider": [
+        "Investigate composite wellbeing or sustainability indexes (e.g. Genuine Progress Indicator, OECD Better Life Index) and evaluate what they add to conventional economic indicators",
+        "Analyse a specific period of economic volatility using multiple indicators simultaneously to explain what happened and in what sequence",
+        "Compare how Australia and a trading partner use economic indicators to make fiscal or monetary policy decisions, examining differences in objectives and tools",
+        "Examine how consumer and business confidence surveys function as leading indicators and explain the transmission from confidence to investment to economic outcomes"
+      ],
+      "elaborations": [
+        "identifying examples of economic indicators, such as economic growth rates, unemployment trends, inflation rates or sustainability indexes",
+        "analysing how the Australian Government may intervene in response to an emerging economic issue or to changes in economic indicators, such as to maintain or improve the standard of living or respond to a decline in gross domestic product",
+        "explaining economic objectives of the Australian Government (for example, economic growth, full employment and price stability) and how these have been framed in response to economic indicators (for example, gross domestic product, business sales or earnings, inflation)",
+        "identifying an example of an economic indicator, such as employment statistics, and explaining how it influences government economic decision-making; for example, by providing support for new apprenticeships and training places"
+      ]
+    },
+    "AC9HE10K02": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain at least two distinct types of government intervention in the economy (e.g. fiscal policy and income redistribution) and describe what each aims to achieve for economic performance or living standards.",
+      "typical_width": "Explain how the Australian Government uses fiscal policy (the federal Budget, taxation, expenditure on skills and workforce development), income redistribution (income transfers and universal services), and the Reserve Bank's monetary policy to improve economic performance and living standards; explain why the government intervenes — market failure, inequality, unemployment; explain variation in living standards within Australian society.",
+      "wider": [
+        "Analyse a specific federal Budget measure and evaluate its intended impact on economic performance and who is expected to benefit or bear costs",
+        "Compare Australia's approach to income redistribution with another country's system (e.g. Nordic model, US model) and evaluate trade-offs in generosity, coverage and fiscal cost",
+        "Examine how living standards vary within Australia — including for First Nations Australians and remote communities — and evaluate the adequacy of targeted government intervention",
+        "Investigate the role and limitations of monetary policy — situations where interest rate adjustment does not produce expected economic outcomes — and evaluate what other tools the government may use"
+      ],
+      "elaborations": [
+        "explaining how the Australian Government uses fiscal policy to help improve the standard of living; for example, the federal Budget, taxation, expenditure on skills training and workforce development",
+        "explaining the forces that shape and affect variations in living standards within Australian society, such as unemployment and poverty, and identifying why the government may redistribute income and wealth",
+        "explaining how the government may redistribute income to achieve a more equal distribution of income and wealth; for example, income transfers such as pensions, youth allowance and job search, or the provision of services for all such as healthcare and education",
+        "investigating the role and function of the Reserve Bank of Australia within the Australian economy"
+      ]
+    },
+    "AC9HE10K03": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least three factors that influence a named major financial decision and explain at least one short-term and one long-term consequence of the decision.",
+      "typical_width": "Analyse factors influencing major consumer and financial decisions across multiple decision types — including price, availability and cost of finance, marketing, age and gender of consumer, convenience, and ethical and environmental considerations; analyse short- and long-term costs and benefits including loan repayment capacity, depreciation, maintenance, insurance and the benefits of independence and convenience (e.g. for car or home purchase).",
+      "wider": [
+        "Model the total cost of ownership for a specific major purchase (e.g. car over 5 years) accounting for depreciation, insurance, maintenance and opportunity cost of capital",
+        "Compare two financing pathways for the same major consumer purchase and evaluate which produces better long-term outcomes under different personal circumstances",
+        "Investigate how targeted digital marketing (e.g. BNPL integration, social media algorithms) shapes financial decisions for young consumers and evaluate what this means for financial literacy",
+        "Examine how the same major financial decision has very different consequences for consumers in different circumstances (low-income vs high-income, employed vs casual)"
+      ],
+      "elaborations": [
+        "identifying examples of minor and major consumer and financial decisions, and explaining the processes that guide decision-making",
+        "analysing factors that influence major consumer and financial decisions, such as price, availability and cost of finance, marketing of products, age and gender of consumer, convenience, and ethical and environmental considerations",
+        "identifying the costs of consumer and financial transactions over time, such as the ability to make loan repayments, available savings, depreciation, and maintenance costs and insurance, as well as the benefits such as independence and convenience when purchasing a car or home"
+      ]
+    },
+    "AC9HE10K04": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain what superannuation is, state at least two reasons why Australia has a compulsory system, and identify at least one way personal circumstances (e.g. age, employment status) affect superannuation decision-making.",
+      "typical_width": "Explain the importance of superannuation for retirement wellbeing and government fiscal sustainability; explain how a personal super fund works (who contributes, how taxed, consolidating funds, finding lost super, tracking performance); explain why individuals make different investment option choices based on age, employment status, dependants and anticipated retirement age.",
+      "wider": [
+        "Model the compound growth of a superannuation account over a working life, comparing early vs late contribution start and varying investment options to show the effect of time horizon",
+        "Investigate the gender superannuation gap — why women retire with significantly less super than men — and evaluate the causes and policy responses",
+        "Examine how employment gaps (career breaks, unpaid care, casual work) affect superannuation balances at retirement and evaluate who is most vulnerable to gap-related under-saving",
+        "Compare ethical/ESG superannuation investment options with conventional options and evaluate whether ethical investing compromises returns across different market periods"
+      ],
+      "elaborations": [
+        "explaining the importance of Australia's superannuation system in relation to human and financial wellbeing in retirement and the government's ability to maintain a welfare payment system for the common good",
+        "identifying why individuals make decisions about superannuation investment options and how their circumstances, such as age, employment status, dependents and anticipated retirement age, affect these decisions",
+        "explaining how individuals manage a personal superannuation fund; for example, who contributes, taxation, consolidating superannuation funds, finding lost superannuation and tracking the performance of a superannuation account"
+      ]
+    },
+    "AC9HE10K05": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least two workforce management strategies and at least two productivity improvement strategies, and explain the purpose of each.",
+      "typical_width": "Identify and explain strategies for workforce management (organisational structures, transparency, initiative, parental leave, flexible arrangements, employer responsibilities) and productivity improvement (training, capital investment, R&D, technology applications, JIT inventory, data analytics); explain how entrepreneurs lead innovation in response to economic and technological change; investigate support structures for start-up businesses including First Nations entrepreneurs.",
+      "wider": [
+        "Investigate First Nations Australian workforce participation initiatives — cross-cultural training programs, 'Closing the Gap' commitments, First Nations Chambers of Commerce — and evaluate their design and effectiveness",
+        "Analyse how a specific technology application (automation, AI logistics, data analytics) has changed productivity in a named industry and evaluate adoption costs and benefits",
+        "Investigate a specific Australian entrepreneur whose work responds to an economic or environmental challenge and evaluate the broader impact of their innovation",
+        "Compare horizontal and vertical organisational structures in two different industry contexts and evaluate which structure suits each and why"
+      ],
+      "elaborations": [
+        "investigating the processes corporations, government and non-government organisations use to support start-up businesses, promote the success of business ventures or create relationships between businesses; for example, Indigenous Business Month Awards, First Nations Chambers of Commerce or the Registrar of Indigenous Corporations",
+        "investigating the processes used by First Nations Australian businesses and other organisations to improve workforce participation; for example, cross-cultural training programs, \"Closing the gap\" initiatives or corporate commitments to diversity and inclusion in employment",
+        "identifying and explaining strategies for improving workforce management; for example, horizontal or vertical organisational structures, transparency in decision-making, encouragement of workers to show initiative, paid parental leave, flexible work arrangements, employer responsibilities to workers and government",
+        "identifying and explaining strategies that improve productivity; for example, training or upskilling, capital investment, increasing research and development, investment in applications of technologies, use of just-in-time inventory systems or collection, and analysis of data to inform product development or service delivery",
+        "explaining how entrepreneurs lead responses to changes in global and domestic economic conditions and use technologies to drive innovation; for example, influencing approaches to waste management or sustainable use of energy"
+      ]
+    },
+    "AC9HE10S01": {
+      "strand": "Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Develop one inquiry question about a contemporary economic or business issue and modify it at least once, explaining what the modification improves.",
+      "typical_width": "Develop and modify a range of questions across different contemporary economic and business issues; develop hypotheses as alternatives to inquiry questions; modify questions from broad to focused (e.g. from 'What factors influence consumer decision-making?' to 'What factors influence choosing a mobile phone plan?'); explain what each modification achieves.",
+      "wider": [
+        "Develop both an inquiry question and a related hypothesis for the same issue and explain the different investigative strategies each requires",
+        "Take inquiry questions from a government report or policy document and evaluate their investigability, then modify them for a school-based research context",
+        "Investigate how economists and journalists frame questions differently about the same issue and evaluate what each framing enables or constrains"
+      ],
+      "elaborations": [
+        "developing a range of questions to investigate a complex issue (for example, \"Why does the government intervene in the economy to improve living standards?\") or formulating a hypothesis such as \"Responding to an upswing in the economy with expansionary measures will improve business productivity\"",
+        "developing and modifying a range of questions to improve the focus of an investigation; for example, modifying \"What factors influence decision-making within consumer and financial contexts?\" to \"What factors influence choosing a mobile phone plan?\""
+      ]
+    },
+    "AC9HE10S02": {
+      "strand": "Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Locate at least two relevant sources using contextually specific search terms derived from an inquiry question; evaluate each source against at least two reliability or relevance criteria.",
+      "typical_width": "Locate sources using contextually specific search terms and criteria; select and evaluate sources for relevance (does this help answer the question?) and reliability (who collected the data, when, for what purpose?); identify assumptions or missing information that affect reliability; represent economic information using digital tools and processes to support interpretation.",
+      "wider": [
+        "Compare search results from a general search engine with an academic database or government statistical portal (e.g. ABS, RBA) for the same query and evaluate differences in source quality and coverage",
+        "Evaluate a media source against its primary data source — identifying what has been changed, emphasised or omitted in the secondary reporting",
+        "Investigate how algorithmic filtering in online search affects what economic information is surfaced and evaluate implications for forming an evidence-based view"
+      ],
+      "elaborations": [
+        "locating online sources using contextually specific terms (for example, \"global markets\") or criteria (for example, using specific key words to find \"case studies related to trade agreements\")",
+        "selecting and analysing economic information and data for relevance by asking questions such as \"How will information and data help answer the inquiry question?\"",
+        "selecting and analysing economic information and data for reliability by asking questions such as \"How and when was the data collected?\", \"Who collected the data?\" and \"For what purpose was the data collected?\"",
+        "explaining assumptions or missing information in sources that may affect the reliability of an opinion about an economic or business issue",
+        "selecting and representing information and data about an economic or business issue, using specialised digital tools and processes to support interpretation and analysis; for example, a graphic organiser connecting objectives of the Australian economy with examples of government intervention in the economy"
+      ]
+    },
+    "AC9HE10S03": {
+      "strand": "Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Interpret one piece of economic information or data to explain the nature or extent of an economic issue; identify one cause and one effect of the issue; make one prediction about consumer or financial impacts with stated reasoning.",
+      "typical_width": "Interpret information to explain the nature, extent and importance of economic issues; interpret multi-variable data to analyse trends over time and explain reasons for change; analyse causes and effects of economic issues on individuals and businesses; make predictions about who will be affected and how based on trend analysis.",
+      "wider": [
+        "Analyse an economic trend using three or more variables to identify leading/lagging relationships and explain the sequencing of cause-and-effect",
+        "Map a multi-step causal chain (e.g. RBA rate rise → mortgage repayments → consumer spending → economic growth) and evaluate where and why the chain might be disrupted",
+        "Analyse how the same economic cause produces different effects on different groups (e.g. rising interest rates on renters vs mortgage-holders vs savers) and evaluate equity implications",
+        "Investigate a period of economic volatility using multiple data sources and evaluate which causal explanations are best supported by the evidence"
+      ],
+      "elaborations": [
+        "interpreting information to explain the nature, extent and importance of the economic and business issue; for example, the relationship between standards of living, infant mortality and access to health services",
+        "interpreting multi-variable data to analyse trends in government expenditure over time; for example, the trend in the provision of health and education programs over time, and explaining reasons for the change",
+        "analysing the causes and effects of an economic issue on individuals or businesses; for example, the reasons for and implications of government intervention in the economy to improve living standards",
+        "analysing trends to make predictions about who will be affected and how; for example, trends in productivity and implications for businesses"
+      ]
+    },
+    "AC9HE10S04": {
+      "strand": "Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Develop a response to one economic or business issue; apply cost-benefit analysis or at least one named criterion to evaluate it; incorporate opportunity cost reasoning; produce a justified recommendation.",
+      "typical_width": "Evaluate responses to economic and business issues using cost-benefit analysis (including short- and long-term financial implications, ability to opt out, comparison of financing methods) and criteria-based evaluation (efficiency, profitability, equity); apply opportunity cost reasoning to consumer and business decisions; develop and justify a recommended course of action.",
+      "wider": [
+        "Apply multiple evaluation criteria to the same response, identify where criteria conflict, and explain how to navigate the trade-off in a justified recommendation",
+        "Evaluate a real government policy response to an economic issue using CBA — including attempting to value non-financial costs and benefits — and assess the quality of the original policy evaluation",
+        "Compare two financing pathways for a major consumer purchase with full cost calculations (interest, fees, opportunity cost) and produce a justified recommendation that accounts for the ability to exit",
+        "Investigate cases where cost-benefit analysis was used to justify a policy decision and evaluate whether the analysis was sound or selectively constructed"
+      ],
+      "elaborations": [
+        "evaluating the short- and long-term financial implications of a decision; for example, calculating the costs of different purchasing methods and considering ability to opt out if circumstances change",
+        "evaluating a response, using a cost-benefit analysis to explain the reasons for a course of action; for example, comparing different types of loans to estimate the short- and long-term financial costs and benefits of each",
+        "evaluating a response, using criteria such as efficiency, profitability or equity to explain the reasons for a course of action; for example, use of indicators of economic performance to identify variations within the Australian economy",
+        "examining the opportunity cost consumers and businesses may have to consider when deciding on a course of action; for example, employing more staff instead of upskilling existing staff to improve productivity"
+      ]
+    },
+    "AC9HE10S05": {
+      "strand": "Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Produce a structured description, explanation or argument about one economic issue, using at least five accurate economic terms, incorporating at least one acknowledged research finding.",
+      "typical_width": "Create descriptions, explanations and arguments about economic and business issues across the Year 10 topic scope, using accurate economic vocabulary (including the full Year 10 term set), incorporating and acknowledging research findings, and applying tone appropriate to purpose and audience (peers, business representatives, policy audience).",
+      "wider": [
+        "Produce the same explanation for two different audiences (e.g. peers and a business manager) and evaluate what changes and why — what vocabulary, framing and evidence base shifts",
+        "Construct a counter-argument to a position on an economic issue and evaluate which argument — original or counter — is better supported by available evidence",
+        "Write an economic policy argument following professional conventions (problem statement, evidence base, recommended action, evaluation criteria) for a government or business audience",
+        "Investigate how persuasive framing and economic evidence interact in public economic communication and evaluate whether an argument is evidence-led or framing-led"
+      ],
+      "elaborations": [
+        "presenting a description or explanation that orients the audience; for example, peers or representatives of businesses, to the issue, using relevant economic and business concepts and terms such as \"economic indicators\", \"government intervention\", \"fiscal policy\", \"standard of living\", \"economic performance\", \"federal Budget\", \"productivity\", \"organisational structures\", \"workforce management\", \"superannuation\", \"interdependence\", \"trade\", \"comparative advantage\", \"globalisation\", \"supply chain\" and \"insurance\"",
+        "explaining decisions and conclusions about a business issue, supported by reasons and representations of data in a range of formats; for example, financial statements or information sheet and research in appropriate formats, such as reports and webpages",
+        "presenting an argument for a proposal for action in response to an economic or business issue, applying tone appropriate to purpose; for example, using an authoritative tone when presenting an argument and making predictions about impacts, and audience; for example, a business manager or entrepreneur"
+      ]
+    }
+  }
+}

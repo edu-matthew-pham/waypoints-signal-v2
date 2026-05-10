@@ -1,0 +1,103 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9M05",
+    "title": "Mathematical Modelling \u2014 Proportion, Rates and Ratio",
+    "description": "use mathematical modelling to solve practical problems involving direct proportion, rates, ratio and scale, including financial contexts; formulate the problems and interpret solutions in terms of the situation; evaluate the model and report methods and findings",
+    "strand": "Measurement",
+    "mode": "B",
+    "prior_knowledge": "Students can calculate and interpret absolute, relative and percentage errors in measurements (AC9M9M04). They have not yet applied the full mathematical modelling cycle to applied problems involving direct proportion, rates, ratio and scale across diverse real-world contexts.",
+    "progression_endpoint": "Students apply the mathematical modelling cycle to solve practical problems involving direct proportion, rates, ratio and scale, interpreting solutions in context and evaluating the model.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying and formulating proportion and rate relationships",
+        "progression_checkpoint": "Students can identify whether a situation involves direct proportion or a rate, represent it mathematically, and formulate it as a model.",
+        "minimum_width": "Identify one situation as involving direct proportion or a rate; write the mathematical relationship; define the variables and state the constant of proportionality.",
+        "typical_width": "Distinguish direct proportion (y=kx) from other rate relationships; formulate problems from context descriptions \u2014 including financial (pro rata pay, exchange rates), scientific (Hooke's law) and practical (unit conversion) contexts; represent using equation, table or graph.",
+        "wider": [
+          "Explore fire management techniques of First Nations Australians involving proportion \u2014 model the rate of fire spread in different fuel types relative to wind speed, temperature and humidity; formulate the relationship and identify variables",
+          "Investigate image editing and social media distortion \u2014 model how non-uniform scaling breaks proportional relationships and formulate the distortion as a ratio",
+          "Model building/construction standards (staircase rise-to-tread ratio, escalator gradient) \u2014 formulate compliance conditions as proportion relationships"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often recognise proportional relationships in familiar contexts (speed = distance/time) but fail to identify them in unfamiliar ones. Working across diverse contexts \u2014 pay rates, Hooke's law, scaling, fire spread \u2014 builds the pattern-recognition needed for the formulation phase of modelling.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the constant of proportionality and writes the mathematical relationship",
+          "Defines variables clearly and states units",
+          "Represents the relationship in at least one form (equation, table or graph)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify the constant of proportionality and write the mathematical relationship cannot formulate any model for N2 or N3. Formulation is the entry gate for the entire modelling cycle."
+      },
+      {
+        "id": 2,
+        "label": "Solving and interpreting the model",
+        "progression_checkpoint": "Students can solve a proportion or rate model and interpret the solution in the context of the original problem.",
+        "minimum_width": "Solve one formulated proportion or rate problem; state the solution in the language of the context with correct units; check for contextual reasonableness.",
+        "typical_width": "Solve a range of proportion and rate problems across financial, practical and scientific contexts; interpret solutions contextually; recognise when a solution is outside the valid domain of the model.",
+        "wider": [
+          "Model rate of fire spread and interpret what the model predicts under different weather conditions \u2014 discuss the practical implications for land management decisions",
+          "Investigate heartbeat rate and caloric burn rate problems \u2014 model, solve and discuss the physiological context",
+          "Apply exchange rate modelling to financial planning \u2014 solve a practical multi-step problem involving currency conversion and compare to real exchange rate data"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly solve proportion equations mechanically but fail to check whether the answer makes sense in context \u2014 accepting physically impossible results or omitting units. Explicit scaffolding of the interpret step prevents these errors."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly solves the proportion or rate equation",
+          "States the solution with units in the language of the original context",
+          "Checks whether the solution is contextually reasonable"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Evaluating and reporting the model",
+        "progression_checkpoint": "Students can evaluate the limitations of a proportion or rate model and report methods and findings.",
+        "minimum_width": "Identify one assumption the model makes; state one context in which the model would give unreliable predictions; write a brief report of the method and conclusion.",
+        "typical_width": "Evaluate models by identifying assumptions, domain limitations and contexts where direct proportion is an approximation; suggest refinements; report methods and findings with clear mathematical communication.",
+        "wider": [
+          "Compare linear (direct proportion) and non-linear models for the same real-world situation \u2014 evaluate when direct proportion is a reasonable approximation and when it is not",
+          "Investigate cases where social media image distortion compounds across multiple edits \u2014 model the cumulative effect and evaluate what the model reveals",
+          "Evaluate a published proportion-based claim (e.g. from a media report) \u2014 check whether the data supports a proportional relationship and discuss limitations"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluation and reporting integrate the full modelling cycle. The key integration demand is moving from 'here is my answer' to 'here is how reliable my answer is and what it means' \u2014 connecting mathematical result to contextual judgement.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Proportion and rate models appear in an unusually wide range of real-world contexts \u2014 construction, land management, finance, biology, image processing. Students who evaluate models across multiple domains develop both analytical rigour and cross-disciplinary awareness.",
+        "success_criteria": [
+          "States at least one assumption underlying the proportion model",
+          "Identifies a context or domain boundary where the model would not apply",
+          "Reports the method and conclusion clearly enough for someone unfamiliar with the problem to follow"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

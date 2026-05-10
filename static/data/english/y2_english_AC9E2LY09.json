@@ -1,0 +1,62 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LY09",
+    "title": "Manipulate complex sounds",
+    "description": "manipulate more complex sounds in spoken words and use knowledge of blending, segmenting, phoneme deletion and phoneme substitution to read and write words",
+    "strand": "Phonic and word knowledge",
+    "mode": "B",
+    "prior_knowledge": "Students segment words into separate phonemes including consonant blends and clusters, and manipulate phonemes by addition, deletion and substitution to generate new words (AC9E1LY09/10). They have not yet applied these skills to more complex phoneme sequences including multi-phoneme blends and medial substitution.",
+    "progression_endpoint": "Students can manipulate complex sounds in spoken words using blending, segmenting, deletion and substitution to read and write words.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Blending and segmenting complex patterns",
+        "progression_checkpoint": "Students can blend and segment spoken words with more complex phoneme patterns — multi-consonant blends, digraphs within clusters — to support reading and writing.",
+        "minimum_width": "Blend and segment a word with a consonant cluster or digraph (e.g. 'b-r-o-th-er', 'c-l-ou-d-y') correctly.",
+        "typical_width": "Blend and segment a range of words with complex patterns — multi-consonant initial clusters, medial digraphs, final clusters — connecting spoken manipulation to written word recognition and production.",
+        "wider": [
+          "Compare segmentation of words with similar-sounding clusters and discuss how spelling relates to the sounds (e.g. 'scratch' vs 'catch' — similar endings, different spellings)",
+          "Segment and blend words from different word families to identify common phoneme patterns"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Blending and segmenting complex patterns requires accumulated practice — repeated application across many word examples builds the automatic phoneme-level processing needed for fluent reading and writing. Practice volume is more productive than widening pattern types before fluency is established.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Fluent blending and segmenting of complex patterns is prerequisite for Node 2 deletion and substitution — students who cannot reliably segment complex words cannot accurately identify or manipulate the phoneme at a specified position.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly segments a word with a multi-phoneme cluster into its component sounds.",
+          "Student correctly blends a sequence of phonemes including a digraph or complex cluster into a recognisable word."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Deletion and substitution",
+        "progression_checkpoint": "Students can delete or substitute phonemes in spoken words — at initial, medial and final positions — to form new words.",
+        "minimum_width": "Delete or substitute a phoneme at a specified position in a spoken word to form a new word (e.g. delete 'scr' from 'scratch' to get 'atch'; substitute medial vowel in 'stack' to get 'stick').",
+        "typical_width": "Apply deletion and substitution at initial, medial and final positions across a range of words, connecting spoken manipulation to reading and writing new words.",
+        "wider": [
+          "Generate word families through systematic substitution at a single position and discuss what the pattern reveals about English sound-spelling relationships",
+          "Apply deletion and substitution to read new words encountered during reading rather than only in isolation"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly deletes a phoneme at a specified position in a spoken word.",
+          "Student correctly substitutes a phoneme at a specified position to form a new word."
+        ]
+      }
+    ]
+  }
+}

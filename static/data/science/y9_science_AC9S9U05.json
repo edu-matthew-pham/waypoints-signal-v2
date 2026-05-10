@@ -1,0 +1,73 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9U05",
+    "title": "Conservation of Energy and Efficiency",
+    "description": "apply the law of conservation of energy to analyse system efficiency in terms of energy inputs, outputs, transfers and transformations",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can classify energy types and trace transfers and transformations in simple systems (AC9S8U05). They have not yet applied the conservation law quantitatively or calculated efficiency as a ratio of useful output to total input.",
+    "progression_endpoint": "Students apply the law of conservation of energy to explain that total energy is maintained in a system, calculate efficiency as the ratio of useful output to total input, use Sankey diagrams to represent energy flows, and analyse real systems for efficiency including energy star ratings and generation source comparisons.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Conservation of energy: total energy is maintained in a system",
+        "progression_checkpoint": "Students can explain the law of conservation of energy — that energy cannot be created or destroyed, only transferred or transformed — and apply it to explain why energy inputs equal the sum of all energy outputs in a system.",
+        "minimum_width": "Students state the law of conservation of energy and apply it to explain that the total energy output of a system equals the total input.",
+        "typical_width": "Students explain the conservation law; apply it to show that all energy outputs (useful + wasted heat) sum to the input; use Sankey diagrams to represent energy flows; and explain why wasted heat does not violate conservation — energy is not lost, it becomes unavailable for useful work.",
+        "wider": [
+          "Investigate the efficiency of ground ovens used by First Nations Australians — examining what fraction of heat energy is retained and comparing with modern cooking methods",
+          "Examine how improving efficiency in sporting activities (pole vault, archery) applies conservation of energy principles to optimise useful energy output",
+          "Explore how understanding of mass-energy equivalence connects conservation of energy to nuclear processes — extending the conservation principle to nuclear scale (AC9S9U06)"
+        ],
+        "hinge": true,
+        "hinge_reason": "The conservation principle — that all energy outputs (useful + wasted) sum to the input — is the conceptual foundation for the efficiency calculation in Node 2. Students who believe energy is 'used up' will treat efficiency as energy destruction rather than as a ratio of useful to total output, producing systematically wrong calculations and interpretations.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students frequently believe energy is 'used up' in a device rather than transformed — this directly contradicts the conservation law. Making the accounting explicit (all input energy must appear as some form of output, even if wasted as heat) is necessary before efficiency can be understood as less than 1, not as energy destruction.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States the law of conservation of energy correctly",
+          "Explains that all energy outputs (useful + wasted) sum to the total input",
+          "Explains why wasted heat does not mean energy is destroyed"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Efficiency measures the ratio of useful output to total input",
+        "progression_checkpoint": "Students can calculate efficiency as useful output ÷ total input, use Sankey diagrams to represent and compare system efficiency, and evaluate real systems using efficiency data.",
+        "minimum_width": "Students calculate efficiency for a given system using the formula, and draw or interpret a Sankey diagram showing useful and wasted energy.",
+        "typical_width": "Students calculate efficiency for multiple systems; construct and critique Sankey diagrams using appropriate ratios; compare efficiency of electricity generation from different sources (coal, solar, wind, nuclear, hydro); interpret energy star ratings; and explain why 100% efficiency is not achievable in practice.",
+        "wider": [
+          "Compare efficiency of electricity generation from coal and other sources — examining which sources minimise wasted energy and the trade-offs involved (AC9S9H04)",
+          "Examine energy star rating criteria for appliances and evaluate how efficiency improvements in refrigerators and washing machines reduce running costs and emissions",
+          "Investigate how scientists and engineers make machines more energy efficient — examining specific engineering improvements and the efficiency gains achieved (AC9S9H02)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students understand efficiency as a qualitative concept ('more efficient is better') but struggle to apply it quantitatively across different system types. Encountering efficiency calculations for diverse systems — cooking, motors, power generation, household appliances — builds both the quantitative skill and the ability to compare across contexts.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing generation source efficiency (AC9S9H04) connects the physics concept to a real policy-relevant decision. Energy star ratings provide an accessible real-world efficiency application that students encounter in everyday life.",
+        "success_criteria": [
+          "Calculates efficiency correctly using useful output ÷ total input",
+          "Constructs or interprets a Sankey diagram with correctly proportioned energy flows",
+          "Explains why 100% efficiency is not achievable in practice"
+        ],
+        "related_standards": ["AC9S9H02", "AC9S9H04"]
+      }
+    ]
+  }
+}

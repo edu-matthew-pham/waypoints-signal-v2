@@ -1,0 +1,102 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LY01",
+    "title": "Texts reflecting context of creation",
+    "description": "examine texts including media texts that represent ideas and events, and identify how they reflect the context in which they were created",
+    "strand": "Literacy — Texts in context",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the ways in which a text reflects the time and place in which it was created (AC9E5LY01). They have not yet examined media texts specifically, or analysed how context shapes representation through comparison of multiple texts from different times or places.",
+    "progression_endpoint": "Students can examine texts including media texts that represent ideas and events, and identify and explain how those representations reflect the context in which the texts were created.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Context shapes representation",
+        "progression_checkpoint": "Students can explain how the context in which a text was created (time, place, culture, purpose) shapes how it represents ideas and events.",
+        "minimum_width": "Identify at least one way a provided text reflects the context of its creation; explain why a text from a different context might represent the same event or idea differently.",
+        "typical_width": "Analyse how context — including time, place, cultural values and purpose — shapes how a text represents ideas and events; discuss the relationship between creator context and text representation across a range of text types.",
+        "wider": [
+          "Compare news reports of the same type of event from different time periods and identify how the representations reflect their historical contexts",
+          "Identify how advertisements for the same product from different decades reflect changing social values and contexts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat their own cultural context as neutral cannot analyse how creator context shapes media representation in Node 2 — the N2 analysis presupposes that context is an active force, not a neutral background.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who analyse only contemporary texts can mistake their own cultural context as neutral or universal. Comparing texts from different times and places reveals context as an active force in representation — preventing the misconception that texts simply describe reality.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-contextual media analysis is rich critical literacy work — it connects to media literacy, history, and social education, and builds transferable skills for evaluating information from multiple sources.",
+        "success_criteria": [
+          "Identifies at least one specific feature of a text that reflects the context of its creation",
+          "Explains why a text from a different context might represent the same ideas or events differently"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Media texts and context",
+        "progression_checkpoint": "Students can identify how media texts including advertising and news media represent ideas and events in ways that reflect their context of creation.",
+        "minimum_width": "Identify at least one example of how context shapes representation in a provided media text (e.g. a news report, advertisement, or film poster); explain what the choice reveals about the context.",
+        "typical_width": "Examine and compare media texts (news reports, advertisements, film promotions) from different contexts; identify how the same event, product, or theme is represented differently across different cultural or national contexts; explain the impact of these choices on audience expectations.",
+        "wider": [
+          "Compare advertising posters for the same animated film in different countries and explain how cultural context shapes audience appeal",
+          "Examine how the same news story is represented in two different media outlets and identify how institutional context shapes the representation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reason from 'this choice was made' to 'this choice was made because of this context' cannot evaluate representation choices in Node 3 — the evaluation depends on the creator-context→choice reasoning chain.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Media text analysis requires students to hold creator context and representation choice simultaneously — reasoning from 'this choice was made' to 'this choice was made because of this context'. The reasoning chain needs scaffolding before students can apply it independently.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing media texts across cultural contexts is genuinely rich — it develops media literacy and critical thinking that extends well beyond English into civics and media studies.",
+        "success_criteria": [
+          "Identifies how a specific representation choice in a media text reflects the context of its creation",
+          "Explains the impact of that choice on how ideas or events are understood by the intended audience"
+        ],
+        "related_standards": [
+          "AC9E6LA02",
+          "AC9E6LE01"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating representation choices",
+        "progression_checkpoint": "Students can evaluate the impact of representation choices in texts and media texts, explaining how context-shaped choices affect audience understanding or response.",
+        "minimum_width": "Evaluate the impact of at least one representation choice in a media text and explain whether the choice is effective or misleading given its context.",
+        "typical_width": "Evaluate how context-shaped representation choices in a range of texts and media texts affect how audiences understand ideas and events; explain the impact on audience expectations; consider how more transparent representation of context could change audience response.",
+        "wider": [
+          "Evaluate a news report or advertisement for the transparency of its contextual representations and explain what a critical reader should consider",
+          "Compare how representation choices in two media texts from different contexts could lead audiences to different understandings of the same event or product"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluating representation choices integrates understanding of how context shapes texts (Node 1) and how media texts function (Node 2) into a critical evaluative stance — the synthesis of context knowledge and evaluative judgement is the integration challenge.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Critical evaluation of media representations is rich and transferable — it develops the media literacy habits that students need across curriculum areas and in civic life.",
+        "success_criteria": [
+          "Evaluates the impact of at least one representation choice in a media text",
+          "Explains whether the choice is effective, misleading or limited given the context of the text's creation"
+        ],
+        "related_standards": [
+          "AC9E6LA02",
+          "AC9E6LY03"
+        ]
+      }
+    ]
+  }
+}

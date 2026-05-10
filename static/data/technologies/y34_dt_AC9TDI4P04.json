@@ -1,0 +1,141 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4P04",
+    "title": "Implement visual programs",
+    "description": "implement simple algorithms as visual programs involving control structures and input",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can follow and describe algorithms involving sequencing, branching and iteration (AC9TDI4P02). They have described these structures but have not yet implemented them in a programming environment. They have not yet written programs that accept user input.",
+    "progression_endpoint": "Students implement simple algorithms as visual programs using a block-based or event-sheet environment, including control structures (sequence, branching, fixed-count iteration) and user input.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Writing and running a sequential program",
+        "progression_checkpoint": "Students can write a program that executes steps in order and run it to check it performs as expected",
+        "minimum_width": "Write a program with at least three sequential steps, run it, and confirm it performs each step in the correct order",
+        "typical_width": "Write and run sequential programs across simple tasks (moving a character, displaying messages, performing calculations); identify what step the program is on when paused",
+        "wider": [
+          "Implement a sequential program that enacts a specific ordered procedure \u2014 for example, the strict steps a First Nations ranger follows when handling a specific native animal; discuss why the order must be preserved in the program",
+          "Write the same sequential program in two different visual environments (e.g. Scratch and a flowchart tool) and compare how each represents the same logic"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Writing and running sequential programs is the foundational capability for all subsequent programming work in this descriptor. Students need procedural fluency \u2014 the ability to reliably sequence blocks and interpret run output \u2014 before branching and input are introduced. Practice and precision here matter more than breadth.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Program runs without errors",
+          "Steps execute in the correct order"
+        ],
+        "related_standards": [
+          "AC9TDI4P02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reliably sequence blocks and run programs cannot add branching or iteration \u2014 both require a functioning sequential program as the base. Fluency here is directly prerequisite for N2 and N3."
+      },
+      {
+        "id": 2,
+        "label": "Adding branching to programs",
+        "progression_checkpoint": "Students can write a program that uses a comparison condition to branch and execute different steps depending on the result",
+        "minimum_width": "Write a program with one IF/THEN branch using a comparison (e.g. if temperature > 25) that produces different outputs for different input values",
+        "typical_width": "Write programs with comparison-based branches for different contexts \u2014 labelling weather as hot or cold, deciding whether to wear sunscreen, responding to a user's answer in a quiz; test the program with values that trigger each path",
+        "wider": [
+          "Implement a program with IF/THEN statements based on a real protocol \u2014 for example, IF a specific animal is found injured THEN the ranger follows a specific procedure; discuss how programs can encode decision-making knowledge",
+          "Write a program with multiple conditions (IF...ELSE IF...ELSE) for a context with more than two outcomes and explain how each condition is evaluated"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often test their branching program with only one input value and assume it works. Wider task contexts that require testing both branches \u2014 and later multiple branches \u2014 build the habit of checking conditional logic exhaustively.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Program executes different code depending on the condition value",
+          "Both branches produce a correct and distinct output when tested"
+        ],
+        "related_standards": [
+          "AC9TDI4P02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who only test one branch path (or don't recognise when a branch fires) produce programs that appear to work but fail on untested inputs \u2014 this pattern of partial testing cascades into N4 where combined structures amplify the problem."
+      },
+      {
+        "id": 3,
+        "label": "Adding iteration to programs",
+        "progression_checkpoint": "Students can write a program that repeats steps a fixed number of times and explain what changes with each repetition",
+        "minimum_width": "Write a program that repeats a step a set number of times (e.g. displaying repeated song lyrics, computing a sum using repeated addition); confirm it repeats the correct number of times",
+        "typical_width": "Write programs using fixed-count loops for different purposes (repeated display, repeated addition, repeated movement); identify what changes across repetitions and what stays constant",
+        "wider": [
+          "Write a program that uses a loop to process multiple inputs (e.g. asking for a user's name and responding to each) \u2014 discuss how loops reduce the need to repeat code manually",
+          "Implement a program that uses both a loop and a branch \u2014 for example, a loop that counts and branches when a condition is reached; discuss how the structures combine"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only see loops in one context (e.g. printing repeated text) may not recognise that the same structure applies to movement, calculation and input processing. Multiple task contexts build generalised understanding of iteration as a structure.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Loop executes the correct number of times",
+          "Program produces the expected output after the loop completes"
+        ],
+        "related_standards": [
+          "AC9TDI4P02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Writing programs with user input",
+        "progression_checkpoint": "Students can write a program that takes input from the user or environment and uses it in the program's logic",
+        "minimum_width": "Write a program that accepts one piece of user input (e.g. a name or a number) and uses it in the output or a decision",
+        "typical_width": "Write programs that take user input or sense environmental input (temperature, location) and use it in decisions or displays; test with different inputs to confirm the program responds correctly",
+        "wider": [
+          "Write a program that takes input from both a user and the environment \u2014 for example, combining a user-entered location with a temperature sensor reading to produce a context-specific response",
+          "Implement a program where user input modifies iteration \u2014 for example, the user enters how many times a step should repeat; discuss how this makes the program more general-purpose"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "User input integrates all three control structures \u2014 input values feed into conditions (branching) and can control loops (iteration), all within a sequential program structure. This node is where students coordinate input with previously learned structures, and the coordination is the key learning.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Programs that combine input with branching and iteration across varied contexts offer rich opportunities for students to see how the same structural elements can produce meaningfully different programs. The wider tier (environment sensing, user-controlled iteration) is genuinely generative rather than just harder.",
+        "success_criteria": [
+          "Program reads at least one user or environmental input",
+          "The input affects what the program does or displays"
+        ],
+        "related_standards": [
+          "AC9TDI4P02",
+          "AC9TDI4P05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

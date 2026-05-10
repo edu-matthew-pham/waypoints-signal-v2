@@ -1,0 +1,124 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P11",
+    "title": "Create interactive content for diverse audiences",
+    "description": "select and use emerging digital tools and advanced features to create and communicate interactive content for a diverse audience",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can select and use a range of digital tools efficiently and responsibly to create and communicate content (AC9TDI8P11, AC9TDI8P12). They have experience with standard digital tools. They have not yet used emerging technologies for dynamic content, incorporated interactive elements, or designed specifically for accessibility.",
+    "progression_endpoint": "Students select and use emerging digital tools and advanced features to create interactive content that is accessible and appropriate for a diverse audience.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Locating content with advanced search",
+        "progression_checkpoint": "Students can locate relevant content using Boolean operators or AI-assisted search features to refine results.",
+        "minimum_width": "Use Boolean operators (AND, OR, NOT) or an advanced search feature to locate content relevant to a specific need; explain how the search terms were refined.",
+        "typical_width": "Use multiple search strategies \u2014 Boolean operators, advanced filters, AI similarity search \u2014 to locate relevant and credible content; evaluate the results for relevance and source quality; explain the reasoning behind search term choices.",
+        "wider": [
+          "Compare results from Boolean operator search with AI-assisted search for the same information need \u2014 analyse what each approach surfaces and misses",
+          "Investigate how image similarity search works and use it to find visually similar content for a specific creative or analytical purpose"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Demonstrates use of at least one advanced search technique (Boolean operator or AI search feature)",
+          "Can explain why the search terms were chosen and how results were refined"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Adding interactive elements",
+        "progression_checkpoint": "Students can incorporate interactive elements into content that allow users to control and explore the information.",
+        "minimum_width": "Add at least one interactive element to a piece of content that changes what is shown based on user input (e.g. a slider, click-through, or filter).",
+        "typical_width": "Create content with multiple interactive elements \u2014 sliders for time-series control, toggles, clickable regions \u2014 that allow users to explore the content actively; explain how each interaction helps users engage with the information.",
+        "wider": [
+          "Build interactive content that incorporates real data with user-controlled parameters \u2014 for example, a slider that lets users explore how changing one variable affects a data relationship",
+          "Combine interactive elements with visualisations so that user interaction changes what data is displayed",
+          "Incorporate accessibility features into interactive content (e.g. keyboard navigation, ARIA labels) so that users who cannot use a mouse can still interact"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Interactive content creation requires coordinating content, interaction design and technical implementation. Students often focus on technical implementation at the expense of whether the interaction actually helps users engage with the content. Integration here is designing the interaction to serve the communication goal, not just being technically functional.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Data-driven interactive content and accessibility-first interaction design are both rich directions that extend well beyond basic button-clicking and require genuine design thinking about what interaction achieves.",
+        "success_criteria": [
+          "At least one interactive element changes what is displayed based on user input",
+          "The interaction serves a communicative purpose (helps users explore or understand the content)"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Designing for accessibility",
+        "progression_checkpoint": "Students can use built-in accessibility features to ensure content is usable by people with diverse abilities.",
+        "minimum_width": "Apply at least one accessibility feature to a piece of content (e.g. ALT text for images, appropriate colour contrast, captions); explain who it benefits and how.",
+        "typical_width": "Apply multiple accessibility features appropriate to the content type \u2014 ALT text for images, captions for video/audio, colour contrast checks, heading structure for screen readers \u2014 explain how each serves users with different abilities.",
+        "wider": [
+          "Audit an existing piece of content for accessibility issues using accessibility checking tools; explain each issue found and implement fixes",
+          "Design content that is accessible-first \u2014 explain how designing for accessibility from the start differs from retrofitting it",
+          "Investigate how accessibility requirements are encoded in web standards (e.g. WCAG) and apply specific criteria to evaluate and improve a piece of content"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often conflate accessibility with one group (e.g. visually impaired only). Multiple accessibility contexts \u2014 screen readers, cognitive accessibility, motor accessibility, captioning for deaf users \u2014 broaden the concept and prevent a too-narrow design response.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "At least one accessibility feature is implemented correctly",
+          "Student can explain who benefits from the feature and how"
+        ],
+        "hinge": true,
+        "hinge_reason": "The descriptor requires content for a diverse audience \u2014 students who have not engaged with accessibility principles at N3 produce N4 content that excludes users with different abilities, failing the descriptor's core requirement."
+      },
+      {
+        "id": 4,
+        "label": "Creating interactive content for a diverse audience",
+        "progression_checkpoint": "Students can combine emerging digital tools, interactive elements and accessibility features to create and communicate interactive content for a diverse audience.",
+        "minimum_width": "Create interactive content using at least one advanced tool feature; include at least one interactive element; ensure content is accessible for at least one non-default audience.",
+        "typical_width": "Create a piece of interactive content that uses emerging tools (e.g. AR overlay, interactive animation combining generative AI and human-created content), interactive elements, and accessibility features; explain how the design choices serve the intended diverse audience.",
+        "wider": [
+          "Use an AR overlay triggered by a QR code to add dynamic information to physical content \u2014 explain how this extends the communication beyond what static content allows",
+          "Combine outputs from multiple generative AI sources (images, sounds, text) to produce an interactive animation or complex narrative \u2014 document the curation decisions made",
+          "Develop content for a specific underserved audience (e.g. a community group, accessibility users) and evaluate with representative users"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating accessible, interactive content for a diverse audience requires coordinating advanced tools, interaction design, and accessibility features simultaneously. Students who can do each individually often produce content that prioritises one dimension at the expense of others. Integration here is ensuring all three serve the communication goal together.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "AR-augmented physical content and multi-source generative AI curation are both genuinely emerging directions that require students to think about what the technology enables for communication \u2014 this is substantive creative-technical work.",
+        "success_criteria": [
+          "Content uses at least one feature that goes beyond standard static content creation",
+          "At least one interactive element is included that serves the audience",
+          "At least one accessibility feature is present"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

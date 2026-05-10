@@ -1,0 +1,101 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10K04",
+    "title": "Environmental change: causes, effects and management strategies",
+    "description": "causes and effects of a change in an identified environment at a local, national or global scale, and strategies to manage sustainability",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students understand human-induced environmental changes and sustainability (AC9HG10K01), environmental world views (AC9HG10K02), and First Nations custodial approaches (AC9HG10K03). They have engaged with sustainability strategies for biomes (AC9HG9K04) and urban places (AC9HG8K09), providing a prior framework for evaluating management strategies.",
+    "progression_endpoint": "Students explain the causes and effects of a change in an identified environment and propose and compare strategies to manage sustainability, drawing on environmental, economic and social criteria and considering trade-offs and the perspectives of different stakeholders.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying context and describing causes",
+        "progression_checkpoint": "Students can identify a specific environmental change context, describe its causes, and explain the impacts on the sustainability of the environment's functions.",
+        "minimum_width": "Describe the causes of environmental change in one identified context and explain impacts on at least one environmental function (resource, service or spiritual).",
+        "typical_width": "Describe the causes of environmental change in a studied context across local, national or global scale as appropriate; explain impacts on multiple environmental functions including resource provision, ecological services, and cultural or spiritual value.",
+        "wider": [
+          "Investigate a complex multi-causal environmental change case (e.g. Murray-Darling Basin water stress, Great Barrier Reef bleaching) tracing the interaction of natural and human factors at different scales",
+          "Analyse how scale of study changes the apparent causes and effects — for example, localised agricultural runoff vs national water policy vs global climate change as causes of the same environmental change",
+          "Examine an environmental change case in a developing country context and compare the causes and affected environmental functions with an equivalent change in Australia"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without an accurate and specific account of causes and affected environmental functions in their studied context, students cannot evaluate whether proposed strategies actually address the right problem — the entire evaluation chain (nodes 2–3) depends on the cause-effect analysis being correct.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often list causes without tracing causal mechanisms or explaining which environmental functions are affected and how. Scaffolding the cause → mechanism → function impact chain explicitly prevents superficial cause listing.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students identify a specific environmental change context and describe at least two causes with their mechanisms",
+          "Students explain the impact of the change on at least one environmental function using correct geographical terminology"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "World views and strategy development",
+        "progression_checkpoint": "Students can recognise how people's world views influence how management strategies are developed and implemented, and identify who is involved in strategy decision-making.",
+        "minimum_width": "Identify at least two stakeholder groups involved in developing a management strategy for the studied context and explain how their world views influence the strategies they support.",
+        "typical_width": "Explain how Traditional Owners, communities, developers, governments and NGOs use environmental, economic and social criteria when making decisions; show how world view (human-centred vs earth-centred) shapes which criteria are prioritised and what trade-offs are accepted.",
+        "wider": [
+          "Analyse a documented governance process (e.g. an environmental impact assessment, a resource management tribunal) to trace how different stakeholder world views are weighted in formal decision-making",
+          "Investigate a case where First Nations Traditional Owners' world views and management priorities diverged from government or NGO approaches, examining how the tension was or was not resolved",
+          "Compare decision-making criteria for environmental management in two different national governance systems (e.g. Australia vs India) examining how institutional structures encode different world views"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students need exposure to multiple stakeholder configurations — not just community vs government — to build a flexible understanding of how world views shape strategy development in different governance contexts.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The intersection of world views and governance processes is substantively rich — real decision-making cases reveal the complexity that cannot be accessed through hypothetical scenarios alone.",
+        "success_criteria": [
+          "Students identify at least two stakeholders involved in developing a management strategy and explain how their different world views influence the strategy they support",
+          "Students identify at least one trade-off that decision-makers face and explain how different stakeholders evaluate that trade-off differently"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Proposing and comparing management strategies",
+        "progression_checkpoint": "Students can propose strategies to manage the effects of environmental change and compare strategies in terms of environmental, economic and social criteria, including cross-national comparison where appropriate.",
+        "minimum_width": "Propose at least one management strategy for the studied context and evaluate it against at least one criterion (environmental, economic or social).",
+        "typical_width": "Propose and evaluate multiple strategies using environmental, economic and social criteria; compare strategies in Australia with strategies in another country for human-induced environmental change, using stated criteria and acknowledging trade-offs.",
+        "wider": [
+          "Compare three strategy types — environmental (marine reserves, national parks), spatial (corridors, urban planning) and holistic (addressing past and present causes) — evaluating the criteria each type is best suited to address",
+          "Evaluate the effectiveness of a real implemented strategy over time using before/after evidence, identifying what was achieved and what remained unresolved",
+          "Develop and justify a prioritised strategy recommendation that explicitly addresses the different criteria and trade-offs involved, including acknowledgment of First Nations approaches where relevant"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates cause-effect analysis, world view awareness and multi-criteria evaluation into a strategy proposal. The teacher signal is to make the connections explicit: a good strategy proposal flows directly from the cause-effect analysis (Node 1) and accounts for the stakeholder world views identified in Node 2."
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Strategy comparison requires applying consistent criteria across cases — students often compare incomparable things (effectiveness vs cost vs acceptability) without acknowledging they are using different criteria. Scaffold the criteria framework before asking for comparison.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-national strategy comparison is explicitly mandated in the descriptor (e.g. waste management Australia vs India, flood management Australia vs China). Students who have compared strategies across multiple national contexts develop a more rigorous evaluative framework.",
+        "success_criteria": [
+          "Students propose at least one management strategy and evaluate it against at least two criteria (environmental, economic, social)",
+          "Students explain a trade-off involved in their proposed strategy and acknowledge why different stakeholders may evaluate the trade-off differently"
+        ]
+      }
+    ]
+  }
+}

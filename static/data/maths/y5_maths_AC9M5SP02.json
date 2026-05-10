@@ -1,0 +1,88 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5SP02",
+    "title": "Grid coordinate system",
+    "strand": "Space",
+    "description": "Construct a grid coordinate system that uses coordinates to locate positions within a space; use coordinates and directional language to describe position and movement",
+    "prior_knowledge": "Students can use grid reference systems (letter-number) to locate positions (AC9M4SP02). They have not yet used a coordinate system with ordered pairs or distinguished between the two coordinate axes.",
+    "progression_endpoint": "Students construct a grid coordinate system and use coordinates and directional language to locate positions and describe movement.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "From grid references to coordinates",
+        "progression_checkpoint": "Students can distinguish a grid reference (letter-number cell) from a coordinate pair (point on intersecting lines) and explain the difference.",
+        "minimum_width": "Plot a point using a coordinate pair on a prepared grid; explain the difference from a letter-number grid reference.",
+        "typical_width": "Plot and read multiple coordinate points; explain that coordinates identify intersections not cells; connect to map and screen coordinate systems.",
+        "wider": [
+          "Compare grid reference and coordinate systems used in different mapping tools",
+          "Investigate how First Nations navigation systems describe position and movement"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often confuse (x, y) points with cell references. Maps, digital tools and design contexts provide multiple concrete representations that distinguish the two systems.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "The cell-vs-intersection distinction is the prerequisite for Node 2 — students who confuse grid references with coordinate pairs cannot construct a valid coordinate system or plot points accurately.",
+        "success_criteria": [
+          "Student plots a coordinate pair correctly on a grid",
+          "Student explains the distinction between a grid reference and a coordinate pair"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Constructing a coordinate grid",
+        "progression_checkpoint": "Students can construct a coordinate grid system with labelled axes for a given space.",
+        "minimum_width": "Draw and label a coordinate grid with x- and y-axes, origin and at least 6 grid points; plot three given coordinates.",
+        "typical_width": "Construct a coordinate grid for a practical purpose (e.g. mapping a classroom, game board); plot and read coordinates accurately.",
+        "wider": [
+          "Extend to negative coordinates in one quadrant",
+          "Use coordinate grids in digital contexts: spreadsheet cell coordinates, screen pixel positions"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student constructs a correctly labelled coordinate grid",
+          "Student plots and reads coordinates accurately on their grid"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Describing position and movement",
+        "progression_checkpoint": "Students can use coordinates and directional language to describe a position and a movement between positions.",
+        "minimum_width": "Describe the position of a point using its coordinates; describe a movement from one point to another using directional language.",
+        "typical_width": "Describe routes on a coordinate grid using coordinates and directional language; describe movement in terms of changes in x and y values.",
+        "wider": [
+          "Program directional movement on a coordinate grid using code or robotics",
+          "Design a coordinate treasure map with movement instructions"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Coding and treasure map contexts vary the purpose and form of coordinate use, giving advancing students genuine breadth beyond abstract plotting exercises.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Coding movement on a grid and treasure map design give advancing students purposeful, rich application contexts.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student describes a position using correct coordinate notation",
+          "Student describes movement between two points using directional language and coordinate changes"
+        ]
+      }
+    ]
+  }
+}

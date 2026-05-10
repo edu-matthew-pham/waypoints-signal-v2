@@ -1,0 +1,67 @@
+{
+  "year_level": "F",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9SFU01",
+    "title": "External Features of Plants and Animals",
+    "description": "observe external features of plants and animals and describe ways they can be grouped based on these features",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "No formal prior science learning assumed. Students bring everyday observations of living things from home and community contexts.",
+    "progression_endpoint": "Students observe and name external features of plants and animals, describe similarities and differences between organisms, and sort living things into groups based on observable external features.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Plants and animals have observable external features",
+        "progression_checkpoint": "Students can observe and name external features of plants (roots, stem, leaves, flowers, fruit, seeds) and animals (eyes, body covering, legs, wings) using their senses and simple tools.",
+        "minimum_width": "Students name at least two external features of a plant and two of an animal using observation.",
+        "typical_width": "Students use magnifying glasses or digital cameras to observe and name features of plants and animals; identify humans as animals and describe external features of humans; compare features across organisms; and describe how features look and feel.",
+        "wider": [
+          "Observe fruits and vegetables and identify them as parts of plants — roots, flowers, fruits or leaves",
+          "Recognise First Nations Australians' use of observable features to group living things — examining cultural classification knowledge",
+          "Explore how First Nations Australians' observations of external features are replicated in traditional dance"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Naming external features across a range of organisms — including fruits and vegetables as plant parts, and First Nations classification practices — builds the observation vocabulary and range that Node 2 sorting requires. Width investment at this node serves both the cascade risk and the cultural enrichment opportunity.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations classification knowledge and dance representation provide culturally rich directions grounded in elaborations.",
+        "success_criteria": [
+          "Names at least two external features of a plant and two of an animal",
+          "Recognises humans as animals and can describe at least two human external features"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 (grouping by external features) requires students to apply feature observation as a sorting criterion. Students who cannot name and identify external features of plants and animals have no vocabulary or observational basis for constructing or explaining a grouping rule."
+      },
+      {
+        "id": 2,
+        "label": "Living things can be grouped by external features",
+        "progression_checkpoint": "Students can sort plants and animals into groups based on shared external features and explain the grouping rule they used.",
+        "minimum_width": "Students sort a collection of plants or animals into two groups and explain one feature they used to sort them.",
+        "typical_width": "Students sort collections of model animals using different feature-based grouping strategies; identify common features within familiar animal groups (fish, birds, reptiles); describe their grouping rule; and recognise that the same collection can be sorted in different ways.",
+        "wider": [
+          "Sort collections of model animals and explain different grouping strategies — examining that multiple valid groupings are possible",
+          "Identify common features of familiar animal groups such as fish, birds or reptiles",
+          "Using a digital camera to collect plant and animal feature images on a nature scavenger hunt"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Sorts a collection of living things into groups and states the feature used",
+          "Identifies at least one shared feature within a named animal group"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

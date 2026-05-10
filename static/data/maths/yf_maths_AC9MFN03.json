@@ -1,0 +1,99 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFN03",
+    "title": "Quantifying and Comparing Collections",
+    "description": "quantify and compare collections to at least 20 using counting and explain or demonstrate reasoning",
+    "strand": "Number",
+    "mode": "A",
+    "prior_knowledge": "Students have informal counting experience and can name numbers. They are developing reliable one-to-one correspondence. They have not yet systematically applied counting principles (each object counted once, arrangement does not affect quantity, last number = total) or used counting to compare and justify.",
+    "progression_endpoint": "Students quantify and compare collections to at least 20 using counting, demonstrating one-to-one correspondence and cardinality, and explain or demonstrate their reasoning.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Counting principles",
+        "progression_checkpoint": "Students can count a collection of objects accurately, demonstrating that each object is counted once, arrangement does not affect quantity, and the last number counted tells how many.",
+        "minimum_width": "Count a collection of up to 10 objects in a fixed arrangement accurately, demonstrating one-to-one correspondence; state the total when asked 'How many?'",
+        "typical_width": "Count collections of objects to at least 20 in varying arrangements; demonstrate that rearranging objects does not change how many there are; apply counting principles across different types of objects and counting contexts (physical, virtual, moving objects).",
+        "wider": [
+          "Use body-tallying systems from First Nations Peoples of Australia that use body parts and one-to-one correspondence to count to 20",
+          "Compare how different cultural tools (e.g. an abacus, Chinese hand gestures) represent the counting process — connecting to the universal counting principles"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly misapply counting principles in specific situations — they may count correctly in a line but miscount scattered objects, or not understand that rearranging a counted set doesn't change the total. Encountering collections in varied arrangements resolves the conservation misconception more effectively than repeated practice with a single arrangement type.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "consolidation",
+            "reason": "One-to-one correspondence with physical objects requires procedural care — students commonly double-count or skip objects. Repeated counting practice across many collections builds the tracking precision needed before comparison tasks.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 depend on accurate counting. Students who misapply counting principles — skipping objects, double-counting, or believing arrangement changes quantity — produce wrong counts, making purposeful counting and comparison unreliable. Both the conservation misconception and procedural tracking errors cascade through all downstream counting tasks.",
+        "success_criteria": [
+          "Student accurately counts a collection of 10–20 objects in a scattered arrangement with no double-counting or skipping",
+          "Student states the total correctly when asked 'How many?' after counting",
+          "Student demonstrates (without recounting) that rearranging a counted set does not change the total"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Counting for a purpose",
+        "progression_checkpoint": "Students can use counting to determine a quantity needed for a practical purpose, applying one-to-one correspondence.",
+        "minimum_width": "Count the members of a group and use that count to collect the right number of items for the group.",
+        "typical_width": "Use counting and one-to-one correspondence to quantify items required for a practical purpose (e.g. collecting one item per person, setting a table, distributing materials); explain reasoning about why the count gives the right number.",
+        "wider": [
+          "Investigate quantifying situations that involve multiple sets (e.g. collecting two items for each person) and use counting to determine the total needed",
+          "Explore First Nations Australians' counting contexts where quantity serves a practical purpose — e.g. gathering enough for a group"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student uses counting to determine the correct number of items needed for a group and collects that quantity",
+          "Student explains why their count gives the right answer (connecting count to purpose)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing collections using counting",
+        "progression_checkpoint": "Students can compare the size of two or more collections using counting and justify which has more or fewer.",
+        "minimum_width": "Count two collections and compare them, stating which has more and how they know.",
+        "typical_width": "Count and compare collections of up to 20 objects; justify which collection has more or fewer using the count; apply comparison to practical situations (e.g. 'Do we have enough scissors for everyone?').",
+        "wider": [
+          "Compare three or more collections, ordering them from fewest to most and justifying the order with counts",
+          "Investigate comparison situations where counting is needed because subitising is not reliable (collections greater than 5) — connecting comparison strategy to quantity size",
+          "Explore how different cultures represent and compare quantities — connecting to the universality of counting as a comparison tool"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly compare collections by visual impression (which pile looks bigger) rather than counting. The reasoning scaffold here is: count each collection, then compare the counts. Getting students to explicitly articulate this two-step process — count first, then compare — is the key teaching move at this node.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "Comparison integrates counting principles (node 1) and purposeful counting (node 2) into a reasoning task. Students must count accurately AND use the counts to draw a justified conclusion about relative size. This coordination is the endpoint demand."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparison contexts that involve practical purposes (enough for the group? who has more?) give advancing students meaningful reasoning tasks. Multi-collection comparison and ordering extend the concept without leaving the year band.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student counts two collections of up to 20 objects accurately and correctly states which has more",
+          "Student explains reasoning — naming the counts of both collections and using them to justify the comparison"
+        ]
+      }
+    ]
+  }
+}

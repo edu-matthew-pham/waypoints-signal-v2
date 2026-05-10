@@ -1,0 +1,97 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6SP01",
+    "title": "Cross-sections and prisms",
+    "description": "Compare the parallel cross-sections of objects and recognise their relationships to right prisms",
+    "strand": "space",
+    "mode": "A",
+    "prior_knowledge": "Students can connect objects to their nets and build objects from nets using spatial and geometric reasoning (AC9M5SP01). They understand faces, edges, and vertices of 3D objects. They have not yet explored cross-sections as a tool for understanding 3D shapes, or identified the defining property of a right prism.",
+    "progression_endpoint": "Students can compare the parallel cross-sections of objects and recognise their relationship to right prisms.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What a cross-section is",
+        "progression_checkpoint": "Students can describe a cross-section as a 2D slice through a 3D object and identify the shape of a cross-section from a given object.",
+        "minimum_width": "Describe what a cross-section is; identify the cross-sectional shape of at least four 3D objects (cube, rectangular prism, cylinder, triangular prism); sketch the cross-section.",
+        "typical_width": "Identify horizontal, vertical, and diagonal cross-sections of common 3D objects; draw cross-sections; describe what changes about the cross-section shape when the cutting angle changes; connect cross-sections to the faces of prisms.",
+        "wider": [
+          "Investigate cross-sections of food \u2014 cutting a capsicum, carrot, or orange at different angles \u2014 and sketch the resulting shapes",
+          "Explore CT scans and MRI imaging as real-world applications of cross-sectional thinking in medicine"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Cross-section is a genuinely unfamiliar concept for most Year 6 students. Multiple physical contexts \u2014 food, construction materials, everyday objects \u2014 help students build a robust concept of 'slice' before the geometric formalisation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "A robust concept of cross-section as a 2D slice is the prerequisite for Node 2, where constancy of cross-section is the defining property of a prism. Students with a fragile or incomplete cross-section concept cannot evaluate whether cross-sections are constant.",
+        "success_criteria": [
+          "Student describes a cross-section as a 2D slice through a 3D object.",
+          "Student correctly identifies the cross-sectional shape of at least two common objects."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Constant cross-sections and prisms",
+        "progression_checkpoint": "Students can identify objects whose parallel cross-sections are identical (constant) and connect this to the definition of a right prism.",
+        "minimum_width": "Identify at least three objects whose cross-sections are the same shape and size when cut parallel to the base; explain what is constant; name these objects as prisms.",
+        "typical_width": "Compare the cross-sections of prisms and non-prisms; identify the defining feature of a right prism (constant cross-section perpendicular to the length); classify a range of 3D objects as prisms or non-prisms with justification.",
+        "wider": [
+          "Investigate why the volume of a prism can be calculated as cross-sectional area \u00d7 length \u2014 connect the constant cross-section to this formula",
+          "Identify prism structures in architecture and manufactured objects \u2014 bridges, buildings, packaging \u2014 and discuss why prism geometry is used"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The definition of a prism through constant cross-sections is a conceptual claim that students need to reason through rather than memorise. Scaffolding 'what makes a prism different from a pyramid?' through the cross-section lens builds a principled understanding.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The prism-as-constant-cross-section concept connects to volume, packaging design, and structural engineering in ways that reward exploration. The connection to volume formula is particularly rich for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies objects with constant parallel cross-sections and names them as prisms.",
+          "Student explains what distinguishes a prism from a non-prism using cross-section reasoning."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing and classifying 3D objects by cross-section",
+        "progression_checkpoint": "Students can compare parallel cross-sections of different objects and use this comparison to classify and describe relationships between 3D shapes.",
+        "minimum_width": "Compare the cross-sections of at least four 3D objects; identify which are constant (prisms) and which change (cones, pyramids, spheres); explain the difference in terms of the cross-section property.",
+        "typical_width": "Classify a range of 3D objects as prisms or non-prisms based on cross-section analysis; describe how the cross-section changes in non-prisms (tapers, grows, changes shape); connect cross-section understanding to everyday 3D object recognition.",
+        "wider": [
+          "Investigate oblique prisms \u2014 do they have constant cross-sections? How does this compare to right prisms?",
+          "Explore architectural cross-sections \u2014 how architects and engineers use cross-section diagrams to represent buildings and structures"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Classification by cross-section integrates the cross-section concept, the prism definition, and spatial reasoning about 3D objects. Using cross-section as the classification tool \u2014 rather than familiar face-counting approaches \u2014 represents a new spatial lens."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly classifies a set of 3D objects as prisms or non-prisms with cross-section justification.",
+          "Student describes how cross-sections differ between prisms and non-prisms."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LY04",
+    "title": "Read with fluency and self-correct",
+    "description": "read texts with phrasing and fluency, using phonic and word knowledge, and monitoring meaning by re-reading and self-correcting",
+    "strand": "Literacy — Analysing",
+    "mode": "B",
+    "prior_knowledge": "Students read texts with developing phrasing and fluency, monitoring meaning using context and grammar (AC9E1LY04). They have not yet self-corrected systematically using phonic and word knowledge, or re-read specifically to restore lost meaning.",
+    "progression_endpoint": "Students can read texts with phrasing and fluency, using phonic and word knowledge, and monitor meaning by re-reading and self-correcting.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Using phonic and word knowledge to decode",
+        "progression_checkpoint": "Students can use phonic (sound-letter) and morphemic knowledge, and knowledge of high-frequency words, to decode unfamiliar words during reading.",
+        "minimum_width": "Apply at least one decoding strategy — phonic, morphemic or sight word — when encountering an unfamiliar word in a text.",
+        "typical_width": "Use phonic knowledge, morphemic knowledge and high-frequency word recognition in combination when decoding, selecting the most appropriate strategy for different word types.",
+        "wider": [
+          "Identify which decoding strategy was most useful for a given unfamiliar word and explain why",
+          "Read texts with increasing complexity of word patterns — compound words, silent letters, vowel digraphs — applying appropriate decoding strategies"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reliable decoding requires fluency — automatic application of phonic and word knowledge without slowing comprehension. Practice across multiple reading contexts builds the automaticity this node requires. More reading practice is more productive than widening decoding strategy types at this stage.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Automatic decoding is a prerequisite for Nodes 2 and 3 — students who cannot decode without conscious effort cannot allocate attention to monitoring meaning or self-correcting. Decoding bottlenecks collapse the monitoring and self-correction work that follows.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student applies a decoding strategy when encountering an unfamiliar word rather than stopping or guessing randomly.",
+          "Student correctly decodes a range of word types using appropriate strategies."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Monitoring meaning",
+        "progression_checkpoint": "Students can monitor their own comprehension during reading and identify when meaning has broken down.",
+        "minimum_width": "Identify a moment during reading when meaning is lost and describe what caused the breakdown.",
+        "typical_width": "Monitor comprehension during reading across different text types, pausing when meaning breaks down and identifying whether the problem is a word, sentence or whole-text level issue.",
+        "wider": [
+          "Practise metacognitive reading commentary — thinking aloud about comprehension monitoring — to make the monitoring process visible",
+          "Compare the experience of reading with and without monitoring comprehension and discuss what is missed when monitoring is not active"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Monitoring comprehension requires an explicit internal reasoning process — 'Does this make sense? Where did I lose meaning? Is it a word or a sentence?' Making this process visible through think-aloud or commentary helps students develop self-monitoring as a deliberate habit rather than a passive one.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Identifying where meaning has broken down is a prerequisite for Node 3 self-correcting — students who cannot locate the comprehension failure point cannot apply a targeted correction strategy.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify a point in a text where meaning broke down and name a reason.",
+          "Student pauses voluntarily when meaning is lost rather than continuing without comprehension."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Re-reading and self-correcting",
+        "progression_checkpoint": "Students can re-read and self-correct when meaning breaks down, using available cues — phonic knowledge, syntax, context — to restore accurate reading.",
+        "minimum_width": "Re-read a sentence where meaning was lost and produce a corrected reading, explaining what cue was used to self-correct.",
+        "typical_width": "Self-correct spontaneously across a range of reading texts and text types, using phonic, syntactic and semantic cues; re-read sections when correction is needed rather than continuing past the error.",
+        "wider": [
+          "Analyse a reading error — 'I said X, I should have said Y' — and identify which cue (sound, meaning, grammar) was used to detect and correct it",
+          "Compare the effect of self-correcting vs not self-correcting on overall comprehension of a passage"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student self-corrects reading errors without prompting from the teacher.",
+          "Student can explain what cue they used to identify and correct the error."
+        ]
+      }
+    ]
+  }
+}

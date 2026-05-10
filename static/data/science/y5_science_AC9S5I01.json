@@ -1,0 +1,59 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5I01",
+    "title": "Questioning and Predicting",
+    "description": "pose investigable questions to identify patterns and test relationships and make reasoned predictions",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can pose questions targeting patterns and relationships and make observation-grounded predictions (AC9S3I01, 3-4 band). They now extend to posing questions that test causal relationships and making reasoned predictions — predictions that are explicitly justified with prior knowledge, not just prior observation.",
+    "progression_endpoint": "Students pose investigable questions that target patterns and test causal relationships, make reasoned predictions that are explicitly justified with prior scientific knowledge, and distinguish between questions that can and cannot be scientifically investigated.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Investigable questions test relationships between variables",
+        "progression_checkpoint": "Students can pose investigable questions that specifically target a relationship between two variables — framed as 'Does X affect Y?' or 'How does X change when Y changes?' — and explain what makes a question investigable.",
+        "minimum_width": "Students pose one investigable question targeting a relationship between two variables and explain why it is investigable.",
+        "typical_width": "Students pose investigable relationship questions across two or more Y5-6 science contexts (biological, geological, physical), explain what makes each question investigable (variables identifiable, testable by observation or measurement), and distinguish from questions that cannot be scientifically investigated.",
+        "wider": [
+          "Pose questions about landscape features and how they were changed by weathering, erosion or deposition — examining what observation or measurement would test the relationship",
+          "Use information from First Nations Australians to formulate investigable questions about structural features and behaviours of living things — examining how traditional knowledge can guide scientific question formulation",
+          "Compare the structure of relationship questions in different science domains (biological: survival features; geological: erosion rates; physical: light behaviour) and identify what makes each type investigable"
+        ],
+        "hinge": true,
+        "hinge_reason": "Posing a well-formed relationship question is the entry point for I02 planning — students who cannot frame a question around two identifiable variables cannot independently decide what to change and measure. Thin treatment here means I02 planning defaults to teacher-supplied questions rather than student-generated ones.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Poses a question that targets a relationship between two named variables",
+          "Explains why the question is investigable — what would be changed and what would be measured"
+        ],
+        "related_standards": ["AC9S5I02"]
+      },
+      {
+        "id": 2,
+        "label": "Reasoned predictions are justified with prior scientific knowledge",
+        "progression_checkpoint": "Students can make reasoned predictions that are explicitly justified using prior scientific knowledge — distinguishing a reasoned prediction from an observation-based prediction by the nature of the justification.",
+        "minimum_width": "Students make a reasoned prediction for a named investigation scenario and explicitly state the prior scientific knowledge that justifies it.",
+        "typical_width": "Students make reasoned predictions across two or more science contexts, explicitly linking each prediction to a scientific principle or prior knowledge (not just a prior observation), and explain what outcome would confirm or challenge the prediction.",
+        "wider": [
+          "Make reasoned predictions about habitat survival: 'Will animals in desert habitats all have water conservation adaptations?' — justifying with knowledge of natural selection and habitat demands",
+          "Make reasoned predictions about erosion: 'Will steeper slopes show more erosion?' — justifying with knowledge of water velocity and transport capacity",
+          "Make reasoned predictions about light: 'Will light reflecting off a curved mirror behave differently from a flat mirror?' — justifying with knowledge of straight-line travel and angle of reflection"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Makes a prediction and explicitly states the prior scientific knowledge (not just prior observation) that justifies it",
+          "Identifies what outcome would confirm or challenge the prediction"
+        ]
+      }
+    ]
+  }
+}

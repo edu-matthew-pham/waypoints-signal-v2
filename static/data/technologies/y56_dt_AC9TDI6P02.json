@@ -1,0 +1,116 @@
+{
+  "year_level": "5-6",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI6P02",
+    "title": "Design algorithms with branching and iteration",
+    "description": "Design algorithms involving multiple alternatives (branching) and iteration",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can follow and describe algorithms involving sequencing, comparison operators (branching) and iteration (AC9TDI4P02). They have worked with existing algorithms and described how they work. They have not yet designed algorithms themselves \u2014 the shift from reading/describing to creating is the new demand at this band.",
+    "progression_endpoint": "Students design algorithms that include multiple branches (more than two alternatives) and loops (repetition until a condition is met), representing their logic as structured steps.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Iteration \u2014 loops until a condition is met",
+        "progression_checkpoint": "Students can design an algorithm that repeats steps until a condition is met",
+        "minimum_width": "Design an algorithm that includes a loop with a clear condition for stopping \u2014 e.g. keep mixing UNTIL combined, subtract UNTIL result is zero",
+        "typical_width": "Design algorithms with iteration for a range of problem types \u2014 counting loops (repeat N times), condition loops (repeat until X), and nested actions within the loop; represent the loop structure clearly in pseudocode, flowchart, or structured English",
+        "wider": [
+          "Design an algorithm for First Nations rangers to monitor live tracking data for feral animals \u2014 repeating a check-and-respond loop until a target is captured or leaves the area",
+          "Design an algorithm that uses a loop to process each item in a dataset (e.g. each plant in a survey grid) and accumulates a result across iterations"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students designing loops for the first time often specify the loop action correctly but omit or mis-specify the stopping condition. Explicitly scaffolding the loop design as: (1) what step repeats? (2) what condition must be checked? (3) what value changes each iteration? \u2014 prevents loops with no exit condition.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Specifies what step(s) repeat in the loop",
+          "Specifies a clear condition that ends the loop",
+          "Identifies what value changes across iterations"
+        ],
+        "related_standards": [
+          "AC9TDI4P02",
+          "AC9TDI6P05"
+        ],
+        "hinge": true,
+        "hinge_reason": "Loop design in N1 is a prerequisite component for N3's combined branching+iteration algorithm \u2014 students who cannot design a correct loop (with stopping condition) cannot produce a valid combined algorithm. The stopping condition error introduced here carries directly into N3."
+      },
+      {
+        "id": 2,
+        "label": "Multiple alternatives \u2014 branching beyond yes/no",
+        "progression_checkpoint": "Students can design an algorithm with more than two branches (multiple alternatives, not just binary if/else)",
+        "minimum_width": "Design an algorithm with at least three alternatives \u2014 e.g. IF distance < 2km THEN walk, ELSE IF distance < 5km THEN ride, ELSE catch the bus",
+        "typical_width": "Design multi-branch decision logic for a real problem context, using nested IF/ELSE IF/ELSE structure; trace through the algorithm with at least three different inputs to verify the correct branch fires for each",
+        "wider": [
+          "Design an algorithm for a garden watering decision system that considers multiple inputs \u2014 humidity level AND soil moisture level \u2014 requiring nested conditions, not just a single threshold",
+          "Design an algorithm modelling how rangers decide how to respond when feral animal tracking data shows different threat levels (approaching slowly / approaching quickly / already at site / retreating)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who have only written binary (if/else) branches struggle to see how to chain alternatives. Problem contexts with three or more clearly distinct outcomes (transport mode, threat level, grade bands) make the multi-branch structure feel natural rather than arbitrary.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "The critical error in multi-branch design is overlapping conditions \u2014 students write branches where multiple conditions could be true simultaneously. Tracing through edge cases (exactly 2km, exactly 5km) using a structured verify-step prevents this.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The rangers/tracking context from the elaboration is rich \u2014 it grounds multi-branch logic in a real-time decision context with more than two meaningful outcomes, and the First Nations rangers framing is substantive and non-tokenistic.",
+        "success_criteria": [
+          "Designs an algorithm with at least three distinct branches",
+          "Conditions for branches are mutually exclusive (no two conditions can both be true for the same input)"
+        ],
+        "related_standards": [
+          "AC9TDI6P05"
+        ],
+        "hinge": true,
+        "hinge_reason": "Multi-branch design in N2 is the second prerequisite component for N3 \u2014 students who cannot write mutually exclusive multi-branch conditions will produce overlapping branches when combining with iteration in N3, causing algorithms that fire incorrect branches."
+      },
+      {
+        "id": 3,
+        "label": "Algorithms with both branching and iteration",
+        "progression_checkpoint": "Students can design an algorithm that combines branching and iteration, responding to data",
+        "minimum_width": "Design an algorithm that contains at least one loop and at least one branch within or around it \u2014 e.g. repeat a check loop, and branch based on the check result",
+        "typical_width": "Design an algorithm that uses iteration to process a series of inputs and branching to respond differently to each input; evaluate whether one algorithm is better than another for the same problem and explain why",
+        "wider": [
+          "Compare two algorithms that solve the same problem \u2014 one using nested loops and one using a single loop with multi-branch conditions \u2014 and explain which is clearer or more efficient for a given scenario",
+          "Design an algorithm that responds to live data (e.g. sensor readings) using a loop that repeats until a condition is met, with branches that determine the response at each iteration"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the two structural elements \u2014 loops and branches \u2014 into a single algorithm. Students who have designed each element separately may not know how to nest them. Tracing through a combined algorithm step by step (what happens at this iteration? which branch fires?) is the integration act."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Designs an algorithm that includes at least one loop and one branch",
+          "Can trace through the algorithm with a specific input and identify which steps execute"
+        ],
+        "related_standards": [
+          "AC9TDI6P05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

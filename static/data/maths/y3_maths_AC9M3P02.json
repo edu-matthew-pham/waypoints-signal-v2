@@ -1,0 +1,90 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3P02",
+    "title": "Conducting chance experiments",
+    "strand": "Probability",
+    "mode": "B",
+    "description": "conduct repeated chance experiments; identify and describe possible outcomes, record the results, recognise and discuss the variation",
+    "prior_knowledge": "Students can identify chance events and describe outcomes as likely, unlikely, certain or impossible (AC9M3P01). They have not yet conducted repeated experiments, recorded results systematically, or observed and discussed variation in outcomes.",
+    "progression_endpoint": "Students conduct repeated chance experiments, record results, identify possible outcomes, and recognise and discuss variation in the results.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying and recording possible outcomes",
+        "progression_checkpoint": "Students can list all possible outcomes for a simple chance experiment before conducting it, and set up a recording method.",
+        "minimum_width": "Before an experiment (e.g. flipping a coin, spinning a spinner), list all possible outcomes and design a tally or frequency table to record results.",
+        "typical_width": "List all possible outcomes for varied experiments (coins, spinners, dice, coloured counters); create appropriate recording tables; explain why listing outcomes before experimenting is useful.",
+        "wider": [
+          "Explore experiments with more than two outcomes (e.g. a four-section spinner) and identify how the number of possible outcomes affects likelihood",
+          "Compare the number of possible outcomes across different experiments and predict which would show more variation"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Listing outcomes before experimenting is a reasoning discipline that doesn't come naturally — students typically want to start and record as they go. Explicit scaffolding of 'predict, then test' establishes the experimental structure the descriptor requires.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "A complete pre-experiment outcomes list and recording table are prerequisites for Node 2 (systematic data collection) and Node 3 (recognising variation) — students who skip this step produce incomplete or unstructured data that cannot support the variation discussion the descriptor requires.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can list all possible outcomes for a given chance experiment.",
+          "Students can construct a recording table for results before beginning the experiment."
+        ],
+        "related_standards": ["AC9M3P01", "AC9M3ST01"]
+      },
+      {
+        "id": 2,
+        "label": "Conducting repeated trials",
+        "progression_checkpoint": "Students can conduct a repeated chance experiment, recording each result accurately and producing a complete data set.",
+        "minimum_width": "Conduct one experiment with at least 20 trials, recording each outcome in a tally table.",
+        "typical_width": "Conduct repeated experiments across varied tools (coins, spinners, dice); record all outcomes systematically; work in a consistent, organised way across the full trial sequence.",
+        "wider": [
+          "Increase trial numbers (20 vs 50 vs 100 trials) and compare whether results look more or less consistent as the number of trials increases",
+          "Conduct the same experiment across multiple groups and pool results — experiencing the effect of larger sample sizes"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can conduct an experiment and record every outcome without omission.",
+          "Students can produce a complete tally or frequency table for their trial results."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Recognising and discussing variation",
+        "progression_checkpoint": "Students can describe variation in their results — acknowledging that outcomes differ across trials and that results may differ from what was expected.",
+        "minimum_width": "After conducting an experiment, make one statement about variation: identify that results varied and that they may not match the expected outcome.",
+        "typical_width": "Describe and discuss variation in results: compare actual frequencies with expected outcomes; explain why a fair coin does not always land heads exactly half the time; compare results with other groups.",
+        "wider": [
+          "Investigate what happens to variation as sample size increases — running 20 trials vs 100 trials and comparing how close results are to expected frequencies",
+          "Connect to statistical investigation (AC9M3ST03): design an experiment to test a question about likelihood, using results to make a claim"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The concept of variation — that results differ from expectations due to chance, not error — is a key probabilistic insight. Students who conduct only one experiment often think their result is 'wrong'. Comparing results across groups and experiments makes variation legible as a feature of chance, not a mistake.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The sample size investigation is genuinely rich — students begin to encounter the law of large numbers intuitively, which is a foundational statistical idea. Connecting to experimental design bridges probability and statistics in a meaningful way.",
+        "success_criteria": [
+          "Students can describe at least one way their results varied from what they expected.",
+          "Students can explain that variation in a chance experiment is normal, not a mistake."
+        ],
+        "related_standards": ["AC9M3P01", "AC9M3ST02", "AC9M3ST03"]
+      }
+    ]
+  }
+}

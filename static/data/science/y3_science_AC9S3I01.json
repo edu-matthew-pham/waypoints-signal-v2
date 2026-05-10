@@ -1,0 +1,70 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3I01",
+    "title": "Questioning and Predicting",
+    "description": "pose questions to explore observed patterns and relationships and make predictions based on observations",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can pose simple questions and make predictions based on their experiences (AC9S1I01, 1-2 band). They have not yet posed questions that target patterns or relationships specifically, or made predictions that are explicitly grounded in prior observations rather than intuition.",
+    "progression_endpoint": "Students pose investigable questions that target patterns and relationships in observed phenomena, and make predictions that are explicitly grounded in prior observations, distinguishing between questions that can be tested and those that cannot.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Questions target patterns and relationships",
+        "progression_checkpoint": "Students can pose investigable questions that go beyond naming or describing — targeting a pattern (what changes when X changes?) or relationship (how does X affect Y?) in an observed phenomenon.",
+        "minimum_width": "Students reframe a descriptive question into a relationship question for a given observation context, and explain what distinguishes the two.",
+        "typical_width": "Students pose their own relationship questions for two different science contexts (biological, physical or materials-based) and explain what observable pattern or relationship each question targets.",
+        "wider": [
+          "Examine how ecologists pose questions about population patterns — e.g. 'What happens to prey populations when predators are removed?' — and compare to descriptive questions about the same topic",
+          "Explore how First Nations Australians pose questions about patterns in Country — observing landscape and seasonal indicators to predict resource availability",
+          "Investigate the difference between a question that can be tested in a classroom and one that requires field observation or a longer time scale"
+        ],
+        "hinge": true,
+        "hinge_reason": "A relationship question is the prerequisite input to investigation planning (AC9S3I02). Students who cannot distinguish relationship questions from descriptive questions will design descriptive observation tasks rather than fair tests, collapsing the planning scaffold in the next standard.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The shift from descriptive ('what is this?') to relationship ('how does X affect Y?') questioning is non-obvious and requires explicit modelling. Students need to see the structural difference between question types before they can generate relationship questions independently. Without this scaffold, students default to description questions that do not guide investigation design.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Poses a question that targets a relationship or pattern (not just a description) for a given observation",
+          "Explains what observable pattern or relationship the question is designed to explore"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Predictions are grounded in prior observations",
+        "progression_checkpoint": "Students can make predictions that are explicitly linked to prior observations or patterns they have noticed, and distinguish between a prediction (grounded in evidence) and a guess.",
+        "minimum_width": "Students make a prediction for a given investigation scenario and explain what prior observation or pattern their prediction is based on.",
+        "typical_width": "Students make predictions for two contrasting investigation contexts, explain the observational basis for each, and revise a prediction when additional information is provided.",
+        "wider": [
+          "Investigate how predictions about food chains (e.g. what happens when a predator is removed) are grounded in observations about feeding relationships",
+          "Consult with, or explore resources about, how First Nations Australians predict the location of water sources from landscape feature observations — examining what constitutes an observation-based prediction",
+          "Make predictions about magnetic force at different distances based on a pattern identified from initial observations, then test them"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly conflate predictions with guesses or wishes ('I predict the magnet will pick it up because I want it to'). Encountering prediction-making across varied science contexts — biological, physical, ecological — helps students build a more general understanding of what makes a prediction observation-based rather than arbitrary."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Makes a prediction that is explicitly linked to a prior observation or identified pattern",
+          "Distinguishes their prediction from a guess by explaining the observational basis"
+        ],
+        "related_standards": ["AC9S3I02", "AC9S3I05"]
+      }
+    ]
+  }
+}

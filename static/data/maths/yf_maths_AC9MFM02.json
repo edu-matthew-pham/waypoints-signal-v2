@@ -1,0 +1,93 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFM02",
+    "title": "Days and Times of Day",
+    "description": "sequence days of the week and times of the day including morning, lunchtime, afternoon and night time, and connect them to familiar events and actions",
+    "strand": "Measurement",
+    "mode": "A",
+    "prior_knowledge": "Students have informal awareness of daily routines and some days of the week from home and pre-school contexts. They have not yet formally sequenced the days of the week in order or connected times of day consistently to named categories.",
+    "progression_endpoint": "Students sequence the days of the week and times of day (morning, lunchtime, afternoon, night time), connecting each to familiar events and actions, and use temporal language to describe sequences.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Times of day",
+        "progression_checkpoint": "Students can name the four times of day (morning, lunchtime, afternoon, night time) and connect each to at least one familiar event.",
+        "minimum_width": "Name at least three of the four times of day and match each to one familiar event (e.g. morning → getting dressed, night time → going to bed).",
+        "typical_width": "Name all four times of day; connect multiple familiar school and home events to the correct time of day; order images of daily events on a timeline, justifying placement by time of day.",
+        "wider": [
+          "Order events from a story in the sequence they occurred, using times-of-day language to justify placement",
+          "Investigate and compare how different families or communities might spend the same time of day — connecting times of day to diverse lived experiences"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly names at least three times of day",
+          "Student connects at least one familiar event to each time of day named"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sequencing days of the week",
+        "progression_checkpoint": "Students can name and sequence the days of the week in order, and recognise that the sequence repeats.",
+        "minimum_width": "Recite or sequence the days of the week in order from Monday to Sunday.",
+        "typical_width": "Name and sequence all seven days of the week in order; identify today, yesterday and tomorrow; distinguish school days from weekend days; recognise that the days repeat in a cycle.",
+        "wider": [
+          "Use a classroom roster or weekly schedule to identify which day specific events occur — connecting the sequence to real school-week planning",
+          "Create a pictorial weekly diary showing events on each day, reading it back to describe what happened on which day"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Sequencing seven items in a fixed order requires rote fluency. Students need repeated practice reciting and ordering the days before they can reliably use the sequence to reason about yesterday, today and tomorrow. Practice and repetition (songs, daily routines, calendar activities) build the automaticity the descriptor assumes.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to locate specific events on specific days — which depends on automatic recall of the day sequence. Students who cannot reliably sequence the days cannot connect events to days or use temporal language (yesterday, tomorrow) accurately.",
+        "success_criteria": [
+          "Student sequences all seven days of the week in correct order",
+          "Student correctly identifies today, yesterday and tomorrow on at least three occasions"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Connecting events to days and times",
+        "progression_checkpoint": "Students can connect familiar events and actions to specific days of the week and times of day, using temporal language to describe and justify sequences.",
+        "minimum_width": "Connect at least three familiar events to the correct day and time of day, and use at least one temporal word (before, after, yesterday, tomorrow) to describe the sequence.",
+        "typical_width": "Connect familiar school and home events to specific days and times of day; use temporal language (before, after, next, yesterday, today, tomorrow) to describe and justify sequences; create or interpret a pictorial weekly diary or roster.",
+        "wider": [
+          "Create and interpret a classroom roster connecting tasks to specific days, and answer questions like 'Who watered the garden yesterday?' or 'Whose turn is it today?'",
+          "Explore how different families and communities organise their week — including cultural or community events on specific days — and connect these to the days-and-times framework",
+          "Investigate events that happen at the same time each day (routines) and events that happen on the same day each week, distinguishing daily from weekly patterns"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Connecting events to days and times requires students to use temporal language as a reasoning tool — not just label an event, but justify why it goes where it does ('It happens in the morning because we do it when we arrive at school'). The reasoning scaffold distinguishes this node from simple recall.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates times of day (node 1) and day sequence (node 2) into a unified temporal framework. Students must coordinate knowledge of the daily cycle and the weekly cycle to place events correctly — this coordination is the endpoint demand."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Connecting events to days and times in real classroom contexts (rosters, diaries, story sequencing) gives advancing students genuinely useful temporal reasoning practice. Wider contexts — family week structures, cultural events, story timelines — enrich the meaning of the days-and-times framework.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student connects at least three familiar events to the correct day or time of day and justifies at least one placement using temporal language",
+          "Student correctly uses at least two temporal words (before, after, yesterday, today, tomorrow, next) in context"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "year_level": "1-2",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI2P02",
+    "title": "Follow and describe algorithms",
+    "description": "follow and describe algorithms involving a sequence of steps, branching (decisions) and iteration (repetition)",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "This is the first algorithmic thinking descriptor in the DT curriculum (no Foundation predecessor). Students bring general sequencing experience from everyday tasks \u2014 they can order familiar actions. They have not yet used computational vocabulary (sequence, branching, iteration) or applied algorithmic structure to a problem.",
+    "progression_endpoint": "Students follow and describe algorithms that include a sequence of steps, at least one decision point (branching), and at least one repetition (iteration).",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Following and describing sequences",
+        "progression_checkpoint": "Students can follow a short ordered sequence of steps and describe the steps in correct order",
+        "minimum_width": "Follow a provided 4\u20136 step sequence to complete a simple task; describe the steps in order using first/then/next/last",
+        "typical_width": "Follow and describe sequences for multiple familiar tasks (making a sandwich, getting ready for school, feeding a pet); rearrange mixed-up steps into the correct order; explain why order matters",
+        "wider": [
+          "Rearrange a mixed-up sequence of pictures from a story authored and published by First Nations Australians \u2014 describe the correct order and explain how each step leads to the next",
+          "Compare two tasks where step order matters (socks before shoes) and two where it does not (jumper before or after shoes) \u2014 explain the difference"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Correct sequencing requires precision \u2014 students at this age need repeated practice ordering steps across varied contexts before branching and iteration are introduced. Rushing to decisions before sequence is automatic leads to confused algorithms that mix step types.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Follows a sequence of steps in the correct order without skipping or repeating",
+          "Describes steps in order using sequencing language (first, then, next, last)"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "Sequence fluency is the foundation for all subsequent structural types \u2014 the reason explicitly states that rushing to decisions before sequence is automatic leads to confused algorithms. Students who cannot hold step order reliably cannot add branching or iteration without losing the sequence structure."
+      },
+      {
+        "id": 2,
+        "label": "Identifying and following branching (decisions)",
+        "progression_checkpoint": "Students can identify decision points in an algorithm and follow the correct path based on the condition",
+        "minimum_width": "Given an algorithm with one decision point (if/otherwise), follow the correct path based on the condition; explain what decision is being made and what each outcome means",
+        "typical_width": "Follow and describe algorithms with multiple decision points across familiar contexts (weather \u2192 what to wear, if raining \u2192 raincoat, otherwise \u2192 hat); draw or explain the decision structure; identify the condition and both possible outcomes",
+        "wider": [
+          "Create an algorithm for a classroom decision (e.g. if the book is in the library, borrow it, otherwise put it on the wish list) \u2014 identify the condition, the two paths, and the outcome of each",
+          "Apply decision-making to a recipe or process \u2014 identify where choices are made and what each choice leads to"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Branching is the hardest structural element to grasp at this level \u2014 students often describe only one path of a decision (the if, not the otherwise) or confuse the condition with the action. Encountering decisions in multiple, distinct contexts (weather, library, recipe) where both paths are equally plausible helps students see that both outcomes must always be specified.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Following branching requires students to hold two possible paths in mind simultaneously and apply the condition to select one. Explicitly scaffolding the if/otherwise structure \u2014 reading it aloud, drawing both paths \u2014 prevents students from treating every decision as always taking the same path.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Branching is the conceptually richest element of this descriptor \u2014 it is the foundation for all conditional logic in computing. The variety of real-world decision contexts (weather, library, recipes, classroom rules) makes this a genuinely broad and teachable node beyond the minimum.",
+        "success_criteria": [
+          "Identifies a decision point and states the condition being checked",
+          "Follows the correct path for a given condition and can explain both possible outcomes"
+        ],
+        "related_standards": [
+          "AC9TDI4P02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Branching is the hardest structural element and the reason explicitly describes systematic errors (describing only one path). Students who cannot hold both paths simultaneously cannot attempt Node 4's integration of all three structures."
+      },
+      {
+        "id": 3,
+        "label": "Identifying and following iteration (repetition)",
+        "progression_checkpoint": "Students can identify when steps are repeated in an algorithm and follow algorithms that include a fixed-count repetition",
+        "minimum_width": "Follow an algorithm that repeats a step a fixed number of times (e.g. practise spelling a word 5 times); identify which step repeats and how many times",
+        "typical_width": "Follow and describe algorithms that include fixed-count repetition across multiple familiar contexts (throw and catch 10 times, write letters 5 times); explain why repetition is used; distinguish repetition from a one-time step",
+        "wider": [
+          "Create an algorithm that uses repetition for a physical activity or game (e.g. jump 3 times, then clap, then repeat) \u2014 write or draw the algorithm showing which part repeats",
+          "Compare an algorithm with repetition to one without \u2014 explain how repetition makes the algorithm shorter and more efficient"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily understand that 'do it again' means repetition, but may not identify the boundary of what is repeated \u2014 the body of the loop \u2014 vs what happens after it ends. Multiple contexts where the repeated element is clearly bounded help students distinguish the repeated part from the surrounding sequence.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a step or sequence that repeats in an algorithm",
+          "States how many times the repetition occurs"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify the boundary of what is repeated (loop body vs surrounding sequence) cannot integrate iteration with sequence and branching in Node 4 \u2014 the structural distinction is the prerequisite for coordination."
+      },
+      {
+        "id": 4,
+        "label": "Describing algorithms with all three structures",
+        "progression_checkpoint": "Students can follow and describe an algorithm that combines sequence, branching and iteration",
+        "minimum_width": "Follow an algorithm that includes at least two of the three structures (sequence + branching, or sequence + iteration); describe what each structural element does",
+        "typical_width": "Follow and describe algorithms that include sequence, a decision point, and repetition; explain the role of each structural type; create a simple example combining at least two types",
+        "wider": [
+          "Describe a morning routine algorithm that includes sequence (steps in order), a decision (if it is cold, put on a jacket), and iteration (brush teeth for two minutes) \u2014 explain what type of structure each part is",
+          "Write, say, draw or photograph the full algorithm for a process that genuinely needs all three types \u2014 explaining each component to a partner or the class"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "At this node students must coordinate sequence, branching and iteration in a single coherent algorithm description. Integration failure looks like: correctly identifying each structure in isolation but losing track of how they combine \u2014 describing the steps but omitting the decision, or treating repetition as just 'doing it again' without connecting it to the algorithm's overall structure.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The morning routine direction integrates all three structures in a genuinely familiar context \u2014 students can author their own example and explain it, making the descriptor's full demand achievable and personally meaningful. Richer than a teacher-provided algorithm because authorship requires understanding, not just following.",
+        "success_criteria": [
+          "Follows an algorithm with at least two structural types without error",
+          "Describes or explains the role of at least two structural elements in the algorithm"
+        ],
+        "related_standards": [
+          "AC9TDI2P01",
+          "AC9TDI4P02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

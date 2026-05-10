@@ -1,0 +1,64 @@
+{
+  "year_level": "1",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S1H01",
+    "title": "Science in Daily Life",
+    "description": "describe how people use science in their daily lives, including using patterns to make scientific predictions",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students have not yet examined science as a human activity used in daily life or connected the idea of patterns to prediction.",
+    "progression_endpoint": "Students describe examples of how people — including themselves, community members and First Nations Australians — use science knowledge and observed patterns to make decisions and predictions in everyday life.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "People use science knowledge in everyday decisions",
+        "progression_checkpoint": "Students can describe at least two examples of how people use science knowledge in their daily lives, explaining what knowledge is being used and why.",
+        "minimum_width": "Students describe two examples of people using science knowledge in daily life, identifying the science knowledge used in each.",
+        "typical_width": "Students identify and describe how farmers, gardeners, ecologists, engineers and families use science knowledge in daily decisions — plant care, weather planning, force use in cooking and tools, habitat design — and connect these examples to specific science concepts.",
+        "wider": [
+          "Learning from farmers, bush care volunteers, gardeners or nursery owners about how they observe plant and animal needs and design habitats — examining professional science use",
+          "Investigating how First Nations Australians use science to meet needs including food, water supply and shelter",
+          "Exploring how engineers use knowledge of forces to create playground equipment or toys — connecting force concepts to design (AC9S1U03)"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2's pattern-based prediction concept requires students to have first established that people use science knowledge in daily life — without this foundation, connecting patterns to prediction in N2 lacks meaningful grounding.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes two examples of people using science knowledge in daily life",
+          "Identifies the science knowledge being used in each example"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Patterns help people make scientific predictions",
+        "progression_checkpoint": "Students can describe how observing patterns in nature (weather, seasons, animal behaviour) allows people to make predictions that guide decisions.",
+        "minimum_width": "Students describe one pattern in nature and one prediction that people make based on that pattern.",
+        "typical_width": "Students describe multiple examples of pattern-based prediction — weather forecasting, seasonal resource gathering, animal behaviour prediction — and explain how the pattern is observed and used to make the prediction.",
+        "wider": [
+          "Recognising how First Nations Australians use changes in the landscape and sky to answer questions about when to gather certain resources — examining long-term observational pattern knowledge",
+          "Sharing examples of how students have used science knowledge at home — weather forecasts, seasonal clothing, observing weather patterns before family events",
+          "Learning from local ecologists or wildlife carers about observing animal behaviour patterns to design habitat supports"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "First Nations pattern-based resource timing and personal home examples provide culturally rich and personally connected directions. Encountering pattern-based prediction across multiple contexts — ecological, cultural, domestic — builds a more complete and generalisable model.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations pattern-based resource timing provides a culturally rich and ecologically sophisticated direction. Personal examples from home connect the concept to the student's own lived experience.",
+        "success_criteria": [
+          "Describes one pattern in nature",
+          "Explains how observing that pattern helps people make a prediction or decision"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "year_level": "10",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E10LA02",
+    "title": "Evaluative language reveals values",
+    "description": "understand that language used to evaluate, implicitly or explicitly reveals an individual\u2019s values",
+    "strand": "Language",
+    "mode": "A",
+    "prior_knowledge": "Students understand how evaluation is expressed directly and indirectly through allusion, vocabulary and metaphor (AC9E9LA02). They have not yet examined how evaluative language \u2014 whether implicit or explicit \u2014 reveals the underlying values of the person using it.",
+    "progression_endpoint": "Students understand that language used to evaluate, implicitly or explicitly, reveals an individual\u2019s values.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Explicit evaluation and values",
+        "progression_checkpoint": "Students can identify explicit expressions of evaluation and explain what values are revealed by the word choices made.",
+        "minimum_width": "Identify at least one explicit evaluative statement in a provided text and explain what value it reveals about the writer or speaker.",
+        "typical_width": "Analyse explicit evaluative language across a range of texts (reviews, speeches, opinion pieces), identifying the values revealed and explaining how word choice signals those values.",
+        "wider": [
+          "Compare explicit evaluative language across texts from different time periods or cultural contexts, examining how the values revealed differ",
+          "Analyse how evaluative language in media reviews or editorials reveals institutional as well as individual values",
+          "Examine how First Nations Australian writers use explicit evaluation to assert cultural values in public texts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to identify implicit evaluation \u2014 a harder inference that depends on first being able to recognise and trace explicit evaluation to values. Without this foundation, the move to implicit detection is unsupported.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Evaluative language signals values differently across text types \u2014 what counts as an explicit evaluative statement in a review differs from a speech or a social media post; students need varied contexts to build reliable identification.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies explicit evaluative language in a text",
+          "Names the value revealed by at least one evaluative word or phrase and explains the connection"
+        ],
+        "related_standards": [
+          "AC9E10LA01",
+          "AC9E10LY03"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Implicit evaluation and hidden values",
+        "progression_checkpoint": "Students can identify subtle or implied evaluative language and explain the values it reveals, including how labelling and word choice communicate attitude without stating it explicitly.",
+        "minimum_width": "Identify one example of implicit evaluation in a text (e.g. use of a label like \u2018teenager\u2019 rather than a person\u2019s name) and explain the value it implies.",
+        "typical_width": "Analyse how implicit evaluation operates through labelling, word choice, and framing in a range of texts, explaining the values revealed without being stated.",
+        "wider": [
+          "Compare implicit evaluation in texts representing the same event or person from different perspectives \u2014 e.g. news reports from different outlets \u2014 to identify how different values shape the framing",
+          "Examine how political language uses implicit evaluation to position audiences without making values explicit",
+          "Analyse how implicit evaluation in texts about First Nations Australians has reflected and reinforced colonial values, and contrast with contemporary First Nations-authored texts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Implicit evaluation is harder to see in isolation; students need a range of examples \u2014 especially contrasting texts on the same topic \u2014 to develop the inference skill reliably.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "The reasoning move from \u2018what word was chosen\u2019 to \u2018what value that implies\u2019 requires explicit scaffolding \u2014 students tend to notice explicit evaluation but miss how word choice silently signals attitude."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Implicit evaluation is present across all text types and is particularly rich in political, media and historical texts \u2014 comparative analysis across contexts builds sophisticated reading of how values hide in word choice.",
+        "success_criteria": [
+          "Identifies an example of implicit or subtle evaluation in a text",
+          "Explains what value is implied by the language choice without the text stating it explicitly"
+        ],
+        "related_standards": [
+          "AC9E10LA01",
+          "AC9E10LY03",
+          "AC9E10LE04"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "description": "Width tiers and ACARA elaborations for Digital Technologies Years 7-8 band. Flat lookup by code — applies to both K&U and P strand standards. Renderer merges with main map files at runtime via code key.",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "band": "7-8",
+  "width_notes": {
+    "minimum_width": "Anchored to the primary descriptor verb — the defensible floor.",
+    "typical_width": "Full descriptor scope, grounded in ACARA elaborations — sound standard practice.",
+    "wider": "Enrichment directions from elaborations and reasonable extensions. Example directions only — not exhaustive or prescriptive.",
+    "elaborations": "ACARA v9 elaborations verbatim. Source data for the width tiers."
+  },
+  "standards": {
+    "AC9TDI8K01": {
+      "minimum_width": "Explain how key hardware specifications affect performance; select appropriate hardware for a given task.",
+      "typical_width": "Explain how different specifications (RAM, bandwidth, storage) affect specific tasks; compare hardware options for a given workload and justify the selection.",
+      "wider": [
+        "Investigate how hardware access inequality affects performance in remote First Nations communities",
+        "Explore how GPU vs CPU specifications affect AI model training speed",
+        "Research how cloud computing changes hardware selection decisions"
+      ],
+      "elaborations": [
+        "explaining how hardware specifications affect what, and how quickly, a digital system can perform tasks, for example how different bandwidth networks affect download speed and lag or how much random access memory (RAM) is needed for multimedia authoring",
+        "selecting appropriate hardware for particular tasks, for example choosing a powerful graphics card for computer gaming or large external storage for video editing",
+        "considering how First Nations Australians communities in areas classified as remote often share access to smartphone and internet services, and how the hardware specifications of these devices affect performance, for example where immediate and extended families share and access data through a single smartphone or device",
+        "explaining how the specifications of components in a system impact the speed with which AI models can be trained; for example, GPUs are more efficient at performing the mathematical calculations necessary for training generative AI than CPUs"
+      ]
+    },
+    "AC9TDI8K02": {
+      "minimum_width": "Investigate how data is transmitted across wired and wireless networks; identify that encryption is used to secure data.",
+      "typical_width": "Compare properties of wired vs wireless networks (bandwidth, latency, reliability); explain why encryption is necessary and how basic algorithms work; explain how TCP handles packet loss.",
+      "wider": [
+        "Investigate a specific encryption algorithm such as XOR or ROT13 in depth",
+        "Explore how network problems propagate through systems and how protocols resolve them",
+        "Research how network infrastructure decisions affect data equity in different communities"
+      ],
+      "elaborations": [
+        "describing physical networks and comparing their properties, for example the bandwidth, latency and reliability of wired versus wireless networks",
+        "explaining why cryptography is necessary for securing data, for example transmitting credit card details over the internet",
+        "exploring simple encryption and decryption algorithms, for example ROT13 and XOR",
+        "explaining how problems occur in network communication and how they can be solved, for example routers can drop packets and how Transmission Control Protocol (TCP) uses acknowledgements to confirm packets have been received"
+      ]
+    },
+    "AC9TDI8K03": {
+      "minimum_width": "Investigate how digital systems use integers to represent text (Unicode), images (RGB pixel values), and audio (amplitude samples).",
+      "typical_width": "Explain how each data type is encoded differently — Unicode character sets for text, RGB channels 0-255 for images, sampling rate and bit depth for audio; compare bitmap and vector image representations.",
+      "wider": [
+        "Investigate how encoding standards like Unicode handle diverse languages and emoji",
+        "Explore how sampling rate and bit depth trade-offs affect audio quality in real applications",
+        "Use a culturally meaningful context such as recording a Welcome to Country to investigate how audio data is captured, stored and played back"
+      ],
+      "elaborations": [
+        "explaining how digital systems represent text as a sequence of individual characters numbered using the Unicode character set, for example upper-case and lower-case letters, punctuation and emoji",
+        "explaining how digital systems represent audio using whole numbers for the amplitude of the soundwave at a given sampling rate, for example -32,768 to 32,767 for 16-bit audio at 44,100 Hz",
+        "explaining how digital systems represent bitmap images (for example PNG and JPEG) as the colour of each pixel in separate red, green and blue (RGB) channels ranging from 0 to 255, and represent Scalable Vector graphics (SVG) using the geometry of lines and shapes",
+        "investigating how a digital system converts audio data to integers as it records, stores and outputs sound, for example using the Welcome to Country app to understand the local history and Traditional Owners of the lands which students learn on to inform the programming of an Acknowledgement of Country in a local First Nations Australian language"
+      ]
+    },
+    "AC9TDI8K04": {
+      "minimum_width": "Explain how integers are represented in binary and why digital systems use binary; count in binary and convert between binary and decimal.",
+      "typical_width": "Explain the relationship between bits, bytes and the range of values representable; demonstrate how circuits use binary states (AND/OR gates); connect binary integer representation to text and data encoding from K03.",
+      "wider": [
+        "Investigate how logic gates combine to perform binary arithmetic",
+        "Explore overflow errors and what happens when integer range is exceeded in real systems",
+        "Research how binary representation scales from simple integers to complex data types"
+      ],
+      "elaborations": [
+        "explaining how whole numbers can be represented in binary, for example counting in binary from 0 to 31, and recognising that one byte = 8 bits, which can represent from 0 to 255",
+        "explaining how digital systems represent data in binary, for example by converting a character to its Unicode value, then converting that value into binary",
+        "explaining how circuits can perform binary operations represented as on/off states, for example showing how circuits with 2 switches can represent AND or OR gates"
+      ]
+    },
+    "AC9TDI8P01": {
+      "minimum_width": "Acquire and store data from a source using spreadsheets or databases; apply basic validation.",
+      "typical_width": "Design data acquisition for a specific question; judge data relevance, currency and reliability; store in appropriate format for intended analysis.",
+      "wider": [
+        "Investigate geographic distribution data from ABS to identify trends in First Nations populations",
+        "Evaluate how training data bias affects AI model output",
+        "Compare data quality across multiple sources for the same question"
+      ],
+      "elaborations": [
+        "acquiring data to answer questions for their own investigations, for example answering \"Does the canteen sell the right food?\" by designing a survey to collect food preferences data and accessing canteen sales data",
+        "judging how meaningful data is to a question, its correctness and how up to date the data is, for example \"Does age affect the chance of cyclist injury?\", \"Are self-reported accidents reliable?\" and \"Is the data before cycleways existed relevant?\"",
+        "storing acquired data using specialised and general software appropriate for how it will be accessed and manipulated, for example a spreadsheet for visualisation or a pre-defined database for filtering and queries",
+        "acquiring, storing and validating data from a reputable source, such as the Australian Bureau of Statistics, to analyse the geographic distribution of First Nations Australians, with the aim to highlight past and emerging trends",
+        "ensuring that the data used to train an AI model minimises any potential biases in its output and is representative of the target audience; for example, training a model on data collected from a single demographic group may not produce correct outputs for a more diverse population"
+      ]
+    },
+    "AC9TDI8P02": {
+      "minimum_width": "Analyse and visualise data using software; identify a trend and draw a conclusion.",
+      "typical_width": "Choose appropriate visualisation types for multidimensional data; summarise by attributes to make predictions; explain reasoning behind conclusions.",
+      "wider": [
+        "Use AI to generate queries and compare against manual analysis",
+        "Evaluate a predictive model's output against manually tagged data",
+        "Investigate how visualisation choices can reveal or obscure patterns"
+      ],
+      "elaborations": [
+        "summarising data based on its attributes to identify trends and make predictions, for example sorting crime data by type of offence, showing that burglaries have decreased over time to predict fewer burglaries will happen next year",
+        "visualising multidimensional data by choosing appropriate graphs, for example a scatter plot of food prices and sales, coloured by each food's sugar content, or diagrams such as a social network diagram and maps of crime rates by location to reveal trends, outliers or other information",
+        "using an AI model with a natural language interface to generate queries to perform analysis; for example, describing a database schema and asking the model to generate an SQL query to find results that match a set of criteria",
+        "comparing the analysis performed by a trained predictive AI model with other analysis techniques; for example, comparing the output from a classification model against data tagged manually to verify its accuracy and effectiveness"
+      ]
+    },
+    "AC9TDI8P03": {
+      "minimum_width": "Model objects and events as structured data with relevant attributes; perform a basic query.",
+      "typical_width": "Use spreadsheet tables with appropriate column formats; filter and sort to answer questions; write simple SQL queries with SELECT, WHERE and ORDER BY.",
+      "wider": [
+        "Design a database schema for a real-world context and justify attribute choices",
+        "Investigate how query design affects what patterns are visible in data",
+        "Explore how structured data modelling underpins a real application"
+      ],
+      "elaborations": [
+        "modelling objects and events as structured data, that is, the attributes relevant to the task, for example products in the canteen and the sale of those products, with attributes such as the product name, price, quantity and nutritional value",
+        "using a spreadsheet table to model objects and events, including choosing appropriate formats for each column, and filtering and sorting rows to answer questions",
+        "interpreting and querying single-table databases using visual or simple SQL queries with SELECT, WHERE and ORDER BY clauses, for example answering queries in a database for a historical event"
+      ]
+    },
+    "AC9TDI8P04": {
+      "minimum_width": "Define a real-world problem and decompose it into parts using given design criteria and user stories.",
+      "typical_width": "Frame a problem with design criteria, break it into sub-questions, create user stories that capture user needs; justify decomposition decisions.",
+      "wider": [
+        "Apply decomposition to a problem sourced from a First Nations community context",
+        "Use AI tools to assist decomposition and critically evaluate the output",
+        "Investigate how problem framing affects solution direction"
+      ],
+      "elaborations": [
+        "framing a problem in terms of what we know, why it is important and the outcome we want, for example matching the items in your fridge to possible recipes to reduce food waste",
+        "asking a series of questions and sub-questions to understand the problem and breaking it down into manageable parts, for example \"How do we keep track of what items are in the pantry? Are there any dietary requirements that need to be considered?\"",
+        "making predictions about future population distribution of First Nations Australians based on identified trends, for example analysing and visualising data using spreadsheets and databases on their population growth in metropolitan areas"
+      ]
+    },
+    "AC9TDI8P05": {
+      "minimum_width": "Design an algorithm with nested control structures; represent it in flowcharts or pseudocode.",
+      "typical_width": "Design and represent algorithms with nested IF and loops in both flowchart and pseudocode; explain design decisions at each branching point.",
+      "wider": [
+        "Modify an existing algorithm to fix errors or change functionality",
+        "Design algorithms for real-world contexts such as currency calculation or change-giving",
+        "Evaluate whether a design could be simplified without losing functionality"
+      ],
+      "elaborations": [
+        "designing an algorithm or modifying an existing algorithm to fix an error or change functionality, for example calculating the coins and notes needed for an amount of money and changing the algorithm to handle new denominations",
+        "describing algorithms precisely in pseudocode (structured English) or with flowcharts for each part of the problem, for example using separate flowcharts to describe the purchase of an item and the giving of change during the purchase",
+        "describing algorithms with nested control structures, including a nested if, for example IF it is raining THEN [IF parents are home THEN drive to school]; or an IF inside a loop, for example REPEAT [select the largest coin smaller than the remaining total, and subtract it] UNTIL the remainder is zero"
+      ]
+    },
+    "AC9TDI8P06": {
+      "minimum_width": "Trace an algorithm step by step to predict output for a given input.",
+      "typical_width": "Specify test cases with expected and actual output; identify and explain errors found through tracing; use a desk check table systematically.",
+      "wider": [
+        "Apply tracing to algorithms inspired by First Nations manufacturing processes",
+        "Evaluate how test case selection affects confidence in algorithm correctness",
+        "Investigate how automated testing tools extend manual tracing"
+      ],
+      "elaborations": [
+        "following an algorithm precisely to confirm it produces the expected output for the given input, for example desk check with a table of input, variables and output",
+        "specifying test cases and comparing the expected and actual output to determine the correctness of an algorithm, for example a test case of the change-calculating algorithm could have input $1.45 and expected output 1 x $1, 2 x 20c and 1 x 5c coins",
+        "following instructions for making woven baskets or nets by hand, as done by First Nations Australians, and making predictions of how the instructions would need to be modified to enable the item to be produced through automated manufacturing processes"
+      ]
+    },
+    "AC9TDI8P07": {
+      "minimum_width": "Design a user interface or experience to satisfy given design criteria and user stories.",
+      "typical_width": "Sketch multiple pages using wireframes and storyboards; apply basic branding guidelines; justify design decisions against user stories.",
+      "wider": [
+        "Investigate how brand alignment with user values affects product appeal beyond utility",
+        "Compare the evolution of a real interface over time and explain design shifts",
+        "Evaluate accessibility considerations in UX design decisions"
+      ],
+      "elaborations": [
+        "designing a user interface or experience to satisfy design criteria and user stories, using digital tools, for example sketch multiple pages of a website with wireframes, storyboards and simple branding guidelines for colours and styling",
+        "considering the factors of why a user might buy and use a product, in addition to its utility, for example how aligning the brand with the user's values and identity contributes to its appeal",
+        "exploring the evolution of a user interface, for example comparing the design and branding of different search engines over time"
+      ]
+    },
+    "AC9TDI8P08": {
+      "minimum_width": "Generate and communicate at least two alternative designs; evaluate against design criteria.",
+      "typical_width": "Use concept maps, wireframes or diagrams to record and discuss ideas; modify a preferred design iteratively; evaluate against user stories.",
+      "wider": [
+        "Use generative AI to produce multiple prototypes and evaluate against user needs",
+        "Research how iterative design processes work in professional contexts",
+        "Evaluate how design decisions affect diverse user groups"
+      ],
+      "elaborations": [
+        "reviewing and modifying a preferred design as part of the iterative development approach, for example making changes to overcome limitations of the design or better satisfy the user stories",
+        "using concept maps, wireframes or other diagrams to record and discuss the generated ideas, for example creating and discussing wireframes of a music streaming service, evaluating it against design criteria and user stories, such as the needs of diverse users",
+        "comparing multiple outputs from a generative model to determine the most suitable; for example, using AI tools to generate multiple prototypes of a user interface and selecting the design or features that best address users' needs"
+      ]
+    },
+    "AC9TDI8P09": {
+      "minimum_width": "Implement a working program using control structures and functions in a general-purpose language.",
+      "typical_width": "Implement, modify and debug programs with branching, iteration, variables and functions; read and interpret existing code and change its functionality.",
+      "wider": [
+        "Write programs that receive real-world input such as sensor or environment data",
+        "Apply to open-ended student-chosen problems with self-selected context",
+        "Use AI tools to generate code and critically evaluate its correctness and efficiency"
+      ],
+      "elaborations": [
+        "writing and editing programs to solve problems using branching, iteration, variables and functions in a general-purpose programming language, such as Python, JavaScript or C#",
+        "reading and interpreting an existing program and modifying the code to change functionality and fix errors, for example taking existing code for a weather forecasting app that includes temperatures and improving the output to include extra information such as rainfall, UV levels and air quality",
+        "writing a program that receives data from the environment to change the program behaviour, for example reading moisture level data from a soil sensor and switching on the watering system",
+        "writing a program that contains nested control structures to perform more complicated branching and decisions, for example using an IF statement inside a loop to count the warm days from an array containing temperature data only when the temperature for each day is more than 20 degrees Celsius",
+        "defining and using a function that produces different output based on the argument(s) it receives, for example a function that receives the name of an actor from user input, and searches a file or database to return a list of movies that actor appears in"
+      ]
+    },
+    "AC9TDI8P10": {
+      "minimum_width": "Evaluate a solution against design criteria and user stories.",
+      "typical_width": "Evaluate against criteria, user stories and possible future impact across economic, environmental or social dimensions.",
+      "wider": [
+        "Evaluate how AI-generated content on platforms creates misinformation risks",
+        "Assess a real platform against Safety by Design principles for young people",
+        "Research how cloud computing sustainability trade-offs affect design decisions"
+      ],
+      "elaborations": [
+        "evaluating how an existing solution ensures users can control their safety and experience online as described in the Safety by Design Vision for Young People, for example ensuring privacy settings are comprehensive, easy to use and set to maximum protection by default",
+        "reviewing the requirements of a user story to ensure that their solution meets the user's needs, for example making sure that recommendations offered by their music application are of a similar genre to the rest of the user's library",
+        "judging existing solutions on the basis of their possible impact on the economy, environment or society, for example cloud computing services decrease data loss but require vast amounts of electricity to power the servers",
+        "discussing the risks and consequences of AI-generated content on social media platforms; for example, the potential for the spread of misinformation due to high volumes of automatically generated and intentionally misleading content being posted"
+      ]
+    },
+    "AC9TDI8P11": {
+      "minimum_width": "Select and use digital tools to create, locate and communicate content; apply common conventions.",
+      "typical_width": "Explore unfamiliar features to improve efficiency; apply conventions consistently including heading hierarchy, captions and inclusive language.",
+      "wider": [
+        "Use generative AI prompting effectively for a constrained communication task",
+        "Use progressive prompting to refine AI output and evaluate improvements",
+        "Investigate how tool selection affects audience reach and accessibility"
+      ],
+      "elaborations": [
+        "locating relevant content from multiple sources, exploring advanced search functions and targeted criteria, for example using specific filters such as date range, image size, file type and usage licence",
+        "selecting and using appropriate digital tools, for example when participating in online lessons or planning sessions using a common video conferencing tool",
+        "applying common conventions consistently when creating content, for example organising content in paragraphs and within a heading hierarchy, writing captions to describe images and using gender-inclusive pronouns, where appropriate",
+        "creating logical storage locations for project assets and resources together with an outline to ensure collaborators are up to date, for example creating a logical storage area for a group to share content and ideas in a timely manner about the canteen issue they are solving",
+        "using effective prompts with generative AI models to create output that is better suited to the problem being solved; for example, specifying the voice, tone and brevity for a persuasive news article with a restrictive word limit",
+        "using a progressive series of prompts with generative models to refine output to improve its correctness; for example, performing translation from one language to another and instructing the model to correct errors in translation"
+      ]
+    },
+    "AC9TDI8P12": {
+      "minimum_width": "Use digital tools to share content and manage tasks for a project.",
+      "typical_width": "Set up shared collaborative spaces; record tasks, responsibilities and timeframes; demonstrate agile practices across a project.",
+      "wider": [
+        "Apply cultural protocols when collaborating with First Nations community groups on digital projects",
+        "Use AI tools to decompose project tasks and evaluate the output",
+        "Investigate how agile practices differ across professional contexts"
+      ],
+      "elaborations": [
+        "collaborating effectively online using cloud storage, for example setting up and managing a shared space in an online repository to co-develop content for an app which presents and checks safety aspects of working in a specific setting such as a kitchen, lab, workshop or greenhouse",
+        "displaying empathy for diverse cultural expectations when participating in teams and in online communities, for example showing sensitivity around images or names of deceased people, and valuing the intellectual property and perspectives of others",
+        "demonstrating agile project management skills and understanding, for example when collaborating with First Nations Australians' community groups to develop digital solutions to projects: following cultural protocols, including relevant permissions and attributions; acknowledging diversity, capability and strength; and addressing risks and responsibilities such as privacy, security and accuracy of data",
+        "determining and recording the tasks, responsibilities and timeframes for a collaborative project, for example using a spreadsheet to record tasks and their sequence, critical dates and who is responsible for each task so a project can be finished on time",
+        "using AI tools to decompose high-level instructions into more detailed steps to assist with completing a task; for example, asking an AI model to break down the steps involved in building a website from scratch"
+      ]
+    },
+    "AC9TDI8P13": {
+      "minimum_width": "Explain how MFA protects an account; identify phishing as a cyber security threat.",
+      "typical_width": "Explain how MFA works in practice (SMS token, one-time password); identify common phishing techniques and how they exploit users.",
+      "wider": [
+        "Investigate a real phishing case and analyse the techniques used",
+        "Evaluate how MFA implementation varies across different platforms",
+        "Research how social engineering exploits human behaviour beyond technical vulnerabilities"
+      ],
+      "elaborations": [
+        "explaining how multi-factor authentication prevents unauthorised access by prompting the account owner for a token or single-use password, for example demonstrating how a funds transfer from their bank account requires not only logging in, but provision of a one-time password received via SMS",
+        "identifying the common techniques used in phishing scams to identify and exploit susceptible users, for example using an email address from an unofficial domain when pretending to be an online retailer, or including grammatical errors to help filter out users who are more likely to detect the scam"
+      ]
+    },
+    "AC9TDI8P14": {
+      "minimum_width": "Investigate what digital footprint data a system collects; assess whether the data is essential to its purpose.",
+      "typical_width": "Review and manage privacy settings across online tools; research a platform's privacy policy for data collection and storage; assess relevance of data collected by surveys.",
+      "wider": [
+        "Investigate how recommendation algorithms rely on footprint data to generate personalised content",
+        "Evaluate deepfake risks arising from shared personal data",
+        "Research how the Australian Privacy Principles apply to student-built solutions"
+      ],
+      "elaborations": [
+        "investigating the ethical obligations of individuals and organisations regarding ownership and privacy of data and information by researching an online platform's privacy policy for data collection, use and storage information and discussing impacts on digital footprint",
+        "reviewing and managing their digital footprint across online digital tools that they use, for example selecting their default privacy and sharing settings on social media accounts",
+        "investigating how recommendation algorithms used in media services rely on data that tracks user habits, for example how music streaming services generate playlists that contain songs from genres and artists that are similar to those you listen to regularly",
+        "assessing the appropriateness and relevance of data collected by surveys from other students and organisations they complete online, for example identifying that providing your address data is not necessary for a survey asking about your food preferences but providing the address for the Census would be appropriate",
+        "explaining the risks associated with sharing personal data due to the ease with which generative AI models can create new content; for example, from short videos and audio recordings it is possible for convincing deepfake videos to be generated and distributed for malicious purposes"
+      ]
+    }
+  }
+}

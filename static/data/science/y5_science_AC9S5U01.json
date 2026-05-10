@@ -1,0 +1,98 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5U01",
+    "title": "Structural Features and Survival",
+    "description": "examine how particular structural features and behaviours of living things enable their survival in specific habitats",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can explain the roles of producers, consumers and decomposers in a habitat and describe food chains (AC9S4U01). They can identify physical conditions of habitats at a surface level but have not yet examined the specific structural and behavioural adaptations that enable individual organisms to survive in those conditions.",
+    "progression_endpoint": "Students examine structural features (physical characteristics) and behaviours of plants and animals that enable survival in specific habitats, explain the function of each feature or behaviour in terms of the survival challenge it addresses, and connect these to the physical conditions of the habitat.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Structural features are physical characteristics that aid survival",
+        "progression_checkpoint": "Students can identify structural features of plants and animals and explain how each feature addresses a specific survival challenge in the organism's habitat.",
+        "minimum_width": "Students identify at least three structural features of a named organism and explain how each feature enables survival in its specific habitat.",
+        "typical_width": "Students examine structural features across multiple organisms from different habitats, explain the function of each feature in terms of the survival challenge it addresses (obtaining food, conserving water, avoiding predators, regulating temperature), and compare how different organisms solve the same survival challenge in different ways.",
+        "wider": [
+          "Use physical or digital simulations to explore how beak shape in birds influences food-finding success — examining the relationship between structural feature and habitat resource availability",
+          "Investigate First Nations Australians' knowledge of structural features of certain species and how those features can be identified and exploited sustainably",
+          "Examine how biofluorescence in mammals (wombats, bilbies, platypus) was discovered through scientific collaboration — connecting structural feature discovery to scientific practice (AC9S5H01)"
+        ],
+        "hinge": true,
+        "hinge_reason": "The feature-function-habitat reasoning chain is prerequisite for Node 2 and Node 3 — students who only list features without explaining their survival function cannot explain behavioural adaptations (N2) or connect features to specific habitat conditions (N3). The descriptor requires explanation, not identification, and thin treatment at N1 produces a feature-listing habit that persists through the unit.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe structural features without explaining their function — 'the camel has a hump' without 'the hump stores fat that can be metabolised for water and energy in a desert habitat where food and water are scarce'. Making the feature-to-function-to-habitat-condition chain explicit is the scaffold that produces genuine biological reasoning rather than a list of facts.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations knowledge of structural features for sustainable use provides a sophisticated, culturally grounded direction. The beak shape simulation provides a genuinely investigable relationship between structural feature and survival outcome.",
+        "success_criteria": [
+          "Identifies at least three structural features of a named organism",
+          "Explains how each feature addresses a specific survival challenge in the organism's habitat"
+        ],
+        "related_standards": ["AC9S5H01", "AC9S6U01"]
+      },
+      {
+        "id": 2,
+        "label": "Behaviours also enable survival in specific habitats",
+        "progression_checkpoint": "Students can identify behavioural adaptations of organisms and explain how each behaviour addresses a specific survival challenge — distinguishing behavioural from structural adaptations.",
+        "minimum_width": "Students identify at least two behavioural adaptations of a named organism and explain how each behaviour aids survival in its habitat.",
+        "typical_width": "Students explain behavioural adaptations (nocturnal activity, migration, camouflage behaviour, social grouping, hibernation) across multiple organisms, explain the survival function of each behaviour, and distinguish between structural features (physical) and behavioural adaptations (actions).",
+        "wider": [
+          "Investigate how camouflage functions as both a structural (colour, pattern) and behavioural (stillness, movement timing) adaptation — examining how the two work together",
+          "Explore features and behaviours of living things in Australia's desert environments — bottle trees, water-holding frogs, thorny devils — and explain how each addresses water scarcity",
+          "Use simulations to model how camouflage affects predation rates — examining the relationship between behavioural adaptation and survival probability"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly think of adaptation only in terms of physical features (sharp claws, thick fur) and overlook behavioural adaptations, or they treat behaviours as choices rather than as evolved survival strategies. Encountering behavioural adaptations across varied organisms and habitat types builds a more complete model of how living things are suited to their environments."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two behavioural adaptations of a named organism and explains the survival function of each",
+          "Distinguishes between a structural feature and a behavioural adaptation for the same organism"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Features and behaviours match the challenges of specific habitats",
+        "progression_checkpoint": "Students can connect the structural features and behaviours of an organism to the specific physical conditions and challenges of its habitat — explaining why this organism is well-suited to this habitat and less suited to a different one.",
+        "minimum_width": "Students explain why a named organism is well-suited to its specific habitat by connecting at least two features or behaviours to the physical conditions of that habitat.",
+        "typical_width": "Students compare two organisms from different habitats, explain how each is suited to its own habitat's conditions, and predict what challenges each would face if placed in the other's habitat — using this to demonstrate that adaptation is habitat-specific, not universally 'better'.",
+        "wider": [
+          "Pose and investigate questions about survival: 'Do all animals living in desert habitats have ways to survive without water?' — examining whether habitat challenges predict adaptation patterns",
+          "Examine how decisions are made to farm particular crops or animals based on local habitat conditions — connecting biological adaptation knowledge to agricultural decision-making (AC9S5H02)",
+          "Research how introduced species that lack local adaptations affect native species — examining what happens when organism-habitat matching breaks down"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to integrate structural feature knowledge, behavioural adaptation knowledge and habitat condition knowledge in a single explanatory account. Students must coordinate all three to explain organism-habitat fit and predict mismatch consequences — this is the synthesis challenge of the descriptor.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The farming decision direction (AC9S5H02) connects adaptation knowledge to a real human application context. The introduced species direction extends the organism-habitat fit concept to an ecological consequence with genuine contemporary relevance.",
+        "success_criteria": [
+          "Connects at least two features or behaviours to specific physical conditions of a named habitat",
+          "Predicts at least one challenge an organism would face if placed in a different habitat, with reasoning"
+        ],
+        "related_standards": ["AC9S5H02", "AC9S6U01"]
+      }
+    ]
+  }
+}

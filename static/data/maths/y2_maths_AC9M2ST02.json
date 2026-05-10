@@ -1,0 +1,64 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2ST02",
+    "title": "Compare graphical representations",
+    "strand": "Statistics",
+    "mode": "B",
+    "description": "create different graphical representations of data using software where appropriate; compare the different representations, identify and describe common and distinctive features in response to questions",
+    "prior_knowledge": "Students represent and compare data using picture graphs and simple tables (AC9M1ST02). They have not yet created multiple different graphical representations of the same dataset or compared their common and distinctive features.",
+    "progression_endpoint": "Students create different graphical representations of the same data using software where appropriate, and compare them by identifying and describing common and distinctive features in response to questions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Creating a second representation",
+        "progression_checkpoint": "Students can represent the same dataset in two different ways (e.g. picture graph and column graph) and confirm both show the same data.",
+        "minimum_width": "Create two different representations of the same small dataset; confirm both show the same totals for each category.",
+        "typical_width": "Create two different graphical representations (from: picture graph, column graph, dot plot, tally chart, list); use digital tools where appropriate; confirm both represent the same data; add appropriate titles and category labels.",
+        "wider": [
+          "Use digital tools including AI to create picture graphs with one-to-one correspondence; decide on appropriate title and whether categories suit the context",
+          "Represent country-of-birth data for the class using two different representations; compare and discuss"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 comparison is structurally impossible without two complete representations of the same dataset. Students who cannot produce the second representation cannot engage with the comparison at all.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates two different representations of the same dataset",
+          "Confirms both representations show the same value for each category"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Comparing common and distinctive features",
+        "progression_checkpoint": "Students can identify what is the same and what is different about two graphical representations of the same data.",
+        "minimum_width": "Identify at least one feature that is the same and one that is different between two representations of the same data.",
+        "typical_width": "Compare two representations of the same data; identify common features (same categories, same totals, same data); identify distinctive features (different visual form, different ease of reading, different scale or layout); describe each representation's information and how easy or hard it is to interpret.",
+        "wider": [
+          "Compare a picture graph and column graph of the same data; describe how they look different but represent the same information; discuss which is easier to read and why",
+          "Compare three representation types for the same data (e.g. tally chart, picture graph, column graph); rank from easiest to hardest to interpret and justify"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often assume different-looking representations show different data. Working across multiple dataset types and multiple representation pairs builds the understanding that the form is independent of the data — the same data can look many different ways.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing representations for ease of interpretation and fitness for purpose is genuinely rich statistical reasoning. Advancing students can articulate why one representation suits a particular question better, connecting data representation choices to communicative purpose.",
+        "success_criteria": [
+          "Identifies at least one common feature between two representations of the same data",
+          "Identifies at least one distinctive feature between the two representations",
+          "Confirms both representations show the same data despite looking different"
+        ],
+        "related_standards": ["AC9M2ST01"]
+      }
+    ]
+  }
+}

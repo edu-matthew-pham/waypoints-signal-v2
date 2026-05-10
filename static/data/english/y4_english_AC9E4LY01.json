@@ -1,0 +1,68 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LY01",
+    "title": "Texts across time and context",
+    "description": "compare texts from different times with similar purposes and audiences to identify similarities and differences in their depictions of events",
+    "strand": "Literacy / Texts in context",
+    "mode": "A",
+    "prior_knowledge": "Students recognise how the same purpose can produce different texts when audiences differ (AC9E3LY01). They have not yet compared texts from different time periods to identify how historical context shapes depictions of events.",
+    "progression_endpoint": "Students can compare texts from different historical periods with similar purposes and audiences, identifying similarities and differences in how events are depicted, and explain how the time period shapes the depiction.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Same purpose, different times",
+        "progression_checkpoint": "Students can identify two texts from different time periods with the same purpose and explain what is similar and different about them.",
+        "minimum_width": "Identify two texts from different times with the same purpose and describe one similarity and one difference.",
+        "typical_width": "Compare texts from different periods across at least two dimensions — language choices, visual conventions, what is included or excluded — and explain how each difference relates to the time period in which the text was made.",
+        "wider": [
+          "Compare news coverage of the same type of event (e.g. a major sporting event) from different decades, examining how the depiction has changed",
+          "Compare family communication texts (letters, postcards, emails, texts) across different periods and explain how technology has changed the form while the purpose (staying in contact) remains similar"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2's analysis of how historical context shapes depiction requires students to have already identified two comparable texts from different periods — N1 provides the comparative base N2 builds from.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students need to see multiple cross-period comparisons before the pattern of contextual shaping becomes visible — a single pair of texts is insufficient to reveal that depiction is always contextual rather than occasionally different.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify two texts from different periods with the same purpose",
+          "Can describe at least one similarity and one difference in their depictions"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "How time period shapes depiction",
+        "progression_checkpoint": "Students can explain how the historical context of a text shapes how an event is depicted — what is emphasised, who is visible, what language is used.",
+        "minimum_width": "Explain one way that the time period shapes how an event is depicted in a specific text.",
+        "typical_width": "Analyse how historical context — available technology, social values, who has the power to tell stories — shapes what is included, emphasised and excluded in texts from different periods, drawing on at least two text comparisons.",
+        "wider": [
+          "Examine how the same historical event is depicted in texts from different time periods, including how perspectives have changed as new voices have been included",
+          "Compare how First Nations Australian events or stories have been depicted in texts made at different times, discussing whose perspective is represented and how this has changed"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Without multiple comparative examples, students tend to accept one period's depiction as neutral or accurate. Multiple cross-period comparisons help build critical awareness that all depictions are contextual.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection between historical context and depiction — especially regarding whose perspective is visible — is rich critical literacy territory. First Nations Australian perspective is a significant and important direction.",
+        "success_criteria": [
+          "Can explain one way that time period shapes how an event is depicted",
+          "Does not treat the more recent depiction as automatically more accurate — understands all depictions are contextual"
+        ]
+      }
+    ]
+  }
+}

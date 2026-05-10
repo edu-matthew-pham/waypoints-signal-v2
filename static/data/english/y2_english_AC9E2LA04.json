@@ -1,0 +1,93 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LA04",
+    "title": "Cohesion through pronouns",
+    "description": "understand how texts are made cohesive by using personal and possessive pronouns and by omitting words that can be inferred",
+    "strand": "Text structure and organisation",
+    "mode": "A",
+    "prior_knowledge": "Students explore how repetition, rhyme and rhythm create cohesion in poems, chants and songs (AC9E1LA04). They have not yet examined how pronouns and ellipsis create cohesion in prose and other text types by tracking referents and omitting recoverable information.",
+    "progression_endpoint": "Students can understand how texts are made cohesive through personal and possessive pronouns and through ellipsis (omitting words that can be inferred).",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Tracking a referent",
+        "progression_checkpoint": "Students can track how a person or thing is referred to across a section of text — by name, then by pronoun — and identify which pronoun refers to which entity.",
+        "minimum_width": "In a short passage, identify the noun that a given pronoun refers back to (the referent).",
+        "typical_width": "Map pronoun reference chains across a paragraph — tracking how 'Isy', 'she', 'I', 'sister' all refer to the same character — in both narrative and informative texts.",
+        "wider": [
+          "Track reference chains across multiple characters in a narrative and identify where pronoun reference becomes ambiguous",
+          "Compare pronoun reference chains in first-person vs third-person narratives and discuss how each affects the reader's relationship to the story"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly assume the most recently mentioned noun is always the referent — a positional heuristic that fails with complex reference chains. Multiple textual examples across different pronouns (she/he/they/it) and referent types resolve this. More texts, not more explanation of one example.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Ambiguous pronoun reference is a genuinely rich direction — when 'she' could refer to two characters, students must use broader textual and semantic clues. This is meaningful depth within the Year 2 band.",
+        "success_criteria": [
+          "Student can identify the referent of a personal pronoun in a given sentence.",
+          "Student does not default to naming the most recently mentioned noun as the referent in cases where this would be incorrect."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Personal and possessive pronouns in cohesion",
+        "progression_checkpoint": "Students can explain that personal and possessive pronouns create cohesion by linking back to previously named entities and avoiding repetition.",
+        "minimum_width": "Replace repeated nouns in a short passage with appropriate personal or possessive pronouns and explain why the text flows better.",
+        "typical_width": "Identify personal and possessive pronouns in a range of texts, explain their referents, and discuss how they prevent awkward repetition and create cohesive text flow.",
+        "wider": [
+          "Compare a version of a text with pronouns to a version with all referents named repeatedly, and discuss the effect on the reader",
+          "Write a short passage about a topic that requires tracking multiple entities, using pronouns deliberately for cohesion"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Using pronouns correctly — particularly possessive forms — requires precision and practice. Students who overuse or misapply pronouns (wrong case, ambiguous reference) produce incoherent text. Targeted practice in identifying and producing accurate pronoun use is more effective here than widening contexts.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Pronoun misuse — wrong case or ambiguous reference — produces incoherent text in all written production tasks downstream. Students whose pronoun use is unreliable carry that incoherence into extended writing regardless of other improvements made.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies the referent of both personal and possessive pronouns in a passage.",
+          "Student can substitute a repeated noun phrase with an appropriate pronoun without introducing ambiguity."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Ellipsis — inferring omitted words",
+        "progression_checkpoint": "Students can identify words that have been omitted from a text and explain what can be inferred from the surrounding context.",
+        "minimum_width": "Identify a sentence where a word or phrase has been omitted and state what the missing word is — e.g. 'Xanthe went to school. She had a lovely day [at school is inferred].'",
+        "typical_width": "Identify multiple examples of ellipsis across different text types, explain what is inferred and why the omission is possible, and discuss how ellipsis contributes to text flow.",
+        "wider": [
+          "Compare spoken and written texts to identify where ellipsis is more common and discuss why speakers omit more than writers",
+          "Identify ellipsis in dialogue in a narrative and discuss how it creates natural-sounding conversation"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often perceive omitted words as errors or gaps rather than as deliberate cohesive choices. Examples across both spoken and written contexts, and across formal and informal registers, help students see that ellipsis is purposeful and reader-serving. Multiple context types resolve the 'it's missing' misconception."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify an instance of ellipsis and name what can be inferred.",
+          "Student understands that the omission is intentional and that context makes it recoverable."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "year_level": "10",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH10S02",
+    "title": "Locating and Comparing Historical Sources",
+    "description": "locate, identify and compare primary and secondary sources to use in a historical inquiry",
+    "strand": "Historical Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can locate, identify and compare primary and secondary sources for historical inquiry, selecting sources relevant to a Year 9-level investigation.",
+    "progression_endpoint": "Students locate relevant primary and secondary sources from databases including Trove and state libraries, identify information matching their inquiry questions, and compare multiple sources to select those most pertinent to their research.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Locating sources in databases",
+        "progression_checkpoint": "Students can locate relevant and useful historical sources from databases such as Trove and state libraries, using effective search strategies.",
+        "minimum_width": "Locate at least two relevant sources using a specific database (e.g. Trove or a state library) and explain why each is relevant to the inquiry question.",
+        "typical_width": "Select relevant and useful historical sources from data bases such as Trove and state libraries; develop effective search strategies for locating sources (keyword selection, date filtering, source type filtering); evaluate the relevance of sources found against the inquiry question.",
+        "wider": [
+          "Locate and compare sources across multiple platforms and formats (digitised archives, physical library collections, oral history repositories, museum databases), evaluating how platform and format affect what can be found",
+          "Practise source location for a topic with sparse records — such as local First Nations history or women's history before the 20th century — developing strategies for working with incomplete evidentiary records"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot effectively locate sources cannot begin the comparison and selection work of Node 2 or the analysis work of S03 and S04. Database search skills are the entry condition for independent historical inquiry.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Database searching requires practice with specific platforms. Model the search process in Trove — including how to filter by source type, date, and format — and give students structured practice with a defined inquiry question before expecting independent location.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locate at least two relevant sources using a specific database",
+          "Explain the search strategy used and why it was appropriate for the inquiry question",
+          "Evaluate the relevance of each source found against the inquiry question"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Identifying and comparing sources",
+        "progression_checkpoint": "Students can identify information in sources that matches their inquiry questions and compare multiple sources to select those most pertinent to the research.",
+        "minimum_width": "Identify specific information in at least two sources that matches the inquiry question and explain which source is more useful and why.",
+        "typical_width": "Identify information in primary and secondary sources that matches the historical questions being asked; compare multiple primary or secondary sources and select the source(s) most pertinent to the historical research being conducted; explain the basis for selection — what does this source offer that others do not?",
+        "wider": [
+          "Compare sources across different platforms and formats for the same inquiry question, evaluating how access method (digitised vs physical, database vs library catalogue) affects which sources are findable and therefore which perspectives are represented in the historical record",
+          "Apply source comparison skills to a topic where sources from marginalised groups are systematically underrepresented — examining what the gaps in the source record reveal about whose voices have been preserved"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Source comparison requires explicit criteria — students need to know what they are comparing sources against (relevance to question, recency, bias, accessibility of information) before they can make a principled selection rather than an arbitrary one."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identify specific information in at least two sources that matches the inquiry question",
+          "Compare at least two sources and explain which is more useful for the specific inquiry question and why",
+          "Demonstrate a selection decision — choosing the most pertinent source(s) and explaining the basis for the choice"
+        ]
+      }
+    ]
+  }
+}

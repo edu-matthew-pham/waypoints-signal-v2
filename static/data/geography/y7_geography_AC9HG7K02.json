@@ -1,0 +1,157 @@
+{
+  "year_level": "7",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG7K02",
+    "title": "Water distribution and sustainability",
+    "description": "the location and distribution of water resources in Australia, their implications, and strategies to manage the sustainability of water",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students have completed AC9HG7K01 — they can classify water as a renewable/continuous/non-renewable resource, trace water movement connecting places, and explain environmental, economic and social effects. They can locate Australia broadly but have not previously examined the spatial distribution of Australia's water resources or the concept of sustainability applied specifically to water.",
+    "progression_endpoint": "Students explain the location and distribution of water resources in Australia, their implications for people, and strategies to manage water sustainability.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Locating and representing Australia's water resources",
+        "progression_checkpoint": "Students can represent the location of Australia's major water resources (surface water and groundwater) and describe the pattern of their distribution.",
+        "minimum_width": "Students identify at least two types of water resource location in Australia (e.g. surface water in a river system, a major groundwater basin) and describe a basic distributional pattern.",
+        "typical_width": "Students represent the location of Australia's surface water (rivers, lakes, reservoirs) and groundwater (aquifers, the Great Artesian Basin) on a map and describe the uneven distribution of these resources across the continent.",
+        "wider": [
+          "Analyse temporal variation — represent not just where water is located but how availability changes seasonally and across drought/flood cycles using historical data",
+          "Compare Australia's water resource distribution with a country in Asia with contrasting distribution (e.g. Japan, India) to identify what makes Australia's distribution distinctive",
+          "Examine the difference between 'water exists here' and 'water is accessible here' — mapping accessible versus total water resources"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot accurately read or produce a distribution map will be unable to engage with the implications analysis in nodes 2–3. Spatial literacy with distribution maps is the foundation for the rest of this standard.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Constructing and reading distribution maps requires repeated practice with cartographic conventions. Students who have only seen maps need guided practice constructing one before interpreting distribution patterns.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Represents the location of at least two types of Australian water resource on a map, applying appropriate cartographic conventions.",
+          "Describes the distributional pattern of water resources across Australia, identifying which regions have greater or lesser access."
+        ],
+        "related_standards": ["AC9HG7S02"]
+      },
+      {
+        "id": 2,
+        "label": "Causes and factors of water variability and scarcity",
+        "progression_checkpoint": "Students can distinguish between physical and economic causes of water scarcity, and explain factors that contribute to variability in water resources.",
+        "minimum_width": "Students identify at least one physical cause and one economic cause of water scarcity, and name at least two factors contributing to variability.",
+        "typical_width": "Students explain physical causes (absolute shortage — climate, geography), economic causes (inadequate development of water infrastructure) and use-based causes (competing demands) of water scarcity, and explain factors such as location, climate, topography, seasonality and evaporation that contribute to variability in water resources.",
+        "wider": [
+          "Compare a place experiencing physical water scarcity (e.g. remote arid Australia) with a place experiencing economic water scarcity (e.g. parts of developing Asia) — examine whether the same strategies are effective for both",
+          "Investigate the role of climate variability (ENSO) as a driver of temporal variability in Australia's water resources, using historical records",
+          "Analyse how population growth and changing land use interact with natural variability to compound water scarcity"
+        ],
+        "hinge": true,
+        "hinge_reason": "Confusing physical and economic causes of scarcity leads to mismatched strategy evaluation in node 4 — students recommend engineering solutions for economic scarcity or policy solutions for physical scarcity without examining fit. The cause-strategy match is the core analytical move in this standard.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The three cause types (physical, economic, use-based) are commonly collapsed into a single 'not enough water' explanation. Explicitly scaffolding the causal chain — what is scarce vs what limits access vs who uses how much — grounds the distinction before strategy evaluation.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing physical and economic scarcity in different contexts (arid Australia vs under-resourced communities with available water) resolves the misconception that scarcity is purely about quantity.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The distinction between physical and economic scarcity is a genuinely transferable analytical tool — it underpins understanding of water management debates globally. Students who can apply this distinction to contrasting contexts have a more robust geographical toolkit.",
+        "success_criteria": [
+          "Distinguishes between a physical cause and an economic cause of water scarcity in Australia, using an example for each.",
+          "Identifies at least two factors (e.g. climate, topography, seasonality) that contribute to variability in Australia's water resources and explains how each operates."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Implications of distribution for people",
+        "progression_checkpoint": "Students can explain implications of Australia's water distribution for people in different settlement types, including people in rural and remote places.",
+        "minimum_width": "Students explain at least one implication of Australia's water distribution for people in rural or remote places.",
+        "typical_width": "Students compare access to water for people in urban, rural, and remote/very remote settlements, explaining how the distribution of water resources creates different levels of access and different implications for health, economic activity and daily life.",
+        "wider": [
+          "Examine a specific remote community's water access story — e.g. a remote Indigenous community dependent on bore water — and identify the compounding social, economic and health implications",
+          "Analyse how virtual water trade affects which populations bear the real burden of water-intensive production",
+          "Compare historical and current water access in a growing peri-urban area to show how rapid population growth alters implications"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Urban students may assume water is reliably available everywhere. Widening to rural, remote and very remote contexts — especially Indigenous communities with limited water infrastructure — builds genuine understanding of distributional inequity.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The implications for remote and Indigenous communities are an important equity dimension that is often under-explored. Widening here produces deeper understanding of the relationship between water distribution and social justice — relevant to civics and ethical reasoning as well as geography.",
+        "success_criteria": [
+          "Explains at least two implications of water distribution for people in a specific rural or remote place, connecting the resource distribution pattern to a lived consequence.",
+          "Compares water access in at least two different settlement types (e.g. urban vs remote), identifying a key difference in implication."
+        ],
+        "related_standards": ["AC9HG7K06", "AC9HG7K07"]
+      },
+      {
+        "id": 4,
+        "label": "Strategies for water sustainability",
+        "progression_checkpoint": "Students can explain how a water management strategy may improve the sustainability of water resources, identifying the problem it addresses and trade-offs involved.",
+        "minimum_width": "Students explain one water management strategy and identify the problem it addresses.",
+        "typical_width": "Students examine at least two strategies (e.g. grey water recycling, stormwater harvesting, desalination, inter-regional transfer, demand reduction) and explain how each addresses a specific cause of water scarcity or sustainability problem, including shared/competing uses as a reason sustainability is difficult.",
+        "wider": [
+          "Evaluate a strategy against criteria — effectiveness, cost, environmental impact, equity of access — and argue for or against its applicability to a specific Australian context",
+          "Compare desalination (capital-intensive, supply-side) with demand management (behavioural, demand-side) — examine which approach better addresses water sustainability and under what conditions",
+          "Research virtual water trade as a strategy — examine how food import/export decisions can reduce or increase a country's effective water demand"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often default to a single 'save water' solution. Widening across supply-side (desalination, transfer), demand-side (recycling, reduction) and governance (trade, pricing) strategies builds understanding that no single approach solves sustainability.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of strategies in the elaborations spans technical, behavioural and governance approaches. Students who engage with multiple strategies at a comparative level develop stronger analytical skills for the K04 hazard response analysis and the broader XY curriculum.",
+        "success_criteria": [
+          "Explains how at least one water management strategy addresses a specific sustainability problem, naming the cause of the problem and how the strategy targets it.",
+          "Identifies at least one reason water sustainability is difficult to manage, such as shared uses, competing demands or supply variability."
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Integration: distribution, implications and management",
+        "progression_checkpoint": "Students explain the location and distribution of water resources in Australia, their implications for people, and strategies to manage water sustainability — integrating spatial, social and management analysis.",
+        "minimum_width": "Students produce an explanation that connects Australia's water distribution to at least one implication for people and one management strategy.",
+        "typical_width": "Students produce an integrated analysis of an Australian water management case that addresses: where water resources are distributed, implications of that distribution for a specific population, why sustainability is difficult, and how a strategy attempts to address the problem.",
+        "wider": [
+          "Develop a case study of the Murray-Darling Basin as an integration of all four elements: distribution (water location and variability), implications (competing users including agriculture, urban users, environment), sustainability challenge (over-allocation, salinity), and management response (the Basin Plan, water trading)",
+          "Compare the Murray-Darling case with a contrasting case in Asia (e.g. Mekong Delta water management) to identify universal versus context-specific sustainability challenges"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The standard brings together spatial representation, causal analysis, equity implications, and strategy evaluation. The integration node practises weaving these threads into a coherent geographical explanation rather than presenting them as separate analyses."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces an explanation of a specific Australian water context that addresses distribution, implications for people, and a management strategy.",
+          "Uses geographical concepts (distribution, sustainability, variability, scarcity) accurately throughout the explanation."
+        ],
+        "related_standards": ["AC9HG7K01", "AC9HG7K03", "AC9HG7S04"]
+      }
+    ]
+  }
+}

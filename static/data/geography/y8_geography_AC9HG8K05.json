@@ -1,0 +1,96 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8K05",
+    "title": "Geomorphological hazards",
+    "description": "the causes and impacts of a geomorphological hazard on people, places and environments, and the effects of responses",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students explain causes and impacts of atmospheric/hydrological hazards and community/government responses (AC9HG7K04). They now extend this cause-impact-response framework to geomorphological hazards (volcanic eruptions, earthquakes, tsunamis, landslides, avalanches).",
+    "progression_endpoint": "Students explain the causes and impacts of a geomorphological hazard on people, places and environments, and the effects of responses including prevention, mitigation and preparedness strategies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Causes of geomorphological hazards",
+        "progression_checkpoint": "Students can identify and explain the geomorphological causes of at least one hazard type.",
+        "minimum_width": "Students explain the causes of one geomorphological hazard (volcanic eruption, earthquake, tsunami, landslide or avalanche).",
+        "typical_width": "Students explain the geomorphological causes of selected hazard types, linking hazard type to the underlying processes — tectonic movement for earthquakes and tsunamis, volcanic pressure for eruptions, slope instability for landslides and avalanches.",
+        "wider": [
+          "Compare the causal mechanisms of two hazard types (e.g., earthquake vs landslide), identifying what they share and what is distinct.",
+          "Investigate how the frequency and magnitude of hazard events relate to their geomorphological setting.",
+          "Examine how climate change is altering the frequency or distribution of geomorphological hazards (e.g., permafrost thaw and landslides)."
+        ],
+        "hinge": true,
+        "hinge_reason": "If students treat hazards as random events rather than outcomes of specific geomorphological processes, they cannot explain why particular places are at risk or why particular responses are effective — the core of Nodes 2 and 3.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to connect geomorphological process knowledge from K01 to hazard causation. A process-to-hazard reasoning chain (plate boundary setting → stress type → hazard event) prevents treating hazard as an isolated phenomenon.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names and explains the geomorphological cause(s) of at least one hazard type.",
+          "Links the hazard to an underlying geomorphological process (e.g., tectonic movement, slope instability)."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Impacts on people, places and environments",
+        "progression_checkpoint": "Students can examine the environmental, economic and social impacts of a geomorphological hazard at the local scale.",
+        "minimum_width": "Students describe at least two impacts (environmental, economic or social) of a named geomorphological hazard on a specific place.",
+        "typical_width": "Students examine the environmental (landscape change, biodiversity loss), economic (loss of industry, unemployment, infrastructure damage) and social (wellbeing, displacement, community vulnerability) impacts of a selected hazard at the local scale, using a specific case study.",
+        "wider": [
+          "Compare impacts of the same hazard type in places with different levels of economic development and infrastructure.",
+          "Examine how vulnerability to hazard impacts is unevenly distributed within a community.",
+          "Investigate how human activities have heightened the impact of a hazard — land clearing increasing landslide risk, coastal development increasing tsunami impact."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Examining impacts across multiple dimensions (environmental, economic, social) and different community contexts prevents single-dimension impact analysis and builds the multi-factor reasoning students need for evaluating responses.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The triple-dimension impact framework (environmental, economic, social) applied comparatively across places with different vulnerability profiles is genuinely rich — wider students can develop nuanced arguments about differential hazard impact.",
+        "success_criteria": [
+          "Describes at least two types of impact (environmental, economic or social) of a named hazard on a specific place.",
+          "Explains how the characteristics of the place (e.g., location, infrastructure, economic development) influence the scale of impacts."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Responses and their effects",
+        "progression_checkpoint": "Students can explain the effects of responses to geomorphological hazards, applying the principles of prevention, mitigation and preparedness.",
+        "minimum_width": "Students explain one response to a geomorphological hazard and its intended effect.",
+        "typical_width": "Students explain the principles of prevention, mitigation and preparedness as a framework for hazard response, applying them to a case study hazard and evaluating how the harmful effects of the hazard can be reduced. They reflect on how human activity has heightened vulnerability and how management strategies address this.",
+        "wider": [
+          "Compare the effectiveness of prevention, mitigation and preparedness responses for different hazard types.",
+          "Examine how early warning systems have changed hazard outcomes in specific cases.",
+          "Investigate how community capacity and governance affect the quality of hazard response."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluating responses requires students to bring together causal understanding (Node 1), impact analysis (Node 2) and knowledge of management principles into a coherent assessment of what works and why."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies at least one principle (prevention, mitigation or preparedness) to explain how the harmful effects of a named hazard can be reduced.",
+          "Explains the effects of a management response on people, places or environments."
+        ]
+      }
+    ]
+  }
+}

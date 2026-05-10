@@ -1,0 +1,189 @@
+{
+  "year_level": "7-8",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE8P05",
+    "title": "Manage time, cost and production",
+    "description": "develop project plans to individually and collaboratively manage time, cost and production of designed solutions",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can develop project plans that include consideration of resources to individually and collaboratively make designed solutions (AC9TDE6P05). They have planned with resources in mind but have not yet managed time, cost and production as explicit planning variables, or used planning tools to track and evaluate progress.",
+    "progression_endpoint": "Students develop project plans that explicitly manage time, cost and production of designed solutions, including interpreting drawings to identify resources, estimating time for production stages, identifying and minimising risks, and evaluating decisions throughout production.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning resources and steps from drawings",
+        "progression_checkpoint": "Students can interpret design drawings to identify the resources and production steps needed to produce a designed solution",
+        "minimum_width": "Given a labelled drawing or specification, identify the materials, tools and production steps needed; list them in a logical sequence",
+        "typical_width": "Interpret drawings to collaboratively develop a detailed procedure; identify resource requirements from specifications including quantities, tools and equipment needed for each step",
+        "wider": [
+          "Limited width — interpreting drawings for production planning is a consistent skill. The breadth comes from the variety of products being planned, not from the interpretation process itself."
+        ],
+        "hinge": true,
+        "hinge_reason": "Errors in interpreting drawings propagate into every subsequent node — incorrect resource lists at Node 1 produce inaccurate time and cost estimates at Node 2, incomplete risk registers at Node 3, and production steps that cannot be executed at Node 4.",
+        "success_criteria": [
+          "Identifies materials, tools and steps from a drawing or specification",
+          "Lists steps in a logical production sequence"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Interpreting technical drawings accurately requires practice — students need repeated experience reading specifications, identifying resource requirements and translating drawings into step sequences. Errors in interpretation propagate into production.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8P02",
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Managing time and cost",
+        "progression_checkpoint": "Students can estimate time allocations for production stages, track costs, and organise schedules using planning templates or digital tools",
+        "minimum_width": "Create a plan that includes at least three production steps with time estimates and identifies who is responsible for each",
+        "typical_width": "Use a planning template or digital tool to record tasks, time estimates, critical dates and responsibilities; estimate time allocations using prior knowledge, research and testing; track costs against a budget",
+        "wider": [
+          "Use digital project management tools to track tasks, resources, expenses and deadlines across a complex project",
+          "Estimate and compare time allocations for different production stages — then compare estimates against actual time to improve future planning"
+        ],
+        "hinge": true,
+        "hinge_reason": "Time and cost estimates from this node feed directly into Node 3 risk planning — without realistic time allocations and budget tracking, students cannot identify which stages are at risk of overrun or resource constraint, making the risk register at Node 3 speculative rather than evidence-based.",
+        "success_criteria": [
+          "Creates a plan with at least three steps, time estimates and responsibilities",
+          "Plan is organised using a template or digital tool"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Time and cost management applies differently across different production types — textile projects, food production, engineering systems each have different time profiles and cost structures. Students who only plan for one production type develop planning habits that do not transfer. Seeing how time and cost variables behave across different production contexts builds transferable planning skill.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The estimate-vs-actual comparison direction offers advancing students a genuinely valuable meta-planning skill — comparing time estimates against reality to improve future planning is a feedback cycle that goes beyond completing the plan.",
+        "related_standards": [
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Identifying project risks and contingencies",
+        "progression_checkpoint": "Students can identify project-level risks — time overruns, resource constraints, scope changes — and plan contingency strategies before production begins.",
+        "minimum_width": "Identify at least two project-level risks (e.g. running out of time, materials unavailable); plan a contingency strategy for each.",
+        "typical_width": "Identify and plan contingencies for risks across the project — time, resources, dependencies, scope; document strategies and trigger conditions for each contingency.",
+        "wider": [
+          "Develop contingency plans for when production steps take longer than estimated — what can be adjusted without compromising the design?",
+          "Assess long-term health and environmental impacts of production choices, not just immediate safety risks."
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a risk register and contingency plan, Node 4 (managing risks during production) has nothing to apply — students who have not anticipated risks before production cannot respond systematically when they arise.",
+        "success_criteria": [
+          "Identifies at least two project-level risks before production begins",
+          "Plans a contingency strategy for each identified risk"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Risk identification requires prospective reasoning: identify what could go wrong → assess likelihood and severity → determine mitigation strategy → decide when to trigger contingency. Students who list risks without this reasoning chain produce registers they cannot act on.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Managing risks during production",
+        "progression_checkpoint": "Students can apply planned risk mitigation strategies during production and respond to unexpected hazards as they arise.",
+        "minimum_width": "Apply at least one planned mitigation strategy during production; identify and respond to at least one unexpected hazard.",
+        "typical_width": "Apply risk mitigation strategies consistently throughout production; manage workspace hazards as they arise; document any unexpected risks encountered.",
+        "wider": [
+          "Compare how planned vs actual risks differed — what hazards emerged that weren't anticipated?",
+          "Evaluate whether planned mitigation strategies were effective or needed adjustment during production."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Applies at least one planned mitigation strategy during production",
+          "Responds appropriately to at least one hazard that arises"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Managing risks during production requires consistent application of safe practices — PPE, workspace management, equipment handling. Repeated practice across production tasks builds the automatic habit."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8P03"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Evaluating decisions during production",
+        "progression_checkpoint": "Students can evaluate production decisions at key points during making and adjust the plan when circumstances change.",
+        "minimum_width": "Evaluate at least one production decision during the project — explain what changed and why the adjustment was needed.",
+        "typical_width": "Evaluate decisions at key points rather than only at the end; adjust the plan when production takes longer than estimated or when resources change; document each adjustment.",
+        "wider": [
+          "Develop contingency plans for when production steps take longer than estimated — what can be adjusted without compromising the design?",
+          "Compare how different adjustment decisions affected the final outcome."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Evaluates at least one production decision during the project",
+          "Explains what changed and why the adjustment was needed"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluating during production integrates risk identification (node 3) and time/cost management (node 2) — students must apply both to make and justify adjustments as production unfolds."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": [
+          "AC9TDE8P03",
+          "AC9TDE8P04"
+        ]
+      },
+      {
+        "id": 6,
+        "label": "Reflecting on production after completion",
+        "progression_checkpoint": "Students can reflect on how production decisions held up against the plan and identify what they would do differently in a future project.",
+        "minimum_width": "Reflect on at least one production decision after completion — did it hold up, and what would you change?",
+        "typical_width": "Reflect on how planning decisions (time estimates, risk mitigation, resource choices) affected the final outcome; identify specific improvements for a future production project.",
+        "wider": [
+          "Compare time and cost estimates against actuals — use the comparison to produce improved estimates for a similar future project.",
+          "Evaluate how contingency decisions affected the final design quality — what trade-offs were made and were they worth it?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Reflects on at least one production decision after completion",
+          "Identifies a specific improvement for a future project with justification"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Post-completion reflection requires students to reason backwards from outcome to decision: what was the outcome → what decision produced it → was that the right call → what would change. Students who produce generic reflections ('it went well') have not applied this reasoning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The estimate-vs-actual comparison and contingency trade-off directions require students to engage with the gap between planning and reality — genuinely richer than simply describing what happened.",
+        "related_standards": [
+          "AC9TDE8P04"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9A05",
+    "title": "Mathematical Modelling \u2014 Change",
+    "description": "use mathematical modelling to solve applied problems involving change including financial contexts; formulate problems, choosing to use either linear or quadratic functions; interpret solutions in terms of the situation; evaluate the model and report methods and findings",
+    "strand": "Algebra",
+    "mode": "B",
+    "prior_knowledge": "Students can identify and graph quadratic functions and solve quadratic equations (AC9M9A04). They have not yet applied the full mathematical modelling cycle \u2014 formulating, choosing a function type, solving, interpreting and evaluating \u2014 to applied problems involving change.",
+    "progression_endpoint": "Students use the mathematical modelling cycle to formulate and solve applied problems involving change using linear or quadratic functions, interpreting solutions in context and evaluating the model.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Formulating a model \u2014 choosing function type",
+        "progression_checkpoint": "Students can identify whether a situation involving change is better modelled by a linear or quadratic function and justify the choice.",
+        "minimum_width": "Given one applied context involving change, identify key features (constant vs non-constant rate of change, turning point, boundary conditions) and state whether a linear or quadratic model is more appropriate; give one reason for the choice.",
+        "typical_width": "Analyse a range of applied contexts; distinguish situations with constant rates of change (linear) from those with non-constant rates or turning points (quadratic); formulate the mathematical relationship from given data or context description; represent using table, graph or algebraic rule as appropriate.",
+        "wider": [
+          "Investigate situations that appear linear over a small domain but are quadratic over a wider range \u2014 discuss the importance of domain in model choice",
+          "Explore contexts where neither linear nor quadratic is obviously correct \u2014 make an explicit decision and justify, acknowledging model limitations",
+          "Connect model choice to the second differences test from AC9M9A04 \u2014 apply to contextual data to determine function type"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly default to linear models even for non-linear contexts. Seeing varied contexts \u2014 including ones with clear turning points (projectile, area) and ones with constant rates (leakage, temperature cooling) \u2014 builds the discrimination needed to make an appropriate choice.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies whether the rate of change in the context is constant or non-constant",
+          "States and justifies the choice of linear or quadratic model with reference to the context",
+          "Formulates the mathematical relationship (table, graph or rule) from the given information"
+        ],
+        "related_standards": [
+          "AC9M9A04"
+        ],
+        "hinge": true,
+        "hinge_reason": "Function type choice is the gateway decision of the modelling cycle. Students who default to linear models regardless of context cannot formulate quadratic models in N2 and produce models that cannot fit the data."
+      },
+      {
+        "id": 2,
+        "label": "Solving and interpreting the model",
+        "progression_checkpoint": "Students can solve a mathematical model (linear or quadratic) and interpret the solution in the context of the original problem.",
+        "minimum_width": "Solve one formulated problem using the chosen model (linear or quadratic); state the solution in terms of the original context (not just as a mathematical value); check whether the solution is reasonable.",
+        "typical_width": "Solve applied problems using linear and quadratic models; interpret all mathematically valid solutions for contextual reasonableness (e.g. reject negative time values); interpret features such as turning point, intercepts and gradient in context; use graphs and algebraic methods.",
+        "wider": [
+          "Model financial contexts (profit/loss, trade quotes with call-out fees) using linear functions and interpret the break-even point in context",
+          "Model practical measurement situations (area of a rectangle where length is a linear function of width) and find optimal dimensions using the quadratic model",
+          "Investigate how the turning point of a quadratic model corresponds to a maximum or minimum in context (e.g. maximum height of a projectile, maximum area for a fixed perimeter)"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often produce mathematically correct solutions but fail to interpret them contextually \u2014 accepting negative values, ignoring domain restrictions, or stating solutions without units or meaning. Explicit scaffolding of the interpret step (What does this value mean? Is it physically possible? What are the units?) is the critical investment.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The turning point and intercepts of a quadratic model carry rich contextual meaning \u2014 maximum range, optimal dimensions, break-even point, moment of impact. Students who explore multiple contexts where these features have different interpretations develop transferable understanding of what quadratic models reveal about the world.",
+        "success_criteria": [
+          "States the solution with correct units and in the language of the original context",
+          "Checks the solution for contextual reasonableness (e.g. positive time, valid domain)",
+          "Correctly interprets at least one graphical feature (turning point, intercept) in terms of the situation"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Evaluating the model and reporting",
+        "progression_checkpoint": "Students can evaluate the limitations of a mathematical model and report their methods and findings clearly.",
+        "minimum_width": "State one assumption the model makes; identify one situation in which the model would break down or give an unreliable answer; write a brief summary of the method and conclusion.",
+        "typical_width": "Evaluate the model by identifying assumptions, limitations and the range of the domain over which the model is valid; suggest how the model could be refined; report methods and findings with clear mathematical communication including graphs, equations and contextual interpretation.",
+        "wider": [
+          "Model the hunting techniques of First Nations Australians using quadratic functions; explore the effect of increasing the number of hunters on the prey-catch relationship; evaluate the model's assumptions and limitations",
+          "Compare two different models for the same context (e.g. linear vs quadratic for a cooling situation) and evaluate which better fits the data over different time intervals",
+          "Investigate a real-world data set and evaluate whether a linear or quadratic model is a better fit, using residuals or visual inspection"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluation and reporting integrate the full modelling cycle \u2014 formulation, solution, interpretation and critique. Students who can solve and interpret often struggle to evaluate the model itself, treating it as absolute rather than as an approximation. This node develops the critical lens that distinguishes modelling from calculation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one assumption the model makes and explains what happens if it is violated",
+          "States the domain over which the model gives reasonable predictions",
+          "Reports the method and conclusion in a way that someone unfamiliar with the problem could follow"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

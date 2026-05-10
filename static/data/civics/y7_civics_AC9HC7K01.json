@@ -1,0 +1,159 @@
+{
+  "year_level": "7",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC7K01",
+    "title": "Australia's System of Government",
+    "strand": "Government and Democracy",
+    "mode": "A",
+    "description": "the key features of Australia's system of government, including democracy, the Australian Constitution, responsible government and federalism",
+    "prior_knowledge": "Students know the key institutions of Australia's system of government, that it is based on the Westminster system, and the key values and beliefs of Western democracies (AC9HS6K06). They understand the roles and responsibilities of the three levels of government (AC9HS6K07) and the events leading to Federation and the Constitution (AC9HS6K01).",
+    "progression_endpoint": "Students explain the key features of Australia's system of government, including democracy, the Australian Constitution, responsible government and federalism.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The Australian Constitution as foundation",
+        "progression_checkpoint": "Students can explain the role of the Australian Constitution as the foundational legal document establishing the structure and powers of Australia's national government.",
+        "minimum_width": "Describe what the Australian Constitution is, when it came into effect, and its central purpose of establishing the framework of government.",
+        "typical_width": "Explain the origins of the Constitution, its role in establishing the Commonwealth Parliament (Senate and House of Representatives), the Governor-General, and the division between constitutional and non-constitutional powers.",
+        "wider": [
+          "Investigate the 1901 federation debates and the key compromises made in drafting the Constitution, including the role of the Senate in representing smaller colonies",
+          "Explore how the Constitution can be changed through a double majority referendum, and examine examples of successful and failed referendum attempts",
+          "Compare Australia's constitutional model with the US written constitution and the UK's uncodified constitutional tradition"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students don't grasp the Constitution as the foundational source of governmental authority, subsequent nodes about responsible government, federalism, and separation of powers lack the grounding needed — students will treat institutions as arbitrary structures rather than constitutionally-rooted arrangements.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The Constitution's role as a constraint on government power is a genuinely difficult conceptual move — invest in unpacking why a written document has this authority and what happens when governments exceed constitutional limits.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Examining the historical context of Federation and comparisons with other constitutional models helps students understand why this particular constitutional structure was chosen.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Federation debates offer rich historical and political context — exploring the compromises made (especially around Senate representation) gives students genuine insight into how constitutional design reflects political interests, not just abstract principles.",
+        "success_criteria": [
+          "Identify the Australian Constitution as the foundational document establishing the structure and powers of the national government",
+          "Describe at least two key institutions or roles established by the Australian Constitution"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Representative and responsible government",
+        "progression_checkpoint": "Students can explain the principles of representative and responsible government, including the roles of the Governor-General, Parliament, Prime Minister and Cabinet, and the relationship between the executive and the legislature.",
+        "minimum_width": "Explain that in a representative democracy citizens elect members of parliament, and that the executive (Prime Minister and Cabinet) is drawn from and accountable to the legislature.",
+        "typical_width": "Explain the roles of the Governor-General, the Senate, the House of Representatives, the Prime Minister, Cabinet, and the Opposition; describe how the executive is accountable to Parliament and how this distinguishes responsible government from other systems.",
+        "wider": [
+          "Investigate a specific constitutional crisis (such as 1975) to examine how the principles of responsible government can be tested in practice",
+          "Compare Australia's responsible government model with a presidential system (e.g. USA) where the executive is separate from the legislature",
+          "Explore how question time, motions of no confidence, and Senate estimates function as mechanisms of parliamentary accountability"
+        ],
+        "hinge": true,
+        "hinge_reason": "The accountability relationship between the executive and legislature is central to understanding how responsible government works and why it differs from other democratic models. Thin understanding here means students misread how political power actually operates in Australia.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The concept of the executive being drawn from and accountable to the legislature is genuinely counter-intuitive for students — invest in the logical chain: election → parliament → government formation → accountability.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Examining concrete accountability mechanisms (question time, votes of no confidence) and historical examples helps students understand how the principle operates in practice.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Historical cases of constitutional tension (e.g. 1975) provide rare opportunities to see abstract principles tested under real political pressure — this makes the concept of responsible government genuinely legible rather than theoretical.",
+        "success_criteria": [
+          "Explain how the Prime Minister and Cabinet are drawn from and accountable to Parliament",
+          "Describe the role of at least two institutions established by the Constitution (e.g. Governor-General, Senate, House of Representatives)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Democratic principles",
+        "progression_checkpoint": "Students can explain key democratic concepts including popular sovereignty, representation, accountability, and the partial separation of powers in Australia's system.",
+        "minimum_width": "Explain popular sovereignty (that government authority derives from the people) and representation (that citizens elect members to act on their behalf) as foundations of Australian democracy.",
+        "typical_width": "Explain popular sovereignty, representation, accountability, and Australia's partial separation of powers; describe how the legislative branch is elected by the people and from which the executive branch is drawn.",
+        "wider": [
+          "Explore how the concept of popular sovereignty developed historically, from Magna Carta through Enlightenment thought to colonial self-government",
+          "Compare Australia's partial separation of powers with the United States' fuller separation to understand the different approaches to preventing concentration of power",
+          "Investigate how accountability mechanisms (elections, free press, independent judiciary) work together to operationalise democratic principles"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The partial separation of powers is a nuanced concept — students need a clear reasoning scaffold to understand why Australia's system blends rather than separates executive and legislative functions."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Define popular sovereignty and explain its role in legitimising Australia's system of government",
+          "Explain what is meant by a 'partial separation of powers' in the Australian context"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Federalism and division of powers",
+        "progression_checkpoint": "Students can explain Australia as a federation with a constitutional division of powers and responsibilities between Commonwealth and state/territory governments.",
+        "minimum_width": "Identify that Australia is a federation in which the Constitution divides powers between the Commonwealth and state/territory governments, with examples of each.",
+        "typical_width": "Explain the division of powers between Commonwealth and state/territory governments (exclusive, concurrent, and residual powers); describe examples of government responsibilities at each level and why federation was an appropriate structure for Australia.",
+        "wider": [
+          "Investigate a contemporary policy area (e.g. health, education, water management) where Commonwealth and state responsibilities overlap and examine how intergovernmental relations manage these tensions",
+          "Explore High Court cases (such as Engineers' Case) that have shifted the balance of power between Commonwealth and states over time",
+          "Compare Australian federalism with another federation (e.g. Canada, Germany) to examine how different federal structures respond to the same challenge of distributing power"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Federalism becomes meaningful when students see it operating in real policy domains — examining concurrent powers in a live policy area (health, education) is more effective than abstract descriptions of power categories.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real policy domains where Commonwealth and state responsibilities intersect (education, health, water) give students concrete cases for understanding how federalism operates in practice and why it creates ongoing political tensions rather than settled boundaries.",
+        "success_criteria": [
+          "Identify Australia as a federation and explain what this means for the distribution of governmental powers",
+          "Give examples of responsibilities held by the Commonwealth government and by state/territory governments"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Westminster and Washington influences",
+        "progression_checkpoint": "Students can explain the origins of Australia's system of government by identifying the aspects drawn from Westminster (British) and Washington (US) systems in the overall federation model.",
+        "minimum_width": "Identify the main features Australia inherited from the Westminster system (responsible government, constitutional monarchy) and from the US federal model (Senate with equal state representation, written constitution).",
+        "typical_width": "Explain how Australia's system of government synthesises Westminster responsible government with a federal structure inspired by the US model; describe why this hybrid arrangement was chosen and what problems it was designed to solve.",
+        "wider": [
+          "Investigate how the founders of Australian federation deliberately chose to combine elements from both systems and what compromises and debates this involved",
+          "Compare how the Westminster and Washington systems handle the relationship between the executive and legislative branches, and identify which elements Australia adopted from each",
+          "Explore how Australia's model has evolved since Federation and whether it still reflects its Westminster/Washington origins"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node brings together the Westminster model (responsible government, parliament) and the federal structure (written constitution, Senate) established in earlier nodes — it is the synthesis point where the hybrid origins become explicit."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identify at least two features of Australia's system of government derived from the Westminster tradition and two from the US federal model",
+          "Explain why Australia's founders chose to combine features from both systems"
+        ]
+      }
+    ]
+  }
+}

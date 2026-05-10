@@ -1,0 +1,98 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9P02",
+    "title": "Relative Frequencies and Compound Probability",
+    "description": "calculate relative frequencies from given or collected data to estimate probabilities of events involving \"and\", inclusive \"or\" and exclusive \"or\"",
+    "strand": "Probability",
+    "mode": "A",
+    "prior_knowledge": "Students can list all outcomes for compound events with and without replacement and assign probabilities (AC9M9P01). They have not yet used relative frequencies from data to estimate probabilities involving compound logical connectives ('and', inclusive 'or', exclusive 'or'), or used Venn diagrams and two-way tables for this purpose.",
+    "progression_endpoint": "Students calculate relative frequencies to estimate probabilities of compound events involving 'and', inclusive 'or' and exclusive 'or', using Venn diagrams and two-way tables.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Relative frequency as a probability estimate",
+        "progression_checkpoint": "Students can calculate relative frequencies from data and explain how they estimate theoretical probability for compound events.",
+        "minimum_width": "Calculate relative frequencies for two events from a given data set; explain why a larger data set gives a more reliable probability estimate.",
+        "typical_width": "Calculate relative frequencies for a range of events from given or collected data; connect long-run relative frequency to theoretical probability; use relative frequencies to make probability estimates and predictions.",
+        "wider": [
+          "Investigate how large population data sets (e.g. census data, health surveys) are used to estimate population-level probabilities \u2014 discuss the role of sample size in reliability",
+          "Design and test an algorithm to calculate relative frequencies from a generated data set \u2014 evaluate reliability as the data set grows",
+          "Connect relative frequency to the frequentist interpretation of probability \u2014 contrast with classical (equally likely outcomes) probability"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly calculates relative frequency as (number of times event occurred) \u00f7 (total number of trials)",
+          "States that larger samples give more reliable relative frequency estimates",
+          "Uses a relative frequency to make a probability estimate for a future event"
+        ],
+        "related_standards": [
+          "AC9M9P01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Compound events: 'and', inclusive 'or', exclusive 'or'",
+        "progression_checkpoint": "Students can distinguish between 'and', inclusive 'or' and exclusive 'or' events and represent them using Venn diagrams or two-way tables.",
+        "minimum_width": "Define 'and' (intersection), inclusive 'or' (union including overlap) and exclusive 'or' (union excluding overlap) for two events; represent one compound event of each type on a Venn diagram.",
+        "typical_width": "Use Venn diagrams and two-way tables to represent and calculate frequencies for events involving 'and', inclusive 'or' and exclusive 'or'; correctly identify which region of the Venn diagram corresponds to each compound event; use these to estimate probabilities from data.",
+        "wider": [
+          "Investigate the addition rule for probability: P(A or B) = P(A) + P(B) \u2212 P(A and B) \u2014 verify using Venn diagrams and explain why the intersection must be subtracted",
+          "Connect Venn diagram regions to set notation (intersection \u2229, union \u222a, complement) as a foundation for formal probability",
+          "Investigate real data contexts with overlapping categories (e.g. students who play sport AND music) using two-way tables and calculate all relevant compound probabilities"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse inclusive and exclusive 'or' \u2014 in everyday language 'or' is often exclusive, but in probability it is usually inclusive. Working across contexts where the distinction matters \u2014 and where both interpretations are plausible \u2014 resolves this conflation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly distinguishes inclusive 'or' (A \u222a B) from exclusive 'or' (A or B but not both) on a Venn diagram",
+          "Correctly identifies the region for 'A and B' (intersection) on a Venn diagram",
+          "Calculates the correct frequency/probability for each compound event type from a given data set"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate inclusive and exclusive \"or\" assign wrong probability regions on Venn diagrams, corrupting compound probability estimates in N3. The everyday/mathematical \"or\" distinction must be established before estimation."
+      },
+      {
+        "id": 3,
+        "label": "Estimating compound event probabilities from data",
+        "progression_checkpoint": "Students can use relative frequencies from data to estimate probabilities of compound events ('and', 'or') and use these to make predictions.",
+        "minimum_width": "Use relative frequencies from a given data set to estimate the probability of one compound event involving 'and' and one involving 'or'.",
+        "typical_width": "Calculate relative frequencies for a range of compound events from given or collected data; use Venn diagrams or two-way tables as tools; use estimates to make predictions; compare estimates to theoretical probabilities where these can be calculated.",
+        "wider": [
+          "Design, test and refine an algorithm to calculate relative frequencies for compound events from a generated data set; evaluate reliability as the number of trials increases",
+          "Investigate a real survey data set with two categorical variables and calculate all four compound probabilities (A and B, A and not B, not A and B, not A and not B) \u2014 use a two-way table",
+          "Connect relative frequency estimates to decision-making contexts \u2014 discuss when a probability estimate is reliable enough to base a decision on"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Estimating compound event probabilities from data integrates relative frequency calculation, compound event identification and Venn diagram/two-way table representation. Students who can do each step separately often make errors when they must identify the correct compound event region and then calculate the relative frequency for it."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly calculates relative frequencies for both 'and' and 'or' compound events from the same data set",
+          "Uses a Venn diagram or two-way table to organise the data before calculating",
+          "Makes a reasonable prediction based on the estimated probability and explains the reasoning"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

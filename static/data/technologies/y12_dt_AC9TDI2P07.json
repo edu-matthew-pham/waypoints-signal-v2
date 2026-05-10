@@ -1,0 +1,80 @@
+{
+  "year_level": "1-2",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI2P07",
+    "title": "Personal data stored online",
+    "description": "discuss that some websites and apps store their personal data online",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students understand that credentials are personal and private (AC9TDI2P06). They can identify some types of personal information (AC9TDI2P05). They have not yet discussed the concept that websites and apps collect and store personal data online \u2014 or that entering details online creates a stored record.",
+    "progression_endpoint": "Students discuss that websites and apps store their personal data online, give examples of data that is collected, and explain that a parent or carer should be asked before entering personal details online.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What data websites and apps collect",
+        "progression_checkpoint": "Students can give examples of the types of personal data that websites and apps commonly collect",
+        "minimum_width": "Name at least two types of data that websites or apps collect (e.g. username, email address, date of birth) from examples they commonly encounter",
+        "typical_width": "Give examples of data collected by apps and websites they commonly use \u2014 usernames and email addresses for school websites and games; explain that entering this information creates a record that is stored by the website or app",
+        "wider": [
+          "Compare what data two different platforms collect \u2014 for example a school website versus an online game \u2014 and explain what each collects and why",
+          "Discuss what information is needed just to use an app versus what might be optional \u2014 identify what is necessary and what might be sharing more than needed"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to accumulate a range of examples of data that apps collect \u2014 a single example (username) is insufficient to build a reliable understanding of the range of personal data at stake. Repeated examples across different platforms build the recognition that many different types of information are collected across different contexts.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two types of data that apps or websites collect",
+          "Gives at least one specific example from an app or website they know"
+        ],
+        "related_standards": [
+          "AC9TDI2P05",
+          "AC9TDI2P06"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot name the types of data that apps collect cannot reason in Node 2 about why permission is needed before entering specific details \u2014 the permission reasoning requires knowing what is at stake."
+      },
+      {
+        "id": 2,
+        "label": "The importance of asking permission before entering personal details",
+        "progression_checkpoint": "Students can discuss why it is important to ask a parent or carer before entering personal details online",
+        "minimum_width": "State at least one reason why asking a parent or carer before entering personal details online is important",
+        "typical_width": "Discuss why personal details like address, phone number and date of birth require permission before being shared online; explain that once stored, data may be used in ways that are not immediately obvious; identify the trusted adult role in guiding these decisions",
+        "wider": [
+          "Discuss a scenario: an online game asks for your home address to send you a prize \u2014 explain what to do and why, referencing the trusted adult principle",
+          "Compare asking permission to enter details online with other safety rules at school (e.g. not leaving the school grounds) \u2014 identify that both involve a trusted adult because consequences may not be immediately visible to the child"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Reasoning about why permission matters requires students to think about downstream consequence \u2014 data stored now can be used later in ways that are not immediately obvious. Scaffolding the reasoning (who stores it? what could they do with it? why does a trusted adult know more about this?) prevents students from treating 'ask a trusted adult' as an arbitrary rule rather than a protective one.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The scenario-based reasoning direction (address for a prize) is genuinely rich \u2014 it grounds the abstract principle in a concrete, recognisable situation students might actually encounter. This makes the 'why ask permission' reasoning concrete and transferable.",
+        "success_criteria": [
+          "States at least one reason why asking permission before entering personal details is important",
+          "Identifies a trusted adult as the person to ask"
+        ],
+        "related_standards": [
+          "AC9TDI2P05",
+          "AC9TDI2P06"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

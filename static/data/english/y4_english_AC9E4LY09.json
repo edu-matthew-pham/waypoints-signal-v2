@@ -1,0 +1,68 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LY09",
+    "title": "Complex letter combinations",
+    "description": "understand how to use and apply phonological and morphological knowledge to read and write multisyllabic words with more complex letter combinations, including a variety of vowel sounds and known prefixes and suffixes",
+    "strand": "Literacy / Phonic and word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students apply phoneme-grapheme knowledge and syllable patterns to fluently read and write multisyllabic words (AC9E3LY09). They have not yet applied this knowledge to more complex letter combinations including a variety of vowel sounds and known prefixes and suffixes.",
+    "progression_endpoint": "Students can read and write multisyllabic words with more complex letter combinations — including a variety of vowel sounds and known prefixes and suffixes — by applying phonological and morphological knowledge.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Complex vowel sounds in multisyllabic words",
+        "progression_checkpoint": "Students can identify and apply complex vowel patterns in multisyllabic words, including unstressed vowels.",
+        "minimum_width": "Identify the vowel pattern in at least two multisyllabic words with complex letter combinations and read/write them correctly.",
+        "typical_width": "Apply knowledge of a range of complex vowel patterns — unstressed vowels, vowel digraphs in multisyllabic words — to read and write words accurately, including words such as 'builder', 'animal', 'straightaway', 'thoughtful'.",
+        "wider": [
+          "Sort multisyllabic words by vowel pattern and identify rules or generalisations that help predict spelling",
+          "Use morphological analysis to identify how vowel sounds shift across word families (e.g. explain vs explanation)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Adding prefixes and suffixes in N2 requires accurate reading and writing of the base word — vowel errors in the stem produce compounded errors when morphemes are attached.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Unstressed vowels in multisyllabic words are a common source of spelling errors at Year 4. Reliable reading and writing of these patterns requires practice across many exemplars before automaticity is achieved.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can correctly read at least five multisyllabic words with complex vowel combinations",
+          "Can correctly write at least five multisyllabic words with complex vowel combinations"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Prefixes and suffixes in multisyllabic words",
+        "progression_checkpoint": "Students can identify known prefixes and suffixes in multisyllabic words and use this knowledge to decode and spell them.",
+        "minimum_width": "Identify a prefix or suffix in a multisyllabic word and use this morphological knowledge to read or spell the word correctly.",
+        "typical_width": "Apply knowledge of known prefixes (un-, re-, pre-, dis-) and suffixes (-ful, -less, -ness, -tion, -ing, -ed) to decode and spell a range of multisyllabic words, explaining how the morpheme changes or adds meaning.",
+        "wider": [
+          "Explore how the same prefix or suffix appears across multiple words from different word families and generalise about its meaning contribution",
+          "Use morphological decomposition as a decoding strategy for unfamiliar long words in subject texts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Morphological awareness grows through accumulating prefix and suffix families across contexts — each new morpheme learned expands the decoding and spelling range transferably across vocabulary domains.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Morphological awareness — understanding how prefixes and suffixes build words — is a transferable decoding and spelling strategy with genuine breadth across vocabulary domains.",
+        "success_criteria": [
+          "Can identify a prefix or suffix in a multisyllabic word and name its meaning",
+          "Can use prefix/suffix knowledge to decode or spell an unfamiliar word"
+        ]
+      }
+    ]
+  }
+}

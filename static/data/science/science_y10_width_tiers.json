@@ -1,0 +1,151 @@
+{
+  "description": "Width tiers for Year 10 Science — ACARA v9. Covers the seven U-strand descriptors. H-strand and I-strand (9–10 band) are in science_y9_10_width_tiers.json.",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "10",
+  "generation_rules": { "prompt_version": "v1.0", "primary_width_axis": "phenomena_contexts" },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term.",
+    "typical_width": "The full scope of the descriptor grounded in the most common elaboration cases.",
+    "wider": "Enrichment directions adding phenomena, cultural contexts or applications. First Nations directions included where elaborations indicate them.",
+    "elaborations": "ACARA elaborations treated as source data. Typical grounded in common cases; wider may infer within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S10U01": {
+      "strand": "Biological Sciences", "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe the DNA-gene-chromosome hierarchy; explain how meiosis produces varied gametes; complete a Punnett square for a monohybrid cross and predict the phenotype ratio.",
+      "typical_width": "Explain chromosome-DNA-gene hierarchy using models; describe meiosis producing varied gametes (halving chromosome number, independent assortment, crossing over); explain fertilisation restoring diploid number; predict genotype and phenotype ratios for dominant/recessive and sex-linked crosses; use pedigree diagrams to trace inheritance patterns.",
+      "wider": [
+        "Investigate First Nations Australians' knowledge of heredity encoded in kinship systems and marriage laws",
+        "Explore environmental and other factors that cause mutations and identify changes in DNA or chromosomes",
+        "Examine applications of gene technologies (gene therapy, genetic engineering) and biotechnologies producing therapeutic proteins (AC9S10H02)",
+        "Use pedigree diagrams to trace patterns of inheritance through multigenerational families for dominant and recessive characteristics"
+      ],
+      "elaborations": [
+        "using models and diagrams to represent the relationship between genes, chromosomes, and DNA",
+        "explaining how genetic information passed on to offspring from both parents by meiosis and fertilisation increases variation",
+        "using Mendelian inheritance to predict offspring genotypes and phenotypes in monohybrid crosses",
+        "using pedigree diagrams to show patterns of inheritance through multigenerational families",
+        "investigating First Nations Australians' knowledges of heredity as evidenced by kinship and family structures",
+        "exploring environmental and other factors that cause mutations"
+      ]
+    },
+    "AC9S10U02": {
+      "strand": "Biological Sciences", "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain the four steps of natural selection; apply natural selection to a named population under a specific selection pressure; describe at least three lines of evidence for evolution.",
+      "typical_width": "Explain natural selection (variation, selection pressure, differential reproduction, population change); apply to artificial selection; connect genetic characteristics to survival and reproduction rates; analyse fossil record, homologous structures, DNA similarities and geographical distribution as independent evidence lines; explain how multiple independent lines converge to strengthen the theory.",
+      "wider": [
+        "Investigate structural and physiological adaptations of First Nations Australians to the Australian environment — examining long-term natural selection in human populations",
+        "Examine biodiversity as a function of evolution from common ancestors — explaining divergence through natural selection",
+        "Explore how DNA sequencing added powerful molecular evidence to anatomical and fossil evidence — connecting technology to evidence strengthening (AC9S10H02)",
+        "Investigate changes caused by natural selection in a specific population under a specified selection pressure — examining a documented rapid evolution case"
+      ],
+      "elaborations": [
+        "outlining processes involved in natural selection including variation, isolation and selection",
+        "examining biodiversity as a function of evolution",
+        "analysing evidence for the theory of evolution including fossil record, chemical and anatomical similarities, and geographical distribution",
+        "investigating changes caused by natural selection in a population under a specified selection pressure",
+        "relating genetic characteristics to survival and reproductive rates",
+        "investigating some structural and physiological adaptations of First Nations Australians to the Australian environment"
+      ]
+    },
+    "AC9S10U03": {
+      "strand": "Earth and Space Sciences", "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe the big bang theory; construct or annotate a timeline of at least four major stages of universe evolution; describe at least three lines of evidence for the big bang and explain what each contributes.",
+      "typical_width": "Describe the big bang model; construct a universe evolution timeline using appropriate units (light-years, scientific notation); describe major universe components; explain how stellar spectra reveal composition, movement and distance; examine CMB radiation, red/blue shift, Hubble's observations and matter proportions as converging evidence; explain how gravitational wave detection validated general relativity.",
+      "wider": [
+        "Research First Nations Australians' knowledges of celestial bodies and cosmological explanations — comparing with the big bang model as different knowledge frameworks",
+        "Explore recent advances: gravitational waves, dark matter, dark energy discoveries and how these refined understanding (AC9S10H02)",
+        "Examine how the Australian SKA Pathfinder enables unprecedented data collection — connecting technology to knowledge advance",
+        "Examine why gravitational wave discovery didn't occur until 100 years after Einstein's prediction — connecting technology readiness to validation timing (AC9S10H01)"
+      ],
+      "elaborations": [
+        "describing the major components of the universe using appropriate scientific terminology including light-years",
+        "constructing a timeline of major changes from Big Bang to formation of stars and galaxies",
+        "examining how stars' light spectra reveal composition, movement and distance",
+        "explaining how cosmic microwave background radiation, red/blue shift, Hubble's observations and matter proportions support the big bang",
+        "researching First Nations Australians' knowledges of celestial bodies and explanations of the origin of the universe",
+        "identifying technologies used to collect astronomical data",
+        "exploring recent advances including SKA Pathfinder and discovery of gravitational waves, dark matter and dark energy"
+      ]
+    },
+    "AC9S10U04": {
+      "strand": "Earth and Space Sciences", "width_axis": "phenomena_contexts",
+      "minimum_width": "Explain the role of solar radiation in driving global climate; describe how greenhouse gas increases alter Earth's energy balance; describe at least four climate change indicators.",
+      "typical_width": "Explain how solar radiation drives atmospheric and ocean circulation; describe greenhouse effect and amplification from increased CO₂; describe ocean current roles in climate regulation; examine ocean/atmospheric temperature, sea level, biodiversity, species distribution, permafrost and sea ice as indicators; use visualisations and simulations to explore energy balance changes; evaluate mitigation strategies.",
+      "wider": [
+        "Investigate how satellite data generates global measurements of ocean temperatures, sea levels and ice cover (AC9S10H02)",
+        "Examine how traditional ecological knowledges of First Nations Australians are being reaffirmed by climate science and applied in carbon farming (AC9S10H03)",
+        "Explore how quantum computers enhance modelling of complex weather and climate systems (AC9S10H02)",
+        "Analyse data from multiple indicators to construct an argument about the direction and pace of climate change (AC9S10I07)"
+      ],
+      "elaborations": [
+        "examining the role of radiation from the sun and how its interactions with atmosphere, ocean and land are the foundation for the global climate system",
+        "investigating indicators of climate change such as changes in ocean and atmospheric temperatures, sea levels, biodiversity, species distribution, permafrost and sea ice",
+        "identifying changes in global climate over time and exploring visualisations and simulations",
+        "examining the factors that drive deep ocean currents and their role in regulating global climate",
+        "investigating how quantum computers enhance modelling of complex weather and climate systems",
+        "predicting changes to the Earth system and identifying strategies to reduce or mitigate climate change"
+      ]
+    },
+    "AC9S10U05": {
+      "strand": "Physical Sciences", "width_axis": "phenomena_contexts",
+      "minimum_width": "State Newton's three laws and apply each to a named context; use F=ma to solve for one unknown; interpret a distance-time and a speed-time graph.",
+      "typical_width": "Apply Newton's three laws to diverse motion contexts; use F=ma quantitatively; analyse distance, speed and acceleration relationships graphically; model how changed net force affects motion; evaluate vehicle safety features (seatbelts, airbags, crumple zones) using force-time reasoning.",
+      "wider": [
+        "Investigate how First Nations Australians achieve increased speed and impact force through spearthrowers and bows — examining Newton's laws applied to traditional technologies",
+        "Investigate Newton's laws applications in sport — examining how these improve athlete performance or safety",
+        "Investigate how driverless vehicles apply Newton's laws to brake in time",
+        "Construct a data-supported argument for lower speed limits near schools or for urban trucks (AC9S10I07)"
+      ],
+      "elaborations": [
+        "investigating a moving object to analyse relationships between distance, time, speed, force and acceleration",
+        "using mathematical representations to quantitatively relate force, speed, acceleration and mass",
+        "investigating how First Nations Australians achieve increased speed and impact force through spearthrowers and bows",
+        "modelling how change in net force affects motion and relating to safety features",
+        "investigating Newton's laws applications in sport",
+        "constructing a data-supported argument for lower speed limits",
+        "investigating how driverless vehicles apply Newton's laws to brake in time"
+      ]
+    },
+    "AC9S10U06": {
+      "strand": "Chemical Sciences", "width_axis": "phenomena_contexts",
+      "minimum_width": "Draw Bohr models for at least three elements and identify their group from outer electron count; explain why same-group elements have similar properties; identify at least two periodic table patterns.",
+      "typical_width": "Use the Bohr model to describe electron shell structure for elements across periods; explain how outer electron number determines reactivity and bonding; identify group patterns (similar properties) and period trends (progressive shell filling); deduce that periodic patterns reflect outer electron shell patterns; investigate physical properties of metals and non-metals.",
+      "wider": [
+        "Conduct flame tests for selected elements and examine emission spectra — connecting spectral evidence to the Bohr model of discrete electron energy levels",
+        "Examine how the spectroscope's development led to refinement of the atomic model (AC9S10H01, AC9S9U06)",
+        "Analyse periodic table patterns to predict properties of elements based on position — using the table predictively",
+        "Compare merits and limitations of periodic table representation vs graphical representations of patterns such as melting point"
+      ],
+      "elaborations": [
+        "examining how elements are organised in the periodic table and analysing patterns",
+        "investigating physical properties of some metals and non-metals",
+        "using the Bohr model to describe atom structure in terms of electron shells",
+        "deducing that repeating periodic patterns reflect outer electron shell patterns",
+        "conducting flame tests and examining emission spectra",
+        "examining how the spectroscope led to further development of the atomic model"
+      ]
+    },
+    "AC9S10U07": {
+      "strand": "Chemical Sciences", "width_axis": "phenomena_contexts",
+      "minimum_width": "Define synthesis, decomposition and displacement reactions; write or identify a balanced equation for each type; explain how at least three factors affect reaction rate with particle-level reasoning.",
+      "typical_width": "Define and represent all three reaction types using molecular models, word and balanced equations; identify reaction type and predict products; investigate synthesis, decomposition and displacement reactions; investigate how temperature, concentration, surface area and catalysts affect rate; represent rate data graphically.",
+      "wider": [
+        "Investigate chemical reactions First Nations Australians use in producing substances such as acids and ethanol",
+        "Investigate First Nations Australians' methods for converting toxic plants into edible food products — examining the chemistry underlying traditional food processing",
+        "Examine reactions used to extract metals and identify the reaction type and rate considerations involved",
+        "Predict how green chemistry principles will affect industrial chemistry practice — connecting rate and reaction type knowledge to sustainability"
+      ],
+      "elaborations": [
+        "defining and representing synthesis, decomposition and displacement reactions",
+        "identifying reaction type and predicting products",
+        "investigating synthesis, decomposition and displacement reactions across multiple examples",
+        "investigating the effect of temperature, concentration, surface area and catalysts on reaction rates",
+        "investigating chemical reactions employed by First Nations Australians in producing substances such as acids and ethanol",
+        "investigating First Nations Australians' methods to convert toxic plants into edible food",
+        "examining reactions that produce useful products"
+      ]
+    }
+  }
+}

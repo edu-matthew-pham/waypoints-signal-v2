@@ -1,0 +1,185 @@
+{
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "year_level": "7-8",
+  "title": "Y7-8 Digital Technologies \u2014 Design Cycle",
+  "tool_context": null,
+  "progression_endpoint": "Students define a real-world problem, design and iteratively refine a user experience, implement a functioning prototype website in Construct 3, and evaluate it against design criteria, user stories and broader impact considerations.",
+  "descriptors": [
+    "AC9TDI8P04",
+    "AC9TDI8P07",
+    "AC9TDI8P08",
+    "AC9TDI8P09",
+    "AC9TDI8P10",
+    "AC9TDI8P12"
+  ],
+  "phases": [
+    {
+      "id": "define",
+      "label": "Define",
+      "checkpoint": "Students can articulate a real-world problem with identified constraints and user needs, decomposed into sub-problems with at least two user stories that will guide the design phase.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9TDI8P04",
+          "node_id": 1
+        },
+        {
+          "descriptor_code": "AC9TDI8P12",
+          "node_id": 1
+        },
+        {
+          "descriptor_code": "AC9TDI8P04",
+          "node_id": 2
+        },
+        {
+          "descriptor_code": "AC9TDI8P04",
+          "node_id": 3
+        }
+      ],
+      "sequence": 1,
+      "width_tiers": {
+        "minimum_width": "Frame a real-world problem with known constraints, break it into at least three sub-problems, write two user stories in standard format, and create a task list with responsibilities and timeframes.",
+        "typical_width": "Analyse a problem from multiple interpretations, justify the chosen framing, decompose into prioritised sub-problems with dependencies, write user stories for different user types, and plan tasks using a digital project management tool.",
+        "wider": [
+          "Apply problem framing to a community context (e.g. First Nations community) where the community perspective reshapes what the problem actually is",
+          "Frame the same scenario two different ways and trace how each framing leads to a different solution direction",
+          "Consult real stakeholders to generate user stories, then evaluate whether AI-generated alternatives capture the same needs or introduce assumptions"
+        ]
+      }
+    },
+    {
+      "id": "evaluate",
+      "sequence": 2,
+      "label": "Evaluate \u2014 existing products",
+      "checkpoint": "Students can evaluate existing digital products against design criteria and impact dimensions to inform their own design decisions.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9TDI8P10",
+          "node_id": 1
+        },
+        {
+          "descriptor_code": "AC9TDI8P10",
+          "node_id": 2
+        },
+        {
+          "descriptor_code": "AC9TDI8P10",
+          "node_id": 3
+        }
+      ],
+      "width_tiers": {
+        "minimum_width": "Evaluate an existing digital solution against two design criteria and one user story; identify one future impact and one safety or ethical risk.",
+        "typical_width": "Evaluate multiple existing solutions against all criteria; analyse impacts across economic, environmental and social dimensions; identify safety, misinformation and ethical risks; suggest design improvements.",
+        "wider": [
+          "Evaluate a real platform used by students against Safety by Design principles \u2014 are privacy defaults set to maximum protection?",
+          "Investigate how AI-generated content creates misinformation risks; analyse unintended social or economic consequences of existing solutions"
+        ]
+      }
+    },
+    {
+      "id": "design",
+      "label": "Design",
+      "checkpoint": "Students can produce wireframes for at least two connected pages with branding applied, justified against their user stories, and have evaluated at least two alternative design directions before selecting one to develop.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9TDI8P07",
+          "node_id": 1
+        },
+        {
+          "descriptor_code": "AC9TDI8P07",
+          "node_id": 2
+        },
+        {
+          "descriptor_code": "AC9TDI8P08",
+          "node_id": 1
+        },
+        {
+          "descriptor_code": "AC9TDI8P08",
+          "node_id": 2
+        },
+        {
+          "descriptor_code": "AC9TDI8P07",
+          "node_id": 3
+        },
+        {
+          "descriptor_code": "AC9TDI8P07",
+          "node_id": 4
+        },
+        {
+          "descriptor_code": "AC9TDI8P07",
+          "node_id": 5
+        }
+      ],
+      "sequence": 3
+    },
+    {
+      "id": "develop",
+      "label": "Develop",
+      "checkpoint": "Students can produce a functioning multi-page Construct 3 prototype that implements their design, with at least one interactive behaviour using event-sheet logic, and have iterated on at least one design decision based on self-evaluation.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9TDI8P09",
+          "node_id": 1
+        },
+        {
+          "descriptor_code": "AC9TDI8P09",
+          "node_id": 2
+        },
+        {
+          "descriptor_code": "AC9TDI8P09",
+          "node_id": 3
+        },
+        {
+          "descriptor_code": "AC9TDI8P09",
+          "node_id": 4
+        },
+        {
+          "descriptor_code": "AC9TDI8P08",
+          "node_id": 3
+        },
+        {
+          "descriptor_code": "AC9TDI8P12",
+          "node_id": 2
+        }
+      ],
+      "sequence": 4
+    },
+    {
+      "id": "evaluate",
+      "label": "Evaluate \u2014 your solution",
+      "checkpoint": "Students can evaluate their own prototype against original design criteria, user stories and ethical risks, informed by earlier analysis of existing products.",
+      "waypoints": [
+        {
+          "descriptor_code": "AC9TDI8P10",
+          "node_id": 4,
+          "note": "Evaluate your own solution against the criteria and user stories established at Define."
+        },
+        {
+          "descriptor_code": "AC9TDI8P10",
+          "node_id": 5,
+          "note": "Analyse the future impact of your own solution \u2014 informed by earlier analysis of existing products."
+        },
+        {
+          "descriptor_code": "AC9TDI8P12",
+          "node_id": 3
+        }
+      ],
+      "sequence": 5,
+      "width_tiers": {
+        "minimum_width": "Evaluate your own solution against two design criteria and one user story; identify one future impact; share content using at least one responsible behaviour.",
+        "typical_width": "Evaluate the solution across all criteria distinguishing met/partially met/unmet; analyse impacts across multiple dimensions with trade-offs; apply copyright, ICIP and ethical obligations when sharing; reflect on what would change in a future iteration.",
+        "wider": [
+          "Evaluate how iterative modification throughout the project improved the final outcome",
+          "Assess the solution against Safety by Design principles; investigate privacy settings and responsible sharing protocols for the publication context"
+        ]
+      }
+    }
+  ],
+  "descriptor_colors": {
+    "AC9TDI8P04": "#00838F",
+    "AC9TDI8P07": "#2563A8",
+    "AC9TDI8P08": "#4A90D9",
+    "AC9TDI8P09": "#1E8A5A",
+    "AC9TDI8P10": "#C2185B",
+    "AC9TDI8P12": "#9F2B68"
+  }
+}

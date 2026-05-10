@@ -1,0 +1,96 @@
+{
+  "year_level": "9",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC9K03",
+    "title": "Court jurisdictions and tribunals",
+    "description": "the key features and jurisdictions of Australia's court system, and the operations of courts and tribunals",
+    "strand": "Laws and citizens",
+    "mode": "A",
+    "prior_knowledge": "Students know the characteristics of laws and how they are made through parliaments and courts (AC9HC8K03), and the types of law in Australia including criminal and civil law and First Nations customary law (AC9HC8K04). They understand law is made through two mechanisms but have not yet examined how the court hierarchy is structured or how different courts exercise their jurisdiction.",
+    "progression_endpoint": "Students explain the key features and jurisdictions of Australia's court system, describe the operations of courts and tribunals, and explain how court judgements contribute to the development of law.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Court hierarchy and jurisdiction",
+        "progression_checkpoint": "Students can describe the structure of Australia's court hierarchy and explain what jurisdiction means in this context.",
+        "minimum_width": "Identify the main levels of the Australian court hierarchy (Magistrates/Local Court, District/County Court, Supreme Court, High Court) and explain that each court's jurisdiction defines the matters it can hear.",
+        "typical_width": "Create or interpret a visual representation of the Australian court hierarchy; explain what each court's jurisdiction covers (original and appellate); describe where most criminal and civil matters begin and how matters move up the hierarchy on appeal.",
+        "wider": [
+          "Compare the structure and jurisdiction of courts in two Australian states and identify how federal and state court systems interact",
+          "Investigate the role of specialist courts and tribunals (e.g. Family Court, Administrative Tribunals, NCAT, VCAT) and explain why these exist alongside the general court hierarchy",
+          "Examine how the High Court's jurisdiction to hear constitutional challenges distinguishes it from all other courts in the hierarchy"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students do not understand the concept of jurisdiction — that different courts have authority over different types and scales of matters — they cannot make sense of Node 2's civil/criminal distinction or Node 3's explanation of how judgements create precedent. Students who treat all courts as interchangeable cannot trace how matters progress through the system.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The concept of jurisdiction is abstract; students benefit from a structured exercise mapping specific types of cases (minor traffic infringement, serious criminal trial, constitutional challenge) to the court that would hear them. This makes jurisdiction operational rather than definitional.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least three levels of the court hierarchy in order",
+          "Explains what jurisdiction means and gives an example of a matter each court level can hear"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Civil and criminal law in practice",
+        "progression_checkpoint": "Students can use sample cases to explain the differences between civil and criminal law and how courts apply each.",
+        "minimum_width": "Use at least one sample case to explain the difference between a civil dispute and a criminal matter, including who brings the case and what the court can order.",
+        "typical_width": "Use sample cases to investigate the differences between civil and criminal law — including who initiates action, burden of proof, and available remedies or penalties; explain how courts apply and interpret criminal laws and resolve civil disputes; distinguish between the roles of courts and tribunals.",
+        "wider": [
+          "Investigate a specific civil case (e.g. a tort or contract dispute) and a specific criminal case and compare the process, parties, standards of proof and outcomes",
+          "Examine how the same event (e.g. assault, negligence) can give rise to both civil and criminal proceedings simultaneously, and evaluate the implications",
+          "Explore how tribunals differ from courts in resolving civil disputes and assess advantages and limitations of each pathway"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The civil/criminal distinction is easier to apply than to define in the abstract. Using two or three contrasting sample cases (one clearly civil, one clearly criminal, one ambiguous) helps students build flexible understanding rather than pattern-matching on surface features.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The civil/criminal distinction in practice offers rich cases — particularly dual-liability scenarios and controversial judgements — where advancing students can evaluate whether the legal system treats similar harms consistently. These cases develop evaluative thinking without exceeding Year 9 scope.",
+        "success_criteria": [
+          "Correctly classifies at least one sample case as civil or criminal and explains the reasoning",
+          "Identifies a difference in who initiates a civil case versus a criminal case"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Precedent and the development of law",
+        "progression_checkpoint": "Students can explain how court judgements impact on the development of law through statutory interpretation and the creation of precedent.",
+        "minimum_width": "Explain that courts interpret laws when applying them and that significant judgements can set precedents that bind future courts.",
+        "typical_width": "Explain the roles of statutory interpretation and precedent in the development of law; describe how a significant judgement (e.g. the Mabo Case 1992) overturned an established legal concept and created new law; discuss how this illustrates the law-making function of courts alongside parliament.",
+        "wider": [
+          "Trace the legal legacy of the Mabo Case through subsequent native title legislation and cases, assessing how one precedent reshaped an entire area of law",
+          "Investigate a more recent High Court decision (e.g. LGBTIQ+ rights, immigration, corporate liability) and explain how it changed or clarified the law",
+          "Compare the doctrine of precedent in Australia's common law system with the approach in a civil law country and evaluate the advantages of each"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Precedent is conceptually demanding — students need to understand that a judgement in one case constrains decisions in future unrelated cases. Unpacking the logic of why judges follow precedent (legal certainty, equality) is worth explicit investment before students engage with specific cases."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains what a legal precedent is and why courts follow them",
+          "Uses the Mabo Case (or equivalent) to illustrate how a court judgement can develop the law beyond statute"
+        ]
+      }
+    ]
+  }
+}

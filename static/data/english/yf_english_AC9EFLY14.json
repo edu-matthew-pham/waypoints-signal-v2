@@ -1,0 +1,69 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLY14",
+    "title": "Read and write high-frequency words",
+    "description": "read and write some high-frequency words and other familiar words",
+    "strand": "Literacy — Phonic/Word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students can decode CVC words phonically (AC9EFLY12). They have not yet been asked to build a set of words that are recognised and written automatically — including high-frequency words that cannot always be decoded phonically.",
+    "progression_endpoint": "Students can read and write an increasing number of high-frequency words and other familiar words — including words that cannot be fully decoded phonically — with sufficient automaticity to support fluent reading and independent writing.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Some words are recognised at sight",
+        "progression_checkpoint": "Students can recognise at least ten high-frequency words automatically — without needing to decode them phoneme by phoneme.",
+        "minimum_width": "Read at least ten high-frequency words on sight without decoding.",
+        "typical_width": "Read an increasing number of high-frequency words recognised in shared and independent texts; recognise some familiar words (own name, character names, school name).",
+        "wider": [
+          "Read high-frequency words in connected text — applying recognition in the context of reading rather than word list drills only",
+          "Compare which words appear most often across multiple familiar texts — building a text-grounded high-frequency word list",
+          "Investigate high-frequency words in digital texts — noting which appear on screens, websites, apps and digital books"
+        ],
+        "hinge": true,
+        "hinge_reason": "Sight recognition of high-frequency words is a prerequisite for fluent written production in Node 2 — students who cannot recognise these words automatically in reading also cannot write them automatically, and their writing composition is impeded by the need to decode or invent every common word.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "High-frequency word recognition must become automatic — slow recognition of common words significantly limits reading fluency. Repeated exposure across many encounters is the mechanism. Width is thin here: the issue is automaticity, not contextual breadth.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student reads at least ten high-frequency words automatically without sounding out.",
+          "Student recognises their own name and at least five other familiar words on sight."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "High-frequency words can be written",
+        "progression_checkpoint": "Students can write at least some high-frequency words correctly from memory.",
+        "minimum_width": "Write at least five high-frequency words correctly without copying.",
+        "typical_width": "Read and write an increasing number of high-frequency words; write familiar words from memory in the context of independent writing tasks.",
+        "wider": [
+          "Use high-frequency words in independent writing and self-check for correct spelling",
+          "Build a personal word card collection — connecting reading recognition with written production",
+          "Apply known high-frequency words as anchors in independent writing — using them alongside phonemic spelling strategies for unknown words"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Written production of high-frequency words must be automatic — looking up or sounding out every common word in writing impedes composition. Practice to accuracy across multiple words is required."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can write at least five high-frequency words correctly from memory.",
+          "Student uses high-frequency words in independent writing without needing to copy them."
+        ]
+      }
+    ]
+  }
+}

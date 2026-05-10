@@ -1,0 +1,61 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4N02",
+    "title": "Odd and even numbers",
+    "description": "Explain and use the properties of odd and even numbers",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can skip count by twos, fives and tens (AC9M1A01) and understand equal sharing and grouping (AC9M1N06). They have not yet formally explained the odd/even distinction or the patterns that emerge when combining odd and even numbers through operations.",
+    "progression_endpoint": "Students explain odd and even properties using the ones digit rule and equal sharing, and apply knowledge of addition, subtraction and multiplication patterns to check arithmetic.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identify odd and even",
+        "progression_checkpoint": "Students can identify whether any whole number is odd or even using the ones digit.",
+        "minimum_width": "Identify whether given numbers are odd or even using the ones digit rule; explain why numbers ending in 0, 2, 4, 6, 8 are even.",
+        "typical_width": "Identify odd and even numbers using the ones digit rule; explain the connection to equal sharing (even numbers can be shared equally between 2 without a remainder); verify using materials for smaller numbers; apply the rule to larger numbers without materials.",
+        "wider": [
+          "Investigate whether the ones digit rule holds for numbers in the hundreds and thousands — testing cases and explaining why the ones digit determines divisibility by 2 regardless of the other digits",
+          "Follow an algorithm (flowchart) to classify a set of numbers as odd or even, connecting the mathematical property to computational thinking"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can identify any given whole number as odd or even using the ones digit",
+          "Students can explain why the ones digit determines whether a number is even"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Patterns with operations",
+        "progression_checkpoint": "Students can identify and explain the patterns that result from adding, subtracting and multiplying odd and even numbers.",
+        "minimum_width": "Verify one addition pattern with examples (e.g. even + even = even) using materials or calculation; explain why the pattern holds.",
+        "typical_width": "Investigate and explain patterns for all combinations of odd and even numbers across addition, subtraction and multiplication (e.g. odd + odd = even, odd × even = even); use pattern knowledge to check the reasonableness of arithmetic answers.",
+        "wider": [
+          "Systematically generate and verify the complete set of odd/even patterns for addition, subtraction and multiplication, and explain the reasoning behind each pattern using the equal-sharing definition",
+          "Investigate whether the patterns extend to division — exploring which combinations of odd/even divisor and dividend always/sometimes/never produce whole-number quotients"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to move beyond pattern recognition to explanation — 'odd + odd = even because when you pair up all the unpaired ones from each odd number, they make a pair.' Scaffolding the reasoning from the equal-sharing model to the pattern generalisation requires explicit structure."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The odd/even patterns connect to number structure in ways that support later work on factors, multiples and divisibility. Rich engagement here builds the habit of looking for structural reasons behind arithmetic patterns.",
+        "success_criteria": [
+          "Students can predict the odd/even result of a calculation before computing it, using a named pattern",
+          "Students can explain why at least one odd/even pattern holds using the equal-sharing definition"
+        ]
+      }
+    ]
+  }
+}

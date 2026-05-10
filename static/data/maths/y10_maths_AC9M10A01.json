@@ -1,0 +1,162 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10A01",
+    "title": "Expand, factorise and simplify",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "expand, factorise and simplify expressions and solve equations algebraically, applying exponent laws involving products, quotients and powers of variables, and the distributive property",
+    "prior_knowledge": "Students can expand binomial products and factorise monic quadratic expressions (AC9M9A02). They have not yet applied exponent laws to algebraic terms with positive and negative integral exponents, nor factorised non-monic quadratics or used the completed square form.",
+    "progression_endpoint": "Students expand, factorise and simplify algebraic expressions and solve equations algebraically, applying exponent laws for products, quotients and powers of variables with positive and negative integral exponents, and the distributive property including completed square form.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Exponent laws for algebraic terms",
+        "progression_checkpoint": "Students can apply exponent laws (product, quotient, power of a power) to simplify algebraic expressions involving positive integral exponents.",
+        "minimum_width": "Apply each of the three exponent laws to simplify monomial expressions with positive integral exponents (e.g. x\u00b3 \u00d7 x\u00b2, x\u2075 \u00f7 x\u00b2, (x\u00b2)\u00b3).",
+        "typical_width": "Apply product, quotient and power laws to simplify multi-term algebraic expressions; handle combinations of laws in a single expression; verify results by expanding.",
+        "wider": [
+          "Investigate what happens when exponent laws are applied inconsistently or laws are confused \u2014 identify the error and correct it",
+          "Connect exponent laws for algebraic terms to the same laws for numerical bases, confirming the rules are the same structure"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Exponent law errors (especially confusing product and power rules) are persistent and procedural. Students need fluency through practice before tackling negative exponents or multi-law expressions.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly applies at least two distinct exponent laws to simplify a given algebraic expression",
+          "Student can identify which exponent law applies when given a mixed expression"
+        ],
+        "related_standards": [
+          "AC9M10A01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Exponent law errors propagate directly into N2 (negative exponents) and N3 (expansion) \u2014 students who confuse product and power rules produce systematic algebraic errors in all subsequent manipulation work."
+      },
+      {
+        "id": 2,
+        "label": "Negative integral exponents",
+        "progression_checkpoint": "Students can apply exponent laws to expressions involving negative integral exponents and express results with positive exponents.",
+        "minimum_width": "Simplify algebraic expressions involving negative integral exponents, converting between negative exponent form and fraction form (e.g. x\u207b\u00b2 = 1/x\u00b2).",
+        "typical_width": "Apply all exponent laws to expressions containing both positive and negative integral exponents; simplify and solve linear equations that involve negative exponents; move fluently between equivalent forms.",
+        "wider": [
+          "Investigate how negative exponents arise naturally from the quotient law (x\u00b2 \u00f7 x\u2075 = x\u207b\u00b3) and explain why a\u207b\u207f = 1/a\u207f without memorising as a definition",
+          "Explore how negative exponents appear in scientific notation for very small quantities and connect algebraic manipulation to measurement contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The connection between negative exponents and reciprocals is non-obvious and frequently confused. Students benefit from having the reasoning chain made explicit (quotient law \u2192 zero exponent \u2192 negative exponent) rather than memorising a rule."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly rewrites expressions with negative exponents in equivalent positive exponent form",
+          "Student can derive the negative exponent meaning from the quotient law rather than reciting a rule"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Expansion using the distributive property",
+        "progression_checkpoint": "Students can expand products of binomials and trinomials using the distributive property, including special products (difference of two squares, perfect square trinomials).",
+        "minimum_width": "Expand a product of two binomials using the distributive property; identify difference of two squares and perfect square patterns.",
+        "typical_width": "Expand products of binomials and trinomials; apply special product patterns fluently; expand expressions with multiple terms; verify by substituting numerical values.",
+        "wider": [
+          "Investigate the geometric interpretation of expansion (area model) and use it to verify algebraic results",
+          "Explore how the distributive property scales: connect expanding (a+b)(c+d) to expanding products with more terms, developing a general pattern"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Sign errors in expansion (especially with negative terms) are a frequent and persistent source of algebraic error. Fluency requires practice, not just understanding.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly expands a binomial product with no errors including sign handling",
+          "Student identifies whether a quadratic expression is a difference of two squares or perfect square trinomial"
+        ],
+        "hinge": true,
+        "hinge_reason": "Sign errors in expansion cascade directly into N4 \u2014 students who cannot reliably expand binomials cannot recognise factorisation as the inverse, nor complete the square form."
+      },
+      {
+        "id": 4,
+        "label": "Factorisation of quadratic expressions",
+        "progression_checkpoint": "Students can factorise monic and non-monic quadratic expressions, including using the completed square form.",
+        "minimum_width": "Factorise monic quadratic expressions (ax\u00b2 + bx + c where a=1) by finding factor pairs; explain the relationship between factorisation and expansion.",
+        "typical_width": "Factorise monic and non-monic quadratic expressions using systematic methods (factor pairs, grouping, or completing the square); complete the square for a monic quadratic; explain the inverse relationship between factorisation and expansion.",
+        "wider": [
+          "Investigate the completed square form y = a(x-h)\u00b2 + k as a lens for understanding the vertex form of a quadratic \u2014 connecting algebraic manipulation to graphical features",
+          "Explore cases where quadratic expressions cannot be factorised over the integers (discriminant negative) and discuss what this means algebraically and graphically"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently treat factorisation methods as disconnected procedures. Wider contexts \u2014 including completed square form, connections to graphing, and non-factorisable cases \u2014 help students see factorisation as a coherent algebraic transformation rather than a set of tricks.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Completing the square requires coordinating expansion, factorisation and the relationship between algebraic form and geometric meaning. This is the node where prior procedural skills integrate into a unified understanding."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The completed square form opens into vertex form, discriminant analysis and connections to quadratic graphs \u2014 rich territory for advancing students at this year band. Width investment here builds coherent understanding that supports all subsequent quadratic work.",
+        "success_criteria": [
+          "Student correctly factorises a non-monic quadratic expression by an appropriate method",
+          "Student converts a monic quadratic to completed square form and explains what each part represents",
+          "Student explains why factorisation and expansion are inverse operations"
+        ],
+        "related_standards": [
+          "AC9M10A03",
+          "AC9M10A05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 5,
+        "label": "Solving equations algebraically",
+        "progression_checkpoint": "Students can solve equations algebraically by applying exponent laws and factorisation, including quadratic equations.",
+        "minimum_width": "Solve a quadratic equation by factorisation; solve a simple equation involving an algebraic exponent law manipulation.",
+        "typical_width": "Solve quadratic equations using factorisation, completing the square, or the quadratic formula where appropriate; apply exponent laws to solve equations involving variable exponents; verify solutions by substitution.",
+        "wider": [
+          "Investigate how different solution methods for quadratic equations (factorisation, completing the square, quadratic formula) are related and when each is most efficient",
+          "Explore equations that reduce to quadratic form through substitution (e.g. u = x\u00b2) and solve them using factorisation techniques"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a range of equation-solving approaches (factorisation, completing the square) and the judgement to select the most appropriate one for a given equation. Repertoire, not just one method, is the goal."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student solves a quadratic equation by factorisation with correct solutions including sign handling",
+          "Student verifies solutions by substitution into the original equation"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

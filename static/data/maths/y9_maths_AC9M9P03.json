@@ -1,0 +1,99 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9P03",
+    "title": "Chance Experiments and Simulations",
+    "description": "design and conduct repeated chance experiments and simulations, using digital tools to compare probabilities of simple events to related compound events, and describe results",
+    "strand": "Probability",
+    "mode": "B",
+    "prior_knowledge": "Students can calculate relative frequencies from data to estimate probabilities of compound events involving 'and', inclusive 'or' and exclusive 'or' (AC9M9P02). They have not yet designed and conducted their own simulations using digital tools to compare simple and compound event probabilities.",
+    "progression_endpoint": "Students design and conduct repeated chance experiments and simulations using digital tools, comparing simple and compound event probabilities and describing results.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Designing a chance experiment or simulation",
+        "progression_checkpoint": "Students can design a chance experiment or simulation that will generate data to compare the probability of a simple event to a related compound event.",
+        "minimum_width": "Design one simulation (manual or digital) to investigate a compound probability question; state what data will be recorded and how the simulation replicates the real event.",
+        "typical_width": "Design experiments and simulations for a range of compound probability questions; specify the number of trials; identify what data to collect; ensure the simulation correctly models the probability structure (correct outcome space, with/without replacement as appropriate).",
+        "wider": [
+          "Design a simulation to investigate a counterintuitive probability result (e.g. probability that at least two people in a group share a birthday for small group sizes) and explain the design rationale",
+          "Investigate how real-world simulations are used in risk modelling and forecasting \u2014 discuss what makes a simulation a reliable model",
+          "Compare manual (physical) and digital simulation approaches \u2014 discuss the advantages of digital tools for large numbers of trials"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Specifies the outcome space, what is recorded, and the number of trials",
+          "Correctly models the probability structure (with/without replacement, equal/unequal probabilities)",
+          "Explains how the simulation replicates the real event"
+        ],
+        "related_standards": [
+          "AC9M9P01",
+          "AC9M9P02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Conducting the experiment and comparing probabilities",
+        "progression_checkpoint": "Students can conduct a repeated chance experiment or simulation using digital tools, compare results for simple and compound events, and describe results.",
+        "minimum_width": "Conduct a simulation with at least 50 trials using a digital tool; calculate the relative frequency of a simple event and one related compound event; compare the two results.",
+        "typical_width": "Conduct repeated simulations with sufficient trials to see convergence; compare probabilities of simple and compound events (with and without replacement); describe results including what the simulation reveals about the relationship between simple and compound probabilities; compare experimental and theoretical probabilities.",
+        "wider": [
+          "Use repeated trials of First Nations Australian children's instructive games (e.g. Gorri) to calculate probabilities of winning and not winning \u2014 compare experimental results from simulation to theoretical predictions derived from systematic listing",
+          "Conduct two versions of the same experiment (with and without replacement) using digital tools and compare the effect on compound event probabilities",
+          "Investigate how increasing the number of trials affects the closeness of experimental to theoretical probability \u2014 connect to the law of large numbers conceptually"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly interpret small-sample simulation results as definitive (confusing experimental variability with theoretical probability). Running simulations under different conditions \u2014 varying trial counts, with/without replacement \u2014 builds understanding of when and why experimental results diverge from theoretical expectations.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The convergence of experimental to theoretical probability as trial count increases is one of the most powerful ideas in probability \u2014 visible, verifiable, and conceptually deep. Students who observe and explain this convergence develop genuine probabilistic intuition that goes far beyond mechanical calculation.",
+        "success_criteria": [
+          "Conducts the simulation with a sufficient number of trials (at least 50) using a digital tool",
+          "Correctly calculates relative frequencies for both the simple and compound events",
+          "Compares the two results and describes what the comparison reveals"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Describing and evaluating results",
+        "progression_checkpoint": "Students can describe simulation results, compare experimental to theoretical probabilities, and explain any discrepancies.",
+        "minimum_width": "Compare one experimental (simulation) probability to the corresponding theoretical probability; explain one reason why the results might differ.",
+        "typical_width": "Compare experimental probabilities from simulation to theoretical probabilities; describe the relationship between simple and compound event probabilities revealed by the simulation; explain why experimental and theoretical results differ, and what would reduce the discrepancy.",
+        "wider": [
+          "Evaluate the reliability of simulation results across different trial counts \u2014 present results from 10, 50, 200 and 1000 trials and discuss convergence",
+          "Discuss and evaluate the use of simulation in real-world contexts (e.g. insurance risk modelling, weather forecasting) \u2014 assess what makes a simulation trustworthy",
+          "Connect simulation results to the design of fair games and discuss what probability results reveal about whether a game is fair"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Describing and evaluating results integrates the full investigation cycle: design, conduct, compare and explain. The integration challenge is connecting what the simulation shows to what it means probabilistically \u2014 moving from 'I got 0.48' to 'this is consistent with a theoretical probability of 0.5 because...' This is the descriptor's full demand."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States the experimental probability and the corresponding theoretical probability",
+          "Explains why the two values are unlikely to be identical for a finite number of trials",
+          "Identifies what aspect of the design or trial count could be changed to reduce the discrepancy"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

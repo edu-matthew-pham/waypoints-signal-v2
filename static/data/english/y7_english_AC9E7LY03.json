@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LY03",
+    "title": "Analyse language shaping meaning",
+    "description": "Analyse the ways in which language features shape meaning and vary according to audience and purpose",
+    "strand": "Literacy — Analysing, interpreting and evaluating",
+    "mode": "B",
+    "prior_knowledge": "Students can analyse how text structures and language features work together to meet the purpose of a text and engage and influence audiences (AC9E6LY03). They have not yet worked at the level of analysing how specific language features shape meaning, or explicitly examining how features vary with audience and purpose.",
+    "progression_endpoint": "Students analyse how language features shape meaning and vary according to audience and purpose.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Language features shape meaning",
+        "progression_checkpoint": "Students can identify specific language features in a text and explain how each shapes meaning",
+        "minimum_width": "In a given text, identify at least two language features (e.g. word choice, modality, tense, sentence type, figurative language) and explain how each shapes the meaning a reader constructs",
+        "typical_width": "Analyse how a range of language features work together to shape meaning in a text — examining word choice, sentence structure, modality and figurative language and explaining how each contributes to the overall meaning",
+        "wider": [
+          "Explain the relationship between language features and audience and purpose — identify the most likely target audience for an advertisement and justify why by tracing specific language features",
+          "Examine depictions of histories and cultures of First Nations Australians in texts and discuss how language features shape the meaning constructed about those histories and cultures"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot explain how a language feature shapes meaning, Node 2's comparative audience-purpose work collapses — explaining why features vary requires first being able to explain what features do.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly identify language features without explaining their effect on meaning — listing that a text uses metaphor without explaining what the metaphor makes the reader think or feel. The reasoning scaffold — feature → effect on reader → contribution to meaning — is the core analytical move this descriptor develops.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two language features in a given text",
+          "Explains how each feature shapes the meaning a reader constructs"
+        ],
+        "related_standards": ["AC9E7LA02", "AC9E7LA03"]
+      },
+      {
+        "id": 2,
+        "label": "Language features vary with audience and purpose",
+        "progression_checkpoint": "Students can analyse how language feature choices vary when the audience or purpose of a text changes",
+        "minimum_width": "Compare two texts on the same topic with different audiences or purposes; identify at least one language feature that differs and explain why it changes with the audience or purpose",
+        "typical_width": "Analyse how language features vary systematically across texts with different audiences and purposes — how formality, vocabulary, modality and sentence complexity shift — and explain the relationship between feature choices and context",
+        "wider": [
+          "Examine how the same event or subject is represented differently in texts for different audiences — e.g. a news article vs a social media post vs a children's explanation — and trace how language feature choices differ and why",
+          "Analyse how language features in texts about First Nations Australians vary depending on who the text is for and what its purpose is — and what this reveals about the relationship between language, audience and power"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The audience-purpose-language relationship only becomes visible through comparison. Students need to see language feature variation across genuinely different audience-purpose combinations — not just formal vs informal — to understand the principle rather than observing a single instance. Breadth across varied contexts builds the analytical pattern.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations representation direction is pedagogically rich and culturally significant — it makes the stakes of language choice concrete and connects linguistic analysis to critical literacy and social awareness.",
+        "success_criteria": [
+          "Identifies a language feature that varies between two texts with different audiences or purposes",
+          "Explains why the feature changes with the audience or purpose"
+        ],
+        "related_standards": ["AC9E7LA03", "AC9E7LY04", "AC9E7LE01"]
+      }
+    ]
+  }
+}

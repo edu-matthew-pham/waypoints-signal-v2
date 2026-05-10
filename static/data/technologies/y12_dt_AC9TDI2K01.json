@@ -1,0 +1,109 @@
+{
+  "year_level": "1-2",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI2K01",
+    "title": "Digital systems and components",
+    "description": "identify and explore digital systems and their components for a purpose",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise and explore digital systems (hardware and software) for a purpose (AC9TDIFK01). They have identified some hardware and software components used for familiar purposes. They have not yet identified components by name or explained how component combinations enable a system's purpose.",
+    "progression_endpoint": "Students identify digital systems in familiar contexts and explain how components (input, output, storage, processing) work together to serve a purpose.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What digital systems are",
+        "progression_checkpoint": "Students can identify familiar digital systems (devices) in their home and school environment and name what they are used for",
+        "minimum_width": "Name at least two different digital systems encountered at home or school and state a purpose for each",
+        "typical_width": "Identify multiple digital systems (tablet, computer, TV, interactive display, camera) in familiar settings; explain how each is used at home or school",
+        "wider": [
+          "Investigate how First Nations Australians in remote communities access and use digital systems for essential services \u2014 identifying specific systems and the communities they serve",
+          "Compare digital systems used at school with those used at home \u2014 identify which system is used for each purpose and why they may differ"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often conflate the term 'computer' with all digital systems, missing that a TV remote, tablet, and interactive whiteboard are all distinct digital systems. Encountering a range of contexts (home, school, community) helps students build a reliable category for 'digital system' rather than a narrow exemplar.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations remote community direction offers genuine richness \u2014 it connects digital systems to community need and service access, making the 'purpose' dimension of the descriptor meaningful beyond personal use cases.",
+        "success_criteria": [
+          "Names at least two different digital systems correctly",
+          "States a distinct purpose for each system"
+        ],
+        "related_standards": [
+          "AC9TDIFK01",
+          "AC9TDI2P03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Components of digital systems",
+        "progression_checkpoint": "Students can identify and name components of digital systems \u2014 including input devices, output devices and storage",
+        "minimum_width": "Identify and name at least one input and one output component on a familiar digital system; explain what each component does",
+        "typical_width": "Identify input devices (keyboard, touchpad, camera, microphone), output devices (screen, speakers, printer) and storage on common digital systems; explain the function of each component type",
+        "wider": [
+          "Explore how the same component serves different purposes on different devices \u2014 for example how a screen is both output on a laptop and also input (touch) on a tablet",
+          "Investigate a camera on a device: identify it as an input component and explain how it enables different purposes (photos, video calls, scanning)"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Component naming requires accurate recall and correct categorisation (input/output/storage). Students commonly swap input and output. Practice across multiple devices \u2014 naming and categorising components repeatedly \u2014 builds the precision needed before they can reason about how components combine.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly names at least one input and one output component on a digital system",
+          "Explains what each named component does in plain language"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "Component categorisation errors (swapping input/output) propagate directly into Node 3 \u2014 students who cannot reliably identify and categorise components cannot explain how they coordinate to serve a purpose."
+      },
+      {
+        "id": 3,
+        "label": "Components working together for a purpose",
+        "progression_checkpoint": "Students can identify and explore how components of a digital system work together to serve a specific purpose",
+        "minimum_width": "For one familiar digital system, identify the components used and explain how they work together to achieve the system's purpose",
+        "typical_width": "Explain how components (input, output, processing, storage) work together across different digital systems for different purposes \u2014 for example how a camera, screen and storage combine to let you take and keep a photo",
+        "wider": [
+          "Compare how a tablet and a desktop computer achieve the same purpose (e.g. writing a message) using different component combinations \u2014 explain why the components differ",
+          "Investigate how digital systems provide communities with services \u2014 for example how input, processing and output components combine to allow TV to reach remote communities"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Component identification and purpose identification are component understandings. At this node students must coordinate both simultaneously \u2014 identifying which components are active and explaining how their coordination produces the purpose. This is the integration of the descriptor's two demands: 'identify components' and 'for a purpose'.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The community services direction \u2014 especially the remote community TV access elaboration \u2014 makes the 'for a purpose' demand genuinely rich. Students move from personal use to community-scale purpose, which broadens the concept substantially.",
+        "success_criteria": [
+          "Identifies at least two components used in a specific digital system",
+          "Explains how those components work together to achieve the system's purpose"
+        ],
+        "related_standards": [
+          "AC9TDI2P01",
+          "AC9TDI2P03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

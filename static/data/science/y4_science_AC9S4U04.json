@@ -1,0 +1,127 @@
+{
+  "year_level": "4",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S4U04",
+    "title": "Properties of Materials",
+    "description": "examine the properties of natural and made materials including fibres, metals, glass and plastics and consider how these properties influence their use",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise that objects are made of materials and describe observable properties of those materials (AC9SFU03). They can recognise that physical actions change the shape of materials without changing their composition (AC9S2U03). They have not yet systematically compared material classes (fibres, metals, glass, plastics) or connected material properties to selection for specific uses.",
+    "progression_endpoint": "Students examine properties of natural and made materials across fibres, metals, glass and plastics, use property vocabulary to describe and compare materials, and explain how specific properties determine why materials are selected for particular uses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Materials have observable and testable properties",
+        "progression_checkpoint": "Students can use property vocabulary to describe and compare materials, making observations and using appropriate terms (hardness, flexibility, transparency, conductivity, texture, absorbency).",
+        "minimum_width": "Students use at least four property terms to describe and compare two materials, making observations to justify each term.",
+        "typical_width": "Students systematically describe a range of materials using property vocabulary, distinguishing between properties they can observe directly and properties they need to test.",
+        "wider": [
+          "Explore how First Nations Australians use material properties to select appropriate natural materials for tools, clothing, shelter and musical instruments",
+          "Investigate how property vocabulary is used in materials science and engineering — product datasheets, material specifications",
+          "Compare how the same material can have different properties in different forms (e.g. glass as flat sheet vs glass fibre vs tempered glass)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Property vocabulary is the language for all subsequent nodes. Students who lack accurate property terms produce vague selection rationales ('it's good because it's strong') in Nodes 3 and 4, making the property-to-demand reasoning chain impossible to complete correctly.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to accumulate a working vocabulary of property terms through applying them to varied materials before they can use these terms reliably in comparative and explanatory tasks. Rushing to selection-for-use before property vocabulary is established produces vague explanations ('it's good because it's strong').",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations knowledge of material selection provides a rich, culturally grounded direction that goes well beyond the classroom materials set. Exploring how sophisticated material selection has been practised across generations offers genuine depth without exceeding the year band.",
+        "success_criteria": [
+          "Uses at least four property terms accurately when describing a given material",
+          "Distinguishes between properties that can be observed without testing (colour, transparency) and properties that require testing (hardness, absorbency)"
+        ],
+        "related_standards": ["AC9S4I03"]
+      },
+      {
+        "id": 2,
+        "label": "Material classes: fibres, metals, glass, plastics",
+        "progression_checkpoint": "Students can identify examples of fibres, metals, glass and plastics, and describe characteristic properties of each class that distinguish it from others.",
+        "minimum_width": "Students identify at least two examples from each of the four material classes and name two characteristic properties of each class.",
+        "typical_width": "Students compare the four material classes using a property framework, identify natural vs made materials within each class, and give examples of where each class is typically used based on its characteristic properties.",
+        "wider": [
+          "Investigate natural vs synthetic versions within a class (natural fibres: wool, cotton; synthetic: nylon, polyester) and compare properties",
+          "Research how glass is made from natural materials (silica sand) — connecting to the idea that 'made' materials are often processed from natural sources",
+          "Examine how plastics are classified by resin code and how these different types have different properties and recycling outcomes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to have narrow prototypes for each class — 'metal' means iron/steel, 'fibre' means string. Exposure to the full range within each class (metals including aluminium, copper, gold; fibres including natural and synthetic; glass including safety glass and optical fibre) builds a more robust class concept and prevents selection-for-use errors based on prototype thinking."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two examples from each of the four material classes (fibres, metals, glass, plastics)",
+          "Names at least two characteristic properties of each class that distinguish it from others"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Properties determine material selection",
+        "progression_checkpoint": "Students can explain why a specific material is used for a particular purpose by connecting one or more of its properties to the demands of that use.",
+        "minimum_width": "Students explain the selection of a material for a given object by naming the relevant property and explaining why it matters for that use.",
+        "typical_width": "Students explain how the combination of properties of a material determines its suitability for a specific use, and recognise that no material is universally 'best' — selection depends on the demands of the use.",
+        "wider": [
+          "Examine familiar objects made from combinations of materials (shoes: rubber sole, leather/synthetic upper, foam insole) and explain the property rationale for each component",
+          "Investigate how knowledge of material properties has influenced people's decisions about plastic use and disposal (AC9S4H02)",
+          "Research a case where material selection failed — a product that used the wrong material for its purpose — and analyse the property mismatch"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students frequently explain material selection with generic justifications ('glass is used for windows because it's see-through') without articulating the property-to-demand connection ('transparency allows light in while the hardness and weather resistance keep the elements out'). Making the reasoning chain explicit — demand → required property → material that has that property — produces better explanatory quality.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Examining multi-material objects (shoes, drink containers, backpacks) requires students to apply the property-selection reasoning to multiple components simultaneously, offering genuine analytical depth. The plastic use and disposal direction (AC9S4H02) connects materials science to a real contemporary issue with genuine complexity.",
+        "success_criteria": [
+          "Names the relevant property and explains how that property meets the demands of the use for a given material-object pair",
+          "Explains why a different material would be less suitable for the same use (naming the missing property)"
+        ],
+        "related_standards": ["AC9S4H02", "AC9S4U03"]
+      },
+      {
+        "id": 4,
+        "label": "Objects often combine materials with different properties",
+        "progression_checkpoint": "Students can examine a multi-material object, identify the different materials present, and explain why each material was selected based on its properties and the specific demands it meets in that object.",
+        "minimum_width": "Students identify two different materials in a familiar object and explain the property rationale for each.",
+        "typical_width": "Students systematically examine a multi-material object (shoe, lunchbox, tent, backpack), map each material to its location and function, and explain the property rationale for each material choice.",
+        "wider": [
+          "Design and build a test object for a specific purpose (tent, bird feeder, lunchbox) selecting materials based on property analysis — connects to AC9S4I02 (fair testing of designs)",
+          "Investigate which materials in a chosen object can be recycled and research alternatives for materials with poor sustainability properties",
+          "Consider how First Nations Australians combine natural materials in traditional objects — e.g. spears combining wood, sinew, stone — and analyse the property rationale for each component"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to coordinate material identification, property vocabulary, and the selection rationale framework — applying all three simultaneously to a complex multi-material object. Students who have each component as a separate skill must now deploy them together in a single analytical task.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The design-and-build direction connects the understanding strand directly to practical design activity, providing a genuine performance context for the property-selection reasoning. First Nations multi-material objects offer sophisticated real-world examples that challenge students to apply the framework in less familiar contexts.",
+        "success_criteria": [
+          "Identifies at least two different materials in a named object and names at least one property of each",
+          "Explains the specific property-to-function connection for each identified material in the object",
+          "Identifies at least one property that would make a substitute material unsuitable for one component"
+        ],
+        "related_standards": ["AC9S4I02", "AC9S4H02"]
+      }
+    ]
+  }
+}

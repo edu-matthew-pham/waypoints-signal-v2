@@ -1,0 +1,161 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9A03",
+    "title": "Gradient, Midpoint and Distance",
+    "description": "find the gradient of a line segment, the midpoint of the line interval and the distance between 2 distinct points on the Cartesian plane",
+    "strand": "Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can graph linear relations on the Cartesian plane and solve linear equations (AC9M8A02). They have not yet formally derived gradient from two coordinate pairs, calculated midpoints algebraically, or applied Pythagoras' theorem to find distance between points.",
+    "progression_endpoint": "Students calculate the gradient, midpoint and distance for any two distinct points on the Cartesian plane and apply these in context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Gradient from two points",
+        "progression_checkpoint": "Students can calculate the gradient of a line segment between two given points and explain why gradient is independent of which two points on the line are chosen.",
+        "minimum_width": "Calculate the gradient of a line segment between two given coordinate pairs using rise/run; verify using a third point on the same line that the gradient is the same.",
+        "typical_width": "Calculate the gradient of line segments from coordinate pairs using the formula (y\u2082\u2212y\u2081)/(x\u2082\u2212x\u2081); verify that gradient is independent of point choice using multiple pairs; interpret gradient as a constant rate of change; identify positive, negative, zero and undefined gradients.",
+        "wider": [
+          "Investigate gradients in real-world contexts using superimposed images (e.g. ramps, escalators, playground equipment) \u2014 read gradient from images and connect to the linear function rule",
+          "Explore how gradient is used in machine learning to describe linear relationships in data (e.g. linear regression) at a conceptual level",
+          "Investigate how the gradient of a road or railway is expressed as a percentage or ratio and connect to the mathematical definition"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students commonly confuse the sign of gradient (reading \u0394y/\u0394x in the wrong order) or treat it as always positive. Fluency with correct signed gradient across positive, negative, zero and undefined cases requires practice before gradient is used in more complex applications.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly calculates gradient (including sign) between two coordinate pairs",
+          "Verifies with a third point that gradient is constant along a line",
+          "Correctly identifies whether a gradient is positive, negative, zero or undefined from the coordinates"
+        ],
+        "related_standards": [
+          "AC9M8A02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Signed gradient errors (wrong subtraction order) propagate into N2 parallel/perpendicular identification, N3 distance calculation setup, and all linear modelling in N5. Every subsequent node uses gradient as an input."
+      },
+      {
+        "id": 2,
+        "label": "Parallel and perpendicular lines",
+        "progression_checkpoint": "Students can use gradient to determine whether two lines are parallel or perpendicular.",
+        "minimum_width": "State that parallel lines have equal gradients; calculate the gradient of two given lines and determine whether they are parallel.",
+        "typical_width": "Verify using examples that parallel lines have equal gradients and that perpendicular lines have gradients whose product is \u22121; apply these relationships to identify parallel/perpendicular lines from equations or coordinates; explain why the perpendicular gradient relationship holds.",
+        "wider": [
+          "Use dynamic geometry software to drag a line and observe how the gradient of a perpendicular line changes \u2014 visualise the m\u2081m\u2082=\u22121 relationship dynamically",
+          "Investigate how perpendicularity is used in coordinate geometry proofs (e.g. proving a quadrilateral is a rectangle using gradient)",
+          "Connect the perpendicular gradient relationship to rotation by 90\u00b0 on the Cartesian plane"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often memorise 'product is \u22121' without understanding why. Seeing the relationship through multiple perpendicular pairs \u2014 including cases where gradients are fractions \u2014 and explaining it geometrically (rotation) builds robust understanding that survives transfer to novel problems.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies parallel lines by comparing gradients",
+          "Correctly calculates the gradient of a line perpendicular to a given line",
+          "Verifies the perpendicular relationship using the product m\u2081\u00d7m\u2082=\u22121"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who confuse the direction convention for perpendicular gradients (or believe all gradients are positive) fail to apply parallel/perpendicular tests correctly in N5 combined problems and in coordinate geometry proofs."
+      },
+      {
+        "id": 3,
+        "label": "Distance between two points",
+        "progression_checkpoint": "Students can calculate the distance between two points on the Cartesian plane using Pythagoras' theorem.",
+        "minimum_width": "Calculate the distance between two coordinate pairs by constructing the right triangle formed by horizontal and vertical distances and applying Pythagoras' theorem.",
+        "typical_width": "Derive and apply the distance formula d=\u221a[(x\u2082\u2212x\u2081)\u00b2+(y\u2082\u2212y\u2081)\u00b2] from Pythagoras' theorem; calculate distances across a range of coordinate pairs including where points share no coordinate; verify results using the Pythagorean relationship.",
+        "wider": [
+          "Investigate how the distance formula extends to 3D coordinates (d=\u221a[(x\u2082\u2212x\u2081)\u00b2+(y\u2082\u2212y\u2081)\u00b2+(z\u2082\u2212z\u2081)\u00b2]) and apply to a simple 3D example",
+          "Connect distance calculations to geographic distance problems \u2014 discuss how latitude/longitude coordinates relate to map distances",
+          "Investigate how distance calculations are used in nearest-neighbour algorithms in machine learning (conceptual)"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the horizontal and vertical distances between two points as the legs of a right triangle",
+          "Applies Pythagoras' theorem to calculate the exact distance",
+          "Expresses the distance in simplified surd form where appropriate"
+        ],
+        "related_standards": [
+          "AC9M8M06",
+          "AC9M9M03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 4,
+        "label": "Midpoint of a line interval",
+        "progression_checkpoint": "Students can calculate the midpoint of a line interval between two given points.",
+        "minimum_width": "Calculate the midpoint of a line interval between two coordinate pairs by averaging the x-coordinates and averaging the y-coordinates; verify by checking the midpoint lies equidistant from each endpoint.",
+        "typical_width": "Apply the midpoint formula M=((x\u2081+x\u2082)/2, (y\u2081+y\u2082)/2) to a range of coordinate pairs; verify using distance calculations; use midpoints to solve geometric problems (e.g. finding the centre of a line segment, the midpoint of a side of a triangle).",
+        "wider": [
+          "Apply midpoint and gradient together to find the equation of the perpendicular bisector of a line segment",
+          "Investigate how midpoints are used in geometric proofs (e.g. the midpoint theorem for triangles)",
+          "Explore how midpoint calculations are used in computer graphics for interpolation between two positions"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly calculates the midpoint coordinates by averaging x and y values",
+          "Verifies the midpoint by confirming it lies equidistant from each endpoint",
+          "Applies the midpoint calculation correctly when coordinates are negative or fractional"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 5,
+        "label": "Applying coordinate geometry in context",
+        "progression_checkpoint": "Students can apply gradient, midpoint and distance in combination to solve problems in context, including interpreting gradient as rate of change.",
+        "minimum_width": "Solve one problem that requires using at least two of gradient, midpoint and distance from given coordinates; interpret the result in the context of the problem.",
+        "typical_width": "Solve applied problems combining gradient, midpoint and distance; interpret gradient as a constant rate of change in linear modelling contexts; use coordinate geometry tools together in multi-step problems.",
+        "wider": [
+          "Investigate how coordinate geometry tools (gradient, distance, midpoint) feature in autonomous vehicle navigation and machine learning algorithms \u2014 discuss the real-world application at a conceptual level",
+          "Apply coordinate geometry to verify geometric properties of shapes (e.g. prove a triangle is isosceles using distance, or a quadrilateral is a parallelogram using midpoints and gradients)",
+          "Model a real-world situation as a coordinate geometry problem (e.g. planning the path of a cable between two points) and solve using appropriate tools"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node brings gradient, midpoint and distance together into combined problem-solving. The integration challenge is selecting the appropriate tool \u2014 students who can calculate each formula individually often struggle to determine which is needed when the problem does not name a technique.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Applying coordinate geometry tools in combination to real-world contexts \u2014 navigation, machine learning, geometric proof \u2014 opens up rich connections between procedural skills and significant applications. Students who engage with these contexts develop genuine appreciation of coordinate geometry as an analytical tool beyond drill.",
+        "success_criteria": [
+          "Correctly selects and applies at least two coordinate geometry tools to solve a contextual problem",
+          "Interprets the calculated values (gradient, distance, midpoint) correctly in the context of the problem",
+          "Shows clearly labelled working and uses appropriate units or notation"
+        ],
+        "related_standards": [
+          "AC9M9A04",
+          "AC9M9M03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

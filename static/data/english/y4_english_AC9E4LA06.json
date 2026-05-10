@@ -1,0 +1,93 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LA06",
+    "title": "Complex sentences",
+    "description": "understand that complex sentences contain one independent clause and at least one dependent clause typically joined by a subordinating conjunction to create relationships, such as time and causality",
+    "strand": "Language / Expressing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand that clauses contain subjects and verbs that must agree (AC9E3LA06). They have not yet examined complex sentences with independent and dependent clauses joined by subordinating conjunctions to create time or causal relationships.",
+    "progression_endpoint": "Students can identify independent and dependent clauses in complex sentences, name the subordinating conjunctions that join them, and explain what relationship — time, cause, condition, concession — the dependent clause adds to the main clause.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Independent and dependent clauses",
+        "progression_checkpoint": "Students can identify the independent clause and at least one dependent clause in a complex sentence.",
+        "minimum_width": "Identify the independent clause and the dependent clause in a provided complex sentence.",
+        "typical_width": "Identify independent and dependent clauses across a range of complex sentences, including sentences where the dependent clause comes first, and explain what each clause contributes.",
+        "wider": [
+          "Examine complex sentences in texts from different curriculum areas (science, HASS) and identify how dependent clauses carry different types of additional information",
+          "Transform simple sentences into complex sentences by adding dependent clauses and explain how meaning changes"
+        ],
+        "hinge": true,
+        "hinge_reason": "Identifying subordinating conjunctions in N2 requires students to have reliably located the two clauses they join — without clause identification, conjunction identification has no structure to work from.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Identifying dependent clauses — especially when fronted — requires reliable parsing skill. Students need practice across a range of sentence structures before this becomes automatic.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can correctly identify the independent clause in a complex sentence (including when the dependent clause comes first)",
+          "Can identify the dependent clause and explain that it cannot stand alone as a sentence"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Subordinating conjunctions and relationships",
+        "progression_checkpoint": "Students can identify subordinating conjunctions and explain the relationship each creates between clauses.",
+        "minimum_width": "Identify a subordinating conjunction in a complex sentence and name the relationship it creates (time, cause, condition, concession).",
+        "typical_width": "Identify a range of subordinating conjunctions across texts — temporal (when, until, before, after), causal (because, since), conditional (if, unless), concessive (although, even though) — and explain what relationship each signals.",
+        "wider": [
+          "Compare how temporal and causal subordinating conjunctions are used differently in narrative (to sequence events) versus explanation texts (to signal causation)",
+          "Examine how the position of the dependent clause (before or after the main clause) affects emphasis and meaning in a complex sentence"
+        ],
+        "hinge": true,
+        "hinge_reason": "Creating complex sentences for meaning in N3 requires students to select conjunctions that encode the intended relationship — without N2's conjunction-relationship repertoire, N3 choices are arbitrary.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often learn 'because = reason' without understanding that multiple subordinating conjunctions signal cause, and that the specific choice creates different nuances. Multiple contexts help build a richer repertoire.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of subordinating conjunctions and relationships they encode is wide — temporal, causal, conditional, concessive. Wider engagement produces a vocabulary for relationships that transfers across all writing.",
+        "success_criteria": [
+          "Can name the subordinating conjunction in a complex sentence and identify the relationship type it signals",
+          "Does not confuse coordinating conjunctions (and, but, or) with subordinating conjunctions"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Using complex sentences for richer meaning",
+        "progression_checkpoint": "Students can create complex sentences that use dependent clauses to add information about time, cause, manner or condition, making sentences more specific and detailed.",
+        "minimum_width": "Expand a simple sentence by adding a dependent clause to create a complex sentence that adds time or cause information.",
+        "typical_width": "Create complex sentences across a range of relationship types — time, cause, condition, manner — and explain how each dependent clause makes the main clause more specific and the writing more precise.",
+        "wider": [
+          "Revise a piece of writing to replace simple sentences with complex sentences and evaluate the effect on precision and readability",
+          "Compare complex sentence use across two texts at different complexity levels (e.g. a Year 2 reader vs a Year 4 informational text) and describe the difference in sentence structure"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating complex sentences integrates knowledge of clauses, subordinating conjunctions and semantic relationships — the building blocks from nodes 1 and 2 coordinated in production."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can write a complex sentence with a dependent clause that adds time or cause information",
+          "Can explain how the dependent clause makes the sentence more specific than the simple sentence it expanded"
+        ]
+      }
+    ]
+  }
+}

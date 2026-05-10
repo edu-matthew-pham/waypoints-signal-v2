@@ -1,0 +1,112 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY05",
+    "title": "Build literal and inferred meaning",
+    "description": "use comprehension strategies such as visualising, predicting, connecting, summarising and questioning when listening, viewing and reading to build literal and inferred meaning by drawing on vocabulary and growing knowledge of context and text structures",
+    "strand": "literacy_mode_b",
+    "mode": "B",
+    "prior_knowledge": "Students can use comprehension strategies such as visualising, predicting, connecting and summarising at Foundation level (AC9EFLY05). They have not yet explicitly applied inferencing, questioning as a deliberate strategy, or drawn on vocabulary and text structure knowledge to build beyond literal meaning.",
+    "progression_endpoint": "Students use comprehension strategies — visualising, predicting, connecting, summarising, questioning — to build literal and inferred meaning when listening, viewing and reading.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Literal meaning: what the text says",
+        "progression_checkpoint": "Students can identify and retell information stated explicitly in a text — what the text directly says.",
+        "minimum_width": "Identify and retell at least two pieces of information stated directly in a text.",
+        "typical_width": "Consistently identify explicitly stated information across listening, viewing and reading contexts, building factual understanding of what the text says.",
+        "wider": [
+          "Distinguish between information stated in words versus information shown only in images",
+          "Locate specific literal information in response to questions across a range of text types"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student accurately retells at least two pieces of information stated explicitly in a text",
+          "Student can locate a specific piece of information when asked"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Predicting and connecting",
+        "progression_checkpoint": "Students can make predictions before and during reading and connect text content to their own knowledge or experiences.",
+        "minimum_width": "Make at least one prediction before or during reading and confirm or adjust it after reading.",
+        "typical_width": "Make and adjust predictions using cover, title, illustrations and text clues; make connections to prior knowledge and personal experience; explain how connections help build understanding.",
+        "wider": [
+          "Compare predictions made from cover and title with what actually happened — discuss what cues were most reliable",
+          "Make text-to-text connections across two texts on the same topic and discuss what each adds"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Predicting and connecting are strategies that improve through repeated application across varied text types and topics. The range of contexts in which students practise these strategies determines how transferable they become."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student makes a prediction using a text clue (cover, image, title) and states the evidence for it",
+          "Student confirms or adjusts the prediction after reading"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Inferring meaning",
+        "progression_checkpoint": "Students can draw inferences — identify meaning that is implied but not directly stated — using clues from the text.",
+        "minimum_width": "Identify at least one piece of information in a text that is not directly stated and explain what clues led to the inference.",
+        "typical_width": "Draw inferences from text clues — character feelings, motivations, causes of events — and explain the clues used, across listening, viewing and reading contexts.",
+        "wider": [
+          "Compare an inference based on text clues with one based on personal experience — discuss which the text supports more strongly",
+          "Explore how illustrations provide inference clues that are not in the words"
+        ],
+        "hinge": true,
+        "hinge_reason": "Inferencing is prerequisite for N4's multi-strategy coordination — students who cannot draw beyond-literal meaning cannot meaningfully apply visualising, questioning and summarising to anything other than surface content.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Inferencing is the most difficult comprehension strategy at Year 1. Students need many opportunities to encounter implied meaning — in different text types and modes — before the strategy becomes reliable. Image-based inferences, emotional inferences and causal inferences each require their own encounters.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Inferencing from images, emotional subtext and causal reasoning offers advancing students substantive analytical work — distinguishing strong from weak inferences, comparing text-based and experience-based inferences, is genuinely rich territory.",
+        "success_criteria": [
+          "Student identifies at least one piece of implied meaning",
+          "Student names the specific clue(s) from the text that support the inference"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Visualising, questioning and summarising",
+        "progression_checkpoint": "Students can use visualising, questioning and summarising strategies to build and consolidate meaning.",
+        "minimum_width": "Use at least two different comprehension strategies (e.g. visualise + summarise, or question + connect) within a single reading experience.",
+        "typical_width": "Apply visualising (forming mental images), questioning (asking what/why/how about the text) and summarising (capturing main ideas) as deliberate strategies across listening, viewing and reading.",
+        "wider": [
+          "Discuss which strategy is most useful for which kind of text or difficulty",
+          "Apply multiple strategies to the same text and discuss how each adds something different to understanding"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Using multiple comprehension strategies together — rather than in isolation — is the mature capability this descriptor targets. The integration node requires students to select and coordinate strategies for the specific comprehension challenge they face."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Selecting and coordinating comprehension strategies, and reflecting on which strategy helped most, builds genuine metacognitive awareness — rich territory for advancing students that connects to lifelong reading habit.",
+        "success_criteria": [
+          "Student uses at least two different comprehension strategies and names each",
+          "Student explains how each strategy helped them build or check meaning"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "year_level": "6",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S6U04",
+    "title": "Reversible and Irreversible Changes",
+    "description": "compare reversible changes, including dissolving and changes of state, and irreversible changes, including cooking and rusting that produce new substances",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can explain changes of state using the particle model (AC9S5U04) and distinguish solids, liquids and gases (AC9S3U04). They have informally encountered dissolving. They have not yet formally compared reversible and irreversible changes or connected irreversibility to the production of new substances.",
+    "progression_endpoint": "Students compare reversible changes (dissolving, state changes — same substances, no new matter produced) with irreversible changes (cooking, rusting — new substances produced), explain what makes a change reversible or irreversible at the substance level, and describe methods for recovering dissolved substances.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Reversible changes do not produce new substances",
+        "progression_checkpoint": "Students can explain that reversible changes — including dissolving and state changes — do not produce new substances, describe how dissolved substances can be recovered, and give examples of reversible changes used in recycling.",
+        "minimum_width": "Students explain that dissolving and state changes are reversible, give one method for recovering a dissolved substance, and name one reversible change used in recycling.",
+        "typical_width": "Students explain why dissolving and state changes are reversible (same substances, no new matter produced); describe evaporation, filtration and distillation as methods for reclaiming dissolved substances; explain how state change reversibility enables recycling of glass and metals; and use particle-level reasoning to explain why these changes are reversible.",
+        "wider": [
+          "Investigate how dissolved substances are reclaimed from solutions — comparing evaporation, filtration and crystallisation as recovery methods",
+          "Examine First Nations Australians' knowledge of reversible processes such as the application of adhesives — exploring how reversibility is a deliberately selected property in traditional material use",
+          "Explore how reversible changes are exploited in industrial recycling — examining which materials can be returned to their original state and reformed"
+        ],
+        "hinge": true,
+        "hinge_reason": "The new-substance criterion is the definitional basis for the reversible/irreversible distinction at Node 3 — students who believe dissolving is irreversible because the substance visually disappears cannot correctly classify changes at N3, and cannot distinguish reversible from irreversible in ambiguous cases like dissolving. The misconception must be resolved here before systematic comparison is possible.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly believe dissolving is irreversible ('the salt is gone') because the change is visually dramatic. The reasoning chain — dissolved particles are still present in the solution → they can be recovered by removing the water → the original substance is unchanged → this is reversible — requires explicit scaffolding before students can consistently distinguish dissolving from chemical change.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that dissolving is reversible — the dissolved substance can be recovered",
+          "Describes at least one method for recovering a dissolved substance",
+          "Explains that reversible changes do not produce new substances"
+        ],
+        "related_standards": ["AC9S3U04", "AC9S5U04"]
+      },
+      {
+        "id": 2,
+        "label": "Irreversible changes produce new substances",
+        "progression_checkpoint": "Students can explain that irreversible changes produce new substances with different properties, identify observable evidence of new substance formation, and give examples of common irreversible changes.",
+        "minimum_width": "Students explain that cooking and rusting produce new substances with different properties, and identify at least two observable indicators that an irreversible change has occurred.",
+        "typical_width": "Students examine the substances produced in cooking and rusting and compare them with original substances (different colour, texture, composition); explain that irreversible changes cannot be undone because new substances have formed; identify observable indicators of new substance formation; and compare energy requirements for reversible vs irreversible changes.",
+        "wider": [
+          "Examine First Nations Australians' knowledge of irreversible processes such as the use of fuels for torches — exploring how controlled combustion has been used purposefully across generations",
+          "Compare how the amount of heat energy added determines whether a reversible state change or an irreversible change occurs — examining the threshold between melting and burning for different materials",
+          "Connect irreversible changes to chemical change indicators studied in Y8 (AC9S8U07) — tracing how this foundational distinction develops into formal chemistry"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding irreversibility as caused by new substance formation (not just visual change) is required for Node 3 systematic classification — students who identify irreversibility by appearance alone will fail on ambiguous cases, especially those where visual change is subtle. The substance-change criterion must be established here before it can be applied systematically.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often identify cooking as irreversible ('you can't uncook an egg') without understanding why — that new proteins have formed with different properties. Encountering multiple irreversible changes (rusting, burning, cooking, digestion) with evidence of new substance formation builds a more principled understanding of irreversibility grounded in substance change rather than visual appearance.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations use of fuels for torches provides a culturally specific and technically interesting irreversible change direction. The heat energy threshold direction connects reversible and irreversible change in a single analytical framework.",
+        "success_criteria": [
+          "Explains that irreversible changes produce new substances with different properties",
+          "Names at least two observable indicators that an irreversible change has occurred",
+          "Distinguishes an irreversible change from a reversible change by the presence or absence of new substance formation"
+        ],
+        "related_standards": ["AC9S8U07"]
+      },
+      {
+        "id": 3,
+        "label": "Reversible and irreversible changes are compared systematically",
+        "progression_checkpoint": "Students can compare reversible and irreversible changes systematically — using the criterion of new substance formation — classify a range of everyday changes correctly, and explain how this distinction is used in practical contexts.",
+        "minimum_width": "Students classify at least four everyday changes as reversible or irreversible using the new-substance criterion, with reasoning for each.",
+        "typical_width": "Students compare reversible and irreversible changes using a systematic framework (new substances formed? properties changed? change undoable?); classify a range of changes including ambiguous cases (dissolving, digestion, melting, burning, rusting, baking); explain their reasoning; and describe how this distinction is applied in practical contexts such as cooking, recycling and manufacturing.",
+        "wider": [
+          "Discuss what makes a change reversible or irreversible using a range of everyday examples — including ambiguous cases that challenge the classification",
+          "Construct a poster or slideshow comparing everyday examples of reversible and irreversible change — selecting representations that clearly show the before/after substance comparison",
+          "Examine how knowledge of reversibility influences material and process selection in manufacturing and product design — connecting the science concept to real industrial decision-making"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Systematic comparison requires students to apply the new-substance criterion consistently across varied examples — including ambiguous cases — coordinating substance properties knowledge, change observation, and reversibility reasoning. This is the synthesis move that transforms a collection of examples into a generalisable chemical classification framework."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies at least four everyday changes as reversible or irreversible using the new-substance criterion",
+          "Correctly classifies at least one ambiguous case (e.g. dissolving) with reasoning",
+          "Explains how the reversible/irreversible distinction is applied in a practical context"
+        ]
+      }
+    ]
+  }
+}

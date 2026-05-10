@@ -1,0 +1,72 @@
+{
+  "year_level": "3",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS3S03",
+    "title": "Interpret information displayed in different formats",
+    "description": "interpret information and data displayed in different formats",
+    "strand": "Inquiry Skills \u2014 Analysing",
+    "mode": "B",
+    "prior_knowledge": "From Y2 (AC9HS2S03): Students interpreted distance and location on maps and compared objects and activities across places and time.",
+    "progression_endpoint": "Students interpret information and data displayed in different formats including climate data, maps, graphs and photographs.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Distinguishing fiction from non-fiction",
+        "progression_checkpoint": "Students can distinguish between fiction and non-fiction texts in relation to their representation of places, environments and past events.",
+        "minimum_width": "Identify whether a given text about a place or past event is fiction or non-fiction and explain one reason for the distinction.",
+        "typical_width": "Distinguish fiction from non-fiction in texts about places, environments and past events; discuss how each type of text can be useful in HASS inquiry for different purposes.",
+        "wider": [
+          "Identify how a historical fiction text uses factual details and which elements are invented",
+          "Explore how point of view affects whether a source presents events as fact or interpretation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish fiction from non-fiction cannot correctly assess the evidentiary value of sources \u2014 this is a prerequisite for all subsequent analysis.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The fiction/non-fiction distinction requires criteria \u2014 explicitly teach the features that distinguish each type in HASS contexts.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies a given text as fiction or non-fiction",
+          "Gives at least one reason for the classification"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Interpreting climate data, graphs and maps",
+        "progression_checkpoint": "Students can interpret climate data, graphs, maps and photographs to identify patterns and features.",
+        "minimum_width": "Interpret at least one data display (graph, table, map or photograph) to identify one pattern or feature.",
+        "typical_width": "Interpret climate data to describe temperature and rainfall for a place; interpret data to identify patterns of change over time; use maps, aerial photographs and satellite images to identify and describe features including cartographic elements.",
+        "wider": [
+          "Compare climate data from two contrasting places and draw conclusions about how climate affects human activity",
+          "Interpret building date data to make inferences about changing architectural styles and materials"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Interpreting across multiple data formats (graphs, maps, photographs, tables) builds transferable analytical skill.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Each data format requires different interpretation strategies \u2014 building fluency across formats creates genuinely more capable data analysts.",
+        "success_criteria": [
+          "Interprets at least one data display accurately",
+          "Identifies at least one pattern or feature from the display"
+        ]
+      }
+    ]
+  }
+}

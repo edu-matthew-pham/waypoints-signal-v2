@@ -1,0 +1,102 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10S02",
+    "title": "Collect, represent and compare geographical data",
+    "description": "collect, represent and compare data and information from primary research methods, including fieldwork and secondary research materials, using geospatial technologies and digital tools as appropriate",
+    "strand": "Geographical Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "At Y9, students collected, represented and compared data using primary and secondary methods, geospatial technologies and digital tools (AC9HG9S02). At Y10 the additional complexity involves evaluating sources for relevance, reliability and bias, respecting First Nations consultation protocols, and representing multi-variable data using geospatial and digital tools.",
+    "progression_endpoint": "Students collect data from primary and secondary research methods, evaluate sources for relevance, reliability and bias, respect First Nations consultation protocols where relevant, and represent multi-variable data using geospatial technologies and digital tools.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Primary research methods including fieldwork",
+        "progression_checkpoint": "Students can identify and use primary research methods, including fieldwork, to collect original materials relevant to their inquiry.",
+        "minimum_width": "Identify at least one primary research method appropriate to the inquiry and describe how it would be used to collect original data.",
+        "typical_width": "Identify primary methods (survey, interview, fieldwork observation) and explain their use in collecting data for geography inquiry; apply at least one method; identify and respect First Nations consultation protocols when planning investigations involving First Nations communities.",
+        "wider": [
+          "Design and conduct a fieldwork-based investigation, including choice of location, data recording protocol and analysis of collected data",
+          "Investigate how primary data collection protocols differ when working with First Nations communities — examining what ethical consultation looks like in practice and why it matters",
+          "Compare the advantages and limitations of different primary methods (survey vs interview vs observation) for the same research question, evaluating which would produce more reliable or representative data"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students benefit from experience with more than one primary method — exposure to survey, interview and observation contexts builds understanding of what each method is suited for.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Primary method range builds methodological literacy — students who have only used one method cannot evaluate whether their choice of method is appropriate for a given research question.",
+        "success_criteria": [
+          "Students identify a primary research method appropriate to their inquiry and describe how it would be used",
+          "Students acknowledge First Nations consultation protocols when planning investigations that involve First Nations communities"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating sources for relevance, reliability and bias",
+        "progression_checkpoint": "Students can evaluate primary and secondary research materials for relevance, reliability and bias, including identifying different types of bias.",
+        "minimum_width": "Evaluate one source using at least two criteria (relevance, reliability or bias) and explain the evaluation with evidence from the source.",
+        "typical_width": "Evaluate primary and secondary sources for relevance (currency, fit to inquiry), reliability (authorship, referencing, expertise) and bias (information bias, selection bias); compare findings from primary research with secondary research for relevance and reliability.",
+        "wider": [
+          "Analyse how bias operates differently in quantitative data (selection bias in sampling) vs qualitative sources (framing and perspective bias) — developing a multi-type bias evaluation framework",
+          "Evaluate sources specifically related to First Nations communities or aid programs where power dynamics shape what is published and from whose perspective",
+          "Investigate how media sources on environmental or wellbeing issues reflect particular world views, applying the bias evaluation framework to identify not just error but perspective"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot evaluate sources, they will use unreliable or biased data in their analysis (S03) and draw conclusions (S04) built on a weak evidentiary foundation — the entire subsequent inquiry chain is compromised by weak source evaluation.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often treat relevance and reliability as the same thing, or conflate 'I agree with this' with 'this is reliable'. An explicit framework distinguishing the three criteria — with a worked example applying all three to the same source — prevents undifferentiated source assessment.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Practising source evaluation across different source types (news, academic, NGO reports, government data, community-produced) builds a more flexible and accurate evaluation toolkit.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Source evaluation literacy is broadly transferable. Students who have evaluated sources across multiple types — and seen that bias operates differently in different source types — develop a more sophisticated and portable critical literacy.",
+        "success_criteria": [
+          "Students evaluate a source for relevance, reliability and bias using evidence from the source",
+          "Students explain how a specific type of bias (information or selection) affects what a source tells them and what it omits"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Representing multi-variable data",
+        "progression_checkpoint": "Students can represent multi-variable data using geospatial technologies and digital tools.",
+        "minimum_width": "Represent data from at least two variables using an appropriate digital tool, explaining what the representation shows.",
+        "typical_width": "Represent multi-variable data using geospatial technologies (e.g. scatterplots showing correlation between two geographic variables such as literacy and GDP per capita) and digital tools (pie graphs, tables, digital photographs); select representation types appropriate to the data and the question.",
+        "wider": [
+          "Create a geospatial map showing spatial distribution of two or more wellbeing variables across a country or region, using GIS or a mapping tool to identify spatial patterns",
+          "Evaluate a range of representation types for the same dataset — explaining which representation most effectively communicates the geographical pattern and why",
+          "Design and produce a multi-panel data visualisation that combines geospatial mapping with statistical representations to tell a coherent geographical story"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to build a repertoire of representation types — not just know that multiple types exist, but have practised using several. Each representation type is suited to different data structures and questions.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-variable representation is a skill that transfers directly to geographical analysis (S03) and communication (S06). Students who have used multiple representation types are better equipped to select and justify representation choices in integrated tasks.",
+        "success_criteria": [
+          "Students represent data from at least two variables using a digital tool, producing a representation that accurately reflects the data",
+          "Students explain what their data representation shows and what geographical pattern or relationship it reveals"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LY03",
+    "title": "Explain characteristic features",
+    "description": "Explain characteristic features used in imaginative, informative and persuasive texts to meet the purpose of the text",
+    "strand": "Literacy",
+    "mode": "A",
+    "prior_knowledge": "Students can identify the characteristic features used in imaginative, informative and persuasive texts (AC9E4LY03). They have not yet explained how those features meet the purpose of the text — moving from identification to purposive explanation.",
+    "progression_endpoint": "Students explain how characteristic features — structural, linguistic, and visual — used in imaginative, informative and persuasive texts are purposively chosen to meet the text's communicative goal.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Features serve purpose",
+        "progression_checkpoint": "Students can identify a characteristic feature of a text type and explain how it serves the text's purpose — not just that it is present.",
+        "minimum_width": "Identify at least two characteristic features of a text type and explain, for each, how it helps the text achieve its purpose.",
+        "typical_width": "Explain how characteristic features across imaginative, informative and persuasive texts work to meet their respective purposes — examining how features such as character, dialogue, topic sentence, thesis statement, emotive language, and modal verbs are purposively chosen.",
+        "wider": [
+          "Examine how the same feature (e.g. an emotive vocabulary choice) can serve different purposes in different text types — discussing how purpose shapes the use of the feature, not just the feature itself",
+          "Analyse a persuasive text about a local community issue and explain how its features work to achieve action — connecting the elaboration example to the broader principle"
+        ],
+        "hinge": true,
+        "hinge_reason": "The feature-serves-purpose reasoning move is the foundation on which Node 2's character analysis and Node 3's multi-feature integration both depend. Students who can only identify features without explaining their function cannot engage with the purposive reasoning that Node 2 and Node 3 require.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who have only explained features in narrative texts may apply narrative reasoning to persuasive or informative texts inappropriately. Encountering feature explanation across all three text-type categories builds the understanding that purpose determines feature function, not text type name alone.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a characteristic feature and explains how it serves the text's purpose — explains the relationship, not just names the feature.",
+          "Applies the explanation to at least two different text types or two different features within a text type."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Characters in persuasive texts",
+        "progression_checkpoint": "Students can explain how characters are used in persuasive texts to deliver a message, and analyse why real people might be replaced by constructed characters.",
+        "minimum_width": "Identify a text where characters are used to deliver a persuasive message and explain how the character choice serves the persuasive purpose.",
+        "typical_width": "Explain how characters function as persuasive vehicles in texts such as advertising or advocacy, discussing why characters (rather than factual claims) are used and what the character choice communicates to the audience. Apply this to at least one health or community advocacy example.",
+        "wider": [
+          "Compare persuasive texts that use real people versus constructed characters to make the same argument — discussing what each choice does for the persuasive strategy and audience response",
+          "Examine how First Nations Australian community advocacy texts use character and voice, and discuss how the choice of spokesperson reflects community values and communication conventions"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to explain how multiple characteristic features of a text type work together. Students who have not yet understood why particular choices are made — not just that characters appear in persuasive texts, but why this is more effective than other options — cannot produce the analytical accounts of feature function that Node 3 demands.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The reasoning chain — 'characters are used instead of real people because... and this achieves... for the audience' — requires explicit scaffolding. Students often accept that characters are used without reasoning about why that choice is more persuasively effective than other options.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The use of characters in persuasion — across advertising, community advocacy, health communication, and political messaging — is rich territory. Advancing students can develop a critical analytical lens for how character selection encodes audience assumptions and communicative intent.",
+        "success_criteria": [
+          "Explains why characters are used in a persuasive text and connects that choice to the persuasive purpose.",
+          "Analyses what the character choice communicates to the audience beyond the explicit message."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Explaining features across text types",
+        "progression_checkpoint": "Students can produce a coherent explanation of how the characteristic features of a text type work together to meet its purpose, accounting for multiple features across structural, linguistic, and visual dimensions.",
+        "minimum_width": "Provide an explanation of how at least three characteristic features of a given text type work together to meet its purpose.",
+        "typical_width": "Explain characteristic features across all three text type categories (imaginative, informative, persuasive), demonstrating understanding of how different feature sets serve different purposes. Produce explanations that go beyond description to analysis of function.",
+        "wider": [
+          "Examine a text that blends purposes (e.g. an informative text that also persuades, or a narrative that advocates) and explain how features from different text types are combined and why",
+          "Compare how the same purpose can be served by different feature configurations — discussing what this reveals about the relationship between feature and purpose"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to integrate feature identification, purpose explanation, and character analysis into coherent explanatory accounts across all three text type categories — the full demand of the descriptor."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least three characteristic features of a text type and how they work together to serve the text's purpose.",
+          "The explanation addresses how features function — not just lists them or describes their presence."
+        ]
+      }
+    ]
+  }
+}

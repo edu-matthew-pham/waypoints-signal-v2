@@ -1,0 +1,113 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5SP03",
+    "title": "Transformations of shapes",
+    "strand": "Space",
+    "description": "Describe and perform translations, reflections and rotations of shapes, using dynamic geometric software where appropriate; recognise what changes and what remains the same, and identify any symmetries",
+    "prior_knowledge": "Students can identify and describe line and rotational symmetry (AC9M4SP03). They have not yet performed and described all three transformation types or systematically analysed what is preserved under each.",
+    "progression_endpoint": "Students describe and perform translations, reflections and rotations; recognise what changes and what remains the same; identify any symmetries.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Translation",
+        "progression_checkpoint": "Students can describe and perform a translation and explain what properties are preserved.",
+        "minimum_width": "Translate a shape by a given vector; describe the translation in terms of direction and distance; explain that shape and size are preserved.",
+        "typical_width": "Perform and describe translations on a coordinate grid; describe using coordinate change notation; verify preservation of size, shape and orientation.",
+        "wider": [
+          "Use dynamic geometric software to perform and verify translations",
+          "Investigate translation patterns in cultural designs (textiles, tiling)"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly translates a shape as specified",
+          "Student states which properties are preserved under translation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Reflection",
+        "progression_checkpoint": "Students can describe and perform a reflection across a given mirror line and identify the line of symmetry.",
+        "minimum_width": "Reflect a shape across a horizontal or vertical mirror line; describe the reflection; identify the line of symmetry.",
+        "typical_width": "Reflect shapes across lines in various orientations; identify lines of symmetry in shapes and patterns; verify reflection using folding or measurement.",
+        "wider": [
+          "Investigate reflection symmetry in Aboriginal and Torres Strait Islander art and design",
+          "Use dynamic geometric software to explore diagonal lines of reflection"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Cultural and artistic contexts for reflection symmetry vary the phenomenon meaningfully — students see that the same transformation type appears across diverse human design traditions.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cultural design contexts for reflection symmetry give advancing students authentic, rich investigation material.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly reflects a shape across a given mirror line",
+          "Student identifies the line of symmetry in a resulting image"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Rotation",
+        "progression_checkpoint": "Students can describe and perform a rotation about a point, specifying the centre, angle and direction.",
+        "minimum_width": "Rotate a shape 90° or 180° about a given centre point; describe the rotation specifying direction and angle.",
+        "typical_width": "Perform rotations of 90°, 180°, 270°; identify rotational symmetry order in shapes; use dynamic geometric software to verify.",
+        "wider": [
+          "Investigate rotational symmetry in cultural patterns and logos",
+          "Combine rotation and reflection: identify shapes with both types of symmetry"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Rotation is the transformation students find hardest to visualise. Multiple contexts — physical, digital, and pattern-based — help build spatial intuition for the operation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly rotates a shape by a specified angle and direction",
+          "Student describes the rotation using centre, angle and direction"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "What changes and what stays the same",
+        "progression_checkpoint": "Students can compare the three transformations and identify which properties are preserved and which change under each.",
+        "minimum_width": "State which properties (shape, size, orientation, position) change or are preserved for each of translation, reflection and rotation.",
+        "typical_width": "Compare transformations systematically; apply reasoning to classify a given transformation from its description or image; identify symmetries that arise from combining transformations.",
+        "wider": [
+          "Investigate patterns made by repeating a combination of transformations",
+          "Analyse a cultural or architectural design to identify which transformations are present"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Comparing the three transformations requires all three to be understood individually and then contrasted. This integration node is where the systematic understanding of transformation types is consolidated.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Combined transformation pattern analysis is rich and open-ended for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly states which properties change/are preserved for each transformation",
+          "Student classifies a given transformation correctly from its description"
+        ]
+      }
+    ]
+  }
+}

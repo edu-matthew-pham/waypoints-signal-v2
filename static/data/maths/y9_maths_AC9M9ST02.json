@@ -1,0 +1,71 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9ST02",
+    "title": "Sampling Methods and Representation Bias",
+    "description": "analyse how different sampling methods can affect the results of surveys and how choice of representation can be used to support a particular point of view",
+    "strand": "Statistics",
+    "mode": "A",
+    "prior_knowledge": "Students can analyse survey reports for information on how data was obtained and evaluate claims about population means and medians (AC9M9ST01). They have not yet systematically compared how different sampling methods affect results, or examined how visualisation choices support a particular viewpoint.",
+    "progression_endpoint": "Students analyse how sampling methods affect survey results and how representation choices can be used to support a particular point of view.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How sampling method affects results",
+        "progression_checkpoint": "Students can explain how at least two different sampling methods produce different results for the same population and why.",
+        "minimum_width": "Compare random sampling and convenience sampling for the same hypothetical survey; explain one way each method could produce different results.",
+        "typical_width": "Compare at least two sampling methods (e.g. random, voluntary response, convenience, systematic); explain the biases each can introduce; use examples to show how different methods applied to the same population would likely produce different results.",
+        "wider": [
+          "Investigate cultural bias in sampling: explore potential under-representation of First Nations Australians in statistical reports and what sampling methods could address this",
+          "Investigate how decreased landline usage and caller ID avoidance systematically exclude certain demographic groups from phone surveys \u2014 discuss what populations are being missed",
+          "Explore online survey platforms and discuss which demographic groups they systematically over- or under-represent"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly describes the mechanism by which each sampling method could introduce bias",
+          "Gives a specific example of a population or group that each method would over- or under-represent",
+          "Explains why random sampling is generally preferred for population inference"
+        ],
+        "related_standards": [
+          "AC9M9ST01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "How representation choices support a point of view",
+        "progression_checkpoint": "Students can identify how choices about data visualisation can be used to support a particular viewpoint and assess the strength and fairness of different representations.",
+        "minimum_width": "Identify one feature of a data visualisation (e.g. truncated axis, cherry-picked range) that makes the data appear to support a particular conclusion; explain how changing this feature would change the impression.",
+        "typical_width": "Analyse multiple data visualisations (including infographics) for features that could be used to mislead or emphasise a particular point of view; identify strengths, weaknesses and possible biases; discuss how the same data could be presented differently to support a different viewpoint.",
+        "wider": [
+          "Compare two visualisations presenting the same data with different design choices \u2014 evaluate which more accurately represents the data and why",
+          "Investigate how infographics in media selectively use data to support arguments \u2014 find a real example and critically analyse it",
+          "Explore how statistical visualisation choices affect public opinion on policy issues (e.g. climate data, health statistics) \u2014 discuss the ethical implications of misleading visualisation"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly identify only the most obvious manipulation (truncated axis) but miss subtler choices (selective time range, inappropriate graph type, misleading scale). Analysing visualisations from multiple real media sources surfaces a range of techniques and builds genuine visual literacy.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection between data representation choices and persuasion is directly relevant to media literacy and civic reasoning. Students who develop the skill of detecting and naming representational bias apply it far beyond mathematics class.",
+        "success_criteria": [
+          "Identifies at least one specific visualisation feature that could create a misleading impression",
+          "Explains how changing that feature would affect the viewer's interpretation",
+          "Assesses whether the representation fairly represents the data or is designed to support a predetermined conclusion"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

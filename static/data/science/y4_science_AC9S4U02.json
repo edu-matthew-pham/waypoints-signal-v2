@@ -1,0 +1,183 @@
+{
+  "year_level": "4",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S4U02",
+    "title": "Water Cycle",
+    "description": "identify sources of water and describe key processes in the water cycle, including movement of water through the sky, landscape and ocean; precipitation; evaporation; and condensation",
+    "strand": "Earth and Space Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe observable properties of solids and liquids and explain how adding or removing heat energy causes changes of state (AC9S3U04). They can compare properties of soils, rocks and minerals as Earth resources (AC9S3U02). They have not yet connected state changes to the movement of water through the environment as a continuous cycle.",
+    "progression_endpoint": "Students describe the key processes of the water cycle \u2014 evaporation, condensation and precipitation \u2014 trace the movement of water through sky, landscape and ocean, and identify sources of water including how First Nations Australians and others understand and manage water resources.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Water exists in different forms and locations",
+        "progression_checkpoint": "Students can identify sources of water in the environment \u2014 sky, landscape, ocean, underground \u2014 and recognise that water exists as liquid, vapour and solid depending on conditions.",
+        "minimum_width": "Students name at least three sources of water in the environment and connect each to a state of water (liquid rain, solid snow/ice, vapour in air).",
+        "typical_width": "Students describe where water is found across sky, landscape and ocean, and explain that the same water moves between these locations over time.",
+        "wider": [
+          "Map local water sources \u2014 creeks, reservoirs, stormwater drains \u2014 and trace where water comes from and where it goes",
+          "Explore First Nations Australians' knowledge of water sources and landscape reading (identifying water from topographic and vegetation cues)",
+          "Investigate underground water (groundwater, aquifers) as a less visible but important water source"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to think of water only in visible, surface forms (rain, rivers, taps). Mapping local water sources and exploring First Nations knowledge of water reading broadens this to include underground, atmospheric and landscape-embedded water \u2014 supporting the more complete model needed for the full cycle in Node 5.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Local water source mapping and First Nations knowledge of water reading offer genuine richness grounded in place. The groundwater direction provides a less obvious but important extension that challenges students' tendency to think only of surface water.",
+        "success_criteria": [
+          "Identifies at least three sources of water in the environment across different locations (sky, landscape, underground or ocean)",
+          "Connects each source to a state of water (liquid, solid or vapour)"
+        ],
+        "related_standards": [
+          "AC9S4H02",
+          "AC9S4I01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaporation \u2014 liquid water becomes vapour",
+        "progression_checkpoint": "Students can explain evaporation as the process by which liquid water becomes water vapour and identify everyday examples of evaporation occurring.",
+        "minimum_width": "Students describe evaporation using an everyday example (wet washing drying, puddle disappearing) and explain that liquid water becomes water vapour that enters the air.",
+        "typical_width": "Students explain that heat energy drives evaporation and identify conditions that speed it up (warmth, wind, exposed surface area), connecting to their prior knowledge of heat energy and state change.",
+        "wider": [
+          "Investigate how evaporation rate changes with temperature and surface area using a simple investigation",
+          "Explore how First Nations Australians' knowledge of evaporation is applied to conserve water \u2014 covering surfaces to reduce evaporative loss",
+          "Connect ocean evaporation to the global scale of the water cycle \u2014 most water vapour in the atmosphere comes from the ocean"
+        ],
+        "hinge": true,
+        "hinge_reason": "Evaporation is the entry point for the water cycle. Students who do not understand that liquid water becomes invisible vapour \u2014 and particularly those who restrict evaporation to heating/drying contexts \u2014 cannot correctly explain how water enters the atmosphere or why the cycle operates at all, breaking Node 5 integration.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often have a narrow concept of evaporation tied to drying or heating \u2014 they miss large-scale evaporation from oceans and lakes, and evaporation in cool conditions. Varied everyday examples help students generalise beyond heat-drying to a broader concept of liquid-to-vapour transition.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes evaporation using an everyday example and explains that liquid water becomes water vapour",
+          "Identifies at least one condition that affects how quickly evaporation occurs"
+        ],
+        "related_standards": [
+          "AC9S3U04"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Condensation \u2014 vapour becomes liquid water",
+        "progression_checkpoint": "Students can explain condensation as the process by which water vapour becomes liquid water and identify everyday examples where condensation is visible.",
+        "minimum_width": "Students describe condensation using an everyday example (water droplets on a cold drink bottle, bathroom mirror fogging) and explain that water vapour in the air becomes liquid water when cooled.",
+        "typical_width": "Students explain that cooling drives condensation, connect the formation of clouds to condensation of water vapour in the atmosphere, and describe what conditions are needed for clouds to form.",
+        "wider": [
+          "Observe a 'cloud in a bottle' or fog-formation demonstration and explain the conditions that produced it",
+          "Investigate dew formation \u2014 when and where does dew form, and why? Connect to First Nations knowledge of collecting dew as a water source",
+          "Explore how condensation forms rain droplets \u2014 water vapour condenses around tiny particles (dust, pollen) in the atmosphere"
+        ],
+        "hinge": true,
+        "hinge_reason": "The condensation misconception (water 'sweats through' a container rather than forming from vapour in the air) directly corrupts students' model of cloud formation and precipitation in Node 4 and Node 5. Students holding this misconception cannot construct a coherent water cycle.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly believe condensation is water 'sweating through' a container rather than water vapour from the air cooling on a cold surface. Making the reasoning explicit \u2014 air contains invisible water vapour \u2192 cold surface cools nearby air \u2192 vapour loses energy and becomes liquid \u2192 droplets form on the surface \u2014 is necessary before students can correctly explain cloud formation or dew.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes condensation using an everyday example and explains that water vapour becomes liquid water when cooled",
+          "Does not describe condensation as water passing through a container wall (misconception check)",
+          "Connects cloud formation to condensation of water vapour in the atmosphere"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Precipitation \u2014 water falls from clouds",
+        "progression_checkpoint": "Students can explain precipitation as water falling from clouds in different forms (rain, snow, hail) and describe the conditions that determine which form precipitation takes.",
+        "minimum_width": "Students explain that precipitation occurs when water droplets in clouds combine and fall, and name two forms of precipitation.",
+        "typical_width": "Students describe conditions that determine precipitation form (temperature at different altitudes determines rain vs snow vs hail) and give examples of each from different climates or seasons.",
+        "wider": [
+          "Explore how rainfall data is collected and used \u2014 rain gauges, Bureau of Meteorology data \u2014 connecting to how hydrologists use this data (AC9S4H01)",
+          "Investigate seasonal rainfall patterns in different Australian regions and connect to First Nations seasonal calendars",
+          "Examine hail formation as an example of precipitation with a more complex mechanism \u2014 water droplets carried upward by air currents, freezing in layers"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly think of precipitation only as rain and miss the variety of forms and the conditions that determine them. Exploring rainfall data collection and First Nations seasonal calendars broadens students' understanding of precipitation as a varied, data-rich phenomenon embedded in real knowledge systems.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Rainfall data collection connects precipitation to AC9S4H01 (how data supports scientific explanations) and to real-world hydrology. First Nations seasonal calendars provide a rich cross-cultural perspective on understanding precipitation patterns.",
+        "success_criteria": [
+          "Explains that precipitation occurs when water falls from clouds and names at least two forms",
+          "Describes at least one condition that determines what form precipitation takes"
+        ],
+        "related_standards": [
+          "AC9S4H01",
+          "AC9S4I03"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "The water cycle \u2014 continuous movement through Earth's systems",
+        "progression_checkpoint": "Students can trace the movement of water through the complete cycle \u2014 evaporation, condensation, precipitation, runoff and collection \u2014 and explain that the water cycle is continuous.",
+        "minimum_width": "Students trace a water molecule through at least three stages of the water cycle, naming the processes at each transition and identifying where the water is at each stage.",
+        "typical_width": "Students describe the complete water cycle including the movement of water through sky, landscape and ocean, explain that solar energy drives the cycle, and represent it in a labelled diagram or model.",
+        "wider": [
+          "Explore how hydrologists use rainfall and water use data to explain river flow and seasonal variation (AC9S4H01) \u2014 connecting the abstract cycle to real data",
+          "Examine how land use changes (deforestation, urbanisation) affect the water cycle at local and regional scales",
+          "Consider how First Nations Australians' water resource management practices are grounded in understanding the water cycle, including seasonal variation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The water cycle integrates evaporation, condensation and precipitation \u2014 three processes students have encountered separately \u2014 into a single continuous system. Students must now coordinate these components and understand that the same water moves repeatedly through the cycle, driven by solar energy."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to model the water cycle as a simple loop (rain falls, evaporates, becomes rain again) without accounting for groundwater, ocean reservoirs, or long-term storage in ice. Varied representations \u2014 local creek, ocean, underground \u2014 help students build a more complete model of the cycle.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Connecting the water cycle to real hydrology data (AC9S4H01) and land use impacts offers substantial enrichment. Students engaging the wider tier can see how an abstract scientific model has direct applications in water resource management \u2014 a connection that is meaningful and non-trivial.",
+        "success_criteria": [
+          "Traces the path of water through at least three named stages of the water cycle, correctly labelling the process at each transition",
+          "Explains that the water cycle is continuous and driven by solar energy",
+          "Identifies at least two locations where water is stored (e.g. ocean, atmosphere, groundwater, ice)"
+        ],
+        "related_standards": [
+          "AC9S4H01",
+          "AC9S4H02",
+          "AC9S4I04"
+        ]
+      }
+    ]
+  }
+}

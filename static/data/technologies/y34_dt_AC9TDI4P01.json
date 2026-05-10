@@ -1,0 +1,103 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4P01",
+    "title": "Define problems with user stories",
+    "description": "define problems with given design criteria and by co-creating user stories",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can investigate simple problems for known users that can be solved with digital systems (AC9TDI2P01). They have explored what makes a problem solvable. They have not yet worked with explicit design criteria or user story formats as structured tools for problem definition.",
+    "progression_endpoint": "Students define problems using given design criteria and co-created user stories, capturing both what a solution must do and who it is for.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What design criteria are",
+        "progression_checkpoint": "Students can read a set of given design criteria and explain what a solution must do to meet them",
+        "minimum_width": "Given a set of design criteria for a simple problem, list what a solution would need to do to satisfy them",
+        "typical_width": "Read given design criteria across different problem contexts (a game, a tool, a communication solution); explain in plain language what each criterion means for what the solution must do",
+        "wider": [
+          "Explore design criteria for digital tools used by First Nations rangers \u2014 discuss how criteria like reliability in remote areas or low data usage reflect the specific context of users",
+          "Compare two sets of design criteria for the same problem \u2014 discuss how different criteria lead to different solutions and why criteria choices matter"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Reads given criteria and restates what a solution must do",
+          "Does not confuse criteria (what it must do) with a solution (what it will be)"
+        ],
+        "related_standards": [
+          "AC9TDI4P03",
+          "AC9TDI4P05"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot interpret design criteria cannot check in N3 whether their user story and criteria are consistent \u2014 the integration task requires reading criteria correctly."
+      },
+      {
+        "id": 2,
+        "label": "User story structure",
+        "progression_checkpoint": "Students can write a user story using a template that identifies who the user is, what they need, and why",
+        "minimum_width": "Complete a user story template ('A [user] wants [need] so that [reason]') for a familiar, simple problem",
+        "typical_width": "Co-create user stories for a range of simple problem contexts; identify the user, need and purpose for each; refine a user story when the 'so that' reason is missing or unclear",
+        "wider": [
+          "Write user stories from the perspective of users in different circumstances \u2014 for example, a First Nations student in a remote community who wants to explore neighbouring countries to compare how people live; discuss how context shapes the user story",
+          "Investigate user stories for problems involving non-human users (e.g. a ranger group monitoring turtle populations) \u2014 discuss whether user stories still work and what changes"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who write user stories for only familiar contexts (their own problems) often struggle to write from an unfamiliar user's perspective. Practice across diverse user contexts builds the habit of identifying with users rather than projecting own needs.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Completes all three parts of a user story template",
+          "User is a specific person or group, not a generic description ('everyone')"
+        ],
+        "related_standards": [
+          "AC9TDI4P03"
+        ],
+        "hinge": true,
+        "hinge_reason": "A malformed user story (missing user, need or purpose) leaves nothing to check criteria against in N3 \u2014 the integration collapses if the user story is a stub."
+      },
+      {
+        "id": 3,
+        "label": "Defining a problem using both tools",
+        "progression_checkpoint": "Students can use design criteria and a user story together to define a problem \u2014 stating what the solution must do and who it is for",
+        "minimum_width": "Given a problem context, co-create a user story and identify two design criteria the solution must meet",
+        "typical_width": "Define problems across different contexts using user stories and design criteria together; check that the criteria are consistent with the needs identified in the user story",
+        "wider": [
+          "Define a problem involving data collection for a community need (e.g. monitoring local wildlife populations) \u2014 write user stories from multiple user perspectives and derive design criteria that satisfy all of them",
+          "Explore a problem from a First Nations context (e.g. using digital tools to document cultural knowledge) \u2014 discuss how the user story and criteria might differ from a mainstream educational tool"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node asks students to hold design criteria and user stories in relation \u2014 checking that criteria actually capture what the user needs. The integration step (do the criteria follow from the user story?) is a reasoning move that needs explicit practice.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Problem definition across diverse user contexts \u2014 particularly those involving First Nations communities or monitoring/data collection problems \u2014 is genuinely rich. Students can encounter how the same structural tool (user story + criteria) applies to very different problems, building transferability of the capability.",
+        "success_criteria": [
+          "Writes a user story with a named user, need and purpose",
+          "States at least two design criteria consistent with the user story"
+        ],
+        "related_standards": [
+          "AC9TDI4P03",
+          "AC9TDI4P05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

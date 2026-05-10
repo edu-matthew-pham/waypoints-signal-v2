@@ -1,0 +1,113 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4K01",
+    "title": "Digital systems and peripherals",
+    "description": "explore and describe a range of digital systems and their peripherals for a variety of purposes",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can identify and explore digital systems and their components for a purpose (AC9TDI2K01). They can name hardware and software as components of digital systems. They have not yet explored the specific categories of peripherals (input, output, storage) or described how peripherals expand system functionality.",
+    "progression_endpoint": "Students explore and describe a range of digital systems and their peripherals, explaining how different peripherals serve input, output and storage purposes and how they expand what a digital system can do.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Peripherals as categories",
+        "progression_checkpoint": "Students can sort peripherals into input, output and storage categories and give an example of each",
+        "minimum_width": "Name at least one example of an input peripheral, one output peripheral, and one storage peripheral; explain the job each category performs",
+        "typical_width": "Classify a range of familiar peripherals (keyboard, mouse, microphone, camera; monitor, printer, speaker; USB drive) into input, output and storage categories and explain the function of each",
+        "wider": [
+          "Investigate how peripherals used in First Nations community contexts (e.g. GPS devices used by rangers, shared devices in remote schools) are classified and what purposes they serve",
+          "Explore how a touchscreen device combines input and output in a single peripheral \u2014 discuss why this blurs the category boundaries"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly conflate input and output or treat the monitor as 'the computer'. More examples across varied peripheral types help students see what defines the category (direction of data flow) rather than memorising a fixed list.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly places at least two peripherals in each of the three categories",
+          "Explains what input, output and storage each mean in plain language"
+        ],
+        "related_standards": [
+          "AC9TDI4K02",
+          "AC9TDI4K03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Category confusion between input and output (treating the monitor as 'the computer') propagates into N2 and N3 \u2014 students who cannot classify peripherals by data-flow direction cannot reason about what adding a peripheral enables or which peripheral suits a purpose."
+      },
+      {
+        "id": 2,
+        "label": "Peripherals expand functionality",
+        "progression_checkpoint": "Students can explain how adding a peripheral changes what a digital system can do",
+        "minimum_width": "Describe one example of a peripheral being added to a digital system and explain what new capability it gives the system",
+        "typical_width": "Explain how different peripherals (headset, camera, printer, USB drive) each add a specific capability to a digital system; identify which peripheral would be needed for a given task",
+        "wider": [
+          "Research how 3D printers as output peripherals have changed what schools and designers can produce \u2014 compare 3D printing to standard printing as output devices",
+          "Investigate how peripherals for accessibility (e.g. screen readers, switch controllers) expand what a digital system can do for different users"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to reason from 'what does this peripheral do?' to 'what can the system now do that it couldn't before?' \u2014 a causal reasoning step that benefits from explicit scaffolding rather than assuming students make the connection.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names a peripheral and correctly identifies the new capability it adds",
+          "Does not confuse the peripheral itself with the system it connects to"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "Students who cannot explain the causal link (peripheral \u2192 new capability) cannot make purposeful peripheral selection decisions in N3 \u2014 they revert to guessing or listing familiar peripherals."
+      },
+      {
+        "id": 3,
+        "label": "Choosing peripherals for purposes",
+        "progression_checkpoint": "Students can describe which digital system and peripherals are appropriate for a given task and explain why",
+        "minimum_width": "Given a task (e.g. recording a class presentation), identify the digital system and at least one peripheral needed and explain why they suit the task",
+        "typical_width": "Explain how different tasks require different combinations of digital systems and peripherals; describe how the same digital system (e.g. a tablet) can serve different purposes depending on which peripherals or features are used",
+        "wider": [
+          "Compare how a student in a city school and a student in a remote community might use different digital systems and peripherals to complete the same task \u2014 discuss what affects those choices",
+          "Explore how digital systems used in scientific data collection (e.g. sensors, cameras in field research) combine specialist peripherals for specific purposes"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often anchor on a single device type (e.g. 'you need a computer'). Exploring varied task contexts \u2014 recording, presenting, communicating, storing \u2014 surfaces the idea that purpose drives peripheral selection."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates the category knowledge from node 1 and the functionality reasoning from node 2 into a purposeful selection decision \u2014 the components come together in a task-driven context.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of task contexts available at this node is genuinely rich \u2014 field research, remote community access, accessibility needs, creative production. Each adds a distinct lens on the same concept of purposeful peripheral selection.",
+        "success_criteria": [
+          "Identifies at least one peripheral appropriate for a described task",
+          "Gives a reason for the choice that references the peripheral's function"
+        ],
+        "related_standards": [
+          "AC9TDI4P01",
+          "AC9TDI4P05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N01",
+    "title": "Integers and Cartesian plane",
+    "description": "Recognise situations, including financial contexts, that use integers; locate and represent integers on a number line and as coordinates on the Cartesian plane",
+    "strand": "number_modelling",
+    "mode": "A",
+    "prior_knowledge": "Students can express natural numbers as products of factors, recognise multiples and determine divisibility (AC9M5N02). They can use mathematical modelling to solve additive and multiplicative problems including financial contexts (AC9M5N09). They have not yet encountered negative integers or coordinate systems extending beyond positive values.",
+    "progression_endpoint": "Students can recognise real-world situations that require integers, locate positive and negative integers on a number line, and represent integer coordinates on all regions of the Cartesian plane.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Meaning of integers",
+        "progression_checkpoint": "Students can explain what integers are, distinguish positive and negative integers from whole numbers, and give real-world examples of situations where negative integers are necessary.",
+        "minimum_width": "Identify at least two real-world contexts where negative integers are used (e.g. temperature below zero, financial debt) and explain why negative numbers are needed in each.",
+        "typical_width": "Recognise integers across a range of contexts including temperature, altitude, financial situations, and time (before/after an event); explain what zero represents in each context and why positive/negative directions are meaningful.",
+        "wider": [
+          "Investigate how integers are used in scientific contexts such as sea level, electrical charge, or geologic time",
+          "Explore how different cultures and historical periods developed the concept of negative numbers and when these were formally accepted in mathematics"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often learn integers only in temperature contexts and then fail to recognise the integer structure in financial or directional settings. Broader real-world contexts early on prevent exemplar convergence on temperature as the only 'negative number' situation.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of authentic integer contexts is genuinely rich \u2014 temperature, altitude, finance, golf scores, timelines, coordinates \u2014 and each context illuminates a different aspect of integer meaning (direction vs magnitude, zero as reference point). Advancing students benefit from accumulating multiple contexts that sharpen conceptual precision.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies at least two real-world situations where negative integers are needed and explains what zero represents in each.",
+          "Student distinguishes between situations requiring only whole numbers and those requiring integers."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Integers on a number line",
+        "progression_checkpoint": "Students can locate and represent positive and negative integers on a number line, order integers including negative values, and describe the distance between integers.",
+        "minimum_width": "Place a set of positive and negative integers on a number line; identify which of two given integers is greater; state the integer that is a given number of steps from a reference point.",
+        "typical_width": "Order a mixed set of integers on a number line; calculate the distance between two integers (including across zero); identify the integer that sits halfway between two given integers; connect the number line representation to real-world contexts such as temperature change.",
+        "wider": [
+          "Represent and compare integers from multiple real-world contexts on the same number line (e.g. temperature and altitude on one line) and discuss what alignment reveals",
+          "Investigate open questions such as: 'Is there a largest or smallest integer?' and justify reasoning using number line structure"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Crossing zero on a number line requires students to reason about direction and magnitude simultaneously. The logic of why -3 is less than -1 (further from zero in the negative direction) is not intuitive and benefits from explicit scaffold before procedural confidence develops.",
+            "flags": [
+              "hinge"
+            ]
+          },
+          {
+            "mode": "consolidation",
+            "reason": "Accurate placement and ordering of integers on a number line requires precision \u2014 small placement errors propagate into calculation errors. Fluency with the number line representation is the foundation for all subsequent integer work.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "The number line model is the conceptual foundation for Node 3 (Cartesian plane coordinates) and Node 4 (financial modelling). Students who cannot reliably order and place integers on a number line cannot extend to a two-axis system or interpret signed financial values.",
+        "success_criteria": [
+          "Student correctly places positive and negative integers on a number line, including values between labelled intervals.",
+          "Student orders a set of integers including negative values from least to greatest and explains why a negative integer with larger absolute value is the lesser number."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Integer coordinates \u2014 first quadrant extension",
+        "progression_checkpoint": "Students can extend their understanding of grid coordinates to include negative values on both axes and locate points with integer coordinates in all four quadrants of the Cartesian plane.",
+        "minimum_width": "Plot a set of points with integer coordinates in at least two quadrants of the Cartesian plane; read the coordinates of plotted points; identify which quadrant a point with given coordinates belongs to.",
+        "typical_width": "Plot and read coordinates in all four quadrants; describe the position of points relative to the axes; identify when a coordinate is negative and what that indicates about the direction from the origin; connect the two-axis system to the number line model (one axis per dimension).",
+        "wider": [
+          "Use the Cartesian plane to model a real-world map or grid problem (e.g. locations relative to a central reference point) using integer coordinates",
+          "Investigate the symmetry of points across axes \u2014 if (3, -2) is reflected across the x-axis, what are the new coordinates? \u2014 and explain the pattern"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students moving from first-quadrant grids (positive only) to four-quadrant coordinates often confuse axis direction for negative values. The reasoning structure \u2014 that negative x means left of origin, negative y means below origin \u2014 requires explicit unpacking before students can reliably identify quadrants from coordinate signs alone.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Reliable four-quadrant coordinate placement is a prerequisite for AC9M6SP02 (Cartesian plane spatial work) and AC9M6N01 Node 4. Students who conflate negative x/y directions with positive ones will produce systematic plotting errors across all subsequent coordinate work.",
+        "success_criteria": [
+          "Student correctly plots points with integer coordinates in all four quadrants.",
+          "Student reads coordinates of points in all four quadrants and correctly reports the sign of each value.",
+          "Student explains what it means for a coordinate to be negative (direction from origin)."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Integers in financial and real-world modelling",
+        "progression_checkpoint": "Students can recognise and use integers in financial contexts, represent financial situations on number lines, and interpret positive and negative integer values in terms of the situation.",
+        "minimum_width": "Represent a simple financial situation (e.g. income and expenses, savings and debt) using positive and negative integers; interpret what positive and negative values mean in the specific context.",
+        "typical_width": "Model a range of financial scenarios using integers including credit, debit, profit, loss; represent these on a number line; calculate the net result of a sequence of integer transactions; interpret the result in context including what zero represents.",
+        "wider": [
+          "Analyse a simple budget or financial record using integers, identify when a balance is positive or negative, and interpret what this means for the situation",
+          "Investigate how integers are used in stock market reporting, sports scoring systems (e.g. golf), or other real-world data contexts and compare how positive/negative conventions differ"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node coordinates integer understanding (Node 1), number line representation (Node 2), and coordinate concepts (Node 3) through applied modelling. Students must simultaneously select the integer representation, place it correctly, and interpret it in context \u2014 the integration of these is the learning.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Financial and real-world integer modelling offers genuine richness \u2014 the same integer concept applied to different contexts (temperature, finance, sport, science) reveals different structural features and conventions. Advancing students benefit from comparing how integer conventions function across diverse domains.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly represents a financial situation (credits and debits, or profit and loss) using positive and negative integers.",
+          "Student interprets what a positive, zero, and negative result means in a specific financial context."
+        ]
+      }
+    ]
+  }
+}

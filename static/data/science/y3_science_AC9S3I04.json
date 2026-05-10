@@ -1,0 +1,100 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3I04",
+    "title": "Processing and Representing Data",
+    "description": "construct and use representations, including tables, simple column graphs and visual or physical models, to organise data and information, show simple relationships and identify patterns",
+    "strand": "Science Inquiry",
+    "mode": "B",
+    "prior_knowledge": "Students can represent observations in provided templates and identify simple patterns with guidance (AC9SFI03, F band; AC9S1I04, 1-2 band). They have not yet constructed representations independently or used representations specifically to identify patterns and relationships.",
+    "progression_endpoint": "Students construct and use tables, column graphs, visual models and physical models to organise data, show simple relationships between variables, and identify patterns in data.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Tables organise data for comparison",
+        "progression_checkpoint": "Students can construct a table with appropriate headings to organise data from an investigation, and use the table to make comparisons between observations.",
+        "minimum_width": "Students construct a table with correct headings for a given data set and use it to make at least one comparison between rows or columns.",
+        "typical_width": "Students explain why a table is an appropriate format for their data type, construct the table independently, and identify a pattern or comparison directly from the table.",
+        "wider": [
+          "Compare two different table structures for the same data (e.g. results organised by material type vs by property) and discuss which reveals patterns more clearly",
+          "Examine how data tables in scientific reports or textbooks are structured — column headers, units, consistent formatting — and apply professional conventions",
+          "Construct a table to record food chain data across multiple habitats and use it to compare structural features of chains across habitats"
+        ],
+        "hinge": true,
+        "hinge_reason": "Table construction accuracy is a prerequisite for column graph work in Node 2 — students typically construct their graph from their table. A table with incorrect headings, missing units, or inconsistent rows produces an ungraphable or misleading data set that collapses Node 2 work.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Table construction requires precision: correct headings, consistent units, all cells filled. Common errors include missing units in column headers, inconsistent recording across rows, and unorganised headings that make comparison difficult. Deliberate practice with feedback on table quality is more productive at this stage than encountering many different data types.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Constructs a table with appropriate column headings including units where relevant",
+          "All required data is recorded in a consistent, complete format",
+          "Identifies at least one comparison or pattern from the completed table"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Column graphs display and compare quantities",
+        "progression_checkpoint": "Students can construct a column graph with appropriate axes, title and labels for a given data set, and use the graph to identify and describe a pattern.",
+        "minimum_width": "Students construct a column graph with labelled axes and a title for a given data set, and describe what the graph shows.",
+        "typical_width": "Students select an appropriate scale for the y-axis, construct the graph accurately, and describe the pattern shown — including identifying which condition produced the highest or lowest value and explaining what this means.",
+        "wider": [
+          "Compare the same data displayed as a table vs a column graph — what does the graph make visible that the table does not?",
+          "Construct a column graph for friction investigation data (distances moved under different surface conditions) and use it to draw a conclusion about surface friction",
+          "Explore when column graphs are and are not appropriate — the difference between categorical data (materials) and continuous data (temperature over time), and why bar graphs suit the former"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Column graph construction requires precision across multiple conventions: axis labels with units, appropriate scale, bars at the correct height, title. Errors in any of these undermine the representation's reliability. Consistent accurate practice across multiple data sets is more productive than breadth of data types at this stage."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Constructs a column graph with labelled axes (including units), a title, and correctly scaled bars",
+          "Describes the pattern shown in the graph and connects it to the investigation question"
+        ],
+        "related_standards": ["AC9S3I05"]
+      },
+      {
+        "id": 3,
+        "label": "Visual and physical models represent relationships",
+        "progression_checkpoint": "Students can construct or use a visual or physical model to represent a scientific relationship, explain what the model shows, and identify its limitations.",
+        "minimum_width": "Students construct or use a given visual or physical model (food chain diagram, force arrow diagram, water cycle model) and explain what relationship or process it represents.",
+        "typical_width": "Students construct a model for a relationship from Y4 science content, explain what each element of the model represents, and describe at least one thing the model simplifies or leaves out.",
+        "wider": [
+          "Use force arrows to model forces on objects in a range of scenarios — stationary, moving, floating — and discuss how the model shows the relationship between forces",
+          "Use a virtual food chain simulation to explore the effects of changing producer or consumer numbers, comparing model predictions with real-world examples",
+          "Evaluate a physical model of the water cycle (water cycle in a bag, terrarium) — what does it show accurately, and what does it simplify?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to treat models as pictures rather than as representations of relationships — they describe what the model looks like rather than what it shows about how things interact. Encountering models across varied science contexts (food chains, forces, water cycle) helps students develop a more general understanding of what models are for and how to read them as representations of relationships.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The model evaluation direction — what does the model accurately represent vs what it simplifies — is a genuine capability extension for Year 4 students, connecting to scientific modelling as a practice rather than just an output. The varied model types across Y4 science content (force diagrams, food chain diagrams, water cycle models) offer rich legitimate widening directions.",
+        "success_criteria": [
+          "Constructs or interprets a model and explains what relationship or process it represents",
+          "Identifies at least one element of the model and explains what it stands for in the real phenomenon",
+          "Describes at least one way the model simplifies or differs from the real phenomenon"
+        ],
+        "related_standards": ["AC9S4U01", "AC9S4U02", "AC9S4U03"]
+      }
+    ]
+  }
+}

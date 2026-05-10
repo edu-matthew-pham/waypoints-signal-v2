@@ -1,0 +1,102 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10ST03",
+    "title": "Scatterplots and association",
+    "strand": "Statistics",
+    "mode": "A",
+    "description": "construct scatterplots and comment on the association between the 2 numerical variables in terms of strength, direction and linearity",
+    "prior_knowledge": "Students can compare continuous distributions using boxplots discussing centre, spread, shape and outliers (AC9M10ST02). They have not yet constructed scatterplots or described association between two numerical variables in terms of strength, direction and linearity.",
+    "progression_endpoint": "Students construct scatterplots and comment on the association between two numerical variables in terms of strength, direction and linearity.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Constructing and reading scatterplots",
+        "progression_checkpoint": "Students can construct a scatterplot from a bivariate data set and read individual data points accurately.",
+        "minimum_width": "Plot a set of (x, y) data points on correctly labelled axes; read the approximate coordinates of plotted points.",
+        "typical_width": "Construct scatterplots from data sets in multiple contexts; choose appropriate scales and axis labels; identify the explanatory and response variable; use digital tools to construct and explore scatterplots.",
+        "wider": [
+          "Investigate the relationship between two variables of spear throwers used by First Peoples of Australia using real data \u2014 construct the scatterplot and describe the initial visual impression before analysis",
+          "Explore how scatter plots are used by data scientists to gain insights into data and as a first step in feature engineering for machine learning"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate plotting \u2014 correct axis labelling, appropriate scale, point placement \u2014 is foundational for all subsequent interpretation work. Errors here undermine N2 association description and N3 causation reasoning."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly plots a set of bivariate data points on labelled axes with appropriate scale",
+          "Student can read the approximate coordinates of a specified point from the scatterplot"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Describing association",
+        "progression_checkpoint": "Students can describe the association between two variables in terms of strength (strong, moderate, weak), direction (positive, negative, none) and linearity (linear, non-linear).",
+        "minimum_width": "Describe the association shown in a given scatterplot using strength, direction and linearity vocabulary.",
+        "typical_width": "Describe association across multiple scatterplots in varied contexts; use precise vocabulary (strong positive linear, weak negative, no association, non-linear); explain what positive and negative association means in context; use a line of good fit by eye to assess linearity informally.",
+        "wider": [
+          "Investigate AI systems that analyse bivariate data to forecast or make predictions using correlation analysis \u2014 discussing limitations including inability to capture causality or account for contextual factors",
+          "Explore how the same data can appear to show different associations depending on scale choices, and discuss how this connects to the misleading representations work of AC9M10ST01"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Association description vocabulary (strength, direction, linearity) needs to be applied across varied contexts for it to become reliable. Students who only describe association in one domain (e.g. physical science data) may lack the language flexibility for social, biological or economic scatterplots."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly describes a scatterplot's association using strength, direction and linearity with appropriate vocabulary",
+          "Student explains what the direction of association means in the specific context of the data"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Association vs causation",
+        "progression_checkpoint": "Students can distinguish between association and causation and give examples of associated variables that are not causally related.",
+        "minimum_width": "State the distinction between association and causation; give one example of two variables that are associated but where causation is not established.",
+        "typical_width": "Explain why association does not imply causation; identify confounding variables that might explain an association; discuss multiple plausible explanations for an observed association (direct causation, reverse causation, common cause, coincidence); apply this reasoning to contexts such as health, climate and social media.",
+        "wider": [
+          "Investigate the relationship between two variables of spear throwers used by First Peoples of Australia \u2014 construct and describe the scatterplot, make comparisons and draw conclusions within the limits of the data",
+          "Analyse a specific claimed association in the media (e.g. social media use and wellbeing, climate variables) using statistical evidence \u2014 making, justifying and critiquing claims about association vs causation"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Association vs causation is a genuine conceptual hinge \u2014 students who understand it in one context frequently revert to causal language in new contexts. Multiple examples from health, social science, climate and technology are needed to stabilise the distinction.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "The causation discussion integrates scatterplot construction (node 1), association description (node 2), and statistical reasoning about evidence into the full critical analysis of bivariate relationships. It is the endpoint of this descriptor's learning progression."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Causation reasoning applied to real, contested associations (climate change, health outcomes, social media effects) is where statistical literacy becomes genuinely powerful \u2014 advancing students can engage with published research and public debate using rigorous statistical reasoning.",
+        "success_criteria": [
+          "Student correctly explains the distinction between association and causation",
+          "Student gives a plausible alternative explanation (e.g. confounding variable or common cause) for a described association"
+        ],
+        "related_standards": [
+          "AC9M10ST01",
+          "AC9M10ST05"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

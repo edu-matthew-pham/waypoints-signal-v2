@@ -1,0 +1,69 @@
+{
+  "year_level": "2",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S2U01",
+    "title": "Earth in the Solar System",
+    "description": "recognise Earth is a planet in the solar system and identify patterns in the changing position of the sun, moon, planets and stars in the sky",
+    "strand": "Earth and Space Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe daily and seasonal changes in the environment (AC9S1U02). They have not yet placed Earth within the solar system or examined patterns in the changing position of celestial objects as a systematic phenomena.",
+    "progression_endpoint": "Students recognise Earth as a planet in the solar system, identify observable patterns in the changing position of the sun, moon and stars across days and months, and make predictions based on those patterns.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Earth is a planet in the solar system",
+        "progression_checkpoint": "Students can describe Earth as a planet in the solar system, name other planets and the sun, and describe the shape of Earth using images from space.",
+        "minimum_width": "Students name Earth as a planet in the solar system, name at least two other planets, and describe the shape of Earth.",
+        "typical_width": "Students explore representations of the solar system; identify Earth and other planets; describe Earth's shape from space images; distinguish celestial objects visible during the day (sun) from those visible at night (moon, stars, planets); and name the sun as the central body.",
+        "wider": [
+          "Explore how cultural stories of First Nations Peoples of Australia describe patterns in the changing positions of the sun, moon and stars — comparing with Western astronomical frameworks",
+          "Create a class model of the solar system and name the sun and planets — representing scale and position relationships",
+          "Distinguish between regular sky events (full moon cycle) and irregular events (blood moon, blue moon) — examining the difference between predictable patterns and rare phenomena"
+        ],
+        "hinge": true,
+        "hinge_reason": "N2 requires students to know what celestial objects are and that Earth is positioned within a solar system — without this, students cannot distinguish patterns in celestial object positions from generic environmental change (already covered in Y1). The solar system framework is the necessary context for sky pattern investigation.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "First Nations astronomical knowledge and solar system modelling broaden students' encounter with sky objects beyond a single framework — building the richer conceptual model of Earth's position that N2 pattern observation requires.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations astronomical knowledge provides a culturally rich direction that connects sky observation to a different knowledge framework. Solar system modelling gives students a spatial, hands-on representation of abstract scale.",
+        "success_criteria": [
+          "Names Earth as a planet in the solar system and identifies at least two other planets",
+          "Describes the shape of Earth using evidence from space images"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Celestial objects show observable patterns",
+        "progression_checkpoint": "Students can describe patterns in the changing position of the sun across a day and the changing appearance of the moon across a month, and use these patterns to make predictions.",
+        "minimum_width": "Students describe the pattern of the sun's position across a day and describe at least two phases of the moon, using these to make one prediction.",
+        "typical_width": "Students observe and record how shadow length changes with the changing position of the sun; create a moon diary across a month identifying the pattern of changing moon shape; observe and describe short-term and longer-term sky patterns; and make predictions based on identified patterns.",
+        "wider": [
+          "Observe the changing appearance of the moon across a month and make predictions about future phases — connecting pattern observation to scientific prediction",
+          "View time-lapse video of sun, moon, stars or satellite movement across the sky — using digital tools to observe patterns invisible at normal timescales",
+          "Explore how First Nations Peoples use patterns in the night sky for navigation and timekeeping — examining practical applications of astronomical pattern knowledge"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students see sky events as random rather than patterned. Making the pattern explicit — sun position changes predictably across each day; moon shape changes predictably across each month — and using those patterns to make and check predictions is the core reasoning scaffold at this year level."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes the pattern of the sun's movement across a day (direction and shadow change)",
+          "Describes the pattern of moon shape change across a month and makes one prediction based on this pattern"
+        ]
+      }
+    ]
+  }
+}

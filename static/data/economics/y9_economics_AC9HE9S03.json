@@ -1,0 +1,138 @@
+{
+  "year_level": "9",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE9S03",
+    "title": "Interpret Data and Make Predictions",
+    "description": "interpret information and data, explaining economic and business issues, trends and economic cause-and-effect relationships, and make predictions about consumer and financial impacts",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "From Y8 AC9HE8S03 (direct predecessor): interpret information and data to identify economic and business issues, trends and economic cause-and-effect relationships. Y9 extends the capability in two key directions: (1) explaining rather than merely identifying (the move to explicit explanation of relationships and mechanisms); and (2) making predictions about consumer and financial impacts — a new move requiring projection from trends to future outcomes.",
+    "progression_endpoint": "Students interpret information and data, explaining economic and business issues, trends and economic cause-and-effect relationships, and make predictions about consumer and financial impacts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Interpreting to explain economic issues",
+        "progression_checkpoint": "Students can interpret information to explain the nature and extent of economic and business issues, including how Australian businesses operate in the global economy.",
+        "minimum_width": "Interpret one source (text or data) to explain the nature of a named economic issue — going beyond identifying the issue to explaining what it involves and how it operates.",
+        "typical_width": "Interpret information to explain the nature and extent of economic and business issues — applying the elaboration example (the way Australian businesses operate in the global economy). Explain what the issue involves (its components and actors), how it operates (the mechanisms at work), and its extent (how widespread or significant it is). Use the source explicitly to support each element of the explanation.",
+        "wider": [
+          "Interpret information from multiple source types (statistical data + case study + expert commentary) to build a richer explanation of the same issue, identifying what each source type adds",
+          "Apply the nature-and-extent interpretation framework to a First Nations economic issue, explaining what makes this context require different framing assumptions",
+          "Interpret a contested economic issue where sources frame the nature differently (e.g. trade liberalisation as opportunity vs risk) and explain how framing affects the account of 'nature and extent'"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat interpretation as identification ('the issue is X') will not produce the causal explanations required by subsequent nodes or by AC9HE9S05. The explain-not-identify distinction is the primary cognitive advance from Y8, and it must be established before prediction work begins.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The nature-extent explanation framework (what it involves → how it operates → how significant it is) scaffolds interpretation as a three-part explanatory act rather than a description. Making this structure explicit prevents students from treating interpretation as description.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Interprets a source to explain what a named economic or business issue involves",
+          "Explains how the issue operates — naming the mechanism or actors driving it",
+          "Goes beyond identification to provide an explanation of the issue's nature"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Interpreting multi-variable data for trends",
+        "progression_checkpoint": "Students can interpret multi-variable data to explain direction and time period for a change, including changes in Australia's trade patterns.",
+        "minimum_width": "Interpret a graph or table showing change over time to explain the direction and time period of one change.",
+        "typical_width": "Interpret multi-variable data to explain direction and time period for change — applying the elaboration example (change in direction and composition of Australia's trade over 10, 20 or 50 years). For multi-variable data: identify what variables are shown, describe the direction of change for each (increase, decrease, stable, fluctuating), identify the time period, and explain what the combined pattern reveals about the underlying economic issue.",
+        "wider": [
+          "Compare trend interpretations from graphs using different time scales (10-year vs 50-year) for the same data, explaining how time scale affects which trends are visible",
+          "Interpret trade data showing multiple simultaneous trends (total value increasing, composition shifting, direction changing) and explain what the combined picture reveals that single-variable reading would miss",
+          "Identify a misleading data visualisation in an economic or business context and explain specifically what is misleading about the trend it appears to show"
+        ],
+        "hinge": true,
+        "hinge_reason": "Multi-variable trend interpretation is required for AC9HE9K03 (trade patterns) and for prediction tasks in Node 4. Students who can only read single-variable trends cannot perform the combined-pattern reading that makes trade data analysis meaningful.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Multi-variable data interpretation requires a systematic reading sequence: what variables → what direction each → what time period → what the combined pattern means. Without this structure, students read the most visually prominent trend and miss the others.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Practising multi-variable interpretation across different data contexts (trade data, scam loss statistics, unemployment rates) builds transferable data-reading skill rather than context-specific familiarity.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-variable trend interpretation with misleading visualisation analysis builds critical data literacy that transfers well beyond Economics and Business, and is directly relevant to students encountering economic claims in media and public debate.",
+        "success_criteria": [
+          "Identifies at least two variables in a multi-variable data source",
+          "Explains the direction and time period of change for each variable",
+          "Describes what the combined pattern of change reveals about the economic issue"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Explaining cause-and-effect relationships",
+        "progression_checkpoint": "Students can explain cause-and-effect relationships between the actions of individuals and businesses, and between economic actors in different contexts.",
+        "minimum_width": "Explain one cause-and-effect relationship between the actions of two economic actors, using evidence from a source.",
+        "typical_width": "Explain relationships between the actions of individuals and businesses — applying the elaboration example (the way businesses operate in the global economy and implications for the Australian market). For each relationship: identify the actors, describe the action that initiates the chain, trace the effect through intermediate steps, and name the actor(s) affected. Use sources explicitly to support each step of the causal chain.",
+        "wider": [
+          "Trace multi-step causal chains where an initial action triggers sequential effects across multiple actors (e.g. Australian interest rate rise → reduced business borrowing → reduced investment → reduced employment → reduced consumer spending)",
+          "Analyse a causal relationship that operates differently across economic scales (local vs global) for the same actors — explaining what changes the mechanism at each scale",
+          "Examine a case where a predicted causal relationship did not produce the expected effect and explain what intervening factors disrupted the causal chain"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Cause-and-effect explanation requires tracing chains, not just naming pairs. A multi-step chain template (cause → intermediate mechanism → effect on named actor) prevents students from treating 'A affects B' as a sufficient causal explanation.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two actors in a cause-and-effect relationship",
+          "Traces the mechanism by which one actor's action affects another",
+          "Uses source evidence to support each element of the causal explanation"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Making predictions about consumer and financial impacts",
+        "progression_checkpoint": "Students can explain trends and make predictions about who will be affected and how, including in consumer and financial contexts.",
+        "minimum_width": "Use a trend from a data source to make one prediction about who will be affected and how, explaining the reasoning from trend to prediction.",
+        "typical_width": "Explain trends to make predictions about who will be affected and how — applying the elaboration examples (trend for money lost in scams and age groups most affected; predictions about how it will affect behaviour of individuals and businesses). For each prediction: identify the trend, name the group(s) most likely to be affected, explain the mechanism connecting trend to predicted impact, and state the predicted behavioural or financial change. Predictions should be grounded in the trend data, not speculative.",
+        "wider": [
+          "Make competing predictions from the same trend data by varying assumptions about how actors will respond — explaining what different responses by individuals vs businesses might produce different outcomes",
+          "Evaluate the quality of an economic prediction made previously (e.g. from a report 5 years ago) against what actually happened, analysing what the prediction got right, wrong, and why",
+          "Apply prediction-making to a First Nations economic context — identifying a trend relevant to First Nations communities and making a grounded prediction about impacts, acknowledging the specific factors that shape outcomes in this context"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Prediction integrates trend interpretation (Node 2), causal reasoning (Node 3), and explanatory framing (Node 1). Students should build predictions by: reading the trend → reasoning through the causal mechanism → naming who is affected → predicting the specific impact. This is the full capability the descriptor demands.",
+            "flags": []
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Prediction-from-trend is often performed as guessing. A structured prediction argument (trend → mechanism → affected group → predicted change → caveats) helps students produce defensible rather than speculative predictions.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating past economic predictions against actual outcomes — and practising competing predictions from the same data — builds sophisticated probabilistic thinking about economic cause and effect that transfers to evaluation tasks and real-world economic decision-making.",
+        "success_criteria": [
+          "Identifies a trend and makes a specific, grounded prediction about who will be affected",
+          "Explains the mechanism connecting the trend to the predicted impact",
+          "The prediction is based on the trend data rather than general opinion or speculation"
+        ]
+      }
+    ]
+  }
+}

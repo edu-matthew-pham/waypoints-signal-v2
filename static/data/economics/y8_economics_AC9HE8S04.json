@@ -1,0 +1,71 @@
+{
+  "year_level": "8",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE8S04",
+    "title": "Develop responses to issues",
+    "description": "develop a response to an economic and business issue, identifying potential costs and benefits",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can develop a response to an economic and business issue identifying potential costs and benefits (AC9HE7S04). At Year 8, the expectation develops toward responses that combine known knowledge with new ideas and that require explicit identification and description of costs and benefits.",
+    "progression_endpoint": "Students develop a response to an economic and business issue, identifying potential costs and benefits and explaining the reasoning behind their response.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying costs and benefits",
+        "progression_checkpoint": "Students can identify the potential costs and benefits of a decision, including non-financial dimensions, and explain what is foregone when a choice is made.",
+        "minimum_width": "Identify at least one potential cost and one potential benefit of a specific economic or business decision, and explain what is foregone (opportunity cost) when that decision is made.",
+        "typical_width": "Identify and describe the potential costs and benefits of an economic or business decision — including financial and non-financial dimensions. Explain that making a decision involves choice and foregoing an alternative want, using appropriate examples (e.g. doing casual work involves benefits such as money earned and costs such as less certainty about work hours).",
+        "wider": [
+          "Practise identifying costs and benefits from the perspectives of multiple stakeholders affected by the same decision — distinguishing private costs/benefits (to the decision-maker) from social costs/benefits (to the broader community)",
+          "Investigate how businesses systematically conduct cost-benefit analysis before major decisions, including how they handle costs and benefits that are hard to quantify (e.g. environmental impact, reputational risk)",
+          "Research a government policy decision (e.g. a new tax, infrastructure investment) and evaluate the costs and benefits identified in the official policy rationale versus critiques of that analysis"
+        ],
+        "hinge": true,
+        "hinge_reason": "Costs and benefits identification is the analytical foundation of the response. Students who conflate financial and non-financial costs, or who omit opportunity cost, will produce incomplete responses that do not meet the descriptor's demand for explicit cost-benefit reasoning.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often list benefits without matching them with genuine costs, or identify only financial dimensions. Structured cost-benefit scaffolds — requiring equal treatment of each side and explicit consideration of opportunity cost — build balanced analysis before it is applied in a full response.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one cost and one benefit of a specific economic or business decision",
+          "Explains what is foregone (opportunity cost) when the decision is made"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Developing a reasoned response",
+        "progression_checkpoint": "Students can develop a response to an economic and business issue that combines known knowledge with new ideas, identifies and describes reasons informing a recommendation, and addresses the potential costs and benefits.",
+        "minimum_width": "Develop a response to one economic or business issue that includes: a stated position or recommendation, at least one reason supporting it, and acknowledgement of at least one cost and one benefit.",
+        "typical_width": "Develop a response to an economic and business issue that combines known knowledge with new ideas, identifies and describes the reasons informing a recommendation (e.g. why the government collects taxation revenue and provides services), and identifies the potential costs and benefits of the recommended course of action.",
+        "wider": [
+          "Develop a response that evaluates two or more alternative courses of action against the same set of cost-benefit criteria, and justifies a recommendation by comparing across the alternatives",
+          "Apply a personal budget and savings plan to an issue (e.g. whether to purchase a good or service) as the basis for a response — demonstrating that a response can be grounded in personal financial planning processes",
+          "Develop a response to an issue that explicitly acknowledges whose costs and benefits are included and whose may be underweighted or omitted, and reflects on what that means for the quality of the response"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Response development improves with practice across different issue types. Students benefit from developing responses to market pricing issues, business strategy issues, and personal financial issues before the full inquiry sequence is assessed.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Response development is the culminating analytical move in every economics inquiry. Students who practise across different issue types — consumer decisions, business strategy, government policy — build transferable reasoning capability, not just a formula for one issue type.",
+        "success_criteria": [
+          "Develops a response that includes a position or recommendation on an economic or business issue",
+          "Identifies and describes at least one reason supporting the response and at least one potential cost and benefit of the recommended course of action"
+        ],
+        "related_standards": ["AC9HE8S03", "AC9HE8S05", "AC9HE8K04", "AC9HE8K05"]
+      }
+    ]
+  }
+}

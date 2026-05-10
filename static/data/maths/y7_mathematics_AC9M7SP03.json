@@ -1,0 +1,97 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7SP03",
+    "title": "Transformations on the Cartesian Plane",
+    "strand": "Space",
+    "description": "describe transformations of a set of points using coordinates in the Cartesian plane, translations and reflections on an axis, and rotations about a given point",
+    "mode": "A",
+    "prior_knowledge": "Students can plot and read coordinates in all four quadrants of the Cartesian plane (from AC9M6SP02). Students have experienced combinations of transformations to create patterns (from AC9M6SP03).",
+    "progression_endpoint": "Students describe and perform translations, reflections on an axis, and rotations about a given point using coordinates in the Cartesian plane.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Translations using coordinates",
+        "progression_checkpoint": "Students translate a set of points on the Cartesian plane and describe the translation using coordinate changes.",
+        "minimum_width": "Translate a simple shape on the Cartesian plane and describe the translation as 'x units right/left, y units up/down'.",
+        "typical_width": "Perform and describe translations of sets of points in all directions; verify that shape and size are preserved.",
+        "wider": [
+          "Investigate how translations can be described as vector addition: (x, y) → (x+a, y+b).",
+          "Explore combinations of two translations — is the order of translation important?"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Translation using coordinate notation is foundational to reflections and rotations. Students need fluency with coordinate changes before layer on more complex transformations.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Fluency with coordinate reading and recording is prerequisite to Nodes 2 and 3 — students who make coordinate errors in translation produce wrong starting points for reflection and rotation, and cannot verify that transformations preserve shape and size.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly translates a set of points and records the new coordinates.",
+          "Describes the translation in terms of horizontal and vertical movement.",
+          "Verifies that the shape is congruent to the original after translation."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 2,
+        "label": "Reflections on axes",
+        "progression_checkpoint": "Students reflect a set of points on the x-axis and y-axis and describe the transformation using coordinate rules.",
+        "minimum_width": "Reflect a simple shape on the x-axis and y-axis; record the new coordinates and state the coordinate rule.",
+        "typical_width": "Apply reflections on both axes; identify the coordinate rule for each; describe patterns in how coordinates change.",
+        "wider": [
+          "Investigate reflections on other lines of symmetry (e.g. y = x) and what happens to coordinates.",
+          "Create symmetric patterns by reflecting across both axes and explore rotational symmetry emerging from double reflection."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often correctly apply the x-axis rule (negate y) but confuse it for y-axis (negate x). Seeing both reflections in close sequence across multiple figures consolidates the distinction."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Correctly reflects a set of points across the x-axis and y-axis.",
+          "States the coordinate rule for each reflection.",
+          "Does not confuse which coordinate negates for each axis."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 3,
+        "label": "Rotations about a given point",
+        "progression_checkpoint": "Students rotate a set of points about a given point (origin or other) by 90°, 180° and 270° and describe the rotation using coordinates.",
+        "minimum_width": "Rotate a simple shape 90° and 180° about the origin; record new coordinates.",
+        "typical_width": "Perform rotations of 90°, 180° and 270° about the origin and describe the coordinate patterns; apply rotation about a non-origin point.",
+        "wider": [
+          "Investigate the coordinate rule for rotation by 90° about the origin (x,y) → (−y,x) and verify with multiple examples.",
+          "Explore the combined effect of reflection and rotation — investigate when two reflections produce a rotation."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Rotation is the hardest transformation for students to reason about from coordinates. An explicit method (plot points, use tracing paper or dynamic software, record new coordinates, identify the pattern) is needed.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly rotates points by 90° and 180° about the origin.",
+          "Records the new coordinates and identifies the pattern.",
+          "Specifies direction of rotation (clockwise/counterclockwise) when describing."
+        ],
+        "related_standards": [],
+        "width_opportunity_reason": "Investigating the coordinate rule for 90° rotation and exploring how double reflection produces rotation offers advancing students a rich algebraic-geometric connection within the Year 7 band."
+      }
+    ]
+  }
+}

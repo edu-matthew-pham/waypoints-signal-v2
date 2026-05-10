@@ -1,0 +1,99 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LA02",
+    "title": "Objective and subjective language; bias",
+    "description": "understand the uses of objective and subjective language, and identify bias",
+    "strand": "Language — Interacting with others",
+    "mode": "A",
+    "prior_knowledge": "Students understand how to move beyond making bare assertions by taking account of differing ideas or perspectives (AC9E5LA02). They have not yet examined the distinction between objective and subjective language, or how language choices construct bias in texts.",
+    "progression_endpoint": "Students understand the distinction between objective and subjective language, and can identify how language choices construct bias in a range of texts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Objective vs subjective language",
+        "progression_checkpoint": "Students can identify and distinguish objective language (factual, verifiable) from subjective language (opinion, feeling, judgement) in texts.",
+        "minimum_width": "Sort a set of provided sentences or text extracts as objective or subjective; identify one feature that signals each.",
+        "typical_width": "Analyse both factual recounts and opinion pieces to identify objective and subjective language; explain what features (verifiable claims, emotive vocabulary, judgement words) distinguish them.",
+        "wider": [
+          "Compare a factual news report with an editorial on the same event and annotate where the language shifts from objective to subjective",
+          "Examine science or informational texts from the curriculum and identify when objective reporting shifts into authorial interpretation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate written text with objectivity cannot identify emotive positioning (Node 2) or construct bias (Node 3) — both require the ability to see subjective language choices as choices, not neutral reporting.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly assume all written text is objective, or conflate 'formal' with 'objective'. Comparing texts in multiple genres — news reports, editorials, personal recounts, information reports — reveals that the objective/subjective distinction cuts across register, not with it.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-genre comparison is rich — connecting to texts across curriculum areas builds transferable critical literacy skills.",
+        "success_criteria": [
+          "Correctly classifies provided sentences or text extracts as objective or subjective",
+          "Names at least one language feature that indicates subjectivity (e.g. emotive vocabulary, judgement word, first person)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Emotive language and persuasion",
+        "progression_checkpoint": "Students can identify how emotive language and judgement words are used to position audiences and create persuasive effects.",
+        "minimum_width": "Identify at least two examples of emotive or judgement vocabulary in a provided persuasive text and explain how each positions the audience.",
+        "typical_width": "Analyse how language choices in persuasive texts (reviews, editorials, advertisements) evoke emotion and judgement; explain how these choices work directly and indirectly to persuade audiences to take a position.",
+        "wider": [
+          "Analyse how the same event or product is described using different emotive language choices for different target audiences",
+          "Compare print and visual advertising and identify how emotive language and image choices work together to persuade"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reason from vocabulary choice to audience effect cannot analyse how bias is constructed in Node 3 — identifying bias requires the vocabulary→positioning reasoning chain established here.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to move from identifying emotive words to explaining how they position a reader — the reasoning chain from vocabulary choice → reader effect requires explicit scaffolding before students can do it independently.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies specific emotive or judgement vocabulary in a persuasive text",
+          "Explains how at least one word or phrase positions the audience or evokes a particular response"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Identifying bias",
+        "progression_checkpoint": "Students can identify bias in a text — the selective or slanted use of language that advantages one perspective — and explain how it is constructed.",
+        "minimum_width": "Identify one example of bias in a provided text (e.g. a news report or factual recount) and explain how the language choices create it.",
+        "typical_width": "Differentiate between reporting facts and providing commentary in a range of texts (factual recounts, editorials, unedited vs edited representations); explain how word selection, inclusion/exclusion of information, and point of view construct bias.",
+        "wider": [
+          "Compare news reports of the same event from two different publications and analyse where bias is evident through language choices",
+          "Examine how an unedited photograph vs. a cropped or captioned version can construct different perspectives on the same event"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Bias is most visible in comparison. Students who read only one account often cannot see its bias without a contrasting perspective. Multiple text contexts help students recognise bias as constructed rather than inherent.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "Identifying bias requires integrating knowledge of objective/subjective distinction (Node 1) and understanding of how emotive language positions (Node 2) into a single critical reading act."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing media texts on the same event, including digital and multimodal texts, is genuinely rich critical literacy work that connects to AC9E6LY01 and builds transferable evaluation skills.",
+        "success_criteria": [
+          "Identifies at least one specific language choice that contributes to bias in a provided text",
+          "Explains how the language choice advantages one perspective over another"
+        ],
+        "related_standards": ["AC9E6LY01", "AC9E6LY03"]
+      }
+    ]
+  }
+}

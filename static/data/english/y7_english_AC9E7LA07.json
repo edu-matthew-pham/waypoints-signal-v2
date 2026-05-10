@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LA07",
+    "title": "Visual perspective techniques",
+    "description": "Analyse how techniques such as vectors, angle and/or social distance in visual texts can be used to create a perspective",
+    "strand": "Language — Expressing and developing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students can identify and explain how visual elements including images, tables and graphs contribute to meaning (AC9E6LA07). They have not yet worked with the specific technical vocabulary of visual grammar — vectors, angle, social distance — or analysed how these techniques deliberately construct a viewer's perspective.",
+    "progression_endpoint": "Students analyse how vectors, angle and social distance in visual texts create perspective.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Visual grammar: vectors, angle, social distance",
+        "progression_checkpoint": "Students can identify vectors, angle and social distance in visual texts and explain what each communicates",
+        "minimum_width": "In a given visual text, identify at least one of: a vector (line of gaze or gesture directing attention), an angle (high/low/eye-level), or social distance (close/medium/long shot); explain what it communicates",
+        "typical_width": "Identify all three techniques in a visual text and explain how each positions the viewer in relation to the subject",
+        "wider": [
+          "Examine how illustrations in picture books, graphic novels and advertisements use size, colour, angle, proximity, vector and salience to influence the reader — building a complete visual grammar vocabulary",
+          "Compare how the same subject photographed at different angles (high, low, eye-level) creates a different relationship between viewer and subject"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify and name the individual techniques, Node 2's combined-techniques analysis is inaccessible — explaining how techniques work together to create perspective requires first being able to identify each technique reliably.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Visual grammar is a technical vocabulary students need to accumulate before they can analyse perspective. Building the repertoire — vector, angle, social distance, salience, proximity — across multiple visual examples gives students the language tools the analysis requires.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies at least one visual technique (vector, angle, or social distance) in a given image",
+          "Explains what the technique communicates about the viewer-subject relationship"
+        ],
+        "related_standards": ["AC9E7LA03"]
+      },
+      {
+        "id": 2,
+        "label": "Techniques construct perspective",
+        "progression_checkpoint": "Students can analyse how visual techniques work together to create a perspective in a visual text",
+        "minimum_width": "In a given visual text, identify at least two techniques being used and explain how they work together to position the viewer and create a perspective",
+        "typical_width": "Analyse how multiple visual techniques combine to construct a specific perspective — e.g. a low angle + close social distance + direct gaze together create intimacy and power; compare two images of the same subject that use different technique combinations to create different perspectives",
+        "wider": [
+          "Compare how perspectives are created in animations and advertisements — examine how technique choices differ between a children's animation (where perspective creates safety and warmth) and an advertisement (where perspective creates aspiration or urgency)",
+          "Analyse how different advertisements for the same product use different technique combinations to target different audiences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly analyse techniques in isolation — noting that an angle is low without explaining what perspective that creates in combination with other techniques. Seeing how technique combinations produce perspective across varied visual text types (advertisements, animations, graphic novels) builds the integrative understanding the descriptor's 'analyse' command requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing advertisements for the same product targeting different audiences is a rich analysis context — it makes the deliberateness of perspective construction visible and gives advancing students genuine analytical material.",
+        "success_criteria": [
+          "Identifies at least two visual techniques in a given image",
+          "Explains how the techniques work together to create a perspective"
+        ],
+        "related_standards": ["AC9E7LA03", "AC9E7LY03"]
+      }
+    ]
+  }
+}

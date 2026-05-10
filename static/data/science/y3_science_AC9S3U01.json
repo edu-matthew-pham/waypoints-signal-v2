@@ -1,0 +1,99 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3U01",
+    "title": "Life Cycles",
+    "description": "compare characteristics of living and non-living things and examine the differences between the life cycles of plants and animals",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can identify and describe features of living things and group them based on observable characteristics (AC9SFU01, F band; AC9S1U01, 1-2 band). They have not yet formally compared living and non-living things using a characteristic framework, or examined the different structural forms life cycles can take (metamorphic vs non-metamorphic).",
+    "progression_endpoint": "Students compare characteristics of living and non-living things using observable evidence, and examine how plant and animal life cycles differ in structure — distinguishing metamorphic from non-metamorphic cycles and connecting the physical characteristics of organisms to their life stage.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Living, once living and non-living things have distinct characteristics",
+        "progression_checkpoint": "Students can classify objects as living, once living or non-living and explain their reasoning using observable characteristics (growth, reproduction, response to environment, need for nutrients).",
+        "minimum_width": "Students classify a collection of objects as living, once living or non-living and explain the reasoning for at least three classifications using observable characteristics.",
+        "typical_width": "Students explain the characteristics that distinguish living from non-living things, correctly classify ambiguous cases (dead leaves, fire, crystals, seeds) with reasoning, and distinguish between 'once living' and 'never living'.",
+        "wider": [
+          "Investigate how First Nations Australians understand and classify the relationships between living things, Country and non-living elements — comparing with the living/non-living framework",
+          "Examine edge cases that challenge the classification (viruses, crystals that 'grow', fire that 'spreads') and discuss what characteristic evidence is used to decide",
+          "Research how scientists classify single-celled organisms and discuss whether the living/non-living distinction applies at the microscopic level"
+        ],
+        "hinge": true,
+        "hinge_reason": "The characteristic-based classification framework is the prerequisite for examining life cycles in Nodes 2 and 3. Students who classify by appearance or familiarity rather than characteristics cannot reason about what changes at each life stage, because they lack a principled definition of what being 'living' involves at any stage.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly classify by appearance or familiarity rather than by characteristics — dead wood is 'non-living' because it looks dead, seeds are 'non-living' because they aren't moving. Making the characteristic evidence explicit (what does living mean? → growth, reproduction, response, needs nutrients) is the scaffold that makes classification reliable across ambiguous cases.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies at least five objects as living, once living or non-living with characteristic-based reasoning",
+          "Correctly classifies at least one ambiguous case (e.g. seed, dead leaf, fire) with explanation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Life cycles describe stages of growth and change",
+        "progression_checkpoint": "Students can describe the life cycle of a named plant and a named animal, identifying the stages in sequence and explaining what changes occur at each stage.",
+        "minimum_width": "Students describe the life cycle of one plant and one animal, naming the stages in sequence and describing the key change at each stage.",
+        "typical_width": "Students describe and represent the life cycle stages of a plant and an animal, explain what happens at each stage (growth, reproduction, development), and identify similarities and differences between the two cycles.",
+        "wider": [
+          "Represent stages of a plant or animal life cycle using drawings, digital photographs, graphic organisers or physical models — choosing a format that best shows the cyclic nature of the sequence",
+          "Investigate how First Nations Australians understand and utilise the life cycles of certain species — examining how knowledge of life stage behaviour guides sustainable harvesting",
+          "Compare the life cycle of a plant with that of a single-celled organism (e.g. yeast budding) — exploring what 'life cycle' means across very different living things"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly have a narrow life cycle model based on one familiar animal (butterfly or frog). Comparing plant and animal cycles, and examining cycles with different structural forms, builds a more general understanding of what a life cycle is and prevents students from treating one example as universal.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations knowledge of life stage-guided harvesting provides a culturally grounded and ecologically specific direction that goes well beyond identifying stages. The single-celled organism direction challenges students' prototype life cycle model in a genuinely enriching way.",
+        "success_criteria": [
+          "Names the stages of one plant and one animal life cycle in sequence",
+          "Describes the key change that occurs at each stage for both organisms"
+        ],
+        "related_standards": ["AC9S3H02"]
+      },
+      {
+        "id": 3,
+        "label": "Metamorphic and non-metamorphic cycles differ in structure",
+        "progression_checkpoint": "Students can distinguish between metamorphic life cycles (dramatic change in body form between stages) and non-metamorphic cycles (gradual growth without structural transformation), and give examples of each.",
+        "minimum_width": "Students describe one metamorphic and one non-metamorphic life cycle, explaining the key structural difference between them.",
+        "typical_width": "Students compare metamorphic and non-metamorphic life cycles across multiple examples (butterflies, beetles, frogs as metamorphic; humans, birds, lizards as non-metamorphic), explain why the physical characteristics of an organism differ across life stages in metamorphic cycles, and represent the comparison.",
+        "wider": [
+          "Compare complete metamorphosis (egg → larva → pupa → adult) with incomplete metamorphosis (egg → nymph → adult) — examining why insects have evolved different developmental strategies",
+          "Investigate the physical characteristics of a frog or moth at different life stages and explain how each stage's characteristics suit its role in survival",
+          "Research how Maria Sibylla Merian's careful observation across life stages was the first to document metamorphosis — connecting systematic data collection to scientific explanation (AC9S3H01)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly know butterfly metamorphosis as the only metamorphic example and are unaware that beetles, flies, and frogs also undergo metamorphosis. Encountering multiple metamorphic examples across insect and amphibian groups — and contrasting with non-metamorphic examples — builds a more accurate and generalisable concept of metamorphic change.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The complete vs incomplete metamorphosis direction provides genuine conceptual enrichment beyond the Y3 band minimum. The Merian connection (AC9S3H01) offers a historically meaningful link between careful observation across life stages and scientific discovery.",
+        "success_criteria": [
+          "Distinguishes metamorphic from non-metamorphic life cycles with at least one example of each",
+          "Explains what 'metamorphosis' means in terms of change in body form between life stages"
+        ],
+        "related_standards": ["AC9S3H01"]
+      }
+    ]
+  }
+}

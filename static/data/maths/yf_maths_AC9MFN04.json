@@ -1,0 +1,99 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFN04",
+    "title": "Part-Part-Whole to 10",
+    "description": "partition and combine collections up to 10 using part-part-whole relationships and subitising to recognise and name the parts",
+    "strand": "Number",
+    "mode": "A",
+    "prior_knowledge": "Students can count collections to at least 20 (AC9MFN03) and subitise collections to 5 (AC9MFN02). They have not yet systematically split a collection into two named parts and used part-part-whole language to describe the relationship.",
+    "progression_endpoint": "Students partition and combine collections up to 10, using part-part-whole relationships and subitising to recognise and name the parts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising parts within a whole",
+        "progression_checkpoint": "Students can look at a structured representation of a number up to 10 and identify and name two parts that make the whole.",
+        "minimum_width": "Identify and name two parts in a ten-frame or domino arrangement of a number up to 10 (e.g. '7 — I can see 5 and 2 more').",
+        "typical_width": "Recognise numbers represented in physical or virtual ten-frames, dominoes and dot cards; identify two parts within the arrangement; describe the part-part-whole relationship using language ('___ is ___ and ___ more').",
+        "wider": [
+          "Explore First Nations Australians' number groupings and different ways of representing these groupings to form and partition numbers — connecting cultural representations to part-part-whole thinking",
+          "Use subitising to identify parts within standard number configurations (dice, dominoes) without counting individual dots"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly describe 'how many' without attending to the internal structure of the number. Structured representations (ten-frames, dominoes) across several numbers make the part-part structure visible, but students need to encounter the same number in multiple structured arrangements to see that the parts can differ while the whole stays the same.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 2 (partitioning in different ways) requires students to hold the whole in mind while varying the parts — which depends on first being able to see and name a part-part structure at all. Students who attend only to 'how many' cannot partition flexibly or combine in node 3.",
+        "success_criteria": [
+          "Student identifies two parts within a structured representation (e.g. ten-frame, domino) for at least three different numbers up to 10",
+          "Student describes the part-part-whole relationship using appropriate language"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Partitioning a collection in different ways",
+        "progression_checkpoint": "Students can partition a collection of up to 10 objects into two parts in more than one way, naming both parts and the whole each time.",
+        "minimum_width": "Partition a collection of 6 objects into two parts in at least two different ways, naming both parts and the whole each time.",
+        "typical_width": "Partition collections of up to 10 objects in multiple ways using physical or virtual materials; name each part-part-whole relationship; demonstrate that the same whole can be partitioned into different pairs of parts.",
+        "wider": [
+          "Investigate all the ways to partition a number to 10 systematically, recording part-part pairs and looking for patterns",
+          "Explore partitioning in First Nations Australians' counting and grouping systems — applying this to quantities of objects in the environment on Country/Place"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "A key misconception is that a number has only one partition (often the canonical split students see first, e.g. 5 as 4+1). Seeing a collection partitioned multiple ways — into different part pairs — is what builds the flexible part-part-whole thinking the descriptor requires. Breadth of examples is the resolution.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "width_opportunity",
+            "reason": "Investigating all partitions of a number systematically is genuinely productive mathematical reasoning at Foundation level. Advancing students who systematically find all part pairs for numbers up to 10 are building early combinatorial and additive thinking.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Systematic investigation of all partitions of numbers to 10 is rich, within-band mathematical reasoning that connects to early addition and subtraction. Advancing students benefit from the structured challenge of finding all pairs.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student partitions a collection of up to 10 objects into at least two different pairs of parts",
+          "Student names both parts and the whole for each partition using part-part-whole language"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Combining parts to make a whole",
+        "progression_checkpoint": "Students can combine two given parts to name the whole, using subitising or counting to verify.",
+        "minimum_width": "Given two groups of objects (total up to 10), name the whole by combining the parts — using subitising or counting to verify.",
+        "typical_width": "Combine two parts to name the whole across a range of part-part combinations to 10; represent part-part-whole relationships using physical or virtual materials, dominoes and standard number configurations; use both partitioning (whole to parts) and combining (parts to whole) flexibly.",
+        "wider": [
+          "Represent the same part-part-whole relationship in multiple ways (objects, drawings, numerals) and connect between representations",
+          "Connect part-part-whole thinking to familiar real-world situations — e.g. sharing items into two groups and recombining them",
+          "Explore part-part-whole relationships using structured tools (rekenreks, ten-frames) to compare which representations make which combinations easiest to see"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Combining integrates part recognition (node 1) and flexible partitioning (node 2) into bidirectional thinking — students move fluently between 'what are the parts?' and 'what is the whole?'. The coordination of both directions is the endpoint demand and the foundation for additive reasoning in Year 1."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly names the whole when given two parts (total up to 10), using subitising or counting to verify",
+          "Student moves flexibly between partitioning and combining for the same number (e.g. can both split 8 into parts and combine given parts to name 8)"
+        ]
+      }
+    ]
+  }
+}

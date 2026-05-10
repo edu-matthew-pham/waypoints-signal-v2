@@ -1,0 +1,72 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9H03",
+    "title": "Adoption of Science Knowledge and Practices",
+    "description": "analyse the key factors that contribute to science knowledge and practices being adopted more broadly by society",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students have examined how scientific knowledge is used by communities to make decisions (5-6 band H-strand). They now extend to analysing the factors that determine whether science knowledge transitions from research to widespread societal adoption.",
+    "progression_endpoint": "Students identify the key factors that drive or hinder adoption of scientific knowledge and practices, apply those factors to analyse real adoption cases, and explain why the same scientific knowledge can be adopted in one context and not another.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Key factors drive or hinder adoption of science knowledge",
+        "progression_checkpoint": "Students can identify and explain multiple factors that contribute to or hinder broad adoption of scientific knowledge or practices — including evidence quality, economic factors, cultural acceptance, government policy, individual benefit and technological readiness.",
+        "minimum_width": "Students identify at least three distinct factors that affect adoption and explain what each contributes or obstructs.",
+        "typical_width": "Students explain each factor type (evidence quality, economic incentive, policy support, cultural fit, individual benefit, technological readiness) and describe how each can accelerate or obstruct adoption; distinguish factors that are necessary but insufficient (good evidence alone does not guarantee adoption); and explain why adoption often requires multiple favourable factors simultaneously.",
+        "wider": [
+          "Examine how First Nations Australians' fire management practices faced resistance despite strong evidence — analysing which factors were absent and how their reinstatement changed",
+          "Investigate the factors that drove adoption of solar panels and battery storage — examining how economic, environmental, policy and social factors interacted over time",
+          "Examine how government initiatives like Landcare support adoption of land restoration practices — exploring the role of policy infrastructure in bridging science and practice"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to apply a multi-factor framework to real adoption cases. Students who hold only a single-factor model (evidence = adoption) cannot produce a valid analysis in Node 2 — they will reduce all case studies to the same explanation and miss the contextual variation the descriptor requires.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to reduce adoption to 'good evidence = adoption' without seeing the multi-factor reality. Encountering adoption cases where strong evidence was not sufficient (fire management, dietary guidelines) alongside cases where weaker evidence was quickly adopted (some health products) builds a more accurate and generalisable model of what actually drives adoption.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of adoption cases available — fire management, solar panels, recycling, assisted reproductive technologies, Landcare — provides genuinely varied factor combinations. Students engaging the wider tier develop a more discriminating analytical framework that goes beyond listing factors to understanding how they interact.",
+        "success_criteria": [
+          "Identifies at least three distinct factors affecting adoption and explains what each contributes",
+          "Explains why good evidence alone is not sufficient for adoption — identifying at least one other factor that must also be present"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Adoption factors are applied to analyse real cases",
+        "progression_checkpoint": "Students can apply the adoption factor framework to analyse at least two real cases, explaining which factors drove adoption, which were absent or obstructive, and why the same scientific knowledge can be adopted in one context but not another.",
+        "minimum_width": "Students apply the factor framework to analyse at least two adoption cases, identifying the key factors present or absent in each.",
+        "typical_width": "Students analyse adoption across multiple cases (solar panels, recycling, traditional fire management, assisted reproductive technologies, citizen science); explain why the same scientific knowledge can be adopted differently across communities, regions or time periods; and evaluate whether adoption outcomes were primarily driven by evidence, economics, policy or cultural factors.",
+        "wider": [
+          "Investigate how recycling practices became widespread — examining the interplay of environmental values, government infrastructure, industry response and individual behaviour change",
+          "Analyse a case where adoption was delayed or resisted despite strong evidence — identifying which factors were missing and what eventually changed",
+          "Compare adoption of the same science knowledge in two different countries or communities — examining how context shapes which factors are decisive"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily apply the factor framework to one familiar case without testing whether the framework holds across varied contexts. Analysing adoption cases with different dominant factors — one driven primarily by economics, one by policy, one by cultural fit — builds a more robust and transferable analytical capability."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies the factor framework to at least two adoption cases, identifying the key factors present or absent in each",
+          "Explains why the same scientific knowledge can produce different adoption outcomes in different contexts"
+        ],
+        "related_standards": [
+          "AC9S9H04"
+        ]
+      }
+    ]
+  }
+}

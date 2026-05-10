@@ -1,0 +1,93 @@
+{
+  "year_level": "8",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH8K11",
+    "title": "Interpretations of empire",
+    "description": "interpretations about the society and events, and/or individuals and/or groups connected to the empire and/or expansion",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students understand how historians construct and evaluate interpretations (AC9HH8K06) and the events, individuals and society of the chosen empire (AC9HH8K07–K10). They have not yet applied interpretive analysis specifically to the contested historiography of medieval empires and expansion — including how oral traditions, primary sources, death tolls and post-colonial perspectives shape historical understanding.",
+    "progression_endpoint": "Students explain how and why historians have developed different interpretations of the chosen empire or expansion — including the evidence on which interpretations rest, the factors that have shaped historical understanding, and how interpretations have been contested or revised over time.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sources, evidence and interpretive uncertainty",
+        "progression_checkpoint": "Students can explain how the nature and availability of sources shapes the interpretations historians can make about the chosen empire or expansion — including how different source types produce different perspectives.",
+        "minimum_width": "An explanation of how at least one source type (e.g. oral tradition, primary chronicle, archaeological record) shapes interpretations of the chosen empire.",
+        "typical_width": "The relationship between source type and interpretive possibility across the chosen empire. Examples: Icelandic sagas as oral histories corroborated or contested by archaeological evidence (Erik the Red's Greenland settlements, L'Anse aux Meadows); how the written accounts of monks shaped Viking historiography; the validity of various death tolls linked to Mongol expansion and how these are evaluated against primary and secondary sources.",
+        "wider": [
+          "Analyse the extent to which historians' interpretations are corroborated with oral histories in Icelandic sagas — examining where archaeological and saga accounts align and where they diverge — as a case study in how oral and written sources produce different historical pictures",
+          "Examine why death toll estimates linked to Mongol expansion (e.g. 1,000,000 in Nishapur, 60 million in China) are contested, and how historians evaluate such claims using primary sources and demographic reasoning"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand how source availability and type shape interpretation cannot critically evaluate competing historical accounts. The source-interpretation link is prerequisite to all interpretive analysis.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often treat historical sources as simply reliable or unreliable. Scaffold the more nuanced idea: different source types (oral, written, archaeological) produce different kinds of evidence that historians must weigh against each other. This is more complex than a simple accuracy check.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains how at least one source type shapes the interpretations historians can make about the chosen empire",
+          "Identifies at least one limitation of the available sources and explains how it affects historical understanding"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Competing interpretations",
+        "progression_checkpoint": "Students can describe competing historical interpretations of the chosen empire or expansion and explain why they differ — including how the perspective of the interpreter, access to sources, and historical context shape the conclusions reached.",
+        "minimum_width": "Two different interpretations of the chosen empire or expansion with at least one explanation of why they differ.",
+        "typical_width": "Multiple competing interpretations with analysis of their bases. Examples: contrasting perspectives on the Fall of Constantinople (1453) — prophecies and legends vs historical analysis; the 'Gold, God and Glory' framework for Spanish conquest and how it is contested; differing interpretations of Viking raids vs Viking trade and settlement.",
+        "wider": [
+          "Examine contrasting perspectives on the Fall of Constantinople (1453) — including prophecies, legends and historians' accounts — and analyse how these shaped understanding of the experiences of people living at the time",
+          "Analyse the extent to which the 'Gold, God and Glory' interpretation of the Spanish conquest holds — examining how different historians weight religious, economic and political motivations and what evidence each draws on"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The range of interpretive contests across different empires is wide — Mongol death tolls, Viking reputation, Fall of Constantinople, Spanish conquest. Using more than one example of interpretive contest prevents students from treating historical debate as specific to one case.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Spanish conquest — where 'Gold, God and Glory' is both a genuine historical framework and a contested oversimplification — is a rich case for developing students' ability to evaluate the explanatory power of historical interpretations, not just note that they differ.",
+        "success_criteria": [
+          "Describes at least two competing historical interpretations of the chosen empire or expansion",
+          "Explains at least one reason why the interpretations differ, with reference to evidence, perspective or historical context"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating interpretations",
+        "progression_checkpoint": "Students can evaluate competing interpretations of the chosen empire or expansion — identifying which is better supported by evidence and explaining the reasoning behind that judgement.",
+        "minimum_width": "An evaluation of at least one interpretation using evidence to assess its strengths or limitations.",
+        "typical_width": "Evaluation of competing interpretations using source evidence; how the perspective of subject peoples vs rulers produces different interpretive frameworks; the role of archaeological evidence in confirming or revising written-source interpretations (e.g. Viking settlements at L'Anse aux Meadows vs saga accounts).",
+        "wider": [
+          "Evaluate the 'Gold, God and Glory' framework against primary source evidence of conquistador motivations, identifying where the interpretation is well-supported, where it oversimplifies, and what it leaves out",
+          "Examine how post-colonial perspectives on the Spanish conquest have changed historical interpretations — particularly around the experiences of Indigenous peoples — and evaluate how this represents an improvement in historical understanding"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluation integrates source analysis (Node 1) and competing interpretation identification (Node 2). Invest in helping students move from noting that interpretations differ to making a reasoned judgement about which is better supported — this is the full demand of the descriptor."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Evaluates at least one historical interpretation of the chosen empire or expansion using evidence",
+          "Explains why the interpretation is well-supported or limited, with reference to specific sources or reasoning"
+        ]
+      }
+    ]
+  }
+}

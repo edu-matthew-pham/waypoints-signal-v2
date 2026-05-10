@@ -1,0 +1,92 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P12",
+    "title": "Manage agile projects",
+    "description": "Select and use a range of digital tools efficiently and responsibly to share content online, and plan and manage individual and collaborative agile projects",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can select and use appropriate digital tools to share content, plan tasks and collaborate on projects (AC9TDI6P08). They have collaborated using shared tools but have not yet managed projects using agile practices, recorded tasks with responsibilities and timeframes, or applied cultural protocols in collaborative contexts.",
+    "progression_endpoint": "Students select and use digital tools responsibly to share content online, and plan and manage agile projects by setting up shared spaces, recording tasks with responsibilities and timeframes, and demonstrating agile practices across a project.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning tasks and timeframes",
+        "progression_checkpoint": "Students can record tasks, responsibilities and timeframes for a project using digital tools",
+        "minimum_width": "Create a task list for a project with at least three tasks, who is responsible for each, and when each is due",
+        "typical_width": "Use a spreadsheet or project management tool to record tasks with sequence, critical dates and responsibilities; identify which tasks depend on others being completed first",
+        "wider": [
+          "Use AI tools to decompose high-level project instructions into detailed steps; critically evaluate whether the AI's breakdown is complete and correctly sequenced",
+          "Limited width — task planning is a process applied the same way regardless of project. The variety comes from the project itself, not the planning method."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Records at least three tasks with responsibilities and timeframes",
+          "Tasks are sequenced in a logical order"
+        ],
+        "related_standards": [
+          "AC9TDI8P11"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Demonstrating agile practices",
+        "progression_checkpoint": "Students can demonstrate agile project management by working in iterative cycles, reviewing progress and adapting plans",
+        "minimum_width": "Complete at least one review-and-adapt cycle during a project — review what has been done, identify what needs to change, update the plan",
+        "typical_width": "Demonstrate agile practices across a project — regular check-ins, iterative development, adapting plans based on feedback; set up and manage a shared collaborative space",
+        "wider": [
+          "Investigate how agile practices differ across professional contexts — how a software team's sprint differs from a design studio's iterative process",
+          "Evaluate how the agile approach changed the project outcome compared to what a linear plan would have produced"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Completes at least one review-and-adapt cycle during the project",
+          "Can explain what changed in the plan and why"
+        ],
+        "related_standards": [
+          "AC9TDI8P11"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Sharing content responsibly",
+        "progression_checkpoint": "Students can share content online using digital tools responsibly, demonstrating awareness of appropriate behaviours and cultural sensitivity",
+        "minimum_width": "Share content using a digital tool; demonstrate at least one responsible behaviour (e.g. respecting privacy, appropriate attribution)",
+        "typical_width": "Share content demonstrating empathy for diverse cultural expectations — showing sensitivity around images or names of deceased people, valuing intellectual property and perspectives of others",
+        "wider": [
+          "Apply cultural protocols when collaborating with First Nations community groups on digital projects, including relevant permissions, attributions and acknowledgement of diversity",
+          "Limited width — responsible sharing is a consistent set of practices. The breadth comes from the cultural contexts they are applied in."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Responsible sharing in different cultural contexts (general online, First Nations community collaboration) requires students to adapt their behaviour to different norms and protocols. A single context risks treating responsibility as a fixed checklist rather than a context-sensitive practice.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations cultural protocols direction offers advancing students a genuinely rich and consequential context for responsible sharing — applying permissions, attributions and community acknowledgement in a real collaborative project.",
+        "success_criteria": [
+          "Shares content using an appropriate digital tool",
+          "Demonstrates at least one responsible behaviour when sharing"
+        ],
+        "related_standards": [
+          "AC9TDI8P14",
+          "AC9TDI8K02"
+        ]
+      }
+    ]
+  }
+}

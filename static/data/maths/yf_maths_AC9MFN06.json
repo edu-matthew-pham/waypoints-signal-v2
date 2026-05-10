@@ -1,0 +1,99 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFN06",
+    "title": "Equal Sharing and Grouping",
+    "description": "represent practical situations that involve equal sharing and grouping with physical and virtual materials and use counting or subitising strategies",
+    "strand": "Number",
+    "mode": "A",
+    "prior_knowledge": "Students can quantify collections using counting and have experience with part-part-whole relationships to 10 (AC9MFN04). They have not yet applied the idea of equal groups — sharing so that each person gets the same amount, or forming groups of the same size.",
+    "progression_endpoint": "Students represent practical situations involving equal sharing and grouping using materials, and use counting or subitising to determine the size of equal groups.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The idea of equal",
+        "progression_checkpoint": "Students can identify when a sharing situation is equal and when it is not, and explain what needs to happen to make it equal.",
+        "minimum_width": "Distribute a small collection of objects between two groups and state whether the groups are equal, adjusting if they are not.",
+        "typical_width": "Identify and create equal and unequal distributions; explain what makes sharing equal ('everyone has the same amount'); compare two groups using counting or subitising to check for equality.",
+        "wider": [
+          "Explore equal sharing in familiar everyday contexts (fruit at snack time, cards dealt in a game) and discuss what equality means in each context",
+          "Investigate situations where objects cannot be shared equally (leftovers) — discussing what happens to the remainder at Foundation level"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly conflate 'shared' with 'equal' — just distributing objects satisfies sharing in their view. Encountering varied sharing situations where equality is verified by checking each group helps students develop the precision of equal as same-amount-each.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Nodes 2 and 3 both require students to verify equality of groups — which depends on understanding that equal means same-amount-each, not just distributed. Students who conflate shared with equal cannot confirm their distributions are valid or detect when grouping has produced unequal groups.",
+        "success_criteria": [
+          "Student distributes a collection into equal groups and confirms each group has the same amount using counting or subitising",
+          "Student identifies an unequal distribution and adjusts it to make groups equal"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Representing equal sharing situations",
+        "progression_checkpoint": "Students can represent a practical equal sharing situation using materials and find how many each person receives using counting or subitising.",
+        "minimum_width": "Represent a sharing situation using materials (distribute a collection of up to 10 between 2 or 3 people) and count each group to find how many each person receives.",
+        "typical_width": "Represent equal sharing situations across a range of practical contexts (fruit, cards, coins, beads); distribute collections of up to 10 objects between 2–4 people; use counting or subitising to determine the size of each equal group; confirm equality by comparing groups.",
+        "wider": [
+          "Explore instructive games of First Nations Australians involving equal sharing — e.g. Yangamini of the Tiwi Peoples of Bathurst Island — investigating what makes sharing equal in a game context",
+          "Represent equal sharing using virtual materials or digital tools, comparing the process with physical sharing"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "The distribution process (one for you, one for me, one for you...) requires systematic allocation and tracking. Students commonly lose track or distribute unevenly. Repeated practice with the one-at-a-time distribution strategy builds the procedural fluency needed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 3 (grouping contexts) requires students to form equal groups systematically — the same systematic allocation process as sharing. Students who cannot reliably execute the one-at-a-time distribution strategy cannot form equal groups of a specified size.",
+        "success_criteria": [
+          "Student distributes a collection of up to 10 objects equally between 2–3 people using a systematic strategy",
+          "Student counts or subitises each group to confirm equal distribution and states how many each person received"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Grouping contexts",
+        "progression_checkpoint": "Students can represent a practical grouping situation using materials, forming equal groups and counting or subitising to find the number in each group.",
+        "minimum_width": "Form equal groups from a collection (e.g. put 6 objects into groups of 2) and count to verify the groups are equal.",
+        "typical_width": "Represent equal grouping situations using materials; connect grouping to sharing as two forms of the equal-groups idea; use counting or subitising to find the number of groups or the number in each group; apply across varied practical contexts.",
+        "wider": [
+          "Explore First Nations Australians' games that involve grouping or sharing, connecting the mathematical structure to cultural practice",
+          "Compare sharing (how many each) and grouping (how many groups) as different questions about the same situation — e.g. 'If I share 9 beads into groups of 3, how many groups do I get?' vs 'If I share 9 beads among 3 people, how many does each person get?'",
+          "Investigate what happens with collections that cannot be grouped evenly — identifying and counting the remainder"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students at Foundation see sharing and grouping as very different activities. Connecting them as two aspects of the equal-groups idea — through varied contexts where both questions arise — is the conceptual work that prepares students for multiplicative thinking in later years. Breadth across sharing and grouping contexts is what makes this connection visible.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "Grouping integrates the equality concept (node 1) and sharing distribution process (node 2) into a new context. Students must apply the equal-groups idea in a direction that is less familiar (forming groups by size rather than distributing to people). The generalisation of equal groups is the integration point."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Connecting sharing and grouping as two faces of the same equal-groups idea is foundational for multiplicative reasoning. Advancing students who explore both and begin to see the relationship are engaging with genuinely deep mathematical thinking within the Foundation year band.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student forms equal groups from a collection using materials and verifies equality by counting or subitising",
+          "Student can describe a grouping situation — naming the total, the group size, and the number of groups formed"
+        ]
+      }
+    ]
+  }
+}

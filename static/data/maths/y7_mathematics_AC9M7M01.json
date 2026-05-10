@@ -1,0 +1,76 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7M01",
+    "title": "Area of Triangles and Parallelograms",
+    "strand": "Measurement",
+    "description": "solve problems involving the area of triangles and parallelograms using established formulas and appropriate units",
+    "mode": "A",
+    "prior_knowledge": "Students can establish and apply the area formula for a rectangle (from AC9M6M02). Students understand area as the measure of a 2D region and can use appropriate units.",
+    "progression_endpoint": "Students solve problems involving the area of triangles and parallelograms using established formulas with appropriate units.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Deriving the triangle area formula",
+        "progression_checkpoint": "Students understand why the area of a triangle is half the area of a related rectangle or parallelogram, and can state the formula A = ½bh.",
+        "minimum_width": "Explain using a diagram why A = ½bh for a triangle, connecting to the rectangle formula.",
+        "typical_width": "Derive the formula using multiple triangle types (right-angled, acute, obtuse) and verify the connection to the enclosing rectangle in each case.",
+        "wider": [
+          "Investigate using dynamic geometry software: slide the apex of a triangle at a fixed altitude and observe that the area is constant — explain why.",
+          "Explore how the formula applies when the height is outside the triangle (obtuse case)."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who derive the formula only for right-angled triangles often believe the formula changes for acute or obtuse triangles. Multiple triangle types resolve this.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who believe the formula only applies to right-angled triangles misidentify the height in Node 2 problems — applying A = ½bh with the slant side instead of the perpendicular height produces systematically wrong answers for all non-right-angled triangles.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "States the area formula for a triangle and explains its derivation.",
+          "Correctly identifies the base and corresponding perpendicular height.",
+          "Does not confuse the slant side with the perpendicular height."
+        ],
+        "related_standards": [
+          "AC9M7M02"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Applying area formulas to triangles and parallelograms",
+        "progression_checkpoint": "Students calculate the area of triangles and parallelograms using established formulas, selecting appropriate units.",
+        "minimum_width": "Calculate the area of a given triangle and a given parallelogram using their formulas.",
+        "typical_width": "Solve problems involving composite shapes (decompose into triangles and rectangles); select appropriate units; convert between units if needed.",
+        "wider": [
+          "Solve practical problems: floor plans, sail areas, land parcels — requiring decomposition into triangles and parallelograms.",
+          "Investigate First Nations design elements that use triangular and parallelogram forms — calculate areas in context."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Area formula application errors are common in non-standard orientations and composite shapes. Varied practical contexts with different orientations are necessary.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Correctly calculates the area of a triangle using A = ½bh.",
+          "Correctly calculates the area of a parallelogram.",
+          "Uses appropriate units and converts if necessary."
+        ],
+        "related_standards": [
+          "AC9M7N06",
+          "AC9M7M06"
+        ],
+        "width_opportunity_reason": "Practical area problems involving decomposition of composite shapes (floor plans, land parcels) offer advancing students rich multi-step spatial reasoning within the Year 7 band."
+      }
+    ]
+  }
+}

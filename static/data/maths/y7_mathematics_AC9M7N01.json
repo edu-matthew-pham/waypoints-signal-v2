@@ -1,0 +1,134 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7N01",
+    "title": "Perfect Squares and Square Roots",
+    "strand": "Number",
+    "description": "describe the relationship between perfect square numbers and square roots, and use squares of numbers and square roots of perfect square numbers to solve problems",
+    "mode": "A",
+    "prior_knowledge": "Students can multiply and divide whole numbers fluently, use arrays to represent multiplication, and understand that area of a square = side × side (from Y6 measurement and number work).",
+    "progression_endpoint": "Students describe the relationship between perfect square numbers and their square roots, and apply this relationship to solve problems including finding the perimeter of squares given area.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Squares as area models",
+        "progression_checkpoint": "Students can connect squaring a number to the area of a square with that side length, and list perfect square numbers from 1 to 144.",
+        "minimum_width": "List perfect squares 1–144 and represent at least three using area diagrams.",
+        "typical_width": "List perfect squares 1–400, connect each to its area diagram, and identify patterns in the sequence (e.g. differences between consecutive squares).",
+        "wider": [
+          "Investigate the last-digit pattern in perfect squares (last digits cycle: 0,1,4,9,6,5,6,9,4,1,0) and use this to quickly rule out non-perfect-squares.",
+          "Explore why perfect squares always have an odd number of factors, connecting to divisibility."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students need automatic recall of perfect squares to 144 before the square root relationship is legible. Fluency here is prerequisite to node 2.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who lack automatic recall of perfect squares to 144 cannot access the inverse relationship in Node 2 — the square root concept is not legible without the forward mapping being secure.",
+        "width_opportunity": false,
+        "success_criteria": [
+          "Lists perfect square numbers from 1² to 12² without error.",
+          "Represents a given perfect square as an area model and states its side length.",
+          "Does not confuse the square number with its root (e.g. does not say '9 squared is 3')."
+        ],
+        "related_standards": [
+          "AC9M7M01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Square root as inverse operation",
+        "progression_checkpoint": "Students understand that square root is the inverse of squaring and can find the exact square root of any perfect square up to 144.",
+        "minimum_width": "Find the square root of any perfect square from 1 to 144 and explain what it means.",
+        "typical_width": "Use √ notation fluently, explain the inverse relationship, and verify: √(n²) = n for concrete examples.",
+        "wider": [
+          "Explore perfect squares beyond 144 (e.g. 169, 196, 225) using the area model and extend the pattern.",
+          "Investigate √(a × b) = √a × √b for perfect square cases (e.g. √36 = √4 × √9), building intuition without formalising the rule."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse squaring with doubling (thinking 5² = 10) or treat √ as halving. Multiple concrete representations — area diagrams, calculator verification, number line — help resolve this.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "The squaring/doubling and √/halving misconceptions, if unresolved, produce systematic errors in Node 3 (bounding non-perfect squares) and Node 4 (applied problems) — students cannot reason about intervals or side lengths if the inverse relationship is confused.",
+        "width_opportunity": true,
+        "success_criteria": [
+          "States the square root of any perfect square from 1 to 144 when prompted.",
+          "Explains in words what √25 means ('the number that when multiplied by itself gives 25').",
+          "Does not conflate squaring with multiplying by 2."
+        ],
+        "related_standards": [],
+        "width_opportunity_reason": "The inverse relationship and its extension beyond 144 offer advancing students a foundation for irrational number intuition — exploring which numbers are perfect squares and which are not is rich structural thinking."
+      },
+      {
+        "id": 3,
+        "label": "Locating non-perfect square roots",
+        "progression_checkpoint": "Students can identify which two consecutive integers a square root falls between for numbers that are not perfect squares.",
+        "minimum_width": "For a given non-perfect-square (e.g. 43), identify the two consecutive perfect squares it lies between and state the corresponding root interval.",
+        "typical_width": "Estimate √n to one decimal place for non-perfect squares by reasoning about the interval, e.g. √43 ≈ 6.5.",
+        "wider": [
+          "Use a number line marked with perfect squares to plot approximate positions of several non-perfect square roots.",
+          "Investigate: between which perfect squares does √200 fall? Extend to three-digit numbers."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need an explicit reasoning scaffold: 'find the perfect squares either side, take their roots, the answer lies between'. Without this structure students often guess randomly or over-rely on a calculator without understanding the bounds."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "For any given number, correctly identifies the two consecutive perfect squares it lies between.",
+          "States the corresponding square root interval (e.g. '√43 is between 6 and 7').",
+          "Explains the reasoning, not just the answer."
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 4,
+        "label": "Applying square roots to problems",
+        "progression_checkpoint": "Students use the relationship between perfect square numbers and square roots to solve practical problems, including finding the side length of a square given its area.",
+        "minimum_width": "Given the area of a square, find its side length and perimeter using square root reasoning.",
+        "typical_width": "Solve a range of problems involving squares and square roots in practical contexts (tile layouts, garden beds, square frames) including problems requiring identification of perfect square areas.",
+        "wider": [
+          "Design a problem involving square tiles covering a floor area that requires checking whether a given area is a perfect square.",
+          "Connect to Pythagoras preparation: identify whether a² + b² is a perfect square for simple triples (3,4,5)."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The transition from abstract square root to applied problem-solving requires varied contexts — students who only practise decontextualised calculations often fail to recognise when square root is the required operation in a problem.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "integration",
+            "reason": "This node connects squaring, square roots, area, and perimeter simultaneously — coordinating these is the learning."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Given the area of a square, correctly determines the side length using square root reasoning.",
+          "Solves a two-step problem involving squares and square roots in a practical context.",
+          "Checks that their answer is reasonable (e.g. side length must be positive)."
+        ],
+        "related_standards": [
+          "AC9M7M01",
+          "AC9M7N03"
+        ],
+        "width_opportunity_reason": "Applying square roots to multi-step practical problems (tiling, Pythagorean triples) connects number to geometry in ways that are rich and within Year 7 scope."
+      }
+    ]
+  }
+}

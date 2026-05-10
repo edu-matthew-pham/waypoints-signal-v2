@@ -1,0 +1,89 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2N05",
+    "title": "Multiply and divide with strategies",
+    "strand": "Number",
+    "mode": "A",
+    "description": "multiply and divide by one-digit numbers using repeated addition, equal grouping, arrays, and partitioning to support a variety of calculation strategies",
+    "prior_knowledge": "Students use mathematical modelling to solve practical problems involving equal sharing and grouping (AC9M1N06). They have not yet formalised arrays or used repeated addition, skip counting and partitioning as multiplication and division strategies.",
+    "progression_endpoint": "Students multiply and divide by one-digit numbers using repeated addition, equal grouping, arrays and partitioning, and select from a range of calculation strategies to solve problems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Equal groups and repeated addition",
+        "progression_checkpoint": "Students can represent a multiplication situation as equal groups and as a repeated addition number sentence.",
+        "minimum_width": "Make equal groups for a multiplication situation (e.g. 4 trays of 6); count by repeated addition; write the addition sentence.",
+        "typical_width": "Represent multiplication situations as equal groups, skip counting and repeated addition; write number sentences; use materials or diagrams to support calculation.",
+        "wider": [
+          "Connect skip counting to repeated addition: e.g. 3, 6, 9, 12 is the same as 3+3+3+3; record both and explain the relationship",
+          "Find the total in equal-group problems from everyday contexts (wheels on cars, windows in carriages) by skip counting and repeated addition"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 arrays require students to interpret rows as equal groups and columns as equal groups. Students who cannot form or count equal groups cannot name arrays or use them to find totals — the array concept is built directly on the equal-groups foundation.",
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Makes equal groups for a given multiplication situation and counts the total",
+          "Writes a repeated addition sentence that matches the situation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Arrays",
+        "progression_checkpoint": "Students can make and name arrays for multiplication situations and use them to find totals, including by partitioning the array.",
+        "minimum_width": "Make an array for a given multiplication (e.g. 3×4); name it ('3 fours'); find the total by counting rows or skip counting.",
+        "typical_width": "Make, name and interpret arrays for a range of multiplications; use bar models; demonstrate that different arrays can represent the same product (e.g. '3 fours' = '4 threes'); partition an array to find totals using known facts.",
+        "wider": [
+          "Make different arrays for the same total (e.g. all arrays for 12); name each and connect to multiplication facts; discuss which arrangement is easiest to count",
+          "Partition a larger array using subitising and known facts: e.g. 3×5 array seen as 2 fives (10) + one more five (5)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The commutative property of multiplication (3 fours = 4 threes) is a key conceptual hinge that students often miss when working with arrays. Seeing different arrays that produce the same product, and naming them both ways, makes commutativity visible.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Arrays are foundational for later multiplicative reasoning. The connections available here — commutativity, array partitioning, links to area — are genuinely rich. Advancing students can use array structures to derive unknown facts from known ones.",
+        "success_criteria": [
+          "Makes an array for a given multiplication and names it correctly (e.g. '3 fours')",
+          "Uses an array to find the total by skip counting rows or columns",
+          "Shows that '3 fours' and '4 threes' give the same total using materials"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Division as sharing and grouping",
+        "progression_checkpoint": "Students can solve division problems by sharing into equal groups (partition) and by making groups of a given size (quotition), and explain the difference.",
+        "minimum_width": "Solve one partitive division problem (sharing into equal groups) and one quotitive problem (making groups of a given size); find the answer using materials.",
+        "typical_width": "Solve a range of partitive and quotitive division problems using materials, diagrams and skip counting; use a Think Board to show the situation, operation and answer; interpret whether the answer refers to the number of groups or the size of each group.",
+        "wider": [
+          "Compare partitive and quotitive division for the same numbers: e.g. 12÷3 as 'share 12 into 3 groups' vs '12 into groups of 3' — discuss what the answer means in each case",
+          "Explore what happens when sharing doesn't divide evenly; describe the remainder in terms of the situation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The distinction between partitive and quotitive division is a known conceptual difficulty — students often only recognise one structure (usually sharing). Working across both problem types makes the full concept of division legible."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Solves a sharing (partitive) division problem using materials and states the answer",
+          "Solves a grouping (quotitive) division problem and explains whether the answer is the number of groups or the group size",
+          "Distinguishes between the two division structures when presented with a problem"
+        ]
+      }
+    ]
+  }
+}

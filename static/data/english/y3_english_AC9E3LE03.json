@@ -1,0 +1,70 @@
+{
+  "year_level": "3",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E3LE03",
+    "title": "Language, setting and mood",
+    "description": "discuss how an author uses language and illustrations to portray characters and settings and create mood",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students discuss how language presents characters and settings differently across texts (AC9E2LE03). They have not yet examined how language and illustrations together create mood — the atmosphere or feeling a text establishes.",
+    "progression_endpoint": "Students discuss how authors use language and illustrations to portray characters and settings and create mood.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Language portrayals of character and setting",
+        "progression_checkpoint": "Students can identify descriptive language that creates character and setting, and discuss what the language choices reveal about traits, relationships and place.",
+        "minimum_width": "Identify at least two descriptive language choices that portray a character or setting, and explain what each reveals.",
+        "typical_width": "Identify and discuss how descriptive language creates setting, how it portrays character traits and actions, and how characters' speech and actions reveal personality — connecting language choices to their effect on the reader.",
+        "wider": [
+          "Compare how the same character is described at different points in the story and discuss how the language changes as the character changes",
+          "Find language choices that portray setting in a First Nations Australian text and discuss how the relationship with Country/Place is constructed through language differently from other settings"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify and interpret descriptive language choices at N1 lack the analytical vocabulary needed to discuss how language and illustration work together to create mood at N2.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students need to encounter descriptive language choices across multiple text types — narrative, picture books, poetry — before the concept of language as a deliberate constructive choice becomes stable. A single exemplar risks anchoring the concept too narrowly.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student identifies specific language choices (not just general description) that portray a character or setting",
+          "Student discusses what the language reveals — trait, relationship, place quality — not just what it describes"
+        ],
+        "related_standards": ["AC9E3LA02", "AC9E3LA07", "AC9E3LE04"]
+      },
+      {
+        "id": 2,
+        "label": "Creating mood through language and illustration",
+        "progression_checkpoint": "Students can identify mood in a text and discuss how specific language choices and illustrations work together to create it.",
+        "minimum_width": "Identify the mood of a text or a section and explain at least one language or illustration choice that creates that mood.",
+        "typical_width": "Discuss how descriptive language creates setting and influences mood; identify how illustrations portray mood alongside or beyond what the words say; discuss how language and illustration work together to create atmosphere.",
+        "wider": [
+          "Compare the mood created at different points in the same story and discuss how the author shifts mood through language and illustration choices",
+          "Find a text where the illustration creates a different or ironic mood from the written language, and discuss the effect of that contrast"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often identify mood as a feeling the character has, rather than an atmosphere the whole text creates for the reader. Multiple examples — across different genres, with and without illustrations — help students distinguish between character emotion and textual mood.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Mood analysis through combined language and illustration is rich and directly accessible for Y3 through picture books and illustrated texts. The interplay of verbal and visual mood-making is a genuine conceptual extension — understanding that mood can be created through both modes simultaneously.",
+        "success_criteria": [
+          "Student names the mood created in a text (not just the character's emotion)",
+          "Student identifies at least one specific language or illustration choice that creates that mood and explains how"
+        ],
+        "related_standards": ["AC9E3LA09", "AC9E3LE04", "AC9E3LY03"]
+      }
+    ]
+  }
+}

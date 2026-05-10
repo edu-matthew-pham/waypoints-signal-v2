@@ -1,0 +1,82 @@
+{
+  "year_level": "10",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC10S05",
+    "title": "Create evidence-based civic arguments",
+    "description": "create descriptions, explanations and arguments using civics and citizenship knowledge, concepts and terms that incorporate evidence",
+    "strand": "Civics Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have created descriptions, explanations and arguments using civics and citizenship knowledge, concepts and terms at Year 9 (AC9HC9S05). They can construct basic evidence-based arguments.",
+    "progression_endpoint": "Students create well-structured descriptions, explanations and arguments that use civics and citizenship knowledge, concepts and terminology, with evidence integrated to support claims and conclusions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Using civics knowledge and terminology accurately",
+        "progression_checkpoint": "Students can use civics and citizenship concepts and terms accurately in written or spoken communication about political, legal or civic issues.",
+        "minimum_width": "Use at least five civics and citizenship terms accurately in a description or explanation of a political, legal or civic issue.",
+        "typical_width": "Use terms and concepts such as 'conventions', 'international law', 'cohesive society', 'global citizen', 'sovereignty', 'ratification', and other relevant civics terminology accurately and appropriately in descriptions and explanations.",
+        "wider": [
+          "Analyse how the same civics term (e.g. 'sovereignty', 'democracy') is used differently in different contexts or by different civic actors, and evaluate what this reveals about the contested nature of civic concepts",
+          "Build a personal civics glossary across the unit, tracking how understanding of key terms deepens",
+          "Investigate how civic language shapes the way issues are framed in public debate (e.g. 'asylum seeker' vs 'refugee' vs 'illegal immigrant')"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who misuse key civics terms produce arguments that are structurally unclear or factually inaccurate — argument quality in subsequent nodes depends on accurate conceptual command. A well-argued position built on a misunderstood concept fails at the foundation.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accuracy with civic terminology requires practice and correction. Students who use terms loosely or interchangeably need repeated low-stakes application opportunities before using them in extended argument construction.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The contested language direction (asylum seeker vs refugee) gives students a richer understanding of how terminology is never neutral — this is more than vocabulary practice, it is civic literacy.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Examining how civic language frames issues (e.g. 'asylum seeker' vs 'refugee') is substantively different from vocabulary accuracy — it connects terminology to power and political framing, building a critical literacy that is qualitatively richer.",
+        "success_criteria": [
+          "Uses at least five civics and citizenship terms accurately in context",
+          "Demonstrates understanding of terms through appropriate use rather than just definition",
+          "Avoids common misuse patterns (e.g. conflating 'law' with 'policy', 'convention' with 'custom')"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Constructing an evidence-based argument",
+        "progression_checkpoint": "Students can construct a structured argument about a civics and citizenship issue that incorporates evidence, draws conclusions, and uses civics knowledge and terminology throughout.",
+        "minimum_width": "Construct a structured argument about a civics issue that includes a clear claim, at least two pieces of supporting evidence, and a conclusion.",
+        "typical_width": "Develop an evidence-based argument about a civics and citizenship issue — such as Australia's role in Asia-Pacific security, or trading relationships with nations with human rights issues — that draws on relevant knowledge, uses civics concepts and terms accurately, and draws conclusions about future impacts.",
+        "wider": [
+          "Develop an evidence-based argument that acknowledges and responds to the strongest counter-argument, demonstrating understanding of competing civic perspectives",
+          "Construct an argument about a live Australian civic debate (e.g. the Uluru Statement, Australia Day date, treaty with First Nations Australians) that draws on multiple sources and takes a defensible position",
+          "Write for a specific audience and purpose — e.g. a submission to a parliamentary inquiry, a letter to a minister, a public opinion piece — evaluating how the argument should be adapted for the context"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Argument construction requires students to distinguish claim from evidence, and evidence from assertion. Scaffold the structural logic of argument explicitly — model how evidence connects to claims rather than sitting beside them."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Writing for a specific audience and purpose (parliamentary submission, ministerial letter) gives students a real-world context that sharpens argument construction — purpose shapes what counts as relevant evidence.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The audience/purpose direction transforms argument construction from a generic academic exercise into a civic act — students practising submission or opinion-piece writing are engaging in the actual forms through which citizens participate in civic debate.",
+        "success_criteria": [
+          "Constructs an argument with a clear claim supported by at least two pieces of evidence",
+          "Uses civics concepts and terminology accurately throughout",
+          "Draws a conclusion that follows from the evidence presented"
+        ],
+        "related_standards": ["AC9HC10S01", "AC9HC10S03", "AC9HC10S04"]
+      }
+    ]
+  }
+}

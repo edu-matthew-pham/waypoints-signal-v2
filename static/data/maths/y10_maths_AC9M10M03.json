@@ -1,0 +1,107 @@
+{
+  "year_level": "10",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M10M03",
+    "title": "Pythagoras and trigonometry in practical contexts",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "solve practical problems applying Pythagoras' theorem and trigonometry of right-angled triangles, including problems involving direction and angles of elevation and depression",
+    "prior_knowledge": "Students can recognise sine, cosine and tangent as constant ratios for a given angle using similarity (AC9M9SP01). They have not yet applied Pythagoras' theorem and trigonometry to multi-step practical problems involving bearings, elevation and depression, or decomposition of 3D problems into 2D.",
+    "progression_endpoint": "Students solve practical multi-step problems applying Pythagoras' theorem and trigonometry of right-angled triangles, including problems involving direction, bearings, and angles of elevation and depression.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Angles of elevation and depression",
+        "progression_checkpoint": "Students can identify angles of elevation and depression in a diagram or described situation and set up the correct right-angled triangle for calculation.",
+        "minimum_width": "Identify the angle of elevation or depression in a diagram; label the relevant sides (opposite, adjacent, hypotenuse) relative to the angle; select and apply the correct trigonometric ratio.",
+        "typical_width": "Solve problems involving angles of elevation and depression across multiple contexts (building heights, cliff distances, aircraft angles); draw and label diagrams from verbal descriptions; apply both sin, cos and tan as appropriate; use a clinometer context to connect measurement to calculation.",
+        "wider": [
+          "Investigate how clinometers are used in practical surveying and apply the technique to measure a building or tree height, comparing the measured angle to the calculated result",
+          "Explore how elevation and depression problems arise in navigation contexts and connect to angle of inclination in road design or ramp accessibility standards"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently confuse elevation and depression angles, especially when the observer is at height rather than ground level. Multiple problem setups \u2014 observer below, observer above, horizontal reference varying \u2014 stabilise the concept.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly identifies and labels the angle of elevation or depression and the relevant sides in a diagram",
+          "Student selects and applies the correct trigonometric ratio to solve for an unknown side or angle"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot correctly set up diagrams for elevation/depression problems cannot decompose 3D problems in N3 \u2014 the 2D triangle extraction step in N3 requires confident diagram-drawing from N1."
+      },
+      {
+        "id": 2,
+        "label": "Bearings and direction problems",
+        "progression_checkpoint": "Students can interpret compass bearings and use trigonometry to solve navigation problems involving direction and distance.",
+        "minimum_width": "Interpret a three-figure compass bearing; draw a right-angled triangle from a described bearing problem; solve for a distance or angle.",
+        "typical_width": "Solve navigation problems using bearings including multi-leg journeys; decompose bearings problems into right-angled triangle components; calculate final bearing and distance from a multi-step trip; apply both Pythagoras' theorem and trigonometric ratios as needed.",
+        "wider": [
+          "Explore navigation techniques used by First Nations Australians \u2014 including wayfinding using stars, landforms and ecological markers \u2014 and investigate connections between these spatial reasoning systems and trigonometric principles",
+          "Investigate how bearings problems arise in orienteering course design and plan a multi-leg course specifying bearing and distance for each leg"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Converting bearing descriptions to labelled right-angled triangles requires a systematic process that students find non-obvious. The translation from compass direction to triangle orientation needs explicit scaffolding.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations navigation context provides rich engagement with spatial reasoning systems that operate on the same geometric principles but from a completely different cultural foundation \u2014 offering genuine depth for advancing students that goes beyond technique.",
+        "success_criteria": [
+          "Student correctly translates a described bearing problem into a labelled right-angled triangle diagram",
+          "Student solves for the required distance or angle using appropriate trigonometric ratios"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Decomposing 3D problems into 2D",
+        "progression_checkpoint": "Students can identify a right-angled triangle embedded in a 3D situation, extract the relevant 2D problem, and solve it using Pythagoras' theorem or trigonometry.",
+        "minimum_width": "Identify a right-angled triangle within a described 3D situation (e.g. a diagonal of a rectangular box, the angle of a ramp); solve for the required measurement.",
+        "typical_width": "Decompose at least two different types of 3D problems into 2D right-angled triangle sub-problems; apply Pythagoras' theorem and trigonometry within each 2D sub-problem; combine results to answer the 3D question; use dynamic geometric software to visualise the decomposition where helpful.",
+        "wider": [
+          "Investigate how autonomous vehicles use Pythagoras' theorem and trigonometry to calculate distance and navigate 3D spaces, including implications of sensor measurement accuracy",
+          "Apply trigonometric decomposition to a design problem (e.g. finding the angle a roof truss makes with a horizontal beam given the pitch and span) connecting measurement to construction contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The key difficulty in 3D problems is identifying which 2D triangle to extract \u2014 this is not obvious and varies with the problem type. Multiple 3D problem types (box diagonal, ramp angle, building height from distance) build the spatial parsing skill.",
+            "flags": [
+              "width_opportunity"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "3D decomposition integrates elevation/depression (node 1), triangle identification and Pythagoras into coordinated 3D spatial reasoning. It is the capstone problem type where all elements operate together."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "3D problem decomposition is genuinely rich \u2014 advancing students can tackle multi-step problems requiring two or three successive triangle extractions (e.g. crime scene reconstruction, surveying across uneven terrain) at full year-band difficulty.",
+        "success_criteria": [
+          "Student identifies the relevant right-angled triangle within a 3D situation and draws a clear 2D diagram",
+          "Student solves the 2D problem correctly and states the answer in context-appropriate terms"
+        ],
+        "related_standards": [
+          "AC9M10SP01"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "year_level": "9",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE9S04",
+    "title": "Evaluate Responses to Issues",
+    "description": "develop and evaluate a response to an economic and business issue, using cost-benefit analysis or criteria to decide on a course of action",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "From Y8 AC9HE8S04 (direct predecessor): develop a response to an economic and business issue, identifying potential costs and benefits. Students can develop a response with costs and benefits identified. Y9 adds two moves: (1) evaluating the response — not just developing it — and (2) using cost-benefit analysis or explicit criteria to decide on a course of action. The 'evaluate' and 'decide' moves are both new additions to the Y8 capability.",
+    "progression_endpoint": "Students develop and evaluate a response to an economic and business issue, using cost-benefit analysis or criteria to decide on a course of action.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Applying cost-benefit analysis to consumer and financial decisions",
+        "progression_checkpoint": "Students can apply cost-benefit analysis to consumer and financial decision-making, including estimating costs and considering ability to pay.",
+        "minimum_width": "Apply cost-benefit analysis to one consumer or financial decision — estimating monthly and annual costs and comparing them against identified benefits.",
+        "typical_width": "Apply strategies to mitigate risk in consumer and financial decision-making using cost-benefit analysis — applying the elaboration example (estimating monthly and annual costs of each option and considering ability to pay). For each option: estimate short-term and long-term costs; identify direct and indirect benefits; assess affordability (ability to pay without financial stress); and explain which option the analysis supports and why.",
+        "wider": [
+          "Apply cost-benefit analysis to a financial decision that affects multiple household members (e.g. taking on a mortgage vs continuing to rent) — identifying costs and benefits from each member's perspective and explaining how the decision is made when perspectives differ",
+          "Apply cost-benefit analysis to a business decision where some costs and benefits are quantifiable and others are not (e.g. reputational benefit, environmental cost) — explaining how non-quantifiable factors should be weighted",
+          "Compare how cost-benefit analysis would be conducted differently for a First Nations community enterprise versus a privately-owned business, given different goals and community obligations"
+        ],
+        "hinge": true,
+        "hinge_reason": "Cost-benefit analysis is the analytical method underpinning decision justification in this descriptor. Students who treat CBA as 'list good and bad things' rather than as a structured comparative analysis cannot produce the 'justify using criteria' outputs required in later nodes or in AC9HE9S05 arguments.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "CBA requires a structured protocol: identify options → estimate costs (short and long term) → identify benefits → assess affordability → compare and justify. Without this structure, students produce unstructured pros-and-cons lists rather than analysis that can be used to justify a decision.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Estimates costs (short-term and long-term) for at least two options in a decision",
+          "Identifies the benefits associated with each option",
+          "Compares options using the cost-benefit analysis and explains which option it supports"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Opportunity cost in business decision-making",
+        "progression_checkpoint": "Students can explain why businesses must consider opportunity cost when deciding on a course of action, using relevant examples.",
+        "minimum_width": "Explain opportunity cost in a business decision context — identifying what is foregone when a business chooses one course of action over another.",
+        "typical_width": "Examine why businesses must consider opportunity cost when deciding on a course of action — applying the elaboration example (an Australian bank prioritising support for an existing business operating in local and global markets over a new or emerging business). Explain what opportunity cost means in this context: the value of the next-best alternative foregone. Apply this reasoning to at least two business decision contexts.",
+        "wider": [
+          "Examine a real Australian business decision where opportunity cost was significant — tracing what was chosen, what was foregone, and evaluating in retrospect whether the decision was well-made",
+          "Apply opportunity cost reasoning to a government resource-allocation decision (e.g. funding one regional infrastructure project over another) and explain why opportunity cost reasoning is more complex for governments than for businesses",
+          "Compare how opportunity cost is perceived differently by small businesses versus large corporations — explaining how scale, risk appetite and stakeholder pressures affect opportunity cost calculations"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Opportunity cost is frequently misunderstood as 'what you lost' rather than 'the value of the best alternative foregone'. Explicit reasoning through the decision tree — option chosen → options available → best alternative → value of that alternative → opportunity cost — prevents common misconceptions.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains what opportunity cost means in a business decision context",
+          "Identifies what is foregone in a specific business decision",
+          "Uses the term 'opportunity cost' correctly in explaining a business decision"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Developing response processes using CBA results",
+        "progression_checkpoint": "Students can develop processes that incorporate the results of a cost-benefit analysis to formulate a response to an economic or business issue.",
+        "minimum_width": "Use the results of a cost-benefit analysis to recommend one process a business could use to remain competitive or address an issue, explaining how the CBA supports the recommendation.",
+        "typical_width": "Develop processes that consider the results of a cost-benefit analysis — applying the elaboration example (processes used by businesses to remain competitive in the global market). Show how CBA outputs (which option has higher net benefit) translate into actionable processes: what steps the business should take, in what sequence, and why. The process should be grounded in the CBA findings, not generic recommendations.",
+        "wider": [
+          "Develop competing response processes for the same business issue from different stakeholder perspectives (e.g. management cost-minimisation process vs worker welfare process) and compare what each CBA prioritises",
+          "Apply the process-from-CBA approach to a consumer decision context — developing a decision-making process for managing a specific financial risk that incorporates CBA reasoning at each step",
+          "Develop a response process for a complex multi-stakeholder issue (e.g. a business deciding whether to exit a global market) where different actors' CBA results point in different directions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The connection between CBA findings and actionable processes is easier to see in multiple contexts. Business competitiveness, consumer financial risk, and government resource allocation all require this connection but the process steps look different in each context.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Developing competing response processes from different stakeholder perspectives — and reconciling them — builds the kind of multi-actor economic reasoning that is essential for evaluation tasks and for AC9HE9S05 argument construction.",
+        "success_criteria": [
+          "Develops at least one process that is grounded in a cost-benefit analysis",
+          "Explains how the CBA results support the proposed process",
+          "The process includes specific steps, not just a general recommendation"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Selecting and justifying a preferred response",
+        "progression_checkpoint": "Students can select a preferred response to an economic or business issue and justify it using criteria such as consumer and financial risk considerations.",
+        "minimum_width": "Select one response option and justify it using at least one named criterion (e.g. consumer risk, financial cost, feasibility).",
+        "typical_width": "Select and justify a preferred response using criteria — applying the elaboration example (criteria such as consideration of consumer and financial risk). For the justification: name the criteria used; explain why these criteria are appropriate for this issue; apply each criterion to the available options; and explain why the preferred response performs better against the criteria than the alternatives. The justification should be explicit about the criteria-to-decision reasoning.",
+        "wider": [
+          "Evaluate two competing responses to the same issue using different criteria sets — explaining how the choice of criteria affects which response is preferred, and discussing what this reveals about whose interests different criteria serve",
+          "Apply multi-criteria evaluation to a policy issue (e.g. a trade agreement or consumer protection regulation) from both business and consumer perspectives, explaining where the preferred responses diverge and why",
+          "Justify a preferred response to a First Nations economic issue using criteria that include community wellbeing, cultural continuity and sovereignty alongside conventional economic criteria — explaining how this changes the justification"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates CBA (Node 1), opportunity cost (Node 2), and process development (Node 3) into a complete evaluative response. Students should trace: issue → CBA of options → opportunity cost of choices → process recommendation → criteria-based justification of preferred response.",
+            "flags": []
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Criteria-based justification requires students to be explicit about the criteria, apply them systematically to each option, and explain the comparative verdict. Without this structure, justifications default to assertion ('I chose X because it is better').",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating how choice of criteria changes which response is preferred — and whose interests different criteria serve — builds sophisticated evaluative thinking about economic decision-making that connects to citizenship and civic reasoning.",
+        "success_criteria": [
+          "Names at least one criterion used to justify the preferred response",
+          "Applies the criterion explicitly to the available options",
+          "Explains why the preferred response performs better against the criterion than alternatives"
+        ]
+      }
+    ]
+  }
+}

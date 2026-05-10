@@ -1,0 +1,103 @@
+{
+  "description": "Width tiers for Year 4 Science \u2014 ACARA v9. Covers the four U-strand descriptors (Biological, Earth and Space, Physical and Chemical Sciences). H-strand and I-strand (3\u20134 band) are in science_y3_4_width_tiers.json.",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "4",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term \u2014 the fewest phenomena or contexts that still genuinely satisfy what the descriptor requires. Minimum is one phenomenon or context meeting the command term.",
+    "typical_width": "The full scope of the descriptor as ACARA intended it, grounded in the most common elaboration cases. What a class that has engaged with the descriptor fully would have done.",
+    "wider": "Enrichment directions that add phenomena, cultural contexts or task types \u2014 not harder versions of the same context. For U-strand: more phenomena or cultural knowledge systems. For I-strand: the same skill applied in additional or more varied task contexts. First Nations directions are included as default wider directions where elaborations indicate them.",
+    "elaborations": "ACARA elaborations are treated as source data identifying the intended range of phenomena and contexts, not as a required checklist. Typical width is grounded in the most common elaboration cases; wider may infer beyond elaborations where clearly within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S4U01": {
+      "strand": "Biological Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify producers, consumers and decomposers in one named habitat; construct a simple food chain (3\u20134 links) for that habitat using correct arrow notation.",
+      "typical_width": "Explain the roles of producers, consumers and decomposers in a habitat \u2014 including how each group obtains energy and why decomposers are important; construct food chains for two or more habitats; compare the structure of chains across habitats; describe what happens to a food chain when one organism is removed.",
+      "wider": [
+        "Investigate the impact of introduced predators (e.g. foxes, feral cats) on native species food chains in Australia, explaining cascading effects across multiple chain links",
+        "Examine how First Nations Australians understand themselves as part of ecological relationships in Country, and compare this with the producer-consumer-decomposer framework",
+        "Research how ecologists use food chain data to develop explanations for population decline of native species and to design management strategies",
+        "Compare food chains across markedly different habitats (arid, aquatic, rainforest) and explain what determines the length and structure of a chain"
+      ],
+      "elaborations": [
+        "describing how animals, including humans, obtain their food from plants and other animals",
+        "observing living things in a local habitat and categorising them as producers, consumers or decomposers",
+        "researching the different types of decomposers and their importance within a habitat",
+        "representing feeding relationships of producers and consumers as a food chain and comparing food chains across different habitats",
+        "recognising how First Nations Australians perceive themselves as being an integral part of the environment",
+        "investigating the impact of introduced predators such as foxes on small mammal species in Australia",
+        "researching how the removal of a food source from within a habitat, such as through an insect or rodent infestation, affected other living things within that habitat"
+      ]
+    },
+    "AC9S4U02": {
+      "strand": "Earth and Space Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least three sources of water in the environment; describe evaporation and condensation using everyday examples; name precipitation as the process by which water falls from clouds.",
+      "typical_width": "Describe the key processes of the water cycle \u2014 evaporation, condensation and precipitation \u2014 and trace the movement of water through sky, landscape and ocean; explain that solar energy drives the cycle; represent the complete cycle in a labelled diagram or model; identify local water sources and explain how they change over time.",
+      "wider": [
+        "Explore how First Nations Australians' understanding of evaporation and landscape features is applied to conserve water and locate water sources in arid and semi-arid regions",
+        "Investigate how hydrologists use rainfall and water use data to explain seasonal river flow variation \u2014 connecting the abstract water cycle to real measurement and explanation",
+        "Examine how land use changes (deforestation, urbanisation, agriculture) affect the water cycle at local and regional scales",
+        "Investigate groundwater and aquifers as less visible but important water stores, and explore how human use affects groundwater availability"
+      ],
+      "elaborations": [
+        "identifying everyday examples of precipitation (rain or snow), evaporation (wet washing or paint drying) and condensation of water (water droplets on a cold water bottle)",
+        "identifying local water sources and exploring how they change over time, such as rain puddles that evaporate or a local creek that flows faster after rain",
+        "exploring where tap water comes from and predicting what happens to water that goes down the drain",
+        "exploring a game or simulation of the water cycle, identifying key processes and creating their own representation of the water cycle",
+        "recognising that clouds are tiny water droplets suspended in air, observing a 'cloud in a bottle' demonstrated by a teacher and discussing what conditions are needed for clouds to form and for rain or snow to fall",
+        "exploring First Nations Australians' connections with and valuing of water and water resource management",
+        "recognising First Nations Australians' knowledges and understandings of evaporation and how the effect of evaporation can be reduced to conserve water, such as by covering surfaces",
+        "considering why we are encouraged to save and recycle water, and actions people can take to reduce water consumption and waste"
+      ]
+    },
+    "AC9S4U03": {
+      "strand": "Physical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify friction, gravity and magnetism as named forces; describe the effect of each on the motion of an object; give one everyday example of each force type.",
+      "typical_width": "Explain how each of the three force types (friction, gravity, magnetism) is exerted by one object on another; describe positive and negative effects of friction; explain that gravity acts on all objects regardless of motion state; describe magnetic attraction and repulsion and identify which materials are magnetic; use force arrows to represent direction and relative magnitude of forces on an object.",
+      "wider": [
+        "Investigate how the force interactions in traditional First Nations Australians' children's instructive toys and games can be represented using force arrow diagrams",
+        "Research how friction principles are applied in shoe sole design and road safety engineering \u2014 examining trade-offs between materials and surface conditions",
+        "Explore how magnetic forces are used in practical applications: sorting metals in recycling, metal detection in food processing, compasses and navigation",
+        "Examine buoyancy as a force exerted by liquids on objects, exploring how it can counteract gravity to enable floating"
+      ],
+      "elaborations": [
+        "exploring the effect of magnets on other magnets and how magnetic forces can pull objects from a distance",
+        "exploring the positive and negative effects of friction on their everyday experiences, such as how friction causes objects to slow down and stop",
+        "recognising that gravity is the force that pulls all objects towards the centre of Earth and that gravitational force acts on an object regardless of whether it is moving or not moving",
+        "observing how the pushing force of a liquid enables an object to float",
+        "investigating the effect of forces on the movement of objects in traditional First Nations Australians' children's instructive toys and games",
+        "examining shoe sole design and identifying patterns in sole design and use related to friction",
+        "watching a video of astronauts walking on the moon or dropping objects on its surface, and discussing the force they are observing",
+        "exploring how force arrows can be used to represent the direction and magnitude of forces acting on an object"
+      ]
+    },
+    "AC9S4U04": {
+      "strand": "Chemical Sciences",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify examples of fibres, metals, glass and plastics; use property vocabulary to describe at least two materials; explain why one material is used for a specific purpose based on its properties.",
+      "typical_width": "Describe characteristic properties of fibres, metals, glass and plastics using appropriate vocabulary; compare materials systematically; explain how the properties of a material determine its suitability for a specific use; examine a multi-material object and explain the property rationale for each component material.",
+      "wider": [
+        "Investigate how First Nations Australians select natural materials for tools, clothing, shelter and instruments based on their properties, comparing with contemporary materials selection principles",
+        "Research how knowledge of plastic properties has influenced people's decisions about purchasing, use and disposal \u2014 examining the explanation-to-behaviour pathway",
+        "Investigate which materials in a chosen object can be recycled and research sustainable alternatives for materials with poor end-of-life outcomes",
+        "Compare natural and synthetic versions within a material class (e.g. wool vs nylon, natural rubber vs synthetic rubber) and examine how properties differ and why"
+      ],
+      "elaborations": [
+        "identifying and naming materials in the classroom, and grouping objects made of similar materials or combinations of materials",
+        "exploring vocabulary for describing properties; observing different fibres, metals, glass and plastics; and using appropriate terms to describe, compare and contrast their properties",
+        "investigating familiar objects, such as shoes, drink containers or backpacks, examining the combination of materials from which they are made and suggesting reasons for those combinations based on properties of materials",
+        "considering how First Nations Australians use materials for different purposes, such as tools, clothing and shelter, based on their properties",
+        "designing, building and testing an object or structure for a specific purpose, such as a tent, lunchbox or bird feeder",
+        "investigating which materials can be recycled and researching alternatives for materials such as single use plastics"
+      ]
+    }
+  }
+}

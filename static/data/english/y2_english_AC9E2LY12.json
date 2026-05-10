@@ -1,0 +1,68 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LY12",
+    "title": "Prefixes, suffixes and word families",
+    "description": "build morphemic word families using knowledge of prefixes and suffixes",
+    "strand": "Phonic and word knowledge",
+    "mode": "B",
+    "prior_knowledge": "Students use grammatical morphemes to create and recognise word families (AC9E1LY15). They have not yet systematically built word families using a range of named prefixes and suffixes.",
+    "progression_endpoint": "Students can build morphemic word families using knowledge of prefixes and suffixes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What prefixes and suffixes do",
+        "progression_checkpoint": "Students can explain that prefixes and suffixes change the meaning or grammatical function of a base word and give at least one example of each.",
+        "minimum_width": "Identify a prefix or suffix on a given word and explain what it adds to the base word (e.g. 'un-' changes meaning; '-ing' changes tense).",
+        "typical_width": "Identify prefixes and suffixes across a range of words, explain what each adds, and distinguish between meaning-changing prefixes (un-, re-) and grammatical suffixes (-ing, -ed, -er, -est).",
+        "wider": [
+          "Compare words with the same prefix or suffix across multiple examples and discuss what pattern of meaning the prefix/suffix creates",
+          "Identify prefixes and suffixes encountered in learning area vocabulary and discuss how knowing the affix helps with word meaning"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often think 'un-' or '-ing' are just part of the word, not added elements. Multiple examples across different base words — showing that the same prefix changes different base words in the same way — resolves the misconception that affixes are arbitrary. More base word examples, not more explanation of one, is productive.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding that prefixes and suffixes are separable, meaningful elements is conceptually prerequisite for Node 2 — students who see affixes as arbitrary word-parts cannot systematically build word families by adding or removing them.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify a prefix or suffix and name the base word.",
+          "Student can explain what the prefix or suffix adds to the base word's meaning or grammatical function."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Building word families",
+        "progression_checkpoint": "Students can build a word family from a base word by adding prefixes and suffixes, producing correctly spelled related words.",
+        "minimum_width": "Build at least three words in a family from a known base word using prefixes or suffixes (e.g. 'friend' → 'friendly', 'friendship', 'unfriendly').",
+        "typical_width": "Build word families from several base words, applying prefixes and suffixes correctly; use morphemic knowledge to write unknown words by analogy with known family members.",
+        "wider": [
+          "Use a known word family to write unknown words encountered during reading or writing across subject areas",
+          "Compare word families with the same base word built using different affixes (e.g. 'cover', 'uncover', 'covering', 'recover', 'discovery') and map the family structure"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Building word families requires accumulating examples — each new base word and its family members adds to the student's morphemic vocabulary. Schema for how prefixes and suffixes work only forms once a sufficient range of examples has been encountered. Breadth of base words is the productive investment.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Mapping complex word families — where multiple prefixes and suffixes apply to the same base — is genuinely rich for advancing students. It connects morphology to vocabulary development and spelling, and the 'discovery' family example shows how family trees can be complex and generative.",
+        "success_criteria": [
+          "Student correctly builds at least three words in a family from a known base word.",
+          "Student correctly spells the words in the family, including words formed by combining the base with both a prefix and a suffix."
+        ]
+      }
+    ]
+  }
+}

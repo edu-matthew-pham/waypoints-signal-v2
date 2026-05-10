@@ -1,0 +1,476 @@
+{
+  "description": "Width tiers for Mathematics Year 8 — ACARA v9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "band": "Year 8",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "phenomena_contexts"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest context that honestly satisfies the descriptor's command term. Every student in the class reaches this floor.",
+    "typical_width": "The full scope of the descriptor as ACARA intended — grounded in the most common elaboration cases. Reflects sound standard practice.",
+    "wider": "Enrichment directions that add new phenomena, contexts or applications — not harder versions of the same context. 2–4 discrete directions per descriptor."
+  },
+  "standards": {
+    "AC9M8N01": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Recognise that √2 and π are irrational; explain what makes a number irrational and locate it approximately on the real number line.",
+      "typical_width": "Distinguish rational from irrational numbers across a range of examples including square roots and π; use digital tools to explore decimal expansions; describe the real number system as including both rational and irrational numbers.",
+      "wider": [
+        "Investigate historical approximations to π across multiple cultures — Egyptian, Babylonian, Chinese, Indian, Greek — and evaluate the accuracy achieved by each.",
+        "Explore the golden ratio φ = (1 + √5)/2 in art and design — verify it is irrational and locate it on the real number line.",
+        "Investigate the connection between irrational numbers and Pythagoras' theorem — explore which hypotenuse lengths are irrational."
+      ],
+      "elaborations": [
+        "recognising that the real number system includes irrational numbers which can be approximately located on the real number line",
+        "using digital tools to systematically explore contexts or situations that use irrational numbers, such as finding the length of the hypotenuse in a right-angled triangle",
+        "investigating the golden ratio in art and design, and historical approximations to π in different societies",
+        "connecting the ratio between the circumference and diameter of any circle to the irrational value of π using circular objects and string or dynamic geometry software"
+      ]
+    },
+    "AC9M8N02": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Derive and state the product of powers rule from expanded form; apply the product and quotient rules to simplify expressions with the same base.",
+      "typical_width": "Establish all three exponent laws and the zero exponent from expanded form; apply individually and in combination to simplify numerical expressions; verify using digital tools.",
+      "wider": [
+        "Investigate why a⁰ = 1 using the quotient rule pattern — connect to the sequence of decreasing exponents.",
+        "Extend the pattern to negative exponents: what would a⁻¹ mean, following the sequence?",
+        "Apply exponent laws to scientific notation contexts: multiply and divide numbers expressed as powers of 10."
+      ],
+      "elaborations": [
+        "recognising the connection between exponent form and expanded form with the exponent laws of product of powers rule, quotient of powers rule, and power of a power rule",
+        "applying the exponent laws individually and in combination to simplify expressions",
+        "using digital tools to systematically explore the application of the exponent laws; observing that the bases need to be the same",
+        "using examples such as 3⁴/3⁴ = 1 and 3⁴⁻⁴ = 3⁰ to illustrate that for any non-zero natural number a, a⁰ = 1"
+      ]
+    },
+    "AC9M8N03": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Classify fractions as terminating or recurring by division; write recurring decimals using correct notation.",
+      "typical_width": "Identify terminating, recurring and non-terminating (irrational) decimals; predict whether a fraction terminates from the prime factorisation of its denominator; use digital tools to verify.",
+      "wider": [
+        "Investigate the length of the repeating cycle for unit fractions (1/7, 1/11, 1/13) and look for patterns connecting cycle length to divisibility.",
+        "Explore why only factors of 2 and 5 produce terminating decimals in base 10 — connect to the structure of our numeration system.",
+        "Investigate 0.999... = 1 using the recurring decimal as an algebraic argument."
+      ],
+      "elaborations": [
+        "identifying when a fraction has a terminating decimal expansion from the prime factorisation of its denominator",
+        "identifying terminating, recurring and non-terminating decimals and choosing their appropriate representations"
+      ]
+    },
+    "AC9M8N04": {
+      "strand": "number_concepts",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Apply sign rules for multiplication and division of integers including negative × negative; calculate results involving mixed negative rational numbers.",
+      "typical_width": "Establish sign rules from patterns; apply all four operations to integers and rational numbers including negative fractions; use commutative, associative and distributive properties to select efficient strategies.",
+      "wider": [
+        "Investigate why negative × negative = positive using a number line or debt/removal model as a conceptual justification.",
+        "Explore the pattern (−1)ⁿ for increasing n — connect to sign rules and predict for any integer exponent.",
+        "Apply efficient strategies to multi-step financial calculations involving positive and negative rational quantities."
+      ],
+      "elaborations": [
+        "using patterns to assist in establishing the rules for the multiplication and division of integers",
+        "applying and explaining efficient strategies such as using the commutative or associative property for regrouping, partitioning, place value, patterning",
+        "recognising the effect of sign in the multiplication of integers; for example, (−1)⁴ = 1 and (−1)⁵ = −1"
+      ]
+    },
+    "AC9M8N05": {
+      "strand": "number_modelling",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Model a percentage increase or decrease problem; formulate and solve a simple financial problem; interpret the solution in context.",
+      "typical_width": "Apply modelling to percentage increase/decrease (mark-ups, discounts, GST), personal income tax, and environmental/weather contexts with positive and negative quantities; review model appropriateness; communicate solutions.",
+      "wider": [
+        "Investigate successive percentage changes — why does a 20% increase followed by a 20% decrease not return to the original? Develop a general model.",
+        "Model personal income tax across multiple brackets — calculate effective rate vs marginal rate.",
+        "Model environmental contexts involving percentage change over extended periods — connect informally to exponential growth."
+      ],
+      "elaborations": [
+        "modelling situations involving weather and environmental contexts including temperature or sea depths by applying operations to positive and negative rational numbers",
+        "modelling situations that involve percentage increases or decreases and explaining why it is an increase or decrease, such as mark-ups, discounts, GST",
+        "modelling situations involving personal income tax, interpreting tax tables to determine income tax at various levels of income",
+        "modelling situations involving percentage increase or decrease such as market trends, effects on population, or effects on the environment over extended periods"
+      ]
+    },
+    "AC9M8A01": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Expand and simplify a linear expression with one set of brackets; factorise a linear expression by identifying the HCF.",
+      "typical_width": "Create, expand, factorise, rearrange and simplify linear expressions with multiple terms and negative coefficients; apply distributive, associative, commutative, identity and inverse properties explicitly; use algebra tiles or area models to verify.",
+      "wider": [
+        "Investigate the distributive property across subtraction — verify a(b − c) = ab − ac using substitution and area models.",
+        "Apply rearrangement to real formulas from science and everyday contexts: rearrange distance = speed × time for speed; area formulas for dimensions.",
+        "Explore common expansion errors (e.g. 3(x + 2) = 3x + 2) — explain why the error occurs and construct counterexamples."
+      ],
+      "elaborations": [
+        "rearranging and simplifying linear expressions involving variables with integer coefficients and constants; using manipulatives such as algebra tiles",
+        "demonstrating the relationship between factorising and expanding linear expressions using manipulatives, such as algebra tiles or area models",
+        "using the distributive, associative, commutative, identity and inverse properties to expand and factorise algebraic expressions using strategies such as the area model"
+      ]
+    },
+    "AC9M8A02": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Graph a linear relation y = mx + b from a table of values; solve a two-step linear equation with unknowns on both sides; verify by substitution.",
+      "typical_width": "Graph linear relations and inequalities on the Cartesian plane; solve linear equations requiring expansion; solve one-variable inequalities including sign reversal; represent solutions on a number line; verify graphically and algebraically.",
+      "wider": [
+        "Solve linear equations arising from geometry problems — find x given angle relationships or perimeter conditions.",
+        "Investigate equations with no solution or infinitely many solutions — represent graphically and explain what this means.",
+        "Explore compound inequalities (a < x < b) and represent solution sets on a number line."
+      ],
+      "elaborations": [
+        "recognising that in a table of values, if the first difference between consecutive values of the dependent variable is constant, then it is a linear relationship",
+        "graphing linear functions and relations including inequalities",
+        "completing a table of values, plotting the resulting points on the Cartesian plane and determining whether the relationship is linear",
+        "solving linear equations of the form ax + b = c and one-variable inequalities",
+        "solving linear equations such as 3x + 7 = 6x − 9, representing these graphically, and verifying solutions by substitution"
+      ]
+    },
+    "AC9M8A03": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Formulate a linear function for a practical context with a constant rate and fixed component; use it to answer a specific question; identify one limitation of the model.",
+      "typical_width": "Formulate and solve linear models for varied applied contexts (taxi fares, pay rates, motion); choose appropriate representation (table, graph, equation); interpret solutions; review model appropriateness including domain and linearity assumptions.",
+      "wider": [
+        "Compare two linear models on the same axes (e.g. two taxi companies) — find the break-even point algebraically and interpret in context.",
+        "Model patterns on Country/Place with linear functions — investigate Indigenous knowledge connections and use the model as a predictive tool.",
+        "Apply linear modelling to financial contexts comparing different pay structures (base + commission vs flat rate) — model, compare and advise."
+      ],
+      "elaborations": [
+        "modelling situations involving linear functions, including practical contexts such as taxi fares involving flag fall fees, motion in a straight line",
+        "modelling problems in practical situations and interpreting solutions within the context of the problem, including giving attention to all units of measurement",
+        "modelling financial problems involving pay rates, using a table of values to represent the pay amounts and hours worked using an hourly rate of pay",
+        "modelling patterns on Country/Place and exploring their connections and meaning to linear equations, using the model as a predictive tool"
+      ]
+    },
+    "AC9M8A04": {
+      "strand": "algebra",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Using graphing software, vary m in y = mx + b across positive, negative and zero values; describe the effect on the graph and state a general rule.",
+      "typical_width": "Systematically vary both m and b using digital tools; make and test conjectures about parallel lines, gradient, and intercept; generalise the effect of each parameter; investigate integer solutions to two-variable equations.",
+      "wider": [
+        "Investigate what value of m produces a line perpendicular to a given line — discover the relationship m₁ × m₂ = −1 informally.",
+        "Explore how linear functions are used in linear regression models in machine learning — describe what the gradient and intercept represent in this context.",
+        "Investigate integer solutions to 2x + 3y = 48 — use digital tools to find all solutions and represent on the Cartesian plane."
+      ],
+      "elaborations": [
+        "using graphing software to investigate the effect of systematically varying parameters of linear functions on the corresponding graphs, making and testing conjectures",
+        "using graphing software to systematically contrast the graphs of y = 2x, y = −2x, y = 2x and y = −2x",
+        "using digital tools to investigate integer solutions to equations such as 2x + 3y = 48",
+        "exploring how linear functions are used in linear regression models as a statistical technique in machine learning"
+      ]
+    },
+    "AC9M8M01": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Decompose a composite shape into two known shapes and calculate the total area; estimate the area of an irregular shape using a grid overlay.",
+      "typical_width": "Determine area and perimeter of composite shapes by composing or decomposing; apply to shapes requiring subtracted regions; use increasingly accurate measurement approximations for irregular shapes.",
+      "wider": [
+        "Apply area estimation to real-world irregular shapes: estimate the area of a land parcel or ecological survey region from a map or aerial image.",
+        "Investigate floor plan problems requiring area calculation for irregular rooms — apply to real building design contexts.",
+        "Explore how numerical integration methods formalise grid-based area estimation — informal preview of calculus concepts."
+      ],
+      "elaborations": [
+        "determining the area of composite shapes by composing or decomposing shapes",
+        "using arrays and rectangles to approximate the area of irregular shapes in situations such as a council needing to work out how much mosquito spray to use",
+        "determining the perimeter and area of irregular shapes by sums of increasingly accurate covering measurements, such as line segments and grids"
+      ]
+    },
+    "AC9M8M02": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate the volume of a rectangular prism and convert the result between cm³, mL and L.",
+      "typical_width": "Apply volume and capacity to practical problems including optimal packaging, production, and dimension-finding; select appropriate units; convert fluently between cm³, mL, L and m³.",
+      "wider": [
+        "Investigate optimal packaging: for a fixed volume, explore what dimensions minimise surface area for rectangular prisms.",
+        "Apply volume and capacity to a production context: given a required capacity and one fixed dimension, find the remaining dimensions.",
+        "Explore the relationship between volume units and capacity: demonstrate using 1000 unit cubes = 1 litre in a physical or digital model."
+      ],
+      "elaborations": [
+        "using models to demonstrate the number of cubic centimetres in a cubic metre and relating this to capacities of millilitres and litres",
+        "solving practical problems involving volume and capacity; for example, optimal packaging and production",
+        "choosing which measurements are useful to consider when solving practical problems in context",
+        "investigating, reasoning and finding solutions to measurement problems involving dimensions, rates, volume and capacity of objects"
+      ]
+    },
+    "AC9M8M03": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate the area of a circle given radius; find the radius given area; apply C = 2πr to one practical problem.",
+      "typical_width": "Apply A = πr² and C = 2πr to find any unknown (r, d, C, or A); solve composite shape problems including semicircles and sectors; apply to practical contexts with appropriate units.",
+      "wider": [
+        "Explore traditional weaving designs by First Nations Australians and investigate the significance and use of circles — calculate relevant areas and circumferences in context.",
+        "Investigate composite shapes combining circles with other polygons: stadia, athletic tracks, circular windows in rectangular frames.",
+        "Explore the connection A = ½ × C × r — explain this geometrically using the sector rearrangement method."
+      ],
+      "elaborations": [
+        "deducing that the area of a circle is between 2 radius squares and 4 radius squares, using 3 × radius² as a rough estimate",
+        "investigating the area of circles using a square grid or by rearranging a circle divided into smaller and smaller sectors to resemble a close approximation of a rectangle",
+        "applying the formulas for the area and circumference of a circle to solve practical problems",
+        "exploring traditional weaving designs by First Nations Australians and investigating the significance and use of circles"
+      ]
+    },
+    "AC9M8M04": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Convert a given time between two time zones using UTC offsets; handle day changes correctly.",
+      "typical_width": "Convert between multiple time zones; apply 12- and 24-hour conventions; solve scheduling and itinerary problems across at least two time zones including daylight saving considerations.",
+      "wider": [
+        "Plan an international travel itinerary across at least three time zones in Asia — calculate all local arrival and departure times.",
+        "Investigate the practical challenge of scheduling regular virtual meetings for a company with staff across Australian states and an international office.",
+        "Explore why the International Date Line creates calendar day differences and how travellers account for this."
+      ],
+      "elaborations": [
+        "using digital tools to investigate time zones around the world and convert from one zone to another, such as time in Perth compared to eastern states",
+        "recognising the challenges of planning regular virtual meeting times for a company that has both international staff and staff within different states of Australia",
+        "planning an international travel itinerary that covers destinations in different time zones across Asia"
+      ]
+    },
+    "AC9M8M05": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify and write a rate from a practical context; apply a given rate to solve a practical problem.",
+      "typical_width": "Recognise rates in varied real-world contexts (pay rates, cost per unit, recipe ratios, simple interest, average rates); apply rates to unit conversion and practical problem-solving including taxation and currency conversion.",
+      "wider": [
+        "Investigate First Nations Australians' land management practices involving rates — e.g. rate of fire spread under different environmental conditions.",
+        "Use taxation rate tables to calculate annual income tax — compare marginal and effective rates.",
+        "Apply currency conversion as a rate problem: plan a budget for overseas travel using current exchange rates."
+      ],
+      "elaborations": [
+        "identifying examples of rates in the real world, including constant rates, rate of pay, cost per kilogram, recipes, simple interest and average rates",
+        "applying rates to solve problems involving the conversion between different units of measure",
+        "applying rates to calculate solutions to problems in different contexts; for example, required run rates in cricket, dilution of concentrated chemicals",
+        "using taxation tables to calculate an individual's annual income tax",
+        "investigating the application of rates in First Nations Australians' land management practices, including the rate of fire spread under different environmental conditions"
+      ]
+    },
+    "AC9M8M06": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "State Pythagoras' theorem; find the hypotenuse and find a shorter side for given right-angled triangles; verify for a 3-4-5 triangle.",
+      "typical_width": "Apply Pythagoras' theorem to varied practical and geometric problems; classify triangles using side lengths; apply to distance between two points on the Cartesian plane; identify Pythagorean triples.",
+      "wider": [
+        "Investigate different proofs and demonstrations of Pythagoras' theorem from multiple cultures: Egypt, Mesopotamia, India, China, Greece — compare approaches.",
+        "Apply the theorem to 3D problems: find the diagonal of a rectangular prism using the theorem twice.",
+        "Investigate how Pythagoras' theorem determines distance between two points on a Cartesian plane — connect to applications in mapping and predictive text."
+      ],
+      "elaborations": [
+        "discussing and comparing different applications, demonstrations and proofs of Pythagoras' theorem, from Egypt and Mesopotamia, Greece, India and China",
+        "using Pythagoras' theorem to determine unknown lengths of sides in right-angled triangles and finding lengths in practical problems",
+        "recognising the relationship between the squares of lengths of sides for different types of triangles: right-angled, acute or obtuse",
+        "identifying Pythagorean triples, such as (3,4,5), (5,12,13), (7,24,25) and (8,15,17)",
+        "investigating how Pythagoras' theorem can be applied to determine the distance between two points in the plane"
+      ]
+    },
+    "AC9M8M07": {
+      "strand": "measurement",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Formulate and solve a practical problem using a ratio or rate model; state which model is appropriate and justify; interpret the solution in context.",
+      "typical_width": "Apply modelling to scales and plans, chemical mixing, currency conversion, income tax, and radiocarbon dating; justify model choice; review model appropriateness; communicate solutions.",
+      "wider": [
+        "Investigate radiocarbon dating as a ratio application — model the ratio of carbon-14 to carbon-12 isotopes to estimate the age of organic material.",
+        "Model the ratio applications in First Nations Australians' string and cordage making — investigate the ratio of fibre lengths and twisting rates involved.",
+        "Compare simple and refined models for the same situation (e.g. constant vs variable exchange rate) and evaluate which is more appropriate in different circumstances."
+      ],
+      "elaborations": [
+        "modelling and solving problems related to situations such as scales on maps and plans, the mixing of chemicals or ingredients, or calculating magnification",
+        "modelling problems involving converting money amounts using different exchange rates and applying them when planning and budgeting for overseas travel",
+        "modelling situations involving financial contexts; for example, income tax, using taxation rates on annual income",
+        "modelling situations involving the use of ratios in radiocarbon dating methods, including the ratio of carbon-14 to carbon-12 isotopes in organic material",
+        "modelling situations involving ratio and its application in the making of string and cordage by First Nations Australians"
+      ]
+    },
+    "AC9M8P01": {
+      "strand": "probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the complement of a given event; use P(A) + P(not A) = 1 to find an unknown probability in a practical context.",
+      "typical_width": "Apply the complementary relationship across varied practical contexts; recognise when finding the complement is the more efficient strategy; apply to simple 'at least one' problems.",
+      "wider": [
+        "Investigate how AI applications use complementary event probabilities for binary classification — e.g. spam vs not spam, fraud vs not fraud.",
+        "Explore P(at least one) = 1 − P(none) for simple cases — apply to problems where direct calculation requires listing many outcomes.",
+        "Investigate contexts where two events are both complementary and mutually exclusive — discuss what this implies about the sample space."
+      ],
+      "elaborations": [
+        "understanding that knowing the probability of an event allows the probability of its complement to be found",
+        "using the relationship that for a single event A, P(A) + P(not A) = 1",
+        "using the sum of probabilities to solve problems, such as the probability of starting a game by throwing a 5 or 6 on a dice",
+        "investigating how various applications of artificial intelligence use the probability of complementary events when assessing the likelihood of favourable outcomes"
+      ]
+    },
+    "AC9M8P02": {
+      "strand": "probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Represent all combinations for two events using one method (two-way table, tree diagram, or Venn diagram); calculate P(A and B) and P(A or B).",
+      "typical_width": "Represent two-event combinations using all three methods; calculate probabilities using and, or (inclusive/exclusive), and at least language; distinguish mutually exclusive events; apply to practical situations.",
+      "wider": [
+        "Explore First Nations Australian children's instructive games — e.g. Battendi from the Ngarrindjeri Peoples of Lake Murray — represent combinations and discuss fairness.",
+        "Investigate the addition rule P(A or B) = P(A) + P(B) − P(A and B) informally — verify using a two-way table.",
+        "Apply compound probability to real survey data: the probability a randomly selected student studies both maths and music, or either subject."
+      ],
+      "elaborations": [
+        "describing events using language of 'at least', exclusive 'or', inclusive 'or' and 'and'",
+        "using Venn diagrams or two-way tables to demonstrate the difference between mutually exclusive events and non-mutually exclusive events",
+        "exploring First Nations Australian children's instructive games; for example, Battendi from the Ngarrindjeri Peoples of Lake Murray and Lake Albert"
+      ]
+    },
+    "AC9M8P03": {
+      "strand": "probability",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Use a digital tool to simulate a compound event for at least 100 trials; record results and compare observed relative frequency to theoretical probability.",
+      "typical_width": "Simulate compound events using multiple digital tools; record outcomes systematically; compare observed relative frequencies to theoretical probabilities; describe results including whether events appear complementary.",
+      "wider": [
+        "Use generative AI to construct and run probability simulations — describe what the tool does and critically evaluate whether its outputs are trustworthy.",
+        "Investigate whether long-run simulations confirm that two events are complementary — use as an empirical check on theoretical calculations.",
+        "Explore how the number of trials affects convergence to theoretical probability — connect to the law of large numbers from AC9M7P02."
+      ],
+      "elaborations": [
+        "using digital tools, including generative artificial intelligence, to conduct probability simulations involving compound events",
+        "using a random number generator and digital tools, including generative artificial intelligence, to simulate rolling 2 dice and calculating the difference",
+        "using online simulation software to conduct probability simulations to determine in the long run if events are complementary"
+      ]
+    },
+    "AC9M8SP01": {
+      "strand": "space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "State the four triangle congruence conditions and identify which applies to a given pair; state the AA similarity condition and use it to find a missing side.",
+      "typical_width": "Apply all congruence (SSS, SAS, AAS, RHS) and similarity (AA, SAS, SSS) conditions; calculate scale factors; apply congruence and similarity to other shapes formed by transformations; explain why SSA is not a valid congruence condition.",
+      "wider": [
+        "Apply indirect measurement using similar triangles: measure the height of a building or tree using shadow lengths.",
+        "Apply similarity to map scale problems — connect mathematical similarity to ratio modelling from AC9M8M07.",
+        "Investigate: is every square similar to every other square? Is every rectangle? Justify using the conditions."
+      ],
+      "elaborations": [
+        "developing an understanding of what it means for shapes to be congruent or similar",
+        "using the enlargement transformation and digital tools to develop sets of similar shapes",
+        "investigating sufficient conditions to establish that 2 triangles are congruent",
+        "applying logical reasoning and tests for congruence and similarity to problems and proofs involving plane shapes",
+        "comparing angle and side measurements of shapes under transformation to answer questions such as 'What changes?' and 'What stays the same?'",
+        "establishing that 2 shapes are congruent if one lies exactly on top of the other after one or more transformations"
+      ]
+    },
+    "AC9M8SP02": {
+      "strand": "space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Use congruent triangles to establish one property of a quadrilateral (e.g. diagonals of a rectangle bisect each other); find an unknown angle using an established property.",
+      "typical_width": "Establish properties of squares, rectangles, parallelograms, rhombuses, trapeziums and kites using congruent triangles and angle properties; solve multi-step problems with full geometric reasoning.",
+      "wider": [
+        "Apply quadrilateral properties to construction designs: car jacks, scissor lifts, folding umbrellas — identify which property makes the design functional.",
+        "Establish properties of a kite using congruent triangles — prove which diagonal is the axis of symmetry.",
+        "Design a multi-step angle problem using quadrilateral properties — write the full solution with reasons."
+      ],
+      "elaborations": [
+        "establishing the properties of squares, rectangles, parallelograms, rhombuses, trapeziums and kites using geometric properties and proof",
+        "identifying properties of quadrilaterals related to side lengths, parallel sides, angles, diagonals and symmetry",
+        "applying the properties of triangles and quadrilaterals to construction designs such as car jacks, scissor lifts, folding umbrellas, toolboxes"
+      ]
+    },
+    "AC9M8SP03": {
+      "strand": "space",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Plot and read coordinates (x, y, z) in the first octant; describe the position of an object using latitude, longitude and altitude.",
+      "typical_width": "Describe positions in 3D using coordinate systems and real-world reference systems; compare 2D and 3D coordinate systems; use dynamic geometry software to construct shapes in 3D.",
+      "wider": [
+        "Investigate how 3D printers use a three-dimensional coordinate system to build objects layer by layer — describe the relationship between coordinate path and physical object.",
+        "Explore geospatial technologies used by First Nations Australian communities to describe position and transformation on Country.",
+        "Interpret 3D coordinate locations for objects in multi-storey car parks or games — connect abstract coordinates to physical navigation."
+      ],
+      "elaborations": [
+        "locating aircraft/drones using latitude, longitude and altitude as a three-dimensional coordinate system",
+        "constructing three-dimensional objects using 3D printers or designing software that uses a three-dimensional coordinate system",
+        "comparing and contrasting two-dimensional and three-dimensional coordinate systems",
+        "using dynamic geometry software to construct shapes and objects within the first octant of a three-dimensional coordinate system",
+        "interpreting three-dimensional coordinate locations for objects in multi-storey car parks; playing games based on three-dimensional coordinate systems",
+        "exploring position and transformation through geospatial technologies used by First Nations Australians' communities"
+      ]
+    },
+    "AC9M8SP04": {
+      "strand": "space",
+      "width_axis": "task_contexts",
+      "minimum_width": "Design a flowchart that correctly classifies triangles as congruent or not using at least two congruence conditions; trace a given algorithm with two test inputs.",
+      "typical_width": "Design and test algorithms for congruence and similarity classification covering all conditions; trace and evaluate given algorithms for correctness; describe how the algorithm works in plain language.",
+      "wider": [
+        "Extend the algorithm to classify quadrilaterals as congruent or similar — identify what additional conditions are needed.",
+        "Implement a classification algorithm in a simple programming language — test with generated sets of triangle measurements.",
+        "Investigate the minimum number of decision steps needed to distinguish all outcomes (congruent by SSS, SAS, AAS, RHS; similar; neither)."
+      ],
+      "elaborations": [
+        "listing the properties or criteria necessary to determine if shapes are similar or congruent",
+        "using the conditions for congruence of triangles and similarity of triangles to develop a sorting algorithm; for example, creating a flow chart",
+        "evaluating algorithms for accuracy in classifying and distinguishing between similar and congruent triangles"
+      ]
+    },
+    "AC9M8ST01": {
+      "strand": "statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Distinguish census from sampling; identify an appropriate collection technique for a given situation and justify the choice; identify one source of bias in a described data collection process.",
+      "typical_width": "Compare census, sampling, experiment and observation as techniques; evaluate practicalities and implications; explain how bias affects conclusions; suggest methods to reduce identified biases.",
+      "wider": [
+        "Investigate how decisions concerning sampling relate to training AI systems — explain why biased training data leads to biased AI outputs.",
+        "Explore voluntary response bias in online surveys — design a class experiment to demonstrate its effect.",
+        "Investigate a real case of biased data collection and its consequences — connect to ethical implications of data misuse."
+      ],
+      "elaborations": [
+        "identifying situations where data can be collected by census and those where a sample is appropriate",
+        "investigating the practicalities and implications of obtaining data through sampling, using a variety of investigative processes",
+        "discussing how observations, experiments and sampling methods can be impacted by bias",
+        "using digital tools such as simulations and digital measuring devices to observe, measure and record data",
+        "investigating how decisions concerning sampling relate to the training of artificial intelligence systems, recognising the need to mitigate any potential bias"
+      ]
+    },
+    "AC9M8ST02": {
+      "strand": "statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe simple random and systematic sampling; collect a sample using a specified method; display the distribution and report key features.",
+      "typical_width": "Compare simple random, systematic, stratified, quota and convenience sampling for reliability and bias; analyse distributions from primary and secondary sources; report on shape, centre and spread with commentary on sampling method.",
+      "wider": [
+        "Investigate primary and secondary data sources relating to reconciliation between First Nations Australians and non-Indigenous Australians — analyse sampling methods and evaluate representativeness.",
+        "Demonstrate how stratification improves representativeness when a population has distinct subgroups.",
+        "Investigate secondary data from ABS or similar sources — evaluate the sampling methodology used and how it affects confidence in findings."
+      ],
+      "elaborations": [
+        "investigating different methods of sampling used to collect data, considering the source and size of samples",
+        "comparing the sampling methods of simple random, systematic, stratified, quota, clustered or convenience, or judgement, and discussing the reliability of each",
+        "defining and distinguishing between probabilistic terms such as random, sample space, sample and sample distribution",
+        "investigating primary and secondary data sources relating to reconciliation between First Nations Australians and non-Indigenous Australians"
+      ]
+    },
+    "AC9M8ST03": {
+      "strand": "statistics",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Compare two samples from the same population and explain why the distributions differ; state that larger samples produce less variation.",
+      "typical_width": "Use digital simulation to compare distributions from multiple samples; describe variation in means, medians and proportions; demonstrate that increasing sample size reduces variation; apply to prediction contexts.",
+      "wider": [
+        "Investigate First Nations Ranger Groups' use of sampling to track biodiversity — explain why sampling variation affects conservation conclusions.",
+        "Explore how AI and machine learning systems require large training datasets to reduce model performance variation — connect to the statistical principle.",
+        "Investigate the effect of adding or removing outliers on measures of central tendency and spread across different sample sizes."
+      ],
+      "elaborations": [
+        "comparing the proportion of students in favour of a proposal between different random samples of 50 students from the same school",
+        "using digital tools to simulate repeated sampling of the same population, recording and comparing means, medians and proportions",
+        "using relative frequencies from historical data to predict proportions and the likely number of outcomes in situations such as weather forecasting",
+        "investigating the effect that adding or removing data from a data set has on measures of central tendency and spread",
+        "investigating First Nations Ranger Groups and other groups' use of sampling techniques to track biodiversity of species",
+        "exploring how the comparison of variations in distributions from the same population applies to data-driven decision-making"
+      ]
+    },
+    "AC9M8ST04": {
+      "strand": "statistics",
+      "width_axis": "task_contexts",
+      "minimum_width": "Plan a statistical investigation specifying the population, sampling method, and ethical consideration; collect a sample; make one inference and acknowledge one source of uncertainty.",
+      "typical_width": "Plan and conduct investigations using ethical and fair sampling methods; analyse distributions; make inferences about the population; report findings with explicit acknowledgement of uncertainty and connection to sample size.",
+      "wider": [
+        "Investigate progress in reconciliation between First Nations Australians and non-Indigenous Australians — evaluate ethical considerations in sampling and reporting for sensitive social topics.",
+        "Compare inferences drawn from two different sample sizes for the same population — discuss how sample size changes confidence.",
+        "Explore how statistical uncertainty is communicated in public health or environmental reporting — compare with how uncertainty is often omitted in media."
+      ],
+      "elaborations": [
+        "using data such as electricity consumption to draw conclusions about the impacts of events, such as pandemics, on households or businesses",
+        "identifying situations where the collection of data from a sample is necessary due to efficiency, cost or restricted time",
+        "exploring progress in reconciliation between First Nations Australians and non-Indigenous Australians, investigating and evaluating sampling techniques"
+      ]
+    }
+  }
+}

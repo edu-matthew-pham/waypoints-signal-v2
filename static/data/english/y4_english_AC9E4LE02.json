@@ -1,0 +1,93 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LE02",
+    "title": "Effects of text structure",
+    "description": "describe the effects of text structures and language features when responding to and sharing opinions about texts",
+    "strand": "Literature",
+    "mode": "B",
+    "prior_knowledge": "Students discuss how literary devices enhance meaning and shape reader response (AC9E3LE04). They have not yet described the effects of text structures and language features in formal responses to texts.",
+    "progression_endpoint": "Students can describe how specific text structures and language features produce effects in a literary text, use metalanguage to support their responses, and share opinions about texts by connecting personal response to specific textual evidence.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying structural and language choices",
+        "progression_checkpoint": "Students can identify specific text structure choices and language features in a literary text and name them using metalanguage.",
+        "minimum_width": "Identify one structural feature and one language feature in a literary text and name each using appropriate metalanguage.",
+        "typical_width": "Identify a range of structural choices (chapter structure, flashback, circular ending, section breaks) and language features (repetition, figurative language, dialogue, tense choices) across literary texts, naming each with metalanguage.",
+        "wider": [
+          "Compare structural and language feature choices across two texts by different authors writing in the same genre, identifying what each author does differently",
+          "Examine how illustrators in picture books use visual structural choices (double-page spreads, white space, sequence) alongside author language choices to create effects"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students must have metalanguage to name features before they can describe effects in N2 — without named features, the 'feature to effect' structure in N2 has nothing to anchor to.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "The metalanguage repertoire for describing structural and language features is built through repeated exposure across varied texts. Students need to encounter features named in context to build a usable vocabulary for literary response.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can name a structural feature and a language feature in a text using metalanguage",
+          "Does not describe effects without naming the specific feature producing them"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Describing effects on reader response",
+        "progression_checkpoint": "Students can describe the effect that a specific structural or language choice has on a reader, linking the choice to the response it creates.",
+        "minimum_width": "Describe the effect of one identified structural or language feature on the reader, using the structure 'The author uses [feature] to [effect]'.",
+        "typical_width": "Describe the effects of a range of structural and language choices across a text, explaining how each choice shapes reader response — creating tension, building empathy, creating humour, establishing mood.",
+        "wider": [
+          "Compare the effects of the same language feature (e.g. repetition) used in two different texts and explain why the effect differs depending on context",
+          "Write a short alternative version of a passage using different structural or language choices and describe how the effect changes"
+        ],
+        "hinge": true,
+        "hinge_reason": "N3 requires students to support opinions with reference to specific features and their effects. Students who cannot complete the feature→effect link in N2 have nothing to cite in N3.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Connecting a specific textual feature to a specific reader effect requires a reasoning scaffold — students often describe their feelings without linking them to what in the text produced the feeling. The 'feature to effect' structure is the scaffold.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of effects achievable through different structural and language choices is genuinely rich, and the ability to articulate effect precisely is a high-value literacy capability.",
+        "success_criteria": [
+          "Can name a specific feature and describe the effect it has on the reader",
+          "Does not just describe personal feeling — connects feeling to a specific textual choice"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Sharing opinions using evidence",
+        "progression_checkpoint": "Students can share an opinion about a text and support it with reference to specific text structures and language features.",
+        "minimum_width": "State an opinion about a text and support it with at least one reference to a specific text structure or language feature.",
+        "typical_width": "Share a reasoned opinion about a literary text in a discussion or written response, supporting the opinion with multiple references to specific structural and language features and explaining how these features support the view.",
+        "wider": [
+          "Compare personal responses to a text with a peer's, identifying where opinions differ and examining whether different textual features are being prioritised",
+          "Respond to a First Nations Australian literary text using metalanguage to describe structural and language features, with attention to how cultural context shapes interpretive choices"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Sharing a supported opinion integrates identification (node 1) and effect description (node 2) into a coherent reader-response — the full capability the descriptor demands."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can state a clear opinion about a text and support it with at least one specific textual reference",
+          "Does not offer only plot summary — the response engages with how the text is constructed, not just what happens"
+        ]
+      }
+    ]
+  }
+}

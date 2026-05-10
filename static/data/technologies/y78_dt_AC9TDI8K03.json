@@ -1,0 +1,128 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8K03",
+    "title": "Representing text, image and audio",
+    "description": "Investigate how digital systems represent text, image and audio data using integers",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain how digital systems use numbers to represent all types of data (AC9TDI6K03) and how data is represented using binary through off and on states (AC9TDI6K04). They understand the general principle that all data is numbers, but have not yet investigated the specific encoding schemes for text, image, or audio.",
+    "progression_endpoint": "Students investigate how digital systems use integers to represent text (Unicode character values), images (RGB pixel values for bitmaps, geometry for SVG), and audio (amplitude samples at a given sampling rate and bit depth), and explain the encoding scheme for each data type.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The principle: all data as integers",
+        "progression_checkpoint": "Students can explain that digital systems represent all data types — text, images, audio — as integers, and that different encoding schemes map integers to different kinds of information",
+        "minimum_width": "State that text, images and audio are all stored as numbers in a digital system; give one example of how a number could represent non-numeric data",
+        "typical_width": "Explain that different data types use different encoding schemes — the same integer means different things depending on whether the system is interpreting it as a character, a colour value, or a sound amplitude",
+        "wider": [
+          "Limited width — the encoding-scheme principle does not vary meaningfully across contexts. Reasoning about why a universal scheme would not work goes further conceptually rather than broadening the application of the principle."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "If students don't grasp that integers are mapped to meaning through encoding schemes, the three data types (text, images, audio) appear as disconnected facts. Seeing the principle applied across all three types IS the width that resolves the misconception.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand that the same integer means different things in different encoding contexts will treat Nodes 2, 3 and 4 as three unrelated memorisation tasks rather than three instances of the same principle. Without this anchor, the three encoding schemes cannot be integrated at the standard level.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States that all data types are represented as integers in digital systems",
+          "Gives at least one example of how a number represents non-numeric information"
+        ],
+        "related_standards": [
+          "AC9TDI8K04"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Text as Unicode integers",
+        "progression_checkpoint": "Students can explain how digital systems represent text as a sequence of characters, each mapped to an integer using the Unicode character set",
+        "minimum_width": "Use a Unicode table to find the integer value for given characters; explain that each character (letter, punctuation, emoji) has a unique number",
+        "typical_width": "Encode a short word as a sequence of Unicode integers; explain why uppercase and lowercase letters have different values; identify that emoji are also Unicode characters",
+        "wider": [
+          "Investigate how Unicode handles diverse languages and writing systems — why ASCII was insufficient and what Unicode solved",
+          "Research how Unicode versioning adds new characters (e.g. emoji) and what that means for backward compatibility"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Applying the Unicode encoding scheme across diverse character types (letters, emoji, punctuation, non-Latin scripts) builds robust understanding of the mapping principle rather than a single memorised example. The language diversity direction also connects data representation to cultural and linguistic equity.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Unicode/language diversity direction is genuinely rich — students can explore how different writing systems (Arabic, Chinese, First Nations language scripts) required a universal standard that ASCII could not provide. This connects data representation to cultural and linguistic equity.",
+        "success_criteria": [
+          "Correctly looks up Unicode values for given characters",
+          "Explains that each character has a unique integer in the Unicode set",
+          "Encodes at least a short word as a sequence of integers"
+        ],
+        "related_standards": [
+          "AC9TDI8K04"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Images as pixel colour values",
+        "progression_checkpoint": "Students can explain how digital systems represent bitmap images as RGB colour values per pixel, and how vector graphics use geometry instead",
+        "minimum_width": "Explain that a bitmap image is a grid of pixels, each with RGB colour values from 0 to 255; identify the colour for a given RGB value",
+        "typical_width": "Calculate the number of integers needed to store a small image given its resolution and colour depth; compare bitmap (PNG/JPEG) and vector (SVG) representations for the same image",
+        "wider": [
+          "Explore how SVG's geometry-based representation enables scaling without quality loss — why this matters for responsive design",
+          "Limited width — investigating colour depth trade-offs (8-bit vs 24-bit) goes further technically rather than exploring image representation in a broader range of contexts."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that bitmap images store RGB values (0-255) for each pixel",
+          "Identifies the colour represented by a given RGB triplet",
+          "Describes at least one difference between bitmap and vector image representation"
+        ],
+        "related_standards": [
+          "AC9TDI8K04",
+          "AC9TDI8P01"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Audio as sampled amplitudes",
+        "progression_checkpoint": "Students can explain how digital systems represent audio by sampling the amplitude of a sound wave at regular intervals and storing each sample as an integer",
+        "minimum_width": "Explain that audio is captured by measuring sound amplitude at regular time intervals; identify that each measurement is stored as an integer",
+        "typical_width": "Explain how sampling rate (e.g. 44,100 Hz) and bit depth (e.g. 16-bit) determine audio quality; calculate the range of values for a given bit depth",
+        "wider": [
+          "Use a culturally meaningful context such as recording a Welcome to Country to trace how audio data is captured, converted to integers, stored and played back",
+          "Limited width — investigating sampling rate and bit depth trade-offs goes further technically rather than applying audio representation to more contexts."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node connects audio representation to both the principle node (Node 1 — all data as integers) and to K04 (binary representation of those integers). The Welcome to Country context integrates the encoding chain into a culturally meaningful whole.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Welcome to Country direction offers a culturally meaningful context where students can trace the full audio encoding chain — from sound wave to integer to playback — in a setting that acknowledges First Nations communities. This is a genuinely rich application of the concept beyond a technical exercise.",
+        "success_criteria": [
+          "Explains that audio is represented by sampling amplitude at regular intervals",
+          "States that each measurement is stored as an integer"
+        ],
+        "related_standards": [
+          "AC9TDI8K04"
+        ]
+      }
+    ]
+  }
+}

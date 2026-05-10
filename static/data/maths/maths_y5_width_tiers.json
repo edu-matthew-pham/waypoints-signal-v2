@@ -1,0 +1,438 @@
+{
+  "description": "Width tiers for Year 5 Mathematics \u2014 ACARA v9. One entry per descriptor. Three tiers: minimum_width (floor set by command term), typical_width (full descriptor scope from elaborations), wider (enrichment directions adding context, not difficulty).",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "band": "Year 5",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed",
+    "notes": "Number, Algebra, Measurement and Space standards use phenomena_contexts. Statistics and Probability standards use task_contexts. AC9M5N09, AC9M5N10, AC9M5ST03 are Mode B capability descriptors \u2014 task_contexts axis."
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor that satisfies the descriptor's command term. Every student must meet minimum before the class advances. Not easy \u2014 anchored to the verb.",
+    "typical_width": "The full scope of the descriptor as ACARA intended, grounded in the most common elaboration cases. What a class that has engaged with the descriptor fully would have done.",
+    "wider": "Enrichment directions that add phenomena or contexts \u2014 not harder versions of the same context. Each item is a discrete direction. First Nations directions included where elaborations indicate them."
+  },
+  "standards": {
+    "AC9M5N01": {
+      "standard_type": "N",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Represent and compare two numbers with 3 decimal places, identifying the place value of each digit; place them on a number line.",
+      "typical_width": "Interpret, compare and order sets of numbers with 3 or more decimal places including numbers greater than one, using place value charts and number lines; explain common ordering errors.",
+      "wider": [
+        "Apply decimal interpretation to measurement contexts requiring thousandths (scientific data, engineering tolerances)",
+        "Connect decimal notation to fraction equivalents beyond hundredths: 0.375 = 3/8",
+        "Investigate historical number systems that represent fractional parts differently"
+      ],
+      "elaborations": [
+        "making models of decimals including tenths, hundredths and thousandths by subdividing materials or grids, and explaining the multiplicative relationship between consecutive places; for example, thousandths are \n10\n10 times smaller than hundredths; writing numbers into a place value chart to compare and order them",
+        "renaming decimals to assist with mental computation; for example, when asked to solve \n0.6\n\u00f7\n10\n0.6\u00f710 they rename \n6\n6 tenths as \n60\n60 hundredths and say, \u201cif I divide \n60\n60 hundredths by \n10\n10, I get \n6\n6 hundredths\u201d and write \n0.6\n\u00f7\n10\n=\n0.06\n0.6\u00f710=0.06",
+        "using a number line or number track to represent and locate decimals with varying numbers of decimal places and numbers greater than one and justifying the placement; for example, \n2.335\n2.335 is halfway between \n2.33\n2.33 and \n2.34\n2.34; that is, \n2.33\n<\n2.335\n<\n2.34\n2.33<2.335<2.34 and \n5.283\n5.283 is between \n5.28\n5.28 and \n5.29\n5.29, but closer to \n5.28\n5.28",
+        "interpreting and comparing the digits in decimal measures; for example, the length or mass of animals or plants, such as a baby echidna weighing \n1.78\n1.78 kilograms and a platypus weighing \n1.708\n1.708 kilograms",
+        "interpreting plans or diagrams showing length measures as decimals, placing the numbers into a decimal place value chart to connect the digits to their value"
+      ]
+    },
+    "AC9M5N02": {
+      "standard_type": "N",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Find all factor pairs of a two-digit number; determine whether a given number is divisible by 2, 5 or 10 using a divisibility rule.",
+      "typical_width": "Express natural numbers as products of factors in multiple ways; apply divisibility rules for 2, 3, 4, 5, 6, 9 and 10; identify common factors and multiples; connect factors to rectangular arrays.",
+      "wider": [
+        "Investigate the Sieve of Eratosthenes to find primes using factors",
+        "Explore factor trees and repeated factoring to reach prime factors",
+        "Connect divisibility patterns to Aboriginal and Torres Strait Islander number and pattern traditions"
+      ],
+      "elaborations": [
+        "using a certain number of blocks to form different rectangles and using these to list all possible factors for that number; for example, \n12\n12 blocks can form the following rectangles: \n1\n\u00d7\n12\n,\n2\n\u00d7\n6\n1\u00d712,2\u00d76, and \n3\n\u00d7\n4\n3\u00d74",
+        "researching divisibility tests and explaining each rule using materials; for example, using base-\n10\n10 blocks to test if numbers are divisible by \n2\n,\n5\n2,5 and \n10\n10",
+        "using divisibility tests to determine if larger numbers are multiples of one-digit numbers; for example, testing if \n89\n89 \n472\n472 is divisible by \n3\n3 using \n8\n+\n9\n+\n4\n+\n7\n+\n2\n=\n30\n8+9+4+7+2=30 as \n30\n30 is divisible by \n3\n3 then \n89\n89 \n472\n472 is a multiple of \n3\n3",
+        "demonstrating and reasoning that all multiples can be formed by combining or regrouping; for example, multiples of \n7\n7 can be formed by combining a multiple of \n2\n2 with the corresponding multiple of \n5\n5; \n3\n\u00d7\n7\n=\n3\n\u00d7\n2\n+\n3\n\u00d7\n5\n3\u00d77=3\u00d72+3\u00d75, and \n4\n\u00d7\n7\n=\n4\n\u00d7\n2\n+\n4\n\u00d7\n5\n4\u00d77=4\u00d72+4\u00d75"
+      ]
+    },
+    "AC9M5N03": {
+      "standard_type": "N",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Compare two fractions with related denominators by converting to a common denominator; place both on a number line.",
+      "typical_width": "Compare and order sets of fractions including mixed numerals with same and related denominators; apply factor and multiple knowledge to determine conversion; represent on number lines.",
+      "wider": [
+        "Order fractions and mixed numerals arising from measurement and cooking contexts",
+        "Investigate how Aboriginal and Torres Strait Islander communities use proportional reasoning in cultural practices",
+        "Explore fractions with denominators that share a common factor but neither is a multiple of the other (preview of LCM)"
+      ],
+      "elaborations": [
+        "using pattern blocks to represent equivalent fractions; selecting one block or a combination of blocks to represent one whole, and making a design with shapes; recording the fractions to justify the total",
+        "creating a fraction wall from paper tape to model and compare a range of different fractions with related denominators; using the model to play fraction wall games",
+        "connecting a fraction wall model and a number line model of fractions to say how they are the same and how they are different; for example, explaining \n1\n4\n4\n1\n\t\u200b\n\n on a fraction wall represents the area of one-quarter of the whole while on the number line \n1\n4\n4\n1\n\t\u200b\n\n is identified as a point that is one-quarter of the distance between zero and one",
+        "using an understanding of factors and multiples as well as equivalence to recognise efficient methods for the location of fractions with related denominators on parallel number lines; for example, explaining on parallel number lines that \n2\n10\n10\n2\n\t\u200b\n\n is located at the same position on a parallel number line as \n1\n5\n5\n1\n\t\u200b\n\n because \n1\n5\n5\n1\n\t\u200b\n\n is equivalent to \n2\n10\n10\n2\n\t\u200b",
+        "converting between mixed numerals and improper fractions to assist with locating them on a number line"
+      ]
+    },
+    "AC9M5N04": {
+      "standard_type": "N",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Represent 50%, 25% and 10% using percentage, fraction and decimal notation; shade a 100-grid to show a given percentage.",
+      "typical_width": "Connect percentages (5%, 10%, 20%, 25%, 50%, 75%, 100%) to their fraction and decimal equivalents; use percentages to describe and compare parts in practical contexts including money.",
+      "wider": [
+        "Apply percentage\u2013fraction\u2013decimal connections to interpret statistical data displays",
+        "Investigate how percentages are used in First Nations land and resource management contexts",
+        "Extend to percentages beyond 100% and their meaning in growth contexts"
+      ],
+      "elaborations": [
+        "recognising applications of percentages used in everyday contexts; for example, the bar model used for charging devices indicating the percentage of power remaining; advertising in retail contexts relating to discounts or sales",
+        "creating a model by subdividing a whole; for example, using \n10\n10 x \n10\n10 grids to represent various percentage amounts and recognising complementary percentages, such as \n30\n30% and \n70\n70% combine to make \n100\n100%",
+        "creating a model by subdividing a collection of materials, such as blocks or money, to connect decimals and percentage equivalents of tenths and commonly used fractions \n1\n2\n2\n1\n\t\u200b\n\n, \n1\n4\n4\n1\n\t\u200b\n\n and \n3\n4\n4\n3\n\t\u200b\n\n; for example, one-tenth or \n0.1\n0.1 represents \n10\n10% and one half or \n0.5\n0.5 represents \n50\n50%; recognising that \n60\n60% is \n10\n10% more than \n50\n50%",
+        "using physical and virtual materials to represent the relationship between decimal notation and percentages; for example, \n0.3\n0.3 is \n3\n3 out of every \n10\n10, which is \n30\n30 out of every \n100\n100, which is \n30\n30%)"
+      ]
+    },
+    "AC9M5N05": {
+      "standard_type": "N",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Add two fractions with the same denominator; add two fractions with related denominators after converting one.",
+      "typical_width": "Solve addition and subtraction problems with same and related denominators; express results in simplest form or as mixed numerals; apply across a range of contexts including measurement.",
+      "wider": [
+        "Apply fraction addition/subtraction to practical problems: recipe scaling, construction measurements",
+        "Solve multi-step problems combining same and related denominators",
+        "Connect to First Nations contexts involving proportional sharing and combination"
+      ],
+      "elaborations": [
+        "using different ways to add and subtract fractional amounts by subdividing different models of measurement attributes; for example, adding half an hour and three-quarters of an hour using a clock face, adding a \n3\n4\n4\n3\n\t\u200b\n\n cup of flour and a \n1\n4\n4\n1\n\t\u200b\n\n cup of flour, subtracting \n3\n4\n4\n3\n\t\u200b\n\n of a metre from \n2\n1\n4\n2\n4\n1\n\t\u200b\n\n metres",
+        "representing and solving addition and subtraction problems involving fractions by using jumps on a number line, bar models or making diagrams of fractions as parts of shapes",
+        "using materials, diagrams, number lines or arrays to show and explain that fraction number sentences can be rewritten in equivalent forms without changing the quantity; for example, \n1\n2\n2\n1\n\t\u200b\n\n + \n1\n4\n4\n1\n\t\u200b\n\n is the same as \n2\n4\n4\n2\n\t\u200b\n\n + \n1\n4\n4\n1\n\t\u200b"
+      ]
+    },
+    "AC9M5N06": {
+      "standard_type": "N",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Multiply a 3-digit number by a 1-digit number using a written strategy; estimate the result and check reasonableness.",
+      "typical_width": "Multiply larger numbers by 1- and 2-digit numbers choosing efficient strategies (mental, written, area model); apply in practical contexts; verify using estimation and digital tools.",
+      "wider": [
+        "Compare multiple multiplication strategies (area model, lattice, standard algorithm) for efficiency",
+        "Apply in financial contexts: calculating costs, quantities, rates",
+        "Investigate historical multiplication algorithms from different cultures"
+      ],
+      "elaborations": [
+        "solving multiplication problems such as \n253\n\u00d7\n4\n253\u00d74 using a doubling strategy; for example, \n2\n\u00d7\n253\n=\n506\n2\u00d7253=506 and \n2\n\u00d7\n506\n=\n1012\n2\u00d7506=1012",
+        "solving multiplication problems like \n15\n\u00d7\n16\n15\u00d716 by thinking of factors of both numbers, \n15\n=\n3\n\u00d7\n5\n,\n16\n=\n2\n\u00d7\n8\n15=3\u00d75,16=2\u00d78; rearranging the factors to make the calculation easier, \n5\n\u00d7\n2\n=\n10\n,\n3\n\u00d7\n8\n=\n24\n5\u00d72=10,3\u00d78=24 and \n10\n\u00d7\n24\n=\n240\n10\u00d724=240",
+        "using an array to show place value partitioning to solve multiplication, such as \n324\n\u00d7\n8\n324\u00d78, thinking \n300\n\u00d7\n8\n=\n2400\n,\n20\n\u00d7\n8\n=\n160\n,\n4\n\u00d7\n8\n=\n32\n300\u00d78=2400,20\u00d78=160,4\u00d78=32 then adding the parts, \n2400\n+\n160\n+\n32\n=\n2592\n2400+160+32=2592 ; connecting the parts of the array to a standard written algorithm",
+        "using different strategies used to multiply numbers, explaining how they work and if they have any limitations; for example, discussing how the Japanese visual method for multiplication is not effective for multiplying larger numbers"
+      ]
+    },
+    "AC9M5N07": {
+      "standard_type": "N",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Divide a 2- or 3-digit number by a 1-digit number using a written strategy; interpret the remainder as a whole number in a given context.",
+      "typical_width": "Solve division problems choosing efficient strategies; interpret remainders as whole numbers, fractions or decimals according to context; use digital tools to verify.",
+      "wider": [
+        "Apply remainder interpretation to a range of practical contexts: packaging, sharing, rounding up/down",
+        "Investigate how different contexts require different remainder decisions (e.g. buses vs fabric vs money)",
+        "Connect division and remainder interpretation to First Nations contexts involving proportional sharing"
+      ],
+      "elaborations": [
+        "interpreting and solving everyday division problems such as, \u201cHow many buses are needed if there are \n436\n436 passengers, and each bus carries \n50\n50 people?\u201d, deciding whether to round up or down in order to accommodate the remainder and justifying choices",
+        "solving division problems mentally like \n72\n72 divided by \n9\n,\n72\n\u00f7\n9\n9,72\u00f79, by thinking, \u201chow many \n9\n9s make \n72\n72\u201d, ? \n\u00d7\n9\n=\n72\n\u00d79=72 or \u201cshare \n72\n72 equally \n9\n9 ways\u201d",
+        "using the fact that equivalent division calculations result if both numbers are divided by the same factor"
+      ]
+    },
+    "AC9M5N08": {
+      "standard_type": "N",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Use rounding to estimate the result of one calculation and compare to the computed answer; judge reasonableness.",
+      "typical_width": "Apply multiple estimation strategies (rounding, front-end, compensation) to check solutions across additive, multiplicative and financial contexts; identify unreasonable answers and diagnose likely errors.",
+      "wider": [
+        "Analyse real-world calculation errors in media or commercial contexts using estimation to identify the mistake",
+        "Investigate how First Nations knowledge systems use estimation and approximation in practical contexts",
+        "Design 'unreasonable answer' problems that require estimation to identify the error"
+      ],
+      "elaborations": [
+        "interpreting a series of contextual problems to decide whether an exact answer or an approximate calculation is appropriate; explaining their reasoning in relation to the context and the numbers involved",
+        "recognising the effect of rounding addition, subtraction, multiplication and division calculations, rounding both numbers up, both numbers down, and one number up and one number down; explaining which estimation is the best approximation and why",
+        "considering the type of rounding that is appropriate when estimating the amount of money required; for example, rounding up or rounding down when buying one item from a store using cash, compared to rounding up the cost of every item when buying groceries to estimate the total cost and not rounding when the financial transactions are digital"
+      ]
+    },
+    "AC9M5N09": {
+      "standard_type": "N",
+      "width_axis": "task_contexts",
+      "minimum_width": "Represent a practical problem using a diagram or equation; identify the operation required and calculate a solution; express the answer in context.",
+      "typical_width": "Model additive and multiplicative practical problems including financial contexts; formulate using representations; choose efficient strategies; interpret and communicate solutions.",
+      "wider": [
+        "Model multi-step financial problems: budgeting, saving towards a goal, comparing costs",
+        "Design and solve original practical problems for peers to model",
+        "Apply modelling to First Nations cultural contexts involving quantities and exchange"
+      ],
+      "elaborations": [
+        "modelling an everyday situation and determining which operations can be used to solve it using materials, diagrams, arrays and/or bar models to represent the problem; formulating the situation as a number sentence and justifying their choice of operation in relation to the situation",
+        "modelling a series of contextual problems, deciding whether an exact answer or an approximate calculation is appropriate; explaining their reasoning in relation to the context and the numbers involved",
+        "modelling financial situations such as creating financial plans; for example, creating a budget for a class fundraising event, using a spreadsheet to tabulate data and perform calculations",
+        "investigating how mathematical models involving combinations of operations can be used to represent songs, stories and/or dances of First Nations Australians"
+      ]
+    },
+    "AC9M5N10": {
+      "standard_type": "N",
+      "width_axis": "task_contexts",
+      "minimum_width": "Create an algorithm that tests divisibility by one divisor; trace the algorithm for at least three inputs; identify one pattern in the results.",
+      "typical_width": "Design and implement algorithms for factors, multiples and divisibility using digital tools; identify and describe patterns in output; refine algorithms based on tracing.",
+      "wider": [
+        "Implement the Sieve of Eratosthenes as a digital algorithm and investigate its output patterns",
+        "Create a factor-count algorithm and investigate which numbers have the most/fewest factors",
+        "Compare algorithm efficiency: how many steps does each approach take?"
+      ],
+      "elaborations": [
+        "creating algorithms that use multiplication and division facts to determine if a number is a multiple or factor of another number; for example, using a flow chart that determines whether numbers are factors or multiples of other numbers using branching, such as yes/no decisions",
+        "identifying lowest common multiples and highest common factors of pairs or triples of natural numbers; for example, the lowest common multiple of {\n6\n,\n9\n6,9} is \n18\n18, and the highest common factor is \n3\n3; the lowest common multiple of {\n3\n,\n4\n,\n5\n3,4,5} is \n60\n60 and the highest common factor is one",
+        "using the \u201cfill down\u201d function of a spreadsheet and a multiplication formula to generate a sequence of numbers that represent the multiples of any number you enter into the cell; describing and explaining the emerging patterns"
+      ]
+    },
+    "AC9M5A01": {
+      "standard_type": "A",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Write all four facts in a family for a given multiplication; use the inverse relationship to find a missing value in a division.",
+      "typical_width": "Generate fact families for a range of multiplication situations; apply inverse relationship to solve unknown-value problems including multi-digit calculations; use arrays and materials to demonstrate.",
+      "wider": [
+        "Extend fact families to larger numbers using inverse as a mental calculation strategy",
+        "Connect fact family structure to algebraic equations: a \u00d7 \u25a1 = c \u2192 \u25a1 = c \u00f7 a",
+        "Investigate how inverse operations appear in everyday contexts: unpacking, reversing, undoing"
+      ],
+      "elaborations": [
+        "using materials or diagrams to develop and explain division strategies, such as halving, using the inverse relationship to turn division into a multiplication",
+        "using arrays, multiplication tables, and physical and virtual materials to develop families of facts; for example, \n3\n\u00d7\n4\n=\n12\n3\u00d74=12, \n4\n\u00d7\n3\n=\n12\n4\u00d73=12, \n12\n\u00f7\n3\n=\n4\n12\u00f73=4 and \n12\n\u00f7\n4\n=\n3\n12\u00f74=3",
+        "demonstrating multiplicative partitioning using materials, diagrams or arrays and recording \n2\n2 multiplication and \n2\n2 division facts for each grouping; \n4\n\u00d7\n6\n=\n24\n4\u00d76=24, \n6\n\u00d7\n4\n=\n24\n6\u00d74=24, \n24\n\u00f7\n4\n=\n6\n24\u00f74=6 and \n24\n\u00f7\n6\n=\n4\n24\u00f76=4; explaining how each is different from and connected to groups in the materials, diagrams or arrays",
+        "using materials, diagrams or arrays to recognise and explain the inverse relationship between multiplication and division; for example, solving \n240\n\u00f7\n20\n=\n\u25a1\n240\u00f720=\u25a1 by thinking \n20\n\u00d7\n\u25a1\n=\n240\n20\u00d7\u25a1=240; using the inverse to make calculations easier; for example, solving \n17\n\u00d7\n\u25a1\n=\n221\n17\u00d7\u25a1=221 using division, \n\u25a1\n=\n221\n\u00f7\n17\n\u25a1=221\u00f717"
+      ]
+    },
+    "AC9M5A02": {
+      "standard_type": "A",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Determine whether a given multiplication equation is true or false; find one unknown value in a numerical equation using number properties.",
+      "typical_width": "Apply relational thinking and commutativity/associativity to find unknowns in a range of equation structures; demonstrate that multiplication is commutative and associative but division is not.",
+      "wider": [
+        "Investigate equations with unknowns on both sides: 4 \u00d7 \u25a1 = \u25a1 \u00d7 6",
+        "Apply distributive property: a \u00d7 (b + c) = a \u00d7 b + a \u00d7 c",
+        "Use equations to model balancing and equivalence in real contexts"
+      ],
+      "elaborations": [
+        "using knowledge of equivalent number sentences to form and find unknown values in numerical equations; for example, given that \n3\n\u00d7\n5\n=\n15\n3\u00d75=15 and \n30\n\u00f7\n2\n=\n15\n30\u00f72=15 then \n3\n\u00d7\n5\n=\n30\n\u00f7\n2\n3\u00d75=30\u00f72 therefore the solution to \n3\n\u00d7\n5\n=\n30\n\u00f7\n\u25a1\n3\u00d75=30\u00f7\u25a1 is \n2\n2",
+        "using relational thinking, an understanding of equivalence and number properties to determine and reason about numerical equations; for example, explaining whether an equation involving equivalent multiplication number sentences is true, such as \n15\n\u00f7\n3\n=\n30\n\u00f7\n6\n15\u00f73=30\u00f76",
+        "using materials, diagrams and arrays to demonstrate that multiplication is associative and commutative but division is not; for example, using arrays to demonstrate that \n2\n\u00d7\n3\n=\n3\n\u00d7\n2\n2\u00d73=3\u00d72 but \n6\n\u00f7\n3\n6\u00f73 does not equal \n3\n\u00f7\n6\n3\u00f76; demonstrating that \n2\n\u00d7\n2\n\u00d7\n3\n=\n12\n2\u00d72\u00d73=12 and \n2\n\u00d7\n3\n\u00d7\n2\n=\n12\n2\u00d73\u00d72=12 and \n3\n\u00d7\n2\n\u00d7\n2\n=\n12\n3\u00d72\u00d72=12; understanding that \n8\n\u00f7\n2\n\u00f7\n2\n=\n(\n8\n\u00f7\n2\n)\n\u00f7\n2\n=\n2\n8\u00f72\u00f72=(8\u00f72)\u00f72=2 but \n8\n\u00f7\n(\n2\n\u00f7\n2\n)\n=\n8\n\u00f7\n1\n=\n8\n8\u00f7(2\u00f72)=8\u00f71=8",
+        "using materials, diagrams or arrays to recognise and explain the distributive property; for example, where \n4\n\u00d7\n13\n=\n4\n\u00d7\n10\n+\n4\n\u00d7\n3\n4\u00d713=4\u00d710+4\u00d73",
+        "constructing equivalent number sentences involving multiplication to form a numerical equation, and applying knowledge of factors, multiples and the associative property to find unknown values in numerical equations; for example, considering \n3\n\u00d7\n4\n=\n12\n3\u00d74=12 and knowing \n2\n\u00d7\n2\n=\n4\n2\u00d72=4 then \n3\n\u00d7\n4\n3\u00d74 can be written as \n3\n\u00d7\n3\u00d7 (\n2\n\u00d7\n2\n2\u00d72) and using the associative property (\n3\n\u00d7\n2\n)\n\u00d7\n2\n3\u00d72)\u00d72 so \n3\n\u00d7\n4\n=\n6\n\u00d7\n2\n3\u00d74=6\u00d72 and so \n6\n6 is the solution to \n3\n\u00d7\n4\n=\n\u25a1\n\u00d7\n2\n3\u00d74=\u25a1\u00d72"
+      ]
+    },
+    "AC9M5M01": {
+      "standard_type": "M",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Select an appropriate metric unit for a given measurement and justify the choice; express a measurement as a combination of two units.",
+      "typical_width": "Choose appropriate metric units for length, mass and capacity across a range of practical contexts; use combinations of units for greater precision; explain unit relationships.",
+      "wider": [
+        "Investigate unit selection in professional contexts: nursing (mL, mg), construction (mm, m), science (\u03bcL, mL, L)",
+        "Compare metric and non-metric systems in everyday use and explain the advantages of metric",
+        "Explore Aboriginal and Torres Strait Islander measurement practices and compare to metric conventions"
+      ],
+      "elaborations": [
+        "ordering metric units from the largest unit to the smallest; for example, kilometre, metre, centimetre, millimetre",
+        "recognising that some units of measurement are better suited to some tasks than others; for example, kilometres are more appropriate than metres to measure the distance between \n2\n2 towns",
+        "deciding on the unit required to estimate the amount of paint or carpet for a room or a whole building; justifying the choice of unit in relation to the context and the degree of accuracy required",
+        "measuring and comparing distances, such as jumps or throws using a metre length of string; for example, then measuring the part metre with centimetres and/or millimetres; explaining which unit of measure is most accurate",
+        "researching how the base units are derived for the International System of Units (SI), commonly known as the metric system of units, recognising that the metric unit names for the attributes, length and mass are international standards for measurement"
+      ]
+    },
+    "AC9M5M02": {
+      "standard_type": "M",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Calculate the perimeter of an irregular rectilinear shape; decompose an irregular shape into rectangles to find its area.",
+      "typical_width": "Solve practical perimeter and area problems for regular and irregular shapes; choose correct measure for context; use appropriate metric units throughout.",
+      "wider": [
+        "Design a garden or room layout within given perimeter and area constraints",
+        "Investigate real trade contexts: tiling (area) vs skirting board (perimeter) for the same room",
+        "Explore how Aboriginal and Torres Strait Islander land management involves area and boundary estimation"
+      ],
+      "elaborations": [
+        "investigating problem situations involving perimeter; for example, \u201cHow many metres of fencing are required around a paddock, or around a festival event?\u201d",
+        "using efficient ways to calculate the perimeters of rectangles, such as adding the length and width together and doubling the result",
+        "solving measurement problems, such as \u201cHow much carpet would be needed to cover the entire floor of the classroom\u201d, using square metre templates to directly measure the floor space",
+        "creating a model of a permaculture garden, dividing the area up to provide the most efficient use of space for gardens and walkways, labelling the measure of each area, and calculating the amount of resources needed; for example, compost to cover the vegetable garden",
+        "using a physical or a virtual \u201cgeoboard app\u201d to recognise the relationship between area and perimeter and solve problems; for example, investigating what is the largest and what is the smallest area that has the same perimeter",
+        "exploring the designs of fishing nets and dwellings of First Nations Australians, investigating the perimeter, area and purpose of the shapes within the designs"
+      ]
+    },
+    "AC9M5M03": {
+      "standard_type": "M",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Convert a given am/pm time to 24-hour notation and a 24-hour time to 12-hour; correctly handle noon and midnight.",
+      "typical_width": "Compare the two time systems across a full 24-hour cycle; solve practical conversion problems from timetables and schedules; calculate durations in 24-hour contexts.",
+      "wider": [
+        "Read and interpret real transport timetables in 24-hour time and calculate journey durations",
+        "Investigate time zone conventions and how 24-hour time avoids ambiguity across zones",
+        "Explore how different cultures have divided the day historically"
+      ],
+      "elaborations": [
+        "using timetables written in \n24\n24-hour time, such as flight schedules, to plan an overseas or interstate trip, converting between \n24\n24- and \n12\n12-hour time",
+        "converting between the digital and analog representation of \n24\n24-hour time, matching the same times represented in both systems; setting the time on an analog watch using a digital alarm clock"
+      ]
+    },
+    "AC9M5M04": {
+      "standard_type": "M",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Measure an acute angle using a protractor; construct a given angle to within \u00b15\u00b0 accuracy.",
+      "typical_width": "Estimate, measure and construct acute and obtuse angles using a protractor; relate degree measures to angle names; verify construction by measurement.",
+      "wider": [
+        "Measure angles in polygons and verify angle sum properties",
+        "Use dynamic geometry software to construct and verify angles",
+        "Investigate angles in Aboriginal and Torres Strait Islander design and architecture"
+      ],
+      "elaborations": [
+        "using a protractor to measure angles in degrees and classifying these angles using angle names; for example, an acute angle is less than \n90\n90\u00b0, an obtuse angle is more than \n90\n90\u00b0 and less than \n180\n180\u00b0, a right angle is equal to \n90\n90\u00b0 and a reflex angle is more than \n180\n180\u00b0 and less than \n360\n360\u00b0",
+        "estimating the size of angles in the environment using a clinometer and describing the angles using angle names",
+        "using a ruler and protractor to construct triangles, given the angle measures and side lengths",
+        "using a protractor to measure angles when creating a pattern or string design within a circle",
+        "recognising the size of angles within shapes that do and do not tesselate, measuring the angles and using the sum of angles to explain why some shapes will tesselate and other shapes do not"
+      ]
+    },
+    "AC9M5SP01": {
+      "standard_type": "SP",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify the correct net for a given 3D object; construct one 3D object from its net.",
+      "typical_width": "Connect a range of prisms and pyramids to their nets; identify valid and invalid net arrangements; build objects from nets; verify faces against original object.",
+      "wider": [
+        "Investigate the 11 valid nets of a cube",
+        "Design nets for custom packaging with specific face requirements",
+        "Use dynamic geometry software to unfold 3D objects into nets and back"
+      ],
+      "elaborations": [
+        "designing and constructing exact nets for packaging particular shaped items or collections of interest, taking into consideration how the faces will be joined and how the package will be opened",
+        "visualising folding some possible nets for a range of prisms and pyramids, predicating which will work and which cannot work, and justifying their choices, based on the number, size and position of particular shapes in each diagram",
+        "sketching nets for a range of prisms and pyramids considering the number, shape and placement of the faces, and test by cutting and folding",
+        "investigating objects designed and developed by First Nations Australians, such as those used in fish traps and instructive toys, identifying the shape and relative position of each face to determine the net of the object"
+      ]
+    },
+    "AC9M5SP02": {
+      "standard_type": "SP",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Plot three coordinate pairs on a prepared grid; describe the position of each point using coordinates.",
+      "typical_width": "Construct a labelled coordinate grid; plot and read coordinates accurately; describe movements between points using directional language and coordinate changes.",
+      "wider": [
+        "Extend to include negative coordinates in one quadrant",
+        "Program directional movement between coordinates using code or robotics",
+        "Investigate coordinate systems used in digital mapping tools and how they differ"
+      ],
+      "elaborations": [
+        "understanding how the numbers on the axes on a grid coordinate system are numbers on a number line and are used to pinpoint locations",
+        "discussing the conventions of indicating a point in a grid coordinate system; for example, writing the horizontal axis number first and the vertical axis number second, using brackets and commas",
+        "comparing a grid reference system to a grid coordinate system (first quadrant only) by using both to play strategy games involving location; for example, \u201cQuadrant Commander\u201d, deducing that in a grid coordinate system the lines are numbered (starting from zero), not the spaces",
+        "placing a coordinate grid over a contour line, drawing and listing the coordinates of each point in the picture, asking a peer to re-create the drawing using only the list of coordinates, and discussing the reasons for the potential similarities and differences between the \n2\n2 drawings",
+        "investigating how autonomous vehicles use mapping, GPS systems, communication systems and path planning to navigate within a space"
+      ]
+    },
+    "AC9M5SP03": {
+      "standard_type": "SP",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Perform one translation, reflection and rotation of a shape; describe what property changes and what is preserved for each.",
+      "typical_width": "Describe and perform all three transformations; identify symmetries in shapes and patterns; use dynamic geometric software to verify; compare what changes and what stays the same.",
+      "wider": [
+        "Analyse patterns in Aboriginal and Torres Strait Islander art to identify transformation types present",
+        "Investigate transformation patterns in architecture, textiles and tiling across cultures",
+        "Combine transformations to generate repeating patterns and describe the transformation sequence"
+      ],
+      "elaborations": [
+        "understanding and explaining that translations, rotations and reflections can change the position and orientation of a shape but not the shape or size",
+        "using pattern blocks and paper tracing around a shape and conducting a series of a one-step transformations; continuing to trace each resulting image, then copying the original position and end position on a new sheet of paper",
+        "demonstrating how different combinations of transformations can produce the same resulting image",
+        "challenging classmates to select a combination of transformations to move from an original image to the final image, noting the different combinations by using different colours to trace images",
+        "investigating how animal tracks can be interpreted by First Nations Australians using the transformation of their shapes to help determine and understand animal behaviour"
+      ]
+    },
+    "AC9M5ST01": {
+      "standard_type": "ST",
+      "width_axis": "task_contexts",
+      "minimum_width": "Classify variables as nominal, ordinal or discrete numerical; create a frequency table and bar chart for a categorical variable using software; identify the mode.",
+      "typical_width": "Acquire, validate and represent data for nominal, ordinal and discrete numerical variables using software; describe distribution in terms of mode and shape; report findings in context.",
+      "wider": [
+        "Compare data distributions for different groups using the same question of interest",
+        "Investigate how data type affects which summary statistics are meaningful",
+        "Explore how First Nations communities collect and represent data about Country"
+      ],
+      "elaborations": [
+        "recognising that ordinal data is a form of categorical data even though the data being collected might be numbers; for example, a rating scale using numbers \n1\n\u2013\n5\n1\u20135 to represent the categories people can choose from when asked, \u201cWhat rating would you give this film out of \n5\n5?\u201d",
+        "determining the mode for a set of data and discussing that there may be more than one mode",
+        "identifying the best methods of presenting data to illustrate the results of investigations and justifying the choice of representations",
+        "acquiring data through chance experiments, discussing and reporting on the distribution of outcomes and how this relates to equal and unequal outcomes",
+        "using digital systems to validate data; for example, recognising the difference between numerical, text and date formats in spreadsheets; setting data types in a spreadsheet to make sure a date is input correctly",
+        "exploring how travel and online shopping websites and apps collect ordinal data from users to provide customer satisfaction and popularity ratings, and how they use recommendation algorithms to assist customers in travel planning or retail purchasing",
+        "investigating data relating to Australia\u2019s reconciliation process with First Nations Australians, posing questions, discussing and reporting on findings"
+      ]
+    },
+    "AC9M5ST02": {
+      "standard_type": "ST",
+      "width_axis": "task_contexts",
+      "minimum_width": "Read specific values from a line graph; describe the overall trend as increasing, decreasing or stable.",
+      "typical_width": "Interpret patterns of change in line graphs including rate (steep vs flat sections); discuss relationships between variables; make and justify conclusions; discuss limitations.",
+      "wider": [
+        "Compare two line graphs for related datasets and discuss the relationship",
+        "Critically evaluate conclusions made from line graphs in media reports",
+        "Investigate line graphs used in First Nations environmental monitoring programs"
+      ],
+      "elaborations": [
+        "reading and interpreting different line graphs, discussing how the horizontal axis represents measures of time such as days of the week or times of the day, and the vertical axis represents numerical quantities or ordinal categorical variables such as percentages, money, measurements or ratings such as fire hazard ratings",
+        "interpreting real-life data represented as a line graph showing how measurements change over a period of time and make simple inferences",
+        "matching unlabelled line graphs to the context they represent based on the stories of the different contexts",
+        "interpreting the data represented in a line graph making inferences; for example, reading line graphs that show the varying temperatures or UV rates over a period of a day and discussing when would be the best time to hold an outdoor assembly",
+        "exploring how line graphs can be used to train AI systems to make predictions by providing historical data and showing trends"
+      ]
+    },
+    "AC9M5ST03": {
+      "standard_type": "ST",
+      "width_axis": "task_contexts",
+      "minimum_width": "Pose a statistical question; collect data and create an appropriate display; relate one finding to the original question.",
+      "typical_width": "Plan and conduct a full statistical investigation: pose question, collect and validate data, choose and construct display, interpret patterns, communicate conclusions.",
+      "wider": [
+        "Present investigation findings to an authentic audience",
+        "Critique a peer's investigation and suggest improvements to question, data collection or display",
+        "Conduct an investigation about a First Nations context or community question of interest"
+      ],
+      "elaborations": [
+        "posing questions about insect diversity in the playground, collecting data by taping a one-metre-square piece of paper to the playground, and observing the type and number of insects on it over time",
+        "posing a question or identifying a problem of interest, collecting, interpreting and analysing the data and discussing if the data generated provides the information necessary to answer the questions",
+        "developing survey questions that are objective, without opinion and have a balanced set of answer choices without bias",
+        "exploring First Nations Ranger Groups\u2019 and other groups\u2019 biodiversity detection techniques to care for Country/Place, posing investigative questions, collecting and interpreting related data to represent and communicate findings"
+      ]
+    },
+    "AC9M5P01": {
+      "standard_type": "P",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "List all possible outcomes of a simple experiment; identify whether outcomes are equally or unequally likely and explain why.",
+      "typical_width": "List sample spaces for a range of experiments; compare equally and unequally likely situations; assign fractional probabilities to equally likely outcomes; explain sources of unequal likelihood.",
+      "wider": [
+        "Design an unequally likely spinner or bag for a specified purpose (e.g. a biased game)",
+        "Investigate First Nations probability games and their likelihood structures",
+        "Explore two-stage experiments and begin listing combined outcomes"
+      ],
+      "elaborations": [
+        "discussing what it means for outcomes to be equally likely and comparing the number of possible and equally likely outcomes of chance events; for example, when drawing a card from a standard deck of cards there are \n4\n4 possible outcomes if you are interested in the suit, \n2\n2 possible outcomes if you are interested in the colour or \n52\n52 outcomes if you are interested in the exact card",
+        "discussing how chance experiments that have equally likely outcomes can be referred to as random chance events; for example, if all the names of students in a class are placed in a hat and one is drawn at random, each person has an equally likely chance of being drawn",
+        "investigating how bias and fairness can relate to outcomes being equally and not equally likely, and discussing how this might inform strategies for mitigating bias in AI systems",
+        "commenting on the chance of winning games by considering the number of possible outcomes and the consequent chance of winning",
+        "investigating why some games are fair and others are not; for example, drawing a track game to resemble a running race and taking it in turns to roll \n2\n2 dice, where the first runner moves a square if the difference between the \n2\n2 dice is zero, one or \n2\n2 and the second runner moves a square if the difference is \n3\n,\n4\n3,4 or \n5\n5; responding to the questions, \u201cIs this game fair?\u201d, \u201cAre some differences more likely to come up than others?\u201d and \u201cHow can you work that out?\u201d",
+        "comparing the chance of a head or a tail when a coin is tossed, whether some numbers on a dice are more likely to be facing up when the dice is rolled, or the chance of getting a \n1\n,\n2\n1,2 or \n3\n3 on a spinner with uneven regions for the numbers",
+        "discussing supermarket promotions such as collecting stickers or objects and whether there is an equal chance of getting each of them"
+      ]
+    },
+    "AC9M5P02": {
+      "standard_type": "P",
+      "width_axis": "task_contexts",
+      "minimum_width": "Conduct a chance experiment with at least 20 trials; record in a frequency table; calculate relative frequency for each outcome.",
+      "typical_width": "Conduct experiments with equally and unequally likely outcomes; calculate and compare relative frequencies; use experimental frequencies to estimate likelihoods; discuss variability across repeated experiments.",
+      "wider": [
+        "Use digital simulation tools to run large numbers of trials and compare to small-sample results",
+        "Investigate how the Law of Large Numbers causes relative frequency to stabilise",
+        "Design an experiment to estimate the probability of an unequally likely event"
+      ],
+      "elaborations": [
+        "discussing and listing all the possible outcomes of an activity and conducting experiments to estimate the probabilities; for example, using coloured cards in a card game and experimenting with shuffling the deck and turning over one card at a time, recording and discussing the results",
+        "conducting experiments, recording the outcomes and the number of times the outcomes occur, describing the relative frequency of each outcome; for example, using \u201cI threw the coin \n10\n10 times, and the results were \n3\n3 times for a head, so that is \n3\n3 out of \n10\n10, and \n7\n7 times for a tail, so that is \n7\n7 out of \n10\n10\u201d",
+        "experimenting with and comparing the outcomes of spinners with equal-coloured regions compared to unequal regions; responding to questions such as \u201cHow does this spinner differ to one where each of the colours has an equal chance of occurring?\u201d, giving reasons",
+        "comparing the results of experiments using a fair dice and one that has numbers represented on faces more than once, explaining how this affects the likelihood of outcomes",
+        "using spreadsheets to record the outcomes of an activity and calculate the total frequencies of different outcomes, representing these as a fraction; for example, using coloured balls in a bag, drawing one out at a time and recording the colour, replacing them in the bag after each draw",
+        "investigating First Nations Australian children\u2019s instructive games; for example, Diyari koolchee from the Diyari Peoples near Lake Eyre in South Australia, to conduct repeated trials and explore predictable patterns, using digital tools where appropriate"
+      ]
+    }
+  }
+}

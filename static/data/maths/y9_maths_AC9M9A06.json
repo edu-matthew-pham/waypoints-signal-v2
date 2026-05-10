@@ -1,0 +1,102 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9A06",
+    "title": "Parameter Variation and Function Families",
+    "description": "experiment with the effects of the variation of parameters on graphs of related functions, using digital tools, making connections between graphical and algebraic representations, and generalising emerging patterns",
+    "strand": "Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can formulate and use linear and quadratic models in applied contexts (AC9M9A05). They have not yet systematically varied parameters across function families to generalise the effect of each parameter on graphical form, nor explored function families beyond linear and quadratic.",
+    "progression_endpoint": "Students generalise the effects of parameter variation on the graphs of linear, quadratic and related function families, connecting graphical transformations to algebraic representations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Parameter variation in linear functions",
+        "progression_checkpoint": "Students can describe the effect of varying the parameters a and b in y=ax+b on the graph, and explain what each parameter controls.",
+        "minimum_width": "Use digital tools to vary a in y=ax+b while holding b fixed, and then vary b while holding a fixed; describe what changes on the graph in each case.",
+        "typical_width": "Systematically vary both parameters in y=ax+b using digital tools; describe the effect of each (a controls gradient/steepness and direction, b controls vertical translation); generate and test a generalisation; connect back to gradient and y-intercept.",
+        "wider": [
+          "Investigate what happens when a=0 (horizontal line) and when b=0 (line through origin) \u2014 discuss these as boundary cases of the general linear family",
+          "Explore how parameter variation in y=ax+b connects to real-world modelling \u2014 e.g. in a hire cost model C=mx+b, interpret what varying m and b independently means in context",
+          "Connect y=ax+b to y=m(x\u2212x\u2081)+y\u2081 (point-gradient form) and investigate how both represent the same family from different starting points"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly describes the effect of increasing or decreasing a on the steepness and direction of the line",
+          "Correctly describes the effect of increasing or decreasing b as a vertical shift",
+          "States a generalisation about what each parameter controls"
+        ],
+        "related_standards": [
+          "AC9M8A02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Parameter variation in quadratic functions",
+        "progression_checkpoint": "Students can describe the effect of varying the parameters in y=a(x\u2212h)\u00b2+k on the graph, and explain how each parameter produces a specific transformation.",
+        "minimum_width": "Use digital tools to vary a, h and k separately in y=a(x\u2212h)\u00b2+k; describe what each parameter does to the graph of y=x\u00b2.",
+        "typical_width": "Investigate transformations of y=x\u00b2 \u2014 vertical stretch/compression (a), reflection (negative a), horizontal translation (h), vertical translation (k); connect the completed square form to the turning point (h, k); generate and test generalisations about each parameter's effect.",
+        "wider": [
+          "Investigate the relationship between y=ax\u00b2+bx+c (expanded form) and y=a(x\u2212h)\u00b2+k (completed square form) by completing the square for specific cases",
+          "Explore how varying the turning point location moves the graph without changing its shape \u2014 connect to the concept of a function family defined by a shape and a parameter space",
+          "Investigate parabolic shapes in real-world contexts (satellite dishes, parabolic mirrors, bridges) and discuss how the parameters h, k and a correspond to physical features"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse horizontal and vertical translations \u2014 in particular, treating y=(x\u22123)\u00b2 as a leftward shift rather than rightward. This is a persistent and consequential misconception. Systematic experimentation with multiple values of h, including sign variation, resolves it more reliably than a single worked example.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The completed square form y=a(x\u2212h)\u00b2+k is both structurally beautiful and practically powerful \u2014 it makes the turning point immediately readable and connects parameter variation to geometric transformation in a transparent way. Students who develop fluency with this form gain insight into function families that extends naturally into senior mathematics.",
+        "success_criteria": [
+          "Correctly identifies the turning point (h, k) from the completed square form",
+          "Correctly predicts the direction of horizontal translation for y=(x\u2212h)\u00b2 (shift right when h>0)",
+          "States the effect of a negative value of a (reflection in the x-axis) with a correct example"
+        ],
+        "hinge": true,
+        "hinge_reason": "The horizontal-translation direction confusion (y=(x-3)\u00b2 shifts right, not left) is the most durable misconception in function transformation work. Students who carry this into N3 misread every transformed function graph across all families."
+      },
+      {
+        "id": 3,
+        "label": "Generalising across function families",
+        "progression_checkpoint": "Students can apply parameter variation to at least one additional function family (reciprocal, square root, cube or exponential) and identify patterns that generalise across families.",
+        "minimum_width": "Vary the parameters in one function family other than linear or quadratic (e.g. y=a/x, y=a\u02e3) using digital tools; describe the effect of parameter variation; identify at least one pattern that also appeared in the linear or quadratic family.",
+        "typical_width": "Experiment with transformations of reciprocal (y=a/x), square root (y=\u221ax), cube (y=x\u00b3) and exponential (y=a\u02e3) functions; identify which transformation behaviours (stretch, reflection, translation) generalise across all families; generate a summary of common patterns.",
+        "wider": [
+          "Compare transformations across all function families explored \u2014 identify which parameter plays the 'stretch' role in each and which plays the 'shift' role; construct a generalisation",
+          "Investigate how parameter variation in function families provides AI researchers with insights into model behaviour \u2014 discuss how varying hyperparameters in neural networks parallels varying function parameters (conceptual)",
+          "Investigate the exponential family y=a\u02e3 specifically: how does varying the base a change the growth rate? Connect to compound growth contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates parameter variation across multiple function families into a general principle. The cognitive work is recognising that the same transformation structure (stretch, shift, reflect) appears in every family despite very different function shapes \u2014 this generalisation is the descriptor's endpoint.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The discovery that transformation behaviour generalises across all function families is a genuinely elegant mathematical insight. Students who explore enough families to state and test this generalisation are building mathematical reasoning skills \u2014 noticing structure \u2014 that are foundational for senior mathematics.",
+        "success_criteria": [
+          "Correctly describes the effect of at least one transformation on a function family beyond linear/quadratic",
+          "Identifies at least one transformation pattern that appears in two or more different function families",
+          "States a generalisation (e.g. 'multiplying by a constant stretches the graph vertically in every family I tested')"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

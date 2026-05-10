@@ -1,0 +1,97 @@
+{
+  "year_level": "8",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC8S02",
+    "title": "Locate and organise information",
+    "description": "locate, select and organise information, data and ideas from different sources",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have located, selected and organised information from provided sources at Year 7 level (AC9HC7S02). The gap this descriptor fills is the move from provided sources to self-directed source finding — including using advanced search strategies, applying accuracy and reliability criteria, and critically organising sources by identifying bias and selective use of information.",
+    "progression_endpoint": "Students locate, select and organise information, data and ideas from different sources — using advanced search strategies, applying accuracy and reliability criteria, and organising sources by identifying bias, language choices and selective information use.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Locating civic information using targeted search",
+        "progression_checkpoint": "Students can locate information about a civics issue from a range of print and online sources using advanced search functions or targeted criteria.",
+        "minimum_width": "Use at least two different types of sources (e.g. an online news article and a government website) to find information on a civic issue, explaining the search strategy used.",
+        "typical_width": "Locate information from a range of print and online sources — including online journal articles, news reports and social media posts — using advanced search functions or targeted criteria (e.g. date filtering, source type specification, Boolean operators) about a citizenship issue such as the nature of the Australian citizenship test.",
+        "wider": [
+          "Investigate how different search strategies (general web search vs database search vs government portal search) yield different types of sources for the same civic issue — evaluating what each strategy is best suited for",
+          "Practise using advanced search operators and filters to narrow results to specific source types, dates or perspectives on a civic issue",
+          "Investigate how social media algorithms shape what civic information is surfaced when searching civic topics online — and what this means for source breadth"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Effective source location requires a repertoire of search strategies. Build range across different search approaches — general search, database, government portals, news archives — before moving to reliability evaluation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can locate information on a civic issue from at least two different source types",
+          "Can describe the search strategy used to find each source"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Selecting sources: accuracy and reliability",
+        "progression_checkpoint": "Students can select information from sources by applying criteria of accuracy and reliability, distinguishing between more and less reliable sources on a civic issue.",
+        "minimum_width": "Evaluate one source for accuracy and reliability, identifying at least two criteria used and explaining whether the source meets them.",
+        "typical_width": "Select information from a range of sources by applying understandings of accuracy (whether claims are factually correct) and reliability (whether the source can be trusted to report faithfully), distinguishing between government reports, peer-reviewed content, advocacy materials and social media on a civics issue.",
+        "wider": [
+          "Compare the reliability of a government report and an advocacy organisation's report on the same civic issue, identifying what each source includes, excludes and emphasises",
+          "Investigate how fact-checking organisations evaluate political claims — applying similar criteria to evaluate sources used in a civic investigation",
+          "Examine how the funding, audience and purpose of a source affects its reliability as a source of civic information"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot apply reliability criteria to sources, they will build their analysis and arguments in S03 and S05 on uncritically accepted material. A student who accepts all sources equally cannot identify perspective differences or evaluate the strength of civic arguments.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Reliability evaluation requires explicit criteria and reasoning — not just intuition about whether a source 'seems credible'. Invest in the evaluative framework: authority, accuracy, currency, purpose, coverage.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify at least two criteria for evaluating the reliability of a source",
+          "Can apply those criteria to at least one source on a civic issue and justify whether it is reliable"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Organising sources: identifying bias and selective information",
+        "progression_checkpoint": "Students can organise information from different sources by identifying bias, language choices and selective use of information — and explain how these features affect the value of the source for civic inquiry.",
+        "minimum_width": "Identify one example of bias, selective information use or language choice in a source about a civic issue and explain how it affects the source's usefulness.",
+        "typical_width": "Organise ideas from different sources — including opinion pieces, political party materials, government reports and independent organisation reports — by identifying bias, language choices and selective use of information, and explain how these features affect the picture each source presents of a civic issue.",
+        "wider": [
+          "Compare how a government report and an opposition party document present the same civic policy issue — systematically identifying differences in language, emphasis and what each source omits",
+          "Investigate how to construct a source matrix that maps multiple sources on a civic issue against dimensions of perspective, reliability and coverage — practising systematic source organisation",
+          "Examine how framing effects — the way an issue is named and contextualised — shape how different sources present the same civic facts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Source organisation skills transfer across different source types and civic topics. Widening across opinion pieces, government reports, advocacy materials and political party materials builds the skill of recognising how form and purpose shape content.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Systematic source organisation — identifying bias, language choices, selective information — is a transferable media literacy skill that extends well beyond civics. Width across different source types builds analytical capability students can apply in any civic or political context.",
+        "success_criteria": [
+          "Can identify at least one example of bias, selective information or language choice in a civic source",
+          "Can explain how that feature affects what the source presents and what it leaves out"
+        ],
+        "related_standards": ["AC9HC8S03"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9M03",
+    "title": "Spatial Problems \u2014 Pythagoras, Trig and Similarity",
+    "description": "solve spatial problems, applying angle properties, scale, similarity, Pythagoras' theorem and trigonometry in right-angled triangles",
+    "strand": "Measurement",
+    "mode": "A",
+    "prior_knowledge": "Students can use Pythagoras' theorem to find unknown side lengths in right-angled triangles (AC9M8M06). They have not yet applied trigonometric ratios in right-angled triangles, or combined similarity, scale, and Pythagoras in multi-concept spatial problems.",
+    "progression_endpoint": "Students solve spatial problems applying angle properties, scale, similarity, Pythagoras' theorem and trigonometry in right-angled triangles.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Trigonometric ratios \u2014 finding unknown sides",
+        "progression_checkpoint": "Students can apply sine, cosine and tangent ratios to find unknown sides in right-angled triangles.",
+        "minimum_width": "Identify the opposite, adjacent and hypotenuse relative to a given angle; apply one trigonometric ratio (sin, cos or tan) to find one unknown side; verify using a calculator.",
+        "typical_width": "Select and apply the appropriate trigonometric ratio (sin, cos, tan) to find unknown sides in right-angled triangles across a variety of configurations; correctly identify which sides are opposite, adjacent and hypotenuse relative to the given angle.",
+        "wider": [
+          "Apply trigonometric ratios to practical contexts (ramps, angles of elevation, surveying) \u2014 draw the right-angled triangle and label before calculating",
+          "Investigate the relationship between trigonometric ratios for complementary angles (sin \u03b8 = cos(90\u00b0\u2212\u03b8))",
+          "Connect trigonometric ratios to the unit circle (sine = y-coordinate, cosine = x-coordinate for a unit-radius point) as a conceptual bridge to Year 10 work"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Correctly identifying opposite and adjacent sides relative to the angle (not relative to the triangle) is a persistent source of error. Fluency in labelling sides \u2014 particularly for non-standard triangle orientations \u2014 requires varied practice before applying ratios in problem contexts.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly labels opposite, adjacent and hypotenuse relative to a specified angle",
+          "Selects the correct trigonometric ratio for the given information",
+          "Calculates the unknown side correctly to an appropriate number of decimal places"
+        ],
+        "related_standards": [
+          "AC9M9SP01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Correct side labelling (opposite/adjacent relative to the angle, not fixed positions) is prerequisite for every trig ratio application. Students who mislabel sides select the wrong ratio and produce wrong answers in N2 and all applied work."
+      },
+      {
+        "id": 2,
+        "label": "Trigonometric ratios \u2014 finding unknown angles",
+        "progression_checkpoint": "Students can apply inverse trigonometric ratios to find unknown angles in right-angled triangles.",
+        "minimum_width": "Use the inverse trigonometric function on a calculator to find an unknown angle given two sides; state the angle in degrees to one decimal place.",
+        "typical_width": "Find unknown angles in right-angled triangles using inverse trig functions (sin\u207b\u00b9, cos\u207b\u00b9, tan\u207b\u00b9); apply across a range of configurations; verify by checking that angle sum is 180\u00b0.",
+        "wider": [
+          "Apply inverse trig to find angles in practical contexts (angle of inclination of a ramp, bearing problems, roof pitch)",
+          "Investigate angles of elevation and depression \u2014 solve problems requiring identification of the correct right triangle from a real-world sketch",
+          "Explore how trigonometric ratios and their inverses are used in autonomous vehicle navigation algorithms (conceptual)"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly sets up the trigonometric ratio from two known sides",
+          "Applies the inverse trigonometric function to find the angle",
+          "States the angle in degrees with appropriate precision"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Similarity, scale and proportion in triangles",
+        "progression_checkpoint": "Students can apply similarity and scale factor to solve problems involving corresponding sides and areas of similar triangles.",
+        "minimum_width": "Identify corresponding sides in two similar right-angled triangles; use the scale factor to find one unknown side length.",
+        "typical_width": "Apply similarity and scale factor to find unknown sides in similar triangles; establish the relationship between scale factor and the ratio of areas (area scales as k\u00b2); use proportional reasoning to solve practical scale problems (e.g. estimating heights from photographs).",
+        "wider": [
+          "Design and use a Biltmore stick (based on similar triangle principles) to estimate the height of a tree; connect to rates and proportional reasoning",
+          "Investigate proportional estimation using photographs \u2014 take a photograph with a known reference object and use scale to estimate an unknown measurement",
+          "Explore the triangle inequality and generalise the relationship between Pythagoras' theorem and inequalities for acute (c\u00b2<a\u00b2+b\u00b2) and obtuse (c\u00b2>a\u00b2+b\u00b2) triangles"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly confuse scale factor for length with scale factor for area \u2014 applying the same multiplier to both. Working across multiple examples where length and area scale differently (k and k\u00b2) resolves this conflation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies corresponding sides in similar triangles and the scale factor",
+          "Correctly applies the scale factor to find an unknown side",
+          "Correctly applies k\u00b2 (not k) when finding the ratio of areas of similar figures"
+        ],
+        "related_standards": [
+          "AC9M9SP02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Applying k rather than k\u00b2 for area scaling is a persistent error that undermines N4 multi-concept problems whenever area scaling is part of the solution."
+      },
+      {
+        "id": 4,
+        "label": "Solving multi-concept spatial problems",
+        "progression_checkpoint": "Students can solve spatial problems requiring a combination of Pythagoras' theorem, trigonometry, similarity and/or scale.",
+        "minimum_width": "Solve one spatial problem that requires using at least two of the tools from this descriptor (e.g. find a distance using Pythagoras and then an angle using trig); show the setup and working.",
+        "typical_width": "Solve applied spatial problems combining multiple tools \u2014 Pythagoras, trig ratios, similarity, scale, angle properties; draw labelled diagrams; work across surveying, design and real-world geometry contexts.",
+        "wider": [
+          "Apply Pythagoras and trigonometry to surveying problems \u2014 e.g. determine the height of a building or the distance across a river using indirect measurement",
+          "Investigate how autonomous vehicles use geometric algorithms involving angles, distances and scale for spatial navigation (conceptual)",
+          "Investigate applications of spatial reasoning in First Nations Australian navigation, construction or astronomical contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Multi-concept spatial problems require selecting and sequencing the right tool \u2014 students who can apply each tool separately often struggle to decide which to use first, or in what order, in an unfamiliar problem. This node makes that decision-making the learning.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Spatial problem-solving in authentic contexts (surveying, design, navigation) gives these tools genuine purpose. The multi-concept integration also opens rich connections between mathematics and real-world engineering and design work.",
+        "success_criteria": [
+          "Draws a labelled diagram identifying all known and unknown quantities",
+          "Selects and applies at least two appropriate tools in the correct sequence",
+          "States the solution with appropriate units and precision"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LA05",
+    "title": "Complex sentences for effect",
+    "description": "Understand that the structure of a complex sentence includes a main clause and at least one dependent clause, and understand how writers can use this structure for effect",
+    "strand": "Language",
+    "mode": "A",
+    "prior_knowledge": "Students can understand that complex sentences contain one independent clause and at least one dependent clause, joined by a subordinating conjunction (AC9E4LA06). They have not yet examined how the specific type of dependent clause — reason, purpose, condition, concession, time — creates a particular logical relationship, or how the ordering of clauses affects emphasis and effect.",
+    "progression_endpoint": "Students explain how complex sentence structure creates logical relationships between ideas — including reason, purpose, condition, concession and time — and identify how writers use clause ordering and subordinating conjunction choice to create particular effects on the reader.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Types of logical relationship",
+        "progression_checkpoint": "Students can identify the type of logical relationship a dependent clause creates (reason, purpose, condition, concession, time) and match subordinating conjunctions to the relationships they signal.",
+        "minimum_width": "Given examples of complex sentences, identify the type of logical relationship the dependent clause establishes and name the subordinating conjunction that creates it.",
+        "typical_width": "Identify and explain the five types of logical relationship (reason, purpose, condition, concession, time) across a range of complex sentence examples. Match subordinating conjunctions to relationship types and explain what logical work each conjunction performs.",
+        "wider": [
+          "Collect examples of each relationship type from texts across different genres — narrative, argument, explanation — and discuss how the distribution of relationship types reflects the text's purpose",
+          "Examine how multiple complex sentence types appear in a single paragraph and discuss how the pattern of logical relationships builds the paragraph's argument or narrative"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2's clause-ordering analysis and Node 3's effect explanation both require students to know which type of logical relationship they are working with. Students who conflate condition and concession, or purpose and reason, will make errors in Node 2 when comparing clause orderings and will be unable to explain the specific effect a complex sentence creates in Node 3.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students commonly confuse the five relationship types, particularly condition vs. concession and purpose vs. reason. Consolidation through varied examples — focusing on what question the dependent clause answers — builds the reliable identification needed before examining clause ordering and effect.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the relationship type (reason, purpose, condition, concession, or time) for at least four examples of complex sentences.",
+          "Names the subordinating conjunction and explains what logical work it performs in at least two examples."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Clause ordering and prominence",
+        "progression_checkpoint": "Students can explain how the ordering of main and dependent clauses — which comes first — affects what is emphasised and how the reader processes the sentence.",
+        "minimum_width": "Compare two versions of the same complex sentence (main clause first vs. dependent clause first) and explain how the ordering affects emphasis and the reader's experience.",
+        "typical_width": "Analyse how writers choose clause ordering for effect across a range of sentence types. Explain how placing the dependent clause first creates a different reading experience from placing it after the main clause, and identify contexts where each ordering is more effective.",
+        "wider": [
+          "Examine how clause ordering interacts with theme position (from AC9E5LA04) — when a writer fronts a dependent clause, that clause becomes the theme, discussing what communicative choices are involved",
+          "Compare clause ordering patterns in formal and informal writing contexts, discussing how the same logical relationship can be packaged differently for different audiences"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to explain how writers use complex sentence structure — including relationship type and clause ordering — for specific effects. Students who cannot explain how clause ordering shifts emphasis cannot account for why a particular ordering serves a particular purpose, which is precisely what Node 3's effect explanation demands.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The effect of clause ordering — why fronting a concession clause before a main clause feels different to placing it after — requires reasoning about reader expectation and emphasis. Students need a scaffold for explaining effect, not just identifying that the order differs.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Compares two clause orderings of the same sentence and explains which element receives prominence in each version.",
+          "Explains why a writer might prefer one ordering over the other in a specific context."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Using complex sentences for effect",
+        "progression_checkpoint": "Students can explain how writers use complex sentence structure — including relationship type and clause ordering — to create specific effects such as building tension, constructing argument, explaining causation, or expressing qualification.",
+        "minimum_width": "In a text or passage, identify how at least two complex sentences have been used for deliberate effect, and explain what the writer achieves through the structure choice.",
+        "typical_width": "Analyse how complex sentence choices across a text contribute to its overall effect — how reason clauses build explanation, how concession clauses signal nuanced argument, how time clauses create narrative rhythm. Explain how complex sentence choices connect to the text's purpose.",
+        "wider": [
+          "Compare how complex sentence structures are used differently in narrative (for tension, time manipulation), argument (for concession and condition), and explanation (for cause and effect) — building a picture of how genre shapes sentence choice",
+          "Examine a literary text by a First Nations Australian author and discuss how complex sentence structures contribute to voice and effect"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to bring together relationship type (node 1) and clause ordering (node 2) knowledge and apply it to explaining writer effect — the integrative demand of the descriptor's 'use this structure for effect' clause.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The full range of effect possibilities — narrative tension, argument qualification, causal explanation, temporal manipulation — across different genres and purposes is genuinely rich. Advancing students can develop a cross-genre grammar of complex sentence effects, which is analytically substantive within year band.",
+        "success_criteria": [
+          "Identifies a complex sentence and explains the specific effect it creates, connecting the structural choice (relationship type and/or ordering) to the effect.",
+          "Explains how the writer's choice of complex sentence structure serves the text's overall purpose in at least two examples."
+        ]
+      }
+    ]
+  }
+}

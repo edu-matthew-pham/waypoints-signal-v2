@@ -1,0 +1,128 @@
+{
+  "year_level": "7",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH7K08",
+    "title": "Historical and archaeological evidence",
+    "description": "the different methods and sources of evidence used by historians and archaeologists to investigate early societies, and the importance of archaeology and conserving the remains, material culture and heritage of the past",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain the cultural obligations of First Nations Australians regarding heritage sites and ancestral remains, and describe how collaboration between Traditional Owners and researchers supports cultural preservation (AC9HH7K07). Students also bring prior understanding of evidence types from AC9HH7K01 (stratigraphy, radiocarbon dating, oral history as evidence for early human migration). They have not yet examined the full range of methods used to investigate early (ancient) societies, nor the specific roles of archaeology and heritage conservation in that investigation.",
+    "progression_endpoint": "Students describe the different methods and sources of evidence used by historians and archaeologists to investigate early societies — including stratigraphy, DNA testing, and written sources — evaluate their value for understanding the past, and explain why archaeology and the conservation of remains, material culture, and heritage sites matter.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Archaeological methods — stratigraphy and physical evidence",
+        "progression_checkpoint": "Students can describe stratigraphy as an archaeological method, explain how it is used to date discoveries and interpret change over time, and describe how physical evidence (artefacts, human remains) contributes to understanding early societies.",
+        "minimum_width": "Describe stratigraphy as the analysis of earth layers to date and interpret archaeological finds, and explain how the depth of a find relates to its age.",
+        "typical_width": "Describe stratigraphy as an archaeological method — how layers of sediment are read to establish chronology — and explain how physical evidence within those layers (human remains, weapons, charcoal, pottery) is used to interpret events and change over time. Use a specific example, such as a charcoal layer containing human remains and weapons indicating the capture and destruction of a settlement (e.g. Troy).",
+        "wider": [
+          "Examine how a cross-sectional drawing of an archaeological excavation represents stratigraphic layers, and what specific evidence types found at different layers can reveal — connecting the visual representation to the interpretive practice.",
+          "Investigate the limitations of stratigraphy — including disturbance of layers by later activity, the challenge of establishing exact dates without additional dating methods, and what stratigraphy cannot tell us about why events happened.",
+          "Explore how stratigraphy was used at a specific ancient site to reconstruct its history — for example, the multiple occupation layers at Çatalhöyük or the stratigraphic evidence at Troy."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand stratigraphic logic — deeper = older, layer contents reveal activity at that time — cannot interpret how physical evidence within layers supports interpretations. N2 and N3 assume students can read layered evidence before adding DNA and written sources alongside it.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The logical structure of stratigraphic reading — deeper = older, layer contents = evidence of activity at that time, transitions between layers = change events — is non-obvious to Year 7 students. Without explicit scaffolding of this reasoning chain, students cannot construct or interpret a cross-sectional diagram or understand why a charcoal layer with weapons indicates destruction rather than simply 'things were buried here'.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains stratigraphy correctly — deeper layers are older, layer contents reveal what was happening at that time.",
+          "Describes how specific evidence within a layer (human remains, weapons, charcoal) supports an interpretation of an event.",
+          "Does not treat stratigraphy as simply 'digging things up' — recognises it as a systematic method for reading change over time."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Scientific methods — DNA testing and dating techniques",
+        "progression_checkpoint": "Students can describe DNA testing and dating techniques (such as radiocarbon dating) as scientific methods used alongside archaeology to investigate early societies, and identify what each method can and cannot reveal.",
+        "minimum_width": "Describe DNA testing as a method for identifying individuals or tracing population relationships from ancient remains, and identify one thing it can reveal (e.g. disease history, individual identity, population movement).",
+        "typical_width": "Describe DNA testing and dating techniques as complementary scientific methods — explaining what DNA analysis of ancient remains (e.g. Egyptian mummies, ancient skeletal material) can reveal about individuals, disease, and population relationships, and how radiocarbon dating establishes the age of organic material. Explain that these methods work alongside stratigraphy and written sources rather than replacing them.",
+        "wider": [
+          "Examine specific cases where DNA analysis has produced significant findings — for example, DNA testing of Egyptian royal mummies revealing family relationships and disease history, or ancient DNA analysis reshaping understanding of population migrations.",
+          "Investigate the limitations of each dating technique — the radiocarbon dating error range, what radiocarbon cannot date (inorganic material), and the conditions required for DNA preservation in ancient remains.",
+          "Explore how advances in ancient DNA technology (aDNA) have transformed our understanding of ancient societies in the past decade, including what was previously unknowable and is now accessible."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students encounter DNA testing and radiocarbon dating as new method types alongside stratigraphy — not just additional depth on the same method. Exposure to how each method type addresses different questions (who was this person vs when was this layer deposited vs what was written at the time) builds the understanding that a repertoire of complementary methods is required for robust archaeological interpretation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes DNA testing and identifies at least one type of information it can provide about ancient individuals or populations.",
+          "Distinguishes DNA testing from stratigraphy — recognises them as different methods providing different types of evidence.",
+          "Explains that dating techniques provide estimates within error ranges, not exact dates — uncertainty is intrinsic to the method."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Written sources and the challenges of ancient evidence",
+        "progression_checkpoint": "Students can describe the role of written sources in investigating early societies, identify challenges in interpreting ancient written sources (including translation and intercultural understanding), and explain how historians triangulate across multiple source types.",
+        "minimum_width": "Identify at least one type of written source used to investigate early societies (e.g. inscriptions, religious texts, edicts) and describe one challenge in interpreting it (e.g. translation difficulties, cultural context).",
+        "typical_width": "Describe the role of written sources — including inscriptions, edicts (e.g. Asoka's edicts), and religious literature (e.g. the Vedas, Ramayana, Mahabharata) — in investigating early societies, and explain the challenges these sources present: translation difficulties, intercultural understanding, distinguishing religious/literary intent from historical description. Explain how historians use multiple source types together rather than relying on any single source.",
+        "wider": [
+          "Investigate specific cases of translation challenge — such as the decipherment of Linear B, the Rosetta Stone, or the challenges of reading Asoka's edicts in multiple scripts — examining what the translation process itself reveals about ancient communication and scholarship.",
+          "Examine the distinction between primary sources from ancient societies (inscriptions, texts from the time) and secondary sources (modern historical interpretations), and how this distinction shapes how historians assess reliability.",
+          "Explore what the absence of written sources means for our understanding of societies without writing — examining how this shapes what questions can and cannot be answered about pre-literate societies."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat written sources as automatically more reliable than physical or oral evidence will apply a flawed reliability hierarchy in S03–S04, producing source assessments that privilege text without critical analysis — undermining the triangulation principle that underpins sound historical inquiry.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly treat written sources as automatically more reliable than physical or oral evidence. Examining multiple written source types — each with different translation challenges, different purposes, and different relationships to historical reality — specifically dislodges this bias. Breadth across source types (inscriptions, religious epics, administrative edicts) builds the understanding that all sources require critical interpretation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one type of ancient written source and identifies a specific challenge in using it as historical evidence.",
+          "Explains that historians triangulate across multiple source types rather than relying on a single source.",
+          "Does not treat written sources as automatically more reliable than physical or oral evidence."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Importance of conservation — archaeology and heritage",
+        "progression_checkpoint": "Students can explain why the conservation of archaeological sites, remains, material culture, and heritage is important, and describe the roles of governments and international bodies (e.g. UNESCO) in protecting significant sites.",
+        "minimum_width": "Explain why conservation of archaeological remains and heritage sites matters — that once destroyed, evidence cannot be recovered — and identify one role that governments or international bodies play in protection.",
+        "typical_width": "Explain the importance of archaeological conservation — that irreplaceable evidence is at risk from infrastructure development, looting, and neglect — and describe the roles of governments and bodies such as UNESCO in protecting sites. Use specific examples: the impact of the Aswan Dam on ancient Egyptian sites, the rescue of the temples of Abu Simbel, and the debate over the Elgin Marbles.",
+        "wider": [
+          "Examine the Abu Simbel rescue mission in detail — the scale of the engineering involved in moving the temples, what drove the decision, and what was at stake — as a case study in international collaboration for heritage conservation.",
+          "Investigate the Elgin Marbles debate — the circumstances of their removal, the arguments for and against return, and the broader questions about who owns ancient heritage — as an ongoing contemporary controversy.",
+          "Explore world heritage listing criteria and how sites such as the Great Wall of China, the Mausoleum of the First Qin Emperor, and Mohenjo-daro satisfy them, connecting to the parallel world heritage discussion in K07."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates all three evidence method nodes into the descriptor's final demand — understanding why the methods, the sources, and the sites they investigate matter enough to conserve. Students must connect the value of archaeological evidence (Nodes 1–3) to the ethical and practical imperative to protect it. Conservation is the 'so what' that completes the descriptor's arc.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The conservation and repatriation debates — Abu Simbel, Elgin Marbles, world heritage criteria — are substantive, contemporary, and ethically rich. Advancing students can engage meaningfully with questions about cultural ownership, international responsibility, and the tension between research access and conservation. This node also creates a direct thematic link to K07's repatriation discussion, enabling cross-unit synthesis.",
+        "success_criteria": [
+          "Explains why conservation matters — that lost evidence cannot be recovered and that the past is irreplaceable.",
+          "Identifies at least one specific threat to heritage sites (infrastructure, looting, neglect) and one protective mechanism (UNESCO, national legislation).",
+          "Describes at least one specific case — Abu Simbel, Elgin Marbles, or a world heritage site — in the context of conservation or repatriation."
+        ],
+        "related_standards": ["AC9HH7K07", "AC9HH7K09", "AC9HH7S03", "AC9HH7S04"]
+      }
+    ]
+  }
+}

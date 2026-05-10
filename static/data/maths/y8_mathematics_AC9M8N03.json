@@ -1,0 +1,72 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8N03",
+    "title": "Terminating and Recurring Decimals",
+    "strand": "Number",
+    "description": "recognise terminating and recurring decimals, using digital tools as appropriate",
+    "mode": "A",
+    "prior_knowledge": "Students can convert fractions to decimals and understand that some fractions produce repeating decimals (from AC9M7N04). Students understand prime factorisation (from AC9M7N02).",
+    "progression_endpoint": "Students recognise terminating and recurring decimals and identify from the prime factorisation of the denominator whether a fraction produces a terminating decimal.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying terminating and recurring decimals",
+        "progression_checkpoint": "Students distinguish terminating from recurring decimals and use correct notation for recurring decimals.",
+        "minimum_width": "Classify given fractions as terminating or recurring by division; write recurring decimals using dot or bar notation.",
+        "typical_width": "Identify terminating, recurring and non-terminating (irrational) decimals; use digital tools to explore the decimal expansion of fractions; apply correct notation.",
+        "wider": [
+          "Investigate the length of the repeating cycle for unit fractions (1/7, 1/11, 1/13) and look for patterns — connect to divisibility.",
+          "Explore why 0.999... = 1 using the recurring decimal as an argument — discuss what this tells us about real number representation."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often believe all fractions terminate or that recurring means 'goes on forever randomly'. Multiple examples across different denominators resolve these misconceptions.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to predict termination from prime factorisation — students who cannot reliably classify a decimal as terminating or recurring by inspection cannot verify whether their prime factorisation prediction is correct.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly classifies a fraction's decimal expansion as terminating or recurring.",
+          "Writes a recurring decimal using correct notation.",
+          "Does not confuse recurring with irrational (non-terminating, non-recurring)."
+        ],
+        "related_standards": ["AC9M8N01", "AC9M7N04"]
+      },
+      {
+        "id": 2,
+        "label": "Predicting termination from prime factorisation of denominator",
+        "progression_checkpoint": "Students identify whether a fraction terminates by examining whether the prime factorisation of the denominator contains only factors of 2 and/or 5.",
+        "minimum_width": "State the rule and apply it to determine whether a given fraction terminates, without performing the division.",
+        "typical_width": "Apply the rule across a range of fractions including those in non-simplest form; explain why denominators with only 2s and 5s produce terminating decimals.",
+        "wider": [
+          "Investigate why only factors of 2 and 5 produce terminating decimals in base 10 — connect to the structure of our number system and how this would differ in base 12.",
+          "Explore mixed examples where simplification first is required before applying the rule."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The connection between prime factorisation and decimal behaviour requires an explicit logical chain that students rarely construct spontaneously. A scaffold linking the denominator structure to the decimal base is needed.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection to base 10 structure and how the rule would differ in other bases is genuinely rich for advancing students — it connects number theory to the arbitrary choices embedded in our numeration system.",
+        "success_criteria": [
+          "Correctly predicts whether a fraction terminates from its denominator's prime factorisation.",
+          "Explains why the rule works (connection to base 10).",
+          "Simplifies fractions first where necessary before applying the rule."
+        ],
+        "related_standards": ["AC9M7N02", "AC9M8N01"]
+      }
+    ]
+  }
+}

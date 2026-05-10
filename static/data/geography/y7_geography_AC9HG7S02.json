@@ -1,0 +1,128 @@
+{
+  "year_level": "7",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG7S02",
+    "title": "Collect, organise and represent geographical data",
+    "description": "collect, organise and represent data and information from primary research methods, including fieldwork and secondary research materials, using geospatial technologies and digital tools as appropriate",
+    "strand": "Geographical Inquiry and Skills",
+    "mode": "B",
+    "prior_knowledge": "Students have prior data collection and organisation skills from F–6 HASS (AC9HS6S02: locate, collect and organise information and data from primary and secondary sources in a range of formats). This standard introduces geospatial technologies, specialist digital tools, cartographic conventions and the distinction between primary fieldwork methods and secondary research materials in a specifically geographical context.",
+    "progression_endpoint": "Students collect, organise and represent geographical data from primary and secondary sources using appropriate geospatial technologies, digital tools and cartographic conventions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Primary fieldwork methods for geographical data",
+        "progression_checkpoint": "Students can identify appropriate primary research methods for a geographical inquiry, including fieldwork, and use specialised digital tools to collect original materials.",
+        "minimum_width": "Students identify at least two primary fieldwork methods appropriate to a geographical inquiry and explain what kind of data each produces.",
+        "typical_width": "Students identify appropriate primary research methods including interview and survey data, photographs of streetscapes, annotated field sketches, diagrams and statistics related to liveability or water — and use specialised digital tools (e.g. survey platforms, mapping apps) to collect original materials from a field context.",
+        "wider": [
+          "Conduct fieldwork using at least two different primary methods (e.g. survey + field sketch + photographs) and reflect on what each method captures and what it misses",
+          "Design a fieldwork data collection protocol including the questions, observation prompts and recording formats needed — evaluate the protocol before going to the field",
+          "Compare fieldwork data collected using different methods for the same site and identify agreements and discrepancies"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot select appropriate primary methods and tools for a geographical inquiry will produce data that does not match the inquiry question. The mismatch between question, method and data undermines the entire inquiry cycle — analysis and conclusion cannot proceed meaningfully from poorly matched data.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Selecting a primary method requires reasoning about what data type the question needs and which method produces that type. Scaffolding: inquiry question → data type needed → method that produces that data type → tool for that method. This chain prevents method selection by familiarity rather than fitness.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two primary research methods appropriate to a specific geographical inquiry question and explains what data each produces.",
+          "Uses at least one digital tool to support primary data collection and explains why it was selected."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Secondary research: finding and selecting relevant materials",
+        "progression_checkpoint": "Students can collect relevant secondary research materials using advanced search functions, evaluating relevance and reliability.",
+        "minimum_width": "Students locate at least two relevant secondary sources for a geographical inquiry and explain why each is relevant.",
+        "typical_width": "Students collect relevant secondary research materials — print and online publications, photographs, images, statistical datasets — using advanced search functions (e.g. specific field search operators) and explain the criteria used to assess relevance and reliability.",
+        "wider": [
+          "Compare two secondary sources on the same topic (e.g. two reports on water scarcity in a region) and evaluate their reliability, currency and perspective",
+          "Examine the difference between primary and secondary use of the same material — e.g. an aerial photograph used as primary evidence of current land use vs used as secondary evidence from a historical archive",
+          "Practise advanced search operators to narrow results to relevant sources and evaluate whether the results are genuinely more useful"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reliable source selection requires repeated practice with explicit criteria. Students need multiple search exercises with structured reflection on what was found and why it was or was not suitable."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Locates at least two secondary sources relevant to a geographical inquiry question and explains the criteria used to assess each source's relevance.",
+          "Uses at least one advanced search method to find sources and reflects on how it improved search results."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Representing data in appropriate geographical formats",
+        "progression_checkpoint": "Students can represent geographical data and information in formats appropriate to the data type and inquiry question — including tables, graphs, and geospatial representations.",
+        "minimum_width": "Students represent collected data in at least one appropriate format and explain why that format was chosen.",
+        "typical_width": "Students represent data in appropriate formats — combining primary research data into questionnaires, tables or graphs; representing spatial information using cartographic conventions in maps at different scales using computer mapping tools.",
+        "wider": [
+          "Represent the same dataset in two different formats (e.g. table and choropleth map) and evaluate which better communicates the spatial pattern",
+          "Construct a map conforming to full cartographic conventions (title, scale, north arrow, legend, projection note) for a geographical distribution and evaluate its accuracy and readability",
+          "Use geospatial software (e.g. Google My Maps, ArcGIS Online) to represent spatial data and reflect on how digital tools alter what can be represented and communicated"
+        ],
+        "hinge": true,
+        "hinge_reason": "Data representation is the bridge between collection and analysis. Students who cannot represent data in geographically appropriate formats — particularly spatial representation with cartographic conventions — cannot engage with S03 pattern and trend analysis. A table where a map is needed, or a map without conventions, prevents spatial pattern reading.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Cartographic conventions require repeated practice to apply correctly and consistently. Students need practice constructing maps with all required conventions — not just exposure to examples.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Representing both spatial (map) and non-spatial (graph, table) data, and comparing which format serves which question, builds genuine understanding of representation as a communication choice.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Format selection as a deliberate communication choice — not just a technical requirement — is a sophisticated data literacy skill. Students who can argue for their format choice based on what the data type demands are developing transferable analytical reasoning.",
+        "success_criteria": [
+          "Represents geographical data in at least one format (map, table, graph) that is appropriate to the data type and inquiry question.",
+          "Applies cartographic conventions (title, scale, north arrow, legend) to any map produced."
+        ],
+        "related_standards": ["AC9HG7S03"]
+      },
+      {
+        "id": 4,
+        "label": "Integration: collect, organise and represent in an inquiry context",
+        "progression_checkpoint": "Students collect, organise and represent data from primary and secondary sources using appropriate geospatial and digital tools — producing a coherent evidence base for a geographical inquiry.",
+        "minimum_width": "Students produce a small evidence base (at least one primary and one secondary source) organised and represented in appropriate formats for a specific inquiry question.",
+        "typical_width": "Students produce an evidence base for a geographical inquiry that combines primary and secondary data, organises it into appropriate formats, uses geospatial technologies where applicable, and presents it in forms that support analysis of the inquiry question.",
+        "wider": [
+          "Develop a full evidence base for a geographical inquiry using at least three different data sources and two different representation formats — evaluate which combinations produce the most useful analytical base",
+          "Reflect on the quality of the evidence base produced: which inquiry questions are well-supported and which have evidence gaps? What would strengthen the base?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The integration node connects the three earlier nodes — method selection, source finding, representation — into a coherent evidence base for a specific inquiry. The performance is the production of evidence fit for purpose, not the demonstration of each skill in isolation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces an evidence base using at least one primary and one secondary source, represented in appropriate formats for the inquiry question.",
+          "Reflects on one limitation or gap in the evidence base and explains what additional evidence would address it."
+        ],
+        "related_standards": ["AC9HG7S01", "AC9HG7S03", "AC9HG7S04"]
+      }
+    ]
+  }
+}

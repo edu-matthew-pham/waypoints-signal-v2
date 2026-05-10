@@ -1,0 +1,109 @@
+{
+  "year_level": "5-6",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDE6P02",
+    "title": "Iterate and communicate designs",
+    "description": "Generate, iterate and communicate design ideas, decisions and processes using technical terms and graphical representation techniques, including using digital tools",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can generate and communicate design ideas and decisions using appropriate attributions, technical terms and graphical representation techniques (AC9TDE4P02). They have generated and communicated ideas. They have not yet iterated \u2014 systematically refining designs based on evaluation \u2014 or used the full range of representation techniques including scale, symbols, digital mapping and modelling tools.",
+    "progression_endpoint": "Students generate a range of design ideas, iterate and improve them based on evaluation, and communicate decisions and processes using technical terms and graphical representation including digital tools.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Generating design ideas using prior knowledge and research",
+        "progression_checkpoint": "Students can generate a range of design ideas for a product, service or environment drawing on prior knowledge, skills and research",
+        "minimum_width": "Generate at least two distinct design ideas for the same need, drawing on prior knowledge and at least one research source",
+        "typical_width": "Generate a range of design ideas for products, services or environments using prior knowledge, skills and research; represent ideas through sketches, diagrams or models; consider functional, aesthetic and sustainability dimensions across ideas",
+        "wider": [
+          "Generate design ideas for an eco-friendly alternative to a non-recyclable product used in a community event \u2014 researching what sustainable alternatives exist before generating original ideas",
+          "Generate design ideas for an animal enclosure using modelling applications \u2014 iterating the layout and features based on the animal's environmental and behavioural needs",
+          "Consider the social values and ethics of clients when designing an environment \u2014 interviewing users of a space or seeking permission for designs/images from others, including respect for cultural and intellectual property"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students who only ever design the first thing they think of have a narrow ideation repertoire. Accumulated experience generating ideas across different product, service and environment types \u2014 each with different constraints \u2014 builds the range students can draw on when a novel design problem is encountered."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Generates at least two meaningfully distinct design ideas",
+          "Ideas are grounded in at least one source of prior knowledge or research"
+        ],
+        "related_standards": [
+          "AC9TDE4P02",
+          "AC9TDE6P01",
+          "AC9TDE6P04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 2,
+        "label": "Representing design ideas using technical terms and graphical techniques",
+        "progression_checkpoint": "Students can represent and communicate design ideas using appropriate graphical techniques \u2014 including scale, symbols, plans, aerial views and digital tools",
+        "minimum_width": "Represent at least one design idea using a labelled diagram or plan that includes at least one graphical convention (scale, symbols, or codes)",
+        "typical_width": "Represent design ideas using a range of techniques \u2014 plans with scale and symbols, pictorial maps, aerial views, digital mapping tools or infographics; use appropriate technical terms when describing designs to others; select the representation technique that best communicates the design intent",
+        "wider": [
+          "Use a digital modelling or mapping application to represent a design idea \u2014 for example, designing the layout and features of an animal enclosure or a community garden using digital tools",
+          "Create an infographic that presents research and design ideas to others \u2014 combining visual representation with supporting data and technical terms",
+          "Represent a design using pictorial maps and aerial views, explaining why this technique communicates the spatial relationships better than a flat plan"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students default to a single familiar representation technique (e.g. a labelled sketch) regardless of what the design problem needs. Different design contexts that call for different techniques \u2014 aerial view for a garden layout, diagram with symbols for a circuit, 3D model for a structure \u2014 build representation repertoire.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least one graphical convention (scale, symbols, codes, or aerial view) in a design representation",
+          "Uses technical terms to describe at least one design decision"
+        ],
+        "related_standards": [],
+        "hinge": true,
+        "hinge_reason": "A design idea that has not been clearly represented using graphical conventions cannot be systematically analysed or modified in N3 \u2014 iteration requires a stable, readable design artifact to work from. Students who cannot represent ideas cannot iterate on them."
+      },
+      {
+        "id": 3,
+        "label": "Iterating designs based on evaluation",
+        "progression_checkpoint": "Students can analyse and modify a design idea to improve it \u2014 iterating based on sustainability, function or feedback",
+        "minimum_width": "Identify at least one weakness or gap in a design idea and describe a modification that addresses it",
+        "typical_width": "Analyse a design idea against functional, sustainability and aesthetic criteria; modify and develop the design to improve it \u2014 documenting what changed and why; use materials, tools or equipment experimentally to refine design decisions before committing to a final approach",
+        "wider": [
+          "Analyse eco-friendly alternatives to non-recyclable decorations for a community event \u2014 iterating the design to improve sustainability while maintaining function and aesthetics",
+          "Use modelling (physical or digital) to test and iterate a design idea \u2014 for example, trialling material joining techniques or component arrangements before making final choices",
+          "Replace a paper-based process with a digital equivalent (e.g. newsletters with online formats) \u2014 iterating the design to meet the same communication need more sustainably"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Iteration integrates the evaluation from node 1 (what are the criteria?) and the representation skills from node 2 (how to document changes?) into a design improvement act. Students who generate and evaluate but don't modify have completed analysis but not design iteration \u2014 the modification is the learning.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The physical and digital modelling contexts are rich \u2014 they give iteration a visible, testable form where the modification's effect on performance can be observed, which makes the iterate-to-improve cycle concrete rather than abstract.",
+        "success_criteria": [
+          "Identifies at least one design weakness based on a criterion",
+          "Describes a modification that addresses the identified weakness and explains why"
+        ],
+        "related_standards": [
+          "AC9TDE6P04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

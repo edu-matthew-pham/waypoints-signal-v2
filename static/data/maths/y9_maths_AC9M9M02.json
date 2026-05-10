@@ -1,0 +1,101 @@
+{
+  "year_level": "9",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M9M02",
+    "title": "Scientific Notation",
+    "description": "solve problems involving very small and very large measurements, time scales and intervals expressed in scientific notation",
+    "strand": "Measurement",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise and use rates to solve problems involving the comparison of related quantities (AC9M8M05). They have not yet represented very large or very small quantities in scientific notation or performed calculations with values in scientific notation.",
+    "progression_endpoint": "Students represent very large and very small measurements in scientific notation, convert between forms, and solve problems using scientific notation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Converting to and from scientific notation",
+        "progression_checkpoint": "Students can convert numbers between decimal form and scientific notation in both directions.",
+        "minimum_width": "Convert two numbers to scientific notation (one large, one small) and convert two numbers from scientific notation to decimal form; verify by checking the position of the decimal point relative to the power of 10.",
+        "typical_width": "Convert a range of very large and very small numbers between decimal and scientific notation; explain why scientific notation requires a coefficient between 1 and 10; connect the exponent to place value and decimal point movement.",
+        "wider": [
+          "Investigate examples from science and engineering (geological time scales, molecular masses, astronomical distances) \u2014 practise conversion in context",
+          "Explore how calculators display numbers in scientific notation and what limits cause the switch from standard to scientific display",
+          "Connect scientific notation to SI unit prefixes (nano-, micro-, milli-, kilo-, mega-, giga-) and convert between prefix notation and scientific notation"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students commonly err on the sign of the exponent for small numbers (writing 0.0004 as 4\u00d710\u2074 instead of 4\u00d710\u207b\u2074). This is a precision-required mechanical skill that needs fluency before applications are introduced \u2014 repeated practice with both directions, especially for very small numbers, is the remedy.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly converts at least two large numbers and two small numbers to scientific notation",
+          "Correctly converts at least two scientific notation values back to decimal form",
+          "Uses a coefficient between 1 and 10 in every scientific notation expression"
+        ],
+        "related_standards": [
+          "AC9M9A01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Exponent sign errors on very small numbers (0.0004 \u2192 4\u00d710\u2074 instead of 4\u00d710\u207b\u2074) corrupt all calculations in N2 and applied contexts in N3. Reliable bidirectional conversion is the mechanical prerequisite for all subsequent work."
+      },
+      {
+        "id": 2,
+        "label": "Calculating with scientific notation",
+        "progression_checkpoint": "Students can perform calculations involving numbers expressed in scientific notation by applying exponent laws.",
+        "minimum_width": "Multiply and divide two numbers in scientific notation by applying the product and quotient exponent laws; express the result in correct scientific notation.",
+        "typical_width": "Perform a range of calculations (multiplication, division, and simple addition/subtraction with same exponent) with numbers in scientific notation; apply exponent laws correctly; express all results in scientific notation; use digital tools to verify or extend.",
+        "wider": [
+          "Investigate degree of measurement accuracy across different laboratory instruments (measuring cylinder vs pipette) \u2014 express readings in scientific notation and compare precision",
+          "Solve multi-step problems using scientific notation from science contexts (e.g. calculating the number of molecules in a sample given Avogadro's number and mass)",
+          "Explore how floating-point representation in computers uses scientific notation principles and what causes rounding errors in digital calculations"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly multiplies two numbers in scientific notation by multiplying coefficients and adding exponents",
+          "Correctly divides two numbers in scientific notation by dividing coefficients and subtracting exponents",
+          "Adjusts the result to ensure the coefficient is between 1 and 10 where required"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Applying scientific notation in context",
+        "progression_checkpoint": "Students can use scientific notation to solve problems involving very large or very small measurements and time scales.",
+        "minimum_width": "Solve one applied problem using scientific notation (e.g. comparing two very large or very small quantities); express the answer in scientific notation with appropriate units.",
+        "typical_width": "Solve a range of applied problems using scientific notation across science and measurement contexts; compare orders of magnitude; record measurements to the correct degree of accuracy; interpret scientific notation values meaningfully in context.",
+        "wider": [
+          "Investigate time scales in geology or astronomy \u2014 compare ages or distances as orders of magnitude and discuss what scientific notation makes tractable that standard notation cannot",
+          "Investigate the degree of accuracy provided by different measurement instruments and discuss how this relates to how many significant figures should be recorded",
+          "Explore how scientific notation is used in data storage and transmission contexts (e.g. comparing kilobytes, megabytes, gigabytes, terabytes)"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Applying scientific notation in context requires integrating conversion, calculation and contextual interpretation \u2014 including choosing appropriate precision and units. Students who can convert and calculate often struggle to interpret what a result means in scale terms (e.g. what does 4.6\u00d710\u2079 years actually represent?). Contextual application is where the three skills come together.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The orders-of-magnitude perspective is genuinely powerful \u2014 it gives students a sense of scale across the very small and very large that is both scientifically significant and conceptually rich. Students who explore diverse contexts develop intuition for relative magnitude that extends well beyond calculation.",
+        "success_criteria": [
+          "Correctly selects and applies scientific notation operations to solve an applied problem",
+          "States the answer in scientific notation with appropriate units",
+          "Interprets the result meaningfully in the context of the problem (e.g. explains what the order of magnitude means)"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

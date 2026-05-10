@@ -1,0 +1,94 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9K014",
+    "title": "Population Movements and Settlement Patterns 1750–1900",
+    "description": "the changing population movements and settlement patterns during the period 1750 to 1900",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students have studied pre-modern societies in Year 8, including Medieval Europe and early empires. They understand concepts of trade, migration, and social change in historical contexts. They have not yet studied industrialisation or the systematic drivers of modern population movement. This descriptor is closely related to AC9HH9K01 and AC9HH9K13 — it provides the demographic and settlement dimension of the broader Industrial Revolution and imperial expansion story.",
+    "progression_endpoint": "Students describe the changing population movements and settlement patterns during the period 1750 to 1900, and explain the causes driving these changes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Changing agricultural practices and rural-to-urban shift",
+        "progression_checkpoint": "Students can describe how changes in agricultural practices (enclosures, machinery) and the development of the factory system drove population movement from rural to urban areas.",
+        "minimum_width": "Describe one agricultural or industrial change that caused people to move from rural areas to cities.",
+        "typical_width": "Describe reasons for rural-to-urban population movement including enclosures, improvements in farm machinery, the development of the factory system, growth of cities as labour destinations, and the development of the steam engine as a transport enabler.",
+        "wider": [
+          "Investigate the enclosure movement in England and examine the human cost — the displacement of rural communities who had relied on common land — connecting agricultural change to the lived experience of ordinary people",
+          "Compare rural-to-urban migration patterns in Britain with those in continental Europe or the United States to assess whether the British pattern was unique or representative of industrialising societies",
+          "Examine early factory towns (e.g. Manchester, Birmingham) using primary source descriptions to understand the conditions that drew and trapped migrant workers"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding agricultural change as a push factor for rural-urban movement is foundational for the rest of the descriptor. If students do not understand how enclosures and machinery displaced agricultural workers, they will not be able to explain why cities grew rapidly or why industrial labour conditions were so exploitative — the whole settlement change story depends on this.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Explicitly connect cause (enclosures, machinery) to effect (displacement, urbanisation) before moving to broader patterns — students often describe change without explaining the causal mechanism.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Describes at least two causes of rural-to-urban movement (e.g. enclosures, factory development) with explanation of the mechanism",
+          "Explains how these changes altered settlement patterns — specifically the growth of industrial cities"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Industrial Revolution's role in labour demand and transport",
+        "progression_checkpoint": "Students can explain the role of the Industrial Revolution — particularly the steam engine and factory system — in creating demand for concentrated urban labour and reshaping transportation networks.",
+        "minimum_width": "Explain how the Industrial Revolution created demand for labour in cities, with one specific example.",
+        "typical_width": "Explain the role of the Industrial Revolution in creating a growing need for labour in factories and cities; explain how steam-powered transport (railways, steam ships) enabled larger-scale population movement both within countries and internationally.",
+        "wider": [
+          "Investigate how the development of the railway network physically reshaped the geography of settlement in Britain — connecting industrial towns and enabling both internal migration and the export of goods",
+          "Examine the steam ship's role in enabling mass transatlantic migration, and assess how cheaper and faster ocean travel changed the scale and demographics of international population movement",
+          "Investigate the relationship between labour demand and immigration policy — examining how governments and industrialists actively recruited labour from Ireland, continental Europe, or colonised regions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using both internal (factory cities) and international (trans-Atlantic) dimensions of industrial-era migration prevents students from narrowing the descriptor to British internal movement only."
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Explains the Industrial Revolution's role in generating urban labour demand with specific reference to the factory system",
+          "Identifies at least one way steam-powered transport enabled population movement at greater scale"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Push factors for specific forced and crisis-driven movements",
+        "progression_checkpoint": "Students can identify and describe the push factors driving the transatlantic slave trade, Irish Potato Famine emigration, and convict transportation, explaining how forced and crisis-driven movements differed from voluntary labour migration.",
+        "minimum_width": "Identify and describe the push factors for one of: the transatlantic slave trade, Irish Potato Famine emigration, or convict transportation.",
+        "typical_width": "Identify and describe the push factors for the transatlantic slave trade (commercial exploitation, African kingdoms' role, European demand), Irish Potato Famine emigration (agricultural failure, British colonial policy, starvation), and convict transportation (British criminal justice, social inequality); explain how these movements differed from voluntary migration by the degree of agency available to those who moved.",
+        "wider": [
+          "Examine the Irish Potato Famine using quantitative data (population before/after, emigration numbers, mortality) alongside British government policy responses to assess the interaction between natural disaster and colonial political decisions",
+          "Investigate the transatlantic slave trade from the perspective of its African dimension — including the role of West African kingdoms in the trade — to complicate a simple European-perpetrator/African-victim narrative",
+          "Compare the conditions experienced by convicts transported to Australia with those of free settlers arriving in the same period — assessing how destination experiences differed based on the nature of the movement"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The three movements (slave trade, famine emigration, convict transportation) represent very different relationships between push factors and agency — widening across all three is more valuable than depth on one.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing these three movement types illuminates a spectrum of human agency and coercion that is conceptually rich — it directly supports historical thinking about how circumstances constrain choices, and connects to broader themes about power, exploitation, and resistance.",
+        "success_criteria": [
+          "Identifies and describes the push factors for at least two distinct population movements of the period",
+          "Explains how agency differed between at least two movement types — distinguishing voluntary, crisis-driven, and forced migration"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "year_level": "F",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDIFP01",
+    "title": "Identify personal data",
+    "description": "identify some data that is personal and owned by them",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "This is the first privacy and personal data descriptor in the curriculum. Students have no prior DT knowledge assumed. They bring general awareness that some things belong to them. They have not yet connected the concept of ownership to data, or distinguished personal data from public data.",
+    "progression_endpoint": "Students identify some data that is personal and owned by them, and distinguish it from public data.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What personal data is",
+        "progression_checkpoint": "Students can identify examples of data that is personal \u2014 about them specifically \u2014 and explain that it belongs to them",
+        "minimum_width": "Identify at least two examples of personal data (e.g. a photo of themselves, their name, their family) and state that this data belongs to them",
+        "typical_width": "Identify multiple examples of personal data across different contexts (photos of themselves with family, their name, their home, their username in an online game); explain that personal data is about them and is owned by them",
+        "wider": [
+          "List things that contain personal data and things that contain public data \u2014 explain the difference (e.g. a photo of themselves with family is private; a photo of a local community site is public)",
+          "Identify where personal data could be made visible \u2014 for example photos on a parent's or carer's social media, or a username shown to others in an online game"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need multiple examples to build a reliable category for 'personal data' \u2014 a single example (my photo) does not generalise to name, address, username and other less obvious forms. Accumulating a range of examples of personal data across contexts builds the category before the personal/public distinction is introduced.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two examples of data that is personal to them",
+          "States that personal data belongs to them"
+        ],
+        "related_standards": [
+          "AC9TDI2P07"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a populated repertoire of personal data examples, Node 2's personal/public distinction has insufficient raw material \u2014 students cannot sort and reason about categories they cannot populate."
+      },
+      {
+        "id": 2,
+        "label": "Personal data vs public data",
+        "progression_checkpoint": "Students can distinguish between data that is personal (private, owned by them) and data that is public",
+        "minimum_width": "Sort at least two examples into personal and public categories; explain the difference in simple terms",
+        "typical_width": "Distinguish personal data from public data across multiple examples; explain why personal data is treated differently; begin to identify that personal data can be made visible through digital systems (photos on social media, usernames in games)",
+        "wider": [
+          "Discuss where personal data could be made visible online \u2014 for example photos of themselves on parents' or carers' social media, or a username shown to others in an online game \u2014 and explain why this matters",
+          "Compare a photo of themselves with their family (personal/private) with a photo of a local community site (public) \u2014 explain why each is treated differently"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Distinguishing personal from public data requires students to reason about who the data is about and who should control it \u2014 not just categorise examples. Scaffolding the reasoning (is this about you? does it show your family or your private life? who else can see it?) builds the judgement behind the category, not just a memorised list.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The 'where personal data can be made visible' direction (social media, game usernames) is rich for Foundation \u2014 it connects the abstract concept of personal data to a concrete, recognisable digital context, making ownership and visibility genuinely meaningful rather than theoretical.",
+        "success_criteria": [
+          "Correctly sorts at least two examples into personal and public categories",
+          "Explains in simple terms why personal data is treated differently from public data"
+        ],
+        "related_standards": [
+          "AC9TDI2P05",
+          "AC9TDI2P07"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

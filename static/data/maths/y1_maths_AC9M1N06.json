@@ -1,0 +1,94 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1N06",
+    "title": "Model sharing and grouping",
+    "description": "Use mathematical modelling to solve practical problems involving equal sharing and grouping; represent the situations with diagrams, physical and virtual materials, and use calculation strategies to solve the problem",
+    "strand": "Number and Algebra",
+    "mode": "B",
+    "prior_knowledge": "Students can represent practical equal sharing and grouping situations using materials (AC9MFN06). They can add and subtract within 20 using calculation strategies (AC9M1N04). They have not yet modelled sharing and grouping using structured representations (diagrams, Think Boards) and calculation strategies, or connected equal grouping to the idea of repeated equal quantities.",
+    "progression_endpoint": "Students use mathematical modelling to solve practical problems involving equal sharing and grouping; represent the situations with diagrams, physical and virtual materials, and use calculation strategies to solve the problem.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Distinguish sharing from grouping",
+        "progression_checkpoint": "Students can identify whether a practical situation involves equal sharing (distributing a total among a known number of recipients) or equal grouping (making groups of a known size).",
+        "minimum_width": "Describe one sharing situation and one grouping situation; explain what is known and what is unknown in each.",
+        "typical_width": "Identify and distinguish equal sharing and equal grouping situations from a variety of practical contexts; explain the known and unknown quantities in each type; use materials to model the action in each case.",
+        "wider": [
+          "Compare sharing and grouping situations with the same numbers (e.g. 12 objects shared among 3 vs 12 objects in groups of 3) — identifying what stays the same and what is different in each.",
+          "Explore sharing and grouping contexts from everyday community and school life, including contexts drawn from First Nations community practices."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently confuse sharing and grouping because both involve equal quantities. Varied practical contexts help students focus on the distinction — what is fixed (total, number of groups, or group size) — rather than recognising only one type of situation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Confusing sharing and grouping structures causes students to misidentify what is known and unknown in Node 2 and Node 3 — they model the wrong situation and apply the wrong solution strategy as a result.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies whether a described situation involves sharing or grouping.",
+          "States what is known and what needs to be found in each situation type."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Represent with materials and diagrams",
+        "progression_checkpoint": "Students can model an equal sharing or grouping situation using physical materials, a drawing and a number recording, explaining the connections between each.",
+        "minimum_width": "Model one sharing or grouping problem using physical materials; draw a picture to represent the action; record the result as a number.",
+        "typical_width": "Model sharing and grouping situations using physical materials and diagrams; include money contexts (sharing coins equally between recipients); use subitising and counting to verify equal groups; draw representations showing the groups clearly; record results.",
+        "wider": [
+          "Represent the same sharing problem using three formats — physical objects, array diagram, number sentence — and explain which representation makes the equal-groups structure most visible.",
+          "Model sharing problems with coin collections, sorting by denomination and verifying equal amounts using counting and subitising."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The 'dealing' action students use to share physically does not automatically translate to a diagram or number recording. Explicitly scaffolding the move from action to picture to number is the key teaching investment at this node.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot represent a sharing or grouping action as a diagram or number record, they cannot apply a calculation strategy in Node 3 — the representation is the bridge between the concrete action and the symbolic solution.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a physical or drawn representation that correctly shows the equal groups.",
+          "Records the result as a number and confirms that all groups are equal."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Solve and communicate equal-groups problems",
+        "progression_checkpoint": "Students can apply a calculation strategy to solve equal sharing and grouping problems and communicate the solution in terms of the problem context.",
+        "minimum_width": "Solve one sharing or grouping problem using a calculation strategy; state the answer in terms of the original problem.",
+        "typical_width": "Solve a variety of sharing and grouping problems using calculation strategies (skip counting, repeated addition, subitising); record solutions; explain the answer in the context of the problem; connect repeated equal groups to the idea that each share is the same.",
+        "wider": [
+          "Connect equal grouping to early multiplicative thinking — representing 'How many wheels on 3 cars?' as both repeated addition (4 + 4 + 4) and as an equal-groups diagram, and describing what is the same in each.",
+          "Explore open-ended grouping problems where multiple solutions are possible (e.g. 'Arrange 24 objects into equal groups — how many different ways can you do this?')."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Solving equal sharing and grouping problems requires students to interpret the situation, choose an appropriate representation, apply a calculation strategy, and explain the answer in context — all simultaneously. This node is the integration point for the modelling cycle applied to multiplicative-type situations.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Equal grouping problems are the conceptual entry point to multiplication and division. Students who understand the equal-groups structure at this level — and can represent it in multiple ways — are building multiplicative thinking that becomes central in Years 2 and 3.",
+        "success_criteria": [
+          "Solves a sharing or grouping problem using a calculation strategy (not trial and error with materials alone).",
+          "States the answer in context and confirms that all groups are equal."
+        ]
+      }
+    ]
+  }
+}

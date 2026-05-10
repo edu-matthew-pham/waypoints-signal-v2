@@ -1,0 +1,69 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5H01",
+    "title": "Science Collaboration and Building on Others' Work",
+    "description": "examine why advances in science are often the result of collaboration or build on the work of others",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students can examine how data is used to develop scientific explanations (AC9S3H01, 3-4 band). They have not yet examined the collaborative and cumulative nature of science — the idea that advances typically require multiple people, disciplines and prior discoveries.",
+    "progression_endpoint": "Students examine real examples of scientific advances that required collaboration across disciplines, institutions or cultures, or that built on the prior work of others — explaining why scientific knowledge advances more effectively through collective effort than individual work alone.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Scientific advances build on prior work",
+        "progression_checkpoint": "Students can describe at least one example where a scientific advance built on the prior work of others, explaining what earlier knowledge was required and how the new discovery extended or depended on it.",
+        "minimum_width": "Students describe one example where a scientific discovery built on the prior work of others, identifying the earlier work and the new contribution.",
+        "typical_width": "Students examine multiple examples where scientific understanding developed cumulatively — including the history of optics (Plato, Euclid, Ibn al-Haytham, Bacon) — explaining how each contribution added to or refined what came before, and why no single scientist could have made all contributions alone.",
+        "wider": [
+          "Explore how understanding of light and optics developed through contributions from Plato, Euclid, Ptolemy, Ibn al-Haytham and Roger Bacon — examining how ideas from different cultures and centuries built a cumulative scientific understanding",
+          "Investigate how contemporary soil erosion management adapts and builds on First Nations Australians' fire management and agricultural practices — examining how traditional ecological knowledge informs current scientific practice",
+          "Research why European naturalists initially rejected the platypus as a faked animal and how ongoing collaborative research has continued to reveal its features and behaviours"
+        ],
+        "hinge": true,
+        "hinge_reason": "The cumulative-science concept is foundational to the H strand at Y5 — students who retain the 'eureka individual' model will be unable to meaningfully engage with Node 2's collaboration framing, and will misread H01-linked cross-strand references throughout U and I nodes.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students tend to think of science as a series of individual 'eureka' moments rather than as a cumulative process where each advance depends on prior work. Making the dependency chain explicit — what prior knowledge was required → what new contribution was made → what it made possible for others — is the scaffold that produces genuine understanding of science as a cumulative human endeavour.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The history of optics across cultures and centuries provides a rich, elaboration-grounded direction. The First Nations land management direction shows cumulative knowledge building across generations rather than across individual scientists — broadening the concept of scientific knowledge accumulation.",
+        "success_criteria": [
+          "Describes one example of a scientific advance that built on prior work",
+          "Identifies the earlier knowledge that was required and explains how the new contribution depended on it"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Collaboration across disciplines and institutions advances science",
+        "progression_checkpoint": "Students can explain why complex scientific questions often require collaboration across disciplines, institutions or countries, and describe at least one example where such collaboration produced an advance.",
+        "minimum_width": "Students describe one example of scientific collaboration across at least two disciplines or groups, explaining what each contributed and why collaboration was necessary.",
+        "typical_width": "Students examine multiple collaboration examples — including ecologists collaborating with engineers and computer scientists for remote sensing, and geologists/hydrologists/farmers collaborating on erosion mitigation — explaining what each discipline contributes and why the question could not be answered by one discipline alone.",
+        "wider": [
+          "Explore how developing erosion mitigation techniques (contour banks, strip cropping) requires collaboration across geologists, hydrologists and farmers — examining what each brings to the problem",
+          "Research how the discovery of biofluorescent mammals (flying squirrel → wombats, bilbies, echidnas) led to international scientific collaboration across fields — examining how one discovery opened a line of collaborative inquiry",
+          "Examine why international collaboration is necessary for questions about climate, ecosystems and space — exploring the scale and complexity that require distributed scientific effort"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to imagine scientists as lone individuals working in isolation. Encountering collaboration at different scales — across disciplines within a project, across institutions nationally, across countries internationally — builds a more accurate and complete model of how science actually operates."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes one example of collaboration across at least two disciplines or groups",
+          "Explains what each contributor brought to the collaboration and why a single discipline could not have answered the question alone"
+        ]
+      }
+    ]
+  }
+}

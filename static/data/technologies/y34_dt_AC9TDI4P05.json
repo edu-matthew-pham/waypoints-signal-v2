@@ -1,0 +1,107 @@
+{
+  "year_level": "3-4",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI4P05",
+    "title": "Evaluate solutions against design criteria",
+    "description": "discuss how existing and student solutions satisfy the design criteria and user stories",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can discuss how existing digital systems satisfy identified needs for known users (AC9TDI2P03). They have discussed fit-for-purpose at a general level. They have not yet evaluated solutions explicitly against design criteria and user stories as structured evaluation tools.",
+    "progression_endpoint": "Students discuss how both existing digital solutions and their own student-created solutions satisfy specific design criteria and user stories, giving reasons grounded in the criteria.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Describing what a solution does for users",
+        "progression_checkpoint": "Students can describe what an existing digital solution does and who it helps",
+        "minimum_width": "Describe one existing digital solution and explain what task it helps users complete",
+        "typical_width": "Describe how familiar digital solutions (maps, online orders, interactive directories) allow users to complete specific tasks; identify who benefits and what need each solution addresses",
+        "wider": [
+          "Investigate how a digital solution used in a First Nations community context (e.g. GPS tools for ranger land management) helps specific users \u2014 describe what the tool does and who it helps in that context",
+          "Describe how library management systems help different users (librarians tracking loans, students finding books) \u2014 discuss how the same solution serves different user needs simultaneously"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one task the solution helps users complete",
+          "Identifies the user group the solution is designed for"
+        ],
+        "related_standards": [
+          "AC9TDI4P01"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot describe what a solution does for users cannot perform criteria evaluation in N2 \u2014 evaluation requires knowing what the solution actually does before checking it against criteria."
+      },
+      {
+        "id": 2,
+        "label": "Evaluating against design criteria",
+        "progression_checkpoint": "Students can check a solution against specific design criteria and state whether each criterion is met with a reason",
+        "minimum_width": "Given a solution and one or two criteria, state whether each criterion is met and give one reason",
+        "typical_width": "Evaluate an existing or student solution against a set of design criteria; for each criterion, state whether it is met and provide a reason; identify criteria the solution meets well and criteria it partially or does not meet",
+        "wider": [
+          "Evaluate a digital solution against criteria that include accessibility or equity considerations \u2014 for example, a solution that works well for urban users but fails for users in areas with limited connectivity",
+          "Evaluate a student-created game against criteria from both the designer's and a classmate's perspective \u2014 discuss how the same solution can be judged differently depending on who is evaluating"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluation against criteria requires students to make a criterion-by-criterion judgement move rather than a general impression. Scaffolding the process (identify the criterion \u2192 check the solution against it \u2192 state whether it is met \u2192 give a reason) prevents students from evaluating by opinion alone.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States clearly whether a criterion is met",
+          "Gives a reason that references a specific feature of the solution, not just a general impression"
+        ],
+        "related_standards": [
+          "AC9TDI4P01",
+          "AC9TDI4P03"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who evaluate by general impression rather than criterion-by-criterion reasoning cannot engage with N3's user story evaluation \u2014 both require the same structured judgement move applied to different frameworks."
+      },
+      {
+        "id": 3,
+        "label": "Evaluating against user stories",
+        "progression_checkpoint": "Students can check a solution against a user story and discuss how well it meets the user's need and purpose",
+        "minimum_width": "Given a solution and one user story, discuss whether the solution meets the user's need and purpose",
+        "typical_width": "Evaluate existing and student solutions against user stories for different contexts; discuss how well the solution meets both the need and the purpose (the 'so that' part) of the user story; identify gaps between what was designed and what was needed",
+        "wider": [
+          "Evaluate a solution from the perspective of a user story you did not write \u2014 for example, evaluate a classmate's game against their user story and discuss whether the solution meets needs you might not have anticipated",
+          "Discuss a case where a solution meets the stated need but not the underlying purpose \u2014 for example, a tool that works technically but is too complex for the actual user to use"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly evaluate whether the need is met but overlook the 'so that' purpose. Evaluating across different user stories \u2014 especially others' user stories \u2014 builds the habit of checking both what a solution does and whether it achieves the intended outcome."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates the design criteria evaluation from node 2 with user story evaluation \u2014 applying both simultaneously to assess a solution from multiple lenses. The integration is the learning: criteria and user stories together give a more complete evaluation than either alone.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating solutions where the stated need and underlying purpose diverge \u2014 or where different users interpret the same solution differently \u2014 is rich, generative territory. Students encounter the genuine complexity of design evaluation that goes well beyond 'does it work?'",
+        "success_criteria": [
+          "References both the user's need and purpose when evaluating",
+          "Identifies at least one thing the solution does well and one gap or limitation"
+        ],
+        "related_standards": [
+          "AC9TDI4P01",
+          "AC9TDI4P03"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

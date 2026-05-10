@@ -1,0 +1,87 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4ST01",
+    "title": "Many-to-one data displays",
+    "description": "Acquire data for categorical and discrete numerical variables to address a question of interest or purpose, using digital tools; represent data using many-to-one pictographs, column graphs and other displays or visualisations; interpret and discuss the information that has been created",
+    "strand": "Statistics",
+    "mode": "B",
+    "prior_knowledge": "Students can collect categorical and discrete numerical data and record using frequency tables (AC9M3ST01). They have not yet used many-to-one displays where one symbol represents multiple data points.",
+    "progression_endpoint": "Students acquire data, represent it using many-to-one displays, and interpret and discuss the information shown.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Many-to-one representation",
+        "progression_checkpoint": "Students can explain and interpret many-to-one pictographs and column graphs where one symbol or unit represents more than one data point.",
+        "minimum_width": "Interpret one many-to-one pictograph; identify the key value (what one symbol represents); answer one question about the data.",
+        "typical_width": "Interpret many-to-one pictographs and column graphs, including reading the key value, answering questions and identifying the most/least common categories; explain why reading the key before making judgements is essential; distinguish many-to-one from one-to-one displays.",
+        "wider": [
+          "Investigate how digital platforms generate word clouds, quizzes and graphical summaries from collected poll data — connecting data representation to real AI-powered tools",
+          "Compare many-to-one representations with different key values for the same data set, discussing how the choice of scale affects readability and impression"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only work with one-to-one displays may misread many-to-one displays by counting symbols without applying the key. Encountering multiple displays with different key values — including poorly chosen scales — develops the habit of reading the key first.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not apply the key when reading many-to-one displays will systematically misinterpret data in Node 3 — constructing displays with an inappropriate key value, or interpreting their own display by counting units rather than applying the scale. The key-first habit must be in place before construction.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can read the key of a many-to-one display and use it to accurately interpret the data",
+          "Students can explain what one symbol or column unit represents in a given display"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Acquire and record data",
+        "progression_checkpoint": "Students can acquire data for a question of interest using appropriate methods and record using digital tools.",
+        "minimum_width": "Collect data for one question using observation or a simple survey; record in a tally chart or digital table.",
+        "typical_width": "Acquire data through surveys, observations, experiments and repeated chance trials; record using tally charts, digital tables and spreadsheets; use digital tools for data organisation; collect data across categorical and discrete numerical variables.",
+        "wider": [
+          "Use secondary data about fire burns to construct data displays that assist First Nations Ranger Groups and other groups to care for Country/Place",
+          "Co-create an online poll and explore how the platform generates graphical summaries of the responses, comparing the automated display with a student-made column graph of the same data"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can collect data for a question of interest and record it in an organised format",
+          "Students can identify whether their variable is categorical or discrete numerical"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Construct and interpret displays",
+        "progression_checkpoint": "Students can construct a many-to-one display and interpret and discuss the information it reveals.",
+        "minimum_width": "Construct one many-to-one column graph or pictograph from collected data using a digital tool; identify and discuss one feature of the data.",
+        "typical_width": "Construct many-to-one pictographs and column graphs using digital tools; interpret displays by describing the distribution and identifying patterns; discuss what the data shows in relation to the original question; make at least one inference beyond the immediate data.",
+        "wider": [
+          "Construct displays of science experiment data and interpret them in terms of the scientific investigation — connecting statistics to cross-curriculum science inquiry",
+          "Acquire and graph data from repeated chance experiments, comparing column graphs across multiple trials and connecting the statistical variation to probability concepts"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Constructing and interpreting a data display is an integration task — students coordinate data collection, representation decisions, key value choices, and interpretation simultaneously. The quality of the interpretation reveals whether the full statistical inquiry cycle is understood."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Many-to-one displays in real contexts — including science experiments, chance investigations, and community data — give statistics a genuine purpose and connect data representation to authentic questions.",
+        "success_criteria": [
+          "Students can construct a many-to-one display using a digital tool, including an appropriate key",
+          "Students can interpret their display by identifying and discussing at least two features of the data"
+        ]
+      }
+    ]
+  }
+}

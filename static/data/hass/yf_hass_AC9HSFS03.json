@@ -1,0 +1,68 @@
+{
+  "year_level": "F",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HSFS03",
+    "title": "Share a perspective",
+    "description": "share a perspective on information, such as stories about significant events and special places",
+    "strand": "Inquiry Skills — Analysing",
+    "mode": "B",
+    "prior_knowledge": "Students have opinions and preferences from lived experience. No formal prior HASS inquiry skills curriculum.",
+    "progression_endpoint": "Students share their own perspective on information about significant events and special places, using sources to support their view.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising that perspectives differ",
+        "progression_checkpoint": "Students can recognise that different people can have different views about the same event or place, and that both can be valid.",
+        "minimum_width": "Identify that two people in a story or class discussion have different views about the same thing and describe what each person thinks.",
+        "typical_width": "Explore provided stories or class discussions where perspectives differ; identify what shapes each perspective (personal experience, cultural background, what someone values).",
+        "wider": [
+          "Compare how the same celebration or place is viewed differently by different family members or cultural groups",
+          "Explore First Nations Australian perspectives on places that are also significant to other community members"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot recognise that perspectives differ will present their own view as universal fact, making it impossible for them to genuinely share a perspective (as distinct from stating a fact) in Node 2.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Perspective-taking is conceptually demanding at Foundation — use concrete scenarios where the divergence is clear and meaningful before asking students to apply the concept to their own views.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies that at least two people have different views about the same event or place",
+          "Describes what each person thinks without judging one as wrong"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sharing my own perspective",
+        "progression_checkpoint": "Students can share their own perspective on a significant event or special place, explaining why they feel that way and using a source to support their view.",
+        "minimum_width": "Share a personal view about a special place or significant event and give one reason for that view.",
+        "typical_width": "Share perspectives on stories about significant events and special places using provided sources; explain why the place or event is important from their own point of view; connect their perspective to personal experience.",
+        "wider": [
+          "Share perspectives about a place that is important to past generations of their family, explaining why those events and places are special",
+          "Listen to a First Nations Australian story about a special place and share a response, comparing it with their own experience of special places"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "A range of significant events and places gives students more contexts to form and share views — class diversity is the primary resource here.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The class's diversity of backgrounds means that perspectives on celebrations, places and events will genuinely differ, creating authentic contexts for perspective-sharing and respectful listening.",
+        "success_criteria": [
+          "Shares a personal view about a significant event or special place",
+          "Gives at least one reason for that view"
+        ]
+      }
+    ]
+  }
+}

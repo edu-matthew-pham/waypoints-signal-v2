@@ -1,0 +1,126 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9K05",
+    "title": "Transport, Technology and Connections to Services",
+    "description": "the ways changing transportation and technologies are used to connect people to services, information and people in other places",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how technologies connect people and places and identify that transport and communication systems vary (Y7-8). They have not examined how changing transportation and technologies shape differential access to services across population groups, nor examined supply-chain logistics or the digital divide specifically.",
+    "progression_endpoint": "Students examine how transport and information networks connect people to goods, services and other people, interpret differences in access to the internet between and within countries, and explain how technologies connect people across places including globally distributed business services.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Transport access and perceptions of place",
+        "progression_checkpoint": "Students can discuss how access to transportation affects the ways people perceive, use and are connected to specific services or opportunities",
+        "minimum_width": "Identify how transport access affects connection to at least two types of services; explain that unequal transport access produces different perceptions of place",
+        "typical_width": "Explain how access to transportation — including regional and international flights, road and rail networks — shapes how people perceive, use and are connected to services and opportunities; discuss examples from both urban and regional Australia",
+        "wider": [
+          "Compare how transport access affects service connection differently for people in remote Australia versus people in metropolitan areas",
+          "Discuss how the absence of transport infrastructure changes people's perceptions of their place — what services become geographically 'distant' even if physically close?",
+          "Investigate how Indigenous Australians in remote communities perceive and access healthcare or education services relative to urban residents"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The perception-place-transport connection becomes clear only through contrasting contexts. Urban versus regional versus remote comparisons surface the geographic dimension of transport access that students otherwise miss when their frame of reference is limited to urban experience."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies how transport access affects connection to at least two services or opportunities",
+          "Explains that different levels of transport access produce different perceptions and uses of place",
+          "Gives an example from both an urban and a non-urban context"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Transport and information networks: supply chains",
+        "progression_checkpoint": "Students can identify and describe how transport and information networks function to connect people to goods and services, including how supply-chain logistics influence these connections",
+        "minimum_width": "Identify at least two types of transport or information networks; trace how a product moves through a supply chain from production to consumer",
+        "typical_width": "Explain how transport networks (road, rail, air, sea) and information networks connect people to goods and services; trace a specific product supply chain (e.g. cotton crop to t-shirt, farm to table) and identify where logistics decisions affect connectivity",
+        "wider": [
+          "Map the supply chain of a specific food product from production to consumption — identify every transport and information network involved",
+          "Examine how supply chain disruptions (e.g. COVID-19, natural disasters) affect people's connections to goods and services",
+          "Investigate how e-commerce platforms change the logistics of connecting consumers to goods — compare the supply chain of a locally purchased item versus an internationally purchased one"
+        ],
+        "hinge": true,
+        "hinge_reason": "The supply chain concept bridges transport/information networks as abstract systems and their real effect on where and how people access goods and services. Students who cannot trace how logistics decisions shape connectivity cannot explain the digital divide or global business services in Nodes 3-4, which both depend on understanding that network access is not uniform.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Tracing a supply chain requires students to sequence network-dependent steps and identify where breakdowns would affect connectivity. Students who skip the logistics step treat supply chains as frictionless. Scaffolding the step-by-step trace — from source to consumer, identifying transport and information network at each stage — builds the systemic understanding needed for Nodes 3-4.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two types of transport and information networks",
+          "Traces at least three steps in a product supply chain from production to consumer",
+          "Explains how logistics decisions at one step affect connectivity at another"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Digital access and the digital divide",
+        "progression_checkpoint": "Students can interpret differences in people's access to the internet between and within countries and explain how technologies connect people to information, services and others",
+        "minimum_width": "Identify that internet access varies between and within countries; describe at least two factors that produce the digital divide; explain how internet access affects connection to services and information",
+        "typical_width": "Interpret data showing differences in internet access between and within countries (including rural Australia and an Asian country); explain how technologies bridge or widen the digital divide; discuss how communications infrastructure enables collaboration",
+        "wider": [
+          "Analyse how the digital divide affects specific population groups differently — compare rural Australians, urban Australians and people in low-income Asian countries using real data",
+          "Discuss how communications infrastructure enables Indigenous and marginalised communities to maintain cultural connections across distances (e.g. Masai, Inuit, Yanomami) — what does connectivity mean in this context?",
+          "Investigate mobile-first internet access as a bridging technology in low-income countries — explain how mobile penetration outpaces fixed broadband in parts of Asia"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The digital divide is only visible when comparing across contexts — within Australia (rural/urban), between Australia and Asia, and across income levels. A single context produces an incomplete picture. The elaboration's reference to rural areas across Australia and an Asian country signals the need for multi-context treatment.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Indigenous communities communications direction is rich — it frames connectivity not as commercial access but as cultural maintenance, raising the question of what 'connection to people in other places' actually means for communities whose places and people have been geographically dispersed. Advancing students gain a culturally grounded understanding of connectivity that extends beyond bandwidth metrics.",
+        "success_criteria": [
+          "Identifies that internet access varies between and within countries",
+          "Describes at least two factors contributing to the digital divide",
+          "Explains how internet access affects connection to at least two types of services or information"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Global business services and technological interconnection",
+        "progression_checkpoint": "Students can examine how technologies have made it possible for places to provide a range of global business services",
+        "minimum_width": "Identify at least one type of global business service (e.g. call centres, IT services, financial services); explain how technology enables this service to be located at distance from its customers",
+        "typical_width": "Examine how technologies have enabled places such as India and the Philippines to provide global business services (e.g. call centres, software development); explain why businesses choose these locations and how technologies maintain service quality across distance",
+        "wider": [
+          "Analyse how the global distribution of business services has shifted as internet connectivity has expanded — trace which countries have gained or lost service industry employment",
+          "Examine how time zone differences interact with technology to enable 24-hour global business operations",
+          "Investigate the economic and social impacts on a place (e.g. Manila, Bangalore) of becoming a global business service hub — connect to K07-K08 trade and production themes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates transport/information networks (Node 2) and digital connectivity (Node 3) into a real-world outcome: the geographic redistribution of service work enabled by technology. The teaching investment is on connecting the infrastructure concepts to their economic geography consequences."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one type of global business service and the technology that enables it",
+          "Explains why a business might locate a service function in a different country",
+          "Connects technology infrastructure to geographic location decisions"
+        ]
+      }
+    ]
+  }
+}

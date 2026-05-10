@@ -1,0 +1,94 @@
+{
+  "year_level": "7-8",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S7I05",
+    "title": "Identify patterns and anomalies",
+    "description": "analyse data and information to describe patterns, trends and relationships and identify anomalies",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can compare methods, recognise sources of error and select evidence to draw reasoned conclusions (AC9S5I05). They have not yet systematically analysed data to describe patterns and relationships or identified and explained anomalies.",
+    "progression_endpoint": "Students analyse data and information to describe patterns, trends and relationships and identify anomalies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Describing patterns and trends",
+        "progression_checkpoint": "Students can identify and describe patterns and trends in data sets",
+        "minimum_width": "Identify a pattern or trend in a provided data set; describe what the pattern shows",
+        "typical_width": "Identify patterns and trends across multiple data types; describe patterns using appropriate scientific language (e.g. 'as X increases, Y decreases')",
+        "wider": [
+          "Analyse data to identify patterns in the proportions of a day spent in sunlight and darkness and relate these to seasons",
+          "Collaborate with First Nations Australians communities to create a seasonal calendar representing patterns and relationships",
+          "Compare patterns across two related data sets and explain whether they support the same or different conclusions"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Describing patterns using appropriate language ('as X increases, Y decreases') is a precision skill that students commonly approximate — they describe direction without precision, or use vague language that doesn't commit to the relationship. Practice with feedback on language precision is what helps here, not more data contexts."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": ["AC9S7I04", "AC9S7U03"],
+        "success_criteria": [
+          "Identifies a pattern or trend in a data set",
+          "Describes the pattern using appropriate language",
+          "Does not confuse correlation with a single data point"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Identifying relationships in data",
+        "progression_checkpoint": "Students can analyse data to identify and describe relationships between variables",
+        "minimum_width": "Identify a relationship between two variables in a data set; describe whether the relationship is positive, negative or non-linear",
+        "typical_width": "Identify relationships across multiple data types including qualitative relationships such as the relationship between planet mass and gravity; explain what the relationship means in scientific terms",
+        "wider": [
+          "Analyse change in predator and prey numbers over time to identify predator-prey cycles",
+          "Investigate a complex multi-variable data set where relationships are non-obvious",
+          "Compare patterns across multiple secondary data sets, evaluating consistency of findings"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly describe patterns without identifying the underlying relationship between variables — they say 'it goes up' without connecting the independent and dependent variables. Analysing relationships across different science contexts (forces, ecosystems, astronomy) helps students practise the variable-linking skill rather than just pattern-spotting. Each new context requires fresh variable identification."
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The predator-prey cycle direction is rich — it introduces cyclic relationships and time-lagged dependencies that go beyond simple positive/negative relationships, giving advancing students exposure to more complex data patterns. The multi-secondary-data-set direction also develops genuine analytical depth through cross-dataset comparison.",
+        "related_standards": ["AC9S7I04", "AC9S7I06", "AC9S7U02", "AC9S7U04"],
+        "success_criteria": [
+          "Identifies a relationship between two variables",
+          "Describes the relationship type (positive, negative or non-linear)",
+          "Connects the relationship to the variables involved, not just the trend direction"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Identifying and explaining anomalies",
+        "progression_checkpoint": "Students can identify anomalies in data and investigate their effect on observed patterns or relationships",
+        "minimum_width": "Identify an anomaly in a provided data set; explain why it does not fit the pattern",
+        "typical_width": "Identify anomalies in data and investigate their effect on observed patterns; distinguish between anomalies caused by error and those that reveal genuine phenomena",
+        "wider": [
+          "Investigate anomalies in data and evaluate whether they should be excluded, explained, or investigated further",
+          "Analyse a data set where an anomaly changes the interpretation of the pattern and explain the implications",
+          "Evaluate whether removing an anomaly from a data set changes the conclusion and justify the decision"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly either ignore anomalies or automatically discard them without reasoning through whether they represent error or genuine phenomena. Scaffolding the decision process explicitly — is this measurement error, equipment error, or a real data point? what would I need to know to decide? — builds genuine anomaly literacy rather than reflexive exclusion or retention."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "related_standards": ["AC9S7I06", "AC9S7I07"],
+        "success_criteria": [
+          "Identifies an anomaly in a data set",
+          "Explains why the anomaly does not fit the observed pattern",
+          "Does not automatically discard anomalies without considering whether they are meaningful"
+        ]
+      }
+    ]
+  }
+}

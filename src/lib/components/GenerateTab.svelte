@@ -2,21 +2,14 @@
   import { db } from '$lib/supabase'
   import { loadNodeFile, groupCriteria } from '$lib/data'
   import { generateSessionCode } from '$lib/session'
+  import { SUBJECTS, codeFromNodeFile, type SubjectConfig } from '$lib/config/subjects'
 
   // Props
   let { userId }: { userId: string } = $props()
 
-  // Standards list — hardcoded for Y7 Science PoC
-  const STANDARDS = [
-    { code: 'AC9S7U01', title: 'Classification and Biodiversity' },
-    { code: 'AC9S7U02', title: 'Food Webs and Ecosystems' },
-    { code: 'AC9S7U03', title: 'Earth-Sun-Moon System' },
-    { code: 'AC9S7U04', title: 'Forces and Motion' },
-    { code: 'AC9S7U05', title: 'Particle Theory and Properties' },
-    { code: 'AC9S7U06', title: 'Pure Substances and Mixtures' },
-  ]
-
   // State
+  let selectedSubjectId = $state('')
+  const selectedSubject = $derived(SUBJECTS.find(s => s.id === selectedSubjectId) ?? null)
   let selectedCode = $state('')
   let selectedNodeId = $state('')
   let progressionEndpoint = $state('')
@@ -35,6 +28,23 @@
       : '/student/'
   )
 
+  // Derive standards list from selected subject's nodeFiles
+  const standards = $derived(
+    selectedSubject
+      ? selectedSubject.nodeFiles.map((path) => ({ code: codeFromNodeFile(path), path }))
+      : []
+  )
+
+  function onSubjectChange() {
+    selectedCode = ''
+    selectedNodeId = ''
+    progressionEndpoint = ''
+    nodes = []
+    criteriaPreview = []
+    generatedCode = ''
+    genError = ''
+  }
+
   // Load node file when standard changes
   async function onStandardChange() {
     selectedNodeId = ''
@@ -44,11 +54,11 @@
     generatedCode = ''
     genError = ''
 
-    if (!selectedCode) return
+    if (!selectedCode || !selectedSubject) return
 
     loadingNodes = true
     try {
-      const nodeFile = await loadNodeFile(selectedCode)
+      const nodeFile = await loadNodeFile(selectedSubject, selectedCode)
       progressionEndpoint = nodeFile.standard.progression_endpoint
       nodes = nodeFile.standard.nodes.map(n => ({
         id: n.id,
@@ -69,10 +79,10 @@
     generatedCode = ''
     genError = ''
 
-    if (!selectedCode || !selectedNodeId) return
+    if (!selectedCode || !selectedNodeId || !selectedSubject) return
 
     try {
-      const nodeFile = await loadNodeFile(selectedCode)
+      const nodeFile = await loadNodeFile(selectedSubject, selectedCode)
       const groups = groupCriteria(nodeFile, selectedNodeId)
       criteriaPreview = groups.flatMap(g => g.criteria)
     } catch (e) {
@@ -81,13 +91,13 @@
   }
 
   async function generate() {
-    if (!selectedCode || !selectedNodeId) return
+    if (!selectedCode || !selectedNodeId || !selectedSubject) return
     generating = true
     genError = ''
     generatedCode = ''
 
     try {
-      const nodeFile = await loadNodeFile(selectedCode)
+      const nodeFile = await loadNodeFile(selectedSubject, selectedCode)
       const node = selectedNodeId === 'all'
         ? null
         : nodeFile.standard.nodes.find(n => n.id === parseInt(selectedNodeId))
@@ -131,22 +141,43 @@
 
 <div class="space-y-4">
 
-  <!-- Standard select -->
+  <!-- Subject select -->
   <div>
-    <label for="sel-standard" class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
-      Standard
+    <label for="select-subject" class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
+      Subject
     </label>
     <select
-      bind:value={selectedCode}
-      onchange={onStandardChange}
-      class="w-full px-3 py-2.5 border border-border rounded-lg bg-surface text-[14px] text-[#1a1917] outline-none focus:border-[#1a1917] transition-colors appearance-none cursor-pointer"
+      id="select-subject"
+      bind:value={selectedSubjectId}
+      onchange={onSubjectChange}
+      class="w-full px-3 py-2.5 border border-border rounded-lg bg-surface text-[14px] text-bg-dark outline-none focus:border-bg-dark transition-colors appearance-none cursor-pointer"
     >
       <option value="">— select —</option>
-      {#each STANDARDS as s}
-        <option value={s.code}>{s.code} — {s.title}</option>
+      {#each SUBJECTS as subject}
+        <option value={subject.id}>{subject.label}</option>
       {/each}
     </select>
   </div>
+
+  <!-- Standard select -->
+  {#if selectedSubjectId}
+    <div>
+      <label for="select-standard" class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
+        Standard
+      </label>
+      <select
+        id="select-standard"
+        bind:value={selectedCode}
+        onchange={onStandardChange}
+        class="w-full px-3 py-2.5 border border-border rounded-lg bg-surface text-[14px] text-bg-dark outline-none focus:border-bg-dark transition-colors appearance-none cursor-pointer"
+      >
+        <option value="">— select —</option>
+        {#each standards as s}
+          <option value={s.code}>{s.code}</option>
+        {/each}
+      </select>
+    </div>
+  {/if}
 
   <!-- Progression endpoint -->
   {#if progressionEndpoint}
@@ -158,14 +189,15 @@
 
   <!-- Node select -->
   <div>
-    <label for="sel-standard" class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
+    <label for="select-waypoint" class="block font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
       Waypoint
     </label>
     <select
+      id="select-waypoint"
       bind:value={selectedNodeId}
       onchange={onNodeChange}
       disabled={!selectedCode || loadingNodes}
-      class="w-full px-3 py-2.5 border border-border rounded-lg bg-surface text-[14px] text-[#1a1917] outline-none focus:border-[#1a1917] transition-colors appearance-none cursor-pointer disabled:opacity-50"
+      class="w-full px-3 py-2.5 border border-border rounded-lg bg-surface text-[14px] text-bg-dark outline-none focus:border-bg-dark transition-colors appearance-none cursor-pointer disabled:opacity-50"
     >
       <option value="">
         {loadingNodes ? 'Loading…' : '— select waypoint —'}
@@ -189,7 +221,7 @@
       </div>
       <div class="space-y-1.5">
         {#each criteriaPreview as criterion}
-          <div class="px-3 py-2 bg-[#eef1ff] border border-interactive rounded-lg text-[13px] text-[#1a1917] leading-[1.5]">
+          <div class="px-3 py-2 bg-[#eef1ff] border border-interactive rounded-lg text-[13px] text-bg-dark leading-normal">
             {criterion}
           </div>
         {/each}
@@ -201,7 +233,7 @@
   <button
     onclick={generate}
     disabled={!selectedCode || !selectedNodeId || generating}
-    class="w-full py-3.5 bg-[#1a1917] text-white text-[15px] font-semibold rounded-xl cursor-pointer hover:opacity-85 disabled:opacity-40 disabled:cursor-not-allowed transition-opacity mt-2"
+    class="w-full py-3.5 bg-bg-dark text-white text-[15px] font-semibold rounded-xl cursor-pointer hover:opacity-85 disabled:opacity-40 disabled:cursor-not-allowed transition-opacity mt-2"
   >
     {generating ? 'Generating…' : 'Generate session code'}
   </button>
@@ -227,7 +259,7 @@
       <div class="font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">
         Student link
       </div>
-      <div class="px-3 py-2.5 bg-bg border border-border rounded-lg font-mono text-[11px] text-muted break-all leading-[1.5] mb-3">
+      <div class="px-3 py-2.5 bg-bg border border-border rounded-lg font-mono text-[11px] text-muted break-all leading-normal mb-3">
         {studentBaseUrl}{generatedCode}
       </div>
 
@@ -235,13 +267,13 @@
       <div class="flex gap-2">
         <button
           onclick={copyUrl}
-          class="flex-1 py-2.5 bg-[#1a1917] text-white text-[13px] font-semibold rounded-lg cursor-pointer hover:opacity-85 transition-opacity"
+          class="flex-1 py-2.5 bg-bg-dark text-white text-[13px] font-semibold rounded-lg cursor-pointer hover:opacity-85 transition-opacity"
         >
           {copiedUrl ? 'Copied!' : 'Copy link'}
         </button>
         <button
           onclick={copyCode}
-          class="flex-1 py-2.5 bg-border text-[#1a1917] text-[13px] font-semibold rounded-lg cursor-pointer hover:opacity-85 transition-opacity"
+          class="flex-1 py-2.5 bg-border text-bg-dark text-[13px] font-semibold rounded-lg cursor-pointer hover:opacity-85 transition-opacity"
         >
           {copiedCode ? 'Copied!' : 'Copy code only'}
         </button>

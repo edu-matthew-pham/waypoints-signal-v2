@@ -1,0 +1,100 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9S01",
+    "title": "Developing Geographical Inquiry Questions",
+    "description": "develop a range of questions for a geographical inquiry related to a phenomenon or challenge",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can develop geographical questions to guide inquiry and plan investigations at a range of scales (Y7-8). They are building towards refining questions using geographical concepts and multi-scale digital planning tools. At Y9, the move is from generating initial questions to sharpening focus through geographical concepts and scale.",
+    "progression_endpoint": "Students develop and modify a range of questions that sharpen the focus of a geographical inquiry using concepts and scale, and plan an investigation using digital tools.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Generating initial inquiry questions",
+        "progression_checkpoint": "Students can develop a range of questions to investigate why a geographical phenomenon has changed or why a challenge has arisen",
+        "minimum_width": "Develop at least three questions that investigate a geographical phenomenon or challenge from different angles (e.g. what, why, how, who is affected)",
+        "typical_width": "Develop a range of questions for a geographical inquiry that investigate causes, impacts, connections and management dimensions of a phenomenon or challenge; ensure questions are open and investigable",
+        "wider": [
+          "Evaluate a set of questions for geographical focus — identify which questions are genuinely geographical and which are too general or not investigable",
+          "Develop questions for both a biome and an interconnections topic — compare how the same question types operate differently across different phenomena",
+          "Develop questions at different levels of complexity — identify which questions scaffold the investigation and which are the driving research question"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot generate a range of investigable questions from different angles, they cannot refine and sharpen these into a coherent inquiry plan in Node 2. A single question or description-only questions collapse the inquiry into a report task and block all subsequent phases of work.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Question generation is a procedural capability that improves with practice across multiple phenomena. Students who develop questions for only one topic have a fragile repertoire. Building range across biome and interconnection topics — as the elaborations suggest — ensures the capability transfers.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Develops at least three questions that investigate different dimensions of a phenomenon or challenge",
+          "Questions are open and investigable (not yes/no)",
+          "Questions address at least two of: causes, impacts, connections, management"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Sharpening questions using concepts and scale",
+        "progression_checkpoint": "Students can modify questions to sharpen the focus of an investigation using geographical concepts or scale of study",
+        "minimum_width": "Modify at least one question from Node 1 to sharpen its focus using a geographical concept (e.g. scale, interconnection, sustainability) or a specified scale of study",
+        "typical_width": "Develop and modify questions to sharpen inquiry focus by integrating geographical concepts and specifying scale (e.g. national scale, local scale); show how the modified question produces a more focused investigation than the original",
+        "wider": [
+          "Compare how the same question operates differently at local versus global scale — explain what changes and what stays the same",
+          "Modify a broad question into a sequence of focused sub-questions that could structure an investigation",
+          "Evaluate the difference between concept-sharpened and content-narrowed questions — explain why adding a geographical concept produces a different kind of question than narrowing to a specific example"
+        ],
+        "hinge": true,
+        "hinge_reason": "Questions that lack geographical concept focus or clear scale produce unfocused investigations. If students cannot sharpen a question, their planning in Node 3 will lack the disciplinary focus needed to select appropriate tools and sources. An unsharpened question makes the investigation plan arbitrary.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Question modification is a metacognitive move — students must reflect on what their original question is actually asking, identify what is missing (geographical concept, scale specification), and reconstruct it. Scaffolding the diagnostic step — 'what is this question missing?' — builds the reflective reasoning the modification requires.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Modifies at least one question to include a geographical concept or scale specification",
+          "Explains how the modification sharpens the inquiry focus",
+          "Produces a question that is more focused and investigable than the original"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Planning a multi-scale investigation using digital tools",
+        "progression_checkpoint": "Students can plan an investigation of a geographical phenomenon using digital tools at a range of scales",
+        "minimum_width": "Outline an investigation plan that identifies: the phenomenon, the scale(s) of study, at least two digital tools to be used, and what data or information will be collected",
+        "typical_width": "Plan a geographical investigation of a biome modification or place connection topic using digital tools; specify the scale(s) of investigation, the tools to be used (e.g. GIS, mapping platforms, digital data sources), and how the investigation will address the sharpened questions from Node 2",
+        "wider": [
+          "Develop an investigation plan that uses different digital tools for different scales — explain why each tool is appropriate for its scale",
+          "Anticipate methodological challenges in the plan — what data might be difficult to find, what scale transitions are problematic?",
+          "Evaluate two possible investigation plans for the same question — explain which is more feasible and would produce better geographical data"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The investigation plan integrates the sharpened questions from Nodes 1-2 with tool selection and scale decisions. Teaching investment should focus on the connection: the digital tools chosen should be appropriate for the scale and the question type, not selected arbitrarily. A plan where tool choice is disconnected from the question has not reached this checkpoint.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The plan evaluation direction is rich — comparing two possible plans for the same question requires students to apply feasibility, quality and geographical rigour criteria simultaneously. Advancing students who evaluate plans develop methodological judgement that transfers across all S-strand tasks.",
+        "success_criteria": [
+          "Identifies the phenomenon, scale(s) and digital tools in an investigation plan",
+          "Connects tool selection to the scale and question type",
+          "Explains how the plan addresses the sharpened questions from Node 2"
+        ]
+      }
+    ]
+  }
+}

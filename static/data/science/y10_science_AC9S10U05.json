@@ -1,0 +1,72 @@
+{
+  "year_level": "10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S10U05",
+    "title": "Newton's Laws and Quantitative Motion Analysis",
+    "description": "investigate Newton's laws of motion and quantitatively analyse the relationship between force, mass and acceleration of objects",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can identify named forces and use force arrows (AC9S4U03). They have examined energy transfer in systems (AC9S8U05). They have not yet applied Newton's laws quantitatively or analysed force-mass-acceleration relationships mathematically.",
+    "progression_endpoint": "Students investigate Newton's three laws of motion, quantitatively analyse force-mass-acceleration relationships using F=ma, represent motion using graphs, and apply Newton's laws to explain safety features and real-world motion contexts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Newton's three laws describe how forces affect motion",
+        "progression_checkpoint": "Students can state and apply Newton's three laws — inertia, F=ma, and action-reaction — to explain the motion of objects in familiar contexts.",
+        "minimum_width": "Students state Newton's three laws and apply each to explain the motion of an object in a named context.",
+        "typical_width": "Students apply Newton's first law (inertia — objects maintain motion unless acted on by net force); second law (F=ma — net force produces acceleration proportional to force and inversely proportional to mass); and third law (action-reaction pairs) to explain motion in diverse contexts including vehicle safety, sport and everyday situations.",
+        "wider": [
+          "Investigate how First Nations Australians achieve increased speed and impact force through spearthrowers and bows — examining how these tools apply Newton's laws to amplify force and momentum",
+          "Investigate the application of Newton's laws in sport — examining how these are applied to improve athlete performance or safety",
+          "Investigate how driverless vehicles apply Newton's laws to brake in time — examining how autonomous systems must calculate forces and stopping distances in real time"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 (F=ma quantitative analysis) requires students to correctly identify which law applies, what the net force is, and what is being accelerated. Students who cannot reliably distinguish and apply all three laws will misidentify the governing relationship in calculation scenarios, producing systematic errors in F=ma work.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Applying all three laws across varied contexts — spearthrower mechanics, sport, driverless vehicle braking — builds reliable law identification before quantitative work begins. Width investment at this node serves both the cascade risk (students must distinguish laws before F=ma calculation) and the enrichment opportunity (First Nations and contemporary technology applications).",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Spearthrower physics provides an elaboration-grounded First Nations direction that applies Newton's laws to a sophisticated traditional technology. Driverless vehicle braking represents an engaging contemporary application.",
+        "success_criteria": [
+          "States Newton's three laws correctly",
+          "Applies each law to explain the motion of an object in a named context"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "F=ma enables quantitative analysis of motion",
+        "progression_checkpoint": "Students can use F=ma to calculate force, mass or acceleration for a given scenario, represent motion data graphically, and apply quantitative analysis to evaluate safety features.",
+        "minimum_width": "Students use F=ma to solve for one unknown given the other two, and interpret a distance-time or speed-time graph.",
+        "typical_width": "Students calculate force, mass and acceleration using F=ma; analyse relationships between distance, speed and acceleration quantitatively; represent motion in graphs; apply Newton's laws to model how changed net force affects motion; and evaluate vehicle safety features (seatbelts, airbags, crumple zones) using force-time and impulse reasoning.",
+        "wider": [
+          "Use mathematical representations including graphs and algebraic formulas to quantitatively relate force, speed, acceleration and mass across Y10 motion contexts",
+          "Model how change in net force affects motion and relate to the purpose of safety features — constructing an argument supported by data for lower speed limits near schools or for trucks (AC9S10I07)",
+          "Investigate crash impact force as a function of speed — asking questions and developing hypotheses testable with investigation or secondary data"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Quantitative motion analysis requires consistent accurate application of F=ma and graph interpretation across varied scenarios. Students need deliberate practice with calculation and graph work to build fluency before they can apply these skills in novel contexts."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses F=ma to solve for an unknown in at least two scenarios",
+          "Interprets a distance-time and a speed-time graph correctly"
+        ]
+      }
+    ]
+  }
+}

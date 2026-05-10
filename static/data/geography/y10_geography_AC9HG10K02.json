@@ -1,0 +1,97 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10K02",
+    "title": "Environmental world views",
+    "description": "the environmental world views of people and their implications for environmental management",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can explain conflicting stakeholder perspectives on sustainability (AC9HG10K01) and understand human-induced environmental change types. They have engaged with interconnections between human activity and environments (AC9HG9K02, AC9HG9K08) and understand that different people have different relationships to place.",
+    "progression_endpoint": "Students discuss the influence of people's environmental world views (human-centred and earth-centred) regarding environmental management and explain how world views shape choices of management methods.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Human-centred and earth-centred world views",
+        "progression_checkpoint": "Students can distinguish between human-centred (anthropocentric) and earth-centred (ecocentric) environmental world views and explain what each implies about the relationship between humans and the environment.",
+        "minimum_width": "Define both world view types and describe one management approach associated with each.",
+        "typical_width": "Explain the philosophical basis and practical implications of human-centred and earth-centred world views; link each to concrete management approaches such as resource extraction vs conservation, economic development vs protected areas.",
+        "wider": [
+          "Investigate intermediate world views such as stewardship ethics or biocentric ethics that complicate the binary, evaluating how each positions human responsibility",
+          "Examine how legal frameworks in different countries encode world views — for example, rights of nature legislation in Ecuador or New Zealand vs resource-rights regimes",
+          "Compare how Indigenous world views differ from both human-centred and earth-centred Western frameworks, particularly regarding relational ontologies"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot distinguish these world views cannot explain why different stakeholders choose different management methods in K04, nor can they discuss whether environmental change is 'necessarily a problem' — a question whose answer depends entirely on one's world view.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The human-centred/earth-centred distinction is conceptually slippery — students often assume everyone shares their own world view. Use explicit comparison frameworks (value source, moral standing of nature, justification for management) to make the distinction concrete before applying it.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students define both human-centred and earth-centred world views using correct terminology",
+          "Students identify at least one management approach associated with each world view and explain the connection"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "World views and causes of environmental issues",
+        "progression_checkpoint": "Students can compare differences in people's views about the causes of an environmental issue, explaining how world view shapes the identification of causes.",
+        "minimum_width": "Compare two different perspectives on the causes of one environmental issue, tracing how each perspective reflects a different world view.",
+        "typical_width": "For at least one environmental issue of personal, national and global importance, compare perspectives from human-centred and earth-centred stakeholders; explain how each world view leads to a different identification of causes and responsible parties.",
+        "wider": [
+          "Analyse media coverage of a single environmental issue from outlets reflecting different world views, identifying how framing choices (headline, quoted sources, language) encode particular world views",
+          "Investigate how scientific consensus on an environmental issue (e.g. climate attribution) intersects with or conflicts with different world view frameworks",
+          "Compare how communities in different countries assign cause and responsibility for the same global environmental issue based on historical, economic and cultural factors"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Analysing cause attribution across multiple issues and stakeholder groups prevents students from applying the world view framework mechanically to a single case.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cause attribution is the most contested aspect of environmental management — examining the same issue through multiple world view lenses deepens students' critical literacy and prepares them for the evaluation demands of K04.",
+        "success_criteria": [
+          "Students explain how two stakeholders with different world views identify different causes for the same environmental issue",
+          "Students use the terms 'human-centred' and 'earth-centred' correctly when analysing cause attribution"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "World views and management choices",
+        "progression_checkpoint": "Students can discuss whether environmental change is necessarily a problem and explain how people's world views shape their choices of management methods.",
+        "minimum_width": "Explain how at least one world view leads to a specific management choice, and discuss whether all stakeholders view the change as a problem requiring management.",
+        "typical_width": "Discuss multiple management methods (environmental, economic, regulatory, community-based) in terms of the world views they reflect; explain why not all stakeholders agree that a given change is a problem requiring intervention.",
+        "wider": [
+          "Evaluate a specific environmental management decision at national or international scale — identifying which world views are reflected in the chosen strategy and which are marginalised",
+          "Investigate cases where communities chose not to manage or reverse an environmental change, examining the world view basis for that choice",
+          "Compare how different cultural or religious traditions within a single country produce divergent views on whether and how to manage a specific environmental change"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates world view identification, cause attribution and management choice into a coherent explanatory chain. Students need to coordinate all three moves — a teacher signal to make the connections explicit rather than treating each move as separate.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The integration of world view into management choice analysis is the core analytical skill for K04. Students who have explored multiple management decisions through the world view lens develop a richer evaluative repertoire.",
+        "success_criteria": [
+          "Students explain how a specific world view leads to a specific management approach (or non-intervention) using correct terminology",
+          "Students discuss, with evidence, why people holding different world views may disagree on whether an environmental change requires management"
+        ]
+      }
+    ]
+  }
+}

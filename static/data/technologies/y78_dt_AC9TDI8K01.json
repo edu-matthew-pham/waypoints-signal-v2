@@ -1,0 +1,106 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8K01",
+    "title": "Hardware specifications and performance",
+    "description": "Explain how hardware specifications affect performance and select appropriate hardware for particular tasks and workloads",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can identify and explain the main internal components of common digital systems and their functions (AC9TDI6K01). They understand that digital systems form networks to transmit data (AC9TDI6K02). They have not yet connected hardware specifications to performance outcomes or made selection decisions based on workload requirements.",
+    "progression_endpoint": "Students explain how specific hardware specifications (RAM, bandwidth, storage, GPU/CPU) affect the speed and capability of digital systems, and select appropriate hardware for particular tasks by matching specifications to workload requirements.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What hardware specifications are",
+        "progression_checkpoint": "Students can identify key hardware specifications (RAM, storage, bandwidth, processor type) and explain what each measures",
+        "minimum_width": "Name at least three hardware specifications and state what each measures in a digital system",
+        "typical_width": "Identify specifications across different device types (phone, laptop, server); explain why the same specification (e.g. RAM) matters differently in each context",
+        "wider": [
+          "Research the specifications of devices used in remote First Nations communities and explain how shared access affects which specifications matter most",
+          "Limited width — comparing marketing claims to benchmark performance goes further analytically rather than exploring specifications across more contexts."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who conflate hardware specifications (e.g. treating RAM and storage as equivalent) cannot reason about how different specifications affect performance differently. Seeing the same specification (RAM) behave differently across device contexts (phone vs server) builds the vocabulary precision needed at Node 2.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify and name hardware specifications correctly cannot reason about how those specifications affect performance at Node 2. Vague or confused specification vocabulary (e.g. conflating storage with RAM) propagates through every subsequent reasoning task about workloads.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least three hardware specifications correctly",
+          "Explains what each specification measures in plain language"
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 2,
+        "label": "How specifications affect performance",
+        "progression_checkpoint": "Students can explain how specific hardware specifications affect what a digital system can do and how quickly it performs",
+        "minimum_width": "Explain how one specification (e.g. RAM or bandwidth) affects performance for a given task",
+        "typical_width": "Explain how different specifications (RAM, bandwidth, storage speed, processor) each affect performance for different tasks; identify which specification is the bottleneck in a given scenario",
+        "wider": [
+          "Explain how GPU specifications affect AI model training speed compared to CPU — why GPUs are more efficient for the mathematical calculations involved",
+          "Investigate how bandwidth limitations affect download speed and lag in online gaming or video conferencing"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who cannot explain the causal link between specifications and performance will guess rather than reason when selecting hardware. Broader contexts (different specs affecting different tasks — gaming, video editing, AI training) help students see the pattern rather than memorise individual spec-task pairs.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot explain the causal link between a specification and a performance outcome cannot make principled hardware selection decisions at Node 3. Without this understanding, Node 3 becomes pattern-matching rather than reasoning.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The wider tier includes AI training (GPU vs CPU) and network bottlenecks — genuinely rich directions that extend the concept into contemporary computing contexts. First Nations connectivity context also available at this node.",
+        "success_criteria": [
+          "Explains the causal link between at least one specification and a specific performance outcome",
+          "Does not confuse specifications (e.g. storage capacity with processing speed)"
+        ],
+        "related_standards": [
+          "AC9TDI8K02"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Selecting hardware for tasks",
+        "progression_checkpoint": "Students can select appropriate hardware for a particular task or workload and justify the selection based on specifications",
+        "minimum_width": "Given a task and two hardware options, select the more appropriate option and justify using at least one specification",
+        "typical_width": "Compare multiple hardware options for a given workload; justify selection by weighing trade-offs between specifications (e.g. more RAM vs faster processor for video editing)",
+        "wider": [
+          "Research how cloud computing changes hardware selection decisions — when is local hardware insufficient and cloud resources necessary?",
+          "Evaluate hardware selection for a real scenario such as setting up a school media lab or an AI training environment"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Hardware selection requires students to reason through trade-offs rather than recall a correct answer. Scaffolding the reasoning process (identify task demands → match to specifications → weigh trade-offs → justify) prevents students from pattern-matching rather than reasoning."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Selects hardware that matches the task requirements",
+          "Justifies the selection by referencing at least one relevant specification"
+        ],
+        "related_standards": [
+          "AC9TDI8P07",
+          "AC9TDI8P08"
+        ]
+      }
+    ]
+  }
+}

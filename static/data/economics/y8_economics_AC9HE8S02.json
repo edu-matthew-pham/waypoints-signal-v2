@@ -1,0 +1,71 @@
+{
+  "year_level": "8",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE8S02",
+    "title": "Locate and organise information",
+    "description": "locate, select and organise information and data from a range of sources",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can locate, select and organise information and data from a range of sources (AC9HE7S02). At Year 8, the expectation shifts toward more advanced search strategies, explicit source evaluation, and using specialised digital tools to organise data.",
+    "progression_endpoint": "Students locate, select and organise information and data from a range of sources, including using advanced search functions and digital tools.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Locating and evaluating sources",
+        "progression_checkpoint": "Students can locate information from a range of sources using advanced search strategies and evaluate the relevance of sources by asking whether the data or information helps answer the inquiry question.",
+        "minimum_width": "Use at least one advanced search strategy (e.g. specifying site type or search terms in quotation marks) to locate information on an economic or business issue, and explain why the source found is or is not relevant to the inquiry question.",
+        "typical_width": "Locate information and data from a range of source types (government departments, non-government organisations, news media, statistics agencies) using advanced search functions. Evaluate sources by asking 'How will this data or information help answer the question?' and filter out sources that do not contribute to the investigation.",
+        "wider": [
+          "Compare the same economic issue as reported by different source types (e.g. ABS data, a business news article, an NGO report) and evaluate what each source type can and cannot reliably tell you",
+          "Investigate how to assess source credibility for economic and business data — examining indicators of authority, currency, methodology and potential bias",
+          "Research how economists and researchers use primary data sources (ABS, RBA, ASIC) versus secondary commentary, and practise tracing a claim in a secondary source back to its primary data"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot locate credible and relevant sources, they cannot produce evidence-based analysis in subsequent nodes. Poor source selection undermines every downstream skill — interpretation, response development and communication all depend on the quality of what has been found.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Search strategies are procedural and benefit from repeated practice with explicit feedback. Students often over-rely on first-result web searches and need to practise the habit of source type targeting (government statistics, NGO reports, industry data) before it becomes automatic.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least one search strategy beyond a basic keyword search to locate relevant information",
+          "Identifies whether a source is relevant to the inquiry question and explains the reason"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Selecting and organising data",
+        "progression_checkpoint": "Students can select relevant information and data from located sources and organise it into appropriate formats — including diagrams or tables — using specialised digital tools.",
+        "minimum_width": "Select relevant information from at least two sources and organise it into one format (e.g. a table or diagram) that makes the relationship between the data clear.",
+        "typical_width": "Select relevant information and data from multiple sources and organise it using appropriate formats — including diagrams modelling economic relationships (e.g. market interactions) and tables comparing features of different business types or strategies. Use specialised digital tools (e.g. spreadsheet, diagram tool) where appropriate.",
+        "wider": [
+          "Construct a relational diagram (e.g. circular flow model, supply and demand diagram, market ecosystem map) that accurately represents the economic or business relationships in the data found",
+          "Organise data from multiple sources into a comparative table that enables direct comparison of features across multiple cases (e.g. features of different business models, tax rates across countries, wage trends by industry)",
+          "Evaluate two different organisational formats for the same data set (e.g. table vs diagram) and justify which is more useful for the investigation's inquiry question"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Different economic inquiry questions require different organisational formats. Students benefit from practising multiple formats — comparison tables, flow diagrams, data summaries — to build a repertoire they can select from based on what the investigation requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Organising information is an underestimated analytical step — the format chosen shapes what conclusions become visible. Students who practise multiple formats across different inquiry types develop genuine research capability, not just a filing habit.",
+        "success_criteria": [
+          "Selects information from at least two sources and explains why each was selected as relevant",
+          "Organises the selected data in a format (table, diagram, or other) that makes relationships or comparisons visible"
+        ],
+        "related_standards": ["AC9HE8S01", "AC9HE8S03"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1SP01",
+    "title": "Compare and classify shapes",
+    "description": "Make, compare and classify familiar shapes; recognise familiar shapes and objects in the environment, identifying the similarities and differences between them",
+    "strand": "Measurement and Space",
+    "mode": "A",
+    "prior_knowledge": "Students can sort, name and create familiar shapes and recognise them in the environment (AC9MFSP01). They have not yet classified shapes by comparing multiple properties simultaneously, nor distinguished between regular and irregular instances of the same shape type.",
+    "progression_endpoint": "Students make, compare and classify familiar shapes; recognise familiar shapes and objects in the environment, identifying the similarities and differences between them.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Classify by shared properties",
+        "progression_checkpoint": "Students can sort a collection of shapes into groups based on shared properties and explain what is the same within a group and different between groups.",
+        "minimum_width": "Sort a collection of shapes into at least two groups; state one property shared by shapes in each group and one difference between the groups.",
+        "typical_width": "Classify a collection including circles, ovals, triangles, quadrilaterals and irregular shapes into groups; explain the shared properties within each group; distinguish regular from irregular instances of the same type (e.g. equilateral vs scalene triangles); identify overlapping properties and decide how to handle shapes that could belong to multiple groups.",
+        "wider": [
+          "Explore string games from First Nations Australians (e.g. Karda from the Yandruwandha Peoples), recognising and classifying the shapes made by the string in terms of familiar shape properties.",
+          "Investigate shapes found in architecture and design across different cultures, classifying and comparing properties and noting how different traditions use shape differently.",
+          "Use dynamic geometry software to manipulate shapes, exploring which properties remain the same and which change as a shape is stretched or rotated."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only sort with clearly regular shapes often overgeneralise (all triangles must have equal sides, all rectangles must be upright). Including irregular instances and shapes in non-standard orientations gives the contexts needed to build a property-based concept of shape type rather than a prototype-based one.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Shape classification is rich ground for early geometric reasoning. Students who classify across a wide range of shape instances — including culturally significant shapes and string game figures — develop flexible conceptual thinking about what makes a shape what it is.",
+        "success_criteria": [
+          "Sorts a mixed collection of shapes into groups and names a shared property for each group.",
+          "Explains at least one difference between two groups."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Tactile and environmental recognition",
+        "progression_checkpoint": "Students can identify familiar shapes by touch alone and recognise familiar shapes in objects and structures in the environment.",
+        "minimum_width": "Identify a shape from a bag by feel and name it; find at least two instances of a named shape in the classroom environment.",
+        "typical_width": "Identify a range of shapes by feel (circle, triangle, square, rectangle, oval) and explain the properties used to identify each; recognise familiar shapes in a range of environmental objects; compare 3D objects and identify which 2D shapes are visible on their faces.",
+        "wider": [
+          "Conduct a shape walk in a broader environment (school grounds, local area), photographing or sketching instances of each shape type and creating a class display of shapes found in the environment.",
+          "Explore shapes in First Nations Australian art and craft, identifying and classifying the shapes used and connecting them to the shapes found on Country/Place."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly names a shape identified by touch, using a property to justify the identification.",
+          "Identifies at least two instances of a named shape in the environment."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Make and compare shapes",
+        "progression_checkpoint": "Students can make familiar shapes using materials and compare shapes built from the same materials, explaining the similarities and differences.",
+        "minimum_width": "Make one familiar shape using materials; compare it with a different shape made from the same number of pieces and state one similarity and one difference.",
+        "typical_width": "Make a variety of familiar shapes using blocks, centi-cubes, or construction materials; compare objects built from the same number of pieces; discuss how the arrangement of pieces produces different shapes; connect 3D constructions to their 2D shape components.",
+        "wider": [
+          "Explore how different arrangements of the same number of centi-cubes produce shapes with different properties (height, width, footprint), connecting construction to spatial reasoning.",
+          "Create shapes and patterns inspired by First Nations string game designs, comparing the shapes made in different string configurations."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Making shapes requires students to apply classification knowledge generatively — selecting materials to produce specified properties. Comparing constructed shapes integrates property identification, classification, and spatial reasoning."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Makes a shape using materials that has the key properties of the named shape type.",
+          "Compares two constructed shapes and states at least one similarity and one difference."
+        ]
+      }
+    ]
+  }
+}

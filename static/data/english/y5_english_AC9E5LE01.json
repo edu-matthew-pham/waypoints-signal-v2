@@ -1,0 +1,93 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LE01",
+    "title": "Historical and cultural contexts",
+    "description": "Identify aspects of literary texts that represent details or information about historical, social and cultural contexts in literature by First Nations Australian, and wide-ranging Australian and world authors",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise similar storylines, ideas and relationships in different contexts in literary texts (AC9E4LE01). They have not yet examined how specific literary details — images, symbols, dialogue, character descriptions — represent historical, social and cultural contexts, or explored texts by First Nations Australian authors in relation to the events that shaped their lives.",
+    "progression_endpoint": "Students identify and explain how specific literary details — including images, symbols, dialogue and character descriptions — represent historical, social and cultural contexts in texts by First Nations Australian, Australian and world authors.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Literary details carry context",
+        "progression_checkpoint": "Students can identify specific literary details — images, symbols, dialogue, character descriptions — and explain what historical, social or cultural information those details convey.",
+        "minimum_width": "In a literary text, identify at least two specific details (images, symbols, dialogue or character descriptions) and explain what each reveals about the context in which the text was created or is set.",
+        "typical_width": "Analyse how a range of literary detail types across a text convey contextual information — building a picture of the historical, social or cultural world the text inhabits. Explain how specific detail choices by the author reflect their context.",
+        "wider": [
+          "Compare how authors from different historical periods use different types of literary details to convey context — examining what each author chooses to make visible and what they leave implicit",
+          "Examine texts from wide-ranging world authors and identify literary details that are culturally specific, discussing what knowledge is needed to interpret those details"
+        ],
+        "hinge": true,
+        "hinge_reason": "The reasoning move from detail to contextual inference must be established here — Node 2 and Node 3 both require students to apply this same move to increasingly specific contexts (First Nations Australian literature, Australian ballads). Students who cannot explain what a detail reveals will not be able to engage analytically with culturally specific or historically situated texts in subsequent nodes.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students identify details but often do not connect them to context — 'this character is described as wearing traditional clothing' without explaining what that reveals about when or where the story is set or what it signals about the character's relationship to their culture. The reasoning move from detail to contextual inference needs to be made explicit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a specific literary detail and explains what historical, social or cultural context it represents — not just names the detail.",
+          "Explains how the detail reveals something about the world of the text beyond what is explicitly stated."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "First Nations Australian literary contexts",
+        "progression_checkpoint": "Students can identify aspects of First Nations Australian literary texts that convey information about historical context, cultural practice, or the impact of events on community life.",
+        "minimum_width": "In a text by a First Nations Australian author, identify at least two aspects — images, language, dialogue, character description — that convey information about historical or cultural context, and explain what those aspects reveal.",
+        "typical_width": "Explore and discuss texts by First Nations Australian authors about events that shaped or had an impact on their lives, identifying how literary choices represent historical context. Explain how First Nations Australian authors position readers in relation to those contexts.",
+        "wider": [
+          "Explore historical context in texts by First Nations Australian authors about specific events (e.g. the Stolen Generations, land rights, community history) and discuss how literary choices make those events present for readers",
+          "Compare how the same historical events are represented in texts by First Nations Australian authors and by other Australian authors, examining what is foregrounded, backgrounded, or absent in each"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may not have background knowledge about the historical and cultural contexts in First Nations Australian literature, making the literary details opaque. Engaging with a range of texts — and with contextual information about events they represent — helps students develop the interpretive knowledge needed to read these texts with understanding rather than surface recognition.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations Australian literature as a window into historical and cultural contexts — including the events that shaped communities, the use of Country-based imagery, kinship language, and cultural protocols in texts — is genuinely rich. Advancing students can develop substantive knowledge of how specific historical events are represented and what choices First Nations Australian authors make in representing them.",
+        "success_criteria": [
+          "Identifies at least two aspects of a First Nations Australian literary text and explains what historical or cultural context they convey.",
+          "Explains how the author's perspective or cultural position shapes the representation of context in the text."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Ballads and historical context across Australian literature",
+        "progression_checkpoint": "Students can identify aspects of Australian literary texts — including ballads from different times — that convey historical and social context, and discuss how those contexts are represented through literary choices.",
+        "minimum_width": "In an Australian literary text (including a ballad), identify at least two aspects that convey historical or social context and explain what those aspects reveal about the time or community represented.",
+        "typical_width": "Explore a range of Australian literary texts including ballads from different time periods, identifying how literary choices — character, setting, language, imagery — represent the historical and social contexts of their time. Compare how different periods' concerns and values are made visible through literary choices.",
+        "wider": [
+          "Compare how two Australian ballads from different historical periods represent the values, concerns and social conditions of their respective times — examining what has changed and what has stayed constant in Australian social life",
+          "Examine how contemporary Australian authors represent historical events from earlier periods, discussing how temporal distance affects literary representation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Building familiarity with texts from different periods and cultural contexts — First Nations Australian, colonial, contemporary Australian, and world literature — is the long-term goal. Each text adds to the repertoire of contextual knowledge students bring to reading. Breadth of text encounter is the investment signal here."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies aspects of an Australian literary text that convey its historical period and explains what those aspects reveal about the social world of the text.",
+          "Makes a connection between a specific literary choice (language, image, character detail) and the historical or social context it represents."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "year_level": "9",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC9K02",
+    "title": "Legislative policy processes",
+    "description": "the legislative processes through which federal government policy is shaped, developed and implemented",
+    "strand": "Government and democracy",
+    "mode": "A",
+    "prior_knowledge": "Students know the role of political parties and independent representatives in Australian democracy including elections and formation of governments (AC9HC8K02), and how statutory law is made through parliaments (AC9HC8K03). They understand the basic passage of a bill into law but have not examined the upstream policy process — how government decisions move from idea to legislation.",
+    "progression_endpoint": "Students explain the legislative processes through which federal government policy is shaped, developed and implemented, including the influences on policy formulation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Federal responsibilities and policy scope",
+        "progression_checkpoint": "Students can identify the areas of federal government responsibility that define the scope of federal policy-making.",
+        "minimum_width": "Identify at least two areas of federal government responsibility as outlined in the Constitution and explain why these areas fall under federal rather than state jurisdiction.",
+        "typical_width": "Locate areas of federal government responsibility as outlined in the Constitution; explain why federal policy operates in these areas; identify how conflicts over federal/state/territory responsibilities are resolved (e.g. inconsistency doctrine, referral of powers).",
+        "wider": [
+          "Investigate a contemporary area of federal-state responsibility tension (e.g. natural disaster funding, public hospital funding) and analyse how the Constitution shapes who can act",
+          "Examine cases where states have referred powers to the Commonwealth and evaluate the implications for federal policy scope"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without understanding which level of government has responsibility for a policy area, students cannot meaningfully trace how federal policy is developed — they may apply federal policy processes to state policy areas or vice versa throughout the rest of the sequence.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often default to thinking 'the government' makes all policy without distinguishing federal from state responsibility. A structured exercise mapping policy areas to jurisdictions anchors the subsequent process tracing.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two policy areas that are federal government responsibility",
+          "Explains why those areas fall under Commonwealth rather than state responsibility"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "From idea to enacted legislation",
+        "progression_checkpoint": "Students can describe the sequential stages through which a policy idea becomes enacted federal legislation.",
+        "minimum_width": "Chart the main stages of federal policy development from initial idea through to enacted legislation, naming at least three distinct stages.",
+        "typical_width": "Chart the full process of policy development from initial idea to enacted legislation, including policy development, Cabinet consideration, drafting of a bill, passage through both Houses of Parliament, and Royal Assent; explain the role of each stage.",
+        "wider": [
+          "Trace a specific piece of recent federal legislation (e.g. climate policy, workplace relations) through each stage, identifying where delays or changes occurred",
+          "Compare the legislative process in Australia's bicameral parliament with a unicameral state parliament to analyse how the Senate shapes federal legislation",
+          "Examine the role of Senate committees in shaping legislation and evaluate their contribution to democratic accountability"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students benefit from charting multiple examples of legislation through the process to distinguish the typical path from cases where the process is contested or drawn out. A single example risks being treated as the only pattern."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Lists at least three stages in the process of a bill becoming law",
+          "Explains the role of at least one stage in shaping the final legislation"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Influences on policy formulation",
+        "progression_checkpoint": "Students can identify and analyse multiple influences on how federal policy is formulated and implemented.",
+        "minimum_width": "Identify at least two different types of influences on federal policy formulation (e.g. political parties, interest groups, citizens) using a specific federal policy as an example.",
+        "typical_width": "Use a specific federal policy to understand and analyse the range of influences on policy formulation and implementation, including: political parties, interest groups, citizens and public opinion, international influences, and the public service; explain how these influences interact and sometimes conflict.",
+        "wider": [
+          "Investigate a policy area where international obligations (e.g. UN conventions, trade agreements) have shaped domestic federal legislation and evaluate the extent of that influence",
+          "Analyse the role of media campaigns or public advocacy in shifting federal policy on a contemporary issue",
+          "Compare the relative influence of different stakeholders (industry lobby vs community groups vs public service) in a specific policy case and assess whose interests were most reflected in the final legislation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Analysing influences on policy formulation becomes meaningful only when applied to a specific, concrete policy case. Using two different policy examples (e.g. one with strong industry influence, one with significant community pressure) helps students see that the influence mix varies by case.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of federal policy domains — climate, health, education, immigration, taxation — offers many rich cases where different influence types dominated. Advancing students can be directed to cases with contested or surprising influence dynamics, deepening their understanding of how democracy operates in practice.",
+        "success_criteria": [
+          "Names at least two types of influence on policy formulation",
+          "Uses a specific federal policy to illustrate how at least one influence shaped the policy's development or implementation"
+        ]
+      }
+    ]
+  }
+}

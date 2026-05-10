@@ -1,0 +1,70 @@
+{
+  "year_level": "9",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E9LA06",
+    "title": "Abstract nouns and nominalisation for condensing",
+    "description": "understand how abstract nouns and nominalisation can be used to summarise ideas in text",
+    "strand": "Language — Expressing Ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand how complex and compound-complex sentences elaborate, extend and explain ideas (AC9E7LA05). They have encountered nominalisation as a cohesive device (AC9E9LA04). They have not yet focused specifically on how abstract nouns and nominalisation function to summarise and carry forward prior ideas within a text.",
+    "progression_endpoint": "Students understand how abstract nouns and nominalisation summarise ideas, structure arguments and allow texts to treat prior content as an established premise.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Abstract nouns as summary references",
+        "progression_checkpoint": "Students can identify abstract nouns used to summarise prior text content and explain what they compress.",
+        "minimum_width": "Identify two abstract nouns in an academic or informational text (e.g. 'the previous argument', 'the prologue') and explain what content each compresses from earlier in the text.",
+        "typical_width": "Analyse how abstract nouns in academic and technical texts function as backward-pointing summary references, distilling earlier explanations into a single noun phrase that can be treated as established.",
+        "wider": [
+          "Compare how abstract nouns function differently in scientific texts versus literary criticism — and what this reveals about how different disciplines build knowledge",
+          "Examine how the absence of abstract summary nouns affects the coherence of student writing, using concrete examples"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Abstract nouns used as summary references are common in academic and technical texts but uncommon in everyday writing. Students need exposure across disciplines to see this as a systematic knowledge-building device rather than incidental usage.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify abstract nouns as summary references cannot understand N2 — the argument-structuring function of nominalisation depends on first seeing that noun phrases carry condensed prior content. Without N1, the process→thing transformation at N2 has no conceptual anchor.",
+        "success_criteria": [
+          "Student identifies an abstract noun used as a summary reference",
+          "Student explains what prior text content it compresses into the noun phrase"
+        ],
+        "related_standards": ["AC9E9LA04", "AC9E9LY06"]
+      },
+      {
+        "id": 2,
+        "label": "Nominalisation as argument structure",
+        "progression_checkpoint": "Students can explain how nominalisation structures an argument by transforming processes into things that can be positioned, qualified and built upon.",
+        "minimum_width": "Identify a nominalised form in an argument (e.g. 'the destruction of' instead of 'destroying') and explain how treating the process as a noun-thing advances the argument.",
+        "typical_width": "Analyse how nominalisations structure an argument in an academic or informational text, tracking how transformed processes become the objects of further reasoning.",
+        "wider": [
+          "Compare two versions of the same paragraph — one with nominalisations, one with verb forms — and analyse the effect on argumentative density and register",
+          "Examine how nominalisation in political or bureaucratic texts can obscure who is doing what, and evaluate the effect on accountability"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The grammatical transformation (process → thing) is abstract. Students need the reasoning scaffold: verb form → nominalised form → what this allows the sentence to do next. Without this chain, students see nominalisations as vocabulary choices rather than structural ones.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection between nominalisation and accountability/ideology — who disappears from the text when processes become things — is genuinely enriching for Year 9 critical literacy. This is conceptually rich width that connects language and power without being senior-level content.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies a nominalised form and states the process verb it derives from",
+          "Student explains what grammatical advantage the nominalised form gives the writer (e.g. positioning as subject, adding qualifier, advancing the argument)"
+        ],
+        "related_standards": ["AC9E9LA04", "AC9E9LY03", "AC9E9LY06"]
+      }
+    ]
+  }
+}

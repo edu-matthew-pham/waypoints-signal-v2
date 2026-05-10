@@ -1,0 +1,67 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LY11",
+    "title": "Homophones and context spelling",
+    "description": "read and write high-frequency words including homophones and know how to use context to identify correct spelling",
+    "strand": "Literacy / Phonic and word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students recognise and write most high-frequency words including some homophones (AC9E3LY12). They have not yet applied contextual and syntactical clues systematically to determine correct homophone spelling.",
+    "progression_endpoint": "Students can read and write high-frequency words including homophones, applying contextual and syntactical clues to select the correct spelling in context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying homophone pairs",
+        "progression_checkpoint": "Students can identify homophone pairs and distinguish the meaning of each word in the pair.",
+        "minimum_width": "Identify at least three homophone pairs and give the meaning of each word.",
+        "typical_width": "Identify a range of common homophone pairs (our/hour, their/there/they're, to/too/two, hear/here, wear/ware/where) and explain the distinct meaning of each, noting part of speech where relevant.",
+        "wider": [
+          "Collect homophones encountered in reading across a week and build a personal homophone reference list with meanings and example sentences",
+          "Investigate near-homophones and confusables (e.g. affect/effect, then/than) and develop memory strategies for distinguishing them"
+        ],
+        "hinge": true,
+        "hinge_reason": "Using context to select the correct homophone in N2 requires students to know both words in the pair — without knowing the alternatives, students cannot apply the meaning-check that N2 requires.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Knowing homophone pairs is a memory task that requires repeated encounter to become reliable — students need to recognise both words in a pair before context checking is possible.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can name at least three homophone pairs",
+          "Can explain the different meaning of each word in at least two pairs"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using context to select correct spelling",
+        "progression_checkpoint": "Students can use contextual and syntactical clues to identify and write the correct homophone in a sentence.",
+        "minimum_width": "Select the correct homophone in at least three sentences using context clues and explain the clue used.",
+        "typical_width": "Apply contextual and syntactical clues systematically to select the correct homophone across a range of sentences and texts, explaining why the context determines the spelling choice.",
+        "wider": [
+          "Edit a piece of writing specifically for homophone errors, explaining the reasoning for each correction",
+          "Examine how homophone errors in published or digital texts change meaning and discuss the importance of proofreading"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Correct homophone selection in context requires automatic triggering of the meaning-check habit. Students who know the pairs still make errors in fluent writing without consistent practice building the checking habit."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can select the correct homophone in a sentence and name the context clue that determines the choice",
+          "Does not rely on sound alone — uses meaning or part of speech to determine the correct form"
+        ]
+      }
+    ]
+  }
+}

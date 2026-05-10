@@ -1,0 +1,97 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5U04",
+    "title": "Particle Model of Matter",
+    "description": "explain observable properties of solids, liquids and gases by modelling the motion and arrangement of particles",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can classify materials as solids or liquids by observable properties and explain changes of state using heat energy (AC9S3U04). They have not yet used a particle model to explain why solids, liquids and gases behave as they do, or examined gases as a third state of matter with distinct properties.",
+    "progression_endpoint": "Students use a particle model — describing the arrangement, spacing and motion of particles — to explain the observable properties of solids, liquids and gases, and connect state changes to changes in particle behaviour when heat energy is added or removed.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Gases have observable properties distinct from solids and liquids",
+        "progression_checkpoint": "Students can describe observable properties of gases — including that gases have mass, can be compressed, and take the shape and volume of their container — and distinguish these from the properties of solids and liquids.",
+        "minimum_width": "Students describe at least two observable properties of gases and explain how these differ from the properties of solids or liquids.",
+        "typical_width": "Students classify substances as solids, liquids and gases; describe the characteristic properties of each state including compressibility, fixed vs variable shape and volume; demonstrate that gases have mass; and explain what is different about gases compared with the other two states.",
+        "wider": [
+          "Investigate examples demonstrating that gases have mass — using a balance to compare an empty balloon with one filled with air, or blowing air through a straw to move objects",
+          "Explore what is between gas particles — guided discussion about the nature of 'empty space' between particles and what this means for compression",
+          "Examine First Nations Australians' knowledge of gases and their applications — including the extraction of oils, medical therapies and cooking — connecting practical knowledge to particle-level understanding"
+        ],
+        "hinge": true,
+        "hinge_reason": "The empirical foundation for gas properties must precede the particle model — students who believe gases have no mass or cannot be compressed will reject the particle model explanation at Node 2 because it contradicts their existing framework. Thin treatment here produces a particle model that students apply by rote without understanding what it explains.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly believe gases have no mass ('air is nothing') and cannot be compressed ('there is nothing to compress'). Encountering multiple demonstrations of gas mass and compressibility — and discussing what is between particles — builds an accurate empirical foundation before the particle model is introduced.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States at least two observable properties of gases that distinguish them from solids and liquids",
+          "Provides evidence that gases have mass"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Particle arrangement and motion explain state properties",
+        "progression_checkpoint": "Students can use a particle model to explain the observable properties of each state — describing how particle arrangement (close/far apart) and motion (vibrating/flowing/moving freely) differ across solids, liquids and gases.",
+        "minimum_width": "Students describe the particle arrangement and motion for each of the three states and connect each to at least one observable property of that state.",
+        "typical_width": "Students explain all major observable properties of solids, liquids and gases using particle arrangement and motion — fixed shape (particles tightly packed, vibrating in place), liquid flow (particles close but able to move past each other), gas compression (particles far apart, moving freely) — and represent these models using diagrams or role-play.",
+        "wider": [
+          "Use role-play to model particle arrangement and motion in solids, liquids and gases — examining how collective behaviour of particles produces the observable properties of each state",
+          "Observe a virtual demonstration of coloured gases being compressed and explain the change in colour intensity using the particle model — applying the model to predict observable outcomes",
+          "Explore whether there is a 'correct' way to represent particles — examining different representations (diagrams, models, animations) and what each communicates and omits"
+        ],
+        "hinge": true,
+        "hinge_reason": "The particle model as an explanatory tool is directly required for Node 3 state change explanation — students must describe particle behaviour changing during melting, evaporation and condensation. Without the model internalised as explanatory (not just diagrammatic), state change explanations collapse to observable descriptions with no particle-level reasoning.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The particle model is the first time students are asked to explain observable properties using an invisible underlying structure. The reasoning chain — particles have arrangement and motion → arrangement and motion determine macroscopic behaviour → observable properties are evidence of particle-level structure — is the scaffold that makes the model genuinely explanatory rather than decorative labelling of diagrams.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Role-play modelling and virtual compression demonstrations are genuinely effective for building the particle model concept. The representation evaluation direction connects to scientific modelling as a practice and provides substantive enrichment for advancing students.",
+        "success_criteria": [
+          "Describes particle arrangement and motion for each of the three states",
+          "Uses the particle model to explain at least two observable properties — one for solids and one for gases"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "State changes are explained by changes in particle behaviour",
+        "progression_checkpoint": "Students can explain state changes (melting, freezing, evaporation, condensation) using the particle model — describing how adding or removing heat energy changes particle motion and the transitions between states.",
+        "minimum_width": "Students explain melting using the particle model — describing how adding heat energy increases particle motion until particles can move past each other.",
+        "typical_width": "Students explain all common state changes (melting, freezing, evaporation, condensation) using the particle model, connecting heat energy addition/removal to changes in particle motion; explain why mass is conserved during state change (same particles, different arrangement); and connect this to their prior knowledge of observable state change (AC9S3U04).",
+        "wider": [
+          "Examine First Nations Australians' knowledge of state changes in beeswax and resins — connecting particle-model explanation to culturally significant material use",
+          "Investigate how changes of state in materials enable recycling — explaining at the particle level why glass and metals can be returned to liquid state and reformed",
+          "Connect particle model state change to the water cycle (AC9S4U02) — explaining evaporation and condensation as particle-level processes that drive the macroscopic cycle"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "State change explanation using the particle model requires students to integrate observable state change knowledge (AC9S3U04), particle model knowledge, and heat energy concepts in a single explanatory account. This is the synthesis move of the descriptor — applying the model to explain a familiar phenomenon at a new level of explanation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least one state change using particle arrangement and motion — describing what happens to particles when heat is added or removed",
+          "Explains why mass is conserved during a state change using the particle model"
+        ],
+        "related_standards": ["AC9S3U04", "AC9S4U02"]
+      }
+    ]
+  }
+}

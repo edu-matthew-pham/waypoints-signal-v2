@@ -1,0 +1,87 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LE02",
+    "title": "Connect literature to personal experience",
+    "description": "discuss literary texts and share responses by making connections with students' own experiences",
+    "strand": "literature",
+    "mode": "B",
+    "prior_knowledge": "Students can respond to stories and share feelings and thoughts about events and characters (AC9EFLE02). They have not yet systematically connected literary texts to their own experiences as an interpretive strategy, or asked questions about texts to deepen response.",
+    "progression_endpoint": "Students discuss literary texts and share responses by making connections with their own experiences, using drawing, role-play and discussion.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Responding to characters and events",
+        "progression_checkpoint": "Students can share a personal response to a character or event in a literary text — expressing what they think, feel or wonder.",
+        "minimum_width": "Share at least one response to a character or event in a text, using language that expresses thinking or feeling (e.g. 'I think...', 'I wonder...', 'I felt...').",
+        "typical_width": "Share responses to characters, events and situations in texts using language of thinking and feeling, across multiple texts and in varied modes (discussion, drawing, role-play).",
+        "wider": [
+          "Explore how different readers can have different responses to the same character or event — discuss why this might be",
+          "Examine responses to characters that are morally complex or whose actions are hard to understand"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student shares a response that goes beyond plot retelling to express a personal reaction",
+          "Student uses language that signals thinking or feeling ('I think', 'I felt', 'I wonder')"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Connecting text to personal experience",
+        "progression_checkpoint": "Students can make an explicit connection between something in a literary text and their own experience, and explain how the connection helps them understand the text.",
+        "minimum_width": "Identify at least one connection between a text and personal experience and explain what it helps them understand.",
+        "typical_width": "Make text-to-self connections across a range of literary texts, explaining how personal experience helps them understand characters, events or feelings depicted in the text.",
+        "wider": [
+          "Discuss what happens when a text depicts an experience the reader has not had — how do they make sense of it?",
+          "Compare personal connections made by different readers in a class discussion — explore why different things connect for different people"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Making text-to-self connections is a transferable strategy that students build through repeated practice across varied texts. The more varied the texts and experiences engaged with, the more robust the strategy becomes."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student states an explicit connection between something in the text and their own experience",
+          "Student explains how the connection helps them understand the character, event or feeling"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Questioning and narrating story",
+        "progression_checkpoint": "Students can generate questions about characters, settings and events, and identify who is telling the story in a text.",
+        "minimum_width": "Ask at least one question about a character, setting or event in a text; identify who is telling the story.",
+        "typical_width": "Generate questions about characters, settings and events that probe beyond the literal; identify who tells the story (first person narrator, third person narrator) and discuss how this shapes the reader's experience.",
+        "wider": [
+          "Compare a story told from a character's own perspective with one told by an outside narrator — discuss how the storyteller's identity shapes what we know",
+          "Explore how identifying the narrator changes the questions a reader might ask"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify who is telling the story cannot engage with perspective, point of view or narrator reliability in Year 2 and beyond — the concept of narrator is a definitional prerequisite for downstream literary response work.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Identifying the narrator requires a deliberate reasoning move — 'who is speaking?' is not always obvious to Year 1 students. A simple scaffold (Is the narrator in the story or outside it? How do we know?) helps students make this judgment reliably.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student generates at least one question about the text that is not answered directly on the page",
+          "Student identifies who is telling the story and gives a reason for their identification"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "year_level": "9",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC9K04",
+    "title": "Trials, roles and rights",
+    "description": "the role of courts, judges, lawyers and juries in trials, and the rights of the accused and the rights of victims",
+    "strand": "Laws and citizens",
+    "mode": "A",
+    "prior_knowledge": "Students understand the structure of the court hierarchy and the difference between civil and criminal law from AC9HC9K03. They have a surface-level understanding of courts as places where law is applied but have not yet examined who does what inside a trial or what rights attach to participants.",
+    "progression_endpoint": "Students explain the roles of courts, judges, lawyers and juries in criminal and civil trials, compare the rights of the accused with the rights of victims, and evaluate whether the legal system delivers equal access to justice.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Roles within trials",
+        "progression_checkpoint": "Students can describe the roles of judges, lawyers, court officials and juries in criminal and civil trials.",
+        "minimum_width": "Describe the role of the judge and at least one other participant (lawyer or jury) in a criminal trial.",
+        "typical_width": "Investigate the roles of judges, lawyers (prosecution/plaintiff, defence), court officials, and juries in both criminal and civil trials; explain how each contributes to the trial process and to the delivery of justice.",
+        "wider": [
+          "Compare the role of the jury in a criminal trial with the role of the judge alone in a civil matter, and evaluate when each approach is more appropriate",
+          "Investigate the history of jury trials and examine arguments for and against the jury system in contemporary Australia",
+          "Examine how magistrates courts operate without juries and assess the implications for defendants"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students benefit from building a clear repertoire of participant roles before comparing rights across those roles. Confusion between the judge's role and the jury's role is a common error that undermines the rights analysis in Node 2."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes the role of the judge in a trial",
+          "Describes the role of the jury or lawyer and explains how it differs from the judge's role"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Rights of the accused and victims",
+        "progression_checkpoint": "Students can compare the rights of the accused with the rights of victims in criminal trials, and identify the rights of parties in civil cases.",
+        "minimum_width": "Identify at least two rights of the accused in a criminal trial (e.g. right to silence, presumption of innocence) and state one right afforded to victims.",
+        "typical_width": "Compare the rights of the accused with the rights of victims in criminal trials, including presumption of innocence, right to silence, right to legal representation, and the role of victim impact statements; compare the rights of plaintiff and defendant in a civil case; explain the role of the police in enabling equal treatment under the law.",
+        "wider": [
+          "Examine cases where the rights of victims and rights of the accused have been argued to conflict, and evaluate how the legal system attempts to balance them",
+          "Investigate how victim support services and restorative justice approaches seek to address limitations in formal victim rights",
+          "Compare rights of the accused in Australia with those in another jurisdiction (e.g. the USA) and evaluate differences"
+        ],
+        "hinge": true,
+        "hinge_reason": "The tension between rights of the accused and rights of victims is the conceptual core of this standard, and thin understanding here means students cannot engage with the access-to-justice analysis in Node 3. Students who reduce rights to 'accused has all the rights' or 'victims are left out' cannot evaluate the system's fairness.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often assume the presumption of innocence privileges the accused at the expense of victims. Unpacking why these procedural protections exist (preventing wrongful conviction) before comparing them with victim entitlements produces more nuanced analysis.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Working through specific case types — a domestic violence case, a property crime case — that make rights concrete helps students move past the abstract definitions and into evaluation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The rights comparison is rich with contemporary debate: victim impact statements, restorative justice, mandatory sentencing. These offer advancing students genuine evaluative territory within the Year 9 scope.",
+        "success_criteria": [
+          "Names at least two rights of the accused in a criminal trial and explains their purpose",
+          "Identifies at least one right or protection available to victims and compares it with a corresponding right of the accused"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Access to justice and equality",
+        "progression_checkpoint": "Students can investigate barriers to equal access to justice and evaluate whether civil remedies and appeals deliver just outcomes.",
+        "minimum_width": "Identify at least two barriers to equal access to justice (e.g. cost, geographic isolation, literacy, race or ethnicity) and explain how they affect access.",
+        "typical_width": "Investigate potential barriers to equality of access to justice including financial constraints, education and literacy, geographic location, and racial or ethnic background (especially for First Nations Australians); explain the purpose of civil remedies and rights of appeal; evaluate whether legal aid contributes meaningfully to addressing inequality of access.",
+        "wider": [
+          "Investigate the specific barriers facing First Nations Australians in accessing the legal system and assess what systemic changes have been made or proposed",
+          "Compare legal aid funding and scope in Australia with another country and evaluate the implications for access to justice",
+          "Examine a case where a wrongful conviction resulted from inadequate legal representation and assess what systemic failures it revealed"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Access to justice barriers are most visible through specific population groups and geographic contexts. Examining barriers for rural communities alongside barriers for First Nations Australians demonstrates that access inequality has multiple intersecting causes.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The access-to-justice analysis connects to systemic inequities with genuine contemporary relevance — First Nations incarceration rates, underfunding of legal aid, remote access. These offer advancing students substantive evaluation territory grounded in evidence.",
+        "success_criteria": [
+          "Identifies at least two barriers to equal access to justice and explains how each limits participation in the legal system",
+          "Explains how legal aid or civil appeals contribute to (or fall short of) equalising access to justice"
+        ]
+      }
+    ]
+  }
+}

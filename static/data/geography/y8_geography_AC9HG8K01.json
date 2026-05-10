@@ -1,0 +1,152 @@
+{
+  "year_level": "8",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG8K01",
+    "title": "Geomorphological processes",
+    "description": "geomorphological processes that produce different landscapes and significant landforms",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students explain how water connects and changes places as it moves through environments (AC9HG7K01), and the causes and impacts of atmospheric/hydrological hazards (AC9HG7K04). They have not yet encountered tectonic, volcanic, or rock-weathering processes at this scale.",
+    "progression_endpoint": "Students explain geomorphological processes \u2014 including tectonics, volcanism, folding, faulting, weathering, erosion, transportation and deposition \u2014 that produce different landscapes and significant landforms.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Landscape diversity",
+        "progression_checkpoint": "Students can identify and describe the diversity of landscape types at the global and national scale, including wetlands, grasslands, forests, and deserts.",
+        "minimum_width": "Students describe at least three landscape types with one example location each.",
+        "typical_width": "Students describe a range of landscape types (wetlands, grasslands, forests, hot and cold deserts) with national and international examples, explaining what distinguishes each type visually and environmentally.",
+        "wider": [
+          "Compare landscape distributions across multiple continents, identifying climate\u2013landscape relationships.",
+          "Examine how landscape classification systems differ (e.g., ecological vs geomorphological framings).",
+          "Investigate transition zones between landscape types and why boundaries are rarely sharp."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies and names at least three distinct landscape types with a located example for each.",
+          "Describes at least one distinguishing feature that differentiates each landscape type."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Endogenic processes",
+        "progression_checkpoint": "Students can explain how tectonics, volcanism, folding and faulting produce major landforms.",
+        "minimum_width": "Students explain one endogenic process (tectonic, volcanic, fold or fault) with a named landform example.",
+        "typical_width": "Students explain how plate tectonics drives volcanism, folding and faulting, linking each process to a named landform example (e.g., MacDonnell Ranges \u2014 folding; Great Sumatran Fault \u2014 faulting; Krakatoa \u2014 volcanism).",
+        "wider": [
+          "Compare landforms produced by convergent vs divergent plate boundaries.",
+          "Investigate how the same tectonic setting can produce different landform types (e.g., both mountains and rift valleys).",
+          "Examine how volcanic activity produces landscape diversity beyond just volcanic cones \u2014 lava plains, calderas, geothermal landscapes."
+        ],
+        "hinge": true,
+        "hinge_reason": "If students conflate endogenic and exogenic processes, or treat all landforms as surface erosion products, they cannot accurately explain the formation of major landscapes in Node 3 or the hazard origins in AC9HG8K05.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need a clear conceptual model distinguishing internal (endogenic) from external (exogenic) forces before they can correctly attribute landform origins. A process-to-landform reasoning chain \u2014 plate boundary type \u2192 stress/movement \u2192 resulting structure \u2014 prevents conflation.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names and explains at least two endogenic processes (e.g., folding, volcanism) and links each to a named landform.",
+          "Distinguishes endogenic processes (driven by internal Earth energy) from surface processes."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Weathering processes",
+        "progression_checkpoint": "Students can explain how chemical and physical weathering break down rock to shape landforms, including the role of rock type.",
+        "minimum_width": "Students explain one type of chemical weathering and one type of physical weathering with a landform or landscape example.",
+        "typical_width": "Students explain chemical weathering (oxidation, solution) and physical weathering (exfoliation, frost wedging), relating each to rock type (sedimentary, igneous, metamorphic) and a selected landform such as Fraser Island or the Twelve Apostles.",
+        "wider": [
+          "Investigate how differential weathering rates between rock types produce distinctive landform features (e.g., tors, inselbergs).",
+          "Compare weathering processes in tropical vs arid climates and their contrasting landform outcomes.",
+          "Examine karst landscapes as a case study of chemical weathering at landscape scale."
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding weathering as a prerequisite to erosion and deposition is needed for Node 4. Students who treat erosion as the only surface process will produce incomplete process chains when explaining landform formation.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using multiple rock types and climate contexts helps students avoid exemplar lock-in where they treat sandstone + wind as the only weathering story. Breadth across rock types and climates builds a transferable process model.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Rock type\u2013weathering interaction is a genuinely rich geographic concept \u2014 the same climate produces very different landforms depending on lithology. Wider students can explore how geologists 'read' landscapes through rock type, a transferable analytical skill.",
+        "success_criteria": [
+          "Explains at least one chemical and one physical weathering process, identifying the conditions that drive each.",
+          "Links rock type to differential weathering outcomes in a named landscape or landform."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Erosion, transportation and deposition",
+        "progression_checkpoint": "Students can explain how erosion, transportation and deposition by water and wind shape landforms, using a selected local-scale example.",
+        "minimum_width": "Students explain how one agent (water or wind) erodes, transports and deposits material to shape a named landform.",
+        "typical_width": "Students explain the sequence of erosion \u2192 transportation \u2192 deposition by water and wind, applying this to a selected local-scale landform (e.g., Fraser Island formed by wind, waves and ocean currents; Twelve Apostles formed by coastal erosion and wave action).",
+        "wider": [
+          "Compare the relative roles of water and wind as agents in landform formation in contrasting climate zones.",
+          "Investigate how human modifications (vegetation clearing, dams) alter natural erosion and deposition regimes.",
+          "Examine time scales \u2014 how the same processes that operate daily also explain large-scale landscape formation over geological time."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "width_opportunity",
+            "reason": "Applying the erosion\u2013transportation\u2013deposition sequence to multiple agents and settings (coastal, fluvial, aeolian) builds a versatile explanatory framework students will reuse when explaining hazards (K05) and human\u2013landscape interconnections (K04).",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The ETD sequence (erosion\u2013transportation\u2013deposition) is a reusable conceptual tool. Wider engagement with multiple agents and scales equips students to apply this framework in novel contexts across the unit \u2014 including human impacts and hazards.",
+        "success_criteria": [
+          "Describes the sequence of erosion, transportation and deposition by a named agent in relation to a specific landform.",
+          "Explains how the characteristics of the landform reflect the dominant process agent(s)."
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Process integration",
+        "progression_checkpoint": "Students can explain how multiple geomorphological processes interact to produce landscapes, selecting and applying appropriate process explanations to named landforms at different scales.",
+        "minimum_width": "Students explain the formation of one selected landform by identifying the dominant processes involved and how they interact.",
+        "typical_width": "Students explain how endogenic and exogenic processes together produce a landscape or landform, applying process-based reasoning to examples at national and local scale. They distinguish between structural origins (tectonics, folding) and surface modification (weathering, erosion) in a coherent formation explanation.",
+        "wider": [
+          "Compare two landforms formed by contrasting process combinations (e.g., volcanic island modified by weathering vs sedimentary landform shaped by erosion).",
+          "Investigate how the same process produces different outcomes in different contexts \u2014 e.g., water erosion in humid vs arid settings.",
+          "Explore how Aboriginal and Torres Strait Islander peoples explain landform formation through Dreaming stories, considering what geographic knowledge these narratives encode."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Students need to coordinate process vocabulary and causal reasoning from Nodes 1\u20134 into a coherent formation explanation. The integration task \u2014 explaining a named landform using multiple processes \u2014 is where fragmented knowledge becomes geographic explanation."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Selects and names at least two geomorphological processes relevant to a chosen landform.",
+          "Explains how these processes interact or sequence to produce the landform's characteristics.",
+          "Locates the landform and identifies the scale at which the explanation operates."
+        ]
+      }
+    ]
+  }
+}

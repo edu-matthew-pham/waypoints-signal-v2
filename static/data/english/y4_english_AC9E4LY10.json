@@ -1,0 +1,68 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LY10",
+    "title": "Spelling generalisations and origins",
+    "description": "understand how to use knowledge of letter patterns, including double letters, spelling generalisations, morphological word families, common prefixes and suffixes, and word origins, to spell more complex words",
+    "strand": "Literacy / Phonic and word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students apply knowledge of base words, prefixes and suffixes to read and comprehend multimorphemic words (AC9E3LY10). They have not yet used spelling generalisations, morphological word families and word origins as systematic strategies for spelling more complex words.",
+    "progression_endpoint": "Students can apply spelling generalisations, morphological word family knowledge, prefix and suffix rules and word origin knowledge to spell more complex words accurately.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Spelling generalisations — double letters and affixes",
+        "progression_checkpoint": "Students can identify and apply spelling generalisations including rules for doubling letters when adding suffixes.",
+        "minimum_width": "Apply one spelling generalisation (e.g. doubling the final consonant before -ing: begin → beginning) to at least three words correctly.",
+        "typical_width": "Apply a range of spelling generalisations — doubling rules, drop-e rules, change-y-to-i rules — across a range of words when adding common affixes, explaining the rule in each case.",
+        "wider": [
+          "Investigate which spelling generalisations have exceptions and explore why (e.g. words of Latin origin may follow different doubling patterns)",
+          "Apply spelling generalisations systematically when editing own writing, developing a check habit"
+        ],
+        "hinge": true,
+        "hinge_reason": "Building word families in N2 requires correct application of suffixing rules (doubling, drop-e) — without N1's generalisations, students produce spelling errors when inflecting or deriving words within families.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Spelling generalisations are procedural rules that require practice across many word examples before they become reliable. Understanding a rule does not guarantee consistent application without sustained practice.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can correctly apply a doubling rule (e.g. begin → beginning) and name the rule",
+          "Can apply a drop-e rule (e.g. hope → hoping) and name the rule"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Morphological word families",
+        "progression_checkpoint": "Students can identify word families built from the same base and use family relationships to spell unknown related words.",
+        "minimum_width": "Build a word family from a base word (at least 3 members) and use the family to spell a word they might not know independently.",
+        "typical_width": "Build and explore morphological word families across a range of base words and morphemes, explaining how meaning and spelling are preserved across the family and using family relationships as a spelling strategy.",
+        "wider": [
+          "Explore word families from Latin and Greek roots (e.g. tri-: tricycle, tripod, triangle) and identify how knowing the root helps spell and define multiple words",
+          "Research the word families of key vocabulary from a current cross-curriculum unit and use family knowledge to spell related forms"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Morphological family knowledge is accumulative — each new family learned expands the range of words a student can spell and define. Students benefit from ongoing collection across curriculum contexts.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Word family exploration — especially Latin and Greek roots — is genuinely rich territory that multiplies vocabulary and spelling knowledge simultaneously. The breadth of available word families is wide.",
+        "success_criteria": [
+          "Can name at least three words in a word family and explain what they share",
+          "Can use word family knowledge to spell a related word they have not seen before"
+        ]
+      }
+    ]
+  }
+}

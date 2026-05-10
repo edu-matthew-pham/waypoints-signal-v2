@@ -1,0 +1,101 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LE06",
+    "title": "Literary devices create layers",
+    "description": "Identify and explain how literary devices create layers of meaning in texts including poetry",
+    "strand": "Literature — Examining literature",
+    "mode": "B",
+    "prior_knowledge": "Students can explain the way authors use sound and imagery to create meaning and effect in poetry (AC9E6LE04). They have not yet examined how literary devices create layers of meaning — the idea that a device simultaneously operates on multiple levels (literal, figurative, thematic, emotional) rather than producing a single effect.",
+    "progression_endpoint": "Students identify and explain how literary devices create layers of meaning in texts including poetry.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Literary devices and their effects",
+        "progression_checkpoint": "Students can identify literary devices in a text and explain the effect of each",
+        "minimum_width": "In a given text, identify at least two literary devices; explain the effect of each on the reader",
+        "typical_width": "Examine a range of literary devices across poetry and other texts — metaphor, imagery, alliteration, end and internal rhyme, metre — and explain how each creates meaning and effect; use appropriate metalanguage",
+        "wider": [
+          "Explain the sound and rhythm of poetry using metalanguage — 'end and internal rhyme', 'metre', 'alliteration' — and discuss how each device creates its effect",
+          "Examine how literary devices in First Nations Australian films, plays and poetry create meaning — with attention to how devices may function differently in different cultural and oral traditions"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify devices and explain single effects, Nodes 2 and 3 are inaccessible — identifying layers requires first being able to name a device and explain at least one effect reliably.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a working repertoire of literary device names and their associated effects before they can examine layering. Building the repertoire across poetry, narrative and drama gives students the vocabulary and examples needed for the layering analysis in the next node.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two literary devices in a given text using correct metalanguage",
+          "Explains the effect of each device on the reader"
+        ],
+        "related_standards": ["AC9E7LE03", "AC9E7LE04"]
+      },
+      {
+        "id": 2,
+        "label": "Devices operate on multiple levels simultaneously",
+        "progression_checkpoint": "Students can identify that a literary device creates more than one level of meaning at the same time",
+        "minimum_width": "In a given text, identify a literary device and name at least two levels of meaning it creates simultaneously — e.g. the literal image and the figurative or emotional meaning",
+        "typical_width": "Examine how literary devices in a poem or narrative each operate on multiple levels at once — how an image works literally and figuratively simultaneously; how alliteration creates both sound effect and emotional emphasis at the same time; identify the levels present in each case",
+        "wider": [
+          "Compare how a single device (e.g. a recurring image) accumulates levels of meaning across a whole text — how does its meaning expand as the text develops?",
+          "Examine devices in First Nations Australian poetry and identify the levels of meaning present — including cultural and symbolic layers alongside literal and figurative"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot hold two levels of meaning simultaneously, Node 3's work on how layers interact is inaccessible — examining the relationship between layers requires first being able to identify that multiple layers exist.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The concept that a device simultaneously means more than one thing is not intuitive for students who are used to looking for one right meaning. The reasoning scaffold — what does this device mean literally, and what else does it mean at the same time — establishes the multi-level reading capacity that the next node builds on.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a literary device in a given text",
+          "Names at least two levels of meaning the device creates simultaneously"
+        ],
+        "related_standards": ["AC9E7LE03", "AC9E7LE04"]
+      },
+      {
+        "id": 3,
+        "label": "How layers interact",
+        "progression_checkpoint": "Students can explain how the layers of meaning created by a literary device reinforce or complicate each other",
+        "minimum_width": "In a given text, identify a literary device operating on at least two levels; explain whether the layers reinforce each other or create tension, and why that relationship matters for the text's meaning",
+        "typical_width": "Examine how multiple literary devices in a poem or narrative create layers that interact — where layers reinforce each other to deepen meaning, and where they complicate or create ambiguity; explain how the interaction between layers contributes to the text's overall meaning",
+        "wider": [
+          "Explain the layers of meaning created by imagery in First Nations Australian films, plays and poetry — attending to how visual, cultural and symbolic layers interact with and complicate the literal meaning",
+          "Compare how the same literary device (e.g. imagery of light and dark) creates different interacting layers in different texts — what does the relationship between layers reveal about each text's concerns?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students can identify multiple levels of meaning without being able to explain the relationship between them. The reasoning scaffold — do these layers point in the same direction or pull against each other, and what does that tension or reinforcement contribute — is the analytical move that meets the descriptor's 'explain' command term."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "The relationship between layers is not always reinforcement — some devices create productive ambiguity or cultural complexity. Seeing layer interaction across genuinely different texts and traditions, including First Nations Australian poetry, builds a flexible understanding of how layers can relate rather than assuming they always point the same way.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations Australian poetry and film is particularly rich here — the cultural and symbolic layers may interact with literal meaning in ways that are not immediately apparent, making the layer relationship visible and prompting genuine inquiry. This is also the integration node where the full descriptor demand is met.",
+        "success_criteria": [
+          "Identifies at least two layers of meaning created by a literary device",
+          "Explains whether and how the layers reinforce or complicate each other"
+        ],
+        "related_standards": ["AC9E7LE03", "AC9E7LE05", "AC9E7LE04"]
+      }
+    ]
+  }
+}

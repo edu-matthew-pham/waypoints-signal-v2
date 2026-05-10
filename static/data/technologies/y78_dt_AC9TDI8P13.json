@@ -1,0 +1,106 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P13",
+    "title": "Multi-factor auth and phishing",
+    "description": "Explain how multi-factor authentication protects an account when the password is compromised and identify phishing and other cyber security threats",
+    "strand": "Processes and Production Skills",
+    "mode": "A",
+    "prior_knowledge": "Students can use unique passphrases across accounts and explain the risks of password re-use (AC9TDI6P09). They understand password-based security but have not yet explored what happens when passwords are compromised, how MFA adds a second layer of protection, or how phishing attacks exploit human behaviour.",
+    "progression_endpoint": "Students explain how multi-factor authentication protects an account even when the password is compromised, and identify phishing and other cyber security threats by recognising the techniques attackers use to exploit users.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "When passwords fail",
+        "progression_checkpoint": "Students can explain how a password can be compromised and why password-only security is insufficient",
+        "minimum_width": "Name at least two ways a password can be compromised (e.g. data breach, guessing, shoulder surfing); explain why this means passwords alone are not enough",
+        "typical_width": "Explain how password reuse amplifies the impact of a single breach; connect to prior knowledge about unique passphrases",
+        "wider": [
+          "Limited width — password compromise is a small set of scenarios. The genuine breadth comes from how MFA and phishing awareness respond to these scenarios at later nodes."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who understand only one attack vector (e.g. guessing) do not grasp why password-only security is fundamentally insufficient. Seeing multiple compromise vectors (breach, phishing, shoulder surfing, reuse amplification) establishes that no single password hygiene practice is enough — which is why MFA exists.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand how passwords can be compromised cannot reason about why MFA is necessary at Node 2. The attack scenario (password obtained → attacker tries to log in → MFA blocks them) only makes sense if students understand the first step. Without it, MFA appears as arbitrary additional friction rather than a principled response.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two ways a password can be compromised",
+          "Explains why password-only security is insufficient"
+        ],
+        "related_standards": [
+          "AC9TDI8K02"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "How MFA protects accounts",
+        "progression_checkpoint": "Students can explain how multi-factor authentication adds a second layer of protection by requiring something beyond the password",
+        "minimum_width": "Explain that MFA requires a second factor (e.g. SMS code, one-time password) in addition to the password; explain how this protects the account even when the password is compromised",
+        "typical_width": "Explain how MFA works in practice using a specific example (e.g. bank transfer requiring SMS token); identify different types of second factors (SMS, authenticator app, biometric)",
+        "wider": [
+          "Evaluate how MFA implementation varies across platforms — why some platforms use SMS while others use authenticator apps, and which is more secure",
+          "Limited width — MFA is a single concept with a small number of implementations. More platforms is useful comparison but the core understanding is the same."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The protection MFA offers is only clear when students reason through the attack scenario: attacker has password → tries to log in → MFA requires second factor → attacker does not have it → account is protected. Students who accept 'MFA is more secure' without tracing this chain cannot explain why it works or when it would fail."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that MFA requires something beyond the password",
+          "Explains how MFA protects an account when the password is compromised"
+        ],
+        "related_standards": [
+          "AC9TDI8K02"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Identifying phishing and cyber threats",
+        "progression_checkpoint": "Students can identify phishing and other cyber security threats by recognising the techniques used to exploit users",
+        "minimum_width": "Identify at least one phishing technique (e.g. unofficial email domain, urgency language, suspicious links); explain how it tries to exploit the user",
+        "typical_width": "Identify multiple phishing techniques including email domain spoofing, grammatical errors as filtering mechanisms, and social engineering tactics; explain how each exploits human behaviour rather than technical vulnerabilities",
+        "wider": [
+          "Investigate a real phishing case and analyse the specific techniques used — what made it convincing and what were the red flags?",
+          "Research how social engineering exploits human behaviour beyond phishing — pretexting, baiting, tailgating — as cyber security threats that technology alone cannot prevent"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Phishing identification requires accumulating a repertoire of attack patterns — students need to recognise multiple techniques (domain spoofing, urgency, suspicious links, grammatical markers) rather than one. A broader repertoire means more robust identification in unfamiliar phishing examples.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The real phishing case analysis and broader social engineering directions offer advancing students rich analytical work — deconstructing actual attacks requires more sophisticated pattern recognition than identifying techniques in a list.",
+        "success_criteria": [
+          "Identifies at least one phishing technique",
+          "Explains how the technique exploits the user (not just that it is dangerous)"
+        ],
+        "related_standards": [
+          "AC9TDI8K02",
+          "AC9TDI8P14"
+        ]
+      }
+    ]
+  }
+}

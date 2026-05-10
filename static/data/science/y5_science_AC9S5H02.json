@@ -1,0 +1,64 @@
+{
+  "year_level": "5",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S5H02",
+    "title": "Scientific Knowledge Used by Communities",
+    "description": "investigate how scientific knowledge is used by individuals and communities to identify problems, consider responses and make decisions",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students can examine how scientific explanations are used to meet needs or solve problems (AC9S3H02, 3-4 band). They now extend to examining how knowledge is used by communities — not just to design solutions, but to identify problems, evaluate responses and make collective decisions.",
+    "progression_endpoint": "Students investigate examples where scientific knowledge enables individuals and communities to identify problems, evaluate possible responses and make decisions — examining what knowledge was used, what options were considered, and how decisions were reached.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Scientific knowledge helps identify and define problems",
+        "progression_checkpoint": "Students can explain how scientific knowledge enables people to identify and precisely define a problem — distinguishing between a symptom (what is observed) and a cause (what the knowledge explains).",
+        "minimum_width": "Students describe one example where scientific knowledge helped identify a problem, explaining what the knowledge was and how it enabled the problem to be recognised.",
+        "typical_width": "Students examine how knowledge of erosion processes enables identification of at-risk landscapes, and how knowledge of light properties enables identification of light pollution as a problem — explaining in each case how scientific knowledge transforms an observable phenomenon into a defined problem with a cause.",
+        "wider": [
+          "Examine how park rangers use knowledge of erosion to identify and define problems in fragile environments — distinguishing natural and human-caused erosion and predicting risk locations",
+          "Investigate how knowledge of light pollution and its effects on ecosystems enables communities to identify artificial lighting as a problem requiring management",
+          "Research how First Nations Australians use ecological knowledge to identify problems in Country — examining how deep observational knowledge enables early problem recognition"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes one example where scientific knowledge enabled a problem to be identified",
+          "Explains what the knowledge was and how it transformed an observation into a defined problem with a cause"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Scientific knowledge informs decisions and responses",
+        "progression_checkpoint": "Students can examine how communities use scientific knowledge to evaluate options and make decisions — explaining what knowledge was used, what options were considered, and why a particular response was chosen.",
+        "minimum_width": "Students describe one example where a community used scientific knowledge to make a decision, identifying the knowledge used and the decision made.",
+        "typical_width": "Students examine multiple examples where communities use scientific knowledge to make decisions — farming decisions based on habitat knowledge, erosion mitigation design, light pollution reduction strategies — explaining the knowledge-to-decision pathway and evaluating the trade-offs involved.",
+        "wider": [
+          "Research how communities have used knowledge of light pollution to design and implement solutions — covered streetlights, automated systems, motion sensors — and evaluate each response's effectiveness",
+          "Examine how people use properties of light to design signal lamps for Morse code communication — tracing the knowledge-to-application pathway for a historical and ongoing technology",
+          "Consider how communities in different regions make decisions about which crops or animals to farm based on local habitat conditions — examining how biological knowledge shapes agricultural decision-making"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to see science as producing one correct answer rather than informing a decision among multiple options. Encountering varied decision contexts — where different communities make different but scientifically informed choices — builds a more accurate model of how scientific knowledge functions in community decision-making.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Light pollution community responses provide a rich, elaboration-grounded direction where scientific knowledge directly shapes infrastructure and policy decisions. The agricultural decision direction connects biological knowledge to everyday economic choices.",
+        "success_criteria": [
+          "Describes one example where a community used scientific knowledge to make a decision",
+          "Explains what knowledge was used, what options were considered, and why the chosen response was selected"
+        ]
+      }
+    ]
+  }
+}

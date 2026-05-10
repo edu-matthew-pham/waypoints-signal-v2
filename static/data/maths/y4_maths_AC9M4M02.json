@@ -1,0 +1,88 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4M02",
+    "title": "Perimeter and area",
+    "description": "Recognise ways of measuring and approximating the perimeter and area of shapes and enclosed spaces, using appropriate formal and informal units",
+    "strand": "Measurement and Space",
+    "mode": "A",
+    "prior_knowledge": "Students can measure with metric units and informal units for length and area (AC9M3M02). They have not yet formally distinguished perimeter from area or applied area measurement using arrays of unit squares.",
+    "progression_endpoint": "Students recognise, measure and approximate perimeter and area using appropriate formal and informal units, distinguishing the two attributes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Perimeter — boundary as length sum",
+        "progression_checkpoint": "Students can explain that perimeter is the total length of the boundary and measure it by adding side lengths.",
+        "minimum_width": "Measure the perimeter of one polygon by measuring and adding side lengths; explain what perimeter means.",
+        "typical_width": "Measure perimeters of various shapes including rectangles and irregular shapes; use string or rope for curved boundaries; compare perimeters using suitable units; explain that perimeter is the sum of side lengths forming the boundary.",
+        "wider": [
+          "Create rectangles with the same perimeter on grid paper and investigate whether all have the same shape — introducing the non-uniqueness of perimeter",
+          "Measure perimeters of real enclosed spaces (garden beds, classroom floor sections) using string, comparing the practicality of different measurement approaches"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can measure the perimeter of a polygon by measuring and summing its sides",
+          "Students can explain what perimeter measures (the total length of the boundary)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Area — space enclosed by boundary",
+        "progression_checkpoint": "Students can measure area by covering a shape with unit squares and counting, including partial units at edges.",
+        "minimum_width": "Cover one rectangle with unit squares (no gaps or overlaps) and count to find the area; explain what area measures.",
+        "typical_width": "Measure and compare areas using arrays of paper tiles or mosaic squares; handle partial units at irregular edges by combining halves and parts; demonstrate using one tile repeatedly rather than tiling the whole shape; explain that area is the space enclosed by the boundary.",
+        "wider": [
+          "Investigate how First Nations Ranger Groups measure areas of land for fire management decisions, contextualising area measurement within caring for Country/Place",
+          "Measure areas of irregular shapes (leaves, handprints) using square grids and discuss how to handle partial squares systematically — developing an approximation strategy"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Perimeter-area confusion is persistent — students may measure the squares around the edge of a shape (perimeter) when asked for area, or count only internal squares without accounting for boundary ones. Measuring both attributes for the same shape, and discussing what each counts, is the resolution.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate perimeter and area arrive at Node 3 unable to measure or distinguish the two attributes simultaneously — the core task of that node. The confusion must be resolved in Node 2 before meaningful comparison is possible.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can measure the area of a shape by covering with unit squares, including partial units",
+          "Students can explain what area measures and distinguish it from perimeter"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Distinguishing and comparing perimeter and area",
+        "progression_checkpoint": "Students can measure and compare both perimeter and area for the same shapes, clearly distinguishing the two attributes.",
+        "minimum_width": "Measure both the perimeter and area of one shape; explain the difference between the two measurements.",
+        "typical_width": "Measure and compare perimeter and area across a range of shapes; explain that two shapes can have the same perimeter but different areas; choose appropriate units for each attribute; recognise that more accurate area measures require attention to partial units.",
+        "wider": [
+          "Explore the paddock problem: create rectangles with the same perimeter on grid paper and compare their areas — discovering that perimeter does not determine area",
+          "Investigate real-world contexts where perimeter and area are both relevant (fencing vs carpeting a room) and discuss which measurement is needed for each purpose"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The perimeter-area confusion is one of the most robust misconceptions in primary measurement. Contexts where both are measured for the same shape — and where they give different information — are the most effective resolution. The paddock problem (same fence length, different enclosed area) is particularly powerful.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Perimeter and area are foundational measurement concepts that underpin geometry, construction, and real-world planning. The investigation of whether fixing one determines the other is genuinely surprising to students and builds lasting conceptual understanding.",
+        "success_criteria": [
+          "Students can measure both the perimeter and area of a given shape and record each with appropriate units",
+          "Students can explain the difference between perimeter and area and describe a context where each is the relevant measurement"
+        ]
+      }
+    ]
+  }
+}

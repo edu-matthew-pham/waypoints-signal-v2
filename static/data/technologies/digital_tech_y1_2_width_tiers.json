@@ -1,0 +1,164 @@
+{
+  "description": "Width tiers for Digital Technologies Years 1-2 (ACARA v9). One entry per descriptor. Minimum, typical and wider tiers define the range of phenomena and task contexts for each descriptor.",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "band": "1-2",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed",
+    "notes": "K-strand descriptors (AC9TDI2K01, AC9TDI2K02) use phenomena_contexts. P-strand descriptors use task_contexts. Privacy/security descriptors (P05, P06, P07) have thin width — depth_fallback noted where applicable."
+  },
+  "width_notes": {
+    "minimum": "The narrowest context or task that honestly satisfies the descriptor's command term. Every student in the class meets this floor before the class moves on.",
+    "typical": "Full descriptor scope as ACARA intended — grounded in the most common elaboration cases. Reflects sound standard practice for the band.",
+    "wider": "Enrichment directions that add phenomena or task contexts, not difficulty. Each item is a concrete direction for advancing students. First Nations elaborations included as default wider directions where ACARA provides them."
+  },
+  "standards": {
+    "AC9TDI2K01": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify at least two familiar digital systems in home or school contexts and name a purpose for each; identify at least one input and one output component on a familiar device.",
+      "typical_width": "Identify multiple digital systems across home, school and community contexts; name and explain input, output and storage components across different device types; explain how components work together to serve a specific purpose for a familiar user.",
+      "wider": [
+        "Investigate how digital systems provide essential services to First Nations Australians in remote communities — identify specific systems, their components, and the community purpose they serve",
+        "Compare the same purpose (e.g. watching a video) on two different devices — explain which components are involved in each and why they differ",
+        "Explore how the camera component enables multiple different purposes on a tablet (photos, video calls, scanning) — explain how one input component serves multiple purposes depending on the software"
+      ],
+      "elaborations": [
+        "exploring digital systems to better understand how they are used to provide communities with essential services, for example looking at the systems and components that allow First Nations Australians in communities classified as remote to watch their favourite television shows",
+        "naming and using digital systems that they interact with at home and school, for example using a touchpad to move the cursor on a laptop, or the keyboard to type a simple message on a tablet",
+        "using different digital systems to explore what they do and how to use them, for example selecting the camera icon allows them to take photos of things that are a familiar shape"
+      ]
+    },
+    "AC9TDI2K02": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Identify data represented in at least two different forms (e.g. a picture and a number for the same quantity); represent the same data in at least two forms.",
+      "typical_width": "Identify and use all four representation forms (pictures, symbols, numbers, words) across familiar data contexts (attendance, weather, votes, collections); explain that different forms convey equivalent information and suggest when each form is most useful.",
+      "wider": [
+        "Examine First Nations Australians' seasonal calendars where pictures represent connected events and resource availability — identify what data each picture represents and compare to word or number equivalents",
+        "Investigate how tally marks and digits represent the same number — count the same collection in both forms and compare",
+        "Explore how the same phoneme is represented by different letter combinations in English — connecting representation consistency (words are spelled the same regardless of accent) to the purpose of standardised representation forms"
+      ],
+      "elaborations": [
+        "recognising that letter combinations represent different phonemes and that words are spelled the same way regardless of the accent of the speaker",
+        "recognising the equivalence of different representations of numbers, including words, digits and tally marks",
+        "recognising that pictures in First Nations Australians' seasonal calendars are used to represent and communicate data, such as how the appearance of a flower can signify a connected event or a resource availability, for example how the Gulumoerrgin Peoples from the Darwin region of the Northern Territory understand that the fruiting of freshwater mangrove signifies it is time to harvest magpie geese"
+      ]
+    },
+    "AC9TDI2P01": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify one known user, describe one specific problem they have, and identify one digital system that could solve it.",
+      "typical_width": "Investigate problems for multiple known users across different familiar contexts (home, school, community); describe each problem from the user's perspective; identify how a digital system could solve each problem and explain the connection between system and need.",
+      "wider": [
+        "Investigate how digital translation tools could address communication problems for First Nations Australians — identify a specific user, communication need, and how a digital tool could assist",
+        "Investigate how a familiar school problem (taking attendance, borrowing a library book) is currently solved using a digital system — describe the user, the problem, and how the system addresses it",
+        "Design a simple robot solution for a classroom clean-up problem — describe the problem, the user's need, and explain what the robot would need to do"
+      ],
+      "elaborations": [
+        "investigating internet-based translation tools and how similar digital tools could promote the use of First Nations Australians' languages or assist communications, for example responding to cultural stories of Australian First Nations Peoples",
+        "investigating familiar and easily understood problems with few complications or steps needed to solve them, for example deciding what to wear by checking the forecast on a weather app",
+        "identifying how digital systems are used to solve problems at school, for example taking attendance or borrowing a library book",
+        "exploring how a familiar problem could be solved using a robot, for example creating a model robot using cardboard boxes and explaining how it could be used to clean up the classroom floor at the end of the day"
+      ]
+    },
+    "AC9TDI2P02": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Follow a provided algorithm with at least two structural types (sequence + branching, or sequence + iteration); describe what each structural element does.",
+      "typical_width": "Follow and describe algorithms that include sequence, at least one decision point, and at least one repetition across multiple familiar task contexts; explain the role of each structural type; create a simple algorithm combining at least two types.",
+      "wider": [
+        "Rearrange a mixed-up sequence from a story authored by First Nations Australians — describe the correct order and explain how each step leads to the next",
+        "Write, say, draw or photograph a morning routine algorithm that includes sequence, a decision (e.g. if cold, put on a jacket), and iteration (e.g. brush teeth for two minutes) — label each structural type",
+        "Apply branching to a real classroom decision (e.g. if the book is borrowed, write your name on the waitlist, otherwise borrow it) — describe both paths and the condition"
+      ],
+      "elaborations": [
+        "following a short, ordered sequence of steps and making decisions to solve a simple problem, for example follow a recipe or directions to reach a location",
+        "describing the steps and decisions (in the correct order) needed to solve a simple problem, for example writing, saying, drawing or photographing the steps needed to make a sandwich",
+        "rearranging into the correct order a series of mixed-up pictures that describe a story, for example stories authored and published by First Nations Australians",
+        "identifying the steps needed to solve a problem, and understanding when their order is important, for example socks must be put on before shoes but a jumper can be put on before or after shoes",
+        "identifying the decisions needed to solve a problem and the next steps to follow in each case, for example if it is raining, take a raincoat, otherwise take a hat",
+        "following algorithms that repeat a single step a fixed number of times, for example practise spelling a word 5 times or throw and catch a ball with a partner 10 times"
+      ]
+    },
+    "AC9TDI2P03": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "For one known user and one identified need, discuss at least one feature of a digital system and explain how it addresses the need.",
+      "typical_width": "Discuss how existing digital systems satisfy identified needs for multiple known users across home, school and community contexts; share ideas with the class; explain how specific system features address specific needs.",
+      "wider": [
+        "Discuss how interactive digital versions of stories authored by First Nations Australians preserve important cultural expressions — identify the user, the need (cultural preservation and access), and how the digital system addresses it",
+        "Discuss how digital systems are used at school for learning — for example sharing student work on an interactive display for class feedback; identify the features of the system that make this possible",
+        "Compare how a tablet satisfies different communication needs for different users (playing videos, reading news, following recipes, making calls) — discuss how the same system can address multiple different needs"
+      ],
+      "elaborations": [
+        "describing how familiar digital systems meet the needs of individuals, for example how different family members use a tablet for different needs – to play videos, read the news or follow a recipe",
+        "discussing how we use digital systems to store and access information, and how that information helps us learn about our environment, interactions and leisure activities, for example how interactive versions of stories authored and published by First Nations Australians preserve important cultural expressions",
+        "sharing ideas about how digital systems are used at school for learning, for example sharing a student's work with the class on an interactive display screen to provide class feedback on their writing",
+        "sharing and describing ways that common digital systems can be used to meet communication needs, for example tablets can be used as phones and tools for communication between families living in different locations"
+      ]
+    },
+    "AC9TDI2P04": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Use at least one basic feature of a digital tool to create an original piece of content and share it with at least one other person.",
+      "typical_width": "Use basic features of digital tools across different content types (camera, drawing app, text input, presentation software) to create, locate and communicate content; save and locate created content; present or share with the class or family.",
+      "wider": [
+        "Find images of local Australian flora and fauna including First Nations Australians' names — use the images in a story or class presentation, explaining what they depict",
+        "Contribute a recipe and photo to a class digital recipe book — explain how individual contributions combine into a shared class resource",
+        "Use presentation software to retell a story — apply features to sequence pictures and text to communicate the narrative"
+      ],
+      "elaborations": [
+        "using familiar digital systems to create content with others, for example using presentation software to retell a story",
+        "taking, storing safely and presenting photos of class work, for example locating photos they took of their work to show to parents or carers or for the teacher to upload to the class shared folder",
+        "finding images of (local) Australian flora and fauna or places for use in a story and including First Nations Australians' names for the items",
+        "using a camera or drawing app to create a picture, for example making a card for a family member that includes a photo and short message",
+        "creating individual pieces of work that contribute to a group task, for example each student contributes a recipe and photo of their favourite food to create a class recipe book"
+      ]
+    },
+    "AC9TDI2P05": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Apply at least one agreed behaviour when sharing content with a classmate using a digital tool; identify at least one type of personal information and explain why it should be shared carefully.",
+      "typical_width": "Apply agreed behaviours across a digital sharing context — appropriate language, appropriate content, privacy awareness; explain why each agreed behaviour matters; identify personal information types and explain why permission is needed before sharing online.",
+      "wider": [
+        "Take and share photos of class work with parents or carers using classroom messaging software — apply agreed behaviours with teacher guidance and explain what was appropriate to share and why",
+        "Discuss a sharing scenario as a class — identify what agreed behaviours apply, who the trusted adult is, and what should and should not be shared",
+        "Compare in-person and digital sharing — identify which agreed behaviours are the same (kindness, appropriateness) and which are different (permanence of digital content, wider audience)"
+      ],
+      "elaborations": [
+        "taking and sharing photos of class work with parents or carers using classroom messaging software with teacher guidance",
+        "applying agreed standards of behaviour when sharing content with classmates, for example using language that is considered by all students and the teacher to be appropriate when they are writing messages to each other",
+        "considering the need for online safety when sharing information, for example recognising that personal information such as a photo can be used inappropriately"
+      ]
+    },
+    "AC9TDI2P06": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "depth_fallback",
+      "minimum_width": "Use a recorded username and password to access their school digital system account.",
+      "typical_width": "Access their school account using recorded credentials; identify the username and password fields correctly; explain what a username and password are and why they are kept private.",
+      "wider": [
+        "Limited width — credential access is a narrow procedural skill. The genuine extension is understanding why credentials are personal and private, which connects to AC9TDI2P07 (data stored by apps and websites). Extension at this descriptor goes toward conceptual depth (privacy, identity, account ownership) rather than more task contexts."
+      ],
+      "elaborations": [
+        "using username and password recorded in a private place to access a digital system, for example logging into a school computer using details given on a card by the teacher"
+      ]
+    },
+    "AC9TDI2P07": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Name at least two types of data that apps or websites collect; state one reason why asking a trusted adult before entering personal details online is important.",
+      "typical_width": "Give examples of personal data collected across apps and websites students commonly use; explain that entered data is stored online; discuss why address, phone number and date of birth require particular care; identify the trusted adult role in guiding these decisions.",
+      "wider": [
+        "Discuss a scenario where an online request asks for personal information (e.g. an address to win a prize) — explain what to do, who to ask, and why the request should be questioned",
+        "Compare what data two different platforms collect (school website vs online game) — explain what each collects and why the data may differ",
+        "Discuss the importance of keeping login usernames and passwords private alongside not sharing personal details — connect both to protecting personal information online"
+      ],
+      "elaborations": [
+        "sharing examples of the data collected by apps and websites they commonly use, for example usernames and email addresses used by school websites and games to log in",
+        "discussing the importance of asking permission from a parent or carer before entering personal details online such as address, phone number and date of birth"
+      ]
+    }
+  }
+}

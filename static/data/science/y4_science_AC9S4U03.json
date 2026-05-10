@@ -1,0 +1,160 @@
+{
+  "year_level": "4",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S4U03",
+    "title": "Forces and Motion",
+    "description": "identify how forces can be exerted by one object on another and investigate the effect of frictional, gravitational and magnetic forces on the motion of objects",
+    "strand": "Physical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can describe pushes and pulls in terms of strength and direction and predict their effects on motion and shape (AC9S1U03). They have not yet encountered named force types (friction, gravity, magnetism) or the concept that forces are exerted by one object on another, including at a distance.",
+    "progression_endpoint": "Students identify how forces are exerted between objects — including contact and non-contact forces — and describe the effects of friction, gravity and magnetism on the motion of objects, using force arrows to represent direction and magnitude.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Forces are exerted by one object on another",
+        "progression_checkpoint": "Students can explain that a force is an interaction between two objects — one exerting, one receiving — and distinguish between contact forces (objects touching) and non-contact forces (acting at a distance).",
+        "minimum_width": "Students identify the two objects involved in a force interaction for at least two examples, and distinguish between contact and non-contact examples.",
+        "typical_width": "Students explain that forces require an interaction between objects and that some forces (gravity, magnetism) act without physical contact, using examples from their experience.",
+        "wider": [
+          "Investigate traditional First Nations Australians' toys and games and identify the forces involved in each — connecting cultural artefacts to the force concept",
+          "Explore the idea that even 'stationary' objects have forces acting on them (a book on a table — gravity pulling down, table pushing up) — introducing force balance informally",
+          "Examine how force arrows are used to show direction and magnitude, and draw force arrow diagrams for simple scenarios"
+        ],
+        "hinge": true,
+        "hinge_reason": "The two-object interaction framing is the conceptual prerequisite for correctly identifying friction, gravity and magnetism in Nodes 2–4. Students who attribute force to one object ('the magnet pulls') without identifying the receiving object cannot accurately describe force pairs and will misidentify contact vs non-contact situations throughout the sequence.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The concept that force requires two objects — an exerter and a receiver — is non-obvious to Year 4 students who tend to think of force as a property of one object ('the magnet pulls'). Making the two-object interaction explicit, and distinguishing contact from non-contact, is a necessary conceptual scaffold before students can correctly identify friction, gravity and magnetism as force types.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the two objects involved in a force interaction for a given example",
+          "Distinguishes between a contact force example and a non-contact force example with justification"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Friction slows motion between surfaces",
+        "progression_checkpoint": "Students can explain that friction is a force that acts between two surfaces in contact, describe its effect on motion (slowing or stopping), and identify factors that affect friction strength.",
+        "minimum_width": "Students explain that friction acts between surfaces and slows or stops moving objects, giving two everyday examples.",
+        "typical_width": "Students explain positive and negative effects of friction in everyday contexts (friction needed for gripping; friction causes wear and slows machines) and identify how surface texture affects friction strength.",
+        "wider": [
+          "Investigate how shoe sole design uses friction principles — examining patterns and materials for different surface conditions",
+          "Test friction between different surface combinations and represent results in a column graph (connects to AC9S4I04)",
+          "Research how friction reduction is used in engineering contexts (lubricants, ball bearings, aerodynamics) and examine trade-offs"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students readily identify friction as 'slowing things down' but struggle to see it as a force exerted by one surface on another. They also miss contexts where friction is desirable (braking, gripping, writing). Varied contexts — shoe grip, playground slides, bike brakes, wet roads — help students build a more complete model of friction as a surface interaction with both beneficial and detrimental effects.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Shoe sole design investigation is a genuinely rich direction that connects friction to materials science, design thinking and everyday safety. It provides a hands-on, comparative investigation that has natural links to both AC9S4U04 (materials) and AC9S4I02 (fair testing).",
+        "success_criteria": [
+          "Explains that friction is a force between surfaces and describes its effect on motion",
+          "Gives one example where friction is helpful and one where it is a problem",
+          "Identifies at least one factor that affects how strong the friction force is"
+        ],
+        "related_standards": ["AC9S4U04", "AC9S4I02", "AC9S4H02"]
+      },
+      {
+        "id": 3,
+        "label": "Gravity pulls objects toward Earth",
+        "progression_checkpoint": "Students can explain that gravity is a force that pulls all objects toward the centre of Earth, acts on objects regardless of whether they are moving or stationary, and explain why objects fall when dropped.",
+        "minimum_width": "Students explain that gravity pulls objects toward Earth and that it acts on all objects, giving examples of gravity's effect on moving and stationary objects.",
+        "typical_width": "Students explain that gravitational force acts continuously on objects (a held object, a stationary object, a falling object) and describe what would change if gravity were weaker — connecting to astronauts on the moon.",
+        "wider": [
+          "Watch footage of astronauts on the moon or dropping objects in a vacuum and describe the force they are observing — connecting to the idea that gravity varies with planetary mass",
+          "Investigate the pushing force of a liquid (buoyancy) and discuss how it can counteract gravity, allowing objects to float",
+          "Explore how gravity acts on objects in free fall — using slow-motion footage of falling objects to describe the motion"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly believe gravity only acts when objects are falling or moving, not on stationary objects. They also conflate gravity with 'weight' as a fixed property. Varied contexts — a stationary book, a falling apple, an astronaut on the moon, a floating boat — help students see gravity as a continuous force that acts regardless of motion state."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that gravity pulls all objects toward the centre of Earth",
+          "Confirms that gravity acts on objects whether they are moving or stationary (does not restrict gravity to falling objects)",
+          "Gives a correct example of gravity's effect on a stationary object"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Magnetic forces attract and repel",
+        "progression_checkpoint": "Students can explain that magnets exert forces on other magnets and on some metals, describe attraction and repulsion, and identify that magnetic force acts at a distance.",
+        "minimum_width": "Students explain that magnets attract some metals and can attract or repel other magnets, give examples of magnetic and non-magnetic materials, and confirm that this force acts without contact.",
+        "typical_width": "Students explain the conditions under which magnets attract (opposite poles) or repel (same poles), identify which common metals are magnetic, and describe practical uses of magnetic force.",
+        "wider": [
+          "Investigate how magnetic force strength changes with distance and represent findings graphically",
+          "Explore how magnetic forces are used in sorting metals in recycling and food safety (metal detection) — connecting to AC9S4H02",
+          "Examine how compasses work and how the Earth's magnetic field is a large-scale example of magnetism"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly believe all metals are magnetic and struggle with the at-a-distance nature of magnetic force. Varied materials testing (iron, steel, aluminium, copper) and distance investigations resolve both misconceptions more effectively than re-explaining the rule.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Magnetic applications in recycling and food safety (AC9S4H02) provide genuinely interesting real-world connections. The Earth's magnetic field direction connects a classroom-scale phenomenon to a planetary-scale one, offering substantive enrichment for advancing students.",
+        "success_criteria": [
+          "Distinguishes between magnetic and non-magnetic materials with examples (does not claim all metals are magnetic)",
+          "Explains that magnetic force can act at a distance without the objects touching",
+          "Describes both attraction (opposite poles) and repulsion (same poles) between magnets"
+        ],
+        "related_standards": ["AC9S4H02", "AC9S4I02"]
+      },
+      {
+        "id": 5,
+        "label": "Force arrows represent forces on objects",
+        "progression_checkpoint": "Students can draw and interpret force arrow diagrams showing the direction and relative magnitude of forces acting on an object, and use these to describe the overall effect on motion.",
+        "minimum_width": "Students draw force arrows on a simple diagram to show the direction of at least two forces on an object and describe the effect of those forces on motion.",
+        "typical_width": "Students draw force arrow diagrams for familiar scenarios (a falling object, a car braking, a floating boat) showing multiple forces with arrows sized to show relative magnitude, and explain what the overall forces mean for motion.",
+        "wider": [
+          "Represent forces in traditional First Nations instructive toys and games using force arrow diagrams — applying the representation to culturally grounded scenarios",
+          "Explore how force diagrams are used in engineering and design to analyse structures and moving objects",
+          "Investigate balanced forces (two equal, opposite arrows) and informally describe why the object doesn't move — a preview of Y7 force concepts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Force arrow direction errors are common — students draw arrows showing the direction of motion rather than the direction of the force, or place arrows incorrectly on objects. Accurate diagramming requires deliberate practice with feedback on placement and direction. This is a precision-required representation skill."
+          },
+          {
+            "mode": "integration",
+            "reason": "Force arrow diagrams require students to simultaneously represent multiple forces (gravity, friction, magnetic, applied) in a single diagram and interpret their combined effect. Coordinating the three named force types with correct arrow conventions is the integration challenge at this node."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Draws force arrows with the correct direction for at least two forces acting on an object",
+          "Sizes arrows to indicate relative magnitude (larger force = longer arrow) where two forces are compared",
+          "Explains what the force arrows in a given diagram indicate about the object's motion"
+        ],
+        "related_standards": ["AC9S4I04", "AC9S7U04"]
+      }
+    ]
+  }
+}

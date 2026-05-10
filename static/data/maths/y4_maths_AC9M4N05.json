@@ -1,0 +1,67 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4N05",
+    "title": "Multiply and divide by powers of 10",
+    "description": "Solve problems involving multiplying or dividing natural numbers by multiples and powers of 10 without a calculator, using the multiplicative relationship between the place value of digits",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise and represent numbers beyond 10 000 and understand place value conventions (AC9M3N01); they can multiply and divide one- and two-digit numbers (AC9M3N04). They have not yet applied the multiplicative structure of place value to multiply or divide by 10, 100 or 1000.",
+    "progression_endpoint": "Students solve problems involving multiplying and dividing natural numbers by multiples and powers of 10 by applying the multiplicative relationship between place value positions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Multiplying by 10 — digit movement",
+        "progression_checkpoint": "Students can explain and demonstrate that multiplying by 10 moves each digit one place to the left.",
+        "minimum_width": "Use materials or a place value chart to show that 34 × 10 = 340; explain why each digit moves one place to the left.",
+        "typical_width": "Use place value charts, numeral expanders or sliders to demonstrate multiplying by 10 across multiple examples; explain why digits move left (each place becomes ten times larger); generalise the pattern.",
+        "wider": [
+          "Use numeral expanders or sliders to make visible the digit movement interpretation — physically sliding digits left and discussing whether 'adding a zero' captures the same idea or misrepresents it",
+          "Connect multiplication by 10 to metric unit conversions (e.g. 3 m × 10 = 30 dm or 3.0 m = 30 dm) — applying the pattern to measurement"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Common misconception: 'multiply by 10 means add a zero.' This works for whole numbers but breaks down for decimals (0.3 × 10 ≠ 0.30). The correct conceptual model — digits move left — is the hinge. Seeing the pattern in place value charts, sliders and measurement contexts prevents the 'add a zero' shortcut from calcifying.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who hold the 'add a zero' model enter Node 2 with a rule that fails for ×100 and ×1000 edge cases and entirely for decimals. The digit-movement model is the prerequisite conceptual frame for generalising to all powers of 10.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can multiply a two- or three-digit number by 10 without a calculator and explain the digit movement",
+          "Students can explain why the rule works using place value language (not just 'add a zero')"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Dividing by 10 and extending to 100 and 1000",
+        "progression_checkpoint": "Students can multiply and divide by 10, 100 and 1000 using the place value relationship, and solve related problems.",
+        "minimum_width": "Divide one number by 10 using a place value chart and explain the digit movement; solve one multiplication problem involving 100.",
+        "typical_width": "Use place value charts to demonstrate multiplication and division by 10, 100 and 1000; generalise the pattern (number of places = number of zeros); apply to solve computation problems without a calculator; use digital tools to check and extend the pattern.",
+        "wider": [
+          "Investigate the pattern using a spreadsheet: enter numbers and apply ×10, ×100, ×1000 formulas, record results in a place value table and generalise the pattern from 100 terms",
+          "Apply the place value pattern to multi-step problems involving metric conversions (e.g. how many millimetres in 4.5 metres?)"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to build a repertoire of related problems they can solve using this rule — not just ×10 but ×100, ÷10, ÷100, and related combinations. A narrow exposure to ×10 alone leaves gaps when ×100 and ×1000 appear."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can multiply and divide a number by 10, 100 and 1000 without a calculator",
+          "Students can solve a practical problem by identifying that ×10 or ÷10 is needed and applying it correctly"
+        ]
+      }
+    ]
+  }
+}

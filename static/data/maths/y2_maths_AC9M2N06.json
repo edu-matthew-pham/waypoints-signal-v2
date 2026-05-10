@@ -1,0 +1,94 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2N06",
+    "title": "Model additive and multiplicative problems",
+    "strand": "Number",
+    "mode": "B",
+    "description": "use mathematical modelling to solve practical problems involving additive and multiplicative situations, including money transactions; represent situations and choose calculation strategies; interpret and communicate solutions in terms of the situation",
+    "prior_knowledge": "Students use mathematical modelling to solve practical additive problems including simple money (AC9M1N05) and equal sharing/grouping problems (AC9M1N06). They have not yet modelled situations requiring a deliberate choice between additive and multiplicative strategies, or interpreted and communicated solutions in terms of context.",
+    "progression_endpoint": "Students use mathematical modelling to solve practical additive and multiplicative problems including money transactions — representing situations, choosing appropriate calculation strategies, and interpreting and communicating solutions in terms of the situation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying the operation",
+        "progression_checkpoint": "Students can interpret a practical problem situation and identify whether it requires addition, subtraction, multiplication or division, justifying their choice.",
+        "minimum_width": "Read or hear a practical problem; identify the operation needed; justify why that operation matches the situation.",
+        "typical_width": "Interpret a range of additive and multiplicative problem situations; identify and justify the appropriate operation; represent the situation with a diagram or number sentence before calculating.",
+        "wider": [
+          "Compare two problems with similar surface features but different operations required; discuss how to tell them apart",
+          "Create own problems that require each of the four operations; swap with a partner to identify the operation needed"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 representation and calculation depend on correct operation identification. Students who apply a default operation (usually addition) regardless of problem structure cannot choose appropriate strategies in Node 2 or interpret results meaningfully in Node 3.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Selecting the correct operation is the key modelling step at Year 2 and a major source of difficulty. Students often apply a preferred operation (usually addition) regardless of structure. Working across diverse problem contexts — including those where the structure is non-obvious — builds the interpretive skill.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names the operation (addition, subtraction, multiplication or division) needed for a given practical problem",
+          "Justifies the choice by explaining how the operation matches the structure of the situation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Representing and solving",
+        "progression_checkpoint": "Students can represent a practical problem using a diagram, number sentence or materials, choose a calculation strategy, and find the answer.",
+        "minimum_width": "Represent one practical problem with a diagram or number sentence; select a strategy; calculate the answer.",
+        "typical_width": "Represent a range of practical problems including money transactions using diagrams, number sentences and calculation strategies; select appropriate strategies for the numbers involved; record working.",
+        "wider": [
+          "Model simple money problems with whole dollar amounts using addition, subtraction, multiplication or division: e.g. class contribution problems, purchasing scenarios",
+          "Model equal grouping/sharing problems with real contexts: team sizes, food distribution; decide what to do with remainders and justify the decision",
+          "Model 'How many days left in this year?' by identifying days remaining in the current month and adding remaining full months using a calendar"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need exposure to a range of practical problem types — money, days, teams, food — to build a repertoire of contexts they can model. Each new context type strengthens transfer of the modelling process."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Represents a practical problem with a diagram or number sentence",
+          "Selects and applies a calculation strategy to find the answer"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Interpreting and communicating solutions",
+        "progression_checkpoint": "Students can interpret their calculated answer in terms of the original situation and communicate the solution clearly, including the units or context it refers to.",
+        "minimum_width": "State the answer to a practical problem in terms of the situation (e.g. 'There are 9 dollars each' not just '9').",
+        "typical_width": "Communicate solutions to practical problems with reference to the situation; explain why the answer is reasonable; consider whether remainders affect the solution (e.g. 'there are 4 full teams with 2 people left over').",
+        "wider": [
+          "Model problems from First Nations Australian children's instructive games (e.g. Yangamini); represent the relationship as a number sentence and interpret the solution in context",
+          "Solve multi-step problems and communicate each step and the final solution in terms of the original situation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node brings together identifying the operation, representing the situation, and interpreting the result. The integration challenge is connecting the abstract calculation back to the concrete situation — a step students frequently omit.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Interpreting remainders, communicating multi-step solutions, and engaging with First Nations contexts all offer genuine pedagogical richness beyond the modelling floor. Advancing students can handle real-world messiness (non-exact division, multi-step situations) while maintaining clear situational communication.",
+        "success_criteria": [
+          "States the answer to a practical problem in terms of the situation, including appropriate units or labels",
+          "Judges whether the answer is reasonable given the original situation"
+        ]
+      }
+    ]
+  }
+}

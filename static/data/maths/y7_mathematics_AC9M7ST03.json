@@ -1,0 +1,79 @@
+{
+  "year_level": "7",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M7ST03",
+    "title": "Statistical Investigations",
+    "strand": "Statistics",
+    "description": "plan and conduct statistical investigations involving data for discrete and continuous numerical variables; analyse and interpret distributions of data and report findings in terms of shape and summary statistics",
+    "mode": "A",
+    "prior_knowledge": "Students have planned and conducted statistical investigations and communicated findings (from AC9M6ST03). Students can create displays and describe distributions (from AC9M7ST01, AC9M7ST02).",
+    "progression_endpoint": "Students plan and conduct statistical investigations with discrete and continuous numerical variables, and report findings in terms of distribution shape and summary statistics.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning a statistical investigation",
+        "progression_checkpoint": "Students identify a statistical question, plan data collection (including variable type, measurement method and sample), and anticipate potential sources of bias.",
+        "minimum_width": "Write a statistical question, identify the variable type and describe how data will be collected.",
+        "typical_width": "Plan a full investigation including sample size, data collection method, and at least one potential source of variability or bias.",
+        "wider": [
+          "Compare primary data collection (measurement, survey) with secondary data sources — identify advantages and limitations of each.",
+          "Investigate how sample size affects the reliability of conclusions."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Planning requires deliberate reasoning about the investigation process before data is collected. Students who skip planning rarely identify bias and produce poor data."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "success_criteria": [
+          "Writes a clear statistical question that can be answered with data.",
+          "Identifies the variable type (discrete or continuous) and appropriate measurement method.",
+          "Identifies at least one potential source of variability in their data collection."
+        ],
+        "related_standards": [
+          "AC9M7ST01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Conducting, analysing and reporting",
+        "progression_checkpoint": "Students collect data, display it appropriately, analyse the distribution using summary statistics, and report findings in terms of the statistical question.",
+        "minimum_width": "Collect data, create an appropriate display, calculate summary statistics, and write a brief report answering the statistical question.",
+        "typical_width": "Conduct a full investigation cycle; choose appropriate displays and statistics for the variable type; report findings including shape, centre, spread and context.",
+        "wider": [
+          "Use secondary data from a public source (e.g. Reconciliation Barometer, ABS) to conduct a statistical investigation on a social or cultural question.",
+          "Investigate: does the investigation support or refute a stated claim? Frame the report around evidence for and against."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Conducting and reporting a full investigation integrates all statistics strand skills. The integration and contextual communication are the learning at this node."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Statistical investigation only develops as a transferable skill through conducting multiple investigations in varied contexts. A single investigation produces performance on that topic, not transferable investigation skill.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "success_criteria": [
+          "Collects, displays and analyses data appropriate to the variable type.",
+          "Reports findings that address the original statistical question.",
+          "Uses distribution language (shape, centre, spread) in the report."
+        ],
+        "related_standards": [
+          "AC9M7ST01",
+          "AC9M7ST02"
+        ],
+        "width_opportunity_reason": "Secondary data investigations using real social or cultural data sets (Reconciliation Barometer, ABS) offer advancing students rich authentic statistical inquiry — the contextual meaning and ethical dimensions add genuine depth."
+      }
+    ]
+  }
+}

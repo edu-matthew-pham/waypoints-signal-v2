@@ -1,0 +1,68 @@
+{
+  "year_level": "4",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E4LA09",
+    "title": "Past, present and future tense",
+    "description": "understand past, present and future tenses and their impact on meaning in a sentence",
+    "strand": "Language / Expressing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand that verbs are anchored in time through tense (AC9E3LA08). They have not yet examined the three-tense system and the impact of tense choices on meaning across different text types.",
+    "progression_endpoint": "Students can identify past, present and future tense in sentences and texts, explain the impact of tense choice on meaning, and identify why particular text types are typically written in particular tenses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The three tenses — identification",
+        "progression_checkpoint": "Students can identify past, present and future tense in sentences and name the verb forms that signal each.",
+        "minimum_width": "Identify the tense of at least three sentences and name the verb form used in each.",
+        "typical_width": "Identify past, present and future tense across a range of sentences and texts, noting the different verb forms used to express each tense (simple, progressive, perfect forms where they appear).",
+        "wider": [
+          "Examine how tense varies within a single text (e.g. a narrative that uses past tense for events but present tense for dialogue or reflection) and explain the shifts",
+          "Compare how different languages mark tense and explore whether tense is always marked by verb form"
+        ],
+        "hinge": true,
+        "hinge_reason": "Explaining why text types use particular tenses in N2 requires students to reliably identify the tense being used — tense misidentification in N1 produces incorrect pattern analysis in N2.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reliable identification of tense — especially in complex verb groups — requires practice. Students commonly mis-identify tense when auxiliary verbs are involved.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can correctly identify past, present and future tense in at least three different sentences",
+          "Can name the verb form change that signals tense (e.g. 'walked' for past, 'will walk' for future)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Tense and text type",
+        "progression_checkpoint": "Students can explain why particular text types are typically written in particular tenses and identify examples.",
+        "minimum_width": "Name one text type and the tense it is typically written in, and explain why that tense suits the text's purpose.",
+        "typical_width": "Identify the typical tense of at least three text types — informative texts (present), recounts (past), procedures (imperative/present), narratives (past) — and explain how tense choice serves each text's purpose.",
+        "wider": [
+          "Examine a text that mixes tenses (e.g. a biography moving between past narrative and present reflection) and explain why the tense shifts occur",
+          "Compare tense use in First Nations Australian storytelling texts, considering how tense relates to the living nature of story in oral traditions versus written texts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often learn tense rules for one text type and then over-apply them. Encountering multiple text types with explicit tense-purpose discussion builds flexible understanding rather than rigid rules.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The relationship between tense and text type is genuinely rich — especially tense shifts within texts, and the interplay between narrative past and reflective present. Wider engagement builds authorial tense awareness.",
+        "success_criteria": [
+          "Can name the typical tense of two different text types and explain why",
+          "Does not assume all texts are written in past tense"
+        ]
+      }
+    ]
+  }
+}

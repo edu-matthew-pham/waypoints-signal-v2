@@ -1,0 +1,68 @@
+{
+  "year_level": "4",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M4N03",
+    "title": "Equivalent fractions and decimals",
+    "description": "Find equivalent representations of fractions using related denominators and make connections between fractions and decimal notation",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise unit fractions (1/2, 1/3, 1/4, 1/5, 1/10) and their multiples (AC9M3N02) and can recognise halves, quarters and eighths through repeated halving (AC9M2N03). They have not yet found equivalent fractions using related denominators or connected fractions to decimal notation.",
+    "progression_endpoint": "Students find equivalent fractions using related denominators and connect fraction notation to decimal notation using models and measurement.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Equivalent fractions — same quantity, different names",
+        "progression_checkpoint": "Students can find at least two equivalent fractions for a given fraction using related denominators, and explain what makes them equivalent.",
+        "minimum_width": "Use paper folding or materials to show that 1/2 = 2/4; identify one other equivalent pair (e.g. 2/4 = 4/8); explain that the fractions name the same quantity.",
+        "typical_width": "Use folding, area models and collections to find and verify equivalent fractions within families (halves/quarters/eighths, thirds/sixths, fifths/tenths); extend fraction families (e.g. 3/4 = 6/8 = 9/12); explain equivalence using the idea of 'same portion of the whole'.",
+        "wider": [
+          "Generate complete fraction families for halves/quarters/eighths and thirds/sixths using paper folding, and represent the full family on a number line to show all names for the same position",
+          "Explore capacity subdivisions (half cup = two-quarter cups = four-eighth cups) to ground equivalence in measurement and cooking contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Misconception: students believe a fraction with a larger denominator is always a larger fraction. Experiencing equivalent fractions across multiple representations (area, length, set models) builds the understanding that the denominator names the size of each part, not the value of the fraction.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who retain the larger-denominator misconception cannot meaningfully engage with Node 2 — the fraction–decimal connection requires understanding that 1/4 and 2/8 name the same quantity, and that the decimal equivalent belongs to the quantity, not to one particular fraction name.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can find at least two fractions equivalent to a given fraction using materials or diagrams",
+          "Students can explain that equivalent fractions name the same quantity using a model"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Fraction–decimal connections",
+        "progression_checkpoint": "Students can connect familiar fractions to their decimal equivalents using measurement models.",
+        "minimum_width": "Find 1/4 of a metre and connect to 0.25 m; or find 1/10 of a metre and connect to 0.10 m. Explain the connection using a ruler or number line.",
+        "typical_width": "Connect fractions of measurement units to their decimal equivalents across multiple cases (1/4 m = 0.25 m = 25 cm; 1/10 m = 0.10 m = 10 cm; 1/2 m = 0.5 m); use array diagrams to show the relationship between fractions and division (e.g. 1/4 of 12 = 12÷4 = 3); represent equivalent fractions and decimals on the same number line.",
+        "wider": [
+          "Investigate fraction-decimal equivalents in capacity and mass measurement contexts, generating a reference table of common equivalents (1/4 kg = 0.25 kg, 1/2 litre = 0.5 litres)",
+          "Use array diagrams to explore the relationship between fractions, multiplication and division, building towards understanding fractions as division"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Connecting fractions to decimals is often presented abstractly. Using measurement contexts (rulers, measuring jugs) where both notations are genuinely used makes the connection meaningful and durable. Students who only see the symbolic transformation (1/4 → 0.25) frequently cannot recall or reconstruct it.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Fraction–decimal connections are structurally important — they link two major representational systems and underpin decimal operations in later years. Rich engagement here, particularly across multiple measurement attributes, produces students who move fluently between representations.",
+        "success_criteria": [
+          "Students can identify the decimal equivalent of at least 1/4, 1/2 and 1/10 using a measurement model",
+          "Students can explain the connection between a fraction and its decimal equivalent (e.g. 1/4 is 25 hundredths of the unit)"
+        ]
+      }
+    ]
+  }
+}

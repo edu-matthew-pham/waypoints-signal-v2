@@ -1,0 +1,78 @@
+{
+  "year_level": "F",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDIFK02",
+    "title": "Data as objects and symbols",
+    "description": "represent data as objects, pictures and symbols",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "This is the first data representation descriptor in the curriculum. Students have no prior DT knowledge assumed. They bring general experience matching pictures to real things and using symbols in everyday life (e.g. toilet signs, traffic lights). They have not yet used the word 'data' or connected representation to the idea that a symbol or picture stands in for information.",
+    "progression_endpoint": "Students represent data using objects, pictures and symbols, and understand that the representation stands in for the data \u2014 it is not the data itself.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Representing data as pictures and objects",
+        "progression_checkpoint": "Students can use pictures or objects to represent data about themselves or their environment",
+        "minimum_width": "Use a picture or object to represent one piece of data about themselves or a classmate (e.g. draw a picture representing a family member's interest)",
+        "typical_width": "Represent data about multiple people or things using pictures or objects across at least two contexts (e.g. draw family members with their interests; use coloured blocks to represent students' sports houses)",
+        "wider": [
+          "Draw pictures representing each family member and their interests \u2014 explain what each picture represents and why that picture was chosen",
+          "Use coloured blocks to represent an attribute of the class (e.g. sports houses, favourite animals) \u2014 explain what each colour or block stands for"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate representation requires students to make and hold a deliberate correspondence between a picture/object and the data it represents. Foundation students need repeated practice making these correspondences across different data types before the abstract concept of representation (the picture is not the thing, it stands for the thing) can be addressed.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces a picture or object that represents a specific piece of data",
+          "Can say what the picture or object represents when asked"
+        ],
+        "related_standards": [
+          "AC9TDI2K02"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who have not established accurate picture-to-data correspondences cannot attempt Node 2's conceptual move \u2014 that a symbol is not the data itself requires a working model of representation to interrogate."
+      },
+      {
+        "id": 2,
+        "label": "Recognising that a symbol is not the data itself",
+        "progression_checkpoint": "Students can identify symbols that represent ideas or data, and understand that the symbol is not the data itself",
+        "minimum_width": "Identify at least one symbol that represents an idea; explain what the symbol means and that the symbol itself is not the thing it represents",
+        "typical_width": "Identify multiple symbols representing ideas in familiar contexts (flags, road signs, app icons, weather symbols); explain what each symbol represents; discuss that the symbol is a stand-in for the idea, not the idea itself",
+        "wider": [
+          "Examine the symbols and colours on the Australian Aboriginal flag and the Torres Strait Islander flag \u2014 identify what each element represents and discuss why symbols are used to represent important ideas",
+          "Compare an app icon on a screen with what the app does \u2014 explain that the icon is a symbol representing the app, not the app itself"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The conceptual shift \u2014 that a symbol is not the data itself \u2014 is the hardest idea in this descriptor. Students readily accept that a picture of a dog represents a dog, but struggle with the arbitrariness of symbols (why does a red octagon mean stop?). Multiple symbol contexts, especially culturally significant ones like flags, help students see that the symbol-meaning relationship is constructed and intentional.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The flag direction is genuinely rich \u2014 the Aboriginal and Torres Strait Islander flags are culturally significant symbols where each element carries deliberate meaning. This makes the symbol/data distinction substantive and culturally situated rather than purely abstract.",
+        "success_criteria": [
+          "Names at least one symbol and states what it represents",
+          "Explains (in simple terms) that the symbol is not the same as the thing it stands for"
+        ],
+        "related_standards": [
+          "AC9TDI2K02"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

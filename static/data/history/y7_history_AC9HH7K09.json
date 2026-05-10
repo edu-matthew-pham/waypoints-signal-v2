@@ -1,0 +1,101 @@
+{
+  "year_level": "7",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH7K09",
+    "title": "Environment and ancient development",
+    "description": "how the physical environment and geographical features influenced the development of the ancient society",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the methods and sources of evidence used by historians and archaeologists to investigate early societies, and explain the importance of conservation (AC9HH7K08). They have not yet examined how the physical environment and geography specifically shaped the development of an ancient society — the cause-and-effect relationship between landscape and civilisation.",
+    "progression_endpoint": "Students describe how the physical environment and geographical features of an ancient society's location influenced its development — including how landforms, waterways, climate, and resources shaped settlement patterns, agriculture, trade, and cultural development.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Physical geography of the ancient society's location",
+        "progression_checkpoint": "Students can describe the key geographical features of the region where the ancient society developed — including major landforms, waterways, climate, and resources — and explain why this location was viable for settlement.",
+        "minimum_width": "Describe at least two key geographical features (e.g. river systems, fertile plains, defensive topography) of the region where the chosen ancient society developed.",
+        "typical_width": "Describe the physical environment of the ancient society's region — including major landforms (river valleys, plains, mountains, coastlines), waterways, climate zones, and natural resources — and explain how this geography created conditions that made complex settlement possible.",
+        "wider": [
+          "Map the geographical setting of the ancient society, identifying how natural boundaries (deserts, mountains, seas) defined the territory and shaped expansion possibilities.",
+          "Compare the geographical contexts of two ancient societies (e.g. Mesopotamia in the Tigris-Euphrates valley vs Egypt in the Nile valley) to identify common geographical conditions associated with early civilisation development.",
+          "Investigate how the concept of the 'Fertile Crescent' or similar geographical concepts in other regions captures the relationship between physical environment and civilisation emergence."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students without a concrete geographical foundation for the ancient society's location cannot anchor the causal reasoning in N2 (agriculture) and N3 (settlement, trade) — causal claims about how geography shaped the society become ungrounded generalisations without specific geographical knowledge as the base.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a concrete geographical foundation — specific features of the ancient society's landscape — before they can reason about how those features influenced development. Without knowing the geography, the causal reasoning in subsequent nodes lacks an anchor. This node builds the geographical knowledge base that Nodes 2 and 3 reason from.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies and describes at least two major geographical features of the ancient society's location.",
+          "Explains why this location was viable for settlement — what the geography provided (water, arable land, defence, trade access).",
+          "Uses specific geographical terms and place names accurately."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Environment and agriculture — the foundation of ancient society",
+        "progression_checkpoint": "Students can explain how the physical environment supported the development of agriculture in the ancient society, and describe how agricultural surpluses enabled population growth, specialisation, and the development of complex social structures.",
+        "minimum_width": "Describe how at least one geographical feature (e.g. annual flooding of a river, fertile soil) supported agricultural development in the ancient society.",
+        "typical_width": "Explain how the physical environment — particularly water sources, fertile soils, and predictable seasons — enabled the development of agriculture, and describe how agricultural surplus led to population concentration, specialisation of labour, and the emergence of complex social structures (rulers, priests, craftspeople, merchants).",
+        "wider": [
+          "Examine the relationship between agricultural technology and environmental management in the ancient society — how irrigation, flood control, and land management transformed the natural environment to maximise agricultural productivity.",
+          "Investigate how the predictability (or unpredictability) of the physical environment shaped the religious and cultural beliefs of the ancient society — for example, how the Nile's annual flooding influenced Egyptian religious cosmology.",
+          "Explore how different environmental conditions produced different agricultural systems — wet-rice agriculture in East/Southeast Asia, grain agriculture in the Fertile Crescent — and how this shaped different social structures."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand how agricultural surplus enabled social complexity cannot explain the social hierarchy in K10 — noble, bureaucratic, and specialised roles presuppose the surplus that made specialisation possible, and this causal chain must be established before K10's social groups analysis can proceed meaningfully.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The causal chain from physical environment → agricultural possibility → surplus → specialisation → social complexity is multi-step and non-obvious. Students commonly see agriculture as simply 'farming' without connecting it to the social transformation it enabled. The reasoning scaffold — surplus allows not everyone to farm → some people can specialise → specialisation produces complexity — needs to be made explicit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes how at least one specific geographical feature supported agricultural development.",
+          "Explains the connection between agricultural surplus and social complexity — surplus enabled specialisation, not just food.",
+          "Does not treat agriculture as a given — recognises the specific environmental conditions that made it possible."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Environment and settlement, trade, and cultural development",
+        "progression_checkpoint": "Students can explain how the physical environment shaped the ancient society's settlement patterns, trade networks, and cultural development — including how geographical features created opportunities and constraints that defined what the society became.",
+        "minimum_width": "Describe how at least one geographical feature influenced either settlement patterns (where people lived) or trade (what the society could exchange with others).",
+        "typical_width": "Describe how physical geography shaped multiple dimensions of the ancient society's development: where settlements concentrated, what trade goods were available and what had to be obtained externally, how topography affected defence and expansion, and how environmental conditions shaped distinctive cultural practices or beliefs.",
+        "wider": [
+          "Examine the trade networks of the ancient society in detail — what goods it exported, what it imported, how trade routes were determined by geography, and how trade connected the society to other civilisations.",
+          "Investigate a specific case where geographical constraints shaped a cultural development — for example, how island or coastal geography produced maritime cultures, or how desert borders shaped military strategy and cultural identity.",
+          "Explore the ongoing relationship between environment and civilisation — how ancient societies modified their environments and how environmental degradation (deforestation, soil exhaustion, water management failures) contributed to the decline of some ancient societies."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the geographical foundation (Node 1) and agricultural analysis (Node 2) into a complete account of how the physical environment shaped the ancient society across multiple dimensions. Students must coordinate geography, agriculture, settlement, and trade into a coherent picture of how environment shaped what the society became — reaching the descriptor's full demand.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The relationship between environment and civilisation is one of the most generative ideas in ancient history — it applies differently across different societies (Egypt, Mesopotamia, Greece, China, Rome) and raises questions about geographic determinism that continue to inform historical debate. Advancing students can examine the limits of environmental explanation — why did some geographically favoured societies not develop complex civilisation? — and engage with how historians weight environmental against social and cultural factors.",
+        "success_criteria": [
+          "Describes how geographical features shaped at least two dimensions of the ancient society's development (settlement, trade, culture, defence).",
+          "Explains geographical features as creating both opportunities and constraints — not just advantages.",
+          "Does not treat environment as the only explanation for the society's development — acknowledges that human choices and social factors also mattered."
+        ],
+        "related_standards": ["AC9HH7K10", "AC9HH7K12", "AC9HH7S05"]
+      }
+    ]
+  }
+}

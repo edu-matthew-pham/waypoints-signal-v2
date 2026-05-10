@@ -1,0 +1,72 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9S04",
+    "title": "Justifying Conclusions",
+    "description": "evaluate data and information to justify conclusions",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can draw conclusions from geographical data (Y7-8). At Y9, the moves are: drawing conclusions about the impact of a geographical challenge on people, places and environments; and justifying conclusions by reflecting on the perspectives and reasons behind those perspectives.",
+    "progression_endpoint": "Students evaluate data and information to draw and justify conclusions about geographical challenges, reflecting on environmental, economic and social perspectives and the reasons for these perspectives.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Drawing conclusions about geographical challenges",
+        "progression_checkpoint": "Students can draw conclusions about the impact of a geographical challenge on people, places and environments",
+        "minimum_width": "Draw at least one conclusion about a geographical challenge from data; identify the impact on people, places or environments that the conclusion addresses",
+        "typical_width": "Draw conclusions about the environmental, economic and social impacts of a geographical challenge (e.g. food species decline and food security, cyberattacks on technological interconnections) from multiple data sources; clearly distinguish the conclusion from the data that supports it",
+        "wider": [
+          "Draw conclusions at different scales — explain how a conclusion about local impacts differs from a conclusion about national or global impacts of the same challenge",
+          "Compare conclusions drawn from two different data sources about the same challenge — explain where they converge and diverge",
+          "Identify the limits of what can be concluded from available data — explain what the data cannot support"
+        ],
+        "hinge": true,
+        "hinge_reason": "Drawing a supported conclusion — clearly distinguishing claim from evidence — is prerequisite for justifying conclusions in Node 2. Students who cannot make this distinction either restate data as conclusions (no analytical move) or make claims unsupported by evidence. Both patterns prevent meaningful perspective-reflection in Node 2.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The conclusion-drawing move requires students to synthesise multiple data sources into a claim that goes beyond the data while being supported by it. This is different from summarising data. Scaffolding the distinction between 'the data shows' and 'we can therefore conclude' — and asking students to show the inferential step — builds the analytical move.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States at least one conclusion about a geographical challenge's impacts",
+          "Identifies the specific data or evidence that supports the conclusion",
+          "Distinguishes the conclusion from a restatement of the data"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Justifying conclusions through perspective reflection",
+        "progression_checkpoint": "Students can justify conclusions by reflecting on perspectives identified and the reasons for these perspectives",
+        "minimum_width": "Identify at least two different perspectives on a geographical challenge; explain the reasons for each perspective; show how perspective-awareness strengthens or qualifies a conclusion",
+        "typical_width": "Justify conclusions about a geographical challenge by identifying environmental, economic and social perspectives and explaining the reasons for each; show how consideration of multiple perspectives (e.g. on disappearing arable land or ecotourism) produces a more robust or qualified conclusion",
+        "wider": [
+          "Identify a case where two perspectives on the same challenge produce contradictory conclusions — explain how to resolve or acknowledge the contradiction",
+          "Reflect on how your own perspective as a student in Australia may shape what you find to be a persuasive conclusion — identify what perspectives are harder to access from this position",
+          "Evaluate a published conclusion — identify whose perspectives are represented and whose are absent, and explain how this affects the conclusion's validity"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the conclusion from Node 1 with the perspective-reflection move required by this descriptor. The work is not about listing perspectives but about showing how perspective-awareness changes or qualifies the conclusion drawn from data. Teaching investment should focus on the connection between perspective identification and conclusion revision.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Self-reflection on personal perspective (as an Australian student) is rich — it requires students to recognise that their own geographic position shapes what data they access, what stories they find compelling and what conclusions they find obvious. Advancing students who engage with this direction develop a form of geographical self-awareness that is genuinely sophisticated and transfers to all inquiry work.",
+        "success_criteria": [
+          "Identifies at least two perspectives on a geographical challenge",
+          "Explains the reasons behind each perspective (not just states that they exist)",
+          "Shows how perspective reflection qualifies or strengthens the conclusion from Node 1"
+        ]
+      }
+    ]
+  }
+}

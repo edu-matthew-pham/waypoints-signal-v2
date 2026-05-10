@@ -1,0 +1,83 @@
+{
+  "year_level": "10",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E10LE05",
+    "title": "Text features and intertextuality shape interpretations",
+    "description": "analyse how text structure, language features, literary devices and intertextual connections shape interpretations of texts",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students analyse the effect of complex literary devices including extended metaphor, allegory, symbolism and intertextuality (AC9E9LE05). They have not yet analysed how text structure, language features, literary devices and intertextual connections combine to shape interpretations of texts.",
+    "progression_endpoint": "Students analyse how text structure, language features, literary devices and intertextual connections shape interpretations of texts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How language devices layer meaning",
+        "progression_checkpoint": "Students can analyse how language devices in a text layer meaning and influence the responses of listeners, viewers or readers.",
+        "minimum_width": "Identify at least two language devices in a text and analyse how they work together to layer meaning or shape a reader's response.",
+        "typical_width": "Analyse how multiple language devices interact across a text to create layered meaning, examining how combinations of devices produce effects that no single device would achieve.",
+        "wider": [
+          "Compare how the same literary device (e.g. extended metaphor) operates differently across poetry, prose and film, examining how medium shapes the device's effect",
+          "Examine how language devices in a satirical text shape the reader's interpretation of the issue being satirised",
+          "Analyse how First Nations Australian authors use language devices to layer cultural knowledge and meaning that may not be immediately visible to all readers"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to analyse how intertextual connections shape interpretation \u2014 a move that depends on understanding how devices layer meaning. Students who cannot coordinate multiple devices will treat intertextual references as isolated facts rather than meaning-shaping connections.",
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Students need to coordinate multiple device identifications into a coherent analysis of how they interact \u2014 the challenge is not identifying individual devices but understanding how they compound and layer.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two language devices in a text",
+          "Analyses how the devices interact to layer meaning or shape audience response"
+        ],
+        "related_standards": [
+          "AC9E10LE07",
+          "AC9E10LA06"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Intertextual connections and interpretation",
+        "progression_checkpoint": "Students can analyse how intertextual connections shape interpretations of a text, identifying how references to other texts or traditions enrich or complicate meaning.",
+        "minimum_width": "Identify at least one intertextual connection in a text and analyse how it shapes interpretation of the text.",
+        "typical_width": "Analyse how intertextual connections across a text \u2014 to other literary works, traditions, genres or cultural references \u2014 shape how the text can be interpreted, examining what knowledge is required to activate those connections.",
+        "wider": [
+          "Examine how satirical texts use intertextual references to shape interpretation and what happens to interpretation when readers lack the referenced knowledge",
+          "Analyse how First Nations Australian literary texts create intertextual connections to traditional narratives and evaluate how those connections shape meaning differently for different readers",
+          "Compare how two texts that reference the same canonical source use that intertextual connection for different interpretive purposes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Intertextual analysis requires students to understand that interpretation is reader-positioned \u2014 different readers activate different intertextual connections; encountering texts with diverse intertextual references makes this visible.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Intertextuality is rich across literary traditions \u2014 First Nations Australian, world literature and satirical texts all offer abundant intertextual connections that can be traced and analysed with depth.",
+        "success_criteria": [
+          "Identifies at least one intertextual connection in a text",
+          "Analyses how the connection shapes interpretation of the text"
+        ],
+        "related_standards": [
+          "AC9E10LE01",
+          "AC9E10LE03",
+          "AC9E10LE07"
+        ]
+      }
+    ]
+  }
+}

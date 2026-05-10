@@ -1,0 +1,93 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5A01",
+    "title": "Multiplication and division as inverses",
+    "strand": "Algebra",
+    "description": "Recognise and explain the connection between multiplication and division as inverse operations and use this to develop families of number facts",
+    "prior_knowledge": "Students can find unknown values in equations involving addition and subtraction using inverse reasoning (AC9M4A01). They have not yet applied inverse reasoning to multiplication and division or generated families of related facts.",
+    "progression_endpoint": "Students recognise and explain the connection between multiplication and division as inverse operations and use this to develop families of number facts.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Inverse relationship",
+        "progression_checkpoint": "Students can explain that multiplication and division are inverse operations using materials or arrays.",
+        "minimum_width": "Use an array or diagram to show that a multiplication and its corresponding division use the same three numbers; explain the inverse relationship.",
+        "typical_width": "Demonstrate the inverse relationship for multiple examples using arrays, materials and number sentences; explain why the relationship holds.",
+        "wider": [
+          "Connect to fact family structure: show all four related facts for an array",
+          "Use the inverse relationship to solve missing-number problems"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often treat multiplication and division as completely separate operations. Multiple representations (arrays, materials, number sentences) help build the generalised understanding that they are connected.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Understanding the inverse relationship is the prerequisite for Node 2 — students who see multiplication and division as unrelated operations cannot generate fact families or apply inverse reasoning in calculation.",
+        "success_criteria": [
+          "Student demonstrates the inverse relationship using a representation",
+          "Student explains the connection using their own words"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Families of number facts",
+        "progression_checkpoint": "Students can generate a family of four related multiplication and division facts from a single multiplication situation.",
+        "minimum_width": "Given a multiplication fact, write all four related facts in the family (a×b=c, b×a=c, c÷a=b, c÷b=a).",
+        "typical_width": "Generate fact families for a range of multiplication situations; use fact families to identify unknown values; apply to multi-digit facts using digital tools.",
+        "wider": [
+          "Extend fact families to larger numbers using the inverse as a calculation strategy (240÷20 via 20×?=240)",
+          "Investigate how fact families support mental calculation strategies"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Fluent fact family generation is a prerequisite for all inverse-based calculation. Students need practice generating the four-fact structure before applying it to solve unknowns.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Fluent fact family generation is required by Node 3 — students who cannot reliably produce all four related facts cannot apply inverse reasoning efficiently to multi-digit division problems.",
+        "success_criteria": [
+          "Student generates all four facts in a family from a given multiplication",
+          "Student applies a fact family to find an unknown value"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Applying inverse in calculation",
+        "progression_checkpoint": "Students can use the inverse relationship between multiplication and division to solve calculation problems efficiently.",
+        "minimum_width": "Apply the inverse relationship to solve at least two division problems by thinking multiplicatively (e.g. 120 ÷ 6 via 6 × ? = 120).",
+        "typical_width": "Apply inverse reasoning across a range of multi-digit problems; compare direct division with inverse multiplication approaches; select the most efficient approach for a given calculation.",
+        "wider": [
+          "Apply inverse reasoning to check solutions: multiply back after dividing",
+          "Investigate how inverse reasoning supports mental arithmetic strategies"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students default to direct division even when inverse multiplication is more efficient. Varied problem types — with different number sizes and structures — build flexible strategy selection."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student applies inverse reasoning to solve a division problem by thinking multiplicatively",
+          "Student explains why using multiplication is efficient for the given problem"
+        ]
+      }
+    ]
+  }
+}

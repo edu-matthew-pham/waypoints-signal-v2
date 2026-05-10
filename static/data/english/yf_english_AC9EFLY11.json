@@ -1,0 +1,71 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLY11",
+    "title": "Name letters and common sounds",
+    "description": "recognise and name all upper- and lower-case letters (graphemes) and know the most common sound that each letter represents",
+    "strand": "Literacy — Phonic/Word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students may recognise letters in their own name and in familiar texts. They have not yet been explicitly taught all upper- and lower-case letter names and their most common associated sounds.",
+    "progression_endpoint": "Students can recognise and name all upper- and lower-case letters and identify the most common sound each letter represents — demonstrating complete alphabet knowledge across both cases.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Letters have names",
+        "progression_checkpoint": "Students can recognise and name most upper- and lower-case letters when shown them.",
+        "minimum_width": "Recognise and name at least fifteen lower-case letters.",
+        "typical_width": "Recognise and name all upper- and lower-case letters; match upper- and lower-case pairs; apply letter naming in the context of familiar words and texts.",
+        "wider": [
+          "Recognise letters across a range of fonts and handwriting styles — understanding that the same letter takes different visual forms",
+          "Identify letters in environmental print, books, signs and digital texts — building multi-context letter recognition",
+          "Compare the English alphabet with other alphabetic writing systems — noting similarities and differences"
+        ],
+        "hinge": true,
+        "hinge_reason": "Letter name knowledge is a prerequisite for letter-sound learning in Node 2 — without reliable letter identification, students cannot associate sounds with specific letters, and phonics instruction cannot proceed effectively.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Complete and automatic letter name knowledge is a prerequisite for phonics instruction — uncertain letter names slow decoding and letter-sound learning. Practice to automaticity is required.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can name all twenty-six upper-case letters.",
+          "Student can name all twenty-six lower-case letters.",
+          "Student can match upper- and lower-case letter pairs."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Letters represent sounds",
+        "progression_checkpoint": "Students can identify the most common sound represented by each letter.",
+        "minimum_width": "Produce the most common sound for at least fifteen letters.",
+        "typical_width": "Know the most common sound each letter represents; connect letter names to letter sounds; apply letter-sound knowledge in the context of simple reading and spelling.",
+        "wider": [
+          "Identify the most common sound for all twenty-six letters, then explore that some letters have more than one common sound (e.g. 'c' in 'cat' vs 'city')",
+          "Connect letter-sound knowledge to words encountered in reading — applying the knowledge in context rather than isolation",
+          "Explore sounds in other languages — noting that the same letter may represent different sounds in different languages"
+        ],
+        "hinge": true,
+        "hinge_reason": "Letter-sound associations are the prerequisite for all phonic decoding in LY04, LY12 and LY13 — without automatic letter-to-sound retrieval, students cannot blend or segment, and reading and spelling both fail at the letter level.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Letter-sound associations require practice to automaticity — slow retrieval directly limits decoding speed. The 'most common sound' must be the automatic first response before alternative sounds are introduced.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can produce the most common sound for each letter of the alphabet.",
+          "Student can connect a letter to its sound when prompted by either the letter name or the letter form."
+        ]
+      }
+    ]
+  }
+}

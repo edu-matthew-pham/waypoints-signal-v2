@@ -1,0 +1,95 @@
+{
+  "year_level": "F",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9MFN05",
+    "title": "Addition and Subtraction Situations",
+    "description": "represent practical situations involving addition, subtraction and quantification with physical and virtual materials and use counting or subitising strategies",
+    "strand": "Number",
+    "mode": "A",
+    "prior_knowledge": "Students can quantify and compare collections using counting (AC9MFN03) and use part-part-whole reasoning to partition and combine collections to 10 (AC9MFN04). They have not yet represented joining and separating situations as mathematical relationships using materials or drawings.",
+    "progression_endpoint": "Students represent practical situations involving addition, subtraction and quantification using physical and virtual materials, and use counting or subitising strategies to find results.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Representing additive situations",
+        "progression_checkpoint": "Students can represent a practical addition or subtraction situation using materials or drawings, showing what is happening in the story.",
+        "minimum_width": "Use materials or a drawing to represent one addition or subtraction story situation (e.g. objects joining a group, or objects leaving a group).",
+        "typical_width": "Represent a range of practical addition and subtraction situations using materials or drawings; connect representations to oral story contexts; show the action (joining, separating) in the representation as well as the result.",
+        "wider": [
+          "Represent additive situations from First Nations Australians' stories (e.g. 'Tiddalick the Greedy Frog') and leaf games from the Warlpiri Peoples of Yuendumu — describing the mathematical relationship",
+          "Compare addition and subtraction situations side-by-side, identifying what is the same (a change in quantity) and what is different (joining vs separating)"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly represent only the final state (the answer), not the additive action. Encountering addition and subtraction situations through varied stories and contexts — particularly those requiring active role-play — makes the joining and separating actions visible in the representation. Varied contexts resolve the tendency to show just the endpoint.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to use counting or subitising on a representation to find a result — but if the representation shows only the final state (not the action), there is nothing for the strategy to operate on. Students who represent endpoint-only cannot use their representation to solve the problem or communicate the mathematical situation in node 3.",
+        "success_criteria": [
+          "Student represents an addition or subtraction situation with materials or drawings that show both the starting state and the action (joining or separating)",
+          "Student can describe what their representation shows in relation to the story"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Finding results using counting or subitising",
+        "progression_checkpoint": "Students can use counting or subitising to find the result of a represented addition or subtraction situation.",
+        "minimum_width": "Represent an addition or subtraction situation and use counting to find and state the result.",
+        "typical_width": "Use counting or subitising strategies to find results of addition and subtraction situations; record the result with a numeral; apply strategies across a range of practical story contexts including simple quantity comparisons.",
+        "wider": [
+          "Role-play simple money transactions using $1 coins — representing the situation, counting coins to find the result, and connecting the count to the transaction context",
+          "Compare counting-on as a strategy (starting from the larger group) with counting-all — discussing which is more efficient for different quantity sizes"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reliable use of counting strategies requires fluency in one-to-one counting under the pressure of a story context. Students commonly lose track when objects are added to or removed from a group mid-count. Repeated practice across varied situations builds the procedural reliability needed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to represent and solve quantification situations across varied context types — which depends on reliably applying a counting or subitising strategy. Students who lose track mid-count cannot solve varied situation types or connect mathematical representations to real-world contexts.",
+        "success_criteria": [
+          "Student finds the result of an addition or subtraction situation using counting or subitising and records it with a numeral",
+          "Student selects an appropriate strategy (counting all, counting on, subitising) for the quantities involved"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Representing quantification contexts",
+        "progression_checkpoint": "Students can represent and solve practical quantification situations (comparing, enough for a group, simple transactions) using materials and counting.",
+        "minimum_width": "Represent and solve one quantification situation (e.g. 'do we have enough for everyone?') using materials and counting.",
+        "typical_width": "Represent and solve practical situations involving addition, subtraction and quantification across a range of everyday contexts; connect mathematical representations to the real-world situation; use counting or subitising strategies to find results across all situation types.",
+        "wider": [
+          "Represent and solve additive situations from First Nations Australians' instructive games (e.g. leaf games from Warlpiri Peoples) — connecting mathematical structure to cultural context",
+          "Create own story situations that involve addition or subtraction and represent them for a partner to solve",
+          "Investigate how the same additive structure (joining, separating, comparing) can appear in very different story contexts — connecting mathematical sameness across varied stories"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Quantification situations (enough for a group, comparing, transactions) require students to identify the additive structure of a real-world problem, represent it, and solve it — integrating nodes 1 and 2 in a purposeful context. The integration of representation and strategy selection across varied situation types is the endpoint demand.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Varied practical contexts — money, sharing, group sufficiency, story problems — give advancing students rich opportunities to connect the same additive mathematical structure to very different real-world situations. This builds transferable mathematical reasoning beyond just computation.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly represents and solves an addition, subtraction or quantification situation using materials and counting or subitising",
+          "Student connects their mathematical representation to the real-world context (can explain what the materials or drawing shows)"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "year_level": "10",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG10S01",
+    "title": "Develop geographical inquiry questions",
+    "description": "develop a range of questions for a geographical inquiry related to a phenomenon or challenge",
+    "strand": "Geographical Inquiry Skills",
+    "mode": "B",
+    "prior_knowledge": "At Y9, students developed a range of questions for geographical inquiry (AC9HG9S01). At Y10 the added complexity is working with multi-scale phenomena and linking questions across scales (local, national, global) using geographical concepts (place, space, environment, interconnection, sustainability, scale, change) to sharpen focus.",
+    "progression_endpoint": "Students develop a range of relevant questions to investigate a geographical phenomenon or challenge, modifying and refining questions to incorporate geographical concepts and scale of study, and planning an investigation across multiple scales using digital tools.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Generating relevant questions for a geographical phenomenon",
+        "progression_checkpoint": "Students can develop a range of relevant questions to investigate why a geographical phenomenon has changed or a challenge may arise.",
+        "minimum_width": "Generate at least three questions about one geographical phenomenon or challenge, ensuring the questions are geographically relevant (not generic).",
+        "typical_width": "Develop a range of relevant questions that together address multiple dimensions of a geographical phenomenon or challenge — covering what, why, where, how and with what consequences; ensuring questions are grounded in geographical concepts.",
+        "wider": [
+          "Develop question sets for two contrasting phenomena (e.g. environmental sustainability and human wellbeing) and compare the inquiry structures, evaluating which questions are most productive for geographical investigation",
+          "Investigate how professional geographers frame inquiry questions and compare professional research questions with student-generated questions for the same topic",
+          "Generate questions that deliberately cross scales (local, national, global) for the same phenomenon and evaluate how scale change reshapes the inquiry"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot generate questions that are geographically framed rather than generically curious, the entire inquiry they conduct will lack geographical direction — data collection (S02), analysis (S03) and conclusion (S04) all flow from the question quality.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often generate questions that could apply to any discipline ('What is the problem? How bad is it? What should we do?'). Scaffold geographical question framing explicitly — what makes a question geographical is that it involves place, space, scale, environment or interconnection.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students generate at least three questions about a phenomenon that are geographically framed, not just generally curious",
+          "Students' questions together address multiple aspects of the phenomenon (nature, distribution, causes, consequences, responses)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Refining questions using concepts and scale",
+        "progression_checkpoint": "Students can develop and modify questions to sharpen the focus of an investigation using geographical concepts and scale of study.",
+        "minimum_width": "Take a broad question and modify it to incorporate at least one geographical concept (place, space, environment, interconnection, sustainability, scale, change) and a specific scale of study.",
+        "typical_width": "Develop and modify a set of inquiry questions so that each incorporates a geographical concept and addresses a specified scale (local, national, global); explain how the concept and scale sharpens the question's focus and what kind of data it calls for.",
+        "wider": [
+          "Develop parallel versions of the same question at three different scales and explain how each version calls for different data, methods and sources",
+          "Investigate how geographical concepts function as analytical lenses — taking one concept (e.g. interconnection) and exploring how it reshapes the questions that can be asked about a phenomenon",
+          "Evaluate a set of student-generated questions against criteria of focus, researchability and geographical relevance, revising weak questions with explicit justification"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Practising question refinement across multiple phenomena and concepts builds the transferable skill — students who have only refined questions for one phenomenon may be unable to apply the process to a new topic.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Question refinement using concepts and scales is the core disciplinary thinking skill of geographical inquiry. Students who have practised this across multiple concepts and phenomena develop a more portable inquiry toolkit.",
+        "success_criteria": [
+          "Students modify at least one question to incorporate a named geographical concept, explaining how the concept sharpens the inquiry focus",
+          "Students produce a refined question that specifies a scale of study and explain what kind of data that scale requires"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Planning a multi-scale investigation",
+        "progression_checkpoint": "Students can plan an investigation of a phenomenon at a range of scales using digital tools.",
+        "minimum_width": "Outline a plan for investigating one phenomenon at two or more scales, identifying data sources for each scale.",
+        "typical_width": "Plan an investigation of a phenomenon across local, national and/or global scales using digital tools; identify appropriate data sources, methods and questions for each scale; explain how findings at each scale will be integrated.",
+        "wider": [
+          "Plan an investigation that involves both primary data collection (fieldwork, survey) and secondary data sources, specifying how each will be used and how they will be compared",
+          "Evaluate a completed geographical investigation plan — identifying strengths and gaps in question coverage, scale consideration and data source selection",
+          "Design a digital tool-supported investigation plan for a phenomenon where geospatial technologies (GIS, satellite imagery, interactive mapping) are central to data collection or analysis"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "An investigation plan integrates question development, scale selection and method planning. Students need to see how each question implies a method and data source — the plan is the explicit connection point between inquiry questions and research design."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students produce an investigation plan that addresses the phenomenon at two or more scales, identifying at least one data source per scale",
+          "Students explain how their planned investigation would answer at least two of their refined inquiry questions"
+        ]
+      }
+    ]
+  }
+}

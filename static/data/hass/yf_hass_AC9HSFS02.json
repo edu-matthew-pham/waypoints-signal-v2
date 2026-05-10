@@ -1,0 +1,92 @@
+{
+  "year_level": "F",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HSFS02",
+    "title": "Sort and record information",
+    "description": "sort and record information including pictorial timelines and locations on pictorial maps or models",
+    "strand": "Inquiry Skills — Researching",
+    "mode": "B",
+    "prior_knowledge": "Students have informal sorting experience from everyday life. No formal prior HASS inquiry skills curriculum.",
+    "progression_endpoint": "Students sort and record information using pictorial timelines and pictorial maps or models.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sorting information",
+        "progression_checkpoint": "Students can sort provided sources (photographs, objects, drawings) into categories relevant to an inquiry question.",
+        "minimum_width": "Sort at least four items into two categories using a provided sorting rule (e.g. old/new, near/far, same/different).",
+        "typical_width": "Sort a range of sources (photographs, drawings, objects, mementoes) into relevant categories for a HASS inquiry; explain the reason for sorting decisions.",
+        "wider": [
+          "Create their own sorting categories for a set of sources and explain the reasoning behind their categories",
+          "Sort sources chronologically and explain what the ordering reveals about change over time"
+        ],
+        "hinge": true,
+        "hinge_reason": "Sorting is the prerequisite for recording — students who cannot sort into categories cannot build a meaningful pictorial timeline or map in the following node.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Sorting requires practice with physical materials before moving to recording. Use hands-on manipulation of photographs, cards and objects before expecting students to translate sorting into a recorded format.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Sorts at least four items into two categories using a provided rule",
+          "Can explain why an item belongs in a particular category"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Pictorial timelines",
+        "progression_checkpoint": "Students can add photographs or drawings to a pictorial timeline in the correct sequence, representing events from their own life or a familiar story.",
+        "minimum_width": "Sequence at least three photographs or drawings on a provided timeline, placing them in correct time order.",
+        "typical_width": "Add photographs or drawn representations of significant events to a pictorial timeline; create a timeline of events over the year or key family events; explain the sequence.",
+        "wider": [
+          "Compare two timelines (e.g. their own timeline vs a family member's) and identify events that appear in both",
+          "Create a class timeline of significant shared events, discussing how to decide what goes on it"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Sequencing is a new cognitive demand at Foundation — practise with clearly ordered physical events before adding less familiar or ambiguous items."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Places at least three items on a timeline in correct sequence",
+          "Can explain why one item comes before or after another"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Locations on pictorial maps or models",
+        "progression_checkpoint": "Students can identify features on a provided pictorial map or model of a familiar place and link drawn representations to their real-world locations.",
+        "minimum_width": "Identify at least two features on a provided pictorial map of a familiar place (e.g. school map) and match them to pictures or drawings of those features.",
+        "typical_width": "Use a provided pictorial map or oblique aerial photograph to find and link multiple features to pictures; describe the location of features using simple spatial terms (near, beside, opposite).",
+        "wider": [
+          "Add a new feature to a pictorial map using a symbol or drawing and explain its location relative to existing features",
+          "Compare a pictorial map with a photograph of the same place and identify similarities and differences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Maps integrate sorting (what features are there) and location vocabulary into a spatial record — this is the node where both come together in a representational format."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two features on a provided pictorial map",
+          "Links at least one map feature to a drawing or photograph of that feature"
+        ]
+      }
+    ]
+  }
+}

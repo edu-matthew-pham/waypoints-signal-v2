@@ -1,0 +1,97 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6A01",
+    "title": "Growing patterns with rational numbers",
+    "description": "Recognise and use rules that generate visually growing patterns and number patterns involving rational numbers",
+    "strand": "algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise and explain the connection between multiplication and division as inverse operations and use this to develop families of number facts (AC9M5A01). They can find unknown values in multiplication and division equations (AC9M5A02). They have not yet described rules for growing patterns or applied pattern rules to rational number sequences.",
+    "progression_endpoint": "Students can recognise and use rules that generate visually growing patterns and number patterns involving rational numbers.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying rules in number patterns",
+        "progression_checkpoint": "Students can identify the rule governing a number pattern involving rational numbers and use it to extend the pattern.",
+        "minimum_width": "Identify the rule (operation and step size) in at least three number patterns involving decimals or fractions; extend each pattern by at least three terms; verify by checking the rule applies to each step.",
+        "typical_width": "Identify and describe rules for number patterns involving decimals, fractions, and percentages; distinguish additive patterns (constant difference) from multiplicative patterns (constant ratio); extend patterns in both forward and backward directions.",
+        "wider": [
+          "Investigate patterns arising from unit fraction sequences (1/2, 1/3, 1/4...) \u2014 what happens as denominators grow?",
+          "Use a spreadsheet to generate long sequences and look for emerging patterns that are not obvious from the first few terms"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often identify additive patterns readily but miss multiplicative ones. Encountering both types \u2014 and patterns where the step involves a rational number (e.g. +0.25, \u00d7\u00bd) \u2014 is needed to build a general pattern-recognition schema rather than one keyed to whole-number steps.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Correctly identifying a pattern's rule \u2014 including distinguishing additive from multiplicative \u2014 is the prerequisite for Node 2 and Node 3. Students who default to additive when the rule is multiplicative will generate wrong terms and cannot describe visual growing patterns or generate patterns from rules accurately.",
+        "success_criteria": [
+          "Student identifies the rule for a number pattern involving rational numbers and states it clearly.",
+          "Student extends the pattern correctly using the identified rule."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Visually growing patterns and their rules",
+        "progression_checkpoint": "Students can describe the rule for a visually growing pattern using numbers, identify the connection between the visual structure and the number sequence, and use the rule to predict future terms.",
+        "minimum_width": "Describe the growth rule for a visual pattern (e.g. tiles, dots) as a number sequence; identify how many tiles/elements are in a given term; predict the number in a later term using the rule.",
+        "typical_width": "Connect the visual structure of a growing pattern to the arithmetic rule generating it; express the rule in words; use the rule to predict non-adjacent terms without drawing all intermediate stages; identify both the starting value and the step size.",
+        "wider": [
+          "Investigate growing patterns from real contexts: number of tiles to border a square of increasing size, number of handshakes in growing groups",
+          "Explore patterns where the visual and numerical rules feel different but are equivalent \u2014 justify why they produce the same sequence"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often can describe what changes term-to-term but cannot articulate the underlying rule as a generalisable statement. Scaffolding the reasoning \u2014 'what stays the same? what changes? by how much?' \u2014 bridges the gap between pattern observation and rule articulation.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Visual growing patterns connect arithmetic sequences to spatial reasoning and pre-algebraic thinking. The richness of pattern types (linear, quadratic at this level only visually, tiling problems) offers genuine depth for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student describes the rule for a visually growing pattern as a number sequence.",
+          "Student uses the rule to predict the number of elements in a non-adjacent term."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Generating and representing patterns",
+        "progression_checkpoint": "Students can create a number pattern from a given rule involving rational numbers and represent it in multiple forms (table of values, number sequence, visual pattern where applicable).",
+        "minimum_width": "Given a rule involving rational numbers (e.g. 'start at 2.5, add 0.75 each time'), generate the first eight terms; represent in a table of values.",
+        "typical_width": "Generate patterns from rules involving fractions, decimals, and mixed rational numbers; represent as number sequences, tables of values, and graphs where appropriate; describe in words the relationship between position and value.",
+        "wider": [
+          "Create a real-world scenario that generates a specific rational number pattern (e.g. weekly savings with a decimal amount) and represent it as a table and graph",
+          "Investigate patterns arising from calculator experiments: what pattern emerges from 1\u00f79, 2\u00f79, 3\u00f79...? Describe and explain."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Generating and representing patterns brings together rule identification, rational number operations, and multiple representations. Moving fluently between a verbal rule, a table, and a number sequence integrates the component skills into the pattern concept."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student generates a number pattern from a given rule involving rational numbers.",
+          "Student represents the pattern in at least two forms (e.g. sequence and table)."
+        ]
+      }
+    ]
+  }
+}

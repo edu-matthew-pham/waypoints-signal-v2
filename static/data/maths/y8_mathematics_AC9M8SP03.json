@@ -1,0 +1,72 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8SP03",
+    "title": "3D Coordinate Systems",
+    "strand": "Space",
+    "description": "describe the position and location of objects in 3 dimensions in different ways, including using a three-dimensional coordinate system with the use of dynamic geometric software and other digital tools",
+    "mode": "A",
+    "prior_knowledge": "Students can plot and describe positions on the Cartesian plane (from AC9M7SP03). Students understand transformations in 2D using coordinates.",
+    "progression_endpoint": "Students describe positions in 3D using latitude/longitude/altitude, three-dimensional coordinates, and other spatial reference systems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Extending the coordinate system to three dimensions",
+        "progression_checkpoint": "Students extend the 2D Cartesian plane to three dimensions by adding a third axis (z), and plot and read coordinates in the first octant.",
+        "minimum_width": "Plot and read coordinates (x, y, z) for simple positions in the first octant using dynamic geometry software.",
+        "typical_width": "Describe and locate objects using 3D coordinates; compare 2D and 3D coordinate systems identifying what is the same and what differs.",
+        "wider": [
+          "Construct 3D shapes using 3D design software that uses a three-dimensional coordinate system — connect the coordinates to the vertices of the shape.",
+          "Explore geospatial technologies used by First Nations Australian communities to describe position and transformation on Country."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The extension from 2D to 3D coordinates is conceptually demanding — multiple representations (software, verbal description, diagrams) and real-world contexts help students build spatial intuition for the third axis.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires interpreting practical 3D reference systems including latitude/longitude/altitude — students who have not built spatial intuition for the third axis cannot map between the abstract coordinate system and these real-world applications.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Plots a point given 3D coordinates in the first octant.",
+          "Reads the coordinates of a plotted point.",
+          "Identifies which axis extends the 2D plane to 3D."
+        ],
+        "related_standards": ["AC9M7SP03"]
+      },
+      {
+        "id": 2,
+        "label": "Describing positions in real-world 3D systems",
+        "progression_checkpoint": "Students describe positions in practical 3D reference systems including latitude/longitude/altitude and multi-storey coordinate systems.",
+        "minimum_width": "Describe the position of an object using latitude, longitude and altitude; interpret a 3D coordinate location in a practical context.",
+        "typical_width": "Apply 3D coordinate systems to aircraft/drone location, multi-storey buildings, and map-based systems; connect the abstract system to familiar real-world applications.",
+        "wider": [
+          "Investigate how 3D printers use a three-dimensional coordinate system to build objects layer by layer — describe the relationship between the coordinate path and the physical object.",
+          "Explore games based on 3D coordinate systems — describe how player position and movement are represented."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "3D spatial reasoning develops through varied practical contexts — aircraft, buildings, games, and printing all use the same underlying coordinate structure but present it very differently.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "3D printing, drone navigation, and First Nations geospatial technologies offer advancing students rich applied contexts for 3D coordinates — connecting the abstract system to physical manufacturing or cultural mapping is a genuine extension.",
+        "success_criteria": [
+          "Correctly describes a position using a practical 3D reference system.",
+          "Interprets a 3D coordinate in a real-world context.",
+          "Connects the three coordinates to three independent dimensions of location."
+        ],
+        "related_standards": []
+      }
+    ]
+  }
+}

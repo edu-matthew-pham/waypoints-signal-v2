@@ -1,0 +1,69 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3M06",
+    "title": "Money values and representation",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "recognise the relationships between dollars and cents and represent money values in different ways",
+    "prior_knowledge": "No direct predecessor identified in the progression map at Y3. Students have used money in additive modelling contexts at Y2 (AC9M2N06) but have not yet formally studied the dollar-cent relationship or represented money values in multiple ways.",
+    "progression_endpoint": "Students recognise the relationship between dollars and cents and represent money amounts in different equivalent forms.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Dollar and cent relationship",
+        "progression_checkpoint": "Students can state that 100 cents = $1 and use this to convert between dollar and cent representations.",
+        "minimum_width": "Convert three money amounts between cents and dollars; explain the relationship (100 cents = $1).",
+        "typical_width": "Convert money amounts between cents and dollars in both directions; explain the place value connection — dollars are units, cents are hundredths.",
+        "wider": [
+          "Investigate how different countries use different currencies and coin systems, comparing structures",
+          "Connect the dollar-cent relationship to the decimal place value system — setting up understanding of decimal notation for money amounts"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The 100-based relationship between dollars and cents requires explicit connection to place value — students who understand this as a conversion rule without place value grounding often make errors in mixed notation (e.g. writing $1.50 as $1.5 or $150).",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "The dollar-cent conversion with place value grounding is required for Node 2 and for AC9M3N06 financial modelling tasks — students who have only a mechanical rule (not a place value understanding) produce systematic errors in mixed notation and in making-change calculations.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can convert a cents amount to dollars and cents (e.g. 375¢ = $3.75).",
+          "Students can convert a dollar amount to cents (e.g. $4.20 = 420¢)."
+        ],
+        "related_standards": ["AC9M3N01", "AC9M3N06"]
+      },
+      {
+        "id": 2,
+        "label": "Representing money values in different ways",
+        "progression_checkpoint": "Students can represent a given money amount using different combinations of coins and notes, and identify equivalent representations.",
+        "minimum_width": "Represent one money amount using two different combinations of coins and notes; confirm both are equivalent.",
+        "typical_width": "Represent money amounts using multiple coin and note combinations; find the most efficient representation; connect to making change.",
+        "wider": [
+          "Explore cashless payment contexts — how digital transactions represent money without physical coins, and what stays the same",
+          "Investigate how First Nations Australian communities have engaged with exchange and value systems, and how these compare to the dollar-cent system"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often have only one mental model of a money amount (e.g. always thinking of it as a sum of the smallest coins). Seeing equivalent representations across varied combinations builds flexibility and prepares for making change.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The cashless payment and cultural comparison contexts extend money understanding beyond physical coins into representation and value systems more broadly — genuinely enriching for the concept without acceleration.",
+        "success_criteria": [
+          "Students can show two different ways to represent the same money amount using coins and notes.",
+          "Students can identify which combination of coins/notes is more efficient for a given amount."
+        ]
+      }
+    ]
+  }
+}

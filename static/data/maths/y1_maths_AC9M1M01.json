@@ -1,0 +1,83 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1M01",
+    "title": "Order by length, mass, capacity, duration",
+    "description": "Compare directly and indirectly and order objects and events using attributes of length, mass, capacity and duration, communicating reasoning",
+    "strand": "Measurement and Space",
+    "mode": "A",
+    "prior_knowledge": "Students can identify and compare length, capacity, mass and duration using direct comparisons (AC9MFM01). They can sequence days of the week and times of day (AC9MFM02). They have not yet compared indirectly using a mediating object, or ordered three or more objects using a single attribute and communicated the reasoning systematically.",
+    "progression_endpoint": "Students compare directly and indirectly and order objects and events using attributes of length, mass, capacity and duration, communicating reasoning.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Direct comparison and ordering",
+        "progression_checkpoint": "Students can directly compare and order three or more objects using a single attribute, using correct comparative language to communicate the order.",
+        "minimum_width": "Order three objects by length (or mass or capacity) using direct comparison; describe the order using comparative language (e.g. shortest, shorter, longer, longest).",
+        "typical_width": "Directly compare and order three or more objects using each of length, mass and capacity; use correct comparative language for each attribute; explain the comparison method used and the resulting order.",
+        "wider": [
+          "Investigate comparative measurement in First Nations contexts — ordering tracks by animal length, comparing capacity of traditional water-carrying vessels — using the same language of ordering and reasoning.",
+          "Order objects by two attributes simultaneously (e.g. by both length and mass), discussing whether objects ranked the same on one attribute are necessarily ranked the same on another."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Orders three or more objects from shortest to longest (or lightest to heaviest, least to most) using direct comparison.",
+          "Uses correct comparative language to describe the order."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Indirect comparison",
+        "progression_checkpoint": "Students can compare the length (or capacity) of two objects that cannot be placed directly side-by-side, using a mediating object or material.",
+        "minimum_width": "Use a piece of string or another mediating object to compare the length of two objects that cannot be placed directly side-by-side; state which is longer and explain the method.",
+        "typical_width": "Compare lengths using string or rope as a mediating tool; compare capacities by pouring into a third container; use balance scales to compare mass indirectly; explain the reasoning behind each indirect comparison method.",
+        "wider": [
+          "Explore historical and cultural indirect comparison methods — pacing, using body-length units, traditional balance tools — and compare their precision with string-based indirect comparison.",
+          "Design an indirect comparison challenge: identify two objects in the classroom that cannot be directly compared and determine a mediating strategy, explaining the choice."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Indirect comparison is conceptually distinct from direct comparison — students often fail to recognise that transitivity (A = C and B = C means A = B) is what makes indirect comparison valid. Working with different mediating objects and attributes helps students grasp the principle rather than just the procedure.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Indirect comparison is the conceptual foundation of measurement — understanding that a mediating object stands in for the attribute itself. Students who understand this principle can extend it to informal units and eventually to formal measurement.",
+        "success_criteria": [
+          "Correctly uses a mediating object to compare two objects that cannot be placed side-by-side.",
+          "Explains the reasoning behind the indirect comparison and states the conclusion."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing and ordering duration",
+        "progression_checkpoint": "Students can compare the duration of events using informal timers and order events by duration, communicating reasoning using correct temporal comparative language.",
+        "minimum_width": "Compare the duration of two events using an informal timer (sand timer, counting); state which takes longer.",
+        "typical_width": "Compare and order the duration of three or more events using informal timers; create or select appropriate timers for comparison; use correct comparative language (faster, slower, shorter duration, longer duration); connect duration comparison to the time units studied in AC9M1M03.",
+        "wider": [
+          "Investigate First Nations Australians' seasonal calendars as representations of duration — discussing how the duration of seasons is described and compared across different language groups.",
+          "Create and compare a set of sand timers using everyday materials, ordering them by duration and designing a timing challenge for peers."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Orders three or more events or activities by duration using an informal timer.",
+          "Uses correct comparative language to communicate the duration order and explains how the comparison was made."
+        ],
+        "related_standards": ["AC9M1M03"]
+      }
+    ]
+  }
+}

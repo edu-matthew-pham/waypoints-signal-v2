@@ -1,0 +1,71 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLE03",
+    "title": "Recognise literary text types",
+    "description": "recognise different types of literary texts and identify features including events, characters, and beginnings and endings",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students have encountered stories and poems. They have not yet been asked to distinguish literary text types from each other, or to identify the structural features (beginnings, endings, characters, events) that define and differentiate them.",
+    "progression_endpoint": "Students can recognise and name different types of literary texts; identify features including events, characters, and beginnings and endings; and recognise that different literary forms (fairytales, realistic stories, poetry) have characteristic patterns.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Literary texts have features",
+        "progression_checkpoint": "Students can identify at least one key feature (character, event, beginning, or ending) in a familiar literary text.",
+        "minimum_width": "Name a character and an event in one story.",
+        "typical_width": "Identify characters, events, beginnings and endings across multiple literary texts; recognise that these are features that literary texts share.",
+        "wider": [
+          "Compare how different texts begin — story openings across picture books and fairytales — noting patterns and conventions",
+          "Map the events in a familiar story in order — from beginning to ending — using drawings or a simple timeline"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without being able to identify characters, events, beginnings and endings, students cannot recognise the patterns that distinguish literary text types in Node 2 — type-level pattern recognition depends on feature-level identification being secure.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Feature identification must become reliable across multiple texts before students can abstract text-type patterns from those features. Practice across a range of stories builds the consistent recognition habit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify a character in a literary text.",
+          "Student can identify a key event from the story.",
+          "Student can identify the beginning and ending of a story."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Literary text types have patterns",
+        "progression_checkpoint": "Students can identify different types of literary texts and describe at least one pattern or feature that is typical of each type.",
+        "minimum_width": "Name one literary text type (e.g. fairytale, poem) and identify one feature typical of it.",
+        "typical_width": "Recognise different types of literary texts — fairytales, realistic stories, poetry; identify typical features (e.g. fairytale openings, story structure, poetic features); recognise First Nations Australian cultural storytelling patterns.",
+        "wider": [
+          "Compare fairytales from different cultural traditions — European, Asian, First Nations Australian — and identify shared and distinctive patterns",
+          "Explore how stories are told in poetry and compare this to prose narrative — examining what each form can and cannot do",
+          "Investigate how First Nations Australian authors use cultural storytelling patterns distinctively, compared with fairytales or European story conventions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to accumulate examples of each literary text type before the category becomes robust — a single fairytale is not enough to understand 'fairytale' as a type — the pattern emerges from the repertoire.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing literary text types — including First Nations Australian storytelling conventions — offers genuine richness for advancing students: understanding how different communities use narrative form is a powerful cultural and literary insight.",
+        "success_criteria": [
+          "Student can name at least two different types of literary texts.",
+          "Student can identify at least one feature typical of each type named.",
+          "Student can say something about how First Nations Australian storytelling patterns differ from or are similar to fairytales."
+        ]
+      }
+    ]
+  }
+}

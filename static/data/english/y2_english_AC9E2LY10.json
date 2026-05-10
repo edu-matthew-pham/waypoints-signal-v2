@@ -1,0 +1,93 @@
+{
+  "year_level": "2",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E2LY10",
+    "title": "Vowel digraphs and consonant clusters",
+    "description": "use phoneme–grapheme (sound–letter/s) matches, including vowel digraphs, less common long vowel patterns, consonant clusters and silent letters when reading and writing words of one or more syllables, including compound words",
+    "strand": "Phonic and word knowledge",
+    "mode": "B",
+    "prior_knowledge": "Students use short and long vowels, blends and digraphs to write words and read one- and two-syllable words (AC9E1LY11). They have not yet applied less common long vowel patterns, silent letters or multi-syllabic and compound word decoding.",
+    "progression_endpoint": "Students can use vowel digraphs, less common long vowel patterns, consonant clusters and silent letters when reading and writing words of one or more syllables including compound words.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Vowel digraphs",
+        "progression_checkpoint": "Students can read and write words containing vowel digraphs — including common and less common patterns — applying correct sound-letter matches.",
+        "minimum_width": "Read and write words with common vowel digraphs ('ee', 'oo', 'ai', 'ay', 'ea') correctly.",
+        "typical_width": "Apply vowel digraph knowledge across common and less common patterns in reading and writing, including words encountered in shared texts and learning area vocabulary.",
+        "wider": [
+          "Compare vowel digraphs with the same sound but different spelling (e.g. 'ee' and 'ea' for the same vowel sound) and discuss how context helps choose the correct spelling",
+          "Identify vowel digraphs in content-area vocabulary (Science, HASS) and practise reading and writing them in context"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Vowel digraph recognition and production requires repeated application across many words before it becomes automatic. Students who understand the concept still misread or misspell digraphs in new words. Practice volume builds automaticity more than breadth of pattern types at this stage.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Vowel digraph automaticity is prerequisite for Node 3 multi-syllabic decoding — students who cannot reliably apply digraph patterns to individual syllables cannot decode multi-syllabic words where digraphs appear within a syllable.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly reads words containing vowel digraphs without sounding out individual letters.",
+          "Student correctly writes words with common vowel digraphs."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Less common long vowel patterns and silent letters",
+        "progression_checkpoint": "Students can read and write words with less common long vowel patterns (e.g. 'ight') and silent letters (e.g. 'knife', 'thumb').",
+        "minimum_width": "Read a word with a less common long vowel pattern or silent letter correctly and use it in writing.",
+        "typical_width": "Apply knowledge of less common long vowel patterns and silent letters across a range of words encountered in reading and writing contexts.",
+        "wider": [
+          "Identify silent letters across a word family (e.g. 'knife', 'knot', 'know') and discuss the pattern",
+          "Compare less common long vowel patterns across word families (e.g. 'ight' words) and discuss how recognising the pattern speeds up reading"
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Silent letters and less common patterns are irregular in sound-spelling mapping and require memorisation plus pattern recognition. Precision and repeated exposure is more productive than widening to new pattern types before current ones are reliable.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Less common long vowel patterns and silent letters appear within multi-syllabic words — students who cannot read these patterns reliably cannot decode Node 3 words where these patterns are embedded within a syllable.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly reads a word with a less common long vowel pattern or silent letter.",
+          "Student correctly writes a word with a silent letter without misspelling it phonetically."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Multi-syllabic and compound words",
+        "progression_checkpoint": "Students can decode and write words of two or more syllables, including compound words, applying phoneme-grapheme knowledge to each syllable.",
+        "minimum_width": "Decode a two-syllable word by applying phoneme-grapheme knowledge to each syllable separately.",
+        "typical_width": "Read and write multi-syllabic and compound words — applying decoding strategies syllable-by-syllable and recognising constituent words in compound words — across reading and writing contexts.",
+        "wider": [
+          "Identify compound words in learning area texts and decompose them into constituent words, discussing how the parts contribute to meaning",
+          "Compare two-syllable words with different stress patterns and discuss how stress affects pronunciation"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Decoding multi-syllabic words requires students to coordinate vowel digraph knowledge, consonant cluster knowledge and silent letter knowledge simultaneously, applying each to different syllables within the same word. Coordinated application is the integration demand."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can decode a two-syllable word by applying phoneme-grapheme knowledge to each syllable.",
+          "Student can identify the two constituent words in a compound word."
+        ]
+      }
+    ]
+  }
+}

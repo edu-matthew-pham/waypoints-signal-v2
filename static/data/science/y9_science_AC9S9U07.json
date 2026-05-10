@@ -1,0 +1,71 @@
+{
+  "year_level": "9",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9U07",
+    "title": "Chemical Equations and Conservation of Mass",
+    "description": "model the rearrangement of atoms in chemical reactions using a range of representations, including word and simple balanced chemical equations, and use these to demonstrate the law of conservation of mass",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can distinguish physical from chemical changes and identify indicators of chemical change (AC9S8U07). They can classify matter and use element symbols and formulas (AC9S8U06). They have not yet written balanced chemical equations or applied conservation of mass quantitatively.",
+    "progression_endpoint": "Students identify reactants and products in chemical reactions, represent reactions using word equations and simple balanced symbolic equations, explain conservation of mass using atomic rearrangement reasoning, and investigate reactions in closed and open systems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Chemical reactions rearrange atoms — reactants become products",
+        "progression_checkpoint": "Students can identify reactants and products in a chemical reaction, explain that atoms are rearranged (not created or destroyed) during a reaction, and represent reactions using word equations.",
+        "minimum_width": "Students identify reactants and products for at least two reactions and explain atomic rearrangement using models or representations.",
+        "typical_width": "Students identify reactants and products; explain that atoms are rearranged during reaction (same atoms, different arrangements); use molecular models to show rearrangement; write word equations for common reactions; and distinguish reactant/product roles from physical and chemical change indicators.",
+        "wider": [
+          "Investigate why most elements are not found in their elemental state and examine processes used to obtain them — connecting chemical equilibrium concepts to real extraction chemistry",
+          "Examine how green chemistry principles (minimising waste products, reducing energy use, using environmentally friendly processes) will affect environmental impact",
+          "Explore how First Nations Australians use chemical reactions to convert toxic plants into edible food products — examining the chemistry underlying traditional food processing"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires students to balance symbolic equations — a process that only makes sense if students understand why the number of each atom type must be conserved. Students who do not firmly hold the atomic rearrangement model will change formulas rather than coefficients to balance equations, fundamentally misapplying the conservation constraint.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students identify reactants and products as labels without understanding why atoms must be conserved — the constraint that makes balancing non-arbitrary. Making the atomic rearrangement logic explicit (same atoms, different bonds → same total of each element on both sides) is the scaffold that transforms balancing from a memorised procedure into a principled application of conservation of mass.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations food processing chemistry is a sophisticated and culturally meaningful application of chemical transformation reasoning. Green chemistry provides a genuine contemporary direction connecting chemical knowledge to sustainability.",
+        "success_criteria": [
+          "Identifies reactants and products in at least two named reactions",
+          "Explains that atoms are rearranged in a chemical reaction — neither created nor destroyed"
+        ],
+        "related_standards": ["AC9S8U07"]
+      },
+      {
+        "id": 2,
+        "label": "Balanced equations demonstrate conservation of mass",
+        "progression_checkpoint": "Students can write simple balanced chemical equations, explain that balancing reflects conservation of mass (same number of each atom type on both sides), and investigate conservation of mass in closed and open systems.",
+        "minimum_width": "Students write at least two balanced chemical equations and explain why the equation must be balanced in terms of conservation of mass.",
+        "typical_width": "Students write and balance simple symbolic equations; explain that balancing requires equal atom counts on both sides because atoms are neither created nor destroyed; investigate reactions in closed and open systems and relate mass data to conservation of mass; and compare information conveyed by molecular models vs balanced equations.",
+        "wider": [
+          "Investigate chemical reactions in closed and open systems — explaining why mass appears to change in open systems (gas escapes or enters) while total mass is conserved",
+          "Predict how green chemistry principles — minimising unusable waste products, using efficient processes — reduce the environmental footprint of industrial chemistry",
+          "Examine how balanced equations are used in industry to calculate reactant quantities needed and waste products produced — connecting equation balancing to real industrial chemistry planning"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Equation balancing requires systematic trial-and-error with coefficient adjustment — a precision skill that improves with practice. Students commonly change formulas rather than coefficients to balance, fundamentally misunderstanding the constraint. Deliberate practice with varied equation types, with the conservation-of-mass rationale made explicit, is the primary developmental lever."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Writes at least two balanced chemical equations with correct coefficients",
+          "Explains that balancing reflects conservation of mass — same atoms on both sides",
+          "Explains why mass appears to change in an open system reaction and why total mass is still conserved"
+        ]
+      }
+    ]
+  }
+}

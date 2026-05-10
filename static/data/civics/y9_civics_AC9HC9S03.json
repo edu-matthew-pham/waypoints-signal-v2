@@ -1,0 +1,70 @@
+{
+  "year_level": "9",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HC9S03",
+    "title": "Evaluate civic perspectives and interpretations",
+    "description": "analyse information, data and ideas about political, legal or civic issues to identify and evaluate differences in perspectives and interpretations",
+    "strand": "Civics inquiry skills",
+    "mode": "B",
+    "prior_knowledge": "Students can analyse information about civic issues to identify and explain differences in perspectives and potential challenges (AC9HC8S03). At Year 9 the expectation advances from explaining differences to evaluating them — students must assess the values, motivations and contexts that underpin perspectives, not just identify that perspectives differ.",
+    "progression_endpoint": "Students analyse information about political, legal or civic issues to identify and evaluate differences in perspectives and interpretations, including examining the values and motivations underlying those perspectives.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying values and motivations underlying perspectives",
+        "progression_checkpoint": "Students can identify the values, motivations and contexts that underpin different perspectives on a civic or political issue.",
+        "minimum_width": "Identify the values or motivations underlying at least two different perspectives on a civic or political issue.",
+        "typical_width": "Identify the values, motivations and contexts that underpin different perspectives about political and legal systems and processes; explain why the same information can be interpreted differently depending on perspective; apply this to at least one substantive civic issue (e.g. constitutional recognition for First Nations Australians, impacts of mining activity on communities).",
+        "wider": [
+          "Investigate a civic issue where perspectives divide along lines of lived experience (e.g. First Nations Australians' perspectives on constitutional recognition versus non-Indigenous perspectives) and analyse how context shapes interpretation",
+          "Examine a historical civic issue and a contemporary one to compare whether the values underpinning key perspectives have changed over time",
+          "Map perspectives on a policy debate using a values framework (e.g. liberty, equality, community, authority) to evaluate what is really at stake in the disagreement"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students can only identify that perspectives differ without understanding why, the evaluation in Node 2 is superficial — they end up comparing conclusions rather than reasoning. Evaluation requires understanding that perspectives are grounded in values and contexts, not just positions.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The move from 'these perspectives differ' to 'these perspectives differ because they prioritise different values' is the key analytical step. Students benefit from an explicit scaffold that asks: what does this perspective assume? What does it prioritise? What would challenge it?",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two perspectives on a civic issue",
+          "Explains the value or motivation underlying each perspective, not just the position held"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Evaluating effectiveness and policy responses",
+        "progression_checkpoint": "Students can evaluate the effectiveness of a political or legal institution and examine how government responds to civic issues.",
+        "minimum_width": "Examine at least one perspective on the effectiveness of a political or legal institution and explain the basis for that assessment.",
+        "typical_width": "Examine information including diverse perspectives about the effectiveness of a political or legal institution (e.g. 'Is Australia's parliament representative of the Australian community?' or 'Does the court system deliver justice for victims of crime?'); investigate how the Australian Government responds to a civic issue and examine the policy development and implementation process; evaluate the quality of different perspectives using evidence.",
+        "wider": [
+          "Investigate a government policy response to a major civic issue (e.g. welfare reform in response to economic crisis, health policy during COVID) and evaluate its effectiveness from multiple stakeholder perspectives",
+          "Examine a case where natural disaster or emergency response policy was evaluated differently by different communities (e.g. rural vs urban, First Nations vs non-Indigenous) and analyse why",
+          "Assess the effectiveness of a political institution (e.g. the Senate, an ombudsman office) using criteria drawn from multiple civic perspectives including those of underrepresented groups"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Evaluation is stronger when students have multiple policy contexts to draw on. Using two contrasting cases — one where government response was broadly effective, one where it was contested or inadequate — develops evaluative flexibility.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Policy effectiveness evaluation is where civic analysis becomes genuinely critical — advancing students can assess institutional effectiveness against competing criteria (efficiency, equity, representation, responsiveness) using real and recent Australian cases.",
+        "success_criteria": [
+          "Evaluates at least one perspective on the effectiveness of a political or legal institution using evidence",
+          "Examines a government response to a civic issue and identifies at least two different perspectives on its effectiveness"
+        ]
+      }
+    ]
+  }
+}

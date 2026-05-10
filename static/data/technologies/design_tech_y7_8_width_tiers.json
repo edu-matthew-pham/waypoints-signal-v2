@@ -1,0 +1,222 @@
+{
+  "description": "Width tiers and ACARA elaborations for Design and Technologies Years 7-8 band. Flat lookup by code — applies to both Knowledge & Understanding (K) and Processes & Production Skills (P) strand standards. Renderer merges with node map files at runtime via code key.",
+  "subject": "Design and Technologies",
+  "curriculum": "ACARA v9",
+  "band": "7-8",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "Anchored to the primary descriptor verb — the defensible floor. For K standards: minimum phenomena/contexts to certify the concept. For P standards: minimum task/application context range.",
+    "typical_width": "Full descriptor scope, grounded in ACARA elaborations — sound standard practice.",
+    "wider": "Enrichment directions from elaborations and reasonable extensions. Must add phenomena or context — not depth-on-fewer-phenomena. Example directions only — not exhaustive or prescriptive.",
+    "elaborations": "ACARA v9 elaborations verbatim. Source data for the width tiers."
+  },
+  "standards": {
+    "AC9TDE8K01": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Investigate how ethical, social or sustainability considerations influence the design of a product, service or environment in one context.",
+      "typical_width": "Investigate how ethical, social and sustainability considerations influence design across multiple contexts including cross-cultural comparison between Australia and Asia; consider First Nations Australian protocols and intellectual property rights; analyse requirements when designing for cultural groups.",
+      "wider": [
+        "Compare design and production across additional industries or country pairs beyond the core Australia–Asia examples",
+        "Investigate how traditional technologies from Asian countries are sustained or transformed in response to environmental or economic change",
+        "Research offshore manufacturing implications and enterprise opportunities across multiple sectors"
+      ],
+      "width_notes": "4 of 5 elaborations reference cross-cultural or First Nations contexts — treated as typical scope per elaboration weight rule.",
+      "elaborations": [
+        "researching current information on animal welfare when designing an animal shelter or researching intellectual property or the significance of offshore manufacturing in a country in Asia when designing a 3D printed product",
+        "investigating traditional and contemporary design and technologies, including from countries across Asia, and predicting how they might change or be sustained in the future in response to technological, environmental or economic change, for example the production of contemporary textile designs using traditional batik techniques and modern dyes in Indonesia",
+        "comparing the design and production of products, services and environments in Australia and a country in Asia by identifying needs and new opportunities for design and enterprise, for example design, promotion and marketing of a Western Australian wheat variety especially bred and grown for the making of udon noodles in Japan",
+        "researching the rights and responsibilities of those working in design and technologies occupations, for example taking into account First Nations Australian protocols and Indigenous cultural and intellectual property rights",
+        "analysing the ethical and social requirements when designing solutions for cultural groups including their involvement and consultation, for example designing a solution with community members from other cultural backgrounds or those who usually communicate in a language other than English"
+      ]
+    },
+    "AC9TDE8K02": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Investigate competing factors that influence the design of a product, service or environment in one context; identify at least one social or ethical factor.",
+      "typical_width": "Analyse competing factors including social, ethical, sustainability and economic considerations across multiple design contexts; investigate how traditional, contemporary and emerging technologies respond to changing needs.",
+      "wider": [
+        "Investigate design factors for First Nations Australian communities in remote areas such as disaster warning systems or housing",
+        "Compare bushfire management techniques — traditional First Nations practices versus emerging smart technologies such as IoT sensors and drones",
+        "Research how biomimicry or new materials drive innovation in manufactured products and processes"
+      ],
+      "elaborations": [
+        "analysing competing factors, including social and ethical factors, that influence the design of services for First Nations Australian communities in areas classified as remote, for example a natural disaster warning system for the Koeybuway and Moegibuway Peoples of Saibai Island, who are vulnerable to flooding and rising sea levels",
+        "investigating techniques used by land managers for managing and reducing bushfires in forests, for example techniques used by local First Nations Australians or smart technologies such as Internet of Things (IoT) sensors, artificial intelligence, cameras and drones",
+        "investigating traditional, contemporary and emerging design and technologies, including from a country in Asia, and the need for more sustainable patterns of living, and predicting how they might change in the future in response to social, technological, environmental or economic change, for example the diversity of house design or waste management practices",
+        "investigating influences impacting on manufactured products and processes such as historical developments, societal change, new materials, accessibility guidelines, control systems or biomimicry, for example researching the development of Velcro, which was inspired by burrs, or researching contemporary designers who use new materials to design and produce innovative products",
+        "considering factors that impact on innovation, for example developing novel ideas, responding quickly to change, creating a point of differentiation, adding value for society, reducing costs and improving efficiency"
+      ]
+    },
+    "AC9TDE8K03": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Investigate how a system uses force, motion or energy to achieve a function; identify the key components involved.",
+      "typical_width": "Analyse how force, motion and energy principles are applied across multiple engineered systems; experiment with components to test structural or functional performance; use prototyping to test functionality.",
+      "wider": [
+        "Investigate renewable energy systems in remote communities such as wind turbines on Torres Strait Islands",
+        "Explore control systems using microcontrollers or object-based programming to control motion",
+        "Calculate system outputs such as speed, brightness or volume to determine failure points"
+      ],
+      "elaborations": [
+        "analysing how wind turbines harness the motion of propellers to transform wind energy into electricity, and how this energy is used to sustainably power communities classified as remote, such as on Waiben (Thursday Island) in the Torres Strait Islands and in Gawa on Elcho Island near the northern Arnhem Land coast",
+        "investigating the technologies in a control system for an identified need or opportunity and user, for example the Corriong or Millowl (Phillip Island) penguin weighbridge that enables collection of data about penguin weight and foraging duration",
+        "experimenting to select the most appropriate principles and systems on which to base design ideas, for example testing structural components for strength",
+        "testing functionality of an idea by producing prototypes and jigs, including the use of rapid prototyping tools such as 3D printers",
+        "calculating an engineered system's outputs, for example speed, brightness of light, volume of sound to determine when the system might fail",
+        "experimenting with control systems to understand motion, for example programming a microcontroller or an object-based programming application to control a system such as a remote-controlled car or robotic arm",
+        "investigating components, tools and equipment in terms of force, motion or energy, for example testing the durability of batteries or determining the effective range of wireless devices"
+      ]
+    },
+    "AC9TDE8K04": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Investigate how food or fibre is produced in one context; identify at least one ethical or sustainable technique used.",
+      "typical_width": "Analyse food and fibre production across multiple contexts; compare techniques for sustainability, ethics and efficiency; consider the impact of different management methods on quality and yield.",
+      "wider": [
+        "Investigate traditional First Nations Australian food and fibre sources for sustainability benefits such as water conservation",
+        "Compare land and water management methods between Australia and an Asian country, including robotics, GPS and smart farm technologies",
+        "Investigate the relationship between animal nutrition strategies and product quality across different production systems",
+        "Research the importance of food and fibre exports and imports between Australia and countries across Asia"
+      ],
+      "width_notes": "3 of 6 elaborations reference First Nations or Asian contexts — borderline. Core elaborations focus on general production techniques (soil, animal nutrition, crop ethics), so cross-cultural contexts treated as wider directions.",
+      "elaborations": [
+        "analysing traditional First Nations Australians' food and fibre sources for potential species that offer benefits in sustainability, such as conserving water use and resources needed for processing",
+        "comparing land and water management methods in contemporary Australian food and fibre production with a country in Asia, for example comparing the use of robotics, drones, global positioning system (GPS) technologies, minimum-tillage cropping, water-efficient irrigation and smart farm monitoring and controlling systems for increasing efficiency of farm operations and crop protection, and the impact of cash crops versus staples on social sustainability",
+        "investigating how animal and plant crops are grown and the ethical and sustainable techniques used to increase food production, for example comparing the use of herbicides or medicines when producing food and fibre products and recognising the need to increase food production using cost-efficient, ethical and sustainable production techniques",
+        "outlining physical and chemical characteristics of soil and their effects on plant growth when producing food and fibre products, for example comparing the effect on soil characteristics of different farming practices",
+        "investigating different animal nutrition strategies such as grazing and supplementary feeding, and their effects on quality when producing food and fibre products, for example meat tenderness, wool-fibre diameter (micron), milk fat and protein content",
+        "recognising the importance of food and fibre production to Australia's food security and economy, including exports and imports to and from countries across Asia, for example exports of Tasmanian Candy Abalone (wild-caught dried abalone)"
+      ]
+    },
+    "AC9TDE8K05": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Investigate how food preparation techniques impact on sensory properties or nutrient value in one context.",
+      "typical_width": "Analyse how different food preparation techniques impact on sensory properties (flavour, texture, appearance, aroma) and nutrient retention across multiple contexts; explain how recipes can be modified to enhance health benefits.",
+      "wider": [
+        "Compare food preparation techniques across cultures including First Nations Australian and Asian methods",
+        "Investigate how traditional wood selection for roasting and smoking complements flavour in First Nations cooking",
+        "Analyse how specific techniques such as stir-frying, steaming and poaching affect nutrient retention differently across food types"
+      ],
+      "elaborations": [
+        "analysing how First Nations Australians prepare foods for healthy eating, for example using cooking methods that improve edibility, such as removing bitterness to make yams more palatable, roasting bunya nuts to improve texture and flavour, and on many occasions, carefully selecting wood for roasting and smoking to complement the flavour of foods",
+        "explaining how food preparation techniques impact on the sensory properties, such as flavour, appearance, texture and aroma of food, for example the browning of cut fruit, the absorption of water when cooking rice, and the selection of timbers when smoking foods",
+        "investigating the relationship between food preparation techniques and the impact on nutrient value including how a recipe can be modified to enhance health benefits, for example stir-frying, steaming vegetables, leaving skin on vegetables or removing skin from chicken",
+        "analysing food preparation techniques used in different cultures including those from countries across Asia and the impact of these on nutrient retention, aesthetics, taste and palatability, for example stir-frying, steaming, poaching and using a wide variety of vegetables"
+      ]
+    },
+    "AC9TDE8K06": {
+      "strand": "Knowledge and Understanding",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Investigate the characteristics and properties of materials or components relevant to a design solution in one technologies context.",
+      "typical_width": "Analyse how the characteristics and properties of a range of materials, components, tools and equipment affect designed solutions across multiple technologies contexts; explain safe work practices for specific equipment.",
+      "wider": [
+        "Investigate the significance of hafting in First Nations Australian traditional toolkits and how material properties combine for function",
+        "Research advanced materials such as carbon fibre reinforced polymers and their application in high-performance products",
+        "Compare material choices for the same design challenge across different contexts such as architecture, medicine and sport"
+      ],
+      "elaborations": [
+        "investigating the significance of hafting in First Nations Australians' traditional toolkit, including how the characteristics and properties of materials are combined to create a designed solution, for example modern hatchets have seen little innovation since the hafted stone hatchet that combines the benefits of a lever and a wedge to create durable tools that reduce effort",
+        "investigating aspects of technologies specialisations, for example in architecture, critiquing the design of an existing building to identify features of passive design or, in fashion, evaluating the sustainability of different fibres",
+        "investigating a broad range of technologies – tools, equipment, processes, materials, systems and components − when designing for a range of technologies contexts, for example analysing the benefits and disadvantages of building an animal shelter such as a dog kennel with wood, metal and synthetic fabric in terms of function, tools and equipment needed to produce it and expected durability",
+        "considering the ways in which the characteristics and properties of technologies will impact on designed solutions, for example the choice of building materials and housing design in Australia and a country in Asia; the properties of textile fibres and fabrics that determine end use in a range of settings such as architecture, medicine, sport and automotive",
+        "explaining safe work practices for using specific equipment or materials, for example producing a safety information video that details risk management practices for using tools or equipment including considering how the properties of some materials suit certain designs and may cause harm if manipulated in an unsafe way in the classroom or within a community such as ventilation when sanding timber",
+        "testing and selecting the most appropriate hand tools, equipment, processes and materials to produce a product, for example a stool or smartphone stand that can be assembled from bending and interlocking cardboard pieces or from wood using a laser cutter or other digital tools",
+        "investigating carbon fibres (reinforced polymers) and graphite fibres which are strong, stiff, lightweight material used in specialised high-performance products, for example on the design of sporting equipment"
+      ]
+    },
+    "AC9TDE8P01": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify an opportunity for designing based on a need; investigate and select materials, components or techniques for the design in one context.",
+      "typical_width": "Consider community needs when identifying design opportunities; experiment with traditional and contemporary technologies; examine and test a variety of materials, components, tools and equipment; consider sustainability through life cycle thinking.",
+      "wider": [
+        "Investigate design opportunities for First Nations Australian communities in remote areas such as energy supply or housing",
+        "Research emerging technologies such as self-healing materials, virtual reality or aquaponics and evaluate their impact on design decisions",
+        "Analyse viability of techniques and materials in remote, isolated or less developed contexts using life cycle assessment"
+      ],
+      "elaborations": [
+        "considering First Nations Australian community needs when identifying opportunities for designing, for example considering the needs of local groups when designing energy supply or community housing solutions in areas classified as remote",
+        "considering community needs when identifying opportunities for designing, for example gardens for a community centre, cost-effective food service for a sport club",
+        "experimenting with traditional and contemporary technologies when developing designs, and discovering the advantages and disadvantages of each approach, for example comparing a hand-sewn product with one produced using a sewing machine",
+        "investigating emerging technologies and their potential impact on design decisions, for example flame-retardant fabrics, self-healing materials, virtual reality or aquaponics",
+        "examining, testing and selecting a variety of suitable materials, components, tools and equipment for each design project, for example the durability differences between natural hardwood and plantation softwood timbers, which determine their suitability for interior or exterior use",
+        "analysing the viability of using different techniques and materials in areas considered remote, isolated areas or less developed countries and selecting appropriate materials to acknowledge sustainability needs by using life cycle thinking",
+        "creating a survey to determine students' food choices and developing a range of healthy food items such as snacks, juices, breakfast or nourish bowls such as a Buddha bowl which could be sold at the school canteen"
+      ]
+    },
+    "AC9TDE8P02": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Generate design ideas using at least one strategy; communicate ideas through annotated sketches or drawings.",
+      "typical_width": "Use multiple strategies (brainstorming, sketching, 3D modelling, experimenting) to generate and develop ideas; produce annotated concept and production drawings using technical terms, scale and symbols; document the design process for an audience.",
+      "wider": [
+        "Develop models, prototypes or samples using a range of materials to test functionality before committing to production",
+        "Use digital polling or community consultation to inform design decisions with intercultural understanding",
+        "Create a digital portfolio that communicates each step of the design process to a specific audience"
+      ],
+      "elaborations": [
+        "using a variety of strategies such as brainstorming, sketching, 3D modelling and experimenting to generate innovative design ideas to present to others",
+        "considering which ideas to further explore and investigating the benefits and drawbacks of ideas including identifying factors that may hinder or enhance project development, for example using digital polling to capture the views of different groups in the community to inform the production of a solution designed with intercultural understanding",
+        "developing models, prototypes or samples using a range of materials, tools and equipment to test the functionality of ideas",
+        "producing annotated concept sketches and drawings, using technical terms, scale, symbols, pictorial and aerial views to draw environments; production drawings, perspective drawings, orthogonal drawings; patterns and templates to explain product design ideas",
+        "documenting and communicating the generation and development and selection of design ideas for an intended audience, for example developing a digital portfolio with images and text which clearly communicate each step of a design process"
+      ]
+    },
+    "AC9TDE8P03": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Use tools, equipment and techniques safely to produce a designed solution; identify risks relevant to the project.",
+      "typical_width": "Select and apply appropriate techniques across traditional, contemporary and emerging technologies; practise techniques to improve expertise; identify and manage risks including PPE and ventilation; develop safe and inclusive working practices.",
+      "wider": [
+        "Compare and evaluate alternative materials, components or techniques including emerging technologies to reduce waste or time",
+        "Use online tutorials or digital tools to develop technical expertise for a specific production process",
+        "Assess long-term health and environmental impacts of production choices"
+      ],
+      "elaborations": [
+        "developing innovative ways of manipulating technologies by comparing and choosing the most appropriate options to design a solution using traditional or contemporary materials, components, tools, equipment and techniques and considering alternatives including emerging technologies that could be substituted to reduce waste or time",
+        "practising techniques to improve expertise, for example handling animals, cutting and joining materials such as metal, textiles, timber",
+        "developing technical production skills (techniques) and safe independent inclusive working practices to produce quality solutions designed for sustainability",
+        "identifying and managing risks in the development of various projects, for example working safely, responsibly, cooperatively and ethically on design projects; assessing and responding to uncertainty and risk in relation to long-term health and environmental impacts, for example ensuring appropriate personal protective equipment (PPE) is worn or that ventilation is appropriate where solvents, glues or 3D printers are used",
+        "considering how to improve technical expertise required to use tools or equipment needed to design a solution, for example using an online tutorial to learn to use software for design or production"
+      ]
+    },
+    "AC9TDE8P04": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Evaluate a designed solution against given design criteria; suggest an improvement.",
+      "typical_width": "Develop design criteria collaboratively covering accessibility, aesthetics, functionality and sustainability; evaluate solutions against these criteria including Safety by Design principles; iterate and modify processes based on evaluation.",
+      "wider": [
+        "Apply life cycle assessment criteria when evaluating designed solutions",
+        "Transfer evaluation skills and lessons learned from one project context to a different design challenge",
+        "Evaluate how iterative modification improves efficiency in a mass production or enterprise context"
+      ],
+      "elaborations": [
+        "developing design criteria collaboratively to evaluate designed solutions in terms of accessibility, aesthetics, functionality and sustainability, for example recording design goals from people interviewed as prospective users of the finished product, service or environment or including life cycle assessment criteria",
+        "developing design criteria including Safety by Design principles, for example do the ideas promote safety through prevention, protection and proactive change",
+        "re-evaluating, iterating and modifying design processes to improve efficiency and increase production, for example when mass producing a product for an enterprise or improving sustainability",
+        "evaluating designed solutions and processes and transferring new knowledge and skills to future design projects, for example considering project planning skills learnt in producing an engineered product and using them in future projects"
+      ]
+    },
+    "AC9TDE8P05": {
+      "strand": "Processes and Production Skills",
+      "width_axis": "task_contexts",
+      "minimum_width": "Use a plan to organise resources and production steps for a design project; identify key risks.",
+      "typical_width": "Interpret drawings to plan resources and production steps; identify risks and strategies to minimise them; organise time using planning templates or digital tools; evaluate decisions throughout production.",
+      "wider": [
+        "Use digital project management tools to track tasks, resources, expenses and deadlines across a complex project",
+        "Estimate and compare time allocations for different production stages using prior knowledge and testing",
+        "Develop contingency plans for when production steps take longer than estimated"
+      ],
+      "elaborations": [
+        "interpreting drawings to plan resources and production steps needed to produce products, services or environments for specific purposes, for example identifying resource requirements from specifications on a labelled drawing and collaboratively developing a detailed procedure",
+        "identifying risks and how to minimise them, organising time, evaluating decisions and managing resources to ensure successful project completion, for example using digital tools to keep track of tasks, resources, expenses and deadlines",
+        "investigating the time needed for each step of production, for example estimating time allocations on a planning template for the different stages of the design process needed to produce a clock, acoustic speaker or desk lamp using prior knowledge, research and testing"
+      ]
+    }
+  }
+}

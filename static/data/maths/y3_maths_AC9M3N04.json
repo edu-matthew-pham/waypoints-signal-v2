@@ -1,0 +1,95 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3N04",
+    "title": "Multiplication and division strategies",
+    "strand": "Number",
+    "mode": "A",
+    "description": "multiply and divide one- and two-digit numbers, representing problems using number sentences, diagrams and arrays, and using a variety of calculation strategies",
+    "prior_knowledge": "Students can multiply and divide by one-digit numbers using repeated addition, equal grouping, arrays and partitioning (AC9M2N05). They have not yet extended multiplication to two-digit numbers, or represented multiplicative problems using formal number sentences and arrays systematically.",
+    "progression_endpoint": "Students multiply and divide one- and two-digit numbers, using number sentences, diagrams and arrays to represent and solve problems with a variety of calculation strategies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Multiplication representations",
+        "progression_checkpoint": "Students can represent a multiplication situation as an array, a repeated addition and a number sentence, connecting all three.",
+        "minimum_width": "Represent one multiplication fact in three ways: array, repeated addition, and number sentence. Explain the connection between representations.",
+        "typical_width": "Represent a range of multiplication situations using arrays, repeated addition and number sentences; explain how all three representations show the same quantity.",
+        "wider": [
+          "Explore commutativity through arrays — rotating an array shows the same product, connecting 3×4 and 4×3 as the same area",
+          "Investigate multiplication in First Nations Australian contexts such as equal-sharing of resources or pattern-based counting"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who see multiplication only as repeated addition often struggle to transition to arrays and then to formal strategies. Connecting across representations early prevents this bottleneck.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Array and number sentence representations are the entry point for Node 2 strategies (partitioning, doubling use arrays as structural models) and Node 3 (division connected to multiplication via arrays). Students who cannot flexibly move between representations cannot access the strategy-building and inverse-relationship work in subsequent nodes.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Commutativity through arrays is genuinely rich — students discover a structural property of multiplication rather than memorising a rule, which supports long-term multiplicative reasoning.",
+        "success_criteria": [
+          "Students can draw an array for a given multiplication number sentence.",
+          "Students can write a multiplication number sentence for a given array or equal groups scenario."
+        ],
+        "related_standards": ["AC9M3A03"]
+      },
+      {
+        "id": 2,
+        "label": "Multiplication strategies for one- and two-digit numbers",
+        "progression_checkpoint": "Students can multiply a one-digit number by a two-digit number using at least one efficient strategy (e.g. partitioning, doubling).",
+        "minimum_width": "Calculate at least three products involving a two-digit number using a chosen strategy, recording working.",
+        "typical_width": "Apply and compare partitioning, doubling-and-halving and repeated addition strategies to multiply one-digit by two-digit numbers; choose an efficient strategy for a given problem.",
+        "wider": [
+          "Explore the area model as a visual representation of two-digit multiplication (e.g. 4×23 as a 4×20 + 4×3 rectangle)",
+          "Investigate patterns in multiplication tables, using the area model to explain why the pattern holds"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Building a repertoire of strategies — partitioning, doubling, using known facts — is the explicit goal of this descriptor. Students need to have encountered enough strategy examples to make genuine choices."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can calculate a one-digit by two-digit product using at least one named strategy.",
+          "Students can explain the strategy they used and why it works."
+        ],
+        "related_standards": ["AC9M3A03"]
+      },
+      {
+        "id": 3,
+        "label": "Division as the inverse of multiplication",
+        "progression_checkpoint": "Students can represent a division problem using a number sentence and array, and connect it to the related multiplication fact.",
+        "minimum_width": "Solve two division problems by connecting to a known multiplication fact; represent each as a number sentence.",
+        "typical_width": "Solve a range of division problems by relating them to multiplication; represent using diagrams, number sentences and sharing/grouping models.",
+        "wider": [
+          "Explore the distinction between sharing (partitive) and grouping (quotitive) division contexts, recognising both produce the same calculation",
+          "Investigate remainders — what happens when division does not produce a whole number result"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often treat division as a separate topic from multiplication. Seeing division in both sharing and grouping contexts, each connected to multiplication arrays, resolves this fragmentation."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The partitive vs quotitive division distinction and the introduction of remainders provide genuine conceptual richness for advancing students — these are ideas that recur throughout upper primary mathematics.",
+        "success_criteria": [
+          "Students can write a division number sentence for a sharing or grouping problem.",
+          "Students can use a multiplication fact to solve a related division problem."
+        ],
+        "related_standards": ["AC9M3A01", "AC9M3A03", "AC9M3N06"]
+      }
+    ]
+  }
+}

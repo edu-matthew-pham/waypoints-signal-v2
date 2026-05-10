@@ -1,0 +1,113 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLY09",
+    "title": "Recognise rhyme, alliteration and phonemes",
+    "description": "recognise and generate rhyming words, alliteration patterns, syllables and sounds (phonemes) in spoken words (phonological awareness)",
+    "strand": "Literacy — Phonic/Word knowledge",
+    "mode": "A",
+    "prior_knowledge": "Students may have heard rhymes and songs. They have not yet been asked to consciously attend to, name and generate the phonological patterns in spoken words — rhyme, alliteration, syllables and phonemes.",
+    "progression_endpoint": "Students can recognise and generate rhyming words, identify alliteration patterns, identify syllables in spoken words, and isolate phonemes — demonstrating phonological awareness across multiple word types.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Rhyming words share endings",
+        "progression_checkpoint": "Students can identify a rhyming pair and produce a rhyming word when given a target.",
+        "minimum_width": "Identify whether two words rhyme; generate one word that rhymes with a given word.",
+        "typical_width": "Recognise and produce rhyming words; identify rhyming patterns in familiar stories and rhymes; generate rhyming strings.",
+        "wider": [
+          "Generate rhyming strings across multiple word families — exploring how many words share the same rime",
+          "Compare rhyming conventions in English with other languages or First Nations Australian language patterns known to students",
+          "Create simple rhyming couplets orally — applying rhyme generation to creative language play"
+        ],
+        "hinge": true,
+        "hinge_reason": "Reliable rhyme recognition signals that phoneme-level auditory discrimination is developing — without this, phoneme isolation in Node 4 and the blending and segmenting tasks in LY10 will be unreliable, as they all depend on the ability to hear and attend to sounds within words.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Reliable rhyme recognition and production is foundational to phonological awareness — errors here indicate the phoneme-level awareness needed for decoding is not yet secure. Practice across many word pairs is the remedy.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify whether two words rhyme when heard.",
+          "Student can generate at least one rhyming word when given a target word."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Alliteration is repeated initial sounds",
+        "progression_checkpoint": "Students can identify alliteration patterns in spoken words — recognising that initial sounds repeat.",
+        "minimum_width": "Identify an alliteration pattern in two words (e.g. 'helpful Henry').",
+        "typical_width": "Identify alliteration patterns in spoken words and familiar texts; produce simple alliterative phrases; understand that alliteration is about the initial sound, not the initial letter.",
+        "wider": [
+          "Create alliterative name phrases for each class member — exploring alliteration productively",
+          "Identify alliteration in poems, picture book titles and tongue twisters across a range of texts",
+          "Compare alliteration in English with sound-play patterns in other languages"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can identify two words that start with the same sound.",
+          "Student can produce at least one alliterative phrase orally."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Words have syllables",
+        "progression_checkpoint": "Students can identify the number of syllables in spoken words by clapping, tapping or counting.",
+        "minimum_width": "Correctly identify the number of syllables in at least five words of varying length (one to three syllables).",
+        "typical_width": "Identify syllables in spoken words by clapping or tapping; segment multi-syllable words; understand that every syllable contains a vowel sound.",
+        "wider": [
+          "Clap syllables across names of class members, local area names and topic words — exploring syllable patterns in real vocabulary",
+          "Compare syllable counts in familiar words across different languages — noting that syllable structure differs across languages",
+          "Sort word cards by syllable count — building a syllable-based word awareness"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can clap the correct number of syllables in a spoken word.",
+          "Student correctly distinguishes one-syllable and two-syllable words."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Words are made of phonemes",
+        "progression_checkpoint": "Students can isolate individual phonemes in spoken words — hearing the discrete sounds that make up a word.",
+        "minimum_width": "Identify the first phoneme in at least three spoken words.",
+        "typical_width": "Recognise individual phonemes in spoken words; isolate initial, medial and final phonemes; understand that words are made of discrete sounds.",
+        "wider": [
+          "Practise phoneme isolation across a range of word types — varying initial, medial and final positions",
+          "Compare phonemes in English words with sounds in other languages or names familiar to students — noticing sounds that English does and doesn't have",
+          "Use phoneme awareness as a bridge to letter-sound knowledge — connecting isolated phonemes to their grapheme representations"
+        ],
+        "hinge": true,
+        "hinge_reason": "Phoneme isolation is a prerequisite for blending and segmenting in LY10 — students cannot blend phonemes they cannot yet isolate, and cannot segment words into phonemes they cannot hear as discrete units.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Phoneme isolation is a prerequisite for blending and segmenting (AC9EFLY10) — without reliable phoneme isolation, decoding will be unreliable. Practice to accuracy is required before width is productive.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can isolate the first phoneme in a spoken word.",
+          "Student can isolate the final phoneme in a spoken CVC word.",
+          "Student understands that words are made of more than one sound."
+        ]
+      }
+    ]
+  }
+}

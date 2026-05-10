@@ -1,0 +1,100 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6SP03",
+    "title": "Tessellations and transformations",
+    "description": "Recognise and use combinations of transformations to create tessellations and other geometric patterns, using dynamic geometric software where appropriate",
+    "strand": "space",
+    "mode": "A",
+    "prior_knowledge": "Students can describe and perform translations, reflections and rotations of shapes and identify symmetries (AC9M5SP03). They understand each transformation individually. They have not yet combined transformations or used combinations to create tessellations.",
+    "progression_endpoint": "Students can recognise and use combinations of transformations to create tessellations and other geometric patterns.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Combining transformations",
+        "progression_checkpoint": "Students can apply a sequence of two or more transformations to a shape and describe the combined effect.",
+        "minimum_width": "Apply two transformations in sequence to a shape (e.g. reflection then translation); describe each transformation; sketch the result at each stage.",
+        "typical_width": "Apply and describe combinations of translation, reflection, and rotation; recognise that the order of transformations may affect the result; use dynamic software to experiment with transformation sequences.",
+        "wider": [
+          "Investigate whether two reflections across parallel axes produce the same result as a translation \u2014 verify with examples",
+          "Explore whether the order matters: does rotate then translate give the same result as translate then rotate? Test systematically."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often apply transformations correctly individually but lose track of orientation when combining them. A systematic 'track each vertex' approach scaffolds accurate combined transformation before geometric intuition develops.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Accurate combined transformation is the prerequisite for Node 3 (creating tessellations). Students who lose track of orientation when combining transformations cannot describe or execute the repeating transformation rule needed to tile a plane.",
+        "success_criteria": [
+          "Student applies two transformations in sequence to a shape and correctly sketches the result.",
+          "Student describes each transformation in the sequence."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "What makes a tessellation",
+        "progression_checkpoint": "Students can identify what properties of a shape and transformation allow it to tessellate (tile a plane without gaps or overlaps).",
+        "minimum_width": "Identify whether a given regular polygon tessellates by testing with the interior angle; explain why equilateral triangles, squares, and regular hexagons tessellate and pentagons do not.",
+        "typical_width": "Test whether regular and irregular polygons tessellate; connect tessellation to the interior angle sum at each vertex (must be 360\u00b0); identify the transformation rule that generates a given tessellation.",
+        "wider": [
+          "Investigate which regular polygons tessellate and explain the mathematical reason using angle sums",
+          "Explore semi-regular tessellations (combinations of two or more regular polygons) and identify the transformation rules generating them"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who test only familiar shapes may form an incomplete rule for tessellation. Testing diverse shapes \u2014 irregular polygons, shapes with curved edges, combinations \u2014 and confronting the 360\u00b0 angle-sum explanation builds a principled understanding.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Tessellation connects geometry, transformation, and pattern in a way that is visually rich and culturally significant. First Nations Australian art, Islamic geometric patterns, and Escher-style art all offer genuinely engaging extension contexts.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies whether a polygon tessellates and explains the reason using interior angles.",
+          "Student identifies the transformation(s) generating a given tessellation."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Creating tessellations and geometric patterns",
+        "progression_checkpoint": "Students can create a tessellation or geometric pattern using a specified combination of transformations and describe the rule generating the pattern.",
+        "minimum_width": "Create a tessellation using at least one shape and one transformation; describe the transformation rule that generates the pattern; verify that there are no gaps or overlaps.",
+        "typical_width": "Create tessellations using combinations of transformations including translations, reflections, and rotations; describe the generating rule; use dynamic geometric software to create and modify patterns; identify the transformation rule in a given tessellation created by someone else.",
+        "wider": [
+          "Create a modified tessellation in the style of M.C. Escher by distorting a tessellating shape while preserving the transformation properties",
+          "Investigate and re-create geometric patterns from First Nations Australian art or Islamic art traditions, identifying the transformation rules and explaining their mathematical structure"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating tessellations integrates transformation knowledge, angle reasoning, and spatial planning. Generating and describing the rule requires students to move between doing (applying transformations) and explaining (articulating the pattern structure).",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Tessellation creation is one of the most naturally motivating activities in Year 6 geometry. Cultural connections to art and design traditions, software exploration, and mathematical investigation all offer rich engagement beyond the minimum.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student creates a tessellation using a specified shape and transformation combination with no gaps or overlaps.",
+          "Student describes the transformation rule generating their tessellation."
+        ]
+      }
+    ]
+  }
+}

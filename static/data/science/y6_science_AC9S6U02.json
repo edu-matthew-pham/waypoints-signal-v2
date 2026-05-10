@@ -1,0 +1,99 @@
+{
+  "year_level": "6",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S6U02",
+    "title": "Earth, Sun and Solar System",
+    "description": "describe the movement of Earth and other planets relative to the sun and model how Earth's tilt, rotation on its axis and revolution around the sun relate to cyclic observable phenomena, including variable day and night length",
+    "strand": "Earth and Space Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students have informally observed day/night cycles and seasons. They have not yet modelled Earth's rotation and revolution as the mechanical causes of these cycles, or connected Earth's axial tilt to variable day length and seasons.",
+    "progression_endpoint": "Students describe the movement of Earth and planets in the solar system relative to the sun, model how Earth's rotation causes day and night, explain how Earth's axial tilt causes variable day length and seasons across hemispheres, and connect these movements to cyclic observable phenomena.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Earth and planets orbit the sun; gravity keeps them in orbit",
+        "progression_checkpoint": "Students can describe the relative positions and movements of the sun and planets in the solar system, explain that gravity keeps planets in orbit, and appreciate the scale of distances involved.",
+        "minimum_width": "Students describe the movement of Earth and at least two other planets relative to the sun, and explain that gravity is the force keeping planets in orbit.",
+        "typical_width": "Students describe the solar system including the relative positions and orbital paths of planets, explain that gravity keeps planets in orbit around the sun, use simulations to appreciate the scale of distances between bodies, and describe Earth's position and orbital period.",
+        "wider": [
+          "Explore simulations of the solar system to appreciate the distances and size relationships between the sun and planets — examining why the solar system is mostly empty space",
+          "Construct a timeline showing how contributions of scientists, mathematicians and astronomers from many cultures have advanced our understanding of the solar system — examining how models were refined by accumulating evidence (AC9S6H01)",
+          "Research how astronauts and scientists from many countries have collaborated in the International Space Station program — connecting space science to international collaboration (AC9S6H01)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The multi-cultural history of solar system understanding (AC9S6H01) is directly elaboration-grounded and provides substantive enrichment that connects the science content to how knowledge was built through collaboration and evidence.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The multi-cultural history of solar system understanding (AC9S6H01) is directly elaboration-grounded and provides substantive enrichment that connects the science content to how knowledge was built through collaboration and evidence.",
+        "success_criteria": [
+          "Describes the movement of Earth and at least two other planets relative to the sun",
+          "Explains that gravity keeps planets in orbit around the sun"
+        ],
+        "related_standards": ["AC9S6H01"]
+      },
+      {
+        "id": 2,
+        "label": "Earth's rotation causes day and night",
+        "progression_checkpoint": "Students can use a model to explain how Earth's rotation on its axis causes day and night, and explain why different places on Earth experience daylight at different times.",
+        "minimum_width": "Students explain that day and night are caused by Earth rotating on its axis, using a model or diagram to show the mechanism.",
+        "typical_width": "Students use 3D models or role-play to model Earth's rotation causing day and night; explain why it appears that the sun moves across the sky (it is Earth rotating, not the sun moving); explain why different regions on Earth are in daylight or darkness at the same moment; and connect rotation to the 24-hour day length.",
+        "wider": [
+          "Research First Nations Australians' understandings of the night sky and its use for timekeeping — examining how sky observation was used to track time and seasons before mechanical clocks",
+          "Use real-time views of Earth from space to observe which regions are in daylight and darkness at a given moment — connecting the model to live observation",
+          "Examine how different cultures have tracked day length for agricultural and ceremonial purposes — connecting observable sky phenomena to human timekeeping systems"
+        ],
+        "hinge": true,
+        "hinge_reason": "The geocentric misconception (sun moves around Earth) must be resolved at Node 2 before Node 3 axial tilt reasoning can proceed — students who believe the sun moves cannot model or understand why tilt causes different hemispheres to receive different sunlight amounts at different orbital positions. The model-building at N2 is the conceptual foundation for the more complex N3 spatial reasoning.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly believe the sun moves around Earth rather than that Earth rotates — geocentric intuition is persistent. The model-based reasoning chain (Earth rotates on its axis → the side facing the sun has day → the side facing away has night → one rotation = one day) must be established clearly using physical models before students can explain variable day length.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations sky-based timekeeping provides a culturally rich and scientifically substantive direction — sophisticated astronomical observation for practical purposes. Real-time Earth observation from space connects the abstract model to live data.",
+        "success_criteria": [
+          "Explains that day and night are caused by Earth's rotation on its axis",
+          "Uses a model or diagram to show that the side of Earth facing the sun has day and the side facing away has night"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Earth's tilt and revolution cause variable day length and seasons",
+        "progression_checkpoint": "Students can explain how Earth's axial tilt, combined with its revolution around the sun, causes different hemispheres to receive different amounts of sunlight at different times of year — producing variable day length and seasons.",
+        "minimum_width": "Students explain that Earth's axial tilt causes one hemisphere to receive more sunlight than the other at different times of year, and connect this to longer days in summer and shorter days in winter.",
+        "typical_width": "Students use 3D models or simulations to demonstrate how Earth's tilt points one hemisphere toward the sun at one point in its orbit and away six months later; explain why the Southern and Northern hemispheres have opposite seasons; describe how day length varies with latitude and season; and connect variable day length to light intensity and temperature.",
+        "wider": [
+          "Use virtual simulations or real-time views from space to explore why polar regions experience periods of continuous sunlight or darkness — examining extreme cases of the tilt effect",
+          "Research First Nations Australians' understandings of seasonal change as evidenced in rock paintings, oral traditions and stone arrangements — examining how cyclic sky observations encode ecological knowledge",
+          "Create an imaginative text about a future in which humans live on planets with different axial tilts — exploring the social implications of very different day length variation cycles"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly explain seasons as caused by Earth being closer to the sun in summer — missing the axial tilt mechanism and unable to explain why Australia's summer coincides with Southern Hemisphere tilt toward the sun. Modelling the tilt across multiple orbital positions, including the polar extreme cases, builds the correct spatial reasoning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations seasonal knowledge encoded in cultural records (AC9S6I06 elaboration) provides a rich direction connecting astronomical observation to ecological practice. Polar extremes of day length provide a genuinely striking application of the tilt model.",
+        "success_criteria": [
+          "Explains that Earth's axial tilt causes one hemisphere to receive more sunlight than the other at different times of year",
+          "Uses a model or diagram to show why the Southern and Northern hemispheres have opposite seasons",
+          "Explains why day length varies between summer and winter at the same location"
+        ]
+      }
+    ]
+  }
+}

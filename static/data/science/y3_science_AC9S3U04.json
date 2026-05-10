@@ -1,0 +1,99 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3U04",
+    "title": "Solids, Liquids and Change of State",
+    "description": "investigate the observable properties of solids and liquids and how adding or removing heat energy leads to a change of state",
+    "strand": "Chemical Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can observe and describe properties of materials and sort them by observable features (AC9SFU03, F band). They have not yet formally defined solid and liquid using observable properties, investigated change of state, or connected heat energy addition/removal to state transitions.",
+    "progression_endpoint": "Students describe the observable properties that distinguish solids from liquids, explain that adding or removing heat energy causes changes of state (solid ↔ liquid), and give examples of state change in everyday and cultural contexts — including how state change enables recycling of materials.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Solids and liquids have distinct observable properties",
+        "progression_checkpoint": "Students can distinguish solids from liquids using observable properties — solids hold their shape, liquids take the shape of their container and flow — and correctly classify materials including ambiguous cases.",
+        "minimum_width": "Students classify at least five materials as solid or liquid using observable properties and explain the reasoning for each classification.",
+        "typical_width": "Students describe the observable properties that define solids (hold shape, fixed volume) and liquids (take shape of container, fixed volume, flow), correctly classify materials including ambiguous cases (toothpaste, slime, honey, cornflour mixture), and explain the evidence for each classification.",
+        "wider": [
+          "Investigate substances that are difficult to classify as solid or liquid — toothpaste, slime, hair gel, cornflour in water — and discuss what properties are used to decide and what limitations the binary classification has",
+          "Explore gases as a third state of matter — comparing their properties with solids and liquids and discussing what the three states have in common",
+          "Examine how properties of solids and liquids are used in everyday design decisions — why a container for liquid must be rigid and sealed, why a cutting tool must be solid"
+        ],
+        "hinge": true,
+        "hinge_reason": "The property-based definition of solid and liquid is the prerequisite for understanding change of state in Node 2. Students who classify by appearance rather than by the defining property criteria cannot correctly describe what changes when a solid melts — they see 'ice' becoming 'water' as a substance change rather than a state change.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly classify by appearance (sugar is a solid because it looks like sand; honey is a solid because it moves slowly) rather than by the defining property criteria. Making the property definitions explicit — does it hold its shape without a container? does it flow? — and applying them to ambiguous cases is the scaffold that makes classification reliable.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies at least five materials as solid or liquid using property evidence",
+          "States at least two observable properties that distinguish solids from liquids"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Adding or removing heat causes change of state",
+        "progression_checkpoint": "Students can explain that adding heat energy causes a solid to melt (become liquid) and removing heat energy causes a liquid to freeze (become solid), and describe what is observed during each change.",
+        "minimum_width": "Students describe what happens when heat is added to a solid and when heat is removed from a liquid, naming the change of state in each case.",
+        "typical_width": "Students explain that adding heat energy causes melting and removing heat energy causes freezing; describe observable changes during state change (shape lost, flows, hardens); investigate melting or freezing in a sealed container and explain that the substance itself (mass) does not change even though the state does.",
+        "wider": [
+          "Investigate the melting of different substances (ice, butter, chocolate, wax) and compare how quickly each melts — exploring whether all solids melt at the same temperature",
+          "Investigate how changes of state in materials used by First Nations Australians — such as beeswax or resins — are important for their practical use in tools and artefacts",
+          "Explore how changes from solid to liquid and back enable recycling of materials such as glass and plastics — connecting state change to sustainability"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly think of melting and freezing as applying only to ice and water. Encountering state change in butter, chocolate, wax, beeswax and industrial materials (glass, plastic) builds a more generalisable understanding of state change as a property of all materials, not just water.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations use of beeswax and resins provides a culturally specific and technically interesting direction — these materials have melting points suited to hand-temperature working, which is a non-trivial property. The recycling direction connects state change to a contemporary sustainability application that students find meaningful.",
+        "success_criteria": [
+          "Names the change of state when heat is added to a solid (melting) and when heat is removed from a liquid (freezing)",
+          "Describes at least two observable changes that occur during a state change"
+        ],
+        "related_standards": ["AC9S3U03", "AC9S3I01", "AC9S3I02"]
+      },
+      {
+        "id": 3,
+        "label": "State change is reversible and conserves the substance",
+        "progression_checkpoint": "Students can explain that state changes are reversible (a melted solid can be refrozen), that the substance itself does not change during a state change (only its form changes), and use evidence from an investigation (mass before and after in a sealed container) to support this.",
+        "minimum_width": "Students explain that melting and freezing are reversible and that the substance does not change — only its state — giving at least one example.",
+        "typical_width": "Students investigate ice melting or water freezing in a sealed container, explain that the mass does not change even though the state does, describe how the change can be reversed, and distinguish state change (reversible, substance unchanged) from chemical change (new substance formed).",
+        "wider": [
+          "Explore how the reversibility of state change is used to recycle materials — glass, metals, plastics — examining which materials can be returned to a liquid state and reformed",
+          "Investigate whether mass changes when a substance changes state by predicting and then measuring mass before and after melting in a sealed container — applying measurement skills to test a prediction",
+          "Examine a case where state change appears irreversible (burning) and discuss why — introducing the distinction between physical and chemical change informally"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly believe that melting changes what the substance is — ice becomes water, which is different. The reasoning chain — same substance, same particles, just different arrangement → mass unchanged → change is reversible → this is different from a chemical change — is the conceptual foundation for all later chemistry work on physical vs chemical change (AC9S8U07)."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains that state change is reversible and that the substance does not change — only its form",
+          "Predicts that the mass of a substance will be the same before and after melting in a sealed container",
+          "Distinguishes between a substance changing state and a substance changing into a different substance"
+        ],
+        "related_standards": ["AC9S3I02", "AC9S3I05"]
+      }
+    ]
+  }
+}

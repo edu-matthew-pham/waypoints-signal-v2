@@ -1,0 +1,99 @@
+{
+  "year_level": "3",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S3H02",
+    "title": "Scientific Explanations Meet Needs",
+    "description": "consider how people use scientific explanations to meet a need or solve a problem",
+    "strand": "Science as a Human Endeavour",
+    "mode": "A",
+    "prior_knowledge": "Students can describe how science knowledge has changed peoples' lives (AC9S3H02, 3-4 band). They have not yet examined the specific link between a scientific explanation and the design of a solution — the mechanism by which understanding produces application.",
+    "progression_endpoint": "Students examine how scientific explanations about natural phenomena are applied by people to meet needs or solve problems, and identify the explanation-to-application pathway in real-world examples including First Nations knowledge applications.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Scientific explanations can be applied to solve problems",
+        "progression_checkpoint": "Students can distinguish between a scientific explanation (an account of how or why something happens) and an application (a solution that uses that explanation to meet a need), and identify examples of each.",
+        "minimum_width": "Students identify a scientific explanation and the problem-solving application it enabled for at least one example, describing the connection between them.",
+        "typical_width": "Students describe the pathway from explanation to application for two contrasting examples, explaining what the scientific knowledge was and how it was used to design or improve a solution.",
+        "wider": [
+          "Compare how the same scientific explanation (e.g. friction) has been applied in multiple different contexts — vehicle safety, sport, manufacturing — and discuss how the application differs while the underlying explanation remains the same",
+          "Examine historical examples where a scientific explanation changed how a problem was approached — e.g. germ theory changing medicine, decomposer knowledge enabling composting at industrial scale",
+          "Research how First Nations Australians apply deep knowledge of plant biology or ecological relationships to develop sustainable solutions"
+        ],
+        "hinge": true,
+        "hinge_reason": "The explanation-to-application pathway is the analytical frame for the entire standard. Students who cannot separate the explanation from the application cannot analyse real-world cases in Node 2, and will default to describing applications as isolated inventions without connecting them to underlying scientific knowledge.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The explanation-to-application pathway is not intuitive — students tend to see applications as separate from science rather than as science knowledge in action. Making the chain explicit (what is the explanation? → what problem does it address? → how is the explanation used in the solution?) scaffolds students' ability to analyse new application examples independently.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the scientific explanation and the problem it addresses for a given application example",
+          "Describes how the scientific explanation was used to design or improve the solution"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Examining real applications of science knowledge",
+        "progression_checkpoint": "Students can examine real-world cases where scientific knowledge was applied to meet a need, identifying the specific knowledge used and the problem or need it addressed.",
+        "minimum_width": "Students examine at least two real-world application cases from different contexts (e.g. one ecological, one materials-based) and identify the scientific explanation behind each.",
+        "typical_width": "Students examine applications across the Y4 science concepts — decomposers in composting, magnetic force in recycling sorting, friction in car safety, properties of plastic in consumer choices — and describe the explanation-to-application pathway for each.",
+        "wider": [
+          "Investigate how knowledge of friction is used to improve safety on wet and icy roads — examining tyre design, road surfacing, and braking systems",
+          "Research how knowledge of magnetic force is applied in recycling, mining and food processing — tracing how one scientific explanation supports multiple industries",
+          "Investigate how First Nations Australians of arid regions use scientific knowledge to manage water resources — including evaporation management and water source identification"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students tend to see science applications as isolated inventions rather than as a repeated pattern of explanation-to-application. Examining multiple cases across the Y4 concepts — each following the same pathway structure — helps students recognise the pattern and build a more generalisable understanding of how science knowledge is applied.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The breadth of application contexts available across Y4 science content — food chains, water, forces, materials — means students can encounter multiple genuine applications without redundancy. First Nations applications in water management and sustainable resource use provide sophisticated real-world examples that challenge students to apply the framework in less familiar contexts.",
+        "success_criteria": [
+          "Identifies the specific scientific knowledge (not just 'science') that enabled a named application",
+          "Explains the problem or need the application was designed to address"
+        ],
+        "related_standards": ["AC9S4U01", "AC9S4U02", "AC9S4U03", "AC9S4U04"]
+      },
+      {
+        "id": 3,
+        "label": "Science knowledge influences decisions and practices",
+        "progression_checkpoint": "Students can explain how scientific knowledge has influenced how people make decisions or change their practices — not only in designed solutions but in everyday choices and policy.",
+        "minimum_width": "Students describe at least one example where scientific knowledge changed how people behave or make decisions (e.g. plastic disposal, water conservation), explaining what the knowledge was and what changed.",
+        "typical_width": "Students examine how knowledge of plastic properties has influenced purchasing, use and disposal practices, and how this differs from engineered applications — connecting scientific knowledge to individual and community decision-making.",
+        "wider": [
+          "Research a community or policy response to a scientific finding (e.g. water restrictions based on hydrological data; species protection based on ecological knowledge) and explain the knowledge-to-decision pathway",
+          "Compare two decisions influenced by different scientific knowledge — one where the knowledge led to a designed solution, one where it changed behaviour — and discuss the different ways science knowledge shapes human action",
+          "Examine how knowledges of plant biology enable First Nations Australians to sustainably harvest and use plants — tracing how deep ecological knowledge shapes sustainable practice decisions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node asks students to integrate the explanation-to-application framework with a new dimension — behavioural and policy change — alongside designed solutions. Students must coordinate the same underlying idea (knowledge informs action) across a broader range of outcomes than engineered solutions alone.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Community and policy responses to science knowledge represent a genuine extension of the concept beyond individual products, offering substantive analytical richness. First Nations sustainable practice decisions represent sophisticated examples of knowledge-informed decision-making with genuine ecological depth.",
+        "success_criteria": [
+          "Describes an example where scientific knowledge changed how people make decisions or behave, identifying the knowledge and the change",
+          "Distinguishes between an engineered application (a designed product) and a behavioural or practice change as two different ways science knowledge is used"
+        ],
+        "related_standards": ["AC9S3H01", "AC9S4U02", "AC9S4U04"]
+      }
+    ]
+  }
+}

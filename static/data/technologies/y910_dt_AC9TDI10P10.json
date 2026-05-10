@@ -1,0 +1,97 @@
+{
+  "year_level": "9-10",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI10P10",
+    "title": "Evaluate solutions against criteria and future impact",
+    "description": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can evaluate existing and student solutions against the design criteria, user stories and sustainability (AC9TDI8P10). They have experience applying criteria-based evaluation. They have not yet evaluated for future impact, unintended consequences of AI systems, or enterprise/pivot opportunities.",
+    "progression_endpoint": "Students evaluate existing and student solutions against design criteria, user stories, possible future impact (including unintended consequences) and opportunities for enterprise.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Evaluating against design criteria and user stories",
+        "progression_checkpoint": "Students can evaluate a digital solution by judging its quality against specific design criteria and user stories.",
+        "minimum_width": "Evaluate a solution against at least two design criteria; state clearly whether each criterion is met and provide evidence.",
+        "typical_width": "Evaluate a solution systematically against all design criteria and user stories; for each criterion, provide evidence of whether it is met; identify areas where the solution partially meets criteria and explain what would be needed to fully meet them.",
+        "wider": [
+          "Evaluate an existing product (e.g. a safety by design implementation in a social media platform) against criteria derived from the Safety by Design Vision \u2014 identify where it meets and fails to meet each criterion",
+          "Evaluate a student solution with a peer using shared criteria \u2014 compare independent evaluations and resolve disagreements about whether criteria are met"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Evaluation requires evidence-based reasoning against criteria, not subjective opinion. Students without structure often evaluate by feel. A scaffold \u2014 criterion \u2192 evidence for \u2192 evidence against \u2192 judgement \u2014 produces defensible evaluations.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Each criterion is assessed with specific evidence (not just yes/no)",
+          "Evaluation distinguishes between fully met, partially met and not met criteria"
+        ],
+        "hinge": true,
+        "hinge_reason": "Evidence-based criteria evaluation at N1 is prerequisite for N2 \u2014 identifying unintended consequences requires the same structured analytical approach; students who evaluate by preference produce consequence analysis that is similarly ungrounded."
+      },
+      {
+        "id": 2,
+        "label": "Evaluating future impact and unintended consequences",
+        "progression_checkpoint": "Students can evaluate a digital solution's possible future impact, including unintended consequences, and explain how design choices affect downstream outcomes.",
+        "minimum_width": "Identify at least one possible unintended consequence of a digital solution and explain how the design decision contributed to it.",
+        "typical_width": "Evaluate a digital solution's future impact \u2014 including intended benefits, possible unintended consequences, and how the design could be changed to mitigate negative impacts; consider impacts on diverse user populations.",
+        "wider": [
+          "Examine how AI image generation solutions trained on homogeneous data produce outputs that fail to represent diverse users \u2014 explain the training data decision that caused this and what would mitigate it",
+          "Analyse the complexities of training predictive models on low-probability events (e.g. autonomous vehicle edge cases) and evaluate how solution design should account for these",
+          "Evaluate a solution's data privacy implications over time \u2014 what data is collected, retained, and what could be done with it beyond the original purpose"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Unintended consequences are abstract without real-world cases. AI bias, autonomous vehicle edge cases, and privacy creep each illuminate a different category of future impact \u2014 together they build a more complete framework for impact assessment than any single example.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "AI training bias and low-probability edge cases are both substantive and consequential directions \u2014 they require students to think about deployment-time failure modes that aren't visible during development, which is genuinely sophisticated thinking.",
+        "success_criteria": [
+          "Identifies at least one unintended consequence of the solution",
+          "Connects the consequence to a specific design decision or data choice",
+          "Suggests at least one change that would mitigate the identified consequence"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      },
+      {
+        "id": 3,
+        "label": "Evaluating for enterprise and pivot opportunities",
+        "progression_checkpoint": "Students can evaluate how existing products have met the needs of different user groups and identify opportunities for enterprise or solution adaptation.",
+        "minimum_width": "Describe one example of a digital product that has adapted to meet the needs of a different user group; explain what changed and what user need it addressed.",
+        "typical_width": "Evaluate how existing products have pivoted to meet the needs of different users (e.g. how social media applications have expanded the types of media and interactions); identify what made the pivot possible and what new user needs it addressed.",
+        "wider": [
+          "Identify an unmet user need in an existing product category and propose how a solution could be adapted or extended to address it \u2014 evaluate the feasibility of the adaptation",
+          "Examine how platforms that began with one user group have expanded (positively or negatively) to serve others \u2014 evaluate the design changes that enabled this"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a specific product adaptation and the user need it addressed",
+          "Explains what changed in the product to serve the new user group"
+        ],
+        "related_standards": [
+          "AC9TDI10P04"
+        ],
+        "hinge": false,
+        "hinge_reason": null
+      }
+    ]
+  }
+}

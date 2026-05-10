@@ -1,0 +1,93 @@
+{
+  "year_level": "1",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M1A01",
+    "title": "Skip counting patterns",
+    "description": "Recognise, continue and create pattern sequences, with numbers, symbols, shapes and objects, formed by skip counting, initially by twos, fives and tens",
+    "strand": "Number and Algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can recognise, copy and continue repeating patterns (AC9MFA01). They can count to at least 20 (AC9MFN01). They have not yet connected skip counting to pattern sequences, or recognised the structural properties of skip-counting sequences (e.g. digit patterns, growing totals).",
+    "progression_endpoint": "Students recognise, continue and create pattern sequences formed by skip counting by twos, fives and tens, using numbers, symbols, shapes and objects.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognise and continue skip counting sequences",
+        "progression_checkpoint": "Students can recognise the rule in a given skip counting sequence (by 2s, 5s or 10s) and continue it correctly.",
+        "minimum_width": "Identify the rule in a given sequence (count by 2s, 5s or 10s); continue the sequence for at least five more terms.",
+        "typical_width": "Recognise and continue skip counting sequences by 2s, 5s and 10s using number charts, songs and rhymes; identify the rule; extend sequences starting from non-zero values; use patterns to check predictions about next terms.",
+        "wider": [
+          "Explore skip counting sequences from other cultural contexts — including the Korean counting game Sam-yuk-gu — identifying how the pattern rule operates in a different representational form.",
+          "Investigate skip counting sequences on a hundreds chart, colouring the multiples and describing the visual pattern produced."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Skip counting fluency by 2s, 5s and 10s requires practice — the sequences must be automatic before students can use them reliably for quantification and pattern work. Songs and repeated oral practice are appropriate consolidation tools here.",
+            "flags": ["hinge"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Skip counting fluency is a prerequisite for Node 2 (digit and structural pattern identification) and Node 3 (creating sequences) — students who cannot reliably continue a sequence cannot identify digit patterns or generate their own sequences.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the skip-counting rule in a given sequence (2s, 5s or 10s).",
+          "Continues the sequence for at least five additional terms without error."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Digit and structural patterns",
+        "progression_checkpoint": "Students can identify digit patterns in skip counting sequences and explain why they occur (e.g. fives always end in 0 or 5).",
+        "minimum_width": "Identify and describe one digit pattern in a skip counting sequence (e.g. the last digit in the fives sequence alternates 0 and 5).",
+        "typical_width": "Identify digit patterns in sequences formed by skip counting by 2s, 5s and 10s; explain why the pattern occurs using understanding of the number system; use patterns to predict distant terms without counting up term by term.",
+        "wider": [
+          "Investigate digit patterns in skip counting by other numbers (3s, 4s), comparing with 2s, 5s and 10s and discussing which sequences have cleaner digit patterns and why.",
+          "Connect the digit pattern in the fives sequence to a real-world context — coin totals, clock faces — where the pattern is visible and meaningful."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who only work with skip counting sequences as recitation often miss the digit pattern insight. Representing sequences on hundreds charts, number lines, and in real contexts (coins, clock) helps the structural pattern become visible rather than just the oral sequence.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digit patterns in skip counting sequences are an early encounter with divisibility and number structure. Students who notice and explain these patterns develop a sense of the number system as having regularities — a foundational algebraic disposition.",
+        "success_criteria": [
+          "Identifies at least one digit pattern in a skip counting sequence and states it clearly.",
+          "Explains why the pattern occurs (e.g. because we are adding the same amount each time and the number system cycles in tens)."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Create and represent skip counting patterns",
+        "progression_checkpoint": "Students can create their own skip counting pattern sequence and represent it using numbers, objects or shapes.",
+        "minimum_width": "Create one skip counting sequence and represent it using at least two different formats (e.g. numbers and objects).",
+        "typical_width": "Create skip counting sequences by 2s, 5s and 10s and represent them using numbers, symbols, shapes and objects; use materials to build growing patterns that match the sequences; connect the count of objects to the numerical sequence.",
+        "wider": [
+          "Create a skip counting pattern using a design context — arranging shapes or tiles in a growing array — and connect the visual pattern to the numerical sequence.",
+          "Explore how skip counting sequences are used in practical assembly and packing contexts, creating scenarios where a chosen skip count is the most efficient counting strategy."
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Creating a skip counting pattern requires students to select a rule, generate the sequence, and represent it in a chosen format — coordinating all three aspects of the descriptor."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates a skip counting sequence with a correctly applied rule.",
+          "Represents the sequence in at least two forms and explains the connection between them."
+        ]
+      }
+    ]
+  }
+}

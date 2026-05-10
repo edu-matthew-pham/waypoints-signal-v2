@@ -1,0 +1,70 @@
+{
+  "year_level": "7",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E7LY04",
+    "title": "Explain idea structures in texts",
+    "description": "Explain the structure of ideas such as the use of taxonomies, cause and effect, extended metaphors and chronology",
+    "strand": "Literacy — Analysing, interpreting and evaluating",
+    "mode": "B",
+    "prior_knowledge": "Students can select, navigate and read texts for a range of purposes, monitoring meaning and evaluating structural features (AC9E6LY04). They have not yet explicitly explained how ideas themselves are structured — the logical or rhetorical patterns (taxonomy, cause-effect, metaphor, chronology) that organise thinking within and across texts.",
+    "progression_endpoint": "Students explain how ideas are structured using taxonomies, cause and effect, metaphors and chronology.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Idea structure patterns",
+        "progression_checkpoint": "Students can identify and name the idea structure being used in a given text and explain how it organises the ideas",
+        "minimum_width": "In a given text, identify the idea structure being used (taxonomy, cause-effect, extended metaphor, or chronology) and explain how it organises the information or argument",
+        "typical_width": "Examine idea structures across different text types — taxonomies in scientific explanations, cause-effect in arguments and explanations, chronology in recounts and histories — and explain how the structure serves each text's purpose",
+        "wider": [
+          "Identify cause and effect in explanations and analyse how causal structure is used to convince an audience of a course of action — tracing how the reasoning moves from cause to effect to recommended response",
+          "Examine how extended metaphors organise ideas in literary and persuasive texts — how a sustained comparison shapes the way readers understand a concept"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot recognise and name idea structures, Node 2's work on how structure serves purpose is inaccessible — explaining why a structure was chosen requires first being able to identify what structure is present.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a working repertoire of idea structure patterns to recognise them across texts. Building knowledge of the four named structures — taxonomy, cause-effect, extended metaphor, chronology — across varied text examples gives students the analytical tools to explain how ideas are organised, not just describe what a text is about.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the idea structure in a given text (taxonomy, cause-effect, extended metaphor, or chronology)",
+          "Explains how the structure organises the ideas in that text"
+        ],
+        "related_standards": ["AC9E7LA04", "AC9E7LY03"]
+      },
+      {
+        "id": 2,
+        "label": "Idea structures serve purpose",
+        "progression_checkpoint": "Students can explain how the choice of idea structure in a text serves its purpose and shapes the reader's understanding",
+        "minimum_width": "Explain why a specific idea structure is well-suited to a text's purpose — e.g. why cause-effect suits an explanation that aims to convince, or why chronology suits a recount",
+        "typical_width": "Compare two texts on related topics that use different idea structures and explain how the different structures produce different understandings — what does a taxonomic organisation make visible that a chronological one obscures, or vice versa?",
+        "wider": [
+          "Examine how a writer uses cause-effect structure not just to explain but to persuade — tracing how the causal chain is constructed to make a recommended action seem inevitable",
+          "Analyse how the same sequence of events can be structured as chronology (neutral recount) or cause-effect (persuasive argument) and discuss how the choice of structure shapes the reader's interpretation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students can identify an idea structure without being able to explain why a writer chose it over alternatives. The reasoning scaffold — what does this structure make salient, what does it obscure, and how does that serve the purpose — builds the explanatory connection between structure choice and meaning-making that the descriptor requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The cause-effect as persuasion direction is genuinely rich — advancing students can analyse how causal framing constructs inevitability, which connects linguistic analysis to critical and rhetorical awareness.",
+        "success_criteria": [
+          "Explains why a specific idea structure suits the purpose of a given text",
+          "Identifies how the structure shapes the reader's understanding of the topic"
+        ],
+        "related_standards": ["AC9E7LY03", "AC9E7LY06"]
+      }
+    ]
+  }
+}

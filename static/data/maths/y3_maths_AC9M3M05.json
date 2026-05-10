@@ -1,0 +1,63 @@
+{
+  "year_level": "3",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M3M05",
+    "title": "Angles as turns",
+    "strand": "Measurement",
+    "mode": "A",
+    "description": "identify angles as measures of turn and compare angles with right angles in everyday situations",
+    "prior_knowledge": "Students can identify, describe and demonstrate quarter, half, three-quarter and full measures of turn in everyday situations (AC9M2M05). They have not yet formally defined these turns as angles or compared general angles to a right angle benchmark.",
+    "progression_endpoint": "Students identify angles as measures of turn and compare everyday angles with right angles.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Angle as a measure of turn",
+        "progression_checkpoint": "Students can explain that an angle measures the amount of turn between two directions, and identify quarter, half and full turns as angles.",
+        "minimum_width": "Demonstrate quarter and half turns physically; identify these as angles and connect them to the corner of a square (right angle) and a straight line.",
+        "typical_width": "Connect quarter turn to right angle, half turn to straight angle, and full turn to 360°; identify these angles in everyday objects and situations.",
+        "wider": [
+          "Explore how turns are used in navigation and robotics — programming a simple floor robot to make quarter, half and three-quarter turns",
+          "Investigate how First Nations Australian dances and ceremonies use directional turns, connecting to angle measurement"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often see angles only as static corners in shapes and miss the dynamic 'turn' definition. Encountering angles in movement contexts (physical turns, robotics, dance) establishes the measure-of-turn concept more broadly.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "The 'angle as turn' definition is the conceptual foundation for Node 2 — students who retain the 'angles are static corners' misconception cannot reliably classify angles relative to a right angle benchmark, because they have no dynamic reference point for what a right angle represents as a turn.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The robotics and navigation context connects angle to programming and real-world direction, offering enrichment that extends beyond the immediate descriptor and has strong cross-curricular value.",
+        "success_criteria": [
+          "Students can identify a right angle in an everyday context and explain it as a quarter turn.",
+          "Students can physically demonstrate a quarter, half and full turn and name each as an angle."
+        ],
+        "related_standards": ["AC9M3SP01"]
+      },
+      {
+        "id": 2,
+        "label": "Comparing angles with right angles",
+        "progression_checkpoint": "Students can classify everyday angles as equal to, greater than, or less than a right angle.",
+        "minimum_width": "Identify three everyday angles (doors, corners, open books) as greater than, less than, or equal to a right angle; justify each classification.",
+        "typical_width": "Compare a range of everyday angles with a right angle benchmark using a right angle tester; classify as acute (less than), right (equal to) or obtuse (greater than).",
+        "wider": [
+          "Explore how right angles are used in construction and design — identifying right angles in building structures and why they are important",
+          "Introduce informal angle language (acute, obtuse) as natural extensions of the 'less than right angle / greater than right angle' description"
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students can classify an angle as less than, equal to, or greater than a right angle.",
+          "Students can identify right angles in everyday environments using a right angle tester."
+        ]
+      }
+    ]
+  }
+}

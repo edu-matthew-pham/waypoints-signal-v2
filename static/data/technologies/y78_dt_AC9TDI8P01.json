@@ -1,0 +1,131 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P01",
+    "title": "Acquire and validate data",
+    "description": "Acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+    "strand": "Processes and Production Skills",
+    "mode": "B",
+    "prior_knowledge": "This is the first standard in the Managing Data sub-strand (begins at 7-8). Students bring general digital literacy from the Collaborating and Managing sub-strand and basic data representation understanding from the K strand. They have not yet formally acquired, stored or validated data using spreadsheets or databases.",
+    "progression_endpoint": "Students acquire data from a range of sources to answer a specific question, store it using appropriate software (spreadsheets or databases), and validate the data by judging its relevance, correctness, currency and potential bias.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Defining a question that data can answer",
+        "progression_checkpoint": "Students can identify a question that requires data to answer and determine what data is needed",
+        "minimum_width": "Given a scenario, state a question that data could help answer; identify what data would be needed to investigate it",
+        "typical_width": "Frame a question for their own investigation; identify what data is needed, where it might come from, and what format it should be in",
+        "wider": [
+          "Compare how the same broad question (e.g. 'Is the canteen selling the right food?') requires different data depending on how the question is framed — food preferences data vs nutritional data vs sales data",
+          "Limited width — question framing is a single skill. The breadth comes from the variety of investigations at later nodes, not from framing more questions."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Defining a researchable question requires students to reason from 'I want to know about X' to 'I need data of type Y from source Z to answer a specific question'. Without scaffolding this chain, students frame questions that cannot be answered with data — the question must precede and constrain every subsequent phase of the pipeline.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot articulate what data is needed to answer their question will acquire irrelevant data or store data without purpose at Nodes 2 and 3. The question drives every subsequent phase — without a clear question, the data pipeline has no direction.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States a question that requires data to answer, not just opinion",
+          "Identifies at least one type of data needed to investigate the question"
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 2,
+        "label": "Acquiring data from sources",
+        "progression_checkpoint": "Students can acquire data from a range of sources including surveys, existing datasets and digital platforms",
+        "minimum_width": "Acquire data from at least one source relevant to the question; record the source",
+        "typical_width": "Acquire data from multiple sources (e.g. a survey they design and an existing dataset such as ABS); compare what each source provides",
+        "wider": [
+          "Acquire and compare data from the Australian Bureau of Statistics to analyse geographic distribution of First Nations Australians, identifying past and emerging trends",
+          "Investigate how the source of data affects its reliability — compare self-reported survey data with independently measured data for the same question"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Acquiring from multiple sources (survey + ABS) across different question types helps students see that source selection shapes what data is available — different sources answer different aspects of the same question. The width here is the variety of source types and their trade-offs.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The ABS First Nations population distribution direction offers a rich, real-world dataset with genuine analytical value — trends are historically significant and data quality questions are substantive.",
+        "success_criteria": [
+          "Acquires data from at least one source relevant to the question",
+          "Records where the data came from"
+        ],
+        "related_standards": [
+          "AC9TDI8P02",
+          "AC9TDI8P03"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Storing data appropriately",
+        "progression_checkpoint": "Students can store acquired data using software appropriate for how it will be accessed and analysed",
+        "minimum_width": "Store data in a spreadsheet or database; organise it with appropriate column headers or fields",
+        "typical_width": "Choose between a spreadsheet and a database based on how the data will be used (visualisation vs filtering/querying); justify the choice",
+        "wider": [
+          "Limited width — storage is a technical decision with a small number of valid options at this level (spreadsheet vs database). The genuine breadth is in the variety of data and questions, which is captured at other nodes."
+        ],
+        "response_modes": [],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Stores data in an organised format with appropriate headers or field names",
+          "Data is accessible for the intended analysis (not locked in an unusable format)"
+        ],
+        "related_standards": [
+          "AC9TDI8P02",
+          "AC9TDI8P03"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Validating data",
+        "progression_checkpoint": "Students can validate data by judging its relevance, correctness, currency and potential bias",
+        "minimum_width": "Given a dataset, identify at least one issue with relevance, correctness or currency; explain why it matters for the question being investigated",
+        "typical_width": "Apply multiple validation checks — is the data relevant to the question? Is it correct? Is it current? Is the sample representative? Identify and explain at least two issues",
+        "wider": [
+          "Evaluate how training data bias affects AI model output — what happens when a model is trained on data from a single demographic group?",
+          "Compare data quality across multiple sources for the same question — which source is more reliable and why?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Validation is where students encounter the hardest thinking — judging relevance, correctness, currency and bias requires applying multiple criteria to the same data. Seeing different data quality problems across multiple datasets (ABS, surveys, AI training data) helps students build the validation habit rather than checking one criterion in one scenario.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The AI training bias direction is genuinely rich — connecting data validation to real-world AI outcomes makes the stakes of validation concrete and consequential.",
+        "success_criteria": [
+          "Identifies at least one data quality issue (relevance, correctness, currency or bias)",
+          "Explains why the issue matters for answering the question"
+        ],
+        "related_standards": [
+          "AC9TDI8P02"
+        ]
+      }
+    ]
+  }
+}

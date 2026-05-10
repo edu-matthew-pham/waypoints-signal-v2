@@ -1,0 +1,100 @@
+{
+  "year_level": "9",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HG9S06",
+    "title": "Creating Geographical Descriptions and Explanations",
+    "description": "create descriptions, explanations and responses, using geographical knowledge and geographical tools as appropriate, and concepts and terms that incorporate and acknowledge research findings",
+    "strand": "Skills",
+    "mode": "B",
+    "prior_knowledge": "Students can create descriptions and explanations using geographical knowledge and tools (Y7-8). At Y9, the moves are: applying geographical concepts and terms in structured responses; using data representations (maps, graphs, images) and research findings as evidence; and calibrating tone appropriately to audience.",
+    "progression_endpoint": "Students create descriptions, explanations and responses using geographical concepts and terms, incorporating and acknowledging research findings, using geographical tools as evidence, and applying tone appropriate to audience.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Applying geographical concepts and terms in responses",
+        "progression_checkpoint": "Students can develop responses using geographical concepts and terms accurately",
+        "minimum_width": "Use at least three geographical concepts (e.g. scale, place, interconnection, sustainability, environment) and five geographical terms correctly in a response",
+        "typical_width": "Develop a response using geographical concepts (scale, place, environment, interconnection, change, sustainability) and correct geographical terminology; apply concepts as organising frameworks rather than as vocabulary inserts",
+        "wider": [
+          "Evaluate a peer response for conceptual accuracy — identify where concepts are used correctly as frameworks and where they are name-dropped without conceptual function",
+          "Use two related concepts together in one explanation (e.g. scale and interconnection; environment and sustainability) — explain how the concepts interact rather than using each independently",
+          "Apply the same concept across two different content areas (e.g. use 'interconnection' to analyse both biome modification and trade) — explain what the concept reveals in each case"
+        ],
+        "hinge": true,
+        "hinge_reason": "Geographical concepts are the organising framework that distinguishes geographical responses from general descriptions. Students who cannot use concepts correctly as analytical tools rather than as vocabulary produce responses that meet the description command but not the geographical knowledge requirement. This blocks the explanation and research-incorporation moves in Nodes 2-3.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Building a working vocabulary of geographical concepts and terms requires repeated use across different content areas, not memorisation in one context. Applying concepts across biome, interconnection and trade content builds the transferable conceptual toolkit the descriptor requires.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least three geographical concepts correctly in a response",
+          "Applies concepts as analytical frameworks, not just as vocabulary",
+          "Uses geographical terminology accurately throughout"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using representations and research findings as evidence",
+        "progression_checkpoint": "Students can create descriptions using representations of data and research findings as evidence",
+        "minimum_width": "Create a response that incorporates at least one data representation (map, graph, diagram, table, photograph) and references at least one research finding; acknowledge the source",
+        "typical_width": "Create a description using maps, photographs, diagrams, graphs, tables or satellite images as evidence for geographical claims; incorporate and acknowledge research findings from secondary sources",
+        "wider": [
+          "Evaluate how well a data representation functions as evidence for a specific claim — explain what the representation shows and what it cannot prove",
+          "Compare two representations of the same phenomenon (e.g. a map and a graph of biome distribution) — explain what each adds as evidence",
+          "Construct a response where the structure is driven by the research findings rather than by a predetermined argument — explain how findings shape the response"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The elaboration lists multiple representation types (maps, photographs, diagrams, graphs, tables, satellite images). Students who use only one type have a limited evidence repertoire. Exposure to multiple representation types in multiple content contexts builds the flexibility the descriptor requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Evaluating how well a representation functions as evidence for a specific claim develops data literacy beyond production — it requires students to interrogate the relationship between evidence type and claim type, which is foundational for research design in S01-S02 and analysis in S03-S04.",
+        "success_criteria": [
+          "Incorporates at least one data representation into a response as supporting evidence",
+          "References and acknowledges at least one research finding",
+          "The representation is connected to the claim it supports, not inserted separately"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Tone, audience and structured argument",
+        "progression_checkpoint": "Students can create explanations that apply tone appropriate to the audience and present a reasoned argument",
+        "minimum_width": "Create a response with a consistent tone appropriate to an identified audience; structure the response with a clear position, supporting reasoning and a conclusion",
+        "typical_width": "Create an explanation with audience-appropriate tone (e.g. authoritative tone for a management proposal, accessible tone for a public information piece) and reasoned argument — for example, a case for reducing food wastage or a management plan for a tourist hotspot",
+        "wider": [
+          "Produce two versions of the same response for different audiences — explain how the tone, vocabulary and structure of each differs",
+          "Evaluate a published geographical response for tone-audience fit — identify where tone choices strengthen or undermine the argument",
+          "Draft a response where the tone must balance authority (for a professional audience) with accessibility (for a general public audience) — explain the trade-offs"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates geographical concepts (Node 1), research-grounded evidence (Node 2), and structured argument with audience awareness. The response is the whole product — nodes 1 and 2 supply the content and evidence, this node supplies the communicative form. Teaching investment should ensure the three elements work together, not appear as separate layers in the response.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The dual-audience direction is rich — producing two versions of the same response for different audiences requires students to distinguish between the geographical knowledge (stable) and its communicative expression (audience-dependent). Advancing students develop the rhetorical flexibility that professional communication in geography and related fields requires.",
+        "success_criteria": [
+          "Applies a consistent tone appropriate to an identified audience throughout",
+          "Structures the response with a clear position, reasoning and conclusion",
+          "Integrates geographical concepts and research-based evidence into the argument"
+        ]
+      }
+    ]
+  }
+}

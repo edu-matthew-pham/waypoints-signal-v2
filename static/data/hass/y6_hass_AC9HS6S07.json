@@ -1,0 +1,75 @@
+{
+  "year_level": "6",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS6S07",
+    "title": "Communicate findings and viewpoints",
+    "description": "present descriptions and explanations, drawing ideas, findings and viewpoints from sources, and using relevant terms and conventions",
+    "strand": "HASS Skills",
+    "mode": "B",
+    "prior_knowledge": "Students present descriptions and explanations, drawing ideas, findings and viewpoints from sources and using relevant terms and conventions (AC9HS5S07). At Y5, they select and reference ideas from visual and written sources, and use accurate subject-appropriate terminology across HASS disciplines. Their presentations are primarily descriptive and explanatory.",
+    "progression_endpoint": "Students present descriptions and explanations, drawing ideas, findings and viewpoints from sources, and using relevant terms and conventions.",
+    "nodes": [
+      {
+        "id": "AC9HS6S07-N1",
+        "label": "Selecting, referencing and integrating source material",
+        "progression_checkpoint": "Students select relevant findings and viewpoints from a range of source types and integrate them into a description or explanation, with appropriate referencing.",
+        "minimum_width": "Select ideas and findings from at least two source types (e.g. a graph and a written source) and integrate them into a coherent description or explanation, referencing each source.",
+        "typical_width": "Select and reference findings and viewpoints from a variety of source formats — journals, diaries, graphs, tables, timelines, photographs — integrating them into a description or explanation that shows how different sources support the account.",
+        "wider": [
+          "Integrate sources representing conflicting viewpoints and show in the presentation how the tension between sources was handled.",
+          "Develop a multimodal presentation that combines written explanation with visual evidence (maps, photographs, data) and explains how each source type contributes differently to the account."
+        ],
+        "hinge": true,
+        "hinge_reason": "Without source integration skills, students cannot satisfy the descriptor's 'drawing ideas, findings and viewpoints from sources' requirement in N2 — they will produce personal opinions dressed as explanations.",
+        "success_criteria": [
+          "At least two source types are referenced in the presentation.",
+          "Sources are integrated into the explanation rather than listed separately at the end.",
+          "Does not present source content as personal opinion or without attribution."
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Source integration requires modelling — annotated examples showing how a source sentence becomes part of an explanation are appropriate here before independent production.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "AC9HS6S07-N2",
+        "label": "Composing informative and persuasive HASS texts",
+        "progression_checkpoint": "Students compose informative and/or persuasive descriptions and explanations supported by evidence, using relevant HASS disciplinary terms and conventions, to present conclusions from their inquiry.",
+        "minimum_width": "Compose an informative text presenting conclusions from a HASS inquiry, using discipline-appropriate terms and at least two referenced sources.",
+        "typical_width": "Compose both informative and persuasive texts that present inquiry conclusions using accurate disciplinary terminology (historical, geographical, civics, economics), appropriate conventions (e.g. argument structure, referencing), and evidence drawn from a range of identified sources including conflicting viewpoints.",
+        "wider": [
+          "Compose a persuasive text that presents a reasoned position on a contested HASS issue, explicitly addressing counter-arguments with evidence.",
+          "Produce a multimodal presentation (e.g. documentary-style, oral argument with visual evidence) that applies conventions appropriate to the chosen form while maintaining evidentiary rigour."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Text is clearly informative or persuasive in purpose and structure.",
+          "Uses at least three discipline-appropriate terms accurately.",
+          "Conclusions drawn are supported by referenced evidence from sources.",
+          "Conventions of the chosen text type are applied consistently."
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Elaborations reference a wide range of text contexts — economic, civic, historical and geographical inquiries — each requiring the same composing and referencing skill in a different disciplinary register.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Wider students can compose texts across multiple inquiry disciplines (historical argument, geographical explanation, civic position paper), each applying the same communication skill in a different disciplinary register.",
+            "flags": ["width_opportunity"]
+          },
+          {
+            "mode": "repertoire_building",
+            "reason": "Composing persuasive text with counter-argument and multimodal presentation builds a communication repertoire that is only demonstrable through the produced work — not separable from the task."
+          }
+        ]
+      }
+    ]
+  }
+}

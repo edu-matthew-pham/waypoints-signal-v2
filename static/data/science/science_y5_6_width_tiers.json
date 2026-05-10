@@ -1,0 +1,311 @@
+{
+  "description": "Width tiers for Science Year 5–6 band — ACARA v9. Covers H-strand (Science as a Human Endeavour) and I-strand (Science Inquiry) descriptors for the 5–6 year band. U-strand descriptors are in separate year-level files (science_y5_width_tiers.json, science_y6_width_tiers.json).",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "band": "5-6",
+  "generation_rules": {
+    "prompt_version": "v1.0",
+    "primary_width_axis": "mixed"
+  },
+  "width_notes": {
+    "minimum_width": "The narrowest honest floor for the descriptor's command term in a single, supported task context. For H-strand: the knowledge-to-action pathway met in one case. For I-strand: the skill applied in one investigation context.",
+    "typical_width": "The full scope of the descriptor across the range of task contexts and investigation types typical for the 5–6 band — including independent variable decisions, multiple investigation approaches, and varied communication forms.",
+    "wider": "Enrichment directions that add phenomena, cultural contexts or task types. First Nations directions included where elaborations indicate them. Cross-strand connections to H-strand flagged where they provide substantive enrichment.",
+    "elaborations": "ACARA elaborations treated as source data for intended range. Typical grounded in common cases; wider may infer within the descriptor's territory and year band."
+  },
+  "standards": {
+    "AC9S5H01": {
+      "strand": "Science as a Human Endeavour",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe one example of a scientific advance that built on prior work; describe one example of scientific collaboration across at least two disciplines, explaining what each contributed.",
+      "typical_width": "Examine multiple examples where scientific understanding developed cumulatively; trace how contributions built on or depended on earlier work; examine collaboration across disciplines (ecologists + engineers + computer scientists; geologists + hydrologists + farmers); explain why complex questions require collaborative effort.",
+      "wider": [
+        "Explore how optics understanding developed through contributions from Plato, Euclid, Ptolemy, Ibn al-Haytham and Roger Bacon across cultures and centuries",
+        "Investigate how contemporary soil erosion management adapts and builds on First Nations Australians' fire management and agricultural practices",
+        "Research why naturalists initially rejected the platypus and how ongoing collaborative research continues to reveal its biology",
+        "Examine how the discovery of biofluorescent flying squirrels led to international collaborative investigation of fluorescence across mammal species"
+      ],
+      "elaborations": [
+        "researching how the recent discovery of a biofluorescent flying squirrel led to discoveries of more fluorescent mammals, such as wombats, bilbies, echidna and bandicoots as scientists collaborated with other scientists across fields of science and internationally",
+        "researching why European naturalists and scientists first thought the platypus was a faked animal, and how scientists such as those in the Platypus Conservation Initiative are collaborating in ongoing research to understand the features and behaviours of platypuses",
+        "investigating how contemporary soil erosion management practices adapt and build on First Nations Australians' fire management and agricultural practices",
+        "exploring why developing new erosion mitigation techniques such as contour banks and strip cropping requires geologists, hydrologists and farmers to collaborate",
+        "exploring how understanding of light and optics has developed by comparing the ideas of Plato, Euclid, Ptolemy, Ibn al-Haytham and Roger Bacon"
+      ]
+    },
+    "AC9S5H02": {
+      "strand": "Science as a Human Endeavour",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe one example where scientific knowledge helped a community identify a problem; describe one example where a community used scientific knowledge to make a decision, identifying the knowledge and the decision.",
+      "typical_width": "Examine multiple cases where communities use scientific knowledge to identify problems and make decisions — including erosion management, light pollution reduction and agricultural decisions; explain the knowledge-to-decision pathway; evaluate trade-offs involved in different responses.",
+      "wider": [
+        "Research how communities have used knowledge of light pollution to design and implement solutions — covered streetlights, automated systems, motion sensors — and evaluate each response",
+        "Examine how park rangers use erosion knowledge to design rules and built features protecting fragile environments and heritage sites",
+        "Consider how communities make farming decisions based on habitat knowledge — connecting biological knowledge to agricultural decision-making",
+        "Investigate how people use properties of light in signal lamp design for Morse code communication"
+      ],
+      "elaborations": [
+        "considering how decisions are made to farm particular crops or animals depending on local habitats, such as considering their ability to withstand drought or cold weather",
+        "examining how communities use knowledge of erosion processes to design landscape features that reduce erosion in fragile environments",
+        "examining how knowledge of erosion is used by park rangers to design rules such as keeping to the path and not climbing sandstone, and built features such as channel drains on paths, railings and barriers to protect the park environment and First Nations Australians' heritage sites",
+        "researching the impacts of light pollution and exploring how communities have used scientific knowledge to reduce light pollution, such as through the use of covered bulbs facing downwards in streetlights, automated systems to turn off streetlights and motion sensors on outdoor lights at home and in public places",
+        "investigating how and why people used properties of light to design signal lamps to communicate via Morse code and where they continue to be used"
+      ]
+    },
+    "AC9S6H01": {
+      "strand": "Science as a Human Endeavour",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe one example of scientific advance through collaboration; describe one example where contemporary science builds on earlier work or traditional knowledge.",
+      "typical_width": "Examine multiple collaboration examples across institutions and countries (Antarctica, International Space Station, remote sensing ecology); trace how contributions from scientists across many cultures have advanced solar system understanding; explain why complex scientific questions require multi-disciplinary or international collaboration.",
+      "wider": [
+        "Construct a timeline of contributions from scientists across many countries and cultures that advanced understanding of the solar system through models, evidence and space exploration",
+        "Investigate how restorative ecology adapts and builds on traditional ecological knowledge of First Nations Australians",
+        "Research how ecologists collaborate with engineers and computer scientists to develop remote sensing techniques for habitat monitoring",
+        "Investigate why scientists changed phosphate levels in detergents after discovering the link to algal blooms — examining collaborative evidence-based policy change"
+      ],
+      "elaborations": [
+        "investigating how contemporary restorative ecology adapts and builds on the traditional ecological knowledges of First Nations Australians",
+        "exploring how international scientific collaboration can answer complex questions about the abiotic factors that affect the growth and survival of living things in Antarctica",
+        "examining why ecologists collaborate with engineers and computer scientists to develop remote sensing techniques, identify patterns in habitat change and make predictions",
+        "constructing a timeline to show how contributions and collaboration of scientists, mathematicians and astronomers from many countries have advanced our ideas about space and the solar system through development of models, gathering of evidence and, more recently, space exploration",
+        "investigating how astronauts and scientists from many different countries have collaborated in the International Space Station program",
+        "investigating why scientists changed the phosphate levels in detergents to prevent algal blooms"
+      ]
+    },
+    "AC9S6H02": {
+      "strand": "Science as a Human Endeavour",
+      "width_axis": "phenomena_contexts",
+      "minimum_width": "Describe one example where scientific knowledge helped a community identify a problem and one example where it informed a community decision or guideline.",
+      "typical_width": "Examine multiple cases where communities use scientific knowledge to identify problems and make decisions — aquatic noise pollution guidelines, food storage and mould prevention, electrical safety guidelines, underground power cables; explain the knowledge-to-decision pathway in each case.",
+      "wider": [
+        "Explore how communities consider aquatic noise pollution when designing water sports guidelines — examining what scientific knowledge is applied and how it is balanced against community interests",
+        "Investigate how people use knowledge of conditions that reduce mould or bacterial growth in food packaging and storage decisions",
+        "Research how local government authorities use knowledge of electrical safety when deciding to convert to underground power",
+        "Examine how electrical device safety guidelines for children are developed from scientific knowledge of electrical hazards"
+      ],
+      "elaborations": [
+        "exploring how communities consider the impact of aquatic noise pollution when designing guidelines for water sports",
+        "investigating how people use knowledge of conditions that reduce mould or bacterial growth when considering food packaging and storage",
+        "considering how people use electrical device guidelines to help ensure safety of children",
+        "investigating why underground power cables were developed and how local government authorities use scientific knowledge about power safety when considering converting to underground power"
+      ]
+    },
+    "AC9S5I01": {
+      "strand": "Science Inquiry — Questioning and Predicting",
+      "width_axis": "task_contexts",
+      "minimum_width": "Pose one investigable question targeting a relationship between two named variables; make one reasoned prediction explicitly justified with prior scientific knowledge.",
+      "typical_width": "Pose investigable relationship questions across two or more science contexts; distinguish investigable from non-investigable questions; make reasoned predictions justified with scientific principles (not just prior observation); identify what outcome would confirm or challenge each prediction.",
+      "wider": [
+        "Pose questions about landscape features and weathering/erosion relationships — identifying what measurement would test each relationship",
+        "Use First Nations ecological knowledge to guide formulation of investigable questions about structural features and behaviours of living things",
+        "Compare question types across biological, geological and physical science domains and explain what makes each type investigable"
+      ],
+      "elaborations": [
+        "posing questions that can be investigated scientifically, such as: 'Do all animals which live in desert habitats have ways to survive without water?'",
+        "acknowledging and using information from First Nations Australians to guide the formulation of investigable questions about structural features and behaviours of living things",
+        "posing investigable questions about landscape features and how they were changed by weathering, erosion, transportation or deposition",
+        "asking questions and making predictions to test relationships, such as: 'Will there be more erosion of steeper slopes? Will this organisation of mirrors enable me to see around corners? Are animals that camouflage well more likely to survive predation?'",
+        "making reasoned predictions about the habitat a plant or animal lives in or the observable effect of light interacting with an object"
+      ]
+    },
+    "AC9S5I02": {
+      "strand": "Science Inquiry — Planning and Conducting",
+      "width_axis": "task_contexts",
+      "minimum_width": "Independently identify variables to change, measure and control for a given question; record a method in enough detail for another student to repeat it; describe at least one potential risk and planned safety measure.",
+      "typical_width": "Plan repeatable investigations across different approaches (experimental, field observation, simulation, research); independently decide all variables without scaffolding; record reproducible methods; describe multiple risks and safety measures; identify permissions required for field investigations on Country/Place.",
+      "wider": [
+        "Plan a field excursion to collect erosion data using maps or aerial photographs to predict sites — planning observation methods and recording a reproducible method",
+        "Compare investigation approaches for the same question (experimental vs field observation vs simulation) and evaluate trade-offs in repeatability and control",
+        "Consult with First Nations Australians to identify areas requiring permission and guidance regarding culturally sensitive locations during field work"
+      ],
+      "elaborations": [
+        "considering different ways to approach investigations, such as researching, using trial and error, experimental testing, field observations, using digital tools to record observations or development of virtual simulations",
+        "planning and recording the method to be used in an investigation so that it could be repeated by someone else",
+        "making decisions on the variables to be changed, measured and controlled in fair tests, such as measuring the length and size of a shadow formed by different light sources",
+        "using a map or aerial photographs to predict local sites likely to be affected by erosion, and collaboratively planning a field excursion to collect observations",
+        "explaining rules for safe processes and use of equipment and materials, and potential risks to themselves or others when conducting an investigation",
+        "consulting with First Nations Australians to identify local areas that require permission before accessing",
+        "consulting with First Nations Australians to guide the planning of scientific investigations, considering potential risks for field investigations"
+      ]
+    },
+    "AC9S5I03": {
+      "strand": "Science Inquiry — Observing and Measuring",
+      "width_axis": "task_contexts",
+      "minimum_width": "Select appropriate equipment for a given measurement task with reasoning; record data using standard units with metric prefixes; explain how low precision could affect investigation conclusions.",
+      "typical_width": "Select and use equipment appropriate to the precision required across multiple investigation types; use standard units with metric prefixes consistently; record data in tables, diagrams and digital formats; explain the effect of measurement precision on investigation conclusions.",
+      "wider": [
+        "Compare precision of different instruments for the same measurement — examining how choice of instrument affects what differences can be detected",
+        "Use digital tools (digital photography, spreadsheets) to record and organise data — examining what digital recording adds in accuracy and reproducibility",
+        "Investigate how the precision of measurement equipment affects whether a treatment difference can be detected in an investigation"
+      ],
+      "elaborations": [
+        "exploring which equipment gives the most reasonable precision for the measurements of data required in the investigation",
+        "exploring the precision of measurements of different equipment such as a cup compared with a measuring jug and discussing why precision is important in measurement",
+        "recording data using standard units, such as grams, second and metre, and developing the use of standard prefixes for metric units such as kilo- and milli-",
+        "recording data in tables and diagrams or electronically as digital images and spreadsheets"
+      ]
+    },
+    "AC9S5I04": {
+      "strand": "Science Inquiry — Processing and Representing",
+      "width_axis": "task_contexts",
+      "minimum_width": "Select and construct one appropriate representation for a given data set; use the representation to identify and describe one pattern or relationship.",
+      "typical_width": "Select and construct appropriate representations across Y5-6 science contexts — annotated field sketches, column graphs, physical landscape models, ray diagrams, maps — and use each to describe the pattern, trend or relationship it reveals.",
+      "wider": [
+        "Construct labelled ray diagrams showing light reflection and compare how different surface types affect light path",
+        "Use maps or aerial photographs to identify spatial patterns in erosion site locations",
+        "Construct column graphs from repeated simulation data and use values across runs to describe a trend rather than a single outcome"
+      ],
+      "elaborations": [
+        "using annotated digital photography or field sketches to describe structural features of plants or animals",
+        "constructing a column graph to illustrate the relationship between predation and an animal feature such as colour as indicated by a simulation, and using values to represent the outcomes of repeated simulations",
+        "modelling landscapes using materials such as sand, gravel, soil and rocks to show effects of erosion by water",
+        "constructing labelled ray diagrams to represent observations and compare how light interacts with different objects",
+        "using maps to identify patterns in erosion site locations or aerial photographs to show effects of erosion over time"
+      ]
+    },
+    "AC9S5I05": {
+      "strand": "Science Inquiry — Evaluating",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify at least two specific sources of error in an investigation; explain how each could affect findings; select at least two pieces of evidence from a data set to support a named conclusion.",
+      "typical_width": "Identify error sources across types (uncontrolled variables, measurement errors, environmental changes); compare methods and findings with peers; distinguish data from evidence; select evidence to support reasoned conclusions; pose further questions from method limitations or unexpected findings.",
+      "wider": [
+        "Examine scenarios where two groups selected different evidence from the same data set and drew different conclusions",
+        "Evaluate inferences made from observational data — determining whether each inference follows from the evidence or goes beyond it",
+        "Research how scientists manage data-to-evidence selection through peer review and replication"
+      ],
+      "elaborations": [
+        "comparing methods and findings with those of others to determine if the investigation was a fair test",
+        "recognising errors that could have occurred during investigations including changing too many variables, incorrect or misreading of measurements, or changes in environmental factors",
+        "comparing, in small groups, proposed reasons for findings and explaining their reasoning and posing further questions",
+        "discussing the difference between data and evidence and examining how evidence is selected",
+        "reflecting on inferences made from observations and analysis of the data to draw a reasoned conclusion"
+      ]
+    },
+    "AC9S5I06": {
+      "strand": "Science Inquiry — Communicating",
+      "width_axis": "task_contexts",
+      "minimum_width": "Produce a science text in a given form using appropriate conventions; identify at least two language features in a science text and explain how each contributes to meaning.",
+      "typical_width": "Produce science texts across multiple forms (scientific report, persuasive text, digital presentation) with appropriate conventions; make deliberate language choices (vocabulary, sentence structure) for purpose and audience; co-author a scientific report using standard conventions including discussion of errors.",
+      "wider": [
+        "Construct a persuasive text for local council arguing for an erosion mitigation strategy — applying scientific knowledge to a genuine civic communication purpose",
+        "Acknowledge and explore First Nations Australians' ways of representing and communicating information about anatomical features",
+        "Create an animation to teach other students about the particulate nature of matter — examining what representational choices communicate different aspects of the model"
+      ],
+      "elaborations": [
+        "exploring how language features such as vocabulary and sentence structure help shape a text and give it meaning",
+        "acknowledging and exploring First Nations Australians' ways of representing and communicating information about anatomical features",
+        "developing a digital presentation to share information about the structural features or behaviours of animals and plants in a particular habitat",
+        "constructing a persuasive text for local council to argue the use of an erosion mitigation strategy in a local area",
+        "co-authoring a scientific report on an investigation into the behaviours of light using appropriate vocabulary, data representations and sentence structures",
+        "exploring whether there is a 'correct' way of representing particles and creating an animation to teach other students about the particulate nature of matter"
+      ]
+    },
+    "AC9S6I01": {
+      "strand": "Science Inquiry — Questioning and Predicting",
+      "width_axis": "task_contexts",
+      "minimum_width": "Pose one investigable question identifying a pattern and one targeting a relationship; make one reasoned prediction explicitly justified with prior knowledge.",
+      "typical_width": "Pose investigable questions across Y6 science contexts (electrical circuits, habitat conditions, solar system, reversible/irreversible change); distinguish investigable from non-investigable questions; make reasoned predictions justified with scientific principles; refine questions through discussion.",
+      "wider": [
+        "Pose investigable questions about electrical circuit function based on a circuit diagram — predicting what will happen when a component is changed",
+        "Make reasoned predictions about mould growth conditions — justifying with knowledge of biological growth requirements",
+        "Compare the structure of investigable questions across biological, physical and chemical science contexts at Y6"
+      ],
+      "elaborations": [
+        "posing investigable questions to identify patterns, such as: 'What type of material is the best conductor and what is the best insulator?'",
+        "posing investigable questions to test relationships, such as: 'Will more salt dissolve in warm water than in cold water?'",
+        "discussing and refining questions to enable scientific investigation",
+        "making reasoned predictions about the physical conditions that will result in the largest mould colonies growing on bread",
+        "making reasoned predictions about electrical circuit function based on a picture or diagram of a circuit"
+      ]
+    },
+    "AC9S6I02": {
+      "strand": "Science Inquiry — Planning and Conducting",
+      "width_axis": "task_contexts",
+      "minimum_width": "Independently decide all variables for a given investigation question; identify at least one potential risk with planned safety measure; identify if permissions are required for a field investigation.",
+      "typical_width": "Plan repeatable investigations across approaches; independently decide all variables; describe multiple risks and safety measures; identify permissions for field investigations on Country/Place; consider different investigation approaches and select the most appropriate.",
+      "wider": [
+        "Consult with First Nations Australians land councils regarding permissions and culturally sensitive locations during field work",
+        "Compare different investigation approaches for the same question and evaluate trade-offs in control, repeatability and ecological validity",
+        "Evaluate a given investigation plan for gaps in variable control, risk management or permission requirements"
+      ],
+      "elaborations": [
+        "considering different ways to approach investigations including researching, using trial and error, experimental testing, field observations, accessing digital tools to collect and manage data and using virtual simulations",
+        "determining which is the variable being tested and which variable is being measured, and which other variables might affect their investigations and need to be kept the same",
+        "identifying potential risks to themselves or others when conducting an investigation and explaining rules for safe processes and use of equipment and materials",
+        "consulting with First Nations Australians land councils in seeking permissions to conduct scientific investigations on traditional Lands and seeking guidance regarding culturally sensitive locations during field work"
+      ]
+    },
+    "AC9S6I03": {
+      "strand": "Science Inquiry — Observing and Measuring",
+      "width_axis": "task_contexts",
+      "minimum_width": "Select an instrument with the correct scale for a given measurement; record data using standard units; explain why precision is important in measurement.",
+      "typical_width": "Select and use instruments with appropriate precision across Y6 investigation types (multimeter for electrical, digital thermometer for habitat conditions); record data using standard units with metric prefixes; discuss the effect of low precision on findings; use digital tools to collect data over time.",
+      "wider": [
+        "Use a multimeter to measure electrical current and voltage — examining what the instrument reveals that visual inspection cannot",
+        "Use digital tools (soil moisture probes, digital thermometers) to collect habitat condition data over time and record in spreadsheets",
+        "Examine how the choice of instrument precision affects whether a treatment difference can be reliably detected"
+      ],
+      "elaborations": [
+        "selecting and using instruments with the correct scale for measuring data with appropriate accuracy, such as a multimeter",
+        "recording data in tables and diagrams or electronically as digital images and spreadsheets",
+        "discussing why precision is important in measurement, and the possible effect of low precision on investigation findings",
+        "recording data using standard units, such as volt, ampere, gram, second and metre, and developing the use of standard prefixes for metric units such as kilo- and milli-",
+        "using digital tools such as digital thermometers or soil moisture probes to collect data over time and record data in spreadsheets"
+      ]
+    },
+    "AC9S6I04": {
+      "strand": "Science Inquiry — Processing and Representing",
+      "width_axis": "task_contexts",
+      "minimum_width": "Select and construct one appropriate representation for a given data set or relationship; use the representation to describe one pattern, trend or relationship.",
+      "typical_width": "Select and construct representations across Y6 science contexts — circuit diagrams, line graphs for plant growth, 3D sun-Earth models, graphic organisers — and use each to describe the pattern, trend or relationship it reveals; explain how different representations show different aspects of the same data.",
+      "wider": [
+        "Represent circuits using virtual simulations or standard circuit diagrams indicating direction of electricity flow",
+        "Use line graphs to compare plant growth over time under different physical conditions — examining how line graphs reveal trends that tables obscure",
+        "Explore how different representations show different aspects of relationships and explain when each is most useful"
+      ],
+      "elaborations": [
+        "exploring how different representations can be used to show different aspects of relationships, processes and trends",
+        "representing circuits using virtual simulations or circuit diagrams and indicating the direction of electricity flow",
+        "using line graphs to show changes in growth over time under different physical conditions",
+        "developing a physical model of the sun and Earth using objects or role-play to describe their relative positions when a place on Earth is in day or night",
+        "organising information in graphic organisers to describe patterns and trends"
+      ]
+    },
+    "AC9S6I05": {
+      "strand": "Science Inquiry — Evaluating",
+      "width_axis": "task_contexts",
+      "minimum_width": "Identify at least two sources of error in an investigation; compare findings with peers and identify differences; select evidence to draw one reasoned conclusion.",
+      "typical_width": "Identify error sources and explain their effect; work collaboratively to evaluate strengths and weaknesses of investigations; compare evidence selected by different groups from similar data; draw reasoned conclusions evaluating inferences from observations.",
+      "wider": [
+        "Compare evidence selected by different groups from similar data — examining how evidence selection affects conclusions",
+        "Evaluate inferences made from observations and determine whether each follows from the evidence or goes beyond it",
+        "Examine a scenario where the same data leads to different conclusions depending on what is counted as evidence"
+      ],
+      "elaborations": [
+        "working collaboratively to identify the strengths and weaknesses of their own and others' investigations including where testing was not fair and practices could be improved",
+        "recognising errors that could have occurred during investigations, including changing too many variables, incorrect or misreading of measurements, or changes in environmental factors",
+        "comparing and contrasting data collected by different individuals or groups to discuss similarities and differences in their findings and posing questions about differences for further investigation",
+        "comparing and contrasting evidence selected by different individuals or groups from similar data",
+        "evaluating the inferences made from observations and analysis of the data to draw a reasoned conclusion"
+      ]
+    },
+    "AC9S6I06": {
+      "strand": "Science Inquiry — Communicating",
+      "width_axis": "task_contexts",
+      "minimum_width": "Produce a science text in a given form using appropriate conventions and vocabulary for the purpose and audience.",
+      "typical_width": "Produce science texts across multiple forms (scientific report, imaginative text, poster/slideshow, product pitch) with appropriate conventions and language choices; use scientific vocabulary, data representations and appropriate sentence structures; justify communication choices in terms of purpose and audience.",
+      "wider": [
+        "Acknowledge and explore First Nations Australians' ways of representing and communicating understandings of the night sky through rock paintings, oral traditions and stone arrangements",
+        "Design a product using electrical circuits and perform a sales pitch — applying scientific knowledge to a commercial communication purpose",
+        "Create an imaginative text about humans living on planets with different day lengths — exploring the social implications of the astronomical concepts studied"
+      ],
+      "elaborations": [
+        "constructing a scientific report to share findings, such as how plants responded to changes in physical conditions such as temperature or salinity, and using appropriate vocabulary, data representations, units and sentence structures",
+        "creating an imaginative text about a future in which humans live on other planets with differing day lengths, and how they manage the social implications of this, such as keeping track of time or calculating human ages",
+        "acknowledging and exploring First Nations Australians' ways of representing and communicating understandings of the night sky and its use for timekeeping purposes through rock paintings, paintings and stone arrangements",
+        "designing a product that uses electrical circuits and performing a sales pitch to have the product mass produced",
+        "constructing a poster or slideshow comparing everyday examples of reversible and irreversible change"
+      ]
+    }
+  }
+}

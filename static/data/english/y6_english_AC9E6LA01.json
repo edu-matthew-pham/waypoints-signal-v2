@@ -1,0 +1,95 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LA01",
+    "title": "Language formality and social distance",
+    "description": "understand that language varies as levels of formality and social distance increase",
+    "strand": "Language — Interacting with others",
+    "mode": "A",
+    "prior_knowledge": "Students understand that language is selected for social contexts and that it helps to signal social roles and relationships (AC9E5LA01). They have not yet examined how formality and social distance interact as a continuum, or how formal address protocols function at institutional or ceremonial levels.",
+    "progression_endpoint": "Students understand that language choices vary systematically with levels of formality and social distance, and can identify and apply appropriate language for a given context.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Formality as a continuum",
+        "progression_checkpoint": "Students can identify that language exists along a continuum from informal to formal and name the key registers (slang, colloquial, conversational, formal).",
+        "minimum_width": "Identify at least three points on the formality continuum using provided examples; label each as slang, colloquial, conversational or formal.",
+        "typical_width": "Discuss and sort a range of spoken and written examples across the full continuum; explain what features (vocabulary, sentence structure, tone) signal each register.",
+        "wider": [
+          "Compare the same message expressed across all four registers (e.g. a request for help) and analyse how meaning and relationship signal shift",
+          "Examine how digital communication (texts, emails, social media posts) creates new registers that blend formal and informal features"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate 'polite' with 'formal' or treat formality as binary cannot correctly reason about social distance in Node 2 — the two-variable model breaks down without a working continuum.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often conflate 'polite' with 'formal' or assume formality is binary. Exposure to a range of register examples across spoken and written modes helps students build a more nuanced continuum model.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names and correctly applies the four register labels (slang, colloquial, conversational, formal) to provided examples",
+          "Identifies at least one language feature (e.g. vocabulary choice, contraction use) that signals register"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Social distance and audience",
+        "progression_checkpoint": "Students can explain how social distance (familiarity, power relationship, audience) determines appropriate register choice.",
+        "minimum_width": "Explain the register appropriate for one contrasting pair of social relationships (e.g. talking to a friend vs. a principal) and justify why using at least one language feature.",
+        "typical_width": "Analyse several social contexts (peer, teacher, community leader, ceremonial) and explain how both familiarity and relative power shape register expectations; identify how audience affects language selection.",
+        "wider": [
+          "Investigate how social distance operates differently in cultures where respect is marked differently (e.g. formal pronoun systems in other languages compared with English address terms)",
+          "Compare formal address protocols across institutions (school, government, royalty) and identify what social values they encode"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot hold familiarity and power as two separate variables, their Node 3 register choices will rest on single-cue guessing — producing register mismatches in formal production tasks.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to hold two variables simultaneously (familiarity AND power/status) to make register judgements. Making the reasoning chain explicit — 'I know this is formal because the relationship is distant AND the status differential is high' — prevents over-reliance on a single cue.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing register conventions across languages and cultures is genuinely rich — it reveals that formality is culturally constructed, not universal, and opens connections to First Nations Australian language protocols.",
+        "success_criteria": [
+          "Explains why a specific register is appropriate for a given social relationship using at least two contextual cues (familiarity, power, audience)",
+          "Identifies an example where register mismatch would be inappropriate and explains why"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Applying register appropriately",
+        "progression_checkpoint": "Students can select and use language appropriate to a given level of formality and social distance, and evaluate their choices.",
+        "minimum_width": "Present or write an idea at one specified register level appropriate to a given audience; identify one choice made and explain why it suits the context.",
+        "typical_width": "Present ideas or opinions in at least two contrasting register contexts (e.g. peer discussion and a formal presentation); reflect on choices made and how they serve different audiences.",
+        "wider": [
+          "Analyse a formal public speech or ceremonial address and identify specific language features that signal institutional formality",
+          "Draft the same argument for two different audiences (e.g. a class debate and a letter to a local council) and compare register choices"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to coordinate understanding of continuum, social distance, and language features into a production and evaluation act — the components from Nodes 1 and 2 come together in a situated, purposeful language choice.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Producing language across contrasting register contexts and evaluating choices is pedagogically rich — students develop metalinguistic awareness that transfers to writing across curriculum areas.",
+        "success_criteria": [
+          "Produces spoken or written language that consistently fits the specified register level",
+          "Explains at least one specific language choice (vocabulary, sentence structure, or tone) and how it signals the intended register"
+        ],
+        "related_standards": ["AC9E6LY02", "AC9E6LY07"]
+      }
+    ]
+  }
+}

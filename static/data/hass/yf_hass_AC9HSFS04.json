@@ -1,0 +1,67 @@
+{
+  "year_level": "F",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HSFS04",
+    "title": "Draw conclusions",
+    "description": "draw conclusions in response to questions",
+    "strand": "Inquiry Skills — Evaluating",
+    "mode": "B",
+    "prior_knowledge": "Students have answered questions from personal experience. No formal prior HASS inquiry skills curriculum.",
+    "progression_endpoint": "Students draw conclusions in response to inquiry questions about their family, celebrations, places and ways of caring for places.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Using evidence to answer questions",
+        "progression_checkpoint": "Students can use information from a source (story, photograph, observation) to answer an inquiry question, rather than relying on personal memory alone.",
+        "minimum_width": "Answer one inquiry question using at least one piece of evidence from a provided source.",
+        "typical_width": "Use information from multiple sources (photographs, observations, stories) to answer inquiry questions about family, places and celebrations; explain where the answer came from.",
+        "wider": [
+          "Compare answers to the same question from different sources and discuss which source they find more useful and why",
+          "Identify when a source answers the question fully and when they need more information"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat all answers as opinions rather than evidence-based conclusions cannot draw conclusions in the next node — evidence-based reasoning is the prerequisite for conclusion-drawing.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Make the evidence-to-conclusion chain explicit: 'I know this because I saw/heard/read...' Use sentence stems and model the reasoning aloud before expecting students to do it independently.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Answers an inquiry question using at least one piece of evidence from a source",
+          "Can identify where the answer came from ('I know this because...')"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Drawing conclusions",
+        "progression_checkpoint": "Students can draw a conclusion in response to an inquiry question about family, celebrations, places or caring for places, supported by evidence from sources.",
+        "minimum_width": "Draw one conclusion in response to a provided inquiry question, supported by at least one piece of evidence.",
+        "typical_width": "Draw conclusions about main people in family, important celebrations, features of special places, and ways of caring for places; support each conclusion with evidence from sources or observations.",
+        "wider": [
+          "Draw conclusions about a place and suggest what would change if it were not cared for",
+          "Draw conclusions about why a celebration is important by comparing it across two different families or cultural groups"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Conclusion-drawing integrates questioning, sourcing and evidence-use — model the full inquiry cycle explicitly before expecting students to execute it independently."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Draws at least one conclusion in response to an inquiry question",
+          "Supports the conclusion with at least one piece of evidence"
+        ]
+      }
+    ]
+  }
+}

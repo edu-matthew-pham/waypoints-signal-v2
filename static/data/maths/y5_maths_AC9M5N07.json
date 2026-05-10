@@ -1,0 +1,92 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N07",
+    "title": "Divide with remainders",
+    "strand": "Number",
+    "description": "Solve problems involving division, choosing efficient strategies and using digital tools where appropriate; interpret any remainder according to the context and express results as a whole number, decimal or fraction",
+    "prior_knowledge": "Students can apply estimation and rounding strategies (AC9M4N07). They have not yet interpreted remainders in context or expressed division results as decimals or fractions.",
+    "progression_endpoint": "Students solve problems involving division using efficient strategies and interpret any remainder as a whole number, decimal or fraction according to context.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Division strategies",
+        "progression_checkpoint": "Students can apply and explain at least two division strategies for dividing multi-digit numbers.",
+        "minimum_width": "Divide a two- or three-digit number by a single digit using at least one written strategy; show working.",
+        "typical_width": "Apply and compare strategies: short division, repeated subtraction, partition; use digital tools to verify; identify efficient strategies for different number types.",
+        "wider": [
+          "Connect division to multiplication inverse: 144 ÷ 12 via 12 × ? = 144",
+          "Investigate long division for 3-digit ÷ 2-digit"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students with only one strategy are vulnerable when divisors are large or numbers are awkward. A repertoire including informal and formal methods builds flexibility."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student applies a division strategy correctly to a multi-digit ÷ single-digit problem",
+          "Student can explain the steps in their chosen strategy"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Interpreting remainders",
+        "progression_checkpoint": "Students can interpret a remainder in three ways (whole number remainder, decimal, fraction) according to context.",
+        "minimum_width": "Solve a division problem with a remainder and explain the remainder as both a whole number leftover and as a fraction of the divisor.",
+        "typical_width": "Solve problems in varied contexts where the same remainder requires different interpretations (round up, round down, express as decimal, express as fraction); explain the contextual reasoning for each choice.",
+        "wider": [
+          "Investigate how digital tools represent remainders and why the representation choice matters",
+          "Explore Aboriginal and Torres Strait Islander contexts involving proportional sharing that require remainder interpretation"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Remainder interpretation is entirely context-dependent. Students who only practise one form (whole number remainder) fail to transfer. Multiple contrasting contexts are the only way to build the required interpretive judgement.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The variety of contextual remainder interpretations is genuinely rich: sharing food, packaging, rounding costs. Advancing students benefit from designing their own contextual problems.",
+        "hinge": true,
+        "hinge_reason": "Remainder interpretation is required in Node 3 — students who can only express remainders in one form cannot select the appropriate representation when choosing a strategy for a given problem context.",
+        "success_criteria": [
+          "Student interprets a remainder correctly as directed by context",
+          "Student explains why the same remainder might be expressed differently in different contexts"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Choosing strategies and digital tools",
+        "progression_checkpoint": "Students can choose an efficient division strategy for a given problem and use digital tools appropriately.",
+        "minimum_width": "Select a division strategy appropriate for a given problem and explain the choice; use a digital tool to verify the result.",
+        "typical_width": "Compare efficiency of mental, written and digital strategies across different problem types; justify strategy selection; apply in multi-step contexts.",
+        "wider": [
+          "Investigate when digital tools are more appropriate than written strategies and vice versa",
+          "Apply division strategy selection to financial problem contexts"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Efficient strategy selection for division requires a repertoire of approaches. Students who only know one strategy cannot adapt — breadth of strategies is the learning."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student selects an appropriate strategy for a given division problem",
+          "Student explains why the chosen strategy is efficient"
+        ]
+      }
+    ]
+  }
+}

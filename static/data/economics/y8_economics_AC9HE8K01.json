@@ -1,0 +1,155 @@
+{
+  "year_level": "8",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HE8K01",
+    "title": "Markets and price signals",
+    "description": "how markets influence decisions about the allocation of resources to the production of goods and services, and the effect of prices on these decisions",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students understand why opportunity cost exists as decisions are made to allocate limited resources to meet unlimited needs and wants (AC9HE7K01). They understand the reasons businesses exist and how different types of businesses provide goods and services (AC9HE7K02).",
+    "progression_endpoint": "Students explain how markets influence decisions about the allocation of resources to the production of goods and services, and how prices signal those decisions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Market participants and interactions",
+        "progression_checkpoint": "Students can identify the main participants in a market system (household, business, finance and government sectors) and describe how their interactions enable the market to function.",
+        "minimum_width": "Identify two or more sectors involved in the Australian market system and describe one interaction between them (e.g. households supply labour to businesses in exchange for income).",
+        "typical_width": "Explain how the interactions of all four sectors — household, business, finance and government — enable the market to operate, including exchange of goods, services, labour and money flows.",
+        "wider": [
+          "Map circular flow of income model showing all four sector interactions, including injections (government spending, investment, exports) and leakages (taxation, saving, imports)",
+          "Compare how market participation differs across different types of economies (e.g. mixed economy in Australia versus more command-oriented or subsistence contexts)",
+          "Investigate how digital platforms have created new forms of market participation, such as peer-to-peer transactions that blur the household/business sector boundary"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without understanding who participates and how interactions work, students cannot meaningfully interpret what prices signal or how resource allocation decisions are made — both subsequent nodes depend on this foundation.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often conflate the sectors or treat the government as external to the market rather than as an active participant. Explicitly mapping each sector's role and the flows between them builds the mental model needed for price signal reasoning.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least three of the four market sectors by name and describes a role each plays",
+          "Describes at least one interaction between sectors using appropriate economic terms (e.g. labour, income, goods, services)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "The three allocation questions",
+        "progression_checkpoint": "Students can explain how the interaction between buyers and sellers determines answers to 'What to produce?', 'How to produce?' and 'For whom to produce?'",
+        "minimum_width": "Explain one of the three allocation questions (what, how, or for whom) using a specific example of buyer-seller interaction in a familiar market.",
+        "typical_width": "Explain how buyer-seller interactions in markets provide answers to all three fundamental allocation questions, using concrete examples for each (e.g. rising demand for electric vehicles signals 'what' to produce; automation decisions address 'how'; income levels shape 'for whom').",
+        "wider": [
+          "Investigate how market failures (e.g. negative externalities, public goods) mean markets sometimes give incomplete or distorted answers to the allocation questions, and how government intervention attempts to correct this",
+          "Compare how a command economy answers the three allocation questions centrally versus how a market economy decentralises those decisions to buyers and sellers",
+          "Explore how First Nations Australian community economies may answer allocation questions through non-market mechanisms such as reciprocity, kinship obligations and communal decision-making"
+        ],
+        "hinge": true,
+        "hinge_reason": "The three allocation questions are the conceptual frame for the descriptor's endpoint. If students cannot connect buyer-seller interactions to these questions, they cannot meaningfully explain resource allocation — the final node cannot be reached.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The three questions are often reduced to slogans rather than applied analytically. Structured examples — 'When X happens in the market, what allocation question does that answer and why?' — build the analytical link needed.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Using multiple real-world market contexts (petrol, housing, food delivery) prevents students from treating the three questions as abstract; each context illuminates a different facet of how markets allocate.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The three allocation questions apply across every sector and market type. Wider contexts — including non-market and First Nations economic arrangements — reveal that these questions are universal even where the mechanism answering them differs, deepening understanding of what markets actually do.",
+        "success_criteria": [
+          "Names all three fundamental allocation questions and explains what each asks",
+          "Provides a specific example of how buyer-seller interaction answers at least two of the three allocation questions"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Factors that influence price",
+        "progression_checkpoint": "Students can identify and explain multiple factors that influence how a price is set, using a concrete product or service example.",
+        "minimum_width": "Identify at least two factors that influence the price of one product or service and explain how each factor affects the price (e.g. petrol: supply availability and consumer demand).",
+        "typical_width": "Discuss multiple factors that influence price-setting across different product contexts, including supply availability, consumer demand, production costs, and competition. Explain how these factors interact rather than operate in isolation.",
+        "wider": [
+          "Investigate how global commodity prices (e.g. iron ore, wheat) influence domestic Australian prices and what factors drive price volatility on global markets",
+          "Examine how monopoly or oligopoly market structures allow businesses to set prices differently from competitive markets, and the consumer implications",
+          "Research how government intervention (excise taxes, subsidies, price controls) deliberately distorts prices away from where market forces would otherwise set them, and why"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students benefit from accumulating several concrete product-price examples before the integration node. Each example should add a different dominant factor (demand-driven, cost-driven, competition-driven) to build range."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two distinct factors that influence the price of a specific product",
+          "Explains how a change in one of those factors would affect the price, using economic reasoning"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Price as resource allocation signal",
+        "progression_checkpoint": "Students can explain how price changes signal to consumers and businesses, and how those signals redirect resources toward or away from the production of specific goods and services.",
+        "minimum_width": "Explain one example of how a rise or fall in price acts as a signal that causes consumers or businesses to change their behaviour, resulting in resources being redirected.",
+        "typical_width": "Explain how price signals interact: when the price of a good or service rises, producers have incentive to redirect resources to produce more of it; when price falls, resources shift away. Use at least two examples showing both consumer and producer responses.",
+        "wider": [
+          "Investigate how price signals in labour markets (wages) redirect human resources between industries over time — e.g. declining manufacturing wages versus rising technology sector wages in Australia",
+          "Analyse a real case study of rapid price change (e.g. mask prices during COVID-19, used car prices post-pandemic) to trace how resources were allocated in response to the price signal",
+          "Examine the concept of price elasticity: how the strength of the resource-allocation response to a price signal varies depending on how essential the good is and how many substitutes exist"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Price-as-signal is an abstract mechanism. Multiple vivid real-world examples — including ones students have encountered (fuel, food, housing) — are needed to make the mechanism concrete before it can be applied at integration.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The price signal mechanism operates across every market — goods, services, labour, capital. Wider contexts expose students to qualitatively different signal types (wages, interest rates, commodity prices) that deepen understanding of how allocation works system-wide, not just in consumer goods markets.",
+        "success_criteria": [
+          "Identifies a price change and explains the direction of the signal it sends to producers or consumers",
+          "Explains how a resource (labour, materials, capital) is redirected as a result of that price signal"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Markets, prices and resource allocation — integrated",
+        "progression_checkpoint": "Students can explain how markets influence decisions about the allocation of resources to the production of goods and services, connecting participant interactions, the three allocation questions, price factors, and price signals into a coherent account.",
+        "minimum_width": "Explain how a change in market conditions (e.g. a rise in consumer demand for a product) flows through the market system — affecting price, sending signals to producers, and ultimately redirecting resources. Use appropriate economic terms throughout.",
+        "typical_width": "Explain how markets allocate resources through the price mechanism, drawing on all four building blocks: who participates and how, the three allocation questions, what drives prices, and how price signals direct resource flows. Apply to at least one extended example.",
+        "wider": [
+          "Compare how the market allocates resources in a sector experiencing rapid technological change (e.g. energy, transport) versus a more stable sector, examining how the price signals differ in strength and speed",
+          "Investigate a case where market price signals have led to outcomes that are efficient for producers and consumers but problematic for society (e.g. environmental costs not captured in price), and explain why the market allocation is incomplete",
+          "Evaluate how First Nations Australian businesses use market signals alongside non-market values (Country stewardship, community benefit) when making production and resource allocation decisions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The four building blocks from earlier nodes must be connected into a single coherent explanation. Students should demonstrate they can trace a cause from market conditions through to resource allocation, not treat each concept as a separate item."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains how a market scenario connects participant interaction, pricing factors, and resource allocation decisions",
+          "Uses at least three economics terms accurately in an extended explanation of how markets influence resource allocation"
+        ],
+        "related_standards": ["AC9HE8K02", "AC9HE8K03", "AC9HE8S03"]
+      }
+    ]
+  }
+}

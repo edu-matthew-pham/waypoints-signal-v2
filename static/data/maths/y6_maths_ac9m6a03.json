@@ -1,0 +1,97 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6A03",
+    "title": "Algorithms for number patterns",
+    "description": "Create and use algorithms involving a sequence of steps and decisions that use rules to generate sets of numbers; identify, interpret and explain emerging patterns",
+    "strand": "algebra",
+    "mode": "A",
+    "prior_knowledge": "Students can create algorithms to experiment with factors, multiples and divisibility (AC9M5N10). They can identify and interpret patterns in sequences. They have not yet created algorithms specifically to generate number sets using rules involving rational numbers or algorithms with decision branches.",
+    "progression_endpoint": "Students can create and use algorithms involving steps and decisions that use rules to generate sets of numbers, and identify, interpret and explain emerging patterns.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What an algorithm is \u2014 steps and decisions",
+        "progression_checkpoint": "Students can describe an algorithm as a precise sequence of steps, including conditional decisions, that can be followed to produce a result.",
+        "minimum_width": "Describe a familiar everyday process as an algorithm with at least three steps; identify at least one decision point (if/then); follow a given algorithm to produce its output.",
+        "typical_width": "Recognise decision points in algorithms (conditions that change the path); distinguish sequential steps from conditional branches; follow written and flowchart algorithms; identify where an algorithm would loop or repeat.",
+        "wider": [
+          "Compare algorithm representations: written instructions vs flowchart \u2014 what are the advantages of each?",
+          "Investigate what happens if a step is left out or reordered \u2014 how does this affect the output?"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who learn algorithms only in a mathematics context often fail to recognise the algorithmic structure in everyday procedures. Varied contexts (recipes, navigation, sorting, mathematical procedures) help establish the general concept of algorithm as precise sequence with decisions.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "A clear understanding of sequential steps and conditional decision points is the structural prerequisite for Node 2. Students who cannot distinguish sequence from branch in a given algorithm cannot create one with the necessary precision to generate a specified number set.",
+        "success_criteria": [
+          "Student identifies the steps and at least one decision point in a given algorithm.",
+          "Student follows a simple algorithm to produce its output."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Creating algorithms to generate number sets",
+        "progression_checkpoint": "Students can create an algorithm (as written steps or a flowchart) that uses a rule to generate a set of numbers, and use it to produce the set.",
+        "minimum_width": "Write a step-by-step algorithm that generates a specific number sequence (e.g. all multiples of 3 to 100, or all numbers satisfying two conditions); run the algorithm to produce the set.",
+        "typical_width": "Create algorithms that generate number sets using arithmetic rules, divisibility conditions, and combinations of criteria; represent algorithms in written and flowchart form; test algorithms by tracing through them manually and with digital tools.",
+        "wider": [
+          "Create an algorithm to generate Fibonacci-like sequences starting from different seed values and compare the resulting patterns",
+          "Design an algorithm that generates all numbers satisfying two separate conditions (e.g. prime AND between 50 and 100) and explain why the decision order matters"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Creating an algorithm requires students to externalise and order their reasoning. Students frequently write steps that are implicit or assume background knowledge. Scaffolding the 'write it so a computer (or a classmate who doesn't know the pattern) could follow it' standard helps develop the precision needed."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student creates an algorithm with at least three steps and one decision point that generates a number set.",
+          "Student traces through the algorithm to verify it produces the correct set."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Identifying and explaining emerging patterns",
+        "progression_checkpoint": "Students can use an algorithm to generate a set of numbers, identify patterns that emerge in the set, and explain why those patterns arise from the algorithm's rules.",
+        "minimum_width": "Run an algorithm to generate a number set; identify at least one pattern in the output; offer a reason why that pattern emerges from the rule.",
+        "typical_width": "Generate number sets from algorithms and identify multiple patterns; distinguish patterns that are always true from those that appear in the generated sample; explain the connection between the algorithm's rule and the patterns in the output; use digital tools to test conjectures about large sets.",
+        "wider": [
+          "Investigate what happens to patterns when the algorithm's rule is slightly modified \u2014 systematic variation to understand the rule-pattern connection",
+          "Explore the Collatz conjecture at an accessible level: the algorithm always seems to reach 1 \u2014 test with many starting values using a spreadsheet and describe what you observe"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Explaining emerging patterns requires students to connect their algorithm (the rule) to its output (the number set) and articulate the causal relationship. This integrates algorithm literacy, pattern recognition, and mathematical reasoning into the kind of explanation that is the endpoint of this descriptor.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Pattern investigation in number sets generated by algorithms is genuinely open-ended and accessible at Year 6 while offering real mathematical depth. Conjectures, counter-examples, and surprising patterns reward investigation without exceeding the year band.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student identifies a pattern in a number set generated by an algorithm.",
+          "Student explains why the pattern arises by referring to the rule in the algorithm."
+        ]
+      }
+    ]
+  }
+}

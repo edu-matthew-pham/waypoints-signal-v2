@@ -1,0 +1,119 @@
+{
+  "year_level": "5",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HS5K05",
+    "title": "Managing environments and hazards",
+    "description": "the management of Australian environments, including managing severe weather events such as bushfires, floods, droughts or cyclones, and their consequences",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "From AC9HS4K06 (Resource management and sustainability): Students explain why environments are important and how communities manage resources for sustainability. Students understand that environments can be affected by human actions.",
+    "progression_endpoint": "Students explain how Australian environments are managed, including the management of severe weather events such as bushfires, floods, droughts and cyclones, and evaluate the consequences of both events and management responses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "How environments are used and managed",
+        "progression_checkpoint": "Students can explain how Australian environments are managed through practices and laws designed to balance human use with environmental protection.",
+        "minimum_width": "Explain one way Australian environments are managed (e.g. national parks, zoning, wildlife corridors) and why that management is needed.",
+        "typical_width": "Explain the range of environmental management approaches: protective laws and practices, zoning systems, creation of wildlife corridors and national parks, and land-use planning that aims to balance economic use with environmental protection.",
+        "wider": [
+          "Investigate the management of a specific Australian national park or protected area, including the rules, zoning and management challenges it faces",
+          "Explore how First Nations Australian management practices (e.g. cultural burning, seasonal harvesting protocols) are being incorporated into contemporary environmental management frameworks"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who don't understand that environments are actively managed through deliberate decisions will treat environmental hazards as purely natural events disconnected from human choice. The concept of management is the prerequisite for evaluating management responses in subsequent nodes.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Use a framework that distinguishes 'what the environment provides', 'how humans use it', and 'how management balances these' — this three-part structure scaffolds the conceptual move from environment as given to environment as managed.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students name at least two environmental management approaches and explain the purpose of each.",
+          "Students give a specific Australian example for at least one management approach."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Types of severe weather events",
+        "progression_checkpoint": "Students can describe the types of severe weather events that affect Australian environments — bushfires, floods, droughts and cyclones — and explain their causes and typical locations.",
+        "minimum_width": "Describe one type of severe weather event, explain where in Australia it typically occurs, and identify one consequence.",
+        "typical_width": "Describe the range of severe weather events affecting Australia (bushfires, floods, droughts, cyclones), explain the environmental and geographical factors that cause them, and identify the typical regions most at risk from each.",
+        "wider": [
+          "Investigate how climate patterns and climate variability (including El Niño and La Niña) affect the frequency and intensity of severe weather events in Australia",
+          "Compare the experience of severe weather events in Australia with those in other countries, and explain why different regions face different types of natural hazards"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often have uneven prior experience of different hazard types depending on where they live — deliberately addressing all four types ensures the breadth needed for comparative management analysis."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students name at least three types of severe weather events that affect Australia and the regions at risk.",
+          "Students explain at least one cause of a severe weather event and its typical consequences."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Management strategies for hazards",
+        "progression_checkpoint": "Students can explain how communities and governments manage the risks of severe weather events through preparation, mitigation and response strategies.",
+        "minimum_width": "Describe two management strategies for one type of severe weather event (e.g. building codes for cyclones, controlled burns for bushfires).",
+        "typical_width": "Explain the range of management strategies for severe weather events: building codes and zoning regulations, controlled burns and firebreaks, water management and storage systems, evacuation plans, and early warning systems.",
+        "wider": [
+          "Investigate the management of a recent Australian severe weather event (e.g. a specific bushfire, flood or cyclone) and evaluate the effectiveness of preparation and response",
+          "Explore how community organisations (e.g. Rural Fire Service, State Emergency Service) are structured to manage hazards, and assess the role of volunteers in this system"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Management strategies are best understood through specific case studies — students need concrete examples of how strategies work in practice, not just abstract lists of approaches.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Recent Australian severe weather events provide rich and relevant investigative territory. Examining a specific event end-to-end (preparation → event → response → recovery) gives students a genuine analytical frame with real-world stakes.",
+        "success_criteria": [
+          "Students explain at least two management strategies for severe weather events with reference to how they reduce risk or harm.",
+          "Students distinguish between preparedness strategies (before an event) and response strategies (during and after)."
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Consequences and evaluating responses",
+        "progression_checkpoint": "Students can explain the consequences of severe weather events on communities and environments, and evaluate how effectively management approaches reduce those consequences.",
+        "minimum_width": "Explain two consequences of a severe weather event and assess whether one management strategy was effective in reducing harm.",
+        "typical_width": "Explain the environmental, social and economic consequences of severe weather events; evaluate how effective management strategies (e.g. building codes, controlled burns, irrigation) have been in reducing harm; acknowledge that not all consequences can be mitigated.",
+        "wider": [
+          "Evaluate the long-term consequences of a recurring environmental hazard (e.g. drought) on a specific community or industry, and propose management improvements",
+          "Examine how environmental mismanagement can create or intensify hazards (e.g. fire fuel loads from lack of burning, flood risk from inadequate drainage planning), and propose how management practices should change"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluation requires students to bring together their understanding of hazard types, management strategies, and consequences. Use structured evaluation criteria (e.g. economic cost, lives saved, environmental protection) to scaffold judgment."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Students explain at least two consequences of a severe weather event across different domains (e.g. environmental, economic, social).",
+          "Students evaluate the effectiveness of at least one management strategy with reference to evidence.",
+          "Students use relevant geographic and environmental terms accurately."
+        ]
+      }
+    ]
+  }
+}

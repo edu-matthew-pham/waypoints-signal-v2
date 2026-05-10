@@ -1,0 +1,94 @@
+{
+  "year_level": "5",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M5N08",
+    "title": "Estimation strategies",
+    "strand": "Number",
+    "description": "Check and explain the reasonableness of solutions to problems including financial contexts using estimation strategies appropriate to the context",
+    "prior_knowledge": "Students can use equal sharing and grouping strategies (AC9M1N06). They have not yet applied formal estimation strategies to check reasonableness in financial or multi-step contexts.",
+    "progression_endpoint": "Students check and explain the reasonableness of solutions using appropriate estimation strategies including in financial contexts.",
+    "mode": "A",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Estimation strategies",
+        "progression_checkpoint": "Students can apply rounding and front-end estimation to approximate a calculation result before or after computing.",
+        "minimum_width": "Apply rounding to estimate the result of a calculation; compare the estimate to the computed answer.",
+        "typical_width": "Apply and compare front-end, rounding and compensation strategies; choose the most appropriate strategy for a given calculation; explain why an estimate is sufficient or insufficient.",
+        "wider": [
+          "Use estimation to budget within financial scenarios",
+          "Investigate how estimation is used in scientific measurement and reporting"
+        ],
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Different estimation strategies suit different number types. Students need exposure to multiple strategies to select appropriately rather than defaulting to rounding in all cases.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "Estimation strategy repertoire is required by Node 2 — students who can only round cannot evaluate reasonableness across varied calculation types, including those where rounding produces misleading estimates.",
+        "success_criteria": [
+          "Student produces a reasonable estimate using a named strategy",
+          "Student explains the strategy used and why it is appropriate"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Reasonableness judgement",
+        "progression_checkpoint": "Students can evaluate whether a given answer to a problem is reasonable using estimation, and explain their judgement.",
+        "minimum_width": "Given a problem and a proposed answer, use estimation to judge whether the answer is reasonable; explain the reasoning.",
+        "typical_width": "Apply reasonableness checks to multi-step problems and financial contexts; identify common error types (e.g. operation error, magnitude error) by inspecting the relationship between estimate and answer.",
+        "wider": [
+          "Analyse real-world calculation errors (e.g. news reports, budgeting mistakes) and use estimation to identify the error",
+          "Design 'unreasonable answer' problems for peers to identify"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Reasonableness judgement is highly context-dependent. Students need varied contexts to develop genuine evaluation skill rather than mechanical rounding followed by a yes/no answer.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real error analysis and problem design give advancing students purposeful, authentic tasks.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student correctly judges whether a given answer is reasonable",
+          "Student explains their judgement using an estimation strategy"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Estimation in financial contexts",
+        "progression_checkpoint": "Students can apply estimation strategies to check the reasonableness of solutions in financial contexts.",
+        "minimum_width": "Apply an estimation strategy to a financial problem (e.g. estimating total cost); judge whether the exact answer is reasonable.",
+        "typical_width": "Apply estimation across a range of financial contexts (shopping, budgets, change); identify when estimation is sufficient vs when exact calculation is needed; communicate reasoning.",
+        "wider": [
+          "Analyse a household budget scenario using estimation to identify whether it is viable",
+          "Investigate how financial journalists use estimation to convey magnitudes"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Financial contexts have diverse estimation demands: shopping (round up), budgeting (round conservatively), reporting (order of magnitude). Multiple contexts build contextual judgement about appropriate precision.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real financial analysis contexts are rich and purposeful for advancing students.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student applies an estimation strategy correctly in a financial context",
+          "Student judges whether the exact answer confirms or contradicts the estimate"
+        ]
+      }
+    ]
+  }
+}

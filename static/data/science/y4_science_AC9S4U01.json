@@ -1,0 +1,184 @@
+{
+  "year_level": "4",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S4U01",
+    "title": "Food Chains and Habitats",
+    "description": "explain the roles and interactions of consumers, producers and decomposers within a habitat and how food chains represent feeding relationships",
+    "strand": "Biological Sciences",
+    "mode": "A",
+    "prior_knowledge": "Students can compare characteristics of living and non-living things and explain differences between plant and animal life cycles (AC9S3U01). They have not yet examined feeding relationships between organisms or the role of decomposers in a habitat.",
+    "progression_endpoint": "Students explain the roles of producers, consumers and decomposers within a habitat \u2014 including how each group obtains energy and contributes to the habitat \u2014 and construct food chains to represent feeding relationships between named organisms across different habitats.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Producers make their own food",
+        "progression_checkpoint": "Students can identify producers as living things that make their own food using sunlight and explain why this makes them the starting point of a food chain.",
+        "minimum_width": "Students identify plants as producers and explain that they use sunlight to make food, giving one or two habitat examples.",
+        "typical_width": "Students identify producers across different habitat types (terrestrial, aquatic) and explain the role of sunlight as the energy source for the whole food chain.",
+        "wider": [
+          "Examine producers beyond flowering plants \u2014 algae, phytoplankton, and aquatic grasses \u2014 and discuss what makes something a producer regardless of its form",
+          "Connect to First Nations Australians' deep knowledge of productive plants in local habitats and how this knowledge guided sustainable use",
+          "Explore edge cases: fungi are not producers \u2014 where do they fit? (seeds a question that connects to the decomposer node)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Producers are the definitional starting point of a food chain. Students who overgeneralise 'plants' as the only producers, or who cannot explain the sunlight-energy link, will construct incorrect chains in Node 4 and fail to understand why food chains always begin with a producer.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students frequently overgeneralise 'plants' as the only producers and miss aquatic or microscopic producers. Exposure to producers across varied habitat types (forest floor, reef, wetland) builds a more robust concept of what a producer is and prevents the food-chain construction errors that follow from this misconception.",
+            "flags": [
+              "hinge",
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of producer types across habitats \u2014 from terrestrial plants to aquatic algae \u2014 offers genuine richness. First Nations knowledge of productive plants provides a culturally grounded and ecologically specific direction that goes well beyond naming examples.",
+        "success_criteria": [
+          "Identifies at least two producers from a named habitat and explains that they make their own food using sunlight",
+          "Explains why producers are placed at the start of a food chain"
+        ],
+        "related_standards": [
+          "AC9S4H02",
+          "AC9S4I01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Consumers eat other organisms",
+        "progression_checkpoint": "Students can classify animals as consumers, distinguish between herbivores, carnivores and omnivores, and explain that consumers obtain energy by eating producers or other consumers.",
+        "minimum_width": "Students classify animals from a named habitat as consumers and sort examples into herbivore, carnivore or omnivore categories with justification.",
+        "typical_width": "Students explain how energy moves from producers to consumers and identify multiple levels of consumers (primary, secondary) in a habitat without using that terminology explicitly.",
+        "wider": [
+          "Examine consumers that are difficult to classify \u2014 omnivores that shift diet by season, scavengers, parasites \u2014 and discuss where they fit",
+          "Explore how First Nations Australians classify animals and their feeding relationships, and compare with the producer/consumer framework",
+          "Investigate how the removal of one consumer from a habitat affects others \u2014 connects to food chain disruption in the next node"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly conflate 'consumer' with 'animal that eats meat' and struggle with omnivores and scavengers. Varied examples across habitats and feeding types help students build a working classification that holds up under edge cases and prepares them for accurate food chain construction."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Classifies at least three animals from a named habitat as herbivore, carnivore or omnivore with reasoning",
+          "Explains that consumers get their energy from eating other living things, not from sunlight directly"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Decomposers break down waste and remains",
+        "progression_checkpoint": "Students can identify decomposers as living things that break down dead organisms and waste, and explain why decomposers are important to a habitat.",
+        "minimum_width": "Students identify examples of decomposers (worms, fungi, bacteria) and explain that they break down dead organisms, returning nutrients to the soil.",
+        "typical_width": "Students explain the role of decomposers in cycling nutrients through a habitat and describe why removing decomposers would affect other organisms.",
+        "wider": [
+          "Research the diversity of decomposers \u2014 bacteria, fungi, detritivores \u2014 and compare how each contributes to breakdown",
+          "Examine how knowledge of decomposers has been applied in composting systems (connects to AC9S4H02)",
+          "Explore how First Nations Australians understand the role of decomposers in Country management and ecological cycles"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The decomposer role is non-obvious \u2014 students do not intuitively connect decomposers to nutrient cycling or see them as part of the food chain. Making the logic explicit (dead matter accumulates \u2192 decomposers break it down \u2192 nutrients return to soil \u2192 producers can grow) supports accurate understanding before students encounter food web models.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection to composting and waste management (AC9S4H02) and the diversity of decomposer types offers genuine enrichment. Students engaging the wider tier can connect the abstract role to real human-designed systems and First Nations land management practices.",
+        "success_criteria": [
+          "Identifies at least two examples of decomposers and explains that they break down dead matter",
+          "Explains why decomposers are important to the habitat (nutrients returned to soil for producers)"
+        ],
+        "related_standards": [
+          "AC9S4H02"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Food chains show feeding sequences",
+        "progression_checkpoint": "Students can construct a food chain for a named habitat using correct notation (arrows showing energy flow) and label each organism as producer, consumer or decomposer.",
+        "minimum_width": "Students construct a simple food chain (3\u20134 links) for a given habitat using arrow notation and label each organism correctly.",
+        "typical_width": "Students construct food chains for two different habitats, explain what the arrows represent (energy flow, not just 'eats'), and compare the chains to identify structural similarities.",
+        "wider": [
+          "Compare food chains across markedly different habitats \u2014 arid desert, tropical rainforest, reef \u2014 and explain what determines chain length",
+          "Represent the same habitat's feeding relationships as both a food chain and an informal food web, and discuss what a food chain can and cannot show",
+          "Construct food chains from First Nations ecological knowledge of a local habitat and compare to textbook examples"
+        ],
+        "hinge": true,
+        "hinge_reason": "Arrow direction errors (pointing toward predator rather than in the direction of energy flow) are prerequisite errors that propagate into Node 5 \u2014 students who cannot construct accurate chains cannot reason about what happens when an organism is removed, because they lack a correct model of energy flow sequence.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Arrow direction errors are common and persistent \u2014 students draw arrows toward the predator ('what eats what') rather than in the direction of energy flow. Accurate notation requires deliberate practice with feedback, not more examples of different habitats.",
+            "flags": [
+              "hinge"
+            ]
+          },
+          {
+            "mode": "integration",
+            "reason": "Food chain construction requires coordinating the three roles (producer, consumer, decomposer) into a single representation. Students who have each role as a separate idea must now apply all three simultaneously while observing notation conventions.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing food chains across habitats and connecting to food web thinking (preview of Y7 AC9S7U02) offers genuine richness for advancing students. The First Nations ecological knowledge direction grounds the abstract structure in locally meaningful content.",
+        "success_criteria": [
+          "Constructs a food chain with arrows pointing in the direction of energy flow (not toward predator)",
+          "Correctly labels each organism in the chain as producer, consumer or decomposer",
+          "Explains what the arrows in a food chain represent"
+        ],
+        "related_standards": [
+          "AC9S4I04",
+          "AC9S7U02"
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Habitat disruption affects food chains",
+        "progression_checkpoint": "Students can explain how removing or adding an organism to a habitat affects the feeding relationships in a food chain, using examples of introduced species or habitat change.",
+        "minimum_width": "Students predict and explain what would happen to one organism in a food chain if another organism were removed, using a given habitat example.",
+        "typical_width": "Students explain how the removal of a producer or key consumer cascades through a food chain, and describe at least one real-world example of food chain disruption in Australia.",
+        "wider": [
+          "Investigate a specific case of introduced predator impact on Australian native species (e.g. foxes and small mammals) and explain the cascading effects through the food chain",
+          "Research how First Nations Australians use food chain knowledge to manage Country, including controlled burning and its effects on food chains",
+          "Explore the ecological role of decomposers in recovery after disruption \u2014 what happens to dead matter when predator populations crash"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students struggle to extend their reasoning beyond the immediately removed organism \u2014 they see one step of the chain affected rather than cascading effects. Varied disruption scenarios (producer loss, consumer loss, introduced predator) and Australian contexts help students develop a more flexible and accurate model of chain interdependence.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Australian introduced species examples (foxes, cats, cane toads) provide rich, contextually relevant content with genuine ecological complexity. First Nations land management provides an additional lens on how disruption and recovery can be managed with ecological knowledge.",
+        "success_criteria": [
+          "Predicts the effect on at least one other organism when a named organism is removed from a food chain and explains the reasoning",
+          "Identifies at least one real-world example where a food chain was disrupted and describes the cause"
+        ],
+        "related_standards": [
+          "AC9S4H01",
+          "AC9S4H02",
+          "AC9S4I01",
+          "AC9S7U02"
+        ]
+      }
+    ]
+  }
+}

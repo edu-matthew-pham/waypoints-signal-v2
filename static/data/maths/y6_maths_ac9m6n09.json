@@ -1,0 +1,89 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6N09",
+    "title": "Model with rational numbers",
+    "description": "Use mathematical modelling to solve practical problems involving natural and rational numbers and percentages, including in financial contexts; formulate the problems, choosing operations and efficient calculation strategies, and using digital tools where appropriate; interpret and communicate solutions in terms of the situation, justifying the choices made",
+    "strand": "number_modelling",
+    "mode": "A",
+    "prior_knowledge": "Students can use mathematical modelling to solve additive and multiplicative problems including financial contexts (AC9M5N09). They can formulate problems and interpret solutions in terms of the situation. They have not yet modelled problems involving rational numbers and percentages using the full modelling cycle (formulate \u2192 calculate \u2192 interpret \u2192 justify).",
+    "progression_endpoint": "Students can use mathematical modelling to solve practical problems involving rational numbers and percentages, formulating problems, choosing strategies, interpreting solutions, and justifying choices.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Formulating rational number problems",
+        "progression_checkpoint": "Students can identify the mathematical structure of a practical problem involving rational numbers or percentages and formulate it as a mathematical calculation.",
+        "minimum_width": "Read a practical problem involving fractions, decimals or percentages; identify the operation(s) required; write the calculation that represents the situation before solving.",
+        "typical_width": "Formulate mathematical representations for a range of practical problems involving rational numbers and percentages; identify when multiple operations are needed; check that the formulation matches the problem structure before calculating.",
+        "wider": [
+          "Investigate problems that are ambiguous in their formulation \u2014 where the same words could suggest different operations \u2014 and discuss which formulation fits the situation",
+          "Compare different students' formulations of the same problem and evaluate which is more efficient"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often recognise the calculation type in familiar problem formats but fail to formulate unfamiliar ones correctly. Encountering rational number problems across diverse contexts (cooking, sport, finance, data) builds recognition of the mathematical structure across surface differences."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student writes a mathematical expression or equation that correctly represents the structure of a practical problem.",
+          "Student explains why they chose the operations they did."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Choosing efficient strategies and digital tools",
+        "progression_checkpoint": "Students can select efficient calculation strategies for rational number problems, including deciding when digital tools are appropriate, and execute the calculation accurately.",
+        "minimum_width": "Solve a rational number or percentage problem using a chosen strategy; state why the strategy was chosen; use a digital tool for at least one calculation.",
+        "typical_width": "Select from mental, written, and digital strategies based on the complexity and context of the problem; justify the choice; apply estimation to check reasonableness of digital tool output.",
+        "wider": [
+          "Compare the results from mental, written, and digital methods for the same problem and discuss any discrepancies",
+          "Investigate problems where a digital tool could give a misleading or unreasonable answer if inputs are entered incorrectly \u2014 the importance of estimation as a check"
+        ],
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student selects a strategy appropriate to the problem and explains their choice.",
+          "Student uses estimation to check that their answer is reasonable."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Interpreting and communicating solutions",
+        "progression_checkpoint": "Students can interpret the mathematical result of a rational number calculation in terms of the original situation and communicate the solution with appropriate precision and justification.",
+        "minimum_width": "State the answer to a practical problem in context (not just as a number); explain what the number represents in the situation; note any constraints on precision (e.g. you can't buy a fraction of an item).",
+        "typical_width": "Interpret results including cases requiring rounding to realistic precision (cents, whole items, nearest centimetre); communicate the solution as a complete response to the original question; justify why the answer is reasonable.",
+        "wider": [
+          "Investigate problems where the mathematical answer needs to be rounded up (packaging, tickets) vs rounded down (money remaining) and explain the direction of rounding in each case",
+          "Present a solution to a financial modelling problem as a recommendation with supporting calculations \u2014 as a consumer report, advice letter, or class presentation"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Communicating and justifying solutions requires students to move fluidly between the mathematical representation and the real-world context, evaluating reasonableness and making decisions about precision. This integration of mathematical and contextual reasoning is the defining goal of mathematical modelling at this level.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The diversity of practical contexts for rational number modelling \u2014 financial planning, measurement, data interpretation, proportional reasoning \u2014 provides rich opportunities for advancing students to develop transfer across contexts and sophistication in interpretation.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student answers a practical problem with a complete contextual statement (not just a number).",
+          "Student justifies whether their answer is reasonable and whether any rounding decision was appropriate."
+        ]
+      }
+    ]
+  }
+}

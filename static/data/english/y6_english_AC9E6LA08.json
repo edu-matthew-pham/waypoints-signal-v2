@@ -1,0 +1,94 @@
+{
+  "year_level": "6",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E6LA08",
+    "title": "Figurative and emotive vocabulary",
+    "description": "identify authors' use of vivid, emotive vocabulary, such as metaphors, similes, personification, idioms, imagery and hyperbole",
+    "strand": "Language — Expressing and developing ideas",
+    "mode": "A",
+    "prior_knowledge": "Students understand how vocabulary is used to express greater precision of meaning, including through metaphor, simile and personification (AC9E5LA08). They have not yet examined idioms, hyperbole, or the way figurative language creates shades of meaning that are less predictable than literal vocabulary.",
+    "progression_endpoint": "Students can identify and explain authors' use of vivid and emotive vocabulary — metaphors, similes, personification, idioms, imagery and hyperbole — and discuss how these create meaning and effect.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Figurative language devices",
+        "progression_checkpoint": "Students can identify and name the range of figurative language devices — metaphor, simile, personification, idiom, imagery, hyperbole — and explain what each does.",
+        "minimum_width": "Identify and correctly name at least three figurative language devices in provided texts; explain the literal vs. figurative meaning of one example.",
+        "typical_width": "Identify and name all six device types in provided texts; explain the difference between idioms (fixed phrases with non-literal meanings) and other figurative devices; explain how hyperbole creates emphasis through exaggeration.",
+        "wider": [
+          "Research the origins of several common English idioms and explain how their literal meanings relate to their figurative use",
+          "Compare how idioms and metaphors function in texts from different cultural contexts, including texts by First Nations Australian authors"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot reliably identify and name the full device set — particularly idioms and hyperbole — cannot perform the explanation task in Node 2 or deploy metalanguage accurately in Node 3.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to accumulate a repertoire of examples of each device — particularly idioms and hyperbole, which are newer at Y6 — before they can reliably identify and distinguish them. A range of text types builds this repertoire more effectively than a single text.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least three figurative language device types correctly when presented with examples",
+          "Explains the literal meaning of one figurative example and how it differs from its figurative meaning"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Figurative language for vivid and unexpected meaning",
+        "progression_checkpoint": "Students can explain how figurative language creates vivid and less predictable shades of meaning compared with more literal vocabulary choices.",
+        "minimum_width": "Compare a provided sentence using figurative language with a literal equivalent and explain what meaning or effect is added by the figurative choice.",
+        "typical_width": "Analyse how metaphors, personification and idioms create vivid, unexpected or emotionally resonant meanings in literary and persuasive texts; explain why an author might choose figurative language over literal vocabulary at a particular point.",
+        "wider": [
+          "Examine how figurative language choices in a poem or story create an extended or sustained impression rather than isolated effects",
+          "Analyse the figurative language in a persuasive text (e.g. a review) and explain how it affects the reader's emotional response to the subject"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who can only identify devices without explaining their effect cannot use metalanguage accurately in Node 3 — the explanation move ('this device creates this effect') is the basis for all metalinguistic discussion.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The move from 'this is a metaphor' to 'this metaphor creates this particular shade of meaning, which a literal word would not' requires explicit scaffolding. Students who have only been asked to identify devices rarely develop the explanatory move without a structured reasoning prompt.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Analysing figurative language in extended texts — particularly in poetry (connecting to AC9E6LE04) and persuasive texts — is genuinely rich work that develops critical and aesthetic reading simultaneously.",
+        "success_criteria": [
+          "Explains what effect a specific figurative language choice creates that a literal equivalent would not",
+          "Identifies at least one reason why an author might choose figurative language at a particular point in a text"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Using subject metalanguage",
+        "progression_checkpoint": "Students can use the correct vocabulary (metalanguage) to name text structures, literary devices and language features when discussing and analysing texts.",
+        "minimum_width": "Use at least two figurative language terms accurately in a written or spoken response about a text.",
+        "typical_width": "Discuss texts using vocabulary to name text structure, literary devices and language features accurately; use metalanguage (metaphor, simile, personification, idiom, hyperbole, imagery) fluently in written analysis.",
+        "wider": [
+          "Write a short analytical paragraph about a poem that uses at least three metalanguage terms accurately and explains the effect of each device",
+          "Compare two texts of the same type using metalanguage to discuss both similarities and differences in language choices"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Accurate and fluent use of metalanguage in discussion and writing requires practice. Students who know the terms in isolation often revert to vague language ('it makes it more interesting') under the pressure of producing extended writing or spoken analysis."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least two figurative language metalanguage terms accurately when discussing a text",
+          "Pairs the metalanguage term with an explanation of its effect, not just its identification"
+        ],
+        "related_standards": ["AC9E6LE04", "AC9E6LY03", "AC9E6LE03"]
+      }
+    ]
+  }
+}

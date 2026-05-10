@@ -1,0 +1,82 @@
+{
+  "year_level": "2",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M2A01",
+    "title": "Additive patterns",
+    "strand": "Algebra",
+    "mode": "A",
+    "description": "recognise, describe and create additive patterns that increase or decrease by a constant amount, using numbers, shapes and objects, and identify missing elements in the pattern",
+    "prior_knowledge": "Students recognise, continue and create simple repeating patterns with shapes and objects, and skip count in sequences (AC9M1A01, AC9M1A02). They have not yet described the constant additive term in a growing/shrinking pattern or used it to find missing elements.",
+    "progression_endpoint": "Students recognise, describe and create additive patterns that increase or decrease by a constant amount using numbers, shapes and objects, and use the constant term to identify missing elements.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising the constant term",
+        "progression_checkpoint": "Students can identify the constant amount being added or subtracted in a given additive pattern and describe it.",
+        "minimum_width": "Examine a given additive number pattern; state the constant term (e.g. 'add 2 each time' or 'subtract 3 each time').",
+        "typical_width": "Identify the constant term in additive patterns presented as number sequences, shape sequences and object arrangements; describe the pattern in words; recognise patterns increasing and decreasing.",
+        "wider": [
+          "Recognise additive patterns in the built environment (windows per carriage, wheels per car); record results in a table and state the constant term",
+          "Recognise additive patterns in First Nations Australians' material culture on Country/Place; represent using drawings, counters and numbers and describe the constant term"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students can only identify the constant term in number sequences but not in shape or object arrangements, Nodes 2 and 3 are brittle — creating patterns in non-numeric forms and finding missing elements in varied representations both depend on a generalised constant-term concept.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students may recognise the constant term in simple number sequences but fail to identify it in shape or object arrangements, or in decreasing patterns. Multiple context types are needed to build a generalised understanding of 'constant additive term' independent of representation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies the constant term in an additive pattern (e.g. 'adds 2 each time')",
+          "Distinguishes between an increasing and a decreasing additive pattern"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Creating additive patterns",
+        "progression_checkpoint": "Students can create an additive pattern with a specified constant term using materials, shapes or numbers, and describe the rule.",
+        "minimum_width": "Create one additive pattern (increasing or decreasing) with a given constant term using materials or numbers; describe the rule in words.",
+        "typical_width": "Create additive patterns using numbers, shapes and objects; describe the rule; write the associated number sequence; connect a material-based pattern to its number sequence.",
+        "wider": [
+          "Use matchsticks or connecting shapes to create a growing pattern (e.g. triangles: 3, 5, 7...); write the number sequence and describe so someone else can replicate it with different materials",
+          "Use dynamic digital tools or generative AI to create patterns increasing or decreasing by a constant amount; discuss the instructions given to achieve the output"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates an additive pattern with the specified constant term",
+          "Describes the pattern rule so another person could replicate it"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Finding missing elements",
+        "progression_checkpoint": "Students can use the constant term in an additive pattern to identify missing elements, including non-adjacent missing terms.",
+        "minimum_width": "Given an additive pattern with one missing element, use the constant term to find the missing value.",
+        "typical_width": "Identify missing elements in additive patterns in number sequences, tables and object arrangements; use the constant term to work forward or backward; explain the reasoning.",
+        "wider": [
+          "Find missing terms that are not adjacent (e.g. given 1st and 4th terms, find the 2nd and 3rd); explain the strategy",
+          "Create a pattern with a deliberately missing element; challenge a partner to identify the rule and find the missing term"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies a missing element in an additive pattern using the constant term",
+          "Explains how the constant term was used to find the missing value"
+        ]
+      }
+    ]
+  }
+}

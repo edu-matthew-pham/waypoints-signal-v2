@@ -1,0 +1,97 @@
+{
+  "year_level": "6",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M6P01",
+    "title": "Probability scale 0 to 1",
+    "description": "Recognise that probabilities lie on numerical scales of 0 \u2013 1 or 0% \u2013 100% and use estimation to assign probabilities that events occur in a given context, using common fractions, percentages and decimals",
+    "strand": "probability",
+    "mode": "A",
+    "prior_knowledge": "Students can list outcomes of chance experiments and compare equally and unequally likely outcomes (AC9M5P01). They can estimate likelihoods from frequency (AC9M5P02). They have not yet connected likelihood to the 0\u20131 numerical scale or used fractions, decimals, and percentages as probability representations.",
+    "progression_endpoint": "Students can recognise that probabilities lie on numerical scales of 0\u20131 or 0%\u2013100% and use estimation to assign probabilities using fractions, percentages and decimals.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The probability scale",
+        "progression_checkpoint": "Students can place events on a 0\u20131 probability scale and connect impossible (0), certain (1), and unlikely/likely/even chance positions to their numerical values.",
+        "minimum_width": "Place at least six events on a 0\u20131 probability number line; explain what 0, 1, and \u00bd represent; identify events at approximately \u00bc, \u00bd, and \u00be probability.",
+        "typical_width": "Position events at a range of probability values on the 0\u20131 scale; connect the scale to 0\u2013100% and 0\u20131 decimal forms; explain why probability cannot be less than 0 or greater than 1; compare qualitative probability language (unlikely, likely) to approximate numerical values.",
+        "wider": [
+          "Investigate sports or weather forecasting contexts that use probability \u2014 what does '70% chance of rain' mean on the 0\u20131 scale?",
+          "Compare different cultures' ways of expressing likelihood \u2014 how do different languages describe probability? Is there a universal understanding of 'likely'?"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students who understand likelihood qualitatively often struggle to connect to the 0\u20131 numerical scale. The reasoning chain \u2014 impossible = nothing out of nothing = 0, certain = everything = 1, even chance = half = 0.5 = 50% \u2014 needs explicit scaffolding before the scale becomes a useful tool.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": true,
+        "hinge_reason": "The 0\u20131 scale is the representational foundation for Nodes 2 and 3. Students who cannot anchor impossible/certain/even chance to specific numerical values cannot place estimated probabilities meaningfully or verify that outcome probabilities sum to 1.",
+        "success_criteria": [
+          "Student places at least three events at appropriate positions on a 0\u20131 probability scale with justification.",
+          "Student explains what 0, 1, and 0.5 represent on the scale."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Representing probability as fractions, decimals and percentages",
+        "progression_checkpoint": "Students can express the same probability value as a fraction, decimal, and percentage, and convert between these representations.",
+        "minimum_width": "Express at least five probability values as both a fraction and a percentage; convert between probability fraction and decimal form.",
+        "typical_width": "Represent probabilities using common fractions (\u00bd, \u00bc, \u00be, \u2153, \u2154), their decimal equivalents, and percentage forms; connect to fraction-decimal-percentage equivalence from AC9M6N07; select the most appropriate representation for a given context.",
+        "wider": [
+          "Investigate contexts where percentage probability is most intuitive (weather, sport) vs fraction (dice, cards) and discuss why representation choices matter",
+          "Explore odds as an alternative probability representation (e.g. 3:1 against) and convert between odds and probability fractions"
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students who learn probability only in fraction form often fail to recognise probability expressed as percentages in real-world contexts. Encountering diverse contexts that naturally use different representations builds the flexibility needed for real-world probability literacy."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student expresses a probability as a fraction, decimal, and percentage.",
+          "Student selects a representation appropriate to the context."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Estimating probabilities in context",
+        "progression_checkpoint": "Students can use estimation to assign reasonable probabilities to events in a given context, justifying their estimates using the 0\u20131 scale.",
+        "minimum_width": "Assign estimated probabilities to at least four events in a realistic context; justify each estimate using scale reasoning; check that probabilities for all possible outcomes sum to 1.",
+        "typical_width": "Estimate probabilities for a range of real-world contexts using fractions, decimals, and percentages; justify estimates with reasoning; verify mutual exclusivity and complementary probability (probabilities of event and non-event sum to 1); update estimates based on context changes.",
+        "wider": [
+          "Investigate contexts where probability estimation requires background knowledge (e.g. weather, sports) vs pure reasoning (e.g. dice, cards) and discuss what each type requires",
+          "Explore First Nations Australian games of chance and investigate the probability structures within them"
+        ],
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Estimating and justifying probabilities integrates scale understanding, fraction/decimal/percentage representation, and contextual reasoning. The check that all outcome probabilities sum to 1 coordinates all three into a coherent probability assignment.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Probability estimation in diverse real-world contexts \u2014 weather, games, sport, biology \u2014 is both practically significant and rich with discussion. The relationship between theoretical and estimated probabilities, and the skills of justification, transfer broadly.",
+        "hinge": false,
+        "hinge_reason": null,
+        "success_criteria": [
+          "Student assigns reasonable estimated probabilities to events in a context and justifies the estimates.",
+          "Student checks that probabilities for complementary events sum to 1."
+        ]
+      }
+    ]
+  }
+}

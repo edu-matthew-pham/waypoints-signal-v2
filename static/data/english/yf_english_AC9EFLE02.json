@@ -1,0 +1,69 @@
+{
+  "year_level": "F",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9EFLE02",
+    "title": "Respond to stories and characters",
+    "description": "respond to stories and share feelings and thoughts about their events and characters",
+    "strand": "Literature",
+    "mode": "B",
+    "prior_knowledge": "Students have listened to and engaged with stories. They have not yet been explicitly asked to formulate and share a personal response — to reflect on their feelings about events and characters and communicate this response in a deliberate way.",
+    "progression_endpoint": "Students can share personal feelings and thoughts about story events and characters through multiple modes — oral, drawing or beginning writing — connecting events and characters to their own experiences.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Stories prompt feelings",
+        "progression_checkpoint": "Students can identify a feeling evoked by a story or character and name it.",
+        "minimum_width": "Name one feeling a story evoked (e.g. 'I felt happy/sad/scared') when discussing a text.",
+        "typical_width": "Identify and name feelings evoked by story events and characters; discuss what caused the feeling — connecting events to emotional responses.",
+        "wider": [
+          "Compare feelings evoked by different types of stories — funny stories, sad stories, scary stories — and discuss what makes each evoke different responses",
+          "Explore how characters' feelings in a story differ from student responses to those same events"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot identify and name a feeling evoked by a story, they have no content for the sharing and mode-selection task in Node 2 — the deliberate response that Node 2 requires is built on the raw material of named feelings from this node.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to encounter multiple stories and name feelings across them — a single story is insufficient to build the habit of noticing and naming emotional responses. Accumulating examples is what makes the naming automatic.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can name at least one feeling evoked by a story event or character.",
+          "Student can connect the feeling to a specific event or character in the text."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Responses can be shared in multiple ways",
+        "progression_checkpoint": "Students can share a personal response to a story through drawing, beginning writing or oral sharing — choosing a mode appropriate to the response.",
+        "minimum_width": "Share a response to one story through drawing or oral expression.",
+        "typical_width": "Respond to stories using drawing and beginning forms of writing to express personal responses; discuss events and characters, connecting them to personal experiences; share responses orally with peers.",
+        "wider": [
+          "Respond to the same story through multiple modes — oral, drawing, movement or drama — and compare what each allows",
+          "Create a shared class response text (collaborative drawing or dictated writing) about a favourite story",
+          "Respond to First Nations Australian stories and discuss responses with attention to cultural context"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Students bring together: having a personal response, reflecting on it, and translating it into a shareable form (drawing, writing, speech). The coordination of these acts is the learning."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student can share a feeling or thought about a story event or character through drawing, speech or beginning writing.",
+          "Student can connect their response to a specific event or character.",
+          "Student can explain their response when asked — articulating why they felt or thought that."
+        ]
+      }
+    ]
+  }
+}

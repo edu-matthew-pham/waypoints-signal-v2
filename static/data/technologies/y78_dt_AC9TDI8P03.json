@@ -1,0 +1,108 @@
+{
+  "year_level": "7-8",
+  "subject": "Digital Technologies",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9TDI8P03",
+    "title": "Model structured data",
+    "description": "Model and query the attributes of objects and events using structured data",
+    "strand": "Processes and Production Skills",
+    "mode": "A",
+    "prior_knowledge": "This is the first standard in the Modelling Data sub-strand (begins at 7-8). Students have used spreadsheets to store and organise data (AC9TDI8P01) but have not yet modelled objects and events as structured data with defined attributes, nor queried data using filtering, sorting or SQL.",
+    "progression_endpoint": "Students model objects and events as structured data by identifying relevant attributes and appropriate formats, and query the data using filtering, sorting and simple SQL (SELECT, WHERE, ORDER BY) to answer questions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What structured data is",
+        "progression_checkpoint": "Students can explain that structured data represents objects or events as records with defined attributes, and identify what attributes are relevant for a given purpose",
+        "minimum_width": "Given an object or event, name at least three attributes that describe it; explain why the chosen attributes are relevant to the task",
+        "typical_width": "Model objects and events from a real scenario (e.g. canteen products with name, price, quantity, nutritional value); choose appropriate data formats for each attribute (text, number, date)",
+        "wider": [
+          "Design a database schema for a real-world context and justify why each attribute was included and what was excluded",
+          "Compare how the same event (e.g. a sports match) would be modelled differently for different purposes (scheduling vs statistics vs commentary)"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Selecting relevant attributes requires students to reason from purpose: what question are we answering? → what information does the query need? → which attributes capture that information? Students who list attributes without connecting them to purpose create tables that cannot answer the intended question when queried at Node 3.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify relevant attributes for a given purpose will create tables at Node 2 with missing, irrelevant or incorrectly formatted fields. Poorly structured tables cannot be queried meaningfully at Node 3 — the data model shapes every query.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least three relevant attributes for a given object or event",
+          "Explains why each attribute is relevant to the purpose"
+        ],
+        "related_standards": [
+          "AC9TDI8P01"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Storing structured data in tables",
+        "progression_checkpoint": "Students can create a spreadsheet table or database table that correctly stores structured data with appropriate column formats",
+        "minimum_width": "Create a table with named columns and at least 5 records; use appropriate formats (text, number, date) for each column",
+        "typical_width": "Create a table with consistent formatting; identify and correct data entry errors (e.g. text in a number column, inconsistent date formats); explain why consistent formatting matters for querying",
+        "wider": [
+          "Limited width — table creation is a mechanical skill at this level. The genuine breadth is in what is modelled (captured at Node 1) and how it is queried (captured at Node 3)."
+        ],
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Table creation with consistent formatting is a precision skill — inconsistent data types within a column break querying. Width is thin. What helps is more practice creating tables for different real-world objects until correct formatting is automatic.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Inconsistent column formats (text in number columns, mixed date formats) break SQL queries at Node 3. Students who produce tables with formatting errors cannot write meaningful queries against their own data — the table quality gates the querying phase.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates a table with named columns and correctly formatted data",
+          "Data entries are consistent within each column"
+        ],
+        "related_standards": [
+          "AC9TDI8P01"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Querying data to answer questions",
+        "progression_checkpoint": "Students can filter, sort and query structured data to answer specific questions, including using simple SQL",
+        "minimum_width": "Filter or sort a table to answer a given question; explain what the result shows",
+        "typical_width": "Write simple SQL queries using SELECT, WHERE and ORDER BY to answer questions from a database; compare the result of different queries on the same data",
+        "wider": [
+          "Investigate how query design affects what patterns are visible — compare two queries on the same dataset that reveal different insights",
+          "Explore how structured data modelling underpins a real application (e.g. a library catalogue, a booking system, a historical events database)"
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "SQL query writing requires students to translate a question into a formal instruction with exact syntax. Scaffolding the translation (what do I want to find? → which column? → which condition? → what order?) prevents students from trial-and-erroring rather than reasoning about what the query should do.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The real application direction (library catalogue, booking system, historical events database) connects structured data modelling to purpose-driven systems, giving advancing students a meaningful context for understanding why database design decisions matter.",
+        "success_criteria": [
+          "Filters or sorts data to produce a result that answers the given question",
+          "Explains what the query result shows in context"
+        ],
+        "related_standards": [
+          "AC9TDI8P02"
+        ]
+      }
+    ]
+  }
+}

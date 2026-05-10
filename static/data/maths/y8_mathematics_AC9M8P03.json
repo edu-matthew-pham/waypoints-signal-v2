@@ -1,0 +1,71 @@
+{
+  "year_level": "8",
+  "subject": "Mathematics",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9M8P03",
+    "title": "Simulations of Compound Events",
+    "strand": "Probability",
+    "description": "conduct repeated chance experiments and simulations, using digital tools to determine probabilities for compound events, and describe results",
+    "mode": "A",
+    "prior_knowledge": "Students can conduct simulations for single-stage events and understand the law of large numbers (from AC9M7P02). Students can calculate compound event probabilities (from AC9M8P02).",
+    "progression_endpoint": "Students use digital tools including generative AI to simulate compound events, compare simulated relative frequencies to theoretical probabilities, and describe results.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Setting up and running compound event simulations",
+        "progression_checkpoint": "Students use digital simulation tools to simulate two-event compound scenarios and record results systematically.",
+        "minimum_width": "Use a digital tool to simulate rolling two dice for at least 100 trials and record results in an organised frequency table.",
+        "typical_width": "Simulate compound events using multiple tool types (random number generators, online simulators, generative AI); record outcomes systematically; select an appropriate number of trials.",
+        "wider": [
+          "Use generative AI to construct and run a probability simulation — describe what the tool does and evaluate whether its outputs are trustworthy.",
+          "Compare results from different simulation tools for the same compound event — investigate whether tool choice affects the outcomes."
+        ],
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Setting up simulations across different tool types builds capacity to work with varied digital environments. Students who only use one tool type cannot generalise their simulation skills.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 2 requires a collected dataset — students who cannot set up and run a simulation have no results to compare to theoretical probabilities and cannot access the second node at all.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Using generative AI as a simulation tool and critically evaluating its outputs is a rich digital literacy extension — understanding what an AI simulation does and why its outputs are valid is genuinely sophisticated for Year 8.",
+        "success_criteria": [
+          "Sets up and runs a digital simulation for a compound event.",
+          "Records results in an organised frequency table.",
+          "Selects an appropriate number of trials for the simulation."
+        ],
+        "related_standards": ["AC9M7P02", "AC9M8P02"]
+      },
+      {
+        "id": 2,
+        "label": "Using simulation results to determine and describe probabilities",
+        "progression_checkpoint": "Students compare simulated relative frequencies to theoretical probabilities for compound events and describe what the results reveal.",
+        "minimum_width": "Calculate the relative frequency of a compound event from simulation results and compare to its theoretical probability; explain any difference.",
+        "typical_width": "Use simulation results to determine probabilities for compound events; compare observed to theoretical; describe results including whether events appear complementary; connect to the law of large numbers.",
+        "wider": [
+          "Investigate whether long-run simulations confirm that two events are complementary — use this as an empirical check on theoretical calculations.",
+          "Explore how the number of trials affects the closeness of simulated to theoretical probability — connect to AC9M7P02's law of large numbers."
+        ],
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Drawing conclusions from simulation results requires explicit reasoning: calculate the relative frequency, compare to theoretical, explain the discrepancy in terms of trial size and chance variation. Students who only record results without this reasoning step do not meet the 'determine probabilities' requirement."
+          }
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Calculates relative frequency from simulation results correctly.",
+          "Compares observed relative frequency to theoretical probability.",
+          "Explains discrepancies using the concept of sampling variation."
+        ],
+        "related_standards": ["AC9M7P02", "AC9M8P01"]
+      }
+    ]
+  }
+}

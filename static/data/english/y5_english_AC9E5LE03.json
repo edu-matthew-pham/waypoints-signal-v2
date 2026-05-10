@@ -1,0 +1,94 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LE03",
+    "title": "Point of view shapes response",
+    "description": "Recognise that the point of view in a literary text influences how readers interpret and respond to events and characters",
+    "strand": "Literature",
+    "mode": "A",
+    "prior_knowledge": "Students can discuss how authors and illustrators make stories engaging through character, setting and plot (AC9E4LE03). They have not yet examined how narrative point of view — who tells the story and what they can or cannot know — shapes what readers have access to and how their sympathies are positioned.",
+    "progression_endpoint": "Students recognise and explain how the point of view in a literary text — including first and third person narration — determines what information readers can access and how it influences readers' interpretation of events and characters.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What point of view is",
+        "progression_checkpoint": "Students can identify whether a text uses first or third person narration and explain what each choice means for who is telling the story.",
+        "minimum_width": "Identify the point of view in a literary text as first or third person and explain who the narrator is and what their relationship to the story is.",
+        "typical_width": "Identify point of view across several texts, explaining the difference between a first-person narrator (character in the story, subjective, limited knowledge) and a third-person narrator (outside the story, potentially more access). Introduce the concept of narrative distance.",
+        "wider": [
+          "Examine second-person narration in texts (e.g. some picture books, choose-your-own-adventure formats) and discuss what effect the direct address creates for the reader",
+          "Limited width — identifying narrative person is a relatively narrow grammatical recognition task; the conceptual richness is in what each point of view does to reader access and sympathy, explored in later nodes."
+        ],
+        "hinge": true,
+        "hinge_reason": "Correct identification of narrative person is definitionally prerequisite for Node 2 (information access analysis) and Node 3 (sympathy and interpretation). Students who confuse first and third person narration, or who cannot identify who the narrator is, cannot analyse what that narrator knows or how they position the reader.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Point of view identification is a foundational recognition task that students need to perform reliably before analysis can proceed. Students who read first-person narration as objective or who conflate narrator with author need practice with varied examples across multiple text types until the distinction is secure.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies the point of view (first or third person) in a given literary text.",
+          "Explains who the narrator is and what their relationship to the events of the story is."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Point of view controls information access",
+        "progression_checkpoint": "Students can explain how the choice of point of view determines what information the audience can access — what they know, when they know it, and what remains hidden.",
+        "minimum_width": "Compare what a reader would know if a text's point of view were changed (e.g. from first to third), and explain at least two types of information that would become available or unavailable as a result.",
+        "typical_width": "Analyse how first-person narration limits reader knowledge to what the narrator observes, thinks, and feels, while third-person narration can offer broader access. Discuss why an author might choose to restrict or expand reader access to information — what narrative purposes does each choice serve?",
+        "wider": [
+          "Examine unreliable first-person narrators in texts and discuss what clues allow readers to understand more than the narrator tells them",
+          "Compare the information access available to readers in two versions or adaptations of the same story told from different points of view"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding information access is directly prerequisite for Node 3's analysis of how point of view shapes sympathy and interpretation. Students who cannot explain what readers can and cannot know from a given point of view will be unable to reason about how that restricted or expanded access positions readers emotionally and interpretively.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly think that first person is 'more honest' and third person is 'more distant' without understanding that point of view shapes information access as a deliberate craft choice. Encountering the same events from multiple points of view helps students see information access as variable and purposeful.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Explains at least two types of information that are available or unavailable to readers because of the text's point of view choice.",
+          "Explains why the author might have chosen to give readers the particular information access their point of view provides."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Point of view shapes sympathy and interpretation",
+        "progression_checkpoint": "Students can explain how point of view influences readers' sympathies with characters and their interpretation of events — what point of view makes readers feel and believe.",
+        "minimum_width": "Identify how the point of view in a text positions readers to sympathise with or understand a particular character, and explain how a different point of view would change the reader's relationship to that character.",
+        "typical_width": "Discuss why an author chose a particular point of view, explaining how that choice shapes reader sympathy, moral positioning, and interpretation of events. Examine how readers can access more than the narrator tells them by reading against or beyond the narrator's perspective.",
+        "wider": [
+          "Compare texts narrated from a first person and third person point of view about similar events, discussing what information the audience can access and how this influences the audience's sympathies — drawing on the elaboration examples",
+          "Examine a text by a First Nations Australian author and discuss how point of view shapes the reader's access to and understanding of cultural context"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to integrate point of view identification (node 1) and information access understanding (node 2) into an account of how readers are positioned emotionally and interpretively — the full demand of the descriptor's 'influences how readers interpret and respond' clause.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Sympathy, moral positioning, and interpretive access through point of view is rich territory. Advancing students can examine unreliable narrators, compare multiple viewpoint texts, and explore how First Nations Australian authors use point of view to position readers in relation to cultural knowledge — all substantive within year band.",
+        "success_criteria": [
+          "Explains how the point of view positions readers to sympathise with or interpret a specific character in a particular way.",
+          "Identifies how a different point of view would change the reader's response to the same events or characters."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "year_level": "5",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E5LY01",
+    "title": "Texts reflect time and place",
+    "description": "Describe the ways in which a text reflects the time and place in which it was created",
+    "strand": "Literacy",
+    "mode": "A",
+    "prior_knowledge": "Students can compare texts from different times with similar purposes and audiences to identify similarities and differences (AC9E4LY01). They have not yet examined how vocabulary, idiomatic expressions, and social expectations within texts reveal the time and place of their creation.",
+    "progression_endpoint": "Students describe how vocabulary choices, idiomatic expressions, social expectations, and cultural values in a text reflect the time and place of its creation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Vocabulary marks time and place",
+        "progression_checkpoint": "Students can identify vocabulary in a text that signals when and where it was created, and explain how vocabulary choices reflect the language use of a particular time and place.",
+        "minimum_width": "In a text, identify at least two vocabulary choices — including idiomatic expressions if present — that signal the time or place of the text's creation and explain what each reveals.",
+        "typical_width": "Analyse vocabulary choices across texts from different time periods and places, identifying how idiomatic expressions, word choices, and naming conventions signal time and place. Explain why the same concept might be described differently across texts from different times.",
+        "wider": [
+          "Examine how Australian English vocabulary has been influenced by time and place — including words from First Nations Australian languages and from waves of migration — and discuss what the vocabulary of texts reveals about their cultural context",
+          "Compare texts from the same time period but different places and discuss how vocabulary choices reflect regional and cultural variation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two vocabulary choices or expressions in a text and explains what each signals about time and/or place.",
+          "Explains why a specific word choice reflects the language use of a particular period or location."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Social expectations in texts",
+        "progression_checkpoint": "Students can identify how the social expectations of the time and place of a text's creation are reflected in its content, characters, or events.",
+        "minimum_width": "Identify at least one social expectation embedded in a text and explain how it is reflected — through character behaviour, dialogue, plot events, or narrator attitude.",
+        "typical_width": "Describe how texts from different times and places reflect the social expectations of their context, examining how values, norms, and social roles are represented. Explain how those expectations differ from contemporary social expectations and what those differences reveal about social change.",
+        "wider": [
+          "Examine how texts from different historical periods reflect changing social expectations about gender, class, or community, and discuss what reading those texts from a contemporary perspective reveals",
+          "Compare how texts by First Nations Australian authors reflect the social expectations and values of their communities and the historical contexts that shaped them"
+        ],
+        "hinge": true,
+        "hinge_reason": "Node 3 requires students to synthesise vocabulary evidence and social expectation evidence into a coherent description of how a text reflects its context. Students who have not yet established the social expectations analysis strand will produce Node 3 descriptions that are one-dimensional — relying only on vocabulary and missing the social values dimension that the descriptor explicitly requires.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students often read social expectations in historical texts as simply 'wrong' without understanding that those texts were written within a different social context. Encountering a range of texts from different times and places — including First Nations Australian texts — helps students understand social expectations as context-specific rather than universal.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Social expectations across time and place — particularly the contrast between First Nations Australian social values in literature and those reflected in colonial or contemporary mainstream texts — is genuinely rich territory. Advancing students can develop a critical lens for reading social expectations in texts rather than treating them as transparent.",
+        "success_criteria": [
+          "Identifies a social expectation in a text and explains how it is reflected in specific textual details.",
+          "Explains how that social expectation reflects the time and place of the text's creation rather than universal values."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Describing how texts reflect their context",
+        "progression_checkpoint": "Students can bring together vocabulary and social expectation observations to provide a coherent description of how a text reflects the time and place of its creation.",
+        "minimum_width": "Write or present a brief description of how a text reflects its time and place, drawing on both vocabulary evidence and social expectation evidence.",
+        "typical_width": "Describe comprehensively how a text reflects its time and place, synthesising evidence from vocabulary choices, idiomatic expressions, social expectations, and cultural values. Explain the relationship between the text's features and its context of creation.",
+        "wider": [
+          "Compare two texts from different times and places and describe how each reflects its context, discussing what the comparison reveals about how time and place shape texts",
+          "Examine a contemporary text and describe what future readers might learn about our time and place from its vocabulary and social expectations"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to integrate vocabulary analysis (node 1) and social expectations analysis (node 2) into a coherent description — the full demand of the descriptor's 'describe the ways' clause."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Provides a description of how a text reflects its time and place using at least two types of evidence (vocabulary and social expectations).",
+          "The description explains how the evidence reflects context — not just notes that differences exist."
+        ]
+      }
+    ]
+  }
+}

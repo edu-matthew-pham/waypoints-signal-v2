@@ -1,0 +1,62 @@
+{
+  "year_level": "1",
+  "subject": "English",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9E1LY01",
+    "title": "Features indicate text purpose",
+    "description": "discuss different texts and identify some features that indicate their purposes",
+    "strand": "texts_in_context",
+    "mode": "A",
+    "prior_knowledge": "Students can identify some familiar texts such as stories and informative texts and their purposes (AC9EFLY01). They have not yet identified specific textual features — language, layout, structural elements — as indicators of purpose.",
+    "progression_endpoint": "Students discuss different texts and identify features that indicate their purposes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Texts have purposes",
+        "progression_checkpoint": "Students can name the purpose of familiar texts and explain how they know.",
+        "minimum_width": "State the purpose of at least two different texts and give a reason (e.g. 'it's a story because it has characters and events').",
+        "typical_width": "Name and explain the purposes of a range of familiar texts — to entertain, inform, instruct, persuade — with reasons grounded in text features.",
+        "wider": [
+          "Discuss texts that serve more than one purpose simultaneously",
+          "Compare how the same information might be presented in texts with different purposes (e.g. a report vs an advertisement)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student correctly names the purpose of two different texts",
+          "Student gives a feature-based reason for each identification"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Features signal purpose",
+        "progression_checkpoint": "Students can identify specific features of texts — language, layout, structural elements — and explain how each signals the text's purpose.",
+        "minimum_width": "Identify at least two features in a given text and explain how each indicates what the text is trying to do.",
+        "typical_width": "Identify and discuss features that indicate purpose across a range of text types — headings and diagrams (informative), character names and events (narrative), numbered steps (procedural), opinion language (persuasive).",
+        "wider": [
+          "Compare two texts with different purposes side by side, identifying the distinct features that mark each",
+          "Examine digital texts and identify which features indicate purpose in online versus print contexts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who only recognise narrative features as purpose signals cannot classify informative, procedural or persuasive texts in subsequent work — the feature-to-purpose link must be established across multiple text types before any downstream text-type analysis is possible.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students need to see features functioning as purpose signals across varied text types to generalise the concept. Encountering only narrative features risks students equating all text features with storytelling.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Comparing features across multiple text types and considering how features work differently in digital contexts gives advancing students substantive analytical work that builds transferable text literacy.",
+        "success_criteria": [
+          "Student identifies at least two features and links each to the text's purpose",
+          "Student uses feature-based language ('the headings tell me it's trying to inform')"
+        ]
+      }
+    ]
+  }
+}

@@ -30,7 +30,7 @@
   // Step 4 — Waypoint
   let selectedNodeId = $state('')
   let progressionEndpoint = $state('')
-  let nodes: { id: number; label: string; hinge: boolean }[] = $state([])
+  let nodes: { id: number; label: string; hinge: boolean; widthOpportunity: boolean }[] = $state([])
   let criteriaPreview: string[] = $state([])
   let loadingNodes = $state(false)
 
@@ -161,7 +161,7 @@
     try {
       const nodeFile = await loadNodeFile(selectedSubject, code)
       progressionEndpoint = nodeFile.standard.progression_endpoint
-      nodes = nodeFile.standard.nodes.map(n => ({ id: n.id, label: n.label, hinge: n.hinge }))
+      nodes = nodeFile.standard.nodes.map(n => ({ id: n.id, label: n.label, hinge: n.hinge, widthOpportunity: n.width_opportunity ?? false }))
     } catch (e) {
       genError = 'Could not load standard data.'
       console.error(e)
@@ -382,6 +382,9 @@
                 <span class="ml-1">{node.label}</span>
                 {#if node.hinge}
                   <span class="ml-1.5 text-xs text-yellow">⚑ hinge</span>
+                {/if}
+                {#if node.widthOpportunity}
+                  <span class="ml-1.5 text-xs text-green">★ width</span>
                 {/if}
               </span>
             </button>

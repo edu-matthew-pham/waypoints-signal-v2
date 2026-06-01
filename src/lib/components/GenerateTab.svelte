@@ -1,6 +1,14 @@
 <script lang="ts">
   import { db } from '$lib/supabase'
-  import { loadNodeFile, loadProgressionMap, getStandardsForYear, groupCriteria, type AvailableStandard } from '$lib/data'
+  import {
+    loadNodeFile,
+    loadProgressionMap,
+    getStandardsForYear,
+    splitStandardsByType,
+    groupCriteria,
+    type AvailableStandard,
+    type ProgressionMap,
+  } from '$lib/data'
   import { generateSessionCode } from '$lib/session'
   import { SUBJECTS, type SubjectConfig } from '$lib/config/subjects'
 
@@ -22,10 +30,14 @@
   const needsTopic = $derived(availableTopics.length > 0)
 
   // Step 3 — Standard (from progression map)
+  let progressionMap: ProgressionMap | null = $state(null)
   let standards: AvailableStandard[] = $state([])
   let loadingStandards = $state(false)
   let standardsError = $state('')
   let selectedCode = $state('')
+
+  // Concept / Capability tab — concept default
+  let standardsTab = $state<'concept' | 'capability'>('concept')
 
   // Step 4 — Waypoint
   let selectedNodeId = $state('')
@@ -53,6 +65,7 @@
     selectedCode = ''
     selectedNodeId = ''
     standards = []
+    progressionMap = null
     progressionEndpoint = ''
     nodes = []
     criteriaPreview = []
@@ -68,6 +81,8 @@
     selectedCode = ''
     selectedNodeId = ''
     standards = []
+    progressionMap = null
+    standardsTab = 'concept'
     progressionEndpoint = ''
     nodes = []
     criteriaPreview = []
@@ -81,7 +96,7 @@
 
     loadingStandards = true
     loadProgressionMap(s)
-      .then((map) => { standards = getStandardsForYear(map, s, y) })
+      .then((map) => { progressionMap = map; standards = getStandardsForYear(map, s, y) })
       .catch(() => { standardsError = 'Could not load standards.' })
       .finally(() => { loadingStandards = false })
   })
@@ -94,6 +109,8 @@
     selectedCode = ''
     selectedNodeId = ''
     standards = []
+    progressionMap = null
+    standardsTab = 'concept'
     progressionEndpoint = ''
     nodes = []
     criteriaPreview = []
@@ -105,15 +122,33 @@
 
     loadingStandards = true
     loadProgressionMap(s)
-      .then((map) => { standards = getStandardsForYear(map, s, y, t) })
+      .then((map) => { progressionMap = map; standards = getStandardsForYear(map, s, y, t) })
       .catch(() => { standardsError = 'Could not load standards.' })
       .finally(() => { loadingStandards = false })
   })
 
-  // Group standards by strand
+  // Concept / capability split — reads strand types from the map (Planner shape)
+  const split = $derived.by(() => {
+    if (!progressionMap) return { concept: standards, capability: [] as AvailableStandard[] }
+    return splitStandardsByType(standards, progressionMap)
+  })
+  const activeStandards = $derived(standardsTab === 'capability' ? split.capability : split.concept)
+
+  // Default to capability only when there are no concept standards; otherwise
+  // concept. Mirrors Planner — depends on the split, not on standardsTab, so it
+  // sets the default on load without fighting a manual tab switch.
+  $effect(() => {
+    if (split.concept.length === 0 && split.capability.length > 0) {
+      standardsTab = 'capability'
+    } else if (split.concept.length > 0) {
+      standardsTab = 'concept'
+    }
+  })
+
+  // Group the active-tab standards by strand
   const standardsByStrand = $derived.by(() => {
     const groups = new Map<string, AvailableStandard[]>()
-    for (const std of standards) {
+    for (const std of activeStandards) {
       const key = std.strand ?? 'other'
       if (!groups.has(key)) groups.set(key, [])
       groups.get(key)!.push(std)
@@ -121,30 +156,13 @@
     return groups
   })
 
-  const strandLabel = (key: string) => ({
-    biological: 'Biological Sciences',
-    earth_space: 'Earth and Space Sciences',
-    chemical: 'Chemical Sciences',
-    physical: 'Physical Sciences',
-    number: 'Number',
-    algebra: 'Algebra',
-    measurement: 'Measurement',
-    space: 'Space',
-    statistics: 'Statistics',
-    probability: 'Probability',
-    language: 'Language',
-    literature: 'Literature',
-    literacy: 'Literacy',
-    history: 'History',
-    geography: 'Geography',
-    civics: 'Civics & Citizenship',
-    economics: 'Economics & Business',
-    design: 'Design Technologies',
-    digital: 'Digital Technologies',
-    understanding: 'Understanding',
-    inquiry: 'Science Inquiry Skills',
-    other: 'Other',
-  }[key] ?? key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()))
+  // Strand labels come from the loaded progression map (authoritative); falls
+  // back to a humanised key. Covers concept and capability strands alike.
+  const strandLabel = (key: string): string => {
+    const fromMap = progressionMap?.progression_threads?.strands?.[key]?.label
+    if (fromMap) return fromMap
+    return key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+  }
 
   async function selectStandard(code: string) {
     selectedCode = code
@@ -310,10 +328,36 @@
       {:else if standards.length === 0}
         <p class="text-sm text-muted">No authored standards for this year.</p>
       {:else}
+        <!-- Concept / Capability tabs (Planner shape) -->
+        {#if split.concept.length > 0 || split.capability.length > 0}
+          <div class="mt-2 mb-3 flex w-fit gap-1 rounded-lg border border-border bg-surface p-1">
+            {#if split.concept.length > 0}
+              <button
+                onclick={() => standardsTab = 'concept'}
+                class="rounded px-3 py-1 text-sm transition-colors {standardsTab === 'concept'
+                  ? 'bg-interactive text-white font-medium'
+                  : 'text-muted hover:text-bg-dark'}"
+              >
+                Concept
+              </button>
+            {/if}
+            {#if split.capability.length > 0}
+              <button
+                onclick={() => standardsTab = 'capability'}
+                class="rounded px-3 py-1 text-sm transition-colors {standardsTab === 'capability'
+                  ? 'bg-interactive text-white font-medium'
+                  : 'text-muted hover:text-bg-dark'}"
+              >
+                Capability
+              </button>
+            {/if}
+          </div>
+        {/if}
+
         <div class="space-y-4">
           {#each [...standardsByStrand.entries()] as [strand, strandStandards]}
             <div>
-              {#if standardsByStrand.size > 1}
+              {#if standardsByStrand.size > 1 || standardsTab === 'capability'}
                 <p class="text-xs font-medium text-muted uppercase tracking-wide mb-1.5">{strandLabel(strand)}</p>
               {/if}
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1.5">

@@ -16,11 +16,23 @@ export interface ProgressionYearLevel {
   standards: ProgressionStandard[];
 }
 
+export type StrandType = 'concept' | 'capability'
+
+export interface StrandMeta {
+  label: string;
+  type: StrandType;
+}
+
+export interface ProgressionThreads {
+  description?: string;
+  strands: Record<string, StrandMeta>;
+}
+
 export interface ProgressionMap {
   subject: string;
   curriculum: string;
   year_levels: Record<string, ProgressionYearLevel>;
-  progression_threads: unknown;
+  progression_threads: ProgressionThreads;
 }
 
 export interface AvailableStandard {
@@ -94,6 +106,26 @@ export function getStandardsForYear(
   }
 
   return out
+}
+
+/**
+ * Split standards into concept / capability using the map's strand types.
+ * Matches Planner's signature — reads `progression_threads.strands[strand].type`.
+ * Untyped / unknown strands default to concept.
+ */
+export function splitStandardsByType(
+  standards: AvailableStandard[],
+  map: ProgressionMap,
+): { concept: AvailableStandard[]; capability: AvailableStandard[] } {
+  const strands = map.progression_threads?.strands ?? {}
+  const concept: AvailableStandard[] = []
+  const capability: AvailableStandard[] = []
+  for (const std of standards) {
+    const type = std.strand ? strands[std.strand]?.type : undefined
+    if (type === 'capability') capability.push(std)
+    else concept.push(std)
+  }
+  return { concept, capability }
 }
 
 // ── Node files ────────────────────────────────────────────────────────────────

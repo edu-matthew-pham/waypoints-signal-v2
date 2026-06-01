@@ -32,19 +32,19 @@
 </svelte:head>
 
 <nav class="px-8 py-5 flex items-center justify-between border-b border-border">
-  <a href="/" class="font-mono text-[13px] font-medium tracking-[0.04em] text-[#1a1917] no-underline">
+  <a href="/" class="font-mono text-[13px] font-medium tracking-[0.04em] text-bg-dark no-underline">
     Waypoints Signal
   </a>
-  <a href="/" class="text-[12px] text-muted no-underline hover:text-[#1a1917]">
+  <a href="/" class="text-[12px] text-muted no-underline hover:text-bg-dark">
     ← Back
   </a>
 </nav>
 
-<div class="max-w-[400px] mx-auto mt-20 px-6 text-center">
+<div class="max-w-100 mx-auto mt-20 px-6 text-center">
   <h2 class="text-[20px] font-semibold mb-2">Enter session code</h2>
-  <p class="text-[14px] text-muted mb-6 leading-[1.5]">
+  <p class="text-[14px] text-muted mb-6 leading-normal">
     Your teacher will give you a code that looks like<br />
-    <strong class="font-mono text-[#1a1917]">XKQT-4821</strong>
+    <strong class="font-mono text-bg-dark">XKQT-4821</strong>
   </p>
 
   <div class="flex gap-2 justify-center mb-2">
@@ -55,11 +55,11 @@
       value={code}
       oninput={formatCode}
       onkeydown={onKeydown}
-      class="font-mono text-[20px] font-medium tracking-[0.15em] text-center uppercase w-[170px] px-3 py-3 border-2 border-border rounded-xl bg-surface outline-none focus:border-[#1a1917] transition-colors"
+      class="font-mono text-[20px] font-medium tracking-[0.15em] text-center uppercase w-42.5 px-3 py-3 border-2 border-border rounded-xl bg-surface outline-none focus:border-bg-dark transition-colors"
     />
     <button
       onclick={submit}
-      class="px-5 py-3 bg-[#1a1917] text-white text-[14px] font-semibold rounded-xl cursor-pointer hover:opacity-85 transition-opacity"
+      class="px-5 py-3 bg-bg-dark text-white text-[14px] font-semibold rounded-xl cursor-pointer hover:opacity-85 transition-opacity"
     >
       Go
     </button>

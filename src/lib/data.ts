@@ -1,6 +1,6 @@
 import type { NodeFile } from './types/NodeFile'
 import type { SubjectConfig } from './config/subjects'
-import { nodeFileForCode } from './config/subjects'
+import { SUBJECTS, nodeFileForCode } from './config/subjects'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -140,6 +140,19 @@ export async function loadNodeFile(subject: SubjectConfig, code: string): Promis
   const data = await res.json() as NodeFile
   nodeFileCache.set(path, data)
   return data
+}
+
+/**
+ * Load a node file knowing only the curriculum code — resolves the owning
+ * subject from SUBJECTS first. Used by the student check-in, which stores
+ * `standard` (the code) but not the subject id. Shared node files (e.g. HASS
+ * F–6 across disciplines) resolve to the same path regardless of which subject
+ * matches first.
+ */
+export async function loadNodeFileByCode(code: string): Promise<NodeFile> {
+  const subject = SUBJECTS.find((s) => nodeFileForCode(s, code) !== undefined)
+  if (!subject) throw new Error(`No subject contains a node file for ${code}`)
+  return loadNodeFile(subject, code)
 }
 
 // ── Criteria helpers ──────────────────────────────────────────────────────────

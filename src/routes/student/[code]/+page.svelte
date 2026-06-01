@@ -2,7 +2,7 @@
   import { page } from '$app/stores'
   import { onMount } from 'svelte'
   import { db } from '$lib/supabase'
-  import { loadNodeFile, groupCriteria, type CriteriaGroup } from '$lib/data'
+  import { loadNodeFileByCode, groupCriteria, type CriteriaGroup } from '$lib/data'
 
   type Signal = 'green' | 'yellow' | 'red'
 
@@ -67,7 +67,8 @@
       progressionEndpoint = session.y_goal ?? ''
       nodeId = session.node_id ?? ''
 
-      const nodeFile = await loadNodeFile(session.standard ?? '')
+      // in loadSession(), replace the one-arg call:
+      const nodeFile = await loadNodeFileByCode(session.standard ?? '')
       criteriaGroups = groupCriteria(nodeFile, session.node_id ?? '')
 
       let idx = 0

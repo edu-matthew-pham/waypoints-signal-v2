@@ -1,0 +1,78 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6P05",
+    "title": "Strategies to value diversity",
+    "description": "describe and implement strategies to value diversity in their communities",
+    "strand": "Interacting with others",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students described how valuing diversity influences wellbeing and identified actions that promote inclusion (AC9HP4P05). They understand that diversity has wellbeing value and can identify inclusive actions. This descriptor moves to implementing strategies and addressing specific forms of discrimination including sexism, racism and homophobia.",
+    "progression_endpoint": "Students describe and implement strategies to value diversity in their communities, including addressing discrimination and supporting belonging for diverse groups.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Identifying discrimination and its effects on belonging",
+        "description": "Identify specific forms of discrimination — sexism, racism, homophobia, transphobia — and explain how each undermines belonging and wellbeing in communities.",
+        "minimum_width": "Name at least two specific forms of discrimination and describe how each affects a person's sense of belonging or wellbeing.",
+        "success_criteria": [
+          "Names specific forms (not just 'discrimination generally')",
+          "Connects each form to a specific effect on belonging or wellbeing — not just 'it's wrong'"
+        ],
+        "hinge": true,
+        "hinge_reason": "Strategies for valuing diversity that do not address specific forms of discrimination will be generic. Implementation (the descriptor's demand) requires knowing what specific practices to challenge. Students who remain at a general level will not be able to propose targeted strategies.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Discrimination and belonging can be explored through multiple community contexts: sporting groups, cultural organisations, school communities, and cultural expression practices — including First Nations Australian cultural expressions and their role in wellbeing and belonging.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Case analysis: examine specific discrimination examples and trace the effect on belonging and wellbeing. Concrete examples prevent the discussion from remaining abstract and ensure students understand the mechanism, not just the label.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Examine discrimination and belonging across community contexts: sport and cultural groups that counter discrimination; First Nations Australian cultural expression and connection to Country as a source of belonging and wellbeing; multicultural community examples. Cultural breadth prevents a single-community framing.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "The bystander role",
+        "description": "Explain the role bystanders play in either enabling discrimination or promoting respectful interaction — understanding that inaction is a choice with consequences.",
+        "minimum_width": "Describe at least one way a bystander can promote respectful interaction and explain why bystander action matters.",
+        "success_criteria": [
+          "Describes a specific bystander action (not just 'say something')",
+          "Explains why bystander action matters — the mechanism by which it affects the discriminatory behaviour or the affected person"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Bystander skills require rehearsal. Role-play bystander scenarios that vary in difficulty — ranging from lower-stakes to more challenging interventions. Precision matters: the difference between an effective and ineffective bystander response is often small."
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Implementing community strategies",
+        "description": "Describe and implement specific strategies for promoting diversity and inclusion in their own communities — drawing on knowledge of discrimination mechanisms and bystander roles.",
+        "minimum_width": "Describe at least one strategy for promoting diversity in a specific community context and explain the steps involved in implementing it.",
+        "success_criteria": [
+          "Strategy is specific to a named community context",
+          "Includes implementation steps — not just 'promote inclusion'"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Implements the full descriptor demand: describe and implement strategies to value diversity. Brings together understanding of discrimination, belonging, and bystander action into a concrete community strategy."
+          }
+        ]
+      }
+    ]
+  }
+}

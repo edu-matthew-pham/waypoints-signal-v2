@@ -1,0 +1,96 @@
+{
+  "year_level": "1-2",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP2M05",
+    "title": "Collaborative participation",
+    "description": "apply strategies to work collaboratively when participating in physical activities",
+    "strand": "Learning through movement",
+    "mode": "B",
+    "prior_knowledge": "Students have followed rules to promote fair play (AC9HPFM04) and have experienced cooperative interaction in basic game contexts. There is no direct Foundation predecessor for collaborative strategy use — this is a new demand at this band.",
+    "progression_endpoint": "Students apply strategies to work collaboratively in physical activities.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Working cooperatively with a partner",
+        "progression_checkpoint": "Students can work cooperatively with a partner when practising new movement skills.",
+        "minimum_width": "In a paired activity, cooperate with a partner to practise a movement skill; demonstrate at least one cooperative behaviour (e.g. waiting, encouraging, sharing feedback).",
+        "typical_width": "Across several partner activities, consistently demonstrate cooperative behaviours including turn-taking, encouragement and mutual practice; describe what cooperation looks like in movement contexts.",
+        "wider": [
+          "Compare how practising with a partner differs from practising alone, and reflect on which produces better skill development and why",
+          "Work with a partner from a different cultural background or with different physical abilities and reflect on how to adjust cooperative strategies",
+          "Design a partner skill-practice routine and evaluate how well the cooperative strategies used supported both partners' learning"
+        ],
+        "hinge": true,
+        "hinge_reason": "Partner cooperation is the building block for group collaboration. Students who cannot sustain cooperative behaviour in a paired context will not be able to apply inclusion strategies or adapt games for group participation (Nodes 2 and 3).",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Cooperative behaviour in movement contexts requires deliberate, repeated practice — students need regular paired tasks with explicit attention to the cooperative dimension, not just movement skill practice.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Demonstrates at least one cooperative behaviour (e.g. waiting turn, encouraging partner) during a paired movement activity",
+          "Can name what they did to cooperate with their partner"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Describing and demonstrating inclusion in physical activities",
+        "progression_checkpoint": "Students can describe and demonstrate how to include others in physical activities.",
+        "minimum_width": "Describe at least one way to include another person in a physical activity; demonstrate this in a group context.",
+        "typical_width": "Identify and demonstrate multiple strategies for including others in physical activities; explain why inclusion matters for everyone's participation.",
+        "wider": [
+          "Identify a physical activity where a classmate is having difficulty participating and propose a specific inclusion strategy",
+          "Compare how the same inclusion strategy works across different activity types (e.g. a running game vs a ball game) and adjust if needed",
+          "Discuss how using different languages or non-verbal communication can support inclusion for students who speak different languages"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Inclusion strategies need to be practised across different activity structures — what works in a partner drill may not work in a team game. Vary the social and movement context so students develop a range of applicable strategies.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Inclusion across diverse activity types and peer configurations (different abilities, languages, backgrounds) provides genuinely richer experience. Students who have practised inclusion in varied contexts develop more flexible and transferable inclusion strategies.",
+        "success_criteria": [
+          "Describes at least one way to include another person in a physical activity",
+          "Demonstrates an inclusion behaviour in a group movement context"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Adapting games for collaborative inclusion",
+        "progression_checkpoint": "Students can propose and trial how a game can be changed so that everyone can be included.",
+        "minimum_width": "Suggest at least one change to a game that would allow more participants to be included; trial the change and comment on whether it worked.",
+        "typical_width": "Propose, trial and evaluate game modifications designed to improve inclusion; explain why specific changes support collaborative participation for all.",
+        "wider": [
+          "Design a version of a familiar game with modifications that address multiple potential barriers to inclusion (skill level, physical ability, language)",
+          "Compare two different modifications to the same game and evaluate which better supports collaborative participation for all students",
+          "Reflect on a game modification that did not work as intended and propose a revised approach"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates partner cooperation (Node 1) and inclusion strategies (Node 2) into the collaborative game-modification demand of the descriptor. Use tasks where students must draw on both — cooperating with others to design and trial a more inclusive activity."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Proposes at least one game modification intended to improve inclusion",
+          "Trials the change and describes whether it achieved its purpose"
+        ]
+      }
+    ]
+  }
+}

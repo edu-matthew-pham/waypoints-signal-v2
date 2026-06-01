@@ -1,0 +1,75 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M06",
+    "title": "Strategies to increase activity and reduce sedentary behaviour",
+    "description": "propose and explain strategies to increase physical activity and reduce sedentary behaviour levels in their lives",
+    "strand": "Making active choices",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students explored recommendations about physical activity and sedentary behaviours and discussed strategies to achieve the recommendations (AC9HP4M06). They know that guidelines exist and can discuss strategies at a general level but have not yet proposed and explained strategies grounded in their own specific life contexts.",
+    "progression_endpoint": "Students propose and explain strategies to increase physical activity and reduce sedentary behaviour in their own lives, with reference to health benefits and social and mental wellbeing.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Understanding the activity-sedentary balance",
+        "description": "Explain the relationship between physical activity levels, sedentary behaviour, and health and wellbeing — going beyond knowing guidelines to understanding why the balance matters and what counts as sedentary vs active.",
+        "minimum_width": "Describe the difference between physical activity and sedentary behaviour, and explain at least one specific health or wellbeing consequence of each.",
+        "success_criteria": [
+          "Correctly distinguishes physical activity from sedentary behaviour (e.g. light movement does not automatically mean 'active')",
+          "Connects sedentary behaviour specifically to a health consequence — not just 'it's bad for you'"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who lack the activity/sedentary distinction will propose strategies that address activity in isolation (do more exercise) without addressing sedentary reduction — the descriptor requires both. Strategies that only increase activity without reducing sedentary time may not achieve the health outcomes students are proposing.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Case study or time-audit analysis: map a typical day and classify each block as active, sedentary, or light movement. This builds the conceptual distinction through their own lived experience rather than abstract definition.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Examining benefits across health dimensions",
+        "description": "Investigate the benefits of physical activity specifically for social health and mental wellbeing — not only physical health — to build a multi-dimensional rationale for the strategies students will propose.",
+        "minimum_width": "Describe at least one benefit of physical activity for mental or social wellbeing (not physical health) and explain how this benefit might influence strategy choices.",
+        "success_criteria": [
+          "Names a social or mental wellbeing benefit specifically (not a physical health benefit reworded)",
+          "Connects the benefit to strategy design — e.g. 'because it also helps with social connection, we could design activities that involve others'"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The social and mental benefits of activity span many activity types and contexts — community options, school-based options, home-based options, digital/active combinations — each offering different dimensions of the benefit.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Research local physical activity options and their social/mental dimensions — community sport, lunchtime activities, active transport, nature-based activity. Each offers different social and mental wellbeing mechanisms.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Proposing and explaining personalised strategies",
+        "description": "Propose and explain strategies tailored to their own life context — not generic recommendations but strategies that account for their actual routines, interests and environments.",
+        "minimum_width": "Propose at least two strategies for their own life — one to increase physical activity and one to reduce sedentary behaviour — and explain why each is realistic and likely to be effective for them specifically.",
+        "success_criteria": [
+          "Strategies are specific to the student's life context, not generic ('go for a walk' alone is insufficient)",
+          "Includes at least one strategy addressing sedentary behaviour specifically (not just adding activity)",
+          "Explains why the strategy is realistic for them — acknowledges their actual constraints"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integrates the activity/sedentary distinction, multi-dimensional benefits, and personal context into proposed strategies. This is the full descriptor demand — propose and explain strategies in their own lives."
+          }
+        ]
+      }
+    ]
+  }
+}

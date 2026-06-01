@@ -4,90 +4,122 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH10K14",
-    "title": "Technology, Living Standards, and Environmental Concern in the 20th Century",
+    "title": "Changing Perspectives on Modern Life",
     "description": "changing historical perspectives over time in relation to the developments in technology, public health, longevity, standard of living in the 20th century, and concern for the environment and sustainability",
-    "strand": "Knowledge and Understanding",
+    "strand": "History (Knowledge and Understanding)",
     "mode": "A",
-    "prior_knowledge": "Students have studied significant historical changes in technology, society and the environment in earlier periods, including the industrial revolution and early 20th century technological change.",
-    "progression_endpoint": "Students identify changing historical perspectives on technology, public health, standard of living and environmental concern across the 20th century, explaining how each domain changed and how attitudes to each shifted over time.",
+    "prior_knowledge": "Students understand continuity and change as historical concepts from earlier study. They have examined post-war reconstruction and the long boom in K05 and K16. They have not yet examined technological development, public health, or the environmental movement as distinct historical threads with their own periodisation and changing perspectives.",
+    "progression_endpoint": "Students identify key developments in technology, public health, and standard of living in the 20th century, and explain how perspectives on environmental sustainability have changed over time.",
     "nodes": [
       {
         "id": 1,
-        "label": "Technological developments since 1945",
-        "progression_checkpoint": "Students can identify key technological developments since 1945 and explain how each changed historical perspectives on standard of living and daily life.",
-        "minimum_width": "Identify at least three technological developments since 1945 across at least two domains (household, travel/trade, communications) and explain how each changed daily life.",
-        "typical_width": "Identify key developments in technology since 1945 across the following areas: the household — television, appliances, central heating and cooling; travel and trade — shipping and passenger jets; globalisation, mass consumption and communications — the microchip, satellites and digital systems; explain how each development changed historical perspectives on standard of living and what was considered a normal or good life.",
+        "label": "Changing perspectives as a historical concept",
+        "progression_checkpoint": "Students can explain that historical perspectives on the same developments change over time, and can apply this to at least one 20th-century development.",
+        "minimum_width": "Students explain what it means for historical perspectives to change over time; apply this to one development where perspectives have clearly shifted.",
+        "typical_width": "Students establish that attitudes to technology, growth, and the environment are not fixed — what one generation celebrated as progress, a later generation may view as destructive; apply this to nuclear energy (celebrated in the 1950s, feared post-Chernobyl), to industrial growth (celebrated as prosperity, later critiqued for environmental damage), to population growth (a post-war goal, later a sustainability concern); explain why perspectives change — new information, new values, new consequences becoming visible.",
         "wider": [
-          "Trace the development of digital communications technology from the microchip through personal computing to the internet and social media, examining how each step changed not just what people could do but how they understood their connection to the wider world",
-          "Compare the distribution of technological benefits globally — examining how access to household technology, travel, and communications has been unequally distributed across income levels and between high-income and low-income countries"
+          "Examine how the 'Earthrise' photograph (Apollo 8, 1968) changed perspectives on the planet as a finite shared resource — analysing how a single image contributed to shifting attitudes toward environmental protection",
+          "Investigate how scientific consensus on specific issues (climate change, DDT, nuclear fallout) has driven perspective change — and how industry interests have sometimes resisted that change"
         ],
-        "hinge": false,
-        "hinge_reason": null,
-        "response_modes": [
-          {
-            "mode": "repertoire_building",
-            "reason": "Students need a working knowledge of the range of post-war technological changes before they can meaningfully analyse shifting historical perspectives. A domain-organised inventory (household, travel, communications) builds this repertoire efficiently."
-          }
-        ],
+        "hinge": true,
+        "hinge_reason": "Without understanding that perspectives change over time — and why — students approach N2–N4 as simple descriptions of development rather than as histories of how humans have understood and reacted to change. The concept is the prerequisite for the 'changing perspectives' that the descriptor explicitly demands.",
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat contemporary perspectives as the obviously correct ones and past perspectives as naive or wrong. Scaffolding why perspectives change — new information, new consequences, changing values — builds the historical empathy and analytical distance needed for N2–N4.",
+            "flags": ["hinge"]
+          }
+        ],
         "success_criteria": [
-          "Identify at least three technological developments since 1945 from at least two different domains",
-          "Explain how at least two of these developments changed daily life and historical perspectives on standard of living",
-          "Describe how communications technology in particular changed how people related to the wider world"
-        ]
+          "Explains what it means for historical perspectives to change over time",
+          "Applies this to one development where perspectives have clearly shifted — explaining why the shift occurred",
+          "Avoids treating past perspectives as simply wrong rather than historically explicable"
+        ],
+        "related_standards": ["AC9HH10S06", "AC9HH10S07"]
       },
       {
         "id": 2,
-        "label": "Population growth and public health",
-        "progression_checkpoint": "Students can discuss the growth in the world's population during the 20th century, including changes in life expectancy and the depletion of natural resources.",
-        "minimum_width": "Describe the pattern of world population growth during the 20th century and explain at least two causes or consequences.",
-        "typical_width": "Discuss the growth in world population during the 20th century — from approximately 1.6 billion in 1900 to 6 billion by 2000; including life expectancy changes in different parts of the world (dramatic increases in high-income countries, more variable improvements in low-income countries); the depletion of natural resources as a consequence of population growth and industrialisation.",
+        "label": "Technological development and its effects",
+        "progression_checkpoint": "Students can identify key technological developments since 1945 and explain how each changed the world — in households, travel and trade, and communications.",
+        "minimum_width": "Students identify at least three technological developments across at least two domains and explain the effect of each on everyday life.",
+        "typical_width": "Students examine household technology (television, appliances, central heating/cooling) and its effects on domestic life and gender roles; travel and trade technology (shipping containers, passenger jets, logistics) and its role in enabling globalisation; communications and computing (microchip, satellites, digital systems, the internet) and its transformation of information, work, and connection; explain how each wave of technology changed what was possible and how people understood their world.",
         "wider": [
-          "Compare life expectancy improvements in high-income vs low-income countries, examining what the data reveals about how the benefits of 20th-century medical and technological progress were distributed",
-          "Investigate the concept of ecological overshoot — examining how resource depletion and population growth have combined to raise questions about the sustainability of 20th-century development patterns"
+          "Examine the social effects of television's arrival in Australia — connecting to K16's content on American cultural influence and the Melbourne Olympics (1956) as the catalyst for TV adoption",
+          "Investigate how communications technology has changed the dynamics of political movements — comparing how the civil rights movements of the 1960s used television with how contemporary movements use social media"
         ],
         "hinge": false,
         "hinge_reason": null,
-        "response_modes": [
-          {
-            "mode": "context_breadth",
-            "reason": "Population growth and life expectancy are most meaningfully understood through comparative data. Use graphs comparing different regions and time periods — the differential between high-income and low-income countries is the analytically important insight, not the aggregate global figure alone."
-          }
-        ],
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a working repertoire of technological developments across domains before the perspectives analysis in N4 is meaningful. Covering household, travel, and communications systematically prevents the common reduction to digital technology alone."
+          }
+        ],
         "success_criteria": [
-          "Describe the pattern of world population growth during the 20th century",
-          "Explain at least two causes or consequences of 20th-century population growth",
-          "Describe how life expectancy changed across the 20th century and identify at least one factor that explains variation between different parts of the world"
-        ]
+          "Identifies at least three technological developments across at least two domains",
+          "Explains the effect of each on everyday life — not merely notes it occurred",
+          "Explains how technological change changed what was possible rather than merely what was available"
+        ],
+        "related_standards": ["AC9HH10K16", "AC9HH10K19", "AC9HH10S05"]
       },
       {
         "id": 3,
-        "label": "The environmental movement",
-        "progression_checkpoint": "Students can identify how the rise of the environmental movement changed historical perspectives on renewable energy, sustainability, and the relationship between human activity and the natural environment.",
-        "minimum_width": "Explain how the rise of the environmental movement changed perspectives on at least one specific issue (e.g. renewable energy, recycling, species protection).",
-        "typical_width": "Identify how the rise of the environmental movement around the world changed people's perspectives on renewable energy technology and sustainability measures such as recycling; connect the movement's rise to the conditions that enabled it (population increase, urbanisation, industrial pollution, species extinction); trace how environmental awareness shifted from fringe concern to mainstream policy agenda across the second half of the 20th century.",
+        "label": "Public health, longevity, and standard of living",
+        "progression_checkpoint": "Students can explain the major improvements in public health and standard of living during the 20th century and discuss how perspectives on population growth and resource depletion changed.",
+        "minimum_width": "Students explain at least two improvements in public health or standard of living and explain how perspectives on population growth changed over the 20th century.",
+        "typical_width": "Students examine improvements in life expectancy and their causes — vaccines, antibiotics, public sanitation, improved nutrition, medical technology; examine the growth in world population during the 20th century and its uneven distribution across regions; examine how the celebration of population growth in the post-war period gave way to concern about resource depletion and sustainability; explain how changes in life expectancy varied across different parts of the world — the gap between developed and developing countries.",
         "wider": [
-          "Trace the development of Australian environmentalism from the Franklin Dam campaign (1982–1983) to contemporary climate activism, examining how the movement's strategies, mainstream acceptance, and targets have changed over four decades",
-          "Examine the Apollo 8 'Earthrise' photograph (1968) as a turning-point moment in environmental consciousness, investigating how a single image changed how people understood the relationship between humanity and the planet"
+          "Examine the demographic transition model — analysing how improvements in health and standard of living produce predictable changes in birth and death rates, and what this reveals about the relationship between development and population growth",
+          "Investigate the depletion of natural resources — examining how post-war growth assumptions about unlimited resource availability were challenged by the oil crisis (1973) and subsequent environmental data"
         ],
         "hinge": false,
         "hinge_reason": null,
-        "response_modes": [
-          {
-            "mode": "integration",
-            "reason": "This node integrates the technological and demographic changes of Nodes 1 and 2 with the environmental movement — connecting the unintended consequences of technological progress and population growth to the emergence of sustainability as a historical perspective and policy imperative."
-          }
-        ],
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat population growth as a straightforward good or straightforward problem without examining how perspectives shifted during the 20th century. Scaffolding the shift — from post-war pro-natalist policies to 1970s sustainability concerns — applies the N1 framework to a concrete case."
+          }
+        ],
         "success_criteria": [
-          "Explain how the rise of the environmental movement changed perspectives on at least one environmental issue",
-          "Identify at least two conditions that enabled the growth of the environmental movement",
-          "Describe how environmental awareness became a mainstream policy concern across the second half of the 20th century"
-        ]
+          "Explains at least two improvements in public health or standard of living with evidence",
+          "Explains how perspectives on population growth changed over the 20th century — identifying what drove the shift",
+          "Describes the uneven distribution of improvements across different parts of the world"
+        ],
+        "related_standards": ["AC9HH10K17", "AC9HH10S05"]
+      },
+      {
+        "id": 4,
+        "label": "The environmental movement — changing perspectives on sustainability",
+        "progression_checkpoint": "Students can explain the rise of the environmental movement and analyse how perspectives on sustainability and environmental protection have changed since the 1960s.",
+        "minimum_width": "Students explain at least two causes of the rise of the environmental movement; describe how perspectives on environmental protection have changed since the 1960s.",
+        "typical_width": "Students examine the causes of the environmental movement's rise — rapid population growth, urbanisation, industrial pollution, species extinction, nuclear testing, Rachel Carson's Silent Spring (1962); trace the changing perspectives — from growth-as-progress in the 1950s to environmental concern in the 1970s to the emergence of sustainability as a policy framework; examine key developments in renewable energy technology and sustainability measures; explain how global events (Chernobyl, Exxon Valdez, ozone depletion) accelerated perspective change.",
+        "wider": [
+          "Examine how the environmental movement changed from a marginal counterculture concern in the 1960s to a mainstream political issue by the 1990s — analysing what drove that shift",
+          "Investigate the development of international environmental agreements — from Stockholm (1972) to Kyoto (1997) to Paris (2015) — evaluating whether international cooperation has been adequate to the scale of the problem"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The trajectory from environmental marginalisation to mainstream policy concern is a rich case study in how perspectives change — and the international agreements thread connects K14 to K17 and K20's content on climate change debate, providing genuinely productive analytical connections.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to apply the N1 framework explicitly here — why did perspectives on the environment change? what new information, consequences, or values drove the shift? This prevents description of the environmental movement as a simple narrative of growing awareness.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains at least two causes of the environmental movement's rise",
+          "Describes how perspectives on environmental protection changed from the 1950s to the present",
+          "Connects at least one specific event or development to a shift in public or policy perspectives"
+        ],
+        "related_standards": ["AC9HH10K17", "AC9HH10K18", "AC9HH10K20", "AC9HH10S05"]
       }
     ]
   }

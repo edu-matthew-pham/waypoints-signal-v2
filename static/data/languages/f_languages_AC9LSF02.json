@@ -1,0 +1,68 @@
+{
+  "year_level": "F",
+  "subject": "Languages",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9LSF02",
+    "title": "Explore language features",
+    "description": "explore, with support, language features of the target language noticing similarities and differences between the target language and English",
+    "strand": "Understanding — Systems of language",
+    "mode": "B",
+    "prior_knowledge": "Students have no prior formal experience with the target language. They bring awareness of English sound patterns and the alphabet from first language literacy development. No curriculum-certified prior knowledge of target language features.",
+    "progression_endpoint": "Students notice and explore sound patterns, alphabet features and basic grammatical patterns of the target language, identifying some similarities and differences with English with support.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Noticing sounds and alphabet features",
+        "progression_checkpoint": "Students can notice and imitate sounds and letter patterns in the target language, recognising some as similar to English and some as different.",
+        "minimum_width": "Imitate at least two target language sounds and identify at least one as similar to English and one as different.",
+        "typical_width": "Imitate a range of target language sounds and letter patterns; notice sound-letter relationships; recognise vocabulary shared with English; notice sounds not present in English; participate in alphabet songs and activities that highlight target language sound patterns.",
+        "wider": [
+          "Notice and describe a specific sound feature of the target language that differs from English — attempt to produce it and describe what is physically different",
+          "Identify target language-English shared vocabulary and explain what makes them recognisable across languages"
+        ],
+        "hinge": true,
+        "hinge_reason": "Sound and letter awareness is the phonological foundation for all subsequent language feature work. Students who cannot distinguish target language sounds from English sounds cannot engage with the grammatical and structural features in node 2 or at the 1-2 band.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Early phonological awareness in a new language is built by exposure to a range of sound contexts — songs, chants, games, rhymes — that repeat target sounds across varied encounters.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Imitates at least two distinct target language sounds, including at least one not present in English",
+          "Identifies at least one similarity and one difference between target language and English sounds or letter patterns"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Noticing grammatical patterns",
+        "progression_checkpoint": "Students can notice basic grammatical patterns of the target language — such as how words are ordered, how meaning is negated, and how words signal relationships — with support.",
+        "minimum_width": "Notice and demonstrate at least one grammatical pattern of the target language that differs from English and provide an example.",
+        "typical_width": "Notice grammatical patterns through listening and visual supports; observe word order differences from English; use simple negation patterns with gesture; notice how grammatical markers signal meaning (e.g. word endings, articles, markers that indicate relationships between words).",
+        "wider": [
+          "Sort a set of familiar target language items using a grammatical pattern — describe the rule noticed",
+          "Compare a simple target language sentence and its English equivalent — identify every word order or structural difference and explain what is the same and different"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Noticing grammatical patterns requires encountering them across multiple examples in varied contexts. Varied encounters with word order, negation and grammatical markers across songs, games and classroom language build the pattern recognition that prepares students for the 1-2 band.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Early noticing of grammatical patterns is the foundation for metalinguistic awareness that develops throughout the entire sequence. Width investment here builds the observation habit that makes later grammatical learning more efficient.",
+        "success_criteria": [
+          "Identifies at least one grammatical pattern of the target language that differs from English and demonstrates it with an example",
+          "Uses a simple target language expression that reflects a noticed grammatical pattern correctly in context"
+        ]
+      }
+    ]
+  }
+}

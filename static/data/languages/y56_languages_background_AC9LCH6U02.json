@@ -1,0 +1,93 @@
+{
+  "year_level": "5-6",
+  "subject": "Languages — Background Language Learner",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9LCH6U02",
+    "title": "Writing system and grammar for familiar and unfamiliar texts",
+    "description": "identify and use components and/or characters, sentence structures, syntax and writing system features to compose and respond to familiar and some unfamiliar texts and contexts",
+    "strand": "Understanding — Systems of Language",
+    "mode": "A",
+    "prior_knowledge": "Students can apply writing system conventions and use a range of sentence structures and syntactic features in familiar texts (AC9LCH4U02). They can analyse character components and build compound words. They have not yet applied character knowledge to infer meaning in unfamiliar words, used complex grammatical structures such as complex clauses, aspect markers, and comparative constructions, or composed extended texts applying these features across unfamiliar contexts.",
+    "progression_endpoint": "Students identify and use components, characters, sentence structures and writing system features to compose and respond to familiar and some unfamiliar texts — including using morphological knowledge to infer meaning and applying complex grammatical structures.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Inferring meaning from morphological knowledge",
+        "progression_checkpoint": "Students can use knowledge of character components or morphemes to infer the meaning of unfamiliar words in context.",
+        "minimum_width": "Infer the meaning of at least three unfamiliar words using component or morphological knowledge, and explain the reasoning.",
+        "typical_width": "Analyse common simple and compound characters through multiple examples; use digital tools to explore pronunciation and meaning of unfamiliar characters; infer meaning of unfamiliar words from known morphemes; identify the six types of character formation or equivalent morphological patterns.",
+        "wider": [
+          "Apply morphological inference strategies to a text containing multiple unfamiliar words — document each inference, verify using a dictionary, and evaluate accuracy across the set",
+          "Investigate a semantic field (e.g. all characters/words related to water, plants, or communication) and identify the morphological patterns that link them"
+        ],
+        "hinge": true,
+        "hinge_reason": "Morphological inference is the prerequisite for independent reading of unfamiliar texts. Students who can only read known words cannot approach new texts strategically — and cannot meet the 'some unfamiliar contexts' demand of this descriptor.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Morphological inference requires systematic application of component knowledge — students need a framework for analysing unfamiliar words (What components do I recognise? What semantic or phonetic pattern applies?) before they can infer reliably. Explicit strategy instruction followed by guided practice builds this capacity.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly infers the meaning of at least three unfamiliar words using component or morphological knowledge",
+          "Can explain the reasoning used for at least two of the inferences"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Complex grammatical structures",
+        "progression_checkpoint": "Students can recognise and use more complex grammatical structures — including aspect markers, comparative constructions, conjunctions and compound-complex sentences — in familiar and some unfamiliar contexts.",
+        "minimum_width": "Produce at least three sentences using different complex grammatical structures (e.g. aspect marker, comparative, conjunction pair) correctly in context.",
+        "typical_width": "Use aspect markers to indicate completion or ongoing action; use comparative and superlative constructions; apply conjunction pairs to build complex sentences; use appropriate punctuation throughout; discriminate between contextual meanings of polysemous words; understand grammatical rules that apply differently in spoken and written registers.",
+        "wider": [
+          "Analyse the grammatical structures in a model text and identify every complex structure used — then produce an equivalent text using the same grammatical repertoire in a different context",
+          "Compare how the same grammatical function (e.g. expressing completion, comparison, or conditionality) is handled differently in the target language and English"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Complex grammatical structures require repeated production practice for accuracy and automaticity. Students need to produce these structures across varied sentence contexts — not only in grammar exercises — before they become reliable in extended text composition.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Background learners often use complex grammatical structures correctly in speech but have not analysed or named them. Width investment here — making implicit grammatical competence explicit — builds the metalinguistic confidence to extend and vary these structures deliberately in writing.",
+        "success_criteria": [
+          "Produces at least three sentences using different complex grammatical structures correctly",
+          "Applies appropriate punctuation in a piece of extended writing"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Composing extended texts in unfamiliar contexts",
+        "progression_checkpoint": "Students can compose and respond to extended texts in familiar and some unfamiliar contexts, applying full writing system and grammatical knowledge.",
+        "minimum_width": "Compose an extended text (at least 10 sentences) on a familiar or moderately unfamiliar topic, applying writing system conventions and at least three different grammatical structures.",
+        "typical_width": "Compose and respond to texts across familiar and some unfamiliar contexts; apply full writing system knowledge including direction, punctuation and character conventions; use the full grammatical repertoire available; approach unfamiliar topics using known vocabulary and inference strategies.",
+        "wider": [
+          "Compose a text on a genuinely unfamiliar topic using inference and contextual strategies — document the strategies used and evaluate their effectiveness",
+          "Create a text that deliberately experiments with register — formally written versus colloquially written — comparing the grammatical and lexical choices in each version"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Extended text composition integrates morphological inference (node 1) and complex grammatical structure knowledge (node 2) into full productive engagement with unfamiliar text contexts. The teaching investment is in creating text composition tasks with genuine unfamiliar territory — topics or formats students haven't composed in before."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Composes an extended text of at least 10 sentences applying writing system conventions throughout",
+          "Uses at least three different grammatical structures correctly across the text"
+        ]
+      }
+    ]
+  }
+}

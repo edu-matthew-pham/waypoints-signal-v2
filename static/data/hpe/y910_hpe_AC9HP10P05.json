@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10P05",
+    "title": "Challenging bias and promoting inclusion",
+    "description": "propose strategies and actions individuals and groups can implement to challenge biases, stereotypes, prejudices and discrimination, and promote inclusion in their communities",
+    "strand": "Interacting with others",
+    "mode": "B",
+    "prior_knowledge": "Students can evaluate the influence of respect, empathy, power and coercion on respectful relationships (AC9HP10P04), and have previously investigated strategies that influence how communities value diversity (AC9HP8P05). At Y9-10 the focus moves to proposing and designing concrete strategies and actions for challenging bias and discrimination.",
+    "progression_endpoint": "Students propose and evaluate specific strategies and actions for challenging biases, stereotypes, prejudices and discrimination, and for promoting inclusion in their communities.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Analysing bias and discrimination",
+        "progression_checkpoint": "Students can analyse how prejudice, marginalisation and discrimination operate and their implications for individuals and communities",
+        "minimum_width": "Identify one form of bias or discrimination (e.g. homophobia, racism, gender stereotyping) and analyse its implications for a targeted individual or group",
+        "typical_width": "Analyse the implications of prejudice, marginalisation, homophobia, racism, discrimination, violence and harassment on individuals and communities; critique media representations of cultural and racial groups for whether they are respectful, realistic and inclusive; analyse gender norm messaging in popular culture and evaluate its impact",
+        "wider": [
+          "Investigate community health resources and evaluate how accessible they are for marginalised individuals and groups — propose specific changes to improve inclusiveness and accessibility",
+          "Analyse how biases and discrimination targeting specific cultural groups, including Australians of Asian heritage, operate and what community-level countermeasures exist",
+          "Critique a specific media representation of a First Nations Australian community — evaluate whether it is respectful, realistic and inclusive, and what its likely impact is on community members' identities and wellbeing"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot analyse how specific forms of bias operate cannot propose targeted strategies to counter them in Node 2 — effective strategies require understanding the mechanism of the bias, not just naming that it exists.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Different forms of bias and discrimination operate through different mechanisms and affect different communities in different ways. Homophobia, racism, and gender stereotyping are not interchangeable — each requires distinct analysis. Students need to develop analytical capability across multiple forms of bias, not deep expertise in one. The First Nations and Asian heritage directions are not optional — they are substantive different analytical contexts.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Community health resource accessibility, targeted cultural bias analysis, and media representation critique each require applying the analytical framework to a different domain. Students who engage the wider tier build an analytical capability that transfers across contexts rather than expertise in analysing a single bias type.",
+        "success_criteria": [
+          "Names a specific form of bias or discrimination and identifies who is affected",
+          "Analyses the mechanism — how does this bias operate, not just that it causes harm",
+          "Distinguishes between individual prejudice and systemic discrimination"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Proposing inclusion strategies",
+        "progression_checkpoint": "Students can propose specific strategies and actions that individuals and groups can implement to challenge bias and promote inclusion",
+        "minimum_width": "Propose one strategy for challenging a specific form of bias or discrimination and explain how it addresses the mechanism identified in analysis",
+        "typical_width": "Design strategies and actions to challenge stereotypes, prejudices and discrimination; propose countermeasures against specific harmful behaviours; publicly acknowledge contributions of First Nations Australians to Australian sporting and health fields as a concrete inclusion action; propose strategies to challenge biases targeting Australians of Asian heritage",
+        "wider": [
+          "Investigate a community-action initiative led by young people that promotes inclusion and evaluate what made it effective — what could be replicated in a school or local context",
+          "Design a multi-level strategy (individual, group, institutional) for promoting inclusion in a specific community context, evaluating what each level can and cannot achieve alone",
+          "Evaluate bystander intervention as an inclusion strategy — under what conditions does it work, what barriers exist, and how can those barriers be reduced for a specific school or community context"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly propose generic strategies (be kind, raise awareness) without connecting them to the specific mechanism of the bias. The key investment is building the reasoning chain: this bias operates through this mechanism, therefore this strategy disrupts it at this point. Strategies that do not address the mechanism are unlikely to be effective, and the evaluation criterion requires more than good intentions.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Community-action investigation, multi-level strategy design, and bystander evaluation each require proposing and evaluating strategies at different scales and in different contexts. Students who engage the wider tier develop the ability to reason about how strategies work differently at individual, group and institutional levels — a substantially richer capability than single-strategy proposal.",
+        "success_criteria": [
+          "Proposes a specific strategy linked to a named form of bias or discrimination",
+          "Explains how the strategy addresses the mechanism of the bias — not just that it opposes it",
+          "Identifies at least one condition or barrier that could affect the strategy's effectiveness"
+        ]
+      }
+    ]
+  }
+}

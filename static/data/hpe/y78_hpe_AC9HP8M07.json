@@ -1,0 +1,97 @@
+{
+  "year_level": "7-8",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP8M07",
+    "title": "Evaluate movement strategies",
+    "description": "propose and evaluate movement strategies and skills that would be most effective in different movement situations",
+    "strand": "Learning through movement",
+    "mode": "B",
+    "prior_knowledge": "Students have predicted and tested the effectiveness of different skills and strategies in a range of movement situations (Y5-6). They can make predictions and test them but have not yet been expected to systematically propose and evaluate across a range of situation types.",
+    "progression_endpoint": "Students propose and evaluate movement strategies and skills that would be most effective in different movement situations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Proposing movement strategies",
+        "progression_checkpoint": "Students can identify the key features of a movement situation and propose a strategy or skill selection that responds to those features with a stated rationale.",
+        "minimum_width": "Identify the key features of one movement situation and propose a strategy or skill most likely to be effective, giving one reason.",
+        "typical_width": "Identify relevant contextual features across a range of movement situations; propose strategies and skills that respond to each; articulate the rationale for each proposal in terms of what the situation demands.",
+        "wider": [
+          "Explain and justify the movement strategies selected in response to outdoor or nature-based activity challenges (rope courses, bushwalking, orienteering, canoeing) where environmental unpredictability is a key contextual feature",
+          "Investigate how movement strategy selection differs between competitive and cooperative movement contexts and what contextual features drive the differences"
+        ],
+        "hinge": true,
+        "hinge_reason": "Evaluation requires a proposal to evaluate — students who cannot make reasoned proposals have no object for their evaluation. The quality of proposal reasoning determines whether evaluation is substantive or superficial.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Scaffold proposal reasoning by explicitly modelling situation analysis: what are the demands of this situation, what skills or strategies address those demands, and why? Build this as a consistent thinking routine before evaluation is introduced.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Identifies at least one key feature of a movement situation that informs strategy selection",
+          "Proposes a movement strategy or skill appropriate to that situation with a stated rationale"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Testing and acting on proposals",
+        "progression_checkpoint": "Students can put proposed movement solutions into action, predicting outcomes in advance and observing whether actual outcomes match predictions.",
+        "minimum_width": "Implement a proposed movement strategy and describe whether the outcome matched what was predicted.",
+        "typical_width": "Implement proposals across multiple movement situations; predict outcomes before each attempt; compare actual and predicted outcomes; identify what caused divergence where it occurred.",
+        "wider": [
+          "Put movement solutions into action in outdoor or nature-based activity contexts where the environment introduces unexpected variables, and reflect on how predictions needed to be revised",
+          "Design a movement challenge that requires peers to propose a strategy before participating, then evaluate their proposals against actual outcomes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "The propose-predict-test cycle builds through iteration — students need multiple rounds of testing proposals against outcomes to develop reliable prediction judgement."
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Implements a proposed movement strategy in a physical activity",
+          "States a prediction about the outcome before implementation",
+          "Describes whether the actual outcome matched the prediction"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Evaluating effectiveness and transfer potential",
+        "progression_checkpoint": "Students can evaluate the effectiveness of movement strategies across situations, identifying factors that enabled success and considering how successful approaches might transfer to other contexts.",
+        "minimum_width": "Evaluate whether a proposed strategy was effective and identify one factor that influenced the outcome.",
+        "typical_width": "Evaluate strategy effectiveness across a range of situations; identify enabling and limiting factors; justify why certain strategies would transfer to other contexts and which would not; connect evaluation findings to future strategy selection.",
+        "wider": [
+          "Evaluate factors that enabled success in movement activities and justify how these factors can be transferred to other learning contexts beyond HPE",
+          "Compare evaluate-and-transfer cycles across indoor game contexts and outdoor/nature activity contexts, examining which strategies proved most generalisable"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Evaluation integrates proposal reasoning, testing experience and transfer judgement into one reflective capability. Instruction should keep the full cycle visible — evaluation is not a standalone final step but a return to proposal reasoning."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Transfer potential is only visible when students have evaluated across multiple situation types. Width in movement situation types is what makes transfer claims substantive rather than speculative.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Transfer evaluation is a genuinely metacognitive capability — students who can identify why a strategy worked in one context and whether it would work in another have developed analytical thinking that extends well beyond movement contexts.",
+        "success_criteria": [
+          "Evaluates whether a proposed movement strategy was effective, with at least one reason",
+          "Identifies a factor that contributed to the outcome (positive or negative)",
+          "Makes a reasoned judgement about whether the strategy or skill could be transferred to a different movement context"
+        ]
+      }
+    ]
+  }
+}

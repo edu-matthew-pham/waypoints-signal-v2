@@ -1,0 +1,76 @@
+{
+  "year_level": "F",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HPFP06",
+    "title": "Health Symbols and Messages",
+    "description": "identify health symbols, messages and strategies in their community that support their health and safety",
+    "strand": "Personal, Social and Community Health",
+    "mode": "A",
+    "prior_knowledge": "No prior HPE curriculum. Students have informal exposure to health symbols in the environment (road signs, food packaging) but without structured curriculum identification or explanation.",
+    "progression_endpoint": "Students identify health symbols, messages and community strategies that support their health and safety, and explain what these symbols and strategies mean.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Health and safety symbols",
+        "progression_checkpoint": "Students can identify health and safety symbols in their environment and explain what they mean.",
+        "minimum_width": "Identify at least two health or safety symbols (e.g. a danger symbol on a household substance, a pedestrian crossing sign) and explain what each means.",
+        "typical_width": "Identify and explain a range of health and safety symbols — household substance danger symbols, food labelling symbols, road safety symbols, water safety symbols — and describe the safety messages they communicate.",
+        "wider": [
+          "Investigate symbols on food packaging that indicate healthier choices, including reading food labels",
+          "Explore how different types of advertising influence food choices and discuss how to evaluate health messages critically",
+          "Compare health symbols across different community contexts — home, school, road, water"
+        ],
+        "hinge": true,
+        "hinge_reason": "Symbol recognition and meaning is the conceptual foundation for understanding community health strategies (next node). Students who cannot read health symbols cannot apply or follow the safety strategies those symbols signal.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Health symbol knowledge is genuinely a repertoire — each symbol is a discrete piece of community health literacy. Accumulate symbols across contexts systematically using real examples from the environment.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Symbols vary by environment — road, food, water, household. Cross-context exposure builds a broader health literacy foundation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Food labelling and advertising literacy are meaningful extensions of health symbol work that connect to lifelong health literacy beyond Foundation-level symbol recognition.",
+        "success_criteria": [
+          "Identifies at least two health or safety symbols correctly",
+          "Explains the safety message of each identified symbol"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Community health and safety strategies",
+        "progression_checkpoint": "Students can identify and follow community strategies that keep children safe, including safety procedures at specific community environments.",
+        "minimum_width": "Identify at least one community strategy that keeps children safe (e.g. pedestrian crossing, swimming pool rules) and describe what it requires them to do.",
+        "typical_width": "Identify and explain a range of community safety strategies — pedestrian crossings, traffic controllers, pool and beach safety procedures, road environment rules; follow safety symbols and procedures in relevant environments.",
+        "wider": [
+          "Investigate the purpose behind different safety strategies — why we have pool rules, road rules, school crossing procedures",
+          "Explore safety strategies in natural and outdoor environments, including water safety in different contexts",
+          "Connect community safety strategies to personal responsibility — what their role is in following and promoting safety"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Community safety strategies differ by environment — road, water, home, outdoor. Students who understand pool rules may not automatically transfer reasoning to road contexts. Vary the environments.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one community safety strategy and names the environment it applies to",
+          "Describes what the safety strategy requires them to do in that environment"
+        ],
+        "related_standards": ["AC9HPFP05", "AC9HPFM02"]
+      }
+    ]
+  }
+}

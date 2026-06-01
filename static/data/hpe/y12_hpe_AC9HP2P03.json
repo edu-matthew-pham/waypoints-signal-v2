@@ -1,0 +1,96 @@
+{
+  "year_level": "1-2",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP2P03",
+    "title": "Emotional responses",
+    "description": "identify how different situations influence emotional responses",
+    "strand": "Interacting with others",
+    "mode": "A",
+    "prior_knowledge": "Students have expressed and described emotions they experience (AC9HPFP03). They can name basic emotions and connect them to personal experiences.",
+    "progression_endpoint": "Students identify how different situations influence emotional responses.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising emotional cues in self and others",
+        "progression_checkpoint": "Students can recognise emotions in themselves and others by reading words, facial expressions and body language.",
+        "minimum_width": "In at least one scenario (real or imaginative), identify an emotion a person or character might be feeling and give one reason based on their words, expression or body language.",
+        "typical_width": "Across a range of scenarios and contexts, predict and identify emotions in self and others using verbal and non-verbal cues; describe what evidence (words, expression, body language) supports the prediction.",
+        "wider": [
+          "Use role play and imaginative play to identify how someone might feel, think and act during an emergency or unexpected situation",
+          "Compare how emotions are expressed differently across cultural contexts and discuss why this matters for respectful interaction",
+          "Observe a physical activity scenario and identify the emotions of multiple participants, explaining what cues led to each identification"
+        ],
+        "hinge": true,
+        "hinge_reason": "Reading emotional cues is the prerequisite for understanding how situations trigger emotional responses (Node 2). Students who cannot reliably read cues in others will not be able to identify situational triggers or understand their impact on others.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Provide explicit prompts that direct students to evidence: 'I can tell they feel __ because I can see/hear __'. This prevents students from simply guessing emotions without attending to the situational or interpersonal cues.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies an emotion in a person or character in a given scenario",
+          "Names at least one cue (word, expression, or body language) that supports the identification"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Situations that trigger emotional responses",
+        "progression_checkpoint": "Students can identify specific situations that may trigger strong emotional responses in themselves and others, and recognise the impact those responses can have on others.",
+        "minimum_width": "Identify at least one situation that typically triggers a strong emotion; describe what the emotional response might look like and how it could affect others.",
+        "typical_width": "Identify a range of situations that trigger strong emotional responses; explain how the same situation might produce different responses in different people and how those responses affect others.",
+        "wider": [
+          "Explore self-regulation strategies to manage emotional responses in situations that trigger strong feelings",
+          "Recognise own emotions in a range of situations and describe ways to manage how they are expressed",
+          "Identify how someone might feel, think and act in an emergency through role play — connecting situational triggers to response patterns"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Emotional trigger situations vary widely. Students benefit from exploring triggers across physical activity, social, and imaginative contexts so the concept of 'situations influencing responses' is not over-indexed to one context type.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Situational breadth — emergencies, physical activity contexts, interpersonal conflicts, social disappointments — produces richer understanding of how context shapes emotion. Students who have only explored one type of trigger situation have narrow emotional literacy.",
+        "success_criteria": [
+          "Identifies at least one situation that triggers a strong emotional response",
+          "Describes how that emotional response could affect the person experiencing it or those around them"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Managing emotional expression",
+        "progression_checkpoint": "Students can recognise their own emotions and describe ways to manage how they express emotions in different situations.",
+        "minimum_width": "Describe at least one strategy they can use to manage how they express a strong emotion in a given situation.",
+        "typical_width": "Describe and demonstrate a range of self-regulation strategies for managing emotional responses across different types of situations; explain why managing emotional expression matters for themselves and others.",
+        "wider": [
+          "Practise self-regulation strategies in a simulated situation (e.g. a physical activity where frustration is likely) and reflect on how well the strategy worked",
+          "Explore how cultural context affects how emotions are expressed and what self-regulation strategies are appropriate",
+          "Compare strategies for managing emotions across different types of situations (physical activity, social conflict, unexpected events)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node connects emotional recognition (Node 1) and situational trigger understanding (Node 2) with the self-regulatory response that is implicit in the descriptor's 'influence' framing. Tasks should require students to both identify the trigger and select a management strategy — not treat recognition and regulation as separate skills."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one strategy for managing how they express a strong emotion",
+          "Can connect the strategy to a specific type of situation where it would be useful"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "year_level": "F",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HPFM02",
+    "title": "Moving Body and Manipulating Objects",
+    "description": "experiment with different ways of moving their body safely and manipulating objects and space",
+    "strand": "Movement and Physical Activity",
+    "mode": "B",
+    "prior_knowledge": "No prior HPE curriculum. Students bring informal movement experience and basic spatial awareness from daily life. No prior structured experimentation with movement choices.",
+    "progression_endpoint": "Students experiment with different ways of moving their body safely and manipulating objects and space, making judgements about effectiveness and demonstrating spatial awareness.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Suggest and test movement choices",
+        "progression_checkpoint": "Students can suggest different ways to move or use equipment and test them, making simple judgements about which are most effective.",
+        "minimum_width": "Suggest at least one alternative way to move or use equipment in a play context and test it.",
+        "typical_width": "Suggest and test multiple movement approaches across different play situations; make and share simple judgements about which approaches work best and which they prefer.",
+        "wider": [
+          "Suggest and test movement choices in outdoor and natural settings, adapting to different terrain",
+          "Experiment with non-standard equipment or everyday objects in movement tasks",
+          "Compare movement strategies with peers, discussing differences in effectiveness"
+        ],
+        "hinge": true,
+        "hinge_reason": "The capacity to deliberately experiment with movement — rather than simply move habitually — is the cognitive foundation of this standard. Students who only replicate demonstrated movements cannot access the investigative intent of this descriptor or the Y1-2 equivalent which demands conclusions about effectiveness.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Scaffold the experiment cycle explicitly: 'Try this way. Try another way. Which worked better? Why?' Simple verbal or gestural reflection is sufficient at Foundation — the thinking process is what matters.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Varied play equipment and environments give students more raw material for genuine experimentation rather than replicating teacher demonstrations.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Experimenting across varied contexts — natural environments, non-standard equipment, peer comparison — develops genuine movement problem-solving disposition, not just compliance with movement patterns.",
+        "success_criteria": [
+          "Attempts at least two different approaches to a movement task or equipment use",
+          "Makes a simple statement about which approach worked better or which they preferred"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Persistence and resilience in movement",
+        "progression_checkpoint": "Students can persist with movement challenges, demonstrating resilience when a movement or task is difficult.",
+        "minimum_width": "Attempt a challenging movement task at least twice, persisting through difficulty.",
+        "typical_width": "Demonstrate persistence across a range of movement challenges; describe or show what they do when a movement is hard (try again, modify approach).",
+        "wider": [
+          "Reflect on how persistence felt — linking emotional experience to physical challenge",
+          "Observe and discuss a peer's persistence, connecting to fair play and encouragement",
+          "Engage with movement challenges in outdoor settings where uncertainty and variability are higher"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Persistence is cultivated through repeated low-stakes challenge, not through a single difficult task. Design movement circuits with graduated difficulty and celebrate effort explicitly.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Attempts a challenging movement task more than once without giving up",
+          "Shows or describes a self-regulation strategy when movement is difficult (e.g. trying again, pausing)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Safety in shared movement spaces",
+        "progression_checkpoint": "Students can demonstrate spatial awareness when moving around and through environments, and participate in games with awareness of personal safety.",
+        "minimum_width": "Move through a shared play space with awareness of others, avoiding collisions; follow basic game safety rules.",
+        "typical_width": "Demonstrate spatial awareness in indoor and outdoor environments; participate in games that require awareness of boundaries, rules and safe use of equipment; describe a safety rule in a game context.",
+        "wider": [
+          "Navigate outdoor and natural environments with varying spatial demands (open fields, obstacle courses, natural features)",
+          "Identify and explain safety considerations for a specific equipment type used in games",
+          "Design a simple safety rule for a class game and explain its purpose"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Safety awareness is context-dependent — students who understand indoor gym safety may not transfer it automatically to outdoor or water environments. Vary settings to build genuine awareness.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Outdoor and equipment-specific safety contexts offer meaningful application of spatial awareness beyond the classroom setting.",
+        "success_criteria": [
+          "Moves through a shared space without colliding with others or equipment",
+          "Follows a safety rule in a game context and can name it when asked"
+        ],
+        "related_standards": ["AC9HPFM01", "AC9HPFM03"]
+      }
+    ]
+  }
+}

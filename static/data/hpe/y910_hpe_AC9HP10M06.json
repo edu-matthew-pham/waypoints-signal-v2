@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10M06",
+    "title": "Personalised physical activity plans",
+    "description": "design, implement and evaluate personalised plans for improving or maintaining their own or others' physical activity levels to achieve fitness, health and wellbeing outcomes",
+    "strand": "Making active choices",
+    "mode": "B",
+    "prior_knowledge": "Students can participate in activities promoting health and social outcomes and design participation strategies (AC9HP10M05), and have designed and applied personalised activity strategies (AC9HP10M04). This standard extends to explicitly implementing and evaluating multi-goal personalised plans for themselves or others, including using digital tools and heart-rate zone knowledge.",
+    "progression_endpoint": "Students design, implement and evaluate personalised physical activity plans — for themselves or others — to achieve specific fitness, health and wellbeing outcomes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Designing a personalised plan",
+        "progression_checkpoint": "Students can design a personalised physical activity plan with justified activity selections linked to specific goals",
+        "minimum_width": "Design a personalised plan with at least two specific activities; justify why each activity was selected based on the goal and individual needs",
+        "typical_width": "Design a personalised physical activity plan using digital tools; include a timeframe, specific goals, and a variety of activities that meet the needs of different people; justify activity selections linked to physical activity goals and wellbeing outcomes; investigate target heart-rate zones for different people and incorporate into plan design",
+        "wider": [
+          "Design a personalised plan for a different person (e.g. with different fitness levels, age, or health conditions) — justify how the design differs from a plan for yourself and why",
+          "Incorporate heart-rate zone calculations into a multi-week plan — justify how each session's intensity is matched to a specific fitness component goal",
+          "Use digital planning tools to build a plan that tracks multiple variables (frequency, intensity, duration, type) and includes built-in monitoring and adjustment triggers"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot design a plan with justified activity selections cannot implement it purposefully or evaluate it meaningfully in Node 2 — implementation without a justified design is just exercise, and evaluation requires a stated intention to evaluate against.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly design plans by listing activities they enjoy without justifying how each activity contributes to the stated goal. The investment is in building the design justification chain: goal → fitness component → activity type → intensity and frequency → how it produces the desired outcome. Heart-rate zone knowledge supports this reasoning quantitatively.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Plan includes at least one specific, measurable goal",
+          "Each activity selection is justified with reference to the goal and a fitness component",
+          "Plan is realistic for the intended person — accounts for their current fitness level and available time"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Implementing and evaluating the plan",
+        "progression_checkpoint": "Students can implement and evaluate a personalised physical activity plan, making evidence-based adjustments",
+        "minimum_width": "Implement the plan for a defined period and evaluate whether it achieved its goal; identify one factor that supported and one that hindered adherence",
+        "typical_width": "Implement and monitor a personalised plan; evaluate against fitness and wellbeing goals; document adjustments made and reasons for them; use digital tools to track activity levels and evaluate progress; justify ongoing activity selections against changing goals or fitness levels",
+        "wider": [
+          "Track implementation across multiple weeks using digital monitoring tools — evaluate patterns in adherence and performance; make documented, justified adjustments to the plan in response to data",
+          "Evaluate a personalised plan designed for another person — assess whether the plan met their needs, what worked, what needed adjustment, and what the evaluation reveals about designing effective plans for others",
+          "Compare outcomes from two different plan designs (e.g. high frequency/low intensity vs low frequency/high intensity) and evaluate which better achieved the stated goals for this individual"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Implementation and evaluation capability develops through repeated plan-implement-evaluate cycles, not a single experience. Students who only evaluate one plan have limited basis for understanding what makes plans effective or how to adjust them. Multiple cycles — including adjusting based on findings — build genuine capability for lifelong physical activity planning.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-week digital tracking, evaluating a plan designed for another person, and comparing competing plan designs each add dimensions of evaluation that single-plan work does not. Students who engage the wider tier develop evidence-based adjustment capability and understanding of how plan design variables interact — a substantially more sophisticated capability than evaluating one plan once.",
+        "success_criteria": [
+          "Implements the plan for a defined period — not only designs it",
+          "Evaluation addresses whether the goal was achieved, with specific evidence",
+          "Identifies at least one factor that influenced adherence and explains its effect on outcomes"
+        ]
+      }
+    ]
+  }
+}

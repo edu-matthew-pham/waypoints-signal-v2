@@ -1,0 +1,74 @@
+{
+  "year_level": "3-4",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP4P07",
+    "title": "Consent strategies",
+    "description": "rehearse and refine strategies for seeking, giving and denying permission respectfully and describe situations when permission is required",
+    "strand": "Interacting with others",
+    "mode": "B",
+    "prior_knowledge": "Students have practised strategies for seeking, giving or denying permission respectfully (AC9HP2P04). They have practised basic consent strategies but have not yet rehearsed them in more complex contexts including online environments and situations involving personal safety.",
+    "progression_endpoint": "Students rehearse and refine strategies for seeking, giving and denying permission respectfully, and describe situations when permission is required.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Practising consent strategies — giving and seeking",
+        "progression_checkpoint": "Students can practise and refine strategies for seeking and giving consent in different situations.",
+        "minimum_width": "Practise at least one strategy for seeking consent and one for giving or denying consent in a described scenario.",
+        "typical_width": "Rehearse and compare strategies for seeking, giving and denying consent across varied contexts (personal space, sharing photos, physical touch); evaluate which strategies are most clear and respectful.",
+        "wider": [
+          "Explore how consent applies in digital contexts (e.g. photo sharing, tagging, personal information) and practise consent strategies appropriate for online interactions.",
+          "Investigate how consent is taught in different cultural contexts and discuss what is similar and different about the principles involved."
+        ],
+        "hinge": true,
+        "hinge_reason": "Practised consent strategies are the operational foundation for all unsafe situation responses in node 2. Students who have not rehearsed clear consent language cannot access the more complex safety response skills that follow.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Consent strategy language needs to be rehearsed to automaticity — not just known conceptually. Role-play with explicit language scaffolding ('I'd like to..., is that okay?', 'I don't want that', 'Let me check first') is the most effective practice format.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Demonstrates a strategy for asking for consent in a scenario.",
+          "Demonstrates a strategy for giving or denying consent clearly and respectfully.",
+          "Identifies a situation where seeking permission is required."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Responding to unsafe situations and boundary violations",
+        "progression_checkpoint": "Students can identify actions they can take when they or others are unsafe — including online situations — and practise response strategies.",
+        "minimum_width": "Identify at least two actions they can take when something happens without their permission or consent, including at least one online scenario.",
+        "typical_width": "Explore and practise a range of response strategies for different unsafe situations — online and offline — including saying no, leaving, reporting and seeking help; discuss which response is appropriate in each context.",
+        "wider": [
+          "Analyse scenarios involving increasingly complex consent situations (e.g. someone posts an embarrassing photo online without permission, a trusted person crosses a boundary) and evaluate which response strategies apply.",
+          "Develop a personal safety plan that identifies trusted adults, response strategies and reporting options for different types of unsafe situations."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Responding to unsafe situations integrates consent understanding (node 1) with help-seeking skills (AC9HP4P08). Scenario-based practice that requires students to identify the situation type and select an appropriate response builds the integration needed."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Online and offline unsafe situations require different response strategies. Students who have only practised face-to-face responses are less prepared for the digital contexts where boundary violations are increasingly likely.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Online consent and safety contexts represent a genuinely distinct and important domain — wider students who develop confident strategies for digital consent situations are better prepared for the realities of their social world.",
+        "success_criteria": [
+          "Identifies at least two actions they can take when someone acts without their consent.",
+          "Applies at least one response strategy appropriately in a scenario.",
+          "Identifies who they would go to for help in an unsafe situation."
+        ]
+      }
+    ]
+  }
+}

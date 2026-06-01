@@ -1,0 +1,78 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M09",
+    "title": "Positive group and team participation",
+    "description": "participate positively in groups and teams by contributing to group activities, encouraging others and negotiating roles and responsibilities",
+    "strand": "Learning through movement",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students performed a range of roles in respectful ways to achieve successful outcomes in group or team movement activities (AC9HP4M09). They can take on assigned roles respectfully but have not yet explicitly practised negotiating roles or using specific verbal communication strategies (reflective listening, assertive communication) in group movement contexts.",
+    "progression_endpoint": "Students participate positively in groups and teams, contributing to activities, encouraging others, and negotiating roles and responsibilities in movement situations.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Encouraging and supporting others",
+        "description": "Demonstrate specific encouraging behaviours during physical activities — recognising that encouragement is not generic praise but context-appropriate, genuine support for others.",
+        "minimum_width": "Demonstrate at least two specific encouraging behaviours during a group movement activity and describe the effect on the group's participation.",
+        "success_criteria": [
+          "Behaviours are specific and observed (not self-reported only)",
+          "Can describe how the encouraging behaviour affected another person's participation or confidence"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Establish the base positive participation habit through repeated practice across different group activities. Encouragement needs to become automatic before negotiation skills (N2) can be practised in the same activity without cognitive overload."
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Negotiating roles and responsibilities",
+        "description": "Practise negotiating group roles and responsibilities using specific communication strategies — assertive communication and reflective listening — in movement contexts where disagreement or role ambiguity arises.",
+        "minimum_width": "Participate in a group activity where roles need to be negotiated; demonstrate at least one use of assertive communication or reflective listening during the negotiation.",
+        "success_criteria": [
+          "Can name the communication strategy being used (assertive communication or reflective listening)",
+          "Can describe a situation where the strategy was used and what effect it had"
+        ],
+        "hinge": true,
+        "hinge_reason": "Negotiation is the most complex interpersonal demand in this descriptor and is a direct precursor to the conflict/disagreement resolution demanded in this and subsequent year bands. Students who cannot negotiate roles will default to avoidance or conflict, making positive group participation in complex tasks unsustainable.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Negotiation contexts vary significantly across movement types — team sport, collaborative challenges, outdoor adventure tasks — each creating different role ambiguity and negotiation demands.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Explicitly teach assertive communication and reflective listening as named strategies with examples. Role-play negotiation scenarios before applying in live activity situations — the language of the strategy matters for subsequent reflection.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Apply negotiation across different movement contexts: sport team role allocation, group outdoor challenge task division, small-group movement sequence design. Different contexts create different negotiation pressures and build transferable skill.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Contributing positively across the full group experience",
+        "description": "Participate across the full arc of a group or team activity — contributing, encouraging and negotiating — demonstrating that positive group participation is sustained, not just situational.",
+        "minimum_width": "Participate in a group activity and demonstrate contribution, encouragement and negotiation across different phases of the activity.",
+        "success_criteria": [
+          "Demonstrates all three elements — contribution, encouragement, negotiation — within the same group activity",
+          "Participation is sustained across the activity, not only at the beginning or end"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Full group activity requiring all three participation elements. This is the complete descriptor demand — positive participation is integrated, not compartmentalised."
+          }
+        ]
+      }
+    ]
+  }
+}

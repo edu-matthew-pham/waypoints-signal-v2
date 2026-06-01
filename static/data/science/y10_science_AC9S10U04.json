@@ -8,71 +8,180 @@
     "description": "use models of energy flow between the geosphere, biosphere, hydrosphere and atmosphere to explain patterns of global climate change",
     "strand": "Earth and Space Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can describe the carbon cycle and Earth's sphere interactions (AC9S9U03). They have not yet examined global energy balance, the full range of climate change indicators, or the feedback mechanisms that amplify climate change.",
-    "progression_endpoint": "Students explain global climate as a function of energy flow between Earth's spheres, examine multiple indicators of climate change, use models to explain observed patterns, and evaluate strategies to reduce or mitigate climate change effects.",
+    "prior_knowledge": "Students can represent the carbon cycle and explain how combustion, photosynthesis and respiration depend on interactions between Earth's spheres (AC9S9U03). They can describe how Earth's tilt and revolution produce seasonal change (AC9S6U02) and model food web energy flow through ecosystems (AC9S7U02). They have not yet examined energy exchange mechanisms between spheres (radiation, conduction, convection), the greenhouse effect as a quantitative balance, or how perturbations to that balance produce measurable global-scale patterns.",
+    "progression_endpoint": "Students use models of energy flow between the geosphere, biosphere, hydrosphere and atmosphere to explain patterns of global climate change, including analysing indicators of change and evaluating strategies to reduce or mitigate effects.",
     "nodes": [
       {
         "id": 1,
-        "label": "Solar radiation and Earth's energy balance drive global climate",
-        "progression_checkpoint": "Students can explain how solar radiation interacts with the atmosphere, ocean and land surface to establish the global climate system, and describe how the energy balance has changed.",
-        "minimum_width": "Students explain the role of solar radiation in driving global climate and describe how the greenhouse effect regulates surface temperature.",
-        "typical_width": "Students explain how solar radiation drives atmospheric and oceanic circulation; describe the greenhouse effect as the trapping of outgoing radiation; examine how deep ocean currents regulate global climate; and explain how human-caused changes to greenhouse gas concentrations alter the energy balance.",
+        "label": "Solar radiation and Earth's energy input",
+        "progression_checkpoint": "Students can describe how solar radiation reaches Earth and identify the factors that determine how much energy is absorbed versus reflected by the surface and atmosphere.",
+        "minimum_width": "Students identify the sun as Earth's primary energy source and distinguish between absorbed and reflected radiation using one surface type as an example (e.g. ocean vs ice).",
+        "typical_width": "Students compare absorption and reflection across surface types (ocean, ice, land, vegetation); introduce albedo as a concept; describe why the angle of incidence affects energy input at different latitudes.",
         "wider": [
-          "Examine the role of radiation from the sun and how its interactions with atmosphere, ocean and land are the foundation of the global climate system",
-          "Investigate how deep ocean currents driven by temperature and salinity differences regulate global climate and affect marine life",
-          "Explore how quantum computers enhance modelling of complex weather and climate systems — connecting computing technology to climate science (AC9S10H02)"
+          "Investigate albedo data for different surfaces and predict how land-use change affects the local energy budget",
+          "Compare solar energy input at the equator vs poles and explain why this drives atmospheric and oceanic circulation"
         ],
         "hinge": true,
-        "hinge_reason": "Node 2 requires students to connect specific climate change indicators to energy balance changes. Students who lack a working model of the global energy balance cannot explain why temperature rise, sea level rise, or ice loss are symptoms of the same underlying cause — their indicator analysis will be a list rather than a causal account.",
+        "hinge_reason": "All subsequent nodes build on the concept of an energy input that can be absorbed, reflected, or re-emitted. Students who treat solar energy as uniformly heating Earth without understanding the absorbed/reflected distinction cannot grasp why surface changes (melting ice, deforestation) alter the energy balance in N2, or why the greenhouse effect is about re-emitted rather than incoming radiation in N3.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "The global energy balance — solar radiation in, outgoing radiation trapped by greenhouse gases, altered by human emissions — is the causal scaffold for all climate change indicators. Without an explicit model of energy flow, students cannot connect diverse indicators to a common cause.",
-            "flags": [
-              "hinge"
-            ]
+            "reason": "Students commonly assume the sun simply 'heats the Earth' without differentiating absorbed vs reflected energy. Making the energy input split explicit — and anchoring it to a concrete surface comparison — is the foundation the energy balance model in N2 requires.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Explains the role of solar radiation in driving global climate",
-          "Describes how changes to greenhouse gas concentrations alter Earth's energy balance"
-        ]
+          "Identifies the sun as the primary energy input to Earth's climate system",
+          "Distinguishes absorbed from reflected solar radiation with at least one surface example",
+          "Explains why different surfaces absorb or reflect different proportions of solar radiation"
+        ],
+        "related_standards": ["AC9S6U02", "AC9S7U02"]
       },
       {
         "id": 2,
-        "label": "Multiple indicators show patterns of global climate change",
-        "progression_checkpoint": "Students can identify and describe multiple indicators of climate change, explain what each indicates about energy balance changes, and connect indicators to climate models.",
-        "minimum_width": "Students describe at least four climate change indicators and explain what each indicates about the direction of climate change.",
-        "typical_width": "Students examine ocean and atmospheric temperature change, sea level rise, biodiversity changes, species distribution shifts, permafrost thaw and sea ice loss as converging indicators; use visualisations and simulations to explore energy balance changes; and connect each indicator to changes in the Earth system.",
+        "label": "Energy balance between Earth's spheres",
+        "progression_checkpoint": "Students can describe how energy flows between the geosphere, biosphere, hydrosphere and atmosphere and explain what it means for Earth to be in energy balance.",
+        "minimum_width": "Students describe energy flowing between at least two spheres and explain that energy balance means incoming solar energy equals outgoing energy over time.",
+        "typical_width": "Students map energy exchange pathways between all four spheres; describe conduction, convection and radiation as the mechanisms of transfer; explain how the ocean stores and redistributes heat; represent the system as a simplified flow diagram.",
         "wider": [
-          "Investigate how satellite data generates global measurements of ocean temperatures, sea levels and ice cover — examining how technology enables global-scale evidence collection (AC9S10H02)",
-          "How traditional ecological knowledges of First Nations Australians are being reaffirmed by climate science and applied in carbon farming initiatives (AC9S10H03)",
-          "Analyse data from multiple indicators to construct an argument about the direction and pace of climate change (AC9S10I07)"
+          "Use a visualisation or simulation to trace energy through all four spheres and identify where delays or stores exist",
+          "Investigate the role of deep ocean currents in redistributing heat globally and explain their effect on regional climates"
+        ],
+        "hinge": true,
+        "hinge_reason": "The energy balance concept is the structural model the entire descriptor is built on. Students who cannot describe multi-sphere energy exchange as a system in balance cannot explain what 'disrupting the balance' means in N3, cannot interpret climate indicators as evidence of imbalance in N5, and cannot evaluate mitigation strategies in N6 in terms of restoring balance.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The four-sphere energy system is pedagogically rich — simulations, visualisations and ocean current investigation all offer genuine depth without accelerating content. Investment here builds the model literacy students need to interrogate climate data meaningfully.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly think of energy exchange as one-directional (sun heats Earth, Earth cools at night) rather than as a dynamic multi-sphere system in balance. Explicitly building a flow model — even a simple one — is the scaffold N3's greenhouse mechanism requires.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Once the balance concept is secured, varied contexts (ocean heat storage, polar vs tropical energy budgets) build the model literacy students need before interpreting climate indicators. These contexts are not acceleration — they are legitimate width at this year band.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes energy exchange between at least three of the four spheres",
+          "Explains energy balance as the condition where incoming and outgoing energy are equal over time",
+          "Identifies the ocean or atmosphere as a store and distributor of heat energy"
+        ],
+        "related_standards": ["AC9S9U03", "AC9S7U02"]
+      },
+      {
+        "id": 3,
+        "label": "The greenhouse effect — trapping outgoing radiation",
+        "progression_checkpoint": "Students can explain how greenhouse gases in the atmosphere trap outgoing infrared radiation and describe the role of this mechanism in maintaining Earth's surface temperature.",
+        "minimum_width": "Students describe that Earth emits infrared radiation and that greenhouse gases absorb and re-emit it, slowing energy loss to space.",
+        "typical_width": "Students name key greenhouse gases (CO₂, CH₄, H₂O vapour, N₂O); distinguish natural vs enhanced greenhouse effect; explain why Earth would be far colder without the natural greenhouse effect; describe how the atmosphere's greenhouse function fits within the N2 energy balance model.",
+        "wider": [
+          "Compare the greenhouse effects of different gases using global warming potential data and explain why CH₄ has greater short-term impact than CO₂ despite lower concentration",
+          "Trace how a molecule of CO₂ emitted by combustion eventually affects the energy balance model built in N2"
+        ],
+        "hinge": true,
+        "hinge_reason": "The greenhouse mechanism is the conceptual link between the energy balance model (N2) and the explanation of climate change (N4). Students who conflate the greenhouse effect with ozone depletion, or who cannot locate the mechanism within the energy flow model, cannot explain how increasing greenhouse gas concentrations alter the balance, which is the core demand of the descriptor.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The greenhouse effect carries two persistent misconceptions: conflation with ozone depletion, and the belief that greenhouse gases trap incoming (rather than outgoing) radiation. These must be addressed explicitly before students can correctly place the mechanism in the energy balance model. Explicit comparison of natural vs enhanced greenhouse effect helps here.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains that Earth emits infrared radiation and that greenhouse gases absorb and re-emit it",
+          "Distinguishes natural greenhouse effect from enhanced greenhouse effect",
+          "Locates the greenhouse mechanism correctly within the energy balance model from N2 (atmosphere slows outgoing, not incoming, energy)"
+        ],
+        "related_standards": ["AC9S9U03"]
+      },
+      {
+        "id": 4,
+        "label": "Human activity, greenhouse gas concentrations and energy imbalance",
+        "progression_checkpoint": "Students can explain how human activities increase atmospheric greenhouse gas concentrations and describe how this creates an energy imbalance that drives warming.",
+        "minimum_width": "Students link at least two human activities to increased CO₂ or CH₄ concentrations and explain that higher concentrations trap more outgoing radiation, creating a positive energy imbalance.",
+        "typical_width": "Students map human activity sources (combustion, agriculture, deforestation) to specific gases; describe how the carbon cycle (AC9S9U03) is perturbed by additional CO₂ from fossil fuels; explain feedback: warming → more water vapour → more greenhouse warming; represent the imbalance in the energy flow model.",
+        "wider": [
+          "Investigate historical CO₂ concentration data (ice cores, Keeling Curve) and connect concentration changes to energy imbalance magnitude",
+          "Model the carbon cycle perturbation: where does anthropogenic CO₂ go, and why does concentration still increase despite ocean and biosphere uptake?"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The connection between carbon cycle knowledge (AC9S9U03) and energy imbalance is genuinely rich for investigation — ice core data, Keeling Curve, feedback loops. This is where students' prior understanding of the carbon cycle pays dividends and where meaningful extension exists without acceleration.",
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Multiple indicators examined across the Earth's spheres — temperature, sea level, ice cover, species distribution, permafrost — build a converging picture that is richer than any single indicator. First Nations ecological knowledge reaffirmed by climate science and the satellite data direction provide culturally and technologically significant wider contexts.",
-            "flags": [
-              "width_opportunity"
-            ]
+            "reason": "Students have prior knowledge of the carbon cycle from AC9S9U03. Connecting that knowledge to greenhouse gas concentrations via concrete data sources (ice cores, emissions data) builds model literacy and consolidates the prior-year learning in a new context.",
+            "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "First Nations ecological knowledge reaffirmed by climate science (AC9S10H03) provides a rich cross-strand direction. The satellite data direction (AC9S10H02) connects global monitoring technology to evidence quality.",
         "success_criteria": [
-          "Describes at least four climate change indicators and explains what each shows",
-          "Connects each indicator to changes in Earth's energy balance"
+          "Identifies at least two human activities that increase atmospheric greenhouse gas concentrations",
+          "Explains how increased greenhouse gas concentration leads to a positive energy imbalance",
+          "Connects the perturbation of atmospheric CO₂ to the energy flow model from N2 and N3"
         ],
-        "related_standards": [
-          "AC9S9U03",
-          "AC9S10H02",
-          "AC9S10H03"
-        ]
+        "related_standards": ["AC9S9U03"]
+      },
+      {
+        "id": 5,
+        "label": "Indicators of climate change across Earth's spheres",
+        "progression_checkpoint": "Students can identify and interpret multiple indicators of climate change and explain each as evidence of the energy imbalance described in N4.",
+        "minimum_width": "Students name at least three indicators of climate change (e.g. rising atmospheric temperature, sea level rise, reduced sea ice) and explain one in terms of the energy imbalance model.",
+        "typical_width": "Students interpret real climate data for multiple indicators; explain the mechanism behind each (ocean warming → thermal expansion → sea level rise; melting ice → albedo feedback; warming → species distribution shifts); recognise that indicators are interdependent within the Earth system.",
+        "wider": [
+          "Analyse a visualisation of multiple climate indicators over time and identify which sphere each primarily reflects; explain why some indicators lag behind the energy imbalance",
+          "Investigate one indicator in depth — e.g. permafrost thaw — and trace its contribution to a feedback loop within the energy model"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Real climate data sets (temperature records, sea level measurements, sea ice extent, biodiversity distribution shifts) offer genuinely rich investigative width. Interpreting multiple indicators develops the model literacy the descriptor's 'explain patterns' demand requires, and there is no ceiling effect — more sophisticated data interpretation is still within the year-10 band.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Indicators span all four spheres and multiple data types. Working across varied contexts — not just atmospheric temperature — builds the 'patterns' reading the descriptor demands and prevents reductive climate change understanding (change = warming only).",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Names at least three distinct climate change indicators across different spheres",
+          "Explains the mechanism behind at least two indicators using the energy flow model",
+          "Interprets a climate data visualisation as evidence of energy imbalance"
+        ],
+        "related_standards": ["AC9S9U03", "AC9S7U02"]
+      },
+      {
+        "id": 6,
+        "label": "Using energy flow models to explain and evaluate responses to climate change",
+        "progression_checkpoint": "Students can use the energy flow model to explain patterns of global climate change and evaluate strategies designed to reduce or mitigate its effects in terms of the model.",
+        "minimum_width": "Students use the energy flow model to explain at least one climate change pattern and describe one mitigation or adaptation strategy in terms of how it addresses the energy imbalance or a specific indicator.",
+        "typical_width": "Students explain multiple climate patterns (e.g. why polar regions warm faster, why droughts intensify in some regions) using sphere-interaction reasoning; evaluate strategies (renewable energy, reforestation, carbon capture, geoengineering) against the model; distinguish mitigation (reducing imbalance) from adaptation (responding to effects).",
+        "wider": [
+          "Evaluate a proposed geoengineering strategy (e.g. stratospheric aerosol injection) using the energy flow model — what component of the model does it target, and what are the risks of altering that component?",
+          "Predict the trajectory of two climate indicators under different emissions scenarios and justify using the energy balance model"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates all prior nodes — solar input (N1), energy balance (N2), greenhouse mechanism (N3), human drivers (N4), and indicators (N5) — into a full explanatory and evaluative account. The response mode is synthesis: students must bring the model to bear on novel patterns and strategies, not just recall it. This is the descriptor's full demand."
+          }
+        ],
+        "success_criteria": [
+          "Applies the energy flow model to explain at least two distinct patterns of global climate change",
+          "Evaluates at least one strategy to reduce climate change and one to mitigate its effects using the model",
+          "Distinguishes mitigation from adaptation and explains each in terms of the energy balance"
+        ],
+        "related_standards": ["AC9S9U03", "AC9S7U02", "AC9S10U07"]
       }
     ]
   }

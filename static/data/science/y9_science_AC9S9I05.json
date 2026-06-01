@@ -1,72 +1,90 @@
 {
-  "year_level": "9",
+  "year_level": "9-10",
   "subject": "Science",
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S9I05",
-    "title": "Analysing Patterns, Trends and Anomalies",
-    "description": "analyse and connect a variety of data and information to identify and explain patterns, trends, relationships and anomalies",
-    "strand": "Science Inquiry",
+    "title": "Analyse Data for Patterns and Anomalies",
+    "strand": "Inquiry Skills",
     "mode": "B",
-    "prior_knowledge": "Students can identify patterns and anomalies from representations (AC9S7I05, 7-8 band). They now extend to analysing data from multiple sources, connecting patterns across datasets, evaluating graph extrapolation validity, and identifying proportional relationships.",
-    "progression_endpoint": "Students identify and describe patterns, trends, proportional relationships and anomalies across multiple data sources, connect patterns across datasets, and evaluate the validity of extrapolating beyond observed data.",
+    "description": "analyse and connect a variety of data and information to identify and explain patterns, trends, relationships and anomalies",
+    "prior_knowledge": "Students can identify patterns and anomalies in data and explain observations using scientific knowledge (AC9S7I05). They have not yet connected data across multiple sources to support an explanation, or used proportional reasoning and extrapolation as analytical tools at this level.",
+    "progression_endpoint": "Students analyse data from their own investigations and secondary sources to identify and explain patterns, trends, proportional relationships and anomalies — connecting multiple data sources where relevant and using scientific knowledge to account for observed patterns. Students can discuss the validity of extrapolations from their data and highlight inconsistencies across data sources.",
     "nodes": [
       {
         "id": 1,
-        "label": "Patterns, trends, relationships and anomalies are identified across multiple sources",
-        "progression_checkpoint": "Students can analyse data from multiple sources, identify patterns, trends and proportional relationships, recognise anomalies, and connect consistent patterns across different data sets.",
-        "minimum_width": "Students identify a pattern or trend in data from at least two different sources and connect them, and identify at least one anomaly.",
-        "typical_width": "Students analyse atmospheric CO₂ data from ice cores and monitoring stations to identify patterns and connect them; analyse heat transfer data to identify proportional relationships; examine radioactive decay data across tables, graphs and simulations; compare published with experimental sound insulation data and identify systematic trends in differences; recognise anomalies and distinguish them from expected variation.",
+        "label": "Identifying patterns, trends and relationships",
+        "progression_checkpoint": "Students can identify patterns (repeating features), trends (directional change over a variable) and relationships (one variable changing in response to another) in data sets, using appropriate descriptive language.",
+        "minimum_width": "Identify one pattern or trend in a described data set and describe it in specific terms — stating the direction, the variables involved, and the nature of the change (e.g. 'as X increases, Y increases proportionally').",
+        "typical_width": "Identify and describe patterns, trends and relationships across two or three different data representations — using precise language to describe the nature of the relationship (proportional, inverse, non-linear) and the conditions under which it holds.",
         "wider": [
-          "Analyse representations of atmospheric CO₂ from ice cores and monitoring stations — identifying patterns, trends and inconsistencies across source types",
-          "Analyse heat transfer data through insulating layers to identify the proportional relationship between thickness and heat transfer",
-          "Examine radioactive decay tables and graphs to identify the half-life pattern and predict mass changes over time"
+          "Analyse data from atmospheric monitoring and ice cores to identify patterns and trends in atmospheric CO₂ — examining long-term trend vs. seasonal variation as different pattern types in the same data set.",
+          "Analyse data on heat transfer through insulating material layers to identify a proportional relationship (e.g. doubled thickness → halved heat transfer) — connecting pattern analysis to quantitative reasoning."
         ],
         "hinge": true,
-        "hinge_reason": "Node 2 requires students to explain what patterns mean and evaluate extrapolation — moves that are impossible without first reliably identifying patterns and anomalies from multiple sources. Students who cannot identify cross-source patterns cannot interpret them or judge whether trends continue beyond observed data.",
+        "hinge_reason": "Students who describe patterns in vague terms ('it goes up') rather than precise relational language cannot explain them scientifically or identify anomalies against them (Node 2). The precision of pattern description determines whether the subsequent analysis is substantive.",
         "response_modes": [
           {
-            "mode": "structured_reasoning",
-            "reason": "Students identify patterns within a single dataset but do not connect patterns across different source types (e.g. ice core data and monitoring station data showing the same CO₂ trend). Making the cross-source connection explicit — same pattern in independent sources strengthens the claim — is the scaffold for moving from observation to analysis.",
+            "mode": "consolidation",
+            "reason": "Precise pattern description is a language skill requiring practice. Students consistently drop the variable names, direction, and nature of the relationship — reverting to 'the line goes up'. Practice with feedback on language precision — specifically requiring the student to name both variables and the direction of change — builds the habit.",
             "flags": ["hinge"]
           }
         ],
         "width_opportunity": false,
         "width_opportunity_reason": null,
         "success_criteria": [
-          "Identifies a pattern or trend in data from at least two different sources and describes the connection between them",
-          "Identifies at least one anomaly in a data set and distinguishes it from expected variation"
+          "Can describe a pattern or trend naming both variables and the direction of change.",
+          "Can distinguish between a trend (directional change), a pattern (repeating feature) and a relationship (covariance).",
+          "Does not use vague language like 'it goes up' — uses the variable names."
         ]
       },
       {
         "id": 2,
-        "label": "Patterns are explained and extrapolation validity is evaluated",
-        "progression_checkpoint": "Students can explain what identified patterns and anomalies indicate about the phenomenon being studied, and evaluate whether extrapolating beyond the observed data range is valid.",
-        "minimum_width": "Students explain what one identified pattern indicates about the investigation question, and evaluate whether extrapolating from a given graph is valid.",
-        "typical_width": "Students explain what identified patterns mean for the investigation question (not just describing the pattern, but interpreting it); explain what anomalies might indicate; evaluate when graph extrapolation is valid and when it overreaches the data; and discuss what additional data would be needed to support a claimed extrapolation.",
+        "label": "Identifying and explaining anomalies",
+        "progression_checkpoint": "Students can identify anomalies in data — data points that do not fit the identified pattern — and propose explanations for them in terms of measurement error, procedural variation or genuine outliers.",
+        "minimum_width": "Identify an anomalous data point in a provided data set and give one plausible explanation for why it differs from the pattern (measurement error, equipment malfunction, genuine variation).",
+        "typical_width": "Identify anomalies and evaluate at least two possible explanations — distinguishing between errors that should be excluded and genuine outliers that may warrant further investigation — using evidence to support the preferred explanation.",
         "wider": [
-          "Discuss the validity of extrapolating from a graph — examining cases where extrapolation is reasonable and cases where it misleads",
-          "Compare published sound insulation data with experimentally determined values and explain the systematic pattern in differences — examining what the discrepancy indicates about experimental conditions vs standardised testing",
-          "Examine a case where an anomaly led to a significant scientific discovery — connecting pattern-and-anomaly analysis to how science progresses"
+          "Compare published data with experimental data for the same measurement (e.g. sound insulation levels) and identify patterns in the differences — examining whether differences are systematic (suggesting a procedural issue) or random.",
+          "Examine tables, graphs and simulations of radioactive decay to predict changes in mass over time — using the pattern to identify which data points are anomalous and evaluating whether they reflect real decay variation or simulation error."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify an anomalous data point as one that does not fit the identified pattern.",
+          "Can propose a plausible explanation for an anomaly that distinguishes between error and genuine variation.",
+          "Does not treat all anomalies the same — can evaluate whether an anomaly should be excluded or investigated."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Connecting and comparing data sources",
+        "progression_checkpoint": "Students can connect and compare data from multiple sources to identify consistencies, inconsistencies and what they mean for scientific claims — including discussing the validity of extrapolation from data.",
+        "minimum_width": "Compare data from two sources on the same topic, identify one point of consistency and one inconsistency, and explain what the inconsistency means for the confidence of the conclusion.",
+        "typical_width": "Connect data from multiple sources — primary data from an investigation and secondary published data — to evaluate whether findings are consistent, identifying inconsistencies and discussing their implications for the validity of conclusions. Discuss the validity of extrapolating beyond the data collected.",
+        "wider": [
+          "Analyse representations of data from atmospheric monitoring and ice cores to highlight inconsistencies — examining how scientists deal with data from different sources that don't perfectly align.",
+          "Examine the validity of extrapolating from experimental data (e.g. extrapolating a heating curve beyond the measured range) — considering what assumptions are required and when extrapolation is or isn't justified."
         ],
         "hinge": false,
         "hinge_reason": null,
         "response_modes": [
           {
-            "mode": "structured_reasoning",
-            "reason": "Students readily describe what a pattern looks like without explaining what it means — they report 'as X increases, Y decreases' without connecting this to the scientific question. Similarly they extend graph lines beyond data without evaluating validity. The reasoning chain (what does this pattern tell us about the phenomenon? → is the relationship likely to continue outside the observed range? → what would need to be true for extrapolation to be valid?) is the scaffold that moves description to analysis.",
-            "flags": ["width_opportunity"]
+            "mode": "integration",
+            "reason": "Multi-source data connection requires integrating pattern identification (Node 1), anomaly analysis (Node 2) and validity reasoning (AC9S9I06) into a coherent analytical judgment: 'These sources agree on X; they disagree on Y; the disagreement suggests Z about the reliability of one or both.' This integration is the descriptor's analytical demand."
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The extrapolation validity question is a genuinely rich analytical direction that applies across all Y9 data contexts. The anomaly-to-discovery connection (AC9S9H01) provides a cross-strand enrichment that elevates pattern analysis from a technical skill to a scientific practice.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "success_criteria": [
-          "Explains what an identified pattern indicates about the phenomenon being studied — not just describes the pattern",
-          "Evaluates whether extrapolating from a given graph is valid and explains the reasoning"
+          "Can identify consistency and inconsistency across two data sources on the same topic.",
+          "Can explain what an inconsistency implies for confidence in a conclusion.",
+          "Can discuss the validity of an extrapolation — identifying the assumption it requires."
         ],
-        "related_standards": [
-          "AC9S9H01"
-        ]
+        "related_standards": ["AC9S9I04", "AC9S9I06", "AC9S9U03"]
       }
     ]
   }

@@ -4,129 +4,181 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH10K03",
-    "title": "Turning Points of the Second World War — Holocaust and Atomic Bomb",
+    "title": "Turning Points of the Second World War",
     "description": "the significant events and turning points of the Second World War, including the Holocaust and use of the atomic bomb",
-    "strand": "Knowledge and Understanding",
+    "strand": "History (Knowledge and Understanding)",
     "mode": "A",
-    "prior_knowledge": "Students have studied significant events and turning points of World War One and their consequences, including the armistice and the human cost of industrialised warfare.",
-    "progression_endpoint": "Students explain why particular events were significant turning points in both theatres of the Second World War, investigate the Holocaust in historical context, and analyse the decision to use and the effects of the atomic bomb.",
+    "prior_knowledge": "Students have examined turning points of WW1 (AC9HH9K10) and can apply the concept of historical significance. From AC9HH10K01 they understand the course of the war at a structural level. From AC9HH10K02 they have examined specific Australian campaigns. They have studied the rise of fascism and Nazi ideology (AC9HH10K01, N2), giving them the ideological context for the Holocaust. They have not yet examined the Holocaust as a conceptually distinct historical phenomenon requiring its own analytical framework, nor analysed the atomic bomb decision as an ethical and strategic problem.",
+    "progression_endpoint": "Students explain why particular events were significant turning points in both the European and Asia-Pacific theatres, examine the historical context and scale of the Holocaust, and analyse the decision to use atomic weapons including their short- and long-term effects.",
     "nodes": [
       {
         "id": 1,
-        "label": "Turning points — European theatre",
-        "progression_checkpoint": "Students can explain why particular events were significant turning points in the European theatre of the Second World War.",
-        "minimum_width": "Explain why at least two events were turning points in the European theatre, identifying what changed as a result of each.",
-        "typical_width": "Explain the significance of major European turning points: Germany's invasion of Poland (1939), the Blitzkrieg and fall of France, the Battle of Britain, Operation Barbarossa, the siege of Stalingrad, Operation Overlord (invasion of Normandy), the Battle of the Bulge, and the Soviets' capture of Berlin; for each, explain what made it a turning point (what shifted in terms of momentum, alliances, or strategic position).",
+        "label": "Turning point as a historical concept",
+        "progression_checkpoint": "Students can explain what distinguishes a turning point from a significant event and apply explicit criteria to candidate events.",
+        "minimum_width": "Students explain the turning-point concept using explicit criteria and apply it to at least two events — correctly classifying one as a turning point and one as significant but not a turning point.",
+        "typical_width": "Students establish the distinction — a turning point shifts momentum or outcome decisively; a significant event matters but does not necessarily change trajectory; apply criteria (shift in balance of power, change in strategic situation, irreversibility of consequence) to a range of WW2 events; practise the distinction on clear cases before applying it to contested ones.",
         "wider": [
-          "Examine the Eastern Front — Operation Barbarossa through to Stalingrad — as the theatre with the highest casualties and the decisive shift in German strategic capacity, comparing its scale with the Western Front narrative dominant in Australian curricula",
-          "Investigate Operation Overlord (D-Day) in depth as a case study in the complexity of military planning, examining the logistical, intelligence, and political dimensions alongside the military narrative"
+          "Examine whether the Eastern Front (Operation Barbarossa, Stalingrad) or the Western Front narrative better explains where and how the war was decided — applying turning-point criteria to compare theatres",
+          "Investigate the concept of contingency in history — using a turning-point event to ask 'what if the outcome had been different?' as a way of testing the significance claim"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "The turning-point concept with explicit criteria is the analytical scaffold N2 (European turning points) and N3 (Asia-Pacific turning points) apply to specific events. Without it, students list events rather than evaluate them. It also underpins the Holocaust analysis in N4 — students need to ask 'was the Holocaust a turning point?' in what sense? — and the atomic bomb analysis in N6.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students often describe events rather than analysing why they were turning points. Structure responses around the concept of 'turning point' explicitly — what shifted (momentum, resources, alliances, morale) — before asking students to apply the concept to specific events."
+            "reason": "Students commonly treat 'turning point' and 'significant event' as synonyms. Making the distinction explicit and practising it on clear cases — Midway clearly qualifies; the bombing of Darwin is significant but not a turning point — builds the concept before it is applied to harder cases in N2–N3 and contested cases in N4–N6.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Identify at least two events as turning points in the European theatre and explain what specifically changed at each",
-          "Use the concept of 'turning point' correctly — distinguishing events that shifted the course of the war from those that were simply significant battles",
-          "Explain how momentum in the European theatre shifted between 1939 and 1945"
-        ]
+          "Explains what distinguishes a turning point from a significant event using at least two explicit criteria",
+          "Correctly classifies at least one event as a turning point and at least one as significant but not a turning point, justifying each"
+        ],
+        "related_standards": ["AC9HH9K10", "AC9HH10S05", "AC9HH10S07"]
       },
       {
         "id": 2,
-        "label": "Turning points — Asia-Pacific theatre",
-        "progression_checkpoint": "Students can explain why particular events were significant turning points in the Asia-Pacific theatre of the Second World War.",
-        "minimum_width": "Explain why at least two events were turning points in the Asia-Pacific theatre, including at least one that directly affected Australia.",
-        "typical_width": "Explain the significance of major Asia-Pacific turning points: Japanese occupation of China, attack on Pearl Harbor (1941), fall of Singapore (1942), bombings of northern Australia, Battle of Midway (1942), Battle for Kokoda, Battle of Iwo Jima; explain the significance of each for the Allied war effort and for Australia specifically.",
+        "label": "Turning points — European theatre",
+        "progression_checkpoint": "Students can explain why particular events were significant turning points in the European theatre, applying turning-point criteria to a range of named events.",
+        "minimum_width": "Students apply turning-point criteria to at least two European theatre events and explain why each qualifies.",
+        "typical_width": "Students apply turning-point analysis to European theatre events: the Blitzkrieg, Battle of Britain, Operation Barbarossa, the siege of Stalingrad, Operation Overlord (D-Day), Battle of the Bulge, fall of Berlin; explain why each qualifies (or does not qualify) as a turning point; explain how momentum shifted across the European theatre over the course of the war.",
         "wider": [
-          "Compare the significance of Pearl Harbor and the fall of Singapore as turning points — examining which more fundamentally changed the nature and scope of the Pacific War",
-          "Investigate the island-hopping campaign as a strategic turning point — examining how the Allied decision to bypass heavily defended islands and target strategic ones reshaped the final phase of the Pacific War"
+          "Examine the Eastern Front as the war's largest theatre by casualties — evaluating whether the Western Front narrative that dominates Australian and British textbooks accurately represents where the European war was decided",
+          "Investigate the role of the Soviet Union in defeating Nazi Germany — analysing how Operation Barbarossa's failure and Stalingrad combined to break German military capacity on the Eastern Front"
         ],
         "hinge": false,
         "hinge_reason": null,
-        "response_modes": [
-          {
-            "mode": "context_breadth",
-            "reason": "The Asia-Pacific theatre is often taught only through Australian-specific events. Including Pearl Harbor, the Battle of Midway, and the broader US strategic picture contextualises Australian events within the larger Allied campaign."
-          }
-        ],
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need to build a repertoire of European turning-point events and their causal relationships before the Asia-Pacific comparison in N3 is meaningful. A chronological analysis task — applying turning-point criteria to each event in sequence — builds this systematically."
+          }
+        ],
         "success_criteria": [
-          "Identify at least two turning points in the Asia-Pacific theatre and explain their significance",
-          "Explain the strategic significance of the fall of Singapore for Australia's defence",
-          "Connect at least one Asia-Pacific turning point to a shift in the overall Allied strategic position"
-        ]
+          "Applies turning-point criteria to at least two European theatre events and justifies each classification",
+          "Explains how momentum in the European theatre shifted over the course of the war"
+        ],
+        "related_standards": ["AC9HH10S05", "AC9HH10S07"]
       },
       {
         "id": 3,
-        "label": "The Holocaust — context, scale, and significance",
-        "progression_checkpoint": "Students can examine the Holocaust in its historical context, investigate its scale and significance using primary and secondary sources, and discuss its short- and long-term impacts.",
-        "minimum_width": "Explain the historical context in which the Holocaust occurred (anti-Semitism, Nazi race theory), describe its scale, and identify at least one short-term and one long-term impact on the Jewish community.",
-        "typical_width": "Examine the historical context of the Holocaust including pre-existing anti-Semitism and Nazi race theory as ideology; investigate the scale and significance of the Holocaust using primary sources such as survivor testimonies and secondary sources; discuss short- and long-term impacts on the Jewish community — including coming to terms with the scale of loss, migration to Israel, Australia and the United States, and the creation of Yad Vashem and other Holocaust memorials.",
+        "label": "Turning points — Asia-Pacific theatre",
+        "progression_checkpoint": "Students can explain why particular events were significant turning points in the Asia-Pacific theatre and explain how the two theatres relate to each other.",
+        "minimum_width": "Students apply turning-point criteria to at least two Asia-Pacific theatre events and explain why each qualifies.",
+        "typical_width": "Students apply turning-point analysis to Asia-Pacific events: Japanese occupation of China, Pearl Harbor, fall of Singapore, Battle of Midway, Battle of Kokoda, Battles of the Coral Sea and Iwo Jima; explain why each qualifies; explain how momentum shifted across the Asia-Pacific theatre; compare the timeline of the two theatres — examining whether events in Europe influenced events in the Pacific or whether the two wars were largely independent until 1945.",
         "wider": [
-          "Examine a range of survivor testimonies alongside perpetrator accounts and bystander accounts, analysing how different positions of proximity to the Holocaust produce fundamentally different historical records",
-          "Investigate the long-term international legal legacy of the Holocaust — the Nuremberg Trials, the Genocide Convention (1948), and the concept of crimes against humanity — examining how the Holocaust reshaped international law",
-          "Explore the experiences of other persecuted groups during the Holocaust (Roma, disabled people, LGBTQI+ people, political prisoners) alongside the Jewish experience, examining what the targeting of multiple groups reveals about Nazi ideology"
-        ],
-        "hinge": true,
-        "hinge_reason": "Students who learn the Holocaust only as a list of facts — without understanding the ideology and social conditions that enabled it — are unable to engage meaningfully with the subsequent node on the atomic bomb decision or with K15 (origins of the UDHR), both of which depend on understanding how the Holocaust changed international moral frameworks.",
-        "response_modes": [
-          {
-            "mode": "structured_reasoning",
-            "reason": "Engage students in the historical question of how the Holocaust was possible — examining the role of ideology, bureaucracy, bystander complicity, and ordinary perpetrators — to move beyond description toward historical explanation.",
-            "flags": ["hinge"]
-          },
-          {
-            "mode": "context_breadth",
-            "reason": "Use survivor testimonies, perpetrator records, and bystander accounts as distinct source types — each revealing a different dimension of the Holocaust. This breadth of source type is essential for understanding how historians reconstruct events with incomplete and partial records.",
-            "flags": ["width_opportunity"]
-          }
-        ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Survivor testimony as a source type, the question of ordinary perpetrators, and the legal legacy of the Holocaust all offer rich analytical opportunities that extend beyond this descriptor into historical skills (S03, S04) and into the UDHR (K15).",
-        "success_criteria": [
-          "Explain the historical context in which the Holocaust occurred, identifying anti-Semitism and Nazi race theory as enabling conditions",
-          "Describe the scale of the Holocaust and explain why survivor testimonies are significant as a source type for investigating it",
-          "Identify at least one short-term and one long-term impact of the Holocaust on the Jewish community"
-        ]
-      },
-      {
-        "id": 4,
-        "label": "The atomic bomb — decision and effects",
-        "progression_checkpoint": "Students can analyse why the atomic bombs were dropped on Hiroshima and Nagasaki and investigate their short- and long-term effects on human health and the environment.",
-        "minimum_width": "Explain at least two reasons why the atomic bombs were dropped and describe at least one short-term and one long-term effect.",
-        "typical_width": "Investigate the race to build the atomic bomb (Germany, Japan, USA); analyse the reasons for dropping the bombs on Hiroshima and Nagasaki — military necessity, avoiding a land invasion, signalling to the Soviet Union, political pressure; investigate the short- and long-term effects on human health (blast, burns, radiation sickness, long-term cancer rates) and short- and long-term environmental effects on the cities and surrounding areas.",
-        "wider": [
-          "Examine the competing historical interpretations of the decision to use the atomic bomb — 'military necessity' vs 'diplomatic signalling to the USSR' vs 'racism' arguments — evaluating which interpretation is best supported by available evidence",
-          "Compare the short- and long-term environmental and health legacies of Hiroshima and Nagasaki with later nuclear incidents (Chernobyl, Fukushima), examining how understanding of nuclear risk and responsibility has evolved",
-          "Investigate the Hibakusha (atomic bomb survivors) testimonies alongside US military and government records, examining how the same event is understood fundamentally differently depending on the standpoint of the source"
+          "Examine the Battle of Midway as a turning point driven by intelligence and code-breaking rather than material superiority — analysing how the breaking of Japanese naval codes at the Battle of Midway illustrates the role of information in modern warfare",
+          "Compare the turning-point structure of the two theatres on a common timeline — evaluating whether the Pacific war followed a similar momentum arc to the European war or had a different pattern"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The cross-theatre comparison is a rich analytical task that requires students to apply the same criteria to two distinct contexts and synthesise across them — a genuinely demanding historical thinking exercise with transferable skills.",
         "response_modes": [
           {
-            "mode": "structured_reasoning",
-            "reason": "The decision to drop the atomic bomb is a contested historical question with multiple interpretive frameworks. Explicitly teaching students to evaluate competing interpretations — rather than accepting the 'military necessity' narrative as given — builds the analytical skills required for K06, K20, and the S-strand."
+            "mode": "repertoire_building",
+            "reason": "As with N2, students need a working repertoire of Asia-Pacific events before comparison with the European theatre is meaningful. The cross-theatre comparison task can follow once both repertoires are established."
           },
           {
-            "mode": "context_breadth",
-            "reason": "The effects of the atomic bomb extend across human health, environmental damage, international law, and Cold War nuclear politics. Widening beyond the immediate blast effects to include long-term radiation health impacts and the nuclear arms race contextualises the bomb's significance.",
+            "mode": "structured_reasoning",
+            "reason": "The cross-theatre comparison requires explicit scaffolding — students need a comparative framework (same criteria applied to both theatres, common timeline) before they can argue about relationships between the two wars.",
             "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The atomic bomb decision is a paradigm case for evaluating contested historical interpretations — a skill directly relevant to K20 (historical debates) and the S07 (analysing contested interpretations). The nuclear legacy also connects forward to K17 and K20.",
         "success_criteria": [
-          "Identify at least two reasons given for the decision to drop the atomic bombs and evaluate the strength of each reason",
-          "Describe the short- and long-term effects of the atomic bombs on human health",
-          "Explain why the use of atomic bombs is considered a turning point in both the Pacific War and in 20th-century history more broadly"
-        ]
+          "Applies turning-point criteria to at least two Asia-Pacific theatre events and justifies each classification",
+          "Explains how momentum in the Asia-Pacific theatre shifted over the course of the war",
+          "Identifies at least one connection or contrast between the European and Asia-Pacific turning-point timelines"
+        ],
+        "related_standards": ["AC9HH10K02", "AC9HH10S05", "AC9HH10S07"]
+      },
+      {
+        "id": 4,
+        "label": "Holocaust — ideology, context, and escalation",
+        "progression_checkpoint": "Students can explain the historical context in which the Holocaust occurred — including anti-Semitism as a longstanding European phenomenon, Nazi race theory as its political weaponisation, and the escalation from persecution to genocide.",
+        "minimum_width": "Students explain at least two ideological or political preconditions for the Holocaust and describe the escalation from legal persecution to organised genocide.",
+        "typical_width": "Students examine anti-Semitism as a pre-existing European phenomenon that preceded the Nazi Party; explain how Nazi race theory weaponised anti-Semitism as a political programme; trace the escalation — legal persecution (Nuremberg Laws, 1935), organised violence (Kristallnacht, 1938), forced displacement, ghettoisation, and the shift to systematic mass murder from 1941 (Einsatzgruppen, Wannsee Conference, death camps); explain why the Holocaust requires a distinct analytical framework rather than being treated as just another war atrocity.",
+        "wider": [
+          "Examine the range of perpetrators, bystanders, and rescuers — analysing what conditions enabled ordinary people to participate in or resist the Holocaust, and what this reveals about the relationship between ideology, authority, and individual agency",
+          "Investigate the experiences of groups other than Jewish people targeted by Nazi persecution — Roma, disabled people, political opponents, homosexuals — examining how the Holocaust's ideological logic extended beyond its primary target"
+        ],
+        "hinge": true,
+        "hinge_reason": "The ideological and contextual grounding established here is the prerequisite for N5's scale and significance analysis. Students who encounter the Holocaust without understanding anti-Semitism's pre-existing character, Nazi race theory's specific logic, or the escalation process cannot explain why the Holocaust happened — they can only describe that it did. This produces the 'incomprehensible evil' framing that shuts down historical analysis.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to understand the Holocaust as the product of specific ideological, institutional, and social conditions — not as an inexplicable aberration. The scaffold is: what were the pre-existing conditions? how did Nazi ideology operationalise them? how did escalation occur step by step? This prevents both trivialisation and the framing that forecloses historical analysis.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains anti-Semitism as a pre-existing European phenomenon that the Nazi Party weaponised rather than invented",
+          "Describes at least three stages in the escalation from legal persecution to organised genocide",
+          "Explains why the Holocaust requires a distinct analytical framework — not merely treatment as one war atrocity among others"
+        ],
+        "related_standards": ["AC9HH10K01", "AC9HH10S03", "AC9HH10S06"]
+      },
+      {
+        "id": 5,
+        "label": "Holocaust — scale, significance, and long-term impacts",
+        "progression_checkpoint": "Students can describe the scale of the Holocaust using evidence, evaluate its historical significance, and explain its long-term impacts on the Jewish community and on international human rights frameworks.",
+        "minimum_width": "Students describe the scale of the Holocaust using at least one specific piece of evidence; explain one long-term impact on the Jewish community and one on international human rights frameworks.",
+        "typical_width": "Students investigate the scale using primary and secondary sources — survivor testimonies, statistical records, photographic and documentary evidence; explain why scale matters to historical significance; discuss long-term impacts on the Jewish community (displacement, migration to Israel, Australia, and the USA, creation of Yad Vashem and other memorial institutions); explain the Holocaust's role in motivating the Universal Declaration of Human Rights and the Genocide Convention; connect to K15's content on the UDHR.",
+        "wider": [
+          "Examine the post-war Nuremberg trials as the founding moment of international criminal law — analysing how the Holocaust forced a rethinking of state sovereignty and individual accountability that still shapes international law",
+          "Explore how Holocaust memory and commemoration has evolved — examining debates about representation, the role of survivor testimony, and how digital archives are changing access to this history"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Nuremberg legacy and the evolution of Holocaust commemoration connect to genuinely productive analytical directions — the foundations of international criminal law, the ethics of representation, and the relationship between historical memory and institutional response — that extend well beyond the WW2 content.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using survivor testimonies and multiple source types — statistical, personal, institutional — gives students a richer and more accurate picture of scale and experience. This also builds source analysis skills required in AC9HH10S03 and S04.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes the scale of the Holocaust using specific evidence — not only states that it was large",
+          "Explains at least one long-term impact on the Jewish community with evidence",
+          "Explains the Holocaust's role in motivating international human rights frameworks, connecting to at least one specific institution or document"
+        ],
+        "related_standards": ["AC9HH10K15", "AC9HH10S03", "AC9HH10S04"]
+      },
+      {
+        "id": 6,
+        "label": "The atomic bomb — decision, effects, and significance",
+        "progression_checkpoint": "Students can analyse why atomic bombs were dropped on Hiroshima and Nagasaki, describe their short- and long-term effects, and evaluate the significance of this decision.",
+        "minimum_width": "Students explain at least two reasons for the decision to use atomic weapons; describe at least one short-term and one long-term effect on human health and the environment.",
+        "typical_width": "Students identify the race to build the atomic bomb among Germany, Japan, and the USA; analyse the reasons for the Truman decision (projected casualties from a land invasion, Japan's refusal to surrender, demonstration of US power to the Soviets); investigate short-term effects (immediate casualties, firestorm destruction, radiation exposure) and long-term effects (radiation sickness, environmental contamination, generational health impacts); evaluate the significance of the decision as both a war-ending event and the opening of the nuclear age.",
+        "wider": [
+          "Examine the historiographical debate over Truman's decision — analysing the 'military necessity' argument against the 'diplomatic signal to the Soviets' argument and the 'alternatives were available' counter-argument, evaluating which interpretation best fits the evidence",
+          "Investigate the long-term political consequences — the nuclear arms race, MAD doctrine, and the Non-Proliferation Treaty — examining how a single military decision reshaped international relations for decades and connects to K16's Cold War content"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The historiographical debate over Truman's decision is one of the richest argumentation opportunities in the WW2 unit — students encounter genuinely contested interpretations with strong evidence on multiple sides. The long-term nuclear consequences connect productively to K16 and K20.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly collapse the atomic bomb decision into a binary moral verdict (right or wrong) without engaging with the strategic reasoning in context. Scaffolding the decision analysis — what did Truman know? what were the realistic alternatives? what other factors influenced the decision? — produces genuine historical argument.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains at least two reasons for the decision to use atomic weapons, beyond 'to end the war'",
+          "Describes both short-term and long-term effects on human health and the environment with specific evidence",
+          "Evaluates the significance of the atomic bomb using at least two distinct frames — war-ending event and opening of the nuclear age"
+        ],
+        "related_standards": ["AC9HH10K16", "AC9HH10S07", "AC9HH10S08"]
       }
     ]
   }

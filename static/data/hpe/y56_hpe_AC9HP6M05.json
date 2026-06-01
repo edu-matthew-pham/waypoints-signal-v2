@@ -1,0 +1,74 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M05",
+    "title": "Physical activity in natural settings",
+    "description": "participate in physical activities that enhance health and wellbeing in natural and outdoor settings, and analyse the steps and resources needed to promote participation",
+    "strand": "Making active choices",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students participated in physical activities in natural and outdoor settings to examine factors that can influence their own and others' participation (AC9HP4M05). They can identify participation barriers and enablers at a descriptive level but have not yet analysed the steps and resources needed to actively promote participation.",
+    "progression_endpoint": "Students participate in physical activities in natural and outdoor settings and analyse the steps and resources needed to promote participation for themselves and others.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Connecting outdoor activity to health and wellbeing",
+        "description": "Explain how participation in physical activities in natural and outdoor settings specifically enhances health and wellbeing — distinguishing the contribution of the natural/outdoor context from physical activity in general.",
+        "minimum_width": "Participate in an outdoor physical activity and describe at least one way the natural or outdoor setting enhanced the health or wellbeing benefit beyond what an indoor activity would provide.",
+        "success_criteria": [
+          "Identifies the specific contribution of the outdoor/natural context (not just that activity is good for health)",
+          "Can reference at least one dimension of wellbeing (physical, mental, social, or connection to place)"
+        ],
+        "hinge": true,
+        "hinge_reason": "The promotion analysis in N2 depends on understanding why outdoor participation matters — students who cannot articulate the outdoor-specific benefit will produce generic 'exercise is good' promotion strategies that don't address access or connection to natural environments.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Compare: same physical activity indoors vs outdoors — what changes? Connects lived experience of the activity to the health/wellbeing concept and builds the outdoor-specific rationale needed for N2.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Analysing access and participation factors",
+        "description": "Identify and analyse the steps and resources needed to access and participate in outdoor physical activities — considering equity, environment, community and logistical factors.",
+        "minimum_width": "Identify at least two factors that influence access to or participation in an outdoor physical activity, and describe what steps or resources would help address one barrier.",
+        "success_criteria": [
+          "Identifies both a barrier and an enabler (not just one type)",
+          "Proposes a concrete step or resource — not a vague 'we should encourage more people'"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Participation factors span community infrastructure, cultural connection (including First Nations connections to Country), physical environment, safety, and cost — each offers a distinct analytical angle.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Analyse participation factors for different natural settings and community contexts: a skate park, a bushwalking trail, a surf beach, a local park. The resource and step requirements differ across contexts, deepening analytical thinking.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Proposing promotion strategies",
+        "description": "Propose strategies to promote participation in outdoor physical activities, drawing on the analysis of access factors and the health/wellbeing rationale.",
+        "minimum_width": "Propose at least one strategy to increase participation in an outdoor physical activity, explaining the steps involved and the resources required.",
+        "success_criteria": [
+          "Strategy addresses a specific identified barrier (not a general appeal)",
+          "Includes both steps (what to do) and resources (what is needed)"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integrates health/wellbeing rationale and access analysis into a promotion proposal — the full descriptor demand of 'analyse the steps and resources needed to promote participation'."
+          }
+        ]
+      }
+    ]
+  }
+}

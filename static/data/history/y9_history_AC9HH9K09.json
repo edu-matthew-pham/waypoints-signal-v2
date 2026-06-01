@@ -4,88 +4,124 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH9K09",
-    "title": "Places of Significance and Australian Experiences in WWI",
+    "title": "Places of Significance, Perspectives and Experiences",
     "description": "the places of significance where Australians fought, their perspectives and experiences, including the Gallipoli campaign, the Western Front and the Middle East",
     "strand": "Knowledge and Understanding",
     "mode": "A",
-    "prior_knowledge": "Students have studied the causes of WWI and Australian enlistment (AC9HH9K08). They understand why Australians went to war and what motivated them. They have not yet examined where Australians fought, the conditions of different theatres of war, or how the experience of combat varied by location and role.",
-    "progression_endpoint": "Students identify the places of significance where Australians fought, and examine the perspectives and experiences of soldiers in different theatres of the war.",
+    "prior_knowledge": "Students can describe historical turning points and examine the experiences and perspectives of different groups in earlier historical periods (AC9HH8K03, AC9HH8K04). They have not yet examined the specific geography of WW1 theatres, the nature of industrialised warfare (trench warfare, military technology), or the contrast between experiences on the Western Front and in the Middle East.",
+    "progression_endpoint": "Students identify the major theatres where Australians fought (Gallipoli, Western Front, Middle East), describe the conditions and experiences of soldiers in each theatre, investigate the difficulties of trench warfare and the development of military technology, and compare and contrast the different experiences of foot soldiers on the Western Front and Light Horse in the Middle East.",
     "nodes": [
       {
         "id": 1,
-        "label": "Places where Australians fought",
-        "progression_checkpoint": "Students can identify the major places where Australians fought in WWI and describe their geographic and strategic context.",
-        "minimum_width": "Identify at least four places where Australians fought in WWI and locate them geographically.",
-        "typical_width": "Identify the places where Australians fought: Gallipoli; Western Front (Fromelles, the Somme, Pozières, Passchendaele, Bullecourt, Villers-Bretonneux); Middle East/North Africa (Sinai Peninsula, Gaza, Beersheba); describe the geographic and strategic context of each major theatre.",
+        "label": "Geography of WW1 theatres — where Australians fought",
+        "progression_checkpoint": "Students can identify the major theatres where Australians fought and locate key battlefields on a map — Gallipoli, the Western Front (Somme, Pozières, Passchendaele, Fromelles, Bullecourt, Villers-Bretonneux) and the Middle East (Sinai, Gaza, Beersheba).",
+        "minimum_width": "Students name and locate the three major theatres (Gallipoli, Western Front, Middle East) and identify at least two named battlefields in each.",
+        "typical_width": "Students locate all named battlefields on a map of Europe and the Middle East; describe the approximate dates and sequence of Australian involvement in each theatre; explain why the Western Front was the dominant theatre for Australian forces after 1915; connect theatre geography to strategic objectives.",
         "wider": [
-          "Map all major Australian battle sites and examine the strategic logic connecting them — analysing how the war's geography changed from Gallipoli (amphibious assault, failed campaign) to the Western Front (industrial attrition) to the Middle East (mobile cavalry warfare)",
-          "Investigate one less well-known Australian campaign (e.g. Fromelles or Bullecourt) to examine how battles outside the 'iconic' narrative (Gallipoli, Beersheba) shaped the Australian WWI experience"
+          "Investigate the strategic logic of the Gallipoli campaign — the Allied plan to knock Ottoman Turkey out of the war and open a supply route to Russia — to understand why Australia was fighting in the Dardanelles rather than France",
+          "Map the movement of the ANZAC forces through the Sinai and Palestine campaign chronologically, tracing the shift from defensive to offensive operations"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "Geographic grounding is the prerequisite for all subsequent nodes. Students who cannot locate the theatres and battlefields cannot make sense of the conditions and experiences described in N2–N3 — 'trench warfare' only makes sense in the Western Front context, and the Light Horse experience only makes sense in the Palestinian desert context. Theatre geography sets up the comparison in N4.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "consolidation",
-            "reason": "Geographic knowledge of where Australians fought is a necessary foundation before examining the conditions and experiences at those locations. Accurate place-knowledge supports all subsequent analysis."
+            "mode": "structured_reasoning",
+            "reason": "Students commonly conflate all WW1 combat with Gallipoli or treat the Western Front as a single undifferentiated place. Explicit map work — locating theatres and individual battlefields — builds the spatial scaffold the comparison node (N4) requires.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
         "success_criteria": [
-          "Identifies at least five places where Australians fought in WWI, correctly located in the correct theatre",
-          "Describes the geographic context of at least two major theatres (Western Front, Gallipoli, Middle East)"
+          "Identifies and locates the three major theatres on a map",
+          "Names at least two specific battlefields in each theatre"
         ]
       },
       {
         "id": 2,
-        "label": "Conditions and technology of trench warfare",
-        "progression_checkpoint": "Students can investigate the difficulties of trench warfare and explain how the development of new military technology changed the nature of combat.",
-        "minimum_width": "Describe at least two difficulties of trench warfare and identify one new military technology used in WWI.",
-        "typical_width": "Investigate the difficulties of trench warfare — mud, disease, shelling, 'going over the top', shell shock; examine the development and impact of new military technologies including tanks, aeroplanes, and chemical weapons (gas); explain how these technologies changed the nature of warfare and the experience of soldiers.",
+        "label": "The Gallipoli campaign — context, experience and significance",
+        "progression_checkpoint": "Students can describe the Gallipoli campaign — its objectives, what happened, and the experience of ANZAC soldiers — and explain why it holds particular significance in Australian national memory.",
+        "minimum_width": "Students describe the strategic objective of the Gallipoli landings, describe the conditions experienced by ANZAC soldiers (cliff terrain, entrenched positions, heat, disease, supply difficulties), and note the eventual evacuation and its significance.",
+        "typical_width": "Students describe the April 25 landing and its immediate difficulties; the eight-month stalemate at Anzac Cove; key events (the August Offensive, Battle of Lone Pine, Chunuk Bair); the evacuation; the high casualty rates relative to tactical gain; explain why Gallipoli — a military failure — became a foundational national story.",
         "wider": [
-          "Examine the development of chemical warfare (gas) as a case study in how technology can violate established rules of war — and investigate how the international community responded to its use",
-          "Investigate how the tank changed tactical thinking on the Western Front — examining specific battles (e.g. Cambrai, 1917) where tanks were used to break the trench deadlock",
-          "Examine shell shock (now understood as PTSD) as evidence that the psychological impact of industrial warfare was not adequately understood or addressed — connecting historical conditions to contemporary understanding of trauma"
+          "Examine the experience from the Ottoman Turkish perspective using sources such as Atatürk's 1934 statement about the ANZACs — how has Turkey's own commemoration of Gallipoli evolved?",
+          "Investigate specific personal accounts — letters, diaries, photographs — of Gallipoli to ground the general experience in individual voices, applying source analysis skills (AC9HH9S03)"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Examining both physical conditions (mud, disease, shelling) and technological change (tanks, gas, aeroplanes) gives a fuller picture of what made WWI a different kind of war — the technological dimension is often reduced to 'guns' if not explicitly taught."
+            "reason": "Students commonly have prior cultural knowledge of Gallipoli (ANZAC Day, family stories, media) that is often heroic and oversimplified. Examining it as a specific military operation with a specific experience — rather than purely as national myth — prepares the ground for the commemoration debates in AC9HH9K12."
           }
         ],
-        "width_opportunity": false,
         "success_criteria": [
-          "Describes at least three difficulties of trench warfare drawing on specific conditions",
-          "Identifies at least two new military technologies and explains how each changed the experience or nature of combat"
-        ]
+          "Describes the strategic objective of the Gallipoli campaign and what happened",
+          "Describes the conditions experienced by ANZAC soldiers at Gallipoli"
+        ],
+        "related_standards": ["AC9HH9K12"]
       },
       {
         "id": 3,
-        "label": "Comparing experiences across theatres — Western Front vs Middle East",
-        "progression_checkpoint": "Students can compare and contrast the different experiences of war across at least two theatres, including the experience of Australian soldiers in different roles and locations.",
-        "minimum_width": "Compare the experience of soldiers in one Western Front battle with one Middle East campaign, identifying at least two differences.",
-        "typical_width": "Compare and contrast the different experiences of war including foot soldiers on the Western Front (industrial attrition, trench warfare, mud, gas, constant shelling) versus Light Horse in Palestine (mobile cavalry warfare, desert conditions, different tactical demands); examine how location and role shaped the soldier's experience of war.",
+        "label": "The Western Front — trench warfare and military technology",
+        "progression_checkpoint": "Students can describe the conditions of trench warfare on the Western Front and explain how the development of military technology shaped the nature of warfare — including tanks, aeroplanes, and chemical weapons.",
+        "minimum_width": "Students describe trench warfare conditions (mud, disease, stalemate, artillery bombardment, 'going over the top'), identify at least two military technologies introduced during WW1, and explain how each affected the nature of fighting.",
+        "typical_width": "Students describe the trench system architecture (front-line, support, reserve trenches; no-man's land); explain why the Western Front became a stalemate (artillery superiority, machine guns, barbed wire, the difficulty of territorial advance); describe the role of tanks in attempting to break the stalemate; aeroplanes in reconnaissance and later air combat; poison gas (chlorine, phosgene, mustard gas) and its particular psychological and physical effects; connect technology development to the human casualty scale.",
         "wider": [
-          "Examine the experiences of First Nations Australian soldiers in specific campaigns — identifying how racial identity shaped their assignments, treatment by officers, and post-war recognition",
-          "Compare the experiences of officers and enlisted soldiers in the same campaign to examine how rank and class shaped the WWI experience",
-          "Investigate the experiences of Australian nurses or other non-combat roles to examine dimensions of the war experience not captured by combat-focused narratives"
+          "Investigate the Battle of the Somme's first day (1 July 1916) as a case study in the gap between pre-battle confidence and actual battlefield conditions — examining how commanders assessed success and failure",
+          "Examine the development of gas warfare from both attacker and defender perspectives — how masks and defensive measures evolved in response, connecting scientific and military thinking",
+          "Explore how the Western Front experiences are represented in literature and art — Wilfred Owen, C.E.W. Bean's accounts — and what these sources reveal about soldier perspectives"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "Understanding the nature of Western Front warfare — particularly the combination of industrial-scale artillery and the inability of infantry to exploit artillery gains before defenders recovered — is the prerequisite for understanding the casualty scale and the turning points in AC9HH9K10. Students who cannot explain the stalemate logic cannot understand why the Russian Revolution and American entry (N-level turning points in K10) were so significant.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Literary and artistic representation of trench warfare (Owen, Bean, official war art) offers rich cross-disciplinary connection and source analysis opportunity. The technology-stalemate analysis connects to AC9HH9K10's turning points questions and demands genuine analytical thinking about cause and consequence.",
         "response_modes": [
           {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe the Western Front as 'terrible' without understanding the structural reasons for stalemate — why couldn't either side advance? Making the artillery-gap-consolidation-cycle explicit as the mechanism explains both the casualty scale and the appeal of tanks as a solution.",
+            "flags": ["hinge"]
+          },
+          {
             "mode": "context_breadth",
-            "reason": "Using both Western Front and Middle East examples, and examining multiple roles, prevents students from reducing Australian WWI experience to a single type (usually Gallipoli) and develops genuinely comparative historical thinking.",
+            "reason": "Encountering the Western Front experience through multiple source types — personal accounts, photographs, statistics, technological analysis — builds a more complete picture than any single source provides.",
             "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The contrast between different theatres and roles is pedagogically rich — it reveals how 'the war' was not a single experience but multiple distinct conditions that produced very different soldier perspectives. The Light Horse in Palestine is often underemphasised and offers genuine contrast with Western Front narratives.",
         "success_criteria": [
-          "Compares the experiences of soldiers in at least two different theatres or roles, identifying specific differences in conditions and demands",
-          "Explains how location and role shaped the nature of soldiers' wartime experience"
-        ]
+          "Describes trench warfare conditions on the Western Front and explains why stalemate developed",
+          "Identifies at least two military technologies introduced during WW1 and explains how each affected the nature of fighting"
+        ],
+        "related_standards": ["AC9HH9K10", "AC9HH9S03"]
+      },
+      {
+        "id": 4,
+        "label": "Comparing experiences — Western Front and Middle East",
+        "progression_checkpoint": "Students can compare and contrast the different experiences of Australian soldiers on the Western Front and in the Middle East, identifying key differences in terrain, warfare type, conditions, and the nature of the fighting.",
+        "minimum_width": "Students produce a comparison of the two theatres on at least three dimensions: terrain/environment, type of warfare (trench vs mobile), conditions faced, and the role of different military units (infantry vs Light Horse).",
+        "typical_width": "Students compare the two theatres systematically — the mud and stalemate of Flanders vs the heat, mobility and cavalry charges of Palestine; the infantry-centred warfare of the Western Front vs the mounted warfare and greater mobility of the Light Horse; the strategic objectives in each theatre; the casualty rates and types; examine soldier accounts from both theatres to ground the comparison in perspective; explain why both theatres feature in Australian national memory though the Western Front claimed more Australian lives.",
+        "wider": [
+          "Examine the Battle of Beersheba as a case study in the contrast — the famous Light Horse charge as a moment of mobility warfare in sharp contrast to the Western Front's static character — investigating whether it has been mythologised",
+          "Compare how Australian soldiers wrote about their experiences in the two theatres — do accounts from the Middle East and Western Front have different emotional or descriptive registers?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison demands genuine analytical synthesis across multiple dimensions — terrain, warfare type, human experience, national memory — making this a rich higher-order node where width investment produces meaningful depth. Beersheba as a case study integrates historical skills with the conceptual content.",
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node requires students to coordinate the specific knowledge from N2 (Gallipoli/Middle East) and N3 (Western Front) into a structured comparison — applying both content knowledge and historical comparison skills simultaneously.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Compares the Western Front and Middle East theatres on at least three dimensions including terrain and type of warfare",
+          "Explains the different roles of infantry (Western Front) and Light Horse (Middle East) and what each reveals about the respective theatres"
+        ],
+        "related_standards": ["AC9HH9K10", "AC9HH9S05"]
       }
     ]
   }

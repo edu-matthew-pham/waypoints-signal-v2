@@ -1,0 +1,99 @@
+{
+  "year_level": "F",
+  "subject": "Dance",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9ADAFC01",
+    "title": "Create works that communicate ideas",
+    "description": "create arts works that communicate ideas",
+    "strand": "Creating",
+    "mode": "B",
+    "prior_knowledge": "No formal prior knowledge assumed. Students bring physical play, movement, and imaginative storytelling from everyday experience.",
+    "progression_endpoint": "Students create arts works — including dance — that communicate ideas drawn from personal or social experience.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Ideas as starting points",
+        "progression_checkpoint": "Students can identify an idea from lived experience or imagination to use as a starting point for movement.",
+        "minimum_width": "One lived experience or familiar story used as a prompt for movement exploration.",
+        "typical_width": "A range of starting points explored — favourite activities, games, animals, or familiar stories — to generate movement ideas.",
+        "wider": [
+          "Use stimuli from multiple modalities — music, objects, tactile materials, or imagery — to generate contrasting movement ideas",
+          "Draw on stories and characters from their cultural communities as starting points for movement creation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without a clear idea-to-movement connection, students produce movement without communicative intent — subsequent choreography and sharing nodes lack the anchor they require.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Help students articulate what their movement is 'about' — the link between an idea and a physical response. Use prompts: 'What does this look like?', 'Show me how that feels in your body'.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "More starting-point types (sensory, narrative, observational) build richer imaginative repertoire for movement generation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Foundation students who explore multiple stimulus types early develop a transferable habit of connecting ideas to movement — this pays forward across all subsequent arts strands.",
+        "success_criteria": [
+          "Student can name or show the idea their movement is communicating",
+          "Student produces at least one distinct movement response to a given prompt"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Experimenting with movement",
+        "progression_checkpoint": "Students can explore and vary movement possibilities — including body shape, level, direction and dynamics — in response to an idea.",
+        "minimum_width": "Exploration of one or two movement qualities (e.g. high/low, fast/slow) applied to a single idea.",
+        "typical_width": "Sustained movement exploration across body parts, levels, locomotor and non-locomotor movement, and contrasting dynamics — e.g. heavy/light, fast/slow, big/small.",
+        "wider": [
+          "Explore movement inspired by tactile qualities of materials (rough, smooth, spikey) — translating sensation into movement",
+          "Improvise movement sequences that trace shapes observed in the environment (geometric and organic)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a physical vocabulary of movement options before they can make intentional choices. Time to play with variation across multiple sessions builds this range.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Students who explore a wide range of movement qualities at Foundation develop a physical repertoire that supports intentional choreographic decision-making in later bands.",
+        "success_criteria": [
+          "Student demonstrates at least two contrasting movement qualities (e.g. high and low, fast and slow)",
+          "Student can vary a movement in response to a teacher prompt (e.g. 'make it bigger', 'move more slowly')"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Shaping and sequencing",
+        "progression_checkpoint": "Students can organise two or more movement ideas into a simple sequence that communicates an idea to others.",
+        "minimum_width": "A simple two-part sequence (start shape → movement → end shape) linked to one idea.",
+        "typical_width": "A movement sequence with a beginning, middle and end — using improvised movements selected and arranged to communicate an idea, retell a story, or represent a character or experience.",
+        "wider": [
+          "Repurpose objects or costumes as prompts for imagining and developing short movement scenes",
+          "Collaborate with a partner to combine and extend individual movement ideas into a shared sequence"
+        ],
+        "hinge": true,
+        "hinge_reason": "The ability to organise movement into a communicable sequence is the foundation of the Presenting strand — students who cannot yet sequence cannot meaningfully share work with audiences.",
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Sequencing is the point at which idea (N1) and movement vocabulary (N2) integrate. Support with visual structure prompts: 'What happens first?', 'What do you do next?', 'How do you end?'",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Student produces a movement sequence with at least two distinct parts",
+          "Student can describe or show what their sequence communicates (e.g. 'this is me jumping in puddles')"
+        ]
+      }
+    ]
+  }
+}

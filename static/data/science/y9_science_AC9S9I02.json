@@ -1,53 +1,52 @@
 {
-  "year_level": "9",
+  "year_level": "9-10",
   "subject": "Science",
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S9I02",
-    "title": "Planning Valid and Reproducible Investigations",
-    "description": "plan and conduct valid, reproducible investigations to answer questions and test hypotheses, including identifying and controlling for possible sources of error and, as appropriate, developing and following risk assessments, considering ethical issues, and addressing key considerations regarding heritage sites and artefacts on Country/Place",
-    "strand": "Science Inquiry",
+    "title": "Plan Valid, Reproducible Investigations",
+    "strand": "Inquiry Skills",
     "mode": "B",
-    "prior_knowledge": "Students can plan repeatable investigations and independently decide variables (AC9S7I02, 7-8 band). They now extend to validity and reproducibility as explicit criteria, formal risk assessment, and ethical considerations including animal use and heritage site protocols.",
-    "progression_endpoint": "Students plan investigations meeting validity and reproducibility criteria, identify and control error sources, develop formal risk assessments, address ethical issues in investigation design, and follow protocols for heritage sites and artefacts on Country/Place.",
+    "description": "plan and conduct valid, reproducible investigations to answer questions and test hypotheses, including identifying and controlling for possible sources of error and, as appropriate, developing and following risk assessments, considering ethical issues, and addressing key considerations regarding heritage sites and artefacts on Country/Place",
+    "prior_knowledge": "Students can plan and conduct investigations to test predictions, identifying variables and describing methods (AC9S7I02). They have not yet explicitly focused on validity and reproducibility as criteria for method quality, or systematically identified and controlled sources of error as part of planning.",
+    "progression_endpoint": "Students plan and conduct investigations that are valid (method measures what it claims to measure, variables controlled) and reproducible (method can be repeated by others to get consistent results) — systematically identifying sources of error and explaining how they are controlled. Students can develop and follow risk assessments, consider ethical issues in investigation design, and recognise responsibilities regarding heritage sites and artefacts on Country/Place.",
     "nodes": [
       {
         "id": 1,
-        "label": "Validity and reproducibility are criteria for investigation quality",
-        "progression_checkpoint": "Students can explain what validity and reproducibility mean for an investigation, and describe how investigation design choices affect each.",
-        "minimum_width": "Students explain what makes an investigation valid and what makes it reproducible, and identify one design choice that affects each.",
-        "typical_width": "Students explain validity (measures what it claims to measure; controls relevant variables) and reproducibility (method recorded precisely enough for another researcher to replicate); identify sources of error that threaten each; design investigations that meet both criteria; and explain how validity and reproducibility relate to the reliability of conclusions.",
+        "label": "Validity and reproducibility as method criteria",
+        "progression_checkpoint": "Students can explain what validity and reproducibility mean as criteria for a scientific investigation method, and identify whether a described method satisfies each criterion.",
+        "minimum_width": "Define validity (the method measures what it claims to measure) and reproducibility (the method can be repeated by others to obtain consistent results), and apply one criterion to evaluate a described method.",
+        "typical_width": "Define both validity and reproducibility, explain why each matters for scientific investigation, and evaluate a described method against both criteria — identifying specific features of the method that support or undermine each.",
         "wider": [
-          "Determine the reproducibility of a field investigation using survey techniques — examining how field conditions affect reproducibility compared with controlled lab conditions",
-          "Identify possible sources of error in a given method and examine if further testing or extra variable control is needed to improve validity",
-          "Examine how professional scientific investigations manage validity and reproducibility — multiple trials, control groups, blind testing — and evaluate why each practice matters"
+          "Determine the reproducibility of a specific field investigation design — e.g. a survey of traffic passing a school — examining what features of the method determine whether another person running it would get the same result.",
+          "Distinguish internal validity (are the results due to the independent variable, not something else?) from external validity (can the results be generalised?) as two dimensions of validity relevant at Year 9."
         ],
         "hinge": true,
-        "hinge_reason": "Validity and reproducibility are the assessment criteria applied in AC9S9I06. Students who do not distinguish these as separate concepts with distinct design implications cannot evaluate method quality in Node 2 or later — they collapse both into a general 'good investigation' judgement and cannot identify which design choice threatens which criterion.",
+        "hinge_reason": "Students who treat validity and reproducibility as generic 'good science' terms without specific meaning cannot systematically identify sources of error (Node 2) or evaluate their own method quality. These criteria are the framework for all subsequent investigation planning — without them, error identification becomes arbitrary.",
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students use 'valid' and 'reliable' loosely without understanding their distinct technical meanings. Making validity (measures the right thing) and reproducibility (can be repeated with the same result) distinct and explicit — and connecting each to specific design choices — is the scaffold for evaluating investigation quality at this level.",
+            "reason": "Validity and reproducibility need to be operationalised as questions students ask of a method: 'Is the measurement capturing what we want to measure, or is it capturing something else?' and 'If someone else ran this, what might they do differently that would produce a different result?' These question structures need explicit modelling.",
             "flags": ["hinge"]
           }
         ],
         "width_opportunity": false,
         "width_opportunity_reason": null,
         "success_criteria": [
-          "Explains the distinction between validity and reproducibility for an investigation",
-          "Identifies at least one design choice that affects each criterion"
+          "Can define validity and reproducibility with precision — not just 'it works' and 'you can do it again'.",
+          "Can identify a specific feature of a method that threatens validity or reproducibility.",
+          "Does not conflate the two criteria — can explain how a method could be reproducible but not valid."
         ]
       },
       {
         "id": 2,
-        "label": "Risk assessment, ethics and heritage protocols are part of investigation planning",
-        "progression_checkpoint": "Students can identify hazards in an investigation, develop a risk assessment, consider relevant ethical issues, and identify heritage site considerations for field investigations.",
-        "minimum_width": "Students identify at least two hazards in a given investigation and describe appropriate risk management; and identify at least one ethical consideration relevant to the investigation.",
-        "typical_width": "Students develop formal risk assessments for chemical and biological investigations; address ethical issues in investigations involving animals; recognise First Nations Australians' heritage laws and public responsibilities to report new sites or artefacts; and explain the consequences of disturbing heritage sites.",
+        "label": "Identifying and controlling sources of error",
+        "progression_checkpoint": "Students can identify possible sources of error in an investigation method and explain how controlling or accounting for each error source increases validity and reproducibility.",
+        "minimum_width": "Identify at least two sources of error in a described or planned investigation and explain how each could be controlled or reduced.",
+        "typical_width": "Systematically identify multiple sources of error across measurement, procedure and environmental factors, and describe specific control strategies for each — distinguishing between errors that can be eliminated and those that must be minimised and acknowledged.",
         "wider": [
-          "Recognise First Nations Australians' heritage laws and public responsibilities to report new sites or artefacts — examining the legal and cultural dimensions of field investigation on Country",
-          "Discuss the ethical and social issues of using animals for scientific purposes and examine the regulatory framework that governs this in Australia",
-          "Examine how professional scientists manage risk and ethics in complex field investigations involving sensitive locations or communities"
+          "Examine the difference between random error (varies unpredictably) and systematic error (consistently biased in one direction), and explain how each affects data quality differently — connecting to AC9S9I06 (assessing validity of methods).",
+          "Identify possible sources of error in a method and examine whether further testing or extra variable control is needed — applying the principle that error identification should drive method refinement, not just documentation."
         ],
         "hinge": false,
         "hinge_reason": null,
@@ -55,9 +54,32 @@
         "width_opportunity": false,
         "width_opportunity_reason": null,
         "success_criteria": [
-          "Identifies at least two hazards and appropriate risk management strategies for a named investigation",
-          "Identifies at least one ethical consideration and explains how it should be addressed in the investigation design"
+          "Can identify at least two sources of error with specific explanations — not generic 'human error'.",
+          "Can describe a specific control strategy for each identified error source.",
+          "Can explain how uncontrolled error affects the validity of conclusions."
         ]
+      },
+      {
+        "id": 3,
+        "label": "Risk assessment, ethics and Country/Place considerations",
+        "progression_checkpoint": "Students can identify potential hazards in an investigation, develop a risk assessment, consider ethical issues relevant to the investigation context, and describe responsibilities regarding heritage sites and artefacts on Country/Place.",
+        "minimum_width": "Identify at least one hazard in a described investigation, describe how it would be addressed in a risk assessment, and identify one ethical consideration relevant to a described investigation type.",
+        "typical_width": "Develop a risk assessment for a planned investigation (identifying hazard, likelihood, severity, and control measure), consider ethical issues relevant to the investigation (animal use, participant welfare, cultural sensitivity), and explain responsibilities regarding heritage sites when conducting field investigations.",
+        "wider": [
+          "Examine ethical guidelines for animal use in scientific investigations — understanding the framework that governs care and use of animals for scientific purposes before planning any investigation involving animals.",
+          "Examine First Nations Australians' heritage laws and the public responsibility to report new sites or artefacts — describing the consequences for disturbing heritage sites on, above or below the land surface, or in waters, when planning field investigations."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify at least one investigation hazard and describe a control measure.",
+          "Can identify at least one ethical consideration relevant to a described investigation.",
+          "Can describe responsibilities regarding heritage sites in field investigation contexts."
+        ],
+        "related_standards": ["AC9S9I01", "AC9S9I06"]
       }
     ]
   }

@@ -1,0 +1,96 @@
+{
+  "year_level": "1-2",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP2P06",
+    "title": "Health messages in community",
+    "description": "investigate a range of health messages and practices in their community and discuss their purposes",
+    "strand": "Making healthy and safe choices",
+    "mode": "A",
+    "prior_knowledge": "Students have identified health symbols, messages and strategies in their community that support their health and safety (AC9HPFP06).",
+    "progression_endpoint": "Students investigate health messages and practices in their community and discuss their purposes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Health symbols, labels and community messages",
+        "progression_checkpoint": "Students can identify health symbols, medicine packaging and community health messages and understand the safety purposes they serve.",
+        "minimum_width": "Identify at least two health symbols or labels (e.g. poison labels, medicine packaging) and explain the safety action each communicates.",
+        "typical_width": "Identify a range of health symbols, medicine labels, and community health messages; explain the safety purpose of each and what action it requires.",
+        "wider": [
+          "Investigate how foods are marketed and promoted to children through advertisements in online spaces, supermarket placement and packaging, and discuss the health messages these convey",
+          "Compare health messages in different community contexts (school, supermarket, online) and identify whether they promote similar or different health behaviours",
+          "Explore how digital tools and screen-based products communicate health messages and discuss whether these are reliable"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding that health symbols and messages communicate safety-relevant actions is prerequisite to investigating broader community health practices and purposes (Node 2). Without this anchor, students treat health messages as decorative rather than purposive.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Require students to decode the message: 'This symbol/label tells me __ because __'. The reasoning step prevents stopping at label identification without understanding the safety purpose.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two health symbols or labels",
+          "Explains the safety purpose or required action communicated by each"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Food, health and community practices",
+        "progression_checkpoint": "Students can discuss how eating a variety of fresh foods and community health practices influence health and wellbeing.",
+        "minimum_width": "Using a reference such as the Australian Guide to Healthy Eating, describe how eating a variety of fresh foods can influence health and wellbeing.",
+        "typical_width": "Investigate how food choices and a range of community health practices influence health and wellbeing; discuss the purpose of these practices and why they matter.",
+        "wider": [
+          "Explore sustainable practices students can implement in the classroom to improve health and wellbeing, such as composting food waste, creating an edible garden, or reducing single-use plastics",
+          "Investigate how foods are marketed to children and discuss how marketing influences food choice and health messages",
+          "Compare a food or health practice from a First Nations Australian or Asian Australian community with a familiar practice and discuss similarities and differences in health purpose"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Community health practices vary widely — food, digital use, sustainability, medicine safety. Investigating across multiple practice types gives students a genuinely broader picture of what 'community health' encompasses.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Health practices across food, sustainability, digital wellbeing and cultural contexts provide qualitatively different examples of how communities promote health. Students who have only investigated food have a narrow conception of community health practices.",
+        "success_criteria": [
+          "Describes how eating a variety of fresh foods can influence health and wellbeing",
+          "Identifies at least one community health practice and explains its purpose"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Digital health rules and practices",
+        "progression_checkpoint": "Students can create rules and apply them to implement healthy and manageable practices with their use of digital tools.",
+        "minimum_width": "Describe at least one rule for healthy digital tool use at school or home and explain its health purpose.",
+        "typical_width": "Create and apply rules for healthy digital tool use; explain how these rules support health and wellbeing and discuss challenges to following them.",
+        "wider": [
+          "Compare self-created digital use rules with recommendations from health organisations and evaluate whether the rules are consistent",
+          "Investigate how too much or unmanaged screen time can affect health and wellbeing, and propose specific rules to address the risks identified",
+          "Explore how digital rules at school might differ from those at home and discuss why context matters for health practice"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node connects health message literacy (Node 1) and community health practice understanding (Node 2) to the active health-practice demand of the descriptor. Tasks should require students to apply health knowledge to create and justify their own rules — not just identify what others recommend."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least one rule for healthy digital tool use",
+          "Explains how that rule supports health or wellbeing"
+        ]
+      }
+    ]
+  }
+}

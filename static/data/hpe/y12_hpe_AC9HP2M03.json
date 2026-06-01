@@ -1,0 +1,96 @@
+{
+  "year_level": "1-2",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP2M03",
+    "title": "Physical activity enjoyment",
+    "description": "participate in a range of physical activities in natural and outdoor settings, and investigate factors and settings that make physical activity enjoyable",
+    "strand": "Making active choices",
+    "mode": "B",
+    "prior_knowledge": "Students have participated in activities in natural and outdoor settings and explored the benefits of being physically active (AC9HPFM03).",
+    "progression_endpoint": "Students participate in physical activities in natural and outdoor settings and investigate factors and settings that make physical activity enjoyable.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Features of natural and outdoor settings",
+        "progression_checkpoint": "Students can recognise physical features of natural and outdoor settings and describe how those features relate to physical activity.",
+        "minimum_width": "In at least one outdoor or natural setting, identify one or two physical features and describe how they affect physical activity in that space.",
+        "typical_width": "Across a range of natural and outdoor settings, identify key physical features and describe how those features enable or constrain different types of physical activity.",
+        "wider": [
+          "Compare physical activity in an indoor setting to the same or similar activity in an outdoor or natural setting, noting how features of the environment change what's possible",
+          "Explore a natural setting (e.g. bushland, beach, park) and identify movement possibilities that do not exist in built spaces",
+          "Investigate how First Nations Australians' connections to country relate to physical activity in natural settings"
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding what makes a setting suitable for physical activity is the conceptual foundation for the investigation in Node 2. Students who only 'participate' without noticing environmental features cannot meaningfully investigate what makes activity enjoyable in different settings.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Provide a simple observation prompt (e.g. 'I notice __ in this space; this makes __ possible/difficult') to shift students from passive participation to active noticing of environmental features.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one physical feature of an outdoor or natural setting",
+          "Describes how that feature affects physical activity in that space"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Investigating factors that make activity enjoyable",
+        "progression_checkpoint": "Students can participate in a range of physical activities and identify factors that make them enjoyable.",
+        "minimum_width": "Participate in at least two different physical activities and identify at least one factor that made each enjoyable or less enjoyable.",
+        "typical_width": "Participate in a range of minor games and physical activities, including in outdoor settings; identify and compare the factors that make each enjoyable and explain which factors matter most to them.",
+        "wider": [
+          "Participate in children's games from First Nations Australian cultures (such as Keentan played by the Kalkadoon People) and compare what makes these games enjoyable with other games they know",
+          "Investigate which factors of enjoyment are shared with classmates and which are personal preferences, and discuss what this means for planning class activities",
+          "Explore physical activities unique to outdoor or natural settings and identify what features of those settings contribute to enjoyment"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The investigation of enjoyment factors is enriched by a wider range of activity types. Students who have only participated in one type of activity have limited data for comparison.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Variety of activity types — including culturally diverse games and outdoor settings — provides genuinely richer investigation data. Students who have participated in First Nations games alongside indoor minor games and outdoor activities have a much wider base for comparing enjoyment factors.",
+        "success_criteria": [
+          "Participates in at least two different physical activities",
+          "Identifies at least one factor that made an activity enjoyable or less enjoyable"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Comparing indoor and outdoor activity settings",
+        "progression_checkpoint": "Students can compare the characteristics and benefits of physical activities that take place in outdoor settings with those that take place inside.",
+        "minimum_width": "Describe one difference between participating in a physical activity indoors versus outdoors; identify at least one benefit of each setting.",
+        "typical_width": "Compare characteristics and benefits of physical activities across indoor and outdoor settings; explain personal preferences and link them to specific features of each setting.",
+        "wider": [
+          "Investigate a physical activity that can only happen outdoors and reflect on what makes it uniquely enjoyable",
+          "Survey classmates about their preferred settings and analyse what patterns emerge, relating findings to different environmental features",
+          "Explore how seasonal changes to outdoor settings affect which activities are available and how enjoyable they are"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node brings together environmental feature recognition (Node 1) and enjoyment factor investigation (Node 2) into the descriptor's comparative intent. Use tasks that require students to explicitly connect setting features to enjoyment factors rather than treating them as separate observations."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one characteristic difference between indoor and outdoor activity settings",
+          "Names at least one benefit of physical activity in each setting"
+        ]
+      }
+    ]
+  }
+}

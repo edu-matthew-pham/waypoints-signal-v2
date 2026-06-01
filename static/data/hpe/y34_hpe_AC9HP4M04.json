@@ -1,0 +1,96 @@
+{
+  "year_level": "3-4",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP4M04",
+    "title": "Regular physical activity and health",
+    "description": "participate in physical activities to explore how their body feels and describe how regular physical activity helps the body stay healthy and well",
+    "strand": "Making active choices",
+    "mode": "B",
+    "prior_knowledge": "Students have participated in a range of physical activities in natural and outdoor settings and explored the benefits of being physically active at a general level (AC9HPFM03). They can identify enjoyment as a reason for activity but have not yet explored specific physiological or wellbeing effects.",
+    "progression_endpoint": "Students participate in physical activities and describe how regular physical activity helps the body stay healthy and well.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Body awareness before, during and after activity",
+        "progression_checkpoint": "Students can participate in physical activity circuits and explore how their body feels before, during and after participation.",
+        "minimum_width": "Participate in a physical activity circuit and describe at least two physical sensations they notice before, during and after the activity.",
+        "typical_width": "Participate in varied activity circuits and systematically notice and record body responses across all three phases (before, during, after), identifying patterns across activities.",
+        "wider": [
+          "Compare how the body responds across activities of different intensity (e.g. walking vs sprinting vs sustained game play) and explain why the responses differ.",
+          "Explore how Indigenous Australian communities describe and understand the body's response to physical exertion in traditional activities."
+        ],
+        "hinge": true,
+        "hinge_reason": "Noticing and naming body responses is the perceptual foundation for the health knowledge in node 2. Students who cannot connect physical sensation to language cannot meaningfully describe or reason about how physical activity affects health.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Body awareness vocabulary (heart rate, breathing, temperature, muscle feel) needs to be explicitly taught and repeatedly practised. Students benefit from a consistent check-in format used across multiple activities to build familiarity with noticing and naming.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least two physical sensations experienced during a physical activity.",
+          "Distinguishes between how their body felt before and during activity.",
+          "Identifies at least one specific body system that was affected (e.g. heart, lungs, muscles)."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Warm-up and preparation for activity",
+        "progression_checkpoint": "Students can perform warm-up and stretching routines and understand how to prepare the body for being active.",
+        "minimum_width": "Perform a warm-up routine and explain why warming up prepares the body for physical activity.",
+        "typical_width": "Perform warm-up and cool-down routines in different activity contexts, explaining how each component prepares or recovers specific parts of the body.",
+        "wider": [
+          "Lead a warm-up routine designed for a specific physical activity, explaining the purpose of each component to peers.",
+          "Investigate how warm-up practices differ across sporting codes (e.g. swimming vs team sports vs gymnastics) and explain why the differences exist."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often perform warm-ups as a compliance routine without understanding the purpose. A simple cause-effect scaffold — 'we do X because it does Y to the body' — builds the functional understanding needed to link warm-up behaviour to health outcomes."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Performs a warm-up routine with at least three distinct components.",
+          "Explains what at least two components of the warm-up do for the body.",
+          "Identifies the difference between warming up and cooling down."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Regular activity and health benefits",
+        "progression_checkpoint": "Students can describe how regular physical activity influences sleep quality, concentration and overall wellbeing.",
+        "minimum_width": "Describe at least two health benefits of regular physical activity, including at least one beyond physical fitness (e.g. sleep, concentration).",
+        "typical_width": "Describe how regular physical activity influences multiple dimensions of health and wellbeing, including sleep, concentration, mood and physical health, using examples from their own participation experiences.",
+        "wider": [
+          "Investigate the Australian 24-Hour Movement Guidelines for Children and Young People and compare their own activity patterns against the recommendations, identifying gaps and proposing changes.",
+          "Research and present how regular physical activity is linked to mental health and wellbeing, drawing on one real-world example (e.g. a community sport program or physical activity initiative)."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Health benefit understanding deepens when students connect it to a range of activity types and personal contexts, not just formal sport. Exploring benefits through classroom activity, outdoor adventure, sport and incidental movement builds a more holistic understanding.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of health dimensions (physical, mental, sleep, concentration, social) provides genuine breadth for wider students — each dimension represents a distinct and meaningful lens through which to understand the value of regular activity.",
+        "success_criteria": [
+          "Names at least two health benefits of regular physical activity.",
+          "Explains how at least one benefit connects to a specific body function (e.g. 'activity improves sleep because it helps the body feel tired in a healthy way').",
+          "Identifies one change they could make to be more regularly active and explains the expected benefit."
+        ]
+      }
+    ]
+  }
+}

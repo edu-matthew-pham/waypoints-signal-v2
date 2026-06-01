@@ -4,68 +4,182 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S10U07",
-    "title": "Reaction Types and Reaction Rates",
+    "title": "Reaction Types and Rates",
     "description": "identify patterns in synthesis, decomposition and displacement reactions and investigate the factors that affect reaction rates",
     "strand": "Chemical Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can write balanced chemical equations and apply conservation of mass (AC9S9U07). They can identify physical and chemical changes (AC9S8U07). They have not yet classified reactions by type (synthesis, decomposition, displacement) or investigated reaction rate factors quantitatively.",
-    "progression_endpoint": "Students define and represent synthesis, decomposition and displacement reaction types, identify patterns across reaction examples, predict products from reaction type, and investigate how temperature, concentration, surface area and catalysts affect reaction rates.",
+    "prior_knowledge": "Students can model atom rearrangement in chemical reactions using word and balanced equations and demonstrate conservation of mass (AC9S9U07). They can compare physical and chemical changes and identify energy change indicators (AC9S8U07). They understand elements, compounds and mixtures and can use chemical symbols and formulas (AC9S8U06). They have not yet categorised reactions by structural type (synthesis, decomposition, displacement), identified patterns within those categories, or examined what variables control how fast reactions proceed.",
+    "progression_endpoint": "Students identify structural patterns in synthesis, decomposition and single and double displacement reactions, predict reaction products from type, and explain how temperature, concentration, surface area and catalysts affect reaction rates in terms of particle collision theory.",
     "nodes": [
       {
         "id": 1,
-        "label": "Reaction types show patterns in how reactants become products",
-        "progression_checkpoint": "Students can define synthesis, decomposition and displacement reactions, represent each using balanced equations, and identify the reaction type from a given equation or description.",
-        "minimum_width": "Students define synthesis, decomposition and displacement reactions and write or identify a balanced equation for each type.",
-        "typical_width": "Students define and represent all three reaction types using molecular models, word equations and balanced symbolic equations; identify reaction type from given equations; predict products from reaction type; and examine examples of each type in familiar contexts (metal oxidation, acid-metal reactions, decomposition in extracting metals).",
+        "label": "Synthesis reactions — combining reactants to form a single product",
+        "progression_checkpoint": "Students can identify synthesis reactions by their structural pattern (A + B → AB) and predict the product from given reactants.",
+        "minimum_width": "Students identify the synthesis pattern from a given equation and write a word equation for one synthesis reaction.",
+        "typical_width": "Students identify synthesis reactions across multiple examples (metal + oxygen, hydrogen + oxygen, sodium + chlorine); write word and symbolic equations; predict the product of a named synthesis reaction; explain why synthesis reactions are used in manufacturing useful compounds; connect to balanced equation skills from AC9S9U07.",
         "wider": [
-          "Investigate chemical reactions employed by First Nations Australians in producing substances such as acids and ethanol — examining traditional chemical knowledge as applied chemistry",
-          "Investigate methods First Nations Australians use to convert toxic plants into edible food products — examining the chemistry underlying traditional food processing",
-          "Examine reactions used to produce a range of useful products — connecting reaction type knowledge to industrial chemistry applications"
+          "Investigate industrial synthesis reactions (e.g. Haber process for ammonia) and explain why controlling reaction conditions is economically important",
+          "Investigate chemical reactions employed by First Nations Australians in production of substances — identify which reaction type(s) are involved"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "context_breadth",
-            "reason": "First Nations chemical knowledge in food processing and substance production places reaction type classification in a culturally and chemically rich context. Width investment at this node extends the range of reaction contexts examined rather than adding depth-on-fewer-phenomena.",
-            "flags": [
-              "width_opportunity"
-            ]
+            "mode": "structured_reasoning",
+            "reason": "Students need to recognise reaction type from structural pattern — not just from naming or memorisation. Synthesis is the most structurally transparent type (multiple reactants → one product) and provides the reference point for contrasting decomposition and displacement in subsequent nodes."
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "First Nations chemical knowledge in food processing and substance production provides sophisticated and culturally significant applications of reaction chemistry. These are elaboration-grounded directions with genuine chemical depth.",
         "success_criteria": [
-          "Defines synthesis, decomposition and displacement reactions",
-          "Writes or identifies a balanced equation for each reaction type",
-          "Predicts products for a given reaction type"
-        ]
+          "Identifies a synthesis reaction by its structural pattern (two or more reactants → one product)",
+          "Writes a correct word equation for a named synthesis reaction",
+          "Predicts the product of a synthesis reaction from given reactants"
+        ],
+        "related_standards": ["AC9S9U07", "AC9S8U06"]
       },
       {
         "id": 2,
-        "label": "Reaction rate is affected by multiple factors",
-        "progression_checkpoint": "Students can explain how temperature, concentration, surface area and catalysts affect reaction rate, and investigate at least one factor quantitatively.",
-        "minimum_width": "Students explain how at least three factors affect reaction rate with a particle-level explanation for each.",
-        "typical_width": "Students explain the particle-level mechanism by which temperature (particle energy and collision frequency), concentration (particle density and collision frequency), surface area (exposed particles) and catalysts (alternative lower-energy pathway) each affect reaction rate; design and conduct fair test investigations of at least one factor; and represent rate data graphically.",
+        "label": "Decomposition reactions — breaking a compound into simpler products",
+        "progression_checkpoint": "Students can identify decomposition reactions by their structural pattern (AB → A + B) and describe conditions under which decomposition reactions occur.",
+        "minimum_width": "Students identify the decomposition pattern from a given equation and describe one condition (heat or electricity) that drives a named decomposition reaction.",
+        "typical_width": "Students identify decomposition reactions across multiple examples (thermal decomposition of carbonates, electrolysis of water, decomposition used in metal extraction); write word and symbolic equations; explain why energy input is typically required; predict products of simple decomposition reactions; contrast with synthesis structurally.",
         "wider": [
-          "Investigate the effect of a range of factors — temperature, concentration, surface area and catalysts — on reaction rates, designing fair tests for each",
-          "Predict how green chemistry principles (minimising waste, reducing energy, using environmentally friendly processes) will affect industrial chemistry — connecting rate and reaction type knowledge to sustainability",
-          "Examine reactions used to extract metals and identify the reaction type and rate considerations involved"
+          "Investigate electrolysis as a decomposition method and explain how it is used to extract reactive metals (e.g. aluminium from bauxite)",
+          "Examine First Nations Australians' methods for converting toxic plants into edible food — identify any decomposition-type reactions involved in these processes"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Decomposition is the structural inverse of synthesis and is most clearly understood in contrast to it. Students who can identify both patterns have a binary classification tool they can extend to displacement in N3."
+          }
+        ],
+        "success_criteria": [
+          "Identifies a decomposition reaction by its structural pattern (one reactant → two or more products)",
+          "Describes at least one condition (heat or electrical energy) that drives a decomposition reaction",
+          "Writes a correct word equation for a named decomposition reaction"
+        ],
+        "related_standards": ["AC9S9U07", "AC9S8U06"]
+      },
+      {
+        "id": 3,
+        "label": "Displacement reactions — patterns of reactivity and product prediction",
+        "progression_checkpoint": "Students can identify single and double displacement reactions and use reactivity patterns to predict whether a displacement reaction will occur and what the products will be.",
+        "minimum_width": "Students identify a single displacement reaction from a given equation and explain why a more reactive metal displaces a less reactive one.",
+        "typical_width": "Students identify single displacement reactions (metal + acid, metal + salt solution) and double displacement reactions (precipitation, neutralisation); use an activity series to predict whether single displacement will occur; write word and symbolic equations; explain neutralisation as a double displacement producing water and a salt; identify the precipitate in a double displacement reaction.",
+        "wider": [
+          "Investigate a metal reactivity series experimentally — place metals in acid or salt solutions and rank them by reactivity; compare to the published activity series",
+          "Examine First Nations Australians' production of acids or ethanol and identify which reaction type(s) are involved, predicting products from the reaction pattern"
+        ],
+        "hinge": true,
+        "hinge_reason": "Displacement reactions are structurally more complex than synthesis or decomposition — both single and double displacement require pattern recognition and the activity series adds a predictive layer. Students who conflate displacement with synthesis/decomposition, or who cannot use reactivity to predict whether a reaction proceeds, cannot integrate across all three reaction types in N4 or apply the classification tool to unseen reactions.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Metal reactivity investigation is a well-defined practical inquiry context, and neutralisation/precipitation are both elaborated examples with significant real-world relevance. First Nations chemistry applications add a culturally rich context. These are genuine width opportunities within the year-10 band.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Single displacement requires an additional decision — will this reaction occur? — that synthesis and decomposition do not. Students need the activity series as a tool and must understand what it encodes (relative reactivity based on electron-giving tendency) before they can use it predictively. This is a new reasoning move, not just pattern recognition.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Metal + acid, metal + salt, neutralisation and precipitation are structurally distinct displacement contexts. Each exercises the type-identification and prediction skills from a different angle, and each maps to real-world applications named in the elaborations.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Identifies single and double displacement reactions from given equations",
+          "Uses an activity series to predict whether a single displacement reaction will occur",
+          "Predicts the products of a neutralisation or precipitation reaction"
+        ],
+        "related_standards": ["AC9S9U07", "AC9S8U07"]
+      },
+      {
+        "id": 4,
+        "label": "Reaction type patterns — classifying and predicting across all three types",
+        "progression_checkpoint": "Students can classify an unfamiliar chemical reaction as synthesis, decomposition or displacement and predict products, using structural patterns rather than memorisation.",
+        "minimum_width": "Students correctly classify three unfamiliar reactions (one of each type) and predict the products for each.",
+        "typical_width": "Students apply classification to a range of equations in varied formats (word, symbolic, molecular model); identify reaction type from reactant and product patterns alone; explain the classification logic rather than pattern-matching from memory; connect reaction type to useful products (elaboration context).",
+        "wider": [
+          "Analyse a multi-step reaction sequence and classify each step — what types are involved in a commercial process such as soap-making or metal extraction?",
+          "Evaluate the claim that 'all chemical reactions can be classified into these three types' — are there reactions that do not fit cleanly?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node consolidates the three reaction type nodes into a classification tool that students apply to unfamiliar reactions. The move from 'identify this named reaction' to 'classify this unfamiliar equation' is the integration demand that completes the 'identify patterns' half of the descriptor."
+          }
+        ],
+        "success_criteria": [
+          "Classifies an unfamiliar reaction as synthesis, decomposition or displacement using structural pattern",
+          "Predicts products for each reaction type from the pattern alone",
+          "Explains the classification reasoning rather than recalling named examples"
+        ],
+        "related_standards": ["AC9S9U07"]
+      },
+      {
+        "id": 5,
+        "label": "Collision theory — the particle basis of reaction rates",
+        "progression_checkpoint": "Students can explain reaction rate in terms of particle collision frequency and energy, and use collision theory to predict how changing conditions will affect rate.",
+        "minimum_width": "Students state that chemical reactions require particles to collide with sufficient energy, and explain why more frequent or more energetic collisions increase reaction rate.",
+        "typical_width": "Students describe that only collisions with energy above the activation energy threshold result in reaction; explain why concentration, temperature, surface area and catalysts each increase collision frequency or energy; represent the relationship between collision theory and observable reaction rate.",
+        "wider": [
+          "Design an investigation to test the effect of one variable (temperature, concentration or surface area) on reaction rate — predict using collision theory and evaluate against results",
+          "Examine how catalysts work at the particle level — why do they lower activation energy without being consumed?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Collision theory is the explanatory model for all four rate factors. Students who lack the collision model learn rate factors as isolated memorised rules (heat = faster, more acid = faster) without a unifying explanation. They cannot transfer to an unseen factor, cannot explain WHY each variable works, and cannot use the model to design investigations.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Collision theory requires students to think about reactions at the particle level — a level below what is directly observable. Students need the mental model established explicitly before the four rate factors are introduced, or the factors remain disconnected facts.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains that reactions require particle collisions with energy above the activation energy threshold",
+          "Predicts that increasing collision frequency or energy increases reaction rate",
+          "Identifies at least two ways to increase collision frequency or energy"
+        ],
+        "related_standards": ["AC9S7U05", "AC9S9U07"]
+      },
+      {
+        "id": 6,
+        "label": "Rate factors — temperature, concentration, surface area and catalysts",
+        "progression_checkpoint": "Students can explain how each of the four rate factors affects reaction rate using collision theory, and investigate one factor experimentally.",
+        "minimum_width": "Students explain how two of the four rate factors affect rate using collision theory language (collision frequency or energy).",
+        "typical_width": "Students explain all four factors using collision theory: temperature (increases particle kinetic energy → more collisions exceed activation energy); concentration (more particles per volume → more frequent collisions); surface area (more exposed particles → more collision opportunities); catalysts (lower activation energy → greater proportion of collisions succeed); distinguish catalyst from reactant.",
+        "wider": [
+          "Investigate the effect of temperature or concentration on a visible reaction (e.g. sodium thiosulfate + HCl, or hydrogen peroxide + yeast) and quantitatively analyse the rate change",
+          "Examine reactions employed by First Nations Australians — identify which rate factors are being exploited in a specific food preparation or substance production technique"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Rate factor investigation is explicitly named in the descriptor ('investigate the factors') and the elaborations. Each factor is a distinct experimental variable with measurable outcomes. The elaboration on First Nations chemical practices provides a culturally grounded application context. These are genuine width opportunities.",
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Students commonly understand temperature as a rate factor without being able to explain why at a particle level, and miss how surface area and catalysts operate. Encountering rate factor explanations across all four factors — with particle-level reasoning for each — builds a more complete and mechanistically grounded understanding."
+            "reason": "Each rate factor is a distinct investigative context and the elaborations explicitly expect investigation. Applying collision theory to each factor in turn — rather than listing them — builds the explanatory fluency the descriptor's 'investigate' demand requires.",
+            "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Explains how at least three factors affect reaction rate with particle-level reasoning",
-          "Investigates at least one factor and represents rate data graphically"
-        ]
+          "Explains how each of the four rate factors affects reaction rate using collision theory",
+          "Distinguishes catalysts from reactants and explains why catalysts are not consumed",
+          "Designs or describes an investigation to test the effect of one rate factor"
+        ],
+        "related_standards": ["AC9S9U07", "AC9S7U05"]
       }
     ]
   }

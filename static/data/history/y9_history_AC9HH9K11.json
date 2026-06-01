@@ -4,91 +4,153 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH9K11",
-    "title": "Effects of WWI on Australian Society",
+    "title": "Effects of WW1 on Australian Society",
     "description": "the effects of the First World War on Australian society, such as the role of women, political debates about conscription, relationships with the British Empire, and the experiences of returned soldiers",
     "strand": "Knowledge and Understanding",
     "mode": "A",
-    "prior_knowledge": "Students have studied WWI causes (AC9HH9K08), theatres and experiences (AC9HH9K09), and turning points (AC9HH9K10). They understand the nature of the war and the conditions of service. This descriptor shifts focus to the home front — examining how the war transformed Australian society, politics, and international relationships.",
-    "progression_endpoint": "Students investigate the effects of the First World War on Australian society, including the role of women, conscription debates, Australia-Britain relations, and the experiences of returned soldiers.",
+    "prior_knowledge": "Students can describe Australia's relationship with Britain and Empire identity by 1914 (AC9HH9K08) and the nature of warfare and the war's major turning points (AC9HH9K09, AC9HH9K10). They have not yet examined how the war reshaped Australian domestic society — including the political crisis over conscription, the changed role of women, the experience of returned soldiers, and what the war revealed about the changing relationship with Britain.",
+    "progression_endpoint": "Students investigate examples of the war's effects on Australian society — including changes to women's roles, the conscription referenda debates, continuities and changes in Australia's relationship with the British Empire, and the physical, psychological, economic and social experiences of returned soldiers including First Nations Australian soldiers.",
     "nodes": [
       {
         "id": 1,
-        "label": "Changing roles of women during the war",
-        "progression_checkpoint": "Students can investigate the changes to women's roles during the war and assess what was retained after the war ended.",
-        "minimum_width": "Describe at least two changes to women's roles in Australia during WWI.",
-        "typical_width": "Investigate examples of women's changed roles during the war (workforce entry, nursing, political activism, managing farms and businesses); compare these wartime roles with women's pre-war roles; examine what changed and what reverted after the war — assessing which changes were temporary and which had lasting effects.",
+        "label": "The home front — how the war reshaped Australian society",
+        "progression_checkpoint": "Students can describe what the 'home front' means — the ways in which the war affected Australian society beyond the battlefield — and identify the key areas of social change it produced.",
+        "minimum_width": "Students explain that the war had major effects on Australian society at home — on labour, women's roles, politics, and culture — and identify the four main areas the descriptor names (women's roles, conscription debates, Empire relations, returned soldiers).",
+        "typical_width": "Students describe the scale of Australian mobilisation (over 400,000 enlisted from a population of under 5 million); how this created labour shortages and opened new roles for women; how casualty lists arrived in communities and created grief and pressure; how the war dominated political life; how returned soldiers reintegrated into a society that had changed in their absence; frame the concept of the 'home front' as distinct from but connected to the battlefield.",
         "wider": [
-          "Examine the experiences of Australian nurses on the Western Front or in other theatres — using primary sources to investigate their working conditions, the dangers they faced, and how their service was recognised",
-          "Compare women's wartime workforce participation in Australia with that in Britain or France — assessing whether wartime economic necessity produced similar gender role changes internationally",
-          "Investigate women's pacifist activism during WWI — examining figures like Vida Goldstein's peace activism — and assess how opposing the war created a different kind of women's political engagement"
+          "Examine local community records — enlistment rolls, casualty notices, local newspapers — to connect the national picture to a specific town or suburb's experience of the home front",
+          "Compare the Australian home front with the British home front — what was similar and what was different about societies with and without direct experience of enemy attack?"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "The home front concept frames the subsequent nodes — students who do not understand that a war reshapes domestic society as well as battlefields will approach the conscription debate (N3) as purely a political argument rather than a lived social crisis, and the returned soldiers node (N4) as merely a list of problems rather than a structural social consequence.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "context_breadth",
-            "reason": "Examining multiple dimensions of women's wartime experience (workforce, nursing, political activism, pacifism) prevents a single-narrative picture and supports genuine analysis of continuity and change.",
-            "flags": ["width_opportunity"]
+            "mode": "structured_reasoning",
+            "reason": "Students commonly partition the war into 'what happened at Gallipoli/the Western Front' and 'Australia'. Making the home front concept explicit — the war was fought on multiple fronts simultaneously, including social and political ones at home — reframes the structure for all subsequent nodes.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Women's wartime roles offer a rich lens for examining the relationship between emergency social conditions and structural gender change — how crises open spaces that may or may not close when the crisis ends. This connects to broader contemporary questions about gender and work.",
         "success_criteria": [
-          "Describes at least two specific changes to women's roles during WWI with historical examples",
-          "Assesses whether at least one change was permanent or temporary after the war"
+          "Describes the concept of the home front and explains how the war affected Australian society beyond the battlefield",
+          "Identifies the four main areas of social change named in the descriptor"
         ]
       },
       {
         "id": 2,
-        "label": "Conscription debates and social division",
-        "progression_checkpoint": "Students can investigate the first and second conscription referenda, including the role of Billy Hughes, divisions within the Labor Party, and the groups and grounds for opposition.",
-        "minimum_width": "Describe the conscription debate in Australia during WWI and explain who opposed conscription and why.",
-        "typical_width": "Investigate the first and second referenda on conscription (1916, 1917); examine the role of Prime Minister Billy Hughes in championing conscription; describe the division within the Labor Party; identify and explain the groups who opposed conscription (trade unionists, Irish Catholics including Archbishop Mannix) and their grounds for opposition; explain why conscription was defeated both times.",
+        "label": "Women's roles — change and continuity",
+        "progression_checkpoint": "Students can describe the changes to women's roles in Australian society during the war and identify what changed compared to before the war, and what continuities persisted after it.",
+        "minimum_width": "Students describe at least two specific changes to women's roles during the war (e.g. entry into previously male workplaces, nursing roles, voluntary organisations) and note whether these changes persisted after the war ended.",
+        "typical_width": "Students examine the specific roles women took on in paid work (manufacturing, transport, office work), in the voluntary sector (Red Cross, comfort funds, war savings), and as nurses in military hospitals; compare these to women's roles and employment patterns before 1914; examine what happened when men returned — which changes persisted, which reversed; consider what the experience of wartime work meant for women's expectations about employment and rights; connect to the broader suffrage context from AC9HH9K04 and K05.",
         "wider": [
-          "Examine the conscription campaign and anti-conscription campaign as uses of propaganda and public persuasion — analysing the specific arguments, imagery, and emotional appeals used by each side",
-          "Investigate Archbishop Daniel Mannix's role in the anti-conscription campaign as an example of how religious, ethnic (Irish Catholic), and political identities intersected in Australian public life",
-          "Compare Australia's voluntary system with the compulsory systems of Britain, France, and New Zealand — assessing what the conscription debates reveal about Australian national identity and its relationship to the British Empire"
-        ],
-        "hinge": true,
-        "hinge_reason": "The conscription debate is the major political fracture of Australian WWI society. Understanding it — who fought it, what was at stake, and why it was defeated twice — is essential for understanding both the war's social effects (Node 3, Node 4) and Australia's changing relationship with Britain.",
-        "response_modes": [
-          {
-            "mode": "context_breadth",
-            "reason": "The conscription debate involves multiple actors with different motivations — Billy Hughes, Labor Party, trade unions, Irish Catholics, women pacifists. Examining at least two opposition groups with different grounds gives students a richer understanding than reducing it to a single faction.",
-            "flags": ["hinge", "width_opportunity"]
-          }
-        ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The conscription debates are a rich case study in how a national crisis revealed and deepened existing social divisions — class, religion, ethnicity, and imperial loyalty all intersected. Students can trace how political identities formed and fractured under wartime pressure.",
-        "success_criteria": [
-          "Describes the two conscription referenda and their outcomes",
-          "Identifies at least two groups that opposed conscription and explains the specific grounds for each group's opposition"
-        ]
-      },
-      {
-        "id": 3,
-        "label": "Australia-Britain relationship and returned soldiers",
-        "progression_checkpoint": "Students can examine the continuities and changes in Australia's relationship with the British Empire, and explain the effects of war on returned soldiers including First Nations soldiers.",
-        "minimum_width": "Describe at least two effects of the war on returned soldiers; describe one way Australia's relationship with Britain changed as a result of the war.",
-        "typical_width": "Examine the continuities and changes in Australia's relationship with the British Empire — changing sentiments about Britain as 'mother country', growing sense of independent Australian identity (Gallipoli as nation-defining); explain the effects of war on returned soldiers including physical and psychological trauma, shell shock, employment difficulties, social and racial discrimination, service recognition, land allocation (Soldier Settlement Scheme), wage inequality, and access to health care.",
-        "wider": [
-          "Examine the specific experiences of First Nations Australian returned soldiers — their exclusion from the Soldier Settlement Scheme, wage inequality, access to repatriation services — and assess how racial discrimination compounded the difficulties of returned service",
-          "Investigate the Soldier Settlement Scheme as a case study in post-war social policy — examining its intention, its implementation, and why many settler farmers failed — connecting policy design to lived outcomes",
-          "Examine how Gallipoli became the founding myth of Australian national identity and assess what this reveals about how nations construct their self-image through selective memory of trauma and heroism"
+          "Examine primary sources from Australian women during the war — letters, diary entries, newspaper reports of women workers — to ground the general pattern in individual voices and perspectives",
+          "Investigate how white feather campaigns created social pressure on men to enlist — examining how women were recruited as instruments of conscription pressure even without formal enlistment — and what this reveals about gender and patriotism"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "integration",
-            "reason": "This node integrates the wartime experience (AC9HH9K09) with the home-front social effects, connecting what soldiers experienced overseas with how they were treated and what they found on return. Students should draw explicit connections between these."
+            "mode": "context_breadth",
+            "reason": "Students commonly frame women's wartime roles as simple liberation — 'women got to work' — without examining the complexity of change and continuity, or the coercive aspects of women's wartime participation (white feather campaigns). Multiple examples across different domains of activity prevent oversimplification."
           }
         ],
-        "width_opportunity": false,
         "success_criteria": [
-          "Explains at least three distinct effects of the war on returned soldiers, including at least one relating to First Nations soldiers",
-          "Describes how Australia's relationship with the British Empire changed as a result of the war"
-        ]
+          "Describes at least two specific changes to women's roles during the war",
+          "Identifies what changed compared to before the war and whether those changes persisted after 1918"
+        ],
+        "related_standards": ["AC9HH9K04", "AC9HH9K05"]
+      },
+      {
+        "id": 3,
+        "label": "The conscription debates — political crisis and social division",
+        "progression_checkpoint": "Students can describe the two conscription referenda, identify the main groups who supported and opposed conscription and their reasons, and explain why the conscription issue divided Australian society and the Labor Party.",
+        "minimum_width": "Students describe that two referenda on conscription were held (1916, 1917), both defeated, identify at least two groups opposing conscription and their main reasons, and explain what role Billy Hughes played.",
+        "typical_width": "Students explain the military context that prompted conscription proposals — mounting casualties, declining voluntary enlistment; the specific arguments for conscription (military necessity, fairness to those already serving) and against (personal liberty, working-class opposition to an imperialist war, Irish Catholic opposition); the role of Archbishop Daniel Mannix; the split within the Labor Party — Hughes expelled, forming a new government; the role of propaganda for and against in the campaigns; explain why both referenda failed and what this revealed about Australian attitudes to the war and to Britain.",
+        "wider": [
+          "Examine specific referendum campaign materials — 'Vote Yes' and 'Vote No' posters, pamphlets, Hughes' speeches, Mannix's sermons — analysing the rhetorical strategies and emotional appeals on each side",
+          "Compare Australia's conscription debates with those in Britain and Canada — why did Australia hold referenda rather than simply legislate, and what does this difference reveal about Australian political culture?"
+        ],
+        "hinge": true,
+        "hinge_reason": "The conscription debates are both the most complex political content in this descriptor and the gateway to understanding changes in Australia's relationship with Britain (N4). Students who cannot explain why conscription divided Australia — specifically, who opposed it and why — cannot understand the fracture in the Labor movement, the emergence of new political alignments, or the shift in Australia's sense of independent identity relative to Empire.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Campaign material analysis is rich in historical skills integration (AC9HH9S03, S06) — students can evaluate rhetoric, identify perspective, and connect argument to social position. The comparative question (why referenda, not legislation?) demands genuinely analytical thinking about Australian political culture.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat conscription opposition as simple anti-war sentiment without understanding the multiple distinct bases for opposition — class-based, religious, ethnic, libertarian. Making the distinct grounds for opposition explicit prevents conflation and enables the evaluation of which groups mattered most to the outcome.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Examining sources from both the 'Yes' and 'No' campaigns — and from different types of opponents (trade unionists, Irish Catholics, women's groups, civil libertarians) — builds the picture of social division that the descriptor requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes the two conscription referenda, their outcomes, and the role of Billy Hughes",
+          "Identifies at least two distinct groups opposing conscription and explains their different grounds for opposition"
+        ],
+        "related_standards": ["AC9HH9S03", "AC9HH9S06", "AC9HH9K07"]
+      },
+      {
+        "id": 4,
+        "label": "Australia's changing relationship with Britain",
+        "progression_checkpoint": "Students can examine the continuities and changes in Australia's relationship with the British Empire as a result of the war, including how the war both affirmed and strained the imperial relationship.",
+        "minimum_width": "Students describe at least one way the war reinforced Australia's relationship with Britain (fighting together, shared sacrifice) and at least one way it created new tensions or a new sense of distinct Australian identity (Gallipoli as an Australian story, resentment of British command decisions).",
+        "typical_width": "Students examine the affirmation of Empire loyalty through shared sacrifice; the simultaneous development of a distinctly Australian national identity through the Gallipoli experience (ANZAC as a specifically Australian story); the resentment of British command decisions (Fromelles, Gallipoli) and what this meant for how Australians saw British leadership; the new sense of Australia as a distinct nation that had 'earned its place' on the world stage through sacrifice; the seeds of eventual greater independence in foreign policy.",
+        "wider": [
+          "Examine how Australian and British official histories of the war — Bean's Official History vs British accounts — differ in emphasis and what this reveals about the distinct national narratives being constructed",
+          "Trace the trajectory from 1914 Empire loyalty to the growing independence visible in the 1930s and 1940s — connecting this descriptor to longer-term changes in Australian sovereignty"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly frame the relationship with Britain as either straightforwardly loyal or straightforwardly resentful. The content requires holding both — the war both affirmed and complicated the relationship — which requires explicit modelling of how continuity and change can coexist in the same relationship."
+          }
+        ],
+        "success_criteria": [
+          "Describes at least one continuity and one change in Australia's relationship with Britain as a result of the war",
+          "Explains how the shared sacrifice at Gallipoli contributed to both a sense of imperial belonging and a distinct Australian national identity"
+        ],
+        "related_standards": ["AC9HH9K12"]
+      },
+      {
+        "id": 5,
+        "label": "Returned soldiers — physical, psychological and social experiences",
+        "progression_checkpoint": "Students can explain the effects of war on returned soldiers — including physical and psychological trauma, reintegration challenges, social and racial discrimination, and the policy responses — including the experiences of First Nations Australian soldiers.",
+        "minimum_width": "Students describe at least three distinct types of effects on returned soldiers (e.g. physical wounds/disability, shell shock/psychological trauma, employment difficulties) and describe one policy response (e.g. Soldier Settlement Scheme, pensions).",
+        "typical_width": "Students describe the scale and nature of physical casualties (wounded, disabled, disfigured); explain shell shock as a documented psychological consequence — what symptoms were observed, how it was understood and often dismissed at the time; examine employment reintegration challenges — many returned to a labour market that had changed; the Soldier Settlement Scheme — land allocation to returned soldiers, why many schemes failed; pension access and disputes; the experience of returned soldiers seeking social recognition of their service; apply these patterns specifically to First Nations Australian soldiers' experiences of additional racial discrimination, wage inequality, and exclusion from some repatriation benefits.",
+        "wider": [
+          "Examine personal accounts from returned soldiers — diaries, letters, oral histories — to ground the general patterns in specific human experiences, applying source analysis skills",
+          "Investigate the experience of a specific First Nations returned soldier — service record, post-war life, obstacles faced — to make concrete the additional layer of discrimination documented in elaboration 4"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations returned soldier case studies and personal account analysis offer genuine depth — the intersection of general returned-soldier challenges with specific racial discrimination produces a more complex and honest picture of post-war Australia than the general account alone. This is also a strong source analysis opportunity (AC9HH9S03).",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly reduce the returned soldier experience to either heroic recognition or simple suffering. The full range — physical, psychological, economic, social, racial — produces a more complete picture that the descriptor requires."
+          },
+          {
+            "mode": "repertoire_building",
+            "reason": "Individual case studies — including First Nations soldiers — build the accumulated picture of returned soldier experience that allows the pattern to be understood as systemic, not exceptional.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes at least three distinct types of effects experienced by returned soldiers",
+          "Explains the specific additional challenges faced by First Nations Australian returned soldiers, including racial discrimination and unequal access to repatriation benefits"
+        ],
+        "related_standards": ["AC9HH9K08", "AC9HH9S03"]
       }
     ]
   }

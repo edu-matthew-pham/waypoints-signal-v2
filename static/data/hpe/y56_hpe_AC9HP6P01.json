@@ -1,0 +1,80 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6P01",
+    "title": "Identities influenced by people and places",
+    "description": "explain how identities can be influenced by people and places, and how we can create positive self-identities",
+    "strand": "Identities and change",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students described how choices and actions can be influenced by stereotypes (AC9HP4P03). They understand that external forces can shape behaviour and choices. They have not yet explicitly analysed how identities are formed through relationships with specific people and connections to place, or how to actively create positive self-identities.",
+    "progression_endpoint": "Students explain how identities are influenced by people and places, and describe strategies for creating positive self-identities.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Understanding identity as shaped by relationships",
+        "description": "Explain how relationships with specific people — role models, family, peers, cultural figures — shape how individuals see themselves and their identities.",
+        "minimum_width": "Name at least two types of people or relationships that influence identity and explain how each contributes to the way individuals see themselves.",
+        "success_criteria": [
+          "Identifies specific types of relational influence (role model, peer, family, cultural figure) rather than just 'other people'",
+          "Can explain the mechanism of influence — how the relationship shapes identity, not just that it does"
+        ],
+        "hinge": true,
+        "hinge_reason": "The 'create positive self-identities' part of the descriptor requires students to understand what they are acting on. Students who have only a surface understanding of relational influence will propose generic identity-building strategies without understanding the mechanisms they are working with.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The people who influence identity span cultural groups including First Nations Australians' connections to Country/Place and kin, Asian Australian community and cultural practices, popular culture, and peer networks — each offering a distinct lens on identity formation.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Map relational influences explicitly: who are the key people, what do they model or communicate, how does that shape the individual's sense of self? The mechanism of influence (modelling, messaging, belonging) is the conceptual content.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Examine identity influence across diverse cultural and community contexts: First Nations connections to Country/Place; family and cultural practices for Australians of Asian heritage; sporting role models; social media influencers. Each reveals different mechanisms and prevents convergence on a single cultural norm of identity formation.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Understanding identity as shaped by place",
+        "description": "Explain how connection to specific places — community, Country, cultural geography — contributes to identity over time.",
+        "minimum_width": "Describe at least one way that connection to a place (community, Country, special location) can influence a person's identity.",
+        "success_criteria": [
+          "Identifies a specific place relationship (not 'where you live' generically)",
+          "Can explain how the place connection contributes to identity — belonging, cultural meaning, history, or relationship with the natural environment"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Place-based identity is particularly rich when examining First Nations Australian community and Country connections, comparing these with other cultural place relationships, and exploring how place connections change during transitions.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Investigate place-based identity across contexts: First Nations Australian connections to Country/Place (including cultural group, clan, Country); students' own community place connections; how place connections change during transitions like moving school or neighbourhood.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Creating positive self-identities",
+        "description": "Describe strategies for actively shaping and maintaining positive self-identities — drawing on understanding of relational and place-based influences to identify what actions support positive identity development.",
+        "minimum_width": "Describe at least one strategy for creating or maintaining a positive self-identity and explain how it engages with the relational or place influences on identity.",
+        "success_criteria": [
+          "Strategy is specific and actionable — not 'believe in yourself'",
+          "Links back to the relational or place mechanisms identified in N1 or N2"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integrates understanding of people-influence, place-influence, and cultural diversity in identity formation into a personal strategy framework. The full descriptor demand: explain influence and how to create positive self-identities."
+          }
+        ]
+      }
+    ]
+  }
+}

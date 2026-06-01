@@ -1,0 +1,78 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6P10",
+    "title": "Behaviours and community health and wellbeing",
+    "description": "analyse how behaviours influence the health, safety, relationships and wellbeing of individuals and communities",
+    "strand": "Making healthy and safe choices",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students investigated and applied behaviours that contribute to their own and others' health, safety, relationships and wellbeing (AC9HP4P10). They can apply health-promoting behaviours. This descriptor moves to analysis — examining how behaviours operate at individual and community scales, including online environments, food systems, and First Nations community wellbeing structures.",
+    "progression_endpoint": "Students analyse how individual and community behaviours influence health, safety, relationships and wellbeing, and propose strategies to promote positive community wellbeing.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Analysing behaviour-health connections at scale",
+        "description": "Analyse how specific behaviours — including physical activity levels, diet, social connection, and online behaviour — influence health and wellbeing, distinguishing individual-scale and community-scale effects.",
+        "minimum_width": "Analyse at least one behaviour and explain its effects on health or wellbeing at both an individual level and a community level.",
+        "success_criteria": [
+          "Distinguishes individual-scale from community-scale effect (not the same point restated)",
+          "Analysis is specific to the behaviour — not generic 'healthy behaviour is good'"
+        ],
+        "hinge": true,
+        "hinge_reason": "The community-scale analysis is the new demand at this year band. Students who can only analyse at individual level cannot engage with community strategies, First Nations wellbeing structures, or online community behaviour — all of which require thinking across scales.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Behaviour-health connections at community scale span physical activity recommendations, food systems, online community environments, and cultural community structures including First Nations kinship and extended family — each offering a distinct community-scale mechanism.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Individual-to-community scale shift: 'If one person does X, what happens? If many people in a community do X, what happens?' Builds the community-scale thinking from familiar individual-scale analysis.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Analyse behaviour effects across community contexts: physical activity in communities; food practices including sustainable food systems; First Nations kinship structures and community health and wellbeing support; online community behaviours. Each context reveals different community-scale mechanisms.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Community safety and contamination prevention",
+        "description": "Identify behaviours that protect community safety — including infection prevention, anaphylaxis awareness, and physical safety practices — and explain how they operate at a community level.",
+        "minimum_width": "Describe at least two community safety behaviours and explain how each protects both individuals and the community.",
+        "success_criteria": [
+          "Both individual-protection and community-protection mechanisms are explained for each behaviour",
+          "At least one behaviour is specific to community safety (not just personal safety)"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "These are precision-dependent behaviours (infection control, anaphylaxis awareness) where errors in understanding have direct safety consequences. Consolidation ensures accuracy before students incorporate these into community strategy proposals."
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Proposing community wellbeing strategies",
+        "description": "Propose and implement strategies to promote positive community wellbeing — including increasing physical activity, building social connection, and contributing positively to online environments.",
+        "minimum_width": "Propose at least one strategy to promote health or wellbeing at a community level, explaining the behaviours involved and the community-scale effect expected.",
+        "success_criteria": [
+          "Strategy targets community-level change (not just individual behaviour change in isolation)",
+          "Identifies the community-scale mechanism — how individual behaviour change aggregates to community effect"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integrates analysis of behaviour-health connections across scales, safety knowledge, and the principles of community wellbeing promotion into a proposal. The full descriptor demand: analyse and act at community scale."
+          }
+        ]
+      }
+    ]
+  }
+}

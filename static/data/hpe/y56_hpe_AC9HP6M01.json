@@ -1,0 +1,100 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M01",
+    "title": "Adapt and modify movement skills",
+    "description": "adapt and modify movement skills across a variety of situations",
+    "strand": "Moving our bodies",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students refined and applied fundamental movement skills in new movement situations (AC9HP4M01) and applied and adapted movement strategies to achieve movement outcomes (AC9HP4M02). They can execute core locomotor, stability and object control skills and have begun adapting these to new contexts.",
+    "progression_endpoint": "Students adapt and modify movement skills across a variety of situations, adjusting technique in response to changing movement demands.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Identifying when adaptation is needed",
+        "description": "Recognise when a movement situation requires adapting or modifying a skill — identifying the cue (change in environment, opponent, task) that makes the familiar execution insufficient.",
+        "minimum_width": "Identify at least two situations in a familiar activity where a movement skill needs to be adapted and describe what needs to change.",
+        "success_criteria": [
+          "Can name the specific situational cue that requires a skill change (e.g. defender closing, surface change, transition between skills)",
+          "Can describe, verbally or in writing, what adaptation is needed before attempting it"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot read the situational cue will make adaptations based on habit rather than demand, making the next nodes — execution of the adaptation and evaluation of its effectiveness — meaningless. Phase collapse: every downstream node assumes perceptual-reading as a foundation.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students practise naming the cue → response pairing explicitly before physical execution. Prompt: 'What changed in the situation? What does that mean you need to do differently?' Builds the perceptual habit.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Executing adaptations across locomotor and stability skills",
+        "description": "Physically adapt locomotor and stability skills — including transitions between skills — in response to changing movement situations.",
+        "minimum_width": "Perform at least two adapted locomotor or stability sequences in a movement situation, demonstrating a change in technique in response to a situational cue (e.g. dodge and feint, leaping to balancing).",
+        "success_criteria": [
+          "Executes the adapted skill with recognisable technique (not just stopping and restarting)",
+          "Demonstrates at least one transition between two different movement skills in a continuous sequence"
+        ],
+        "hinge": true,
+        "hinge_reason": "Locomotor and stability adaptations are the physical foundation for object control adaptations in N3. Students who cannot adapt movement under their own body weight will not be able to coordinate object control adaptations alongside movement.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Rich variety of locomotor and stability contexts available — gymnastics, dance, outdoor traversal, game evasion — that each require distinct adaptation logic and build genuine transfer.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Repetitive practice across multiple situations until transitions are smooth and automatic. Focus on precision of the transition moment — the point where one skill ends and another begins.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Vary the movement contexts systematically: evasion games (dodge/feint), gymnastics sequences (static to dynamic balances), outdoor traversal (uneven terrain). Each context demands a different adaptation logic, building genuine transfer rather than situation-specific habit.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Adapting object control skills",
+        "description": "Adapt kicking, striking and throwing skills to new games, activities and environments, including aquatic contexts where relevant.",
+        "minimum_width": "Adapt at least one object control skill (kicking, striking or throwing) to a different game or activity than the one in which it was originally learned.",
+        "success_criteria": [
+          "Applies a familiar object control skill in a new game or activity context",
+          "Adjusts the technique of the skill (force, angle, timing) to suit the new context's demands"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Object control adaptation spans multiple games, activities and environments (including aquatics). Students who explore across these contexts develop a richer technical vocabulary and stronger transfer capacity.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Expose students to the same base skill across distinct activity contexts: kicking in football vs kicking in a target game; throwing in cricket-based activities vs throwing in athletic games. Each shift in context surfaces a different adjustment requirement.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N4",
+        "label": "Adapting across integrated movement situations",
+        "description": "Integrate adapted locomotor, stability and object control skills into complex, changing movement situations — demonstrating that adaptation is a fluid, ongoing response rather than a discrete step.",
+        "minimum_width": "Participate in a complex movement activity (game or sequence) that requires adapting at least two different skill types in response to changing conditions.",
+        "success_criteria": [
+          "Demonstrates adaptation of at least two skill types (e.g. locomotor + object control) within the same movement situation",
+          "Responds to changing conditions mid-activity without stopping to restart"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Complex game or sequence situations that require students to read and respond across multiple skill types simultaneously. This is the full descriptor demand — the integration of adapt and modify across a variety of situations."
+          }
+        ]
+      }
+    ]
+  }
+}

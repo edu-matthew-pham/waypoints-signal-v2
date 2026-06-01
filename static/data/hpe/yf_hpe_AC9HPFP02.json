@@ -1,0 +1,76 @@
+{
+  "year_level": "F",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HPFP02",
+    "title": "Personal and Social Skills",
+    "description": "practise personal and social skills to interact respectfully with others",
+    "strand": "Personal, Social and Community Health",
+    "mode": "B",
+    "prior_knowledge": "No prior HPE curriculum. Students bring social experience from home and prior care/education settings. No prior structured curriculum practice of respectful interaction skills.",
+    "progression_endpoint": "Students practise personal and social skills to interact respectfully with others, including cooperating, collaborating and responding to challenging social situations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Inclusive and exclusive behaviour",
+        "progression_checkpoint": "Students can identify behaviours that may be disrespectful or cause harm during play, and discuss how excluded characters or peers could be included.",
+        "minimum_width": "Identify at least one behaviour that is disrespectful or hurtful in a play or story context, and suggest how someone could have acted more inclusively.",
+        "typical_width": "Explore stories and play scenarios involving exclusion; discuss why exclusion occurs, how it feels, and what more inclusive behaviour looks like; identify disrespectful behaviours in their own play contexts.",
+        "wider": [
+          "Explore characters from stories across different cultural contexts who navigate inclusion and exclusion",
+          "Discuss exclusion and inclusion in First Nations Australian community contexts using relevant stories or examples",
+          "Connect inclusion behaviours to fair play — how respectful social interaction and fair play reinforce each other"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify disrespectful or excluding behaviour cannot apply respectful interaction skills (next node) meaningfully. This conceptual understanding of what counts as respectful vs disrespectful is the foundation for practising the skills.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Use story-based scenarios and game stoppages to make inclusion/exclusion visible and nameable. Foundation students benefit from explicit naming of the concepts before practising them.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Varied story and cultural contexts broaden understanding of what respect and inclusion look like across different settings.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-cultural stories and First Nations examples make inclusion/exclusion investigation genuinely rich — not just a replay of class social dynamics.",
+        "success_criteria": [
+          "Identifies at least one disrespectful or hurtful behaviour in a play or story context",
+          "Suggests a more inclusive action the character or peer could have taken"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Cooperating and collaborating",
+        "progression_checkpoint": "Students can cooperate, collaborate and negotiate with others in physical activities to achieve agreed outcomes.",
+        "minimum_width": "Work with at least one other person in a shared play activity, taking turns and making a simple shared decision.",
+        "typical_width": "Cooperate and collaborate in a range of physical activities; negotiate roles, share equipment and reach agreed outcomes; explain their own reasoning and actions in challenging social situations.",
+        "wider": [
+          "Collaborate in team-based physical activities requiring role differentiation (e.g. one sends, one receives, one retrieves)",
+          "Practise negotiation in contexts where students must agree on rules or equipment use before a game begins",
+          "Reflect on a challenging collaboration and identify what helped the group succeed"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Collaboration skills develop through repeated, structured practice. Foundation students need scaffolded social scripts and low-stakes activities before negotiation becomes genuinely collaborative.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Takes turns and shares equipment with at least one other person in a shared activity",
+          "Makes a simple shared decision with a partner or group during a play activity"
+        ],
+        "related_standards": ["AC9HPFM04", "AC9HPFP01"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10M04",
+    "title": "Design personalised activity plans",
+    "description": "participate in physical activities designed to enhance health, wellbeing and fitness, and design, apply and evaluate strategies for incorporating these activities into their lives",
+    "strand": "Making active choices",
+    "mode": "B",
+    "prior_knowledge": "Students can design and justify strategies to increase physical activity to achieve health and wellbeing outcomes (AC9HP8M06). At Y9-10 the focus shifts to personalisation — designing, applying and evaluating strategies that incorporate specific physical activities into their own lives, including understanding individual physiological responses.",
+    "progression_endpoint": "Students participate in fitness-enhancing activities, design personalised strategies for incorporating them into their lives, and evaluate those strategies against fitness and wellbeing goals.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Understanding individual physiological responses",
+        "progression_checkpoint": "Students can evaluate their body's responses to physical activity at different intensities and connect these to fitness components",
+        "minimum_width": "Participate in a physical activity and identify at least two physiological responses (e.g. heart rate, breathing rate, ability to talk, recovery rate); explain what each response indicates",
+        "typical_width": "Participate in a range of physical activities and evaluate individual responses including heart rate, breathing rate, ability to talk and recovery rate; perform activities designed to improve fitness and analyse how each improves specific fitness components",
+        "wider": [
+          "Investigate target training heart-rate zones for different individuals — explain how these zones are measured, how they relate to fitness level, and how they should inform activity selection for different health goals",
+          "Compare physiological responses across different activity types at the same perceived effort level — evaluate what this reveals about relative fitness demands",
+          "Analyse how individual factors (age, fitness level, health condition) affect physiological responses to the same activity — evaluate what this means for personalised plan design"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot interpret their own physiological responses to physical activity cannot make evidence-based decisions about activity selection and intensity in their personalised plan (Node 2) — the design requires understanding what the body is signalling during and after activity.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often participate in activities and report physiological responses without interpreting what they mean. The structured reasoning investment is in building the interpretation chain: this response occurred, it indicates this physiological state, this implies this about fitness demand or intensity level, therefore this about activity design. Heart rate zones add a quantitative framework that supports this reasoning.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two physiological responses observed during activity",
+          "Explains what each response indicates about exertion level or fitness demand",
+          "Connects at least one response to a specific fitness component (e.g. cardiovascular endurance, muscular strength)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Designing and evaluating personalised plans",
+        "progression_checkpoint": "Students can design, apply and evaluate a personalised strategy for incorporating physical activity into their life",
+        "minimum_width": "Design a personalised physical activity plan with at least one realistic goal; apply it for a period and evaluate whether it achieved the goal",
+        "typical_width": "Set realistic physical activity goals; design, implement and evaluate a personalised program incorporating regular physical activity into weekly routines; justify the selection of activities linked to goals and wellbeing outcomes; use digital tools to design, monitor and adjust the plan",
+        "wider": [
+          "Design a personalised plan that incorporates target heart-rate zones for different workout types — justify intensity choices with reference to fitness goals and physiological evidence",
+          "Evaluate a personalised plan across a multi-week implementation — track progress against goals and make documented adjustments; evaluate what factors supported or hindered adherence",
+          "Design a personalised plan for a different person (e.g. a family member with different fitness goals) — justify the adaptations made and evaluate what personalisation required"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Designing and evaluating personalised plans builds through the cycle of planning, implementing, evaluating, and adjusting. A single design exercise without implementation and evaluation is insufficient — students need experience of the full cycle, including what happens when a plan is harder to adhere to than expected. The digital tools direction supports ongoing monitoring rather than one-off evaluation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Heart-rate zone justified planning, multi-week tracked implementation, and designing for a different person each add a dimension that single-plan design does not. Students who engage the wider tier develop planning capability that accounts for real implementation factors — not just the ideal plan on paper.",
+        "success_criteria": [
+          "Plan includes at least one specific, measurable goal",
+          "Activity selection is justified with reference to the goal and individual physiological needs",
+          "Evaluation addresses whether the goal was achieved and identifies at least one factor that affected adherence or outcome"
+        ]
+      }
+    ]
+  }
+}

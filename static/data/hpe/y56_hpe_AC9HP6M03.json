@@ -1,0 +1,74 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M03",
+    "title": "Movement concepts applied to outcomes",
+    "description": "investigate how different movement concepts related to effort, space, time, objects and people can be applied to improve movement outcomes",
+    "strand": "Moving our bodies",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students demonstrated how movement concepts related to effort, space, time, objects and people can be applied when performing movement sequences (AC9HP4M03). They can identify and apply individual movement concepts in structured sequences but have not systematically investigated how manipulating multiple concepts improves outcomes.",
+    "progression_endpoint": "Students investigate how movement concepts related to effort, space, time, objects and people can be applied and combined to improve movement outcomes.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Isolating and manipulating individual concepts",
+        "description": "Experiment with adjusting a single movement concept (effort, space, time, objects, or people) to observe the effect on movement outcome — establishing that each concept has an independent variable effect.",
+        "minimum_width": "Modify one movement concept in a movement activity and observe and describe the effect on the movement outcome.",
+        "success_criteria": [
+          "Can identify which concept was manipulated (e.g. 'I changed the speed/force/direction')",
+          "Can describe the effect the change had on the movement outcome (e.g. more accurate, less controlled, harder for the receiver)"
+        ],
+        "hinge": true,
+        "hinge_reason": "If students cannot isolate a single concept and articulate its effect, the subsequent investigation of how multiple concepts interact to improve outcomes is inaccessible. The investigative logic of N2 and N3 depends on understanding single-variable effects first.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "One-variable experiment design: 'Keep everything the same except X. What happened?' Builds the investigative habit of isolating variables before combining them.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Combining concepts to improve a specific outcome",
+        "description": "Apply two or more movement concepts together to achieve a specific movement outcome — e.g. adjusting force and timing simultaneously to improve accuracy; manipulating space and people-positioning to create tactical advantage.",
+        "minimum_width": "Apply at least two movement concepts together in a movement activity and describe how their combination improved the outcome.",
+        "success_criteria": [
+          "Applies two identifiable concepts simultaneously (not sequentially)",
+          "Can explain how each concept contributed to the improved outcome"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The combination of effort, space, time, objects and people spans a wide range of movement contexts — gymnastics, team games, dance, individual performance, partner work — each offering distinct combination challenges.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Investigate combinations across different movement contexts: force+timing in a throwing/striking context; space+people in a game context; flow+levels in a sequence context. Different contexts surface different concept combinations as most productive.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Systematic investigation and improvement",
+        "description": "Systematically investigate which combinations of movement concepts most effectively improve a specific outcome — testing, reflecting and refining rather than trying once and concluding.",
+        "minimum_width": "Investigate and test at least two different concept combinations for a movement outcome, describe what was found, and explain which approach was more effective and why.",
+        "success_criteria": [
+          "Tests more than one approach before drawing conclusions",
+          "Bases the 'more effective' judgement on observed outcome rather than preference"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Students conduct a mini-investigation cycle: identify outcome goal → trial combinations → observe → refine. This is the full descriptor demand — 'investigate how concepts can be applied to improve outcomes' — not just demonstrate or apply."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,94 +4,123 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S8U02",
-    "title": "Cells, Tissues, Organs and Systems",
+    "title": "Structure, Function and Organ Systems",
     "description": "analyse the relationship between structure and function of cells, tissues and organs in a plant and an animal organ system and explain how these systems enable survival of the individual",
     "strand": "Biological Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can identify and describe the function of organelles in plant and animal cells (AC9S8U01). They have not yet connected cell-level structure to tissue and organ-level function, or examined how organ systems operate as integrated units to support survival.",
-    "progression_endpoint": "Students analyse the structure-function relationship across the hierarchy from cell to tissue to organ to system in both a plant and an animal organ system, and explain how each level of organisation contributes to the system's role in supporting the organism's survival.",
+    "prior_knowledge": "Students can describe organelle functions and cell specialisation (AC9S8U01) and explain how structural features enable survival at the organism level (AC9S5U01). They have not yet encountered the tissue or organ as organisational levels, or analysed how structure at sub-organism levels enables system-level survival functions.",
+    "progression_endpoint": "Students analyse structure-function relationships across the cell → tissue → organ → organ system hierarchy in one plant and one animal system, explaining how integrated system function enables individual survival.",
     "nodes": [
       {
         "id": 1,
-        "label": "Cells, tissues and organs form a structural hierarchy",
-        "progression_checkpoint": "Students can describe the organisational hierarchy from cell → tissue → organ → organ system and explain how each level is made up of the level below, with the structural properties of each level arising from its component units.",
-        "minimum_width": "Students describe the four levels of biological organisation (cell, tissue, organ, organ system) and give one example of each from a named organ system.",
-        "typical_width": "Students explain how specialised cells form tissues, how tissues with complementary functions combine to form organs, and how organs work together in a system — tracing this hierarchy through at least one complete plant and one complete animal organ system.",
+        "label": "Cell specialisation — same DNA, different structure and function",
+        "progression_checkpoint": "Students can explain how cells with the same genetic information become specialised for different functions, and describe structural features of two or more specialised cell types.",
+        "minimum_width": "Students describe two structural features of one specialised cell type and explain how each feature serves the cell's function.",
+        "typical_width": "Students analyse: red blood cells (biconcave, no nucleus — maximises haemoglobin, flexible for capillaries); xylem cells (hollow, thick walls — water transport); nerve cells (long axon, many dendrites — signal transmission over distance); muscle cells (elongated, many mitochondria — contraction); explain that specialisation means organelle complement and shape are matched to function; connect to N5 of AC9S8U01.",
         "wider": [
-          "Compare the structural hierarchy in a plant system (e.g. vascular system: xylem cells → vascular tissue → stem/root/leaf → transport system) with an animal system (e.g. circulatory: cardiac muscle cells → heart muscle tissue → heart → circulatory system)",
-          "Examine single-celled organisms and explain why they do not have tissues or organs — using this contrast to clarify why multicellular hierarchy is necessary at scale",
-          "Research how a disorder at the cell or tissue level propagates to organ dysfunction — e.g. how hardening of arterial tissue affects the cardiovascular system's ability to maintain circulation"
+          "Compare the organelle complement of a secretory cell (many ribosomes, large Golgi) to a muscle cell (many mitochondria) — explain each difference using function",
+          "Investigate how an artificial organ mimics real cell specialisation — what cell-level properties does the artificial version replicate or approximate?"
         ],
         "hinge": true,
-        "hinge_reason": "Without the hierarchy logic — that each level's properties emerge from the level below — students cannot analyse structure-function relationships at specific levels in Node 2. Students who treat cell, tissue, organ and system as a vocabulary list cannot explain why a tissue's function depends on its constituent cells, which is the analytical move required at Node 2.",
+        "hinge_reason": "Cell specialisation is the conceptual mechanism that explains tissue formation. Students who cannot explain why cells differ structurally cannot understand why similar cells group into tissues in N2, and cannot analyse organ structure in N3 in terms of the specialised cells that compose it.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students commonly treat cell, tissue, organ and system as a vocabulary list rather than as a nested structural hierarchy where each level's properties emerge from the level below. Making the emergence logic explicit — specialised cells → tissue with a collective function → organ integrating tissue functions → system coordinating organ functions — is necessary before students can analyse structure-function relationships at each level.",
+            "reason": "The structure-function reasoning method must be practised at the cell level before it is applied at the tissue and organ level. Students who learn specialised cell features as a list without the reasoning framework ('this feature enables this function') cannot transfer the analysis to novel cell types or to tissues.",
             "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Describes the four levels of biological organisation in sequence with an example from a named organ system",
-          "Explains how the function of a tissue depends on the specialised cells it contains"
-        ]
+          "Describes at least two structural features of a specialised cell and explains how each serves the cell's function",
+          "Explains that cells with the same DNA can be specialised for different functions",
+          "Connects organelle complement to cell specialisation for at least one cell type"
+        ],
+        "related_standards": ["AC9S8U01", "AC9S5U01"]
       },
       {
         "id": 2,
-        "label": "Structure determines function at each level",
-        "progression_checkpoint": "Students can analyse the relationship between the physical structure of cells, tissues and organs and the function they perform — explaining how structural features enable function in at least one plant and one animal organ system.",
-        "minimum_width": "Students describe at least two structure-function relationships in a named organ system — explaining how a specific structural feature enables a specific function.",
-        "typical_width": "Students analyse structure-function relationships across multiple levels (cell, tissue, organ) in both a plant and an animal organ system, explaining how structural features at each level contribute to the overall function of the system.",
+        "label": "Tissues — groups of specialised cells performing a shared function",
+        "progression_checkpoint": "Students can define a tissue as a group of similar specialised cells performing a shared function, and give examples from plant and animal systems.",
+        "minimum_width": "Students define tissue and give one plant and one animal tissue example with the shared function of each.",
+        "typical_width": "Students describe: muscle tissue (muscle cells — contraction); epithelial tissue (epithelial cells — lining/protection); xylem tissue (xylem cells — water transport); phloem tissue (sieve tube cells — sugar transport); explain that tissues perform functions individual cells cannot perform at scale; explain that tissue identity is defined by cell type and function, not just location.",
         "wider": [
-          "Compare analogous systems in a plant and an animal (e.g. plant vascular system and animal circulatory system) — examining how different structural solutions achieve the same functional goal of transporting materials",
-          "Investigate how an artificial organ mimics or augments the function of a real organ, identifying which structural features are replicated and which are not",
-          "Examine how disorders at the structural level (e.g. hardening of arteries, damage to photosynthetic cells) cascade to affect system function — applying structure-function reasoning in a pathology context"
+          "Examine prepared slides of muscle, epithelial and plant vascular tissue — describe how the arrangement of cells in each tissue reflects its function",
+          "Research how a tissue disorder (e.g. fibrosis — abnormal connective tissue) affects the function of the organ it composes"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "context_breadth",
-            "reason": "Students tend to describe structure and function as separate features rather than as a relationship — they list structural features and then separately list functions without connecting them. Analysing structure-function relationships across both plant and animal systems, and at multiple organisational levels, helps students build a more generalisable analytical approach rather than a collection of isolated examples.",
-            "flags": ["width_opportunity"]
+            "mode": "structured_reasoning",
+            "reason": "The tissue concept extends specialisation to the collective level — similar cells acting together. Students need to understand that tissue function emerges from cell arrangement and cooperation, not just from individual cell properties. This is the building block for organ composition in N3."
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Comparing plant and animal systems that achieve the same functional goal through different structural solutions is a genuinely rich analytical direction. The artificial organ direction connects structure-function reasoning to real biomedical engineering applications and links to AC9S8H01/H03.",
         "success_criteria": [
-          "Explains at least two structure-function relationships in a named organ system — connecting a specific structural feature to the function it enables",
-          "Analyses structure-function relationships in both a plant organ system and an animal organ system"
+          "Defines a tissue as a group of similar specialised cells performing a shared function",
+          "Names at least one animal and one plant tissue with the function of each",
+          "Explains how tissue function emerges from the collective action of its component cells"
         ],
-        "related_standards": ["AC9S8U01", "AC9S8H01", "AC9S8H03"]
+        "related_standards": ["AC9S8U01"]
       },
       {
         "id": 3,
-        "label": "Organ systems enable survival of the individual",
-        "progression_checkpoint": "Students can explain how the functions of an organ system contribute to the survival of the individual organism — connecting system-level function to the basic survival needs of the organism (obtaining energy, removing waste, responding to the environment, reproducing).",
-        "minimum_width": "Students explain how one named organ system contributes to the survival of the organism, naming at least two survival needs the system meets.",
-        "typical_width": "Students explain how both a plant and an animal organ system contribute to survival, describing how each system's function addresses specific survival requirements and how a failure in the system would threaten survival.",
+        "label": "Organs — tissues working together for an integrated function",
+        "progression_checkpoint": "Students can describe an organ as a structure composed of multiple tissue types, each contributing to the organ's overall function.",
+        "minimum_width": "Students name two tissue types in one organ and explain how each contributes to the organ's function.",
+        "typical_width": "Students analyse: the heart (cardiac muscle tissue, epithelial lining, connective tissue — contraction, smooth flow, structural integrity); a leaf (epidermis, mesophyll, vascular tissue — gas exchange, photosynthesis, water/sugar transport); explain that organs require multiple tissue types because no single tissue can perform all the functions an organ needs; compare 2D and 3D representations of organs to understand spatial relationships.",
         "wider": [
-          "Research how a disorder in cells or tissues leads to organ dysfunction and ultimately threatens individual survival — tracing the cell-to-survival chain in reverse through a case study (e.g. heart disease, plant nutrient deficiency)",
-          "Investigate how the repair and replacement of organs using synthetic materials or transplantation maintains survival — examining what functional properties the replacement must replicate (connects to AC9S8H01 and H03)",
-          "Examine how 2D and 3D representations of organ systems are used to understand spatial relationships between organs — and why position within the body matters for function"
+          "Compare 2D and 3D representations of the same organ — what spatial relationships are visible in 3D that flat diagrams cannot show?",
+          "Investigate how a disorder at the tissue level affects organ function — e.g. how atherosclerosis (connective tissue thickening in arteries) impairs the circulatory organ's function"
+        ],
+        "hinge": true,
+        "hinge_reason": "The organ-as-multi-tissue-structure concept is the prerequisite for organ system analysis. Students who think of organs as single-tissue structures cannot explain why organ function depends on the coordination of component tissues, and cannot analyse how organ failure propagates from tissue disorder.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly think of organs as single things rather than integrated multi-tissue structures. Making the tissue composition of organs explicit — and explaining why multiple tissue types are required — is the conceptual move that connects tissue-level analysis to organ-level function.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Names at least two tissue types in a named organ and explains the contribution of each",
+          "Explains why organs require multiple tissue types",
+          "Analyses how a tissue-level change affects organ function"
+        ],
+        "related_standards": ["AC9S8U01"]
+      },
+      {
+        "id": 4,
+        "label": "Organ systems — coordinated organs enabling survival",
+        "progression_checkpoint": "Students can describe how organs within a system coordinate to perform a survival function, applying this to one animal and one plant system.",
+        "minimum_width": "Students describe the organs of one system and explain how the system as a whole enables a named survival function.",
+        "typical_width": "Students analyse one animal system (circulatory — heart, blood vessels, blood; or digestive — mouth, stomach, intestines, liver) and one plant system (vascular — xylem, phloem, roots, leaves); explain how each organ's structure contributes to the system's survival function; explain that the system fails if any organ fails; connect system function to individual survival (oxygen delivery, nutrient transport, water uptake).",
+        "wider": [
+          "Compare the vascular system of a plant to the circulatory system of an animal as analogous solutions to the same survival problem — what structural differences reflect different organism constraints?",
+          "Investigate how an artificial organ (dialysis machine, pacemaker) mimics or augments the function of a real organ — what structural principles does it replicate?"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The plant-animal system comparison is explicitly elaborated and pedagogically rich — it applies the same analytical method to structurally very different systems solving the same survival problem. Artificial organ investigation adds a design-thinking dimension the elaborations explicitly name.",
         "response_modes": [
           {
-            "mode": "integration",
-            "reason": "Connecting organ system function to survival requires students to integrate the structure-function hierarchy with a functional purpose — what does all of this complexity ultimately achieve for the organism? Students who understand structure-function relationships at each level must now see those relationships as coordinated toward a larger goal. This is the synthesis move of the descriptor."
+            "mode": "context_breadth",
+            "reason": "Applying the organ system analysis to both a plant and an animal system — and comparing them as analogous solutions — builds the generalised structure-function analytical capability the descriptor's 'analyse' demand requires.",
+            "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Explains how a named organ system's function contributes to at least two survival needs of the organism",
-          "Describes what would happen to survival if the organ system failed to function correctly"
+          "Names the organs of one animal and one plant system and explains the function of each",
+          "Explains how the coordinated system enables a specific survival function",
+          "Compares one plant and one animal system as solutions to a shared survival problem"
         ],
-        "related_standards": ["AC9S8H01", "AC9S8H03"]
+        "related_standards": ["AC9S8U01", "AC9S5U01"]
       }
     ]
   }

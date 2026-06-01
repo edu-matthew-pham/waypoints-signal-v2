@@ -1,0 +1,78 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6P03",
+    "title": "Gender stereotypes and societal roles",
+    "description": "investigate how the portrayal of societal roles and responsibilities can be influenced by gender stereotypes",
+    "strand": "Identities and change",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students described how choices and actions can be influenced by stereotypes (AC9HP4P03). They understand that stereotypes exist and can shape behaviour. This descriptor extends that understanding specifically to gender stereotypes and their influence on societal roles and responsibilities — a more specific and politically situated application.",
+    "progression_endpoint": "Students investigate how gender stereotypes influence the portrayal of societal roles and responsibilities, identifying limiting effects and proposing strategies for gender equality.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Identifying gender stereotypes in societal portrayals",
+        "description": "Identify examples of gender stereotypes in texts, media and community portrayals, and explain how these portrayals influence expectations about roles and responsibilities.",
+        "minimum_width": "Identify at least one example of a gender stereotype in a text or media example and explain how it influences the expected roles or responsibilities of a person in that portrayal.",
+        "success_criteria": [
+          "Identifies a specific portrayal (not a general claim that stereotypes exist)",
+          "Explains the connection between the portrayal and the expectation of roles or responsibilities — not just that the portrayal is stereotyped"
+        ],
+        "hinge": true,
+        "hinge_reason": "The critical analysis in N2 depends on students being able to identify the specific mechanism by which a portrayal influences expectations. Without this, students' critiques of stereotypes are abstract, and their proposals for change (N3) lack specificity.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Gender stereotype portrayals appear across texts, media, community, sport, family, and cultural contexts — each offering a different lens and revealing different mechanisms of influence.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Analyse specific examples: 'What is being shown? What does this imply about expected roles? What choices or opportunities does this open or close?' Concrete examples prevent the discussion from remaining abstract.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Analyse portrayals across different contexts: fictional characters who challenge stereotypes; social and cultural norms in family roles; sport and physical activity contexts. Cross-context analysis builds a richer understanding of how stereotypes operate.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Analysing limiting and harmful effects",
+        "description": "Analyse how gender stereotypes can have limiting and harmful effects on individuals' choices, opportunities and human rights.",
+        "minimum_width": "Describe at least one limiting or harmful effect of a gender stereotype on an individual's choices or opportunities.",
+        "success_criteria": [
+          "Effect is described specifically — a named constraint on choices or opportunities, not just 'it's unfair'",
+          "Can connect the effect to the individual's human rights or wellbeing — not just social preference"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "From portrayal to mechanism to effect: 'What does this stereotype expect? Who is constrained by this expectation? What choices or opportunities are limited or removed?' Analytical chain keeps the reasoning grounded rather than rhetorical."
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Proposing strategies for gender equality",
+        "description": "Propose strategies to advance gender equality and respect for human rights — challenging practices that limit individuals based on gender stereotypes.",
+        "minimum_width": "Propose at least one strategy to challenge a specific gender stereotype or promote gender equality, and explain how it addresses the identified limiting effect.",
+        "success_criteria": [
+          "Strategy is specific to the identified stereotype or practice — not a generic 'treat everyone equally'",
+          "Connects the strategy to the limiting effect identified in N2"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integrates identification of stereotypes, analysis of their effects, and construction of equity strategies — the full descriptor demand of investigating how portrayals are influenced by gender stereotypes and working toward gender equality."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "year_level": "7-8",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP8M06",
+    "title": "Design physical activity strategies",
+    "description": "design and justify strategies to increase physical activity levels to achieve health and wellbeing outcomes",
+    "strand": "Active choices",
+    "mode": "B",
+    "prior_knowledge": "Students have proposed and explained strategies to increase physical activity and reduce sedentary behaviour (Y5-6). They can describe what strategies might work but have not yet been expected to design and justify strategies against specific health and wellbeing outcome targets.",
+    "progression_endpoint": "Students design and justify strategies to increase physical activity levels to achieve health and wellbeing outcomes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying physical activity barriers and enablers",
+        "progression_checkpoint": "Students can identify factors that support or limit physical activity participation for themselves and their peer group, including personal, social and environmental factors.",
+        "minimum_width": "Identify at least two factors (personal, social or environmental) that influence their own physical activity levels.",
+        "typical_width": "Identify and categorise factors that support and limit physical activity participation across personal, social and environmental domains; compare their current activity levels with Australia's 24-Hour Movement Guidelines; identify specific gaps.",
+        "wider": [
+          "Compare physical activity levels, sleep and sedentary time against the 24-Hour Movement Guidelines and map personal and social factors contributing to any identified gaps",
+          "Investigate which physical activities different peer groups engage in for social and emotional wellbeing, identifying patterns in motivation and participation"
+        ],
+        "hinge": true,
+        "hinge_reason": "Design decisions require a clear understanding of what is being designed against — students who cannot identify the specific barriers and enablers in their own context will produce generic strategies with no real justification grounded in evidence.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Use a structured analysis framework (personal/social/environmental) to ensure students map their own context systematically before designing. Strategies should be explicitly linked to identified barriers.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Identifies at least two factors that influence their own physical activity participation",
+          "Categorises factors as personal, social or environmental"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Understanding health and wellbeing outcomes",
+        "progression_checkpoint": "Students can explain the health and wellbeing outcomes that increased physical activity is intended to achieve, with reference to specific outcome areas (physical, social, emotional, mental).",
+        "minimum_width": "Identify at least one health or wellbeing outcome that increased physical activity can support and explain the link.",
+        "typical_width": "Explain how increased physical activity contributes to outcomes across physical, social, emotional and mental wellbeing dimensions; connect activity types to specific outcomes; use the 24-Hour Movement Guidelines as a reference point.",
+        "wider": [
+          "Investigate how physical activity supports emotional and social wellbeing specifically — examining the evidence for social connection and mood benefits beyond physical fitness outcomes",
+          "Research how sedentary behaviour alongside insufficient activity creates compounding health risks, and use this understanding to justify targeting both in a strategy"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Justification requires specific outcome understanding — width here means connecting a range of outcome types to different activity strategies rather than knowing one outcome type deeply."
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Names at least one health or wellbeing outcome that increased physical activity supports",
+          "Explains the link between a specific activity type and the outcome named"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Designing and justifying strategies",
+        "progression_checkpoint": "Students can design a strategy to increase physical activity levels for themselves or others, with explicit justification linking design decisions to identified barriers and targeted health or wellbeing outcomes.",
+        "minimum_width": "Design one strategy to increase physical activity and justify at least one design decision by linking it to an identified barrier or health/wellbeing outcome.",
+        "typical_width": "Design a realistic personal or peer-targeted physical activity strategy addressing multiple barriers and targeting specific health and wellbeing outcomes; justify each key design decision with reference to evidence; include monitoring or evaluation mechanisms.",
+        "wider": [
+          "Design and monitor a personal physical activity plan over multiple weeks, evaluating whether the strategy achieved the intended wellbeing outcomes and revising it accordingly",
+          "Design an activity program for a specific peer group (e.g. students who prefer non-competitive activities) with explicit justification for design decisions tailored to that group's barriers and preferences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Design and justify integrates barrier analysis, outcome understanding, and strategic planning into one coherent artefact. Instruction should scaffold the full design-justify cycle rather than treating design as the endpoint."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Justification quality increases when students have a range of health/wellbeing outcome types to draw on. Width in outcome knowledge directly improves justification depth.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Students who design for a range of purposes and justify against multiple outcome types develop a genuinely transferable health literacy capability applicable to personal health decisions well beyond this unit.",
+        "success_criteria": [
+          "Designs a strategy to increase physical activity levels for themselves or others",
+          "Justifies at least one design decision by linking it to an identified barrier or a specific health/wellbeing outcome",
+          "Identifies a realistic way to monitor or evaluate the strategy's effectiveness"
+        ]
+      }
+    ]
+  }
+}

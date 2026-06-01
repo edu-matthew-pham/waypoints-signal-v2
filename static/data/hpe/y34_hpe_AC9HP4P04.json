@@ -1,0 +1,100 @@
+{
+  "year_level": "3-4",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP4P04",
+    "title": "Personal and social skills in relationships",
+    "description": "select, use and refine personal and social skills to establish, manage and strengthen relationships",
+    "strand": "Interacting with others",
+    "mode": "B",
+    "prior_knowledge": "Students have identified and explored skills and strategies to develop respectful relationships (AC9HP2P02). They have practised basic social skills but have not yet selected, evaluated and refined specific skills in response to relationship challenges.",
+    "progression_endpoint": "Students select, use and refine personal and social skills to establish, manage and strengthen relationships.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Perspective-taking and empathy in relationships",
+        "progression_checkpoint": "Students can predict and reflect on how other students might feel in challenging situations and discuss what they can do to support them.",
+        "minimum_width": "Predict how at least one person might feel in a described challenging situation, and suggest one action they could take to support that person.",
+        "typical_width": "Engage in perspective-taking across a range of challenging scenarios; discuss the range of possible emotional responses and identify specific support actions for each.",
+        "wider": [
+          "Explore how demonstrating respect and empathy for First Nations Australians builds positive relationships — examining specific community or cultural contexts and what respectful engagement looks like.",
+          "Investigate how characters in texts from diverse cultural backgrounds demonstrate respect and empathy, comparing the strategies used across different relationship contexts."
+        ],
+        "hinge": true,
+        "hinge_reason": "Perspective-taking is the foundational social skill required before students can meaningfully select, use or refine relationship skills. Without the ability to consider another's experience, skills like empathy, encouragement and conflict resolution remain surface-level behaviours rather than responsive actions.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Perspective-taking requires students to step out of their own viewpoint — a deliberate cognitive skill. Role-play, scenario analysis and guided questions ('what might this person be thinking?', 'what do they need?') scaffold this reasoning.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes how another person might feel in a challenging situation.",
+          "Identifies at least one action they could take to support that person.",
+          "Explains their reasoning — why they think the person feels that way."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Respect and diversity in relationships",
+        "progression_checkpoint": "Students can explore strategies for demonstrating respect for difference and diversity in individuals and communities.",
+        "minimum_width": "Identify and describe at least one strategy a person used to demonstrate respect for difference or diversity in a text or real example.",
+        "typical_width": "Explore a range of strategies for respecting difference and diversity across personal, school and community relationship contexts; discuss what makes each strategy effective.",
+        "wider": [
+          "Research and participate in games from different cultural heritages, reflecting on what the games reveal about cultural values and how engagement shows respect for diversity.",
+          "Design a class event or activity that celebrates cultural diversity, identifying specific relationship skills that make multicultural engagement respectful and enriching."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students benefit from building a repertoire of named, specific strategies for respecting diversity — not just the general instruction to 'be respectful'. Named strategies (active listening, asking questions, acknowledging difference) can be practised and transferred."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two strategies for showing respect for diversity.",
+          "Describes how each strategy supports positive relationships.",
+          "Demonstrates at least one strategy in a class or group activity."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Challenging bullying",
+        "progression_checkpoint": "Students can recognise that bullying takes many forms including online and can propose strategies to challenge bullying in and out of school.",
+        "minimum_width": "Identify at least two forms of bullying (including online) and propose at least one strategy a bystander or target could use to address it.",
+        "typical_width": "Recognise bullying across varied online and offline contexts; propose and evaluate a range of bystander and help-seeking strategies for different bullying scenarios.",
+        "wider": [
+          "Examine the difference between bystander, upstander and target roles in bullying situations, and practise upstander strategies in role-play scenarios.",
+          "Investigate what safe and effective bystander actions look like in online contexts — comparing strategies that are useful offline with those needed for cyberbullying."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Challenging bullying integrates perspective-taking (node 1), respect for others (node 2) and strategy selection into a high-stakes social context. The teaching focus should be on practice through scenario work — not just knowledge of what bullying is."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Bullying strategies that work face-to-face often look different online. Students who practise strategies across both contexts develop more versatile and realistic capability.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Online vs offline bullying contexts require meaningfully different strategies — both are in scope and both offer distinct pedagogical value for building students' real-world capacity to respond to bullying.",
+        "success_criteria": [
+          "Identifies at least two forms of bullying, including at least one online form.",
+          "Proposes a specific strategy a bystander could use to respond to bullying.",
+          "Explains why their proposed strategy would be effective in the given scenario."
+        ]
+      }
+    ]
+  }
+}

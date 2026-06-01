@@ -4,107 +4,187 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S10U01",
-    "title": "Heredity, Meiosis and Mendelian Inheritance",
+    "title": "Genetics and Inheritance",
     "description": "explain the role of meiosis and mitosis and the function of chromosomes, DNA and genes in heredity and predict patterns of Mendelian inheritance",
     "strand": "Biological Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can compare sexual and asexual reproduction and explain how variation is produced (AC9S9U02). They have not yet examined the molecular mechanism of heredity (DNA, genes, chromosomes) or applied Mendelian ratios to predict offspring genotypes and phenotypes.",
-    "progression_endpoint": "Students explain the chromosome-DNA-gene hierarchy, describe how meiosis produces genetically varied gametes, and use Mendelian inheritance to predict offspring ratios for monohybrid crosses including sex-linked traits.",
+    "prior_knowledge": "Students can describe reproductive structures and processes in animals and plants and analyse how sexual and asexual reproduction enable species survival (AC9S9U02). They can recognise cells as the basic units of living things and describe specialised cell structures (AC9S8U01). They have not yet examined the molecular basis of heredity — chromosomes, DNA and genes as functional units — or the mechanics of meiosis and mitosis as cell division processes, or Mendelian inheritance as a predictive model.",
+    "progression_endpoint": "Students explain the roles of meiosis and mitosis in heredity, describe the structural relationship between chromosomes, DNA and genes, and predict genotype and phenotype ratios in monohybrid crosses including dominant/recessive and sex-linked patterns.",
     "nodes": [
       {
         "id": 1,
-        "label": "The chromosome-DNA-gene hierarchy packages heritable information",
-        "progression_checkpoint": "Students can describe the structural relationship between DNA, genes and chromosomes — explaining that DNA is the molecule, genes are functional sequences on DNA, and chromosomes are structures containing many genes — and explain why this packaging matters for heredity.",
-        "minimum_width": "Students describe the DNA-gene-chromosome hierarchy using a model or diagram, explaining the relationship between each level.",
-        "typical_width": "Students explain the chromosome-DNA-gene hierarchy using models and diagrams; identify that the genome is the complete set of genetic information in an organism; explain why DNA must be packaged into chromosomes for accurate copying and transmission; and connect the hierarchy to the idea that heritable information is encoded in DNA sequence.",
+        "label": "Chromosomes, DNA and genes — the structural hierarchy",
+        "progression_checkpoint": "Students can describe the structural relationship between chromosomes, DNA and genes, and explain how genetic information is organised and stored.",
+        "minimum_width": "Students describe that chromosomes are made of DNA and that genes are sections of DNA that carry instructions for heritable characteristics.",
+        "typical_width": "Students represent the chromosome → DNA → gene hierarchy using diagrams or models; explain that humans have 46 chromosomes in 23 pairs; describe that genes code for proteins and that proteins determine characteristics; distinguish genotype from phenotype.",
         "wider": [
-          "Investigate First Nations Australians' knowledges of heredity as evidenced by strict adherence to kinship and family structures and marriage laws — examining how observational knowledge of trait inheritance predates molecular understanding",
-          "Explore environmental and other factors that cause mutations and identify changes in DNA or chromosomes — examining how heritable variation arises beyond meiotic recombination",
-          "Examine how the development of DNA sequencing technology has enabled reading of the genetic code — connecting molecular structure to biotechnology applications (AC9S10H02)"
+          "Investigate how mutations — changes in DNA sequence — can alter gene function and connect to real genetic conditions (cystic fibrosis, sickle cell anaemia)",
+          "Explore First Nations Australians' knowledges of heredity as evidenced by kinship and marriage laws — what observations about inheritance do these systems encode?"
         ],
         "hinge": true,
-        "hinge_reason": "Students who conflate DNA, gene and chromosome as interchangeable terms cannot correctly reason about what meiosis sorts, what alleles are, or why inheritance produces predictable ratios. Node 2 (meiosis) and Node 3 (Mendelian inheritance) both require the hierarchy to be conceptually grounded — without it, students apply procedures without understanding what is being distributed.",
+        "hinge_reason": "The structural hierarchy is the conceptual foundation all subsequent nodes require. Students who cannot locate genes on chromosomes, or who conflate DNA with chromosomes, cannot follow how meiosis separates chromosome pairs (N2), how alleles are transmitted (N4), or how sex-linked inheritance depends on chromosome identity (N6).",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students commonly conflate DNA, gene and chromosome as interchangeable terms. The hierarchy — DNA is the molecule, genes are functional sequences, chromosomes are structures containing many genes — must be explicit before students can understand how heritable information is packaged, copied and transmitted. Without this, meiosis and Mendelian ratios are mechanical procedures without conceptual grounding.",
-            "flags": [
-              "hinge"
-            ]
+            "reason": "Students commonly conflate DNA, genes and chromosomes as interchangeable terms. Making the containment hierarchy explicit — chromosome contains DNA; gene is a segment of DNA — is the scaffold the transmission model in N4 requires. Diagrams that show the same information at multiple scales are effective here.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Describes the DNA-gene-chromosome hierarchy correctly — identifying DNA as the molecule, genes as functional sequences, chromosomes as structures",
-          "Explains why the hierarchical packaging matters for accurate transmission of heritable information"
-        ]
+          "Describes chromosomes as structures made of DNA",
+          "Explains that genes are segments of DNA that code for heritable characteristics",
+          "Distinguishes genotype (genetic information) from phenotype (expressed characteristic)"
+        ],
+        "related_standards": ["AC9S8U01", "AC9S9U02"]
       },
       {
         "id": 2,
-        "label": "Meiosis and fertilisation produce genetically varied offspring",
-        "progression_checkpoint": "Students can explain how meiosis produces gametes with half the parent chromosome number and with genetic variation, and how fertilisation restores the diploid number and combines genetic material from both parents.",
-        "minimum_width": "Students explain that meiosis halves the chromosome number and produces varied gametes, and that fertilisation combines genetic material from two parents.",
-        "typical_width": "Students explain how meiosis produces genetically varied gametes through chromosome number halving, independent assortment and crossing over; explain how fertilisation restores the diploid number and combines maternal and paternal genetic material; and connect the variation produced by meiosis to the outcomes of sexual reproduction discussed in AC9S9U02.",
+        "label": "Mitosis — cell division for growth and repair",
+        "progression_checkpoint": "Students can explain the outcome of mitosis and describe its role in growth, repair and asexual reproduction.",
+        "minimum_width": "Students state that mitosis produces two genetically identical daughter cells from one parent cell and explain its role in growth or repair.",
+        "typical_width": "Students describe that mitosis copies all chromosomes before division to maintain chromosome number; explain why genetic identity is preserved; connect to asexual reproduction from AC9S9U02; distinguish mitosis from meiosis in terms of purpose and outcome.",
         "wider": [
-          "Compare meiosis and mitosis in terms of their purpose, process and outcome — examining why the body uses different division types for different purposes",
-          "Explore how crossing over during meiosis generates combinations of alleles not present in either parent — examining this as a source of variation beyond independent assortment",
-          "Examine applications of gene technologies such as gene therapy and genetic engineering — connecting meiosis-based understanding of heredity to biotechnology (AC9S10H02)"
+          "Investigate how uncontrolled mitosis is the basis of cancer — what goes wrong, and how do treatments target dividing cells?",
+          "Compare mitosis-based asexual reproduction (identical offspring) to sexual reproduction — what are the evolutionary trade-offs?"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "context_breadth",
-            "reason": "The meiosis-mitosis comparison and crossing-over direction are the richest enrichment available here — students who have met the checkpoint gain genuine depth by comparing the two division types and tracing an additional variation source. Width investment at this node produces a more complete picture of how genetic variation is generated.",
-            "flags": [
-              "width_opportunity"
-            ]
+            "mode": "structured_reasoning",
+            "reason": "Mitosis is primarily a contrast node — its value is in establishing what meiosis is NOT. Students need a clear outcome model (two identical cells, chromosome number preserved) before the reduction and recombination logic of meiosis in N3 is meaningful."
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The meiosis-mitosis comparison provides genuine enrichment that clarifies both processes through contrast. Crossing over as an additional variation source connects to the broader theme of how genetic variation is generated and maintained in populations.",
         "success_criteria": [
-          "Explains that meiosis produces gametes with half the chromosome number and with genetic variation",
-          "Explains that fertilisation restores the diploid number and combines genetic material from both parents"
+          "States that mitosis produces two genetically identical daughter cells",
+          "Explains that chromosome number is maintained through mitosis",
+          "Identifies growth and repair as the biological purposes of mitosis"
         ],
-        "related_standards": [
-          "AC9S9U02",
-          "AC9S10H02"
-        ]
+        "related_standards": ["AC9S8U01", "AC9S9U02"]
       },
       {
         "id": 3,
-        "label": "Mendelian inheritance predicts offspring phenotype ratios",
-        "progression_checkpoint": "Students can use Mendelian inheritance to predict genotype and phenotype ratios for monohybrid crosses involving dominant and recessive alleles, and use pedigree diagrams to trace inheritance patterns.",
-        "minimum_width": "Students complete a Punnett square for a monohybrid cross and predict the phenotype ratio of offspring.",
-        "typical_width": "Students use Punnett squares for dominant/recessive and sex-linked crosses; predict genotype and phenotype ratios; use pedigree diagrams to identify inheritance patterns across generations; explain why statistical ratios are predictions rather than exact outcomes; and describe how large data sets (like Mendel's) validate predicted ratios.",
+        "label": "Meiosis — halving chromosome number and generating variation",
+        "progression_checkpoint": "Students can explain how meiosis halves the chromosome number to produce gametes and describe how meiosis generates genetic variation.",
+        "minimum_width": "Students explain that meiosis produces four genetically unique cells with half the chromosome number, and that this enables fertilisation to restore the full number.",
+        "typical_width": "Students explain chromosome separation during meiosis; describe that homologous pairs are separated so each gamete receives one chromosome from each pair; explain how random assortment and crossing over during meiosis generate variation; connect gamete formation to the inheritance model in N4.",
         "wider": [
-          "Explore how the role of large data sets and statistical analysis in validating Mendel's pea plant experiments established Mendelian ratios as scientific law (AC9S10H01)",
-          "Use pedigree diagrams to trace patterns of dominant and recessive characteristics through multigenerational families",
-          "Consider the use of genetic testing for genetic counselling and embryo selection — examining how Mendelian prediction is applied in clinical genetics (AC9S10H04)"
+          "Investigate errors in meiosis (non-disjunction) and connect to chromosomal conditions such as Down syndrome or Klinefelter syndrome",
+          "Compare the variation generated by meiosis + fertilisation to asexual reproduction — why does sexual reproduction produce more variation, and what are the costs?"
         ],
         "hinge": true,
-        "hinge_reason": "Punnett square errors (incorrect allele assignment, wrong ratio calculation) produce systematically wrong predictions for all cross types. Students who cannot reliably construct and interpret Punnett squares cannot meaningfully apply Mendelian inheritance to sex-linked traits or pedigree analysis — the terminal skill of the descriptor.",
+        "hinge_reason": "Meiosis is the mechanistic foundation of the inheritance model. Students who cannot explain why gametes carry one allele of each gene pair cannot construct Punnett squares correctly in N4, cannot explain why offspring ratios are probabilistic, and cannot account for sex-linked inheritance in N6 (where the sex chromosomes are the relevant pair being separated).",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The logic of meiosis — homologous pairs separating so each gamete gets one from each pair — is the mechanism that makes Punnett squares work. Students who learn Punnett squares without this foundation produce correct ratios by rote without understanding why the probabilities hold. This must be established before N4.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains that meiosis halves the chromosome number to produce gametes",
+          "Describes that each gamete receives one chromosome from each homologous pair",
+          "Explains how meiosis contributes to genetic variation in offspring"
+        ],
+        "related_standards": ["AC9S9U02"]
+      },
+      {
+        "id": 4,
+        "label": "Alleles and Mendelian inheritance — dominant and recessive",
+        "progression_checkpoint": "Students can explain dominant and recessive allele relationships and use Punnett squares to predict genotype and phenotype ratios in monohybrid crosses.",
+        "minimum_width": "Students correctly construct a Punnett square for a monohybrid cross involving dominant and recessive alleles and state the expected phenotype ratio.",
+        "typical_width": "Students apply Punnett squares to multiple cross types (PP × pp, Pp × Pp, Pp × pp); predict and explain genotype and phenotype ratios; use correct notation (capital/lowercase); connect allele pairs to the chromosome pairs separated by meiosis; interpret pedigree diagrams for dominant and recessive traits.",
+        "wider": [
+          "Investigate a real genetic condition (e.g. cystic fibrosis or haemochromatosis) using pedigree analysis — identify carriers and predict risk for offspring",
+          "Explore First Nations Australians' kinship systems as evidence of observed heredity patterns — what inheritance regularities do marriage laws reflect?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Mendelian prediction is the core quantitative demand of the descriptor. Students who cannot correctly assign alleles to gametes via Punnett squares — the most common failure point — produce incorrect ratios throughout and cannot extend to sex-linked patterns in N6 or pedigree interpretation. Punnett square errors typically stem from unresolved meiosis logic from N3.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Pedigree analysis across multiple generations, real genetic conditions, and First Nations kinship structures are all genuine width contexts that apply the same Mendelian model without acceleration. The elaborations explicitly name pedigree diagrams and multigenerational families as expected contexts.",
         "response_modes": [
           {
             "mode": "consolidation",
-            "reason": "Punnett square construction requires precision — incorrect allele assignment or ratio calculation produces systematic errors. Students need deliberate practice with varied cross types (dominant/recessive, sex-linked) to build accurate and reliable prediction. This is a precision-required skill where practice is the primary lever.",
-            "flags": [
-              "hinge"
-            ]
+            "reason": "Punnett square construction requires procedural precision — correct allele assignment, correct gamete formation from each parent, correct offspring reading. Errors are systematic and students need structured practice with self-correction before moving to sex-linked patterns.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Pedigree diagrams, real genetic conditions, and kinship structure examples each apply the Mendelian model to a different representational and cultural context. This is genuine width — the model is the same, the context and representation vary.",
+            "flags": ["width_opportunity"]
           }
         ],
+        "success_criteria": [
+          "Constructs a Punnett square for a monohybrid cross and states correct genotype and phenotype ratios",
+          "Uses correct allele notation and correctly forms gametes from each parental genotype",
+          "Interprets a pedigree diagram to identify phenotypes and infer genotypes for dominant/recessive traits"
+        ],
+        "related_standards": ["AC9S9U02"]
+      },
+      {
+        "id": 5,
+        "label": "Fertilisation and heredity — connecting meiosis to offspring variation",
+        "progression_checkpoint": "Students can explain how meiosis and fertilisation together determine heredity and account for variation among siblings from the same parents.",
+        "minimum_width": "Students explain that fertilisation combines one gamete from each parent to restore the full chromosome number, and that random gamete combination produces variation among offspring.",
+        "typical_width": "Students trace the full pathway from parent genotypes → meiosis → gametes → fertilisation → offspring genotypes; explain why siblings from the same parents differ genetically; connect Punnett square probabilities to the randomness of fertilisation; explain that genetic information from both parents is represented in all offspring.",
+        "wider": [
+          "Investigate how genetic information from both parents is passed to offspring and analyse how this increases species variation compared to asexual reproduction",
+          "Explore environmental and other factors that cause mutations and explain how mutations introduce new variation not explained by Mendelian inheritance alone"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
         "width_opportunity": false,
         "width_opportunity_reason": null,
-        "success_criteria": [
-          "Completes a Punnett square correctly and predicts the phenotype ratio for a monohybrid cross",
-          "Identifies an inheritance pattern from a pedigree diagram"
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates N1 (DNA/chromosomes), N3 (meiosis) and N4 (Mendelian ratios) into a coherent account of heredity. Students who can construct a Punnett square but cannot explain why the probabilities hold need this connective node before sex-linked inheritance is introduced."
+          }
         ],
-        "related_standards": [
-          "AC9S10H01",
-          "AC9S10H04"
-        ]
+        "success_criteria": [
+          "Traces the pathway from parent genotypes through meiosis, gametes and fertilisation to offspring genotype",
+          "Explains why siblings from the same parents can have different genotypes and phenotypes",
+          "Connects Punnett square probability ratios to the random combination of gametes at fertilisation"
+        ],
+        "related_standards": ["AC9S9U02"]
+      },
+      {
+        "id": 6,
+        "label": "Sex-linked inheritance",
+        "progression_checkpoint": "Students can explain sex determination by sex chromosomes and predict genotype and phenotype ratios for sex-linked traits using Punnett squares.",
+        "minimum_width": "Students explain that sex is determined by X and Y chromosomes and correctly apply a Punnett square to predict phenotype ratios for one sex-linked trait.",
+        "typical_width": "Students explain why sex-linked conditions (e.g. colour blindness, haemophilia) affect males and females differently; apply X-linked notation correctly; predict carrier status in females; interpret pedigrees for X-linked traits; explain why Y-linked traits pass only father to son.",
+        "wider": [
+          "Analyse a pedigree for an X-linked condition across three generations — identify carriers, predict risk for specific family members",
+          "Compare rates of sex-linked condition expression in males vs females using probability analysis — why are males more frequently affected by X-linked recessive conditions?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Sex-linked pedigree analysis across generations is a rich and well-elaborated application context. The asymmetry between male and female expression of X-linked conditions is genuinely counterintuitive and rewards careful investigation without introducing new content beyond the year band.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Sex-linked inheritance requires students to adapt the Punnett square notation they established in N4 — alleles are now carried on chromosomes of different sizes, and males have only one copy of X-linked genes. The logic extension from N4 must be made explicit, not assumed."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Multi-generational pedigrees for X-linked conditions (haemophilia, colour blindness) provide genuine width — students apply the sex-linked model to varied family structures and predict carrier and affected status. This is the elaboration's explicit expectation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains that sex is determined by the X and Y chromosome pair",
+          "Uses correct X-linked allele notation in a Punnett square and predicts phenotype ratios for males and females",
+          "Identifies why X-linked recessive conditions are more frequently expressed in males than females"
+        ],
+        "related_standards": ["AC9S9U02"]
       }
     ]
   }

@@ -1,0 +1,93 @@
+{
+  "year_level": "1-2",
+  "subject": "Languages — Background Language Learner",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9LCH2C02",
+    "title": "Collaborate in play-based activities",
+    "description": "collaborate with others in a range of play-based activities using modelled expressions and visual and spoken cues",
+    "strand": "Communicating — Interacting",
+    "mode": "B",
+    "prior_knowledge": "Students can interact in classroom routines and personal introductions using familiar formulaic expressions (AC9LCH2C01). They can share personal information and respond to routine classroom language. They have not yet sustained collaborative activity using the target language — taking turns, giving instructions, leading games, or working with peers toward a shared goal in the target language.",
+    "progression_endpoint": "Students collaborate with others across a range of play-based activities, using modelled expressions, visual and spoken cues to participate, take turns, give instructions and work toward shared outcomes.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Participating in songs, rhymes and structured language play",
+        "progression_checkpoint": "Students can participate in songs, rhymes, chants and structured language games that use repetitive language and physical actions.",
+        "minimum_width": "Participate actively in at least two songs, rhymes or structured games, demonstrating understanding of meaning through appropriate actions or responses.",
+        "typical_width": "Participate in singing songs, reciting rhymes and chants with repetitive language and physical actions; play memory and matching games using target language words; respond with appropriate actions or words to game instructions and prompts.",
+        "wider": [
+          "Lead a song, rhyme or chant for the class or small group, demonstrating understanding of both the language and the associated actions",
+          "Create a new verse or variation on a familiar song or chant using known vocabulary"
+        ],
+        "hinge": true,
+        "hinge_reason": "Participation in structured language play is the entry condition for collaborative activity. Students who cannot engage with repetitive, scaffolded language routines cannot take on the more open collaborative roles — turn-taking, instruction-giving, role-play leadership — that the subsequent nodes require.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Language play requires a growing repertoire of songs, rhymes, chants and games. Repeated encounters with varied texts build the language memory and confidence that students need before they can participate flexibly rather than only following along.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Participates actively in at least two songs, rhymes or structured games, demonstrating meaning through action or response",
+          "Can follow along with at least one familiar text without visual prompt"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Taking turns, giving instructions and leading activities",
+        "progression_checkpoint": "Students can take turns in games and collaborative activities, give simple instructions in the target language, and take on a leading role in familiar activities.",
+        "minimum_width": "Take a turn leading or directing at least one game or activity, giving at least one instruction or prompt in the target language.",
+        "typical_width": "Participate in games and activities that require taking turns, making choices, swapping items or following instructions; take turns leading games or activities; give instructions in the target language using modelled forms; respond appropriately to peers' instructions.",
+        "wider": [
+          "Take the role of teacher or instructor in a physical activity — giving a sequence of instructions to the group and responding to peers' attempts",
+          "Design and explain the rules of a simple new game using target language instruction forms, then lead a small group through it"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Turn-taking and instruction-giving skills transfer across game types — physical games, board games, word games, role-play. Varied activity contexts ensure students build flexible collaborative language use rather than performance in one rehearsed scenario.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Leadership roles in games and activities create authentic conditions for target language production. Width investment here builds agency and confidence — students are using the language to organise and direct others, which is qualitatively different from responding to teacher-led prompts.",
+        "success_criteria": [
+          "Takes a turn leading or directing an activity, giving at least one instruction in the target language",
+          "Responds correctly to at least one instruction given by a peer in the target language"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Collaborating in role-play and shared creative activities",
+        "progression_checkpoint": "Students can collaborate in play-based role-play and creative activities, using modelled expressions and props to communicate within a shared scenario.",
+        "minimum_width": "Participate in at least one role-play or shared creative activity, using at least two modelled expressions appropriate to the scenario.",
+        "typical_width": "Participate in role-play scenarios — using props, dress-up and costumes — in contexts such as restaurants, shops, or familiar community settings; use pictures, prompts and visual cues to support participation; collaborate to identify and label objects or places in shared tasks.",
+        "wider": [
+          "Extend a familiar role-play scenario with additional turns or a new episode, introducing a complication and resolution",
+          "Work collaboratively to create a labelled word wall or map — deciding on content, dividing tasks, and combining contributions into a shared product"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Collaborative role-play integrates structured language play (node 1) and turn-taking skills (node 2) into open-ended creative activity. The teaching investment is in setting up meaningful scenarios with real communicative purpose — not only rehearsed scripts, but genuine negotiation within the play context."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses at least two modelled expressions appropriately within a role-play scenario",
+          "Maintains a collaborative role for the duration of the activity without defaulting to English"
+        ]
+      }
+    ]
+  }
+}

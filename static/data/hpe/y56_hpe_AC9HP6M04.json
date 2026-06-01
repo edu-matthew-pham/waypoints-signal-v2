@@ -1,0 +1,74 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M04",
+    "title": "Body's reaction to physical activity intensity",
+    "description": "participate in physical activities to investigate the body's reaction to different levels of intensity",
+    "strand": "Making active choices",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students participated in physical activities to explore how their body feels and described how regular physical activity helps the body stay healthy (AC9HP4M04). They can describe subjective body sensations during activity but have not yet categorised intensity levels or measured physiological responses.",
+    "progression_endpoint": "Students participate in physical activities of varying intensity and investigate the body's physiological and practical reactions, categorising activities by intensity level.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Identifying and categorising intensity levels",
+        "description": "Distinguish between low, moderate and high intensity activity by observable and measurable body responses — moving from subjective feeling to categorisable evidence.",
+        "minimum_width": "Participate in activities of at least two different intensities; measure or observe at least one body response (e.g. breathing rate, heart rate) and use it to categorise each activity.",
+        "success_criteria": [
+          "Can distinguish between at least two intensity categories using a measurable or observable body response",
+          "Uses evidence (measurement or observation) rather than subjective feeling alone to assign a category"
+        ],
+        "hinge": true,
+        "hinge_reason": "The category labels (low/moderate/high) are the conceptual scaffold for everything downstream — warm-up/cool-down design and goal-setting both require students to think in intensity terms. Students who only use subjective feeling cannot design or evaluate intensity-based routines.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Structured data collection: record at least one measure at each intensity level. Discuss how body responses change with intensity. Build the low/moderate/high schema explicitly before applying it.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Connecting intensity to warm-up and cool-down",
+        "description": "Design or evaluate warm-up and cool-down routines, using knowledge of intensity levels and body responses to explain why structured warm-ups and cool-downs matter.",
+        "minimum_width": "Participate in or evaluate a warm-up or cool-down routine and explain how it relates to managing the body's response to changing intensity levels.",
+        "success_criteria": [
+          "Explains the purpose of warm-up or cool-down in terms of intensity transition (not just 'to prevent injury' as a rehearsed phrase)",
+          "Can describe at least one specific feature of the routine that addresses the body's response"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Warm-up and cool-down design can be applied across different activity types (cardiovascular, strength, flexibility-focused, activity-specific) — each requiring different intensity management rationale.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Design warm-ups/cool-downs for different activity types. A warm-up before gymnastics differs from one before a running activity. The design task surfaces different intensity management thinking across contexts.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Designing personal activity for health and fitness goals",
+        "description": "Apply understanding of intensity to design or plan physical activity that supports a personal health or fitness goal — connecting intensity knowledge to purposeful activity choice.",
+        "minimum_width": "Describe or model a physical activity plan that uses intensity variation to support a named health or fitness goal.",
+        "success_criteria": [
+          "Names a specific goal (not just 'get fitter')",
+          "Justifies the intensity choices in the plan in terms of body response and goal"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This integrates investigation of body responses, intensity categories, and warm-up/cool-down knowledge into purposeful activity planning — the full descriptor demand."
+          }
+        ]
+      }
+    ]
+  }
+}

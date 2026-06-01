@@ -1,0 +1,102 @@
+{
+  "year_level": "1-2",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP2M02",
+    "title": "Moving and manipulating objects",
+    "description": "investigate different ways of moving their body, and manipulating objects and space, and draw conclusions about their effectiveness",
+    "strand": "Moving our bodies",
+    "mode": "B",
+    "prior_knowledge": "Students have experimented with different ways of moving their body safely and manipulating objects and space (AC9HPFM02). They can practise fundamental movement skills in varied situations (AC9HP2M01).",
+    "progression_endpoint": "Students investigate different ways of moving their body, and manipulating objects and space, and draw conclusions about their effectiveness.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Movement variation — speed, direction, level",
+        "progression_checkpoint": "Students can demonstrate changes in speed, direction and level as they use locomotor and non-locomotor skills.",
+        "minimum_width": "In a movement task, deliberately change at least two of: speed, direction, or level, and describe what changed.",
+        "typical_width": "Demonstrate intentional changes in speed, direction and level across locomotor and non-locomotor movement sequences; describe how each change affects movement.",
+        "wider": [
+          "Use stimuli such as music, rhythm or words to drive changes in speed and level, and compare which stimuli produce the greatest movement variation",
+          "Participate in movement activities that require safe navigation of different outdoor spaces, comparing which movement patterns are most efficient",
+          "Create a short movement sequence that deliberately uses all three variables (speed, direction, level) and reflect on which combinations felt most effective"
+        ],
+        "hinge": true,
+        "hinge_reason": "The ability to deliberately vary movement parameters (speed, direction, level) is foundational to the investigative intent of this descriptor. Students who cannot vary their movement purposefully will not be able to compare effectiveness or draw meaningful conclusions (Node 3).",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students need repeated opportunities to practise deliberate variation — first one variable at a time, then in combination. Rushing to comparison before variation is controlled produces weak conclusions.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Demonstrates a deliberate change in at least two movement variables (speed, direction, or level)",
+          "Can describe what they changed and how it felt different"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Investigating object and space manipulation",
+        "progression_checkpoint": "Students can use different types of equipment and explore different ways of manipulating objects and space to solve a movement challenge or create a game.",
+        "minimum_width": "Use at least two types of equipment to attempt a movement challenge; describe how using different equipment changed what they could do.",
+        "typical_width": "Use a range of equipment to create an original game or solve a movement challenge; compare how different equipment choices affected the movement possibilities and game outcomes.",
+        "wider": [
+          "Invent a new game based on rules and equipment from a familiar game and evaluate whether the rules and equipment provide an interesting and challenging game",
+          "Use stimuli such as equipment, rhythm and music to create a simple playground game and assess which game they enjoy most",
+          "Compare moving around different outdoor spaces and identify which types of movement are most appropriate for safe and efficient travel through each space"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need experience with a range of equipment types before they can genuinely compare effectiveness. Build a catalogue of equipment-movement combinations first, then move to evaluation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Equipment variety offers genuine width — different equipment types (bats, hoops, ropes, beanbags, balls of different sizes) create qualitatively different manipulation challenges. Students who have investigated a wider range of equipment develop broader understanding of how objects and space interact with movement.",
+        "success_criteria": [
+          "Uses at least two types of equipment in a movement challenge or game context",
+          "Describes how the equipment affected what they could do"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Drawing conclusions about movement effectiveness",
+        "progression_checkpoint": "Students can investigate different movement approaches and draw conclusions about which are most effective for a given purpose.",
+        "minimum_width": "After trying at least two movement approaches (different equipment, speed, space use or game rules), identify which was more effective and give one reason.",
+        "typical_width": "Across multiple movement investigations, compare different approaches and draw conclusions about effectiveness against a defined purpose or set of criteria; explain reasoning.",
+        "wider": [
+          "Evaluate a self-created game against a set of criteria (e.g. inclusive, challenging, enjoyable) and propose changes",
+          "Compare movement approaches across indoor and outdoor settings and draw conclusions about which settings favour which movement types",
+          "Use peer feedback to evaluate the effectiveness of a movement approach and revise conclusions based on additional evidence"
+        ],
+        "hinge": true,
+        "hinge_reason": "The ability to draw conclusions about effectiveness — not just describe what was done — is the descriptor's primary inquiry demand. Thin treatment here leaves students able to perform movement tasks but unable to evaluate them, which is the prerequisite capability for the investigative movement standards in Years 3–4.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Provide a simple evaluative scaffold (e.g. 'I tried __ and __; __ was more effective because __') to make the conclusion-drawing move explicit. Without structure, young students often describe what happened rather than evaluating it.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Conclusions drawn about only one movement context are thin. Vary the contexts (games, sequences, outdoor settings) so students practise drawing conclusions across different types of movement investigations.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The conclusion-drawing move becomes richer when students have a wider range of investigations to draw on. Students who have compared effectiveness across game design, equipment choice, and spatial contexts develop more transferable evaluative reasoning than those who have practised in one setting only.",
+        "success_criteria": [
+          "Identifies which of two movement approaches was more effective for a given purpose",
+          "Gives at least one reason for their conclusion linked to what they observed or experienced"
+        ]
+      }
+    ]
+  }
+}

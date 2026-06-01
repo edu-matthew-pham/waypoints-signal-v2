@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10M02",
+    "title": "Create movement strategies",
+    "description": "create and refine movement strategies to achieve successful outcomes across a range of challenging movement situations",
+    "strand": "Moving our bodies",
+    "mode": "B",
+    "prior_knowledge": "Students can analyse, adapt and refine movement skills in challenging situations to enhance performance (AC9HP10M01), and have previously designed and demonstrated how movement strategies can be manipulated to improve outcomes (AC9HP8M02). At Y9-10 the focus shifts to creating original strategies rather than adapting existing ones.",
+    "progression_endpoint": "Students create and refine movement strategies to achieve successful outcomes across challenging movement situations, using self-developed evaluation criteria to assess and adapt strategies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Creating movement strategies",
+        "progression_checkpoint": "Students can create original movement strategies for specific challenging movement situations",
+        "minimum_width": "Create one movement strategy for a specific game or movement challenge; explain the intended outcome and the reasoning behind the strategic choices made",
+        "typical_width": "Create movement strategies that respond to specific situational demands; perform specialised movement skills in situations where rules or conditions have been modified to vary complexity; propose and implement alternative responses to movement situations based on previous performance outcomes",
+        "wider": [
+          "Create a movement strategy for a modified or unfamiliar game — evaluate how well the strategy accounts for the specific constraints and opportunities of the modified rules",
+          "Develop a strategic response to a movement situation involving different equipment types — create and compare strategies optimised for each equipment variation",
+          "Create a strategy for a collaborative movement challenge (e.g. outdoor adventure activity) that accounts for varying capability levels within the group"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot create an original strategy with explicit reasoning cannot refine it in Node 2 — refinement requires having a strategy with an intended outcome that can be evaluated against results.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly perform movement strategies without creating them explicitly — acting intuitively without articulating the strategic logic. The investment here is in making the creation process explicit: what is the situation, what outcome am I trying to achieve, what strategic choices does that require, and why. Articulating the creation logic is prerequisite for the evaluation and refinement work in Node 2.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Creates a strategy with a named intended outcome",
+          "Explains the reasoning behind at least two strategic choices — not just describes what the strategy involves",
+          "Strategy is appropriate to the specific movement situation — not generic"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Refining strategies through evaluation",
+        "progression_checkpoint": "Students can evaluate the effectiveness of movement strategies using self-developed criteria and refine them in response",
+        "minimum_width": "Evaluate one movement strategy against at least one self-developed criterion; explain what the evaluation revealed and what refinement was made",
+        "typical_width": "Evaluate the effectiveness of a range of strategies in game situations using personally developed criteria; adapt and refine strategies based on evaluation; suggest how refined strategies can be applied to improve performance across different game or movement situations",
+        "wider": [
+          "Develop a multi-criteria evaluation framework for movement strategy effectiveness; apply it across two or more different game situations and compare results",
+          "Review performance data from digital tools (video, timing) to evaluate strategy effectiveness — refine strategy based on data rather than only subjective impression",
+          "Evaluate a peer's strategy using their own stated criteria — provide specific feedback on the gap between intended and actual outcomes, and collaboratively refine the strategy"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Strategy creation and refinement improves through application across multiple movement situations and evaluation cycles. Students need to develop a repertoire of strategies across different game types and conditions — and a repertoire of evaluation approaches — rather than perfecting a single strategy in one context.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multi-criteria framework development, data-driven evaluation, and collaborative peer strategy refinement each add a different evaluation approach. Students who engage the wider tier develop the ability to evaluate strategies rigorously rather than impressionistically — a capability that transfers across movement contexts and to designing activities in later life.",
+        "success_criteria": [
+          "States at least one self-developed criterion for evaluating the strategy",
+          "Evaluates whether the strategy achieved its intended outcome — with specific reference to what happened",
+          "Makes at least one concrete refinement connected to the evaluation finding"
+        ]
+      }
+    ]
+  }
+}

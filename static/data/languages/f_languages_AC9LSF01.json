@@ -1,0 +1,68 @@
+{
+  "year_level": "F",
+  "subject": "Languages",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9LSF01",
+    "title": "Recognise and communicate meaning",
+    "description": "with support, recognise and communicate meaning in the target language",
+    "strand": "Communicating — Interacting",
+    "mode": "B",
+    "prior_knowledge": "Students have no prior formal experience with the target language. They bring their first language and may have incidental exposure to target language words or phrases from media, community or family. No curriculum-certified prior knowledge in the target language.",
+    "progression_endpoint": "Students recognise meaning in familiar spoken and visual target language input with support, and communicate using modelled words, gestures and formulaic phrases.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising meaning in modelled input",
+        "progression_checkpoint": "Students can recognise meaning in familiar target language words, phrases and routines when supported by gesture, visual cues, tone and context.",
+        "minimum_width": "Respond correctly to at least three familiar target language words or routine exchanges when supported by gesture, visual cues or context.",
+        "typical_width": "Respond to a range of modelled greetings, classroom routines and simple naming vocabulary with appropriate verbal or non-verbal responses; use context, gesture and tone as support to identify meaning in familiar input.",
+        "wider": [
+          "Identify meaning in target language words presented without visual support — relying on sound and context alone for familiar high-frequency items",
+          "Notice when the same meaning is expressed differently in the target language and English — identify at least one pair and describe the difference"
+        ],
+        "hinge": true,
+        "hinge_reason": "Recognising meaning is the prerequisite for all communication in the target language. Students who cannot link target language input to meaning — even with support — cannot participate in communicative tasks in this or any subsequent band.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Recognition in a new language is built by repeated exposure to a small bank of high-frequency words, phrases and routines across varied contexts. Songs, chants, games and routines provide the repeated exposure needed to build initial recognition.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Responds correctly to at least three familiar target language words or routine exchanges when supported by gesture, visual cues or context",
+          "Demonstrates understanding through an appropriate response — verbal, physical, or by selecting or pointing to a correct image or object"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Communicating using modelled words and formulaic phrases",
+        "progression_checkpoint": "Students can communicate meaning in the target language using modelled words, gestures and familiar formulaic phrases across routine classroom and personal contexts.",
+        "minimum_width": "Produce at least three target language expressions (e.g. a greeting, a personal expression, a reaction) using modelled language with support.",
+        "typical_width": "Use a range of modelled greetings, personal expressions, classroom language and simple formulaic phrases in familiar routine contexts; incorporate appropriate gesture and body language; use target language exclamations and expressions for feelings, likes and special occasions.",
+        "wider": [
+          "Use target language phrases spontaneously in a familiar routine without teacher prompting — e.g. initiating a greeting or responding to a peer",
+          "Use target language to express a genuine reaction or preference in an unscripted moment — demonstrating that modelled language has transferred beyond the lesson context"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Production of modelled phrases requires repeated practice in supported contexts before students can use them reliably. Songs, chants, role-plays and daily routines build the automaticity needed for confident early production.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First genuine communicative production in the target language establishes the habit of using the language for real purposes. Width investment here builds the communicative confidence that sustains engagement throughout the sequence.",
+        "success_criteria": [
+          "Produces at least three familiar target language expressions using modelled language — including at least one greeting and one personal expression",
+          "Uses gesture or body language appropriately alongside target language production in at least one instance"
+        ]
+      }
+    ]
+  }
+}

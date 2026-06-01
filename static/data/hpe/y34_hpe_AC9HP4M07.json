@@ -1,0 +1,100 @@
+{
+  "year_level": "3-4",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP4M07",
+    "title": "Creative movement design",
+    "description": "apply creative thinking when designing movement sequences and solving movement problems",
+    "strand": "Learning through movement",
+    "mode": "B",
+    "prior_knowledge": "Students have co-constructed and applied rules to promote fair play (AC9HP2M04) and applied strategies to work collaboratively in physical activities (AC9HP2M05). They have experience working with others in movement contexts but have not yet applied creative thinking explicitly to design and problem-solving in movement.",
+    "progression_endpoint": "Students apply creative thinking when designing movement sequences and solving movement problems.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Transferring movement skills to solve challenges",
+        "progression_checkpoint": "Students can transfer and apply fundamental movement skills to solve movement challenges in different contexts.",
+        "minimum_width": "Apply at least one movement skill from a familiar context to solve a movement challenge in an unfamiliar context, and explain the transfer.",
+        "typical_width": "Transfer movement skills across a range of contexts (field, net/court, outdoor, gymnastics) to solve varied movement challenges, explaining the rationale for each transfer.",
+        "wider": [
+          "Design a movement challenge for peers that requires them to transfer a named skill to a new context, and evaluate whether the transfer was successful.",
+          "Investigate how athletes transfer movement skills across different sports (e.g. a gymnast's body control applied to water polo) and explore examples from their own experience."
+        ],
+        "hinge": true,
+        "hinge_reason": "Skill transfer is the cognitive basis of creative movement thinking — students who can only apply skills in the context they learned them cannot engage in the design and problem-solving that the rest of this standard demands.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Transfer requires students to see the structural similarity between contexts ('what's the same about this problem and one I've solved before?'). A think-aloud or 'what do I already know about this?' prompt scaffold helps surface the prior knowledge needed for transfer.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a movement skill they know and describes a new context where it could be applied.",
+          "Demonstrates the skill in the new context.",
+          "Explains what made the transfer work or what they needed to adjust."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Using prior knowledge in outdoor and novel activity",
+        "progression_checkpoint": "Students can draw on prior knowledge from other physical activity experiences to solve challenges faced when participating in outdoor activities.",
+        "minimum_width": "Identify and use knowledge from one prior physical activity experience to address a challenge in an outdoor activity setting.",
+        "typical_width": "Systematically draw on prior movement knowledge to approach outdoor activity challenges, reflecting on which prior experiences were most useful and why.",
+        "wider": [
+          "Document prior movement knowledge in a 'skills I can use' record and actively reference it when approaching a new outdoor challenge.",
+          "Explore how Indigenous Australian communities pass on physical skills and knowledge through traditional outdoor activities — and discuss what this suggests about learning from experience."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students who have a broader physical activity repertoire have more prior knowledge to draw on. Widening experience across activity types — particularly outdoor and adventure contexts — directly increases the resource pool for creative problem-solving."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one prior physical activity experience that gave them useful knowledge for a new challenge.",
+          "Applies that knowledge in a new outdoor activity context.",
+          "Explains what they drew on and whether it was useful."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Collaborative problem-solving in movement",
+        "progression_checkpoint": "Students can develop questions and trial answers collaboratively to solve movement challenges.",
+        "minimum_width": "Work with a partner or small group to develop and trial at least one solution to a movement challenge (e.g. a partner balance or game tactic), and reflect on whether it worked.",
+        "typical_width": "Collaboratively design and trial multiple solutions to varied movement challenges across partner, small group and team contexts; reflect on the process of group problem-solving and what made it effective.",
+        "wider": [
+          "Lead a small group through a structured problem-solving process for a movement challenge, using a plan-try-reflect cycle, and evaluate the group's creative thinking.",
+          "Compare how different groups solved the same movement challenge, examining the variety of solutions generated and what this reveals about creative thinking in movement."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Collaborative problem-solving integrates creative thinking with teamwork and movement skills. The teaching focus should be on the problem-solving process (question → trial → reflect) as much as on the movement outcome."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Movement problem types vary substantially — partner balance challenges, game tactics, obstacle courses and outdoor activities each have distinct problem structures. Exposure across types builds more versatile creative problem-solving capability.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The variety of movement problem contexts (partner, team, game, outdoor, sequence design) offers genuinely distinct problem-solving experiences — wider students who encounter multiple problem types develop more flexible creative movement thinking.",
+        "success_criteria": [
+          "Works with others to generate at least one solution to a movement challenge.",
+          "Trials the solution and observes what happens.",
+          "Reflects on whether the solution worked and suggests one adjustment for next time."
+        ]
+      }
+    ]
+  }
+}

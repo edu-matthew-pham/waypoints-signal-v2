@@ -1,0 +1,74 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6P09",
+    "title": "Health information sources and application",
+    "description": "investigate different sources and types of health information and how these apply to their own and others' health choices",
+    "strand": "Making healthy and safe choices",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students interpreted the nature and intention of health information and messages and reflected on how they influence personal decisions (AC9HP4P09). They can interpret individual health messages. This descriptor adds investigation across source types, reliability evaluation, and application to real health choices.",
+    "progression_endpoint": "Students investigate different sources and types of health information, evaluate their reliability, and apply them to their own and others' health choices.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Mapping health information sources",
+        "description": "Identify the range of sources from which health information comes — family, friends, media, public identities, official health sources — and describe how each type of source can influence health choices.",
+        "minimum_width": "Identify at least three distinct types of health information sources and describe how each influences health choices.",
+        "success_criteria": [
+          "Sources are genuinely distinct types (not three social media platforms as three sources)",
+          "Can describe the influence mechanism — not just that the source exists"
+        ],
+        "hinge": true,
+        "hinge_reason": "Reliability evaluation (N2) depends on understanding the landscape of sources. Students who only have one or two types of sources cannot meaningfully evaluate relative reliability or make informed choices about which sources to apply to health decisions.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Source mapping activity: for a specific health topic, identify all the places students could find information. Categorise them by type and discuss how each type influences choices. Builds the source landscape before reliability judgements are introduced.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Evaluating reliability and accuracy",
+        "description": "Examine health information from different sources to identify which aspects can be verified as accurate and reliable — developing criteria for trustworthiness.",
+        "minimum_width": "Compare health information from at least two different source types on the same topic and explain which is more reliable and why.",
+        "success_criteria": [
+          "Reliability judgement is based on specific criteria (evidence base, purpose, expertise) — not just preference or familiarity",
+          "Can identify one feature of a source that makes it more or less reliable"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Health information evaluation contexts include nutritional information, physical activity recommendations, mental health advice, and online health content — each offering different reliability challenges and application scenarios.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Evaluate reliability across different health domains: nutritional information and labelling; physical activity recommendations (e.g. Australian 24-Hour Movement Guidelines); mental health and wellbeing advice. Different domains have different types of misinformation and different reliability markers.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Applying health information to choices",
+        "description": "Apply investigated and evaluated health information to specific health choices — their own and advising others — identifying trusted people for sharing health concerns.",
+        "minimum_width": "Use health information from a reliable source to inform a specific health choice or strategy, and describe how they would communicate a health concern to a trusted person.",
+        "success_criteria": [
+          "Application is specific — a named health choice informed by a named source",
+          "Communication of health concern is to a specific type of trusted person for a specific purpose"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integrates source investigation, reliability evaluation, and application to health choices — the full descriptor demand of investigating sources and applying them to health choices."
+          }
+        ]
+      }
+    ]
+  }
+}

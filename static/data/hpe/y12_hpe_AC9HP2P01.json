@@ -1,0 +1,101 @@
+{
+  "year_level": "1-2",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP2P01",
+    "title": "Personal qualities and identities",
+    "description": "describe their personal qualities and those of others, and explain how they contribute to developing identities",
+    "strand": "Identities and change",
+    "mode": "A",
+    "prior_knowledge": "Students have investigated who they are and the people in their world (AC9HPFP01). They can name people in their life and explore basic features of themselves and their communities.",
+    "progression_endpoint": "Students describe personal qualities and explain how they contribute to developing identities.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Identifying personal qualities",
+        "progression_checkpoint": "Students can describe their own personal qualities and those of others.",
+        "minimum_width": "Name and describe at least two of their own personal qualities and identify at least one quality in another person.",
+        "typical_width": "Describe a range of personal qualities in themselves and others, including qualities that contribute to positive relationships and activities; connect qualities observed in others to their own experience.",
+        "wider": [
+          "Describe personal qualities of characters in stories and compare them to their own qualities",
+          "Explore how different communities and cultural groups may describe and value personal qualities differently",
+          "Identify personal qualities that help in physical activities and explain how those qualities contribute to a positive experience for everyone"
+        ],
+        "hinge": true,
+        "hinge_reason": "The ability to name and describe personal qualities is the necessary foundation for explaining how those qualities shape identity (Node 2). Students who can only vaguely characterise themselves or others cannot make the explanatory move the descriptor requires.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a working vocabulary of personal quality descriptors before they can meaningfully explain identity. Build a shared class vocabulary of qualities through stories, physical activities and discussion before moving to explanatory tasks.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names and describes at least two of their own personal qualities",
+          "Identifies at least one personal quality in another person"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Explaining how qualities contribute to identity",
+        "progression_checkpoint": "Students can explain how personal qualities contribute to developing identities.",
+        "minimum_width": "Explain how at least one personal quality contributes to their own identity or the identity of someone they know.",
+        "typical_width": "Explain how multiple personal qualities contribute to individual identities; discuss how different qualities shape how a person is known and how they see themselves.",
+        "wider": [
+          "Explore how belonging to First Nations Australian cultural groups contributes to identities and how cultural practices shape personal qualities",
+          "Examine examples from Australians of Asian heritage that recognise how family and friends contribute to identities",
+          "Describe personal achievements and explain how succeeding (or struggling) in physical activities influenced their personal identity"
+        ],
+        "hinge": true,
+        "hinge_reason": "The explanatory move — 'how qualities contribute to identity' — is the descriptor's primary demand and the conceptual foundation for examining group and community identity in Years 3–4. Thin treatment here (staying at description) means students carry forward only a surface understanding of identity.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Provide a simple causal scaffold: 'I am [quality] and this shapes my identity because...'. Without this structure, students tend to list qualities rather than explain their contribution.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Exploring identity through cultural belonging, achievement in physical activities, and stories provides genuinely different angles on how qualities shape identity — not just the same explanation in different words.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cultural identity contexts (First Nations belonging, Asian Australian community practices, physical achievement) offer qualitatively different lenses on identity formation. Students who have explored identity through multiple cultural and activity contexts develop richer and more nuanced understanding of what shapes who we are.",
+        "success_criteria": [
+          "Explains how at least one personal quality contributes to their own or another person's identity",
+          "Links a specific quality to a specific aspect of identity (e.g. how they are seen, how they feel about themselves)"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Group and community belonging and identity",
+        "progression_checkpoint": "Students can explain how personal and cultural identities are influenced by the groups and communities to which they belong.",
+        "minimum_width": "Identify at least one group or community they belong to and describe how membership influences their identity or personal qualities.",
+        "typical_width": "Explain how belonging to different groups and communities — including cultural, family and school communities — shapes personal and cultural identities; describe how this is seen in themselves and others.",
+        "wider": [
+          "Investigate how First Nations Australian cultural group membership shapes personal identity and contributes to community belonging",
+          "Compare how identity is expressed in different cultural communities represented in the class and identify shared qualities",
+          "Explore how participating in physical activities as part of a team or group shapes identity and personal qualities over time"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates personal quality description (Node 1) and individual identity explanation (Node 2) into the broader social and cultural dimension of identity. Tasks should connect who students are to the communities they belong to, not treat group identity as a separate concept."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one group or community they belong to",
+          "Describes how membership of that group influences their identity or qualities"
+        ]
+      }
+    ]
+  }
+}

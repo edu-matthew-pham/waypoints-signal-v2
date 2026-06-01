@@ -1,0 +1,100 @@
+{
+  "year_level": "3-4",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP4P09",
+    "title": "Health information and decisions",
+    "description": "interpret the nature and intention of health information and messages, and reflect on how they influence personal decisions and behaviours",
+    "strand": "Making healthy and safe choices",
+    "mode": "B",
+    "prior_knowledge": "Students have investigated health messages and practices in their community and discussed their purposes (AC9HP2P06). They can identify health messages and discuss purposes but have not yet interpreted the nature and intention of messages or reflected on how they influence decisions.",
+    "progression_endpoint": "Students interpret the nature and intention of health information and messages and reflect on how they influence personal decisions and behaviours.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Sources of health information and accuracy",
+        "progression_checkpoint": "Students can access different sources of health information and examine the accuracy of those sources.",
+        "minimum_width": "Identify at least two different sources of health information and examine one source to assess whether it appears accurate and trustworthy.",
+        "typical_width": "Access and compare health information from multiple sources (brochures, websites, TV, advertisements, food labels); examine the accuracy and trustworthiness of each; identify markers of reliable health information.",
+        "wider": [
+          "Investigate how advertising and commercial interests can bias health information — examining a food or health product advertisement and identifying what health claims are made and whether they are supported.",
+          "Compare health information about the same topic from two sources of different trustworthiness (e.g. a health authority website vs a social media post) and explain the difference."
+        ],
+        "hinge": true,
+        "hinge_reason": "Source evaluation is the prerequisite for interpreting health messages. Students who accept all sources uncritically cannot meaningfully interpret intention — they take messages at face value rather than as authored communications with specific purposes.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Source evaluation requires explicit criteria (who made this, why, what evidence do they use, what do they want me to do). A simple trustworthiness checklist used repeatedly across different sources builds the evaluative habit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two different sources of health information.",
+          "Applies at least one criterion for evaluating source accuracy or trustworthiness.",
+          "Explains why one source is more or less reliable than another."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Food and nutrition health messages",
+        "progression_checkpoint": "Students can examine health messages about food and nutrition from different sources and explore choices and behaviours conveyed.",
+        "minimum_width": "Identify at least one health message about food or nutrition from a source, and describe the choice or behaviour it is encouraging.",
+        "typical_width": "Examine food and nutrition health messages from multiple sources; compare the choices and behaviours promoted; discuss whether messages are aligned with evidence-based nutrition advice.",
+        "wider": [
+          "Audit the health messages present in a school canteen menu, supermarket shelf display or breakfast cereal packaging — identifying what behaviours are being promoted and who benefits.",
+          "Investigate nutritional information on food labels from a range of products and discuss what information is present, what is emphasised and what might be misleading."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Nutrition messages appear in very different contexts (advertising, food labelling, health promotion, school canteen) that serve different interests and have different effects. Exposure across contexts builds richer critical literacy."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a health message about food or nutrition from a specific source.",
+          "Describes the behaviour or choice the message promotes.",
+          "Discusses whether the message aligns with evidence-based nutrition advice."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Influence of health messages on decisions",
+        "progression_checkpoint": "Students can investigate the level of influence health messages from different sources may have on their health decisions.",
+        "minimum_width": "Reflect on one health decision they have made and identify at least one health message that influenced it.",
+        "typical_width": "Investigate how health messages from different sources (peer, media, family, advertising) influence a range of personal health decisions; reflect on how to make informed decisions that critically weigh these influences.",
+        "wider": [
+          "Develop a personal framework for evaluating health information before acting on it — identifying the questions they would ask and the sources they would trust.",
+          "Examine how a specific health campaign was designed to influence behaviour and evaluate its likely effectiveness for different audiences."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates source evaluation (node 1) and message interpretation (node 2) with personal decision-making. The teaching focus is the transfer from critical analysis of messages to students' own health decisions — bridging the two with personal reflection is essential."
+          },
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to move from 'this influenced me' to 'this influenced me, and here is whether that was appropriate'. A structured decision-making reflection format builds the metacognitive layer.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Students who develop personal frameworks for evaluating health messages — rather than just analysing specific cases — build genuinely transferable health literacy that applies across new situations encountered beyond the classroom.",
+        "success_criteria": [
+          "Identifies a health message that has influenced one of their health-related decisions.",
+          "Reflects on whether the message came from a trustworthy source.",
+          "Describes how they would evaluate a new health message before acting on it."
+        ]
+      }
+    ]
+  }
+}

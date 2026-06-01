@@ -1,0 +1,72 @@
+{
+  "year_level": "5-6",
+  "subject": "Languages",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9LS6U01",
+    "title": "Apply sound knowledge for fluency",
+    "description": "apply knowledge of combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency and rhythm to known words and phrases",
+    "strand": "Understanding — Systems of language",
+    "mode": "B",
+    "prior_knowledge": "Students can use sound patterns to predict spellings and produce correct intonation across sentence types (AC9LS4U01). They apply pronunciation in rehearsed contexts. They have not yet applied phonics to unknown words independently, worked with complex vowel combinations, or recognised regional variation.",
+    "progression_endpoint": "Students apply knowledge of sounds, syllables, pronunciation and intonation to develop fluency and rhythm — including complex vowel combinations, consonant conventions, stress marking and regional variation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Complex sound combinations and spelling conventions",
+        "progression_checkpoint": "Students can recognise and produce complex vowel combinations and apply consonant conventions, including stress-marking features, in familiar and unfamiliar vocabulary.",
+        "minimum_width": "Correctly produce at least three complex vowel combinations in familiar words; apply phonics to predict the pronunciation of at least two unfamiliar words.",
+        "typical_width": "Distinguish and produce complex vowel combinations; apply consonant-vowel combination rules; produce borrowed vocabulary using target language phonology; apply stress-marking conventions in own writing; use phonics knowledge to spell and pronounce unfamiliar words.",
+        "wider": [
+          "Compare the pronunciation of borrowed vocabulary in the target language and English — identify every sound that differs",
+          "Apply a phonological rule to a set of unfamiliar words — check predictions against a reference and identify which rules were most reliable"
+        ],
+        "hinge": true,
+        "hinge_reason": "Complex sound combination accuracy is the phonological foundation for reading and pronouncing unfamiliar vocabulary. Students who cannot apply these patterns must memorise every new word individually — severely limiting reading fluency and vocabulary acquisition.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Sound rule application requires repeated practice across varied word examples until automatic. Tongue twisters, reading aloud unfamiliar texts and spelling-from-sound tasks provide high-frequency practice.",
+            "flags": [
+              "hinge"
+            ]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly produces at least three complex vowel combinations in familiar words",
+          "Applies phonics to predict the pronunciation of at least two unfamiliar words"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Fluency, rhythm and regional variation",
+        "progression_checkpoint": "Students can apply pronunciation knowledge for fluency and rhythm — including in unfamiliar words — and recognise that the target language varies across regions.",
+        "minimum_width": "Read an unfamiliar short text aloud with intelligible fluency; identify at least one regional pronunciation variation in the target language.",
+        "typical_width": "Apply phonics to spell and pronounce unknown words; use stress conventions correctly in own writing; understand how pitch, stress and intonation assist meaning in unfamiliar contexts; develop fluency through tongue twisters; recognise regional variation in pronunciation.",
+        "wider": [
+          "Listen to target language speakers from two different regions — identify at least one pronunciation difference and explain what sounds are affected",
+          "Perform a tongue twister with accuracy, appropriate speed and natural rhythm — demonstrating genuine fluency beyond slow careful articulation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Fluency and regional awareness develops through exposure to varied target language speech contexts. Students who only hear one regional variety develop a narrow model of the target language.",
+            "flags": [
+              "width_opportunity"
+            ]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Regional pronunciation variation connects phonological awareness to cultural diversity. Students who understand that the target language sounds different across regions have a richer, more accurate model — and are better prepared for authentic encounters with diverse speakers.",
+        "success_criteria": [
+          "Reads an unfamiliar text aloud with pronunciation adequate for intelligibility",
+          "Identifies at least one regional pronunciation variation and can explain what differs"
+        ]
+      }
+    ]
+  }
+}

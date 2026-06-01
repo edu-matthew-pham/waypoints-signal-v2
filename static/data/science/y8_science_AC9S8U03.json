@@ -8,92 +8,173 @@
     "description": "investigate tectonic activity including the formation of geological features at divergent, convergent and transform plate boundaries and describe the scientific evidence for the theory of plate tectonics",
     "strand": "Earth and Space Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can describe properties and formation of sedimentary, igneous and metamorphic rocks and understand Earth's layered structure at a conceptual level (AC9S8U04 — same band). They have not yet examined plate boundary types, the geological features each produces, or the evidence base for the tectonic theory.",
-    "progression_endpoint": "Students describe geological features formed at divergent, convergent and transform plate boundaries, explain the forces driving plate movement, describe the scientific evidence that led to acceptance of plate tectonics over continental drift, and connect tectonic activity to hazard distribution and impacts on human populations.",
+    "prior_knowledge": "Students can describe observable properties of rocks and minerals (AC9S3U02) and explain how weathering, erosion, transportation and deposition change Earth's surface (AC9S5U02). Prior learning is entirely surface-level — there is no curriculum treatment of Earth's interior at any prior year level. Earth-Sun-Moon cycles (AC9S7U03) address celestial geometry, not geological interior. Students have no prior exposure to Earth's internal structure, plates, or tectonic processes.",
+    "progression_endpoint": "Students describe the formation of geological features at divergent, convergent and transform plate boundaries and explain the scientific evidence — including seafloor spreading, continental fit, fossil distribution and earthquake/volcanic patterns — that supports the theory of plate tectonics.",
     "nodes": [
       {
         "id": 1,
-        "label": "The theory of plate tectonics and its evidence base",
-        "progression_checkpoint": "Students can describe the theory of plate tectonics — that Earth's lithosphere is divided into moving plates — and identify at least three distinct lines of evidence that supported its acceptance over earlier continental drift hypotheses.",
-        "minimum_width": "Students describe the theory of plate tectonics and identify at least two lines of evidence that support it (e.g. continental fit, matching fossil records, mid-ocean ridge topography, earthquake and volcanic distribution).",
-        "typical_width": "Students trace the development of evidence from Wegener's continental drift hypothesis to the acceptance of plate tectonics, identifying how each new line of evidence (seafloor spreading, seismic data, paleomagnetism, ocean floor topography) strengthened the theory — including the role of Marie Tharp's Atlantic floor maps.",
+        "label": "Earth's internal structure — layers, states and the lithosphere",
+        "progression_checkpoint": "Students can describe Earth's layered internal structure, identify the state and composition of each layer, and explain that the lithosphere is the rigid outer layer.",
+        "minimum_width": "Students name Earth's main layers, state whether each is solid or liquid, and identify the lithosphere as the rigid outer layer.",
+        "typical_width": "Students describe crust (thin, solid, oceanic vs continental), mantle (mostly solid but flows slowly over geological time, convection occurs in upper mantle), outer core (liquid iron/nickel), inner core (solid); explain that temperature and pressure increase with depth; describe the lithosphere as crust plus rigid upper mantle; explain that Australia's ancient craton reflects a long history of tectonic stability.",
         "wider": [
-          "Construct a timeline of evidence that shows how the theory of plate tectonics was developed and accepted — examining why the initial continental drift hypothesis was rejected and what additional evidence was required",
-          "Research First Nations Australians' cultural accounts of earthquakes and volcanic events and explore how these long-term observational records contribute to understanding of tectonic history",
-          "Investigate how the extreme age and stability of the Australian craton relates to its plate tectonic history — examining why Australia experiences low tectonic activity compared to its neighbours"
+          "Investigate how we know about Earth's interior without direct observation — what does seismic wave behaviour reveal about layer boundaries and states?",
+          "Compare the relative thickness of the crust to Earth's radius using a scale model — why is the lithosphere described as like the skin of an apple?"
         ],
         "hinge": true,
-        "hinge_reason": "Students who treat plate tectonics as a given fact rather than as an evidence-based theory cannot evaluate the geological features in Node 2 as evidence of plate movement — they list boundary features without understanding why those features confirm the theory. The evidence-reasoning framework established here is also required for the hazard-to-science-response reasoning at Node 3.",
+        "hinge_reason": "The lithosphere concept is the prerequisite for the plate model in N2. Students who do not understand that there is a rigid outer layer sitting on a semi-fluid asthenosphere cannot grasp why plates can move independently, or why they behave as they do at boundaries in N3–N5.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students tend to treat plate tectonics as a given fact rather than as a theory that required accumulated evidence over decades to be accepted. The reasoning chain — initial hypothesis (continental fit) → rejected for lack of mechanism → new evidence types (seafloor spreading, seismics, paleomagnetism) → mechanism identified → theory accepted — is necessary to understand both the science content and the nature of scientific knowledge change (AC9S8H01).",
-            "flags": ["hinge", "width_opportunity"]
-          }
-        ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The evidence-development timeline and the story of Marie Tharp's contribution connect directly to AC9S8H01 (new evidence changes scientific knowledge) and AC9S8H02 (cultural perspectives influence science). First Nations geological knowledge provides a rich additional perspective on long-term observation of tectonic events.",
-        "success_criteria": [
-          "Describes the theory of plate tectonics in terms of lithospheric plates and their movement",
-          "Identifies at least three lines of evidence supporting the theory and explains what each contributes"
-        ],
-        "related_standards": ["AC9S8H01", "AC9S8H02"]
-      },
-      {
-        "id": 2,
-        "label": "Plate boundary types produce distinct geological features",
-        "progression_checkpoint": "Students can describe what happens at divergent, convergent and transform plate boundaries and identify the geological features characteristic of each boundary type.",
-        "minimum_width": "Students describe one geological feature produced at each of the three boundary types (divergent, convergent, transform) and explain the plate movement that produces it.",
-        "typical_width": "Students describe the geological features produced at each boundary type — mid-ocean ridges and rift valleys (divergent), mountains/volcanic arcs/ocean trenches (convergent), fault lines (transform) — and explain the plate movement responsible. Students distinguish between oceanic-oceanic, oceanic-continental and continental-continental convergence and the different features each produces.",
-        "wider": [
-          "Model interactions at different plate boundaries using physical materials or simulations — examining how the density difference between oceanic and continental crust determines which plate subducts",
-          "Investigate the relative significance of the driving forces of plate movement — slab pull, ridge push and mantle convection — and evaluate the evidence for each",
-          "Examine how the geography of the Asia-Pacific region reflects its position at active plate boundaries — connecting tectonic boundary types to specific regional geological features"
-        ],
-        "hinge": true,
-        "hinge_reason": "Boundary-type conflation — particularly applying subduction to all convergent boundaries regardless of crust type, or confusing divergent and transform features — produces systematic errors in Node 3 hazard distribution analysis. Students who cannot correctly attribute features to boundary types cannot explain why earthquakes and volcanoes are distributed where they are.",
-        "response_modes": [
-          {
-            "mode": "context_breadth",
-            "reason": "Students commonly conflate boundary types or apply 'subduction' to all boundaries. The three boundary types produce fundamentally different features via different mechanisms, and each type has sub-variants (convergent: oceanic-oceanic vs oceanic-continental vs continental-continental). Encountering multiple examples of each boundary type — with the features they produce — builds a more robust and accurate classification.",
+            "reason": "Students have no prior mental model of Earth's interior. The layered structure with varying states — particularly the mantle as solid yet able to flow over geological time — is counterintuitive. This node must build the interior model explicitly before any tectonic mechanism is introduced.",
             "flags": ["hinge"]
           }
         ],
+        "success_criteria": [
+          "Names Earth's main internal layers and describes the state (solid/liquid) of each",
+          "Explains that the lithosphere is the rigid outer layer (crust + upper mantle)",
+          "States that temperature and pressure increase with depth"
+        ],
+        "related_standards": ["AC9S5U02"]
+      },
+      {
+        "id": 2,
+        "label": "Tectonic plates and the driving mechanism",
+        "progression_checkpoint": "Students can explain that the lithosphere is divided into tectonic plates and describe mantle convection as the mechanism driving plate movement.",
+        "minimum_width": "Students state that the lithosphere is divided into moving plates and identify convection in the mantle as the driving mechanism.",
+        "typical_width": "Students describe plates as large rigid sections of lithosphere; explain that heat from Earth's core drives convection currents in the mantle; describe how convection creates slab pull and ridge push forces; explain that plates move at rates of centimetres per year (fingernail growth rate); describe the major plates; connect the extreme age and stability of the Australian craton to its position away from active plate boundaries.",
+        "wider": [
+          "Investigate the relative significance of slab pull, ridge push and mantle convection — which force dominates and what evidence supports this?",
+          "Research First Nations Australians' cultural accounts of earthquakes and volcanic events — what geological record do these accounts preserve?"
+        ],
+        "hinge": true,
+        "hinge_reason": "The plate-as-moving-unit concept is the structural prerequisite for all three boundary types. Students who do not understand that plates are distinct rigid units that move relative to each other cannot explain why different boundary types produce different features — the feature depends entirely on the direction of relative plate motion.",
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The plate model requires students to reconceptualise Earth's surface from a fixed landscape to a dynamic system of moving pieces. The convection mechanism must be established before boundary types — without a driving mechanism, plate movement appears arbitrary and boundary feature formation cannot be explained causally.",
+            "flags": ["hinge"]
+          }
+        ],
         "success_criteria": [
-          "Describes one geological feature produced at each of the three boundary types with the plate movement responsible",
-          "Distinguishes between at least two types of convergent boundary and the different features each produces"
-        ]
+          "Explains that the lithosphere is divided into tectonic plates that move",
+          "Describes mantle convection as the mechanism driving plate movement",
+          "States that plates move at rates of centimetres per year"
+        ],
+        "related_standards": ["AC9S5U02"]
       },
       {
         "id": 3,
-        "label": "Tectonic activity creates hazards and affects human populations",
-        "progression_checkpoint": "Students can explain how tectonic activity at plate boundaries produces earthquakes and volcanic events, describe the distribution of these hazards in relation to plate boundaries, and examine engineering and scientific responses that support communities near active boundaries.",
-        "minimum_width": "Students explain why earthquakes and volcanoes are concentrated at plate boundaries and describe at least one engineering or scientific response that reduces risk for communities near active boundaries.",
-        "typical_width": "Students examine patterns of earthquake and volcanic activity in relation to plate boundary types, evaluate the impact of tectonic events on human populations, and describe how scientific responses — improved prediction, early warning systems, earthquake-resistant building design — have reduced harm in countries near active boundaries.",
+        "label": "Divergent boundaries — plates moving apart",
+        "progression_checkpoint": "Students can describe the geological features formed where plates diverge and explain the process producing each.",
+        "minimum_width": "Students describe seafloor spreading and mid-ocean ridges as the result of diverging plates.",
+        "typical_width": "Students explain that diverging plates create tension in the crust; magma rises to fill the gap — forming new oceanic crust (seafloor spreading) and mid-ocean ridges; on continents, divergence produces rift valleys; explain that rock at mid-ocean ridges is youngest and age increases with distance from the ridge; describe volcanic activity along ridges.",
         "wider": [
-          "Investigate how seismic data is collected and shared between governments in the Asia-Pacific region and examine how this data is used for tsunami early warning systems — connecting tectonic science to international data sharing and policy (AC9S8H04)",
-          "Research how cultural building techniques (bamboo construction, traditional earthquake-resistant architecture) have influenced engineering solutions for earthquake-prone regions (AC9S8H02)",
-          "Examine how deep Earth imaging techniques (seismic tomography) have enabled identification of mineral, energy and water resources — connecting tectonic science to resource discovery and environmental considerations"
+          "Investigate Marie Tharp's topographic mapping of the Atlantic Ocean floor — how did her maps reveal the mid-ocean ridge system and what resistance did she face in getting her findings accepted?",
+          "Model divergent boundary interactions using physical materials — evaluate the model's accuracy and identify what it cannot show"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Each boundary type is most clearly understood through the plate movement direction → stress type → feature chain. Divergent = tension → crust thins → magma rises → new crust. Making this causal chain explicit for each type builds a transferable reasoning framework rather than a list of boundary features."
+          }
+        ],
+        "success_criteria": [
+          "Explains that diverging plates produce tension and allow magma to rise",
+          "Describes mid-ocean ridges and seafloor spreading as products of divergent boundaries",
+          "States that oceanic crust is youngest at ridges and ages with distance"
+        ],
+        "related_standards": ["AC9S5U02"]
+      },
+      {
+        "id": 4,
+        "label": "Convergent boundaries — plates colliding",
+        "progression_checkpoint": "Students can describe the geological features formed at convergent boundaries and distinguish ocean-continent from continent-continent convergence.",
+        "minimum_width": "Students describe subduction and explain one feature (trench or volcanic arc) that results from ocean-continent convergence.",
+        "typical_width": "Students explain ocean-continent convergence: denser oceanic plate subducts under continental → trench, volcanic arc, earthquakes; continent-continent convergence: neither subducts → folding and uplift → mountain ranges (Himalayas); explain why continental crust doesn't subduct (less dense); describe the Ring of Fire as a product of convergent boundaries around the Pacific; evaluate engineering solutions to tectonic hazards.",
+        "wider": [
+          "Investigate engineering solutions designed to reduce tectonic event impacts — what assumptions about plate forces do these solutions embed?",
+          "Analyse earthquake and volcanic activity distribution maps and identify which patterns correspond to convergent vs divergent boundaries"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Convergent boundaries are more complex than divergent — the outcome depends on the density of the colliding plates (oceanic vs continental). Students need the density distinction made explicit to explain why subduction occurs in ocean-continent but not continent-continent collisions."
+          }
+        ],
+        "success_criteria": [
+          "Describes subduction as the process at ocean-continent convergent boundaries",
+          "Explains the formation of ocean trenches and volcanic arcs at ocean-continent boundaries",
+          "Explains why continent-continent convergence produces mountain ranges rather than subduction"
+        ],
+        "related_standards": ["AC9S5U02"]
+      },
+      {
+        "id": 5,
+        "label": "Transform boundaries — plates sliding past each other",
+        "progression_checkpoint": "Students can describe transform boundaries, explain the geological features they produce, and explain why earthquakes are concentrated there.",
+        "minimum_width": "Students describe transform boundaries as plates sliding horizontally past each other and state that they produce earthquakes.",
+        "typical_width": "Students explain that plates grind horizontally past each other at transform boundaries; friction prevents smooth movement — stress builds and releases suddenly as earthquakes; describe strike-slip faults (e.g. San Andreas); explain that transform boundaries produce earthquakes but not volcanic activity; contrast with convergent and divergent in terms of feature type.",
+        "wider": [
+          "Compare the seismic hazard at transform, convergent and divergent boundaries — which type produces the most damaging earthquakes and why?",
+          "Investigate a specific transform fault (San Andreas, Alpine Fault NZ) and explain the geological history of the boundary"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Transform boundaries are structurally simpler than convergent but the friction-stress-release mechanism for earthquakes needs explicit explanation. Students commonly assume volcanoes occur at all plate boundaries — the contrast with convergent and divergent in terms of volcanic activity is important."
+          }
+        ],
+        "success_criteria": [
+          "Describes transform boundaries as plates sliding horizontally past each other",
+          "Explains why earthquakes occur at transform boundaries (stress build-up and release)",
+          "States that transform boundaries produce earthquakes but not volcanic activity"
+        ],
+        "related_standards": ["AC9S5U02"]
+      },
+      {
+        "id": 6,
+        "label": "Evidence for plate tectonics — multiple converging lines",
+        "progression_checkpoint": "Students can describe at least three independent lines of evidence supporting the theory of plate tectonics and explain what each demonstrates.",
+        "minimum_width": "Students describe two lines of evidence and explain what each demonstrates about plate movement or history.",
+        "typical_width": "Students explain: continental fit (jigsaw shapes, especially South America/Africa); matching fossil distributions across now-separated continents; matching geological formations across continental margins; seafloor age pattern — youngest at ridges, oldest at subduction zones; earthquake and volcanic activity concentrated at boundaries; construct a timeline of theory development including Marie Tharp's contribution; examine how geologist resistance to Wegener illustrates theory validation processes.",
+        "wider": [
+          "Construct a timeline showing how the evidence base accumulated and why the theory was initially resisted — what changed when seafloor data became available?",
+          "Research First Nations Australians' cultural accounts that record historical earthquake or volcanic events — what geological evidence do these accounts preserve?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The history of plate tectonics theory acceptance — Wegener's resistance, Tharp's contribution, seafloor mapping as the tipping point — is a rich scientific reasoning context explicitly named in the elaborations. Multiple evidence types and cultural knowledge records offer genuine investigative width.",
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Students often treat tectonic hazards as natural disasters without examining the role of science and engineering in managing risk. Varied regional contexts — Japan, Indonesia, New Zealand, the Pacific Ring of Fire — combined with examples of both prediction/engineering responses and their limitations, help students develop a more complete understanding of how tectonic science is applied in practice.",
+            "reason": "Each evidence type — continental fit, fossils, geology, seafloor age, seismic patterns — is a distinct investigative context contributing independent support for the same conclusion. Working across all types builds the 'multiple converging lines' understanding the descriptor's 'describe the scientific evidence' demand requires.",
             "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The seismic data sharing and tsunami warning direction (AC9S8H04) and the cultural building techniques direction (AC9S8H02) provide rich cross-strand connections. The resource discovery direction introduces a less obvious consequence of tectonic science that connects to mining and sustainability themes.",
         "success_criteria": [
-          "Explains why earthquakes and volcanoes are concentrated near plate boundaries using plate movement",
-          "Describes at least one scientific or engineering response that reduces risk for communities near active boundaries",
-          "Explains how scientific evidence is used to support communities living near active tectonic zones"
+          "Describes at least three distinct lines of evidence supporting plate tectonics",
+          "Explains what each evidence type demonstrates about plate movement or history",
+          "Identifies seafloor age patterns as particularly strong evidence for seafloor spreading"
         ],
-        "related_standards": ["AC9S8H01", "AC9S8H02", "AC9S8H03", "AC9S8H04"]
+        "related_standards": ["AC9S5U02", "AC9S3U02"]
       }
     ]
   }

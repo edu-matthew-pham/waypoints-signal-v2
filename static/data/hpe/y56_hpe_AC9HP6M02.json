@@ -1,0 +1,78 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M02",
+    "title": "Transfer movement strategies",
+    "description": "transfer familiar movement strategies to different movement situations",
+    "strand": "Moving our bodies",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students applied and adapted movement strategies to achieve movement outcomes (AC9HP4M02). They have experience identifying strategies in familiar activities and can adapt skills at a technical level. They have not yet explicitly analysed why a strategy transfers or evaluated transfer effectiveness.",
+    "progression_endpoint": "Students transfer familiar movement strategies to different movement situations and evaluate the effectiveness of the transfer.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Identifying transferable strategies",
+        "description": "Recognise that movement strategies (not just skills) can travel across different activities — identifying the underlying principle that makes a strategy transferable (e.g. defensive spacing, maintaining balance, creating separation from an opponent).",
+        "minimum_width": "Name at least one movement strategy from a familiar activity and describe the underlying principle that might make it work in a different activity.",
+        "success_criteria": [
+          "Can name a strategy (not just a skill) — e.g. 'press defence', 'zone defence', 'counterbalance', not just 'defend' or 'balance'",
+          "Can articulate why the strategy might transfer — the principle, not just the surface similarity"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who conflate strategy with skill will attempt to transfer movements rather than principles — this leads to unsuccessful and confused transfer attempts. Downstream nodes require students to explain and evaluate transfer; both demand the strategy/skill distinction.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Explicit discussion: 'What is the strategy? What problem does it solve? Could the same problem appear in a different game?' Separating 'what I do' from 'why it works' is the conceptual move this node depends on.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Attempting and demonstrating transfer",
+        "description": "Apply a strategy from one movement context in a different but related movement situation, demonstrating the transfer physically.",
+        "minimum_width": "Apply at least one movement strategy from a familiar activity in a new activity or game context, with a description of how the strategy was modified to fit the new situation.",
+        "success_criteria": [
+          "Applies the strategy in the new context (not just names it) — the physical execution is visible",
+          "Can describe at least one adjustment made to the strategy to fit the new context"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Transfer opportunities span invasion games, net/wall games, outdoor/natural environments, and performance-based movement — each requiring distinct adjustments to the same underlying strategy.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Provide transfer challenges across game categories (e.g. an invasion game strategy applied to a net game; a balance strategy from gymnastics applied to a natural terrain traversal). Each new context tests a different dimension of the strategy's transferability.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Evaluating transfer effectiveness",
+        "description": "Make judgements about the effectiveness of a transferred strategy against agreed criteria — deciding whether the transfer was successful, partially successful, or needed further modification.",
+        "minimum_width": "Evaluate whether a transferred strategy was effective using at least one agreed criterion, and explain what modifications would improve its effectiveness.",
+        "success_criteria": [
+          "References a specific criterion (not just 'it worked' or 'it didn't work')",
+          "Proposes at least one concrete modification that would improve the transfer"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Co-develop simple evaluation criteria with the class before trialling transfer. Return to criteria after practice to structure the evaluation. The criteria scaffold separates 'effective' from 'successful outcome' (a team can win without a transferred strategy being effective)."
+          },
+          {
+            "mode": "integration",
+            "reason": "This node integrates the full descriptor demand: students have transferred a strategy and now judge it. The evaluation feeds back into further adaptation cycles."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,66 +4,123 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH10K20",
-    "title": "Historical Interpretations and Debates in the Late 20th Century",
+    "title": "Historical Interpretations and Debates",
     "description": "different historical interpretations and debates during the second half of the 20th century",
-    "strand": "Knowledge and Understanding",
+    "strand": "History (Knowledge and Understanding)",
     "mode": "A",
-    "prior_knowledge": "Students have studied historical interpretations and debates about WWI and the interwar period at Year 9 level.",
-    "progression_endpoint": "Students discuss significant historical interpretations and debates from the second half of the 20th century, including First Nations cultural assertiveness, global rights movements, extremism, nuclear energy, and climate change.",
+    "prior_knowledge": "Students have examined historical interpretation and debate throughout the unit — in commemoration (K06), civil rights (K10–K11), migration (K08), and environmental movements (K14, K17). They have encountered the concept of historical significance as contested. They have not yet examined these interpretive debates as a connected set, or examined the global movements for rights, the rise of extremism, nuclear energy, and climate change debates as distinct historiographical topics.",
+    "progression_endpoint": "Students discuss different historical interpretations and debates during the second half of the 20th century, including global rights movements, extremism, nuclear energy, and climate change.",
     "nodes": [
       {
         "id": 1,
-        "label": "First Nations cultural assertiveness and global rights movements",
-        "progression_checkpoint": "Students can discuss how First Nations Australians became more assertive in developing their own cultural industries and explain the significance of global rights movements in the second half of the 20th century.",
-        "minimum_width": "Describe how First Nations Australians became more assertive in developing their cultural industries and discuss at least two significant global rights movements of the late 20th century.",
-        "typical_width": "Discuss the concept of popular culture and how First Nations Australians became more assertive in developing their own arts industries — examining the role of Bangarra Dance Theatre in advancing First Nations cultures, beliefs, stories and concerns through dance and music; discuss significant global rights movements: the US Civil Rights movement, the rights movement of First Nations Peoples of Australia, South Africa's anti-apartheid movement, women's movements, LGBTQI+ movements and environmental movements; examine how these movements interacted and influenced each other.",
+        "label": "Historical interpretation as a practice — how and why interpretations differ",
+        "progression_checkpoint": "Students can explain why historical interpretations differ — identifying the sources of interpretive disagreement — and apply this to at least one case from the unit.",
+        "minimum_width": "Students explain at least three sources of interpretive disagreement and apply them to one case from the unit.",
+        "typical_width": "Students examine why historians disagree — different source bases, different questions asked of the same sources, different frameworks (social, economic, political, cultural history), changing social contexts that make new questions relevant, the role of the historian's own position; apply this to at least one case already encountered in the unit (Anzac legend debates, Battle for Australia, extent-of-change debates in civil rights); explain how new evidence (declassified documents, oral history, new statistical methods) can change interpretations without making earlier interpretations simply wrong.",
         "wider": [
-          "Investigate the development of First Nations Australian arts industries in depth — examining how artists like Albert Namatjira, the Papunya Tula artists, and Bangarra Dance Theatre navigated the intersection of cultural sovereignty, commercial recognition, and political advocacy",
-          "Examine the global anti-apartheid movement as a case study in international solidarity — analysing how boycotts, diplomacy, and internal resistance combined to produce the end of apartheid, and what Australia's role in the movement reveals about how Australian values shaped foreign policy"
+          "Examine a specific historiographical debate in depth — choosing a contested event from the unit and mapping out the major interpretive positions, the evidence each uses, and why historians continue to disagree",
+          "Investigate how the social position of historians — gender, ethnicity, political context — has shaped what questions they have asked about the past, using examples from Australian historiography"
         ],
-        "hinge": false,
-        "hinge_reason": null,
-        "response_modes": [
-          {
-            "mode": "context_breadth",
-            "reason": "Global rights movements are most productively taught comparatively — examining how different movements used similar strategies (direct action, legal challenge, international solidarity, cultural expression) in different national contexts. The Australian First Nations movement connects directly to K09–K13.",
-            "flags": ["width_opportunity"]
-          }
-        ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The global rights movement comparison offers a rich opportunity to examine how historical struggles for rights have operated across different legal, cultural and political contexts — developing the comparative historical thinking directly relevant to S07.",
-        "success_criteria": [
-          "Describe how First Nations Australians became more assertive in developing their cultural industries, using at least one specific example",
-          "Identify at least two significant global rights movements of the late 20th century and explain the main goals of each",
-          "Explain how at least two global rights movements influenced or reinforced each other"
-        ]
-      },
-      {
-        "id": 2,
-        "label": "Extremism, nuclear energy, and climate change debates",
-        "progression_checkpoint": "Students can investigate the rise of political and religious extremism, and discuss the evolving debates over nuclear energy and climate change from the 1960s to the present.",
-        "minimum_width": "Describe the impact of at least one significant act of political or religious extremism on Australian society and explain how the debates over nuclear energy or climate change have changed over time.",
-        "typical_width": "Investigate the rise of political and religious extremism and its impact on immigration to Australia — including the events of 11 September 2001 and the 2002 Bali bombings and their effects on immigration policy, security measures, and attitudes to Muslim communities; discuss the global debate over nuclear energy from the 1960s to the present — arguments for and against its use as an alternative to fossil fuels, and the effects of nuclear disasters (Three Mile Island 1979, Chernobyl 1986, Fukushima Daiichi 2011); investigate the change in debate about climate change from the 1960s to the present.",
-        "wider": [
-          "Examine the historiography of the climate change debate — tracing how the scientific consensus developed from the 1970s, how it entered public and political discourse, and why it became politicised in the 1990s–2000s, comparing Australia's trajectory with that of other countries",
-          "Investigate the Fukushima Daiichi disaster (2011) in depth as a case study in how a single event can reshape public opinion on nuclear energy — examining the gap between scientific risk assessment and public perception, and how different countries responded differently to the same event"
-        ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "The interpretive framework is the prerequisite for genuinely engaging with the specific debates in N2–N4. Students who approach historical debates as questions with right answers cannot engage analytically with contested interpretations — they default to picking a side rather than evaluating the evidential basis of each position.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "These are genuinely contested debates where evidence, values, and political interests interact. Model the distinction between 'what the scientific evidence shows' and 'how the evidence has been interpreted and disputed in public debate' — both are historically significant and require different analytical approaches.",
+            "reason": "Students commonly assume that historical disagreement means one side is right and the other wrong, or that more recent = more accurate. Making the sources of interpretive disagreement explicit — different questions, different frameworks, different social contexts — is the scaffold for genuine engagement with N2–N4's contested debates.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains at least three sources of interpretive disagreement among historians",
+          "Applies the framework to at least one case from the unit — identifying the interpretive difference and its source",
+          "Explains how changing social contexts make new historical questions relevant without making earlier interpretations simply wrong"
+        ],
+        "related_standards": ["AC9HH10K06", "AC9HH10S07"]
+      },
+      {
+        "id": 2,
+        "label": "Global rights movements — interpretations and debates",
+        "progression_checkpoint": "Students can discuss significant global rights movements and the interpretive debates surrounding them, including First Nations rights in Australia, the US civil rights movement, and the South African anti-apartheid movement.",
+        "minimum_width": "Students explain at least two global rights movements and identify at least one interpretive debate about the extent or significance of change produced by each.",
+        "typical_width": "Students examine the US Civil Rights movement — the debate over the role of non-violent direct action versus legislative change, the significance of specific leaders versus structural forces; examine South Africa's anti-apartheid movement — the debate over international sanctions' effectiveness, the role of Nelson Mandela versus the broader movement; examine LGBTQI+ movements — the debate over assimilationist versus transformative goals; examine how First Nations Australian rights campaigns connect to these global patterns; discuss the concept of popular culture as a site of political assertion — examining how First Nations Australians developed their own arts industries as political expression (Bangarra Dance Theatre).",
+        "wider": [
+          "Compare the strategies and outcomes of the US and Australian civil rights movements — examining whether the US movement's strategies translated effectively to the Australian context and what this reveals about the structural differences between the two countries",
+          "Investigate how First Nations Australian arts — Bangarra Dance Theatre, NAISDA, Indigenous visual arts — have functioned as cultural sovereignty claims as well as artistic expression"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations arts-as-sovereignty angle and the cross-country movement comparison are analytically rich directions that connect K20 to K11 and K19 in productive ways. The arts-as-politics framing is particularly generative for students who have engaged with the cultural identity content in K17–K19.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Examining multiple global movements — US civil rights, anti-apartheid, LGBTQI+, First Nations Australian — shows students that rights activism was a global pattern of the second half of the 20th century, not isolated domestic events. The comparative frame makes each movement more analytically legible.",
             "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The climate change and nuclear energy debates are paradigm cases for examining how historical interpretation is shaped by the interaction of evidence, values, and political interests — directly relevant to S07 (contested historical interpretations) and to the broader question of how societies respond to scientific knowledge.",
         "success_criteria": [
-          "Describe the impact of at least one significant act of extremism on Australian immigration policy or social attitudes",
-          "Explain how the debate over nuclear energy has changed since the 1960s, identifying at least one event that shifted the debate",
-          "Describe how the climate change debate has evolved from the 1960s to the present, explaining what drove the key shifts"
-        ]
+          "Explains at least two global rights movements with evidence",
+          "Identifies at least one interpretive debate about each movement — not merely describes the movement",
+          "Discusses the concept of popular culture as a site of political assertion, with at least one First Nations example"
+        ],
+        "related_standards": ["AC9HH10K11", "AC9HH10K19", "AC9HH10S07"]
+      },
+      {
+        "id": 3,
+        "label": "The rise of extremism and the post-9/11 world",
+        "progression_checkpoint": "Students can investigate the rise of political and religious extremism and explain the impact of 9/11 and the 2002 Bali bombings on Australian society and immigration.",
+        "minimum_width": "Students explain the causes of the rise of political or religious extremism; explain the impact of 9/11 and the Bali bombings on Australian immigration policy and social attitudes.",
+        "typical_width": "Students examine the conditions that produced the rise of political and religious extremism in the late 20th century — globalisation's discontents, political marginalisation, ideological vacuum, the role of media; examine the 9/11 attacks and their global consequences; examine the 2002 Bali bombings as the attack that brought terrorism directly home for Australians (202 dead, 88 Australians); examine the effects on Australian immigration — increased scrutiny of Muslim migrants, changes to visa and surveillance procedures, the securitisation of migration; examine the domestic effects on Muslim Australians — discrimination, community surveillance, the pressure to demonstrate loyalty.",
+        "wider": [
+          "Examine how the post-9/11 securitisation of migration intersected with Australia's existing asylum seeker debate — analysing whether terrorism concerns provided a new rationale for restrictions that already existed",
+          "Investigate the debate over counter-terrorism legislation and civil liberties — examining how Australia's post-9/11 laws balanced security imperatives against rights protections, and whether the balance was appropriate"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to understand the rise of extremism as a product of specific conditions — not as inexplicable evil or as a clash of civilisations. Scaffolding the structural causes alongside the specific events prevents both the 'evil actors' framing and the cultural essentialism that blocks genuine historical analysis."
+          }
+        ],
+        "success_criteria": [
+          "Explains at least two conditions that contributed to the rise of political or religious extremism",
+          "Explains the impact of the 2002 Bali bombings on Australians — distinguishing the event from its political and social consequences",
+          "Explains how 9/11 and Bali affected Australian immigration policy and social attitudes toward Muslim Australians"
+        ],
+        "related_standards": ["AC9HH10K08", "AC9HH10K13", "AC9HH10S06"]
+      },
+      {
+        "id": 4,
+        "label": "Nuclear energy and climate change — evolving debates",
+        "progression_checkpoint": "Students can discuss the global debate over nuclear energy and the evolution of the climate change debate, examining how each debate has changed over time from the 1960s to the present.",
+        "minimum_width": "Students explain how the nuclear energy debate has changed since the 1960s; explain how the climate change debate has evolved — identifying at least two stages of change.",
+        "typical_width": "Students trace the nuclear energy debate — initial post-war enthusiasm for civilian nuclear power, the anti-nuclear movement of the 1970s–80s, the effects of Three Mile Island (1979), Chernobyl (1986), and Fukushima (2011) on public opinion, the contemporary revival of nuclear energy debate in the context of climate change; trace the climate change debate — early scientific consensus building (1960s–80s), IPCC establishment (1988), Kyoto Protocol (1997), growing public concern (2000s), the debate over denial and vested interests; examine how each debate illustrates how scientific evidence interacts with political interests and public values.",
+        "wider": [
+          "Examine how the nuclear energy debate has returned to relevance in the context of climate change — analysing the arguments for nuclear as low-carbon energy and the arguments against based on waste, cost, and risk, and evaluating which is better supported by evidence",
+          "Investigate how climate denial has operated — examining the strategies used to contest scientific consensus (manufactured controversy, funding of counter-research, political lobbying) and what this reveals about the relationship between scientific knowledge and political power"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The nuclear-as-climate-solution debate is live and genuinely contested, providing an opportunity for students to apply historical analysis to a current policy question. The climate denial analysis connects to broader questions about how scientific consensus operates and can be contested — skills applicable far beyond this content.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to understand both debates as having changed over time — not as static positions for and against. Scaffolding the temporal dimension (what changed? when? what drove the change?) applies the N1 interpretive framework to live debates and prevents students from simply stating current positions.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains how the nuclear energy debate has changed since the 1960s — identifying at least two stages",
+          "Explains how the climate change debate has evolved — identifying at least two stages and what drove each change",
+          "Discusses how scientific evidence interacts with political interests in at least one of the two debates"
+        ],
+        "related_standards": ["AC9HH10K14", "AC9HH10K17", "AC9HH10S07"]
       }
     ]
   }

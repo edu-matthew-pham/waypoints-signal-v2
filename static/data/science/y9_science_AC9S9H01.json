@@ -1,73 +1,92 @@
 {
-  "year_level": "9",
+  "year_level": "9-10",
   "subject": "Science",
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S9H01",
-    "title": "Validation and Peer Review",
-    "description": "explain how scientific knowledge is validated and refined, including the role of publication and peer review",
-    "strand": "Science as a Human Endeavour",
+    "title": "Peer Review Validates Scientific Knowledge",
+    "strand": "Human Endeavour",
     "mode": "A",
-    "prior_knowledge": "Students can analyse factors contributing to science being adopted by society (AC9S7H03/H04, 7-8 band). They now examine the internal mechanisms by which science validates itself before broader adoption.",
-    "progression_endpoint": "Students explain the publication and peer review process, examine real cases where findings were initially rejected then later validated or refined, and connect evidence consistency across independent studies to the concept of scientific consensus.",
+    "description": "explain how scientific knowledge is validated and refined, including the role of publication and peer review",
+    "prior_knowledge": "Students can explain how scientific evidence challenges and changes our understanding of the world, and recognise that science is a human endeavour involving reasoning from evidence (AC9S7H01). They have not yet examined the formal mechanisms by which scientific claims are evaluated and accepted by the scientific community — specifically publication and peer review as institutional processes.",
+    "progression_endpoint": "Students explain how scientific knowledge is validated and refined through the publication and peer review process — describing what peer review involves, why it is used, and how it can result in validation, revision or rejection of claims. Students can examine cases where scientific knowledge was initially rejected or revised before being accepted, and explain why consensus builds over time through accumulation of consistent evidence.",
     "nodes": [
       {
         "id": 1,
-        "label": "Peer review validates scientific knowledge before publication",
-        "progression_checkpoint": "Students can explain the peer review process — submission, expert evaluation, revision, acceptance or rejection — and explain why peer review improves the quality and reliability of published science.",
-        "minimum_width": "Students describe the peer review process and explain at least two ways it improves the reliability of published scientific findings.",
-        "typical_width": "Students explain how editors and reviewers evaluate submitted papers for methodology, evidence quality and claims; examine why high-volume journals like Science reject most submissions; explain how peer review catches errors, unsupported claims and methodological weaknesses; and connect peer review to the reliability of published scientific knowledge.",
+        "label": "From evidence to accepted knowledge: the validation problem",
+        "progression_checkpoint": "Students can explain why scientific claims require validation beyond the individual scientist — identifying that bias, error and limited evidence are reasons the scientific community needs mechanisms for checking claims.",
+        "minimum_width": "Explain at least one reason why a single scientist's findings cannot automatically be accepted as scientific knowledge (e.g. potential for error, bias, limited sample size) and state that there are community mechanisms to check this.",
+        "typical_width": "Explain two or three reasons why scientific claims require validation beyond the individual scientist, and describe that the scientific community has developed processes — including peer review — specifically to address these limitations.",
         "wider": [
-          "Investigate the process of publishing in a scientific journal and examine how editors evaluate the 12,000+ annual submissions to Science — exploring the scale and selectivity of peer review",
-          "Explore why Barry Marshall and Robin Warren's work on peptic ulcer causes was first rejected then later validated — examining how peer review can initially resist paradigm-challenging findings",
-          "Examine how Marie and Pierre Curie's discovery of new elements was validated — tracing the peer review and independent replication process for a landmark discovery"
+          "Examine a historical case where an unchecked or fraudulent scientific claim caused harm before the validation process caught it — to build appreciation of why validation processes exist.",
+          "Connect to AC9S9I06 (assessing validity of methods and conclusions) — scientific peer review applies the same validity assessment that students apply to their own investigations, at a community level."
         ],
         "hinge": true,
-        "hinge_reason": "Node 2 requires students to distinguish scientific consensus from contested claims — a judgement that depends on understanding peer review as a quality-filtering process. Students who treat publication as proof cannot recognise that consensus requires convergent evidence across independently reviewed studies, not just a single published finding.",
+        "hinge_reason": "Students who do not understand why validation is necessary — who see peer review as bureaucratic rather than epistemically essential — cannot explain what the process achieves or why claims may be initially rejected. The validation problem is the motivation for understanding peer review.",
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students tend to treat publication as proof rather than as a quality-filtered but fallible process. Making the peer review mechanism explicit — what reviewers check, how revision works, why rejection is common — is necessary before students can evaluate claims about published vs unpublished science.",
+            "reason": "The validation problem requires reasoning about the limits of individual knowledge production: 'Even if a scientist is honest and careful, their single study may have errors, limited scope, or unrecognised assumptions. Without community checking, how do we know?' Scaffold this argument explicitly before introducing peer review as the solution.",
             "flags": ["hinge"]
           }
         ],
         "width_opportunity": false,
         "width_opportunity_reason": null,
         "success_criteria": [
-          "Describes the peer review process from submission to publication",
-          "Explains at least two ways peer review improves reliability of scientific knowledge"
+          "Can state at least one reason why a single scientist's findings require external validation.",
+          "Can explain that validation processes exist to reduce errors and build reliable knowledge — not just to follow rules.",
+          "Does not treat peer review as 'just getting someone else to read it' — understands its epistemically protective function."
         ]
       },
       {
         "id": 2,
-        "label": "Scientific consensus is built through consistent evidence across studies",
-        "progression_checkpoint": "Students can explain how scientific consensus develops through consistent evidence from multiple independent studies, and distinguish between a consensus position and a contested claim.",
-        "minimum_width": "Students explain what scientific consensus means and describe how consistent evidence from multiple studies builds it.",
-        "typical_width": "Students examine how multiple independent lines of evidence (Thomson, Millikan, Rutherford) support the nuclear model of the atom; explain the scientific consensus on global warming as an example of consensus built from varied evidence types; and distinguish between scientific consensus and public debate.",
+        "label": "The publication and peer review process",
+        "progression_checkpoint": "Students can describe the publication and peer review process, including how editors evaluate submitted papers, what reviewers assess, and how the process results in validation, revision or rejection.",
+        "minimum_width": "Describe the key steps of peer review (submission, editor screening, reviewer assessment, revision or rejection/acceptance) and explain what reviewers are evaluating.",
+        "typical_width": "Describe the publication process including pre-publication steps and the editorial/reviewer roles, and explain how peer review can result in different outcomes — acceptance, revision or rejection — and that these outcomes reflect the state of evidence, not just the individual scientist.",
         "wider": [
-          "Examine how Thomson's electron discovery, Millikan's oil drop experiment and Rutherford's gold foil experiment provide consistency of evidence for the particle model of electricity",
-          "Examine the scientific consensus supporting global warming — examining what evidence types contribute and how they converge",
-          "Investigate how the publication of data related to First Nations Australians' traditional fire regimes informed more effective fire management policies — examining evidence-based policy change"
+          "Investigate the scale of the peer review process — e.g. a journal like Science receives around 12,000 submissions per year — as context for the volume of knowledge claims requiring evaluation and the selectivity of acceptance.",
+          "Examine the role of replication in validation — that a single peer-reviewed study is not sufficient for established knowledge, and that consensus builds from multiple independent replications.",
+          "Explore how open-access publication and pre-print servers are changing the speed and accessibility of scientific communication — and the validation challenges this creates."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can describe the key steps of peer review — not just name it.",
+          "Can explain that peer review can result in revision or rejection, not just acceptance.",
+          "Can describe what reviewers are assessing — methodology, evidence, conclusions — not just 'whether it's good'."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Knowledge refined: rejection and revision cases",
+        "progression_checkpoint": "Students can examine cases where scientific knowledge was initially rejected, revised or debated before being accepted, and explain what role evidence played in the eventual outcome.",
+        "minimum_width": "Describe one case where a scientific claim was initially rejected and later validated (e.g. Marshall and Warren's discovery that bacteria cause peptic ulcers), explaining what evidence led to eventual acceptance.",
+        "typical_width": "Examine two cases of knowledge refinement — one where initial rejection was eventually overturned by accumulating evidence, and one where scientific consensus has built over time (e.g. global warming, or consistency of evidence for the particle model of electricity from Thomson, Millikan and Rutherford) — explaining what the cases reveal about how the process works.",
+        "wider": [
+          "Investigate how First Nations Australians' traditional fire management knowledge was initially dismissed by Western scientific institutions and later validated — examining what this case reveals about whose knowledge counts and how validation processes can be culturally biased.",
+          "Examine how Marie and Pierre Curie's discovery of new elements was validated — including the role of reproducibility and measurement precision in overcoming initial scepticism."
         ],
         "hinge": false,
         "hinge_reason": null,
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Students readily accept that 'multiple studies agree' without examining what makes those studies independent or why convergence across different evidence types is more compelling than replication of the same method. Encountering consensus-building across varied evidence types — particle physics experiments, climate datasets, fire management research — builds a more discriminating understanding of what convergent evidence actually means.",
+            "reason": "Students who understand peer review from a single case (commonly the bacteria/ulcers example) may develop a simplified picture of how rejection and validation work. Varying the cases — across time periods, knowledge types, cultural contexts — builds a more accurate understanding of validation as an ongoing, sometimes contested process.",
             "flags": ["width_opportunity"]
           }
         ],
         "width_opportunity": true,
-        "width_opportunity_reason": "The multiple-line-of-evidence direction for atomic model connects directly to earlier U-strand content (AC9S9U06). The climate consensus direction has strong contemporary relevance and elaboration grounding.",
+        "width_opportunity_reason": "The range of historical and contemporary cases — medical, physical, ecological, Indigenous knowledge — offers genuine analytical richness. Each case reveals a different dimension of how validation works in practice: time scales, cultural context, institutional gatekeeping, replication. Students who examine multiple cases develop analytical reasoning about scientific knowledge as socially situated, not just technically correct.",
         "success_criteria": [
-          "Explains how consistent evidence from multiple independent studies builds scientific consensus",
-          "Distinguishes between scientific consensus and public or political debate on the same topic"
+          "Can describe a case where scientific knowledge was refined and explain what evidence drove the change.",
+          "Can explain that validation is not a single event — knowledge builds through accumulation of consistent evidence.",
+          "Does not describe initial rejection as simply 'scientists being wrong' — explains the epistemic reasons for caution."
         ],
-        "related_standards": [
-          "AC9S9U06",
-          "AC9S9H02"
-        ]
+        "related_standards": ["AC9S9H02", "AC9S9I06", "AC9S9I07"]
       }
     ]
   }

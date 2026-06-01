@@ -1,0 +1,71 @@
+{
+  "year_level": "F",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HPFM03",
+    "title": "Physical Activity Benefits",
+    "description": "participate in a range of activities in natural and outdoor settings and explore the benefits of being physically active",
+    "strand": "Movement and Physical Activity",
+    "mode": "B",
+    "prior_knowledge": "No prior HPE curriculum. Students have informal experience being physically active. No prior structured exploration of the benefits of physical activity or outdoor settings.",
+    "progression_endpoint": "Students participate in a range of activities in natural and outdoor settings and explore what it feels like to be physically active and why it is beneficial.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Participating in outdoor and natural settings",
+        "progression_checkpoint": "Students can explore ways to be active and participate safely in outdoor or natural settings.",
+        "minimum_width": "Participate in at least one physical activity in an outdoor or natural setting.",
+        "typical_width": "Participate in a range of physical activities in outdoor and natural settings; identify safety strategies for outdoor play including risk awareness.",
+        "wider": [
+          "Participate in activities in a variety of natural environments — grassed areas, bush, beach or similar — adapting movement to the setting",
+          "Explore First Nations Australian games traditionally played in outdoor settings and discuss how the setting shapes the game",
+          "Identify and practise considered risk strategies for outdoor play (testing footing, staying within boundaries)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Outdoor and natural settings are varied — safety, movement demands and environmental features differ. Participate across multiple settings rather than a single outdoor session.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations game contexts and genuinely varied natural environments situate outdoor physical activity in cultural and ecological meaning that indoor or playground equivalents cannot provide.",
+        "success_criteria": [
+          "Participates in a physical activity in an outdoor or natural setting",
+          "Identifies at least one way to stay safe while being active outdoors"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Exploring benefits of physical activity",
+        "progression_checkpoint": "Students can discuss opportunities to be active and make simple connections between physical activity and how it makes them feel.",
+        "minimum_width": "Describe one way physical activity makes them feel (e.g. energetic, happy, tired) and identify one opportunity to be active at home or in their community.",
+        "typical_width": "Discuss a range of feelings associated with physical activity; identify multiple opportunities to be active in and around home, school and community contexts.",
+        "wider": [
+          "Connect physical activity opportunities to specific locations or community resources (parks, sporting clubs, community spaces)",
+          "Explore how family or cultural practices shape opportunities to be physically active",
+          "Discuss how being active in nature might feel different from being active indoors"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Foundation students benefit from scaffolded discussion prompts to articulate connections between physical activity and wellbeing. Feeling-response prompts before, during and after activity support this reflection.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least one feeling associated with physical activity",
+          "Identifies at least one place or opportunity to be physically active outside of school"
+        ],
+        "related_standards": ["AC9HPFM01", "AC9HPFP01"]
+      }
+    ]
+  }
+}

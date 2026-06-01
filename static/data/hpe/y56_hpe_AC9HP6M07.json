@@ -1,0 +1,74 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M07",
+    "title": "Predict and test movement strategies",
+    "description": "predict and test the effectiveness of applying different skills and strategies in a range of movement situations",
+    "strand": "Learning through movement",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students applied creative thinking when designing movement sequences and solving movement problems (AC9HP4M07). They have experience generating and trying movement solutions but have not yet explicitly predicted outcomes before testing or used agreed criteria to evaluate effectiveness.",
+    "progression_endpoint": "Students predict and test the effectiveness of different skills and strategies across a range of movement situations, refining solutions based on systematic testing.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Forming a prediction before testing",
+        "description": "Make a prediction about which skill or strategy will be most effective before testing — establishing the predict-then-test habit rather than trial-and-see.",
+        "minimum_width": "Before testing a movement solution, make a prediction about its likely effectiveness and state the reason for the prediction.",
+        "success_criteria": [
+          "Makes a prediction before (not after) the test",
+          "Prediction is based on a reason (prior experience, logic, observation) — not random"
+        ],
+        "hinge": true,
+        "hinge_reason": "Without pre-test prediction, the testing phase reduces to undirected trial-and-error. Prediction requires students to articulate their reasoning before physical testing — this is the cognitive load that distinguishes this descriptor from lower-band versions. Students who skip to testing cannot benefit from the comparison of predicted vs actual outcome.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Establish a predict-test-compare routine: students write or state their prediction and reason before any physical test. Debrief compares prediction to outcome explicitly. This habit must be formed before the criteria evaluation in N2.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Co-developing and applying evaluation criteria",
+        "description": "Develop or apply agreed criteria for what 'effective' means in a movement situation — so that 'testing' produces a verdict against criteria, not just a feeling.",
+        "minimum_width": "Use at least one agreed criterion to evaluate whether a tested movement solution was effective.",
+        "success_criteria": [
+          "Can name the criterion being applied (e.g. 'did it create space?', 'did it maintain balance?', 'was it completed within the time limit?')",
+          "Evaluates outcome against the criterion rather than personal preference"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Criteria development and application can occur across a wide range of movement challenges — outdoor activities, game problems, movement sequences — each requiring different criteria and offering richer metacognitive development.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Apply criteria-based evaluation across different movement situation types: game/tactical situations, outdoor challenges, creative movement sequences. Different situations require different criteria — this variety builds evaluative flexibility.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Systematic testing and refining",
+        "description": "Systematically test multiple solutions across a range of movement situations, refining based on criteria outcomes — completing the predict-test-refine cycle more than once.",
+        "minimum_width": "Test at least two different solutions for the same movement challenge, evaluate both against criteria, and explain which was more effective and why.",
+        "success_criteria": [
+          "Tests more than one solution before concluding",
+          "Refines the better solution (doesn't just stop at 'this one worked') or explains why it cannot be further improved"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The full predict-test-refine cycle across a range of movement situations. Integrates prediction, criteria application and systematic refinement — the complete descriptor demand."
+          }
+        ]
+      }
+    ]
+  }
+}

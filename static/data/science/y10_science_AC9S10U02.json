@@ -8,59 +8,151 @@
     "description": "use the theory of evolution by natural selection to explain past and present diversity and analyse the scientific evidence supporting the theory",
     "strand": "Biological Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can explain how structural features enable survival in specific habitats (AC9S5U01) and describe variation from sexual reproduction (AC9S9U02). They have not yet applied the natural selection mechanism to explain species change over time or examined the evidence base for evolutionary theory.",
-    "progression_endpoint": "Students explain natural selection as a mechanism of evolutionary change (variation → selection → differential reproduction → changed population), analyse multiple lines of evidence for the theory, and connect genetic characteristics to survival and reproductive rates.",
+    "prior_knowledge": "Students can explain how specific structural features and behaviours are adaptations enabling survival in particular habitats (AC9S5U01), analyse how physical conditions affect organism survival (AC9S6U01), and explain classification systems and biodiversity (AC9S7U01). They understand sexual and asexual reproduction and the role of variation in species survival (AC9S9U02). They have not yet encountered natural selection as a mechanistic explanation for how populations change over time, or engaged with the evidence base — fossil record, anatomical and chemical similarities, geographical distribution — that supports the theory.",
+    "progression_endpoint": "Students use the theory of evolution by natural selection to explain both past and present biological diversity, and analyse multiple lines of scientific evidence — fossil record, anatomical and chemical similarities, geographical distribution — that support the theory.",
     "nodes": [
       {
         "id": 1,
-        "label": "Natural selection explains how populations change over time",
-        "progression_checkpoint": "Students can explain the natural selection process — variation exists in a population; selection pressures favour some variants; favoured variants survive and reproduce at higher rates; over generations the population changes.",
-        "minimum_width": "Students explain the four-step natural selection process and give one example of selection operating on a named population.",
-        "typical_width": "Students explain variation, selection pressure, differential survival and reproduction, and population change over time; apply natural selection to explain artificial selection in breeding; connect genetic characteristics to survival and reproductive rates; and explain why natural selection acts on phenotype (expressed characteristics) not genotype directly.",
+        "label": "Variation within populations",
+        "progression_checkpoint": "Students can explain that individuals within a population vary in heritable characteristics and identify the sources of that variation.",
+        "minimum_width": "Students state that individuals in a population vary and that some variation is heritable, giving one example.",
+        "typical_width": "Students distinguish heritable from non-heritable variation; connect heritable variation to meiosis and sexual reproduction (AC9S10U01); explain that mutation introduces new variation; describe variation across a population as a distribution rather than a binary.",
         "wider": [
-          "Investigate some structural and physiological adaptations of First Nations Australians to the Australian environment — examining how natural selection shaped human adaptation over extended periods",
-          "Examine how artificial selection in breeding for desired characteristics mirrors natural selection — comparing the selection agent (human vs environment) and timescale",
-          "Investigate changes caused by natural selection in a specific population under a specified selection pressure — examining a real documented case of rapid evolution"
+          "Investigate variation in a measurable characteristic across a sample population and represent the distribution graphically — what does the shape of the distribution suggest?",
+          "Connect to AC9S10U01 — how does the genetic recombination from meiosis generate the heritable variation that natural selection acts on?"
         ],
         "hinge": true,
-        "hinge_reason": "Students who hold a teleological model of evolution — believing organisms change by trying or wanting to adapt — cannot correctly reason about Node 2 (evidence for evolution). Their causal model is incompatible with the theory: they will interpret evidence through an intentional rather than selectionist lens, producing systematic misinterpretation of what fossils, homologous structures, and molecular similarities demonstrate.",
+        "hinge_reason": "Natural selection cannot operate without heritable variation — it is the raw material the mechanism acts on. Students who treat all individuals in a population as identical, or who do not understand that variation must be heritable to be selected, cannot construct the selection mechanism in N2 or explain why advantageous traits accumulate over generations.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students commonly believe organisms change by trying or wanting to adapt, rather than through selection among pre-existing variants. Making the mechanism explicit — variation must pre-exist; selection acts on it; nothing is directed toward a goal — is the essential conceptual scaffold before evolution can be understood correctly.",
-            "flags": [
-              "hinge",
-              "width_opportunity"
-            ]
+            "reason": "Students commonly accept that 'animals adapt to their environment' as a process that happens to individuals, not populations over generations. Establishing that variation is the starting condition — present in every population before any selection pressure exists — is the prerequisite for understanding selection as a filter, not a creator.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "First Nations adaptation to the Australian environment is elaboration-grounded and provides a culturally significant application of natural selection to human evolution. Documented rapid evolution cases provide real evidence for a process students often treat as too slow to observe.",
         "success_criteria": [
-          "Explains the four steps of natural selection in sequence",
-          "Applies natural selection to explain a change in a named population under a specific selection pressure"
-        ]
+          "Explains that individuals within a population vary in heritable characteristics",
+          "Distinguishes heritable from non-heritable variation",
+          "Identifies mutation and sexual reproduction as sources of heritable variation"
+        ],
+        "related_standards": ["AC9S9U02", "AC9S10U01"]
       },
       {
         "id": 2,
-        "label": "Multiple lines of evidence support evolutionary theory",
-        "progression_checkpoint": "Students can describe at least three lines of evidence for evolution by natural selection — fossil record, anatomical similarities, chemical (molecular) evidence, geographical distribution — and explain what each contributes to the case for the theory.",
-        "minimum_width": "Students describe at least three types of evidence for evolution and explain what each line of evidence shows.",
-        "typical_width": "Students analyse fossil record, homologous structures, DNA sequence similarities, and geographical distribution as converging lines of evidence; explain how each independently supports evolution; and explain why multiple independent lines of evidence converge on the same conclusion, strengthening the theory.",
+        "label": "Natural selection as a mechanism — variation, selection pressure, differential survival",
+        "progression_checkpoint": "Students can describe the mechanism of natural selection: how a selection pressure acts on heritable variation to produce differential survival and reproduction, leading to population change over generations.",
+        "minimum_width": "Students describe that individuals with advantageous traits are more likely to survive and reproduce, passing those traits to offspring, with one named example.",
+        "typical_width": "Students apply the mechanism across multiple examples including predation, disease and environmental change as selection pressures; explain why traits accumulate in populations over generations; distinguish natural selection from Lamarckian 'use and disuse'; describe artificial selection as a human-directed application of the same mechanism.",
         "wider": [
-          "Analyse evidence for the theory including fossil record, chemical and anatomical similarities, and geographical distribution — examining how each type of evidence contributes independently",
-          "Examine biodiversity as a function of evolution — explaining how natural selection from a common ancestor produces divergent species over time",
-          "Explore how DNA sequencing and molecular biology have added powerful evidence to earlier anatomical and fossil evidence — connecting new technology to evidence strengthening (AC9S10H02)"
+          "Investigate natural selection in a specific documented case — e.g. antibiotic resistance in bacteria, or industrial melanism in peppered moths — and trace each step of the mechanism",
+          "Compare natural selection to artificial selection in breeding programmes — what are the structural similarities and what is different?"
+        ],
+        "hinge": true,
+        "hinge_reason": "The mechanism of natural selection is the core explanatory tool the descriptor demands. Students who conflate natural selection with individual adaptation (Lamarckism) or who cannot articulate the variation → differential survival → inherited by offspring chain cannot explain either past diversity (N4) or present diversity (N5), and cannot evaluate any evidence for the theory (N3).",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Multiple well-documented selection cases — antibiotic resistance, industrial melanism, beak shape in Darwin's finches, artificial selection — each apply the same mechanism to a different context. These are genuine width opportunities that build explanatory fluency without acceleration.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The Lamarckian misconception — that individuals change during their lifetime to suit the environment and pass those changes on — is persistent and must be explicitly addressed. Students need to reconstruct the selection mechanism step by step, identifying where Lamarck's account differs at each step.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Applying the selection mechanism to varied, well-evidenced cases builds the explanatory fluency needed to use the theory as an analytical tool in N4 and N5. Each case exercises the same mechanistic reasoning in a new context.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes the mechanism of natural selection as variation → selection pressure → differential survival/reproduction → inherited by offspring",
+          "Applies the mechanism correctly to a named example",
+          "Distinguishes natural selection from the Lamarckian view that individuals adapt during their lifetime"
+        ],
+        "related_standards": ["AC9S5U01", "AC9S6U01", "AC9S9U02"]
+      },
+      {
+        "id": 3,
+        "label": "Evidence for evolution — multiple lines of support",
+        "progression_checkpoint": "Students can describe and explain multiple lines of evidence that support the theory of evolution by natural selection, including the fossil record, anatomical and chemical similarities, and geographical distribution.",
+        "minimum_width": "Students describe at least two distinct lines of evidence for evolution and explain what each line demonstrates.",
+        "typical_width": "Students explain the fossil record as evidence of change over time and species extinction; describe homologous structures as evidence of common ancestry; explain chemical similarities (DNA, protein sequences) as evidence of evolutionary relationships; describe geographical distribution patterns (island species, marsupial distribution) as evidence consistent with common descent; explain how each evidence type supports the theory independently.",
+        "wider": [
+          "Analyse a specific cladogram or phylogenetic tree using DNA sequence data — what does the branching pattern indicate about evolutionary relationships?",
+          "Investigate how the discovery of gravitational waves or other recent scientific advances parallel the process by which evolutionary evidence accumulates and gets validated"
         ],
         "hinge": false,
         "hinge_reason": null,
-        "response_modes": [],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The evidence base for evolution spans fossil records, anatomical homology, molecular biology and biogeography — each is a genuine investigative context that builds scientific reasoning skills. The elaborations explicitly list all four evidence types as expected content, and each rewards deeper investigation.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Each evidence type — fossil record, anatomical homology, chemical similarity, geographical distribution — is a distinct line of reasoning. Students encountering only one type often believe the theory rests on that single line. Working across all four types builds the 'multiple independent lines' understanding the descriptor's 'analyse' demand requires.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes at least three distinct lines of evidence for evolution",
+          "Explains what each evidence type demonstrates about common descent or change over time",
+          "Identifies that multiple independent evidence types support the same conclusion"
+        ],
+        "related_standards": ["AC9S7U01"]
+      },
+      {
+        "id": 4,
+        "label": "Using natural selection to explain past diversity — speciation and extinction",
+        "progression_checkpoint": "Students can use the theory of natural selection to explain how past populations diverged into new species and how extinction results from failed adaptation to selection pressures.",
+        "minimum_width": "Students explain that populations isolated from each other face different selection pressures and can diverge over time, and describe extinction as the failure to adapt to changed conditions.",
+        "typical_width": "Students explain speciation as the result of geographic isolation, different selection pressures and accumulated variation over time; connect to the fossil record evidence from N3; explain mass extinctions as large-scale selection events; describe how evolutionary history is reconstructed from fossil and molecular evidence.",
+        "wider": [
+          "Examine the adaptive radiation of a species group — e.g. Darwin's finches or Australian marsupials — and explain the diversity using natural selection and geographic isolation",
+          "Investigate some structural and physiological adaptations of First Nations Australians to the Australian environment and discuss how evolutionary and cultural adaptation interact"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node applies the selection mechanism (N2) and evidence base (N3) to explain deep time patterns. Students synthesise the mechanism, evidence and timescale into an account of how present biodiversity arose from past populations — the 'past diversity' demand of the descriptor."
+          }
+        ],
         "success_criteria": [
-          "Names and describes at least three lines of evidence for evolution",
-          "Explains what each line of evidence independently contributes to the case for the theory"
-        ]
+          "Explains how geographic isolation and different selection pressures can lead to speciation",
+          "Uses natural selection to explain why species go extinct when selection pressures change",
+          "Connects fossil record evidence to the timeline of species appearance and disappearance"
+        ],
+        "related_standards": ["AC9S7U01", "AC9S5U01"]
+      },
+      {
+        "id": 5,
+        "label": "Using natural selection to explain present diversity and current change",
+        "progression_checkpoint": "Students can use the theory of natural selection to explain current patterns of biodiversity and analyse examples of evolution occurring in present populations.",
+        "minimum_width": "Students apply natural selection to explain one current example of population change (e.g. antibiotic resistance, pesticide resistance) and connect it to present biodiversity patterns.",
+        "typical_width": "Students explain that evolution is ongoing; analyse present cases of rapid selection (antibiotic resistance, introduced species, climate-driven range shifts); explain biodiversity as the cumulative product of evolutionary history; connect to AC9S7U01's classification systems as a map of evolutionary relationships; discuss how human activity is a current selection pressure.",
+        "wider": [
+          "Examine biodiversity data for a specific ecosystem and explain current distribution patterns using evolutionary history and present selection pressures",
+          "Analyse how climate change is acting as a current selection pressure — what traits are being selected for or against in a named species?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This is the descriptor's full demand: using the theory as an explanatory and analytical tool across past and present diversity. Students bring the mechanism (N2), evidence types (N3), and historical account (N4) together to analyse present patterns — completing the 'use the theory to explain' requirement."
+          }
+        ],
+        "success_criteria": [
+          "Applies natural selection to explain a current example of observable population change",
+          "Explains present biodiversity as the product of ongoing evolutionary processes",
+          "Analyses how a current selection pressure is affecting a named population"
+        ],
+        "related_standards": ["AC9S7U01", "AC9S6U01"]
       }
     ]
   }

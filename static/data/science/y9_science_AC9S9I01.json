@@ -1,42 +1,96 @@
 {
-  "year_level": "9",
+  "year_level": "9-10",
   "subject": "Science",
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S9I01",
-    "title": "Questioning, Predicting and Hypothesising",
-    "description": "develop investigable questions, reasoned predictions and hypotheses to test relationships and develop explanatory models",
-    "strand": "Science Inquiry",
+    "title": "Investigable Questions, Predictions and Hypotheses",
+    "strand": "Inquiry Skills",
     "mode": "B",
-    "prior_knowledge": "Students can pose investigable relationship questions and make reasoned predictions justified with scientific knowledge (AC9S7I01, 7-8 band). They now extend to formulating testable hypotheses — predictions framed as if-then statements that can be explicitly supported or refuted by evidence.",
-    "progression_endpoint": "Students develop investigable questions, formulate testable hypotheses (if-then statements with explicit causal reasoning), and pose questions that explore explanatory models — distinguishing hypothesis from prediction by the causal mechanism specified.",
+    "description": "develop investigable questions, reasoned predictions and hypotheses to test relationships and develop explanatory models",
+    "prior_knowledge": "Students can develop questions, make predictions and formulate methods to investigate (AC9S7I01). They have not yet developed formal hypotheses specifying a testable relationship (if-then-because structure) or developed questions targeted at testing a relationship or building an explanatory model rather than simply exploring a phenomenon.",
+    "progression_endpoint": "Students develop investigable questions that target a specific relationship between variables, write reasoned predictions, and formulate hypotheses that can be supported or refuted through evidence — in contexts requiring explanation of body systems, energy transfer or chemical reactions. Students can develop questions intended to explore an explanatory model and explain what would constitute supporting or refuting evidence.",
     "nodes": [
       {
         "id": 1,
-        "label": "Hypotheses specify testable causal relationships",
-        "progression_checkpoint": "Students can formulate a scientific hypothesis as a testable if-then statement specifying a causal relationship, and explain what evidence would support or refute it.",
-        "minimum_width": "Students write one testable hypothesis for a given scenario in if-then format and identify the evidence that would support or refute it.",
-        "typical_width": "Students formulate hypotheses for Y9 science contexts (body systems, energy efficiency, carbon cycle, chemical reactions); explain why a hypothesis must be testable by evidence; distinguish hypothesis from prediction by the causal mechanism specified; and develop questions that explore explanatory models rather than just describe phenomena.",
+        "label": "What makes a question investigable?",
+        "progression_checkpoint": "Students can distinguish investigable from non-investigable questions, and explain the criteria that make a scientific question investigable — including that it must be answerable through observable, measurable evidence.",
+        "minimum_width": "Identify whether two contrasting questions are investigable or not, and explain what makes the investigable one testable (names variables, answerable by measurement or observation).",
+        "typical_width": "Describe the criteria for an investigable question (observable/measurable variables, specific enough to test, not answered by opinion alone) and apply these criteria to evaluate and improve sample questions.",
         "wider": [
-          "Discuss what makes a hypothesis scientific — why it must be able to be supported or refuted — and examine historical cases where hypotheses were untestable and therefore unscientific",
-          "Develop investigable questions to explore explanatory models: 'How is sound wave transfer affected by medium density? What causes body temperature to rise during illness?'",
-          "Examine how a hypothesis about body systems (temperature regulation, blood glucose) maps to the negative feedback model — connecting hypothesis formulation to model testing"
+          "Distinguish investigable questions from those that are philosophical, ethical or definitional — building precision about the scope of empirical investigation.",
+          "Examine how investigable questions arise from existing models — connecting the 'why does this happen?' question to an existing theoretical explanation that generates testable predictions."
         ],
         "hinge": true,
-        "hinge_reason": "Hypothesis formulation is the entry point for all Y9 investigation planning (AC9S9I02). Students who cannot write a testable if-then statement cannot design a valid investigation — the variable identification, validity criteria, and evaluation of conclusions in subsequent nodes all depend on the hypothesis providing a clear causal claim to test.",
+        "hinge_reason": "Students who cannot identify what makes a question investigable will produce unfocused investigation designs at the next capability stage (AC9S9I02). A question that is too vague, not measurable, or not about a testable relationship cannot lead to a valid investigation method — the question quality determines the investigation quality.",
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students conflate prediction with hypothesis, writing 'I think X will happen' rather than specifying the causal mechanism as an if-then statement. Making the structure explicit — if [independent variable changes], then [dependent variable will change] because [causal mechanism] — and distinguishing it from prediction by the presence of the mechanism, is the scaffold that produces genuine hypothesis formulation.",
+            "reason": "The criteria for investigability are not self-evident. Students need the explicit reasoning: 'To be investigable, a question must name (or imply) variables that can be measured or observed. It must be answerable by data, not opinion. And it must be specific enough that one investigation could address it.' Model this evaluation with contrasting examples.",
             "flags": ["hinge"]
           }
         ],
         "width_opportunity": false,
         "width_opportunity_reason": null,
         "success_criteria": [
-          "Writes a hypothesis in testable if-then format specifying a causal relationship",
-          "Identifies what evidence would support and what evidence would refute the hypothesis"
+          "Can identify whether a question is investigable and explain why or why not.",
+          "Can improve a vague question by making it specific about variables.",
+          "Does not treat 'interesting' as a criterion for investigability — uses testability."
         ]
+      },
+      {
+        "id": 2,
+        "label": "Reasoned predictions",
+        "progression_checkpoint": "Students can write a reasoned prediction that states an expected outcome and provides a reason based on scientific knowledge — not just a guess.",
+        "minimum_width": "Write a prediction for one scenario that includes an expected outcome and a reason grounded in scientific knowledge (e.g. 'I predict that increasing light intensity will increase the rate of photosynthesis because more light energy is available for the process').",
+        "typical_width": "Write reasoned predictions for two or three investigable questions across different content domains, ensuring each prediction includes an expected outcome AND a scientific reason — distinguishing these from guesses or intuitions.",
+        "wider": [
+          "Examine predictions that conflict with intuition — cases where scientific knowledge predicts an unexpected outcome — to build appreciation that scientific prediction differs from common sense.",
+          "Develop predictions for questions about relationships between human body systems (e.g. 'How does exercise intensity affect heart rate and breathing rate?') — connecting prediction-writing to the Y9 content."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students routinely drop the reasoning component from predictions, treating them as guesses rather than evidence-based claims. Consistent practice with the expected-outcome + reason format — and correction when the reason is absent or not scientific — builds the habit before hypothesis writing."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can write a prediction that includes both an expected outcome and a scientific reason.",
+          "Can distinguish a reasoned prediction from a guess — the reason is grounded in science, not preference.",
+          "Does not omit the reason — treats the because-clause as mandatory."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Hypotheses: testable, refutable, relationship-specifying",
+        "progression_checkpoint": "Students can write a formal hypothesis that specifies the predicted relationship between variables in a form that can be supported or refuted through evidence, and explain why scientific hypotheses must be refutable.",
+        "minimum_width": "Write a hypothesis for one investigation using an if-then-because structure (or equivalent), specifying the independent variable, predicted effect on dependent variable, and a reason. Explain why the hypothesis must be refutable — what result would refute it.",
+        "typical_width": "Write hypotheses for two or three investigations and evaluate each for refutability — identifying what evidence would support it and what evidence would refute it. Explain why a hypothesis that cannot be refuted is not scientifically useful.",
+        "wider": [
+          "Examine the concept of a null hypothesis — the prediction that there is no effect — and explain how it is used alongside the experimental hypothesis in formal scientific investigations.",
+          "Develop hypotheses to explore an explanatory model (e.g. 'If heat energy transfers from higher to lower temperature until equilibrium is reached, then placing objects of different temperatures in contact will result in...') — connecting hypothesis writing to model testing."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who write unfalsifiable hypotheses (e.g. 'plants will grow differently') cannot use investigation results to either support or refute their hypothesis — the conclusion stage of the investigation collapses. Refutability is the hinge: a hypothesis that cannot be tested cannot be advanced or rejected, and the entire investigation loses its logical structure.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The concept of refutability is philosophically non-trivial. Scaffold the argument: 'If no possible result could prove your hypothesis wrong, then your hypothesis doesn't actually predict anything testable — it's not a scientific hypothesis.' Concrete counter-examples (e.g. 'plants respond to their environment' — true but untestable) make this clearer than abstract explanation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can write a hypothesis that specifies the relationship between named variables.",
+          "Can identify what result would refute their hypothesis.",
+          "Does not write vague or circular hypotheses — the prediction must be specific enough to test."
+        ],
+        "related_standards": ["AC9S9I02", "AC9S9I06", "AC9S9H01"]
       }
     ]
   }

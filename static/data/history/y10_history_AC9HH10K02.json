@@ -4,98 +4,151 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH10K02",
-    "title": "Australians in the Second World War — Places and Experiences",
+    "title": "Australian Experiences in WW2",
     "description": "the places where Australians fought, and their perspectives and experiences during the Second World War, such as the fall of Singapore, prisoners of war (POWs), the Battle of Britain and Kokoda",
-    "strand": "Knowledge and Understanding",
+    "strand": "History (Knowledge and Understanding)",
     "mode": "A",
-    "prior_knowledge": "Students have studied the places and experiences of Australians during World War One, including Gallipoli, the Western Front, and the perspectives of soldiers and nurses.",
-    "progression_endpoint": "Students identify and evaluate the significance of the places where Australians fought in WWII, and analyse the perspectives and experiences of different groups including POWs.",
+    "prior_knowledge": "Students have examined the places where Australians fought in WW1 and the experiences of soldiers on the Western Front and at Gallipoli (AC9HH9K09). They understand the Anzac legend and its commemorative significance (AC9HH9K12). From AC9HH10K01 they understand Australia's political decision to enter WW2, the strategic context of the Pacific theatre, and the Curtin pivot. They have not yet examined the specific theatres and campaigns of WW2, the fall of Singapore as a distinct event with its own significance, or the range of Australian POW experiences.",
+    "progression_endpoint": "Students identify the significant places where Australians fought in WW2, explain the perspectives and experiences of Australian service personnel including POWs, and evaluate the significance of at least one major campaign.",
     "nodes": [
       {
         "id": 1,
-        "label": "Where Australians fought",
-        "progression_checkpoint": "Students can identify the major theatres and locations where Australians fought in the Second World War and explain the strategic significance of each.",
-        "minimum_width": "Identify at least three locations where Australians fought and explain the significance of at least one.",
-        "typical_width": "Identify and evaluate the significance of the major theatres: North Africa (Tobruk), Malaya and Singapore, New Guinea (Kokoda, Milne Bay), Darwin, and the broader Pacific campaign; explain the strategic importance of each location to the overall Allied war effort.",
+        "label": "Geographic spread of Australian deployment",
+        "progression_checkpoint": "Students can identify the major theatres and places where Australians fought in WW2 and explain the strategic reason for deployment in each.",
+        "minimum_width": "Students identify at least three places where Australians fought across at least two theatres and explain the strategic reason for each deployment.",
+        "typical_width": "Students map Australian deployment across North Africa (Tobruk, El Alamein), the Middle East, Malaya and Singapore, New Guinea (Kokoda, Milne Bay), the Pacific islands, and the Battle of Britain; explain the strategic logic of each deployment in terms of Australia's alliance commitments and the evolving war situation; explain how the fall of Singapore in 1942 reoriented Australian forces toward the Pacific.",
         "wider": [
-          "Investigate the significance of the North Africa campaign (Tobruk, El Alamein) as the theatre that first established Australia's WWII reputation, examining how 'the Rats of Tobruk' became a symbol of Australian resilience",
-          "Compare the strategic importance of the Pacific theatre locations from both Allied and Japanese perspectives, examining how geography shaped military decision-making"
+          "Examine the tension between Churchill's Europe-first strategy and Curtin's insistence on returning Australian forces to the Pacific — analysing how alliance politics shaped where Australians fought",
+          "Investigate the role of First Nations Australians and Torres Strait Islanders in specific theatres, including the Torres Strait Light Infantry Battalion and the Northern Territory Special Reconnaissance Unit"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "Without a working spatial and strategic understanding of where Australians fought and why, students cannot evaluate the significance of individual campaigns (N3), contextualise the fall of Singapore (N2), or understand POW experiences in their geographic context (N4). Students who treat campaign names as a list without strategic logic cannot engage analytically with any subsequent node.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "repertoire_building",
-            "reason": "Students need a working spatial and strategic orientation to the war's geography before they can meaningfully analyse experiences. Map-based activities identifying theatres and their relationship to Australian territory (especially the threat to the mainland) build the necessary context."
+            "reason": "Students need a working spatial repertoire of theatres and deployments before significance analysis is meaningful. Map-based activities annotating each location with its strategic context and Australian involvement build the knowledge base for N2–N4.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Identify at least three locations where Australians fought and place them correctly in the European or Asia-Pacific theatre",
-          "Explain the strategic significance of at least one location in terms of what its loss or defence meant for the broader war",
-          "Describe the connection between the fall of Singapore and the threat to the Australian mainland"
-        ]
+          "Identifies at least three places where Australians fought across at least two theatres",
+          "Explains the strategic reason for Australian deployment in each identified location",
+          "Explains how the fall of Singapore changed the orientation of Australian deployment toward the Pacific"
+        ],
+        "related_standards": ["AC9HH10K01", "AC9HH10K03", "AC9HH10S05"]
       },
       {
         "id": 2,
-        "label": "Kokoda and the Anzac legend",
-        "progression_checkpoint": "Students can investigate the significance of the Kokoda campaign, explaining both its strategic importance and its contribution to Australian national identity.",
-        "minimum_width": "Explain what was at stake strategically in the Kokoda campaign and describe why it became significant in Australian national memory.",
-        "typical_width": "Investigate the Kokoda campaign — the Japanese advance along the Kokoda Track, the threat to Port Moresby, the role of Australian infantry and Papuan carriers, the turning of the Japanese advance; explain how Kokoda reinforced and extended the Anzac legend in the context of the Pacific War.",
+        "label": "The fall of Singapore — defeat, captivity, and consequences",
+        "progression_checkpoint": "Students can explain the fall of Singapore as Australia's greatest military defeat, describe its immediate consequences for Australian prisoners of war, and explain its political significance for the Curtin government.",
+        "minimum_width": "Students explain why the fall of Singapore was significant — strategically, politically, and for the Australians captured — and identify at least one consequence for Australia's strategic direction.",
+        "typical_width": "Students investigate the fall of Singapore in February 1942 — the circumstances of the defeat, the scale of Australian casualties and captures, Churchill's reaction and Curtin's response; explain why the defeat was psychologically and politically significant beyond its military consequences; connect it to the acceleration of the Curtin pivot toward the USA; explain the immediate situation of the approximately 15,000 Australians taken prisoner by the Japanese.",
         "wider": [
-          "Examine the role of the Fuzzy Wuzzy Angels (Papuan carriers) in the Kokoda campaign, analysing how their contribution has been acknowledged and sometimes marginalised in Australian memory of the campaign",
-          "Compare the construction of the Kokoda legend with the construction of the Gallipoli legend — examining what values each narrative emphasises and how each has been used in different historical periods",
-          "Investigate the historiography of Kokoda, examining how the campaign has been interpreted differently by military historians, nationalist writers, and postcolonial scholars"
+          "Examine the debate over command decisions at Singapore — analysing the arguments about British and Australian military leadership, and how this debate shaped post-war attitudes to the British alliance",
+          "Investigate how the fall of Singapore has been memorialised in Australia and what its place in national memory reveals about Australian attitudes to military defeat, alliance loyalty, and the Pacific theatre"
         ],
-        "hinge": false,
-        "hinge_reason": null,
-        "response_modes": [
-          {
-            "mode": "context_breadth",
-            "reason": "Kokoda is often taught as a standalone national legend; widening to include Papuan perspectives and comparative legend-building prevents exemplar convergence on a single nationalist narrative.",
-            "flags": ["width_opportunity"]
-          }
-        ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Kokoda's dual significance — strategic and legendary — makes it a productive site for examining how historical events become national myths, a transferable analytical skill relevant throughout the course.",
-        "success_criteria": [
-          "Explain the strategic significance of the Kokoda campaign, including what a Japanese victory would have meant for Australia",
-          "Describe at least two features of the Kokoda campaign that contributed to its place in Australian national memory",
-          "Explain how Kokoda reinforced the Anzac legend, identifying at least one point of continuity with WWI memory"
-        ]
-      },
-      {
-        "id": 3,
-        "label": "POW experiences and perspectives",
-        "progression_checkpoint": "Students can compare the experiences and perspectives of different groups of prisoners of war, explaining how treatment varied and what this reveals about the nature of the conflict.",
-        "minimum_width": "Compare the experiences of Australian POWs under German control with those under Japanese control, explaining at least two differences.",
-        "typical_width": "Compare POW experiences across multiple contexts: those held by Germany (relatively governed by Geneva Convention) vs those held by Japan (Thai-Burma Railway, Ambon, Rabaul); examine specific groups including those used as forced labour on the Thai-Burma Railway and army nurses captured in Singapore; analyse what these experiences reveal about different ideological and cultural approaches to the treatment of prisoners.",
-        "wider": [
-          "Examine the experiences of nurses captured at Singapore (such as the Bangka Island massacre) as a case study in how gender intersected with POW status, analysing perspectives that are often marginalised in mainstream WWII narratives",
-          "Investigate the long-term psychological and physical impacts of POW experiences, using oral histories or memoir sources to examine how survivors made sense of their experiences",
-          "Compare the treatment of POWs with the treatment of civilian internees (including Australian women and children interned in Japanese camps), examining the relationship between military and civilian captivity"
-        ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "The fall of Singapore is both a distinct historical event with its own significance and the entry point for understanding the largest single group of Australian POWs. Students who treat it as simply one campaign among others miss the political rupture it represented — the moment that made the Curtin pivot urgent — and cannot contextualise the Thai-Burma Railway and other Japanese POW experiences in N4.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students often reduce POW experience to suffering without engaging with the analytical question of why treatment differed. Structure the comparison around specific criteria — adherence to Geneva Convention, use of forced labour, death rates — to build analytical rather than purely empathetic responses."
-          },
+            "reason": "Students need to understand the fall of Singapore as simultaneously a military defeat, a political crisis, and the beginning of a distinct POW experience — not merely as a location on the campaign map. Scaffolding these three dimensions explicitly prevents students from treating it as just another battle.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains the fall of Singapore as Australia's greatest military defeat — identifying scale of capture and immediate consequences",
+          "Explains the political significance of the fall for the Curtin government and for Australia's strategic relationship with Britain",
+          "Identifies the fall of Singapore as the entry point for the majority of Australian Japanese POW experiences"
+        ],
+        "related_standards": ["AC9HH10K01", "AC9HH10K03", "AC9HH10S05"]
+      },
+      {
+        "id": 3,
+        "label": "Significance of major Australian campaigns",
+        "progression_checkpoint": "Students can evaluate the significance of at least one major Australian campaign using explicit criteria, explaining what was strategically at stake and what was achieved.",
+        "minimum_width": "Students evaluate the significance of one major Australian campaign (Kokoda or Tobruk) using at least two significance criteria.",
+        "typical_width": "Students evaluate the significance of Kokoda — explaining why halting the Japanese advance on Port Moresby mattered strategically and how it reinforced the Anzac legend; evaluate the Tobruk siege in the North African context; assess significance using explicit criteria (strategic consequence, scale, national identity impact, connection to the broader war outcome) rather than describing events; explain how Kokoda became central to Australian national memory.",
+        "wider": [
+          "Compare the relative strategic significance of Kokoda and Tobruk — arguing which campaign had greater consequence for Australia's war effort and national identity, using evidence",
+          "Investigate the Battle of Milne Bay as the first Allied land defeat of Japanese forces — examining why it receives less commemoration than Kokoda despite its strategic importance"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Kokoda/Tobruk comparison is a rich argumentation task — students must apply significance criteria to competing claims. The connection to the Anzac legend and commemoration links productively to K06 and builds transferable historical thinking skills.",
+        "response_modes": [
           {
-            "mode": "context_breadth",
-            "reason": "Extending beyond the Thai-Burma Railway (the default exemplar) to include Ambon, Rabaul, and Singapore nurses broadens the range of POW experiences students understand and prevents a single narrative dominating.",
+            "mode": "structured_reasoning",
+            "reason": "Students default to describing campaigns rather than evaluating their significance. Explicit significance criteria — strategic consequence, scale, change produced, national identity impact — scaffold the move from description to argument.",
             "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The POW comparison offers a productive opportunity to examine how ideology, culture, and international law interact — and how marginalised perspectives (nurses, civilian internees, Papuan auxiliaries) complicate the dominant combat narrative.",
         "success_criteria": [
-          "Compare the experiences of Australian POWs under German and Japanese control, identifying at least two significant differences",
-          "Describe the experiences of at least one specific group of POWs (e.g. those on the Thai-Burma Railway, nurses captured in Singapore) and explain what makes their experience historically significant",
-          "Explain what the treatment of POWs reveals about the ideological and cultural context of the Second World War"
-        ]
+          "Evaluates the significance of at least one major Australian campaign using explicit criteria — not merely describes it",
+          "Explains what was strategically at stake in the chosen campaign and what the outcome produced",
+          "Identifies how at least one campaign contributed to Australian national identity or the Anzac tradition"
+        ],
+        "related_standards": ["AC9HH10K03", "AC9HH10K06", "AC9HH10S05", "AC9HH10S07"]
+      },
+      {
+        "id": 4,
+        "label": "POW experiences — comparison across captors and contexts",
+        "progression_checkpoint": "Students can compare the experiences of Australian POWs under German and Japanese control, explaining significant differences in treatment and conditions across specific contexts.",
+        "minimum_width": "Students describe the experiences of Australian POWs under Japanese control in at least one specific context (Thai-Burma Railway, Ambon or Rabaul); explain at least one significant difference between treatment under German and Japanese control.",
+        "typical_width": "Students investigate POW experiences under Japanese control across specific contexts — the Thai-Burma Railway, camps at Ambon and Rabaul, Singapore-based camps; examine the treatment and conditions including forced labour, inadequate food and medical care, and systematic violence; compare this with POW experiences under German control; examine the particular situation of army nurses captured at Singapore; use primary sources including survivor testimony to understand the experience from the inside.",
+        "wider": [
+          "Examine the long-term psychological and social effects on returning POWs — comparing this to the Y9 study of returned WW1 soldiers to assess whether Australia's treatment of veterans improved between the wars",
+          "Investigate the Sandakan death marches as the worst atrocity suffered by Australian POWs — examining what the historical record reveals about the final stages of the Pacific war and why this episode is less well-known than the Thai-Burma Railway"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The comparison between German and Japanese POW treatment raises genuinely analytical questions about the relationship between ideology, military culture, and the laws of war. Survivor testimony provides rich primary source material for AC9HH10S03 and S04 work.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Using multiple POW contexts — Thai-Burma Railway, Ambon, Rabaul, Singapore nurses — prevents students from generalising one experience as universal and builds the evidential range needed for genuine comparison.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes the experiences of Australian POWs in at least one specific Japanese-controlled context with detail",
+          "Explains at least one significant difference between treatment under German and Japanese control",
+          "Explains the experiences of at least one specific group (e.g. nurses, forced labour on the Thai-Burma Railway) as distinct from the general POW experience"
+        ],
+        "related_standards": ["AC9HH10S03", "AC9HH10S04", "AC9HH10S06"]
+      },
+      {
+        "id": 5,
+        "label": "Perspectives across service groups — integration",
+        "progression_checkpoint": "Students can explain and compare the perspectives and experiences of different groups of Australians who served in WW2, demonstrating that 'the Australian WW2 experience' was not uniform.",
+        "minimum_width": "Students compare the perspectives and experiences of at least two distinct groups — explaining at least one significant difference in terms of theatre, role, or identity.",
+        "typical_width": "Students integrate knowledge from N1–N4 to compare perspectives across groups: soldiers in different theatres (desert warfare vs jungle warfare), POWs vs active service personnel, First Nations Australians serving under systemic barriers, women in service roles (WAAAF, AWAS, WRANS) vs combat roles; explain how experience varied by group and context; construct an argument that the descriptor's named examples (Singapore, POWs, Battle of Britain, Kokoda) represent distinct experiential categories, not a unified narrative.",
+        "wider": [
+          "Examine the experiences of First Nations Australians who served — connecting to K04's home front content — and analyse the contradiction between service and denied citizenship rights as a precursor to the post-war rights movement (K09)",
+          "Compare the Australian experience with the New Zealand or Canadian experience in WW2 — evaluating what was distinctively Australian about Australia's participation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node draws together the geographic (N1), event-specific (N2–N3), and experiential (N4) content into a comparative claim about the diversity of Australian WW2 experience. Analytical tasks requiring students to argue from multiple examples work well here."
+          }
+        ],
+        "success_criteria": [
+          "Compares the perspectives and experiences of at least two distinct groups of Australian service personnel",
+          "Explains at least one significant difference in experience in terms of theatre, role, or group identity",
+          "Constructs a claim that 'the Australian WW2 experience' was not uniform — supported by specific evidence from at least two groups"
+        ],
+        "related_standards": ["AC9HH10K04", "AC9HH10K09", "AC9HH10S06", "AC9HH10S08"]
       }
     ]
   }

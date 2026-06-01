@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10M03",
+    "title": "Apply movement concepts",
+    "description": "apply movement concepts in new or challenging movement situations and analyse the impact each concept has on movement outcomes",
+    "strand": "Moving our bodies",
+    "mode": "B",
+    "prior_knowledge": "Students can create and refine movement strategies to achieve successful outcomes in challenging situations (AC9HP10M02), and have previously demonstrated and explained how movement concepts (effort, space, time, objects, people) can be manipulated to improve outcomes (AC9HP8M03). At Y9-10 the focus shifts to applying concepts in new or challenging situations and analysing the impact of each concept.",
+    "progression_endpoint": "Students apply movement concepts in new or challenging situations and analyse the impact each concept has on movement outcomes, including force absorption, synchronisation, and space/time modifications.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Applying movement concepts in new situations",
+        "progression_checkpoint": "Students can deliberately apply movement concepts in new or challenging movement situations",
+        "minimum_width": "Identify one movement concept (e.g. force, speed, space, time) being applied in a new or challenging situation and explain the intended effect",
+        "typical_width": "Apply movement concepts in new or challenging situations; experiment with the manipulation of force and speed applied to objects to examine differences in movement paths (e.g. topspin, outswing); create and evaluate group performances demonstrating synchronous and individual movements",
+        "wider": [
+          "Apply the concept of force manipulation to two or more different sports or activities — compare how the same concept operates differently across different equipment types and movement contexts",
+          "Investigate how synchronous movement in group performance requires application of multiple concepts simultaneously (time, space, people) — design and evaluate a sequence that demonstrates this",
+          "Apply space and time concepts to analyse and describe how performance has improved through modifications — compare individual and team level impacts"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot deliberately apply a movement concept in a new situation cannot analyse its impact in Node 2 — analysis of impact requires first having intentionally varied the concept so that its effect can be observed.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Movement concepts applied in a single familiar activity may produce pattern-matching rather than genuine concept understanding. Applying the same concept across multiple new or challenging situations — different sports, different equipment, different group configurations — reveals whether students understand the concept or only recognise it in one context.",
+            "flags": ["hinge", "width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-sport force manipulation, synchronous group performance design, and space/time modification analysis each reveal different facets of movement concept application. Students who engage these wider directions develop concept understanding that is genuinely transferable across new movement situations.",
+        "success_criteria": [
+          "Names a specific movement concept and the situation it is being applied in",
+          "Explains the intended effect of applying the concept — not just that they used it",
+          "Application is in a new or challenging context — not a familiar, well-practised one"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Analysing impact of movement concepts",
+        "progression_checkpoint": "Students can analyse the impact of specific movement concepts on movement outcomes",
+        "minimum_width": "Analyse one movement concept and explain its impact on a specific movement outcome — what changed and why",
+        "typical_width": "Analyse how force absorption techniques prevent injury across game situations; analyse how space and time modifications improve individual or team performance; evaluate which techniques for absorbing force are most effective for preventing injury in different contexts",
+        "wider": [
+          "Analyse force absorption across a range of game situations — evaluate which techniques are most effective, in which contexts, and why — connect to injury prevention and performance",
+          "Analyse how modifying space and time in a team activity changes the nature of the challenge for all participants — evaluate the impact on both performance and inclusion",
+          "Conduct a systematic analysis of one movement concept across a personal performance sequence — trace its impact at each phase and propose concept-specific refinements"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often describe what a movement concept is or how it is used without analysing its impact — they identify that force absorption reduces injury risk without explaining the mechanism (how absorbing force over greater distance or time reduces peak force on joints). The structured reasoning investment is in building the impact chain: concept applied, mechanism, outcome produced.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Force absorption across game situations, space/time impact on inclusion as well as performance, and systematic personal performance analysis each require applying analytical capability to a different dimension of movement concept impact. Students who engage these wider directions develop richer analytical understanding than concept-in-isolation work produces.",
+        "success_criteria": [
+          "Names a specific movement concept and a specific outcome it affected",
+          "Analyses the mechanism — how the concept produced that outcome, not just that it did",
+          "Analysis is specific enough to inform a coaching or refinement decision"
+        ]
+      }
+    ]
+  }
+}

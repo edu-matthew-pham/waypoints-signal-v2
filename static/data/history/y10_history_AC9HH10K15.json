@@ -6,64 +6,94 @@
     "code": "AC9HH10K15",
     "title": "The Universal Declaration of Human Rights",
     "description": "the origins and significance of the Universal Declaration of Human Rights, including Australia's involvement in the development of the declaration",
-    "strand": "Knowledge and Understanding",
+    "strand": "History (Knowledge and Understanding)",
     "mode": "A",
-    "prior_knowledge": "Students have studied significant international agreements and declarations prior to WWII, including the League of Nations and the context of interwar international law.",
-    "progression_endpoint": "Students describe the origins and significance of the Universal Declaration of Human Rights, explain Australia's involvement in its development, and investigate its present significance.",
+    "prior_knowledge": "Students have examined the Holocaust's scale and significance and its role in motivating international human rights frameworks (AC9HH10K03, N5). They have examined Australia's role in founding the United Nations (K05, N3). They have studied international human rights frameworks in K13. They have not yet examined the UDHR's specific content, drafting history, or present significance in detail.",
+    "progression_endpoint": "Students explain the origins and significance of the Universal Declaration of Human Rights, including Australia's involvement in its development and its present significance.",
     "nodes": [
       {
         "id": 1,
-        "label": "Origins and Australia's role",
-        "progression_checkpoint": "Students can describe the causes of the development of the UDHR and explain Australia's involvement in its drafting.",
-        "minimum_width": "Describe at least two causes of the UDHR's development and explain the role Australia played in its drafting.",
-        "typical_width": "Describe the causes of the UDHR's development — the atrocities of the Holocaust, the immense scale of destruction and displacement caused by the Second World War, the failure of the pre-war international legal order to prevent genocide — explaining why these events made a new international human rights framework necessary; explain Australia's involvement including the roles of HV Evatt (President of the UN General Assembly when the UDHR was adopted) and Jessie Street in drafting the declaration.",
+        "label": "Origins — the post-war human rights moment",
+        "progression_checkpoint": "Students can explain the causes of the development of the UDHR, connecting the Holocaust, WW2's destruction and displacement, and the founding of the UN as the conditions that made the declaration possible and necessary.",
+        "minimum_width": "Students explain at least two causes of the UDHR's development, connecting each to specific post-war conditions.",
+        "typical_width": "Students examine the Holocaust as the primary motivating atrocity — the post-war determination that systematic state-sponsored genocide must never be possible again; examine the scale of WW2's destruction and displacement — 60 million dead, millions of refugees, cities destroyed — as the context for a new international order; explain how the founding of the UN created the institutional vehicle through which a declaration was possible; connect to K05's content on the UN founding and K03's Holocaust significance content.",
         "wider": [
-          "Examine the drafting debates that shaped the UDHR — investigating which rights were contested (e.g. economic and social rights vs civil and political rights) and what the negotiations reveal about the political context of 1948",
-          "Investigate Jessie Street's advocacy for women's rights in the UDHR drafting process, examining how her work contributed to the document's gender equality provisions and how her contribution has been historically recognised"
+          "Examine the Nuremberg trials as a parallel post-war development — analysing how the trial of Nazi leaders established individual accountability under international law and how this connected to the UDHR's project of universal rights",
+          "Investigate the role of the 1948 Genocide Convention alongside the UDHR — examining how the two documents together addressed the specific lessons of the Holocaust"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "Understanding why the UDHR was created — the specific historical conditions that made it both possible and urgent — is the prerequisite for understanding its content and significance. Students who treat it as a general good idea cannot explain why 1948 specifically, why these rights, or why Australia's involvement was significant.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "The UDHR's origins are directly caused by the Holocaust and WWII — make this causal link explicit. Students who have studied K03 (Holocaust) should be able to construct the causal argument themselves: 'The Holocaust demonstrated that X, therefore the UDHR was designed to ensure Y.'"
+            "reason": "Students commonly treat the UDHR as obviously a good idea without examining the specific historical conditions that produced it. Connecting each cause (Holocaust, scale of destruction, UN founding) to specific features of the declaration builds the analytical link between historical conditions and institutional response.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Describe at least two causes of the development of the Universal Declaration of Human Rights",
-          "Explain Australia's involvement in drafting the UDHR, naming at least one individual and their contribution",
-          "Connect the origins of the UDHR to specific events of the Second World War studied earlier in the course"
-        ]
+          "Explains at least two causes of the UDHR's development with specific historical evidence",
+          "Connects the Holocaust explicitly to the UDHR's development — explaining the mechanism, not merely the association",
+          "Explains how the UN provided the institutional vehicle for the declaration"
+        ],
+        "related_standards": ["AC9HH10K03", "AC9HH10K05", "AC9HH10S05"]
       },
       {
         "id": 2,
-        "label": "Present significance",
-        "progression_checkpoint": "Students can investigate the present significance of the Universal Declaration of Human Rights as a living international instrument.",
-        "minimum_width": "Explain at least two ways the UDHR remains significant today.",
-        "typical_width": "Investigate the present significance of the UDHR as a living instrument: its influence on subsequent international law (covenants, conventions, UNDRIP), its use in domestic courts and policy debates, its invocation by civil rights movements (including First Nations campaigns in Australia), and ongoing debates about which rights it protects and how they should be enforced.",
+        "label": "Australia's involvement — HV Evatt and Jessie Street",
+        "progression_checkpoint": "Students can explain Australia's specific involvement in the development of the UDHR, including the roles of HV Evatt and Jessie Street.",
+        "minimum_width": "Students explain Australia's role in developing the UDHR, identifying HV Evatt and Jessie Street and describing their specific contributions.",
+        "typical_width": "Students examine HV Evatt's role as President of the UN General Assembly (1948–49) and his chairmanship of the UN committee overseeing the UDHR's final adoption; examine Jessie Street's contribution to the human rights language in the UN charter — particularly the inclusion of women's rights and the non-discrimination principle; explain why Australia's involvement was more than symbolic — Evatt and Street made substantive contributions to the document's content; connect to K05's content on Australia's post-war international aspirations.",
         "wider": [
-          "Investigate how the UDHR has been invoked in First Nations Australians' rights campaigns, examining the relationship between universal human rights principles and the specific rights claims of First Peoples — including the development of UNDRIP as a more targeted instrument",
-          "Examine a specific contemporary human rights case or campaign that invokes the UDHR, analysing how the document is used as both a legal reference and a moral argument"
+          "Examine the drafting process in depth — analysing how competing national interests (Soviet bloc, colonial powers, the USA) shaped which rights were included and how they were framed",
+          "Investigate Jessie Street's broader activism — examining how her involvement in the UDHR connected to her domestic campaigns for women's rights and First Nations rights in Australia"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The drafting process and competing national interests offer rich analytical content — students can examine how the UDHR's text reflects political compromise as well as principle. Jessie Street's multi-front activism connects domestic and international rights work in a productive way.",
         "response_modes": [
           {
-            "mode": "integration",
-            "reason": "This node integrates K15's origins story with the civil rights themes of K09–K13 — the UDHR's present significance is most clearly seen in its application to the rights of First Nations Australians, women, and migrants examined throughout the course.",
+            "mode": "structured_reasoning",
+            "reason": "Students need to understand Australia's involvement as substantive — not merely presence at a document signing. Making Evatt's chairing role and Street's specific textual contributions explicit builds the case for Australia's genuine contribution rather than peripheral participation.",
             "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The UDHR's application to First Nations rights (including UNDRIP) connects directly to K09–K13, making this a productive integration point for the course's civil rights themes. Students can examine how universal rights principles interact with specific group rights claims.",
         "success_criteria": [
-          "Explain at least two ways the Universal Declaration of Human Rights remains significant today",
-          "Describe how the UDHR has influenced subsequent international law or domestic policy",
-          "Explain the connection between the UDHR and the rights campaigns of First Nations Australians, women, or migrants studied earlier in the course"
+          "Explains HV Evatt's specific role in the UDHR's adoption",
+          "Explains Jessie Street's contribution to the human rights language in the UN charter",
+          "Evaluates why Australia's involvement was substantive rather than merely symbolic"
         ],
-        "notes": "Limited width descriptor — only two elaborations. Both are used across Nodes 1 and 2. Wider items deepen the analysis within the same document's origins and significance rather than adding new phenomena."
+        "related_standards": ["AC9HH10K05", "AC9HH10S06"]
+      },
+      {
+        "id": 3,
+        "label": "The UDHR's present significance",
+        "progression_checkpoint": "Students can investigate the present significance of the UDHR — examining how it is used, what it has achieved, and what limits it faces.",
+        "minimum_width": "Students explain at least two ways the UDHR is significant today and identify at least one limit of its effectiveness.",
+        "typical_width": "Students examine the UDHR's influence on subsequent international conventions (ICCPR, ICESCR, Convention on the Rights of the Child, CEDAW, UNDRIP); examine how it has been used by advocacy groups to hold governments accountable; examine cases where the UDHR has been violated and how the international community has responded; evaluate the gap between the UDHR's aspirations and its enforcement — it has no binding mechanism; examine Australia's responsibilities as a signatory and how these connect to K13's content.",
+        "wider": [
+          "Examine a specific contemporary human rights case in which the UDHR has been invoked — analysing how the document is used in practice and what its invocation achieves or fails to achieve",
+          "Evaluate whether the UDHR remains adequate for contemporary rights challenges — examining debates about economic rights, digital rights, environmental rights, and the rights of non-citizens"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The gap between the UDHR's aspirations and its enforcement mechanism is a rich analytical question that connects historical origins to present-day practice. The contemporary adequacy debate invites genuine argument about whether a 1948 document meets the rights challenges of the 21st century.",
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node draws together the origins (N1), Australia's involvement (N2), and the UDHR's content into an account of its present significance. Tasks requiring students to evaluate both achievements and limits work well here.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains at least two ways the UDHR is significant today",
+          "Identifies at least one limit of the UDHR's effectiveness — explaining the mechanism of that limit",
+          "Connects the UDHR to at least one subsequent international convention or framework"
+        ],
+        "related_standards": ["AC9HH10K13", "AC9HH10S07", "AC9HH10S08"]
       }
     ]
   }

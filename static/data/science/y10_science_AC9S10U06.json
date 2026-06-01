@@ -4,72 +4,127 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S10U06",
-    "title": "Atomic Structure and the Periodic Table",
+    "title": "Periodic Table and Atomic Structure",
     "description": "explain how the structure and properties of atoms relate to the organisation of the elements in the periodic table",
     "strand": "Chemical Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can describe the nuclear model of the atom and explain isotopes and radioactivity (AC9S9U06). They have classified matter as elements, compounds and mixtures (AC9S8U06). They have not yet used the Bohr model to explain periodic table organisation or connected electron shell structure to element properties.",
-    "progression_endpoint": "Students use the Bohr model to describe electron shell structure, explain how electron arrangement determines element properties, identify patterns in the periodic table including group similarities and period trends, and connect spectroscopic evidence to the development of the atomic model.",
+    "prior_knowledge": "Students can classify matter as elements, compounds or mixtures and use symbols, formulas and models to represent them (AC9S8U06). They can explain how atomic theory developed through the discovery of subatomic particles and describe how radioactive decay produces stable atoms (AC9S9U06). They have the Bohr model of the atom as prior knowledge — protons, neutrons and electrons in shells — but have not yet examined how electron shell configuration determines an element's chemical properties, or how repeating patterns in electron configuration are the basis for periodic table organisation.",
+    "progression_endpoint": "Students explain how the structure of atoms — particularly outer electron shell configuration — determines the physical and chemical properties of elements and accounts for the organisation and repeating patterns of the periodic table.",
     "nodes": [
       {
         "id": 1,
-        "label": "The Bohr model describes electron shell structure",
-        "progression_checkpoint": "Students can use the Bohr model to describe the electron shell structure of elements — drawing models showing electron arrangement across shells — and explain that electrons occupy discrete shells at increasing distances from the nucleus.",
-        "minimum_width": "Students draw Bohr models for at least three elements across different periods, correctly placing electrons in shells.",
-        "typical_width": "Students draw Bohr models for elements across periods 1-3; explain that electrons fill shells from innermost outward; describe the capacity of each shell; and explain how the Bohr model improved on Rutherford's nuclear model by placing electrons in discrete energy levels rather than orbiting freely.",
+        "label": "Electron shell configuration and the Bohr model",
+        "progression_checkpoint": "Students can draw or describe the electron shell configuration of elements 1–20 using the Bohr model and explain the shell-filling rules.",
+        "minimum_width": "Students correctly assign electrons to shells for at least five elements and state the maximum electron capacity of the first three shells.",
+        "typical_width": "Students draw Bohr diagrams for elements 1–20; state shell capacities (2, 8, 8); identify the number of outer-shell electrons for any element 1–20; explain that the number of outer-shell electrons is the key variable for chemical behaviour; connect to the prior atomic model from AC9S9U06.",
         "wider": [
-          "Examine how the development of the spectroscope provided evidence for discrete electron energy levels — connecting observable spectral lines to the idea that electrons occupy specific energy states (AC9S10H01, AC9S9U06)",
-          "Conduct flame tests for selected elements and examine emission spectra — observing the evidence base for the Bohr model directly",
-          "Compare the Bohr model with earlier atomic models (Rutherford, Thomson) — examining how each revision was driven by new evidence"
+          "Investigate emission spectra from flame tests and explain how spectral lines relate to electron energy levels — connecting the visible pattern to the Bohr model",
+          "Examine how the development of the spectroscope enabled scientists to probe atomic structure — what did spectral lines reveal that earlier atomic models could not explain?"
         ],
         "hinge": true,
-        "hinge_reason": "Node 2 requires students to use outer electron number to explain group properties and period trends. Students who cannot correctly assign electrons to shells will misread outer electron count and cannot use the periodic table predictively — the terminal skill of the descriptor.",
+        "hinge_reason": "Outer electron shell configuration is the structural variable the entire periodic table organisation depends on. Students who cannot correctly assign outer electrons for a given element cannot explain why elements in the same group share properties (N2), cannot interpret periodic trends (N3), and cannot use the table predictively (N4).",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "context_breadth",
-            "reason": "Drawing Bohr models for elements across periods 1-3 — and, for advancing students, connecting those models to flame test and emission spectrum evidence — builds the electron shell fluency required for outer electron reasoning in Node 2. Width investment at this node serves the cascade prevention (correct shell filling precedes outer electron counting) and the enrichment opportunity (evidential connection to the Bohr model).",
-            "flags": [
-              "hinge",
-              "width_opportunity"
-            ]
+            "mode": "consolidation",
+            "reason": "Electron shell assignment requires procedural precision — filling shells in order, knowing capacities, correctly identifying outer-shell electrons. Students need practice and error-checking at the diagram level before the pattern-recognition work of N2 is meaningful.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Flame test and emission spectrum investigation provides a genuinely satisfying evidential connection — students observe the phenomenon that motivated the Bohr model rather than just being told electrons occupy shells. The spectroscope-to-model-revision direction (AC9S10H01) connects atomic structure to the history of scientific knowledge development.",
         "success_criteria": [
-          "Draws Bohr models for at least three elements with electrons correctly distributed across shells",
-          "Explains that electrons occupy discrete shells at increasing distances from the nucleus"
+          "Draws a correct Bohr diagram for any element 1–20",
+          "States the maximum electron capacity of the first three shells (2, 8, 8)",
+          "Identifies the number of outer-shell electrons for any element 1–20"
         ],
-        "related_standards": [
-          "AC9S9U06",
-          "AC9S10H01"
-        ]
+        "related_standards": ["AC9S9U06", "AC9S8U06"]
       },
       {
         "id": 2,
-        "label": "Electron configuration explains element properties and periodic table patterns",
-        "progression_checkpoint": "Students can explain how the number of outer shell electrons determines an element's chemical properties, identify patterns in the periodic table (group similarities, period trends), and use electron configuration to predict element properties from periodic table position.",
-        "minimum_width": "Students explain why elements in the same group have similar properties using outer electron number, and identify at least two periodic table patterns.",
-        "typical_width": "Students explain how outer electron number determines reactivity and bonding behaviour; identify group patterns (same outer electron count → similar properties) and period trends (progressive shell filling → changing properties); deduce that repeating periodic patterns reflect repeating outer electron shell patterns; investigate physical properties of metals and non-metals; and use the periodic table predictively to infer properties of unfamiliar elements.",
+        "label": "Outer electrons and group properties — why elements in a group behave similarly",
+        "progression_checkpoint": "Students can explain why elements in the same group of the periodic table have similar chemical properties by reference to their outer electron shell configuration.",
+        "minimum_width": "Students explain that elements in the same group have the same number of outer-shell electrons and use this to explain at least one shared property of a named group (e.g. Group 1 all react with water).",
+        "typical_width": "Students compare outer electron counts across groups 1, 2, 17 and 18; explain why noble gases are unreactive (full outer shell); explain why alkali metals are highly reactive (one outer electron, easily lost); describe group trends as evidence that outer electrons determine reactivity; connect to the concept of valence.",
         "wider": [
-          "Analyse periodic table patterns to predict properties of elements not directly studied — using the table predictively rather than as a reference list",
-          "Compare merits and limitations of the periodic table as a representation vs graphical representations of properties such as melting point — examining what each reveals and obscures (AC9S10I04)",
-          "Examine how the development of the spectroscope led to refinement of the atomic model — connecting electron energy level evidence to the organisation of the periodic table"
+          "Investigate the physical properties of metals and non-metals in groups 1 and 17 — how do their electron configurations predict their physical as well as chemical properties?",
+          "Compare the reactivity of Group 1 elements (Li, Na, K) with water and explain the trend using outer electron configuration and atomic radius"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "The outer-electron-determines-group-property connection is the conceptual bridge between atomic structure and periodic table organisation. Students who cannot explain group properties by electron configuration cannot understand why the table is organised as it is (N3), cannot predict element behaviour from position (N4), or explain periodic trends as patterns rather than arbitrary facts.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Group property comparisons — alkali metals, halogens, noble gases — are genuinely rich investigative contexts. Physical property investigation, reactivity trends, and the connection between electron loss/gain and reactivity all offer depth without accelerating beyond Year 10.",
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students often see the periodic table as arbitrary organisation rather than as a map of electron structure. Making the connection explicit — same outer electrons → same group → same properties → predictable chemistry — is the scaffold that allows students to use the table predictively rather than as a reference list. Without this, the periodic table is memorisation rather than understanding."
+            "reason": "Students commonly learn group properties as lists (alkali metals are reactive, noble gases are inert) without connecting them to electron configuration. Making the explanatory link explicit — the same outer electron count produces the same chemical behaviour — is the conceptual move that makes the periodic table a predictive tool rather than a lookup table.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Comparing multiple groups (1, 2, 17, 18) and investigating both physical and chemical properties builds genuine pattern-recognition across the table. Each group is a different application of the same principle.",
+            "flags": ["width_opportunity"]
           }
         ],
+        "success_criteria": [
+          "Explains that elements in the same group have the same number of outer-shell electrons",
+          "Uses outer electron configuration to explain the shared chemical properties of at least one group",
+          "Contrasts a reactive group (e.g. Group 1) with noble gases using outer electron configuration"
+        ],
+        "related_standards": ["AC9S9U06", "AC9S8U06"]
+      },
+      {
+        "id": 3,
+        "label": "Periodic trends — why properties repeat across periods",
+        "progression_checkpoint": "Students can describe repeating patterns of properties across the periodic table and explain them as a consequence of repeating outer electron shell configurations.",
+        "minimum_width": "Students identify that a new period begins when a new electron shell starts filling and explain that properties repeat because outer electron counts repeat.",
+        "typical_width": "Students describe how atomic number increases across a period while outer electrons increase from 1 to 8 before resetting; explain metallic character decreasing across a period; describe trends in reactivity within groups; explain that the period number indicates the number of occupied electron shells; interpret the table's structure as a map of electron configuration.",
+        "wider": [
+          "Analyse the historical development of the periodic table — why did Mendeleev's table work before electron theory was established, and what does this suggest about the relationship between pattern and explanation?",
+          "Examine an extended periodic table section (transition metals) and explain why their properties are more similar across periods than main group elements"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The periodicity of the table — why it has the structure it does, with periods and groups — is not obvious to students who learned the table as a given organisational chart. Making the electron-shell-reset the explicit explanation for period structure completes the descriptor's 'relate structure of atoms to organisation' demand."
+          }
+        ],
         "success_criteria": [
-          "Explains why elements in the same group have similar chemical properties using outer electron number",
-          "Uses an element's position in the periodic table to predict at least one property, with reasoning"
-        ]
+          "Explains that a new period begins when electrons start filling a new shell",
+          "Describes that properties repeat across periods because outer electron configurations repeat",
+          "Interprets the position of an element in the table in terms of its electron shell configuration"
+        ],
+        "related_standards": ["AC9S9U06"]
+      },
+      {
+        "id": 4,
+        "label": "Using atomic structure to predict and explain element properties",
+        "progression_checkpoint": "Students can use the position of an element in the periodic table to predict its electron configuration and properties, and explain those properties in terms of atomic structure.",
+        "minimum_width": "Students predict the number of outer-shell electrons and describe the likely reactivity of an unnamed element given only its position in the periodic table.",
+        "typical_width": "Students predict whether an element is a metal or non-metal, its likely reactivity, and its likely bonding behaviour from table position; explain flame test results using electron energy transitions; evaluate how atomic structure knowledge enabled development of the modern periodic table; use the table as a predictive tool rather than a reference list.",
+        "wider": [
+          "Investigate Mendeleev's prediction of undiscovered elements — how did electron-configuration logic (before it was understood) allow gaps to be correctly identified?",
+          "Examine how the spectroscope's role in identifying elemental composition (flame tests, emission spectra) connected atomic structure evidence to table organisation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node is the descriptor's full demand — using atomic structure (electron configuration) to explain both properties and organisation. Students apply everything from N1–N3 to treat the table as a predictive model, not a lookup. The flame test and emission spectra elaborations are best placed here as application contexts."
+          }
+        ],
+        "success_criteria": [
+          "Predicts the outer electron configuration and likely properties of an element from its table position",
+          "Explains at least two element properties in terms of atomic structure",
+          "Uses the periodic table as a predictive tool — not just a reference — for an unfamiliar element"
+        ],
+        "related_standards": ["AC9S9U06", "AC9S8U06"]
       }
     ]
   }

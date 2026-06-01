@@ -1,0 +1,76 @@
+{
+  "year_level": "F",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HPFM04",
+    "title": "Fair Play Rules",
+    "description": "follow rules to promote fair play in a range of physical activities",
+    "strand": "Movement and Physical Activity",
+    "mode": "A",
+    "prior_knowledge": "No prior HPE curriculum. Students bring informal social experience of turn-taking and sharing from play and home contexts. No prior structured engagement with game rules or fair play.",
+    "progression_endpoint": "Students follow rules in a range of physical activities and can identify what fair and unfair play looks like.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Fair and unfair play",
+        "progression_checkpoint": "Students can identify and describe actions that would constitute fair and unfair play in minor games.",
+        "minimum_width": "Identify at least one example of fair play and one example of unfair play in a game they have participated in.",
+        "typical_width": "Identify and describe fair and unfair play actions across a range of minor game contexts; explain why fair play matters to participants.",
+        "wider": [
+          "Explore fair play examples from First Nations Australian games and compare with other game contexts",
+          "Discuss scenarios where intent (accidental vs deliberate) affects judgements about fairness",
+          "Connect fair play to feelings — how unfair play makes participants feel"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify fair and unfair play lack the conceptual foundation to follow rules purposefully (next node) — they comply mechanically at best. The Y1-2 equivalent (co-constructing rules) requires this conceptual base.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Use game stoppages and brief scenario discussions to make fair/unfair distinctions explicit. Foundation students need the concepts named and exemplified concretely before they can apply them.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Varied game contexts — chasing games, target games, cooperative games — reveal that fair play principles are consistent across different rule structures.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-context fair play discussions, including culturally situated examples, build a richer ethical understanding of game participation beyond simple rule compliance.",
+        "success_criteria": [
+          "Names at least one example of fair play and one example of unfair play in a game context",
+          "Gives a simple reason why fair play is important (e.g. so everyone can enjoy the game)"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Following rules in games",
+        "progression_checkpoint": "Students can demonstrate how to play fairly in a range of minor games and play situations, following rules relating to safety, boundaries and equipment use.",
+        "minimum_width": "Follow the rules of one minor game, including safety, boundary and equipment rules, with teacher support.",
+        "typical_width": "Demonstrate fair play across a range of minor games; follow safety, boundary and equipment rules consistently; discuss rules when prompted.",
+        "wider": [
+          "Participate in games with varying rule complexity, applying fair play in each",
+          "Practise a First Nations Australian game with its specific rules and discuss how the rules promote fair participation",
+          "Lead a brief rule explanation for a peer before beginning a game"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Foundation students need repeated practice following rules across multiple game contexts to internalise fair play as a habit, not just a concept. Consistent, low-stakes practice across diverse games builds rule-following disposition.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Follows the safety, boundary and equipment rules of a minor game during participation",
+          "Demonstrates fair play behaviour (e.g. takes turns, respects boundaries, accepts outcomes)"
+        ],
+        "related_standards": ["AC9HPFM01", "AC9HPFP02"]
+      }
+    ]
+  }
+}

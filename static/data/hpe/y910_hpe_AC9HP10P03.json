@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10P03",
+    "title": "Gender equality and violence prevention",
+    "description": "investigate how gender equality and challenging assumptions about gender can prevent violence and abuse in relationships",
+    "strand": "Identities and change",
+    "mode": "B",
+    "prior_knowledge": "Students can refine, evaluate and adapt strategies for managing changes and transitions (AC9HP10P02), and have previously examined how power, coercion and gender stereotypes influence roles and relationships (AC9HP8P03). At Y9-10, the focus moves from examining influence to investigating the causal link between gender assumptions and violence prevention.",
+    "progression_endpoint": "Students investigate how gender equality and challenging gender assumptions can prevent violence and abuse in relationships, including analysing attitudes that excuse or condone gender-based violence and evaluating how equality empowers respectful relationships.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Attitudes that enable gender-based violence",
+        "progression_checkpoint": "Students can analyse how attitudes towards gender equality and power lead to practices of coercion, harassment and violence",
+        "minimum_width": "Identify at least two attitudes or beliefs that can lead to gender-based violence; explain the mechanism — how does holding that attitude translate into harmful behaviour",
+        "typical_width": "Analyse how attitudes towards gender equality and power affect expectations and behaviour, leading to practices of sexual coercion, harassment, violence and submission; investigate and challenge specific attitudes that lead people to enact, excuse or condone gender-based violence",
+        "wider": [
+          "Explore scenarios in texts demonstrating how gender inequality arises from intergenerational patterns of inequity and unequal power, and analyse what makes these patterns self-reinforcing",
+          "Investigate how media representations normalise or challenge attitudes that condone gender-based violence — evaluate a specific example using evidence",
+          "Analyse how the same attitudes play out differently in online versus offline relationships, and what this means for prevention strategies"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot analyse how specific attitudes enable violence cannot make the causal argument in Node 2 — that challenging those attitudes prevents violence. The prevention argument depends entirely on having established the enabling mechanism first.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often assert that certain attitudes are wrong without analysing the mechanism by which they enable harm. The key investment is scaffolding the causal reasoning: what is the attitude, who holds it, in what context does it operate, how does it translate into specific harmful behaviours. Without this chain the prevention argument in Node 2 has no foundation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two specific attitudes or beliefs linked to gender-based violence",
+          "Explains how each attitude translates into harmful behaviour — not just that it does, but how",
+          "Does not conflate gender-based violence with all relationship conflict — recognises the specific role of power and gender norms"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Gender equality as prevention",
+        "progression_checkpoint": "Students can evaluate how gender equality and challenging gender assumptions can prevent violence and empower respectful relationships",
+        "minimum_width": "Explain one way in which greater gender equality reduces the conditions that enable violence or coercion in relationships",
+        "typical_width": "Evaluate how gender equality empowers people to develop equal and respectful relationships; propose strategies for challenging gender inequality in their own communities; examine intergenerational patterns of inequity and propose community-level prevention responses",
+        "wider": [
+          "Design and evaluate a community strategy for challenging a specific gender inequality that contributes to relationship violence in a local context",
+          "Investigate how First Nations communities have developed gender equity approaches that reflect cultural sovereignty — evaluate how these differ from and complement mainstream prevention frameworks",
+          "Evaluate the evidence for bystander intervention programs as a gender equality strategy: what do they change, for whom, and under what conditions"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly make the claim that equality prevents violence without evaluating the causal logic. Scaffolding the evaluative argument (if this inequality creates this condition for violence, then reducing this inequality disrupts this condition in this way) is the key teaching investment. The wider directions — First Nations approaches, bystander programs — each require this same evaluative structure applied to a different prevention model.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Community strategy design, First Nations gender equity frameworks, and bystander program evaluation each require applying the prevention logic to a different scale and cultural context. Students who engage these wider directions develop an evaluative capability that goes beyond asserting that equality is good — they can reason about how specific equality-promoting strategies work in specific contexts.",
+        "success_criteria": [
+          "Explains a specific causal link between gender equality and reduced violence or coercion",
+          "Proposes at least one concrete strategy for challenging gender inequality in a named community context",
+          "Reasoning goes beyond assertion — includes evidence, mechanism, or condition under which the strategy works"
+        ]
+      }
+    ]
+  }
+}

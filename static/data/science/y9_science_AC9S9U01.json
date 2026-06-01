@@ -13,60 +13,205 @@
     "nodes": [
       {
         "id": 1,
-        "label": "Body systems coordinate responses to stimuli via receptor-command-effector pathways",
-        "progression_checkpoint": "Students can describe how the body detects a stimulus and coordinates a response through a receptor → command centre → effector pathway, and compare the roles of the nervous and endocrine systems in this process.",
-        "minimum_width": "Students describe the receptor-command centre-effector pathway for one named stimulus, and identify whether the nervous or endocrine system (or both) is involved.",
-        "typical_width": "Students compare electrical (nervous) and chemical (hormonal) signalling as two coordination mechanisms; trace the receptor → command centre → effector pathway for multiple stimuli (temperature change, pathogen detection, dehydration, exercise); explain the relative speed and duration of nervous vs endocrine responses; use flow diagrams or models to represent pathways.",
+        "label": "Stimuli and receptors — detecting change",
+        "progression_checkpoint": "Students can distinguish internal from external stimuli and identify the receptor type involved in detecting a named stimulus.",
+        "minimum_width": "Students identify the stimulus type (internal/external) and name an appropriate receptor for one stimulus example.",
+        "typical_width": "Students sort multiple stimuli into internal/external categories; match stimuli to receptor types; explain why receptor specificity matters; distinguish sensory modalities.",
         "wider": [
-          "Analyse how imaging technologies (MRI, CT, PET scans) have improved understanding of how body systems interact during stimulus-response — connecting technology advances to scientific knowledge (AC9S9H02)",
-          "Investigate how understanding of feedback mechanisms has enabled development of pharmaceuticals — e.g. insulin for diabetes, electrolytes in sports drinks — tracing the science-to-application pathway",
-          "Examine how a disorder in a feedback system (diabetes-induced blindness, hypothermia) disrupts the receptor-command-effector pathway"
+          "Investigate what happens when receptor function is impaired — e.g. sensory neuropathy, colour blindness — and predict consequences for the response pathway",
+          "Compare receptor sensitivity thresholds across modalities — why can we detect very faint sounds but not very faint tastes?"
         ],
         "hinge": true,
-        "hinge_reason": "The receptor → command centre → effector pathway is the structural model that Node 2 (negative feedback) applies directly. Students who cannot trace the pathway for a stimulus cannot locate where the feedback signal enters the loop, and cannot distinguish the set point detection from the corrective effector response.",
+        "hinge_reason": "Receptors are the entry point of the pathway model all subsequent nodes build on. Students who conflate stimulus with receptor, or cannot place the receptor correctly in the pathway, cannot construct the receptor → command centre → effector sequence in N2 or locate where deviation is detected in the feedback loop in N4.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students commonly treat stimulus-response as automatic rather than as coordinated through identifiable pathways involving specific systems. Making the receptor → command centre → effector chain explicit — and distinguishing fast electrical signals (nervous) from slower chemical signals (endocrine) — is the scaffold that allows students to compare and predict system behaviour under different conditions.",
+            "reason": "Students commonly treat stimulus-response as undifferentiated — 'the body just reacts.' Making the receptor explicit as a distinct, specific detection component is the scaffold that allows the pathway model to be built in N2.",
             "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Traces the receptor → command centre → effector pathway for a named stimulus",
-          "Distinguishes the role of the nervous system (fast, electrical) from the endocrine system (slower, chemical) in coordinating responses"
+          "Distinguishes internal from external stimuli with examples",
+          "Identifies an appropriate receptor for a named stimulus and describes its role"
         ],
-        "related_standards": ["AC9S9H02", "AC9S8U02"]
+        "related_standards": ["AC9S8U02"]
       },
       {
         "id": 2,
-        "label": "Negative feedback maintains homeostasis",
-        "progression_checkpoint": "Students can describe how a negative feedback mechanism operates — detecting deviation from a set point, generating a corrective response, and monitoring return to the set point — and give at least two biological examples.",
-        "minimum_width": "Students describe the operation of negative feedback using one biological example, identifying the set point, the deviation, the corrective response, and how return to set point is detected.",
-        "typical_width": "Students describe negative feedback for multiple homeostatic mechanisms (temperature regulation, blood glucose regulation, blood pressure); explain why negative feedback maintains stability rather than amplifying change; model the mechanism using flow diagrams; and explain why homeostasis is essential for cell function.",
+        "label": "Receptor → command centre → effector pathway",
+        "progression_checkpoint": "Students can trace the receptor → command centre → effector pathway for a named stimulus, describing the role of each component.",
+        "minimum_width": "Students trace the three-component pathway for one named stimulus and describe what each component does.",
+        "typical_width": "Students apply the pathway to multiple stimuli; represent pathways as correctly sequenced flow diagrams; explain why all three components are necessary; identify where signals travel between components.",
         "wider": [
-          "Examine how disorders of feedback systems (type 1 diabetes, hypothyroidism, hypertension) represent breakdowns at specific points in the feedback loop — applying the model diagnostically",
-          "Investigate how medical devices (insulin pumps, pacemakers, CPAP machines) artificially replace or supplement natural negative feedback mechanisms",
-          "Develop an interactive presentation showing feedback loops in human body systems — applying digital communication skills to represent dynamic biological processes (AC9S9I08)"
+          "Compare the receptor → command centre → effector model to a technological control system (thermostat, cruise control) — identifying structural parallels and limits of the analogy",
+          "Investigate how pathway disruption at each component produces different failure modes — receptor damage vs command centre damage vs effector damage"
+        ],
+        "hinge": true,
+        "hinge_reason": "The three-component pathway is the structural scaffold N3 and N4 apply directly. Students who cannot place command centre and effector correctly cannot distinguish where nervous vs endocrine signalling differs, and cannot locate the corrective response within the feedback loop.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly skip the command centre and treat stimulus-response as a direct receptor-to-effector connection. Making the command centre explicit — and its role in processing and directing — is the scaffold for comparing neural and endocrine coordination in N3.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Traces the receptor → command centre → effector pathway for a named stimulus",
+          "Describes the distinct role of each component in the response"
+        ],
+        "related_standards": ["AC9S8U02"]
+      },
+      {
+        "id": 3,
+        "label": "Nervous and endocrine systems as coordination mechanisms — signal types and timescales",
+        "progression_checkpoint": "Students can describe how the nervous and endocrine systems each implement the receptor → command centre → effector pathway, distinguishing signal type, speed, and duration.",
+        "minimum_width": "Students describe the nervous system as using electrical signals (fast, short duration) and the endocrine system as using hormonal signals (slower, longer duration) for one named example of each.",
+        "typical_width": "Students trace the nervous and endocrine implementations of the pathway for multiple stimuli; explain why electrical signals travel faster than hormonal signals; identify glands as endocrine command centres and target organs as effectors; explain why some responses use both systems.",
+        "wider": [
+          "Map a dual-system response (e.g. the stress response — adrenaline and rapid nerve signals) showing staged timelines for each system",
+          "Examine how drugs affecting synaptic transmission (local anaesthetics, nerve agents) or hormone receptors (hormone therapy, endocrine disruptors) disrupt specific points in each system's pathway"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat the nervous and endocrine systems as entirely separate rather than as two implementations of the same pathway model. Explicitly mapping each system onto the receptor → command centre → effector structure builds the parallel representation needed for comparison in N4."
+          }
+        ],
+        "success_criteria": [
+          "Describes the nervous system pathway for a named stimulus, identifying electrical signalling and fast, short response",
+          "Describes the endocrine system pathway for a named stimulus, identifying hormonal signalling, bloodstream transport, and slower, sustained response"
+        ],
+        "related_standards": ["AC9S8U02"]
+      },
+      {
+        "id": 4,
+        "label": "Comparing nervous and endocrine coordination",
+        "progression_checkpoint": "Students can compare the nervous and endocrine systems on signal type, speed, duration, and specificity, and predict which system coordinates a given stimulus.",
+        "minimum_width": "Students produce a comparison of the two systems on at least three dimensions: signal type, response speed, and response duration.",
+        "typical_width": "Students compare across signal type, speed, duration, specificity, and reversibility; explain why different stimuli are coordinated by different systems or both; predict which system coordinates a novel stimulus and justify; use annotated diagrams or comparison tables.",
+        "wider": [
+          "Analyse the stress response as a case where both systems coordinate simultaneously — explaining the advantage of dual coordination",
+          "Examine how imaging technologies (MRI, PET scans) have enabled real-time observation of nervous and endocrine activity — connecting technology advances to scientific knowledge (AC9S9H02)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Comparison of the two systems is the explicit demand of the descriptor's 'compare' verb and the progression endpoint. Students who cannot compare beyond surface-level listing cannot apply the model predictively or evaluate why disorders of one system produce different consequences than disorders of the other.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "Dual-system coordination cases and predictive application tasks provide genuinely rich directions. The technology-observation connection (AC9S9H02) is a meaningful cross-strand extension.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly list features of each system separately rather than constructing a genuine comparison. Structured comparison tasks — same stimulus, both systems, same dimensions — build the analytical habit the descriptor requires.",
+            "flags": ["hinge"]
+          },
+          {
             "mode": "context_breadth",
-            "reason": "Students commonly understand negative feedback from one example (temperature regulation) but cannot apply the model to other homeostatic systems. Encountering the same feedback structure across blood glucose, blood pressure, and hormone regulation builds a more generalisable model that students can apply to novel cases.",
+            "reason": "Encountering the comparison across multiple stimulus types (temperature, blood glucose, stress, exercise) builds a more generalisable model than a single comparison task.",
             "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Medical device applications and disorder analysis provide genuinely rich real-world directions. The interactive presentation direction (AC9S9I08) provides a meaningful cross-strand connection that challenges students to represent dynamic processes digitally.",
         "success_criteria": [
-          "Describes the operation of negative feedback for a named homeostatic mechanism — identifying set point, deviation, corrective response and return detection",
-          "Explains why negative feedback maintains stability rather than amplifying change",
-          "Names at least two biological examples of negative feedback"
+          "Compares the nervous and endocrine systems on signal type, speed, and duration",
+          "Predicts which system coordinates a given novel stimulus and justifies the prediction"
         ],
-        "related_standards": ["AC9S9H02", "AC9S9I08"]
+        "related_standards": ["AC9S9H02"]
+      },
+      {
+        "id": 5,
+        "label": "Negative feedback architecture — set point, deviation, corrective response, return detection",
+        "progression_checkpoint": "Students can describe the four components of a negative feedback mechanism and explain why it maintains stability rather than amplifying change.",
+        "minimum_width": "Students label and describe the role of each of the four components in a negative feedback loop using a generic or diagrammatic model.",
+        "typical_width": "Students represent negative feedback as a complete flow diagram; explain why the mechanism is called 'negative'; distinguish negative from positive feedback; explain why homeostasis is essential for cell function.",
+        "wider": [
+          "Compare negative and positive feedback — identifying where positive feedback is used in biological systems (childbirth, blood clotting) and why amplification is appropriate in those contexts",
+          "Model the feedback architecture using a non-biological analogy and evaluate the strengths and limits of the analogy"
+        ],
+        "hinge": true,
+        "hinge_reason": "The four-component abstract model is the scaffold N6 applies to biological cases and N7 applies to disorder analysis. Students who cannot identify set point, deviation, corrective response, and return detection in a generic model cannot locate these elements in a specific biological system or identify which component fails in a disorder.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly understand feedback from examples without being able to articulate the abstract architecture. Making the four components explicit — and distinguishing 'negative' as opposing rather than bad — is the scaffold that allows transfer to novel biological cases in N6 and disorder analysis in N7.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Labels and describes the role of each of the four components of a negative feedback loop",
+          "Explains why the mechanism is described as 'negative' — it opposes rather than amplifies deviation"
+        ],
+        "related_standards": []
+      },
+      {
+        "id": 6,
+        "label": "Negative feedback in canonical biological cases — tracing complete loops",
+        "progression_checkpoint": "Students can trace a complete negative feedback loop for at least two named biological examples, correctly identifying all four components in each.",
+        "minimum_width": "Students trace the complete negative feedback loop for one biological example (temperature regulation or blood glucose), identifying all four components.",
+        "typical_width": "Students trace feedback loops for multiple homeostatic systems (temperature, blood glucose, blood pressure, hydration); explain why homeostasis is essential for cell function; use annotated flow diagrams with correct directionality.",
+        "wider": [
+          "Develop a model, animation or presentation representing a named feedback loop — applying digital communication skills to represent dynamic biological processes (AC9S9I08)",
+          "Investigate how pharmaceutical interventions target specific points in the feedback loop — e.g. beta blockers reducing heart rate response, metformin improving glucose uptake"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digital representation tasks (AC9S9I08) and pharmaceutical applications provide rich real-world directions. Tracing loops across multiple systems builds the generalisable model needed for disorder analysis in N7.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Tracing complete loops with all four components correctly placed requires precision. Common errors — confusing set point with corrective response, omitting return detection — are worth targeted practice before disorder analysis in N7.",
+            "flags": []
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Encountering the same four-component architecture across temperature, blood glucose, and blood pressure builds transferability to novel cases and disorder analysis.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Traces a complete negative feedback loop for a named biological example, correctly identifying all four components",
+          "Names at least two biological examples of negative feedback and identifies the set point in each"
+        ],
+        "related_standards": ["AC9S9I08"]
+      },
+      {
+        "id": 7,
+        "label": "Feedback system disorders — locating failure in the loop",
+        "progression_checkpoint": "Students can explain how a disorder of a feedback system disrupts homeostasis by identifying which component of the loop has failed and describing the consequence.",
+        "minimum_width": "Students explain one feedback system disorder, identifying the affected component (receptor, command centre, effector, or return detection) and describing the homeostatic consequence.",
+        "typical_width": "Students analyse multiple disorders (type 1 diabetes, hypothyroidism, hypertension) by locating the failure point in the loop; explain why the same disorder produces different consequences depending on which component fails; connect disorder analysis to treatment approaches.",
+        "wider": [
+          "Investigate how medical devices (insulin pumps, pacemakers, CPAP machines) artificially replace or supplement the failed component — mapping device function onto the four-component architecture",
+          "Evaluate claims about a health product using the feedback model as a diagnostic lens — identifying what feedback mechanism the product claims to support and whether the claim is coherent"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Medical device analysis provides genuinely rich application directions — mapping device function onto the loop architecture is a meaningful extension. Product claim evaluation challenges students to use the model critically.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe disorders as 'the body not working' without locating the failure within the loop architecture. Explicitly asking 'which component has failed?' applies the four-component model diagnostically and consolidates N5 understanding."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Analysing multiple disorders across different systems reinforces that the same feedback architecture underlies all homeostatic regulation, and that failure at different components produces predictably different consequences.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Identifies which component of the feedback loop fails in a named disorder",
+          "Explains the homeostatic consequence of that failure"
+        ],
+        "related_standards": ["AC9S9H02", "AC9S9H03"]
       }
     ]
   }

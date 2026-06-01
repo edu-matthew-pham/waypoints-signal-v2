@@ -4,97 +4,154 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S8U01",
-    "title": "Cell Structure",
-    "description": "investigate cell structure and function, including the role of organelles in plant and animal cells, and explain how the microscope has contributed to this understanding",
+    "title": "Cells as Basic Units",
+    "description": "recognise cells as the basic units of living things, compare plant and animal cells, and describe the functions of specialised cell structures and organelles",
     "strand": "Biological Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can explain the cell as the basic unit of life and describe differences between plant and animal cells at a structural level (AC9S7U01 adjacent — living things and classification). They have not yet examined organelle-level structure and function or connected microscopy technology to the development of cell theory.",
-    "progression_endpoint": "Students investigate the structure and function of organelles in plant and animal cells, explain how the microscope enabled discovery of cell structures that were not observable to the naked eye, and construct or evaluate models of cells that represent organelle arrangement and function.",
+    "prior_knowledge": "Students can group living things by external features (AC9SFU01), compare living and non-living things and life cycles (AC9S3U01), explain how structural features enable survival (AC9S5U01), and classify organisms using dichotomous keys (AC9S7U01). All prior learning is at the organism level — external structures, observable features, habitat relationships. There is no prior curriculum treatment of internal cell structure, cellular scale, or sub-organism organisation.",
+    "progression_endpoint": "Students recognise that all living things are made of cells, compare plant and animal cells identifying structures present in each, and describe the functions of key organelles including nucleus, cell membrane, cell wall, cytoplasm, chloroplasts and vacuoles.",
     "nodes": [
       {
         "id": 1,
-        "label": "Plant and animal cells have distinct organelles",
-        "progression_checkpoint": "Students can identify key organelles in plant and animal cells (nucleus, cell membrane, cytoplasm, mitochondria, cell wall, chloroplasts, vacuole) and state the function of each, distinguishing which organelles are found in plant cells only, animal cells only, or both.",
-        "minimum_width": "Students identify and state the function of at least five organelles across plant and animal cells, correctly distinguishing which are present in each cell type.",
-        "typical_width": "Students describe the function of each major organelle in the context of what the cell needs to do — connecting structure to function — and explain why plant cells have organelles animal cells lack (cell wall for structural support, chloroplasts for photosynthesis, large central vacuole for turgor).",
+        "label": "Cellular scale — why cells are invisible and require magnification",
+        "progression_checkpoint": "Students can describe the scale of cells relative to organisms and explain why microscopes are required to observe them.",
+        "minimum_width": "Students state that cells are microscopic and explain that the microscope was necessary to discover them.",
+        "typical_width": "Students compare cell size to familiar objects using scale diagrams; explain that a human body contains trillions of cells; describe how light microscopes magnify; explain that single-celled organisms are complete living things at microscopic scale; connect the invention of the microscope to cell discovery.",
         "wider": [
-          "Investigate specialist cell types (red blood cells, nerve cells, guard cells, root hair cells) and explain how each cell's organelle complement reflects its specific function",
-          "Examine prokaryotic cells (bacteria) and compare their structure with eukaryotic plant and animal cells — exploring what the absence of a nucleus means for cell function",
-          "Research how advances in electron microscopy revealed organelle structures invisible to light microscopes — connecting technology development to knowledge development (AC9S8H01)"
-        ],
-        "hinge": true,
-        "hinge_reason": "Organelle-function misattribution at this node propagates directly into Node 3 — students who cannot accurately identify organelles and their functions cannot construct or evaluate a meaningful cell model, reducing model work to a labelling exercise without structural reasoning.",
-        "response_modes": [
-          {
-            "mode": "repertoire_building",
-            "reason": "Students need to accumulate an accurate working set of organelle-to-function associations before they can use these in structural analysis or model evaluation tasks. The distinction between plant-only, animal-only and shared organelles is frequently confused and requires deliberate practice across multiple representations.",
-            "flags": ["hinge"]
-          }
-        ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
-        "success_criteria": [
-          "Identifies at least five organelles by name and states the function of each",
-          "Correctly distinguishes which organelles are present in plant cells only, animal cells only, or both"
-        ],
-        "related_standards": ["AC9S8U02", "AC9S8H01"]
-      },
-      {
-        "id": 2,
-        "label": "The microscope enabled discovery of cell structure",
-        "progression_checkpoint": "Students can explain how the invention and improvement of the microscope made cell structures visible that were previously unobservable, and describe how this contributed to the development of cell theory.",
-        "minimum_width": "Students explain that the microscope enabled scientists to observe cells and their internal structures for the first time, and name at least one specific discovery that depended on microscopy.",
-        "typical_width": "Students describe how improvements in microscopy (light → electron microscopy) progressively revealed finer cell structures, explain how these observations contributed to and revised cell theory, and connect technological development to knowledge change.",
-        "wider": [
-          "Construct a timeline showing key microscopy developments and the cell discoveries they enabled — connecting tool development to scientific knowledge change (AC9S8H01)",
-          "Investigate how digital microscopes and imaging software are used in contemporary cell biology — extending the technology-to-knowledge connection to current practice",
-          "Examine how advances in medical imaging (CT, MRI, ultrasound) follow the same pattern as microscopy: new observation technology enabling new understanding of structure"
+          "Trace the historical development of cell discovery — Hooke, Leeuwenhoek, Schleiden, Schwann — and explain what each contribution added to the emerging cell theory",
+          "Use a digital microscope or photomicrographs to observe prepared slides and describe what is visible at different magnifications"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students tend to treat the microscope as merely a magnification tool rather than as the instrument that made an entire category of knowledge possible. Making the reasoning chain explicit — what was not observable → microscope made it observable → this changed what scientists could claim → this produced new understanding — is necessary before students can engage meaningfully with the technology-to-knowledge narrative in AC9S8H01.",
-            "flags": ["width_opportunity"]
+            "reason": "Students enter with entirely organism-level biology. The shift to cellular scale is the entry point for all subsequent nodes — students who do not grasp why cells are invisible cannot make sense of microscopy as a tool or understand why cell theory required new technology to discover."
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The technology-to-knowledge narrative connects directly to AC9S8H01 (new evidence changes scientific knowledge) and offers substantive enrichment. A timeline of microscopy developments provides a structured investigation that goes beyond knowing that microscopes exist to understanding how successive generations of technology enabled successive layers of discovery.",
         "success_criteria": [
-          "Explains that the microscope made cell structures visible that were unobservable to the naked eye",
-          "Names at least one specific cell structure or discovery that required microscopy",
-          "Describes how improved microscopy revealed structures invisible to earlier microscopes"
+          "States that cells are microscopic and not visible to the naked eye",
+          "Explains that microscopes were necessary to discover and observe cells",
+          "Gives an approximate size comparison between a cell and a familiar object"
         ],
-        "related_standards": ["AC9S8H01"]
+        "related_standards": ["AC9S7U01"]
+      },
+      {
+        "id": 2,
+        "label": "Cell theory — all living things are made of cells",
+        "progression_checkpoint": "Students can state that all living things — including plants, fungi and single-celled organisms — are made of cells, and distinguish single-celled from multicellular organisms.",
+        "minimum_width": "Students state cell theory and give one example each of a single-celled and multicellular organism.",
+        "typical_width": "Students apply cell theory universally — explicitly including plants, bacteria and single-celled organisms that students may not intuitively expect to have cells; explain that cells carry out all life processes; describe that multicellular organisms are organised collections of cells; connect to AC9S3U01's living/non-living distinction — cells are what makes something living.",
+        "wider": [
+          "Examine photomicrographs of cells from bacteria, yeast, leaf tissue and human cheek — compare visible structures and discuss what 'cell' means across such different organisms",
+          "Investigate which organisms are single-celled vs multicellular and discuss what this implies about the minimum requirements for life"
+        ],
+        "hinge": true,
+        "hinge_reason": "Cell theory universality is the prerequisite for the plant-animal comparison in N4. Students who believe only animals (or only complex organisms) have cells cannot make sense of the plant cell structures in N3 or explain why plant cells have additional organelles. This misconception is documented and persistent.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The misconception that plants do not have cells, or that only animals have 'real' cells, must be explicitly addressed. Students need to encounter plant cells, fungal cells and bacterial cells as cells before organelle differences are introduced — otherwise the plant-animal comparison in N4 has no foundation.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "States that all living things are made of cells",
+          "Includes plants and single-celled organisms explicitly in this claim",
+          "Distinguishes single-celled from multicellular organisms with examples from each"
+        ],
+        "related_standards": ["AC9S3U01", "AC9S7U01"]
       },
       {
         "id": 3,
-        "label": "Models represent cell structure",
-        "progression_checkpoint": "Students can design or evaluate a physical or digital model of a cell, explaining how the model represents organelle structure and function and identifying at least one limitation of the model.",
-        "minimum_width": "Students design a model of a plant or animal cell that correctly positions and labels at least five organelles, and identify one way the model differs from a real cell.",
-        "typical_width": "Students design a model of a cell with accurate organelle representation, explain how each element of the model represents a real structure or function, and describe at least two limitations of the model — connecting to the general principle that models simplify reality.",
+        "label": "Cell structures shared by plant and animal cells — nucleus, membrane, cytoplasm",
+        "progression_checkpoint": "Students can identify and describe the function of structures present in both plant and animal cells: nucleus, cell membrane and cytoplasm.",
+        "minimum_width": "Students state the function of nucleus, cell membrane and cytoplasm.",
+        "typical_width": "Students describe nucleus as the genetic control centre containing DNA; cell membrane as a selectively permeable barrier controlling what enters and exits; cytoplasm as the aqueous medium in which chemical reactions occur; explain that these three structures are universal — present in essentially all cells; connect nucleus to heredity (DNA) in anticipation of AC9S10U01.",
         "wider": [
-          "Compare 2D and 3D representations of cells and explain what each representation communicates that the other cannot — connecting to the broader use of representations in science",
-          "Evaluate a given cell model (diagram, physical model, digital simulation) against the criterion of accuracy and identify specific improvements",
-          "Design a model that represents a specialist cell type and explain how the organelle complement in the model reflects that cell's specific function"
+          "Investigate what happens when the nucleus is removed from a cell — what does this reveal about its role as control centre?",
+          "Compare the cell membrane to a security checkpoint — what analogy works and where does it break down?"
+        ],
+        "hinge": true,
+        "hinge_reason": "The three shared structures are the foundation for the plant-animal comparison in N4. Students who cannot correctly assign functions to nucleus, membrane and cytoplasm cannot identify what is additional in plant cells or explain why those additions exist.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Structure-function pairing for organelles is most securely learned by connecting physical properties to function. The nucleus contains DNA and directs cell activity; the membrane is a boundary with selectivity; cytoplasm is the medium for chemistry. Learning functions as a list without this reasoning produces rapid forgetting.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "States the function of nucleus, cell membrane and cytoplasm",
+          "Explains at least one structural feature of each that relates to its function",
+          "Identifies these three as structures present in both plant and animal cells"
+        ],
+        "related_standards": ["AC9S8U01"]
+      },
+      {
+        "id": 4,
+        "label": "Plant-specific structures — cell wall, chloroplasts, large central vacuole",
+        "progression_checkpoint": "Students can identify cell wall, chloroplasts and large central vacuole as plant-specific structures and explain the functional significance of each.",
+        "minimum_width": "Students identify the three plant-specific structures and state the function of each.",
+        "typical_width": "Students explain cell wall as rigid structural support (plants lack a skeleton); chloroplasts as sites of photosynthesis (plants are autotrophs); large central vacuole for turgor pressure and storage; explain why animal cells lack these — animals have skeletons, obtain food rather than making it, lack turgor requirements; examine prepared slides or photomicrographs of plant and animal cells; design a physical or digital model justified by function.",
+        "wider": [
+          "Compare cells from different plant tissues — why do root cells lack chloroplasts while leaf mesophyll cells have many? What does this reveal about cell specialisation within a plant?",
+          "Design and justify a cell model — for each modelling choice, explain what it represents accurately and what it simplifies"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cell modelling is explicitly elaborated and genuinely rich — each design decision requires a structure-function justification. Comparing cells across plant tissue types introduces specialisation as a concept that feeds directly into AC9S8U02.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Plant-specific structures are most meaningfully understood as solutions to organism-level problems: no skeleton → need rigid wall; autotrophic → need photosynthesis machinery; osmotic needs → need vacuole. This organism-level reasoning connects to prior survival/adaptation knowledge and prepares the structure-function analysis in AC9S8U02."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Cell modelling, tissue comparison within plants, and microscopy each apply the plant-animal comparison in a different representational context. Each reveals different aspects of the structural differences.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Identifies cell wall, chloroplasts and large central vacuole as plant-specific structures",
+          "Explains the function of each plant-specific structure",
+          "Connects each plant-specific structure to an organism-level need that animal cells do not have"
+        ],
+        "related_standards": ["AC9S5U01"]
+      },
+      {
+        "id": 5,
+        "label": "Additional organelles — mitochondria, ribosomes and cell specialisation",
+        "progression_checkpoint": "Students can describe the roles of mitochondria and ribosomes as organelles present in both cell types, and recognise that cells are specialised — different cells have different organelle complements.",
+        "minimum_width": "Students state the function of mitochondria (energy release) and describe one example of a specialised cell whose organelle complement reflects its function.",
+        "typical_width": "Students describe mitochondria as the site of cellular respiration (energy release for cell activity); ribosomes as protein synthesis sites; explain that the number and type of organelles varies with cell function — muscle cells have many mitochondria, secretory cells have many ribosomes, root hair cells have no chloroplasts; connect organelle complement to the cell's role in the organism; introduce the concept that specialisation is built on the same DNA base.",
+        "wider": [
+          "Investigate a cell disorder that results from organelle malfunction — e.g. mitochondrial disease — and explain how failure at the organelle level affects cell, tissue and organism function",
+          "Explore how augmented or virtual reality tools allow 'zooming in' to explore organelle scale within cells"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "integration",
-            "reason": "Model construction requires students to apply organelle knowledge, function-structure reasoning, and an understanding of what models are for — simultaneously. Students who have organelle knowledge as a list must now deploy it in a spatial, relational representation. The model evaluation task (identifying limitations) requires an additional metacognitive move about the relationship between models and reality."
+            "reason": "This node integrates the structure-function principle established in N3 and N4 into the broader concept of cell specialisation — different organelle complements for different functions. This is the bridge to AC9S8U02's tissue and organ system analysis, where specialisation is the mechanism enabling tissue formation."
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Designs or evaluates a cell model with at least five correctly positioned and labelled organelles",
-          "Explains how at least one element of the model represents a real structure or function",
-          "Identifies at least one way the model differs from or simplifies a real cell"
+          "States the function of mitochondria and ribosomes",
+          "Explains why a named specialised cell has more or fewer of a particular organelle",
+          "Describes cell specialisation as variation in organelle complement reflecting cell function"
         ],
-        "related_standards": ["AC9S8I04"]
+        "related_standards": ["AC9S8U02"]
       }
     ]
   }

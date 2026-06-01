@@ -29,6 +29,20 @@ export interface AvailableStandard {
   strand?: string;
 }
 
+// ── Year → band mapping ─────────────────────────────────────────────────────────
+// Capability strands (Science H/I, Technologies P) are keyed by band in the
+// progression maps, while concept strands sit under individual year keys.
+// Subjects whose authoredYears are already bands (e.g. Tech '7-8') resolve via
+// the year key directly; the band lookup returns undefined for them.
+
+const YEAR_TO_BAND: Record<string, string> = {
+  '1': '1-2', '2': '1-2',
+  '3': '3-4', '4': '3-4',
+  '5': '5-6', '6': '5-6',
+  '7': '7-8', '8': '7-8',
+  '9': '9-10', '10': '9-10',
+}
+
 // ── Caches ────────────────────────────────────────────────────────────────────
 
 const progressionMapCache = new Map<string, ProgressionMap>()
@@ -46,18 +60,40 @@ export async function loadProgressionMap(subject: SubjectConfig): Promise<Progre
   return data
 }
 
+/**
+ * Return standards for a year, checked across three key shapes:
+ *   1. topicKey  — topic-scoped concept standards (History/Geography Y7–10)
+ *   2. year      — flat year key (HASS-family skills)
+ *   3. bandKey   — banded capability strands (Science H/I, Technologies P)
+ * Deduplicates by code (first key wins). Only standards with a resolvable node
+ * file appear, so capability standards surface once their files are in the
+ * subject config.
+ */
 export function getStandardsForYear(
   map: ProgressionMap,
   subject: SubjectConfig,
   year: string,
   topicKey?: string
 ): AvailableStandard[] {
-  const key = topicKey ?? year
-  const yearData = map.year_levels[key]
-  if (!yearData) return []
-  return yearData.standards
-    .filter((std) => nodeFileForCode(subject, std.code) !== undefined)
-    .map((std) => ({ code: std.code, title: std.title, strand: std.strand_key }))
+  const keys = [topicKey, year, YEAR_TO_BAND[year]].filter(
+    (k): k is string => Boolean(k),
+  )
+
+  const seen = new Set<string>()
+  const out: AvailableStandard[] = []
+
+  for (const key of keys) {
+    const yearData = map.year_levels[key]
+    if (!yearData) continue
+    for (const std of yearData.standards) {
+      if (seen.has(std.code)) continue
+      if (nodeFileForCode(subject, std.code) === undefined) continue
+      seen.add(std.code)
+      out.push({ code: std.code, title: std.title, strand: std.strand_key })
+    }
+  }
+
+  return out
 }
 
 // ── Node files ────────────────────────────────────────────────────────────────

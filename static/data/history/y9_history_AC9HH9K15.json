@@ -4,85 +4,113 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH9K15",
-    "title": "Effects of Population Movements and Settlement Changes in the Industrial Period",
+    "title": "Effects of Population Movements — Short, Medium and Long-term",
     "description": "the short-, medium- and long-term effects of population movements and changing settlement patterns during this period, such as global demographic changes, transport, new ideas, and political and social reforms",
     "strand": "Knowledge and Understanding",
     "mode": "A",
-    "prior_knowledge": "Students have studied the causes and effects of the Industrial Revolution (AC9HH9K13) and the specific population movements of the period (AC9HH9K014). They understand the technological and economic drivers of change. This descriptor asks them to examine the temporal span of the effects — short, medium, and long-term — across demographic, transport, ideational, and reform dimensions.",
-    "progression_endpoint": "Students describe the short-, medium- and long-term effects of population movements and changing settlement patterns during the industrial period.",
+    "prior_knowledge": "Students can describe the movement of peoples and the growth of industrial cities (AC9HH9K014, AC9HH9K13). They have not yet applied a short/medium/long-term temporal framework to evaluate effects, or examined how population movements produced effects across multiple timescales simultaneously.",
+    "progression_endpoint": "Students describe the short-, medium- and long-term effects of population movements and changing settlement patterns — including the impact of factories, mines and cities on the environment; the impact of the steam engine on transport, manufacturing and trade; and how social and political reforms resulted in higher living standards.",
     "nodes": [
       {
         "id": 1,
-        "label": "Environmental and demographic impacts",
-        "progression_checkpoint": "Students can describe the impact of factories, mines and cities on the environment and on population growth and distribution.",
-        "minimum_width": "Describe one environmental and one demographic impact of the Industrial Revolution on population and settlement.",
-        "typical_width": "Describe the impact of factories, mines and cities on the environment (river pollution, air quality, industrial waste, urban overcrowding); describe how industrialisation transformed population distribution (rural-to-urban shift, growth of industrial cities, population growth from improved food supply and medicine); explain how these changes were interconnected.",
+        "label": "Short/medium/long-term as an analytical framework",
+        "progression_checkpoint": "Students can explain the short/medium/long-term analytical framework and apply it to distinguish immediate, developing, and lasting effects of a historical process.",
+        "minimum_width": "Students define each temporal category and apply the framework to one example — identifying one short-term, one medium-term, and one long-term effect of a named historical change.",
+        "typical_width": "Students define short-term (immediate, within years), medium-term (developing over decades), and long-term (lasting across generations or centuries) effects; explain that the same historical process can have different effects at different timescales — an effect that seems negative in the short term may be positive long-term, and vice versa; apply the framework to industrial urbanisation as a worked example.",
         "wider": [
-          "Investigate the public health crisis in industrial cities (e.g. cholera outbreaks in London or Manchester) as a consequence of rapid urbanisation without infrastructure — examining how demographic change outpaced the capacity of cities to support their populations",
-          "Examine the long-term demographic legacy of industrial-era population movement — tracking urbanisation rates from 1800 to 1900 using historical data — to assess the scale of the transformation"
+          "Examine a case where short-term and long-term effects of the same development are in tension — e.g. factory employment was damaging short-term but contributed to long-term wage rises and reform — and evaluate how to weigh these competing effects"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "The analytical framework is the prerequisite for the content nodes. Students who cannot distinguish temporal categories will produce accounts that list effects without organising them — conflating immediate disruptions with lasting structural changes.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "context_breadth",
-            "reason": "Covering both environmental (pollution, degradation) and demographic (growth, distribution) impacts prevents students from treating only one dimension and gives a fuller picture of how settlement change operated."
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe effects without temporal differentiation — treating all effects as equivalent regardless of timescale. Making the framework explicit is the scaffold for the structured analysis the descriptor requires.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
         "success_criteria": [
-          "Describes at least two environmental impacts of industrialisation on the natural environment",
-          "Describes how industrialisation changed population distribution, with at least one specific example"
+          "Defines short-, medium- and long-term and explains how each differs",
+          "Applies the framework to identify one effect at each timescale for a named historical change"
         ]
       },
       {
         "id": 2,
-        "label": "Steam engine's impact on transport and industry",
-        "progression_checkpoint": "Students can investigate the impact of the development of the steam engine on transport, manufacturing and trade, and explain how transport change enabled further population movement.",
-        "minimum_width": "Explain how the steam engine changed either transport or manufacturing, with one specific example.",
-        "typical_width": "Investigate the impact of the steam engine on transport (railways, steam ships), manufacturing (powered mills, larger factories), and trade (faster distribution of goods, expanded markets); explain how transport transformation enabled larger-scale population movements and connected previously isolated communities to industrial centres.",
+        "label": "Environmental and demographic effects of industrialisation and urbanisation",
+        "progression_checkpoint": "Students can describe the effects of factories, mines and cities on the environment and on population growth and distribution, across short, medium and long timescales.",
+        "minimum_width": "Students describe at least two environmental effects of industrialisation (e.g. urban air pollution, river contamination, mining landscapes) and explain how urbanisation changed population distribution.",
+        "typical_width": "Students describe the environmental effects — urban air pollution from coal combustion, river and waterway contamination from industrial effluent, the physical transformation of mining landscapes, deforestation for fuel and construction; the demographic effects — rapid urbanisation as rural populations moved to cities, overcrowding and disease in industrial slums, demographic growth driven by industrial demand for labour; apply the temporal framework — immediate pollution effects (short), cumulative disease burden (medium), lasting landscape and demographic shifts (long).",
         "wider": [
-          "Examine how the expansion of the British railway network from 1830–1870 physically reshaped both the economy and the geography of settlement — analysing which regions grew, which declined, and why",
-          "Investigate the steam ship's role in enabling mass migration — examining how lower fares and faster journeys transformed transatlantic migration from a rare event to a mass phenomenon"
+          "Examine historical data on air quality, river pollution or urban mortality rates to ground the environmental effects in quantitative evidence",
+          "Connect the industrial environmental effects to contemporary environmental challenges — examining what continuities exist between 19th-century industrialisation and present-day climate change"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Connecting transport change to both manufacturing efficiency and population movement shows how the steam engine had cascading effects — not just as a machine but as an enabler of the entire industrial-era demographic transformation."
+            "reason": "Students commonly describe industrialisation's environmental effects as peripheral to the 'real' economic story. Examining environmental effects as primary outcomes — not side-effects — across multiple domains builds the fuller picture the descriptor requires."
           }
         ],
-        "width_opportunity": false,
         "success_criteria": [
-          "Explains at least two ways the steam engine changed transport or manufacturing",
-          "Explains how at least one transport change enabled population movement at greater scale"
+          "Describes at least two environmental effects of industrialisation with temporal classification",
+          "Explains how urbanisation changed population distribution and the resulting social conditions"
         ]
       },
       {
         "id": 3,
-        "label": "Social, political and reform effects",
-        "progression_checkpoint": "Students can explain how social and political reforms resulting from industrialisation led to higher standards of living for many people, including in health care, education, and workplace rights.",
-        "minimum_width": "Describe at least two social or political reforms that resulted from industrialisation and explain their effects on living standards.",
-        "typical_width": "Explain how social and political reforms resulted in higher standards of living including: public health reform (clean water, sewage systems), educational reform (compulsory schooling), workplace reforms (Factory Acts, limits on child labour), and political reforms (extension of voting rights, trade union rights); explain how these reforms were short-, medium-, and long-term responses to the problems of industrialisation.",
+        "label": "Transport transformation — the steam engine's effects on movement and trade",
+        "progression_checkpoint": "Students can describe the impact of the development of the steam engine on transport, manufacturing and trade — including the effects of railways and steam shipping on settlement patterns and economic integration.",
+        "minimum_width": "Students describe railways and steam shipping as the two main transport transformations, and explain how each affected trade and settlement patterns.",
+        "typical_width": "Students describe railway development — connecting industrial cities, enabling movement of goods and people, creating new settlements around junctions, allowing national market integration; steam shipping — enabling faster and more reliable ocean trade, connecting colonial economies to metropolitan centres, enabling larger-scale population movement; explain how transport transformation reduced the friction of distance; how it changed settlement patterns (new towns grew along railways, coastal cities became more important); apply the temporal framework to transport effects.",
         "wider": [
-          "Examine the Factory Acts as evidence of how political pressure from workers and reformers changed the legal relationship between employers and employees — tracing how specific legislation responded to specific documented abuses",
-          "Investigate the connection between urbanisation and the extension of voting rights — examining how the growing urban working class created political pressure for democratic reform (e.g. the Reform Act 1832 in Britain)",
-          "Examine how public health reform (clean water supply, sewage systems) saved more lives than medical treatment in the 19th century — using mortality data to assess the health impact of infrastructure investment"
+          "Examine how railways specifically shaped settlement patterns in Australia (or another settler colonial context) — tracing which towns grew because of railway access and which declined without it",
+          "Investigate the role of the Suez Canal (1869) and submarine telegraph cables as transport and communication infrastructure that complemented steam shipping in creating a genuinely globalised economy"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "integration",
-            "reason": "This node integrates the problems of industrialisation (Nodes 1–2) with the reform responses — demonstrating how social and political change was driven by the problems industrialisation created. The short/medium/long-term framework organises the temporal dimension."
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe railways as 'faster travel' without understanding the economic and settlement consequences — how reduced transport costs changed what was profitable to produce where, and how railway access determined whether communities grew or stagnated."
           }
         ],
-        "width_opportunity": false,
         "success_criteria": [
-          "Describes at least two social or political reforms produced by industrialisation",
-          "Explains how reforms improved living standards, with reference to specific historical changes"
+          "Describes the effects of railways and steam shipping on trade and settlement patterns",
+          "Explains how transport transformation reduced the friction of distance and its economic consequences"
         ]
+      },
+      {
+        "id": 4,
+        "label": "Social and political reforms — long-term effects on living standards",
+        "progression_checkpoint": "Students can explain how social and political reforms — in health care, education, political representation, and workplace conditions — resulted in higher standards of living for many over the medium and long term.",
+        "minimum_width": "Students describe at least two social or political reforms produced by industrialisation's effects (e.g. public health legislation, compulsory education, Factory Acts, trade union recognition) and explain how each improved living standards.",
+        "typical_width": "Students describe the reform trajectory — from the brutal early industrial period to progressive improvement over the 19th century; specific reforms: Factory Acts limiting child labour and working hours, Public Health Acts addressing urban disease, Education Acts expanding access to schooling, gradual extension of the franchise, trade union recognition; explain how reform came about — the role of evangelical reformers, working-class political pressure, investigative journalism, empirical public health research; apply the temporal framework — reforms were medium and long-term effects of industrialisation, coming decades after the worst conditions.",
+        "wider": [
+          "Examine the role of specific reformers (Florence Nightingale, Edwin Chadwick, Robert Owen) as agents of change — exploring how individuals shaped the reform trajectory",
+          "Evaluate who benefited from the reforms and who was left behind — examining whether 'higher standards of living for many' is an accurate characterisation, or whether it conceals persistent inequality"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly treat reform as an inevitable response to bad conditions rather than as a hard-won political achievement. Multiple reform examples across different domains — health, education, labour, political rights — build the fuller picture of gradual improvement through struggle."
+          }
+        ],
+        "success_criteria": [
+          "Describes at least two reforms produced by the effects of industrialisation and explains how each improved living standards",
+          "Explains the temporal gap between the worst industrial conditions and the reforms that addressed them"
+        ],
+        "related_standards": ["AC9HH9K17", "AC9HH9K18"]
       }
     ]
   }

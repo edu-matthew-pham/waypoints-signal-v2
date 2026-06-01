@@ -1,0 +1,76 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10P10",
+    "title": "Plan and critique health strategies",
+    "description": "plan, justify and critique strategies to enhance their own and others' health, safety, relationships and wellbeing",
+    "strand": "Making healthy and safe choices",
+    "mode": "B",
+    "prior_knowledge": "Students can critique health information and media messaging to evaluate their influence on attitudes and actions (AC9HP10P09). At Y9-10 this standard integrates critique capability with strategy planning and justification — moving from evaluating others' messages to designing and critically assessing their own strategies.",
+    "progression_endpoint": "Students plan, justify and critique strategies to enhance health, safety, relationships and wellbeing — across individual, community and cultural dimensions, including mental health and wellbeing strategies.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Planning and justifying health strategies",
+        "progression_checkpoint": "Students can plan a strategy to enhance health, safety, relationships or wellbeing and justify it with evidence and reasoning",
+        "minimum_width": "Plan one strategy for enhancing a specific health or wellbeing outcome; justify the approach with at least one piece of evidence or reasoning about why it will be effective",
+        "typical_width": "Plan and justify strategies across individual and community levels; consider social, cultural and economic factors that may influence health behaviours and help-seeking; design strategies that enhance mental health and wellbeing (regular physical activity, positive self-talk, sleep habits, mindfulness, social connection); investigate community-action initiatives and evaluate what made them effective",
+        "wider": [
+          "Plan a strategy for sustainable food practices — justify its health, environmental and community benefits; evaluate whether it is accessible and realistic for the target community",
+          "Engage with nature-based health activities and plan a strategy for incorporating them; explore how a deep connection to Country/Place enhances health and wellbeing for First Nations Australians and evaluate how this knowledge could inform mainstream health strategy planning",
+          "Investigate the pharmacopeia and health practices of First Nations Australian communities (with respect for ICIP protocols); evaluate how these practices could inform broader community health strategies while maintaining cultural integrity"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot plan and justify a strategy cannot then critique it in Node 2 — critique of a strategy requires first having a concrete strategy to evaluate and a justification to interrogate.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly plan strategies without justifying them — describing what they would do without explaining why it will work or for whom. The justification move is critical here: what evidence supports this approach, what theory of change underpins it, what conditions does it require. This structured justification is also what makes the critique in Node 2 substantive rather than superficial.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Plans a specific strategy with a named health or wellbeing outcome",
+          "Justification includes at least one reason drawn from evidence, theory or prior experience — not only personal preference",
+          "Strategy is realistic — acknowledges at least one constraint or barrier to implementation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Critiquing health strategies",
+        "progression_checkpoint": "Students can critique health strategies — their own and others' — for effectiveness, accessibility, and cultural appropriateness",
+        "minimum_width": "Apply at least two criteria to critique a health strategy (their own or another's) — evaluate what it achieves, what it misses, and for whom it is most and least accessible",
+        "typical_width": "Critique strategies for enhancing health, safety, relationships and wellbeing; analyse how social, cultural and economic factors influence the accessibility of strategies and help-seeking; evaluate the influence of stigma on access to health support (menstrual health, gender and sexual diversity, sexual health, mental illness); propose constructive improvements to online/digital health promotion strategies",
+        "wider": [
+          "Investigate cultural rights of First Nations Australians to maintain traditional diets; critique how mainstream health strategies address or fail to address this right, and evaluate the proven health and wellbeing benefits",
+          "Critique an existing school or community health strategy against criteria including cultural appropriateness, accessibility, and evidence base — propose specific improvements",
+          "Evaluate how stigma associated with specific health issues (mental health, sexual health, menstrual health) affects help-seeking in your community — critique current strategies for reducing stigma and propose targeted improvements"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates planning/justification (Node 1) with critique capability developed across P09 and P10 — students are now applying critical evaluation to strategies they have themselves designed or selected. The integration is between the planning perspective (what does this strategy aim to do) and the critical perspective (for whom does it work, what does it miss, what does it assume). This is the highest-order move in the P strand at this band."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Critique of health strategies requires application across different health domains and community contexts. Critiquing a mental health strategy requires different criteria than critiquing a food sustainability strategy or a First Nations traditional diet rights framework. Range across health domains builds genuine critique capability.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations traditional diet rights critique, school/community strategy assessment, and stigma-reduction evaluation each require applying critique capability in a domain with distinct cultural, social and systemic dimensions. Students who engage these wider directions develop the ability to critique health strategies as systems embedded in social and cultural contexts, not as isolated technical interventions.",
+        "success_criteria": [
+          "Applies specific criteria to critique a health strategy — not just expresses a general opinion",
+          "Critique addresses accessibility — who can access this strategy and who cannot, and why",
+          "Proposes at least one concrete improvement, not only identifies what is wrong"
+        ]
+      }
+    ]
+  }
+}

@@ -1,43 +1,64 @@
 {
-  "year_level": "9",
+  "year_level": "9-10",
   "subject": "Science",
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S9I03",
-    "title": "Precision, Sample Size and Replicability",
-    "description": "select and use equipment to generate and record data with precision to obtain useful sample sizes and replicable data, using digital tools as appropriate",
-    "strand": "Science Inquiry",
+    "title": "Select Equipment and Record Precise Data",
+    "strand": "Inquiry Skills",
     "mode": "B",
-    "prior_knowledge": "Students can select equipment for appropriate precision and use standard units (AC9S7I03, 7-8 band). They now extend to significant figures, scientific notation, sample size reasoning and the relationship between instrument choice and data replicability.",
-    "progression_endpoint": "Students select equipment matched to precision requirements, record data to correct significant figures using scientific notation, discuss what constitutes a useful sample size, and evaluate how instrument choice affects data replicability.",
+    "description": "select and use equipment to generate and record data with precision to obtain useful sample sizes and replicable data, using digital tools as appropriate",
+    "prior_knowledge": "Students can select and use equipment to generate and record data (AC9S7I03). They have not yet focused on precision as a criterion for equipment selection, significant figures and scientific notation as recording conventions, or sample size justification as a design decision.",
+    "progression_endpoint": "Students select equipment based on the precision required for the investigation, record data to the correct degree of precision using appropriate significant figures and units, consider instrument accuracy and replicability when choosing equipment, and justify sample size decisions — using digital tools where appropriate to improve collection efficiency or enable larger samples.",
     "nodes": [
       {
         "id": 1,
-        "label": "Precision, significant figures and sample size are interconnected data quality factors",
-        "progression_checkpoint": "Students can select equipment for required precision, record data to the correct number of significant figures, explain what constitutes a useful sample size, and describe how instrument choice affects replicability.",
-        "minimum_width": "Students select appropriate equipment for a given measurement, record data to the correct significant figures, and explain why sample size matters for conclusions.",
-        "typical_width": "Students compare instrument precision (measuring cylinder vs pipette) and select appropriately; record data using correct significant figures and scientific notation; explain how sample size affects the validity of generalisations; and use data loggers and digital tools for larger or continuous data collection.",
+        "label": "Precision in measurement and recording",
+        "progression_checkpoint": "Students can explain what precision means in measurement, select equipment based on required precision, and record data values to the correct number of significant figures with appropriate units.",
+        "minimum_width": "Explain the difference between accuracy and precision in measurement, identify which of two instruments provides greater precision for a given measurement task (e.g. measuring cylinder vs. pipette), and record one data value to the correct number of significant figures.",
+        "typical_width": "Select appropriate equipment based on required measurement precision across multiple scenarios, record all data values to the correct significant figures with correct units, and explain how instrument precision affects the degree of precision achievable in data recording.",
         "wider": [
-          "Examine the degree of accuracy of different instruments — comparing measuring cylinder vs pipette precision and explaining when higher precision is required",
-          "Discuss the amount of data needed for a useful sample size and how digital tools enable more efficient collection for larger samples",
-          "Consider how inaccuracies introduced when reading between scale markings affect replicability — examining systematic vs random error sources"
+          "Examine the degree of accuracy that different instruments provide and what this means for the conclusions that can be drawn — connecting instrument precision to the limits of claim validity.",
+          "Use data loggers, examining scale settings and output representation choices — exploring how digital equipment introduces precision considerations beyond those of manual instruments."
         ],
         "hinge": true,
-        "hinge_reason": "Correct significant figure recording and sample size judgements are required for valid representations in AC9S9I04 and valid conclusions in AC9S9I06. Students who record to incorrect significant figures produce representations with false precision; students who cannot reason about sample size cannot evaluate whether their generalisations are justified.",
+        "hinge_reason": "Students who record data to arbitrary significant figures, or who cannot select equipment appropriate to the required precision, will produce data that cannot support valid conclusions at AC9S9I06. Precision errors cascade into the analysis and evaluation stages — a data set recorded to insufficient precision cannot be improved retrospectively.",
         "response_modes": [
           {
             "mode": "consolidation",
-            "reason": "Significant figure conventions and scientific notation require consistent accurate practice. Students at this band must apply these conventions independently across varied measurement contexts. Deliberate practice with feedback is more productive than broad conceptual variation.",
+            "reason": "Significant figure recording and unit consistency are procedural conventions requiring practice for reliable execution. Errors in these conventions are systematic and affect every data value. Students need enough practice to execute these reliably without conscious attention before they can focus on the broader investigation design.",
             "flags": ["hinge"]
           }
         ],
         "width_opportunity": false,
         "width_opportunity_reason": null,
         "success_criteria": [
-          "Selects appropriate equipment for a measurement and explains the precision required",
-          "Records data to the correct number of significant figures using scientific notation where appropriate",
-          "Explains why sample size affects the validity of generalisations from data"
+          "Can select between two instruments based on required precision and explain the choice.",
+          "Can record data to the correct number of significant figures for the instrument used.",
+          "Does not record more significant figures than the instrument can provide."
         ]
+      },
+      {
+        "id": 2,
+        "label": "Sample size and replicability",
+        "progression_checkpoint": "Students can explain why sample size matters for the quality of scientific data and justify a sample size choice for a described investigation context — considering what constitutes a useful sample size.",
+        "minimum_width": "Explain why larger sample sizes produce more reliable results (reduces the effect of random variation) and describe one factor that determines what sample size is appropriate for a described investigation.",
+        "typical_width": "Explain how sample size affects reliability, identify factors that influence what constitutes a useful sample size (variability in the population, required confidence, practical constraints), and justify a sample size decision for a planned investigation.",
+        "wider": [
+          "Consider how the use of digital tools enables more-efficient data collection for larger sample sizes — connecting digital tool selection to sample size feasibility.",
+          "Examine how sample size decisions in real investigations are constrained by practical factors (time, cost, participant availability) and discuss how scientists balance statistical rigour with practical limitations."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can explain why sample size affects reliability of results.",
+          "Can identify the relevant factors for determining appropriate sample size in a described investigation.",
+          "Does not default to 'more is always better' without considering practical constraints and the specific investigation context."
+        ],
+        "related_standards": ["AC9S9I02", "AC9S9I06"]
       }
     ]
   }

@@ -4,125 +4,149 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH10K04",
-    "title": "The Australian Home Front in the Second World War",
+    "title": "The Australian Home Front",
     "description": "the effects of the Second World War, with a particular emphasis on the continuities and changes on the Australian home front, such as the changing roles of women and First Nations Australians, and the use of wartime government controls",
-    "strand": "Knowledge and Understanding",
+    "strand": "History (Knowledge and Understanding)",
     "mode": "A",
-    "prior_knowledge": "Students have studied the effects of World War One on the Australian home front, including conscription debates, the changing roles of women, and the impact of the war on Australian society.",
-    "progression_endpoint": "Students investigate continuities and changes on the Australian home front during the Second World War, including the changing roles of women and First Nations Australians, the impact of wartime government controls, and local and national effects of the war.",
+    "prior_knowledge": "Students have examined the effects of WW1 on the Australian home front including conscription debates, women's roles, and the treatment of returned soldiers (AC9HH9K11). They can apply continuity-and-change analysis. From AC9HH10K01 they understand the political context of Australia's entry into WW2 and the National Security Act 1939. They have not yet examined the specific home front changes of WW2, the distinct position of First Nations Australians in WW2, or the nature of wartime government controls.",
+    "progression_endpoint": "Students explain the continuities and changes on the Australian home front during WW2, including the changing roles of women and First Nations Australians, and evaluate the effects of wartime government controls on individual rights and freedoms.",
     "nodes": [
       {
         "id": 1,
-        "label": "Conscription and wartime government controls",
-        "progression_checkpoint": "Students can describe the introduction of conscription in WWII Australia and explain how wartime government controls affected individual rights and freedoms.",
-        "minimum_width": "Describe the introduction of conscription through the Citizen Military Forces (contrasting with WWI policy) and explain at least two effects of the National Security Act 1939 on individual rights.",
-        "typical_width": "Discuss conscription through the Citizen Military Forces as a change from WWI voluntary enlistment; describe the effects of the National Security Act 1939 — censorship of the media, detention of Japanese, German and Italian residents, banning of groups opposed to the war on political or religious grounds, and 'manpower controls' over the workforce.",
+        "label": "Wartime government controls and the suspension of rights",
+        "progression_checkpoint": "Students can describe the major wartime government controls introduced under the National Security Act 1939 and explain their effects on individual rights and freedoms.",
+        "minimum_width": "Students describe at least two types of wartime government control and explain the effect of each on individual rights.",
+        "typical_width": "Students examine the National Security Act 1939 as the legislative basis for wartime controls; describe the range of controls — censorship of media, detention of Japanese, German, and Italian residents, banning of groups opposed to the war, manpower controls; explain the tension between national security and civil liberties; connect conscription through the Citizen Military Forces to the WW1 conscription debates, identifying this as a change from the WW1 approach.",
         "wider": [
-          "Investigate the experiences of Japanese, German and Italian Australians interned under the National Security Act, examining the tension between wartime security imperatives and civil liberties through personal accounts and government records",
-          "Compare the conscription debate in WWII Australia with the WWI conscription referendums, examining what changed and what remained contested in Australian attitudes toward compulsory military service"
+          "Examine the internment of Japanese, German, and Italian Australians as a case study in the suspension of civil liberties during wartime — analysing the racial and political logic of detention and comparing it with treatment of enemy aliens in other Allied countries",
+          "Investigate the Cowra breakout (1944) as a case study in internment conditions and consequences — examining what it reveals about the experience of Japanese POWs and interned civilians in Australia"
         ],
-        "hinge": false,
-        "hinge_reason": null,
-        "response_modes": [
-          {
-            "mode": "context_breadth",
-            "reason": "The National Security Act's effects are often taught only through censorship. Widening to include detention of enemy aliens and manpower controls gives a more complete picture of how wartime emergency powers operated across different groups."
-          }
-        ],
+        "hinge": true,
+        "hinge_reason": "The National Security Act is the structural context for understanding how wartime conditions constrained civilian life — including the specific controls that shaped women's workforce participation (manpower controls) and the treatment of groups targeted by detention orders. Students who lack this structural context cannot evaluate whether home front changes were driven by wartime necessity or pre-existing attitudes, which is the key analytical question in N2–N4.",
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly accept wartime controls as obviously necessary without examining the tension with civil liberties. Scaffolding this tension — what rights were suspended? who was most affected? were measures proportionate to the threat? — sets up the continuity-and-change analysis in N2–N4.",
+            "flags": ["hinge"]
+          }
+        ],
         "success_criteria": [
-          "Explain how the introduction of conscription in WWII differed from WWI policy",
-          "Describe at least two ways the National Security Act 1939 restricted individual rights and freedoms",
-          "Identify at least one group whose freedoms were specifically restricted by wartime controls and explain the government's stated justification"
-        ]
+          "Describes at least two types of wartime government control and explains the effect of each on individual rights",
+          "Explains the introduction of conscription through the Citizen Military Forces as a change from WW1 policy — not merely notes it occurred",
+          "Identifies at least one group whose civil liberties were most severely affected by wartime controls"
+        ],
+        "related_standards": ["AC9HH9K11", "AC9HH10K01", "AC9HH10S05"]
       },
       {
         "id": 2,
-        "label": "Women's roles — change and continuity",
-        "progression_checkpoint": "Students can investigate the changing roles of women on the Australian home front during WWII, contrasting wartime changes with the continuities of women's roles before and after the war.",
-        "minimum_width": "Describe at least two new roles women took on during the war and explain whether these represented lasting change or temporary wartime adjustment.",
-        "typical_width": "Investigate the effects of WWII on women's roles: women in military auxiliary services (WAAAF, AWAS, WRANS), the Women's Land Army, factory work and industrial labour; contrast these wartime changes with the continuities — most women returned to domestic roles after the war; analyse what this pattern of change and reversion reveals about the limits of wartime social transformation.",
+        "label": "Women's wartime roles — what changed",
+        "progression_checkpoint": "Students can describe the specific changes to women's roles during WW2 across military and civilian contexts.",
+        "minimum_width": "Students describe at least two specific changes to women's roles during WW2 — covering at least one military and one civilian example.",
+        "typical_width": "Students investigate women's roles in the military services (WAAAF, AWAS, WRANS) and in civilian war work — the Women's Land Army, factory work, and voluntary organisations; describe the scale and nature of women's participation; explain what specific barriers were lifted during the war (e.g. employment restrictions, exclusion from particular workplaces) and what formal and informal constraints remained; establish the factual record of change before evaluating its extent in N3.",
         "wider": [
-          "Examine the experiences of specific women in wartime auxiliary services through personal accounts or oral histories, analysing how individual women navigated the tension between new opportunities and social expectations",
-          "Compare the wartime roles of women in Australia with those in Britain or the USA, evaluating similarities and differences in how governments mobilised and then demobilised women's labour",
-          "Investigate the long-term effects of wartime women's employment on postwar attitudes to women's workforce participation, examining whether WWII was a genuine turning point in women's rights or a temporary disruption to traditional roles"
-        ],
-        "hinge": true,
-        "hinge_reason": "The change-and-continuity analytical frame established here (wartime change followed by post-war reversion) is the central analytical structure for K12 (women's movement) and K13 (continuing civil rights efforts). Students who see wartime women's roles only as change — without the continuity dimension — misread the subsequent women's movement as starting from a stronger base than it actually did.",
-        "response_modes": [
-          {
-            "mode": "structured_reasoning",
-            "reason": "Explicitly teach the change-and-continuity framework as a historical concept — distinguishing surface-level changes (new roles during war) from structural continuities (return to domestic roles after war) — before asking students to apply it to women's wartime experience.",
-            "flags": ["hinge"]
-          }
-        ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
-        "success_criteria": [
-          "Identify at least two new roles women took on during WWII and describe what each involved",
-          "Explain the difference between the changes to women's roles during the war and the continuities after it",
-          "Use evidence to support a claim about whether WWII was a turning point for women's rights in Australia"
-        ]
-      },
-      {
-        "id": 3,
-        "label": "First Nations Australians and the war effort",
-        "progression_checkpoint": "Students can investigate the barriers First Nations Australians faced in enlisting, explain why the government changed its position, and describe the roles First Nations Australians played in the war effort.",
-        "minimum_width": "Identify at least two barriers First Nations Australians faced in enlisting and explain why the Australian Government eventually changed its position on their inclusion in the defence forces.",
-        "typical_width": "Identify the barriers to First Nations Australians' enlistment — lack of trust in their loyalty, denial of Aboriginal or Torres Strait Islander status, fears of disharmony with non-Indigenous men; examine the government's changing position — the critical shortage of soldiers, establishment of the Torres Strait Light Infantry Battalion in 1941, specialised roles including the Nackeroos and the Northern Territory Special Reconnaissance Unit; examine the changing civilian roles of First Nations men and women — domestic work in hospitals, ammunition stacking, timber cutting, and other industrial roles.",
-        "wider": [
-          "Investigate the experiences of specific First Nations servicemen and women through oral histories and personal accounts, examining how they navigated discrimination within the military and the gap between their wartime service and their post-war treatment by the government",
-          "Examine the Torres Strait Light Infantry Battalion in depth — its formation, its role in defending the Torres Strait, and how its history has been remembered and recognised in Australian military history",
-          "Compare the wartime service of First Nations Australians with their post-war legal status, examining the contradiction between their service to the nation and their continuing exclusion from full citizenship rights"
-        ],
-        "hinge": true,
-        "hinge_reason": "Students who do not understand that First Nations Australians were excluded from and then selectively included in the war effort — and then denied post-war rights despite their service — cannot make sense of K09 (causes of the civil rights campaign) or K10 (civil rights individuals and groups). The contradiction between wartime service and continued exclusion is a key driver of the postwar civil rights movement.",
-        "response_modes": [
-          {
-            "mode": "structured_reasoning",
-            "reason": "The government's shifting position on First Nations enlistment is driven by strategic necessity rather than changed values — make this distinction explicit. Students need to understand that inclusion was instrumental, not principled, to understand why civil rights campaigns were still necessary after the war.",
-            "flags": ["hinge"]
-          },
-          {
-            "mode": "context_breadth",
-            "reason": "Extend beyond male combat roles to include women's civilian contributions and the Torres Strait specifically — both are elaboration-supported contexts that are commonly omitted in favour of the Nackeroos narrative.",
-            "flags": ["width_opportunity"]
-          }
-        ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The gap between First Nations wartime service and post-war citizenship rights is a powerful case study in the historical concept of contested inclusion — directly relevant to K09–K13 and to broader discussions of how national identity is constructed and contested.",
-        "success_criteria": [
-          "Identify at least two barriers First Nations Australians faced in enlisting and explain the reasoning behind each",
-          "Explain why the Australian Government changed its position on including First Nations Australians in the defence forces",
-          "Describe at least two roles First Nations Australians played in the war effort — military or civilian"
-        ]
-      },
-      {
-        "id": 4,
-        "label": "Local and national impacts",
-        "progression_checkpoint": "Students can investigate the impact of the Second World War at local and national level in Australia, including specific events that brought the war to Australian soil.",
-        "minimum_width": "Describe at least two events that brought the war to Australia and explain their impact on Australian society.",
-        "typical_width": "Investigate the impact of the war at local and national level: the bombing of Darwin, the Japanese submarine attack on Sydney and the sinking of ships off the Australian coast, the 'Battle of Brisbane' (conflict between Australian and US troops), the Cowra breakout, and the Brisbane Line controversy; explain what these events reveal about Australia's vulnerability and the social pressures of wartime.",
-        "wider": [
-          "Investigate the bombing of Darwin in depth — examining its scale (it was a larger attack than Pearl Harbor), the government's initial suppression of information about it, and its long-term place in Australian memory and commemoration",
-          "Examine the Cowra breakout as a case study in the treatment of POWs in Australia, comparing it with the treatment of Australian POWs in Japanese camps and analysing what the incident reveals about wartime attitudes to enemy combatants"
+          "Investigate the experiences of women in specific service roles — nurses at Singapore, WAAAF radar operators, Women's Land Army workers — examining how day-to-day experience varied across roles and locations",
+          "Examine the wartime roles of First Nations Australian women in civilian employment — connecting to N4's content and examining the intersection of gender and racial exclusion in wartime opportunity"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need an accurate factual picture of what changed before they can evaluate the extent of change in N3. Building a repertoire of specific examples across military service, civilian war work, and voluntary roles prevents overgeneralisation in either direction."
+          }
+        ],
+        "success_criteria": [
+          "Describes at least two specific changes to women's roles during WW2 — covering at least one military and one civilian example",
+          "Identifies at least one barrier that was lifted during the war and one that remained"
+        ],
+        "related_standards": ["AC9HH9K11", "AC9HH10K12", "AC9HH10S05"]
+      },
+      {
+        "id": 3,
+        "label": "Women's wartime roles — change versus continuity",
+        "progression_checkpoint": "Students can evaluate the extent to which women's wartime roles represented genuine lasting change versus temporary wartime disruption, using continuity-and-change analysis.",
+        "minimum_width": "Students identify at least one change that persisted after the war and at least one that was reversed, and explain the difference in terms of structural versus wartime factors.",
+        "typical_width": "Students compare women's roles during the war (N2) with their roles before and after; evaluate which changes persisted and which were reversed when men returned; connect to WW1 precedents (Y9 prior knowledge) to assess whether WW2 represented an acceleration or a repetition of earlier patterns; analyse the structural forces that reversed wartime gains — government policy, social pressure, economic structures; connect forward to K12's women's movement content as the longer-term response to this pattern.",
+        "wider": [
+          "Compare the extent of role change for Australian women with women in Britain or the USA — examining whether the scale and durability of change differed across countries and why",
+          "Examine the post-war return to domesticity as a deliberate policy outcome — analysing how government incentives, social messaging, and industrial restructuring combined to reverse wartime gains"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The change-versus-continuity analysis here is a rich application of one of history's core concepts — students must weigh evidence of genuine change against evidence of structural continuity, which is analytically demanding. The connection forward to K12 (women's movement) gives this node genuine longitudinal significance.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe wartime changes as straightforwardly progressive — the war liberated women. The continuity dimension (most gains reversed post-war) requires explicit scaffolding. The framework is: what changed during the war? which changes persisted? which were reversed? what does the pattern tell us about the structural limits of wartime change?",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Identifies at least one wartime change to women's roles that persisted after the war and at least one that was reversed",
+          "Explains the difference in terms of structural versus temporary wartime factors — not merely describes the outcomes",
+          "Connects the WW2 pattern to the WW1 precedent — assessing whether WW2 represented acceleration or repetition"
+        ],
+        "related_standards": ["AC9HH9K11", "AC9HH10K12", "AC9HH10S05"]
+      },
+      {
+        "id": 4,
+        "label": "First Nations Australians — barriers, inclusion, and service",
+        "progression_checkpoint": "Students can explain the barriers First Nations Australians faced in enlisting, the reasons the government changed its position, and the range of roles First Nations Australians played during the war.",
+        "minimum_width": "Students identify at least two barriers to First Nations Australian enlistment; explain at least one reason the government changed its position; describe at least two distinct roles — military and civilian.",
+        "typical_width": "Students investigate initial barriers to enlistment (distrust of loyalty, denial of Aboriginal and Torres Strait Islander status, fears of disharmony); examine the reasons for the government's change in position (critical shortage of soldiers, strategic value of First Nations knowledge and skills in specific environments); investigate the Torres Strait Light Infantry Battalion, the Nackeroos, and the Northern Territory Special Reconnaissance Unit; examine the range of civilian roles — domestic work, ammunition handling, timber cutting, cattle work; evaluate whether wartime inclusion represented genuine recognition of rights or pragmatic necessity.",
+        "wider": [
+          "Examine the contradiction between First Nations Australians serving and dying for a country that denied them citizenship rights — connecting to K09's content on pre-1965 rights campaigns and analysing how wartime service contributed to the post-war rights movement",
+          "Investigate the experiences of Torres Strait Islanders specifically — examining how their geographic position gave them a distinct wartime role and how service shaped post-war identity and rights claims"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The contradiction between service and denied citizenship is one of the most analytically rich threads in the WW2 unit — it connects directly to K09–K11 on First Nations rights campaigns and provides concrete historical evidence for arguments about the relationship between military service and citizenship recognition.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The range of roles — military service, specialised units, civilian labour — gives students a more accurate picture than focusing only on combat service. Examining multiple contexts prevents overgeneralisation and builds the evidential base for evaluating the significance of First Nations wartime contribution.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Identifies at least two barriers to First Nations Australian enlistment and explains the reasoning behind each",
+          "Explains at least one reason the Australian Government changed its position on First Nations enlistment",
+          "Describes at least two distinct roles — military and civilian — that First Nations Australians played, with specific examples"
+        ],
+        "related_standards": ["AC9HH10K09", "AC9HH10K11", "AC9HH10S06"]
+      },
+      {
+        "id": 5,
+        "label": "Home front — integrating change, continuity, and significance",
+        "progression_checkpoint": "Students can evaluate the overall effects of WW2 on the Australian home front, integrating the changes to government controls, women's roles, and First Nations participation into a coherent account of what changed, what endured, and what the war's home front significance was.",
+        "minimum_width": "Students construct a claim about the home front significance of WW2 that covers at least two of the three areas (government controls, women's roles, First Nations Australians) and explains the relationship between them.",
+        "typical_width": "Students draw together N1–N4 to evaluate the overall home front effects: which changes were structural and lasting, which were temporary; how wartime necessity drove changes that prior social structures had prevented; evaluate the extent to which the home front experience of WW2 prepared the ground for the post-war social changes addressed in K07–K13; compare with the WW1 home front to assess whether WW2 represented a greater degree of societal disruption.",
+        "wider": [
+          "Evaluate the home front experience of WW2 from the perspective of different groups simultaneously — arguing whose experience of the home front changed most profoundly and whose was most continuous with pre-war life",
+          "Assess the home front legacy of WW2 as a precondition for the post-war rights movements examined in K09–K12 — constructing an argument about the causal relationship between wartime disruption and post-war activism"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "integration",
-            "reason": "This node integrates the home-front themes — government controls, women's roles, First Nations service — with the concrete reality of the war reaching Australian territory. Use it to bring together the full picture of wartime Australia before moving to K05 (post-war development)."
+            "reason": "This node draws together the structural context (N1), women's factual changes (N2), change-versus-continuity evaluation (N3), and First Nations experience (N4) into a holistic account. Analytical tasks requiring students to argue across all three areas work well here."
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Describe at least two events that brought the Second World War to Australian soil and explain the impact of each",
-          "Explain what the bombing of Darwin or the Japanese submarine attack on Sydney reveals about Australia's wartime vulnerability",
-          "Describe how at least one local wartime event affected civilian life in Australia"
-        ]
+          "Constructs a claim about the home front significance of WW2 that integrates at least two of the three areas covered in N1–N4",
+          "Distinguishes changes that were structural and lasting from those that were temporary — with evidence",
+          "Evaluates the home front experience of WW2 in comparison with the WW1 home front, identifying at least one similarity and one difference"
+        ],
+        "related_standards": ["AC9HH9K11", "AC9HH10K07", "AC9HH10S08"]
       }
     ]
   }

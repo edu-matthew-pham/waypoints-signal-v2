@@ -1,0 +1,90 @@
+{
+  "year_level": "7-8",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP8M04",
+    "title": "Fitness and health participation",
+    "description": "participate in physical activities designed to improve fitness and wellbeing to investigate the impact of regular participation on health, fitness and wellbeing",
+    "strand": "Active choices",
+    "mode": "B",
+    "prior_knowledge": "Students have participated in physical activities and investigated the body's reaction to different levels of intensity (Y5-6). They can describe physical changes during exercise but have not yet systematically investigated the relationship between regular participation and health outcomes.",
+    "progression_endpoint": "Students participate in physical activities designed to improve fitness and wellbeing and investigate the impact of regular participation on health, fitness and wellbeing.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Understanding fitness components and wellbeing dimensions",
+        "progression_checkpoint": "Students can identify the main fitness components (e.g. cardiovascular endurance, muscular strength, flexibility) and wellbeing dimensions and explain what types of physical activities target each.",
+        "minimum_width": "Identify at least two fitness components or wellbeing dimensions and describe one activity type that targets each.",
+        "typical_width": "Identify the range of fitness components and wellbeing dimensions (physical, social, emotional, mental); explain which activity types address which components; connect these to the elaboration contexts (circuit training, yoga, mindfulness, HIIT).",
+        "wider": [
+          "Research unfamiliar activity forms (yoga, mindfulness meditation, gym classes, HIIT) and compare how each targets different components and dimensions of health and wellbeing",
+          "Investigate how different cultures define and pursue health and wellbeing through physical practice, examining examples relevant to the class community"
+        ],
+        "hinge": true,
+        "hinge_reason": "The investigation requirement in the descriptor depends on students having a conceptual framework for what aspects of health and fitness can vary. Without this, participation becomes physically purposeful but analytically empty — students cannot investigate impact without knowing what to measure.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Build a shared framework for fitness components and wellbeing dimensions before launching investigation. Use it as an analytical lens that students apply consistently across different activity types.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Names at least two fitness components or wellbeing dimensions",
+          "Identifies at least one activity type designed to improve each named component or dimension"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Participating with investigative intent",
+        "progression_checkpoint": "Students can participate in physical activities designed to improve fitness or wellbeing while noticing and recording specific evidence of impact on their health, fitness or wellbeing.",
+        "minimum_width": "Participate in one physical activity and record at least one piece of evidence about its impact on health, fitness or wellbeing.",
+        "typical_width": "Participate in activities targeting different fitness components and wellbeing dimensions; collect evidence of impact using observation, self-report or digital tools; compare effects across different activity types or durations.",
+        "wider": [
+          "Use digital tools to track participation data over multiple sessions and identify patterns in health, fitness or wellbeing indicators",
+          "Design and perform a fitness circuit that could be implemented at home with minimal equipment and monitor its impact on at least one fitness component over time"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Investigative participation requires repeated practice — a single session of noticing and recording does not establish the pattern recognition that 'regular participation' implies. Students need multiple cycles of participation plus evidence collection."
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "Participates in a physical activity designed to improve fitness or wellbeing",
+          "Records at least one specific piece of evidence of impact on their health, fitness or wellbeing"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Investigating the impact of regular participation",
+        "progression_checkpoint": "Students can investigate the relationship between regular physical activity participation and outcomes for health, fitness and wellbeing, drawing on their participation data and research evidence.",
+        "minimum_width": "Describe at least one finding from their own participation or from a research source about the impact of regular physical activity on health, fitness or wellbeing.",
+        "typical_width": "Investigate the impact of regular participation using a combination of personal participation data and external sources; compare effects on different health and wellbeing outcomes; design a personal activity program responsive to individual goals and the investigation findings.",
+        "wider": [
+          "Design and monitor a personal physical activity program using digital tools, evaluating its effectiveness against individual health, wellbeing and fitness goals over multiple weeks",
+          "Research how access to fitness and wellbeing activities differs across community contexts and examine the implications for health equity"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Investigation integrates participation experience with research evidence and personal data analysis. Instruction should support students in drawing these together rather than treating participation and investigation as separate tasks."
+          }
+        ],
+        "width_opportunity": false,
+        "success_criteria": [
+          "States at least one finding about the impact of regular participation on health, fitness or wellbeing",
+          "Connects the finding to either personal participation evidence or an external source",
+          "Links the finding to a design decision in a personal or class activity program"
+        ]
+      }
+    ]
+  }
+}

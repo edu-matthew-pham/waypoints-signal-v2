@@ -1,0 +1,78 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6P07",
+    "title": "Consent strategies",
+    "description": "describe strategies for seeking, giving or denying consent and rehearse how to communicate their intentions effectively and respectfully",
+    "strand": "Interacting with others",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students rehearsed and refined strategies for seeking, giving and denying permission respectfully and described situations when permission is required (AC9HP4P07). They have language for permission in concrete situations. This descriptor introduces consent explicitly (not just permission), adds the step of communicating intentions effectively, and addresses the emotional responses when consent is denied.",
+    "progression_endpoint": "Students describe strategies for seeking, giving or denying consent and rehearse how to communicate intentions effectively and respectfully across a range of situations.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Understanding consent and its steps",
+        "description": "Distinguish consent from permission and understand the four steps of consent communication: asking, responding, listening and reacting — establishing that each step has its own demands.",
+        "minimum_width": "Describe the four steps of consent communication and explain what each step requires of the person in that role.",
+        "success_criteria": [
+          "Can name and describe all four steps (asking, responding, listening, reacting)",
+          "Understands that each step places demands on both parties — not just the person asking or the person responding"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who reduce consent to a simple yes/no exchange cannot rehearse the full complexity of consent communication — the verbal and non-verbal cues in the listening step, and the emotional management in the reacting step (N2 and N3) both depend on this four-step framework.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Explicit step-by-step analysis of consent scenarios. Walk through each step and identify what is happening and what is required. The four-step framework is the scaffold for all subsequent rehearsal.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Verbal and non-verbal communication of consent",
+        "description": "Practise interpreting and communicating verbal and non-verbal cues related to seeking, giving and denying consent — recognising that consent communication is not only spoken.",
+        "minimum_width": "Identify at least one verbal and one non-verbal cue related to seeking or denying consent, and rehearse communicating intentions using both types of cue.",
+        "success_criteria": [
+          "Can identify non-verbal cues specifically (not just 'body language' generically)",
+          "Rehearsal demonstrates intentional use of both verbal and non-verbal communication — not just verbal rehearsal"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Consent communication contexts span personal space and possessions, online situations, physical activity, and social interactions — each with different verbal and non-verbal communication norms.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Repeated rehearsal of specific communication scenarios. Precision in the listening step (reading non-verbal cues accurately) requires practice across multiple scenario types."
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Rehearse consent communication across different contexts: personal space and possessions, physical activity situations, online and social interactions. Each context has different cue types and communication challenges.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Managing reactions when consent is denied",
+        "description": "Explore and rehearse managing one's own reactions when consent is denied — including feelings of disappointment, shame or anger — and responding in ways that respect the other person's decision.",
+        "minimum_width": "Describe at least one emotional response that can arise when consent is denied, and rehearse at least one strategy for managing that response respectfully.",
+        "success_criteria": [
+          "Names a specific emotional response (not just 'feeling bad')",
+          "Rehearsal demonstrates a specific respectful response strategy — not just 'accept it'"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integrates consent communication steps, verbal/non-verbal cue reading, and emotional regulation into the full consent framework. The reacting step is where consent understanding connects to emotional management — the complete descriptor demand."
+          }
+        ]
+      }
+    ]
+  }
+}

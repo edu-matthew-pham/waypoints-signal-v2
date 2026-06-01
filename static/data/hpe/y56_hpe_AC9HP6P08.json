@@ -1,0 +1,74 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6P08",
+    "title": "Protective behaviours online and offline",
+    "description": "analyse and rehearse protective behaviours and help-seeking strategies that can be used in a range of online and offline situations",
+    "strand": "Making healthy and safe choices",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students described and applied protective behaviours and help-seeking strategies in a range of online and offline situations (AC9HP4P08). They can apply known strategies. This descriptor adds analysis — students evaluate the efficacy of strategies, not just apply them — and extends to bystander situations and reducing stigma around help-seeking.",
+    "progression_endpoint": "Students analyse and rehearse protective behaviours and help-seeking strategies for online and offline situations, including acting as bystanders and normalising help-seeking.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Analysing the efficacy of protective strategies",
+        "description": "Evaluate whether protective behaviours and help-seeking strategies are effective in specific scenarios — moving from applying strategies to analysing why some work better than others.",
+        "minimum_width": "Analyse at least one scenario (real or media-based) in which protective behaviour or help-seeking was or wasn't effective, and explain what made it effective or ineffective.",
+        "success_criteria": [
+          "Analysis names a specific feature of the strategy that contributed to its effectiveness or failure",
+          "Goes beyond 'they did the right thing' — explains the mechanism"
+        ],
+        "hinge": true,
+        "hinge_reason": "The analysis demand differentiates this descriptor from the Y3-4 version. Students who can only apply strategies but not analyse them cannot engage with the efficacy questions, the stigma discussion, or the bystander situations — all of which require evaluative judgement.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Media or scenario analysis: evaluate the responses of characters in TV shows or movies when in unsafe situations. What did they do? Why did it work or not? This externalises the analysis before students apply it to their own strategies.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Online safety strategies and reporting",
+        "description": "Identify and rehearse strategies for maintaining online safety, including how to recognise harmful online behaviour, reporting processes, and actions when they feel unsafe online.",
+        "minimum_width": "Describe at least two online safety strategies and explain the process for reporting harmful online behaviour to a trusted person or platform.",
+        "success_criteria": [
+          "Strategies are specific to online contexts — not generic safety advice applied to online",
+          "Can describe a reporting pathway — not just 'tell someone'"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Online safety contexts span unauthorised image sharing, gaming with peers, negative social media interactions, and contact from unknown people — each requiring different strategies and reporting pathways.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Rehearse online safety strategies across distinct online contexts: social media, gaming, image sharing, contact from unknown people. Each has different risks, different strategies and different reporting mechanisms.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Normalising help-seeking and bystander action",
+        "description": "Examine ways to reduce stigma around help-seeking, and rehearse bystander strategies for supporting others in unsafe situations.",
+        "minimum_width": "Describe at least one strategy for reducing help-seeking stigma and at least one strategy for acting as a bystander when others are in unsafe situations.",
+        "success_criteria": [
+          "Stigma-reduction strategy addresses the stigma mechanism specifically — not just 'encourage help-seeking'",
+          "Bystander strategy is specific and rehearsed — not just stated"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Integrates analysis of effective strategies, online and offline safety knowledge, and the social dimensions of help-seeking (stigma, bystander action) into the full descriptor demand."
+          }
+        ]
+      }
+    ]
+  }
+}

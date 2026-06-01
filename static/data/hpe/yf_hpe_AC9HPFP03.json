@@ -1,0 +1,76 @@
+{
+  "year_level": "F",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HPFP03",
+    "title": "Express Emotions",
+    "description": "express and describe emotions they experience",
+    "strand": "Personal, Social and Community Health",
+    "mode": "A",
+    "prior_knowledge": "No prior HPE curriculum. Students have intuitive emotional experience but limited vocabulary and structured practice for identifying and expressing emotions.",
+    "progression_endpoint": "Students express and describe emotions they experience using appropriate language and actions, and make connections between feelings, body reactions and body language.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Naming emotions",
+        "progression_checkpoint": "Students can identify and name a range of emotions — happy, sad, excited, tired, angry, scared, confused — and describe what they look like in others and themselves.",
+        "minimum_width": "Name at least four emotions and describe what they look like (facial expression, body language) in a character, image or peer.",
+        "typical_width": "Identify and describe a range of emotions (at least six) in stories, images and peers; connect emotion names with observable indicators (expression, posture, voice); recall emotional responses to their own experiences.",
+        "wider": [
+          "Explore how emotions are expressed differently across cultures — using stories or examples from First Nations Australian or Asian cultural contexts",
+          "Investigate emotion expression in physical activity contexts — e.g. how winning, losing or taking risks feels",
+          "Represent a range of emotions through movement, drawing or creative expression"
+        ],
+        "hinge": true,
+        "hinge_reason": "Emotion vocabulary is prerequisite for expressing and communicating feelings (next node). Students with limited emotion vocabulary cannot access appropriate language or actions for communicating their feelings in different situations.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Emotion vocabulary is genuinely a repertoire — more named emotions means more precise communication. Accumulate the range systematically through stories, imagery and physical activity reflection.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Emotions in varied contexts — stories, movement, cultural settings — broaden recognition beyond the classroom's dominant emotional register.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Cross-cultural and physical activity emotion contexts are genuinely rich — they reveal that emotional expression is situational and culturally shaped, not just personal.",
+        "success_criteria": [
+          "Names at least four emotions correctly when shown or described a scenario",
+          "Describes at least one observable indicator (expression, posture, voice) for two different emotions"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Communicating emotions appropriately",
+        "progression_checkpoint": "Students can use appropriate language and actions to communicate their feelings in different situations, and connect feelings to body reactions and body language.",
+        "minimum_width": "Use words or gestures to communicate one feeling in a social or play context in a way that is appropriate for the situation.",
+        "typical_width": "Practise and refine appropriate emotional communication in a range of situations; make connections between feelings, body reactions (heart racing, stomach butterflies) and visible body language; share emotional responses to experiences in a variety of ways.",
+        "wider": [
+          "Explore and practise communicating emotions in challenging situations — adventures, risks or emergencies in stories",
+          "Connect body reactions during physical activity (breathlessness, energy) to emotional states",
+          "Discuss how expressing emotions helps social connection and conflict resolution"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Appropriate emotional communication is a practised skill — Foundation students need repeated, safe opportunities to try emotion vocabulary and receive affirming feedback before it becomes reliable.",
+            "flags": []
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Uses appropriate language or gesture to communicate a feeling in at least one situation",
+          "Makes a simple connection between a feeling and a body reaction or body language signal"
+        ],
+        "related_standards": ["AC9HPFP01", "AC9HPFP02"]
+      }
+    ]
+  }
+}

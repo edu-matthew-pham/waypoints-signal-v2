@@ -1,0 +1,96 @@
+{
+  "year_level": "3-4",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP4P08",
+    "title": "Protective behaviours online and offline",
+    "description": "describe and apply protective behaviours and help-seeking strategies in a range of online and offline situations",
+    "strand": "Making healthy and safe choices",
+    "mode": "B",
+    "prior_knowledge": "Students have identified and demonstrated protective behaviours and help-seeking strategies to help themselves and others stay safe (AC9HP2P05). They can identify and demonstrate strategies in familiar contexts but have not yet applied them across the full range of online and offline situations.",
+    "progression_endpoint": "Students describe and apply protective behaviours and help-seeking strategies in a range of online and offline situations.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Warning signs — physical, emotional and external",
+        "progression_checkpoint": "Students can describe warning signs (physical, emotional and external) that help them know if they are safe or unsafe.",
+        "minimum_width": "Identify at least two warning signs (across physical, emotional and/or external categories) that indicate an unsafe situation.",
+        "typical_width": "Describe a range of physical, emotional and external warning signs across different unsafe situations; explain what makes each sign a reliable indicator of risk.",
+        "wider": [
+          "Investigate how animals and humans use similar instinctive warning signals (physical responses like increased heart rate or hair standing up) as protective mechanisms, and connect this to the body's natural safety system.",
+          "Explore how cultural backgrounds influence what is recognised as an unsafe situation and what warning signs are prioritised — discussing how this affects protective behaviour."
+        ],
+        "hinge": true,
+        "hinge_reason": "Recognising warning signs is the precondition for all protective behaviour and help-seeking. Students who cannot identify that they are unsafe cannot access or apply the strategies in the subsequent nodes.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need a classification system for warning signs (physical body responses, emotional feelings, external environmental signals) to organise their recognition and move from general unease to actionable assessment. Explicit categorisation practice with examples builds this.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Names at least two warning signs from at least two different categories (physical, emotional, external).",
+          "Explains what each warning sign might indicate about a situation.",
+          "Describes what they would do after noticing a warning sign."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Protective behaviours across situations",
+        "progression_checkpoint": "Students can examine protective behaviours to stay safe in different situations, including near water or roads, in the park, online and when someone makes them feel uncomfortable.",
+        "minimum_width": "Describe at least one protective behaviour relevant to at least two different contexts (e.g. near water, online).",
+        "typical_width": "Describe and discuss protective behaviours across a full range of situations — water, roads, parks, online, personal safety — identifying what makes each behaviour protective and how it reduces risk.",
+        "wider": [
+          "Indicate safe places and trusted people on a local map for their own neighbourhood, creating a personalised safety reference.",
+          "Examine protective behaviours used by characters in texts or media across varied situations, evaluating the effectiveness of each and identifying alternatives."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Protective behaviours look significantly different across contexts — water safety has different requirements from online safety, which differs again from personal space safety. Students need exposure across contexts to build situation-appropriate protective behaviour.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of protective behaviour contexts (water, road, outdoor, online, personal safety) is substantive and each context offers distinct and meaningful learning — wider exploration across contexts builds genuinely more comprehensive protective capability.",
+        "success_criteria": [
+          "Describes a protective behaviour relevant to at least two different contexts.",
+          "Explains how each behaviour reduces risk in that context.",
+          "Identifies one behaviour they already use and one they could strengthen."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Help-seeking strategies",
+        "progression_checkpoint": "Students can identify and apply help-seeking strategies to negotiate positive outcomes when challenging situations arise, including online contexts.",
+        "minimum_width": "Identify at least one help-seeking strategy for a challenging online or offline situation and explain how it would lead to a positive outcome.",
+        "typical_width": "Identify and apply help-seeking strategies across varied challenging situations; discuss what makes each strategy appropriate in different contexts and how to access trusted support.",
+        "wider": [
+          "Design a personal help-seeking plan that identifies trusted adults, contact options and reporting pathways for different types of unsafe situations — online and offline.",
+          "Practise navigating an online reporting or help-seeking process using a simulated or guided environment, building familiarity with digital help-seeking tools."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Help-seeking integrates warning sign recognition (node 1), situation-specific protective behaviour (node 2) and knowledge of trusted adults and reporting pathways. The integration — knowing when and how to seek help in a specific situation — is the operational skill."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least one help-seeking strategy for a specific challenging situation.",
+          "Explains how the strategy would help achieve a positive outcome.",
+          "Names at least one trusted adult or reporting option for online and offline unsafe situations."
+        ]
+      }
+    ]
+  }
+}

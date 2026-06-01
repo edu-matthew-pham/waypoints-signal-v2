@@ -1,0 +1,93 @@
+{
+  "year_level": "3-4",
+  "subject": "Languages — Background Language Learner",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9LCH4U02",
+    "title": "Writing system features, sentence structures and syntax",
+    "description": "recognise and use features of the target language writing system, familiar components and/or characters, a range of sentence structures and basic syntax, in familiar texts and contexts",
+    "strand": "Understanding — Systems of Language",
+    "mode": "A",
+    "prior_knowledge": "Students recognise how components or characters construct meaning and can use basic grammatical structures in modelled sentences (AC9LCH2U02). They can copy and produce written target language with attention to script conventions. They have not yet applied stroke order rules systematically, built compound characters from component knowledge, or used a range of sentence structures including compound and complex forms.",
+    "progression_endpoint": "Students recognise and use features of the target language writing system — including character components, stroke conventions, and writing direction — and apply a range of sentence structures and basic syntactic features in familiar texts.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Writing system conventions and character formation",
+        "progression_checkpoint": "Students can apply the rules of stroke direction and stroke order when writing characters or script elements, attending to details that discriminate similar forms.",
+        "minimum_width": "Write at least five characters or script elements with correct stroke order and direction, demonstrating attention to discriminating details.",
+        "typical_width": "Apply stroke direction and order rules when writing; attend to details that discriminate similar forms; use target language writing conventions including text direction and punctuation; practise using varied materials and digital tools.",
+        "wider": [
+          "Investigate pairs of characters or script elements that differ only in small details — explain what the distinguishing feature is and why precision matters",
+          "Compare the writing conventions of the target language with English — create a guide for someone learning the target language writing system for the first time"
+        ],
+        "hinge": true,
+        "hinge_reason": "Writing system conventions are the prerequisite for legible written production. Students who have not internalised stroke order and direction rules produce characters that are difficult to read and cannot be extended to compound characters or complex text in subsequent years.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Stroke order and direction require repeated, attentive practice — not occasional copying. Regular short writing practice with attention to convention builds the motor memory that allows students to write with fluency and accuracy in text creation tasks.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Writes at least five characters or script elements with correct stroke order and direction",
+          "Demonstrates attention to at least one discriminating detail that distinguishes similar forms"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Component analysis and word building",
+        "progression_checkpoint": "Students can identify components or morphemes in target language characters or words and use component knowledge to build or analyse new words.",
+        "minimum_width": "Identify the components of at least three compound characters or words and explain how each component contributes to meaning or sound.",
+        "typical_width": "Identify and categorise characters or words by shared components; make connections between component forms and related meanings; mix and match known components to build new words; infer meaning of new words from known components; use digital tools to explore character structure.",
+        "wider": [
+          "Investigate the six types of character formation (or equivalent morphological patterns in the target language) and identify examples of each — explain the logic behind each formation type",
+          "Use component knowledge to make an educated guess about the meaning of an unfamiliar character or word — then verify using a dictionary and discuss accuracy of the prediction"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Component analysis requires students to apply a systematic framework to word/character structure — not just memorise individual items. Explicit instruction on component types and their semantic or phonetic roles builds the analytical capacity that supports vocabulary extension.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Component analysis is the key that unlocks independent vocabulary development in logographic or morphologically complex writing systems. Width investment here builds the analytical tools that allow students to approach unfamiliar words strategically — a capability with significant long-term payoff.",
+        "success_criteria": [
+          "Identifies components of at least three compound characters or words",
+          "Explains how at least one component contributes to the meaning or sound of the character or word"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Sentence structure range and syntactic features",
+        "progression_checkpoint": "Students can recognise and use a range of sentence structures and syntactic features — including multiple sentence types, modifiers, adverbs, prepositions and elaboration patterns — in familiar texts.",
+        "minimum_width": "Produce at least four sentences demonstrating at least three different syntactic features (e.g. a sentence with a time expression, a sentence with a location preposition, a question, and a compound sentence).",
+        "typical_width": "Recognise and use multiple sentence types — statements, questions (closed and open), compound sentences; use adverbs, location prepositions, reduplication adjectives, and time/manner/place elaboration patterns; apply these structures in reading and writing familiar texts.",
+        "wider": [
+          "Analyse a model text and annotate each sentence to show the syntactic features used — then write an equivalent text using the same structure repertoire",
+          "Compare specific syntactic features (e.g. how time expressions or location prepositions work) across the target language and English — identify where they behave similarly and where they require different approaches"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Sentence structure range integrates writing system knowledge (node 1) and component/word-building understanding (node 2) into a full grammatical competence for text creation. The teaching investment is in explicit modelling of each structure type followed by varied production tasks across different text contexts."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Produces at least four sentences demonstrating at least three different syntactic features",
+          "Uses at least one elaboration pattern (time, manner, or place detail) correctly in a sentence"
+        ]
+      }
+    ]
+  }
+}

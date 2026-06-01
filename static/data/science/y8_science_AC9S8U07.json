@@ -8,90 +8,172 @@
     "description": "compare physical and chemical changes and identify indicators of energy change in chemical reactions",
     "strand": "Chemical Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can describe physical changes to materials (shape, state) without change to composition (AC9S2U03). They can identify changes of state driven by heat energy (AC9S3U04). They have not yet formally distinguished physical from chemical change or identified the indicators of chemical change.",
-    "progression_endpoint": "Students distinguish physical changes from chemical changes using observable evidence, identify the indicators of chemical change (gas production, precipitate formation, colour change, temperature change), describe energy changes in chemical reactions, and interpret data on substance properties before and after interaction to determine the type of change.",
+    "prior_knowledge": "Students can recognise that physical changes preserve material composition (AC9S2U03), compare reversible and irreversible changes at an observable level (AC9S6U04), use particle theory for substance properties (AC9S7U05), and classify matter as elements, compounds or mixtures (AC9S8U06). AC9S6U04 provides a reversibility heuristic that mostly works but fails for dissolving. The new substance criterion — grounded in compound formation from AC9S8U06 — is new. Exothermic and endothermic as named categories of energy change in reactions are new.",
+    "progression_endpoint": "Students compare physical and chemical changes using the new substance criterion, identify observable indicators of chemical change, and explain exothermic and endothermic reactions as categories of energy change — applying all three criteria to classify and analyse unfamiliar changes.",
     "nodes": [
       {
         "id": 1,
-        "label": "Physical and chemical changes are fundamentally different",
-        "progression_checkpoint": "Students can distinguish physical changes (composition unchanged, often reversible) from chemical changes (new substances formed, usually irreversible) using observable evidence and particle-level reasoning.",
-        "minimum_width": "Students classify at least three examples as physical or chemical changes with justification, explaining what is and is not different after the change.",
-        "typical_width": "Students explain the fundamental distinction between physical change (same substances, different arrangement or state) and chemical change (new substances formed with different properties) using particle-level reasoning, and classify a range of examples — including ambiguous cases — with reasoning.",
+        "label": "Physical change at the particle level — rearrangement without new substance",
+        "progression_checkpoint": "Students can explain physical change as rearrangement of particles without formation of new substances, and represent this using the particle model.",
+        "minimum_width": "Students explain physical change using the particle model — particles rearrange but atom types and bonding remain the same.",
+        "typical_width": "Students describe physical changes (melting, dissolving, tearing, bending) using particle diagrams — particles change position or arrangement but no new compound is formed; connect to AC9S2U03 (physical change preserves material composition) and AC9S3U04 (state changes); explain that physical changes are typically reversible because no new substance has formed; note that reversibility is a consequence, not the definition.",
         "wider": [
-          "Analyse data on substance properties before and after interaction (colour, odour, melting point, solubility) and use this evidence to determine whether a physical or chemical change occurred",
-          "Examine everyday processes and classify them — dissolving, burning, rusting, melting, cooking, digestion — discussing cases where students' intuitions are challenged by the evidence",
-          "Investigate how the physical and chemical properties of a substance affect its production or use — connecting the change distinction to materials science applications"
+          "Represent dissolving at the particle level — show NaCl ions separating and dispersing in water — and explain why this is a physical change despite appearing to 'disappear'",
+          "Investigate which physical changes are reversible and which are difficult to reverse in practice (e.g. tearing paper) — explain using particle rearrangement"
         ],
-        "hinge": true,
-        "hinge_reason": "The physical/chemical distinction is the conceptual prerequisite for both Node 2 (identifying indicators of chemical change — without the distinction students cannot explain why an indicator constitutes evidence of chemical change specifically) and Node 3 (interpreting energy changes — without knowing what a chemical change is, students cannot attribute temperature changes to the correct category of change).",
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students commonly classify dissolving as a chemical change (disappearance suggests transformation) and burning as a physical change (something is still there). The particle-level reasoning — same atoms but different arrangement = physical; atoms rearranged into new substances = chemical — is the scaffold that makes classification reliable across ambiguous cases, rather than pattern-matching to familiar examples.",
-            "flags": ["hinge"]
+            "reason": "The particle-level representation of physical change establishes the baseline against which chemical change will be contrasted in N2. Dissolving as a physical change is important to address here — it is the case most likely to be misclassified as chemical change, and the particle diagram makes the 'no new substance' criterion visible."
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Classifies at least three changes as physical or chemical with particle-level justification",
-          "Explains why dissolving is a physical change and burning is a chemical change (common misconceptions addressed)"
+          "Explains physical change as particle rearrangement without formation of new substances",
+          "Represents a physical change using a particle diagram showing no new substance",
+          "Explains why reversibility is a consequence of physical change, not the definition"
         ],
-        "related_standards": ["AC9S8U06"]
+        "related_standards": ["AC9S7U05", "AC9S8U06", "AC9S2U03"]
       },
       {
         "id": 2,
-        "label": "Chemical changes have observable indicators",
-        "progression_checkpoint": "Students can identify the observable indicators of chemical change — gas production, precipitate (solid) formation, colour change, temperature change — and use these indicators as evidence to determine whether a chemical reaction has occurred.",
-        "minimum_width": "Students identify at least three indicators of chemical change and give one example of a reaction that produces each indicator.",
-        "typical_width": "Students perform or analyse simple chemical reactions to identify indicators of chemical change, explain how each indicator provides evidence that new substances have formed, and distinguish indicators of chemical change from superficially similar physical changes (e.g. temperature change from dissolving vs from reacting).",
+        "label": "Chemical change — new substance formation at the particle level",
+        "progression_checkpoint": "Students can explain chemical change as the formation of new substances through bond breaking and forming, and apply the new substance criterion to classify changes.",
+        "minimum_width": "Students state the new substance criterion and correctly classify three unfamiliar changes as physical or chemical.",
+        "typical_width": "Students explain that chemical change involves bonds breaking between atoms and new bonds forming — producing compounds with different atom arrangements and different properties; connect to AC9S8U06's compound concept — a new compound is a new substance; explain that chemical changes are typically not easily reversed because new substances have different properties from reactants; apply the new substance criterion to classify: burning (new compounds formed), rusting (iron oxide ≠ iron), cooking (proteins/starches structurally altered).",
         "wider": [
-          "Investigate how chemical change indicators are used in soil, water and medical testing kits — examining how the same observable indicator (colour change, gas production) is applied diagnostically in different contexts",
-          "Analyse data from reactions involving different proportions of the same chemicals to identify relationships between reactant quantities and indicators of change (temperature change, gas volume)",
-          "Examine how the physical and chemical properties of a substance affect its use — e.g. why a material that corrodes (chemical change) is unsuitable for structural applications"
+          "Investigate an ambiguous case — is dissolving chemical or physical? Predict using the new substance criterion, test by evaporation, and evaluate the result",
+          "Analyse before-and-after property data for three unfamiliar changes and classify each using the new substance criterion — explain your reasoning"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "The new substance criterion replaces the unreliable reversibility heuristic from AC9S6U04. Students who retain reversibility as the primary test will misclassify dissolving (reversible but not chemical) and some reactions. The new substance criterion must be explicitly established as the correct test before indicators and energy change are introduced.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
-            "mode": "context_breadth",
-            "reason": "Students often recognise indicators in familiar reactions (vinegar and baking soda) but fail to identify them in less obvious contexts. Encountering the same indicators across varied reaction types — precipitation, decomposition, combustion, acid-base — helps students build a more reliable and transferable concept of what constitutes evidence for chemical change.",
-            "flags": ["width_opportunity"]
+            "mode": "structured_reasoning",
+            "reason": "Explicitly confronting the reversibility heuristic failure — dissolving is reversible but not chemical; some chemical reactions can be reversed — is necessary. Students need the new substance criterion presented as a replacement, not an addition, to their prior classification tool. Particle-level diagrams showing bond-breaking and bond-forming make the criterion visible.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Chemical change indicators in diagnostic testing (soil kits, medical tests, water quality) provide a genuinely engaging real-world application that goes well beyond the classroom reaction context. Students engaging this direction see how the same observable evidence is used purposefully in professional and environmental contexts.",
         "success_criteria": [
-          "Identifies at least three observable indicators of chemical change",
-          "Uses observable indicators as evidence to determine whether a chemical reaction has occurred in a given scenario"
-        ]
+          "States that new substance formation is the criterion defining chemical change",
+          "Correctly classifies at least three changes using the new substance criterion",
+          "Explains why reversibility alone is not a reliable criterion using a named counterexample"
+        ],
+        "related_standards": ["AC9S8U06", "AC9S6U04", "AC9S7U05"]
       },
       {
         "id": 3,
-        "label": "Chemical reactions involve energy changes",
-        "progression_checkpoint": "Students can identify and investigate energy changes in chemical reactions — distinguishing exothermic reactions (release heat) from endothermic reactions (absorb heat) — and explain what the temperature change indicates about the energy stored in the reaction products vs reactants.",
-        "minimum_width": "Students identify whether a named chemical reaction is exothermic or endothermic based on observed temperature change and explain what the temperature change indicates.",
-        "typical_width": "Students investigate energy changes in different chemical reactions, distinguish exothermic from endothermic reactions using temperature data, and explain how energy change indicators connect to the broader concept of chemical potential energy being stored in or released from chemical bonds.",
+        "label": "Observable indicators of chemical change",
+        "progression_checkpoint": "Students can identify and explain four observable indicators of chemical change and explain why each suggests a new substance has formed.",
+        "minimum_width": "Students name four indicators and describe one observation demonstrating each.",
+        "typical_width": "Students describe: gas production (bubbles, odour — a gaseous compound has formed); precipitate formation (solid appears in solution — an insoluble compound has formed); colour change (new compound has different light absorption); temperature change (energy released or absorbed as bonds break and form); perform or analyse simple reactions to identify indicators; explain that indicators are evidence of the criterion, not the definition — the indicator suggests a new substance may have formed.",
         "wider": [
-          "Investigate traditional fire-starting methods used by First Nations Australians — examining the chemical reactions involved and the energy transformations from mechanical to heat to light (connects to AC9S8U05)",
-          "Compare temperature differences obtained by reacting different proportions of the same chemicals — examining whether there is a relationship between quantity and energy change",
-          "Examine the difference between physical dissolution temperature changes (dissolving ammonium nitrate — endothermic) and chemical reaction temperature changes — applying the physical/chemical change distinction to energy observations"
+          "Design a reaction investigation that uses multiple indicators to confirm chemical change — which combinations give the strongest evidence?",
+          "Investigate how chemical change indicators are used in practical testing contexts — soil pH kits, water quality tests, pregnancy tests — and identify which indicator each exploits"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Indicators are evidence of chemical change, not its definition. Students commonly invert this — classifying a change as chemical because they see a colour change. Making the evidence-criterion relationship explicit (indicator suggests new substance may have formed → confirm by checking properties) prevents systematic misclassification."
+          }
+        ],
+        "success_criteria": [
+          "Names four observable indicators of chemical change",
+          "Explains why each indicator suggests a new substance has formed",
+          "Distinguishes indicators (observable evidence) from the definition (new substance)"
+        ],
+        "related_standards": ["AC9S6U04"]
+      },
+      {
+        "id": 4,
+        "label": "Exothermic reactions — energy released to surroundings",
+        "progression_checkpoint": "Students can identify exothermic reactions by temperature rise, explain that energy is released as bonds form in the products, and give examples.",
+        "minimum_width": "Students identify exothermic reactions by observable temperature rise and give two examples.",
+        "typical_width": "Students describe exothermic reactions (combustion, neutralisation, respiration, hand warmers); explain that when products form, the energy stored in new bonds is less than was stored in reactant bonds — the difference is released as heat; explain why temperature rises in the surroundings; connect to AC9S8U05's energy classification — chemical potential energy → thermal energy; describe applications: hand warmers, self-heating cans, fire-starting.",
+        "wider": [
+          "Investigate the temperature change in a neutralisation reaction — measure the heat released and compare different acid/base combinations",
+          "Examine how exothermic reactions are exploited in hand warmers and self-heating food cans — what chemical system is used and how is the release triggered?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Exothermic and endothermic are most clearly understood in parallel contrast. Treating exothermic first — where the temperature rise is observable and intuitive — provides the reference point for the less intuitive endothermic in N5."
+          }
+        ],
+        "success_criteria": [
+          "Identifies exothermic reactions by a temperature rise in the surroundings",
+          "Explains that exothermic reactions release energy stored in chemical bonds",
+          "Gives at least two examples of exothermic reactions"
+        ],
+        "related_standards": ["AC9S8U05", "AC9S3U03"]
+      },
+      {
+        "id": 5,
+        "label": "Endothermic reactions — energy absorbed from surroundings",
+        "progression_checkpoint": "Students can identify endothermic reactions by temperature drop, explain that energy is absorbed to break reactant bonds, and give examples.",
+        "minimum_width": "Students identify endothermic reactions by observable temperature fall and give two examples.",
+        "typical_width": "Students describe endothermic reactions (photosynthesis, thermal decomposition, dissolving ammonium nitrate); explain that the energy required to break reactant bonds exceeds the energy released in product bond formation — the difference is absorbed from surroundings as heat; explain why temperature falls in the surroundings; describe applications: cold packs; contrast with exothermic in terms of energy direction.",
+        "wider": [
+          "Investigate the temperature change when ammonium nitrate dissolves in water — explain the observation using bond energy reasoning",
+          "Compare an exothermic and endothermic reaction using the same experimental setup — identify all variables that need controlling to make the comparison fair"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Investigating and comparing exothermic and endothermic reactions experimentally is explicitly elaborated. Temperature measurement across multiple reaction types, bond energy reasoning, and practical applications (cold packs, hot packs) provide genuine investigative width.",
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Students commonly treat temperature change as only occurring in exothermic reactions and are surprised by endothermic examples. Encountering energy changes across both directions — and connecting the observation to the concept of chemical potential energy — builds a more accurate and complete model of how chemistry and energy are related."
+            "reason": "Multiple endothermic reaction contexts — dissolving, photosynthesis, thermal decomposition, cold packs — each apply the same energy-absorption concept in a different domain. Breadth here is more productive than depth on a single example.",
+            "flags": ["width_opportunity"]
           }
         ],
+        "success_criteria": [
+          "Identifies endothermic reactions by a temperature fall in the surroundings",
+          "Explains that endothermic reactions absorb energy from surroundings",
+          "Gives at least two examples of endothermic reactions and distinguishes them from exothermic"
+        ],
+        "related_standards": ["AC9S8U05", "AC9S3U03"]
+      },
+      {
+        "id": 6,
+        "label": "Comparing physical and chemical changes — integrating all criteria",
+        "progression_checkpoint": "Students can apply the new substance criterion, observable indicators and energy change together to classify and analyse unfamiliar changes.",
+        "minimum_width": "Students apply all three criteria to classify two unfamiliar changes and justify each classification.",
+        "typical_width": "Students analyse before-and-after data (appearance, temperature, mass, properties) to classify changes; explain that multiple converging indicators increase confidence; examine cases where a single indicator is misleading — temperature change also occurs in physical processes (state change) without chemical change; connect to AC9S8U06 — chemical change produces a new compound; evaluate the claim that 'if it glows, it must be chemical' against counterexamples.",
+        "wider": [
+          "Analyse a multi-step process (cooking a meal, or a First Nations food preparation technique) — identify all physical and chemical changes involved and classify each using the full criterion set",
+          "Investigate how chemical change indicators are used in environmental or medical testing — what does each indicator detect, and how is false-positive risk minimised?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
         "width_opportunity": false,
         "width_opportunity_reason": null,
-        "success_criteria": [
-          "Classifies a named reaction as exothermic or endothermic based on temperature change evidence",
-          "Explains what a temperature increase or decrease in a reaction indicates about the energy of the products compared to the reactants"
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates particle-level physical change (N1), new substance criterion (N2), indicators (N3) and energy change (N4–N5) into a complete analytical framework. Applying all criteria to novel cases — particularly cases where a single indicator could mislead — is the descriptor's full 'compare physical and chemical changes' demand."
+          }
         ],
-        "related_standards": ["AC9S8U05"]
+        "success_criteria": [
+          "Applies the new substance criterion, observable indicators and energy change to classify an unfamiliar change",
+          "Explains why multiple converging criteria increase classification confidence",
+          "Identifies a case where a single indicator is misleading and explains using the new substance criterion"
+        ],
+        "related_standards": ["AC9S8U06", "AC9S6U04", "AC9S8U05"]
       }
     ]
   }

@@ -4,90 +4,176 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH9K08",
-    "title": "Causes of WWI and Australian Enlistment",
+    "title": "Causes of WW1 and Australian Enlistment",
     "description": "the causes of the First World War and the reasons why Australians enlisted to fight in the war",
     "strand": "Knowledge and Understanding",
     "mode": "A",
-    "prior_knowledge": "Students have studied Australian colonial development and Federation. They understand European imperial expansion (AC9HH9K01) and Australia's development in relation to the world by 1914 (AC9HH9K07). They have not yet systematically studied the causes of the First World War or the mechanisms of imperial alliance systems. They have some general awareness of WWI from prior schooling but have not analytically examined its causes.",
-    "progression_endpoint": "Students identify and describe the causes of the First World War and explain the reasons why Australians enlisted to fight.",
+    "prior_knowledge": "Students can identify causes and effects of significant historical events and describe turning points in earlier periods (AC9HH8K03, AC9HH8K08, AC9HH8K13). They have not yet examined the alliance system or balance-of-power logic in early 20th-century Europe, the mechanisms by which a localised conflict escalated to continental war, or the specific motivational framework — Empire loyalty, adventure, propaganda, peer pressure — that shaped Australian enlistment decisions.",
+    "progression_endpoint": "Students identify and describe the long-term structural causes of WW1 (militarism, imperialism, alliance system, nationalism) and the short-term triggers (assassination, July Crisis, invasion of Belgium); explain how these causes escalated a local crisis into a world war; and describe the range of reasons Australian men enlisted in the AIF, including the role of Empire identity, propaganda, peer and community pressure, and the stories of First Nations Australian soldiers.",
     "nodes": [
       {
         "id": 1,
-        "label": "Long-term causes — MAIN",
-        "progression_checkpoint": "Students can identify and describe the long-term structural causes of WWI including militarism, the alliance system, imperialism, and nationalism.",
-        "minimum_width": "Identify and describe at least two long-term causes of WWI.",
-        "typical_width": "Identify and describe the four long-term causes (MAIN): Militarism (arms race, military culture), Alliance System (Triple Entente vs Triple Alliance), Imperialism (competition for colonies, economic rivalry), Nationalism (ethnic nationalism, pressure on multi-ethnic empires like Austria-Hungary); explain how these causes created a fragile, interconnected European order prone to rapid escalation.",
+        "label": "Long-term structural causes — MAIN",
+        "progression_checkpoint": "Students can identify and describe the four long-term structural causes of WW1 — militarism, alliances, imperialism, nationalism — and explain what each contributed to rising tensions in Europe.",
+        "minimum_width": "Students name all four structural causes and give one concrete description of each — e.g. the arms race between Britain and Germany (militarism), the Triple Alliance and Triple Entente (alliances), European powers competing for colonial territory (imperialism), Pan-Slavic and Pan-German nationalist movements (nationalism).",
+        "typical_width": "Students describe how each structural cause developed during the late 19th and early 20th centuries; provide multiple examples per cause; explain how each cause independently raised the probability of conflict; use the MAIN acronym as an organising framework; distinguish long-term causes from immediate triggers.",
         "wider": [
-          "Investigate the arms race between Britain and Germany as a concrete example of militarism — examining naval rivalry and the Dreadnought programme as factors that increased the probability of conflict",
-          "Examine how nationalism operated as both a unifying and destabilising force — including how it strengthened nation-states while simultaneously threatening multi-ethnic empires like Austria-Hungary and the Ottoman Empire",
-          "Investigate how imperial competition in Africa and Asia in the early 20th century created friction between European powers — examining the Moroccan Crises as near-war moments before 1914"
+          "Compare how militarism, imperialism and nationalism operated differently in different countries — e.g. how German nationalism differed from Austro-Hungarian imperialism — to show that these causes were not uniform across Europe",
+          "Examine the role of colonial competition in Africa (Moroccan Crises 1905, 1911) or the Balkans as a zone of competing imperial interests, connecting back to AC9HH9K07 on Australia's development in relation to world powers by 1914",
+          "Investigate how the press and popular culture in Britain, France and Germany actively promoted nationalist and militarist sentiment — making the connection to propaganda that anticipates the enlistment strand later in this descriptor"
         ],
         "hinge": true,
-        "hinge_reason": "The MAIN causes provide the structural explanation for why war was possible. Without understanding these, students will reduce WWI to 'the assassination' — missing the underlying conditions that made a single event trigger a world war. All subsequent analysis of the war's significance depends on understanding why it happened.",
+        "hinge_reason": "The four structural causes are the conceptual foundation for understanding escalation. Students who cannot place these causes before the assassination cannot explain why a local crisis in Sarajevo triggered continent-wide mobilisation. The alliance mechanism in particular is the prerequisite for N2 — without understanding that alliance obligations automatically widened any conflict, the July Crisis sequence is incomprehensible.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students need an explicit framework (MAIN) before engaging with specific examples — the categories help organise what would otherwise be a disconnected list of historical facts. Model how each cause type works before asking students to apply it.",
+            "reason": "Students commonly conflate causes — treating the alliance system and nationalism as interchangeable, or treating any tension as a 'cause' without understanding structural vs trigger distinction. Explicitly mapping each cause and its distinct mechanism prevents this conflation and builds the conceptual scaffold for N2.",
             "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
         "success_criteria": [
-          "Identifies and describes all four MAIN long-term causes of WWI",
-          "Explains how at least two causes interacted to create conditions for large-scale conflict"
+          "Names and describes all four structural causes with at least one concrete example each",
+          "Distinguishes the four structural causes from each other — describes what is distinctive about each"
         ]
       },
       {
         "id": 2,
-        "label": "Short-term triggers and the outbreak of war",
-        "progression_checkpoint": "Students can identify and describe the short-term triggers of WWI including the assassination of Archduke Franz Ferdinand, the July Crisis, and Germany's invasion of Belgium.",
-        "minimum_width": "Describe the assassination of Archduke Franz Ferdinand and explain how it triggered the outbreak of war.",
-        "typical_width": "Identify and describe the short-term triggers: the assassination of Franz Ferdinand in Sarajevo (June 1914); the July Crisis — Austria-Hungary's ultimatum to Serbia, mobilisation and alliance chain reactions; Germany's invasion of Belgium and Britain's entry; explain how these triggers activated the alliance systems built over preceding decades.",
+        "label": "The alliance system as an escalation mechanism",
+        "progression_checkpoint": "Students can explain how the alliance system transformed a localised conflict into a continental war — why Austria-Hungary's dispute with Serbia triggered the mobilisation of all major European powers.",
+        "minimum_width": "Students explain that the alliance system meant one country's declaration of war automatically obligated its allies to respond, and trace how this mechanism converted the Austro-Serbian dispute into a wider conflict.",
+        "typical_width": "Students trace the sequence of mobilisations (Austria-Hungary → Russia → Germany → France → Britain) and explain the alliance obligations driving each; explain Germany's Schlieffen Plan logic as a product of the two-front alliance threat; explain why Britain's entry followed from the invasion of Belgium (treaty of 1839); distinguish alliance obligations from genuine strategic choice.",
         "wider": [
-          "Examine the July Crisis in detail — tracking the diplomatic decisions made by each major power in the weeks after the assassination — to assess whether war was inevitable or whether different choices could have prevented it",
-          "Investigate Germany's Schlieffen Plan and how its rigid military timetables constrained diplomatic options once mobilisation began — examining how military planning shaped political outcomes",
-          "Compare how different nations experienced the outbreak of war (e.g. Germany, France, Britain, Serbia, Australia) to examine how the 'short-term trigger' was experienced differently depending on national position"
+          "Examine the role of military timetables and mobilisation plans — the Schlieffen Plan, Russian mobilisation schedules — in removing diplomatic options once the process began, connecting the alliance mechanism to military-planning logic",
+          "Consider counterfactual questions: if the alliance system had not existed, would Sarajevo have remained a local Austro-Serbian conflict? Evaluate the claim that the alliance system was the primary escalation mechanism"
         ],
-        "hinge": false,
-        "hinge_reason": null,
+        "hinge": true,
+        "hinge_reason": "Understanding the alliance mechanism is the prerequisite for the July Crisis node (N3). Students who cannot explain why Austria-Hungary's declaration pulled in Russia, Germany, France and Britain cannot follow the July Crisis chronology — the sequence of decisions only makes sense if alliance obligations are already understood.",
+        "width_opportunity": true,
+        "width_opportunity_reason": "The counterfactual and military-timetable extensions offer genuine analytical depth — students can reason about the relative weight of different causes, anticipating the 'significance' reasoning demanded in later descriptors (AC9HH9K10, K12).",
         "response_modes": [
           {
-            "mode": "consolidation",
-            "reason": "The sequence of events in July-August 1914 is specific and needs accurate recall — assassination → ultimatum → mobilisation → alliance chain → Britain's entry — before students can use it analytically."
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe the alliance system as 'countries helping each other' without understanding the automated, obligation-driven nature of mobilisation. Making the mechanism explicit — alliance obligation removed choice — is the scaffold for understanding the July Crisis as a sequence of triggered responses rather than independent decisions.",
+            "flags": ["hinge"]
+          },
+          {
+            "mode": "context_breadth",
+            "reason": "Examining multiple alliance-obligation pathways (why Russia mobilised for Serbia, why Britain entered for Belgium) builds the generalised understanding of the mechanism beyond a single pathway.",
+            "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": false,
         "success_criteria": [
-          "Describes the assassination and its immediate political consequences",
-          "Explains how the alliance system caused a localised crisis to escalate into a world war"
+          "Explains how the alliance system meant one country's conflict automatically triggered obligations in others",
+          "Traces the sequence by which the Austro-Serbian dispute drew in at least three other major powers"
         ]
       },
       {
         "id": 3,
-        "label": "Australian responses and reasons for enlistment",
-        "progression_checkpoint": "Students can explain the different perspectives toward war in 1914, examine Australian political leaders' responses, and describe the range of reasons why Australians enlisted.",
-        "minimum_width": "List at least three distinct reasons why Australian men enlisted in the AIF.",
-        "typical_width": "Explain different perspectives toward war at the turn of the 20th century (war as noble/heroic, as adventure, and sceptical views); examine Australian political leaders' responses (e.g. Fisher's 'last man and last shilling' pledge); describe the range of enlistment motivations including duty to the British Empire, adventure, economic reasons, propaganda, peer pressure; examine the stories of First Nations Australian men who enlisted.",
+        "label": "Short-term triggers — the July Crisis",
+        "progression_checkpoint": "Students can identify and describe the short-term triggers of WW1 — the assassination of Archduke Franz Ferdinand, the July Crisis, and the invasion of Belgium — and explain how each triggered the next step in the escalation.",
+        "minimum_width": "Students identify the assassination, the Austrian ultimatum to Serbia, and the invasion of Belgium, and describe what each triggered in the escalation chain.",
+        "typical_width": "Students trace the July Crisis chronology step by step; explain the content and intent of Austria-Hungary's ultimatum and why Serbia's near-complete acceptance was refused; explain Germany's 'blank cheque' to Austria-Hungary; explain why the invasion of Belgium brought Britain into the war; distinguish the triggers as short-term sparks from the structural causes as underlying conditions.",
         "wider": [
-          "Examine the experiences of First Nations Australian men who enlisted — including the barriers they faced in being accepted, their service conditions, and how their service was recognised or ignored — to assess how imperial loyalty coexisted with racial exclusion",
-          "Analyse WWI recruitment propaganda (posters, pamphlets, speeches) as primary sources — identifying the range of persuasive appeals used and assessing their effectiveness",
-          "Compare the motivations of Australian volunteers with those of conscripted soldiers from other Allied nations — assessing how voluntarism shaped the Australian wartime experience differently"
+          "Examine the assassination itself — the multiple failed attempts before Princip's success, the Black Hand organisation, Austro-Hungarian domestic politics around South Slav nationalism — to show how contingent the trigger actually was",
+          "Evaluate the 'Fischer thesis' (that Germany deliberately provoked war for expansionist aims) as an interpretation of the July Crisis — were the major powers trapped by circumstance or did key decision-makers want war?"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat the assassination as the 'cause' of the war without understanding it as a trigger operating within the structural conditions already established in N1–N2. Explicitly linking triggers to prior structural causes — 'the assassination lit a fuse that structural causes had been laying for decades' — consolidates the causes framework."
+          }
+        ],
+        "success_criteria": [
+          "Describes the assassination of Franz Ferdinand and explains what it triggered within Austria-Hungary's political calculations",
+          "Traces the July Crisis sequence — ultimatum, Serbia's response, mobilisation — and connects it to the alliance escalation mechanism"
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Australia's relationship with Britain and Empire identity by 1914",
+        "progression_checkpoint": "Students can describe the nature of Australia's relationship with the British Empire by 1914 — politically, culturally and militarily — and explain why that relationship shaped how Australians perceived the outbreak of war.",
+        "minimum_width": "Students describe Australia as a dominion with strong cultural and political ties to Britain, explain that most Australians identified as British subjects, and note that Australian political leaders' responses (e.g. Fisher's 'last man and last shilling') reflected genuine Empire loyalty, not only political calculation.",
+        "typical_width": "Students explain the newly federated Australian nation's defence dependence on Britain, the social dominance of Anglo-Australian cultural identity, the role of the British Empire in Australia's trade and security; examine Fisher's and other leaders' public responses; connect Empire loyalty to the motivation for enlistment that follows; draw on AC9HH9K07 (Australia's development in relation to other nations by 1914).",
+        "wider": [
+          "Examine how non-Anglo Australians — including First Nations Australians, Irish Australians, German Australians — experienced Empire identity differently, creating a more complex picture of who 'we' were in 1914",
+          "Compare Australian Empire loyalty in 1914 with Canadian or South African responses to the outbreak of war — why did dominions respond differently?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Empire identity is the foundational context for the enlistment strand. Students who do not understand Australia's political and cultural relationship with Britain cannot make sense of why men enlisted for a war in Europe — the motivation 'to do their duty to the British Empire' is opaque without this context. It is also the prerequisite for the conscription debates in AC9HH9K11 and the changing relationship with Britain examined there.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat Australian enlistment as self-evidently patriotic without recognising that the 'patria' being defended was Britain, not Australia. Making the Empire identity explicit — Australia as a British nation with British identity at this point — is the scaffold for understanding enlistment motivations and later developments in AC9HH9K11.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Describes Australia's political and cultural relationship with Britain in 1914",
+          "Explains why political leaders framed their response to the war's outbreak in terms of Empire loyalty"
+        ],
+        "related_standards": ["AC9HH9K07"]
+      },
+      {
+        "id": 5,
+        "label": "Reasons for Australian enlistment — the motivational framework",
+        "progression_checkpoint": "Students can describe the range of reasons why Australian men enlisted in the AIF — Empire duty, adventure, economic pressure, propaganda, peer and community pressure — and explain how these motivations operated together.",
+        "minimum_width": "Students identify at least four distinct motivations for enlistment and describe each with a brief explanation, recognising that multiple motivations operated simultaneously for individual enlisting men.",
+        "typical_width": "Students explain each motivation in detail — the specific economic circumstances driving some (rural unemployment, seasonal work), the cultural construction of war as adventure and heroism, the mechanisms of propaganda (posters, pamphlets, public meetings, white feather campaigns), community and peer pressure from employers, sporting clubs and families; give examples of how these operated in practice; acknowledge that different men enlisted for different combinations of reasons.",
+        "wider": [
+          "Examine the design and rhetoric of specific Australian WW1 recruitment posters and analyse what emotional appeals and assumptions they made about their target audience — applying source analysis skills from AC9HH9S03",
+          "Compare enlistment motivations across different social groups — rural vs urban men, recent British migrants vs Australian-born, men with and without trade union connections — to show that motivations were not uniform"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Propaganda source analysis provides rich historical skills integration (AC9HH9S03) and connects to the media literacy thread running through the curriculum. Comparative social analysis builds towards the perspective-taking demanded in AC9HH9K11.",
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "The range of enlistment motivations — from genuine imperial loyalty to economic desperation to peer pressure — should be examined across multiple social groups, not flattened to a single type.",
+            "reason": "Students commonly reduce enlistment to one or two motivations ('they wanted adventure' or 'they were patriotic'). Examining the full range — and especially the coercive and structural factors (propaganda, peer pressure, economic need) alongside the voluntary idealistic ones — prevents this narrowing.",
             "flags": ["width_opportunity"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Australian enlistment motivations reveal a complex picture of imperial identity, masculinity, economic vulnerability, and social pressure. The First Nations enlistment story is particularly rich — involving both loyalty to country and willingness to fight for a nation that had denied them citizenship rights.",
         "success_criteria": [
-          "Describes at least four distinct reasons why Australians enlisted, across different motivational categories",
-          "Explains at least one way Australian political responses to the outbreak of war reflected Australia's relationship with the British Empire"
-        ]
+          "Identifies at least four distinct motivations for enlistment and describes each",
+          "Explains how propaganda and peer/community pressure operated as mechanisms that shaped enlistment decisions"
+        ],
+        "related_standards": ["AC9HH9S03", "AC9HH9S06"]
+      },
+      {
+        "id": 6,
+        "label": "First Nations Australian men and enlistment",
+        "progression_checkpoint": "Students can describe the distinctive circumstances of First Nations Australian men who enlisted — including the legal and social barriers they faced — and explain what their enlistment reveals about identity, belonging and the nature of Australian society in 1914.",
+        "minimum_width": "Students describe that First Nations Australian men enlisted despite facing legal restrictions and social discrimination, give at least one named example or account, and explain what this tells us about their relationship to Australian and Imperial identity.",
+        "typical_width": "Students examine the specific legal barriers (many First Nations men were formally excluded from enlisting and required individual exemptions); the motivations that led men to enlist despite these barriers (economic, community, personal); the experience of discrimination within the military and on return; how their stories challenge a simple 'all Australians rallied together' narrative of enlistment.",
+        "wider": [
+          "Investigate the story of a specific First Nations soldier — e.g. Douglas Grant, Reg Saunders' father Charlie Saunders, or an individual from a local nation — to ground the general pattern in a particular human experience",
+          "Examine how First Nations soldiers' experiences of racial discrimination both overseas and on return connects to the broader picture of racial attitudes in Australia in this period (AC9HH9K07, AC9HH9K11)"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Individual case studies of First Nations soldiers offer genuine depth — connecting to identity, legal exclusion, and the contradictions within Australian society simultaneously. This node is a point where the wider examination meaningfully enriches the overall narrative rather than simply adding examples.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need encounter with multiple perspectives — individual stories, legal records, post-war experiences — to build a picture of First Nations enlistment as a phenomenon with its own distinct texture, rather than treating it as a footnote to the general enlistment narrative.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes that First Nations men enlisted despite legal and social barriers, with at least one specific example",
+          "Explains what First Nations enlistment reveals about identity and belonging in Australian society in 1914"
+        ],
+        "related_standards": ["AC9HH9K07", "AC9HH9K11", "AC9HH9S06"]
       }
     ]
   }

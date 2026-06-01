@@ -1,0 +1,96 @@
+{
+  "year_level": "3-4",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP4M06",
+    "title": "Physical activity recommendations",
+    "description": "explore recommendations about physical activity and sedentary behaviours, and discuss strategies to achieve the recommendations",
+    "strand": "Making active choices",
+    "mode": "B",
+    "prior_knowledge": "Students have participated in physical activities and described how regular activity supports health and wellbeing (AC9HP4M04, same band). They have a working understanding of health benefits but have not yet engaged with formal guidelines or sedentary behaviour recommendations.",
+    "progression_endpoint": "Students explore physical activity and sedentary behaviour recommendations and discuss strategies to achieve them.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Australian 24-Hour Movement Guidelines",
+        "progression_checkpoint": "Students can explore physical activity and screen-usage time recommendations in the Australian 24-Hour Movement Guidelines for Children and Young People.",
+        "minimum_width": "Identify the key physical activity and screen time recommendations in the Australian 24-Hour Movement Guidelines and describe in general terms what they mean for daily life.",
+        "typical_width": "Explore the Australian 24-Hour Movement Guidelines in detail, examining the physical activity, sedentary and sleep components and connecting each to the health benefits discussed in AC9HP4M04.",
+        "wider": [
+          "Compare the 24-Hour Movement Guidelines for different age groups (children vs teenagers vs adults) and explain how and why recommendations change across life stages.",
+          "Investigate how the 24-Hour Movement Guidelines were developed — who made them, what evidence was used — and discuss what it means for a guideline to be evidence-based."
+        ],
+        "hinge": true,
+        "hinge_reason": "Understanding the guidelines is the prerequisite for all strategy-setting work in node 2. Students who do not understand what the recommendations are cannot meaningfully propose strategies to achieve them.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Guidelines contain specific numbers and categories (daily minutes, screen limits, sleep hours) that require direct teaching and structured unpacking before students can engage with them critically. A guided reading and annotation activity is more effective than discovery.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "States the key physical activity recommendation (minutes per day) for their age group.",
+          "Identifies what is meant by 'sedentary behaviour' in the guidelines.",
+          "Explains one connection between the guidelines and a health benefit they have studied."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Benefits of regular activity — sleep, concentration, wellbeing",
+        "progression_checkpoint": "Students can examine the benefits of regular physical activity including the influence on sleep, concentration and wellbeing.",
+        "minimum_width": "Describe how regular physical activity specifically benefits sleep, concentration or general wellbeing — with at least one example from their own experience.",
+        "typical_width": "Examine and discuss the multiple health and wellbeing benefits of regular physical activity, including physical, mental and social dimensions, connecting these to the 24-Hour Movement Guidelines.",
+        "wider": [
+          "Investigate how a specific community or school program uses physical activity to support wellbeing, and evaluate its design against the recommendations.",
+          "Explore research or case studies showing how physical activity interventions have supported concentration or mental health outcomes in children."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The benefits of activity are best understood when students connect them to varied personal and community examples — not just general statements. Moving from abstract benefit to specific contextual example is the key teaching move."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Describes at least two specific benefits of regular physical activity.",
+          "Links at least one benefit to sleep, concentration or emotional wellbeing.",
+          "Uses an example from their own life to illustrate a benefit."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Strategies to meet recommendations",
+        "progression_checkpoint": "Students can propose realistic strategies to incorporate physical activity and reduce sedentary time to meet the 24-Hour Movement Guidelines.",
+        "minimum_width": "Propose at least two specific strategies to increase physical activity or reduce sedentary time in their own daily routine.",
+        "typical_width": "Propose and discuss a range of strategies to meet physical activity recommendations across school, home and community contexts; evaluate the feasibility of each strategy.",
+        "wider": [
+          "Develop and trial a one-week 'active plan' for their own life, tracking whether they met the recommendations and reflecting on what worked and what was difficult.",
+          "Design an activity plan for a peer or family member who faces a specific barrier to meeting the guidelines (e.g. limited outdoor space, long screen time habits) and explain how the plan addresses the barrier."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a broad repertoire of strategy options — at school, at home, in community settings, using different activity types — so they can select strategies that fit their specific circumstances. A narrow strategy set limits real-world application.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Strategy generation is richly varied by context (school, home, community), activity type and personal circumstance. Wider students who develop and trial personalised plans build substantially more ownership over their own health behaviours.",
+        "success_criteria": [
+          "Proposes at least two specific strategies to meet physical activity recommendations.",
+          "Explains how each strategy would increase activity or reduce sedentary time.",
+          "Identifies one realistic barrier to the strategy and suggests how it could be overcome."
+        ]
+      }
+    ]
+  }
+}

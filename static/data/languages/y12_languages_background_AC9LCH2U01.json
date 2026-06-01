@@ -1,0 +1,93 @@
+{
+  "year_level": "1-2",
+  "subject": "Languages — Background Language Learner",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9LCH2U01",
+    "title": "Sound patterns and tones",
+    "description": "recognise and use sound patterns and tones of the target language",
+    "strand": "Understanding — Systems of Language",
+    "mode": "A",
+    "prior_knowledge": "Students have noticed distinctive sounds and sound patterns in the target language and compared them with English (AC9LCHF02). They can imitate familiar sounds and identify some similarities and differences. They have not yet systematically recognised and used tones or tone-marking conventions, identified syllable structure, or applied sound pattern knowledge to their own spoken production with accuracy.",
+    "progression_endpoint": "Students recognise and use the sound patterns and tones of the target language — identifying tones, matching tones to meaning, representing sounds in written form, and developing spoken fluency through attention to rhythm, tone and stress.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Recognising and distinguishing tones",
+        "progression_checkpoint": "Students can recognise and distinguish the tonal system of the target language, identifying how different tones on the same syllable produce different meanings.",
+        "minimum_width": "Correctly identify at least two different tones when heard, and demonstrate understanding that tone changes meaning by giving an example.",
+        "typical_width": "Identify and distinguish the tonal system of the target language (including neutral tone where applicable); participate in tone-guessing activities and matching games; demonstrate awareness that the same syllable with different tones carries different meanings; respond with appropriate actions when identifying tone types.",
+        "wider": [
+          "Record own pronunciation of different tones and compare with a peer — identify where tones sound the same or different and discuss",
+          "Investigate tone patterns in a familiar rhyme or song — identify which tones recur and whether they contribute to the rhythm or musical effect"
+        ],
+        "hinge": true,
+        "hinge_reason": "Tonal distinction is the foundational sound knowledge for the target language. Students who cannot distinguish tones cannot accurately produce or comprehend spoken target language — all subsequent sound pattern work and spoken fluency development depends on this perceptual foundation.",
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Tone discrimination requires repeated listening and production practice before it becomes reliable. Tone-guessing games, matched pairs, and self-recording activities build perceptual accuracy through repetition in varied contexts — a single lesson encounter is insufficient.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies at least two different tones when heard in isolation or in a word",
+          "Can give an example showing that a tone change produces a different meaning"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Representing sounds in written form",
+        "progression_checkpoint": "Students can represent target language sounds in written form using the romanisation or phonetic system of the target language, including tone marks where applicable.",
+        "minimum_width": "Write at least three syllables in the target language romanisation or phonetic system with correct tone marks, demonstrating understanding that the written form represents spoken sound.",
+        "typical_width": "Write syllables and words in the target language phonetic or romanisation system with correct tone marks; match written phonetic forms to spoken sounds; understand that the romanisation system is a learning tool representing spoken language; play pair-matching games matching sound to written form.",
+        "wider": [
+          "Investigate how the romanisation or phonetic system of the target language handles sounds that are different from English — identify sounds that require attention because they look like English letters but sound different",
+          "Analyse how tone marks or diacritic marks on the same vowel produce different words — create examples showing the same syllable in all tones with meanings"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need explicit instruction on how the phonetic or romanisation system works — it is not intuitive for English speakers or for students who know the language only orally. Explicit mapping between spoken sound and written symbol, with attention to deceptive similarities with English, prevents systematic errors.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Background learners often know sounds that they have never seen written. The phonetic writing system makes explicit something implicit — there is genuine discovery value in seeing how spoken language they already know is represented in writing. Width investment here builds metalinguistic awareness of both sound and script.",
+        "success_criteria": [
+          "Writes at least three syllables in the target language phonetic system with correct tone marks",
+          "Can match at least five written phonetic forms to their spoken equivalents"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Syllable structure and spoken fluency",
+        "progression_checkpoint": "Students can identify syllables in target language words and apply sound pattern knowledge to develop spoken fluency through rhymes, poems and familiar texts.",
+        "minimum_width": "Identify syllables in at least five target language words and recite at least one familiar rhyme, poem or sentence with attention to tone, rhythm and stress.",
+        "typical_width": "Identify syllables that make up words and understand that each syllable carries meaning in the target language; develop fluency through reciting rhymes, poems and familiar sentences with attention to tone and stress; use gesture to support tone and stress demonstration.",
+        "wider": [
+          "Recite a classic short poem or rhyme from the target language culture, demonstrating tone accuracy and attention to rhythm — compare the effect of saying it with and without tonal accuracy",
+          "Analyse the syllable and tonal structure of a familiar tongue twister — explain why it is difficult and identify the specific tonal or sound contrasts it practises"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Syllable structure and spoken fluency integrate tonal discrimination (node 1) and phonetic writing knowledge (node 2) into extended spoken production. The teaching investment is in creating performance conditions — recitation, reading aloud, recording — that require students to apply all sound pattern knowledge simultaneously."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Correctly identifies syllables in at least five target language words",
+          "Recites a familiar rhyme, poem or sentence demonstrating attention to tone and rhythm"
+        ]
+      }
+    ]
+  }
+}

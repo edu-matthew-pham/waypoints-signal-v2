@@ -1,0 +1,74 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6M08",
+    "title": "Devise game modifications for fair play",
+    "description": "devise and test alternative rules and game modifications to support fair play and inclusive participation",
+    "strand": "Learning through movement",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students applied rules and scoring systems to promote fair play when participating or designing physical activities (AC9HP4M08). They understand that rules exist to enable fair play and can apply existing rules. They have not yet devised their own rule modifications or tested them for inclusive effect.",
+    "progression_endpoint": "Students devise and test alternative rules and game modifications, evaluating whether they support fair play and inclusive participation.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Recognising unfairness and exclusion",
+        "description": "Identify specific instances of unfairness or exclusion in a game situation and explain what structural feature of the game is causing them — distinguishing between a rule problem and a behaviour problem.",
+        "minimum_width": "Identify at least one game situation in which a rule or game condition creates unfairness or exclusion, and explain what feature of the game is causing the problem.",
+        "success_criteria": [
+          "Identifies a game-structural cause (not just 'someone was mean') — a rule, scoring system, court size, team composition, or other structural feature",
+          "Distinguishes between unfairness (one side has a structural advantage) and exclusion (some participants are structurally unable to participate)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Rule modification proposals that don't target the structural cause will be surface changes that don't address the identified problem. Students who cannot identify the structural cause cannot propose targeted modifications. All downstream nodes depend on this diagnosis.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Analyse game situations through a structural lens: 'What is the rule or condition causing this? Would changing that rule fix it?' Separates diagnosis from remedy — both must be explicit before modification proposals are made.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Devising and proposing modifications",
+        "description": "Propose specific rule or game modifications targeting the identified structural problem — changes to rules, scoring, conditions, equipment, or team structure that address fairness or inclusion.",
+        "minimum_width": "Propose at least one specific rule or game modification that addresses an identified fairness or inclusion problem, and explain how it targets the structural cause.",
+        "success_criteria": [
+          "Modification is specific and implementable (not vague: 'make it fairer')",
+          "Explicitly links the modification back to the structural cause identified in N1"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Game modification contexts span traditional games, contemporary sport formats, games from diverse cultural traditions (including First Nations games), and inclusive physical education — each with different structural features and inclusion considerations.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Apply game modification thinking across different game types and cultural contexts. Investigating games such as Inkanyi (cooperative, no winners) or Barambah gimbe provides structurally different models of inclusion that expand students' conception of what fair play can look like.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Testing and evaluating modifications",
+        "description": "Test proposed modifications in practice, evaluate their effectiveness at improving fairness and inclusion, and refine or propose alternatives based on what was found.",
+        "minimum_width": "Test at least one proposed modification in a game situation and evaluate whether it improved fairness or inclusion using a specific criterion.",
+        "success_criteria": [
+          "Tests the modification in practice (not just proposes it theoretically)",
+          "Evaluates against fairness or inclusion specifically — identifies whether the structural problem was reduced"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Brings together structural diagnosis, targeted modification, and practical testing into the full devise-test cycle the descriptor requires."
+          }
+        ]
+      }
+    ]
+  }
+}

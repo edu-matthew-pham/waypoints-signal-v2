@@ -1,43 +1,97 @@
 {
-  "year_level": "9",
+  "year_level": "9-10",
   "subject": "Science",
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S9I08",
-    "title": "Communicating Science Effectively",
-    "description": "write and create texts to communicate ideas, findings and arguments effectively for identified purposes and audiences, including selection of appropriate content, language and text features, using digital tools as appropriate",
-    "strand": "Science Inquiry",
+    "title": "Communicate Ideas and Findings Effectively",
+    "strand": "Inquiry Skills",
     "mode": "B",
-    "prior_knowledge": "Students can write and create science texts with appropriate language choices for different purposes and audiences (AC9S7I08, 7-8 band). They now extend to texts that explicitly address validity and reproducibility, culturally responsive content selection, and multi-modal public communication.",
-    "progression_endpoint": "Students write and create texts that communicate science ideas, findings and arguments effectively — including investigation reports with validity discussion, interactive digital presentations, and public campaign texts — selecting content and language that is appropriate, accurate and culturally responsive.",
+    "description": "write and create texts to communicate ideas, findings and arguments effectively for identified purposes and audiences, including selection of appropriate content, language and text features, using digital tools as appropriate",
+    "prior_knowledge": "Students can write and communicate scientific ideas and findings (AC9S7I08). They have not yet explicitly analysed communication choices for different purposes and audiences, or written scientific reports that include validity and reproducibility discussion as a required structural component.",
+    "progression_endpoint": "Students write and create texts that communicate ideas, findings and arguments effectively for specific purposes and audiences — selecting appropriate content, language and text features for each context. Students can write a scientific investigation report (including background, results explanation and validity/reproducibility discussion), and produce texts for non-specialist audiences (e.g. presentations, social media campaigns, community reports) — selecting appropriate language and cultural responsiveness in all contexts.",
     "nodes": [
       {
         "id": 1,
-        "label": "Science texts are crafted for effective communication with specific audiences",
-        "progression_checkpoint": "Students can select appropriate content and language features for a given science communication purpose and audience, and produce texts that communicate findings and arguments effectively — including culturally responsive content selection.",
-        "minimum_width": "Students produce a science text in a given form with appropriate content, language and structure for the specified purpose and audience.",
-        "typical_width": "Students produce investigation reports including introduction (relevant theory), results (using representations), discussion (argument based on results, explanation of outliers, validity and reproducibility analysis); create interactive digital presentations; plan public communication campaigns; and select culturally responsive language and content when communicating First Nations Australians' knowledge.",
+        "label": "Purpose, audience and communication choices",
+        "progression_checkpoint": "Students can analyse scientific texts for different purposes and audiences and explain how the author's choices — of content, language and text features — reflect the purpose and audience.",
+        "minimum_width": "Compare two scientific texts addressing similar topics for different audiences (e.g. a journal abstract and a magazine article on the same research) and identify at least two differences in content selection or language use that reflect the different audiences.",
+        "typical_width": "Analyse two or three texts across different purposes (report, media release, community communication) and audiences (specialist, general public, specific community), identifying how content selection, language and text features shift for each combination — and explaining the rationale for each choice.",
         "wider": [
-          "Write a scientific investigation report including: introductory theory, results with representations, and discussion addressing validity, reproducibility, and comparison with accepted values",
-          "Develop an interactive presentation showing feedback loops in human body systems — applying digital communication to represent dynamic biological processes",
-          "Plan a social media campaign to encourage young people to reduce their carbon footprint — applying science content to a genuine public communication purpose",
-          "Select content and language that is culturally responsive and maintains cultural protocols when communicating about First Nations Australians' knowledges"
+          "Examine how culturally responsive communication differs from standard scientific communication — analysing specific texts that successfully navigate cultural sensitivity (e.g. communicating First Nations Australians' knowledges without offensive narratives or misattribution).",
+          "Compare scientific texts addressing similar topics for different purposes or audiences to build the analytical vocabulary for the communication choices students will make in their own texts."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand that communication choices are purpose- and audience-driven produce texts that are appropriate for one context when another is required. This is the planning framework for all subsequent communication tasks. Without it, students default to a single text type regardless of the brief.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Communication analysis requires an explicit framework: 'Who is the audience? What do they already know? What is the purpose — to inform, persuade, report? What content does that purpose require? What language is appropriate for that audience?' Students need this framework as a checklist before they analyse or produce texts.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify at least two communication choices in a text and connect each to the text's purpose or audience.",
+          "Can explain why different purposes or audiences require different content, language or structure.",
+          "Does not treat scientific communication as one-size-fits-all."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Writing a scientific investigation report",
+        "progression_checkpoint": "Students can write a scientific investigation report that includes: a background paragraph referencing relevant scientific knowledge; an explanation of results using scientific knowledge; and a discussion that considers validity and reproducibility.",
+        "minimum_width": "Write one component of a scientific investigation report — background, results explanation or validity/reproducibility discussion — that meets the structural requirements of that component.",
+        "typical_width": "Write a complete scientific investigation report with all three components: background (introductory scientific context), results explanation (using scientific knowledge to explain what was found), and discussion (evaluating validity and reproducibility — connecting to AC9S9I02 and I06).",
+        "wider": [
+          "Develop an interactive presentation that shows feedback loops in human body systems — applying the investigation report skills in a multimodal format that adds visual communication of process alongside explanatory text.",
+          "Evaluate the discussion section of a sample report against validity and reproducibility criteria — identifying where the discussion is strong or where gaps in validity analysis undermine the scientific argument."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Scientific report writing has structural conventions that require practice for reliable execution — particularly the results-explanation distinction (what was found vs. why it happened) and the validity/reproducibility discussion (a genuine analysis, not a procedural postscript). Students need feedback-corrected practice across multiple reports before these conventions become habitual."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can write a background paragraph that references relevant scientific knowledge — not just describes the procedure.",
+          "Can explain results using scientific knowledge — not just state what happened.",
+          "Can write a validity/reproducibility discussion that addresses specific features of the method — not just 'it could have been more accurate'."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Communicating for non-specialist audiences",
+        "progression_checkpoint": "Students can create texts for non-specialist purposes and audiences — including selecting appropriate content, language and cultural sensitivity — such as social media campaigns, community reports or public presentations.",
+        "minimum_width": "Create one text for a non-specialist audience (e.g. a social media post, a community report section) that selects appropriate content and language for that audience and purpose.",
+        "typical_width": "Create texts for two different non-specialist contexts — selecting appropriate content, language and format for each — including at least one that requires culturally responsive communication or consideration of First Nations Australian contexts.",
+        "wider": [
+          "Plan a social media campaign to encourage young people to reduce their carbon footprint — applying content selection, audience-appropriate language and persuasive text features for a specific purpose.",
+          "Collaborate to prepare a written report for local government on estimated carbon storage across different local ecosystems and proposals to increase carbon storage — communicating quantitative scientific data to a policy audience with specific action implications.",
+          "Select appropriate content and language which is culturally responsive and maintains cultural protocols — considering sensitivities in communicating First Nations Australians' knowledges and managing risks of offensive narratives, language, images and attributions."
         ],
         "hinge": false,
         "hinge_reason": null,
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Students default to a single communication form (written report) without adapting content, language or structure to purpose and audience. Producing texts across varied forms — investigation report, interactive presentation, social media campaign — with genuinely different content selection decisions for each, builds the audience-aware communication flexibility the descriptor requires.",
+            "reason": "Non-specialist communication varies considerably by audience and purpose — a social media post, a community meeting presentation and a local government report require very different choices. Varying the communication contexts builds genuine range in communication repertoire rather than optimising for a single non-specialist format.",
             "flags": ["width_opportunity"]
           }
         ],
         "width_opportunity": true,
-        "width_opportunity_reason": "The carbon footprint social media campaign provides a genuine public communication purpose that motivates careful audience and content decisions. Investigation report writing with validity discussion represents a significant step up in scientific communication sophistication.",
+        "width_opportunity_reason": "The range of non-specialist communication contexts — from social media campaigns to government policy reports — provides genuine breadth in developing communication as a flexible capability. Students who practise across different audience-purpose combinations develop transferable communication judgement applicable well beyond science.",
         "success_criteria": [
-          "Produces a science text with appropriate content, language features and structure for the specified purpose and audience",
-          "Selects culturally responsive language and content where relevant to the topic"
-        ]
+          "Can produce a text that is appropriate for the specified audience and purpose — as assessed against the communication choices made, not just the content.",
+          "Can adjust language from scientific register to audience-appropriate register deliberately — not just simplify randomly.",
+          "Can identify where cultural responsiveness considerations have shaped content or language choices."
+        ],
+        "related_standards": ["AC9S9I07", "AC9S9U03", "AC9S9H03"]
       }
     ]
   }

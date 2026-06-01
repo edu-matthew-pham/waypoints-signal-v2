@@ -1,0 +1,96 @@
+{
+  "year_level": "3-4",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP4M08",
+    "title": "Rules and fair play",
+    "description": "apply rules and scoring systems to promote fair play when participating or designing physical activities",
+    "strand": "Learning through movement",
+    "mode": "B",
+    "prior_knowledge": "Students have co-constructed and applied rules to promote fair play in a range of physical activities (AC9HP2M04). They can co-create and apply rules but have not yet engaged with officiating roles, scoring systems, or the rules and games of First Nations Australians.",
+    "progression_endpoint": "Students apply rules and scoring systems to promote fair play in physical activities they participate in or design.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Collaborating to design rules for fair play",
+        "progression_checkpoint": "Students can collaborate to decide rules for a new game that promote fair play and inclusion of all learners.",
+        "minimum_width": "Collaborate with others to create at least two rules for a physical activity that address fairness or inclusion, and explain the purpose of each rule.",
+        "typical_width": "Collaboratively design a rule set for a new or modified game that explicitly addresses fair play and inclusion; trial the rules and adjust based on what happens during play.",
+        "wider": [
+          "Design a rule set for a game that makes it equitable for players with different physical abilities, and explain how each rule addresses a specific inclusion challenge.",
+          "Explore rules and scoring systems used in traditional games of First Nations Australians and compare them with those used in modern games, examining how each system promotes fair play."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Rule design for different game types (active/tag, target, invasion, net/court) raises different fairness challenges. Exposure to designing rules across contexts builds richer understanding of what 'fair' means in different movement settings.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "First Nations Australian games provide a culturally significant and genuinely distinct context for examining rules and scoring systems — this is pedagogically rich and part of ACARA's explicit scope for this standard.",
+        "success_criteria": [
+          "Creates at least two rules for a physical activity.",
+          "Explains how each rule promotes fairness or inclusion.",
+          "Adjusts at least one rule after trialling the activity."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Fair decision-making and applying rules",
+        "progression_checkpoint": "Students can describe processes of decision-making that ensure fairness in games and contribute to fair decision-making by applying rules appropriately.",
+        "minimum_width": "Apply the rules of a physical activity fairly during participation, making at least one decision that requires rule interpretation.",
+        "typical_width": "Apply rules fairly across a range of physical activity contexts; describe what fair decision-making requires (consistency, knowing the rules, impartiality) and demonstrate these during play.",
+        "wider": [
+          "Examine a case where a rule was disputed or applied inconsistently in a game, and analyse what would have made the decision fairer.",
+          "Discuss how referees or officials are trained to make fair decisions in sport, and identify the skills and knowledge required for the officiating role."
+        ],
+        "hinge": true,
+        "hinge_reason": "Fair application of rules is the operational counterpart to rule design. Students who cannot apply rules consistently and fairly cannot meaningfully take on officiating roles (node 3) and will undermine the group's fair play outcomes — cascading into AC9HP6M07 where more complex fair play contexts are expected.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Rule application requires students to interpret rather than just recall rules. Scenarios with ambiguous or contested situations — debriefed using a structured 'what does the rule say, what happened, what would be fair' format — build the interpretive reasoning required.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Applies at least one rule correctly during a physical activity.",
+          "Describes what fair decision-making looks like in a game context.",
+          "Resolves a rule-based situation by explaining their decision and its basis."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Officiating in physical activities",
+        "progression_checkpoint": "Students can interpret and apply rules fairly when in an officiating role in physical activities.",
+        "minimum_width": "Take on an officiating role in a physical activity and apply the rules to make at least two decisions during the activity.",
+        "typical_width": "Officiate in a physical activity across multiple rounds or contexts, making multiple rule-based decisions and explaining reasoning for disputed calls.",
+        "wider": [
+          "Compare the officiating demands across two different game types and explain what makes each challenging for an official.",
+          "Design and trial a peer feedback process for officiating quality — what does good officiating look like and how would you assess it?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Officiating requires simultaneously understanding rules, observing action, and making timely decisions under social pressure. This is the highest-demand integration of the standard and works best when students have practised both rule design and fair application first."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Takes on an officiating role and makes at least two rule-based decisions.",
+          "Explains the reasoning for at least one decision when asked.",
+          "Reflects on one aspect of officiating they found challenging and what they would do differently."
+        ]
+      }
+    ]
+  }
+}

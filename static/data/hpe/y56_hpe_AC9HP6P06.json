@@ -1,0 +1,74 @@
+{
+  "year_level": "5-6",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP6P06",
+    "title": "Emotions and interactions",
+    "description": "apply strategies to manage emotions and analyse how emotional responses influence interactions",
+    "strand": "Interacting with others",
+    "mode": "B",
+    "prior_knowledge": "At Years 3-4, students explained how and why emotional responses can vary and practised strategies to manage their emotions (AC9HP4P06). They have strategies for emotion management and understand that responses vary. This descriptor adds analysis: how emotional responses influence the quality of interactions — not just managing emotions internally but understanding their relational consequences.",
+    "progression_endpoint": "Students apply strategies to manage emotions and analyse how emotional responses influence interactions in a range of situations.",
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Recognising emotions in interaction contexts",
+        "description": "Identify emotional responses in a range of interaction contexts — including unsafe/uncomfortable situations, peer-group and family situations, and intense emotional experiences such as grief — and describe how each emotional response affects the quality of the interaction.",
+        "minimum_width": "Identify at least two emotional responses in different interaction contexts and describe how each affects the quality of the interaction.",
+        "success_criteria": [
+          "Contexts are distinct — not just the same emotion in slight variations",
+          "Can describe the interaction effect specifically — not just that the emotion was present"
+        ],
+        "hinge": true,
+        "hinge_reason": "The analysis demand ('analyse how emotional responses influence interactions') requires students to make the emotion-to-interaction connection explicit. Students who only identify emotions without connecting them to interaction outcomes cannot satisfy the descriptor's analytical demand.",
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Scenario analysis: 'In this situation, what emotion is present? How is that emotion showing up in the interaction? What effect is it having?' Builds the emotion-to-interaction chain explicitly.",
+            "flags": ["hinge"]
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "label": "Applying strategies for intense and complex emotions",
+        "description": "Practise strategies to self-regulate and manage expression of strong or intense emotions — including grief, unpredictable responses, and emotions in decision-making contexts.",
+        "minimum_width": "Describe and apply at least one strategy for managing a strong or intense emotion in an interaction context.",
+        "success_criteria": [
+          "Strategy is specific and action-oriented (not just 'take a deep breath' as a universal response)",
+          "Student can explain how the strategy addresses the emotion in that specific context"
+        ],
+        "hinge": false,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Emotion management strategies vary significantly across context types: peer group pressure, family conflict, grief and loss, unsafe or uncomfortable situations. Each demands different strategies and builds a broader regulation repertoire.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Apply management strategies across distinct emotional contexts: peer-group situations where emotions influence decisions; feelings of grief associated with loss; emotions associated with feeling unsafe or uncomfortable. Each context introduces different regulation demands.",
+            "flags": ["width_opportunity"]
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "label": "Analysis and deliberate application",
+        "description": "Analyse how emotional responses influence interactions and apply strategies deliberately — making the connection from emotional state to strategy choice to interaction outcome.",
+        "minimum_width": "Analyse a situation in which an emotional response influenced an interaction, identify the strategy that was or could be applied, and describe the effect on the interaction outcome.",
+        "success_criteria": [
+          "Analytical chain is complete: emotion → influence on interaction → strategy → outcome",
+          "Strategy choice is justified in terms of the specific emotional context, not just 'it works'"
+        ],
+        "hinge": false,
+        "width_opportunity": false,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "The full descriptor: applying strategies and analysing how emotional responses influence interactions. The integration moves from internal management to relational consequence."
+          }
+        ]
+      }
+    ]
+  }
+}

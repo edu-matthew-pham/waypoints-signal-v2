@@ -4,91 +4,123 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9HH10K17",
-    "title": "Global Influences on Australia — Vietnam, Multiculturalism, Nuclear and Environmental",
+    "title": "Changing Conditions and a Major Global Influence",
     "description": "changing social, political, economic, cultural, environmental and technological conditions, and the causes of a major global influence in Australia",
-    "strand": "Knowledge and Understanding",
+    "strand": "History (Knowledge and Understanding)",
     "mode": "A",
-    "prior_knowledge": "Students have studied the causes and effects of major global influences on Australia in earlier periods of the 20th century, including the Depression and WWII.",
-    "progression_endpoint": "Students describe the changing conditions and causes of major global influences on Australia from the 1960s to the present, including Vietnam and refugee migration, multiculturalism, nuclear politics, international environmental treaties, and cultural globalisation.",
+    "prior_knowledge": "Students have examined post-war migration waves (K07–K08), cultural transformation through American and British influences (K16), and the environmental movement (K14, K16). They have not yet examined the Vietnam War's specific domestic effects on Australia, multiculturalism as a policy framework, or post-war population growth in data form.",
+    "progression_endpoint": "Students explain the changing conditions of post-war Australia and analyse the causes of a major global influence, including the Vietnam War's domestic effects, multiculturalism, and the environmental and cultural changes of the second half of the 20th century.",
     "nodes": [
       {
         "id": 1,
-        "label": "Vietnam and multiculturalism",
-        "progression_checkpoint": "Students can describe the impact of the Vietnam War on Australia and investigate how multiculturalism policy developed from the 1970s.",
-        "minimum_width": "Describe the impact of the Vietnam War on Australia and explain how it contributed to refugee migration; explain the basic features of multiculturalism policy since the 1970s.",
-        "typical_width": "Describe the impact of the Vietnam War on Vietnam and how the communist victory in 1975 resulted in the arrival of Vietnamese refugees in Australia; investigate multiculturalism policies since the 1970s — the Galbally Report (1978), the shift from assimilation to multiculturalism, the concepts of cultural heritage vs assimilation; analyse post-WWII population growth and the development of Australia's culturally diverse society using different types of graphs.",
+        "label": "The Vietnam War as a domestic turning point",
+        "progression_checkpoint": "Students can explain the impact of the Vietnam War on Australian society — as a source of political division, a driver of Vietnamese refugee migration, and a catalyst for challenging traditional values.",
+        "minimum_width": "Students explain at least two domestic effects of the Vietnam War on Australian society and explain how the communist victory in 1975 resulted in Vietnamese refugee arrivals.",
+        "typical_width": "Students examine the Vietnam War's domestic political effects — conscription via the ballot system, the moratorium movement, the fracturing of Cold War consensus, the Labor Party's anti-war position; examine how the war divided Australian society along generational and political lines; explain how the communist victory in Vietnam in 1975 produced a wave of Vietnamese refugees — push factors (fear of persecution), pull factors (Australia's moral obligation as a former combatant), and the political debates over admission; connect to K07's migration waves content.",
         "wider": [
-          "Investigate the Vietnamese refugee experience in Australia through personal accounts — examining the gap between government policy (resettlement, multiculturalism) and lived experience (racism, language barriers, community formation)",
-          "Examine the shift from assimilation to multiculturalism policy as a case study in how government frameworks for managing cultural diversity changed in response to changing migration patterns and community activism"
+          "Examine the anti-Vietnam War movement in Australia as a case study in how domestic dissent shaped foreign policy — analysing the moratorium marches and whether they influenced the government's eventual withdrawal",
+          "Investigate the long-term contribution of Vietnamese Australians to Australian society — examining how a refugee wave that was politically contested became a broadly celebrated migration success story"
         ],
-        "hinge": false,
-        "hinge_reason": null,
-        "response_modes": [
-          {
-            "mode": "context_breadth",
-            "reason": "Vietnam and multiculturalism are most meaningfully taught together — the Vietnamese refugee intake was both a direct consequence of the war and a test case for multiculturalism policy in practice. The connection between geopolitical event and domestic social policy is the analytical point."
-          }
-        ],
+        "hinge": true,
+        "hinge_reason": "The Vietnam War is the clearest domestic turning point in this descriptor's content — it produced political division, challenged Cold War consensus, and generated a refugee migration wave. Students who lack this context cannot explain why Australian society was questioning traditional values in the late 1960s–70s, which is the context for N2 and K18.",
         "width_opportunity": false,
         "width_opportunity_reason": null,
-        "success_criteria": [
-          "Describe how the communist victory in Vietnam in 1975 led to refugee migration to Australia",
-          "Explain the main features of multiculturalism policy in Australia since the 1970s",
-          "Use demographic data to describe how Australia's population became more culturally diverse across the post-war period"
-        ]
-      },
-      {
-        "id": 2,
-        "label": "Nuclear politics and environmental treaties",
-        "progression_checkpoint": "Students can explain events in the struggle over nuclear testing in the Pacific and evaluate the effectiveness of international environmental treaties.",
-        "minimum_width": "Explain the nuclear testing issue in the Pacific and evaluate the effectiveness of at least one international environmental treaty.",
-        "typical_width": "Explain the struggle over American, British and French nuclear weapon testing in the Pacific from 1946 to 1996 or the sinking of the Rainbow Warrior in 1985; recognise the historic impact of the Apollo 8 Earth photographs and how they influenced people's view of the world; evaluate the effectiveness of international protocols and treaties such as Kyoto (1997), the United Nations Framework Convention on Climate Change (since 1992) and the Washington Declaration (2007).",
-        "wider": [
-          "Investigate the anti-nuclear movement in Australia and the Pacific in depth — examining how First Nations and Pacific Islander communities led opposition to nuclear testing on their lands, and how their advocacy contributed to the eventual end of testing",
-          "Evaluate the effectiveness of the Kyoto Protocol and subsequent climate agreements against actual emissions data, examining what the comparison reveals about the gap between international agreement and national action"
-        ],
-        "hinge": false,
-        "hinge_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Evaluating treaty effectiveness requires an explicit criteria framework — students need to define what 'effective' means (legally binding commitments? actual emissions reductions? political agreement?) before they can apply the concept to specific treaties.",
-            "flags": ["width_opportunity"]
+            "reason": "Students commonly know the Vietnam War as an overseas military event without examining its specific domestic political effects in Australia. Scaffolding the domestic dimensions — conscription ballot, moratorium, refugee wave — makes the war analytically important for understanding the social changes of the 1970s.",
+            "flags": ["hinge"]
           }
         ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "Nuclear testing in the Pacific is an underexplored context that connects First Nations and Pacific Islander land rights with Cold War nuclear politics — offering a rich opportunity to examine how seemingly global issues affect specific communities in specific places.",
         "success_criteria": [
-          "Describe the issue of nuclear testing in the Pacific and explain its significance for affected communities",
-          "Evaluate the effectiveness of at least one international environmental treaty, using specific evidence",
-          "Explain how the Apollo 8 photographs contributed to a shift in environmental consciousness"
-        ]
+          "Explains at least two domestic effects of the Vietnam War on Australian society",
+          "Explains how the communist victory in 1975 produced Vietnamese refugee arrivals — identifying push and pull factors",
+          "Explains how the Vietnam War divided Australian society along political and generational lines"
+        ],
+        "related_standards": ["AC9HH10K07", "AC9HH10K08", "AC9HH10S05"]
       },
       {
-        "id": 3,
-        "label": "Cultural globalisation",
-        "progression_checkpoint": "Students can identify American and Asian cultural influences on Australian popular culture since WWII and investigate the development and international contribution of Australian cultural industries.",
-        "minimum_width": "Identify at least two American or Asian cultural influences on Australian popular culture and describe Australia's contribution to international popular culture in at least one domain.",
-        "typical_width": "Identify American and Asian influences on Australian popular culture: mainstream Hollywood and Bollywood films, the animation film industry in China and Japan; investigate the changing contribution of Australian rock 'n' roll, film and television industries to Australian culture and identity through the development and export of music, film and television.",
+        "id": 2,
+        "label": "Multiculturalism — policy, concept, and cultural diversity",
+        "progression_checkpoint": "Students can explain multiculturalism as both a social reality and a government policy framework, and analyse post-war population growth and cultural diversification.",
+        "minimum_width": "Students explain multiculturalism as a government policy (distinguishing it from multiculturalism as a social fact); use at least one data source to describe post-war population growth and cultural diversification.",
+        "typical_width": "Students examine multiculturalism as a government policy — the Fraser government's Galbally Report (1978), the shift from assimilation to multicultural policy, what multiculturalism required of government and of migrants; analyse post-war population growth using different graph types (population pyramids, migration data, country-of-birth statistics); examine how the cultural composition of Australian society changed across successive migration waves; examine the concepts of cultural heritage and assimilation as competing frameworks for managing diversity.",
         "wider": [
-          "Examine the Australian film industry's development in the 1970s–1990s (AFC, 10BA tax concessions, films like Picnic at Hanging Rock, Mad Max, Crocodile Dundee) as a case study in cultural nationalism — analysing how government policy shaped a distinctively Australian cultural voice in response to American dominance",
-          "Investigate the role of First Nations Australians in the development of Australian cultural industries — examining the global recognition of Aboriginal visual art and music and how First Nations artists have contributed to Australia's international cultural identity"
+          "Examine the tension between multiculturalism and assimilation as policy frameworks — analysing how different governments have balanced cultural diversity with social cohesion demands, and what evidence exists for the success or failure of the multicultural model",
+          "Investigate the contribution of specific cultural communities to Australian life — using case studies to examine how cultural exchange operates in practice rather than in policy documents"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The multiculturalism-versus-assimilation debate and the data analysis task both offer rich analytical directions — the policy debate connects to K08's changing perspectives content, and the data analysis builds historical methodology skills (AC9HH10S05).",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly conflate multiculturalism as a social fact (many cultures coexist) with multiculturalism as a policy choice (government actively supports cultural maintenance). The distinction is analytically important — the policy choice can be debated even if the social fact is not in question.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains multiculturalism as a government policy, distinguishing it from the social fact of cultural diversity",
+          "Uses at least one data source to describe post-war population growth and cultural diversification",
+          "Explains the difference between assimilation and multiculturalism as competing frameworks"
+        ],
+        "related_standards": ["AC9HH10K07", "AC9HH10K08", "AC9HH10S05"]
+      },
+      {
+        "id": 3,
+        "label": "Environmental and nuclear influences — global events and Australian responses",
+        "progression_checkpoint": "Students can explain significant global environmental and nuclear events and their effects on Australian perspectives and policy.",
+        "minimum_width": "Students explain at least two global environmental or nuclear events and their effects on Australian perspectives or policy.",
+        "typical_width": "Students examine nuclear weapons testing in the Pacific (American, British, French testing from 1946 to 1996) and its effects on Australian and Pacific Island communities; examine the Rainbow Warrior affair (1985) as a case study in French nuclear testing, New Zealand's anti-nuclear policy, and Australian responses; examine the Apollo 8 'Earthrise' photograph as a cultural turning point in environmental awareness; examine the development of international environmental protocols — Kyoto (1997), UNFCCC, Washington Declaration (2007) — and evaluate their effectiveness.",
+        "wider": [
+          "Investigate the effects of British nuclear testing at Maralinga on First Nations Australians — examining the health consequences, the failure of informed consent, and the long-delayed remediation and compensation",
+          "Evaluate the effectiveness of international climate protocols from Kyoto to Paris — analysing why international cooperation on climate has been so difficult to achieve and maintain"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Maralinga testing and its effects on First Nations Australians connects K17's environmental content to K09's rights content in a productive way. The climate protocols evaluation connects to K20's climate change debate and invites genuine analytical argument about international cooperation.",
         "response_modes": [
           {
             "mode": "context_breadth",
-            "reason": "Cultural globalisation is most effectively taught through specific case studies — particular films, music genres, or artists — rather than abstract generalisations. The contrast between American/Asian influence and Australian cultural output is the analytical point."
+            "reason": "Examining multiple environmental and nuclear events — Pacific testing, Rainbow Warrior, Earthrise, climate protocols — prevents the reduction to a single thread and shows students the range of global influences operating simultaneously.",
+            "flags": ["width_opportunity"]
           }
         ],
+        "success_criteria": [
+          "Explains at least two global environmental or nuclear events and their effects on Australian perspectives or policy",
+          "Explains the Rainbow Warrior affair and its significance for Pacific nuclear politics",
+          "Evaluates the effectiveness of at least one international environmental protocol"
+        ],
+        "related_standards": ["AC9HH10K14", "AC9HH10K20", "AC9HH10S07"]
+      },
+      {
+        "id": 4,
+        "label": "Australian popular culture — development and international contribution",
+        "progression_checkpoint": "Students can investigate American and Asian cultural influences on Australian popular culture and explain the development of Australia's own creative industries and international contribution.",
+        "minimum_width": "Students explain at least two international cultural influences on Australia and describe at least one Australian contribution to international popular culture.",
+        "typical_width": "Students examine American cultural influences (Hollywood, television, music genres) and Asian influences (Bollywood, Japanese and Chinese animation) on Australian popular culture; examine the development of the Australian film and television industry from the 1970s — the Australian New Wave in film, the 10BA tax incentives, the development of a distinctive Australian cultural voice; examine Australia's contribution to international popular culture in music (INXS, AC/DC, Kylie Minogue), film (Crocodile Dundee, Priscilla, Mad Max), and television; explain the role of satellite broadcast in transforming television from a national to a global medium.",
+        "wider": [
+          "Examine the Australian New Wave in film as a cultural project — analysing how filmmakers like Peter Weir and Bruce Beresford deliberately developed a distinctively Australian cinematic language in contrast to Hollywood",
+          "Investigate how digital media and social platforms have changed the dynamics of Australian cultural production — examining whether they have increased Australian cultural influence internationally or accelerated cultural homogenisation toward American norms"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a working picture of both the international influences on and Australian contributions to popular culture before the K19 identity analysis is meaningful. Building the repertoire across music, film, and television provides the evidential base."
+          }
+        ],
         "success_criteria": [
-          "Identify at least two significant American or Asian cultural influences on Australian popular culture since WWII",
-          "Describe Australia's contribution to international popular culture in at least one domain (music, film, television, or sport)",
-          "Explain how Australian cultural industries have both been shaped by and contributed to cultural globalisation"
-        ]
+          "Explains at least two international cultural influences on Australian popular culture with evidence",
+          "Describes at least one Australian contribution to international popular culture",
+          "Explains how satellite broadcast changed the dynamics of cultural transmission"
+        ],
+        "related_standards": ["AC9HH10K19", "AC9HH10S05"]
       }
     ]
   }

@@ -4,90 +4,150 @@
   "curriculum": "ACARA v9",
   "standard": {
     "code": "AC9S9U03",
-    "title": "Carbon Cycle",
+    "title": "Carbon Cycle and Earth's Spheres",
     "description": "represent the carbon cycle and examine how key processes including combustion, photosynthesis and respiration rely on interactions between Earth's spheres (the geosphere, biosphere, hydrosphere and atmosphere)",
     "strand": "Earth and Space Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can describe the water cycle and rock cycle processes (AC9S4U02, AC9S8U04). They have not yet examined Earth as a system of interacting spheres or traced an element through biogeochemical cycling.",
-    "progression_endpoint": "Students represent the carbon cycle, identify Earth's four spheres and the interactions between them, explain how photosynthesis, respiration and combustion move carbon between spheres, and examine the impact of human activity on the carbon cycle — including greenhouse gas production and carbon sequestration strategies.",
+    "prior_knowledge": "Students can describe Earth's surface changes (AC9S5U02), model how Earth's tilt and revolution produce seasonal change (AC9S6U02), and compare reversible and irreversible changes including combustion (AC9S6U04). They can use food web models to represent matter and energy flow through ecosystems (AC9S7U02) and explain plate tectonics and rock cycle processes (AC9S8U03, AC9S8U04). They have not yet encountered Earth as a system of interacting spheres, or carbon as a substance that cycles through those spheres via identifiable chemical and biological processes.",
+    "progression_endpoint": "Students represent the carbon cycle using diagrams or models and explain how combustion, photosynthesis and respiration each move carbon between Earth's spheres — including how human activity through combustion perturbs the natural cycle.",
     "nodes": [
       {
         "id": 1,
-        "label": "Earth operates as a system of interacting spheres",
-        "progression_checkpoint": "Students can describe Earth's four spheres (geosphere, biosphere, hydrosphere, atmosphere) and give examples of interactions between them.",
-        "minimum_width": "Students name and describe Earth's four spheres and give at least one example of an interaction between two different spheres.",
-        "typical_width": "Students describe the four spheres and give multiple examples of interactions — volcanic eruption releasing CO₂ (geosphere → atmosphere), evaporation (hydrosphere → atmosphere), plants taking up water from soil (biosphere ↔ geosphere/hydrosphere) — and explain the carbon cycle as an example of multi-sphere interaction.",
+        "label": "Earth's spheres — geosphere, biosphere, hydrosphere, atmosphere",
+        "progression_checkpoint": "Students can name and describe Earth's four spheres and give examples of matter or processes found in each.",
+        "minimum_width": "Students name all four spheres and give one example of matter or a process in each.",
+        "typical_width": "Students describe the composition and location of each sphere; give multiple examples of matter and processes in each; describe the boundaries between spheres as zones of interaction; explain that Earth functions as a system where spheres influence each other.",
         "wider": [
-          "Conduct a field investigation to evaluate carbon sequestration in a local ecosystem — measuring tree biomass, leaf litter and soil depth to estimate carbon storage",
-          "Examine how First Nations Australians' firestick farming uses fire-mediated chemical reactions to facilitate energy and nutrient transfer between spheres",
-          "Investigate how climate models represent interactions between Earth's spheres — connecting the sphere framework to climate prediction (AC9S10U04)"
+          "Map a familiar phenomenon — a rain event, a bushfire — across all four spheres and identify which sphere interactions are involved",
+          "Investigate First Nations Australians' firestick farming as a practice that deliberately manages interactions between the biosphere and atmosphere"
         ],
         "hinge": true,
-        "hinge_reason": "The four-sphere framework is the organisational model that Node 2 uses to trace carbon movements. Students who cannot identify which sphere stores carbon in a given form cannot follow how photosynthesis, respiration and combustion transfer carbon between named spheres — the cycle representation in Node 2 collapses without this scaffolding.",
+        "hinge_reason": "The four-sphere framework is the structural scaffold the carbon cycle diagram depends on. Students who cannot locate processes (photosynthesis, combustion, respiration) in specific spheres cannot represent carbon movement between spheres in N3–N5, and cannot explain what 'sphere interaction' means when examining each process.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "structured_reasoning",
-            "reason": "Students name the four spheres as a list without understanding them as interacting systems. Making the interaction logic explicit — a process moves something from one sphere to another, and that movement can be traced — is the scaffold for representing the carbon cycle as a dynamic system rather than a static diagram.",
+            "reason": "Students have prior knowledge of individual Earth systems (rock cycle, water cycle, ecosystems) but not the integrating four-sphere framework. Establishing the framework explicitly — with clear examples in each sphere — is the orientation node the rest of the standard builds on.",
             "flags": ["hinge"]
           }
         ],
-        "width_opportunity": false,
-        "width_opportunity_reason": null,
         "success_criteria": [
-          "Names Earth's four spheres and briefly describes each",
-          "Gives at least two examples of interactions between different spheres"
-        ]
+          "Names all four of Earth's spheres and describes what each contains",
+          "Gives at least one example of matter and one process located in each sphere",
+          "Explains that Earth functions as a system where spheres interact"
+        ],
+        "related_standards": ["AC9S8U03", "AC9S8U04", "AC9S7U02"]
       },
       {
         "id": 2,
-        "label": "Photosynthesis, respiration and combustion move carbon between spheres",
-        "progression_checkpoint": "Students can explain the role of photosynthesis, respiration and combustion in moving carbon between spheres, and represent these processes in the carbon cycle.",
-        "minimum_width": "Students explain how each of the three key processes (photosynthesis, respiration, combustion) moves carbon between named spheres, and represent this in a carbon cycle diagram.",
-        "typical_width": "Students represent the complete carbon cycle showing carbon stores and flows; explain how photosynthesis removes CO₂ from the atmosphere into the biosphere; how respiration returns it; how combustion (natural and human-caused) releases stored carbon; and how carbon is stored in the geosphere (fossil fuels, limestone) over geological time.",
+        "label": "Carbon as a substance cycling through Earth's spheres",
+        "progression_checkpoint": "Students can identify where carbon is stored in each of Earth's spheres and explain that carbon moves between these stores.",
+        "minimum_width": "Students identify carbon stores in at least three spheres (e.g. CO₂ in atmosphere, organic matter in biosphere, carbonate rocks in geosphere) and state that carbon moves between stores.",
+        "typical_width": "Students describe carbon stores in all four spheres (atmospheric CO₂, dissolved carbon in oceans, organic carbon in living and dead matter, fossil fuels and carbonate rocks in geosphere); explain that carbon is neither created nor destroyed — it moves between stores; introduce carbon cycle as the map of those movements.",
         "wider": [
-          "Investigate how First Nations Australians' traditional fire regimes affect carbon cycling differently from European-style bushfire management — examining the greenhouse gas emission implications",
-          "Calculate an individual carbon footprint and examine which human activities contribute most to atmospheric CO₂ — connecting abstract cycle to personal action",
-          "Examine carbon capture and storage technologies as human interventions in the carbon cycle — evaluating their effectiveness and limitations"
-        ],
-        "hinge": true,
-        "hinge_reason": "Node 3 requires students to explain how human combustion has altered the natural carbon cycle. Students who cannot accurately represent the natural cycle — including where carbon is stored and how it moves — cannot identify what human activity has changed or explain why increased atmospheric CO₂ amplifies the greenhouse effect.",
-        "response_modes": [
-          {
-            "mode": "structured_reasoning",
-            "reason": "Students commonly know photosynthesis and respiration as opposite processes without seeing them as part of a cycle that moves carbon between spheres. The reasoning chain — carbon is in different forms in different spheres → processes transfer it between spheres → the total amount is conserved but the distribution changes — is the scaffold that makes the carbon cycle genuinely explanatory.",
-            "flags": ["hinge", "width_opportunity"]
-          }
-        ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "The traditional fire regime comparison provides a sophisticated First Nations direction with direct relevance to contemporary climate science. Carbon footprint calculation connects the abstract cycle to personal agency and is directly elaboration-grounded.",
-        "success_criteria": [
-          "Explains how photosynthesis, respiration and combustion each move carbon between named spheres",
-          "Represents the carbon cycle in a diagram showing at least four processes and three carbon stores"
-        ],
-        "related_standards": ["AC9S9H03", "AC9S10U04"]
-      },
-      {
-        "id": 3,
-        "label": "Human activity has altered the carbon cycle and greenhouse effect",
-        "progression_checkpoint": "Students can explain how human activity has altered the natural carbon cycle — increasing atmospheric CO₂ through combustion and land clearing — describe the greenhouse effect, and identify carbon sequestration as a response strategy.",
-        "minimum_width": "Students explain how human combustion of fossil fuels increases atmospheric CO₂, describe the greenhouse effect, and name one carbon sequestration strategy.",
-        "typical_width": "Students explain how burning fossil fuels and land clearing shift the balance of the carbon cycle; describe how increased atmospheric CO₂ amplifies the greenhouse effect; examine the scientific consensus on global warming; identify natural and technological carbon sequestration approaches; and connect to the policy/adoption analysis in AC9S9H03.",
-        "wider": [
-          "Investigate how technological advances in monitoring greenhouse gas emissions have contributed to the reinstatement of traditional fire management practices (AC9S9H02)",
-          "Analyse atmospheric CO₂ data from ice cores and monitoring stations to identify patterns and trends (AC9S9I05)",
-          "Examine how government initiatives like Landcare support adoption of land restoration practices that improve carbon sequestration (AC9S9H03)"
+          "Investigate carbon sequestration in a local ecosystem — what stores exist and how large are they relative to atmospheric CO₂?",
+          "Compare timescales of carbon movement: carbon in a leaf vs carbon in a coal seam — why does geological storage matter for climate?"
         ],
         "hinge": false,
         "hinge_reason": null,
-        "response_modes": [],
         "width_opportunity": false,
         "width_opportunity_reason": null,
-        "success_criteria": [
-          "Explains how human combustion of fossil fuels alters the natural carbon cycle",
-          "Describes the greenhouse effect and explains why increased CO₂ amplifies it",
-          "Names at least one carbon sequestration strategy and explains how it works"
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to understand carbon as a substance with identifiable locations before they can trace its movement in the cycle. The 'stores and flows' framing — familiar from food web energy flow in AC9S7U02 — is the conceptual bridge to carbon cycle representation."
+          }
         ],
-        "related_standards": ["AC9S9H02", "AC9S9H03", "AC9S10U04"]
+        "success_criteria": [
+          "Identifies carbon stores in at least three of Earth's four spheres with examples",
+          "Explains that carbon moves between stores rather than being created or destroyed",
+          "Distinguishes fast-cycling carbon stores (atmosphere, living organisms) from slow stores (fossil fuels, carbonate rock)"
+        ],
+        "related_standards": ["AC9S7U02", "AC9S6U04"]
+      },
+      {
+        "id": 3,
+        "label": "Photosynthesis and respiration — carbon movement through the biosphere",
+        "progression_checkpoint": "Students can explain how photosynthesis and respiration move carbon between the atmosphere and biosphere, and represent these as flows in the carbon cycle.",
+        "minimum_width": "Students state that photosynthesis removes CO₂ from the atmosphere and stores carbon in organic matter, and that respiration releases CO₂ back to the atmosphere.",
+        "typical_width": "Students describe photosynthesis and respiration as complementary processes; explain that photosynthesis moves carbon from atmosphere to biosphere and respiration does the reverse; connect to food web energy flow from AC9S7U02; represent both processes as arrows in a carbon cycle diagram; explain that decomposition is also a form of respiration returning carbon to the atmosphere.",
+        "wider": [
+          "Investigate how carbon moves through a food web — trace a carbon atom from CO₂ through photosynthesis, herbivore, carnivore and decomposer back to atmosphere",
+          "Investigate First Nations Australians' fire management regimes and explain how controlled burning affects the photosynthesis-respiration balance in an ecosystem"
+        ],
+        "hinge": true,
+        "hinge_reason": "Photosynthesis and respiration are the biological processes that dominate carbon cycling between biosphere and atmosphere. Students who cannot represent these as directional flows cannot construct a correct carbon cycle diagram in N5, and cannot explain why deforestation or ecosystem loss accelerates CO₂ accumulation in the atmosphere.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students often know photosynthesis and respiration as chemical equations without locating them as sphere-exchange processes. Reframing both processes as carbon-flow arrows between specific spheres — the representation the descriptor demands — requires an explicit conceptual shift from 'what happens in a cell' to 'how carbon moves between stores'.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains that photosynthesis moves carbon from the atmosphere to the biosphere",
+          "Explains that respiration and decomposition move carbon from the biosphere to the atmosphere",
+          "Represents both processes as directional arrows between spheres in a diagram"
+        ],
+        "related_standards": ["AC9S7U02", "AC9S6U04"]
+      },
+      {
+        "id": 4,
+        "label": "Combustion — carbon release from geosphere to atmosphere",
+        "progression_checkpoint": "Students can explain how combustion of fossil fuels moves carbon from the geosphere to the atmosphere and describe the impact of human activity on this flow.",
+        "minimum_width": "Students explain that combustion of fossil fuels releases carbon stored in the geosphere as CO₂ into the atmosphere.",
+        "typical_width": "Students connect fossil fuel formation to ancient carbon sequestration (geological timescale); explain that combustion rapidly releases carbon that took millions of years to sequester; describe human industrial and transport combustion as the dominant driver; connect to the greenhouse effect elaboration — increased atmospheric CO₂ affects heat retention; calculate or estimate an individual's carbon footprint.",
+        "wider": [
+          "Investigate First Nations Australians' firestick farming as a controlled combustion practice — how does this differ from fossil fuel combustion in terms of carbon cycle impact?",
+          "Model the carbon cycle perturbation: if combustion adds X tonnes of CO₂ to the atmosphere annually, and photosynthesis + ocean absorption removes Y, what happens to the atmospheric store over time?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The human combustion perturbation is elaboration-rich — carbon footprint calculation, firestick farming comparison, greenhouse effect connection, and carbon capture strategies are all explicitly named. These are genuine investigative contexts that build system-level understanding without accelerating to Y10 content.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "The elaborations name multiple combustion contexts — industrial, transport, firestick farming, carbon capture — each of which illuminates a different aspect of the combustion-cycle interaction. Varied contexts build the system-level understanding required for carbon cycle representation.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains that combustion of fossil fuels moves carbon from geosphere to atmosphere",
+          "Describes why this represents a net addition to the atmospheric carbon store (geological timescale of sequestration vs rapid release)",
+          "Connects increased atmospheric CO₂ to the greenhouse effect and its role in heat retention"
+        ],
+        "related_standards": ["AC9S6U04", "AC9S8U03"]
+      },
+      {
+        "id": 5,
+        "label": "Representing the carbon cycle — integrating processes across all spheres",
+        "progression_checkpoint": "Students can construct or annotate a carbon cycle diagram that represents all key processes (photosynthesis, respiration, combustion, decomposition) as flows between Earth's spheres.",
+        "minimum_width": "Students correctly label a carbon cycle diagram showing at least four carbon flows between named spheres.",
+        "typical_width": "Students construct a complete carbon cycle diagram from memory or annotate a template with all major flows; explain the direction and mechanism of each flow; identify where human activity has altered natural flow rates; explain how carbon sequestration (natural or technological) works within the cycle; describe the cycle as a system in approximate balance before industrialisation.",
+        "wider": [
+          "Evaluate a carbon sequestration strategy (reforestation, biochar, ocean fertilisation) using the carbon cycle diagram — which flows does it target and what are the risks?",
+          "Investigate how First Nations Australians' traditional fire management reduces net greenhouse gas emissions — map the mechanism onto the carbon cycle diagram"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the four-sphere framework (N1), carbon stores (N2), photosynthesis and respiration flows (N3), and combustion (N4) into a single representative model. Constructing the diagram is the descriptor's 'represent the carbon cycle' demand — the integration point for all prior nodes."
+          }
+        ],
+        "success_criteria": [
+          "Constructs or correctly annotates a carbon cycle diagram with at least four labelled flows between named spheres",
+          "Identifies which flows are biological, which are geological, and which are human-driven",
+          "Explains how human combustion has altered the balance of the natural carbon cycle"
+        ],
+        "related_standards": ["AC9S7U02", "AC9S6U04"]
       }
     ]
   }

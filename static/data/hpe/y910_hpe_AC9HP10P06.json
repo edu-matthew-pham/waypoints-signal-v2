@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10P06",
+    "title": "Evaluating emotional responses",
+    "description": "evaluate emotional responses in different situations to refine strategies for managing emotions",
+    "strand": "Interacting with others",
+    "mode": "B",
+    "prior_knowledge": "Students can propose strategies to challenge biases and promote inclusion (AC9HP10P05), and have previously analysed factors that influence emotional responses and devised self-management strategies (AC9HP8P06). At Y9-10 the focus shifts from devising strategies to evaluating emotional responses and refining existing strategies based on that evaluation.",
+    "progression_endpoint": "Students evaluate emotional responses in different situations — including extreme or uncontrolled responses — and use that evaluation to refine strategies for managing emotions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Evaluating emotional responses",
+        "progression_checkpoint": "Students can evaluate the consequences of emotional responses — their own and others' — in a range of situations",
+        "minimum_width": "Describe one situation where an emotional response (their own or observed) had a significant impact — evaluate what the response was, why it occurred, and what effect it had",
+        "typical_width": "Reflect on the possible consequences of not recognising emotions in challenging situations including rejection, failure, harassment and violence; evaluate situations where extreme or uncontrolled emotion occurs and its impact on the situation and relationships; analyse how others might be affected by their own emotional responses",
+        "wider": [
+          "Evaluate a case study of conflict escalation — trace the emotional responses at each stage and evaluate where a different response could have changed the outcome",
+          "Analyse emotional responses in online environments (e.g. responding to harassment, rejection or exclusion online) and evaluate whether strategies that work face-to-face transfer effectively",
+          "Evaluate the consequences of emotional responses in physical activity contexts — how does uncontrolled emotion (frustration, aggression) affect team dynamics, fair play and individual performance"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot evaluate emotional responses — what triggered them, what effects they had, what alternative responses were available — cannot refine strategies in Node 2. Strategy refinement requires prior evaluative judgement about what the current response achieved and what it failed to achieve.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe emotional responses without evaluating them — narrating what happened without assessing the consequence chain. The structured reasoning investment is in building the evaluative sequence: what was the emotional response, what triggered it, what was its effect on the situation, on relationships, on the person themselves. This evaluation is prerequisite for the refinement work in Node 2.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies a specific emotional response in a specific situation",
+          "Evaluates the consequence of that response for the situation and for at least one relationship",
+          "Distinguishes between the emotion itself and the behavioural response — recognises both are relevant to evaluation"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Refining emotion management strategies",
+        "progression_checkpoint": "Students can refine strategies for managing emotions based on evaluation of past responses",
+        "minimum_width": "Identify one strategy they have previously used for managing emotions and explain what refinement would improve its effectiveness based on evaluation",
+        "typical_width": "Propose refined strategies for managing emotional responses and resolving conflict across family, school, social and online environments; evaluate which refined strategies are most effective in which contexts and why",
+        "wider": [
+          "Develop and rehearse a refined strategy for a specific high-stakes emotional situation (e.g. receiving criticism, experiencing rejection, witnessing injustice) — evaluate its effectiveness through peer feedback or reflection",
+          "Design an emotion regulation framework for a physical activity or team sport context that addresses the specific emotional challenges of competition, failure and group dynamics",
+          "Evaluate how cultural norms about emotional expression affect which strategies are available and effective — propose adaptations for cross-cultural or diverse community contexts"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Refined emotion management requires a repertoire of strategies across different contexts — what works in a family conflict may not work under competitive pressure or in an online exchange. Building range across situation types is more valuable than perfecting a single strategy. The elaborations explicitly require strategies across family, school, social and online environments.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The physical activity context direction and the cross-cultural norms direction each reveal dimensions of emotion management that are not accessible through general scenario work. Students who engage these wider directions develop strategies that are context-sensitive rather than generic, and they develop awareness that cultural context shapes which strategies are even available to someone.",
+        "success_criteria": [
+          "Identifies a specific refinement to an existing strategy with reasoning for the change",
+          "Refined strategy is applicable to a named situation type — not only described in the abstract",
+          "Evaluates what the refined strategy improves compared to the prior approach"
+        ]
+      }
+    ]
+  }
+}

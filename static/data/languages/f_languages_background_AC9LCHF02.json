@@ -1,0 +1,93 @@
+{
+  "year_level": "F",
+  "subject": "Languages — Background Language Learner",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9LCHF02",
+    "title": "Explore language features",
+    "description": "explore, with support, language features of the target language noticing similarities and differences between the target language and English",
+    "strand": "Understanding — Systems of Language",
+    "mode": "A",
+    "prior_knowledge": "Foundation students bring home-based familiarity with the target language — spoken sounds, phrases and vocabulary — but have not yet formally examined it as a system. They bring developing awareness of English from their school environment. They have not previously been asked to compare the two languages, notice structural features, or describe how languages work.",
+    "progression_endpoint": "Students notice and explore features of the target language — including sounds, writing conventions and basic word patterns — and identify simple similarities and differences between the target language and English with support.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Noticing sounds and pronunciation features",
+        "progression_checkpoint": "Students can notice and imitate distinctive sounds, rhythms and intonation patterns in the target language, and identify ways these differ from English.",
+        "minimum_width": "Imitate at least two sounds or sound patterns from the target language and identify whether they are the same as or different from English sounds.",
+        "typical_width": "Explore and imitate the sound system of the target language — including distinctive vowels, consonants and tonal or rhythmic features; compare with English sound patterns; participate in songs, rhymes and chants that highlight sound features.",
+        "wider": [
+          "Compare animal sounds, counting rhymes or familiar expressions across the target language and English — identify where the sounds are shared, similar or distinctly different",
+          "Explore how intonation changes the meaning of a familiar phrase in the target language — for example, comparing a statement and a question using the same words"
+        ],
+        "hinge": true,
+        "hinge_reason": "Sound awareness is the foundation for all subsequent language comparison. Students who cannot perceive or imitate target language sounds cannot progress to noticing written features, word patterns or structural differences — all of which depend on being able to hear and reproduce the spoken language as a distinct system.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Sound awareness at Foundation level is built through repeated, varied exposure — songs, chants, tongue twisters, call-and-response. A single encounter with a sound pattern is insufficient; the sound must be encountered across multiple contexts and registers before students can reliably identify and imitate it.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Imitates at least two sounds or sound patterns from the target language with reasonable accuracy",
+          "Can identify at least one sound or pattern that is the same as English and one that is different"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Noticing features of the writing system",
+        "progression_checkpoint": "Students can notice that the target language has a writing system with features that may be similar to or different from English, and explore these with support.",
+        "minimum_width": "Identify at least one way the target language writing system is similar to or different from English — for example, shared letters, different characters, direction of writing.",
+        "typical_width": "Explore features of the target language writing system alongside English — noticing shared letters or characters, differences in script or direction, and the relationship between written and spoken forms; participate in tracing, copying or labelling activities with target language text.",
+        "wider": [
+          "Compare a short target language text with an English text — identify structural or visual differences such as spacing, punctuation conventions or script features",
+          "Explore borrowed words or expressions that appear in both languages in written form — notice what stays the same and what changes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Noticing writing system features requires scaffolded comparison — students at Foundation level need prompts to move from 'it looks different' to identifying specific features. Side-by-side text displays, teacher-led discussion and guided observation questions support this move from noticing to describing.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Background learners often have unexamined familiarity with the target language writing system from home exposure. Width investment here — particularly in exploring the relationship between the written and spoken forms they already know — builds metalinguistic awareness that is valuable across both languages.",
+        "success_criteria": [
+          "Can point to or describe at least one feature of the target language writing system that is similar to English",
+          "Can point to or describe at least one feature that is different from English"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Noticing word and sentence patterns",
+        "progression_checkpoint": "Students can notice basic word and sentence patterns in the target language and compare them with English, using simple language to describe what they observe.",
+        "minimum_width": "Identify at least one pattern in how words or sentences are arranged in the target language — for example, word order, greeting structure, or a repeated phrase pattern — and compare it with English.",
+        "typical_width": "Notice and discuss simple patterns in target language words and sentences — greetings, question forms, word order, common word combinations — and compare with equivalent English patterns; use teacher-supported metalanguage (word, sentence, same, different) to describe observations.",
+        "wider": [
+          "Investigate a small set of words in both languages — for example, numbers, colours, family terms — and notice patterns in how they are formed or ordered differently",
+          "Compare a bilingual text (picture book, song, label) and identify matching words or structural patterns across the two languages"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Noticing word and sentence patterns integrates sound awareness (node 1) and writing system observation (node 2) into a broader comparison of how the two languages work as systems. The teaching investment is in making comparisons explicit — inviting students to name what they notice rather than only experience it."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify at least one pattern in target language word or sentence structure when prompted",
+          "Can compare the pattern with English, using simple language to describe the similarity or difference"
+        ]
+      }
+    ]
+  }
+}

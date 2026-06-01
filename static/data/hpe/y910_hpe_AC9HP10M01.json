@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Health and Physical Education",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HP10M01",
+    "title": "Analyse and enhance performance",
+    "description": "analyse, adapt and refine their own and others' movement skills in a range of challenging movement situations to enhance performance",
+    "strand": "Moving our bodies",
+    "mode": "B",
+    "prior_knowledge": "Students can demonstrate and explain how movement concepts can be manipulated to improve movement outcomes (AC9HP8M03). At Y9-10 the focus moves to analysis of performance with feedback — using knowledge of results, digital tools, and constructive peer feedback to refine skills in challenging situations.",
+    "progression_endpoint": "Students analyse, adapt and refine their own and others' movement skills in challenging situations, using feedback mechanisms including digital tools to enhance performance.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Analysing movement performance",
+        "progression_checkpoint": "Students can analyse movement performance — their own and others' — identifying what needs to be refined and why",
+        "minimum_width": "Observe a movement performance (their own or a peer's) and identify at least two specific aspects that affect the outcome — explain why each matters for performance quality",
+        "typical_width": "Use knowledge of results feedback to analyse performance with accuracy and control; analyse performances (e.g. swimming, athletics, cross-country) and propose strategies for refining technique; use digital tools to record and analyse timing of movements in relation to teammates, opposition or external stimuli",
+        "wider": [
+          "Use video analysis tools to compare own performance against a reference model — identify specific timing, positioning or technique differences and explain their effect on outcome",
+          "Analyse performance changes when equipment is varied (e.g. different bat weight, ball type, resistance) — evaluate which equipment adaptations improve performance and why",
+          "Provide constructive performance feedback to a peer using a structured framework (e.g. two specific observations, one improvement focus) — evaluate whether the feedback resulted in a measurable change"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot analyse what specifically needs to change in a performance cannot meaningfully adapt or refine it in Node 2 — adaptation and refinement require a prior analytical judgement about what the current performance is producing and what it needs to produce instead.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly observe performances and describe what they see without analysing why it matters for performance outcome. The structured reasoning investment is in building the analysis chain: what is the specific movement pattern, what effect does it have on the outcome, what would a refined version look like. Digital tools support this — video allows repeated review that verbal observation cannot match.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Identifies at least two specific aspects of a performance that affect the outcome",
+          "Explains why each aspect matters — not just that it is 'good' or 'bad'",
+          "Analysis is specific enough to inform a refinement action — generic ('needs to be faster') is insufficient"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Adapting and refining skills",
+        "progression_checkpoint": "Students can adapt and refine movement skills in response to analysis and feedback across challenging movement situations",
+        "minimum_width": "Make one specific adaptation to a movement skill based on analysis; evaluate whether the adaptation improved the performance outcome",
+        "typical_width": "Adapt and respond to changes in equipment or conditions that increase complexity; provide and act on constructive feedback on group performance of a movement sequence; analyse performances across multiple activity types and refine techniques in response; evaluate effectiveness of adaptations",
+        "wider": [
+          "Refine performance in response to digital feedback across multiple trial repetitions — evaluate which adaptations produced the most significant improvement and why",
+          "Adapt movement skills to a novel activity context (e.g. transfer batting technique to a new sport) and evaluate what transferred effectively and what needed further adaptation",
+          "Lead a peer refinement session — analyse a group member's performance, provide structured feedback, support the refinement attempt, and evaluate the outcome"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Adapting and refining movement skills builds through practice across multiple activity contexts and feedback cycles. A single adaptation attempt is insufficient — students need to develop a repertoire of adaptive responses across different movement challenges, equipment types, and performance contexts. The elaborations explicitly require multiple activity types.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "Digital feedback cycles, novel activity transfer, and peer refinement leadership each add a genuinely different adaptive context. Students who engage the wider tier develop adaptive capability that is not dependent on a single activity type — they can analyse, adapt and refine across unfamiliar movement challenges.",
+        "success_criteria": [
+          "Makes a specific adaptation in response to analysis or feedback",
+          "Evaluates whether the adaptation improved the performance outcome with reference to observable evidence",
+          "Adaptation is connected to the analysis — not a random change"
+        ]
+      }
+    ]
+  }
+}

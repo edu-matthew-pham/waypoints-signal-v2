@@ -8,63 +8,145 @@
     "description": "model the rearrangement of atoms in chemical reactions using a range of representations, including word and simple balanced chemical equations, and use these to demonstrate the law of conservation of mass",
     "strand": "Chemical Sciences",
     "mode": "A",
-    "prior_knowledge": "Students can distinguish physical from chemical changes and identify indicators of chemical change (AC9S8U07). They can classify matter and use element symbols and formulas (AC9S8U06). They have not yet written balanced chemical equations or applied conservation of mass quantitatively.",
-    "progression_endpoint": "Students identify reactants and products in chemical reactions, represent reactions using word equations and simple balanced symbolic equations, explain conservation of mass using atomic rearrangement reasoning, and investigate reactions in closed and open systems.",
+    "prior_knowledge": "Students can compare physical and chemical changes and identify indicators of energy change in chemical reactions (AC9S8U07). They can classify matter as elements, compounds and mixtures and use chemical symbols and formulas (AC9S8U06). They can compare reversible and irreversible changes (AC9S6U04). They have not yet modelled atom rearrangement as the mechanism of chemical change, written balanced symbolic equations, or applied conservation of mass as a quantitative principle to chemical reactions.",
+    "progression_endpoint": "Students model chemical reactions as atom rearrangement using word equations, molecular models and balanced symbolic equations, and use conservation of mass — demonstrated through atom counting — to explain why equations must be balanced.",
     "nodes": [
       {
         "id": 1,
-        "label": "Chemical reactions rearrange atoms — reactants become products",
-        "progression_checkpoint": "Students can identify reactants and products in a chemical reaction, explain that atoms are rearranged (not created or destroyed) during a reaction, and represent reactions using word equations.",
-        "minimum_width": "Students identify reactants and products for at least two reactions and explain atomic rearrangement using models or representations.",
-        "typical_width": "Students identify reactants and products; explain that atoms are rearranged during reaction (same atoms, different arrangements); use molecular models to show rearrangement; write word equations for common reactions; and distinguish reactant/product roles from physical and chemical change indicators.",
+        "label": "Reactants and products — identifying what changes in a chemical reaction",
+        "progression_checkpoint": "Students can identify reactants and products in a chemical reaction and describe the change in terms of new substances being formed.",
+        "minimum_width": "Students correctly identify reactants and products in a named reaction and state that new substances with different properties are formed.",
+        "typical_width": "Students identify reactants and products in multiple reaction types; connect to prior physical vs chemical change knowledge from AC9S8U07 — new substances with different properties are the defining feature; explain that chemical change involves bond breaking and forming; describe observable evidence (colour change, gas production, precipitate, energy change) as indicators of product formation.",
         "wider": [
-          "Investigate why most elements are not found in their elemental state and examine processes used to obtain them — connecting chemical equilibrium concepts to real extraction chemistry",
-          "Examine how green chemistry principles (minimising waste products, reducing energy use, using environmentally friendly processes) will affect environmental impact",
-          "Explore how First Nations Australians use chemical reactions to convert toxic plants into edible food products — examining the chemistry underlying traditional food processing"
-        ],
-        "hinge": true,
-        "hinge_reason": "Node 2 requires students to balance symbolic equations — a process that only makes sense if students understand why the number of each atom type must be conserved. Students who do not firmly hold the atomic rearrangement model will change formulas rather than coefficients to balance equations, fundamentally misapplying the conservation constraint.",
-        "response_modes": [
-          {
-            "mode": "structured_reasoning",
-            "reason": "Students identify reactants and products as labels without understanding why atoms must be conserved — the constraint that makes balancing non-arbitrary. Making the atomic rearrangement logic explicit (same atoms, different bonds → same total of each element on both sides) is the scaffold that transforms balancing from a memorised procedure into a principled application of conservation of mass.",
-            "flags": ["hinge", "width_opportunity"]
-          }
-        ],
-        "width_opportunity": true,
-        "width_opportunity_reason": "First Nations food processing chemistry is a sophisticated and culturally meaningful application of chemical transformation reasoning. Green chemistry provides a genuine contemporary direction connecting chemical knowledge to sustainability.",
-        "success_criteria": [
-          "Identifies reactants and products in at least two named reactions",
-          "Explains that atoms are rearranged in a chemical reaction — neither created nor destroyed"
-        ],
-        "related_standards": ["AC9S8U07"]
-      },
-      {
-        "id": 2,
-        "label": "Balanced equations demonstrate conservation of mass",
-        "progression_checkpoint": "Students can write simple balanced chemical equations, explain that balancing reflects conservation of mass (same number of each atom type on both sides), and investigate conservation of mass in closed and open systems.",
-        "minimum_width": "Students write at least two balanced chemical equations and explain why the equation must be balanced in terms of conservation of mass.",
-        "typical_width": "Students write and balance simple symbolic equations; explain that balancing requires equal atom counts on both sides because atoms are neither created nor destroyed; investigate reactions in closed and open systems and relate mass data to conservation of mass; and compare information conveyed by molecular models vs balanced equations.",
-        "wider": [
-          "Investigate chemical reactions in closed and open systems — explaining why mass appears to change in open systems (gas escapes or enters) while total mass is conserved",
-          "Predict how green chemistry principles — minimising unusable waste products, using efficient processes — reduce the environmental footprint of industrial chemistry",
-          "Examine how balanced equations are used in industry to calculate reactant quantities needed and waste products produced — connecting equation balancing to real industrial chemistry planning"
+          "Investigate why most elements are not found in their elemental state — what does their chemical reactivity tell us about the products formed in natural reactions?",
+          "Examine a combustion reaction in terms of reactants and products — identify all products, including water vapour, not just CO₂"
         ],
         "hinge": false,
         "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students have prior knowledge of chemical change indicators but not the reactant-product framing as a formal input-output model. Establishing this framing — reactants consumed, products formed — is the conceptual orientation for the atom rearrangement model in N2."
+          }
+        ],
+        "success_criteria": [
+          "Identifies reactants and products in a named chemical reaction",
+          "Explains that chemical reactions produce new substances with different properties",
+          "Connects reactant-product change to prior indicators of chemical change (AC9S8U07)"
+        ],
+        "related_standards": ["AC9S8U07", "AC9S8U06"]
+      },
+      {
+        "id": 2,
+        "label": "Atom rearrangement — chemical reactions as atomic-level redistribution",
+        "progression_checkpoint": "Students can model a chemical reaction as the rearrangement of atoms using molecular models or diagrams, showing that atoms are neither created nor destroyed.",
+        "minimum_width": "Students use a molecular model or diagram to represent a simple reaction (e.g. hydrogen + oxygen → water) showing the same atoms before and after.",
+        "typical_width": "Students model multiple reactions using molecular models, structural diagrams, or ball-and-stick representations; count atoms on each side to verify they match; explain that bonds between atoms break and reform to produce new arrangements; explain that the type and number of atoms is unchanged — only their arrangement changes; connect this to why mass is conserved.",
+        "wider": [
+          "Investigate a reaction in a closed system (sealed container) and demonstrate conservation of mass by weighing before and after — relate the result to the atom rearrangement model",
+          "Use molecular modelling software to build reactant and product structures for a named reaction and confirm atom count matches"
+        ],
+        "hinge": true,
+        "hinge_reason": "Atom rearrangement is the mechanistic foundation of the conservation of mass principle and the conceptual basis for why equations must be balanced. Students who understand chemical change only at the observable level — new substance formed — cannot understand why balancing an equation is a meaningful scientific constraint rather than an arbitrary rule.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat balancing equations as a procedural task without understanding why it is required. Making atom rearrangement explicit — same atoms, new arrangement — is the conceptual move that makes conservation of mass a necessary consequence rather than an imposed rule.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Uses a molecular model or diagram to represent a simple reaction showing atoms before and after",
+          "Counts atoms on each side of a representation and confirms they match",
+          "Explains that atoms are rearranged — not created or destroyed — in chemical reactions"
+        ],
+        "related_standards": ["AC9S8U06", "AC9S8U07"]
+      },
+      {
+        "id": 3,
+        "label": "Word equations — naming reactants and products",
+        "progression_checkpoint": "Students can write correct word equations for named chemical reactions, correctly identifying all reactants and products.",
+        "minimum_width": "Students write a correct word equation for two named reactions.",
+        "typical_width": "Students write word equations for combustion, neutralisation, and displacement reactions; include all products (including water in combustion); use correct arrow notation; explain the limitation of word equations — they name substances but do not show quantities or atom counts.",
+        "wider": [
+          "Write word equations for First Nations Australians' chemical processes — e.g. reactions used to convert toxic plants into edible food — and identify reactants and products",
+          "Investigate green chemistry principles — examine a reaction used in industry and write the word equation, identifying any wasteful products and suggesting alternatives"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
         "response_modes": [
           {
             "mode": "consolidation",
-            "reason": "Equation balancing requires systematic trial-and-error with coefficient adjustment — a precision skill that improves with practice. Students commonly change formulas rather than coefficients to balance, fundamentally misunderstanding the constraint. Deliberate practice with varied equation types, with the conservation-of-mass rationale made explicit, is the primary developmental lever."
+            "reason": "Word equations require correct identification of all reactants and all products — a common error is omitting water or CO₂ in combustion. Structured practice with self-correction at the word equation level is the prerequisite for symbolic equation writing in N4."
           }
         ],
+        "success_criteria": [
+          "Writes a correct word equation for at least two named reactions, including all products",
+          "Uses correct arrow notation (reactants → products)",
+          "Explains what word equations show and what they do not (no quantities, no atom counts)"
+        ],
+        "related_standards": ["AC9S8U06"]
+      },
+      {
+        "id": 4,
+        "label": "Balanced symbolic equations — demonstrating conservation of mass",
+        "progression_checkpoint": "Students can write and balance simple symbolic chemical equations and explain why balancing demonstrates the law of conservation of mass.",
+        "minimum_width": "Students correctly balance a simple symbolic equation by adjusting coefficients (not subscripts) and verify by atom counting.",
+        "typical_width": "Students balance symbolic equations for multiple reaction types; explain the rule that subscripts cannot be changed (they define the substance) while coefficients can; verify balance by atom counting on both sides; explain that a balanced equation is a model demonstrating conservation of mass; connect to the atom rearrangement model from N2 — balanced equations show the same atoms before and after.",
+        "wider": [
+          "Write and balance symbolic equations for reactions used to obtain elements from their compounds (e.g. metal extraction) and explain what the balanced equation reveals about mass relationships",
+          "Apply conservation of mass quantitatively — given the mass of one reactant, predict the mass of product formed using the molar ratios in a balanced equation (introductory level)"
+        ],
+        "hinge": true,
+        "hinge_reason": "Balancing symbolic equations is the procedural and conceptual endpoint of the descriptor — it is the representation through which conservation of mass is demonstrated. Students who cannot balance equations cannot demonstrate conservation of mass, and persistent errors (changing subscripts, wrong atom counting) are systematic and require explicit correction before the law can be applied.",
         "width_opportunity": false,
         "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Balancing equations requires procedural precision across two constraints simultaneously: identifying which atoms need balancing, and adjusting only coefficients. Systematic errors — changing subscripts, miscounting polyatomic groups — are common and propagate into all subsequent chemistry work (AC9S10U07).",
+            "flags": ["hinge"]
+          }
+        ],
         "success_criteria": [
-          "Writes at least two balanced chemical equations with correct coefficients",
-          "Explains that balancing reflects conservation of mass — same atoms on both sides",
-          "Explains why mass appears to change in an open system reaction and why total mass is still conserved"
-        ]
+          "Balances a simple symbolic equation by adjusting coefficients (not subscripts)",
+          "Verifies a balanced equation by counting atoms of each element on both sides",
+          "Explains that a balanced equation demonstrates conservation of mass — same atoms, same total mass, on both sides"
+        ],
+        "related_standards": ["AC9S8U06", "AC9S8U07"]
+      },
+      {
+        "id": 5,
+        "label": "Conservation of mass — connecting representation to empirical evidence",
+        "progression_checkpoint": "Students can use balanced equations to explain the law of conservation of mass, and connect this to experimental evidence from reactions in closed and open systems.",
+        "minimum_width": "Students explain why a reaction in a closed system shows no change in total mass, and why an open system may appear to lose or gain mass.",
+        "typical_width": "Students investigate or analyse data from closed system reactions to confirm mass conservation; explain apparent mass changes in open systems (gas escaping or being absorbed from air); use balanced equations to predict mass of products from known reactant masses; evaluate the claim that 'mass is conserved in chemical reactions' against experimental data.",
+        "wider": [
+          "Investigate green chemistry principles — if mass is always conserved, why does green chemistry focus on waste? Reconcile atom economy with conservation of mass",
+          "Examine a reaction where mass appears to change in an open system and explain the discrepancy using conservation of mass — what left or entered the system?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates atom rearrangement (N2), word equations (N3) and balanced symbolic equations (N4) into an empirically grounded account of conservation of mass. Connecting the symbolic model to experimental data — particularly explaining open vs closed system discrepancies — is the descriptor's 'demonstrate the law of conservation of mass' demand."
+          }
+        ],
+        "success_criteria": [
+          "Explains why total mass is conserved in a closed system chemical reaction",
+          "Explains apparent mass changes in open system reactions using conservation of mass",
+          "Uses a balanced equation to connect the symbolic representation to the empirical mass conservation result"
+        ],
+        "related_standards": ["AC9S8U06", "AC9S8U07", "AC9S6U04"]
       }
     ]
   }

@@ -152,12 +152,12 @@
   <title>Check in — Waypoints Signal</title>
 </svelte:head>
 
-<nav class="px-8 py-[14px] flex items-center justify-between border-b border-border">
-  <span class="font-mono text-[12px] font-medium text-[#1a1917]">Waypoints Signal</span>
-  <a href="/student" class="text-[12px] text-muted no-underline hover:text-[#1a1917]">← Back</a>
+<nav class="px-8 py-3.5 flex items-center justify-between border-b border-border">
+  <span class="font-mono text-[12px] font-medium text-bg-dark">Waypoints Signal</span>
+  <a href="/student" class="text-[12px] text-muted no-underline hover:text-bg-dark">← Back</a>
 </nav>
 
-<div class="max-w-[560px] mx-auto px-4 py-6">
+<div class="max-w-140 mx-auto px-4 py-6">
 
   {#if loading}
     <div class="pt-10 text-center text-[14px] text-muted">
@@ -182,7 +182,7 @@
   {:else}
     <!-- Header -->
     <div class="mb-7">
-      <div class="font-mono text-[11px] font-medium tracking-[0.1em] uppercase text-muted mb-1.5">
+      <div class="font-mono text-[11px] font-medium tracking-widest uppercase text-muted mb-1.5">
         Waypoint check-in
       </div>
       <h1 class="text-[20px] font-semibold leading-[1.3] mb-1">{nodeLabel}</h1>
@@ -190,7 +190,7 @@
     </div>
 
     <!-- Criteria -->
-    <div class="font-mono text-[10px] font-medium tracking-[0.1em] uppercase text-muted mb-2.5">
+    <div class="font-mono text-[10px] font-medium tracking-widest uppercase text-muted mb-2.5">
       Success criteria — how confident are you?
     </div>
 
@@ -201,7 +201,7 @@
             Waypoint {group.nodeId} — {group.nodeLabel}{group.hinge ? ' ⚑' : ''}
           </div>
           {#if group.progressionCheckpoint}
-            <div class="text-[12px] text-muted italic leading-[1.5]">
+            <div class="text-[12px] text-muted italic leading-normal">
               {group.progressionCheckpoint}
             </div>
           {/if}
@@ -239,7 +239,7 @@
 
     <!-- Progression endpoint -->
     <div class="bg-surface border border-border rounded-xl p-4 mb-6">
-      <div class="font-mono text-[10px] font-medium tracking-[0.1em] uppercase text-muted mb-1.5">
+      <div class="font-mono text-[10px] font-medium tracking-widest uppercase text-muted mb-1.5">
         Big picture — by the end of this unit
       </div>
       <p class="text-[14px] leading-[1.55] font-medium mb-3 m-0">{progressionEndpoint}</p>
@@ -268,7 +268,7 @@
     <button
       onclick={submit}
       disabled={!allSignalled || submitting}
-      class="w-full py-4 bg-[#1a1917] text-white text-[15px] font-semibold rounded-xl cursor-pointer transition-opacity hover:opacity-85 disabled:opacity-40 disabled:cursor-not-allowed"
+      class="w-full py-4 bg-bg-dark text-white text-[15px] font-semibold rounded-xl cursor-pointer transition-opacity hover:opacity-85 disabled:opacity-40 disabled:cursor-not-allowed"
     >
       {submitting ? 'Submitting…' : 'Submit'}
     </button>

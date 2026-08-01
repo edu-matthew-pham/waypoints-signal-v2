@@ -2,6 +2,7 @@
   import { onMount } from 'svelte'
   import { db } from '$lib/supabase'
   import GenerateTab from '$lib/components/GenerateTab.svelte'
+  import QuestionSetTab from '$lib/components/QuestionSetTab.svelte'
   import ResultsTab from '$lib/components/ResultsTab.svelte'
 
   let authState: 'loading' | 'gate' | 'sent' | 'app' = $state('loading')
@@ -11,7 +12,13 @@
   let sending = $state(false)
   let userEmail = $state('')
   let userId = $state('')
-  let activeTab: 'generate' | 'results' = $state('generate')
+  let activeTab: 'generate' | 'questions' | 'results' = $state('generate')
+
+  const TABS = [
+    { id: 'generate',  label: 'Check-in' },
+    { id: 'questions', label: 'Question set' },
+    { id: 'results',   label: 'Results' },
+  ] as const
 
   onMount(async () => {
     const { data: { session } } = await db.auth.getSession()
@@ -128,36 +135,31 @@
       <h1 class="text-[22px] font-semibold">Teacher Dashboard</h1>
     </div>
 
-    <!-- Tabs -->
+    <!-- Tabs — named by session type, not by verb: with a third creation
+         surface, Generate/Results stops being a coherent axis. -->
     <div role="tablist" class="flex gap-1 border-b border-border mb-6">
-      <button
-        role="tab"
-        aria-selected={activeTab === 'generate'}
-        aria-controls="panel-generate"
-        onclick={() => activeTab = 'generate'}
-        class="px-4 py-2 text-sm rounded-t-lg border border-transparent border-b-0 transition-all cursor-pointer
-          {activeTab === 'generate'
-            ? 'bg-bg border-border text-bg-dark font-semibold -mb-px'
-            : 'text-muted hover:text-bg-dark bg-transparent'}"
-      >
-        Generate session
-      </button>
-      <button
-        role="tab"
-        aria-selected={activeTab === 'results'}
-        aria-controls="panel-results"
-        onclick={() => activeTab = 'results'}
-        class="px-4 py-2 text-sm rounded-t-lg border border-transparent border-b-0 transition-all cursor-pointer
-          {activeTab === 'results'
-            ? 'bg-bg border-border text-bg-dark font-semibold -mb-px'
-            : 'text-muted hover:text-bg-dark bg-transparent'}"
-      >
-        View results
-      </button>
+      {#each TABS as tab}
+        {@const active = activeTab === tab.id}
+        <button
+          role="tab"
+          aria-selected={active}
+          aria-controls="panel-{tab.id}"
+          onclick={() => activeTab = tab.id}
+          class="px-4 py-2 text-sm rounded-t-lg border border-transparent border-b-0 transition-all cursor-pointer
+            {active
+              ? 'bg-bg border-border text-bg-dark font-semibold -mb-px'
+              : 'text-muted hover:text-bg-dark bg-transparent'}"
+        >
+          {tab.label}
+        </button>
+      {/each}
     </div>
 
     <div id="panel-generate" role="tabpanel" hidden={activeTab !== 'generate'}>
       <GenerateTab {userId} />
+    </div>
+    <div id="panel-questions" role="tabpanel" hidden={activeTab !== 'questions'}>
+      <QuestionSetTab {userId} />
     </div>
     <div id="panel-results" role="tabpanel" hidden={activeTab !== 'results'}>
       <ResultsTab {userId} />

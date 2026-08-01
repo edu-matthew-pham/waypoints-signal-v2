@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte'
   import { db } from '$lib/supabase'
-  import { loadNodeFile } from '$lib/data'
+import { loadNodeFileByCode } from '$lib/data'
 
   let { userId }: { userId: string } = $props()
 
@@ -86,7 +86,7 @@
       let criteriaGroups: ResultsData['criteriaGroups'] = null
       if (session.node_id === 'all' && session.standard) {
         try {
-          const nodeFile = await loadNodeFile(session.standard)
+          const nodeFile = await loadNodeFileByCode(session.standard)
           let idx = 0
           criteriaGroups = []
           for (const n of nodeFile.standard.nodes) {

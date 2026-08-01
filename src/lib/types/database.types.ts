@@ -54,6 +54,7 @@ export type Database = {
           question_idx: number
           session_id: number
           student_id: string
+          sub_idx: number
           updated_at: string
         }
         Insert: {
@@ -63,6 +64,7 @@ export type Database = {
           question_idx: number
           session_id: number
           student_id: string
+          sub_idx?: number
           updated_at?: string
         }
         Update: {
@@ -72,6 +74,7 @@ export type Database = {
           question_idx?: number
           session_id?: number
           student_id?: string
+          sub_idx?: number
           updated_at?: string
         }
         Relationships: [
@@ -240,12 +243,21 @@ export type Database = {
         }[]
       }
       generate_unique_session_code: { Args: never; Returns: string }
+      get_my_answers: {
+        Args: { code: string; student_id: string }
+        Returns: {
+          answer: string
+          question_idx: number
+          sub_idx: number
+        }[]
+      }
       get_session_aggregate: {
         Args: { code: string; idx?: number }
         Returns: {
           counts: Json
           question_idx: number
           responses: number
+          sub_idx: number
           type: string
         }[]
       }
@@ -265,6 +277,7 @@ export type Database = {
           code: string
           question_idx: number
           student_id: string
+          sub_idx?: number
         }
         Returns: undefined
       }

@@ -5,6 +5,7 @@
   import { loadNodeFileByCode, groupCriteria, type CriteriaGroup } from '$lib/data'
   import {
     loadQuestionSet,
+    loadMyAnswers,
     toSlots,
     slotKey,
     getOrCreateStudentId,
@@ -62,17 +63,32 @@
   // ── load ────────────────────────────────────────────────────────────────────
 
   onMount(async () => {
+    // Codes look identical for both session types, so ask for a question set
+    // first and fall back to the node-driven check-in when there isn't one.
+    //
+    // Only "no rows" routes onward. A thrown error is a real failure and must
+    // surface as itself — reporting it as "session code not found" sends the
+    // student to re-check a code that was correct, and cost an afternoon of
+    // diagnosis when the module simply hadn't loaded.
+    let questions
     try {
-      const questions = await loadQuestionSet(sessionCode)
-      if (questions) {
-        slots = toSlots(questions)
-        studentId = getOrCreateStudentId()
-        mode = 'questions'
-        return
-      }
+      questions = await loadQuestionSet(sessionCode)
     } catch (e) {
-      console.error(e)
-      // Fall through — a failure here may just mean this is a check-in code.
+      console.error('question set lookup failed', e)
+      error = 'Could not load session — check your connection.'
+      mode = 'error'
+      return
+    }
+
+    if (questions) {
+      slots = toSlots(questions)
+      studentId = getOrCreateStudentId()
+      mode = 'questions'
+      // Restore anything this student already answered. Not blocking: the form
+      // is usable before this returns, and a failure here leaves it blank
+      // rather than broken.
+      answers = await loadMyAnswers(sessionCode, studentId)
+      return
     }
 
     await loadCheckin()

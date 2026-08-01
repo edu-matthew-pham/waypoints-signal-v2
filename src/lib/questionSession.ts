@@ -171,3 +171,33 @@ export async function submitAnswer(
   })
   if (error) throw error
 }
+
+/**
+ * This student's existing answers, keyed for the form.
+ *
+ * Answers survive a reload — the id is in localStorage and re-answering
+ * overwrites — but without this the student sees a blank form and concludes
+ * their work vanished. Returns an empty object on failure rather than throwing:
+ * a student who can't resume should still be able to answer.
+ */
+export async function loadMyAnswers(
+  code: string,
+  studentId: string,
+): Promise<Record<string, string>> {
+  try {
+    const { data, error } = await db.rpc('get_my_answers', {
+      code,
+      student_id: studentId,
+    })
+    if (error) throw error
+
+    const out: Record<string, string> = {}
+    for (const row of data ?? []) {
+      out[slotKey({ questionIdx: row.question_idx, subIdx: row.sub_idx })] = row.answer
+    }
+    return out
+  } catch (e) {
+    console.error('could not restore previous answers', e)
+    return {}
+  }
+}

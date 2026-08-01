@@ -112,14 +112,24 @@
       />
 
     {:else if question.type === 'confidence'}
-      <!-- Criteria are labelled even though the fence lists them directly above.
+      <!-- One stacked bar per criterion, not three tracks. A traffic light is a
+           single scale, not three competing choices, and five criteria as tracks
+           is twenty rows — which no slide fits.
+
+           Labelled even though the fence lists the criteria directly above:
            {{signal:N}} can place this embed on a slide with no list, where bare
-           bars would be meaningless — and on a projector nobody counts down a
-           list to work out which bar is which anyway. -->
+           bars would be meaningless. Prepare hides the fence's own list when an
+           embed is present, so these labels carry the text. -->
       {#each question.criteria ?? [] as criterion, i}
         {@const row = rows.find((r) => r.subIdx === i)
           ?? { questionIdx, subIdx: i, type: 'confidence' as const, responses: 0, counts: {} }}
-        <BarRow label={criterion} bars={confidenceBars(row)} responses={row.responses} dense />
+        <BarRow
+          label={criterion}
+          bars={confidenceBars(row)}
+          responses={row.responses}
+          shape="stacked"
+          dense
+        />
       {/each}
 
     {:else}

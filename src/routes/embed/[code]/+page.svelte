@@ -82,7 +82,7 @@
 <!-- Sized in em throughout so the whole thing scales with whatever font-size the
      frame inherits. Row height, not row count, is the lever when a confidence
      question has five criteria and the slide has no room. -->
-<div class="min-h-screen bg-surface px-[0.9em] py-[0.7em] text-[clamp(11px,2.2vw,15px)] font-sans">
+<div class="min-h-screen bg-surface px-[0.9em] py-[0.7em] text-[clamp(12px,2.8vw,19px)] font-sans">
 
   {#if !ready}
     <div class="text-muted text-[0.75em]">Waiting for responses…</div>

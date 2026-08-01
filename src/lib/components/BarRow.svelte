@@ -51,7 +51,7 @@
            keeps width it does not need. min-w-0 is what lets a flex child
            actually shrink — without it the text forces the row wider. -->
       <span
-        class="min-w-0 basis-[45%] truncate text-right text-muted {dense ? 'text-[0.62em]' : 'text-[11px]'}"
+        class="min-w-0 basis-[45%] truncate {dense ? 'text-[0.78em]' : 'text-[13px]'} text-bg-dark"
         title={label}
       >
         {label}
@@ -67,7 +67,7 @@
         {/each}
       </div>
 
-      <span class="shrink-0 text-right tabular-nums text-muted {dense ? 'text-[0.62em] w-[2.4em]' : 'text-[11px] w-9'}">
+      <span class="shrink-0 text-right tabular-nums text-muted {dense ? 'text-[0.66em] w-[2.6em]' : 'text-[11px] w-9'}">
         {responses === 0 ? '' : `${bars[0]?.pct ?? 0}%`}
       </span>
     </div>
@@ -86,7 +86,7 @@
       {#each bars as bar}
         <div class="flex items-center gap-2">
           <span
-            class="min-w-0 basis-[35%] truncate text-right text-muted {dense ? 'text-[0.62em]' : 'text-[11px]'}"
+            class="min-w-0 basis-[35%] truncate text-right {dense ? 'text-[0.78em]' : 'text-[13px]'} text-bg-dark"
             title={bar.label}
           >
             {bar.label}
@@ -102,7 +102,7 @@
           </div>
 
           <span
-            class="shrink-0 text-right tabular-nums {dense ? 'text-[0.62em] w-[2.4em]' : 'text-[11px] w-9'}
+            class="shrink-0 text-right tabular-nums {dense ? 'text-[0.66em] w-[2.6em]' : 'text-[11px] w-9'}
               {bar.correct ? 'text-green font-semibold' : 'text-muted'}"
           >
             {responses === 0 ? '' : `${bar.pct}%`}

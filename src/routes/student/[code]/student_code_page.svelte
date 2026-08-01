@@ -70,9 +70,9 @@
     // surface as itself — reporting it as "session code not found" sends the
     // student to re-check a code that was correct, and cost an afternoon of
     // diagnosis when the module simply hadn't loaded.
-    let questions
+    let set
     try {
-      questions = await loadQuestionSet(sessionCode)
+      set = await loadQuestionSet(sessionCode)
     } catch (e) {
       console.error('question set lookup failed', e)
       error = 'Could not load session — check your connection.'
@@ -80,8 +80,9 @@
       return
     }
 
-    if (questions) {
-      slots = toSlots(questions)
+    if (set) {
+      sessionTitle = set.title
+      slots = toSlots(set.questions)
       studentId = getOrCreateStudentId()
       mode = 'questions'
       // Restore anything this student already answered. Not blocking: the form

@@ -268,6 +268,7 @@ export type Database = {
           idx: number
           options: Json
           stem: string
+          title: string
           type: string
         }[]
       }

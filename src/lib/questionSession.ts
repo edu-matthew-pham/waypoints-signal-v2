@@ -54,13 +54,18 @@ export const SIGNALS = [
 
 export type Signal = (typeof SIGNALS)[number]['value']
 
+export interface QuestionSet {
+  title: string
+  questions: StudentQuestion[]
+}
+
 /**
  * Fetch a question set, or null when the code belongs to something else.
  *
  * Null rather than an error: the student page tries this first and falls back to
  * the node-driven check-in, so "no rows" is a routing answer, not a failure.
  */
-export async function loadQuestionSet(code: string): Promise<StudentQuestion[] | null> {
+export async function loadQuestionSet(code: string): Promise<QuestionSet | null> {
   const { data, error } = await db.rpc('get_session_questions', { code })
   if (error) throw error
   if (!data || data.length === 0) return null
@@ -71,13 +76,17 @@ export async function loadQuestionSet(code: string): Promise<StudentQuestion[] |
   // by create_question_session, not by anything here. This is the boundary where
   // that guarantee is asserted rather than checked: a malformed question cannot
   // get into the table in the first place.
-  return data.map((q) => ({
-    idx: q.idx,
-    type: q.type as QuestionType,
-    stem: q.stem,
-    options: (q.options as unknown as QuestionOption[] | null) ?? undefined,
-    criteria: (q.criteria as unknown as string[] | null) ?? undefined,
-  }))
+  return {
+    // Repeated on every row by the function; the rows all belong to one session.
+    title: data[0].title ?? '',
+    questions: data.map((q) => ({
+      idx: q.idx,
+      type: q.type as QuestionType,
+      stem: q.stem,
+      options: (q.options as unknown as QuestionOption[] | null) ?? undefined,
+      criteria: (q.criteria as unknown as string[] | null) ?? undefined,
+    })),
+  }
 }
 
 /**

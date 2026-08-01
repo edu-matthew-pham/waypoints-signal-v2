@@ -46,6 +46,118 @@ export type Database = {
           },
         ]
       }
+      question_answers: {
+        Row: {
+          answer: string
+          created_at: string
+          id: number
+          question_idx: number
+          session_id: number
+          student_id: string
+          updated_at: string
+        }
+        Insert: {
+          answer: string
+          created_at?: string
+          id?: never
+          question_idx: number
+          session_id: number
+          student_id: string
+          updated_at?: string
+        }
+        Update: {
+          answer?: string
+          created_at?: string
+          id?: never
+          question_idx?: number
+          session_id?: number
+          student_id?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "question_answers_session_id_fkey"
+            columns: ["session_id"]
+            isOneToOne: false
+            referencedRelation: "question_sessions"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      question_sessions: {
+        Row: {
+          class_label: string | null
+          created_at: string
+          fingerprint: string
+          id: number
+          question_count: number
+          session_code: string
+          title: string
+          user_id: string
+        }
+        Insert: {
+          class_label?: string | null
+          created_at?: string
+          fingerprint: string
+          id?: never
+          question_count: number
+          session_code: string
+          title: string
+          user_id: string
+        }
+        Update: {
+          class_label?: string | null
+          created_at?: string
+          fingerprint?: string
+          id?: never
+          question_count?: number
+          session_code?: string
+          title?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      session_questions: {
+        Row: {
+          correct: string | null
+          criteria: Json | null
+          id: number
+          idx: number
+          options: Json | null
+          session_id: number
+          stem: string
+          type: string
+        }
+        Insert: {
+          correct?: string | null
+          criteria?: Json | null
+          id?: never
+          idx: number
+          options?: Json | null
+          session_id: number
+          stem: string
+          type: string
+        }
+        Update: {
+          correct?: string | null
+          criteria?: Json | null
+          id?: never
+          idx?: number
+          options?: Json | null
+          session_id?: number
+          stem?: string
+          type?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "session_questions_session_id_fkey"
+            columns: ["session_id"]
+            isOneToOne: false
+            referencedRelation: "question_sessions"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       sessions: {
         Row: {
           created_at: string | null
@@ -120,7 +232,42 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      create_question_session: {
+        Args: { class_label?: string; payload: Json }
+        Returns: {
+          code: string
+          fingerprint: string
+        }[]
+      }
+      generate_unique_session_code: { Args: never; Returns: string }
+      get_session_aggregate: {
+        Args: { code: string; idx?: number }
+        Returns: {
+          counts: Json
+          question_idx: number
+          responses: number
+          type: string
+        }[]
+      }
+      get_session_questions: {
+        Args: { code: string }
+        Returns: {
+          criteria: Json
+          idx: number
+          options: Json
+          stem: string
+          type: string
+        }[]
+      }
+      submit_answer: {
+        Args: {
+          answer: string
+          code: string
+          question_idx: number
+          student_id: string
+        }
+        Returns: undefined
+      }
     }
     Enums: {
       [_ in never]: never

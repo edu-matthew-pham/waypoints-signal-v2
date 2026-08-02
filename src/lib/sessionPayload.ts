@@ -169,12 +169,24 @@ export function summarise(payload: SessionPayload): PayloadSummary {
 }
 
 /**
- * The two lines the teacher pastes back into their deck's frontmatter.
+ * The three lines the teacher pastes back into their deck's frontmatter.
  *
- * Both, not just the code. `signal_check` is what lets Prepare notice the deck
- * has moved on since the session was created — without it the drift guard has
- * nothing to compare against and silently stops running.
+ * All three, always. `signal_check` is what lets Prepare notice the deck has
+ * moved on since the session was created — without it the drift guard has
+ * nothing to compare against and silently stops running. `signal_control` is
+ * the capability that lets the presenter drive the session; Prepare's
+ * student-link transform strips that key before the link is shared.
+ *
+ * NO OPTIONAL PARAMETER AND NO DEFAULT. The asymmetry decides it: an unused
+ * token sitting in a deck costs nothing until that deck is shared as-is, which
+ * is an already-accepted risk carrying the notes and the answer key anyway. A
+ * MISSING token fails live, in front of a class, at the moment the teacher
+ * reaches for the range control.
  */
-export function frontmatterBlock(code: string, fingerprint: string): string {
-	return `signal_session: ${code}\nsignal_check: ${fingerprint}`;
+export function frontmatterBlock(
+	code: string,
+	fingerprint: string,
+	controlToken: string
+): string {
+	return `signal_session: ${code}\nsignal_check: ${fingerprint}\nsignal_control: ${controlToken}`;
 }

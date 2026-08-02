@@ -167,11 +167,22 @@ describe('summarise', () => {
 })
 
 describe('frontmatterBlock', () => {
-  // Both lines, always. Without signal_check the drift guard has nothing to
-  // compare against and silently stops running.
-  it('emits the code and the check value', () => {
-    expect(frontmatterBlock('XKQT-4821', 'a1b2c3d4')).toBe(
-      'signal_session: XKQT-4821\nsignal_check: a1b2c3d4'
+  // All three, always. Without signal_check the drift guard has nothing to
+  // compare against and silently stops running; without signal_control the
+  // presenter cannot drive the session, and that fails live in front of a class.
+  it('emits the code, the check value and the control token', () => {
+    expect(frontmatterBlock('XKQT-4821', 'a1b2c3d4', 'ctl-9f2e')).toBe(
+      'signal_session: XKQT-4821\nsignal_check: a1b2c3d4\nsignal_control: ctl-9f2e'
     )
+  })
+
+  // The token is a capability, not identity material, and it must stay outside
+  // anything the fingerprint is computed from — regenerating it must never
+  // orphan answers. signal_check sits one line above it, so pin the order.
+  it('keeps the check value above the control token', () => {
+    const lines = frontmatterBlock('XKQT-4821', 'a1b2c3d4', 'ctl-9f2e').split('\n')
+    expect(lines.map((l) => l.split(':')[0])).toEqual([
+      'signal_session', 'signal_check', 'signal_control',
+    ])
   })
 })

@@ -27,6 +27,7 @@
   let createError = $state('')
   let createdCode = $state('')
   let createdFingerprint = $state('')
+  let createdControlToken = $state('')
 
   let copied = $state<'frontmatter' | 'link' | 'code' | null>(null)
 
@@ -35,7 +36,7 @@
   )
 
   const frontmatter = $derived(
-    createdCode ? frontmatterBlock(createdCode, createdFingerprint) : ''
+    createdCode ? frontmatterBlock(createdCode, createdFingerprint, createdControlToken) : ''
   )
 
   // Re-parse whenever the paste changes, so the preview and the button state
@@ -44,6 +45,7 @@
     const text = raw
     createdCode = ''
     createdFingerprint = ''
+    createdControlToken = ''
     createError = ''
 
     if (!text.trim()) {
@@ -84,6 +86,9 @@
 
       createdCode = row.code
       createdFingerprint = row.fingerprint
+      // Returned once, at creation, and never readable again by this path. A
+      // teacher who loses it drives the session from the dashboard instead.
+      createdControlToken = row.control_token
     } catch (e) {
       createError = 'Could not create the session — try again.'
       console.error(e)
@@ -198,7 +203,9 @@
       </div>
       <pre class="px-3 py-2.5 bg-bg border border-border rounded-lg font-mono text-[11px] text-bg-dark leading-relaxed mb-2 overflow-x-auto">{frontmatter}</pre>
       <p class="text-xs text-muted mb-3 leading-normal">
-        Both lines. The second lets Prepare notice if the deck changes after this session was created.
+        All three lines. The second lets Prepare notice if the deck changes after
+        this session was created. The third lets you control what students see
+        while you present — Prepare strips it out of the student link.
       </p>
 
       <div class="font-mono text-[11px] font-medium tracking-[0.05em] uppercase text-muted mb-1.5">

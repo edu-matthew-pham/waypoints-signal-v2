@@ -90,6 +90,7 @@ export type Database = {
       question_sessions: {
         Row: {
           class_label: string | null
+          control_token: string | null
           created_at: string
           fingerprint: string
           id: number
@@ -100,6 +101,7 @@ export type Database = {
         }
         Insert: {
           class_label?: string | null
+          control_token?: string | null
           created_at?: string
           fingerprint: string
           id?: never
@@ -110,6 +112,7 @@ export type Database = {
         }
         Update: {
           class_label?: string | null
+          control_token?: string | null
           created_at?: string
           fingerprint?: string
           id?: never
@@ -158,6 +161,38 @@ export type Database = {
             isOneToOne: false
             referencedRelation: "question_sessions"
             referencedColumns: ["id"]
+          },
+        ]
+      }
+      session_state: {
+        Row: {
+          code: string
+          range_end: number | null
+          range_start: number | null
+          revealed: Json
+          updated_at: string
+        }
+        Insert: {
+          code: string
+          range_end?: number | null
+          range_start?: number | null
+          revealed?: Json
+          updated_at?: string
+        }
+        Update: {
+          code?: string
+          range_end?: number | null
+          range_start?: number | null
+          revealed?: Json
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "session_state_code_fkey"
+            columns: ["code"]
+            isOneToOne: true
+            referencedRelation: "question_sessions"
+            referencedColumns: ["session_code"]
           },
         ]
       }
@@ -239,6 +274,7 @@ export type Database = {
         Args: { class_label?: string; payload: Json }
         Returns: {
           code: string
+          control_token: string
           fingerprint: string
         }[]
       }
@@ -271,6 +307,16 @@ export type Database = {
           title: string
           type: string
         }[]
+      }
+      set_session_state: {
+        Args: {
+          code: string
+          range_end: number
+          range_start: number
+          revealed?: Json
+          token: string
+        }
+        Returns: undefined
       }
       submit_answer: {
         Args: {

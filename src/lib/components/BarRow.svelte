@@ -67,8 +67,20 @@
         {/each}
       </div>
 
+      <!-- The row's own response count, NOT a percentage.
+           A stacked bar is a distribution and has no single number, so this slot
+           used to render bars[0].pct — the green share — while the bar showed
+           everything. Two students both answering "getting there" gave a full
+           yellow bar labelled 0%, which reads as no responses at all.
+           The bar already carries the green share, proportionally and in colour.
+           The denominator is the one fact it cannot carry, and the base
+           migration is explicit that the count is not decoration: it is what
+           stops a distribution being read as the class verdict.
+           `n=` because MC rows render a percentage in this same position, and a
+           bare number would be read as one. Zero shows rather than blanking, for
+           the same reason the track is always drawn. -->
       <span class="shrink-0 text-right tabular-nums text-muted {dense ? 'text-[0.66em] w-[2.6em]' : 'text-[11px] w-9'}">
-        {responses === 0 ? '' : `${bars[0]?.pct ?? 0}%`}
+        {`n=${responses}`}
       </span>
     </div>
 
